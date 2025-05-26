@@ -65,13 +65,13 @@
   --card-foreground: oklch(0.11 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.11 0 0);
-  --primary: oklch(0.2776 0.0845 13.15);                
+  --primary: oklch(0.4404 0.0325 72.23);                
   --primary-foreground: oklch(1 0 0);    
   --secondary: oklch(0.2893 0.0385 55.56);              
   --secondary-foreground: oklch(1 0 0); 
   --tertiary: oklch(0.7264 0.07 80);               
   --tertiary-foreground: oklch(0.11 0 0);
-  --fancy: oklch(0.4404 0.0325 72.23);                  
+  --fancy: oklch(0.2776 0.0845 13.15);                  
   --fancy-foreground: oklch(1 0 0); 
   --muted: oklch(0.9671 0.0052 314.01);                  
   --muted-foreground: oklch(0.7632 0.0052 314.01);       
@@ -106,13 +106,13 @@
   --card-foreground: oklch(0.98 0.01 100);
   --popover: oklch(0.11 0 0);
   --popover-foreground: oklch(0.98 0.01 100);
-  --primary: oklch(0.3589 0.1293 13.15); 
+  --primary: oklch(0.5178 0.0688 72.23);  
   --primary-foreground: oklch(0.11 0 0);
   --secondary: oklch(0.4158 0.0845 55.56);  
   --secondary-foreground: oklch(0.11 0 0);
   --tertiary: oklch(0.7264 0.07 80);   
   --tertiary-foreground: oklch(0.11 0 0);
-  --fancy: oklch(0.5178 0.0688 72.23); 
+  --fancy: oklch(0.3589 0.1293 13.15); 
   --fancy-foreground: oklch(0.11 0 0);
   --muted: oklch(0.15 0 0);
   --muted-foreground: oklch(0.98 0.01 100);
@@ -181,22 +181,22 @@
   }
 
   h1 {
-    @apply font-[Gloock] font-bold text-4xl text-primary lg:text-6xl;
+    @apply font-[Gloock] font-bold text-4xl lg:text-6xl;
   }
 
   h2 {
-    @apply font-[EncodeSans] font-extrabold text-2xl text-secondary lg:text-3xl;
+    @apply font-[EncodeSans] font-extrabold text-2xl lg:text-3xl;
   }
 
   h3 {
-    @apply font-[Gloock] font-bold text-fancy text-base lg:text-xl ;
+    @apply font-[NotoSans] font-bold text-base tracking-wider lg:text-xl ;
   }
 
   h4 {
-    @apply font-[NotoSans] text-tertiary text-base;
+    @apply font-[Gloock] lg:text-lg text-primary underline text-base;
   }
   h5 {
-    @apply mb-3 font-[EncodeSans] font-bold text-accent text-xs md:text-sm;
+    @apply mb-3 font-[Gloock] uppercase font-bold text-xs md:text-sm;
   }
   p {
     @apply text-pretty leading-relaxed;
