@@ -11,6 +11,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowImportingTsExtensions": true,
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
@@ -18,8 +19,19 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@ui/*": ["src/components/ui/*"],
+      "@lib/*": ["src/lib/*"],
+      "@utils/*": ["src/lib/utils/*"],
+      "@config/*": ["src/lib/config/*"],
+      "@context/*": ["src/context/*"],
+      "@constants/*": ["src/lib/constants/*"],
+      "@interfaces/*": ["src/lib/interfaces/*"],
+      "@types/*": ["src/lib/types/*"],
+      "@hooks/*": ["src/hooks/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
