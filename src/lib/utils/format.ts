@@ -1,4 +1,22 @@
-export const capitalize = (str: string) => {
+/**
+ * Capitalizes a string following standard title case rules.
+ *
+ * This function converts a string to title case with the following rules:
+ * - Converts hyphens and underscores to spaces
+ * - Capitalizes the first letter of each word except for certain articles,
+ *   conjunctions, and prepositions (like "a", "the", "in", etc.)
+ * - Always capitalizes the first and last word of the string
+ * - Removes any empty strings resulting from multiple spaces
+ *
+ * @param {string} str - The input string to be capitalized
+ * @returns {string} The capitalized string, or an empty string if the input is falsy
+ *
+ * @example
+ * capitalize("hello-world") // Returns "Hello World"
+ * @example
+ * capitalize("the_lord_of_the_rings") // Returns "The Lord of the Rings"
+ */
+export const capitalize = (str: string): string => {
   if (!str) return "";
 
   const normalizedStr = str.replace(/-/g, " ").replace(/_/g, " ");
@@ -60,19 +78,6 @@ export const formatDuration = (duration: string): string => {
   return `${weeks} weeks ${days} days`;
 };
 
-export function formatCamelCaseToTitle(camelCase: string): string {
-  // Add space before capital letters and convert to lowercase
-  const withSpaces = camelCase.replace(/([A-Z])/g, " $1").toLowerCase();
-
-  // Capitalize the first letter of each word
-  return withSpaces
-    .split(" ")
-    .map((word) => word.trim())
-    .filter((word) => word.length > 0)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
-
 export function formatNumberToCurrency(
   value: number,
   min?: number,
@@ -89,21 +94,35 @@ export function formatNumberToCurrency(
 /**
  * Converts a kebab-case string to camelCase.
  *
- * @param str - The kebab-case string to convert.
- * @returns The camelCase version of the string.
+ * This function takes a kebab-case formatted string (words separated by hyphens)
+ * and converts it to camelCase (first word lowercase, subsequent words capitalized
+ * with no separators). It also removes any non-alphanumeric characters.
+ *
+ * @param str - The kebab-case string to convert
+ * @returns The converted camelCase string
  *
  * @example
- * formatKebabToCamelCase("code-through-stories") // returns "codeThroughStories"
- * formatKebabToCamelCase("another-example-string") // returns "anotherExampleString"
+ * // Returns "helloWorld"
+ * formatKebabToCamelCase("hello-world")
+ *
+ * @example
+ * // Returns "testCaseExample"
+ * formatKebabToCamelCase("test-case-example")
  */
 export function formatKebabToCamelCase(str: string): string {
   return str
     .split("-")
+
     .map((word, index) => {
       if (index === 0) {
         return word;
       }
-      return word.charAt(0).toUpperCase() + word.slice(1);
+      return (
+        word
+          .replaceAll(/[^a-z0-9]+/g, "")
+          .charAt(0)
+          .toUpperCase() + word.slice(1).replaceAll(/[^a-z0-9]+/g, "")
+      );
     })
     .join("");
 }
