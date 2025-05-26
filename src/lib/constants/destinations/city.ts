@@ -27,7 +27,7 @@ export const cityattractions = [
         description: "One of the world’s greatest art museums.",
       },
       {
-        title: "9/11 Memorial & Museum",
+        title: "Memorial & Museum for 9/11",
         description: "Profoundly moving tribute to the events of 9/11.",
       },
       {
