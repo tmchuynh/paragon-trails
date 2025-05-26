@@ -1,6 +1,7 @@
 export const cityattractions = [
   {
-    city: "New York City, NY",
+    city: "New York City",
+    country: "United States",
     attractions: [
       {
         title: "Statue of Liberty & Ellis Island",
@@ -48,7 +49,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Heraklion, Greece",
+    city: "Heraklion",
+    country: "Greece",
     attractions: [
       {
         title: "Knossos Palace",
@@ -102,7 +104,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Shanghai, China",
+    city: "Shanghai",
+    country: "China",
     attractions: [
       {
         title: "The Bund",
@@ -156,7 +159,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Chengdu, China",
+    city: "Chengdu",
+    country: "China",
     attractions: [
       {
         title: "Chengdu Research Base of Giant Panda Breeding",
@@ -211,7 +215,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Chiang Mai, Thailand",
+    city: "Chiang Mai",
+    country: "Thailand",
     attractions: [
       {
         title: "Old City Temples",
@@ -266,7 +271,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Ho Chi Minh City, Vietnam",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
     attractions: [
       {
         title: "War Remnants Museum",
@@ -321,7 +327,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Da Nang, Vietnam",
+    city: "Da Nang",
+    country: "Vietnam",
     attractions: [
       {
         title: "My Khe Beach",
@@ -374,7 +381,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Nha Trang, Vietnam",
+    city: "Nha Trang",
+    country: "Vietnam",
     attractions: [
       {
         title: "Nha Trang Beach",
@@ -428,7 +436,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Hội An, Vietnam",
+    city: "Hội An",
+    country: "Vietnam",
     attractions: [
       {
         title: "Ancient Town",
@@ -483,7 +492,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Los Angeles, CA",
+    city: "Los Angeles",
+    country: "United States",
     attractions: [
       {
         title: "Hollywood Sign & Griffith Observatory",
@@ -532,7 +542,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Chicago, IL",
+    city: "Chicago",
+    country: "United States",
     attractions: [
       {
         title: "Millennium Park",
@@ -580,7 +591,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "San Francisco, CA",
+    city: "San Francisco",
+    country: "United States",
     attractions: [
       {
         title: "Golden Gate Bridge",
@@ -627,7 +639,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Las Vegas, NV",
+    city: "Las Vegas",
+    country: "United States",
     attractions: [
       {
         title: "The Strip",
@@ -674,7 +687,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Washington, D.C.",
+    city: "Washington",
+    country: "United States",
     attractions: [
       {
         title: "National Mall",
@@ -724,7 +738,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Boston, MA",
+    city: "Boston",
+    country: "United States",
     attractions: [
       {
         title: "Freedom Trail",
@@ -773,7 +788,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Philadelphia, PA",
+    city: "Philadelphia",
+    country: "United States",
     attractions: [
       {
         title: "Independence Hall",
@@ -821,7 +837,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "New Orleans, LA",
+    city: "New Orleans",
+    country: "United States",
     attractions: [
       {
         title: "French Quarter",
@@ -869,7 +886,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Savannah, GA",
+    city: "Savannah",
+    country: "United States",
     attractions: [
       {
         title: "Historic District",
@@ -918,7 +936,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "San Diego, CA",
+    city: "San Diego",
+    country: "United States",
     attractions: [
       {
         title: "Balboa Park",
@@ -972,7 +991,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Honolulu, HI",
+    city: "Honolulu",
+    country: "United States",
     attractions: [
       {
         title: "Waikiki Beach",
@@ -1023,7 +1043,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Seattle, WA",
+    city: "Seattle",
+    country: "United States",
     attractions: [
       {
         title: "Space Needle",
@@ -1076,7 +1097,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Austin, TX",
+    city: "Austin",
+    country: "United States",
     attractions: [
       {
         title: "Texas State Capitol",
@@ -1126,7 +1148,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Tuscany, Italy",
+    city: "Tuscany",
+    country: "Italy",
     attractions: [
       {
         title: "Florence Cathedral (Duomo)",
@@ -1179,7 +1202,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Denpasar, Bali, Indonesia",
+    city: "Denpasar",
+    country: "Indonesia",
     attractions: [
       {
         title: "Sanur Beach",
@@ -1227,7 +1251,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Thessaloniki, Greece",
+    city: "Thessaloniki",
+    country: "Greece",
     attractions: [
       {
         title: "White Tower",
@@ -1282,7 +1307,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Athens, Greece",
+    city: "Athens",
+    country: "Greece",
     attractions: [
       {
         title: "Acropolis",
@@ -1335,7 +1361,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Piraeus, Greece",
+    city: "Piraeus",
+    country: "Greece",
     attractions: [
       {
         title: "Port of Piraeus",
@@ -1388,7 +1415,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Beijing, China",
+    city: "Beijing",
+    country: "China",
     attractions: [
       {
         title: "Forbidden City",
@@ -1441,7 +1469,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Xi'an, China",
+    city: "Xi'an",
+    country: "China",
     attractions: [
       {
         title: "Terracotta Army",
@@ -1494,7 +1523,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Jamaica, Caribbean",
+    city: "Jamaica",
+    country: "Caribbean",
     attractions: [
       {
         title: "Dunn's River Falls",
@@ -1542,7 +1572,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Amalfi Coast, Italy",
+    city: "Amalfi Coast",
+    country: "Italy",
     attractions: [
       {
         title: "Positano",
@@ -1591,7 +1622,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Tokyo, Japan",
+    city: "Tokyo",
+    country: "Japan",
     attractions: [
       {
         title: "Shibuya Crossing",
@@ -1642,7 +1674,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Osaka, Japan",
+    city: "Osaka",
+    country: "Japan",
     attractions: [
       {
         title: "Osaka Castle",
@@ -1695,7 +1728,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Yokohama, Japan",
+    city: "Yokohama",
+    country: "Japan",
     attractions: [
       {
         title: "Minato Mirai 21",
@@ -1749,7 +1783,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Naples, Italy",
+    city: "Naples",
+    country: "Italy",
     attractions: [
       {
         title: "Naples National Archaeological Museum",
@@ -1803,7 +1838,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Bologna, Italy",
+    city: "Bologna",
+    country: "Italy",
     attractions: [
       {
         title: "Piazza Maggiore",
@@ -1857,7 +1893,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Rome, Italy",
+    city: "Rome",
+    country: "Italy",
     attractions: [
       {
         title: "Colosseum",
@@ -1911,7 +1948,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Verona, Italy",
+    city: "Verona",
+    country: "Italy",
     attractions: [
       {
         title: "Verona Arena",
@@ -1962,7 +2000,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Pisa, Italy",
+    city: "Pisa",
+    country: "Italy",
     attractions: [
       {
         title: "Leaning Tower of Pisa",
@@ -2012,7 +2051,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Miami, FL",
+    city: "Miami",
+    country: "United States",
     attractions: [
       {
         title: "South Beach",
@@ -2058,7 +2098,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Hanoi, Vietnam",
+    city: "Hanoi",
+    country: "Vietnam",
     attractions: [
       {
         title: "Hoan Kiem Lake",
@@ -2113,7 +2154,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Thessaloniki, Greece",
+    city: "Thessaloniki",
+    country: "Greece",
     attractions: [
       {
         title: "White Tower",
@@ -2167,7 +2209,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Hoa Lư, Vietnam",
+    city: "Hoa Lư",
+    country: "Vietnam",
     attractions: [
       {
         title: "Hoa Lư Ancient Capital",
@@ -2222,7 +2265,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Copenhagen, Denmark",
+    city: "Copenhagen",
+    country: "Denmark",
     attractions: [
       {
         title: "Tivoli Gardens",
@@ -2277,7 +2321,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Warsaw, Poland",
+    city: "Warsaw",
+    country: "Poland",
     attractions: [
       {
         title: "Old Town Market Square",
@@ -2332,7 +2377,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Prague, Czech Republic",
+    city: "Prague",
+    country: "Czech Republic",
     attractions: [
       {
         title: "Charles Bridge",
@@ -2387,7 +2433,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Berlin, Germany",
+    city: "Berlin",
+    country: "Germany",
     attractions: [
       {
         title: "Brandenburg Gate",
@@ -2441,7 +2488,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Florence, Italy",
+    city: "Florence",
+    country: "Italy",
     attractions: [
       {
         title: "Cathedral of Santa Maria del Fiore (Duomo)",
@@ -2496,7 +2544,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Vienna, Austria",
+    city: "Vienna",
+    country: "Austria",
     attractions: [
       {
         title: "Schönbrunn Palace",
@@ -2551,7 +2600,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Frankfurt am Main, Germany",
+    city: "Frankfurt am Main",
+    country: "Germany",
     attractions: [
       {
         title: "Römerberg",
@@ -2605,7 +2655,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Rotterdam, Netherlands",
+    city: "Rotterdam",
+    country: "Netherlands",
     attractions: [
       {
         title: "Markthal",
@@ -2659,7 +2710,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Paris, France",
+    city: "Paris",
+    country: "France",
     attractions: [
       {
         title: "Eiffel Tower",
@@ -2714,7 +2766,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Dalat, Vietnam",
+    city: "Dalat",
+    country: "Vietnam",
     attractions: [
       {
         title: "Xuan Huong Lake",
@@ -2769,7 +2822,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Bordeaux, France",
+    city: "Bordeaux",
+    country: "France",
     attractions: [
       {
         title: "Place de la Bourse",
@@ -2823,7 +2877,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Nice, France",
+    city: "Nice",
+    country: "France",
     attractions: [
       {
         title: "Promenade des Anglais",
@@ -2877,7 +2932,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Aix-en-Provence, France",
+    city: "Aix-en-Provence",
+    country: "France",
     attractions: [
       {
         title: "Cours Mirabeau",
@@ -2902,7 +2958,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Bangkok, Thailand",
+    city: "Bangkok",
+    country: "Thailand",
     attractions: [
       {
         title: "Grand Palace & Wat Phra Kaew",
@@ -2957,7 +3014,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Amsterdam, Netherlands",
+    city: "Amsterdam",
+    country: "Netherlands",
     attractions: [
       {
         title: "Rijksmuseum",
@@ -3012,7 +3070,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Madrid, Spain",
+    city: "Madrid",
+    country: "Spain",
     attractions: [
       {
         title: "Prado Museum",
@@ -3067,7 +3126,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Barcelona, Spain",
+    city: "Barcelona",
+    country: "Spain",
     attractions: [
       {
         title: "Sagrada Família",
@@ -3122,7 +3182,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Marseille, France",
+    city: "Marseille",
+    country: "France",
     attractions: [
       {
         title: "Old Port (Vieux-Port)",
@@ -3177,7 +3238,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Thua Thien Hue, Vietnam",
+    city: "Thua Thien Hue",
+    country: "Vietnam",
     attractions: [
       {
         title: "Imperial City (Hue Citadel)",
@@ -3231,7 +3293,8 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Budapest, Hungary",
+    city: "Budapest",
+    country: "Hungary",
     attractions: [
       {
         title: "Buda Castle & Castle Hill",
