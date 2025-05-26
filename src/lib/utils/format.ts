@@ -111,28 +111,6 @@ export function formatKebabToCamelCase(str: string): string {
 export function formatToSlug(str: string): string {
   return str
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/[^a-z0-9&+\/@$\(\)]+/g, "-")
     .replace(/^-|-$/g, "");
-}
-
-/**
- * Formats a grade range slug into a human-readable string.
- *
- * @param slug - The slug to format, e.g., "grades-k-2" or "grades-3-5"
- * @returns A formatted string, e.g., "Grades K to 2" or "Grades 3 to 5"
- *
- * @example
- * formatGradeRangeSlug("grades-k-2") // returns "Grades K to 2"
- * formatGradeRangeSlug("grades-3-5") // returns "Grades 3 to 5"
- * formatGradeRangeSlug("invalid-slug") // returns "invalid-slug"
- */
-export function formatGradeRangeSlug(slug: string): string {
-  // Match "grades-k-2" or "grades-3-5" etc.
-  const match = slug.match(/^grades-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)$/);
-  if (!match) return slug;
-  const [_, start, end] = match;
-  // Capitalize K if present, otherwise just use as is
-  const formatPart = (part: string) =>
-    part.length === 1 ? part.toUpperCase() : part;
-  return `Grades ${formatPart(start)}–${formatPart(end)}`;
 }
