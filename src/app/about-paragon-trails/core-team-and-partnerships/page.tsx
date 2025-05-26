@@ -1,15 +1,17 @@
 export default function CoreTeamAndPartnerships() {
   return (
-    <div className="flex flex-col items-center p-4">
-      <div className="mx-auto py-8 max-w-4xl">
-        <h1 className="mb-4 font-bold text-3xl text-center">
-          Core Team and Partnerships
-        </h1>
-
-        <div className="mb-12">
-          <h2 className="mb-2 font-semibold text-2xl text-center">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
+      <div className="mx-auto py-8">
+        <header className="mb-12 text-center">
+          <h1 className="mb-2 font-bold text-4xl">
+            Core Team and Partnerships
+          </h1>
+          <p className="text-gray-600 text-xl italic">
             The people behind the journeys that redefine luxury.
-          </h2>
+          </p>
+        </header>
+
+        <div className="mb-10">
           <p className="mb-4 text-lg">
             At Paragon Trails, our promise of curated, meaningful travel is made
             possible by a deeply experienced, globally connected, and
@@ -25,13 +27,13 @@ export default function CoreTeamAndPartnerships() {
         </div>
 
         {/* Leadership Team Section */}
-        <section className="mb-16">
+        <section className="mb-10">
           <h2 className="mb-2 font-semibold text-2xl">Our Leadership Team</h2>
           <h3 className="mb-6 text-xl italic">
             Decades of Expertise. One Vision.
           </h3>
 
-          <div className="space-y-12">
+          <div className="gap-6 grid lg:grid-cols-2">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-medium text-xl">Isabelle Renard</h3>
               <h4 className="mb-2 text-gray-700">
@@ -107,7 +109,7 @@ export default function CoreTeamAndPartnerships() {
         </section>
 
         {/* Global Partners Section */}
-        <section className="mb-16">
+        <section className="mb-10">
           <h2 className="mb-2 font-semibold text-2xl">Our Global Partners</h2>
           <h3 className="mb-4 text-xl italic">
             We go far because we go together.
@@ -167,7 +169,7 @@ export default function CoreTeamAndPartnerships() {
         </section>
 
         {/* Awards & Recognition Section */}
-        <section className="mb-16">
+        <section className="mb-10">
           <h2 className="mb-4 font-semibold text-2xl">Awards & Recognition</h2>
           <p className="mb-4">
             Our network's credibility is bolstered by over 30 years of
@@ -189,7 +191,7 @@ export default function CoreTeamAndPartnerships() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="bg-gray-50 mb-8 p-8 rounded-lg text-center">
+        <section className="mb-8 p-8 rounded-lg text-center">
           <h2 className="mb-4 font-semibold text-2xl">Join Our Journey</h2>
           <p className="mb-4">
             Whether you are a traveler seeking meaning, a creator of exceptional

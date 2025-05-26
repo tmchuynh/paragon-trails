@@ -1,8 +1,8 @@
 export default function YachtCharters() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-7xl">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
-      <div className="mb-16 text-center">
+      <div className="mb-10 text-center">
         <h1 className="mb-4 font-bold text-4xl">
           Yacht Charters: Explore the Waterways in Unmatched Luxury
         </h1>
@@ -25,7 +25,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Availability Section */}
-      <div className="bg-blue-50 mb-16 p-8 rounded-lg">
+      <div className="mb-10 p-8 rounded-lg">
         <h2 className="mb-4 font-bold text-3xl text-center">
           Immediate Availability & Flexible Booking Options
         </h2>
@@ -51,7 +51,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Charter Packages Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-8 font-bold text-3xl text-center">
           Comprehensive Charter Packages Tailored to Your Needs
         </h2>
@@ -112,7 +112,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Destinations Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-6 font-bold text-3xl text-center">
           Destinations Where Yacht Charters Are Available
         </h2>
@@ -184,7 +184,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Yacht Types Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-6 font-bold text-3xl text-center">
           Yacht Types for Every Occasion
         </h2>
@@ -227,7 +227,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Ideal Uses Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-6 font-bold text-3xl text-center">
           Ideal Uses for Yacht Charters
         </h2>
@@ -271,7 +271,7 @@ export default function YachtCharters() {
       </div>
 
       {/* Booking Process */}
-      <div className="bg-blue-50 mb-16 p-8 rounded-lg">
+      <div className="mb-10 p-8 rounded-lg">
         <h2 className="mb-6 font-bold text-3xl text-center">
           How to Secure Your Yacht Charter
         </h2>

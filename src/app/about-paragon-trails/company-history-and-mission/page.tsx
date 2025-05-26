@@ -1,14 +1,14 @@
 export default function CompanyHistoryAndMission() {
   return (
-    <div className="flex flex-col items-center p-8 min-h-screen">
-      <h1 className="mb-4 font-bold text-4xl text-center">
-        Company History & Mission
-      </h1>
-      <p className="mb-12 max-w-3xl text-center text-xl italic">
-        Luxury redefined, one journey at a time.
-      </p>
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
+      <header className="mb-12 text-center">
+        <h1 className="mb-2 font-bold text-4xl"> Company History & Mission</h1>
+        <p className="text-gray-600 text-xl italic">
+          A Legacy of Elegance in Motion
+        </p>
+      </header>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-4 font-bold text-2xl">Our Story</h2>
         <p className="mb-4 text-lg">
           In 1994, Paragon Trails was founded with a vision far beyond
@@ -29,7 +29,7 @@ export default function CompanyHistoryAndMission() {
         </p>
       </section>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-6 font-bold text-2xl">Timeline of Excellence</h2>
         <div className="space-y-6">
           {[
@@ -94,7 +94,7 @@ export default function CompanyHistoryAndMission() {
         </div>
       </section>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-4 font-bold text-2xl">Our Awards & Recognition</h2>
         <ul className="space-y-2 pl-5 list-disc">
           <li>Condé Nast Gold Circle Award – 2008, 2011, 2017</li>
@@ -111,7 +111,7 @@ export default function CompanyHistoryAndMission() {
         </ul>
       </section>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-4 font-bold text-2xl">Our Mission</h2>
         <p className="mb-4 text-lg">
           At Paragon Trails, our mission is simple yet powerful:
@@ -128,7 +128,7 @@ export default function CompanyHistoryAndMission() {
         </p>
       </section>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-6 font-bold text-2xl">Our Core Commitments</h2>
         <div className="gap-6 grid md:grid-cols-2">
           {[
@@ -161,7 +161,7 @@ export default function CompanyHistoryAndMission() {
         </div>
       </section>
 
-      <section className="mb-16 max-w-4xl">
+      <section className="mb-10">
         <h2 className="mb-4 font-bold text-2xl">Looking Forward</h2>
         <p className="mb-4 text-lg">
           As we step into our fourth decade, Paragon Trails remains anchored by
@@ -179,7 +179,7 @@ export default function CompanyHistoryAndMission() {
         </p>
       </section>
 
-      <div className="my-8 pt-8 border-t w-full max-w-4xl text-center">
+      <div className="my-8 pt-8 border-t w-full text-center">
         <p className="font-bold text-2xl">Paragon Trails.</p>
         <p className="text-lg italic">
           Luxury redefined, one journey at a time.

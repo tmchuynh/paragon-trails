@@ -8,7 +8,7 @@ export default function TourGuides() {
     "name"
   );
   return (
-    <div className="flex flex-col justify-center items-center p-4">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <div className="w-full max-w-6xl">
         {/* Header Section */}
         <div className="mb-12 text-center">

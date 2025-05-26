@@ -1,8 +1,8 @@
 export default function PrivateAviation() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-7xl">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
-      <div className="mb-16 text-center">
+      <div className="mb-10 text-center">
         <h1 className="mb-4 font-bold text-4xl">
           Private Aviation: Travel on Your Own Terms
         </h1>
@@ -20,7 +20,7 @@ export default function PrivateAviation() {
       </div>
 
       {/* Why Fly Private Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-8 font-bold text-3xl text-center">
           Why Fly Private With Us?
         </h2>
@@ -69,7 +69,7 @@ export default function PrivateAviation() {
       </div>
 
       {/* What's Available for Rent Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-4 font-bold text-3xl text-center">
           What's Available for Rent
         </h2>
@@ -165,7 +165,7 @@ export default function PrivateAviation() {
       </div>
 
       {/* Popular Tour Routes Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-8 font-bold text-3xl text-center">
           Popular Tour Routes with Private Flights
         </h2>
@@ -194,7 +194,7 @@ export default function PrivateAviation() {
       </div>
 
       {/* What's Included Section */}
-      <div className="mb-16">
+      <div className="mb-10">
         <h2 className="mb-6 font-bold text-3xl text-center">What's Included</h2>
         <ul className="gap-3 grid mx-auto max-w-3xl list-none">
           <li className="flex items-center">
