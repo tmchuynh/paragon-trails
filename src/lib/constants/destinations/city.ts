@@ -1,6 +1,7 @@
 export const cityattractions = [
   {
     city: "New York City",
+    state: "NY",
     country: "United States",
     attractions: [
       {
@@ -493,6 +494,7 @@ export const cityattractions = [
   },
   {
     city: "Los Angeles",
+    state: "CA",
     country: "United States",
     attractions: [
       {
@@ -543,6 +545,7 @@ export const cityattractions = [
   },
   {
     city: "Chicago",
+    state: "IL",
     country: "United States",
     attractions: [
       {
@@ -592,6 +595,7 @@ export const cityattractions = [
   },
   {
     city: "San Francisco",
+    state: "CA",
     country: "United States",
     attractions: [
       {
@@ -640,6 +644,7 @@ export const cityattractions = [
   },
   {
     city: "Las Vegas",
+    state: "NV",
     country: "United States",
     attractions: [
       {
@@ -688,6 +693,7 @@ export const cityattractions = [
   },
   {
     city: "Washington",
+    state: "DC",
     country: "United States",
     attractions: [
       {
@@ -739,6 +745,7 @@ export const cityattractions = [
   },
   {
     city: "Boston",
+    state: "MA",
     country: "United States",
     attractions: [
       {
@@ -789,6 +796,7 @@ export const cityattractions = [
   },
   {
     city: "Philadelphia",
+    state: "PA",
     country: "United States",
     attractions: [
       {
@@ -838,6 +846,7 @@ export const cityattractions = [
   },
   {
     city: "New Orleans",
+    state: "LA",
     country: "United States",
     attractions: [
       {
@@ -887,6 +896,7 @@ export const cityattractions = [
   },
   {
     city: "Savannah",
+    state: "GA",
     country: "United States",
     attractions: [
       {
@@ -937,6 +947,7 @@ export const cityattractions = [
   },
   {
     city: "San Diego",
+    state: "CA",
     country: "United States",
     attractions: [
       {
@@ -992,6 +1003,7 @@ export const cityattractions = [
   },
   {
     city: "Honolulu",
+    state: "HI",
     country: "United States",
     attractions: [
       {
@@ -1044,6 +1056,7 @@ export const cityattractions = [
   },
   {
     city: "Seattle",
+    state: "WA",
     country: "United States",
     attractions: [
       {
@@ -1098,6 +1111,7 @@ export const cityattractions = [
   },
   {
     city: "Austin",
+    state: "TX",
     country: "United States",
     attractions: [
       {
@@ -2052,6 +2066,7 @@ export const cityattractions = [
   },
   {
     city: "Miami",
+    state: "FL",
     country: "United States",
     attractions: [
       {
