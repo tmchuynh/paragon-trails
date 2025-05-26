@@ -4,6 +4,27 @@ export const navbarItems = [
     href: "/",
   },
   {
+    label: "About Us",
+    dropdown: [
+      {
+        label: "Our Company",
+        href: "/about-paragon-trails",
+      },
+      {
+        label: "Our History & Mission",
+        href: "/about-paragon-trails/company-history-and-mission",
+      },
+      {
+        label: "Our Team & Partnerships",
+        href: "/about-paragon-trails/core-team-and-partnerships",
+      },
+      {
+        label: "Core Pillars",
+        href: "/about-paragon-trails/sustainability-and-community-involvement",
+      },
+    ],
+  },
+  {
     label: "Destinations",
     dropdown: [
       {
@@ -28,26 +49,22 @@ export const navbarItems = [
         href: "/tour-packages",
       },
       {
+        label: "Tour Guides",
+        href: "/tour-packages/tour-guides",
+      },
+      {
         label: "Customize Your Tour",
         href: "/tour-packages/customize-your-tour",
-      },
-      {
-        label: "Group Tours",
-        href: "/tour-packages/group-tours",
-      },
-      {
-        label: "Private Tours",
-        href: "/tour-packages/private-tours",
-      },
-      {
-        label: "Adventure Tours",
-        href: "/tour-packages/adventure-tours",
       },
     ],
   },
   {
     label: "Services",
     dropdown: [
+      {
+        label: "Travel Insurance",
+        href: "/services/travel-insurance",
+      },
       {
         label: "Transportation",
         href: "/services/transportation",
@@ -57,36 +74,20 @@ export const navbarItems = [
         href: "/services/accommodations",
       },
       {
-        label: "Travel Insurance",
-        href: "/services/travel-insurance",
+        label: "Private Aviation",
+        href: "/services/private-aviation",
       },
       {
-        label: "Tour Guides",
-        href: "/services/tour-guides",
+        label: "Yacht Charters",
+        href: "/services/yacht-charters",
+      },
+      {
+        label: "Homestay",
+        href: "/services/homestay",
       },
     ],
   },
-  {
-    label: "About Us",
-    dropdown: [
-      {
-        label: "Our Company",
-        href: "/about-paragon-trials",
-      },
-      {
-        label: "Our Mission",
-        href: "/about-paragon-trials/company-history-and-mission",
-      },
-      {
-        label: "Our Team",
-        href: "/about-paragon-trials/core-team-and-partnerships",
-      },
-      {
-        label: "Community Involvement",
-        href: "/about-paragon-trials/sustainability-and-community-involvement",
-      },
-    ],
-  },
+
   {
     label: "Info",
     dropdown: [
@@ -97,14 +98,6 @@ export const navbarItems = [
       {
         label: "Cancellation & Refund Policy",
         href: "/services/information/cancellation-and-refund-policy",
-      },
-      {
-        label: "Privacy Policy",
-        href: "/services/information/privacy-policy",
-      },
-      {
-        label: "Terms and Conditions",
-        href: "/services/information/terms-and-conditions",
       },
       {
         label: "Travel Safety Information",
