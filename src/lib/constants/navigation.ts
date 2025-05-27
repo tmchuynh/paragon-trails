@@ -62,16 +62,8 @@ export const navbarItems = [
     label: "Services",
     dropdown: [
       {
-        label: "Travel Insurance Policy",
-        href: "/services/travel-insurance",
-      },
-      {
         label: "Rent a Vehicle for Your Trip",
         href: "/services/ground-transportations",
-      },
-      {
-        label: "Accommodations Policy",
-        href: "/services/accommodations",
       },
       {
         label: "Fly Private with Us",
@@ -87,13 +79,20 @@ export const navbarItems = [
       },
     ],
   },
-
   {
     label: "Info",
     dropdown: [
       {
         label: "FAQs",
-        href: "/services/frequently-asked-questions",
+        href: "/services/information/frequently-asked-questions",
+      },
+      {
+        label: "Accommodations Policy",
+        href: "/services/information/accommodations-policy",
+      },
+      {
+        label: "Travel Insurance Policy",
+        href: "/services/information/travel-insurance-policy",
       },
       {
         label: "Cancellation & Refund Policy",
