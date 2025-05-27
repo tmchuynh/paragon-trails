@@ -13,6 +13,29 @@ export function featuredArray(array: any[]) {
   return array.filter((item) => item?.isPopular === true);
 }
 
+/**
+ * Filters an array of objects based on a specified property and value.
+ *
+ * @template T - The type of objects in the array.
+ * @template K - The type of property key.
+ *
+ * @param {T[]} array - The array to filter.
+ * @param {K} property - The property key to filter by.
+ * @param {T[K]} value - The value to match against.
+ * @returns {T[]} A new array containing only the elements where the specified property equals the specified value.
+ *
+ * @example
+ * // Filter courses by difficulty level
+ * const beginnerCourses = filterArrayByProperty(courses, 'difficulty', 'beginner');
+ */
+export function filterArrayByProperty<T, K extends keyof T>(
+  array: T[],
+  property: K,
+  value: T[K]
+): T[] {
+  return array.filter((item) => item[property] === value);
+}
+
 export function sortByLength(
   array: string[],
   ascending: boolean = true
@@ -54,9 +77,9 @@ export function sortByPropertyByLength<T>(
 
 /**
  * Groups and sorts an array of objects based on specified properties.
- * 
+ *
  * @template T - The type of objects in the array.
- * 
+ *
  * @param {T[]} array - The array to be grouped and sorted.
  * @param {keyof T} groupByProperty - The property key to group the array by.
  * @param {keyof T} [sortByPropertyKey] - Optional property key to sort each group by.
@@ -64,9 +87,9 @@ export function sortByPropertyByLength<T>(
  * @param {boolean} [sortByLength=false] - Whether to sort by the length of the property value instead of the value itself.
  * @param {boolean} [groupByLength=false] - Whether to group by the length of the property value instead of the value itself.
  * @param {boolean} [groupAscending=false] - Whether to sort groups in ascending order (true) or descending order (false).
- * 
+ *
  * @returns {T[]} A new array with elements grouped and sorted according to the specified parameters.
- * 
+ *
  * @example
  * // Group courses by difficulty and sort each group by date
  * const sortedCourses = groupAndSortByProperties(
@@ -75,7 +98,7 @@ export function sortByPropertyByLength<T>(
  *   'publishDate', // Sort each group by publishDate
  *   false          // Sort dates in descending order (newest first)
  * );
- * 
+ *
  * @example
  * // Group products by category name length and sort by price
  * const sortedProducts = groupAndSortByProperties(
