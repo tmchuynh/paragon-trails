@@ -2,7 +2,7 @@ import { CityAttractions } from "@/lib/interfaces/services/attractions";
 
 export const cityattractions: CityAttractions[] = [
   {
-    city: "New York City",
+    city: "New York",
     state: "NY",
     region: "NY",
     country: "United States",
@@ -520,5 +520,433 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "City of Glass",
     quote:
       "Cycling through Stanley Park with our local guide and taking a seaplane tour of the stunning coastline gave us unforgettable views. The Indigenous cultural experiences Paragon Trails arranged were enlightening and authentic.",
+  },
+  {
+    city: "Montreal",
+    state: "QC",
+    region: "Quebec",
+    country: "Canada",
+    isPopular: true,
+    subtitle: "City of Festivals",
+    quote:
+      "The private food tour through Old Montreal's cobblestone streets introduced us to flavors we never would have found on our own. Experiencing the Jazz Festival with VIP access was a highlight of our trip.",
+  },
+  {
+    city: "Barcelona",
+    state: "",
+    region: "Catalonia",
+    country: "Spain",
+    isPopular: true,
+    subtitle: "City of Gaudí",
+    quote:
+      "The private tour of Sagrada Familia and Park Güell with an art historian guide was unforgettable. Paragon Trails arranged exclusive access to rooftop views that most tourists never see.",
+  },
+  {
+    city: "Marrakesh",
+    state: "",
+    region: "Marrakech-Safi",
+    country: "Morocco",
+    isPopular: true,
+    subtitle: "Red City of the South",
+    quote:
+      "Strolling through the souks with our local guide felt like stepping into another world. The private dinner in a riad courtyard surrounded by lanterns was the perfect Moroccan experience.",
+  },
+  {
+    city: "Florence",
+    state: "",
+    region: "Tuscany",
+    country: "Italy",
+    isPopular: true,
+    subtitle: "Cradle of the Renaissance",
+    quote:
+      "The private Uffizi Gallery tour with an art historian guide was the highlight of our Italian adventure. Experiencing the sunset from Piazzale Michelangelo with a bottle of Chianti was simply magical.",
+  },
+  {
+    city: "Venice",
+    state: "",
+    region: "Veneto",
+    country: "Italy",
+    isPopular: true,
+    subtitle: "City of Canals",
+    quote:
+      "Gliding through the canals in a private gondola at sunset was a dream come true. Our guide's insider knowledge of Venice's hidden gems made this trip unforgettable.",
+  },
+  {
+    city: "Rome",
+    state: "",
+    region: "Lazio",
+    country: "Italy",
+    isPopular: true,
+    subtitle: "Eternal City",
+    quote:
+      "The private Vatican Museums tour with skip-the-line access was worth every penny. Our guide's deep knowledge of art and history made the Sistine Chapel and St. Peter's Basilica come alive.",
+  },
+  {
+    city: "Mexico City",
+    state: "CDMX",
+    region: "Mexico City",
+    country: "Mexico",
+    isPopular: true,
+    subtitle: "Capital of the Aztec Empire",
+    quote:
+      "Exploring the ancient ruins of Teotihuacan with our guide who shared fascinating stories about the Aztecs was unforgettable. The culinary tour through local markets introduced us to flavors we'll never forget.",
+  },
+  {
+    city: "Fez",
+    state: "",
+    region: "Fès-Meknès",
+    country: "Morocco",
+    subtitle: "Cultural Capital of Morocco",
+    quote:
+      "Wandering through the labyrinthine medina with our local guide felt like stepping back in time. The private cooking class in a traditional riad was the perfect way to immerse ourselves in Moroccan culture.",
+  },
+  {
+    city: "Paris",
+    state: "",
+    region: "Île-de-France",
+    country: "France",
+    isPopular: true,
+    subtitle: "City of Light",
+    quote:
+      "The private Louvre tour with skip-the-line access was a dream come true. Our guide's passion for art and history made every masterpiece come alive. Dining at a Michelin-starred restaurant overlooking the Seine was the perfect Parisian experience.",
+  },
+  {
+    city: "Bangkok",
+    state: "",
+    region: "Central Thailand",
+    country: "Thailand",
+    isPopular: true,
+    subtitle: "City of Angels",
+    quote:
+      "The private longtail boat tour through the floating markets and klongs was an unforgettable experience. Our guide's knowledge of Thai culture and cuisine made this trip truly special.",
+  },
+  {
+    city: "Cairo",
+    state: "",
+    region: "Cairo Governorate",
+    country: "Egypt",
+    isPopular: true,
+    subtitle: "Gateway to the Pyramids",
+    quote:
+      "Standing at the base of the Great Pyramid of Giza with our guide who shared ancient Egyptian history was a surreal experience. The private dinner overlooking the pyramids at sunset was the perfect way to end our day.",
+  },
+  {
+    city: "Prague",
+    state: "",
+    region: "Prague",
+    country: "Czech Republic",
+    isPopular: true,
+    subtitle: "City of a Hundred Spires",
+    quote:
+      "Exploring Prague's medieval streets with our local guide felt like stepping into a fairy tale. The private evening concert in a historic church was the perfect way to experience the city's musical heritage.",
+  },
+  {
+    city: "Buenos Aires",
+    state: "",
+    region: "Buenos Aires",
+    country: "Argentina",
+    isPopular: true,
+    subtitle: "Paris of South America",
+    quote:
+      "The private tango lesson arranged by Paragon Trails was the highlight of our Buenos Aires trip. Dancing in a historic milonga with locals made us feel like we truly experienced Argentine culture.",
+  },
+  {
+    city: "Edinburgh",
+    state: "",
+    region: "Scotland",
+    country: "United Kingdom",
+    isPopular: true,
+    subtitle: "Athens of the North",
+    quote:
+      "The private tour of Edinburgh Castle with our guide who shared stories of Scottish history was unforgettable. Experiencing the Royal Mile's vibrant atmosphere and tasting haggis at a local pub made this trip truly special.",
+  },
+  {
+    city: "Seoul",
+    state: "",
+    region: "Seoul",
+    country: "South Korea",
+    isPopular: true,
+    subtitle: "Soul of Asia",
+    quote:
+      "The private tour of Gyeongbokgung Palace with our guide who shared insights into Korean history was fascinating. Experiencing a traditional tea ceremony and exploring the vibrant street food scene made this trip unforgettable.",
+  },
+  {
+    city: "Stockholm",
+    state: "",
+    region: "Stockholm County",
+    country: "Sweden",
+    isPopular: true,
+    subtitle: "Venice of the North",
+    quote:
+      "Exploring Stockholm's archipelago with our local guide was a highlight of our trip. The private boat tour to hidden islands and enjoying traditional Swedish fika made this experience truly special.",
+  },
+  {
+    city: "Lisbon",
+    state: "",
+    region: "Lisbon District",
+    country: "Portugal",
+    isPopular: true,
+    subtitle: "City of Seven Hills",
+    quote:
+      "The private tram tour through Lisbon's historic neighborhoods with our guide who shared stories of the city's maritime past was unforgettable. Enjoying pastel de nata at a local bakery while overlooking the Tagus River was the perfect way to experience Portuguese culture.",
+  },
+  {
+    city: "Kyoto",
+    state: "",
+    region: "Kyoto Prefecture",
+    country: "Japan",
+    isPopular: true,
+    subtitle: "City of Ten Thousand Shrines",
+    quote:
+      "The private tour of Kinkaku-ji (Golden Pavilion) and Fushimi Inari Shrine with our guide who shared insights into Japanese spirituality was a highlight of our Kyoto experience. Participating in a traditional kaiseki meal was the perfect way to immerse ourselves in Japanese culture.",
+  },
+  {
+    city: "Munich",
+    state: "",
+    region: "Bavaria",
+    country: "Germany",
+    isPopular: true,
+    subtitle: "Heart of Bavaria",
+    quote:
+      "The private tour of Neuschwanstein Castle with our guide who shared stories of King Ludwig II was a fairy tale come to life. Experiencing Oktoberfest with VIP access to a traditional beer hall was the highlight of our Munich adventure.",
+  },
+  {
+    city: "Istanbul",
+    state: "",
+    region: "Marmara Region",
+    country: "Turkey",
+    isPopular: true,
+    subtitle: "City of Two Continents",
+    quote:
+      "Exploring the Grand Bazaar and Hagia Sophia with our local guide who shared stories of Istanbul's rich history was unforgettable. The private Bosphorus cruise at sunset, complete with a traditional Turkish dinner, was the perfect way to experience this vibrant city.",
+  },
+  {
+    city: "Mumbai",
+    state: "",
+    region: "Maharashtra",
+    country: "India",
+    isPopular: true,
+    subtitle: "City of Dreams",
+    quote:
+      "The private tour of the Elephanta Caves with our guide who shared insights into ancient Indian art was a highlight of our Mumbai experience. Exploring the vibrant street food scene and visiting local markets made this trip truly special.",
+  },
+  {
+    city: "Udaipur",
+    state: "Rajasthan",
+    region: "Rajasthan",
+    country: "India",
+    subtitle: "City of Lakes",
+    quote:
+      "The private boat tour of Lake Pichola at sunset, with views of the City Palace and Jag Mandir, was a magical experience. Our guide's knowledge of Udaipur's royal history made this trip unforgettable.",
+  },
+  {
+    city: "Fort Kochi",
+    state: "Kerala",
+    region: "Kerala",
+    country: "India",
+    subtitle: "Gateway to the Backwaters",
+    quote:
+      "Exploring the historic streets of Fort Kochi with our local guide who shared stories of its colonial past was fascinating. The private houseboat cruise through Kerala's backwaters, complete with a traditional Keralan meal, was the highlight of our trip.",
+  },
+  {
+    city: "Coorg",
+    state: "Karnataka",
+    region: "Karnataka",
+    country: "India",
+    subtitle: "Scotland of India",
+    quote:
+      "The private coffee plantation tour with our guide who shared insights into Coorg's coffee culture was a highlight of our trip. Exploring the lush hills and enjoying a traditional Coorgi meal made this experience truly special.",
+  },
+  {
+    city: "Jaipur",
+    state: "Rajasthan",
+    region: "Rajasthan",
+    country: "India",
+    subtitle: "Pink City",
+    quote:
+      "The private tour of Amber Fort with our guide who shared stories of Rajasthan's royal history was unforgettable. Experiencing a traditional Rajasthani dinner in a heritage haveli while watching folk performances was the perfect way to immerse ourselves in local culture.",
+  },
+  {
+    city: "Leh",
+    state: "Ladakh",
+    region: "Ladakh",
+    country: "India",
+    subtitle: "Land of High Passes",
+    quote:
+      "The private tour of Pangong Lake with our guide who shared insights into Ladakh's unique culture was a highlight of our trip. Exploring ancient monasteries and experiencing the breathtaking landscapes made this journey truly unforgettable.",
+  },
+  {
+    city: "Takayama",
+    state: "Gifu",
+    region: "Gifu Prefecture",
+    country: "Japan",
+    subtitle: "Little Kyoto of the Mountains",
+    quote:
+      "The private tour of Takayama's morning markets and traditional wooden houses with our guide who shared stories of the region's history was a highlight of our Japan experience. Participating in a sake tasting at a local brewery made this trip truly special.",
+  },
+  {
+    city: "Shirakawa-go",
+    state: "",
+    region: "Gifu Prefecture",
+    country: "Japan",
+    subtitle: "Historic Village in the Mountains",
+    quote:
+      "The private tour of Shirakawa-go's gassho-zukuri farmhouses with our guide who shared insights into traditional Japanese architecture was unforgettable. Experiencing the winter illumination festival in this UNESCO World Heritage site was a magical experience.",
+  },
+  {
+    city: "Matera",
+    state: "Basilicata",
+    region: "Basilicata",
+    country: "Italy",
+    subtitle: "City of Stones",
+    quote:
+      "Exploring the ancient cave dwellings of Matera with our guide who shared stories of its rich history was a highlight of our Italian adventure. The private dinner in a cave restaurant, surrounded by candlelight, was the perfect way to experience this unique city.",
+  },
+  {
+    city: "Sapa",
+    state: "",
+    region: "Lao Cai Province",
+    country: "Vietnam",
+    subtitle: "Mountainous Rice Terraces",
+    quote:
+      "Trekking through the stunning rice terraces of Sapa with our local guide who shared insights into the lives of the hill tribes was an unforgettable experience. The homestay with a local family allowed us to immerse ourselves in their culture and traditions.",
+  },
+  {
+    city: "Mekong Delta",
+    state: "",
+    region: "Southern Vietnam",
+    country: "Vietnam",
+    subtitle: "River Life and Floating Markets",
+    quote:
+      "Exploring the Mekong Delta's floating markets and lush landscapes with our guide who shared stories of local life was a highlight of our Vietnam trip. The private boat tour through the canals and visiting traditional villages gave us a unique perspective on this vibrant region.",
+  },
+  {
+    city: "Marrakech & Fes",
+    state: "",
+    region: "Marrakech-Safi & Fès-Meknès",
+    country: "Morocco",
+    isPopular: true,
+    subtitle: "Imperial Cities of Morocco",
+    quote:
+      "Exploring the vibrant souks of Marrakech and the historic medina of Fes with our local guides who shared stories of Morocco's rich history was unforgettable. The private desert camp experience in the Sahara, complete with camel rides and stargazing, was the highlight of our Moroccan adventure.",
+  },
+  {
+    city: "Chefchaouen",
+    state: "",
+    region: "Tanger-Tétouan-Al Hoceima",
+    country: "Morocco",
+    subtitle: "Blue Pearl of the Rif Mountains",
+    quote:
+      "Wandering through the blue-washed streets of Chefchaouen with our local guide who shared stories of its unique history was a highlight of our Moroccan journey. The private hike in the Rif Mountains, surrounded by stunning landscapes, made this experience truly special.",
+  },
+  {
+    city: "Atlas Mountains",
+    state: "",
+    region: "Drâa-Tafilalet",
+    country: "Morocco",
+    subtitle: "Majestic Mountain Range",
+    quote:
+      "Trekking through the Atlas Mountains with our local guide who shared insights into Berber culture was an unforgettable experience. The private stay in a traditional kasbah, complete with stunning mountain views, made this trip truly special.",
+  },
+  {
+    city: "Sacred Valley & Cusco",
+    state: "",
+    region: "Cusco Region",
+    country: "Peru",
+    isPopular: true,
+    subtitle: "Heart of the Inca Empire",
+    quote:
+      "Exploring the Sacred Valley's ancient ruins and vibrant markets with our guide who shared stories of the Inca civilization was a highlight of our Peru adventure. The private tour of Machu Picchu at sunrise, with breathtaking views and fewer crowds, was a once-in-a-lifetime experience.",
+  },
+  {
+    city: "Lake Titicaca",
+    state: "",
+    region: "Puno Region",
+    country: "Peru",
+    subtitle: "Highest Navigable Lake in the World",
+    quote:
+      "The private boat tour of Lake Titicaca, visiting the floating Uros Islands and Taquile Island with our guide who shared insights into local traditions, was a highlight of our Peru trip. Experiencing the unique culture and stunning landscapes made this journey truly unforgettable.",
+  },
+  {
+    city: "Bandipur",
+    state: "",
+    region: "Gandaki Province",
+    country: "Nepal",
+    subtitle: "Hilltop Heritage Village",
+    quote:
+      "Exploring the charming streets of Bandipur with our local guide who shared stories of its rich history was a highlight of our Nepal adventure. The panoramic views of the Himalayas and the opportunity to experience traditional Newari culture made this trip truly special.",
+  },
+  {
+    city: "Bhaktapur",
+    state: "",
+    region: "Bagmati Province",
+    country: "Nepal",
+    subtitle: "City of Devotees",
+    quote:
+      "Wandering through the ancient squares and temples of Bhaktapur with our local guide who shared insights into its rich cultural heritage was a highlight of our Nepal trip. The private pottery workshop and traditional Newari meal made this experience truly special.",
+  },
+  {
+    city: "Panauti",
+    state: "",
+    region: "Bagmati Province",
+    country: "Nepal",
+    subtitle: "Ancient Newari Town",
+    quote:
+      "Exploring the historic streets of Panauti with our local guide who shared stories of its ancient temples and traditions was a highlight of our Nepal adventure. The private homestay with a Newari family allowed us to immerse ourselves in their culture and enjoy traditional cuisine.",
+  },
+  {
+    city: "Svaneti Region",
+    state: "",
+    region: "Samegrelo-Zemo Svaneti",
+    country: "Georgia",
+    subtitle: "Land of the Towers",
+    quote:
+      "Trekking through the stunning landscapes of Svaneti with our local guide who shared stories of its unique culture and history was a highlight of our Georgia adventure. The private stay in a traditional Svan tower, surrounded by breathtaking mountain views, made this trip truly unforgettable.",
+  },
+  {
+    city: "Ayutthaya",
+    state: "",
+    region: "Central Thailand",
+    country: "Thailand",
+    subtitle: "Ancient Capital of Siam",
+    quote:
+      "Exploring the ancient ruins of Ayutthaya with our local guide who shared stories of its rich history was a highlight of our Thailand adventure. The private boat tour around the island city, visiting hidden temples and enjoying local cuisine, made this experience truly special.",
+  },
+  {
+    city: "Naxos & Crete",
+    state: "",
+    region: "Cyclades & Crete",
+    country: "Greece",
+    isPopular: true,
+    subtitle: "Islands of Myth and History",
+    quote:
+      "Exploring the ancient ruins of Naxos and the vibrant culture of Crete with our local guides who shared stories of Greek mythology and history was a highlight of our Greek adventure. The private beach picnic on secluded shores and traditional Cretan feast made this trip truly unforgettable.",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    state: "",
+    region: "Manyara Region",
+    country: "Tanzania",
+    subtitle: "Gateway to the Great Rift Valley",
+    quote:
+      "Experiencing the vibrant culture of Mto wa Mbu Village with our local guide who shared stories of its diverse communities was a highlight of our Tanzania adventure. The private cooking class with a local family and exploring the nearby Lake Manyara National Park made this trip truly special.",
+  },
+  {
+    city: "Mostar",
+    state: "",
+    region: "Federation of Bosnia and Herzegovina",
+    country: "Bosnia and Herzegovina",
+    subtitle: "City of Bridges",
+    quote:
+      "Exploring the historic streets of Mostar with our local guide who shared stories of its rich cultural heritage was a highlight of our Balkan adventure. The private tour of the iconic Stari Most bridge and tasting traditional Bosnian cuisine made this experience truly special.",
+  },
+  {
+    city: "Blagaj",
+    state: "",
+    region: "Federation of Bosnia and Herzegovina",
+    country: "Bosnia and Herzegovina",
+    subtitle: "Spiritual Oasis by the River",
+    quote:
+      "Visiting the stunning Blagaj Tekke with our local guide who shared stories of its spiritual significance was a highlight of our Bosnia and Herzegovina trip. The private picnic by the Buna River, surrounded by breathtaking scenery, made this experience truly unforgettable.",
   },
 ];
