@@ -3063,6 +3063,412 @@ export const cityattractions = [
     ],
   },
   {
+    city: "Kruger National Park",
+    state: "",
+    region: "Mpumalanga/Limpopo",
+    country: "South Africa",
+    attractions: [
+      {
+        title: "Big Five Safari",
+        description:
+          "Opportunity to see lions, elephants, rhinos, leopards and buffalos in their natural habitat.",
+      },
+      {
+        title: "Sabi Sands Game Reserve",
+        description:
+          "Private reserve adjacent to Kruger known for exceptional leopard sightings and luxury lodges.",
+      },
+      {
+        title: "Blyde River Canyon",
+        description:
+          "One of the largest canyons on Earth with spectacular viewpoints like God's Window and Three Rondavels.",
+      },
+      {
+        title: "Letaba Elephant Museum",
+        description:
+          "Educational center focused on elephant conservation with impressive tusk displays and exhibits.",
+      },
+      {
+        title: "Moholoholo Wildlife Rehabilitation Centre",
+        description:
+          "Rescue center offering close encounters with rehabilitating wildlife and conservation education.",
+      },
+      {
+        title: "Nyalaland Wilderness Trail",
+        description:
+          "Multi-day guided walking safari through remote northern sections of the park.",
+      },
+      {
+        title: "Orpen Gate",
+        description:
+          "Popular entrance with excellent game viewing opportunities in surrounding plains.",
+      },
+      {
+        title: "Satara Rest Camp",
+        description:
+          "Camp situated in an area known for its high concentration of lions and large predators.",
+      },
+      {
+        title: "Olifants River",
+        description:
+          "Scenic river popular for spotting hippos, crocodiles, and diverse birdlife.",
+      },
+      {
+        title: "Tshokwane Picnic Site",
+        description:
+          "Historic rest stop where visitors can enjoy meals while watching passing wildlife.",
+      },
+    ],
+  },
+  {
+    city: "Victoria Falls",
+    state: "",
+    region: "Matabeleland North",
+    country: "Zimbabwe",
+    attractions: [
+      {
+        title: "Victoria Falls (Mosi-oa-Tunya)",
+        description:
+          "One of the world's largest waterfalls, creating spectacular mist visible from miles away.",
+      },
+      {
+        title: "Devil's Pool",
+        description:
+          "Natural infinity pool at the edge of the falls where brave swimmers can peer over the precipice (seasonal).",
+      },
+      {
+        title: "Zambezi River Sunset Cruise",
+        description:
+          "Relaxing boat journey offering wildlife sightings and spectacular sunset views.",
+      },
+      {
+        title: "Victoria Falls Bridge",
+        description:
+          "Historic bridge connecting Zimbabwe and Zambia offering bungee jumping and panoramic views.",
+      },
+      {
+        title: "Flight of Angels",
+        description:
+          "Helicopter tour providing aerial views of the magnificent waterfall and surrounding landscape.",
+      },
+      {
+        title: "Batoka Gorge",
+        description:
+          "Steep river canyon below the falls offering white water rafting and adventure activities.",
+      },
+      {
+        title: "Victoria Falls National Park",
+        description:
+          "Protected area with walking trails and viewpoints showcasing different perspectives of the falls.",
+      },
+      {
+        title: "Elephant Back Safaris",
+        description:
+          "Guided tours through the bush riding atop rescued elephants while learning about conservation.",
+      },
+      {
+        title: "Livingstone Island",
+        description:
+          "Island at the edge of the falls where David Livingstone first viewed the natural wonder.",
+      },
+      {
+        title: "Victoria Falls Crocodile Farm",
+        description:
+          "Conservation center featuring crocodiles, birds, and other indigenous reptiles.",
+      },
+    ],
+  },
+  {
+    city: "Nairobi",
+    state: "",
+    region: "Nairobi County",
+    country: "Kenya",
+    attractions: [
+      {
+        title: "Nairobi National Park",
+        description:
+          "Unique wildlife park with lions, giraffes, and rhinos against a city skyline backdrop.",
+      },
+      {
+        title: "David Sheldrick Wildlife Trust",
+        description:
+          "Elephant orphanage where visitors can watch baby elephants being fed and learn about conservation.",
+      },
+      {
+        title: "Giraffe Centre",
+        description:
+          "Conservation center where visitors can feed and interact with endangered Rothschild's giraffes.",
+      },
+      {
+        title: "Karen Blixen Museum",
+        description:
+          "Former home of the 'Out of Africa' author showcasing colonial-era furnishings and memorabilia.",
+      },
+      {
+        title: "Maasai Market",
+        description:
+          "Vibrant open-air market offering traditional crafts, jewelry, textiles, and souvenirs.",
+      },
+      {
+        title: "Nairobi National Museum",
+        description:
+          "Cultural and natural history museum featuring exhibits on Kenya's heritage, art, and paleontology.",
+      },
+      {
+        title: "Karura Forest",
+        description:
+          "Urban forest reserve with hiking trails, waterfalls, and diverse wildlife within the city.",
+      },
+      {
+        title: "Bomas of Kenya",
+        description:
+          "Cultural center showcasing traditional villages, dances, and music from Kenya's ethnic groups.",
+      },
+      {
+        title: "Railway Museum",
+        description:
+          "Museum highlighting Kenya's railway history with vintage locomotives and memorabilia.",
+      },
+      {
+        title: "Uhuru Gardens",
+        description:
+          "Memorial park marking where Kenya's independence was first celebrated in 1963.",
+      },
+    ],
+  },
+  {
+    city: "Paris",
+    state: "",
+    region: "Île-de-France",
+    country: "France",
+    attractions: [
+      {
+        title: "Eiffel Tower",
+        description:
+          "Iconic iron lattice tower with observation decks offering panoramic views of the city.",
+      },
+      {
+        title: "Louvre Museum",
+        description:
+          "World's largest art museum housing masterpieces like the Mona Lisa and Venus de Milo.",
+      },
+      {
+        title: "Notre-Dame Cathedral",
+        description:
+          "Medieval Catholic cathedral known for its French Gothic architecture and gargoyles.",
+      },
+      {
+        title: "Champs-Élysées & Arc de Triomphe",
+        description:
+          "Famous avenue leading to the triumphal arch honoring those who fought for France.",
+      },
+      {
+        title: "Montmartre & Sacré-Cœur",
+        description:
+          "Artistic hilltop district crowned by the white domed basilica with city views.",
+      },
+      {
+        title: "Musée d'Orsay",
+        description:
+          "Museum housed in a former railway station featuring impressionist and post-impressionist masterpieces.",
+      },
+      {
+        title: "Seine River Cruise",
+        description:
+          "Boat tour providing unique perspectives of riverside landmarks and historic bridges.",
+      },
+      {
+        title: "Centre Pompidou",
+        description:
+          "Modern and contemporary art museum with a distinctive inside-out architectural design.",
+      },
+      {
+        title: "Luxembourg Gardens",
+        description:
+          "Historic park featuring formal gardens, fountains, and the Luxembourg Palace.",
+      },
+      {
+        title: "Sainte-Chapelle",
+        description:
+          "Gothic royal chapel featuring one of the most extensive 13th-century stained glass collections.",
+      },
+    ],
+  },
+  {
+    city: "Saint-Tropez",
+    state: "",
+    region: "Provence-Alpes-Côte d'Azur",
+    country: "France",
+    attractions: [
+      {
+        title: "Pampelonne Beach",
+        description:
+          "Famous beach with crystal clear waters, beach clubs, and celebrity sightings.",
+      },
+      {
+        title: "Port de Saint-Tropez",
+        description:
+          "Glamorous marina lined with luxury yachts, waterfront cafés, and boutiques.",
+      },
+      {
+        title: "Place des Lices",
+        description:
+          "Central square hosting a traditional Provençal market and popular for people-watching.",
+      },
+      {
+        title: "Citadelle de Saint-Tropez",
+        description:
+          "16th-century fortress offering panoramic views and housing the Maritime History Museum.",
+      },
+      {
+        title: "Musée de l'Annonciade",
+        description:
+          "Art museum in a former chapel featuring works by Matisse, Signac, and other pointillist painters.",
+      },
+      {
+        title: "La Ponche",
+        description:
+          "Charming old fishing quarter with narrow streets, historic buildings, and small beach.",
+      },
+      {
+        title: "Sentier du Littoral",
+        description:
+          "Coastal path offering spectacular Mediterranean views and access to secluded coves.",
+      },
+      {
+        title: "Château de la Moutte",
+        description:
+          "Historic estate hosting summer music festivals in its beautiful gardens.",
+      },
+      {
+        title: "Caves du Roy",
+        description:
+          "Legendary nightclub known for attracting international celebrities and jet-setters.",
+      },
+      {
+        title: "Ramatuelle Village",
+        description:
+          "Picturesque hillside village near Saint-Tropez with medieval architecture and stunning views.",
+      },
+    ],
+  },
+  {
+    city: "Abu Dhabi",
+    state: "",
+    region: "Abu Dhabi Emirate",
+    country: "United Arab Emirates",
+    attractions: [
+      {
+        title: "Sheikh Zayed Grand Mosque",
+        description:
+          "Stunning white marble mosque with 82 domes, chandeliers, and the world's largest hand-knotted carpet.",
+      },
+      {
+        title: "Louvre Abu Dhabi",
+        description:
+          "Art museum established in collaboration with the Louvre in Paris, featuring a distinctive domed roof.",
+      },
+      {
+        title: "Yas Island",
+        description:
+          "Entertainment destination with Ferrari World, Warner Bros. World, and Yas Waterworld theme parks.",
+      },
+      {
+        title: "Emirates Palace",
+        description:
+          "Luxurious hotel known for its opulent architecture, gold embellishments, and expansive gardens.",
+      },
+      {
+        title: "Corniche Beach",
+        description:
+          "Beautiful waterfront promenade with pristine beaches, gardens, and recreational facilities.",
+      },
+      {
+        title: "Qasr Al Watan",
+        description:
+          "Presidential palace open to the public featuring stunning Arabian architecture and cultural exhibits.",
+      },
+      {
+        title: "Saadiyat Island",
+        description:
+          "Cultural district home to museums, luxury resorts, and pristine beaches with turtle nesting sites.",
+      },
+      {
+        title: "Heritage Village",
+        description:
+          "Reconstruction of a traditional oasis village showcasing aspects of desert life and Bedouin culture.",
+      },
+      {
+        title: "Qasr Al Hosn",
+        description:
+          "The oldest stone building in Abu Dhabi, now a museum chronicling the city's development.",
+      },
+      {
+        title: "Observation Deck at 300",
+        description:
+          "Viewing platform on the 74th floor of Etihad Towers offering panoramic city views.",
+      },
+    ],
+  },
+  {
+    city: "Muscat",
+    state: "",
+    region: "Muscat Governorate",
+    country: "Oman",
+    attractions: [
+      {
+        title: "Sultan Qaboos Grand Mosque",
+        description:
+          "Spectacular mosque featuring a massive prayer hall, ornate chandeliers, and the world's second-largest hand-woven carpet.",
+      },
+      {
+        title: "Mutrah Souq",
+        description:
+          "Traditional Arab market with winding alleys selling Omani crafts, textiles, spices, and souvenirs.",
+      },
+      {
+        title: "Royal Opera House Muscat",
+        description:
+          "Stunning contemporary Omani architecture hosting world-class musical and cultural performances.",
+      },
+      {
+        title: "Al Jalali and Al Mirani Forts",
+        description:
+          "Twin historic Portuguese forts guarding Muscat Harbor with views of the old city.",
+      },
+      {
+        title: "Bait Al Zubair Museum",
+        description:
+          "Private museum showcasing Omani heritage through artifacts, traditional costumes, and weaponry.",
+      },
+      {
+        title: "Mutrah Corniche",
+        description:
+          "Scenic waterfront promenade lined with white ornamental buildings, mosques, and views of the harbor.",
+      },
+      {
+        title: "National Museum of Oman",
+        description:
+          "Modern museum documenting Oman's cultural heritage and maritime history.",
+      },
+      {
+        title: "Al Alam Palace",
+        description:
+          "Ceremonial palace of Sultan Qaboos with distinctive blue and gold pillars and beautiful gardens.",
+      },
+      {
+        title: "Qurum Beach",
+        description:
+          "Popular sandy beach with calm waters, cafes, and walking paths along the shore.",
+      },
+      {
+        title: "Wadi Shab",
+        description:
+          "Spectacular canyon with emerald pools, waterfalls, and hiking opportunities located near Muscat.",
+      },
+    ],
+  },
+  {
     city: "Reykjavik",
     state: "",
     region: "Capital Region",
