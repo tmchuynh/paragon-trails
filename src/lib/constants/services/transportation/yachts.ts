@@ -202,7 +202,7 @@ export const yachtCharterFleet = [
           "Coastal cruising only",
         ],
         features: {
-          climateControl: "partial",
+          climateControl: true,
           onboardChef: false,
           mediaSuite: false,
           petFriendly: false,
