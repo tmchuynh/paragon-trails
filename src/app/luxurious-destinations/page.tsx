@@ -1,7 +1,6 @@
 "use client";
 
 import { cityattractions } from "@/lib/constants/destinations/city";
-import { formatToSlug } from "@/lib/utils/format";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 
@@ -34,31 +33,25 @@ export default function LuxuriousDestinations() {
           <div
             key={index}
             className="group shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
-            onClick={() =>
-            {
-              if (
-                item.state === item.region ||
-                item.state === "" ||
-                !item.state
-              ) {
-                router.push(
-                  `/luxurious-destinations/${formatToSlug(
-                    item.city
-                  )}/${formatToSlug(item.region as string)}/${formatToSlug(
-                    item.country
-                  )}`
-                );
-              } else {
-                router.push(
-                  `/luxurious-destinations/${formatToSlug(
-                    item.city
-                  )}/${formatToSlug(item.region as string)}/${formatToSlug(
-                    item.country
-                  )}/${item.state}`
-                );
+            onClick={() => {
+              // Use query parameters instead of path parameters
+              const queryParams = new URLSearchParams({
+                city: item.city,
+                country: item.country,
+              });
+
+              if (item.region) {
+                queryParams.append("region", item.region as string);
               }
-            }
-            }
+
+              if (item.state && item.state !== item.region) {
+                queryParams.append("state", item.state);
+              }
+
+              router.push(
+                `/luxurious-destinations/details?${queryParams.toString()}`
+              );
+            }}
           >
             <h2 className="font-semibold text-2xl underline-offset-2 group-hover:underline">
               {item.city}
