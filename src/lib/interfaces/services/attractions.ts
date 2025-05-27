@@ -1,5 +1,6 @@
 export interface CityAttractions {
   subtitle?: string;
+  isPopular?: boolean;
   quote?: string;
   city: string;
   state?: string;
