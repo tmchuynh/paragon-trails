@@ -1,35 +1,29 @@
+import { Button } from "@/components/ui/button";
+
 export default function CancellationAndRefundPolicy() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      <h1 className="mb-4 font-bold text-3xl text-center">
-        Cancellation and Refund Policy
-      </h1>
-
-      <div className="mb-8">
-        <h2 className="mb-2 font-semibold text-2xl text-center">
+      <header>
+        <h1>Cancellation and Refund Policy</h1>
+        <h5>
           Clarity, transparency, and integrity—before your journey even begins.
-        </h2>
-        <p className="mb-4 text-lg">
+        </h5>
+        <p>
           At Paragon Trails, we understand that plans can change. While our
           journeys are highly personalized and often require extensive advance
           coordination, we have structured our cancellation and refund policies
           to balance flexibility with the realities of luxury travel design and
-          third-party commitments.
+          third-party commitments. This policy outlines what you can expect in
+          the event of a cancellation, modification, or refund request.
         </p>
-        <p className="mb-4 text-lg">
-          This policy outlines what you can expect in the event of a
-          cancellation, modification, or refund request.
-        </p>
-      </div>
+      </header>
 
       {/* Standard Cancellation Policy Section */}
-      <section className="mb-10">
+      <section>
         <h2 className="mb-2 font-semibold text-2xl">
           Standard Cancellation Policy
         </h2>
-        <h3 className="mb-6 text-lg italic">
-          Tiered Based on Lead Time and Services Secured
-        </h3>
+        <h4>Tiered Based on Lead Time and Services Secured</h4>
 
         <div className="mb-4 overflow-x-auto">
           <table className="bg-white border border-gray-200 min-w-full">
@@ -80,15 +74,15 @@ export default function CancellationAndRefundPolicy() {
       </section>
 
       {/* Refund Eligibility Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">Refund Eligibility</h2>
-        <p className="mb-4">
+      <section>
+        <h2>Refund Eligibility</h2>
+        <p>
           We strive to process eligible refunds efficiently and transparently.
         </p>
 
         <div className="gap-8 grid md:grid-cols-2">
           <div>
-            <h3 className="mb-3 font-medium text-xl">Eligible for Refund</h3>
+            <h3>Eligible for Refund</h3>
             <ul className="space-y-2 pl-5 list-disc">
               <li>
                 Amounts paid beyond the non-refundable percentage, according to
@@ -102,9 +96,12 @@ export default function CancellationAndRefundPolicy() {
           </div>
 
           <div>
-            <h3 className="mb-3 font-medium text-xl">
-              Not Eligible for Refund
-            </h3>
+            <h3>Not Eligible for Refund</h3>
+            <p className="mb-4">
+              For high-demand periods, properties may enforce stricter or
+              non-refundable policies. These are clearly stated prior to
+              booking.
+            </p>
             <ul className="space-y-2 pl-5 list-disc">
               <li>Non-refundable deposits</li>
               <li>Travel insurance premiums</li>
@@ -115,37 +112,39 @@ export default function CancellationAndRefundPolicy() {
               <li>No-shows or late arrivals for scheduled experiences</li>
             </ul>
           </div>
+
+          <div className="mb-6">
+            <h3 className="mb-2 font-semibold text-2xl">No-Shows</h3>
+            <p className="mb-4">
+              Failure to check in without notice is considered a no-show and is
+              not eligible for refund.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Modifications & Rebooking Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          Modifications & Rebooking
-        </h2>
-        <p className="mb-4">
-          We are happy to assist with rescheduling whenever possible.
-        </p>
+      <section>
+        <h2>Modifications & Rebooking</h2>
+        <p>We are happy to assist with rescheduling whenever possible.</p>
 
         <ul className="space-y-3">
           <li className="flex items-start">
-            <span className="min-w-[150px] font-medium">Date Changes:</span>
+            <strong className="min-w-[200px]">Date Changes:</strong>
             <span>
               Permitted up to 30 days before departure, subject to availability
               and third-party fees
             </span>
           </li>
           <li className="flex items-start">
-            <span className="min-w-[150px] font-medium">
-              Service Substitutions:
-            </span>
+            <strong className="min-w-[200px]">Service Substitutions:</strong>
             <span>
               We will offer equal or better alternatives if any component
               becomes unavailable
             </span>
           </li>
           <li className="flex items-start">
-            <span className="min-w-[150px] font-medium">Credits:</span>
+            <strong className="min-w-[200px]">Credits:</strong>
             <span>
               In select cases, your payment may be applied as a travel credit
               valid for 12 months
@@ -155,11 +154,9 @@ export default function CancellationAndRefundPolicy() {
       </section>
 
       {/* Force Majeure Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          Force Majeure & Exceptional Circumstances
-        </h2>
-        <p className="mb-4">
+      <section>
+        <h2>Force Majeure & Exceptional Circumstances</h2>
+        <p>
           In the case of events beyond your control—including natural disasters,
           pandemics, or travel bans—Paragon Trails will work on your behalf to:
         </p>
@@ -178,11 +175,9 @@ export default function CancellationAndRefundPolicy() {
       </section>
 
       {/* Travel Insurance Section */}
-      <section className="bg-gray-50 mb-10 p-6 rounded-lg">
-        <h2 className="mb-4 font-semibold text-2xl">
-          Travel Insurance Recommendation
-        </h2>
-        <p className="mb-4">
+      <section>
+        <h2>Travel Insurance Recommendation</h2>
+        <p>
           We strongly recommend securing comprehensive travel insurance that
           includes:
         </p>
@@ -201,35 +196,35 @@ export default function CancellationAndRefundPolicy() {
           Paragon Trails does not assume liability for costs not covered by your
           insurance provider.
         </p>
+
+        <Button>Read More About Travel Insurance</Button>
       </section>
 
       {/* Contact & Claims Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">Contact & Claims</h2>
-        <p className="mb-4">
+      <section>
+        <h2>Contact & Claims</h2>
+        <p>
           To initiate a cancellation, refund request, or policy inquiry, please
           contact your dedicated travel designer or reach out via:
         </p>
 
-        <div className="bg-white p-4 border border-gray-200 rounded-lg">
+        <div>
           <p className="mb-1">
-            <span className="font-medium">Email:</span>{" "}
-            concierge@paragontrails.com
+            <span>Email:</span> concierge@paragontrails.com
           </p>
           <p className="mb-1">
-            <span className="font-medium">Phone:</span> +1 (310) 477–8820
+            <span>Phone:</span> +1 (310) 477–8820
           </p>
           <p>
-            <span className="font-medium">Hours:</span> Monday–Friday, 9:00 AM
-            to 5:00 PM PT
+            <span>Hours:</span> Monday–Friday, 9:00 AM to 5:00 PM PT
           </p>
         </div>
       </section>
 
       {/* Commitment Section */}
-      <section className="mb-8 text-center">
-        <h2 className="mb-4 font-semibold text-2xl">Our Commitment</h2>
-        <p className="text-lg">
+      <section>
+        <h2>Our Commitment</h2>
+        <p>
           We approach every booking—and every cancellation—with integrity and
           care. We understand that travel is a personal and often emotional
           investment. Our goal is to provide peace of mind, fairness, and
