@@ -1,19 +1,19 @@
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
 
-export async function getToolResource(
-  toolKit: string,
-  tool: string,
-  toolKitID: string
+export async function getTourData(
+  tourCategory: string,
+  tour: string,
+  tourID: string
 ): Promise<any> {
   try {
-    const toolModule = await import(
-      `@/lib/resources/toolkits/tools/${toolKit}/${tool}`
+    const tourModule = await import(
+      `@/lib/constants/destinations/tours/${tourCategory}/${tour}`
     );
-    // Return the specific named export that matches toolKitID
-    if (toolModule[toolKitID]) {
-      return toolModule[toolKitID];
+    // Return the specific named export that matches tourID
+    if (tourModule[tourID]) {
+      return tourModule[tourID];
     } else {
-      console.error(`Export named ${toolKitID} not found in module`);
+      console.error(`Export named ${tourID} not found in module`);
       return [];
     }
   } catch (error) {
