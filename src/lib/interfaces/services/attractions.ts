@@ -1,35 +1,27 @@
-export interface TopAttraction {
-  title: string;
-  description: string;
-}
-
 export interface CityAttractions {
+  subtitle?: string;
+  quote?: string;
   city: string;
   state?: string;
   region: string;
   country: string;
-  attractions: TopAttraction[];
 }
 
-export interface Attraction extends TopAttraction {
+export interface Attraction {
+  title: string;
+  description: string;
   imageUrl: string;
   location: string;
   openingHours?: string;
   priceRange?: string;
   rating: number;
-  website?: string;
-  contactInfo?: {
-    phone?: string;
-    email?: string;
-    address?: string;
-  };
   tags?: string[];
   accessibilityFeatures?: string[];
   isPopular?: boolean;
   isFamilyFriendly?: boolean;
+  isFree?: boolean;
   isPetFriendly?: boolean;
   isWheelchairAccessible?: boolean;
-  isCultural?: boolean;
   isHistorical?: boolean;
   isAdventure?: boolean;
   isRomantic?: boolean;
