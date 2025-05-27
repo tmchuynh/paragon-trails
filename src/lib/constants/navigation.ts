@@ -62,28 +62,28 @@ export const navbarItems = [
     label: "Services",
     dropdown: [
       {
-        label: "Travel Insurance",
+        label: "Travel Insurance Policy",
         href: "/services/travel-insurance",
       },
       {
-        label: "Transportation",
-        href: "/services/transportation",
+        label: "Rent a Vehicle for Your Trip",
+        href: "/services/ground-transportations",
       },
       {
-        label: "Accommodations",
+        label: "Accommodations Policy",
         href: "/services/accommodations",
       },
       {
-        label: "Private Aviation",
+        label: "Fly Private with Us",
         href: "/services/private-aviation",
       },
       {
-        label: "Yacht Charters",
+        label: "Rent a Yacht Charter",
         href: "/services/yacht-charters",
       },
       {
-        label: "Homestay",
-        href: "/services/homestay",
+        label: "Homestays & Heritage Stays",
+        href: "/services/homestays-and-heritage-stays",
       },
     ],
   },
