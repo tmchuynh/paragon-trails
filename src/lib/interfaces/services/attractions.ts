@@ -14,6 +14,8 @@ export interface Attraction {
   location: string;
   openingHours?: string;
   priceRange?: string;
+  priceCategory?: "free" | "budget" | "moderate" | "expensive" | "luxury";
+  timeOfDay?: "all day" | "daytime" | "evening" | "night";
   rating: number;
   tags?: string[];
   accessibilityFeatures?: string[];
