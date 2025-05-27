@@ -318,4 +318,175 @@ export const cityattractions: CityAttractions[] = [
     quote:
       "Our pasta-making class with a local nonna was the highlight of our Italian trip. Paragon Trails found us experiences that connected us with real local culture, not tourist traps.",
   },
+  {
+    city: "Tahiti",
+    state: "",
+    region: "Society Islands",
+    country: "French Polynesia",
+    subtitle: "Paradise in the South Pacific",
+    quote:
+      "Exploring the lush mountains and crystal-clear lagoons of Tahiti with our Paragon Trails guide was a once-in-a-lifetime experience. The local Polynesian cultural show was authentic and captivating.",
+  },
+  {
+    city: "Bora Bora",
+    state: "",
+    region: "Society Islands",
+    country: "French Polynesia",
+    subtitle: "Pearl of the Pacific",
+    quote:
+      "Our overwater bungalow experience arranged by Paragon Trails was absolute perfection. Swimming with manta rays and enjoying a private sunset cruise around Mount Otemanu was magical.",
+  },
+  {
+    city: "Fiji",
+    state: "",
+    region: "Melanesia",
+    country: "Republic of Fiji",
+    subtitle: "Island of Happiness",
+    quote:
+      "The village visit organized by Paragon Trails gave us authentic insight into Fijian culture. Participating in a traditional kava ceremony and learning about island conservation efforts was truly enriching.",
+  },
+  {
+    city: "Port Vila",
+    state: "",
+    region: "Efate Island",
+    country: "Vanuatu",
+    subtitle: "Land of Eternal Smiles",
+    quote:
+      "Our guided tour to the active volcano on Tanna Island was exhilarating and perfectly orchestrated by Paragon Trails. The local markets and pristine beaches made this Pacific paradise unforgettable.",
+  },
+  {
+    city: "Anchorage",
+    state: "AK",
+    region: "AK",
+    country: "United States",
+    subtitle: "Gateway to the Last Frontier",
+    quote:
+      "Our Paragon Trails guide's knowledge of Alaska's wildlife helped us spot moose, bears, and eagles around Anchorage. The midnight sun experience and glacier hiking were absolutely spectacular.",
+  },
+  {
+    city: "Denali",
+    state: "AK",
+    region: "AK",
+    country: "United States",
+    subtitle: "Crown Jewel of Alaska",
+    quote:
+      "The exclusive backcountry tour of Denali National Park arranged by Paragon Trails gave us breathtaking views of North America's highest peak and close encounters with incredible wildlife.",
+  },
+  {
+    city: "Juneau",
+    state: "AK",
+    region: "AK",
+    country: "United States",
+    subtitle: "Alaska's Scenic Capital",
+    quote:
+      "Helicopter glacier landing and dog sledding arranged by our Paragon Trails advisor was the adventure of a lifetime. Seeing whales breaching in the Inside Passage was simply unforgettable.",
+  },
+  {
+    city: "Dubai",
+    state: "",
+    region: "Dubai Emirate",
+    country: "United Arab Emirates",
+    subtitle: "City of Gold",
+    quote:
+      "From the top of Burj Khalifa to desert safaris at sunset, Paragon Trails created the perfect balance of luxury and adventure during our Dubai experience.",
+  },
+  {
+    city: "Sydney",
+    state: "NSW",
+    region: "New South Wales",
+    country: "Australia",
+    subtitle: "Harbor City",
+    quote:
+      "Our exclusive sunrise yoga session on the steps of Sydney Opera House was magical. The coastal walk from Bondi to Coogee with our local guide revealed hidden beaches tourists rarely discover.",
+  },
+  {
+    city: "Rio de Janeiro",
+    state: "",
+    region: "Southeast Brazil",
+    country: "Brazil",
+    subtitle: "Marvelous City",
+    quote:
+      "The private helicopter tour around Christ the Redeemer and secret access to a samba school rehearsal made our Rio experience extraordinary. Paragon Trails delivered Brazilian magic!",
+  },
+  {
+    city: "Cape Town",
+    state: "",
+    region: "Western Cape",
+    country: "South Africa",
+    subtitle: "Mother City",
+    quote:
+      "Our guide's intimate knowledge of Table Mountain's trails led us to panoramic views most tourists never see. The private wine tasting in Stellenbosch was the perfect complement to our adventure.",
+  },
+  {
+    city: "London",
+    state: "",
+    region: "Greater London",
+    country: "United Kingdom",
+    subtitle: "The Square Mile",
+    quote:
+      "The after-hours tour of the Tower of London and private Thames River cruise gave us a unique perspective on this historic city. Our guide's stories brought centuries of history to life.",
+  },
+  {
+    city: "Atlanta",
+    state: "GA",
+    region: "GA",
+    country: "United States",
+    subtitle: "The City in a Forest",
+    quote:
+      "Our private tour of the Civil Rights landmarks with a historian as our guide was profoundly moving. The exclusive after-hours access to the Georgia Aquarium arranged by Paragon Trails was magical for our children.",
+  },
+  {
+    city: "Berlin",
+    state: "",
+    region: "Berlin",
+    country: "Germany",
+    subtitle: "City of Freedom",
+    quote:
+      "The Berlin Wall tour with our guide who lived through its fall was incredibly powerful. The hidden speakeasy bars and street art tours showed us a side of Berlin most tourists never experience.",
+  },
+  {
+    city: "Monaco",
+    state: "",
+    region: "French Riviera",
+    country: "Monaco",
+    subtitle: "Playground of the Rich",
+    quote:
+      "Our Paragon Trails advisor arranged a helicopter arrival into Monaco and VIP access during Grand Prix weekend. Dining at Le Louis XV with a window table felt like a dream come true.",
+  },
+  {
+    city: "Cannes",
+    state: "",
+    region: "French Riviera",
+    country: "France",
+    subtitle: "Star of the Silver Screen",
+    quote:
+      "Walking the famous red carpet steps and enjoying a private yacht tour of the Mediterranean coastline made us feel like celebrities. The insider access to exclusive beach clubs was the highlight of our trip.",
+  },
+  {
+    city: "Madrid",
+    state: "",
+    region: "Community of Madrid",
+    country: "Spain",
+    subtitle: "Royal Capital",
+    quote:
+      "Our after-hours private tour of the Prado Museum was worth every penny. The tapas crawl through hidden local spots with our Paragon Trails guide introduced us to flavors we're still dreaming about.",
+  },
+  {
+    city: "Phuket",
+    state: "",
+    region: "Southern Thailand",
+    country: "Thailand",
+    subtitle: "Pearl of the Andaman",
+    quote:
+      "The secluded beach picnic arranged by Paragon Trails was straight out of a movie. Our private longtail boat tour of the hidden lagoons and caves of Phang Nga Bay was absolutely breathtaking.",
+  },
+  {
+    city: "Vancouver",
+    state: "BC",
+    region: "British Columbia",
+    country: "Canada",
+    subtitle: "City of Glass",
+    quote:
+      "Cycling through Stanley Park with our local guide and taking a seaplane tour of the stunning coastline gave us unforgettable views. The Indigenous cultural experiences Paragon Trails arranged were enlightening and authentic.",
+  },
 ];
