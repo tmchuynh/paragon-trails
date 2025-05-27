@@ -25,14 +25,14 @@ import { cn } from "@/lib/utils";
 import { getCityAttractions } from "@/lib/utils/get";
 import { featuredArray } from "@/lib/utils/sort";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaFilter, FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 export default function DestinationDetailsPage() {
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
-
+  const router = useRouter();
   const city = searchParams.get("city") || "";
   const country = searchParams.get("country") || "";
   const region = searchParams.get("region") || "";
@@ -292,6 +292,11 @@ export default function DestinationDetailsPage() {
     );
   };
 
+  const queryParams = new URLSearchParams({
+    city: city,
+    country: country,
+  });
+
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
@@ -311,6 +316,20 @@ export default function DestinationDetailsPage() {
       <section>
         <div className="w-full">
           <h2>Top Attractions</h2>
+          <p>
+            Discover the most popular attractions in {formattedCity},{" "}
+            {formattedRegion}, {formattedCountry}. From historical landmarks to
+            modern marvels, explore the best that this city has to offer.
+          </p>
+          <Button
+            onClick={() =>
+              router.push(
+                `/luxurious-destinations/${country}/${city}/tours?${queryParams.toString()}`
+              )
+            }
+          >
+            Explore Available Tours in {formattedCity}
+          </Button>
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {popularAttractions.map((attraction, index) => (
               <div
