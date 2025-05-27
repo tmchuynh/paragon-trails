@@ -1,15 +1,21 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { aviationTestimonials } from "@/lib/constants/services/testimonials/aviationTestimonials";
+import { popularAviationPrivateTourRoutes } from "@/lib/constants/services/transportation/routes/popularPrivateTourRoutes";
+import { sortByProperty } from "@/lib/utils/sort";
+import { useRouter } from "next/navigation";
+
 export default function PrivateAviation() {
+  const router = useRouter();
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
-      <div className="mb-10 text-center">
-        <h1 className="mb-4 font-bold text-4xl">
-          Private Aviation: Travel on Your Own Terms
-        </h1>
-        <p className="mb-6 text-gray-600 text-xl">
-          Effortless Luxury from Takeoff to Touchdown
-        </p>
-        <p className="mx-auto max-w-3xl text-lg">
+
+      <header>
+        <h1>Travel on Your Own Terms</h1>
+        <h5>Effortless Luxury from Takeoff to Touchdown</h5>
+        <p>
           Enjoy the freedom, privacy, and comfort of flying privately as part of
           your curated travel experience. Our private aviation services are
           designed for travelers who want to avoid crowded airports, long
@@ -17,48 +23,38 @@ export default function PrivateAviation() {
           planning a multi-stop itinerary or visiting a remote location, we
           ensure every leg of your journey is handled with care and precision.
         </p>
-      </div>
+      </header>
 
       {/* Why Fly Private Section */}
-      <div className="mb-10">
-        <h2 className="mb-8 font-bold text-3xl text-center">
-          Why Fly Private With Us?
-        </h2>
-        <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-4">
-          <div className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="mb-3 font-semibold text-xl">
-              Direct Access to Hidden Destinations
-            </h3>
+      <section>
+        <h2>Why Fly Private With Us?</h2>
+        <div className="gap-8 grid lg:grid-cols-2">
+          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+            <h3>Direct Access to Hidden Destinations</h3>
             <p>
               Reach off-the-map locations—mountain villages, island resorts, or
               countryside estates—without the need for long transfers or
               connecting flights.
             </p>
           </div>
-          <div className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="mb-3 font-semibold text-xl">
-              Time-Saving Itineraries
-            </h3>
+          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+            <h3>Customized Time-Saving Itineraries</h3>
             <p>
               Maximize your travel experience by flying directly between
               destinations, with custom departure times that work around your
               tour—not the other way around.
             </p>
           </div>
-          <div className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="mb-3 font-semibold text-xl">
-              Complete Privacy & Comfort
-            </h3>
+          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+            <h3>Complete Privacy & Comfort</h3>
             <p>
               Whether traveling as a couple or group, you'll enjoy an
               uninterrupted journey in a cabin designed for comfort, relaxation,
               and personal space.
             </p>
           </div>
-          <div className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="mb-3 font-semibold text-xl">
-              Fully Integrated With Your Tour
-            </h3>
+          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+            <h3>Fully Integrated With Your Tour</h3>
             <p>
               Your flights are booked, timed, and managed as part of your
               itinerary. Ground transportation and accommodations are
@@ -66,21 +62,61 @@ export default function PrivateAviation() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* What's Included Section */}
+      <section>
+        <h2>What's Included</h2>
+        <ul className="gap-3 grid lg:grid-cols-3 mx-auto list-none">
+          <li className="flex items-center">
+            <div className="mr-3 text-green-500">✓</div>
+            <span>Personalized flight schedules matched to your tour</span>
+          </li>
+          <li className="flex items-center">
+            <div className="mr-3 text-green-500">✓</div>
+            <span>All logistics, from ground transfer to luggage handling</span>
+          </li>
+          <li className="flex items-center">
+            <div className="mr-3 text-green-500">✓</div>
+            <span>VIP airport lounge access (where available)</span>
+          </li>
+          <li className="flex items-center">
+            <div className="mr-3 text-green-500">✓</div>
+            <span>Onboard refreshments and optional full meals</span>
+          </li>
+          <li className="flex items-center">
+            <div className="mr-3 text-green-500">✓</div>
+            <span>Safety-checked aircraft and professional pilots</span>
+          </li>
+        </ul>
+      </section>
 
       {/* What's Available for Rent Section */}
-      <div className="mb-10">
-        <h2 className="mb-4 font-bold text-3xl text-center">
-          What's Available for Rent
-        </h2>
-        <p className="mb-8 text-center text-lg">
+      <section>
+        <h2>What's Available for Rent</h2>
+        <p>
           We offer several aircraft options to suit your itinerary, group size,
-          and comfort preferences:
+          and comfort preferences. Our aviation team will work with you to
+          select the best aircraft for your journey, ensuring a seamless travel
+          experience from start to finish.
         </p>
-
+        <div className="flex md:flex-row flex-col gap-4 my-3">
+          <Button
+            onClick={() =>
+              router.push("/services/private-aviation/aviation-personnel")
+            }
+          >
+            Meet Our Aviation team
+          </Button>
+          <Button
+            onClick={() => router.push("/services/private-aviation/aircrafts")}
+          >
+            Explort Our Available Aircrafts
+          </Button>
+        </div>
         <div className="space-y-8">
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="mb-2 font-bold text-2xl">Light Private Jets</h3>
+            <h3>Light Private Jets</h3>
             <p className="mb-3">
               Ideal for short flights between cities or nearby countries. Best
               for couples or small groups (up to 6 guests).
@@ -101,7 +137,7 @@ export default function PrivateAviation() {
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="mb-2 font-bold text-2xl">Midsize Jets</h3>
+            <h3>Midsize Jets</h3>
             <p className="mb-3">
               Perfect for longer routes or groups of 6–8 guests. More cabin
               space and amenities for a premium in-air experience.
@@ -119,7 +155,7 @@ export default function PrivateAviation() {
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="mb-2 font-bold text-2xl">Heavy Jets</h3>
+            <h3>Heavy Jets</h3>
             <p className="mb-3">
               Used for long-distance or international flights. Accommodates
               larger groups and offers maximum comfort.
@@ -142,7 +178,7 @@ export default function PrivateAviation() {
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="mb-2 font-bold text-2xl">Private Helicopters</h3>
+            <h3>Private Helicopters</h3>
             <p className="mb-3">
               For short-range, scenic transfers—especially useful for island
               destinations, vineyards, or mountainous areas.
@@ -162,81 +198,83 @@ export default function PrivateAviation() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section className="mb-10 w-full">
+        <h2>Client Testimonials</h2>
+
+        <div className="gap-6 grid md:grid-cols-3">
+          {aviationTestimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className="flex flex-col justify-between bg-gray-50 shadow-md p-5 rounded-lg"
+            >
+              <p className="mb-2">"{testimonial.quote}"</p>
+              <p className="text-gray-600 text-sm">
+                — {testimonial.author}, {testimonial.title}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Popular Tour Routes Section */}
-      <div className="mb-10">
-        <h2 className="mb-8 font-bold text-3xl text-center">
-          Popular Tour Routes with Private Flights
-        </h2>
+      <section>
+        <h2>Popular Tour Routes with Private Flights</h2>
         <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-3">
-          <div className="bg-white shadow-sm p-5 border border-gray-100 rounded-lg">
-            <h3 className="mb-2 font-semibold">Italy</h3>
-            <p>Venice → Tuscany → Amalfi</p>
-          </div>
-          <div className="bg-white shadow-sm p-5 border border-gray-100 rounded-lg">
-            <h3 className="mb-2 font-semibold">Greece</h3>
-            <p>Athens → Santorini → Crete</p>
-          </div>
-          <div className="bg-white shadow-sm p-5 border border-gray-100 rounded-lg">
-            <h3 className="mb-2 font-semibold">Japan</h3>
-            <p>Tokyo → Osaka → Kyoto</p>
-          </div>
-          <div className="bg-white shadow-sm p-5 border border-gray-100 rounded-lg">
-            <h3 className="mb-2 font-semibold">Southeast Asia</h3>
-            <p>Bali → Chiang Mai → Hanoi</p>
-          </div>
-          <div className="md:col-span-2 lg:col-span-1 bg-white shadow-sm p-5 border border-gray-100 rounded-lg">
-            <h3 className="mb-2 font-semibold">U.S.</h3>
-            <p>San Francisco → Seattle → Honolulu</p>
-          </div>
+          {sortByProperty(popularAviationPrivateTourRoutes, "flightPath").map(
+            (route, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-between bg-white shadow-sm p-5 border border-gray-100 rounded-lg"
+              >
+                <div>
+                  <h3>{route.routeName}</h3>
+                  <p>{route.flightPath}</p>
+                  <ul className="mb-3 pl-5 list-disc">
+                    {route.highlights.map((highlight, idx) => (
+                      <li key={idx} className="pl-5 list-disc">
+                        {highlight}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p>
+                  <strong>Duration: </strong>
+                  {route.durationDays}
+                </p>
+                <p>
+                  <strong>Aviation Type: </strong> {route.aircraftType}
+                </p>
+                <p>
+                  <strong>Ideal For: </strong>
+                  {route.idealFor.join(", ")}
+                </p>
+                <p>
+                  <strong>Experience Type: </strong>
+                  {route.experienceType}
+                </p>
+              </div>
+            )
+          )}
         </div>
-      </div>
-
-      {/* What's Included Section */}
-      <div className="mb-10">
-        <h2 className="mb-6 font-bold text-3xl text-center">What's Included</h2>
-        <ul className="gap-3 grid mx-auto max-w-3xl list-none">
-          <li className="flex items-center">
-            <div className="mr-3 text-green-500">✓</div>
-            <span>Personalized flight schedules matched to your tour</span>
-          </li>
-          <li className="flex items-center">
-            <div className="mr-3 text-green-500">✓</div>
-            <span>All logistics, from ground transfer to luggage handling</span>
-          </li>
-          <li className="flex items-center">
-            <div className="mr-3 text-green-500">✓</div>
-            <span>VIP airport lounge access (where available)</span>
-          </li>
-          <li className="flex items-center">
-            <div className="mr-3 text-green-500">✓</div>
-            <span>Onboard refreshments and optional full meals</span>
-          </li>
-          <li className="flex items-center">
-            <div className="mr-3 text-green-500">✓</div>
-            <span>Safety-checked aircraft and professional pilots</span>
-          </li>
-        </ul>
-      </div>
+      </section>
 
       {/* Book With Confidence Section */}
-      <div className="bg-gray-50 mx-auto p-8 rounded-lg max-w-4xl text-center">
-        <h2 className="mb-4 font-bold text-3xl">Book With Confidence</h2>
-        <p className="mb-6 text-lg">
+      <section>
+        <h2>Book With Confidence</h2>
+        <p>
           Private aviation is available exclusively to guests booking luxury
           tours through our company. Whether you're celebrating a milestone or
           simply want the highest level of comfort, our team will help you
           choose the best aircraft for your journey.
         </p>
-        <p className="mb-8">
+        <p>
           To add private flights to your tour package, speak with your travel
           coordinator or request a custom quote today.
         </p>
-        <button className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-medium text-white transition-colors">
-          Request a Custom Quote
-        </button>
-      </div>
+        <Button>Request a Custom Quote</Button>
+      </section>
     </div>
   );
 }
