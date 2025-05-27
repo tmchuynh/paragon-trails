@@ -10,7 +10,7 @@ export function generateRandomString(length: number): string {
 }
 
 export function featuredArray(array: any[]) {
-  return array.filter((item) => item?.featured === true);
+  return array.filter((item) => item?.isPopular === true);
 }
 
 export function sortByLength(
