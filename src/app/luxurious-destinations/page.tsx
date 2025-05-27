@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function LuxuriousDestinations() {
   const router = useRouter();
   return (
-    <div className="flex flex-col justify-center items-center p-4 min-h-screen">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
         <h1>Luxurious Destinations</h1>
         <h5>
@@ -18,6 +18,25 @@ export default function LuxuriousDestinations() {
           every detail. Paragon Trails transformed our travel dreams into
           unforgettable realities." — Emily Carter, Santorini & Amalfi Coast
         </blockquote>
+        <p>
+          Discover the epitome of luxury travel with Paragon Trails, where every
+          destination is a masterpiece of elegance and comfort. From the
+          sun-kissed shores of Santorini to the breathtaking Amalfi Coast, our
+          exclusive retreats are designed to redefine your travel experience.
+          Immerse yourself in the beauty of these iconic locations, where every
+          detail is meticulously crafted to ensure your journey is nothing short
+          of extraordinary. Whether you're exploring the ancient ruins of Rome
+          or savoring the culinary delights of Tuscany, Paragon Trails offers a
+          seamless blend of luxury and adventure. Join us as we take you on a
+          journey through the world's most luxurious destinations, where every
+          moment is an unforgettable experience. Let Paragon Trails transform
+          your travel dreams into reality, creating memories that will last a
+          lifetime. Experience the world like never before with our curated
+          selection of luxurious retreats, where comfort meets elegance in every
+          detail. Discover the art of luxury travel with Paragon Trails, where
+          every destination is a gateway to unparalleled comfort and
+          sophistication.
+        </p>
       </header>
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -49,7 +68,9 @@ export default function LuxuriousDestinations() {
               }
 
               router.push(
-                `/luxurious-destinations/details?${queryParams.toString()}`
+                `/luxurious-destinations/${
+                  item.country
+                }/details?${queryParams.toString()}`
               );
             }}
           >
