@@ -359,7 +359,7 @@ export default function TransportationPage() {
               {groundTransportationRoutes.map((route, index) => (
                 <tr key={index} className="border-gray-300 border-t">
                   <td className="px-4 py-3">{route.route}</td>
-                  <td className="px-4 py-3">{route.duration}</td>
+                  <td className="px-4 py-3">{route.totalDuration}</td>
                   <td className="px-4 py-3">{route.highlight}</td>
                 </tr>
               ))}
