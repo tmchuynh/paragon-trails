@@ -397,6 +397,7 @@ export const cityattractions = [
   {
     city: "Nha Trang",
     state: "",
+    region: "South Central Coast",
     country: "Vietnam",
     attractions: [
       {
@@ -453,6 +454,7 @@ export const cityattractions = [
   {
     city: "Hội An",
     state: "",
+    region: "Central Vietnam",
     country: "Vietnam",
     attractions: [
       {
@@ -1247,6 +1249,7 @@ export const cityattractions = [
   {
     city: "Denpasar",
     state: "",
+    region: "Bali",
     country: "Indonesia",
     attractions: [
       {
@@ -1355,6 +1358,7 @@ export const cityattractions = [
   {
     city: "Athens",
     state: "",
+    region: "Attica",
     country: "Greece",
     attractions: [
       {
@@ -1410,6 +1414,7 @@ export const cityattractions = [
   {
     city: "Piraeus",
     state: "",
+    region: "Attica",
     country: "Greece",
     attractions: [
       {
@@ -1674,6 +1679,7 @@ export const cityattractions = [
   {
     city: "Tokyo",
     country: "Japan",
+    region: "Kanto",
     attractions: [
       {
         title: "Shibuya Crossing",
@@ -1726,6 +1732,7 @@ export const cityattractions = [
   {
     city: "Osaka",
     country: "Japan",
+    region: "Kansai",
     attractions: [
       {
         title: "Osaka Castle",
@@ -1780,6 +1787,7 @@ export const cityattractions = [
   {
     city: "Yokohama",
     country: "Japan",
+    region: "Kanto",
     attractions: [
       {
         title: "Minato Mirai 21",
@@ -1835,6 +1843,7 @@ export const cityattractions = [
   {
     city: "Naples",
     country: "Italy",
+    region: "Campania",
     attractions: [
       {
         title: "Naples National Archaeological Museum",
@@ -1890,6 +1899,7 @@ export const cityattractions = [
   {
     city: "Bologna",
     country: "Italy",
+    region: "Emilia-Romagna",
     attractions: [
       {
         title: "Piazza Maggiore",
@@ -1943,1463 +1953,138 @@ export const cityattractions = [
     ],
   },
   {
-    city: "Rome",
-    country: "Italy",
-    attractions: [
-      {
-        title: "Colosseum",
-        description:
-          "Ancient amphitheater iconic for gladiator battles and Roman architecture.",
-      },
-      {
-        title: "Vatican City",
-        description:
-          "Independent city-state home to St. Peter’s Basilica and the Vatican Museums.",
-      },
-      {
-        title: "Pantheon",
-        description:
-          "Ancient Roman temple known for its massive dome and oculus.",
-      },
-      {
-        title: "Trevi Fountain",
-        description:
-          "Famous Baroque fountain where visitors toss coins for good luck.",
-      },
-      {
-        title: "Roman Forum",
-        description:
-          "Ruins of ancient government buildings at the center of ancient Rome.",
-      },
-      {
-        title: "Piazza Navona",
-        description:
-          "Elegant square featuring fountains, street artists, and cafes.",
-      },
-      {
-        title: "Spanish Steps",
-        description:
-          "Famous stairway connecting Piazza di Spagna and Trinità dei Monti church.",
-      },
-      {
-        title: "Castel Sant'Angelo",
-        description:
-          "Historic fortress with museum and views over the Tiber River.",
-      },
-      {
-        title: "Villa Borghese Gardens",
-        description: "Large public park with museums, gardens, and a lake.",
-      },
-      {
-        title: "Trastevere",
-        description:
-          "Charming neighborhood known for narrow streets, nightlife, and authentic restaurants.",
-      },
-    ],
-  },
-  {
-    city: "Verona",
-    country: "Italy",
-    attractions: [
-      {
-        title: "Verona Arena",
-        description:
-          "Roman amphitheater still used for concerts and opera performances.",
-      },
-      {
-        title: "Juliet’s House",
-        description:
-          "Famous site linked to Shakespeare’s Romeo and Juliet with a balcony.",
-      },
-      {
-        title: "Piazza delle Erbe",
-        description:
-          "Vibrant square with market stalls, cafes, and historic buildings.",
-      },
-      {
-        title: "Castelvecchio Museum",
-        description: "Medieval castle housing an important art collection.",
-      },
-      {
-        title: "Torre dei Lamberti",
-        description: "Tower offering panoramic views of Verona’s old town.",
-      },
-      {
-        title: "Ponte Pietra",
-        description: "Ancient Roman stone bridge crossing the Adige River.",
-      },
-      {
-        title: "Basilica of San Zeno",
-        description:
-          "Romanesque church renowned for its architecture and artworks.",
-      },
-      {
-        title: "Giardino Giusti",
-        description: "Historic Italian Renaissance garden with scenic views.",
-      },
-      {
-        title: "Verona Cathedral",
-        description:
-          "Romanesque cathedral with beautiful frescoes and architecture.",
-      },
-      {
-        title: "Piazza Bra",
-        description:
-          "Largest square in Verona, home to the Arena and lively events.",
-      },
-    ],
-  },
-  {
-    city: "Pisa",
-    country: "Italy",
-    attractions: [
-      {
-        title: "Leaning Tower of Pisa",
-        description:
-          "World-famous leaning bell tower and iconic symbol of Pisa.",
-      },
-      {
-        title: "Piazza dei Miracoli",
-        description:
-          "Historic square housing Pisa’s main monuments including the tower, cathedral, and baptistery.",
-      },
-      {
-        title: "Pisa Cathedral",
-        description:
-          "Romanesque cathedral known for its impressive facade and interior.",
-      },
-      {
-        title: "Baptistery of St. John",
-        description: "Largest baptistery in Italy with remarkable acoustics.",
-      },
-      {
-        title: "Camposanto Monumentale",
-        description:
-          "Historic cemetery with beautiful frescoes and architecture.",
-      },
-      {
-        title: "Museo dell'Opera del Duomo",
-        description:
-          "Museum displaying artworks and sculptures from Pisa’s monuments.",
-      },
-      {
-        title: "Ponte di Mezzo",
-        description: "Main bridge over the Arno River with views of the city.",
-      },
-      {
-        title: "Knight’s Square (Piazza dei Cavalieri)",
-        description: "Historic square showcasing Renaissance palaces.",
-      },
-      {
-        title: "Orto Botanico di Pisa",
-        description: "One of the oldest botanical gardens in Europe.",
-      },
-      {
-        title: "Palazzo Blu",
-        description: "Art museum with temporary and permanent exhibitions.",
-      },
-    ],
-  },
-  {
-    city: "Miami",
-    state: "FL",
-    region: "FL",
-    country: "United States",
-    attractions: [
-      {
-        title: "South Beach",
-        description:
-          "Vibrant beach area known for nightlife and Art Deco architecture.",
-      },
-      {
-        title: "Wynwood Walls",
-        description: "Outdoor street art museum featuring large murals.",
-      },
-      {
-        title: "Vizcaya Museum and Gardens",
-        description: "Italian Renaissance-style villa with extensive gardens.",
-      },
-      {
-        title: "Little Havana",
-        description: "Cuban cultural hub with music, food, and festivals.",
-      },
-      {
-        title: "Miami Seaquarium",
-        description: "Marine life shows and exhibits.",
-      },
-      {
-        title: "Bayside Marketplace",
-        description: "Waterfront shopping and dining complex.",
-      },
-      {
-        title: "Everglades National Park",
-        description: "Nearby subtropical wilderness with airboat tours.",
-      },
-      {
-        title: "Pérez Art Museum Miami (PAMM)",
-        description: "Contemporary art museum with waterfront views.",
-      },
-      {
-        title: "Miami Design District",
-        description: "Luxury shopping and art galleries.",
-      },
-      {
-        title: "Coconut Grove",
-        description: "Historic neighborhood with parks, shops, and cafes.",
-      },
-    ],
-  },
-  {
-    city: "Hanoi",
-    country: "Vietnam",
-    attractions: [
-      {
-        title: "Hoan Kiem Lake",
-        description:
-          "Central lake with the historic Turtle Tower and serene walking paths.",
-      },
-      {
-        title: "Old Quarter",
-        description:
-          "Lively district with narrow streets, traditional shops, and street food vendors.",
-      },
-      {
-        title: "Ho Chi Minh Mausoleum",
-        description:
-          "Monumental tomb of the Vietnamese revolutionary leader Ho Chi Minh.",
-      },
-      {
-        title: "Temple of Literature",
-        description:
-          "Ancient Confucian temple and Vietnam's first national university.",
-      },
-      {
-        title: "Hoa Lo Prison Museum",
-        description:
-          "Historic prison exhibiting relics from French colonial and Vietnam War eras.",
-      },
-      {
-        title: "Thang Long Water Puppet Theater",
-        description:
-          "Traditional Vietnamese water puppet shows performed on a water stage.",
-      },
-      {
-        title: "Vietnam Museum of Ethnology",
-        description:
-          "Extensive exhibits on the diverse ethnic groups of Vietnam.",
-      },
-      {
-        title: "West Lake",
-        description:
-          "Largest freshwater lake in Hanoi with temples, cafes, and scenic views.",
-      },
-      {
-        title: "St. Joseph's Cathedral",
-        description:
-          "Neo-Gothic Catholic cathedral built during French colonial times.",
-      },
-      {
-        title: "Long Bien Bridge",
-        description:
-          "Historic cantilever bridge designed by Gustave Eiffel, connecting Hanoi to suburbs.",
-      },
-    ],
-  },
-  {
-    city: "Thessaloniki",
-    state: "",
-    region: "Central Macedonia",
-    country: "Greece",
-    attractions: [
-      {
-        title: "White Tower",
-        description:
-          "Iconic 15th-century Ottoman tower and symbol of Thessaloniki.",
-      },
-      {
-        title: "Aristotelous Square",
-        description:
-          "Main city square surrounded by neoclassical buildings and cafes.",
-      },
-      {
-        title: "Rotunda of Galerius",
-        description:
-          "Massive Roman monument originally built as a mausoleum or temple.",
-      },
-      {
-        title: "Ano Poli (Upper Town)",
-        description:
-          "Historic neighborhood with traditional houses, Byzantine walls, and panoramic views.",
-      },
-      {
-        title: "Arch of Galerius",
-        description:
-          "Ancient Roman triumphal arch commemorating Emperor Galerius’ victories.",
-      },
-      {
-        title: "Museum of Byzantine Culture",
-        description: "Renowned museum showcasing Byzantine art and artifacts.",
-      },
-      {
-        title: "Church of Agios Dimitrios",
-        description:
-          "Largest church in Thessaloniki, dedicated to the city's patron saint.",
-      },
-      {
-        title: "Ladadika District",
-        description:
-          "Vibrant nightlife area with restaurants, bars, and live music venues.",
-      },
-      {
-        title: "Modiano Market",
-        description:
-          "Indoor market selling fresh produce, spices, and local delicacies.",
-      },
-      {
-        title: "Thessaloniki Waterfront",
-        description:
-          "Scenic promenade perfect for walking, cycling, and dining by the sea.",
-      },
-    ],
-  },
-  {
-    city: "Hoa Lư",
-    country: "Vietnam",
-    attractions: [
-      {
-        title: "Hoa Lư Ancient Capital",
-        description:
-          "Historical site of Vietnam’s first capital with temples dedicated to former emperors.",
-      },
-      {
-        title: "Dinh Tien Hoang Temple",
-        description:
-          "Temple honoring King Đinh Tiên Hoàng, founder of the ancient capital.",
-      },
-      {
-        title: "Le Dai Hanh Temple",
-        description:
-          "Temple dedicated to King Lê Đại Hành, another important Vietnamese ruler.",
-      },
-      {
-        title: "Tam Coc",
-        description:
-          "Stunning river area nearby with limestone karsts and caves, often called 'Halong Bay on land.'",
-      },
-      {
-        title: "Bich Dong Pagoda",
-        description:
-          "Cave pagoda complex built into the mountains near Tam Coc.",
-      },
-      {
-        title: "Van Long Nature Reserve",
-        description:
-          "Wetland area with rare wildlife and peaceful boat rides through karst landscapes.",
-      },
-      {
-        title: "Cuc Phuong National Park",
-        description:
-          "Vietnam’s oldest national park with hiking trails, primate rescue center, and ancient trees.",
-      },
-      {
-        title: "Thung Nang Valley",
-        description:
-          "Scenic valley with rice paddies and limestone hills, ideal for cycling tours.",
-      },
-      {
-        title: "Hoa Lu Village",
-        description:
-          "Traditional rural village preserving cultural customs and local cuisine.",
-      },
-      {
-        title: "Phat Diem Cathedral",
-        description:
-          "Unique cathedral blending Vietnamese and European architectural styles, located near Hoa Lư.",
-      },
-    ],
-  },
-  {
-    city: "Copenhagen",
-    country: "Denmark",
-    attractions: [
-      {
-        title: "Tivoli Gardens",
-        description:
-          "Historic amusement park with rides, gardens, and nightly entertainment.",
-      },
-      {
-        title: "Nyhavn",
-        description:
-          "Colorful 17th-century waterfront district lined with restaurants and bars.",
-      },
-      {
-        title: "The Little Mermaid Statue",
-        description:
-          "Famous bronze statue inspired by Hans Christian Andersen’s fairy tale.",
-      },
-      {
-        title: "Christiansborg Palace",
-        description:
-          "Government building housing the Danish Parliament and royal reception rooms.",
-      },
-      {
-        title: "Rosenborg Castle",
-        description:
-          "Renaissance castle exhibiting royal treasures and the Danish crown jewels.",
-      },
-      {
-        title: "National Museum of Denmark",
-        description:
-          "Comprehensive museum covering Danish history and culture.",
-      },
-      {
-        title: "Strøget",
-        description:
-          "One of Europe’s longest pedestrian shopping streets with boutiques and cafes.",
-      },
-      {
-        title: "Freetown Christiania",
-        description:
-          "Self-proclaimed autonomous neighborhood known for its alternative lifestyle.",
-      },
-      {
-        title: "Amalienborg Palace",
-        description:
-          "Residence of the Danish royal family with daily changing of the guard.",
-      },
-      {
-        title: "Copenhagen Opera House",
-        description:
-          "Modern architectural landmark on the waterfront hosting world-class performances.",
-      },
-    ],
-  },
-  {
-    city: "Warsaw",
-    country: "Poland",
-    attractions: [
-      {
-        title: "Old Town Market Square",
-        description:
-          "Reconstructed historic center featuring colorful buildings and lively cafes.",
-      },
-      {
-        title: "Royal Castle",
-        description:
-          "Former residence of Polish monarchs with rich art collections.",
-      },
-      {
-        title: "Łazienki Park",
-        description:
-          "Large park with palaces, gardens, and the famous Chopin Monument.",
-      },
-      {
-        title: "POLIN Museum of the History of Polish Jews",
-        description:
-          "Modern museum chronicling a millennium of Jewish life in Poland.",
-      },
-      {
-        title: "Palace of Culture and Science",
-        description:
-          "Tallest building in Poland, offering panoramic city views from its observation deck.",
-      },
-      {
-        title: "Wilanów Palace",
-        description:
-          "Baroque royal residence known as the 'Polish Versailles.'",
-      },
-      {
-        title: "Copernicus Science Centre",
-        description:
-          "Interactive science museum with hands-on exhibits and planetarium.",
-      },
-      {
-        title: "Warsaw Uprising Museum",
-        description:
-          "Museum dedicated to the 1944 uprising against Nazi occupation.",
-      },
-      {
-        title: "Nowy Świat Street",
-        description:
-          "Vibrant street filled with shops, restaurants, and historic architecture.",
-      },
-      {
-        title: "Złote Tarasy",
-        description:
-          "Modern shopping center with distinctive glass roof and diverse retail options.",
-      },
-    ],
-  },
-  {
-    city: "Prague",
-    country: "Czech Republic",
-    attractions: [
-      {
-        title: "Charles Bridge",
-        description:
-          "Historic 14th-century stone bridge adorned with statues, connecting Old Town and Lesser Town.",
-      },
-      {
-        title: "Prague Castle",
-        description:
-          "Largest ancient castle complex in the world, housing St. Vitus Cathedral and royal palaces.",
-      },
-      {
-        title: "Old Town Square",
-        description:
-          "Vibrant square featuring the Astronomical Clock and colorful historic buildings.",
-      },
-      {
-        title: "St. Nicholas Church",
-        description:
-          "Baroque masterpiece with impressive frescoes and a grand organ.",
-      },
-      {
-        title: "Jewish Quarter (Josefov)",
-        description:
-          "Historic district with synagogues, Jewish Museum, and the Old Jewish Cemetery.",
-      },
-      {
-        title: "Wenceslas Square",
-        description:
-          "Bustling commercial and cultural hub with shops, restaurants, and nightlife.",
-      },
-      {
-        title: "Petrin Hill & Observation Tower",
-        description:
-          "Green hill with panoramic city views and a mini Eiffel Tower replica.",
-      },
-      {
-        title: "National Theatre",
-        description:
-          "Historic theater hosting opera, ballet, and drama performances.",
-      },
-      {
-        title: "Vyšehrad",
-        description:
-          "Historic fortress offering peaceful gardens and views over the Vltava River.",
-      },
-      {
-        title: "Lennon Wall",
-        description:
-          "Colorful graffiti wall inspired by John Lennon and peace activism.",
-      },
-    ],
-  },
-  {
-    city: "Berlin",
-    country: "Germany",
-    attractions: [
-      {
-        title: "Brandenburg Gate",
-        description:
-          "Iconic 18th-century neoclassical monument symbolizing unity and peace.",
-      },
-      {
-        title: "Berlin Wall Memorial",
-        description:
-          "Preserved section of the Berlin Wall with historical exhibits and documentation center.",
-      },
-      {
-        title: "Reichstag Building",
-        description:
-          "Historic parliament building with a modern glass dome offering city views.",
-      },
-      {
-        title: "Museum Island",
-        description:
-          "UNESCO World Heritage site with five world-class museums.",
-      },
-      {
-        title: "Checkpoint Charlie",
-        description:
-          "Famous Cold War border crossing point between East and West Berlin.",
-      },
-      {
-        title: "Alexanderplatz",
-        description:
-          "Central square featuring the TV Tower and vibrant shopping areas.",
-      },
-      {
-        title: "East Side Gallery",
-        description:
-          "Longest remaining stretch of the Berlin Wall, now an open-air gallery of murals.",
-      },
-      {
-        title: "Charlottenburg Palace",
-        description: "Baroque palace with lush gardens and royal apartments.",
-      },
-      {
-        title: "Tiergarten Park",
-        description:
-          "Large urban park perfect for walks, picnics, and outdoor activities.",
-      },
-      {
-        title: "Gendarmenmarkt",
-        description:
-          "Elegant square home to the French and German cathedrals and concert hall.",
-      },
-    ],
-  },
-  {
     city: "Florence",
     country: "Italy",
+    region: "Tuscany",
     attractions: [
       {
-        title: "Cathedral of Santa Maria del Fiore (Duomo)",
+        title: "Florence Cathedral (Duomo)",
         description:
-          "Renowned Renaissance cathedral with its iconic red dome designed by Brunelleschi.",
+          "Iconic cathedral with Brunelleschi's dome and stunning frescoes.",
       },
       {
         title: "Uffizi Gallery",
         description:
-          "World-famous art museum housing masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci.",
+          "World-renowned art museum housing masterpieces by Botticelli, Michelangelo, and da Vinci.",
       },
       {
         title: "Ponte Vecchio",
         description:
-          "Historic medieval bridge lined with shops, primarily jewelers.",
+          "Historic medieval bridge lined with jewelry shops over the Arno River.",
       },
       {
-        title: "Palazzo Vecchio",
+        title: "Accademia Gallery",
         description:
-          "Medieval town hall with grand halls and art-filled rooms.",
+          "Home to Michelangelo's David and other Renaissance masterpieces.",
       },
       {
-        title: "Boboli Gardens",
+        title: "Pitti Palace",
         description:
-          "Extensive Renaissance gardens behind the Pitti Palace offering stunning views.",
+          "Grand palace with extensive art collections and beautiful Boboli Gardens.",
       },
       {
         title: "Basilica of Santa Croce",
         description:
-          "Franciscan church known as the resting place of Michelangelo and Galileo.",
+          "Famous church housing tombs of Michelangelo, Galileo, and Machiavelli.",
       },
       {
         title: "Piazza della Signoria",
         description:
-          "Central square bustling with statues, cafes, and political history.",
+          "Historic square with the Palazzo Vecchio and outdoor sculptures.",
       },
       {
-        title: "Galleria dell’Accademia",
+        title: "Bargello Museum",
         description:
-          "Museum home to Michelangelo’s David and other Renaissance artworks.",
+          "Museum showcasing Renaissance sculptures, including works by Donatello.",
       },
       {
         title: "Mercato Centrale",
         description:
-          "Lively market offering fresh Tuscan produce and street food.",
+          "Vibrant market offering local food products and Tuscan specialties.",
       },
       {
         title: "San Miniato al Monte",
         description:
-          "Romanesque basilica atop a hill with panoramic views over Florence.",
+          "Stunning Romanesque church on a hill with panoramic views of Florence.",
       },
     ],
   },
   {
-    city: "Vienna",
-    country: "Austria",
+    city: "Venice",
+    country: "Italy",
+    region: "Veneto",
     attractions: [
       {
-        title: "Schönbrunn Palace",
+        title: "St. Mark's Basilica",
         description:
-          "Baroque imperial summer residence with expansive gardens and a zoo.",
+          "Iconic cathedral known for its stunning mosaics and Byzantine architecture.",
       },
       {
-        title: "St. Stephen’s Cathedral",
+        title: "Doge's Palace",
         description:
-          "Gothic cathedral with a colorful tiled roof in Vienna’s city center.",
+          "Historic palace and former residence of the Doge of Venice, showcasing Gothic architecture.",
       },
       {
-        title: "Belvedere Palace",
+        title: "Rialto Bridge",
         description:
-          "Historic palace complex housing an impressive art collection including Klimt’s The Kiss.",
+          "Famous bridge over the Grand Canal, lined with shops and offering scenic views.",
       },
       {
-        title: "Hofburg Palace",
+        title: "Grand Canal",
         description:
-          "Former imperial palace now hosting museums and the Austrian president’s office.",
+          "Main waterway of Venice, lined with historic buildings and bustling with gondolas.",
       },
       {
-        title: "Vienna State Opera",
+        title: "Piazza San Marco",
         description:
-          "World-renowned opera house offering exceptional performances.",
+          "Main public square of Venice, surrounded by St. Mark's Basilica and the Campanile.",
       },
       {
-        title: "Prater Park and Giant Ferris Wheel",
+        title: "Murano Island",
         description:
-          "Large public park with the iconic Riesenrad Ferris wheel offering city views.",
+          "Famous for its glassmaking tradition, with workshops and museums showcasing glass art.",
       },
       {
-        title: "Albertina Museum",
+        title: "Burano Island",
         description:
-          "Museum featuring extensive graphic art collections and temporary exhibitions.",
+          "Known for its colorful houses and lace-making tradition, offering a picturesque setting.",
       },
       {
-        title: "Naschmarkt",
+        title: "Gallerie dell'Accademia",
         description:
-          "Popular open-air market with diverse food stalls and restaurants.",
+          "Art museum housing a vast collection of Venetian paintings from the 14th to 18th centuries.",
       },
       {
-        title: "Karlskirche",
+        title: "Peggy Guggenheim Collection",
         description:
-          "Baroque church with a striking dome and impressive frescoes.",
+          "Modern art museum featuring works by Picasso, Pollock, and other 20th-century artists.",
       },
       {
-        title: "Museum Quartier",
+        title: "Teatro La Fenice",
         description:
-          "Cultural district with contemporary art museums, cafes, and shops.",
+          "Renowned opera house with a rich history and stunning interior design.",
       },
-    ],
-  },
-  {
-    city: "Frankfurt am Main",
-    country: "Germany",
-    attractions: [
       {
-        title: "Römerberg",
+        title: "Scuola Grande di San Rocco",
         description:
-          "Historic square with medieval buildings and the city hall (Römer).",
+          "Historic confraternity building adorned with magnificent paintings by Tintoretto.",
       },
       {
-        title: "Main Tower",
+        title: "Campo Santa Margherita",
         description:
-          "Skyscraper with a public observation deck offering panoramic city views.",
+          "Lively square in the Dorsoduro district, popular for its cafes and local atmosphere.",
       },
       {
-        title: "Städel Museum",
+        title: "Lido di Venezia",
         description:
-          "Art museum featuring European masterpieces from the Middle Ages to modern times.",
+          "Beach resort island known for its sandy beaches and the Venice Film Festival.",
       },
       {
-        title: "Palmengarten",
+        title: "Basilica di Santa Maria della Salute",
         description:
-          "Large botanical garden with exotic plants and greenhouses.",
-      },
-      {
-        title: "Frankfurt Cathedral",
-        description:
-          "Gothic church important for coronations of Holy Roman Emperors.",
-      },
-      {
-        title: "Museum Embankment (Museumsufer)",
-        description:
-          "Cluster of museums along the river Main covering art, architecture, and history.",
-      },
-      {
-        title: "Zeil Shopping Street",
-        description:
-          "Popular pedestrian street for shopping with numerous stores and malls.",
-      },
-      {
-        title: "Goethe House",
-        description: "Birthplace of Johann Wolfgang von Goethe, now a museum.",
-      },
-      {
-        title: "Eiserner Steg",
-        description:
-          "Historic iron footbridge connecting city center with Sachsenhausen district.",
-      },
-      {
-        title: "Senckenberg Natural History Museum",
-        description:
-          "One of the largest natural history museums in Germany with extensive dinosaur exhibits.",
-      },
-    ],
-  },
-  {
-    city: "Rotterdam",
-    country: "Netherlands",
-    attractions: [
-      {
-        title: "Markthal",
-        description:
-          "Architecturally striking indoor market with diverse food stalls and restaurants.",
-      },
-      {
-        title: "Erasmus Bridge",
-        description:
-          "Iconic cable-stayed bridge known as 'The Swan' linking north and south Rotterdam.",
-      },
-      {
-        title: "Cube Houses",
-        description:
-          "Innovative tilted cube-shaped houses designed by architect Piet Blom.",
-      },
-      {
-        title: "Museum Boijmans Van Beuningen",
-        description:
-          "Art museum with a broad collection from medieval to contemporary works.",
-      },
-      {
-        title: "Maritime Museum",
-        description: "Museum dedicated to Rotterdam’s rich shipping history.",
-      },
-      {
-        title: "Delfshaven",
-        description:
-          "Historic harbor area with preserved old buildings and canals.",
-      },
-      {
-        title: "Euromast Tower",
-        description:
-          "Observation tower offering panoramic views and a restaurant.",
-      },
-      {
-        title: "Witte de Withstraat",
-        description:
-          "Trendy street filled with galleries, cafes, and nightlife.",
-      },
-      {
-        title: "Rotterdam Zoo (Diergaarde Blijdorp)",
-        description:
-          "One of Europe’s oldest and best zoos with diverse animal exhibits.",
-      },
-      {
-        title: "Kunsthal Rotterdam",
-        description:
-          "Contemporary art museum known for its diverse temporary exhibitions.",
-      },
-    ],
-  },
-  {
-    city: "Paris",
-    country: "France",
-    attractions: [
-      {
-        title: "Eiffel Tower",
-        description:
-          "World-famous iron lattice tower offering stunning views of the city.",
-      },
-      {
-        title: "Louvre Museum",
-        description:
-          "Largest art museum in the world, home to the Mona Lisa and other masterpieces.",
-      },
-      {
-        title: "Notre-Dame Cathedral",
-        description:
-          "Gothic cathedral known for its architecture and historical significance.",
-      },
-      {
-        title: "Montmartre",
-        description:
-          "Bohemian neighborhood famous for its artists, cafes, and the Sacré-Cœur Basilica.",
-      },
-      {
-        title: "Champs-Élysées and Arc de Triomphe",
-        description:
-          "Famous avenue leading to the monumental arch honoring French soldiers.",
-      },
-      {
-        title: "Musée d'Orsay",
-        description:
-          "Museum housed in a former railway station, focusing on Impressionist art.",
-      },
-      {
-        title: "Palace of Versailles",
-        description:
-          "Extravagant royal palace and gardens located just outside Paris.",
-      },
-      {
-        title: "Sainte-Chapelle",
-        description:
-          "Gothic chapel renowned for its stunning stained glass windows.",
-      },
-      {
-        title: "Luxembourg Gardens",
-        description:
-          "Elegant park featuring fountains, statues, and the Luxembourg Palace.",
-      },
-      {
-        title: "Seine River Cruise",
-        description:
-          "Scenic boat tours offering views of Paris’s landmarks from the water.",
-      },
-    ],
-  },
-  {
-    city: "Dalat",
-    country: "Vietnam",
-    attractions: [
-      {
-        title: "Xuan Huong Lake",
-        description:
-          "Peaceful lake at the city’s center surrounded by walking paths and gardens.",
-      },
-      {
-        title: "Dalat Flower Gardens",
-        description:
-          "Beautiful gardens showcasing a variety of colorful flowers and plants.",
-      },
-      {
-        title: "Crazy House",
-        description:
-          "Whimsical architectural marvel resembling a fairytale treehouse.",
-      },
-      {
-        title: "Bao Dai’s Summer Palace",
-        description:
-          "Former residence of the last emperor of Vietnam, preserved as a museum.",
-      },
-      {
-        title: "Datanla Waterfalls",
-        description:
-          "Scenic waterfall with adventure activities such as cable car rides.",
-      },
-      {
-        title: "Lang Biang Mountain",
-        description:
-          "Popular hiking destination offering panoramic views of the highlands.",
-      },
-      {
-        title: "Truc Lam Zen Monastery",
-        description:
-          "Serene Buddhist monastery set in pine forest surroundings.",
-      },
-      {
-        title: "Valley of Love",
-        description:
-          "Romantic park with lakes, gardens, and pedal boat rentals.",
-      },
-      {
-        title: "Dalat Market",
-        description:
-          "Bustling market offering fresh produce, handicrafts, and local specialties.",
-      },
-      {
-        title: "Elephant Falls",
-        description:
-          "Impressive multi-tiered waterfall located a short drive from Dalat.",
-      },
-    ],
-  },
-  {
-    city: "Bordeaux",
-    country: "France",
-    attractions: [
-      {
-        title: "Place de la Bourse",
-        description:
-          "Elegant square featuring classical architecture and the famous water mirror.",
-      },
-      {
-        title: "La Cité du Vin",
-        description:
-          "Innovative wine museum and cultural center dedicated to the world of wine.",
-      },
-      {
-        title: "Bordeaux Cathedral",
-        description:
-          "Gothic cathedral with impressive stained glass and historic significance.",
-      },
-      {
-        title: "Quais de Bordeaux",
-        description:
-          "Scenic riverfront promenade with cafes, parks, and bike paths.",
-      },
-      {
-        title: "Grand Théâtre de Bordeaux",
-        description:
-          "Neoclassical opera house renowned for its architecture and performances.",
-      },
-      {
-        title: "Jardin Public",
-        description:
-          "Large public park with botanical gardens, a pond, and walking trails.",
-      },
-      {
-        title: "Pont de Pierre",
-        description: "Historic stone bridge spanning the Garonne River.",
-      },
-      {
-        title: "Marché des Capucins",
-        description:
-          "Traditional market offering fresh local produce and gourmet foods.",
-      },
-      {
-        title: "Musée des Beaux-Arts",
-        description:
-          "Museum with an extensive collection of European paintings and sculptures.",
-      },
-      {
-        title: "Saint-Michel Basilica",
-        description:
-          "Gothic church with a tall bell tower offering city views.",
-      },
-    ],
-  },
-  {
-    city: "Nice",
-    country: "France",
-    attractions: [
-      {
-        title: "Promenade des Anglais",
-        description:
-          "Famous seaside promenade lined with palm trees and beaches.",
-      },
-      {
-        title: "Old Town (Vieux Nice)",
-        description:
-          "Historic district with narrow streets, markets, and colorful buildings.",
-      },
-      {
-        title: "Castle Hill (Colline du Château)",
-        description:
-          "Park and viewpoint offering panoramic views over Nice and the Mediterranean.",
-      },
-      {
-        title: "Cours Saleya Market",
-        description:
-          "Vibrant market known for fresh flowers, produce, and local specialties.",
-      },
-      {
-        title: "Marc Chagall National Museum",
-        description:
-          "Museum dedicated to the works of the artist Marc Chagall.",
-      },
-      {
-        title: "Matisse Museum",
-        description:
-          "Museum featuring a collection of Henri Matisse’s paintings and sculptures.",
-      },
-      {
-        title: "Russian Orthodox Cathedral",
-        description:
-          "Lavish cathedral with distinctive onion domes and intricate interiors.",
-      },
-      {
-        title: "Place Masséna",
-        description:
-          "Central square with striking architecture, fountains, and public art.",
-      },
-      {
-        title: "Nice Cathedral",
-        description: "Baroque cathedral located in the Old Town.",
-      },
-      {
-        title: "Phoenix Park",
-        description:
-          "Large botanical garden and zoo with diverse plant species and animals.",
-      },
-    ],
-  },
-  {
-    city: "Aix-en-Provence",
-    country: "France",
-    attractions: [
-      {
-        title: "Cours Mirabeau",
-        description:
-          "A grand, tree-lined boulevard with cafes and fountains—perfect for a leisurely stroll or people-watching.",
-      },
-      {
-        title: "Saint-Sauveur Cathedral",
-        description:
-          "A layered architectural marvel mixing styles from the 5th to 17th centuries, significant for history buffs.",
-      },
-      {
-        title: "Atelier Cézanne",
-        description:
-          "The artist Paul Cézanne’s preserved studio, essential for art enthusiasts wanting insight into his process.",
-      },
-      {
-        title: "Granet Museum",
-        description:
-          "An impressive collection of classical and modern art, including works by Cézanne and Rembrandt.",
-      },
-    ],
-  },
-  {
-    city: "Bangkok",
-    country: "Thailand",
-    attractions: [
-      {
-        title: "Grand Palace & Wat Phra Kaew",
-        description:
-          "The city’s most iconic landmark, showcasing exquisite Thai architecture and the revered Emerald Buddha.",
-      },
-      {
-        title: "Wat Arun (Temple of Dawn)",
-        description:
-          "A visually striking riverside temple known for its ornate spires and sunset views.",
-      },
-      {
-        title: "Chatuchak Weekend Market",
-        description:
-          "One of the world’s largest markets, ideal for shopping, local food, and cultural immersion.",
-      },
-      {
-        title: "Jim Thompson House",
-        description:
-          "A beautifully preserved traditional Thai house and museum dedicated to the American silk entrepreneur.",
-      },
-      {
-        title: "Khao San Road",
-        description:
-          "A bustling street famous for its vibrant nightlife, street food, and backpacker culture.",
-      },
-      {
-        title: "Wat Pho (Temple of the Reclining Buddha)",
-        description:
-          "Home to a massive reclining Buddha statue and a center for traditional Thai massage.",
-      },
-      {
-        title: "Chao Phraya River Cruise",
-        description:
-          "A scenic boat ride offering views of the city’s landmarks from the water.",
-      },
-      {
-        title: "Siam Paragon",
-        description:
-          "A luxury shopping mall with high-end brands, an aquarium, and gourmet dining options.",
-      },
-      {
-        title: "Lumphini Park",
-        description:
-          "A large urban park perfect for relaxation, jogging, and enjoying nature in the heart of the city.",
-      },
-      {
-        title: "Erawan Shrine",
-        description:
-          "A popular Hindu shrine known for its four-faced Brahma statue and traditional Thai dance performances.",
-      },
-    ],
-  },
-  {
-    city: "Amsterdam",
-    country: "Netherlands",
-    attractions: [
-      {
-        title: "Rijksmuseum",
-        description:
-          "The Netherlands’ premier art museum, with masterpieces from Rembrandt and Vermeer.",
-      },
-      {
-        title: "Anne Frank House",
-        description:
-          "A sobering, essential visit to understand WWII history and resilience.",
-      },
-      {
-        title: "Canal Ring (Grachtengordel)",
-        description:
-          "A UNESCO World Heritage site—explore via boat or walk the picturesque waterways lined with historic homes.",
-      },
-      {
-        title: "Vondelpark",
-        description:
-          "The city’s main urban park, perfect for relaxation and people-watching.",
-      },
-      {
-        title: "Van Gogh Museum",
-        description:
-          "Home to the world’s largest collection of Van Gogh’s works, a must-visit for art lovers.",
-      },
-      {
-        title: "Dam Square",
-        description:
-          "The city’s central square, surrounded by the Royal Palace and the National Monument.",
-      },
-      {
-        title: "Jordaan District",
-        description:
-          "A charming neighborhood with narrow streets, independent art galleries, and cozy cafes.",
-      },
-      {
-        title: "Heineken Experience",
-        description:
-          "An interactive tour through the history of Heineken beer, including tastings.",
-      },
-      {
-        title: "Bloemenmarkt (Flower Market)",
-        description:
-          "The world’s only floating flower market, famous for its vibrant tulips and bulbs.",
-      },
-      {
-        title: "A’DAM Lookout",
-        description:
-          "An observation deck offering panoramic views of the city and a thrilling swing over the edge.",
-      },
-    ],
-  },
-  {
-    city: "Madrid",
-    country: "Spain",
-    attractions: [
-      {
-        title: "Prado Museum",
-        description:
-          "Home to an extensive collection of European art from the 12th-20th centuries, including Velázquez and Goya.",
-      },
-      {
-        title: "Retiro Park",
-        description:
-          "A green oasis in the city center, with a lake, walking paths, and cultural exhibitions.",
-      },
-      {
-        title: "Royal Palace of Madrid",
-        description:
-          "The official residence of the Spanish royal family, with lavish interiors and grand gardens.",
-      },
-      {
-        title: "Puerta del Sol & Plaza Mayor",
-        description:
-          "Vibrant public squares that capture the city’s lively spirit and historic charm.",
-      },
-      {
-        title: "Thyssen-Bornemisza Museum",
-        description:
-          "A vast collection of art spanning from the 13th to the late 20th century, complementing the Prado.",
-      },
-      {
-        title: "Mercado de San Miguel",
-        description:
-          "A gourmet market offering a variety of Spanish delicacies and tapas in a vibrant setting.",
-      },
-      {
-        title: "Gran Vía",
-        description:
-          "Madrid’s main shopping street, known for its impressive architecture and bustling atmosphere.",
-      },
-      {
-        title: "Temple of Debod",
-        description:
-          "An ancient Egyptian temple relocated to Madrid, offering stunning sunset views.",
-      },
-      {
-        title: "Santiago Bernabéu Stadium",
-        description:
-          "Home of Real Madrid, a must-visit for football fans with tours available.",
-      },
-      {
-        title: "Chocolatería San Ginés",
-        description:
-          "Famous for its churros and hot chocolate, a perfect treat after exploring the city.",
-      },
-    ],
-  },
-  {
-    city: "Barcelona",
-    country: "Spain",
-    attractions: [
-      {
-        title: "Sagrada Família",
-        description:
-          "Gaudí’s unfinished masterpiece and an architectural icon with extraordinary detail.",
-      },
-      {
-        title: "Park Güell",
-        description:
-          "Another Gaudí creation, blending nature and whimsical design in panoramic city views.",
-      },
-      {
-        title: "Gothic Quarter (Barri Gòtic)",
-        description:
-          "Narrow medieval streets packed with history, boutiques, and tapas bars.",
-      },
-      {
-        title: "La Rambla",
-        description:
-          "A bustling pedestrian street perfect for shopping, street performances, and local cuisine.",
-      },
-      {
-        title: "Casa Batlló",
-        description:
-          "A modernist building by Gaudí, known for its organic shapes and vibrant colors.",
-      },
-      {
-        title: "Picasso Museum",
-        description:
-          "Showcasing an extensive collection of works by Pablo Picasso, especially from his formative years.",
-      },
-      {
-        title: "Magic Fountain of Montjuïc",
-        description:
-          "A spectacular light and water show set to music, held in the evenings.",
-      },
-      {
-        title: "Camp Nou",
-        description:
-          "Home of FC Barcelona, offering tours of the stadium and museum for football fans.",
-      },
-      {
-        title: "Mercat de Sant Josep de la Boqueria",
-        description:
-          "A vibrant market with fresh produce, local delicacies, and tapas bars.",
-      },
-      {
-        title: "Tibidabo Amusement Park",
-        description:
-          "An amusement park on a mountain offering rides and stunning views over Barcelona.",
-      },
-    ],
-  },
-  {
-    city: "Marseille",
-    country: "France",
-    attractions: [
-      {
-        title: "Old Port (Vieux-Port)",
-        description:
-          "The historic harbor, central to Marseille’s identity, with fresh seafood markets and lively cafes.",
-      },
-      {
-        title: "Basilique Notre-Dame de la Garde",
-        description:
-          "A hilltop basilica offering sweeping views over the city and the Mediterranean.",
-      },
-      {
-        title: "Le Panier",
-        description:
-          "The oldest district in Marseille with colorful buildings, art studios, and narrow streets to explore.",
-      },
-      {
-        title: "MuCEM (Museum of European and Mediterranean Civilisations)",
-        description:
-          "Modern architecture meets cultural exhibitions on Mediterranean history.",
-      },
-      {
-        title: "Calanques National Park",
-        description:
-          "Stunning coastal cliffs and turquoise waters, perfect for hiking and boat trips.",
-      },
-      {
-        title: "Palais des Congrès et de la Culture",
-        description:
-          "A cultural center hosting exhibitions, concerts, and events throughout the year.",
-      },
-      {
-        title: "Château d'If",
-        description:
-          "A fortress-turned-prison on the island of If, made famous by Dumas’ 'The Count of Monte Cristo.'",
-      },
-      {
-        title: "Cité Radieuse",
-        description:
-          "An architectural landmark designed by Le Corbusier, showcasing modernist urban living.",
-      },
-      {
-        title: "Parc Borély",
-        description:
-          "A beautiful park with gardens, a lake, and a historic chateau, ideal for relaxation.",
-      },
-      {
-        title: "La Canebière",
-        description:
-          "The main avenue of Marseille, lined with shops, cafes, and historical buildings.",
-      },
-    ],
-  },
-  {
-    city: "Thua Thien Hue",
-    country: "Vietnam",
-    attractions: [
-      {
-        title: "Imperial City (Hue Citadel)",
-        description:
-          "A vast complex of palaces and temples, former imperial capital of Vietnam with rich history.",
-      },
-      {
-        title: "Perfume River",
-        description:
-          "Scenic boat rides showcasing lush landscapes and historic sites along the water.",
-      },
-      {
-        title: "Thien Mu Pagoda",
-        description:
-          "An iconic riverside pagoda with historical and spiritual significance.",
-      },
-      {
-        title: "Dong Ba Market",
-        description: "A bustling market for authentic local foods and crafts.",
-      },
-      {
-        title: "Tu Duc Tomb",
-        description:
-          "A serene royal tomb set in a tranquil garden, showcasing imperial architecture.",
-      },
-      {
-        title: "Khải Định Tomb",
-        description:
-          "A unique blend of Vietnamese and European architectural styles, known for its intricate mosaics.",
-      },
-      {
-        title: "Hue Royal Antiques Museum",
-        description:
-          "A museum displaying artifacts from the Nguyen Dynasty, offering insights into royal life.",
-      },
-      {
-        title: "Thanh Toan Bridge",
-        description:
-          "A charming wooden bridge with a traditional market nearby, reflecting rural life.",
-      },
-      {
-        title: "An Hien Garden House",
-        description:
-          "A traditional garden house showcasing the architectural style of Hue’s former nobility.",
-      },
-      {
-        title: "Vong Canh Hill",
-        description:
-          "A peaceful hilltop offering panoramic views of the city and surrounding countryside.",
-      },
-    ],
-  },
-  {
-    city: "Budapest",
-    country: "Hungary",
-    attractions: [
-      {
-        title: "Buda Castle & Castle Hill",
-        description:
-          "Historical palace complex with museums and panoramic views of the Danube.",
-      },
-      {
-        title: "Parliament Building",
-        description:
-          "Stunning neo-Gothic architecture on the Danube’s edge, a must-see for photo and history.",
-      },
-      {
-        title: "Széchenyi Thermal Bath",
-        description:
-          "One of Europe’s largest thermal spas, combining relaxation with Budapest’s spa culture.",
-      },
-      {
-        title: "Fisherman’s Bastion",
-        description:
-          "Romantic terraces offering iconic views of the city skyline.",
-      },
-      {
-        title: "St. Stephen’s Basilica",
-        description:
-          "A grand church housing the mummified right hand of Hungary’s first king.",
-      },
-      {
-        title: "Heroes’ Square",
-        description:
-          "A monumental square celebrating Hungary’s history and national heroes.",
-      },
-      {
-        title: "Chain Bridge",
-        description:
-          "The first permanent bridge across the Danube, linking Buda and Pest.",
-      },
-      {
-        title: "Great Market Hall",
-        description:
-          "A vibrant market for local produce, crafts, and traditional Hungarian cuisine.",
-      },
-      {
-        title: "Ruin Bars in the Jewish Quarter",
-        description:
-          "Unique bars set in abandoned buildings, known for their eclectic decor and lively atmosphere.",
-      },
-      {
-        title: "Gellért Hill & Citadel",
-        description:
-          "A hilltop fortress offering panoramic views of Budapest and the Danube River.",
+          "Baroque church located at the entrance of the Grand Canal, known for its stunning dome.",
       },
     ],
   },
 ];
+   

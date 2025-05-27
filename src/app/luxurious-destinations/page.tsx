@@ -32,9 +32,21 @@ export default function LuxuriousDestinations() {
           >
             <h2 className="font-semibold text-2xl">{item.city}</h2>
             <p className="text-gray-400">
-              {[item.state, item.region, item.country]
-                .filter(Boolean)
-                .join(", ")}
+              {(() => {
+                const locationParts = [];
+
+                // Add state only if it exists
+                if (item.state) locationParts.push(item.state);
+
+                // Add region only if it exists AND is different from state
+                if (item.region && item.region !== item.state)
+                  locationParts.push(item.region);
+
+                // Always add country if it exists
+                if (item.country) locationParts.push(item.country);
+
+                return locationParts.join(", ");
+              })()}
             </p>
           </div>
         ))}
