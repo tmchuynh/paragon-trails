@@ -1,3 +1,5 @@
+import { contactDepartments } from "@/lib/constants/info/contact";
+
 export default function ContactInformation() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -13,43 +15,40 @@ export default function ContactInformation() {
         </blockquote>
       </header>
 
-      <div className="gap-8 sm:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto lg:mx-0 mt-16 max-w-2xl lg:max-w-none text-base/7">
-        <div>
-          <h3 className="pl-6 border-indigo-600 border-l font-semibold text-gray-900">
-            Los Angeles
-          </h3>
-          <address className="pt-2 pl-6 border-gray-200 border-l text-gray-600 not-italic">
-            <p>4556 Brendan Ferry</p>
-            <p>Los Angeles, CA 90210</p>
-          </address>
-        </div>
-        <div>
-          <h3 className="pl-6 border-indigo-600 border-l font-semibold text-gray-900">
-            New York
-          </h3>
-          <address className="pt-2 pl-6 border-gray-200 border-l text-gray-600 not-italic">
-            <p>886 Walter Street</p>
-            <p>New York, NY 12345</p>
-          </address>
-        </div>
-        <div>
-          <h3 className="pl-6 border-indigo-600 border-l font-semibold text-gray-900">
-            Toronto
-          </h3>
-          <address className="pt-2 pl-6 border-gray-200 border-l text-gray-600 not-italic">
-            <p>7363 Cynthia Pass</p>
-            <p>Toronto, ON N3Y 4H8</p>
-          </address>
-        </div>
-        <div>
-          <h3 className="pl-6 border-indigo-600 border-l font-semibold text-gray-900">
-            London
-          </h3>
-          <address className="pt-2 pl-6 border-gray-200 border-l text-gray-600 not-italic">
-            <p>114 Cobble Lane</p>
-            <p>London N1 2EF</p>
-          </address>
-        </div>
+      <h2 className="mt-24 mb-6 font-bold text-2xl text-gray-900">
+        Department Contacts
+      </h2>
+      <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {contactDepartments.map((dept, index) => (
+          <div
+            key={index}
+            className="shadow-sm hover:shadow-md p-6 border border-gray-200 rounded-lg transition-shadow"
+          >
+            <h3 className="mb-2 font-semibold text-indigo-600 text-lg">
+              {dept.department}
+            </h3>
+            <div className="space-y-2 text-gray-600">
+              <p className="flex items-center gap-2">
+                <span className="font-medium">Phone:</span> {dept.phone}
+              </p>
+              <p className="flex items-center gap-2">
+                <span className="font-medium">Email:</span>{" "}
+                <a
+                  href={`mailto:${dept.email}`}
+                  className="text-indigo-600 hover:underline"
+                >
+                  {dept.email}
+                </a>
+              </p>
+              <p className="flex items-center gap-2">
+                <span className="font-medium">Hours:</span> {dept.hours}
+              </p>
+              <p className="mt-2 pt-2 border-gray-100 border-t text-gray-500 text-sm">
+                {dept.description}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

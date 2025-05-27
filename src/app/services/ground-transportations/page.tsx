@@ -13,9 +13,15 @@ export default function TransportationPage() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
       <header>
-        <h1>Ground Transportation Services</h1>
-        <blockquote>"Where Every Mile Reflects Excellence"</blockquote>
-        <h5>A Paragon Trails Signature Experience</h5>
+        <h1>Seamless Journeys on Land</h1>
+        <h5>
+          Luxury vehicles and expert chauffeurs for your every destination.
+        </h5>
+        <blockquote>
+          "The perfect blend of comfort and style—our ground transport made
+          every trip unforgettable."
+          <cite>– Sarah L., Exclusive Traveler</cite>
+        </blockquote>
       </header>
 
       {/* Introduction */}
