@@ -239,21 +239,6 @@ export default function PrivateAviation() {
                     ))}
                   </ul>
                 </div>
-                <p>
-                  <strong>Duration: </strong>
-                  {route.durationDays}
-                </p>
-                <p>
-                  <strong>Aviation Type: </strong> {route.aircraftType}
-                </p>
-                <p>
-                  <strong>Ideal For: </strong>
-                  {route.idealFor.join(", ")}
-                </p>
-                <p>
-                  <strong>Experience Type: </strong>
-                  {route.experienceType}
-                </p>
               </div>
             )
           )}
