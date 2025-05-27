@@ -3,11 +3,6 @@ export type NotFoundContextType = {
   setNotFound: (value: boolean) => void;
 };
 
-export type Testimonial = {
-  testimonial: string;
-  author: string;
-};
-
 export type Menu = {
   title: string;
   href: string;
