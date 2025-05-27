@@ -3,12 +3,12 @@ export const homestayHeritageLocations = [
     city: "Kyoto",
     country: "Japan",
     description:
-      "Traditional machiya-style homes with tatami rooms, tea ceremonies, and cultural immersion. Experience the essence of Kyoto's rich heritage.",
+      "Step into Japan's cultural heart in traditional machiya-style homes, where centuries of history are preserved in every detail. These elegant wooden townhouses feature sliding paper doors, tranquil inner gardens, and tatami rooms that have hosted generations of artisans and merchants. Your stay includes participation in authentic tea ceremonies conducted with rituals unchanged for centuries, calligraphy lessons using traditional techniques, and seasonal kaiseki meals that showcase Kyoto's refined culinary heritage. Located in historic neighborhoods where geisha still practice their arts, these homes offer a rare opportunity to experience the living traditions of Japan's former imperial capital beyond what typical tourists encounter.",
     hosts: [
       {
         name: "The Nakamura Family",
         background:
-          "Kimono artisans for three generations. Offering a glimpse into traditional craftsmanship. ",
+          "The Nakamura family has preserved the art of traditional kimono-making for three generations, with techniques dating back to the Edo period. Master artisan Hiroshi Nakamura learned the craft from his father at age 12 and now works alongside his wife Mizuki and their adult daughter Saki. Their workshop, attached to their 140-year-old machiya home, houses antique silk-screening equipment and natural dye recipes closely guarded as family secrets. The Nakamuras regularly showcase their pieces at prestigious exhibitions and have received national recognition for their preservation of disappearing yuzen painting techniques. Their home displays family heirlooms including samurai-era kimono fragments and Meiji-period textile implements, while guests are invited to observe the family's meticulous craftsmanship through every stage of the kimono-making process.",
         maxGuests: 4,
         curfew: "10:00 PM",
         guestPolicy:
@@ -21,7 +21,8 @@ export const homestayHeritageLocations = [
       },
       {
         name: "Ayaka Fujimoto",
-        background: "Tea ceremony instructor offering authentic experiences. ",
+        background:
+          "Ayaka Fujimoto, a certified tea master with over 25 years of practice in the Urasenke school tradition, has dedicated her life to the perfectionism and mindfulness of the Japanese tea ceremony. After training under renowned tea masters in both Kyoto and Tokyo, she spent five years studying in a Buddhist temple to deepen her spiritual understanding of the practice. Her restored century-old home features a purpose-built tea room with a sunken hearth and seasonal alcove displays that change monthly to reflect traditional themes. Ayaka's ceremonies incorporate antique utensils passed down through generations, including bowls from celebrated Edo-period potters. Having taught the tea ceremony to visiting dignitaries and cultural ambassadors, she offers guests an extraordinary connection to this profound cultural tradition, explaining the philosophical concepts of harmony, respect, purity, and tranquility that underpin every precisely choreographed movement.",
         maxGuests: 2,
         curfew: "9:30 PM",
         guestPolicy: "Guests must check in by 6:00 PM. No guests under 12.",
@@ -33,8 +34,7 @@ export const homestayHeritageLocations = [
       },
       {
         name: "The Takeda Household",
-        background: "Historic home near Gion, with garden tours. ",
-        maxGuests: 5,
+        background:
         curfew: "11:00 PM",
         guestPolicy: "Small pets allowed. No loud music.",
         houseRules: [
