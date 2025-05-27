@@ -1,42 +1,33 @@
 export default function TravelSafetyInformation() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      <h1 className="mb-4 font-bold text-3xl text-center">
-        Travel Safety Information
-      </h1>
-
-      <div className="mb-8">
-        <h2 className="mb-2 font-semibold text-2xl text-center">
+      <header>
+        <h1>Travel Safety Information</h1>
+        <blockquote>
           Your safety is our highest priority—so you can travel freely,
           fearlessly, and fully immersed in the experience.
-        </h2>
-        <p className="mb-4 text-lg">
+        </blockquote>
+        <p>
           At Paragon Trails, safety is never an afterthought. It's built into
           the architecture of every journey we design. From your initial
           consultation to the final moments of your return, we work behind the
           scenes to ensure that every aspect of your trip is supported by
           world-class security standards, global partnerships, and on-call
           assistance. Our philosophy is simple: the freedom to explore begins
-          with the confidence of knowing you are protected.
+          with the confidence of knowing you are protected. Whether you're
+          traveling to a bustling metropolis or an isolated island sanctuary,
+          this page outlines essential safety guidance to keep you informed,
+          prepared, and protected.
         </p>
-        <p className="mb-4 text-lg">
-          Whether you're traveling to a bustling metropolis or an isolated
-          island sanctuary, this page outlines essential safety guidance to keep
-          you informed, prepared, and protected.
-        </p>
-      </div>
+      </header>
 
       {/* Before You Travel Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          1. Before You Travel: Preparation Is Protection
-        </h2>
+      <section>
+        <h2>1. Before You Travel: Preparation Is Protection</h2>
 
         <div className="space-y-8">
           <div>
-            <h3 className="mb-2 font-medium text-xl">
-              Passport, Visas & Entry Requirements
-            </h3>
+            <h3>Passport, Visas & Entry Requirements</h3>
             <p className="mb-2">
               Ensure your passport is valid for at least six months beyond your
               intended return. Some countries may deny entry otherwise. We also
@@ -63,9 +54,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-medium text-xl">
-              Health & Immunization Guidelines
-            </h3>
+            <h3>Health & Immunization Guidelines</h3>
             <p className="mb-2">
               Traveling internationally may expose you to unfamiliar
               environments. Prepare in advance by:
@@ -91,9 +80,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-medium text-xl">
-              Comprehensive Travel Insurance
-            </h3>
+            <h3>Comprehensive Travel Insurance</h3>
             <p className="mb-2">
               We strongly recommend insurance that includes:
             </p>
@@ -113,14 +100,12 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* In Transit Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          2. In Transit: Tips for Secure Movement
-        </h2>
+      <section>
+        <h2>2. In Transit: Tips for Secure Movement</h2>
 
         <div className="gap-6 grid md:grid-cols-2">
           <div className="bg-gray-50 p-5 rounded-lg">
-            <h3 className="mb-3 font-medium text-xl">Airports & Flights</h3>
+            <h3>Airports & Flights</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>Arrive early for international departures.</li>
               <li>
@@ -134,7 +119,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg">
-            <h3 className="mb-3 font-medium text-xl">Transportation Abroad</h3>
+            <h3>Transportation Abroad</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>
                 Use pre-arranged private transfers or licensed taxis through
@@ -154,14 +139,12 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* On the Ground Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          3. On the Ground: Staying Safe at Your Destination
-        </h2>
+      <section>
+        <h2>3. On the Ground: Staying Safe at Your Destination</h2>
 
-        <div className="space-y-8">
+        <div className="gap-6 grid md:grid-cols-2">
           <div>
-            <h3 className="mb-2 font-medium text-xl">Hotel & Villa Security</h3>
+            <h3>Hotel & Villa Security</h3>
             <p className="mb-2">
               All accommodations booked through Paragon Trails are:
             </p>
@@ -187,7 +170,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-medium text-xl">Local Awareness</h3>
+            <h3>Local Awareness</h3>
             <p className="mb-2">
               Cultural sensitivity often plays a role in safety. Remain aware
               of:
@@ -203,7 +186,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-medium text-xl">Food & Water Safety</h3>
+            <h3>Food & Water Safety</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>Drink bottled water unless told otherwise.</li>
               <li>
@@ -220,14 +203,12 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* Technology & Digital Security Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          4. Technology & Digital Security
-        </h2>
+      <section>
+        <h2>4. Technology & Digital Security</h2>
 
         <div className="gap-6 grid md:grid-cols-2">
           <div className="p-5 border border-gray-200 rounded-lg">
-            <h3 className="mb-3 font-medium text-xl">Staying Connected</h3>
+            <h3>Staying Connected</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>
                 Set up international roaming or use an eSIM with reliable
@@ -242,9 +223,7 @@ export default function TravelSafetyInformation() {
           </div>
 
           <div className="p-5 border border-gray-200 rounded-lg">
-            <h3 className="mb-3 font-medium text-xl">
-              Cybersecurity Best Practices
-            </h3>
+            <h3>Cybersecurity Best Practices</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>
                 Avoid using public Wi-Fi for banking or email without a VPN.
@@ -257,14 +236,12 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* Emergency Services Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          5. Emergency Services & On-Call Support
-        </h2>
-
-        <p className="mb-4">
-          In the rare event that something goes wrong, you'll never be alone.
-          Paragon Trails provides:
+      <section>
+        <h2>5. Emergency Services & On-Call Support</h2>
+        <p>
+          Each client receives a private emergency hotline and priority access
+          to crisis support. In the rare event that something goes wrong, you'll
+          never be alone. Paragon Trails provides:
         </p>
 
         <ul className="space-y-1 mb-6 pl-5 list-disc">
@@ -277,15 +254,8 @@ export default function TravelSafetyInformation() {
           </li>
         </ul>
 
-        <p className="mb-4">
-          Each client receives a private emergency hotline and priority access
-          to crisis support.
-        </p>
-
-        <div className="bg-gray-50 p-5 rounded-lg">
-          <h3 className="mb-3 font-medium text-xl">
-            Emergency Situations We Assist With:
-          </h3>
+        <div>
+          <h3>Emergency Situations We Assist With:</h3>
           <ul className="space-y-1 pl-5 list-disc">
             <li>Lost or stolen passport</li>
             <li>Medical incidents and hospital navigation</li>
@@ -297,12 +267,10 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* Destination Risk Monitoring Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          6. Destination Risk Monitoring
-        </h2>
+      <section>
+        <h2>6. Destination Risk Monitoring</h2>
 
-        <p className="mb-4">
+        <p>
           Paragon Trails uses an integrated risk-assessment platform to monitor:
         </p>
 
@@ -320,10 +288,8 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* General Travel Tips Section */}
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          7. General Travel Tips from Our Experts
-        </h2>
+      <section>
+        <h2>7. General Travel Tips from Our Experts</h2>
 
         <ul className="space-y-2 pl-5 list-disc">
           <li>
@@ -361,12 +327,10 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* Final Words Section */}
-      <section className="mb-8">
-        <h2 className="mb-4 font-semibold text-2xl">
-          Final Words from Our Safety Team
-        </h2>
+      <section>
+        <h2>Final Words from Our Safety Team</h2>
 
-        <p className="mb-4">
+        <p>
           Luxury should never compromise safety—and with Paragon Trails, it
           never does. Our behind-the-scenes infrastructure is designed to keep
           your experience seamless, no matter the complexity of your
@@ -382,10 +346,8 @@ export default function TravelSafetyInformation() {
       </section>
 
       {/* Emergency Contact Section */}
-      <section className="p-6 rounded-lg">
-        <h3 className="mb-3 font-semibold text-xl">
-          Emergency Travel Assistance:
-        </h3>
+      <section>
+        <h2>Emergency Travel Assistance:</h2>
         <p>
           <span className="font-medium">Phone:</span> +1 (310) 477–8820 (24/7
           Support)
