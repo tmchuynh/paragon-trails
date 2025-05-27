@@ -1,6 +1,6 @@
 export interface TeamMember {
   name: string;
-  certifications: string[];
+  certifications?: string[];
   languages: string[];
   experienceYears: number;
   specialties?: string[];
@@ -13,4 +13,16 @@ export interface TeamMember {
 export interface StaffCategory {
   category: string;
   profiles: TeamMember[];
+}
+
+export interface TourGuide extends TeamMember {
+  bio: string;
+  image?: string;
+  city: string;
+  state?: string;
+  region?: string;
+  country: string;
+  isPopular?: boolean;
+  description: string;
+  quote: string;
 }
