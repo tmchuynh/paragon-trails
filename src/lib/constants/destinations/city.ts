@@ -1,4 +1,6 @@
-export const cityattractions = [
+import { CityAttractions } from "@/lib/interfaces/services/attractions";
+
+export const cityattractions: CityAttractions[] = [
   {
     city: "New York City",
     state: "NY",
