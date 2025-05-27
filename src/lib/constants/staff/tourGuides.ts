@@ -131,8 +131,10 @@ export const tourGuides: TourGuide[] = [
     experienceYears: 10,
     specialties: ["Art Tours", "Street Food", "Cultural History"],
     description:
-      "Carlos offers vibrant city tours, focusing on art, street food, and the rich cultural tapestry of Mexico’s capital.",
+      "Carlos offers vibrant city tours, focusing on art, street food, and the rich cultural tapestry of Mexico's capital.",
     bio: "Carlos is a Mexico City native with a deep passion for his country's art and culture. He studied art history at UNAM and has worked as a curator in various prestigious museums in Mexico. Carlos combines his extensive knowledge of art with his love for storytelling, making each tour a unique experience. He is also a talented chef, and his tours often include exclusive cooking classes and food tastings at hidden-gem restaurants.",
+    quote:
+      "Art is everywhere in Mexico City—in our murals, our food, our streets. I don't just show you the city; I help you taste it, feel it, and live it.",
   },
   {
     name: "Fatima",
@@ -143,6 +145,8 @@ export const tourGuides: TourGuide[] = [
     specialties: ["Medina Tours", "Cultural Heritage", "Crafts and Souks"],
     description:
       "Fatima expertly navigates the medina, guiding guests through centuries-old markets while sharing traditional craft stories.",
+    quote:
+      "In the medina of Fez, every doorway hides a workshop, every alley tells a story. My ancestors walked these same paths—their hands created what my words now explain.",
     bio: "Fatima was born and raised in Fez, and her deep knowledge of the city’s history and culture is complemented by her expertise in Moroccan handicrafts. She has worked with various artisans' cooperatives to promote and preserve traditional Moroccan crafts. Fatima's tours are immersive experiences that provide guests with a deep understanding of Fez's cultural heritage, often including hands-on workshops with local artisans.",
   },
   {
