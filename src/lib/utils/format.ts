@@ -46,7 +46,7 @@ export const capitalize = (str: string): string => {
       if (
         index === 0 ||
         (index === arr.length - 1 && arr.length > 1) ||
-        !wordsToIgnore.has(lowerWord)
+        (!wordsToIgnore.has(lowerWord) && !lowerWord.startsWith("d'"))
       ) {
         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
       }
@@ -130,7 +130,7 @@ export function formatKebabToCamelCase(str: string): string {
 export function formatToSlug(str: string): string {
   return str
     .toLowerCase()
-    .replace(/[^a-z0-9&+\/@$\(\)]+/g, "-")
+    .replace(/[^a-z0-9&+\/@$'\(\)]+/g, "-")
     .replace(/^-|-$/g, "");
 }
 
