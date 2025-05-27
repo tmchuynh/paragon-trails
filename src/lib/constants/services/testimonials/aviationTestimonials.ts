@@ -1,4 +1,6 @@
-export const aviationTestimonials = [
+import { Testimonial } from "@/lib/interfaces/services/testimonials";
+
+export const aviationTestimonials: Testimonial[] = [
   {
     quote:
       "From wheels-up in Zurich to a sunset descent into the Maldives, every detail of our flight was choreographed to perfection. The crew addressed us by name, the meals were tailored to our dietary needs, and the onboard experience rivaled a five-star hotel.",

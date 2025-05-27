@@ -1,4 +1,6 @@
-export const groundTransportTestimonials = [
+import { Testimonial } from "@/lib/interfaces/services/testimonials";
+
+export const groundTransportTestimonials: Testimonial[] = [
   {
     quote:
       "The only thing better than arriving in Saint-Tropez was how we arrived—helicopter, tarmac pickup, and a glass of something cold waiting in the back of the Maybach. That's Paragon magic.",

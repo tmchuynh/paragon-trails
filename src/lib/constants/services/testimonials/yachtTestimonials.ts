@@ -1,4 +1,6 @@
-export const yachtTestimonials = [
+import { Testimonial } from "@/lib/interfaces/services/testimonials";
+
+export const yachtTestimonials: Testimonial[] = [
   {
     quote:
       "We’ve charted yachts before, but never like this. From Corsican wine pairings to a surprise underwater drone show for our children, every detail was imagined in advance. The captain and crew made us feel like royalty—without a hint of pretension.",
