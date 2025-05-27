@@ -122,57 +122,97 @@ export default function DestinationDetailsPage() {
       // Check rating filter
       if (attraction.rating < filters.minRating) return false;
 
-      // Check price category
+      // Check price category using the new property
       if (filters.priceCategory !== "all") {
-        const priceRange = attraction.priceRange?.toLowerCase() || "";
+        // Use the new priceCategory property if available
+        if (attraction.priceCategory) {
+          if (filters.priceCategory !== attraction.priceCategory) {
+            return false;
+          }
+        } else {
+          // Fall back to old string parsing method
+          const priceRange = attraction.priceRange?.toLowerCase() || "";
 
-        switch (filters.priceCategory) {
-          case "free":
-            if (!priceRange.includes("free") && !attraction.isFree)
-              return false;
-            break;
-          case "budget":
-            if (!priceRange.includes("$") || priceRange.includes("$$"))
-              return false;
-            break;
-          case "moderate":
-            if (!priceRange.includes("$$") || priceRange.includes("$$$"))
-              return false;
-            break;
-          case "expensive":
-            if (!priceRange.includes("$$$") || priceRange.includes("$$$$"))
-              return false;
-            break;
-          case "luxury":
-            if (!priceRange.includes("$$$$")) return false;
-            break;
+          switch (filters.priceCategory) {
+            case "free":
+              if (!priceRange.includes("free") && !attraction.isFree)
+                return false;
+              break;
+            case "budget":
+              if (!priceRange.includes("$") || priceRange.includes("$$"))
+                return false;
+              break;
+            case "moderate":
+              if (!priceRange.includes("$$") || priceRange.includes("$$$"))
+                return false;
+              break;
+            case "expensive":
+              if (!priceRange.includes("$$$") || priceRange.includes("$$$$"))
+                return false;
+              break;
+            case "luxury":
+              if (!priceRange.includes("$$$$")) return false;
+              break;
+          }
         }
       }
 
-      // Check time of day
-      if (filters.timeOfDay !== "all" && attraction.openingHours) {
-        const hours = attraction.openingHours.toLowerCase();
+      // Check time of day using the new property
+      if (filters.timeOfDay !== "all") {
+        // Use the new timeOfDay property if available
+        if (attraction.timeOfDay) {
+          // Map the filter values to the property values
+          const mappedTimeOfDay = (() => {
+            switch (filters.timeOfDay) {
+              case "morning":
+              case "afternoon":
+                return "daytime";
+              case "evening":
+              case "night":
+                return "night";
+              case "24hours":
+                return "all day";
+              default:
+                return filters.timeOfDay;
+            }
+          })();
 
-        switch (filters.timeOfDay) {
-          case "morning":
-            if (!hours.includes("am") && !hours.includes("morning"))
-              return false;
-            break;
-          case "afternoon":
-            if (!hours.includes("pm") && !hours.includes("afternoon"))
-              return false;
-            break;
-          case "evening":
-            if (!hours.includes("evening") && !hours.includes("pm"))
-              return false;
-            break;
-          case "night":
-            if (!hours.includes("night") && !hours.includes("pm")) return false;
-            break;
-          case "24hours":
-            if (!hours.includes("24") && !hours.includes("all day"))
-              return false;
-            break;
+          if (
+            attraction.timeOfDay !== mappedTimeOfDay &&
+            !(
+              mappedTimeOfDay === "daytime" &&
+              attraction.timeOfDay === "all day"
+            ) &&
+            !(mappedTimeOfDay === "night" && attraction.timeOfDay === "all day")
+          ) {
+            return false;
+          }
+        } else if (attraction.openingHours) {
+          // Fall back to old string parsing method
+          const hours = attraction.openingHours.toLowerCase();
+
+          switch (filters.timeOfDay) {
+            case "morning":
+              if (!hours.includes("am") && !hours.includes("morning"))
+                return false;
+              break;
+            case "afternoon":
+              if (!hours.includes("pm") && !hours.includes("afternoon"))
+                return false;
+              break;
+            case "evening":
+              if (!hours.includes("evening") && !hours.includes("pm"))
+                return false;
+              break;
+            case "night":
+              if (!hours.includes("night") && !hours.includes("pm"))
+                return false;
+              break;
+            case "24hours":
+              if (!hours.includes("24") && !hours.includes("all day"))
+                return false;
+              break;
+          }
         }
       }
 
