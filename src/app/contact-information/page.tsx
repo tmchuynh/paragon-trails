@@ -1,7 +1,7 @@
 export default function ContactInformation() {
   return (
     <div className="flex flex-col justify-center items-center p-4 min-h-screen">
-      <h1 className="mb-4 font-bold text-3xl">Contact Information</h1>
+      <h1>Contact Information</h1>
       <p className="max-w-2xl text-center text-lg">
         For inquiries, please reach out to us at:
       </p>
