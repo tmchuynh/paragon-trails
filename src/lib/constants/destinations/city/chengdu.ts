@@ -58,6 +58,7 @@ export const chengdusichuanProvincechina: Attraction[] = [
     openingHours:
       "10:00 AM - 10:00 PM (weekdays), 10:00 AM - 11:00 PM (weekends)",
     priceRange: "Free entry (shopping and dining prices vary)",
+    isFree: true,
     isPopular: true,
     isHistorical: true,
     isLocalExperience: true,

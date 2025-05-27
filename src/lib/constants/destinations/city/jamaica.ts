@@ -54,6 +54,7 @@ export const jamaicagreaterAntillescaribbean: Attraction[] = [
     openingHours: "Open 24/7",
     priceRange: "Free (resort and activity prices vary)",
     isPopular: true,
+    isFree: true,
     isRomantic: true,
     isNightlife: true,
     isOutdoor: true,
