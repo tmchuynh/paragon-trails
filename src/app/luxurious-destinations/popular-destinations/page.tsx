@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 export default function PopularDestinations() {
   const router = useRouter();
   return (
-    <div className="flex flex-col justify-center items-center p-4 min-h-screen">
+    <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
         <h1>World-Class Journeys, Unforgettable Places</h1>
         <h5>
