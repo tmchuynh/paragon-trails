@@ -133,3 +133,13 @@ export function formatToSlug(str: string): string {
     .replace(/[^a-z0-9&+\/@$\(\)]+/g, "-")
     .replace(/^-|-$/g, "");
 }
+
+
+export const formatLanguages = (languages: string[]) => {
+  if (languages.length === 0) return "";
+  if (languages.length === 1) return languages[0];
+
+  const lastLanguage = languages[languages.length - 1];
+  const otherLanguages = languages.slice(0, -1).join(", ");
+  return `${otherLanguages}, and ${lastLanguage}`;
+};
