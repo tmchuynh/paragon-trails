@@ -69,7 +69,7 @@ export default function LuxuriousDestinations() {
 
               router.push(
                 `/luxurious-destinations/${
-                  item.country
+                  item.city
                 }/details?${queryParams.toString()}`
               );
             }}
