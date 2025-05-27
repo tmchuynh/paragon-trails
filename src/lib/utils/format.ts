@@ -143,3 +143,15 @@ export const formatLanguages = (languages: string[]) => {
   const otherLanguages = languages.slice(0, -1).join(", ");
   return `${otherLanguages}, and ${lastLanguage}`;
 };
+
+export function formatTitleToCamcelCase(title: string): string {
+  return title
+    .split(" ")
+    .map((word, index) => {
+      if (index === 0) {
+        return word.toLowerCase();
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join("");
+}
