@@ -1,16 +1,24 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { homestayTestimonials } from "@/lib/constants/services/testimonials/homestayTestimonials";
+import { useRouter } from "next/navigation";
+
 export default function HomestayPage() {
+  const router = useRouter();
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Homestays & Heritage Stays Experiences</h1>
+        <h1>Stay Where Stories Live</h1>
+        <h5>Authentic stays with welcoming local hosts</h5>
         <blockquote>
-          Discover the true spirit of travel through Paragon Trails Homestays —
-          where every stay is an invitation to belong.
+          “Our host didn’t just give us a room—she gave us memories, traditions,
+          and a sense of home in a foreign land.” – Daniel K., Homestay Traveler
         </blockquote>
       </header>
 
       {/* What Is a Homestay Section */}
-      <div>
+      <section>
         <h2>What Is a Homestay?</h2>
         <p>
           A homestay is a distinctive and immersive form of accommodation where
@@ -36,7 +44,7 @@ export default function HomestayPage() {
           morning coffee, a homestay creates memories and bonds that last far
           beyond your trip.
         </p>
-      </div>
+      </section>
 
       <section>
         <h2>The Essence of Paragon Trails Homestays</h2>
@@ -63,7 +71,10 @@ export default function HomestayPage() {
           Trails experience designed to elevate your journey beyond
           expectations.
         </p>
-        <h3>Our Commitment to Your Safety & Satisfaction</h3>
+      </section>
+
+      <section>
+        <h2>Our Commitment to Your Safety & Satisfaction</h2>
         <p>
           Your safety and peace of mind are paramount. We implement a rigorous
           screening process for all homestay hosts, ensuring compliance with
@@ -83,7 +94,10 @@ export default function HomestayPage() {
           accommodations, or urgent matters, our team is just a call or message
           away to ensure your experience remains smooth, safe, and enjoyable.
         </p>
-        <h3>Seamless Integration with Your Journey</h3>
+      </section>
+
+      <section>
+        <h2>Seamless Integration with Your Journey</h2>
         <p>
           Paragon Trails curates homestay experiences as an integral part of
           your travel itinerary, blending accommodation seamlessly with
@@ -102,6 +116,27 @@ export default function HomestayPage() {
           destination—offering travel that is luxurious, authentic, and
           profoundly transformative.
         </p>
+        <div className="flex md:flex-row flex-col gap-4">
+          <Button
+            onClick={() =>
+              router.push(
+                "/services/homestays-and-heritage-stays/homestay-destinations"
+              )
+            }
+          >
+            Take a Look at The Destinations
+          </Button>
+
+          <Button
+            onClick={() =>
+              router.push(
+                "/services/homestays-and-heritage-stays/homestay-destinations/the-paragon-families"
+              )
+            }
+          >
+            Meet the Families
+          </Button>
+        </div>
       </section>
 
       {/* Homestay Benefits Section */}
@@ -164,36 +199,55 @@ export default function HomestayPage() {
       <section>
         <h2>Who Should Consider a Homestay?</h2>
         <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <p className="font-medium">Cultural Enthusiasts</p>
             <p className="text-sm">
               who want to dive deeper into local traditions.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <p className="font-medium">Solo Travelers</p>
             <p className="text-sm">
               seeking a secure and friendly environment.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <p className="font-medium">Students and Language Learners</p>
             <p className="text-sm">
               aiming to improve their skills through immersion.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <p className="font-medium">Families and Groups</p>
             <p className="text-sm">
               interested in a more personal travel experience.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <p className="font-medium">Budget Travelers</p>
             <p className="text-sm">
               looking for affordable yet authentic accommodations.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Client Testimonials */}
+      <section className="mb-10 w-full">
+        <h2>Client Testimonials</h2>
+
+        <div className="gap-6 grid md:grid-cols-3">
+          {homestayTestimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className="flex flex-col justify-between bg-card shadow-md p-5 rounded-lg"
+            >
+              <p className="mb-2">"{testimonial.quote}"</p>
+              <p className="text-gray-600 text-sm">
+                — {testimonial.author}, {testimonial.title}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -307,7 +361,7 @@ export default function HomestayPage() {
 
       {/* Contact Information Section */}
       <section>
-        <h2 className="mb-2 font-semibold text-2xl">Get in Touch</h2>
+        <h2>Get in Touch</h2>
         <p>
           For more information about our homestay options, please contact us at:
         </p>
