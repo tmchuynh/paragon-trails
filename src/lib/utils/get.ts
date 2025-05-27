@@ -69,7 +69,9 @@ export function findAttractionsByCityAndCountry(
 ): any[] {
   try {
     const cityData = cityattractions.find(
-      (item) => item.city === city && item.country === country
+      (item) =>
+        (item.city === city && item.country === country) ||
+        item.region === country
     );
 
     return cityData?.attractions || [];
