@@ -63,7 +63,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Central Vietnam",
     country: "Vietnam",
-    isPopular: true,
     subtitle: "City of Bridges",
     quote:
       "Walking across the Golden Bridge held by giant hands was surreal! Paragon Trails timed our visit perfectly to avoid crowds and get the best photos.",
@@ -73,7 +72,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "South Central Coast",
     country: "Vietnam",
-    isPopular: true,
     subtitle: "Riviera of the South China Sea",
     quote:
       "The island-hopping tour arranged by Paragon Trails let us discover pristine beaches and amazing snorkeling spots that most tourists never see.",
@@ -160,7 +158,6 @@ export const cityattractions: CityAttractions[] = [
     state: "LA",
     region: "LA",
     country: "United States",
-    isPopular: true,
     subtitle: "The Big Easy",
     quote:
       "The after-hours jazz club tour arranged by Paragon Trails showed us the authentic musical soul of New Orleans that most tourists never experience.",
@@ -217,7 +214,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Tuscany",
     country: "Italy",
-    isPopular: true,
     subtitle: "Land of Renaissance and Fine Wines",
     quote:
       "Our private wine tour through small family vineyards in Chianti was the highlight of our Italian journey. The sunset dinner overlooking San Gimignano's towers was straight out of a dream.",
@@ -289,7 +285,6 @@ export const cityattractions: CityAttractions[] = [
     city: "Amalfi Coast",
     country: "Italy",
     region: "Campania",
-    isPopular: true,
     subtitle: "Mediterranean Paradise",
     quote:
       "The private boat tour along the coast stopped at hidden grottos and swimming spots inaccessible by land. Our captain prepared fresh-caught lunch onboard - simply magical!",
@@ -323,7 +318,6 @@ export const cityattractions: CityAttractions[] = [
     city: "Naples",
     country: "Italy",
     region: "Campania",
-    isPopular: true,
     subtitle: "Birthplace of Pizza",
     quote:
       "Learning to make authentic Neapolitan pizza from a third-generation pizzaiolo was unforgettable. The private Pompeii tour arranged by Paragon brought ancient history to vivid life.",
@@ -332,7 +326,6 @@ export const cityattractions: CityAttractions[] = [
     city: "Bologna",
     country: "Italy",
     region: "Emilia-Romagna",
-    isPopular: true,
     subtitle: "Italy's Culinary Heart",
     quote:
       "Our pasta-making class with a local nonna was the highlight of our Italian trip. Paragon Trails found us experiences that connected us with real local culture, not tourist traps.",
@@ -342,7 +335,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Society Islands",
     country: "French Polynesia",
-    isPopular: true,
     subtitle: "Paradise in the South Pacific",
     quote:
       "Exploring the lush mountains and crystal-clear lagoons of Tahiti with our Paragon Trails guide was a once-in-a-lifetime experience. The local Polynesian cultural show was authentic and captivating.",
@@ -458,7 +450,6 @@ export const cityattractions: CityAttractions[] = [
     state: "GA",
     region: "GA",
     country: "United States",
-    isPopular: true,
     subtitle: "The City in a Forest",
     quote:
       "Our private tour of the Civil Rights landmarks with a historian as our guide was profoundly moving. The exclusive after-hours access to the Georgia Aquarium arranged by Paragon Trails was magical for our children.",
@@ -655,7 +646,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Scotland",
     country: "United Kingdom",
-    isPopular: true,
     subtitle: "Athens of the North",
     quote:
       "The private tour of Edinburgh Castle with our guide who shared stories of Scottish history was unforgettable. Experiencing the Royal Mile's vibrant atmosphere and tasting haggis at a local pub made this trip truly special.",
@@ -695,7 +685,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Kyoto Prefecture",
     country: "Japan",
-    isPopular: true,
     subtitle: "City of Ten Thousand Shrines",
     quote:
       "The private tour of Kinkaku-ji (Golden Pavilion) and Fushimi Inari Shrine with our guide who shared insights into Japanese spirituality was a highlight of our Kyoto experience. Participating in a traditional kaiseki meal was the perfect way to immerse ourselves in Japanese culture.",
@@ -715,7 +704,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Marmara Region",
     country: "Turkey",
-    isPopular: true,
     subtitle: "City of Two Continents",
     quote:
       "Exploring the Grand Bazaar and Hagia Sophia with our local guide who shared stories of Istanbul's rich history was unforgettable. The private Bosphorus cruise at sunset, complete with a traditional Turkish dinner, was the perfect way to experience this vibrant city.",
@@ -825,7 +813,6 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Marrakech-Safi & Fès-Meknès",
     country: "Morocco",
-    isPopular: true,
     subtitle: "Imperial Cities of Morocco",
     quote:
       "Exploring the vibrant souks of Marrakech and the historic medina of Fes with our local guides who shared stories of Morocco's rich history was unforgettable. The private desert camp experience in the Sahara, complete with camel rides and stargazing, was the highlight of our Moroccan adventure.",
