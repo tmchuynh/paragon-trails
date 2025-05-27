@@ -8,6 +8,11 @@ export default function CancellationAndRefundPolicy() {
         <h5>
           Clarity, transparency, and integrity—before your journey even begins.
         </h5>
+        <blockquote>
+          “Paragon Trails handled my cancellation with such professionalism and
+          care. I felt supported every step of the way.” – Emily R., Luxury
+          Traveler
+        </blockquote>
         <p>
           At Paragon Trails, we understand that plans can change. While our
           journeys are highly personalized and often require extensive advance

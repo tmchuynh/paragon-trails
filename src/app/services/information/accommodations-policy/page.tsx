@@ -6,8 +6,8 @@ export default function Accommodations() {
       {/* Hero Section */}
       <header>
         <h1>Accommodations Policy</h1>
-        <blockquote> "Luxury redefined, one journey at a time."</blockquote>
         <h5>Effective Date: May 2025</h5>
+        <blockquote> "Luxury redefined, one journey at a time."</blockquote>
       </header>
 
       {/* Overview */}

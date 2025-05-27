@@ -5,6 +5,11 @@ export default function TravelInsurance() {
         <header>
           <h1>Travel Insurance Policy</h1>
           <h5>Peace of mind, one destination at a time</h5>
+          <blockquote>
+            “Traveling with Paragon Trails was a dream come true, and having
+            insurance gave me the confidence to explore without worry.” – John
+            D., Adventure Traveler
+          </blockquote>
         </header>
 
         {/* Overview Section */}

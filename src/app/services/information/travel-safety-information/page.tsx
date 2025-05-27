@@ -3,10 +3,16 @@ export default function TravelSafetyInformation() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
         <h1>Travel Safety Information</h1>
+        <h5>
+          Your safety is our top priority, ensuring every journey is secure and
+          seamless.
+        </h5>
         <blockquote>
-          Your safety is our highest priority—so you can travel freely,
-          fearlessly, and fully immersed in the experience.
+          “Traveling with Paragon Trails was not only luxurious but also
+          incredibly safe. Their attention to detail in safety protocols gave me
+          peace of mind throughout my journey.” – Emily R., Frequent Traveler
         </blockquote>
+
         <p>
           At Paragon Trails, safety is never an afterthought. It's built into
           the architecture of every journey we design. From your initial
