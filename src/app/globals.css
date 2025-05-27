@@ -208,7 +208,11 @@
     @apply pl-4 italic mb-1 text-lg max-w-4xl mx-auto;
   }
   header {
-    @apply mb-8 w-full text-center md:w-6/7 mx-auto;
+    @apply mb-8 w-full;
+  }
+
+  header h1, header h5, header blockquote {
+    @apply text-center;
   }
 
   section {
