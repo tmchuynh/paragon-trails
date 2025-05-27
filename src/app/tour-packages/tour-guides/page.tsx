@@ -150,19 +150,19 @@ export default function TourGuides() {
           <div className="flex sm:flex-row flex-col justify-center gap-4">
             <Link
               href="/tour-packages"
-              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-white transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md transition-colors"
             >
               Browse Our Tours
             </Link>
             <a
               href="/about/team"
-              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-white transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md transition-colors"
             >
               Meet Our Team
             </a>
             <a
               href="/contact"
-              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-white transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md transition-colors"
             >
               Contact Us for a Custom Experience
             </a>
