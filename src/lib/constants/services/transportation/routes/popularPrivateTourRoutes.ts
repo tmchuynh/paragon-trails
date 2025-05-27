@@ -1,8 +1,10 @@
-export const popularAviationPrivateTourRoutes = [
+import { AircraftRoute } from "@/lib/interfaces/services/routes";
+
+export const popularAviationPrivateTourRoutes: AircraftRoute[] = [
   {
     routeName: "French Riviera Escape",
-    flightPath: "Paris → Nice → Monaco → Saint-Tropez → Return",
-    durationDays: 6,
+    route: "Paris → Nice → Monaco → Saint-Tropez → Return",
+    totalDuration: "6 days",
     experienceType: "Luxury Coastal",
     highlights: [
       "Private wine tasting in Provence",
@@ -10,12 +12,24 @@ export const popularAviationPrivateTourRoutes = [
       "Yacht day charter in Saint-Tropez",
     ],
     idealFor: ["Couples", "VIP honeymooners", "Luxury lifestyle seekers"],
-    aircraftType: "Light Jet or Helicopter Transfer",
+    travelType: ["Jet", "Helicopter", "Yacht"],
+    timeInAir: {
+      firstPeriod: "1h 30m (Paris to Nice)",
+      secondPeriod: "15m (Helicopter to Monaco)",
+      thirdPeriod: "45m (Monaco to Saint-Tropez via helicopter)",
+      fourthPeriod: "1h 30m (Saint-Tropez to Paris)",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "1 day in Nice",
+      secondPeriod: "2 days in Monaco",
+      thirdPeriod: "2 days in Saint-Tropez",
+    },
   },
   {
     routeName: "Alaskan Wilderness Expedition",
-    flightPath: "Seattle → Anchorage → Denali → Juneau → Return",
-    durationDays: 8,
+    route: "Seattle → Anchorage → Denali → Juneau → Return",
+    totalDuration: "8 days",
     experienceType: "Adventure & Nature",
     highlights: [
       "Guided glacier trekking and wildlife tours",
@@ -23,12 +37,24 @@ export const popularAviationPrivateTourRoutes = [
       "Seaplane access to remote fjords",
     ],
     idealFor: ["Explorers", "Nature photographers", "Adventure families"],
-    aircraftType: "Turboprop or Amphibious Aircraft",
+    travelType: ["Jet", "Amphibious Aircraft"],
+    timeInAir: {
+      firstPeriod: "3h 15m (Seattle to Anchorage)",
+      secondPeriod: "1h 30m (Anchorage to Denali)",
+      thirdPeriod: "2h (Denali to Juneau via seaplane)",
+      fourthPeriod: "3h 30m (Juneau to Seattle)",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "2 days in Anchorage",
+      secondPeriod: "3 days in Denali",
+      thirdPeriod: "2 days in Juneau",
+    },
   },
   {
     routeName: "Mediterranean Cultural Capitals",
-    flightPath: "Rome → Athens → Istanbul → Return",
-    durationDays: 10,
+    route: "Rome → Athens → Istanbul → Return",
+    totalDuration: "10 days",
     experienceType: "Historical & Cultural",
     highlights: [
       "Private tour of the Vatican and Sistine Chapel",
@@ -36,12 +62,24 @@ export const popularAviationPrivateTourRoutes = [
       "Private Bosphorus cruise with onboard chef",
     ],
     idealFor: ["Cultural travelers", "Art lovers", "Educated leisure seekers"],
-    aircraftType: "Midsize Jet",
+    travelType: ["Jet"],
+    timeInAir: {
+      firstPeriod: "2h (Rome to Athens)",
+      secondPeriod: "1h 30m (Athens to Istanbul)",
+      thirdPeriod: "2h 30m (Istanbul to Rome)",
+      fourthPeriod: "N/A",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "3 days in Rome",
+      secondPeriod: "3 days in Athens",
+      thirdPeriod: "3 days in Istanbul",
+    },
   },
   {
     routeName: "African Safari Circuit",
-    flightPath: "Cape Town → Kruger → Victoria Falls → Nairobi → Return",
-    durationDays: 12,
+    route: "Cape Town → Kruger → Victoria Falls → Nairobi → Return",
+    totalDuration: "12 days",
     experienceType: "Safari & Wildlife",
     highlights: [
       "Big Five game drives in Kruger",
@@ -49,12 +87,24 @@ export const popularAviationPrivateTourRoutes = [
       "Helicopter ride over Victoria Falls",
     ],
     idealFor: ["Wildlife enthusiasts", "Luxury adventurers", "Photographers"],
-    aircraftType: "Chartered Bush Plane / Light Jet",
+    travelType: ["Jet", "Helicopter", "Bush Plane"],
+    timeInAir: {
+      firstPeriod: "2h 30m (Cape Town to Kruger)",
+      secondPeriod: "2h (Kruger to Victoria Falls)",
+      thirdPeriod: "3h (Victoria Falls to Nairobi)",
+      fourthPeriod: "4h 30m (Nairobi to Cape Town)",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "3 days in Kruger",
+      secondPeriod: "2 days in Victoria Falls",
+      thirdPeriod: "3 days in Nairobi",
+    },
   },
   {
     routeName: "Icelandic Elements Tour",
-    flightPath: "Reykjavik → Golden Circle → Akureyri → Return",
-    durationDays: 5,
+    route: "Reykjavik → Golden Circle → Akureyri → Return",
+    totalDuration: "5 days",
     experienceType: "Geothermal & Natural Wonders",
     highlights: [
       "Private Blue Lagoon after-hours access",
@@ -62,12 +112,24 @@ export const popularAviationPrivateTourRoutes = [
       "Aurora Borealis viewing lodge",
     ],
     idealFor: ["Wellness tourists", "Science lovers", "Luxury explorers"],
-    aircraftType: "Helicopter / Turboprop",
+    travelType: ["Helicopter", "Jet"],
+    timeInAir: {
+      firstPeriod: "30m (Reykjavik to Golden Circle - heli)",
+      secondPeriod: "1h (Golden Circle to Akureyri)",
+      thirdPeriod: "1h (Akureyri to Reykjavik)",
+      fourthPeriod: "N/A",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "1 day in Golden Circle",
+      secondPeriod: "2 days in Akureyri",
+      thirdPeriod: "1 day in Reykjavik",
+    },
   },
   {
     routeName: "Island Hopper: South Pacific",
-    flightPath: "Tahiti → Bora Bora → Fiji → Vanuatu → Return",
-    durationDays: 9,
+    route: "Tahiti → Bora Bora → Fiji → Vanuatu → Return",
+    totalDuration: "9 days",
     experienceType: "Tropical Seclusion",
     highlights: [
       "Overwater bungalow stays",
@@ -75,12 +137,24 @@ export const popularAviationPrivateTourRoutes = [
       "Helicopter beach drop-offs",
     ],
     idealFor: ["Honeymooners", "Luxury groups", "Wellness retreats"],
-    aircraftType: "Midsize Jet / Amphibious Aircraft",
+    travelType: ["Jet", "Helicopter"],
+    timeInAir: {
+      firstPeriod: "1h (Tahiti to Bora Bora)",
+      secondPeriod: "4h (Bora Bora to Fiji)",
+      thirdPeriod: "2h (Fiji to Vanuatu)",
+      fourthPeriod: "6h (Vanuatu to Tahiti)",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "2 days in Bora Bora",
+      secondPeriod: "3 days in Fiji",
+      thirdPeriod: "2 days in Vanuatu",
+    },
   },
   {
     routeName: "Scandinavian Arctic Circle Trail",
-    flightPath: "Oslo → Tromsø → Svalbard → Return",
-    durationDays: 7,
+    route: "Oslo → Tromsø → Svalbard → Return",
+    totalDuration: "7 days",
     experienceType: "Polar Exploration",
     highlights: [
       "Polar bear expeditions",
@@ -92,12 +166,24 @@ export const popularAviationPrivateTourRoutes = [
       "Luxury science tourists",
       "Eco-conscious travelers",
     ],
-    aircraftType: "Turboprop / Midsize Jet",
+    travelType: ["Jet", "Turboprop"],
+    timeInAir: {
+      firstPeriod: "2h (Oslo to Tromsø)",
+      secondPeriod: "2h (Tromsø to Svalbard)",
+      thirdPeriod: "4h (Svalbard to Oslo)",
+      fourthPeriod: "N/A",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "2 days in Tromsø",
+      secondPeriod: "3 days in Svalbard",
+      thirdPeriod: "1 day in Oslo",
+    },
   },
   {
     routeName: "Desert Oasis Trail",
-    flightPath: "Dubai → Abu Dhabi → Muscat → Return",
-    durationDays: 5,
+    route: "Dubai → Abu Dhabi → Muscat → Return",
+    totalDuration: "5 days",
     experienceType: "Desert Luxury",
     highlights: [
       "Sunset dune bashing with private chef dinner",
@@ -105,6 +191,18 @@ export const popularAviationPrivateTourRoutes = [
       "Private pearl diving tour in Muscat",
     ],
     idealFor: ["Luxury adventurers", "Couples", "Culture-focused VIPs"],
-    aircraftType: "Light Jet / Helicopter",
+    travelType: ["Jet", "Helicopter", "SUV"],
+    timeInAir: {
+      firstPeriod: "45m (Dubai to Abu Dhabi)",
+      secondPeriod: "1h (Abu Dhabi to Muscat)",
+      thirdPeriod: "1h (Muscat to Dubai)",
+      fourthPeriod: "N/A",
+      return: "N/A",
+    },
+    timeOnLand: {
+      firstPeriod: "1 day in Abu Dhabi",
+      secondPeriod: "2 days in Muscat",
+      thirdPeriod: "1 day in Dubai",
+    },
   },
 ];

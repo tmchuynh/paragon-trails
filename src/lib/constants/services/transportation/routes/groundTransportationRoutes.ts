@@ -1,54 +1,76 @@
-export const groundTransportationRoutes = [
+import { GroundTransportationRoute } from "@/lib/interfaces/services/routes";
+
+export const groundTransportationRoutes: GroundTransportationRoute[] = [
   {
     route: "Dubai → Oman Desert Resort",
-    duration: "6 hours",
+    totalDuration: "6 hours",
+    timeOnRoad: "4.5 hours",
+    timeAtSite: "1.5 hours (arrival experience and feast)",
     highlight: "Falconry and starlit arrival feast",
   },
   {
     route: "Nice → Portofino",
-    duration: "4.5 hours",
+    totalDuration: "4.5 hours",
+    timeOnRoad: "4 hours",
+    timeAtSite: "30 minutes (picnic stop)",
     highlight: "Cliffside coastal drive with gourmet picnic en route",
   },
   {
     route: "Munich → Salzburg",
-    duration: "1.5 hours",
+    totalDuration: "1.5 hours",
+    timeOnRoad: "1 hour",
+    timeAtSite: "30 minutes (private castle tour stop)",
     highlight: "Alpine drive with private castle tour stop",
   },
   {
     route: "Los Angeles → Big Sur",
-    duration: "6 hours",
+    totalDuration: "6 hours",
+    timeOnRoad: "5 hours",
+    timeAtSite: "1 hour (curated wine tasting stops)",
     highlight:
       "Scenic Pacific Coast Highway drive with luxury SUV and curated wine stops",
   },
   {
     route: "Geneva → Chamonix",
-    duration: "2 hours",
+    totalDuration: "2 hours",
+    timeOnRoad: "1.5 hours",
+    timeAtSite: "30 minutes (ski concierge handoff and gear fitting)",
     highlight: "Snow-ready 4x4 transfer with private ski concierge",
   },
   {
     route: "Cape Town → Stellenbosch Wine Route",
-    duration: "1 hour",
+    totalDuration: "1 hour",
+    timeOnRoad: "30 minutes",
+    timeAtSite: "30 minutes (vineyard lunch and tastings)",
     highlight: "Private wine tastings and vineyard lunch",
   },
   {
     route: "Toronto → Niagara-on-the-Lake",
-    duration: "1.5 hours",
+    totalDuration: "1.5 hours",
+    timeOnRoad: "1 hour",
+    timeAtSite: "30 minutes (winery and theater walk-through)",
     highlight: "Chauffeured wine and theater tour",
   },
   {
     route: "Florence → Siena → Montepulciano",
-    duration: "3 hours",
+    totalDuration: "3 hours",
+    timeOnRoad: "2 hours",
+    timeAtSite: "1 hour (vineyard access and countryside views)",
     highlight: "Tuscan countryside drive with exclusive vineyard access",
   },
   {
     route: "Vancouver → Whistler",
-    duration: "2 hours",
+    totalDuration: "2 hours",
+    timeOnRoad: "1.5 hours",
+    timeAtSite: "30 minutes (lodge greeting and scenic overlook)",
     highlight:
       "Scenic Sea-to-Sky Highway in luxury SUV with mountain lodge stop",
   },
   {
     route: "Atlanta → Highlands, North Carolina",
-    duration: "3 hours",
+    totalDuration: "3 hours",
+    timeOnRoad: "2.5 hours",
+    timeAtSite: "30 minutes (catered brunch in scenic roadside stop)",
     highlight:
       "Luxury transfer through Blue Ridge Mountains with catered roadside brunch",
   },
