@@ -35,6 +35,8 @@ export const homestayHeritageLocations = [
       {
         name: "The Takeda Household",
         background:
+          "The Takeda family maintains one of Kyoto's oldest private gardens, designed by a master landscape artist in 1847 and featuring rare plant specimens, stone arrangements representing mountains and rivers, and a ceremonial tea house overlooking a koi pond. Their historic home near Gion was once a meeting place for intellectuals and artists during the Meiji Restoration and still contains original calligraphy and artwork from this pivotal period in Japanese history. Current household head Kazuo Takeda, a retired botany professor, conducts seasonal garden tours explaining the symbolism behind each carefully placed element and the horticultural techniques that have preserved this living artwork through numerous natural disasters and historical upheavals. His wife Emiko, an accomplished practitioner of ikebana flower arrangement, offers demonstrations of this traditional art form using seasonal blooms harvested from their garden according to sustainable methods established by her ancestors.",
+        maxGuests: 5,
         curfew: "11:00 PM",
         guestPolicy: "Small pets allowed. No loud music.",
         houseRules: [
@@ -49,12 +51,12 @@ export const homestayHeritageLocations = [
     city: "Udaipur",
     country: "India",
     description:
-      "Stay in restored havelis by the lake with royal family descendants or artisans. Experience the rich culture of Rajasthan.",
+      "Experience Rajasthan's regal heritage in majestic lakeside havelis that offer glimpses into India's royal past. These meticulously restored traditional mansions feature ornate marble balconies, intricate mirror mosaics, and peaceful courtyards where peacocks roam freely. Each stay includes immersion in authentic Rajasthani culture through morning puja ceremonies, turban-tying demonstrations, and classical music performances under the stars. Located on the shores of Lake Pichola with breathtaking views of the floating Lake Palace, these historic homes have housed generations of aristocracy and now welcome guests seeking deeper connections to the 'Venice of the East.' The families' personal stories of Rajput history and Mewar traditions reveal layers of cultural richness typically hidden from ordinary travelers.",
     hosts: [
       {
         name: "The Singh Pariwar",
         background:
-          "Descendants of local royalty maintaining a lakeside haveli. ",
+          "The Singh Pariwar traces their ancestry directly to the Sisodia clan that ruled the Kingdom of Mewar for over 1200 years, with family records documenting their lineage back to the 8th century. Their magnificent haveli, built in 1780 by their ancestor who served as chief minister to the Maharana, has remained in the family through British colonial rule and into modern India. The home showcases priceless artifacts including ceremonial swords awarded by Mughal emperors, royal portraiture, and hand-illustrated manuscripts detailing family achievements. Current head of household Raja Vikram Singh, formerly a diplomat before returning to preserve his heritage, leads evening discussions on Rajasthan's complex history and the challenges of maintaining aristocratic traditions in contemporary India. His wife Divya, trained in traditional temple dance, organizes cultural programs featuring local musicians playing rare instruments specific to the Mewar region. Their lakeside courtyard, where formal receptions for visiting dignitaries were once held, now serves as a magical setting for dinner beneath centuries-old banyan trees.",
         maxGuests: 6,
         curfew: "11:00 PM",
         guestPolicy:
@@ -67,7 +69,8 @@ export const homestayHeritageLocations = [
       },
       {
         name: "Manish & Rekha Sharma",
-        background: "Folk musicians offering cultural evenings in their home. ",
+        background:
+          "Manish and Rekha Sharma represent the beautiful convergence of Rajasthan's diverse musical traditions, with Manish descended from court musicians who performed for the Maharanas of Udaipur and Rekha coming from a lineage of folk performers from the rural Mewar region. Their 19th-century haveli has been converted into a living museum of musical heritage, housing over 50 traditional instruments including some that are now played by only a handful of people worldwide. The couple has traveled extensively documenting disappearing musical traditions, producing award-winning recordings of Rajasthani folk songs, and training a new generation of performers. Their evening gatherings incorporate storytelling about the historical context of each performance, explaining how different musical styles evolved to reflect the desert environment, royal patronage, and spiritual devotion. Guests are invited to participate in informal workshops to learn basic techniques on instruments like the ravanhatha (ancient violin) or dholak (hand drum) while Rekha demonstrates the intricate relationship between music and traditional dance forms.",
         maxGuests: 3,
         curfew: "10:00 PM",
         guestPolicy: "Music-loving guests welcome. Noise-sensitive neighbors.",
@@ -80,7 +83,7 @@ export const homestayHeritageLocations = [
       {
         name: "Priya Mehta",
         background:
-          "Local historian and painter hosting guests in her courtyard haveli who shares stories of Udaipur's past.",
+          "Priya Mehta bridges Udaipur's ancient heritage with contemporary artistic expression, having transformed her 300-year-old ancestral haveli into both a personal art studio and a repository of local historical knowledge. Holding a doctorate in Rajasthani history from Delhi University and having trained under master miniature painters, Priya preserves the stories of Udaipur through both academic research and artistic interpretation. Her courtyard home contains a remarkable private library of historical documents, including rare manuscripts and photographs documenting the transition from royal state to modern tourist destination. As a published author of three books on Mewar painting traditions and women's historical roles in Rajput society, Priya offers uniquely informed walking tours of the city's hidden historical sites, revealing layers of meaning in architectural details and cultural practices that even local guides often overlook. Her painting studio showcases her work merging traditional miniature techniques with contemporary themes, and she offers demonstrations of pigment preparation using minerals and plants according to centuries-old formulas.",
         maxGuests: 2,
         curfew: "9:00 PM",
         guestPolicy: "Only adult guests accepted. Solo travelers welcome.",
@@ -96,12 +99,12 @@ export const homestayHeritageLocations = [
     city: "Chiang Mai",
     country: "Thailand",
     description:
-      "Northern Thai homes with traditional Lanna architecture, cooking classes, and spiritual immersion. Experience the heart of Thai culture.",
+      "Discover the gentle soul of Northern Thailand in traditional teak homes that embody the region's distinctive Lanna cultural heritage. These authentic dwellings feature multi-tiered roofs with graceful curves, hand-carved wooden details, and elevated designs that keep spaces naturally cool in tropical heat. Your immersive stay includes personalized instruction in Thai cooking using herbs from family gardens, guided meditation practices in nearby temples, and participation in local spiritual traditions that blend Buddhism with ancient animist beliefs. Situated in quiet communities surrounded by rice fields, mountain views, and tropical gardens, these family homes provide a serene contrast to Thailand's bustling tourist centers while offering meaningful connections to a way of life that prioritizes mindfulness, creativity, and profound respect for nature's rhythms.",
     hosts: [
       {
         name: "The Kittipong Family",
         background:
-          "Organic farmers and Thai cooking instructors in the countryside.",
+          "The Kittipong family represents the sustainable heart of Northern Thai agriculture, maintaining ten acres of certified organic rice fields, vegetable gardens, and fruit orchards using traditional farming methods passed down through six generations. Patriarch Somchai Kittipong pioneered organic farming techniques in the region decades before they became widely adopted, drawing on ancestral knowledge while incorporating innovative water conservation systems. His wife Mali, recognized as a master of Northern Thai cuisine, leads cooking workshops using their farm's seasonal produce to create authentic Lanna dishes rarely found in restaurants, explaining how each ingredient relates to traditional Thai wellness concepts. Their restored 120-year-old teak farmhouse, built using traditional joinery techniques without nails, demonstrates sustainable living with solar power, rainwater harvesting, and natural building materials. The family maintains strong connections with nearby Hmong and Karen hill tribe communities, facilitating cultural exchange experiences and supporting sustainable handicraft production. Their evening meals often feature discussions about agricultural sustainability, food sovereignty, and the preservation of Thai culinary biodiversity.",
         maxGuests: 4,
         curfew: "9:30 PM",
         guestPolicy: "Vegetarian meals by default. Family-style dining.",
@@ -114,7 +117,7 @@ export const homestayHeritageLocations = [
       {
         name: "Ajan Somchai",
         background:
-          "Buddhist monk turned retreat host offering meditation and mindfulness practices.",
+          "Ajan Somchai brings uncommon depth to Thailand's spiritual traditions, having spent 25 years as a Buddhist monk in forest monasteries before returning to lay life to share meditation practices with a wider audience. His journey includes extensive training under revered meditation masters throughout Thailand and intensive retreats in Myanmar and Tibet, giving him a comprehensive understanding of various Buddhist traditions. After leaving monastic life, he transformed his family's ancestral property into a small retreat center while preserving its traditional Lanna architectural features. The peaceful compound includes a dedicated meditation hall, contemplative walking paths through tropical gardens, and simple yet comfortable accommodations designed to support mindfulness practice. Ajan Somchai's teaching approach makes ancient wisdom accessible to modern visitors, offering personalized guidance in meditation techniques while explaining the philosophical concepts behind them. His connections with local temples provide guests with opportunities to experience authentic Buddhist rituals not usually open to outsiders, including early morning alms-giving, evening chanting ceremonies, and conversations with practicing monks about contemporary monastic life.",
         maxGuests: 2,
         curfew: "8:00 PM",
         guestPolicy:
@@ -128,7 +131,7 @@ export const homestayHeritageLocations = [
       {
         name: "Lalana & Noi",
         background:
-          "Hill tribe descendants sharing weaving techniques and local folklore.",
+          "Sisters Lalana and Noi represent the living heritage of Thailand's hill tribe cultures while navigating the complexities of modern life. Descended from the Karen hill tribe on their mother's side and Lanna Thai through their father, they grew up in a remote mountain village before pursuing education in Chiang Mai. Their lovingly preserved traditional stilt house combines authentic cultural elements with thoughtfully integrated modern amenities. The sisters have documented their family's textile traditions, learning ancient natural dyeing techniques from their grandmother using plants they now cultivate in their garden. Their weaving workshop showcases the intricate backstrap loom techniques that produce textiles with patterns specific to their ancestral village, each design containing symbolic meanings and stories. Beyond their artistic practices, both sisters work with regional cultural preservation organizations—Lalana as an ethnographer recording disappearing folktales and songs, and Noi as a community development coordinator helping hill tribe artisans gain fair market access. Evening discussions around their fire pit feature storytelling from their collected oral histories, demonstrations of traditional musical instruments, and conversations about the challenges facing indigenous communities in the modern world.",
         maxGuests: 3,
         curfew: "10:00 PM",
         guestPolicy:
@@ -145,12 +148,12 @@ export const homestayHeritageLocations = [
     city: "Cusco",
     country: "Peru",
     description:
-      "Historic adobe homes near Incan ruins, offering local cuisine and ancestral storytelling. Experience the legacy of the Inca Empire.",
+      "Step into living history in authentic adobe homes that connect modern Peru with its Incan imperial past. These sturdy earthen dwellings combine pre-Columbian architectural techniques with Spanish colonial influences, featuring thick walls that maintain comfortable temperatures at high altitudes, interior courtyards filled with medicinal herbs, and showcases of hand-woven textiles in vibrant natural dyes. Your culturally immersive experience includes traditional pachamanca earth-oven feasts using ingredients from ancient crop varieties, participation in coca leaf readings that honor Andean spiritual practices, and storytelling sessions that transmit indigenous knowledge through oral traditions preserved for centuries. Located in historic neighborhoods and scenic Sacred Valley communities near major archaeological sites, these family homes provide unique perspectives on Peru's complex cultural identity through direct connections with descendants of the Inca civilization.",
     hosts: [
       {
         name: "The Quispe Family",
         background:
-          "Quechua-speaking farmers and textile artisans in the Sacred Valley.",
+          "The Quispe family maintains profound connections to Peru's pre-Columbian heritage as direct descendants of the Inca through their ancestral village's panaca (royal lineage group). Their traditional adobe compound in the Sacred Valley has been continuously inhabited by family members for over 400 years, built partly on foundations dating to the Inca period. Family patriarch Eduardo Quispe is a respected authority on traditional agriculture, maintaining over 60 varieties of native potatoes and preserving ancient farming techniques adapted to different microclimate zones on their terraced land. His wife Claudia is a master textile artist whose intricate weavings maintain the symbols and techniques unique to their community, with patterns that encode cultural knowledge about local geography, history, and cosmology. The family conducts traditional agricultural ceremonies marking planting and harvest seasons, incorporating rituals that blend Catholic traditions with pre-Columbian spiritual practices. Their compound includes a small museum displaying archaeological artifacts discovered on their land, including ceramics and tools that demonstrate the continuity of local cultural practices across centuries. Family discussions often focus on indigenous identity in contemporary Peru and efforts to revitalize Quechua language usage among younger generations.",
         maxGuests: 4,
         curfew: "9:00 PM",
         guestPolicy: "No guests under 10. Spanish or Quechua preferred.",
@@ -163,7 +166,7 @@ export const homestayHeritageLocations = [
       {
         name: "Rosa Poma",
         background:
-          "Former tour guide offering immersive Inca history talks and cooking classes.",
+          "Rosa Poma brings exceptional interpretive depth to Cusco's archaeological heritage, having worked for fifteen years as a specialized guide at major Inca sites before establishing her cultural homestay. Her formal education combines a degree in Andean archaeology with extensive training in traditional knowledge systems preserved through her family's oral traditions. Her carefully restored colonial-era home near Cusco's historic center features architectural elements from three distinct periods—Inca stone foundations, Spanish colonial walls, and Republican-era modifications—making the building itself a teaching tool about Peru's layered history. Rosa's intimate knowledge of archaeological sites extends beyond academic understanding to include local perspectives and traditional stories not found in guidebooks. Her cooking workshops demonstrate how contemporary Peruvian cuisine evolved through the integration of indigenous ingredients with Spanish, African, and Asian influences, using traditional preparation tools like batanes (stone grinders) alongside modern equipment. Evening historical presentations feature her extensive personal photography archive documenting archaeological discoveries and restoration projects not accessible to the public, while her library contains rare historical texts and research materials available for guests' use.",
         maxGuests: 2,
         curfew: "9:30 PM",
         guestPolicy:
@@ -177,7 +180,7 @@ export const homestayHeritageLocations = [
       {
         name: "Luis & Carmen Huamani",
         background:
-          "Musicians and mountain guides offering Andean music nights and trekking advice.",
+          "Luis and Carmen Huamani represent the vibrant intersection of traditional Andean culture with contemporary artistic expression. Luis, descended from a long line of Quechua musicians, has mastered multiple indigenous wind and string instruments, while Carmen combines classical guitar training from Lima's conservatory with deep knowledge of traditional Andean musical forms. Their Spanish colonial-era home has been thoughtfully renovated to include a small performance space where they host intimate concerts featuring rare musical instruments and compositions specific to different Andean regions and historical periods. Beyond their musical expertise, the couple shares extensive mountaineering experience, with Luis having worked as a professional guide on the Inca Trail for over two decades. Their home contains a remarkable collection of maps, historical photographs of archaeological sites before major restoration, and detailed information about lesser-known Inca paths beyond the tourist routes. Evening gatherings often include demonstrations of how specific musical traditions correspond to different geographical regions and agricultural cycles, with explanations of how instruments and melodies traveled along ancient trade routes. The couple also leads workshops on traditional instrument construction using native materials, allowing guests to create simple flutes or percussion instruments as cultural souvenirs.",
         maxGuests: 3,
         curfew: "10:00 PM",
         guestPolicy:
@@ -194,12 +197,12 @@ export const homestayHeritageLocations = [
     city: "Marrakech",
     country: "Morocco",
     description:
-      "Riad stays within the medina, featuring traditional hammams, rooftop dinners, and artisan-led tours. Experience the vibrant culture of Morocco.",
+      "Experience the magic of Morocco in traditional riads, historic courtyard homes built around refreshing fountains and fragrant gardens that create private oases amid the bustling medina. These architectural gems feature intricate zellige mosaic tilework, hand-carved cedar ceilings, and refreshing plunge pools that maintain ancient cooling techniques in the desert climate. Your culturally immersive stay includes rejuvenating hammam bathing rituals using black soap and mineral clay, rooftop dining featuring tagines slow-cooked to perfection according to family recipes, and expertly guided explorations through the labyrinthine souks to witness master artisans practicing crafts unchanged for centuries. Hidden behind unassuming exterior walls within the ancient walled city, these historic homes provide authentic experiences of Moroccan domestic life while honoring traditions that blend Amazigh, Arabic, Andalusian, and sub-Saharan African influences into a uniquely vibrant cultural tapestry.",
     hosts: [
       {
         name: "The El Fassi Family",
         background:
-          "Ceramic artisans preserving Andalusian craft traditions in Marrakech.",
+          "The El Fassi family upholds Morocco's illustrious ceramic heritage through eight generations of master artisans whose works adorn some of the country's most significant monuments and palaces. Their 18th-century riad in Marrakech's historic pottery district features a traditional workshop where they continue to create zellige mosaics, carved plasterwork, and painted ceramics using methods that have remained largely unchanged since the Marinid dynasty. Family patriarch Hassan El Fassi learned the sacred geometry underlying Islamic decorative arts from his father through an apprenticeship beginning at age nine, knowledge now being passed to his children who each specialize in different aspects of the craft. Their home showcases the family's artistic evolution with rooms representing different historical periods and regional styles, demonstrating how Moroccan ceramics have incorporated influences from Andalusian, Berber, and Sub-Saharan traditions while maintaining distinctive Moroccan characteristics. The family maintains close ties with the royal court, having completed restoration work on numerous historic sites including the Bahia Palace and Badi Palace. Their workshop demonstrations reveal the mathematical principles behind complex mosaic patterns and the natural mineral sources for their vibrant pigments, many gathered from specific locations in the Atlas Mountains according to closely guarded family knowledge.",
         maxGuests: 5,
         curfew: "11:00 PM",
         guestPolicy:
@@ -213,7 +216,7 @@ export const homestayHeritageLocations = [
       {
         name: "Yasmine Benali",
         background:
-          "Chef and food historian specializing in Berber cuisine and cooking classes.",
+          "Yasmine Benali represents the sophisticated preservation of Morocco's culinary heritage, combining formal training at prestigious international culinary schools with deep knowledge of traditional methods learned from female family members across different regions of Morocco. Her carefully restored 19th-century riad in the medina features a teaching kitchen specifically designed for culinary workshops, with both traditional wood-fired facilities and modern equipment. Yasmine's academic research has documented disappearing regional recipes and techniques, resulting in published works on pre-colonial Berber cuisine and the influence of Andalusian traditions on Moroccan royal kitchens. Her approach emphasizes the historical context of Moroccan dishes, explaining how trade routes, colonial encounters, and religious practices shaped the country's distinctive flavor profiles and cooking methods. The riad's rooftop herb garden grows rare culinary and medicinal plants specific to different Moroccan regions, while her collection of traditional cooking vessels includes centuries-old pieces that demonstrate the evolution of Moroccan culinary technology. Beyond standard tourist favorites, Yasmine's workshops feature seasonal dishes tied to specific agricultural cycles and religious observations, revealing how Moroccan cuisine embodies the country's geographic and cultural diversity through subtle regional variations in common dishes.",
         maxGuests: 2,
         curfew: "10:00 PM",
         guestPolicy: "Cooking class included with stays over 2 nights.",
@@ -226,7 +229,7 @@ export const homestayHeritageLocations = [
       {
         name: "Hassan & Amina Rachid",
         background:
-          "Textile traders offering market tours and weaving workshops.",
+          "Hassan and Amina Rachid bridge ancient textile traditions with contemporary design through their deep involvement in Morocco's artisanal heritage. Their family has operated a weaving workshop in Marrakech's medina for six generations, with Hassan having inherited techniques for working with particular fibers and natural dyes while Amina contributes formal training in textile conservation acquired during her studies in France. Their meticulously renovated 17th-century riad serves both as residence and textile gallery, with rooms showcasing distinctive weaving styles from different Moroccan regions—from High Atlas Berber carpets to fine urban embroidery traditions. The couple has extensively documented traditional textile techniques through remote mountain village visits, creating an invaluable archive of patterns and methods that were at risk of disappearing. Their workshop demonstrations reveal the complex relationship between tribal identities and textile motifs, explaining how specific designs communicate social information about the weaver's community and family lineage. Beyond their artistic preservation work, the Rachids have established a cooperative supporting women weavers from rural communities, creating economic opportunities while ensuring traditional knowledge continues to the next generation. Their specialized market tours reveal the hidden indicators of quality and authenticity in Moroccan textiles, empowering visitors to make informed purchases while appreciating the cultural significance behind decorative pieces.",
         maxGuests: 4,
         curfew: "10:30 PM",
         guestPolicy: "Guests must be escorted if returning after 9:00 PM.",
@@ -307,7 +310,8 @@ export const homestayHeritageLocations = [
       },
       {
         name: "Isabel Fernández",
-        background: "Local historian and olive grove keeper.",
+        background:
+          "Isabel Fernández embodies Andalusia's deep connection to olive cultivation, managing groves that have been in her family since the 17th century. With a doctorate in regional history from the University of Granada and having authored two definitive books on Andalusian agricultural traditions, Isabel offers an unparalleled perspective on how olive cultivation shaped southern Spain's cultural identity across centuries of changing political rule. Her restored 18th-century farmhouse sits on a hillside overlooking 500-year-old olive trees, some dating to the time of Catholic monarchs Ferdinand and Isabella. The property houses her extensive archive of agricultural documents, historical pressing equipment, and archaeological artifacts uncovered on her land during cultivation. Isabel's guided olive grove walks explain the botanical characteristics of different olive varieties and demonstrate traditional harvesting methods that she maintains alongside modern sustainable farming practices. Her morning history discussions connect the evolution of Spanish cuisine, trade, and religious practices to the humble olive, while her library contains rare texts on Andalusian agriculture dating back to Moorish rule. Evening tastings of her award-winning oils include blind comparisons of varieties from different microclimates and explanations of the health traditions associated with olive culture throughout Mediterranean history.",
         maxGuests: 2,
         curfew: "10:00 PM",
         guestPolicy:
@@ -320,7 +324,8 @@ export const homestayHeritageLocations = [
       },
       {
         name: "Antonio & Lucia Rivas",
-        background: "Architects preserving Moorish-style homes.",
+        background:
+          "Antonio and Lucia Rivas represent the sophisticated intersection of architectural preservation and cultural heritage, bringing academic expertise and hands-on restoration skills to their mission of protecting Andalusia's unique architectural legacy. Both holding advanced degrees in historical architecture—Antonio specializing in Islamic influences on Spanish building techniques and Lucia in traditional water management systems—the couple has led restoration projects at several UNESCO World Heritage sites throughout southern Spain. Their own home, a carefully restored 16th-century structure in Granada's historic Albaicín district, showcases the distinctive features of Moorish-Christian hybrid architecture, including original carved plasterwork, hidden courtyards with sophisticated water features, and astronomical alignments built into the structure. Their property serves as both residence and living laboratory where they demonstrate ancient construction techniques like compressed earth building, lime plastering, and passive cooling systems that maintained comfortable temperatures long before modern climate control. The couple offers specialized architectural tours revealing hidden details of neighborhood buildings that most visitors overlook, explaining how political and religious changes manifested in building styles and techniques across centuries. Their rooftop terrace, offering spectacular views of the Alhambra, hosts evening discussions on architectural preservation challenges in the face of mass tourism and climate change, while their extensive library contains rare architectural drawings, historical building codes, and photographic documentation of structures that no longer exist.",
         maxGuests: 4,
         curfew: "10:30 PM",
         guestPolicy:
