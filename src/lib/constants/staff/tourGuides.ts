@@ -1,4 +1,4 @@
-import { TourGuide } from "@/lib/interfaces/staff/staff";
+import { TourGuide } from "@/lib/interfaces/people/staff";
 export const tourGuides: TourGuide[] = [
   {
     city: "Florence",
@@ -1882,7 +1882,7 @@ export const tourGuides: TourGuide[] = [
     experienceYears: 8,
     specialties: ["Cultural Heritage", "Historical Tours", "Nature Tours"],
     bio: "Diego, a Cusco native, offers tours that explore the Sacred Valley’s rich cultural heritage, historical landmarks, and stunning landscapes. He has a degree in Archaeology from the National University of San Antonio Abad and has worked as a tour guide for over eight years. Diego combines his extensive knowledge of Incan history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to archaeological sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:  
+    description:
       "Diego, a Cusco native, offers tours that explore the Sacred Valley’s rich cultural heritage, historical landmarks, and stunning landscapes.",
     quote:
       "In the Sacred Valley, every stone tells a story, and every meal is a taste of Peru’s vibrant spirit.",

@@ -1,4 +1,4 @@
-import { StaffCategory } from "@/lib/interfaces/staff/staff";
+import { StaffCategory } from "@/lib/interfaces/people/staff";
 
 export const driverQualificationMatrix: StaffCategory[] = [
   {
