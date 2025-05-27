@@ -12,12 +12,12 @@ export default function TourGuides() {
       <div className="w-full max-w-6xl">
         {/* Header Section */}
         <div className="mb-12 text-center">
-          <h1 className="mb-4 font-bold text-4xl">Tour Guides</h1>
+          <h1>Tour Guides</h1>
           <h2 className="mb-6 font-medium text-gray-700 text-xl">
             Passionate Locals. Expert Storytellers. Your Gateway to Authentic
             Experiences.
           </h2>
-          <p className="mx-auto max-w-3xl text-lg">
+          <p>
             At the heart of every unforgettable journey is a guide who brings it
             all to life. Our tour guides are more than just navigators—they are
             cultural ambassadors, expert historians, culinary enthusiasts, and
@@ -129,7 +129,7 @@ export default function TourGuides() {
           <h2 className="mb-4 font-bold text-2xl text-center">
             Why It Matters
           </h2>
-          <p className="mx-auto max-w-3xl text-lg">
+          <p>
             We believe travel should foster connection, not just sightseeing.
             That's why our guides are carefully selected for their integrity,
             personality, and commitment to providing enriching, ethical tourism.
@@ -141,7 +141,7 @@ export default function TourGuides() {
         {/* Call to Action */}
         <div className="mb-16 text-center">
           <h2 className="mb-6 font-bold text-2xl">Ready to Meet Your Guide?</h2>
-          <p className="mx-auto mb-8 max-w-3xl">
+          <p className="mx-auto mb-8">
             Whether you're traveling solo, with family, or in a group, we'll
             match you with the perfect guide for your interests, language needs,
             and travel style. With us, you're not just visiting—you're truly
