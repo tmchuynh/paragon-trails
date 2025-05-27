@@ -35,6 +35,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       pathSegments.map((segment, index) =>
         index === pathSegments.length - 1 && isNotFoundPage
           ? "Not Found"
+          : segment.length === 2
+          ? segment.toUpperCase()
           : capitalize(segment)
       ),
     [pathSegments, isNotFoundPage]
@@ -58,12 +60,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           key={`${href}-${segment}-${index}-${isLast}=${r}`}
           className="mx-1"
         >
-          <BreadcrumbLink
-            href={href}
-            className="py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
-          >
-            {segment}
-          </BreadcrumbLink>
+          {segment}
         </BreadcrumbItem>
       );
     };
