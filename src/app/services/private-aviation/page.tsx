@@ -14,6 +14,11 @@ export default function PrivateAviation() {
 
       <header>
         <h1>Travel on Your Own Terms</h1>
+        <blockquote>
+          “From runway to retreat, every detail was flawless — private travel
+          has never felt more personal.”
+          <cite>– Daniel M., Executive Client</cite>
+        </blockquote>
         <h5>Effortless Luxury from Takeoff to Touchdown</h5>
         <p>
           Enjoy the freedom, privacy, and comfort of flying privately as part of

@@ -4,11 +4,13 @@ export default function Aircrafts() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1> Private Aviation Aircrafts</h1>
-        <h5>
-          Experience the ultimate in luxury and convenience with our private
-          aviation services.
-        </h5>
+        <h1>Explore Our Fleet</h1>
+        <h5>World-class aircraft, tailored to every journey</h5>
+        <blockquote>
+          “Flying with Paragon Trails was an experience like no other. The
+          aircraft was luxurious, and the service was impeccable.” – Sarah L.,
+          Frequent Flyer
+        </blockquote>
         <p>
           Explore our fleet of private aircrafts, designed for comfort and
           luxury. Whether you're looking for a small jet for a quick trip or a

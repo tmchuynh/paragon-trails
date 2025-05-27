@@ -5,11 +5,16 @@ export default function CaptainsAndCrewMembersPage() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1> Captains and Crew Members</h1>
+        <h1>Command & Concierge at Sea</h1>
         <h5>
-          Explore our network of experienced captains and crew members available
-          for yacht charters.
+          Meet the experienced professionals who ensure your voyage is seamless,
+          safe, and exceptional.
         </h5>
+        <blockquote>
+          "Our crew is dedicated to delivering impeccable service and expert
+          navigation, making every journey aboard your private yacht
+          unforgettable." — Samantha R., Yacht Charter Specialist
+        </blockquote>
         <p>
           Whether you're looking for a skilled captain to navigate your yacht or
           a professional crew to enhance your sailing experience, we have a
