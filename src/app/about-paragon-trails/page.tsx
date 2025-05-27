@@ -2,19 +2,19 @@ export default function AboutParagonTrails() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header className="mb-12 text-center">
-        <h1 className="mb-2 font-bold text-4xl">About Paragon Trails</h1>
+        <h1>About Paragon Trails</h1>
         <p className="text-gray-600 text-xl italic">
           Luxury redefined, one journey at a time.
         </p>
       </header>
 
-      <section className="mb-10">
-        <p className="mb-4">
+      <section>
+        <p>
           It started with a feeling—a quiet sense that something was missing
           from modern travel.
         </p>
 
-        <p className="mb-4">
+        <p>
           Too often, luxury is mistaken for extravagance. But for us, luxury is
           not about how much you spend or how far you go. It's about how you
           feel the moment you arrive. It's the stillness you experience on a
@@ -24,7 +24,7 @@ export default function AboutParagonTrails() {
           before.
         </p>
 
-        <p className="mb-4">
+        <p>
           At Paragon Trails, we don't just arrange travel. We craft deeply
           personal journeys designed to elevate your relationship with the
           world—and with yourself. We take the time to learn who you are, what
@@ -33,24 +33,22 @@ export default function AboutParagonTrails() {
           hand-selected to match your rhythm.
         </p>
 
-        <p className="mb-4">
+        <p>
           Our philosophy is simple: every journey should feel like it was meant
           only for you.
         </p>
       </section>
 
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          A New Standard in Luxury
-        </h2>
-        <p className="mb-4">
+      <section>
+        <h2>A New Standard in Luxury</h2>
+        <p>
           We don't offer packages. We don't follow templates. We begin with
           questions—real ones—about what you crave in a moment of escape,
           discovery, or celebration. From there, we build journeys that feel
           effortless, refined, and alive with meaning.
         </p>
 
-        <p className="mb-4">
+        <p>
           Our team works behind the scenes to coordinate everything with
           surgical precision, yet you'll never feel the mechanics. All you'll
           notice is that everything flows. From the private airport transfer
@@ -59,15 +57,15 @@ export default function AboutParagonTrails() {
           show you landmarks—but shares the soul of a place.
         </p>
 
-        <p className="mb-4">
+        <p>
           This is what we mean when we say luxury, redefined. Not louder. Not
           flashier. Just smarter. Deeper. More human.
         </p>
       </section>
 
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">Experiences That Matter</h2>
-        <p className="mb-4">
+      <section>
+        <h2>Experiences That Matter</h2>
+        <p>
           We believe the most luxurious thing we can offer is a sense of
           freedom—freedom to explore, to rest, to wonder, to reconnect. Whether
           you're chasing the Northern Lights across Iceland, sipping wine on a
@@ -76,7 +74,7 @@ export default function AboutParagonTrails() {
           experience isn't just beautiful—it's yours.
         </p>
 
-        <p className="mb-4">
+        <p>
           We take pride in our network of elite travel partners, from
           award-winning resorts and private villas to discreet transport
           services and expert local guides. These relationships allow us to
@@ -84,37 +82,35 @@ export default function AboutParagonTrails() {
           won't find on any itinerary—because they weren't built for the masses.
         </p>
 
-        <p className="mb-4">They were built for you.</p>
+        <p>They were built for you.</p>
       </section>
 
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">Our Commitment</h2>
+      <section>
+        <h2>Our Commitment</h2>
         <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h3 className="mb-2 font-medium text-xl">
-              Unmatched Personalization
-            </h3>
+            <h3>Unmatched Personalization</h3>
             <p>
               Every trip is designed from the ground up based on your
               preferences, lifestyle, and intentions.
             </p>
           </div>
           <div>
-            <h3 className="mb-2 font-medium text-xl">Invisible Precision</h3>
+            <h3>Invisible Precision</h3>
             <p>
               Our team manages every detail behind the scenes so you can live in
               the moment—without ever wondering what comes next.
             </p>
           </div>
           <div>
-            <h3 className="mb-2 font-medium text-xl">Meaningful Connections</h3>
+            <h3>Meaningful Connections</h3>
             <p>
               We prioritize immersive experiences that honor local cultures,
               elevate human connection, and leave a positive impact.
             </p>
           </div>
           <div>
-            <h3 className="mb-2 font-medium text-xl">Sustainable Philosophy</h3>
+            <h3>Sustainable Philosophy</h3>
             <p>
               True luxury respects the earth. We partner with eco-conscious
               properties, support local communities, and promote responsible
@@ -125,9 +121,9 @@ export default function AboutParagonTrails() {
         </div>
       </section>
 
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">Who We Serve</h2>
-        <p className="mb-4">
+      <section>
+        <h2>Who We Serve</h2>
+        <p>
           Our travelers are not tourists. They are seekers—of beauty, clarity,
           connection, and awe. They come to us to celebrate milestones, to
           escape the noise, to deepen bonds with loved ones, or to rediscover
@@ -137,18 +133,16 @@ export default function AboutParagonTrails() {
         </p>
       </section>
 
-      <section className="mb-10">
-        <h2 className="mb-4 font-semibold text-2xl">
-          More Than a Trip—A Legacy
-        </h2>
-        <p className="mb-4">
+      <section>
+        <h2>More Than a Trip—A Legacy</h2>
+        <p>
           We know that the memories you create while traveling are some of the
           most enduring chapters of your life story. At Paragon Trails, we take
           that seriously. Every journey we design is an investment in your
           well-being, your relationships, and your sense of wonder.
         </p>
 
-        <p className="mb-4">
+        <p>
           Because in the end, travel isn't about where you go. It's about how
           you return.
         </p>
