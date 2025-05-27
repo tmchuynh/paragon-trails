@@ -184,11 +184,11 @@
   }
 
   h1 {
-    @apply font-[Gloock] font-bold text-4xl lg:text-6xl;
+    @apply font-[Gloock] mb-2 font-bold text-4xl;
   }
 
   h2 {
-    @apply font-[EncodeSans] font-extrabold text-2xl lg:text-3xl;
+    @apply font-[EncodeSans] font-extrabold mb-3 text-2xl lg:text-3xl;
   }
 
   h3 {
@@ -199,10 +199,24 @@
     @apply font-[Gloock] lg:text-lg text-primary underline text-base;
   }
   h5 {
-    @apply mb-3 font-[Gloock] uppercase font-bold text-xs md:text-sm;
+    @apply mb-3 font-[Gloock] uppercase font-medium text-gray-600 text-xs;
   }
   p {
     @apply text-pretty leading-relaxed;
+  }
+  blockquote {
+    @apply pl-4 italic mb-1 text-lg;
+  }
+  header {
+    @apply mb-8 w-full text-center md:w-6/7 mx-auto;
+  }
+
+  section {
+    @apply mb-10;
+  }
+
+  strong {
+    @apply font-semibold;
   }
 }
 
