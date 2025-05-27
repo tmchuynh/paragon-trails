@@ -2,16 +2,14 @@ export default function SustainabilityAndCommunityInvolvement() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header className="mb-12 text-center">
-        <h1 className="mb-2 font-bold text-4xl">
-          Sustainability and Community Involvement
-        </h1>
+        <h1>Sustainability and Community Involvement</h1>
         <p className="text-gray-600 text-xl italic">
           Luxury that honors the world around us.
         </p>
       </header>
 
-      <section className="mb-10">
-        <p className="mb-4 text-lg">
+      <section>
+        <p>
           At Paragon Trails, we believe the world is not just a destination—it's
           a responsibility. Our commitment to sustainability and community
           engagement is not a marketing strategy; it's a founding principle.
@@ -21,7 +19,7 @@ export default function SustainabilityAndCommunityInvolvement() {
       </section>
 
       {/* Sustainability Ethos Section */}
-      <section className="mb-10">
+      <section>
         <h2 className="mb-2 font-semibold text-2xl">
           Our Sustainability Ethos
         </h2>
@@ -68,7 +66,7 @@ export default function SustainabilityAndCommunityInvolvement() {
       </section>
 
       {/* Sustainability Metrics Section */}
-      <section className="mb-10">
+      <section>
         <h2 className="mb-6 font-semibold text-2xl">
           Sustainability Metrics (as of Q1 2025)
         </h2>
@@ -148,7 +146,7 @@ export default function SustainabilityAndCommunityInvolvement() {
       </section>
 
       {/* Community Engagement Section */}
-      <section className="mb-10">
+      <section>
         <h2 className="mb-2 font-semibold text-2xl">
           Global Community Engagement
         </h2>
@@ -194,7 +192,7 @@ export default function SustainabilityAndCommunityInvolvement() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="mb-10">
+      <section>
         <h2 className="mb-6 font-semibold text-2xl text-center">
           Client Testimonials
         </h2>
@@ -252,13 +250,13 @@ export default function SustainabilityAndCommunityInvolvement() {
 
       {/* Call to Action Section */}
       <section className="mb-8 text-center">
-        <h2 className="mb-4 font-semibold text-2xl">Travel With Purpose</h2>
-        <p className="mb-4">
+        <h2>Travel With Purpose</h2>
+        <p>
           Our clients aren't just travelers. They are stewards. They understand
           that every step they take can either leave a footprint—or plant a
           seed.
         </p>
-        <p className="mb-4">
+        <p>
           Paragon Trails exists to help you choose the latter. We believe that
           the most luxurious journeys are the ones that leave something good
           behind.

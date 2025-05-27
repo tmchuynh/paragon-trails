@@ -3,23 +3,21 @@ export default function CoreTeamAndPartnerships() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <div className="mx-auto py-8">
         <header className="mb-12 text-center">
-          <h1 className="mb-2 font-bold text-4xl">
-            Core Team and Partnerships
-          </h1>
+          <h1>Core Team and Partnerships</h1>
           <p className="text-gray-600 text-xl italic">
             The people behind the journeys that redefine luxury.
           </p>
         </header>
 
-        <div className="mb-10">
-          <p className="mb-4 text-lg">
+        <div>
+          <p>
             At Paragon Trails, our promise of curated, meaningful travel is made
             possible by a deeply experienced, globally connected, and
             values-driven team. Every journey we design is a reflection of
             decades of insight, cultural fluency, and collaborative trust with
             the world's most discerning travel partners.
           </p>
-          <p className="mb-4 text-lg">
+          <p>
             We are not just travel planners. We are storytellers, connectors,
             and stewards of experience—backed by a global network of like-minded
             visionaries.
@@ -27,7 +25,7 @@ export default function CoreTeamAndPartnerships() {
         </div>
 
         {/* Leadership Team Section */}
-        <section className="mb-10">
+        <section>
           <h2 className="mb-2 font-semibold text-2xl">Our Leadership Team</h2>
           <h3 className="mb-6 text-xl italic">
             Decades of Expertise. One Vision.
@@ -109,7 +107,7 @@ export default function CoreTeamAndPartnerships() {
         </section>
 
         {/* Global Partners Section */}
-        <section className="mb-10">
+        <section>
           <h2 className="mb-2 font-semibold text-2xl">Our Global Partners</h2>
           <h3 className="mb-4 text-xl italic">
             We go far because we go together.
@@ -169,9 +167,9 @@ export default function CoreTeamAndPartnerships() {
         </section>
 
         {/* Awards & Recognition Section */}
-        <section className="mb-10">
-          <h2 className="mb-4 font-semibold text-2xl">Awards & Recognition</h2>
-          <p className="mb-4">
+        <section>
+          <h2>Awards & Recognition</h2>
+          <p>
             Our network's credibility is bolstered by over 30 years of
             excellence:
           </p>
@@ -192,8 +190,8 @@ export default function CoreTeamAndPartnerships() {
 
         {/* Call to Action Section */}
         <section className="mb-8 p-8 rounded-lg text-center">
-          <h2 className="mb-4 font-semibold text-2xl">Join Our Journey</h2>
-          <p className="mb-4">
+          <h2>Join Our Journey</h2>
+          <p>
             Whether you are a traveler seeking meaning, a creator of exceptional
             experiences, or a steward of place and culture—our team is here to
             elevate the possibilities of what travel can be.

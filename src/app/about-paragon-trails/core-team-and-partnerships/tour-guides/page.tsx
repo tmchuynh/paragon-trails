@@ -12,12 +12,12 @@ export default function TourGuides() {
       <div className="w-full max-w-6xl">
         {/* Header Section */}
         <div className="mb-12 text-center">
-          <h1 className="mb-4 font-bold text-4xl">Tour Guides</h1>
+          <h1>Tour Guides</h1>
           <h2 className="mb-6 font-medium text-gray-700 text-xl">
             Passionate Locals. Expert Storytellers. Your Gateway to Authentic
             Experiences.
           </h2>
-          <p className="mx-auto max-w-3xl text-lg">
+          <p>
             At the heart of every unforgettable journey is a guide who brings it
             all to life. Our tour guides are more than just navigators—they are
             cultural ambassadors, expert historians, culinary enthusiasts, and
