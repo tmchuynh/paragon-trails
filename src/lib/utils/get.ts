@@ -37,10 +37,11 @@ export async function getCityAttractions(
   region: string,
   country: string
 ): Promise<any> {
-  city = formatTitleToCamcelCase(city);
-  region = formatTitleToCamcelCase(region);
-  country = formatTitleToCamcelCase(country);
+  city = formatTitleToCamcelCase(city).replace("'", "");
+  region = formatTitleToCamcelCase(region).replace("'", "");
+  country = formatTitleToCamcelCase(country).replace("'", "");
   const cityRegionCountry = `${city}${region}${country}`;
+  console.log("Fetching attractions for:", cityRegionCountry);
   try {
     const attractionsModule = await import(
       `@/lib/constants/destinations/city/${city}`
