@@ -10,10 +10,7 @@ import {
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { cn } from "@/lib/utils";
-import {
-  findAttractionsByCityAndCountry,
-  getCityAttractions,
-} from "@/lib/utils/get";
+import { getCityAttractions } from "@/lib/utils/get";
 import { featuredArray } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
@@ -38,12 +35,6 @@ export default function DestinationDetailsPage() {
     (item) =>
       (item.city === formattedCity && item.country === formattedCountry) ||
       item.region === formattedCountry
-  );
-
-  // Get attractions data for this destination
-  const attractions = findAttractionsByCityAndCountry(
-    formattedCity,
-    formattedCountry
   );
 
   const [attractionData, setAttractionData] = useState<Attraction[]>([]);
@@ -99,7 +90,7 @@ export default function DestinationDetailsPage() {
     return (
       <div className="flex items-center gap-1 my-2">
         {stars}
-        <span className="ml-2 text-gray-600">({rating})</span>
+        <span className="ml-2 text-gray-400">({rating})</span>
       </div>
     );
   };
@@ -121,24 +112,20 @@ export default function DestinationDetailsPage() {
       </header>
 
       <section>
-        {attractions.length > 0 && (
-          <div className="w-full">
-            <h2>Top Attractions</h2>
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              {popularAttractions.map((attraction, index) => (
-                <div
-                  key={index}
-                  className="shadow-md hover:shadow-lg p-4 border rounded-lg transition-shadow"
-                >
-                  <h3 className="mb-2 font-medium text-xl">
-                    {attraction.title}
-                  </h3>
-                  <p>{attraction.description.split(".")[0]}</p>
-                </div>
-              ))}
-            </div>
+        <div className="w-full">
+          <h2>Top Attractions</h2>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {popularAttractions.map((attraction, index) => (
+              <div
+                key={index}
+                className="shadow-md hover:shadow-lg p-4 border rounded-lg transition-shadow"
+              >
+                <h3 className="mb-2 font-medium text-xl">{attraction.title}</h3>
+                <p>{attraction.description.split(".")[0]}</p>
+              </div>
+            ))}
           </div>
-        )}
+        </div>
       </section>
 
       {attractionData && (
@@ -157,13 +144,13 @@ export default function DestinationDetailsPage() {
                 <Image
                   src={attraction.imageUrl}
                   alt={attraction.title}
-                  width={600}
+                  width={400}
                   height={400}
                   className="mb-4 lg:mb-0 rounded-lg w-full lg:w-1/3 h-auto aspect-video object-cover"
                 />
                 <div className="flex flex-col justify-between">
-                  <div>
-                    <div className="flex md:flex-row flex-col justify-between items-start my-3">
+                  <div className="mb-2">
+                    <div className="flex md:flex-row flex-col justify-between items-start mt-3">
                       <div>
                         <h3>{attraction.title}</h3>
                         <h5>{attraction.location}</h5>
@@ -195,6 +182,18 @@ export default function DestinationDetailsPage() {
                   </div>
                   <p>{attraction.description}</p>
                   <div>
+                    {attraction.accessibilityFeatures && (
+                      <div className="mt-2">
+                        <strong>Accessibility Features:</strong>
+                        <ul className="ml-4 list-disc">
+                          {attraction.accessibilityFeatures.map(
+                            (feature, featureIndex) => (
+                              <li key={featureIndex}>{feature}</li>
+                            )
+                          )}
+                        </ul>
+                      </div>
+                    )}
                     <TooltipProvider>
                       <div className="flex flex-wrap gap-x-3 mt-2">
                         {attraction.isFamilyFriendly && (
@@ -203,8 +202,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/family-friendly.svg"
                                 alt="Family Friendly Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -219,8 +218,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/pet-friendly.svg"
                                 alt="Pet Friendly Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -235,8 +234,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/wheelchair.svg"
                                 alt="Wheelchair Accessible Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -251,8 +250,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/popular.svg"
                                 alt="Popular Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -267,8 +266,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/free.svg"
                                 alt="Free Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -283,8 +282,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/luxury.svg"
                                 alt="Luxury Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -299,8 +298,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/historical.svg"
                                 alt="Historical Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -315,8 +314,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/adventure.svg"
                                 alt="Adventure Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -331,8 +330,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/romantic.svg"
                                 alt="Romantic Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -347,8 +346,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/outdoor.svg"
                                 alt="Outdoor Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -363,8 +362,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/indoor.svg"
                                 alt="Indoor Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -379,8 +378,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/shopping.svg"
                                 alt="Shopping Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -395,8 +394,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/dining.svg"
                                 alt="Dining Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -411,8 +410,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/off-the-beaten-path.svg"
                                 alt="Off The Beaten Path Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -427,8 +426,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/local-experience.svg"
                                 alt="Local Experience Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -443,8 +442,8 @@ export default function DestinationDetailsPage() {
                               <Image
                                 src="/icons/nightlife.svg"
                                 alt="Nightlife Icon"
-                                width={75}
-                                height={75}
+                                width={40}
+                                height={40}
                                 className="inline-block"
                               />
                             </TooltipTrigger>
@@ -455,18 +454,6 @@ export default function DestinationDetailsPage() {
                         )}
                       </div>
                     </TooltipProvider>
-                    {attraction.accessibilityFeatures && (
-                      <div className="mt-2">
-                        <strong>Accessibility Features:</strong>
-                        <ul className="ml-4 list-disc">
-                          {attraction.accessibilityFeatures.map(
-                            (feature, featureIndex) => (
-                              <li key={featureIndex}>{feature}</li>
-                            )
-                          )}
-                        </ul>
-                      </div>
-                    )}
                   </div>
                 </div>
               </div>
