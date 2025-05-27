@@ -144,7 +144,7 @@ export const formatLanguages = (languages: string[]) => {
   return `${otherLanguages}, and ${lastLanguage}`;
 };
 
-export function formatTitleToCamcelCase(title: string): string {
+export function formatTitleToCamelCase(title: string): string {
   return title
     .split(" ")
     .map((word, index) => {
