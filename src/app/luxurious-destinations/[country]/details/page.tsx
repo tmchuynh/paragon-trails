@@ -24,7 +24,6 @@ export default function DestinationDetailsPage() {
   const city = searchParams.get("city") || "";
   const country = searchParams.get("country") || "";
   const region = searchParams.get("region") || "";
-  const state = searchParams.get("state") || "";
 
   // Use original values instead of formatting them
   const formattedCity = city;
