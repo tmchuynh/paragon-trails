@@ -1,5 +1,6 @@
+import { homestaysAndHeritageStays } from "../constants/services/homestay/destinations";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
-import { formatTitleToCamelCase } from "./format";
+import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
 
 export async function getTourData(
   tourCategory: string,
@@ -31,6 +32,22 @@ export const driverLanguages = Array.from(
   )
 ).sort();
 
+/**
+ * Fetches attractions for a specified city.
+ *
+ * This function attempts to import attractions data for a city from a local module.
+ * It formats the city, region, and country names to camelCase and removes apostrophes,
+ * then combines them to create a key to access the attractions data.
+ *
+ * @param city - The name of the city to fetch attractions for
+ * @param region - The region/state/province where the city is located
+ * @param country - The country where the city is located
+ * @returns A Promise that resolves to an array of attractions or an empty array if none are found
+ *
+ * @example
+ * // Returns attractions for New York
+ * const attractions = await getCityAttractions("New York", "New York", "United States");
+ */
 export async function getCityAttractions(
   city: string,
   region: string,
@@ -55,4 +72,25 @@ export async function getCityAttractions(
     console.error(`Error loading attractions for ${city}: ${error}`);
     return [];
   }
+}
+
+/**
+ * Finds the original city name from a slug.
+ *
+ * Iterates through all locations in homestaysAndHeritageStays array,
+ * formats each city name to a slug, and compares it with the provided slug.
+ *
+ * @param slug - The slugified city name to search for
+ * @returns The original city name if found, or null if no match is found
+ */
+export function findOriginalCityName(slug: string): string | null {
+  for (const country of homestaysAndHeritageStays) {
+    for (const location of country.locations) {
+      const locationSlug = formatToSlug(removeAccents(location.city));
+      if (locationSlug === slug) {
+        return location.city;
+      }
+    }
+  }
+  return null;
 }
