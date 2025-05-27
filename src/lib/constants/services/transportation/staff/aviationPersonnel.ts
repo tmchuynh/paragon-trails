@@ -1,6 +1,8 @@
-export const aviationPersonnel = [
+import { StaffCategory } from "@/lib/interfaces/staff/staff";
+
+export const aviationPersonnel: StaffCategory[] = [
   {
-    role: "Pilots",
+    category: "Pilots",
     profiles: [
       {
         name: "Captain Sarah Mitchell",
@@ -100,7 +102,7 @@ export const aviationPersonnel = [
     ],
   },
   {
-    role: "Cabin Crew",
+    category: "Cabin Crew",
     profiles: [
       {
         name: "Lead Flight Attendant Olivia Green",
@@ -110,7 +112,7 @@ export const aviationPersonnel = [
         ],
         languages: ["English", "French"],
         experienceYears: 12,
-        assignedAircraft: ["Heavy Jets", "Midsize Jets"],
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
         specialTraining: [
           "VIP Service",
           "Cultural Sensitivity",
@@ -123,7 +125,7 @@ export const aviationPersonnel = [
         certifications: ["Emergency Evacuation", "First Aid"],
         languages: ["English", "Spanish"],
         experienceYears: 6,
-        assignedAircraft: ["Light Private Jets", "Midsize Jets"],
+        qualifiedAircraft: ["Light Private Jets", "Midsize Jets"],
         specialTraining: [
           "Customer Service",
           "Inflight Entertainment Management",
@@ -135,7 +137,7 @@ export const aviationPersonnel = [
         certifications: ["Helicopter Safety", "First Aid"],
         languages: ["English"],
         experienceYears: 5,
-        assignedAircraft: ["Private Helicopters"],
+        qualifiedAircraft: ["Private Helicopters"],
         specialTraining: [
           "Quick Boarding & Disembarkation",
           "Safety Protocols for Scenic Flights",
@@ -147,7 +149,7 @@ export const aviationPersonnel = [
         certifications: ["Inflight Safety", "First Aid", "Firefighting"],
         languages: ["English", "Chinese"],
         experienceYears: 14,
-        assignedAircraft: ["Heavy Jets"],
+        qualifiedAircraft: ["Heavy Jets"],
         specialTraining: ["Executive Service", "Emergency Management"],
         availability: "Full-time",
       },
@@ -156,14 +158,14 @@ export const aviationPersonnel = [
         certifications: ["Customer Care", "First Aid"],
         languages: ["English", "Korean"],
         experienceYears: 4,
-        assignedAircraft: ["Midsize Jets"],
+        qualifiedAircraft: ["Midsize Jets"],
         specialTraining: ["Passenger Comfort", "Safety Compliance"],
         availability: "Part-time",
       },
     ],
   },
   {
-    role: "Chefs",
+    category: "Chefs",
     profiles: [
       {
         name: "Chef Antonio Marquez",
@@ -171,7 +173,7 @@ export const aviationPersonnel = [
         specialties: ["Mediterranean Cuisine", "Vegan & Gluten-Free Options"],
         languages: ["English", "Spanish", "Italian"],
         experienceYears: 14,
-        assignedAircraft: ["Heavy Jets", "Midsize Jets"],
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
         availability: "Full-time",
       },
       {
@@ -180,7 +182,7 @@ export const aviationPersonnel = [
         specialties: ["Asian Fusion", "Kosher & Halal Meals"],
         languages: ["English", "Mandarin"],
         experienceYears: 10,
-        assignedAircraft: ["Light Private Jets", "Midsize Jets"],
+        qualifiedAircraft: ["Light Private Jets", "Midsize Jets"],
         availability: "Part-time",
       },
       {
@@ -189,7 +191,7 @@ export const aviationPersonnel = [
         specialties: ["American Classic", "Organic & Farm-to-Table"],
         languages: ["English"],
         experienceYears: 12,
-        assignedAircraft: ["Heavy Jets"],
+        qualifiedAircraft: ["Heavy Jets"],
         availability: "On-demand",
       },
       {
@@ -198,7 +200,7 @@ export const aviationPersonnel = [
         specialties: ["French Pastries", "Gluten-Free Desserts"],
         languages: ["English", "French"],
         experienceYears: 9,
-        assignedAircraft: ["Midsize Jets"],
+        qualifiedAircraft: ["Midsize Jets"],
         availability: "Part-time",
       },
       {
@@ -207,13 +209,13 @@ export const aviationPersonnel = [
         specialties: ["Seafood", "Farm-to-Table"],
         languages: ["English"],
         experienceYears: 11,
-        assignedAircraft: ["Heavy Jets", "Midsize Jets"],
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
         availability: "On-demand",
       },
     ],
   },
   {
-    role: "Ground Support",
+    category: "Ground Support",
     profiles: [
       {
         name: "Logistics Coordinator Jane Foster",
@@ -258,7 +260,7 @@ export const aviationPersonnel = [
     ],
   },
   {
-    role: "Flight Engineers",
+    category: "Flight Engineers",
     profiles: [
       {
         name: "Flight Engineer Thomas Grey",
@@ -268,7 +270,7 @@ export const aviationPersonnel = [
         ],
         languages: ["English"],
         experienceYears: 13,
-        assignedAircraft: ["Heavy Jets"],
+        qualifiedAircraft: ["Heavy Jets"],
         specialTraining: ["Engine Diagnostics", "Emergency Procedures"],
         availability: "Full-time",
       },
@@ -277,14 +279,14 @@ export const aviationPersonnel = [
         certifications: ["FAA Flight Engineer License"],
         languages: ["English", "Hindi"],
         experienceYears: 10,
-        assignedAircraft: ["Midsize Jets"],
+        qualifiedAircraft: ["Midsize Jets"],
         specialTraining: ["Systems Monitoring", "Fuel Management"],
         availability: "Part-time",
       },
     ],
   },
   {
-    role: "Safety Officers",
+    category: "Safety Officers",
     profiles: [
       {
         name: "Safety Officer Mark Johnson",
@@ -308,7 +310,7 @@ export const aviationPersonnel = [
     ],
   },
   {
-    role: "Concierge Staff",
+    category: "Concierge Staff",
     profiles: [
       {
         name: "Concierge Alex Thompson",

@@ -1,7 +1,9 @@
-export const yachtStaff = [
+import { StaffCategory } from "@/lib/interfaces/staff/staff";
+
+export const yachtStaff: StaffCategory[] = [
   {
-    role: "Captains",
-    team: [
+    category: "Captains",
+    profiles: [
       {
         name: "Captain Marcus H.",
         certifications: [
@@ -34,7 +36,7 @@ export const yachtStaff = [
         ],
         specialTraining: [
           "Sustainable Operations",
-          "Leadership & Team Management",
+          "Leadership & profiles Management",
           "Environmental Incident Response",
         ],
       },
@@ -77,8 +79,8 @@ export const yachtStaff = [
     ],
   },
   {
-    role: "First Officers",
-    team: [
+    category: "First Officers",
+    profiles: [
       {
         name: "First Officer Nina K.",
         certifications: [
@@ -136,14 +138,19 @@ export const yachtStaff = [
     ],
   },
   {
-    role: "Crew Members",
-    team: [
+    category: "Crew Members",
+    profiles: [
       {
         name: "Deckhand Sofia M.",
         certifications: ["STCW Basic Safety", "First Aid & CPR"],
         languages: ["English", "Italian"],
         experienceYears: 4,
         specialties: ["Tender driving", "Deck maintenance", "Guest assistance"],
+        responsibilities: [
+          "Assisting with navigation",
+          "Maintaining deck equipment",
+          "Guest support during excursions",
+        ],
       },
       {
         name: "Steward James L.",
@@ -151,6 +158,11 @@ export const yachtStaff = [
         languages: ["English"],
         experienceYears: 6,
         specialties: ["Guest service", "Housekeeping", "Event setup"],
+        responsibilities: [
+          "Managing guest accommodations",
+          "Coordinating dining services",
+          "Organizing onboard events",
+        ],
       },
       {
         name: "Engineer Raj P.",
@@ -162,6 +174,11 @@ export const yachtStaff = [
           "Technical troubleshooting",
           "Safety systems",
         ],
+        responsibilities: [
+          "Overseeing engine operations",
+          "Conducting technical repairs",
+          "Ensuring safety compliance",
+        ],
       },
       {
         name: "Deckhand Mia F.",
@@ -169,6 +186,11 @@ export const yachtStaff = [
         languages: ["English", "French"],
         experienceYears: 3,
         specialties: ["Waste management", "Tender operation", "Safety drills"],
+        responsibilities: [
+          "Managing waste disposal",
+          "Operating tenders",
+          "Conducting safety drills",
+        ],
       },
       {
         name: "Stewardess Leah B.",
@@ -180,12 +202,17 @@ export const yachtStaff = [
           "Dining service",
           "Event coordination",
         ],
+        responsibilities: [
+          "Providing guest services",
+          "Coordinating dining arrangements",
+          "Planning and executing events",
+        ],
       },
     ],
   },
   {
-    role: "Chefs",
-    team: [
+    category: "Chefs",
+    profiles: [
       {
         name: "Chef Olivia S.",
         certifications: ["Culinary Arts Diploma", "Food Safety & Hygiene"],
@@ -195,6 +222,11 @@ export const yachtStaff = [
           "Mediterranean cuisine",
           "Special dietary menus",
           "Onboard kitchen management",
+        ],
+        responsibilities: [
+          "Menu planning",
+          "Food preparation",
+          "Kitchen staff management",
         ],
       },
       {
@@ -210,6 +242,11 @@ export const yachtStaff = [
           "Vegan and vegetarian dishes",
           "Wine pairing",
         ],
+        responsibilities: [
+          "Creating gourmet dishes",
+          "Managing food inventory",
+          "Ensuring food safety standards",
+        ],
       },
       {
         name: "Sous Chef Hannah R.",
@@ -217,6 +254,11 @@ export const yachtStaff = [
         languages: ["English"],
         experienceYears: 7,
         specialties: ["Pastry", "Gluten-free cooking", "Event catering"],
+        responsibilities: [
+          "Assisting head chef",
+          "Preparing desserts",
+          "Managing kitchen operations",
+        ],
       },
       {
         name: "Pastry Chef Jean P.",
@@ -224,12 +266,17 @@ export const yachtStaff = [
         languages: ["English", "French"],
         experienceYears: 10,
         specialties: ["Desserts", "Custom cakes", "Chocolate artistry"],
+        responsibilities: [
+          "Creating pastries and desserts",
+          "Managing pastry inventory",
+          "Ensuring quality control",
+        ],
       },
     ],
   },
   {
-    role: "Concierge & Guest Services",
-    team: [
+    category: "Concierge & Guest Services",
+    profiles: [
       {
         name: "Sophia G.",
         certifications: [
@@ -243,6 +290,11 @@ export const yachtStaff = [
           "Cultural liaison",
           "VIP guest management",
         ],
+        responsibilities: [
+          "Coordinating guest services",
+          "Planning excursions",
+          "Managing special requests",
+        ],
       },
       {
         name: "Ahmed Z.",
@@ -250,6 +302,11 @@ export const yachtStaff = [
         languages: ["English", "Arabic", "French"],
         experienceYears: 7,
         specialties: ["Onboard events", "Special requests", "Travel logistics"],
+        responsibilities: [
+          "Organizing onboard events",
+          "Handling guest requests",
+          "Coordinating travel arrangements",
+        ],
       },
       {
         name: "Emily T.",
@@ -264,12 +321,17 @@ export const yachtStaff = [
           "Special events",
           "Guest preferences management",
         ],
+        responsibilities: [
+          "Managing reservations",
+          "Coordinating special events",
+          "Maintaining guest profiles",
+        ],
       },
     ],
   },
   {
-    role: "Engineers & Technical Staff",
-    team: [
+    category: "Engineers & Technical Staff",
+    profiles: [
       {
         name: "Lead Engineer Raj P.",
         certifications: ["Marine Engineering License", "Electrical Systems"],
@@ -279,6 +341,11 @@ export const yachtStaff = [
           "Engine maintenance",
           "Electrical systems",
           "Safety systems",
+        ],
+        responsibilities: [
+          "Overseeing engine operations",
+          "Conducting technical repairs",
+          "Ensuring safety compliance",
         ],
       },
       {
@@ -291,12 +358,17 @@ export const yachtStaff = [
           "Preventive maintenance",
           "Inventory management",
         ],
+        responsibilities: [
+          "Assisting lead engineer",
+          "Performing mechanical repairs",
+          "Managing spare parts inventory",
+        ],
       },
     ],
   },
   {
-    role: "Medical Staff",
-    team: [
+    category: "Medical Staff",
+    profiles: [
       {
         name: "Dr. Clara J.",
         certifications: [
@@ -310,6 +382,11 @@ export const yachtStaff = [
           "Chronic condition management",
           "Health consultations",
         ],
+        responsibilities: [
+          "Providing medical care",
+          "Managing health emergencies",
+          "Conducting health consultations",
+        ],
       },
       {
         name: "Nurse James P.",
@@ -320,6 +397,11 @@ export const yachtStaff = [
           "Patient monitoring",
           "Medication administration",
           "First aid training",
+        ],
+        responsibilities: [
+          "Monitoring patient health",
+          "Administering medications",
+          "Conducting first aid training for crew",
         ],
       },
     ],

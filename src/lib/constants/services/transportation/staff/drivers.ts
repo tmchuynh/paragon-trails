@@ -1,7 +1,9 @@
-export const driverQualificationMatrix = [
+import { StaffCategory } from "@/lib/interfaces/staff/staff";
+
+export const driverQualificationMatrix: StaffCategory[] = [
   {
-    qualificationCategory: "Executive Sedans & Limousines",
-    drivers: [
+    category: "Executive Sedans & Limousines",
+    profiles: [
       {
         name: "Lucien Benoit",
         languages: ["French", "English", "German"],
@@ -9,6 +11,7 @@ export const driverQualificationMatrix = [
         certifications: ["Defensive Driving", "VIP Transport Certification"],
         specialTraining: ["Advanced Defensive Driving", "Close Protection"],
         availability: "Mon-Fri 8:00 AM - 6:00 PM",
+        specialties: ["Luxury Transport", "Corporate Events"],
       },
       {
         name: "Aiko Tanaka",
@@ -20,6 +23,7 @@ export const driverQualificationMatrix = [
           "Surveillance Detection",
         ],
         availability: "Mon-Sat 7:00 AM - 5:00 PM",
+        specialties: ["Cultural Sensitivity", "High-Profile Events"],
       },
       {
         name: "Ricardo Alvarez",
@@ -31,6 +35,7 @@ export const driverQualificationMatrix = [
         ],
         specialTraining: ["High-Speed Driving", "Tactical Driving Maneuvers"],
         availability: "24/7 On Call",
+        specialties: ["Emergency Response", "High-Risk Transport"],
       },
       {
         name: "Maya Patel",
@@ -39,6 +44,7 @@ export const driverQualificationMatrix = [
         certifications: ["Defensive Driving", "VIP Transport Certification"],
         specialTraining: ["Advanced Communication", "Conflict De-escalation"],
         availability: "Mon-Fri 9:00 AM - 5:00 PM",
+        specialties: ["Client Relations", "Crisis Management"],
       },
       {
         name: "Omar Khalil",
@@ -47,12 +53,13 @@ export const driverQualificationMatrix = [
         certifications: ["Security Awareness Training"],
         specialTraining: ["Anti-Terrorism Measures", "Crowd Control"],
         availability: "Tue-Sun 8:00 AM - 4:00 PM",
+        specialties: ["Luxury Transport", "Corporate Events"],
       },
     ],
   },
   {
-    qualificationCategory: "Luxury SUVs & Off-Road Vehicles",
-    drivers: [
+    category: "Luxury SUVs & Off-Road Vehicles",
+    profiles: [
       {
         name: "Sandra Mbeki",
         languages: ["English", "Zulu", "Swahili"],
@@ -71,6 +78,7 @@ export const driverQualificationMatrix = [
         ],
         specialTraining: ["Vehicle Countermeasures", "Surveillance Techniques"],
         availability: "Tue-Sun 8:00 AM - 6:00 PM",
+        specialties: ["Urban Navigation", "Emergency Response"],
       },
       {
         name: "Lars Eriksen",
@@ -79,6 +87,7 @@ export const driverQualificationMatrix = [
         certifications: ["VIP Transport Certification", "Defensive Driving"],
         specialTraining: ["Diplomatic Protocol", "Crowd Management"],
         availability: "Mon-Fri 7:00 AM - 5:00 PM",
+        specialties: ["Diplomatic Transport", "High-Profile Events"],
       },
       {
         name: "Anya Volkova",
@@ -87,6 +96,7 @@ export const driverQualificationMatrix = [
         certifications: ["Off-Road Driving"],
         specialTraining: ["Cold Weather Operations", "Route Reconnaissance"],
         availability: "Mon-Sat 8:00 AM - 4:00 PM",
+        specialties: ["Extreme Weather Driving", "Remote Area Navigation"],
       },
       {
         name: "David Morrow",
@@ -95,12 +105,13 @@ export const driverQualificationMatrix = [
         certifications: ["Tactical Driving", "Defensive Driving"],
         specialTraining: ["Emergency Evasion", "Urban Off-Road Driving"],
         availability: "24/7 On Call",
+        specialties: ["High-Risk Transport", "Emergency Response"],
       },
     ],
   },
   {
-    qualificationCategory: "Multi-Passenger Vehicles",
-    drivers: [
+    category: "Multi-Passenger Vehicles",
+    profiles: [
       {
         name: "Tania Ribeiro",
         languages: ["Portuguese", "Spanish", "English"],
@@ -111,6 +122,7 @@ export const driverQualificationMatrix = [
           "Evacuation Procedures",
         ],
         availability: "24/7 On Call",
+        specialties: ["Group Transport", "Event Logistics"],
       },
       {
         name: "Michael Chen",
@@ -122,6 +134,7 @@ export const driverQualificationMatrix = [
         ],
         specialTraining: ["Hazmat Transport", "Multi-Vehicle Coordination"],
         availability: "Mon-Sat 6:00 AM - 4:00 PM",
+        specialties: ["Corporate Transport"],
       },
       {
         name: "Abdul Rahman",
@@ -133,6 +146,7 @@ export const driverQualificationMatrix = [
         ],
         specialTraining: ["Protective Convoy Driving", "Emergency Response"],
         availability: "Mon-Fri 8:00 AM - 6:00 PM",
+        specialties: ["High-Risk Transport", "Emergency Response"],
       },
       {
         name: "Emily Johnson",
@@ -141,6 +155,7 @@ export const driverQualificationMatrix = [
         certifications: ["Passenger Safety Management"],
         specialTraining: ["Evacuation Procedures", "Communication Skills"],
         availability: "Mon-Fri 9:00 AM - 5:00 PM",
+        specialties: ["Group Transport", "Event Logistics"],
       },
       {
         name: "Carlos Mendoza",
@@ -153,8 +168,8 @@ export const driverQualificationMatrix = [
     ],
   },
   {
-    qualificationCategory: "Eco & EV Options",
-    drivers: [
+    category: "Eco & EV Options",
+    profiles: [
       {
         name: "Sofia Dimitrova",
         languages: ["Bulgarian", "English", "Russian"],
@@ -184,6 +199,7 @@ export const driverQualificationMatrix = [
           "Eco-Friendly Navigation",
         ],
         availability: "Tue-Sun 8:00 AM - 4:00 PM",
+        specialties: ["Sustainable Transport", "EV Maintenance"],
       },
       {
         name: "Jared Thompson",
