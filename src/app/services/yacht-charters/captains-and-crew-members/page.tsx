@@ -36,9 +36,9 @@ export default function CaptainsAndCrewMembersPage() {
                 className="shadow-md hover:shadow-lg border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
               >
                 {/* Profile Header */}
-                <div className="py-3 border-tertiary border-b-2">
+                <div className="relative py-3 border-tertiary border-b-2">
                   <div className="px-6">
-                    <Badge variant={"secondary"}>
+                    <Badge className="right-6 absolute" variant={"secondary"}>
                       {category.category.slice(0, -1)}
                     </Badge>
                     <h3 className="mt-4">{profile.name}</h3>

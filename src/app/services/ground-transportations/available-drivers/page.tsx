@@ -36,9 +36,11 @@ export default function AvailableDriversPage() {
                 className="shadow-md hover:shadow-lg border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
               >
                 {/* Driver Profile Header */}
-                <div className="py-3 border-tertiary border-b-2">
+                <div className="relative py-3 border-tertiary border-b-2">
                   <div className="px-6">
-                    <Badge variant={"secondary"}>{profile.availability}</Badge>
+                    <Badge className="right-6 absolute" variant={"secondary"}>
+                      {profile.availability}
+                    </Badge>
                     <h3 className="mt-4">{profile.name}</h3>
                   </div>
                 </div>
