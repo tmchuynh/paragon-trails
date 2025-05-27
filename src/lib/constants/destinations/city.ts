@@ -2,6 +2,7 @@ export const cityattractions = [
   {
     city: "New York City",
     state: "NY",
+    region: "NY",
     country: "United States",
     attractions: [
       {
@@ -51,6 +52,8 @@ export const cityattractions = [
   },
   {
     city: "Heraklion",
+    state: "",
+    region: "Crete",
     country: "Greece",
     attractions: [
       {
@@ -106,6 +109,8 @@ export const cityattractions = [
   },
   {
     city: "Shanghai",
+    state: "",
+    region: "Shanghai Municipality",
     country: "China",
     attractions: [
       {
@@ -161,6 +166,8 @@ export const cityattractions = [
   },
   {
     city: "Chengdu",
+    state: "",
+    region: "Sichuan Province",
     country: "China",
     attractions: [
       {
@@ -217,6 +224,8 @@ export const cityattractions = [
   },
   {
     city: "Chiang Mai",
+    state: "",
+    region: "Chiang Mai Province",
     country: "Thailand",
     attractions: [
       {
@@ -273,6 +282,8 @@ export const cityattractions = [
   },
   {
     city: "Ho Chi Minh City",
+    state: "",
+    region: "Southern Vietnam",
     country: "Vietnam",
     attractions: [
       {
@@ -329,6 +340,8 @@ export const cityattractions = [
   },
   {
     city: "Da Nang",
+    state: "",
+    region: "Central Vietnam",
     country: "Vietnam",
     attractions: [
       {
@@ -383,6 +396,7 @@ export const cityattractions = [
   },
   {
     city: "Nha Trang",
+    state: "",
     country: "Vietnam",
     attractions: [
       {
@@ -438,6 +452,7 @@ export const cityattractions = [
   },
   {
     city: "Hội An",
+    state: "",
     country: "Vietnam",
     attractions: [
       {
@@ -495,6 +510,7 @@ export const cityattractions = [
   {
     city: "Los Angeles",
     state: "CA",
+    region: "CA",
     country: "United States",
     attractions: [
       {
@@ -546,6 +562,7 @@ export const cityattractions = [
   {
     city: "Chicago",
     state: "IL",
+    region: "IL",
     country: "United States",
     attractions: [
       {
@@ -596,6 +613,7 @@ export const cityattractions = [
   {
     city: "San Francisco",
     state: "CA",
+    region: "CA",
     country: "United States",
     attractions: [
       {
@@ -645,6 +663,7 @@ export const cityattractions = [
   {
     city: "Las Vegas",
     state: "NV",
+    region: "NV",
     country: "United States",
     attractions: [
       {
@@ -694,6 +713,7 @@ export const cityattractions = [
   {
     city: "Washington",
     state: "DC",
+    region: "DC",
     country: "United States",
     attractions: [
       {
@@ -746,6 +766,7 @@ export const cityattractions = [
   {
     city: "Boston",
     state: "MA",
+    region: "MA",
     country: "United States",
     attractions: [
       {
@@ -797,6 +818,7 @@ export const cityattractions = [
   {
     city: "Philadelphia",
     state: "PA",
+    region: "PA",
     country: "United States",
     attractions: [
       {
@@ -847,6 +869,7 @@ export const cityattractions = [
   {
     city: "New Orleans",
     state: "LA",
+    region: "LA",
     country: "United States",
     attractions: [
       {
@@ -897,6 +920,7 @@ export const cityattractions = [
   {
     city: "Savannah",
     state: "GA",
+    region: "GA",
     country: "United States",
     attractions: [
       {
@@ -948,6 +972,7 @@ export const cityattractions = [
   {
     city: "San Diego",
     state: "CA",
+    region: "CA",
     country: "United States",
     attractions: [
       {
@@ -1004,6 +1029,7 @@ export const cityattractions = [
   {
     city: "Honolulu",
     state: "HI",
+    region: "HI",
     country: "United States",
     attractions: [
       {
@@ -1057,6 +1083,7 @@ export const cityattractions = [
   {
     city: "Seattle",
     state: "WA",
+    region: "WA",
     country: "United States",
     attractions: [
       {
@@ -1112,6 +1139,7 @@ export const cityattractions = [
   {
     city: "Austin",
     state: "TX",
+    region: "TX",
     country: "United States",
     attractions: [
       {
@@ -1163,6 +1191,7 @@ export const cityattractions = [
   },
   {
     city: "Tuscany",
+    state: "",
     country: "Italy",
     attractions: [
       {
@@ -1217,6 +1246,7 @@ export const cityattractions = [
   },
   {
     city: "Denpasar",
+    state: "",
     country: "Indonesia",
     attractions: [
       {
@@ -1266,6 +1296,8 @@ export const cityattractions = [
   },
   {
     city: "Thessaloniki",
+    state: "",
+    region: "Central Macedonia",
     country: "Greece",
     attractions: [
       {
@@ -1322,6 +1354,7 @@ export const cityattractions = [
   },
   {
     city: "Athens",
+    state: "",
     country: "Greece",
     attractions: [
       {
@@ -1376,6 +1409,7 @@ export const cityattractions = [
   },
   {
     city: "Piraeus",
+    state: "",
     country: "Greece",
     attractions: [
       {
@@ -1430,6 +1464,7 @@ export const cityattractions = [
   },
   {
     city: "Beijing",
+    state: "",
     country: "China",
     attractions: [
       {
@@ -1484,6 +1519,7 @@ export const cityattractions = [
   },
   {
     city: "Xi'an",
+    state: "",
     country: "China",
     attractions: [
       {
@@ -2067,6 +2103,7 @@ export const cityattractions = [
   {
     city: "Miami",
     state: "FL",
+    region: "FL",
     country: "United States",
     attractions: [
       {
@@ -2170,6 +2207,8 @@ export const cityattractions = [
   },
   {
     city: "Thessaloniki",
+    state: "",
+    region: "Central Macedonia",
     country: "Greece",
     attractions: [
       {
