@@ -25,7 +25,7 @@ export async function getToolResource(
 export const driverLanguages = Array.from(
   new Set(
     driverQualificationMatrix.flatMap((category) =>
-      category.drivers.flatMap((driver) => driver.languages)
+      category.profiles.flatMap((driver) => driver.languages)
     )
   )
 ).sort();
