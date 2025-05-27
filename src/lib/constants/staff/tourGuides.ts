@@ -1,240 +1,344 @@
-export const tourGuides = [
+import { TourGuide } from "@/lib/interfaces/staff/staff";
+
+export const tourGuides: TourGuide[] = [
   {
     name: "Lucia",
     city: "Florence",
     country: "Italy",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 12,
+    specialties: ["Renaissance Art", "Medici History", "Museum Tours"],
+    certifications: ["PhD in Art History", "Licensed Florence Guide"],
+    isPopular: true,
     description:
       "An art historian with a PhD in Renaissance studies, Lucia brings the Uffizi Gallery to life with stories of rivalry, passion, and politics hidden in every brushstroke.",
+    quote:
+      "In Florence, every alley tells a story and every painting holds a secret.",
+    bio: "After completing her doctorate at the University of Florence, Lucia spent five years working as a researcher at the Uffizi Gallery before transitioning to guiding. Her academic papers on Botticelli and Michelangelo have been published in several respected art journals. When not leading tours, she teaches Renaissance art seminars at local universities and contributes to restoration projects throughout the city.",
   },
   {
     name: "Minh",
     city: "Hanoi",
     country: "Vietnam",
+    languages: ["Vietnamese", "English", "Mandarin"],
+    experienceYears: 8,
+    specialties: ["Street Food Tours", "Cooking Classes", "Cultural History"],
+    region: "Old Quarter",
     description:
       "Raised in the Old Quarter, Minh is a culinary guide who introduces guests to generations-old noodle stalls and shares the history behind each family recipe.",
+    quote:
+      "The true essence of Vietnam lies in the steam rising from a bowl of phở.",
+    bio: "Minh comes from a family that has operated a phở restaurant for four generations in Hanoi's Old Quarter. After studying hospitality management in Singapore, he returned home to combine his professional training with his deep knowledge of Vietnamese culinary traditions. He has been featured in several international food documentaries and maintains connections with dozens of family-owned eateries across the city, giving his guests access to authentic experiences unavailable to most tourists.",
   },
   {
     name: "Jamal",
     city: "Marrakesh",
     country: "Morocco",
+    languages: ["Arabic", "English", "French", "Berber"],
+    experienceYears: 15,
+    specialties: ["Desert Expeditions", "Berber Culture", "Night Sky Tours"],
+    certifications: ["Wilderness First Aid", "Desert Navigation"],
     description:
       "A licensed desert trek guide, Jamal blends ancient Berber traditions with practical knowledge of the Sahara for immersive, safe expeditions.",
+    quote:
+      "The desert teaches patience; what seems empty is actually full of life.",
+    bio: "Born to a Berber family near the Sahara, Jamal spent his childhood learning desert survival skills and traditional knowledge from his elders. After formal training in ecology and outdoor leadership, he became one of Morocco's most respected desert guides. He has led scientific expeditions studying desert ecosystems and participated in traditional camel caravans across the Sahara. Jamal's commitment to sustainable tourism has earned him recognition from environmental organizations working to preserve desert habitats.",
   },
   {
     name: "Elena",
     city: "Barcelona",
     country: "Spain",
+    languages: ["Spanish", "Catalan", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Gaudí Architecture", "Modernism", "Urban Design"],
+    certifications: ["Architecture Professor"],
+    isPopular: true,
     description:
       "A Gaudí expert and architecture professor, Elena reveals the secrets of Catalonia's most famous structures with clarity and humor.",
+    quote:
+      "Architecture should speak of its time and place, but yearn for timelessness.",
+    bio: "Elena holds dual degrees in Architecture and Art History with a specialization in Modernist design. Her doctoral thesis on Gaudí's mathematical principles has been cited in architectural textbooks worldwide. Before becoming a guide, she worked on the restoration team at Casa Batlló and continues to lecture at Barcelona's School of Architecture. Her tours incorporate hands-on demonstrations of architectural techniques and exclusive access to areas of Gaudí's buildings normally closed to the public.",
   },
   {
     name: "Sofia",
     city: "Athens",
     country: "Greece",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 7,
+    specialties: ["Ancient Ruins", "Greek Mythology", "Culinary Tours"],
     description:
       "A passionate historian, Sofia offers in-depth tours of ancient ruins, illuminating the myths and facts of Greek mythology.",
+    quote: "In Athens, we don't just study history — we walk through it daily.",
+    bio: "Sofia has a degree in Archaeology from the University of Athens and has participated in numerous excavations around Greece. Her passion for history is matched only by her love of storytelling, making the ancient world accessible and exciting to all her guests. Sofia also conducts workshops on ancient Greek cooking and mythology for a more immersive historical experience.",
   },
   {
     name: "Marco",
     city: "Venice",
     country: "Italy",
+    languages: ["Italian", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Gondola Tours", "Venetian History", "Art History"],
     description:
-      "Marco, a local gondolier and storyteller, shares the enchanting history and hidden gems of Venice’s waterways.",
+      "Marco, a local gondolier and storyteller, shares the enchanting history and hidden gems of Venice's waterways.",
+    quote:
+      "Venice is like a mirror reflecting the past into the present through water.",
+    bio: "As a descendant of a long line of gondoliers, Marco has been navigating the canals of Venice since childhood. He combines his extensive knowledge of Venetian history and art with personal anecdotes, making each tour a unique and intimate experience of the city. Marco is also an accomplished photographer, and his tours often include tips on capturing the perfect shot of Venice's stunning scenery.",
   },
   {
     name: "Aiko",
     city: "Tokyo",
     country: "Japan",
+    languages: ["Japanese", "English", "Korean"],
+    experienceYears: 5,
+    specialties: ["Tea Ceremonies", "Temple Tours", "Cultural Experiences"],
     description:
-      "Aiko combines modern city tours with traditional cultural experiences, ensuring visitors get a comprehensive view of Tokyo’s contrasts.",
+      "Aiko combines modern city tours with traditional cultural experiences, ensuring visitors get a comprehensive view of Tokyo's contrasts.",
+    quote:
+      "Tokyo thrives in the balance between honoring tradition and embracing innovation.",
+    bio: "Aiko was born and raised in Tokyo, and her deep-rooted knowledge of the city is complemented by her formal training in cultural anthropology. She has worked with various cultural institutions to promote Japanese heritage and is passionate about sharing the subtleties of Japanese culture, from tea ceremonies to contemporary art. Aiko's tours are known for their personal touch, often including home visits and meetings with local artisans.",
   },
   {
     name: "Liam",
     city: "Sydney",
     country: "Australia",
+    languages: ["English", "Mandarin"],
+    experienceYears: 9,
+    specialties: ["Coastal Hikes", "Aboriginal Heritage", "Wildlife Tours"],
     description:
-      "An outdoor enthusiast, Liam takes guests through the city’s best coastal hikes and shares insights into Aboriginal heritage.",
+      "An outdoor enthusiast, Liam takes guests through the city's best coastal hikes and shares insights into Aboriginal heritage.",
+    quote: "The land speaks if you know how to listen to its ancient stories.",
+    bio: "Liam is an Aboriginal Australian with a deep connection to the land and its stories. He has trained as a park ranger and has extensive knowledge of the native flora, fauna, and the cultural significance of the land to the Aboriginal people. Liam's tours are immersive experiences that go beyond the surface, offering guests a chance to connect with nature and understand the ancient stories and traditions of Australia's First Nations people.",
   },
   {
     name: "Isabella",
     city: "Rome",
     country: "Italy",
+    languages: ["Italian", "English", "Spanish"],
+    experienceYears: 11,
+    specialties: ["Ancient Roman History", "Colosseum Tours", "Vatican Tours"],
+    certifications: ["Licensed Rome Guide"],
     description:
       "A certified guide with expertise in ancient Roman history, Isabella brings the Colosseum and Forum to life with fascinating stories.",
+    quote:
+      "Rome wasn't built in a day, but each day reveals new secrets of its eternal story.",
+    bio: "Isabella is a licensed tour guide with a degree in Ancient History from the University of Rome. Her passion for history was ignited by the tales of ancient Rome's grandeur and intrigue, passed down through her family. Isabella's tours are known for their depth and detail, often including exclusive access to archaeological sites and restoration workshops. She is also a skilled photographer, and her tours provide guests with unique opportunities to capture the beauty and history of Rome.",
   },
   {
     name: "Carlos",
     city: "Mexico City",
     country: "Mexico",
+    languages: ["Spanish", "English"],
+    experienceYears: 10,
+    specialties: ["Art Tours", "Street Food", "Cultural History"],
     description:
       "Carlos offers vibrant city tours, focusing on art, street food, and the rich cultural tapestry of Mexico’s capital.",
+    bio: "Carlos is a Mexico City native with a deep passion for his country's art and culture. He studied art history at UNAM and has worked as a curator in various prestigious museums in Mexico. Carlos combines his extensive knowledge of art with his love for storytelling, making each tour a unique experience. He is also a talented chef, and his tours often include exclusive cooking classes and food tastings at hidden-gem restaurants.",
   },
   {
     name: "Fatima",
     city: "Fez",
     country: "Morocco",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 14,
+    specialties: ["Medina Tours", "Cultural Heritage", "Crafts and Souks"],
     description:
       "Fatima expertly navigates the medina, guiding guests through centuries-old markets while sharing traditional craft stories.",
+    bio: "Fatima was born and raised in Fez, and her deep knowledge of the city’s history and culture is complemented by her expertise in Moroccan handicrafts. She has worked with various artisans' cooperatives to promote and preserve traditional Moroccan crafts. Fatima's tours are immersive experiences that provide guests with a deep understanding of Fez's cultural heritage, often including hands-on workshops with local artisans.",
   },
   {
     name: "Nina",
     city: "Paris",
     country: "France",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 8,
+    specialties: ["Fashion History", "Art Tours", "Culinary Tours"],
     description:
       "A fashion historian and art lover, Nina takes visitors through Parisian neighborhoods rich with style and artistic history.",
+    bio: "Nina has a degree in Art History from the Sorbonne and a diploma in Fashion Design from the Paris College of Art. She has worked in various capacities in the fashion industry, from design to marketing, and has a deep understanding of the cultural and historical context of fashion. Nina's tours are a blend of art, history, and fashion, providing a unique perspective on Paris's rich cultural tapestry.",
   },
   {
     name: "Hans",
     city: "Berlin",
     country: "Germany",
+    languages: ["German", "English", "Dutch"],
+    experienceYears: 9,
+    specialties: ["Modern History", "Art Scene", "Architecture Tours"],
     description:
       "With a focus on modern history, Hans offers tours that explore Berlin’s transformation post-Cold War and its vibrant cultural scene.",
+    bio: "Hans is a Berlin native with a deep passion for his city's history and culture. He studied history and political science at the Free University of Berlin and has worked as a tour guide for over a decade. Hans combines his extensive knowledge of Berlin's history with his love for storytelling, making each tour a unique experience. He is also a talented photographer, and his tours provide guests with unique opportunities to capture the beauty and history of Berlin.",
   },
   {
     name: "Maya",
     city: "Bangkok",
     country: "Thailand",
+    languages: ["Thai", "English", "Chinese"],
+    experienceYears: 7,
+    specialties: ["Street Food", "Temple Tours", "Cultural Experiences"],
     description:
       "Maya blends street food tours with temple visits, giving an authentic and flavorful taste of Bangkok’s lively culture.",
+    quote: "In Bangkok, every meal is a story and every temple a masterpiece.",
+    bio: "Maya is a Bangkok native with a deep passion for her city's food and culture. She studied culinary arts at Le Cordon Bleu in Bangkok and has worked in various capacities in the food industry, from chef to food stylist. Maya combines her extensive knowledge of Thai cuisine with her love for storytelling, making each tour a unique experience. Her tours often include hands-on cooking classes and exclusive tastings at hidden-gem restaurants.",
   },
   {
     name: "Omar",
     city: "Cairo",
     country: "Egypt",
+    languages: ["Arabic", "English", "German"],
+    experienceYears: 10,
+    specialties: ["Ancient Egypt", "Pyramid Tours", "Nile Cruises"],
+    certifications: ["Certified Egyptologist"],
     description:
       "Omar is an expert on Ancient Egypt, providing insightful tours of the pyramids and museums while explaining their mysteries.",
+    quote:
+      "The treasures of Egypt are not just in its tombs, but in the stories that have survived through millennia.",
+    bio: "Omar is a certified Egyptologist with a deep passion for his country's history and culture. He studied archaeology and Egyptology at Cairo University and has worked as a tour guide for over a decade. Omar combines his extensive knowledge of Egypt's history with his love for storytelling, making each tour a unique experience. He is also a talented photographer, and his tours provide guests with unique opportunities to capture the beauty and history of Egypt.",
   },
   {
-    name: "Helena",
-    city: "Lisbon",
-    country: "Portugal",
-    description:
-      "Helena guides visitors through Lisbon’s historic neighborhoods and shares stories of explorers who shaped the Age of Discovery.",
-  },
-  {
-    name: "David",
-    city: "Cape Town",
-    country: "South Africa",
-    description:
-      "David is a nature and wildlife guide who also provides rich historical context about Cape Town’s diverse heritage.",
-  },
-  {
-    name: "Anna",
-    city: "Amsterdam",
-    country: "Netherlands",
-    description:
-      "Anna offers bike tours through the canals and shares fascinating tales about the city’s art, history, and vibrant nightlife.",
-  },
-  {
-    name: "Raj",
-    city: "Delhi",
-    country: "India",
-    description:
-      "Raj’s tours combine historical landmarks with local markets, introducing guests to the diverse layers of Delhi’s culture.",
+    specialties: ["Historical Landmarks", "Local Markets", "Cultural Tours"],
+    bio: "Raj’s tours combine historical landmarks with local markets, introducing guests to the diverse layers of Delhi’s culture.",
   },
   {
     name: "Eva",
     city: "Prague",
     country: "Czech Republic",
-    description:
-      "A lover of gothic architecture and folklore, Eva’s tours bring the city’s legends and landmarks vividly to life.",
+    languages: ["Czech", "English", "German"],
+    experienceYears: 8,
+    specialties: ["Gothic Architecture", "Folklore", "Historical Tours"],
+    bio: "A lover of gothic architecture and folklore, Eva’s tours bring the city’s legends and landmarks vividly to life.",
   },
   {
     name: "Tomás",
     city: "Buenos Aires",
     country: "Argentina",
-    description:
-      "Tomás is a tango enthusiast and history buff who shares the spirit of the city through dance and historical storytelling.",
+    languages: ["Spanish", "English", "Italian"],
+    experienceYears: 10,
+    specialties: ["Tango", "Historical Storytelling", "Cultural Tours"],
+    bio: "Tomás is a tango enthusiast and history buff who shares the spirit of the city through dance and historical storytelling.",
   },
   {
     name: "Claire",
     city: "Edinburgh",
     country: "Scotland",
-    description:
-      "Claire combines literary history with ghost tours, providing an immersive experience of Edinburgh’s mysterious side.",
+    languages: ["English", "Scottish Gaelic"],
+    experienceYears: 7,
+    specialties: ["Literary History", "Ghost Tours", "Scottish History"],
+    bio: "Claire combines literary history with ghost tours, providing an immersive experience of Edinburgh’s mysterious side.",
   },
   {
     name: "Yara",
     city: "Rio de Janeiro",
     country: "Brazil",
-    description:
-      "Yara knows the best viewpoints and local samba spots, sharing Rio’s vibrant energy and natural beauty with every tour.",
+    languages: ["Portuguese", "English", "Spanish"],
+    experienceYears: 8,
+    specialties: ["Samba", "Carnival History", "City Tours"],
+    bio: "Yara knows the best viewpoints and local samba spots, sharing Rio’s vibrant energy and natural beauty with every tour.",
   },
   {
     name: "Jin",
     city: "Seoul",
     country: "South Korea",
-    description:
-      "Jin offers a mix of modern K-pop culture and traditional palace tours, giving visitors a comprehensive view of Seoul.",
+    languages: ["Korean", "English", "Japanese"],
+    experienceYears: 6,
+    specialties: ["K-pop Culture", "Palace Tours", "Street Food"],
+    bio: "Jin offers a mix of modern K-pop culture and traditional palace tours, giving visitors a comprehensive view of Seoul.",
   },
   {
     name: "Sara",
     city: "Vancouver",
     country: "Canada",
-    description:
-      "Sara guides outdoor adventure tours, showcasing Vancouver’s stunning natural landscapes alongside urban culture.",
+    languages: ["English", "French", "Mandarin"],
+    experienceYears: 7,
+    specialties: ["Outdoor Adventures", "City Tours", "Cultural Experiences"],
+    bio: "Sara guides outdoor adventure tours, showcasing Vancouver’s stunning natural landscapes alongside urban culture.",
   },
   {
     name: "Ahmed",
     city: "Dubai",
     country: "UAE",
-    description:
-      "Ahmed’s tours highlight Dubai’s architectural marvels and luxurious lifestyle, with insights into the city’s rapid growth.",
+    languages: ["Arabic", "English", "Hindi"],
+    experienceYears: 9,
+    specialties: ["Architectural Tours", "Desert Safaris", "Cultural Insights"],
+    bio: "Ahmed’s tours highlight Dubai’s architectural marvels and luxurious lifestyle, with insights into the city’s rapid growth.",
   },
   {
     name: "Nora",
     city: "Stockholm",
     country: "Sweden",
-    description:
-      "Nora shares stories of Scandinavian design and Viking history, offering engaging and well-rounded tours of Stockholm.",
+    languages: ["Swedish", "English", "Finnish"],
+    experienceYears: 8,
+    specialties: ["Scandinavian Design", "Viking History", "City Tours"],
+    bio: "Nora shares stories of Scandinavian design and Viking history, offering engaging and well-rounded tours of Stockholm.",
   },
   {
     name: "Leo",
     city: "New York",
     country: "USA",
-    description:
-      "Leo provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots.",
+    languages: ["English", "Spanish", "Italian"],
+    experienceYears: 10,
+    specialties: ["Street Art", "Cultural Hotspots", "Historical Tours"],
+    bio: "Leo provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots.",
   },
   {
     name: "Isabel",
     city: "Lisbon",
     country: "Portugal",
-    description:
-      "Isabel specializes in fado music and historic district tours, bringing Portugal’s capital’s soulful spirit to visitors.",
+    languages: ["Portuguese", "English", "Spanish"],
+    experienceYears: 10,
+    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
+    bio: "Isabel specializes in fado music and historic district tours, bringing Portugal’s capital’s soulful spirit to visitors.",
   },
   {
     name: "Takashi",
     city: "Kyoto",
     country: "Japan",
-    description:
-      "Takashi introduces travelers to traditional tea ceremonies and ancient temples, enriching Kyoto’s timeless charm.",
+    languages: ["Japanese", "English", "Chinese"],
+    experienceYears: 9,
+    specialties: ["Tea Ceremonies", "Temple Tours", "Cultural Experiences"],
+    bio: "Takashi introduces travelers to traditional tea ceremonies and ancient temples, enriching Kyoto’s timeless charm.",
   },
   {
     name: "Mariana",
     city: "Mexico City",
     country: "Mexico",
-    description:
-      "Mariana offers immersive cultural tours focused on art, local festivals, and the city’s rich indigenous heritage.",
+    languages: ["Spanish", "English", "Nahuatl"],
+    experienceYears: 11,
+    specialties: ["Art Tours", "Local Festivals", "Indigenous Heritage"],
+    bio: "Mariana offers immersive cultural tours focused on art, local festivals, and the city’s rich indigenous heritage.",
+    quote:
+      "Mexico City is a tapestry of colors, sounds, and stories waiting to be discovered.",
   },
   {
     name: "Felix",
     city: "Munich",
     country: "Germany",
-    description:
-      "Felix combines beer garden visits with Bavarian history, sharing Munich’s unique traditions and vibrant lifestyle.",
+    languages: ["German", "English", "Italian"],
+    experienceYears: 8,
+    specialties: ["Beer Gardens", "Bavarian History", "Cultural Tours"],
+    bio: "Felix combines beer garden visits with Bavarian history, sharing Munich’s unique traditions and vibrant lifestyle.",
+    quote:
+      "In Munich, every beer garden is a celebration of life, history, and community.",
   },
   {
     name: "Giulia",
     city: "Naples",
     country: "Italy",
-    description:
-      "Giulia, a native Neapolitan, takes guests on authentic food tours highlighting the birthplace of pizza and hidden treasures.",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Food Tours", "Pizza History", "Cultural Heritage"],
+    bio: "Giulia, a native Neapolitan, takes guests on authentic food tours highlighting the birthplace of pizza and hidden treasures.",
+    quote:
+      "In Naples, food is not just sustenance; it’s a way of life, a celebration of culture and community.",
   },
   {
     name: "Elif",
     city: "Istanbul",
     country: "Turkey",
-    description:
-      "Elif’s tours bridge Asia and Europe, narrating Istanbul’s rich history through its architecture and bustling bazaars.",
+    languages: ["Turkish", "English", "Arabic"],
+    experienceYears: 9,
+    specialties: ["Byzantine History", "Ottoman Culture", "Bazaar Navigation"],
+    region: "Bosphorus",
+    bio: "Elif's tours bridge Asia and Europe, narrating Istanbul's rich history through its architecture and bustling bazaars.",
+    quote:
+      "Where continents meet, cultures blend into something greater than their parts.",
   },
 ];
