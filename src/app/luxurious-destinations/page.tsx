@@ -35,13 +35,29 @@ export default function LuxuriousDestinations() {
             key={index}
             className="group shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
             onClick={() =>
-              router.push(
-                `/luxurious-destinations/${formatToSlug(item.city)}-${
-                  item.state
-                }-${formatToSlug(item.region as string)}-${formatToSlug(
-                  item.country
-                )}`
-              )
+            {
+              if (
+                item.state === item.region ||
+                item.state === "" ||
+                !item.state
+              ) {
+                router.push(
+                  `/luxurious-destinations/${formatToSlug(
+                    item.city
+                  )}/${formatToSlug(item.region as string)}/${formatToSlug(
+                    item.country
+                  )}`
+                );
+              } else {
+                router.push(
+                  `/luxurious-destinations/${formatToSlug(
+                    item.city
+                  )}/${formatToSlug(item.region as string)}/${formatToSlug(
+                    item.country
+                  )}/${item.state}`
+                );
+              }
+            }
             }
           >
             <h2 className="font-semibold text-2xl underline-offset-2 group-hover:underline">
