@@ -26,8 +26,6 @@ export default async function HomestayLocationPage({
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      <p className="max-w-2xl text-center text-lg"></p>
-
       <header>
         <h1>Homestay Location: {displayName}</h1>
         <h5>{cityInfo?.subtitle}</h5>
