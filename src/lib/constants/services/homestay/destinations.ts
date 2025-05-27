@@ -435,4 +435,51 @@ export const homestaysAndHeritageStays = [
       },
     ],
   },
+  {
+    country: "Vietnam",
+    locations: [
+      {
+        city: "Hồ Chí Minh",
+        state: "",
+        region: "Ho Chi Minh City",
+        stayType: "Colonial Villa",
+        description:
+          "Hồ Chí Minh City, formerly known as Saigon, is a bustling metropolis that blends modern skyscrapers with colonial-era architecture. The city offers a vibrant mix of cultures, cuisines, and historical sites, making it a dynamic destination for travelers seeking both history and contemporary urban experiences.",
+        culturalHighlights: [
+          "Colonial architecture",
+          "Street food culture",
+          "Local markets",
+          "War history museums",
+        ],
+      },
+      {
+        city: "Đà Nẵng",
+        state: "",
+        region: "Da Nang",
+        stayType: "Beachfront Homestay",
+        description:
+          "Đà Nẵng is a coastal city known for its beautiful beaches, modern infrastructure, and proximity to ancient cultural sites. The city offers a blend of relaxation and exploration, with opportunities to visit nearby UNESCO World Heritage sites like Hoi An and My Son.",
+        culturalHighlights: [
+          "Beachfront views",
+          "Local seafood",
+          "Cultural festivals",
+          "Marble Mountains",
+        ],
+      },
+      {
+        city: "Nha Trang",
+        state: "",
+        region: "Khanh Hoa Province",
+        stayType: "Seaside Homestay",
+        description:
+          "Nha Trang is a coastal city famous for its stunning beaches, vibrant nightlife, and rich cultural heritage. The city offers a mix of relaxation and adventure, with opportunities for water sports, exploring ancient temples, and enjoying the local cuisine.",
+        culturalHighlights: [
+          "Beachfront living",
+          "Local seafood",
+          "Diving and snorkeling",
+          "Cham culture",
+        ],
+      },
+    ],
+  },
 ];
