@@ -4,38 +4,22 @@ import {
   findAttractionsByCityAndCountry,
   getCityAttractions,
 } from "@/lib/utils/get";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
-type Props = {
-  params: object;
-  searchParams: {
-    city?: string;
-    country?: string;
-    region?: string;
-    state?: string;
-  };
-};
-
-export default function DestinationDetailsPage({ searchParams }: Props) {
+export default function DestinationDetailsPage() {
   const [loading, setLoading] = useState(true);
-  const city = searchParams.city || "";
-  const country = searchParams.country || "";
-  const region = searchParams.region || "";
-  const state = searchParams.state || "";
+  const searchParams = useSearchParams();
 
-  console.log("city:", city);
-  console.log("country:", country);
-  console.log("region:", region);
-  console.log("state:", state);
+  const city = searchParams.get("city") || "";
+  const country = searchParams.get("country") || "";
+  const region = searchParams.get("region") || "";
+  const state = searchParams.get("state") || "";
 
   // Use original values instead of formatting them
   const formattedCity = city;
   const formattedRegion = region;
   const formattedCountry = country;
-
-  console.log(
-    `City: ${formattedCity}, Region: ${formattedRegion}, Country: ${formattedCountry}`
-  );
 
   // Get attractions data for this destination
   const attractions = findAttractionsByCityAndCountry(
