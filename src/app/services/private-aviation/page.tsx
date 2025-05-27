@@ -222,7 +222,7 @@ export default function PrivateAviation() {
       <section>
         <h2>Popular Tour Routes with Private Flights</h2>
         <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-3">
-          {sortByProperty(popularAviationPrivateTourRoutes, "flightPath").map(
+          {sortByProperty(popularAviationPrivateTourRoutes, "route").map(
             (route, index) => (
               <div
                 key={index}
@@ -230,7 +230,7 @@ export default function PrivateAviation() {
               >
                 <div>
                   <h3>{route.routeName}</h3>
-                  <p>{route.flightPath}</p>
+                  <p>{route.route}</p>
                   <ul className="mb-3 pl-5 list-disc">
                     {route.highlights.map((highlight, idx) => (
                       <li key={idx} className="pl-5 list-disc">
