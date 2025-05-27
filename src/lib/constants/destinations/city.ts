@@ -3065,7 +3065,7 @@ export const cityattractions = [
   {
     city: "Kruger National Park",
     state: "",
-    region: "Mpumalanga/Limpopo",
+    region: "Mpumalanga Limpopo",
     country: "South Africa",
     attractions: [
       {
