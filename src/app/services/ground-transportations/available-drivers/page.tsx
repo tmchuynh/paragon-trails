@@ -5,11 +5,15 @@ export default function AvailableDriversPage() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1> Available Drivers</h1>
+        <h1>Expertise on Every Mile</h1>
         <h5>
-          Explore our network of available drivers and find the perfect match
-          for your transportation needs.
+          Skilled chauffeurs ensuring safe, comfortable, and timely journeys.
         </h5>
+        <blockquote>
+          "Having a professional driver made all the difference—effortless
+          travel with exceptional service from start to finish." – Emily R.,
+          Frequent Traveler
+        </blockquote>
         <p>
           Whether you're looking for a quick ride or a long-distance journey, we
           have a variety of drivers ready to assist you. Our drivers are

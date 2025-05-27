@@ -4,11 +4,13 @@ export default function RentAVehicle() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Rent a Vehicle</h1>
-        <h5>
-          Experience the freedom of exploration with our premium vehicle
-          rentals.
-        </h5>
+        <h1>Drive Your Journey</h1>
+        <h5>Premium vehicles available for every destination and style.</h5>
+        <blockquote>
+          "The vehicle rental service was flawless—luxury cars, personalized
+          support, and the freedom to explore at my own pace." – John D.,
+          Satisfied Customer
+        </blockquote>
         <p>
           At Paragon Trails, we offer a curated selection of luxury vehicles for
           rent, ensuring you travel in style and comfort. Whether you're
