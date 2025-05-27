@@ -209,12 +209,12 @@ export const homestaysAndHeritageStays = [
         ],
       },
       {
-        city: "Hoi An",
+        city: "Hội An",
         state: "",
         region: "Quang Nam Province",
         stayType: "Heritage Home",
         description:
-          "Hoi An is a beautifully preserved ancient town that reflects the fusion of different cultures through its historic architecture, traditional wooden houses, and vibrant street life. The town is also famous for its lantern festivals and culinary delights.",
+          "Hội An is a beautifully preserved ancient town that reflects the fusion of different cultures through its historic architecture, traditional wooden houses, and vibrant street life. The town is also famous for its lantern festivals and culinary delights.",
         culturalHighlights: [
           "Lantern festivals",
           "Ancient town walks",
@@ -356,37 +356,11 @@ export const homestaysAndHeritageStays = [
           "Svan culture",
         ],
       },
-      {
-        city: "Tbilisi",
-        state: "",
-        region: "Tbilisi",
-        stayType: "Heritage Guesthouse",
-        description:
-          "Tbilisi, the capital of Georgia, is known for its diverse architecture, vibrant arts scene, and rich history. The city's old town, with its narrow streets and traditional wooden houses, offers a unique blend of Eastern and Western cultural influences.",
-        culturalHighlights: [
-          "Old Town charm",
-          "Wooden balconies",
-          "Georgian hospitality",
-        ],
-      },
     ],
   },
   {
     country: "Thailand",
     locations: [
-      {
-        city: "Chiang Mai & Mae Hong Son",
-        state: "",
-        region: "Northern Thailand",
-        stayType: "Hill Tribe Homestay",
-        description:
-          "This region is known for its stunning mountain scenery, rich cultural heritage, and diverse hill tribe communities. Staying with a hill tribe family offers a unique opportunity to experience their traditional lifestyle, customs, and breathtaking natural surroundings.",
-        culturalHighlights: [
-          "Lahu and Karen traditions",
-          "Eco-activities",
-          "Bamboo homes",
-        ],
-      },
       {
         city: "Ayutthaya",
         state: "",
@@ -405,19 +379,6 @@ export const homestaysAndHeritageStays = [
   {
     country: "Greece",
     locations: [
-      {
-        city: "Pelion & Mani Peninsula",
-        state: "",
-        region: "Thessaly & Peloponnese",
-        stayType: "Stone Guesthouse",
-        description:
-          "These regions are known for their stunning natural beauty, traditional stone villages, and rich cultural heritage. The Pelion Peninsula offers a blend of mountain and sea, with picturesque villages, while the Mani Peninsula is famous for its rugged landscape and historic towers.",
-        culturalHighlights: [
-          "Mountain villages",
-          "Stone mansions",
-          "Traditional Greek meals",
-        ],
-      },
       {
         city: "Naxos & Crete",
         state: "",
@@ -447,19 +408,6 @@ export const homestaysAndHeritageStays = [
           "Local meals",
           "Tribal customs",
           "Craft workshops",
-        ],
-      },
-      {
-        city: "Zanzibar (Stone Town)",
-        state: "",
-        region: "Zanzibar City",
-        stayType: "Swahili Heritage Stay",
-        description:
-          "Stone Town, the historical heart of Zanzibar City, is a UNESCO World Heritage site known for its winding alleys, bustling bazaars, and rich Swahili culture. The town offers a unique blend of Arab, Persian, Indian, and European influences, reflected in its architecture, cuisine, and vibrant cultural scene.",
-        culturalHighlights: [
-          "Carved doors",
-          "Spice tours",
-          "Historic town ambiance",
         ],
       },
     ],
