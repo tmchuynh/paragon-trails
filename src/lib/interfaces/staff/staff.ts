@@ -21,7 +21,6 @@ export interface TourGuide extends TeamMember {
   city: string;
   state?: string;
   region?: string;
-  country: string;
   isPopular?: boolean;
   description: string;
   quote: string;
