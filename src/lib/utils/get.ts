@@ -1,6 +1,5 @@
-import { cityattractions } from "../constants/destinations/city";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
-import { formatTitleToCamcelCase } from "./format";
+import { formatTitleToCamelCase } from "./format";
 
 export async function getTourData(
   tourCategory: string,
@@ -37,9 +36,9 @@ export async function getCityAttractions(
   region: string,
   country: string
 ): Promise<any> {
-  city = formatTitleToCamcelCase(city).replace("'", "");
-  region = formatTitleToCamcelCase(region).replace("'", "");
-  country = formatTitleToCamcelCase(country).replace("'", "");
+  city = formatTitleToCamelCase(city).replace("'", "");
+  region = formatTitleToCamelCase(region).replace("'", "");
+  country = formatTitleToCamelCase(country).replace("'", "");
   const cityRegionCountry = `${city}${region}${country}`;
   console.log("Fetching attractions for:", cityRegionCountry);
   try {
@@ -54,32 +53,6 @@ export async function getCityAttractions(
     }
   } catch (error) {
     console.error(`Error loading attractions for ${city}: ${error}`);
-    return [];
-  }
-}
-
-/**
- * Finds attractions for a specific city and country
- * @param city The name of the city
- * @param country The name of the country
- * @returns Array of attractions or empty array if not found
- */
-export function findAttractionsByCityAndCountry(
-  city: string,
-  country: string
-): any[] {
-  try {
-    const cityData = cityattractions.find(
-      (item) =>
-        (item.city === city && item.country === country) ||
-        item.region === country
-    );
-
-    return cityData?.attractions || [];
-  } catch (error) {
-    console.error(
-      `Error finding attractions for ${city}, ${country}: ${error}`
-    );
     return [];
   }
 }
