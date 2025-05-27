@@ -291,19 +291,20 @@ export default function DestinationDetailsPage() {
             <h2>City Attractions</h2>
             <Button
               onClick={() => setShowFilters(!showFilters)}
-              variant="outline"
+              variant="icon"
+              size={"sm"}
               className="flex items-center gap-2"
             >
-              <FaFilter /> {showFilters ? "Hide Filters" : "Show Filters"}
+              <FaFilter />
             </Button>
           </div>
 
           {showFilters && (
             <Card className="mb-6">
-              <CardContent className="pt-6">
+              <CardContent>
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4">
                   <div className="space-y-2">
-                    <h3 className="font-medium text-lg">Experience Type</h3>
+                    <h3>Experience Type</h3>
                     <div className="space-y-1">
                       <div className="flex items-center space-x-2">
                         <Checkbox
@@ -369,7 +370,7 @@ export default function DestinationDetailsPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <h3 className="font-medium text-lg">Features</h3>
+                    <h3>Features</h3>
                     <div className="space-y-1">
                       <div className="flex items-center space-x-2">
                         <Checkbox
@@ -430,7 +431,7 @@ export default function DestinationDetailsPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <h3 className="font-medium text-lg">Activities</h3>
+                    <h3>Activities</h3>
                     <div className="space-y-1">
                       <div className="flex items-center space-x-2">
                         <Checkbox
@@ -479,7 +480,9 @@ export default function DestinationDetailsPage() {
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <Label htmlFor="rating">Minimum Rating</Label>
+                      <Label htmlFor="rating">
+                        <strong>Minimum Rating</strong>
+                      </Label>
                       <span className="text-sm">{filters.minRating}</span>
                     </div>
                     <Slider
@@ -496,7 +499,9 @@ export default function DestinationDetailsPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="price">Price Range</Label>
+                    <Label htmlFor="price">
+                      <strong>Price Range</strong>
+                    </Label>
                     <Select
                       value={filters.priceCategory}
                       onValueChange={(value) =>
@@ -520,7 +525,9 @@ export default function DestinationDetailsPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="time">Time of Day</Label>
+                    <Label htmlFor="time">
+                      <strong>Time of Day</strong>
+                    </Label>
                     <Select
                       value={filters.timeOfDay}
                       onValueChange={(value) =>
@@ -542,18 +549,18 @@ export default function DestinationDetailsPage() {
                   </div>
                 </div>
 
-                <div className="flex justify-end mt-6">
+                <div className="flex justify-between items-end mt-6">
+                  <div className="flex items-center text-muted-foreground text-sm">
+                    Showing {filteredAttractions.length} of{" "}
+                    {attractionData.length} attractions
+                  </div>
                   <Button
-                    variant="outline"
+                    variant="destructive"
                     onClick={resetFilters}
                     className="mr-2"
                   >
                     Reset Filters
                   </Button>
-                  <div className="flex items-center text-muted-foreground text-sm">
-                    Showing {filteredAttractions.length} of{" "}
-                    {attractionData.length} attractions
-                  </div>
                 </div>
               </CardContent>
             </Card>
