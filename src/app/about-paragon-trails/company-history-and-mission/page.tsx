@@ -1,11 +1,9 @@
 export default function CompanyHistoryAndMission() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      <header className="mb-12 text-center">
+      <header>
         <h1> Company History & Mission</h1>
-        <p className="text-gray-600 text-xl italic">
-          A Legacy of Elegance in Motion
-        </p>
+        <h5>A Legacy of Elegance in Motion</h5>
       </header>
 
       <section>

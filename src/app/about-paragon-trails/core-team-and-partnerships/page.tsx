@@ -2,11 +2,9 @@ export default function CoreTeamAndPartnerships() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <div className="mx-auto py-8">
-        <header className="mb-12 text-center">
+        <header>
           <h1>Core Team and Partnerships</h1>
-          <p className="text-gray-600 text-xl italic">
-            The people behind the journeys that redefine luxury.
-          </p>
+          <h5>The people behind the journeys that redefine luxury.</h5>
         </header>
 
         <div>

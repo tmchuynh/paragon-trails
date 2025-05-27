@@ -1,11 +1,9 @@
 export default function SustainabilityAndCommunityInvolvement() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      <header className="mb-12 text-center">
+      <header>
         <h1>Sustainability and Community Involvement</h1>
-        <p className="text-gray-600 text-xl italic">
-          Luxury that honors the world around us.
-        </p>
+        <h5>Luxury that honors the world around us.</h5>
       </header>
 
       <section>
