@@ -4,11 +4,13 @@ export default function RentAYachtPage() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Rent a Yacht</h1>
-        <h5>
-          Explore our luxurious yacht charters and find the perfect yacht for
-          your next adventure.
-        </h5>
+        <h1>Your Private Floating Sanctuary</h1>
+        <h5>Experience unmatched luxury with our tailored yacht rentals.</h5>
+        <blockquote>
+          “Chartering a yacht with Paragon Trails was the highlight of our
+          vacation. The crew was exceptional, and the yacht was stunning.” –
+          Emily R., Satisfied Customer
+        </blockquote>
         <p>
           Whether you're looking for a relaxing getaway or an adventurous
           sailing experience, we have a variety of options to suit your needs.

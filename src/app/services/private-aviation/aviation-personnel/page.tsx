@@ -5,8 +5,16 @@ export default function AviationPersonnel() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Private Aviation Personnel</h1>
-        <h5>Our Flight Team who Ensures an Unforgettable Experience</h5>
+        <h1>Meet Your Aviation Crew</h1>
+        <h5>
+          Experienced professionals dedicated to safety, precision, and
+          discretion
+        </h5>
+        <blockquote>
+          “The crew’s attention to detail, calm professionalism, and
+          personalized service made our flight truly unforgettable.” – Charles
+          M., Frequent Flyer
+        </blockquote>
         <p>
           Our team of aviation professionals is dedicated to providing
           exceptional service and ensuring the safety and comfort of our

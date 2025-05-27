@@ -12,9 +12,12 @@ export default function YachtCharters() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
       <header>
-        <h1>Yacht Charters</h1>
-        <blockquote>Explore the Waterways in Unmatched Luxury</blockquote>
-        <h5>Experience the Ultimate Freedom and Privacy on the Water</h5>
+        <h1>Sail Beyond the Horizon</h1>
+        <blockquote>
+          “Every port brought a new wonder, and every moment on board felt like
+          a dream made real.” <cite>– Isabella T., Charter Guest</cite>
+        </blockquote>
+        <h5>Private yacht journeys tailored to you</h5>
       </header>
 
       <section>
