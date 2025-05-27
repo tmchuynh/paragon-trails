@@ -1194,6 +1194,7 @@ export const cityattractions = [
   {
     city: "Tuscany",
     state: "",
+    region: "Tuscany",
     country: "Italy",
     attractions: [
       {
@@ -1470,6 +1471,7 @@ export const cityattractions = [
   {
     city: "Beijing",
     state: "",
+    region: "Beijing Municipality",
     country: "China",
     attractions: [
       {
@@ -1525,6 +1527,7 @@ export const cityattractions = [
   {
     city: "Xi'an",
     state: "",
+    region: "Shaanxi Province",
     country: "China",
     attractions: [
       {
@@ -1629,6 +1632,7 @@ export const cityattractions = [
   {
     city: "Amalfi Coast",
     country: "Italy",
+    region: "Campania",
     attractions: [
       {
         title: "Positano",
@@ -2086,5 +2090,1440 @@ export const cityattractions = [
       },
     ],
   },
+  {
+    city: "Nassau",
+    country: "Bahamas",
+    region: "New Providence Island",
+    attractions: [
+      {
+        title: "Atlantis Paradise Island",
+        description:
+          "A luxury resort and waterpark featuring marine habitats, an expansive aquaventure park, and luxury dining.",
+      },
+      {
+        title: "Queen’s Staircase",
+        description:
+          "A 66-step historical staircase carved out of solid limestone by slaves in the 18th century.",
+      },
+      {
+        title: "Pirates of Nassau Museum",
+        description:
+          "An interactive museum offering a glimpse into Nassau's pirate history with life-sized exhibits.",
+      },
+      {
+        title: "Junkanoo Beach",
+        description:
+          "A lively and accessible beach with crystal-clear waters, beach bars, and a local vibe near downtown Nassau.",
+      },
+      {
+        title: "National Art Gallery of The Bahamas",
+        description:
+          "A museum housing modern and contemporary Bahamian art in a beautifully restored historic building.",
+      },
+    ],
+  },
+  {
+    city: "Bridgetown",
+    country: "Barbados",
+    region: "Saint Michael Parish",
+    attractions: [
+      {
+        title: "Historic Garrison Area",
+        description:
+          "A UNESCO World Heritage Site featuring 18th-century military buildings and the George Washington House.",
+      },
+      {
+        title: "Carlisle Bay",
+        description:
+          "A stunning natural harbor with calm waters, shipwreck snorkeling, and pristine beaches.",
+      },
+      {
+        title: "Mount Gay Rum Distillery",
+        description:
+          "Tour the world’s oldest rum distillery and learn about Barbados’ rum-making heritage.",
+      },
+      {
+        title: "Parliament Buildings",
+        description:
+          "Neo-Gothic buildings that are home to Barbados' parliament and a museum on Barbadian governance.",
+      },
+      {
+        title: "Independence Square",
+        description:
+          "A scenic urban park honoring Barbados' independence with statues, fountains, and waterfront views.",
+      },
+    ],
+  },
+  {
+    city: "Kingston",
+    country: "Jamaica",
+    region: "Surrey County",
+    attractions: [
+      {
+        title: "Bob Marley Museum",
+        description:
+          "Located in Marley’s former home and studio, this museum is a tribute to Jamaica’s reggae icon.",
+      },
+      {
+        title: "Devon House",
+        description:
+          "A historic mansion with colonial architecture, a popular bakery, and the famous Devon House I Scream.",
+      },
+      {
+        title: "Emancipation Park",
+        description:
+          "A lush city park featuring symbolic sculptures, jogging paths, and frequent cultural events.",
+      },
+      {
+        title: "National Gallery of Jamaica",
+        description:
+          "The country’s premier art museum showcasing Jamaican visual arts from the colonial period to modern day.",
+      },
+      {
+        title: "Blue Mountains",
+        description:
+          "Home to Jamaica’s famous Blue Mountain coffee, the range offers hiking trails and breathtaking views.",
+      },
+    ],
+  },
+  {
+    city: "San Juan",
+    country: "Puerto Rico",
+    region: "San Juan Municipality",
+    attractions: [
+      {
+        title: "Old San Juan",
+        description:
+          "A colorful colonial district with cobblestone streets, Spanish forts, vibrant architecture, and rich history.",
+      },
+      {
+        title: "Castillo San Felipe del Morro",
+        description:
+          "A massive 16th-century fortress overlooking the sea, offering historical exhibits and stunning vistas.",
+      },
+      {
+        title: "El Yunque National Forest",
+        description:
+          "The only tropical rainforest in the U.S. National Forest System, known for waterfalls and hiking trails.",
+      },
+      {
+        title: "La Fortaleza",
+        description:
+          "The oldest governor's mansion still in use in the Western Hemisphere and a UNESCO World Heritage Site.",
+      },
+      {
+        title: "Condado Beach",
+        description:
+          "A popular urban beach lined with hotels, casinos, and palm trees, great for sunbathing and water sports.",
+      },
+    ],
+  },
+  {
+    city: "Willemstad",
+    country: "Curaçao",
+    region: "Curaçao",
+    attractions: [
+      {
+        title: "Queen Emma Bridge",
+        description:
+          "A floating pedestrian bridge connecting two sides of the city and known for its swinging action when ships pass.",
+      },
+      {
+        title: "Handelskade",
+        description:
+          "A waterfront strip lined with colorful Dutch colonial buildings, cafes, and shops.",
+      },
+      {
+        title: "Mikvé Israel-Emanuel Synagogue",
+        description:
+          "The oldest surviving synagogue in the Americas, with a sand-covered floor and adjoining museum.",
+      },
+      {
+        title: "Curaçao Sea Aquarium",
+        description:
+          "An interactive marine park with animal encounters and educational exhibits.",
+      },
+      {
+        title: "Shete Boka National Park",
+        description:
+          "A rugged coastal park known for sea caves, crashing waves, and turtle nesting sites.",
+      },
+    ],
+  },
+  {
+    city: "Dubai",
+    state: "",
+    region: "Dubai Emirate",
+    country: "United Arab Emirates",
+    attractions: [
+      {
+        title: "Burj Khalifa",
+        description:
+          "World's tallest building with observation decks offering panoramic views of the city and desert.",
+      },
+      {
+        title: "Palm Jumeirah",
+        description:
+          "Iconic palm-shaped artificial island featuring luxury hotels, restaurants, and beach clubs.",
+      },
+      {
+        title: "Dubai Mall",
+        description:
+          "Massive shopping center with an aquarium, ice rink, and dancing fountains at its doorstep.",
+      },
+      {
+        title: "Dubai Frame",
+        description:
+          "Giant picture frame structure offering views of both old and new Dubai from its 150m high bridge.",
+      },
+      {
+        title: "Burj Al Arab",
+        description:
+          "Distinctive sail-shaped luxury hotel standing on an artificial island, known for its opulence.",
+      },
+      {
+        title: "Dubai Creek",
+        description:
+          "Historic waterway dividing the city into two parts with traditional abra boats and souks.",
+      },
+      {
+        title: "Dubai Desert Conservation Reserve",
+        description:
+          "Protected desert ecosystem offering safari experiences and glimpses of Arabian wildlife.",
+      },
+      {
+        title: "Dubai Marina",
+        description:
+          "Upscale waterfront district with a skyscraper-lined promenade, yacht club, and dining options.",
+      },
+      {
+        title: "Museum of the Future",
+        description:
+          "Innovative museum exploring technology and design housed in a stunning architectural marvel.",
+      },
+      {
+        title: "Global Village",
+        description:
+          "Seasonal cultural entertainment venue featuring pavilions from countries around the world.",
+      },
+    ],
+  },
+  {
+    city: "Nice",
+    state: "",
+    region: "French Riviera",
+    country: "France",
+    attractions: [
+      {
+        title: "Promenade des Anglais",
+        description:
+          "Iconic seafront walkway lined with palm trees and offering stunning Mediterranean views.",
+      },
+      {
+        title: "Old Town (Vieux Nice)",
+        description:
+          "Charming historic district with narrow streets, colorful buildings, and local markets.",
+      },
+      {
+        title: "Castle Hill (Colline du Château)",
+        description:
+          "Park on a hilltop offering panoramic views of Nice, the Alps, and the Baie des Anges.",
+      },
+      {
+        title: "Marc Chagall Museum",
+        description:
+          "Museum dedicated to the works of the famous artist, featuring his biblical-themed paintings.",
+      },
+      {
+        title: "Matisse Museum",
+        description:
+          "Collection of works by Henri Matisse housed in a 17th-century villa surrounded by olive groves.",
+      },
+      {
+        title: "Place Masséna",
+        description:
+          "Vibrant main square with checkerboard pavement, illuminated art installations, and fountains.",
+      },
+      {
+        title: "Cours Saleya Market",
+        description:
+          "Bustling flower and food market that transforms into a dining venue at night.",
+      },
+      {
+        title: "Nice Cathedral",
+        description:
+          "Baroque cathedral in the old town known for its ornate interior and distinctive dome.",
+      },
+      {
+        title: "Museum of Modern and Contemporary Art",
+        description:
+          "Contemporary art museum showcasing works by European and American artists.",
+      },
+      {
+        title: "Phoenix Park",
+        description:
+          "Large botanical garden with one of Europe's largest greenhouses and diverse plant collections.",
+      },
+    ],
+  },
+  {
+    city: "Portofino",
+    state: "",
+    region: "Liguria",
+    country: "Italy",
+    attractions: [
+      {
+        title: "Piazzetta",
+        description:
+          "Iconic colorful square overlooking the harbor, lined with cafes, shops, and restaurants.",
+      },
+      {
+        title: "Castello Brown",
+        description:
+          "Historic castle offering panoramic views of the town and Mediterranean Sea.",
+      },
+      {
+        title: "Church of San Giorgio",
+        description:
+          "Scenic yellow church perched on a cliff with views of the harbor and Ligurian Sea.",
+      },
+      {
+        title: "Portofino Marine Reserve",
+        description:
+          "Protected underwater area perfect for snorkeling and diving with rich marine life.",
+      },
+      {
+        title: "Lighthouse of Portofino",
+        description:
+          "Historic lighthouse at the tip of the promontory accessible via a scenic coastal walk.",
+      },
+      {
+        title: "Portofino Regional Park",
+        description:
+          "Natural park with hiking trails offering stunning coastal views and Mediterranean vegetation.",
+      },
+      {
+        title: "Abbazia di San Fruttuoso",
+        description:
+          "Ancient abbey accessible by boat or hiking trail, nestled in a secluded cove.",
+      },
+      {
+        title: "Paraggi Beach",
+        description:
+          "Small bay with turquoise waters and a sandy beach near Portofino.",
+      },
+      {
+        title: "Via Roma",
+        description:
+          "Main shopping street featuring luxury boutiques and local artisan shops.",
+      },
+      {
+        title: "Portofino Harbour",
+        description:
+          "Picturesque marina filled with fishing boats and luxury yachts.",
+      },
+    ],
+  },
+  {
+    city: "Munich",
+    state: "",
+    region: "Bavaria",
+    country: "Germany",
+    attractions: [
+      {
+        title: "Marienplatz",
+        description:
+          "Central square in Munich with the New City Hall and its famous Glockenspiel clock performance.",
+      },
+      {
+        title: "English Garden",
+        description:
+          "Massive urban park featuring beer gardens, surfing on the Eisbach wave, and expansive green spaces.",
+      },
+      {
+        title: "Nymphenburg Palace",
+        description:
+          "Baroque palace with extensive gardens, museums, and the birthplace of King Ludwig II.",
+      },
+      {
+        title: "BMW World and Museum",
+        description:
+          "Modern exhibition center and museum showcasing BMW's automotive history and future technology.",
+      },
+      {
+        title: "Deutsches Museum",
+        description:
+          "World's largest museum of science and technology with interactive exhibits.",
+      },
+      {
+        title: "Viktualienmarkt",
+        description:
+          "Daily food market and square with fresh produce, gourmet foods, and beer garden.",
+      },
+      {
+        title: "Olympiapark",
+        description:
+          "Olympic site from 1972 featuring a stadium, tower with observation deck, and recreational areas.",
+      },
+      {
+        title: "Alte Pinakothek",
+        description:
+          "World-renowned art museum housing an extensive collection of Old Master paintings.",
+      },
+      {
+        title: "Hofbräuhaus",
+        description:
+          "Historic beer hall dating back to the 16th century, offering traditional Bavarian food and music.",
+      },
+      {
+        title: "Residenz Palace",
+        description:
+          "Former royal palace in the city center with ornate rooms, a treasury, and beautiful courtyards.",
+      },
+    ],
+  },
+  {
+    city: "Salzburg",
+    state: "",
+    region: "Salzburg Land",
+    country: "Austria",
+    attractions: [
+      {
+        title: "Hohensalzburg Fortress",
+        description:
+          "Imposing medieval castle perched on a hill overlooking the city with museums and panoramic views.",
+      },
+      {
+        title: "Mirabell Palace and Gardens",
+        description:
+          "Baroque palace with geometrically arranged gardens featured in 'The Sound of Music' film.",
+      },
+      {
+        title: "Mozart's Birthplace",
+        description:
+          "Museum in the house where Wolfgang Amadeus Mozart was born, displaying family memorabilia.",
+      },
+      {
+        title: "Salzburg Cathedral",
+        description:
+          "Impressive Baroque cathedral in the heart of the old town with magnificent architecture.",
+      },
+      {
+        title: "Hellbrunn Palace",
+        description:
+          "Summer palace known for its trick fountains, beautiful grounds, and the Sound of Music gazebo.",
+      },
+      {
+        title: "Getreidegasse",
+        description:
+          "Charming shopping street in the old town with wrought-iron guild signs and Mozart's birthplace.",
+      },
+      {
+        title: "Salzburg Festival Halls",
+        description:
+          "Prestigious venue for the annual Salzburg Festival with music and drama performances.",
+      },
+      {
+        title: "Museum of Modern Art",
+        description:
+          "Contemporary art museum split between two locations, including one atop Mönchsberg mountain.",
+      },
+      {
+        title: "St. Peter's Abbey",
+        description:
+          "Historic Benedictine monastery with Austria's oldest library, cemetery, and catacombs.",
+      },
+      {
+        title: "Untersberg",
+        description:
+          "Mountain on the German-Austrian border offering cable car rides and stunning alpine views.",
+      },
+    ],
+  },
+  {
+    city: "Big Sur",
+    state: "CA",
+    region: "CA",
+    country: "United States",
+    attractions: [
+      {
+        title: "Bixby Creek Bridge",
+        description:
+          "Iconic concrete arch bridge offering dramatic views of the Pacific coastline.",
+      },
+      {
+        title: "Julia Pfeiffer Burns State Park",
+        description:
+          "Home to McWay Falls, an 80-foot waterfall that flows directly onto the beach and into the ocean.",
+      },
+      {
+        title: "Pfeiffer Beach",
+        description:
+          "Famous for its purple sand and Keyhole Rock formation that creates stunning sunset views.",
+      },
+      {
+        title: "Point Sur Lighthouse",
+        description:
+          "Historic lighthouse perched on a volcanic rock offering tours and sweeping coastal views.",
+      },
+      {
+        title: "Henry Miller Memorial Library",
+        description:
+          "Cultural center dedicated to the writer who lived in Big Sur, hosting events and concerts.",
+      },
+      {
+        title: "Partington Cove",
+        description:
+          "Secluded cove accessible by a scenic hiking trail through a tunnel carved into the rock.",
+      },
+      {
+        title: "Garrapata State Park",
+        description:
+          "Diverse coastal park featuring redwood groves, rocky beaches, and wildflower-covered hills.",
+      },
+      {
+        title: "Nepenthe Restaurant",
+        description:
+          "Legendary restaurant perched 800 feet above the Pacific Ocean with breathtaking views.",
+      },
+      {
+        title: "Andrew Molera State Park",
+        description:
+          "Largest state park in Big Sur with diverse hiking trails, beach access, and wildlife viewing.",
+      },
+      {
+        title: "Esalen Institute",
+        description:
+          "Alternative education center known for workshops, natural hot springs, and stunning coastal setting.",
+      },
+    ],
+  },
+  {
+    city: "Geneva",
+    state: "",
+    region: "Geneva Canton",
+    country: "Switzerland",
+    attractions: [
+      {
+        title: "Jet d'Eau",
+        description:
+          "Massive fountain shooting water 140 meters into the air, visible throughout the city.",
+      },
+      {
+        title: "Lake Geneva",
+        description:
+          "Alpine lake surrounded by mountains with boat cruises, beaches, and promenades.",
+      },
+      {
+        title: "Old Town (Vieille Ville)",
+        description:
+          "Historic center with St. Peter's Cathedral, cobblestone streets, and charming squares.",
+      },
+      {
+        title: "Patek Philippe Museum",
+        description:
+          "Museum dedicated to the art of watchmaking with an extensive collection of timepieces.",
+      },
+      {
+        title: "United Nations Office",
+        description:
+          "European headquarters of the UN housed in the Palais des Nations with guided tours available.",
+      },
+      {
+        title: "CERN",
+        description:
+          "European Organization for Nuclear Research offering tours of particle physics facilities.",
+      },
+      {
+        title: "International Red Cross and Red Crescent Museum",
+        description:
+          "Interactive exhibition on humanitarian work and the history of the Red Cross movement.",
+      },
+      {
+        title: "Jardin Anglais",
+        description:
+          "Park on the lakeshore featuring the famous floral clock and beautiful landscaping.",
+      },
+      {
+        title: "Mont Salève",
+        description:
+          "Mountain just across the French border offering panoramic views of Geneva and paragliding opportunities.",
+      },
+      {
+        title: "Carouge",
+        description:
+          "Bohemian neighborhood with Mediterranean flair, artisan workshops, and charming architecture.",
+      },
+    ],
+  },
+  {
+    city: "Chamonix",
+    state: "",
+    region: "Auvergne-Rhône-Alpes",
+    country: "France",
+    attractions: [
+      {
+        title: "Mont Blanc",
+        description:
+          "Western Europe's highest peak offering climbing, hiking, and spectacular alpine scenery.",
+      },
+      {
+        title: "Aiguille du Midi",
+        description:
+          'Cable car ascending to 3,842m with panoramic observation decks and "Step into the Void" glass skywalk.',
+      },
+      {
+        title: "Mer de Glace",
+        description:
+          "France's largest glacier accessible by the historic Montenvers Railway with an ice cave to visit.",
+      },
+      {
+        title: "Brévent-Flégère",
+        description:
+          "Connected ski areas with panoramic views of Mont Blanc and challenging slopes.",
+      },
+      {
+        title: "Alpine Museum",
+        description:
+          "Museum showcasing the history of mountaineering and the development of Chamonix valley.",
+      },
+      {
+        title: "Grands Montets",
+        description:
+          "High-altitude ski area with challenging runs, off-piste terrain, and views of the Argentière Glacier.",
+      },
+      {
+        title: "Chamonix Town Center",
+        description:
+          "Charming pedestrian center with historic buildings, boutiques, restaurants, and mountain views.",
+      },
+      {
+        title: "Lac Blanc",
+        description:
+          "Mountain lake with reflections of Mont Blanc, accessible by hiking trails with beautiful scenery.",
+      },
+      {
+        title: "Le Brévent",
+        description:
+          "Peak opposite Mont Blanc accessible by cable car offering unparalleled views of the massif.",
+      },
+      {
+        title: "Parc de Merlet",
+        description:
+          "Animal park housing native alpine species including ibex, chamois, and marmots in a natural setting.",
+      },
+    ],
+  },
+  {
+    city: "Cape Town",
+    state: "",
+    region: "Western Cape",
+    country: "South Africa",
+    attractions: [
+      {
+        title: "Table Mountain",
+        description:
+          "Iconic flat-topped mountain accessible by hiking trails or cable car with panoramic city views.",
+      },
+      {
+        title: "Robben Island",
+        description:
+          "Historic island where Nelson Mandela was imprisoned, now a museum and UNESCO World Heritage site.",
+      },
+      {
+        title: "V&A Waterfront",
+        description:
+          "Bustling harbor area with shopping, dining, entertainment, and views of Table Mountain.",
+      },
+      {
+        title: "Cape of Good Hope",
+        description:
+          "Rocky headland at the southwestern tip of Africa with dramatic coastal scenery and wildlife.",
+      },
+      {
+        title: "Kirstenbosch National Botanical Garden",
+        description:
+          "World-renowned botanical garden showcasing South Africa's unique flora against Table Mountain.",
+      },
+      {
+        title: "Bo-Kaap",
+        description:
+          "Colorful historic neighborhood known for its bright houses, Cape Malay culture, and cuisine.",
+      },
+      {
+        title: "Boulders Beach",
+        description:
+          "Sheltered beach famous for its colony of African penguins and swimming opportunities.",
+      },
+      {
+        title: "District Six Museum",
+        description:
+          "Museum commemorating the forced removal of residents during apartheid.",
+      },
+      {
+        title: "Cape Winelands",
+        description:
+          "Nearby wine region featuring historic estates, stunning vineyard landscapes, and wine tasting.",
+      },
+      {
+        title: "Lion's Head",
+        description:
+          "Distinctive peak next to Table Mountain offering hiking trails and panoramic views.",
+      },
+    ],
+  },
+  {
+    city: "Toronto",
+    state: "",
+    region: "Ontario",
+    country: "Canada",
+    attractions: [
+      {
+        title: "CN Tower",
+        description:
+          "Iconic 553.3m-tall communications and observation tower with glass floor and EdgeWalk experience.",
+      },
+      {
+        title: "Royal Ontario Museum",
+        description:
+          "Canada's largest museum of art, culture, and natural history with distinctive crystal architecture.",
+      },
+      {
+        title: "Ripley's Aquarium of Canada",
+        description:
+          "Downtown aquarium featuring a moving sidewalk through a tunnel with sharks swimming overhead.",
+      },
+      {
+        title: "Distillery District",
+        description:
+          "Historic pedestrian-only area with Victorian industrial buildings converted to shops and restaurants.",
+      },
+      {
+        title: "Toronto Islands",
+        description:
+          "Car-free island chain with beaches, parks, and spectacular city skyline views.",
+      },
+      {
+        title: "St. Lawrence Market",
+        description:
+          "Historic market complex named world's best food market by National Geographic.",
+      },
+      {
+        title: "Casa Loma",
+        description:
+          "Gothic Revival castle and garden in midtown Toronto built in the early 20th century.",
+      },
+      {
+        title: "Art Gallery of Ontario",
+        description:
+          "Major art museum with Canadian, European, African, and contemporary artwork.",
+      },
+      {
+        title: "Kensington Market",
+        description:
+          "Bohemian pedestrian-friendly neighborhood with vintage shops, food markets, and diverse restaurants.",
+      },
+      {
+        title: "High Park",
+        description:
+          "Large urban park featuring gardens, hiking trails, a zoo, and famous cherry blossoms in spring.",
+      },
+    ],
+  },
+  {
+    city: "Siena",
+    state: "",
+    region: "Tuscany",
+    country: "Italy",
+    attractions: [
+      {
+        title: "Piazza del Campo",
+        description:
+          "Unique shell-shaped central square famous for the historic Palio horse race held twice each summer.",
+      },
+      {
+        title: "Siena Cathedral",
+        description:
+          "Stunning Gothic cathedral featuring black and white marble, intricate floor mosaics, and works by Donatello and Michelangelo.",
+      },
+      {
+        title: "Palazzo Pubblico",
+        description:
+          'Gothic town hall housing the Civic Museum with famous frescoes including Lorenzetti\'s "Effects of Good and Bad Government".',
+      },
+      {
+        title: "Torre del Mangia",
+        description:
+          "Towering medieval bell tower offering panoramic views of Siena and the surrounding countryside.",
+      },
+      {
+        title: "Baptistery of San Giovanni",
+        description:
+          "Gothic baptistery with a remarkable baptismal font featuring bronze panels by famous Renaissance artists.",
+      },
+      {
+        title: "Pinacoteca Nazionale",
+        description:
+          "Art gallery housing a significant collection of Sienese paintings from the 13th to 16th centuries.",
+      },
+      {
+        title: "Santa Maria della Scala",
+        description:
+          "Former hospital now converted into a museum complex with art, archaeological collections, and frescoed halls.",
+      },
+      {
+        title: "Fortezza Medicea",
+        description:
+          "16th-century fortress with city views, now housing the Enoteca Italiana wine museum.",
+      },
+      {
+        title: "Basilica of San Domenico",
+        description:
+          "Gothic church containing relics of St. Catherine of Siena and significant artworks.",
+      },
+      {
+        title: "Contrade Museums",
+        description:
+          "Small museums dedicated to the city's historic districts (contrade) that compete in the Palio horse race.",
+      },
+    ],
+  },
+  {
+    city: "Montepulciano",
+    state: "",
+    region: "Tuscany",
+    country: "Italy",
+    attractions: [
+      {
+        title: "Piazza Grande",
+        description:
+          "Main square surrounded by Renaissance palaces, the town hall, and the cathedral.",
+      },
+      {
+        title: "Vino Nobile Wine Cellars",
+        description:
+          "Historic underground wine cellars offering tastings of the famous Vino Nobile di Montepulciano.",
+      },
+      {
+        title: "Cathedral of Santa Maria Assunta",
+        description:
+          "Renaissance cathedral featuring an ornate altar and artwork by Taddeo di Bartolo.",
+      },
+      {
+        title: "Palazzo Comunale",
+        description:
+          "Gothic town hall with a tower offering panoramic views of the surrounding Val d'Orcia and Val di Chiana.",
+      },
+      {
+        title: "San Biagio Temple",
+        description:
+          "Renaissance church outside the walls designed by Antonio da Sangallo the Elder.",
+      },
+      {
+        title: "Civic Museum",
+        description:
+          "Museum housed in Palazzo Neri Orselli with an art collection spanning medieval to modern periods.",
+      },
+      {
+        title: "Corso",
+        description:
+          "Main street running through town lined with Renaissance palaces, shops, and wine bars.",
+      },
+      {
+        title: "Palazzo Tarugi",
+        description:
+          "Impressive travertine palace considered one of the most elegant buildings in town.",
+      },
+      {
+        title: "Cantina De' Ricci",
+        description:
+          "Historic 14th-century wine cellar with impressive underground architecture and wine tastings.",
+      },
+      {
+        title: "City Walls and Gates",
+        description:
+          "Medieval walls with preserved gates offering beautiful views of the countryside.",
+      },
+    ],
+  },
+  {
+    city: "Whistler",
+    state: "",
+    region: "British Columbia",
+    country: "Canada",
+    attractions: [
+      {
+        title: "Whistler Blackcomb",
+        description:
+          "World-renowned ski resort with the Peak 2 Peak Gondola connecting two mountains with year-round activities.",
+      },
+      {
+        title: "Whistler Village",
+        description:
+          "Pedestrian-only village with shops, restaurants, and accommodations at the base of the mountains.",
+      },
+      {
+        title: "Lost Lake",
+        description:
+          "Scenic lake with beach, swimming area, and trails for hiking in summer and cross-country skiing in winter.",
+      },
+      {
+        title: "Audain Art Museum",
+        description:
+          "Contemporary museum showcasing British Columbian art from traditional First Nations masks to modern works.",
+      },
+      {
+        title: "Squamish Lil'wat Cultural Centre",
+        description:
+          "Indigenous cultural center featuring exhibits, demonstrations, and programs about local First Nations.",
+      },
+      {
+        title: "Whistler Mountain Bike Park",
+        description:
+          "World-class downhill mountain biking facility with trails for all skill levels.",
+      },
+      {
+        title: "Vallea Lumina",
+        description:
+          "Multimedia night walk through an enchanted forest featuring lights, sounds, and storytelling.",
+      },
+      {
+        title: "Alta Lake",
+        description:
+          "Largest of Whistler's lakes with parks, water activities, and mountain views.",
+      },
+      {
+        title: "Olympic Plaza",
+        description:
+          "Legacy venue from the 2010 Winter Olympics with outdoor concerts, events, and Olympic rings photo spot.",
+      },
+      {
+        title: "Scandinave Spa",
+        description:
+          "Outdoor spa featuring traditional Scandinavian baths and treatments in a peaceful forest setting.",
+      },
+    ],
+  },
+  {
+    city: "Atlanta",
+    state: "GA",
+    region: "GA",
+    country: "United States",
+    attractions: [
+      {
+        title: "Georgia Aquarium",
+        description:
+          "One of the world's largest aquariums with thousands of marine species including whale sharks.",
+      },
+      {
+        title: "World of Coca-Cola",
+        description:
+          "Interactive museum showcasing the history of Coca-Cola with a tasting room featuring drinks from around the world.",
+      },
+      {
+        title: "Atlanta BeltLine",
+        description:
+          "Former railway corridor converted into a multi-use trail with public art, parks, and dining options.",
+      },
+      {
+        title: "Martin Luther King Jr. National Historical Park",
+        description:
+          "Site preserving Dr. King's childhood home, Ebenezer Baptist Church, and his final resting place.",
+      },
+      {
+        title: "Piedmont Park",
+        description:
+          "Historic urban park with walking paths, sports facilities, and skyline views.",
+      },
+      {
+        title: "Atlanta Botanical Garden",
+        description:
+          "30-acre garden featuring a canopy walk, tropical conservatory, and seasonal displays.",
+      },
+      {
+        title: "Fox Theatre",
+        description:
+          "Historic performance venue with Moorish-Egyptian architectural style hosting Broadway shows and concerts.",
+      },
+      {
+        title: "High Museum of Art",
+        description:
+          "Leading art museum in the Southeast with extensive collections of classic and contemporary art.",
+      },
+      {
+        title: "Centennial Olympic Park",
+        description:
+          "Downtown park built for the 1996 Olympics with the iconic Fountain of Rings water show.",
+      },
+      {
+        title: "Ponce City Market",
+        description:
+          "Historic Sears, Roebuck & Co. building converted into a food hall, shopping center, and office space.",
+      },
+    ],
+  },
+  {
+    city: "Reykjavik",
+    state: "",
+    region: "Capital Region",
+    country: "Iceland",
+    attractions: [
+      {
+        title: "Hallgrímskirkja",
+        description:
+          "Iconic Lutheran parish church with a striking design inspired by basalt lava flows and an observation tower offering panoramic city views.",
+      },
+      {
+        title: "Harpa Concert Hall",
+        description:
+          "Award-winning glass building on the waterfront featuring a geometric design that plays with light and reflection.",
+      },
+      {
+        title: "Blue Lagoon",
+        description:
+          "Famous geothermal spa with milky-blue water rich in minerals and silica mud that's renowned for its healing properties.",
+      },
+      {
+        title: "Sun Voyager (Sólfar)",
+        description:
+          "Striking stainless steel sculpture resembling a Viking ship, designed as an ode to the sun and dreams of exploration.",
+      },
+      {
+        title: "National Museum of Iceland",
+        description:
+          "Comprehensive museum tracing Iceland's history from settlement to present day through artifacts and exhibitions.",
+      },
+      {
+        title: "Perlan",
+        description:
+          "Glass dome built on hot water storage tanks, featuring an observation deck, planetarium, and Wonders of Iceland exhibition with indoor ice cave.",
+      },
+      {
+        title: "Laugavegur Shopping Street",
+        description:
+          "Vibrant main shopping street with colorful buildings housing boutiques, restaurants, bars, and galleries.",
+      },
+      {
+        title: "Reykjavik Art Museum",
+        description:
+          "Contemporary art museum spread across three locations featuring both Icelandic and international works.",
+      },
+      {
+        title: "Whale Watching Tours",
+        description:
+          "Boat excursions from the Old Harbor offering opportunities to see minke whales, humpbacks, and dolphins in their natural habitat.",
+      },
+      {
+        title: "Tjörnin",
+        description:
+          "Scenic city pond in the center of Reykjavik popular for feeding birds and enjoying the surrounding architecture.",
+      },
+    ],
+  },
+  {
+    city: "Golden Circle",
+    state: "",
+    region: "South Iceland",
+    country: "Iceland",
+    attractions: [
+      {
+        title: "Þingvellir National Park",
+        description:
+          "UNESCO World Heritage site where the North American and Eurasian tectonic plates meet and the world's oldest parliament was established.",
+      },
+      {
+        title: "Geysir Geothermal Area",
+        description:
+          "Active hot spring area featuring the reliable Strokkur geyser, which erupts every 5-10 minutes, shooting water up to 30 meters into the air.",
+      },
+      {
+        title: "Gullfoss Waterfall",
+        description:
+          "Massive two-tiered waterfall where the Hvítá River plunges into a deep canyon, creating spectacular mist and occasional rainbows.",
+      },
+      {
+        title: "Kerið Crater Lake",
+        description:
+          "Volcanic crater lake with vivid blue water surrounded by red volcanic rock and green moss.",
+      },
+      {
+        title: "Secret Lagoon (Gamla Laugin)",
+        description:
+          "Iceland's oldest swimming pool featuring natural hot springs and small geysers surrounded by rugged landscape.",
+      },
+      {
+        title: "Friðheimar Greenhouse",
+        description:
+          "Sustainable tomato farm and restaurant where visitors can enjoy tomato-based cuisine among the growing plants.",
+      },
+      {
+        title: "Skálholt Cathedral",
+        description:
+          "Historic site that was the center of ecclesiastical power in Iceland for centuries, featuring a modern cathedral with beautiful art.",
+      },
+      {
+        title: "Faxi Waterfall",
+        description:
+          "Smaller but picturesque waterfall on the Tungufljót River with a salmon ladder and peaceful surroundings.",
+      },
+      {
+        title: "Laugarvatn Fontana",
+        description:
+          "Geothermal baths, steam rooms, and hot springs built over a natural hot spring, offering relaxation and traditional bread baking.",
+      },
+      {
+        title: "Efstidalur Farm",
+        description:
+          "Working dairy farm with a restaurant and ice cream barn where visitors can enjoy fresh farm-to-table produce with mountain views.",
+      },
+    ],
+  },
+  {
+    city: "Akureyri",
+    state: "",
+    region: "Northeast Iceland",
+    country: "Iceland",
+    attractions: [
+      {
+        title: "Akureyri Church",
+        description:
+          "Iconic Lutheran church perched on a hill with a distinctive design, stained glass windows, and panoramic views of the town and fjord.",
+      },
+      {
+        title: "Botanical Gardens (Lystigarðurinn)",
+        description:
+          "Northernmost botanical garden in the world featuring nearly 400 native plant species and exotic flowers thriving in the Arctic environment.",
+      },
+      {
+        title: "Akureyri Art Museum",
+        description:
+          "Contemporary art venue housed in a former dairy displaying Icelandic and international works in rotating exhibitions.",
+      },
+      {
+        title: "Akureyri Swimming Pool",
+        description:
+          "Geothermally heated outdoor swimming complex with hot tubs, water slides, and steam baths popular with locals and visitors.",
+      },
+      {
+        title: "Hlíðarfjall Ski Resort",
+        description:
+          "Iceland's premier skiing destination offering well-maintained slopes, breathtaking views, and excellent snow conditions from November to May.",
+      },
+      {
+        title: "Christmas House (Jólagarðurinn)",
+        description:
+          "Year-round Christmas shop and museum celebrating Icelandic Yule traditions, including the 13 Yule Lads.",
+      },
+      {
+        title: "Goðafoss Waterfall",
+        description:
+          'Spectacular "Waterfall of the Gods" located near Akureyri, where Vikings threw their pagan idols when converting to Christianity.',
+      },
+      {
+        title: "Laufás Folk Museum",
+        description:
+          "Historic turf-roofed farmhouse showcasing 19th-century Icelandic rural life with period furnishings and artifacts.",
+      },
+      {
+        title: "Arctic Botanical Gardens",
+        description:
+          "The world's northernmost botanical garden featuring Arctic and alpine plants from around the world.",
+      },
+      {
+        title: "Whale Watching in Eyjafjörður",
+        description:
+          "Boat tours from Akureyri harbor offering close encounters with humpback whales, dolphins, and other marine life in Iceland's longest fjord.",
+      },
+    ],
+  },
+  {
+    city: "Oslo",
+    state: "",
+    region: "Eastern Norway",
+    country: "Norway",
+    attractions: [
+      {
+        title: "Viking Ship Museum",
+        description:
+          "Museum housing three remarkably preserved Viking ships from the 9th century along with artifacts that provide insight into Viking life.",
+      },
+      {
+        title: "Vigeland Sculpture Park",
+        description:
+          "The world's largest sculpture park made by a single artist, featuring over 200 bronze, granite, and iron sculptures by Gustav Vigeland.",
+      },
+      {
+        title: "Oslo Opera House",
+        description:
+          "Striking contemporary architecture resembling an iceberg rising from the water, with a roof that visitors can walk on for panoramic city views.",
+      },
+      {
+        title: "Royal Palace",
+        description:
+          "Official residence of the Norwegian monarch, surrounded by the Palace Park and featuring the Changing of the Guard ceremony daily.",
+      },
+      {
+        title: "Munch Museum",
+        description:
+          "Modern museum dedicated to Norway's famous painter Edvard Munch, housing the world's largest collection of his works including alternate versions of 'The Scream'.",
+      },
+      {
+        title: "Akershus Fortress",
+        description:
+          "Medieval castle and fortress overlooking the Oslo Fjord that has withstood numerous sieges and now houses several museums.",
+      },
+      {
+        title: "Holmenkollen Ski Jump",
+        description:
+          "Iconic ski jumping hill with a ski museum and observation deck offering panoramic views of Oslo and the surrounding fjords.",
+      },
+      {
+        title: "Norwegian Folk Museum",
+        description:
+          "Open-air museum featuring 160 historic buildings from around Norway, including a stave church from the 13th century.",
+      },
+      {
+        title: "Aker Brygge & Tjuvholmen",
+        description:
+          "Revitalized waterfront areas with modern architecture, restaurants, shops, and art galleries perfect for strolling and dining.",
+      },
+      {
+        title: "Fram Museum",
+        description:
+          "Museum dedicated to Norwegian polar exploration featuring the ship Fram, which was used in expeditions by Fridtjof Nansen, Otto Sverdrup, and Roald Amundsen.",
+      },
+    ],
+  },
+  {
+    city: "Tromsø",
+    state: "",
+    region: "Northern Norway",
+    country: "Norway",
+    attractions: [
+      {
+        title: "Arctic Cathedral",
+        description:
+          "Striking modern church resembling an iceberg with one of Europe's largest stained glass windows and exceptional acoustics for midnight sun concerts.",
+      },
+      {
+        title: "Fjellheisen Cable Car",
+        description:
+          "Cable car ascending to Mount Storsteinen offering panoramic views of Tromsø, surrounding islands, mountains, and fjords.",
+      },
+      {
+        title: "Northern Lights Tours",
+        description:
+          "Guided excursions away from city lights to witness the spectacular aurora borealis dancing across the Arctic sky.",
+      },
+      {
+        title: "Polaria",
+        description:
+          "Arctic experience center with exhibits on northern environments, a panoramic cinema, and aquariums featuring bearded seals and Arctic marine life.",
+      },
+      {
+        title: "Polar Museum",
+        description:
+          "Museum housed in a former customs house showcasing Norway's polar exploration history and trapping traditions.",
+      },
+      {
+        title: "Tromsø University Museum",
+        description:
+          "Museum featuring exhibitions on Sami culture, Arctic wildlife, geology, and Northern Norway's religious and cultural history.",
+      },
+      {
+        title: "Midnight Sun Experiences",
+        description:
+          "Summer activities under the 24-hour daylight including hiking, kayaking, and fishing when the sun doesn't set for weeks.",
+      },
+      {
+        title: "Husky Dog Sledding",
+        description:
+          "Exhilarating rides through snowy landscapes pulled by teams of energetic huskies, with opportunities to meet the dogs and learn about their care.",
+      },
+      {
+        title: "Tromsø Arctic-Alpine Botanic Garden",
+        description:
+          "World's northernmost botanical garden featuring Arctic and alpine plants from around the globe that thrive in extreme conditions.",
+      },
+      {
+        title: "Reindeer Sledding with Sami Culture",
+        description:
+          "Traditional reindeer sledding experiences led by indigenous Sami people, including cultural presentations and traditional meals in lavvo tents.",
+      },
+    ],
+  },
+  {
+    city: "Svalbard",
+    state: "",
+    region: "Arctic Norway",
+    country: "Norway",
+    attractions: [
+      {
+        title: "Polar Bear Safaris",
+        description:
+          "Guided boat or snowmobile expeditions offering the chance to safely observe polar bears in their natural Arctic habitat.",
+      },
+      {
+        title: "Svalbard Museum",
+        description:
+          "Comprehensive museum documenting the archipelago's natural and cultural history, from whaling and mining to present-day research.",
+      },
+      {
+        title: "Longyearbyen",
+        description:
+          "The world's northernmost settlement with a permanent population, featuring colorful buildings, shops, restaurants, and the famous polar bear warning signs.",
+      },
+      {
+        title: "Svalbard Global Seed Vault",
+        description:
+          "Secure seed storage facility built into the permafrost containing over one million seed varieties to preserve crop diversity for future generations.",
+      },
+      {
+        title: "Pyramiden Ghost Town",
+        description:
+          "Abandoned Soviet mining settlement frozen in time since 1998, featuring the world's northernmost Lenin statue and grand Arctic architecture.",
+      },
+      {
+        title: "Magdalenefjorden",
+        description:
+          "Spectacular fjord surrounded by glaciers and rugged mountains, historically used as a whaling station in the 17th and 18th centuries.",
+      },
+      {
+        title: "Dog Sledding Expeditions",
+        description:
+          "Multi-day husky sledding adventures across the Arctic wilderness, offering a traditional and environmentally friendly way to explore remote areas.",
+      },
+      {
+        title: "Ice Cave Explorations",
+        description:
+          "Guided tours into stunning natural ice caves beneath glaciers, featuring ethereal blue ice formations and frozen waterfalls.",
+      },
+      {
+        title: "Midnight Sun and Polar Night Experiences",
+        description:
+          "Unique natural phenomena where the sun doesn't set for 4 months in summer (midnight sun) and doesn't rise for 4 months in winter (polar night).",
+      },
+      {
+        title: "Northern Light Viewing",
+        description:
+          "Prime location for witnessing the aurora borealis during the polar night season, with exceptional dark skies and minimal light pollution.",
+      },
+    ],
+  },
+  {
+    city: "Rome",
+    state: "",
+    region: "Lazio",
+    country: "Italy",
+    attractions: [
+      {
+        title: "Colosseum",
+        description:
+          "Iconic ancient amphitheater where gladiatorial contests and public spectacles were held, symbolizing Imperial Rome's might and engineering prowess.",
+      },
+      {
+        title: "Vatican City",
+        description:
+          "World's smallest independent state housing St. Peter's Basilica, the Vatican Museums, and the Sistine Chapel with Michelangelo's ceiling masterpiece.",
+      },
+      {
+        title: "Roman Forum",
+        description:
+          "Sprawling ruins of ancient government buildings, temples, and public spaces that were the heart of political and social life in Imperial Rome.",
+      },
+      {
+        title: "Pantheon",
+        description:
+          "Remarkably preserved ancient Roman temple with the world's largest unreinforced concrete dome, now a church dedicated to St. Mary of the Martyrs.",
+      },
+      {
+        title: "Trevi Fountain",
+        description:
+          "Baroque masterpiece depicting Neptune's chariot led by Tritons, famous for the tradition of throwing coins over your shoulder to ensure a return to Rome.",
+      },
+      {
+        title: "Spanish Steps",
+        description:
+          "Monumental stairway connecting Piazza di Spagna and Trinità dei Monti church, a popular gathering place flanked by boutiques and cafés.",
+      },
+      {
+        title: "Villa Borghese Gardens",
+        description:
+          "Extensive landscaped gardens housing the Borghese Gallery with masterpieces by Bernini, Caravaggio, and Raphael.",
+      },
+      {
+        title: "Castel Sant'Angelo",
+        description:
+          "Cylindrical fortress originally built as Emperor Hadrian's mausoleum, later used as a papal refuge connected to Vatican City by a secret passage.",
+      },
+      {
+        title: "Piazza Navona",
+        description:
+          "Elegant square built on the site of Stadium of Domitian, featuring three fountains including Bernini's Fountain of the Four Rivers.",
+      },
+      {
+        title: "Catacombs of Rome",
+        description:
+          "Ancient underground burial places where early Christians practiced their forbidden faith, stretching for hundreds of kilometers beneath the city.",
+      },
+    ],
+  },
+  {
+    city: "Istanbul",
+    state: "",
+    region: "Marmara",
+    country: "Turkey",
+    attractions: [
+      {
+        title: "Hagia Sophia",
+        description:
+          "Monumental Byzantine structure built as a cathedral, later converted to a mosque, then a museum, and now functioning as a mosque again with stunning mosaics and massive dome.",
+      },
+      {
+        title: "Blue Mosque (Sultan Ahmed Mosque)",
+        description:
+          "Iconic mosque with six minarets and intricate blue Iznik tile interior decorations, still functioning as a place of worship.",
+      },
+      {
+        title: "Topkapi Palace",
+        description:
+          "Former residence of Ottoman Sultans housing important religious relics, imperial treasures, and offering views over the Bosphorus Strait.",
+      },
+      {
+        title: "Grand Bazaar",
+        description:
+          "One of the world's oldest and largest covered markets with over 4,000 shops selling carpets, jewelry, spices, ceramics, and more.",
+      },
+      {
+        title: "Bosphorus Strait",
+        description:
+          "Waterway separating Europe and Asia, ideal for cruises offering views of Ottoman palaces, fortresses, and waterfront mansions.",
+      },
+      {
+        title: "Basilica Cistern",
+        description:
+          "Ancient underground water reservoir supported by 336 marble columns, featuring Medusa head columns and atmospheric lighting.",
+      },
+      {
+        title: "Spice Bazaar (Egyptian Bazaar)",
+        description:
+          "Vibrant market filled with the aromas of exotic spices, Turkish delight, dried fruits, nuts, and other culinary delights.",
+      },
+      {
+        title: "Galata Tower",
+        description:
+          "Medieval stone tower providing panoramic views of Istanbul's historic peninsula, Golden Horn, and Bosphorus.",
+      },
+      {
+        title: "Süleymaniye Mosque",
+        description:
+          "Ottoman imperial mosque designed by architect Sinan, known for its elegant proportions and peaceful courtyard.",
+      },
+      {
+        title: "Dolmabahçe Palace",
+        description:
+          "Opulent 19th-century palace blending European architectural styles with traditional Ottoman elements, featuring the world's largest crystal chandelier.",
+      },
+    ],
+  },
 ];
-   
