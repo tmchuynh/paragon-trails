@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const beijingTours: Tour[] = [
+const beijingTours: Tour[] = [
   {
-    title: "Great Wall Hiking Tour - Jinshanling Section",
+    title: "Great Wall Exclusive: Untouched Sections & Helicopter View",
     description:
-      "Experience one of the less-crowded sections of the Great Wall with breathtaking views and authentic architecture that showcases the true majesty of this ancient structure.",
+      "Experience the Great Wall of China away from the crowds with access to restored and wild sections, plus an optional helicopter flight providing unforgettable aerial perspectives of this wonder of the world.",
     images: [
-      "/images/tours/beijing/great-wall-jinshanling.jpg",
-      "/images/tours/beijing/great-wall-watchtower.jpg",
+      "/images/tours/beijing/unrestored-wall.jpg",
+      "/images/tours/beijing/wall-helicopter.jpg",
     ],
-    duration: "8 hours",
-    price: "$95",
-    rating: 4.9,
-    tags: ["Hiking", "UNESCO", "Photography"],
+    duration: "Full day",
+    price: "$295",
+    rating: 5.0,
+    tags: ["Great Wall", "Exclusive", "Aerial"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Li Wei",
-    tourCategoryId: "adventure",
+    tourGuide: "Professor Wang Feng",
+    tourCategoryId: "historical",
     faqs: [
       {
-        question: "How difficult is the hike?",
+        question: "Which sections of the Great Wall do we visit?",
         answer:
-          "This section involves moderate hiking with some steep ascents and uneven steps. We cover approximately 6km in 3-4 hours, suitable for those with reasonable fitness levels.",
+          "We visit both Mutianyu (a beautifully restored section with fewer crowds than Badaling) and hike a private access path to Jiankou (a dramatic unrestored section). This combination provides both the majestic views of the restored wall and the authentic adventure of walking on the ancient, wild sections where you'll feel like an explorer discovering the wall for the first time.",
       },
     ],
   },
   {
-    title: "Forbidden City & Temple of Heaven Tour",
+    title: "Forbidden City Behind-the-Scenes & Imperial Treasures",
     description:
-      "Explore the imperial grandeur of Beijing with skip-the-line access to the Forbidden City followed by the Temple of Heaven, symbols of China's imperial past.",
+      "Gain privileged access to closed sections of Beijing's Forbidden City, exploring imperial quarters and secret gardens while discovering the fascinating stories of emperors, concubines, and court intrigue.",
     images: [
       "/images/tours/beijing/forbidden-city.jpg",
-      "/images/tours/beijing/temple-of-heaven.jpg",
+      "/images/tours/beijing/imperial-garden.jpg",
     ],
-    duration: "6 hours",
-    price: "$70",
-    rating: 4.8,
-    tags: ["Imperial", "History", "Architecture"],
+    duration: "5 hours",
+    price: "$165",
+    rating: 4.9,
+    tags: ["Imperial", "Palace", "Exclusive"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Zhang Min",
+    tourGuide: "Dr. Liu Mei",
     tourCategoryId: "historical",
     faqs: [
       {
-        question: "How crowded is the Forbidden City?",
+        question: "Which restricted areas will we visit?",
         answer:
-          "The Forbidden City can be extremely crowded, especially during holidays. Our tour starts early to beat the crowds, and we use a carefully planned route to navigate the complex while avoiding the busiest areas.",
+          "Our special permit allows access to areas like the Treasure Gallery (Zhenbaoguan), Qianlong Garden complex with its exquisite interiors, and select areas of the Palace of Compassion and Tranquility. These sections contain some of the most spectacular examples of Chinese artistry and design, yet are closed to general visitors or require additional fees and advance reservations.",
       },
     ],
   },
