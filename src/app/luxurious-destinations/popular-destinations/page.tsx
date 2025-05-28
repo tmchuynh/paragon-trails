@@ -8,7 +8,6 @@ export default function PopularDestinations() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("country");
-  const [popularSort, setPopularSort] = useState("first"); // Default to showing popular first
 
   // Filter destinations based on search
   const filteredDestinations = cityattractions.filter((item) => {
@@ -26,7 +25,7 @@ export default function PopularDestinations() {
   // Determine secondary sort field
   const secondarySortField = sortBy === "country" ? "region" : "country";
 
-  // First sort by the selected criterion (city or country)
+  // Sort by the selected criterion (city or country)
   const sortedDestinations = groupAndSortByProperties(
     filteredDestinations,
     sortBy as keyof (typeof cityattractions)[0],
@@ -37,28 +36,8 @@ export default function PopularDestinations() {
     true
   );
 
-  // Then apply popularity sorting if selected
-  if (popularSort !== "none") {
-    sortedDestinations.sort((a, b) => {
-      // If one is popular and the other is not, sort accordingly
-      if (a.isPopular !== b.isPopular) {
-        if (popularSort === "first") {
-          return a.isPopular ? -1 : 1;
-        } else {
-          return a.isPopular ? 1 : -1;
-        }
-      }
-
-      // If both have the same popularity status, maintain the original sort order
-      return 0;
-    });
-  }
-
-  // Get the final destinations (either all filtered ones or only featured ones)
-  const finalDestinations =
-    popularSort === "none"
-      ? featuredArray(sortedDestinations)
-      : sortedDestinations.filter((item) => item.isPopular);
+  // Get only the popular/featured destinations
+  const finalDestinations = featuredArray(sortedDestinations);
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -97,19 +76,6 @@ export default function PopularDestinations() {
               >
                 <option value="city">City</option>
                 <option value="country">Country</option>
-              </select>
-            </div>
-
-            <div className="space-x-2">
-              <span>Popular:</span>
-              <select
-                className="px-3 py-1 border border-border rounded-md"
-                value={popularSort}
-                onChange={(e) => setPopularSort(e.target.value)}
-              >
-                <option value="first">Show first</option>
-                <option value="last">Show last</option>
-                <option value="none">No priority</option>
               </select>
             </div>
           </div>
