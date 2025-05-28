@@ -1,57 +1,58 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const heraklionTours: Tour[] = [
+const heraklionTours: Tour[] = [
   {
-    title: "Knossos Palace & Archaeological Museum",
+    title: "Knossos Palace & Minoan Civilization",
     description:
-      "Discover the ancient Minoan civilization at the legendary Palace of Knossos and explore the world-class Archaeological Museum with an expert guide.",
+      "Journey back 4,000 years with an archaeologist guide who brings the ancient Minoan civilization to life at the legendary Palace of Knossos and Archaeological Museum of Heraklion.",
     images: [
       "/images/tours/heraklion/knossos-palace.jpg",
       "/images/tours/heraklion/archaeological-museum.jpg",
     ],
     duration: "6 hours",
-    price: "$75",
+    price: "$95",
     rating: 4.9,
-    tags: ["Archaeological", "Historical", "Cultural"],
+    tags: ["Archaeology", "Ancient Civilization", "History"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Elena Papadakis",
-    tourCategoryId: "archaeology-expert",
+    tourGuide: "Dr. Maria Papadakis",
+    tourCategoryId: "historical",
     faqs: [
       {
-        question: "Is this tour suitable for children?",
+        question:
+          "How much of Knossos Palace is original versus reconstructed?",
         answer:
-          "Yes, our guides make the ancient history engaging for all ages with stories of myths and legends.",
+          "The site features both original ruins and controversial reconstructions by archaeologist Sir Arthur Evans. Our guide provides clear context about which elements are original Minoan structures (dating to 1700-1400 BCE) and which are early 20th-century interpretations, explaining the historical debate surrounding the restoration work.",
       },
     ],
   },
   {
-    title: "Cretan Culinary Journey",
+    title: "Cretan Vineyard Tour & Mountain Villages",
     description:
-      "Experience authentic Cretan cuisine with a market tour, cooking class, and wine tasting featuring local olive oils and traditional dishes.",
+      "Explore Crete's renowned wine country and traditional mountain villages, sampling unique indigenous grape varieties and enjoying authentic farm-to-table cuisine at family-run tavernas.",
     images: [
-      "/images/tours/heraklion/cretan-market.jpg",
-      "/images/tours/heraklion/cooking-class.jpg",
+      "/images/tours/heraklion/wine-tasting.jpg",
+      "/images/tours/heraklion/mountain-village.jpg",
     ],
-    duration: "5 hours",
-    price: "$89",
+    duration: "8 hours",
+    price: "$135",
     rating: 4.8,
-    tags: ["Food", "Cooking", "Wine"],
+    tags: ["Wine", "Rural", "Culinary"],
     isFamilyFriendly: true,
     isHistorical: false,
     isRomantic: true,
-    isOffTheBeatenPath: false,
+    isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nikos Mavrakis",
-    tourCategoryId: "food-culture",
+    tourGuide: "Nikos Georgiadis",
+    tourCategoryId: "culinary",
     faqs: [
       {
-        question: "Can dietary restrictions be accommodated?",
+        question: "What makes Cretan wines different from other Greek wines?",
         answer:
-          "Absolutely! We can adjust the recipes for vegetarian, vegan, gluten-free and most other dietary needs.",
+          "Crete's unique microclimate and indigenous grape varieties like Vidiano, Thrapsathiri, Liatiko, and Kotsifali produce wines found nowhere else. The island's viniculture dates back 4,000 years to Minoan times, with techniques passed through generations. You'll taste wines that express Crete's terroir with distinctive mineral notes from the mountainous terrain and influences from the surrounding Mediterranean.",
       },
     ],
   },
