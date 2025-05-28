@@ -30,12 +30,12 @@ export default function CoreTeamAndPartnerships() {
           </h3>
 
           <div className="gap-6 grid lg:grid-cols-2">
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-card p-6 border border-border rounded-lg">
               <h3 className="font-medium text-xl">Isabelle Renard</h3>
               <h4 className="mb-2 text-gray-700">
                 Founder & Chief Experience Officer
               </h4>
-              <p className="mb-3 text-gray-600 italic">
+              <p className="mb-3 italic">
                 "Travel should awaken, not just impress."
               </p>
               <p>
@@ -49,7 +49,7 @@ export default function CoreTeamAndPartnerships() {
               </p>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-card p-6 border border-border rounded-lg">
               <h3 className="font-medium text-xl">David Márquez</h3>
               <h4 className="mb-2 text-gray-700">Head of Global Operations</h4>
               <p>
@@ -61,7 +61,7 @@ export default function CoreTeamAndPartnerships() {
               </p>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-card p-6 border border-border rounded-lg">
               <h3 className="font-medium text-xl">Anika Luthra</h3>
               <h4 className="mb-2 text-gray-700">
                 Director of Cultural Affairs & Ethics
@@ -75,7 +75,7 @@ export default function CoreTeamAndPartnerships() {
               </p>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-card p-6 border border-border rounded-lg">
               <h3 className="font-medium text-xl">Julien Tsai</h3>
               <h4 className="mb-2 text-gray-700">
                 Creative Director & Brand Strategist
@@ -89,7 +89,7 @@ export default function CoreTeamAndPartnerships() {
               </p>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-card p-6 border border-border rounded-lg">
               <h3 className="font-medium text-xl">Maya Obasi</h3>
               <h4 className="mb-2 text-gray-700">
                 Director of Sustainability Initiatives

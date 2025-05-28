@@ -56,7 +56,7 @@ export default function TransportationPage() {
         </Button>
 
         {/* Ground Transportation */}
-        <div className="bg-gray-50 mt-5 mb-12 p-6 rounded-lg">
+        <div className="bg-card mt-5 mb-12 p-6 border border-border rounded-lg">
           <h3>Executive Sedans & Limousines</h3>
           <h5>For discrete arrivals and seamless urban movement.</h5>
 
@@ -81,7 +81,7 @@ export default function TransportationPage() {
           </p>
         </div>
 
-        <div className="bg-gray-50 mb-12 p-6 rounded-lg">
+        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
           <h3>Luxury SUVs & Off-Road Vehicles</h3>
           <h5>Elegance that adapts to every terrain.</h5>
 
@@ -109,7 +109,7 @@ export default function TransportationPage() {
           </p>
         </div>
 
-        <div className="bg-gray-50 mb-12 p-6 rounded-lg">
+        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
           <h3>Multi-Passenger Vehicles</h3>
           <h5>Traveling together, arriving as one.</h5>
 
@@ -136,7 +136,7 @@ export default function TransportationPage() {
           </p>
         </div>
 
-        <div className="bg-gray-50 mb-12 p-6 rounded-lg">
+        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
           <h3>Eco & EV Options</h3>
           <h5>High performance, low impact.</h5>
 
@@ -182,13 +182,13 @@ export default function TransportationPage() {
         </p>
 
         <div className="gap-6 grid md:grid-cols-3">
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Languages Spoken</h3>
             <p>Our drivers speak a variety of languages that include:</p>
             <p className="ml-3">{formatLanguages(driverLanguages)}</p>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Optional Skills Training (By Request)</h3>
             <ul className="space-y-2 pl-5 list-disc">
               <li>Evasive driving protocols</li>
@@ -197,7 +197,7 @@ export default function TransportationPage() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Professional Standards</h3>
             <p>
               All of our drivers have the following certifications and training
@@ -231,15 +231,15 @@ export default function TransportationPage() {
         </p>
 
         <div className="gap-6 grid md:grid-cols-3">
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>24/7 Global Dispatch Support</h3>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Live Itinerary Sync & Real-Time Adjustments</h3>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>On-Call Routing Modifications</h3>
             <p>Available within 30 minutes in most service regions</p>
           </div>
@@ -255,17 +255,17 @@ export default function TransportationPage() {
         </p>
 
         <div className="gap-6 grid md:grid-cols-3">
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Fleet Sanitation & Maintenance</h3>
             <p>Daily medical-grade disinfection and safety inspections</p>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Driver Oversight</h3>
             <p>Real-time GPS monitoring and command center coordination</p>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Emergency Response</h3>
             <p>Global assistance team available at all times</p>
           </div>
@@ -280,8 +280,8 @@ export default function TransportationPage() {
         </p>
 
         <div className="overflow-x-auto">
-          <table className="bg-white border border-gray-300 min-w-full">
-            <thead className="bg-gray-100">
+          <table className="bg-card border border-border min-w-full">
+            <thead className="">
               <tr>
                 <th className="px-4 py-3 text-left">
                   <h3>Metric</h3>
@@ -292,33 +292,33 @@ export default function TransportationPage() {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-gray-300 border-t">
+              <tr className="border-t border-border">
                 <td className="px-4 py-3">Carbon Offsetting</td>
                 <td className="px-4 py-3">
                   100% of private air charters offset
                 </td>
               </tr>
-              <tr className="bg-gray-50 border-gray-300 border-t">
+              <tr className="bg-card border border-t border-border">
                 <td className="px-4 py-3">EV Ground Fleet Penetration</td>
                 <td className="px-4 py-3">65% (goal: 85% by 2026)</td>
               </tr>
-              <tr className="border-gray-300 border-t">
+              <tr className="border-t border-border">
                 <td className="px-4 py-3">Eco Marine Craft Usage</td>
                 <td className="px-4 py-3">72% in reef-protected areas</td>
               </tr>
-              <tr className="bg-gray-50 border-gray-300 border-t">
+              <tr className="bg-card border border-t border-border">
                 <td className="px-4 py-3">Flight Consolidation Programs</td>
                 <td className="px-4 py-3">
                   1,200+ multi-client emissions-reduced merges
                 </td>
               </tr>
-              <tr className="border-gray-300 border-t">
+              <tr className="border-t border-border">
                 <td className="px-4 py-3">Sustainable Aviation Fuel</td>
                 <td className="px-4 py-3">
                   Active at 14 of 22 partner airports
                 </td>
               </tr>
-              <tr className="bg-gray-50 border-gray-300 border-t">
+              <tr className="bg-card border border-t border-border">
                 <td className="px-4 py-3">Clean Ocean Initiative</td>
                 <td className="px-4 py-3">
                   1.2 tons of waste removed annually via charter-yacht programs
@@ -337,10 +337,10 @@ export default function TransportationPage() {
           {groundTransportTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between bg-gray-50 shadow-md p-5 rounded-lg"
+              className="flex flex-col justify-between bg-card shadow-md p-5 border border-border rounded-lg"
             >
               <p className="mb-2">"{testimonial.quote}"</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-sm">
                 — {testimonial.author}, {testimonial.title}
               </p>
             </div>
@@ -353,8 +353,8 @@ export default function TransportationPage() {
         <h2>Popular Integrated Routes</h2>
 
         <div className="overflow-x-auto">
-          <table className="bg-white border border-gray-300 min-w-full">
-            <thead className="bg-gray-100">
+          <table className="bg-card border border-border min-w-full">
+            <thead className="">
               <tr>
                 <th className="px-4 py-3 text-left">Route</th>
                 <th className="px-4 py-3 text-left">Duration</th>
@@ -363,7 +363,7 @@ export default function TransportationPage() {
             </thead>
             <tbody>
               {groundTransportationRoutes.map((route, index) => (
-                <tr key={index} className="border-gray-300 border-t">
+                <tr key={index} className="border-t border-border">
                   <td className="px-4 py-3">{route.route}</td>
                   <td className="px-4 py-3">{route.totalDuration}</td>
                   <td className="px-4 py-3">{route.highlight}</td>

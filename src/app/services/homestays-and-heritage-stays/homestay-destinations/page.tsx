@@ -48,7 +48,7 @@ export default function HomestayDestinations() {
                     <h3 className="mt-4 mb-1 font-semibold text-xl">
                       {location.city}
                     </h3>
-                    <p className="mb-3 text-gray-600 text-sm">
+                    <p className="mb-3 text-sm">
                       {location.state
                         ? location.state === location.region
                           ? ""

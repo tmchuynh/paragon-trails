@@ -31,28 +31,28 @@ export default function SustainabilityAndCommunityInvolvement() {
 
         <h3 className="mb-3 font-semibold">Core Pillars:</h3>
         <div className="gap-4 grid md:grid-cols-2 mb-8">
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Eco-Conscious Stays</h4>
             <p>
               All partner accommodations are vetted for environmental impact,
               from solar-powered villas to rainwater-harvesting estates.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Low-Impact Travel Routes</h4>
             <p>
               We prioritize rail, electric ground transport, and extended-stay
               models to reduce client emissions.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Carbon Offsetting</h4>
             <p>
               100% of flights and long-distance ground travel booked through us
               are carbon offset via Gold Standard™ verified projects.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Minimal Waste Philosophy</h4>
             <p>
               Reusable amenities and client gift kits help reduce single-use
@@ -69,8 +69,8 @@ export default function SustainabilityAndCommunityInvolvement() {
           Sustainability Metrics (as of Q1 2025)
         </h2>
         <div className="overflow-x-auto">
-          <table className="bg-white border border-gray-200 min-w-full">
-            <thead className="bg-gray-50">
+          <table className="bg-card border border-gray-200 min-w-full">
+            <thead className="bg-card border border-border">
               <tr>
                 <th className="px-4 py-2 border-b text-left">Metric</th>
                 <th className="text-right px-4 py-2 border-b">2023</th>
@@ -157,28 +157,28 @@ export default function SustainabilityAndCommunityInvolvement() {
 
         <h3 className="mb-3 font-semibold">Highlights:</h3>
         <div className="gap-4 grid md:grid-cols-2 mb-8">
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Education Funding</h4>
             <p>
               Over $280,000 donated to fund scholarships and school
               infrastructure in Nepal, Kenya, and Peru since 2015.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Artisan & Cultural Preservation</h4>
             <p>
               70+ local artisan workshops included in active itineraries,
               directly supporting generational skills and fair trade.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Post-Crisis Support</h4>
             <p>
               Rapid-response funds allocated to local recovery efforts after
               events in Morocco (2023), Maui (2023), and southern Brazil (2024).
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-card p-4 border border-border rounded-lg">
             <h4 className="font-medium">Women's Empowerment Focus</h4>
             <p>
               42% of all on-the-ground guides and experience leads in Africa and
@@ -195,7 +195,7 @@ export default function SustainabilityAndCommunityInvolvement() {
           Client Testimonials
         </h2>
         <div className="space-y-8">
-          <blockquote className="py-2 pl-4 border-gray-300 border-l-4 italic">
+          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
             <p className="mb-2">
               "We were deeply moved by how seamlessly Paragon Trails built
               environmental integrity into every element of our honeymoon. The
@@ -208,7 +208,7 @@ export default function SustainabilityAndCommunityInvolvement() {
             </footer>
           </blockquote>
 
-          <blockquote className="py-2 pl-4 border-gray-300 border-l-4 italic">
+          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
             <p className="mb-2">
               "Paragon Trails made us feel like the world was our home, not just
               our playground. The Maasai-led cultural immersion was respectful
@@ -220,7 +220,7 @@ export default function SustainabilityAndCommunityInvolvement() {
             </footer>
           </blockquote>
 
-          <blockquote className="py-2 pl-4 border-gray-300 border-l-4 italic">
+          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
             <p className="mb-2">
               "We've traveled extensively, but Paragon Trails gave us the rare
               combination of luxury and purpose. From rainforest conservation
@@ -232,7 +232,7 @@ export default function SustainabilityAndCommunityInvolvement() {
             </footer>
           </blockquote>
 
-          <blockquote className="py-2 pl-4 border-gray-300 border-l-4 italic">
+          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
             <p className="mb-2">
               "As someone with a climate-conscious mindset, I usually travel
               reluctantly. Paragon Trails made it guilt-free. Their carbon

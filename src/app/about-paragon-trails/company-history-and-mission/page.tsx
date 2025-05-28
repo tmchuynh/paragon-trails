@@ -82,7 +82,7 @@ export default function CompanyHistoryAndMission() {
               desc: "Introduced our private membership tier, offering 24/7 concierge, first-access to rare experiences, and personalized travel journals crafted for each journey.",
             },
           ].map((item, index) => (
-            <div key={index} className="pl-4 border-gray-300 border-l-4">
+            <div key={index} className="pl-4 border-border border-l-4">
               <h3 className="font-semibold text-xl">
                 {item.year} – {item.title}
               </h3>
@@ -149,7 +149,10 @@ export default function CompanyHistoryAndMission() {
               desc: "With a client retention rate over 90%, our relationships are built to last. Many of our earliest travelers continue to journey with us today—often with their children now by their side.",
             },
           ].map((item, index) => (
-            <div key={index} className="bg-gray-50 shadow-sm p-5 rounded-lg">
+            <div
+              key={index}
+              className="bg-card shadow-sm p-5 border border-border rounded-lg"
+            >
               <h3>{item.title}</h3>
               <p>{item.desc}</p>
             </div>

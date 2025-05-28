@@ -243,7 +243,7 @@ export default function HomestayPage() {
               className="flex flex-col justify-between bg-card shadow-md p-5 rounded-lg"
             >
               <p className="mb-2">"{testimonial.quote}"</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-sm">
                 — {testimonial.author}, {testimonial.title}
               </p>
             </div>
