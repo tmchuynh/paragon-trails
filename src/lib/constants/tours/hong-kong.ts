@@ -2,56 +2,56 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 const hongKongTours: Tour[] = [
   {
-    title: "Secret Hong Kong Food Journey",
+    title: "Hong Kong Harbor Junk Boat & Skyline Experience",
     description:
-      "Explore Hong Kong's hidden culinary gems with a local food expert who takes you beyond tourist restaurants to family-run eateries, street food stalls, and local favorites.",
+      "Cruise Victoria Harbor aboard a traditional red-sail junk boat with champagne and dim sum, followed by a guided visit to a secret rooftop for the most spectacular skyline photography at sunset.",
     images: [
-      "/images/tours/hong-kong/street-food.jpg",
-      "/images/tours/hong-kong/dim-sum.jpg",
+      "/images/tours/hong-kong/junk-boat.jpg",
+      "/images/tours/hong-kong/skyline-night.jpg",
     ],
     duration: "4 hours",
-    price: "$85",
+    price: "$165",
     rating: 4.9,
-    tags: ["Food", "Local Cuisine", "Hidden Gems"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Simon Leung",
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "How spicy is the food on this tour?",
-        answer:
-          "The tour includes a range of dishes with varying spice levels. Your guide will point out spicier options, and alternatives are always available for those who prefer milder flavors.",
-      },
-    ],
-  },
-  {
-    title: "Peak & Harbor Photography Expedition",
-    description:
-      "Capture Hong Kong's iconic skyline and harbor from the best vantage points with a professional photographer guide who shares expert tips and insider locations.",
-    images: [
-      "/images/tours/hong-kong/victoria-peak.jpg",
-      "/images/tours/hong-kong/harbor-skyline.jpg",
-    ],
-    duration: "5 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Photography", "Skyline", "Views"],
+    tags: ["Harbor", "Photography", "Skyline"],
     isFamilyFriendly: true,
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Michael Chen",
+    tourGuide: "Michael Wong",
     tourCategoryId: "photography",
     faqs: [
       {
-        question: "What camera equipment do I need?",
+        question: "When is the best time for the skyline photography?",
         answer:
-          "This tour is suitable for all equipment levels—from smartphones to professional DSLRs. Your guide will provide tips specific to your equipment. A tripod is recommended for evening tours but not required.",
+          "Our tour is timed to capture the 'blue hour' just after sunset when the sky turns a deep blue before going completely dark, creating the perfect contrast with Hong Kong's illuminated buildings. We start on the water to see the sunset, then move to our exclusive rooftop location for the Symphony of Lights show that begins at 8:00pm.",
+      },
+    ],
+  },
+  {
+    title: "Hong Kong Food Journey & Market Adventure",
+    description:
+      "Dive into Hong Kong's culinary soul with a local food expert guiding you through bustling markets, hidden street food stalls, and family-run eateries serving authentic Cantonese cuisine loved by locals.",
+    images: [
+      "/images/tours/hong-kong/wet-market.jpg",
+      "/images/tours/hong-kong/street-food.jpg",
+    ],
+    duration: "4 hours",
+    price: "$95",
+    rating: 4.8,
+    tags: ["Food", "Markets", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Jenny Lau",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "How many food tastings are included?",
+        answer:
+          "The tour includes 7-8 carefully selected food tastings ranging from dim sum and roast meats to local street snacks and traditional desserts. Portions are sized so you can try everything without feeling overwhelmed. We visit establishments chosen for both their authenticity and food safety standards, many of which have been run by the same families for generations.",
       },
     ],
   },

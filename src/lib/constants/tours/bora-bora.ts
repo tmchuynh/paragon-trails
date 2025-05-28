@@ -1,6 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const boraBoratours: Tour[] = [
+export const boraBoraTours: Tour[] = [
   {
     title: "Luxury Lagoon Cruise & Snorkeling Adventure",
     description:
@@ -56,5 +56,3 @@ export const boraBoratours: Tour[] = [
     ],
   },
 ];
-
-export default boraBoratours;
