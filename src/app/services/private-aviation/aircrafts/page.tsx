@@ -351,15 +351,10 @@ export default function Aircrafts() {
         ))
       ) : (
         <div className="py-12 text-center">
-          <h3 className="mb-4 font-semibold text-xl">
-            No aircraft match your filter criteria
-          </h3>
-          <button
-            className="bg-primary hover:bg-opacity-90 px-6 py-3 rounded-md text-white transition-colors"
-            onClick={resetFilters}
-          >
+          <h2>No aircraft match your filter criteria</h2>
+          <Button variant={"accent"} onClick={resetFilters}>
             Reset All Filters
-          </button>
+          </Button>
         </div>
       )}
     </div>
