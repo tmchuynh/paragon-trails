@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const kyotoTours: Tour[] = [
+const kyotoTours: Tour[] = [
   {
-    title: "Fushimi Inari Shrine & Bamboo Grove Dawn Tour",
+    title: "Fushimi Inari After Hours & Geisha District",
     description:
-      "Experience Kyoto's most iconic sites at their most peaceful - before the crowds arrive. Perfect for photography and spiritual contemplation.",
+      "Experience Kyoto's most famous shrine after the crowds depart, followed by an exclusive evening stroll through the atmospheric Gion district with insights into the secretive geisha world.",
     images: [
-      "/images/tours/kyoto/fushimi-inari.jpg",
-      "/images/tours/kyoto/bamboo-grove.jpg",
+      "/images/tours/kyoto/fushimi-evening.jpg",
+      "/images/tours/kyoto/geisha-district.jpg",
     ],
-    duration: "5 hours",
-    price: "$85",
+    duration: "4 hours",
+    price: "$120",
     rating: 5.0,
-    tags: ["Photography", "Spiritual", "Nature"],
+    tags: ["Shrines", "Cultural", "Evening"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kenji Yamamoto",
-    tourCategoryId: "photography-expert",
+    tourGuide: "Akiko Nakamura",
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "How early does this tour start?",
+        question: "Will we see geisha during the tour?",
         answer:
-          "The tour begins at 5:30am during summer months and 6:30am during winter. The early start is essential to experience these popular sites before the crowds.",
+          "While sightings cannot be guaranteed, our evening tour is timed to coincide with when maiko (apprentice geisha) and geiko (Kyoto's term for fully-qualified geisha) travel between appointments. Your guide will help you understand the etiquette of respectful observation and photography.",
       },
     ],
   },
   {
-    title: "Geisha District Evening Walk & Dinner",
+    title: "Traditional Tea Ceremony & Zen Gardens",
     description:
-      "Explore Kyoto's historic Gion district at dusk when geiko and maiko may be spotted heading to appointments, followed by a traditional kaiseki dinner.",
+      "Immerse yourself in Japanese traditions with a private tea ceremony in an authentic tea house, followed by guided meditation and contemplation in Kyoto's most serene Zen gardens.",
     images: [
-      "/images/tours/kyoto/gion-evening.jpg",
-      "/images/tours/kyoto/kaiseki-dinner.jpg",
+      "/images/tours/kyoto/tea-ceremony.jpg",
+      "/images/tours/kyoto/zen-garden.jpg",
     ],
-    duration: "4 hours",
-    price: "$150",
+    duration: "3 hours",
+    price: "$95",
     rating: 4.9,
-    tags: ["Cultural", "Dining", "Evening"],
+    tags: ["Cultural", "Zen", "Traditional"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Akiko Tanaka",
-    tourCategoryId: "cultural-expert",
+    tourGuide: "Midori Tanaka",
+    tourCategoryId: "spiritual",
     faqs: [
       {
-        question: "Are we guaranteed to see geisha?",
+        question: "Do I need to sit on the floor during the tea ceremony?",
         answer:
-          "While sightings are common, we cannot guarantee geisha appearances as they follow private schedules. Your guide will share authentic insights into geisha culture regardless.",
+          "Traditional tea ceremonies involve sitting on tatami mats in the seiza position (kneeling). However, we can arrange for chairs or different seating if you have mobility concerns. Please inform us in advance so we can make appropriate arrangements.",
       },
     ],
   },
