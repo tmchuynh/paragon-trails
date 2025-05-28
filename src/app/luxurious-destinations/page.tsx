@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
@@ -51,7 +52,7 @@ export default function LuxuriousDestinations() {
         ).map((item, index) => (
           <div
             key={index}
-            className="group shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
+            className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
             onClick={() => {
               // Use query parameters instead of path parameters
               const queryParams = new URLSearchParams({
@@ -74,9 +75,20 @@ export default function LuxuriousDestinations() {
               );
             }}
           >
-            <h2 className="font-semibold text-2xl underline-offset-2 group-hover:underline">
+            <h2 className="w-2/3 font-semibold text-2xl underline-offset-2 group-hover:underline">
               {item.city}
             </h2>
+
+            {item.isPopular && (
+              <Badge
+                size={"sm"}
+                variant={"outline"}
+                className="top-4 right-4 absolute uppercase"
+              >
+                Popular
+              </Badge>
+            )}
+
             <p>
               {(() => {
                 const locationParts = [];

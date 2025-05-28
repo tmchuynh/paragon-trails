@@ -2,6 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { cityattractions } from "@/lib/constants/destinations/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
@@ -37,6 +38,14 @@ export default function TourPage() {
     loadTours();
   }, [city]);
 
+  const cityInfo = cityattractions.find(
+    (attraction) =>
+      attraction.city.toLowerCase() ===
+      (Array.isArray(city) ? city[0] : city).toLowerCase()
+  );
+
+  console.log("City Info:", cityInfo);
+
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -63,7 +72,9 @@ export default function TourPage() {
         <h1>
           Tours in{" "}
           {city ? decodeURIComponent(Array.isArray(city) ? city[0] : city) : ""}
+          : {cityInfo?.subtitle}
         </h1>
+        <blockquote>{cityInfo?.quote}</blockquote>
       </header>
 
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -79,6 +90,12 @@ export default function TourPage() {
                 fill
                 className="object-cover"
               />
+              <Badge
+                variant={"outline"}
+                className="top-4 right-4 absolute uppercase"
+              >
+                {tour.tourCategoryId}
+              </Badge>
             </div>
             <div className="p-6">
               <div className="flex flex-col justify-between items-start mb-2">
