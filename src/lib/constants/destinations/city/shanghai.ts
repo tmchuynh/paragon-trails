@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const shanghaishanghaiMunicipalitychina: Attraction[] = [
+export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
   {
     title: "The Bund",
     description:
@@ -20,7 +20,7 @@ export const shanghaishanghaiMunicipalitychina: Attraction[] = [
       "Public Restrooms",
     ],
     openingHours: "Open 24/7",
-    priceRange: "Free",
+    entryFee: "Free",
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
@@ -49,7 +49,7 @@ export const shanghaishanghaiMunicipalitychina: Attraction[] = [
     ],
     accessibilityFeatures: ["Some Accessible Paths", "Rest Areas"],
     openingHours: "8:30 AM - 5:30 PM, Daily",
-    priceRange:
+    entryFee:
       "¥40 ($6) April-June and Sept-Nov, ¥30 ($4) July-Aug and Dec-March",
     priceCategory: "budget",
     timeOfDay: "daytime",
@@ -79,7 +79,8 @@ export const shanghaishanghaiMunicipalitychina: Attraction[] = [
       "Accessible Restrooms",
     ],
     openingHours: "8:30 AM - 9:30 PM, Daily",
-    priceRange: "¥180 ($26) for observation deck",
+    entryFee: "¥180 ($26) for observation deck",
+    priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "all day",
     isPopular: true,
@@ -108,7 +109,7 @@ export const shanghaishanghaiMunicipalitychina: Attraction[] = [
       "Public Restrooms",
     ],
     openingHours: "Most shops: 10:00 AM - 10:00 PM, Daily",
-    priceRange: "Free to walk (shopping prices vary)",
+    entryFee: "Free to walk (shopping prices vary)",
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
@@ -118,6 +119,170 @@ export const shanghaishanghaiMunicipalitychina: Attraction[] = [
     isNightlife: true,
     isDining: true,
     isLocalExperience: true,
+    isOutdoor: true,
+  },
+  {
+    title: "Shanghai Museum",
+    description:
+      "A world-class museum showcasing ancient Chinese art and artifacts, including ceramics, jade, calligraphy, and paintings. It is renowned for its extensive collection of over 120,000 pieces that span thousands of years of Chinese history, making it one of the most important cultural institutions in China. The museum's architecture is inspired by traditional Chinese design, featuring a round top symbolizing heaven and a square base representing earth. The museum is divided into several galleries, each dedicated to different aspects of Chinese art and culture, including bronze vessels, ceramics, jade carvings, calligraphy, and paintings. The exhibits are meticulously curated to provide visitors with a comprehensive understanding of China's rich artistic heritage. The museum also hosts temporary exhibitions, educational programs, and cultural events throughout the year. Admission to the Shanghai Museum is free, making it accessible to everyone who wants to explore China's artistic legacy.",
+    location: "Shanghai Museum, Shanghai, China",
+    rating: 4.8,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hhbmdoYWklMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+    tags: ["Museum", "Cultural Heritage", "Art Collection", "Educational"],
+    accessibilityFeatures: [
+      "Wheelchair Accessible",
+      "Audio Guides Available",
+      "Rest Areas",
+    ],
+    openingHours: "9:00 AM - 5:00 PM, Closed Mondays",
+    entryFee: "Free",
+    priceCategory: "free",
+    timeOfDay: "daytime",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isFree: true,
+    isWheelchairAccessible: true,
+    isIndoor: true,
+  },
+  {
+    title: "Oriental Pearl Tower",
+    description:
+      "An iconic TV tower with a unique design, offering observation decks, a revolving restaurant, and a museum about Shanghai's history. It is one of the most recognizable landmarks in Shanghai, symbolizing the city's rapid modernization and technological advancement. The Oriental Pearl Tower stands at 468 meters (1,535 feet) and features 11 spheres of varying sizes connected by three columns. The tower has multiple observation decks, including the Space Capsule on the 118th floor, which offers panoramic views of the city. Visitors can also enjoy a glass-floored skywalk for a thrilling experience above the ground. The tower houses a history museum that showcases Shanghai's development from a fishing village to a global metropolis. Additionally, there is a revolving restaurant that provides a unique dining experience with stunning views of the city skyline.",
+    location: "Oriental Pearl Tower, Shanghai, China",
+    rating: 4.7,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8T3JpZW50YWwlMjBQZXJsJTIwVG93ZXJ8ZW58MHx8MHx8fDA%3D",
+    tags: [
+      "TV Tower",
+      "Observation Deck",
+      "Revolving Restaurant",
+      "Cultural Landmark",
+    ],
+    accessibilityFeatures: [
+      "Elevators",
+      "Wheelchair Accessible",
+      "Accessible Restrooms",
+    ],
+    openingHours: "8:00 AM - 10:30 PM, Daily",
+    entryFee: "¥160 ($24) for observation deck",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "all day",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isWheelchairAccessible: true,
+    isIndoor: true,
+  },
+  {
+    title: "Jade Buddha Temple",
+    description:
+      "A serene Buddhist temple known for its two magnificent jade Buddha statues, offering a glimpse into Chinese spirituality and culture. It is one of the most famous Buddhist temples in Shanghai, attracting both worshippers and tourists with its tranquil atmosphere and exquisite art. The temple was built in 1882 to house two jade Buddha statues brought from Burma by a monk named Huigen. The larger statue, seated in meditation, is made of white jade and stands at 1.9 meters (6.2 feet) tall, while the smaller statue, reclining in Nirvana, is made of green jade. The temple complex features beautiful halls, pavilions, and gardens adorned with intricate carvings and sculptures. Visitors can participate in traditional Buddhist rituals, such as lighting incense and making offerings, or simply enjoy the peaceful surroundings. The temple also has a vegetarian restaurant that serves delicious Buddhist cuisine.",
+    location: "Jade Buddha Temple, Shanghai, China",
+    rating: 4.5,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SmFkZSUyMEJ1ZGRoYSUyMFRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D",
+    tags: [
+      "Buddhist Temple",
+      "Spiritual Site",
+      "Cultural Heritage",
+      "Artistic",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible Paths",
+      "Audio Guides Available",
+      "Rest Areas",
+    ],
+    openingHours: "8:00 AM - 4:30 PM, Daily",
+    entryFee: "¥20 ($3) for adults, ¥10 ($1.50) for students",
+    priceCategory: "budget",
+    timeOfDay: "daytime",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isFree: false,
+    isWheelchairAccessible: true,
+    isIndoor: true,
+  },
+  {
+    title: "Shanghai Disney Resort",
+    description:
+      "A magical theme park featuring attractions, entertainment, and dining experiences based on Disney characters and stories. It is the first Disney resort in mainland China and offers a unique blend of Disney magic with Chinese culture. The resort covers an area of 963 acres and includes Shanghai Disneyland Park, Disneytown, Wishing Star Park, and two themed hotels. The park features six themed lands, including Fantasyland, Tomorrowland, Adventure Isle, Treasure Cove, Gardens of Imagination, and Mickey Avenue. Each land offers a variety of attractions, shows, and dining options that cater to visitors of all ages. Highlights include the Tron Lightcycle Power Run roller coaster, Pirates of the Caribbean: Battle for the Sunken Treasure ride, and the Enchanted Storybook Castle, which is the largest Disney castle in the world. The resort also hosts seasonal events and parades that showcase beloved Disney characters in spectacular performances.",
+    location: "Shanghai Disney Resort, Shanghai, China",
+    rating: 4.9,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hhbmdoYWklMjBEaXNuZXklMjBSZXNvcnR8ZW58MHx8MHx8fDA%3D",
+    tags: [
+      "Theme Park",
+      "Family Entertainment",
+      "Disney Characters",
+      "Cultural Experience",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible Attractions",
+      "Assistive Listening Devices",
+      "Accessible Restrooms",
+    ],
+    openingHours: "9:00 AM - 9:00 PM, Daily (hours may vary)",
+    entryFee: "¥399 ($60) for adults, ¥299 ($45) for children",
+    priceRange: "$$$",
+    priceCategory: "expensive",
+    timeOfDay: "all day",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isWheelchairAccessible: true,
+    isIndoor: false,
+  },
+  {
+    title: "Shanghai Ocean Aquarium",
+    description:
+      "One of the largest aquariums in Asia, featuring a diverse range of marine life and underwater tunnels for an immersive experience. It is located in the Lujiazui area of Pudong and is known for its impressive collection of aquatic species from around the world. The aquarium covers an area of 20,500 square meters (220,000 square feet) and features over 450 species of marine life, including sharks, rays, jellyfish, and various fish from freshwater and saltwater environments. The main attraction is the underwater tunnel that allows visitors to walk through a transparent tube surrounded by a massive tank filled with sharks and other large fish. The aquarium also has themed zones representing different ecosystems, such as the Amazon Rainforest, Coral Reef, and Deep Sea. Educational programs and interactive exhibits are available to enhance visitors' understanding of marine conservation and biodiversity.",
+    location: "Shanghai Ocean Aquarium, Shanghai, China",
+    rating: 4.6,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hhbmdoYWklMjBPY2VhbiUyMEFxdWFyaXVtfGVufDB8fDB8fDA%3D",
+    tags: ["Aquarium", "Marine Life", "Educational", "Family Friendly"],
+    accessibilityFeatures: [
+      "Wheelchair Accessible Paths",
+      "Audio Guides Available",
+      "Rest Areas",
+    ],
+    openingHours: "9:00 AM - 6:00 PM, Daily (last entry at 5:00 PM)",
+    entryFee: "¥160 ($24) for adults, ¥80 ($12) for children",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isWheelchairAccessible: true,
+    isIndoor: true,
+  },
+  {
+    title: "Zhujiajiao Water Town",
+    description:
+      "An ancient water town with picturesque canals, traditional architecture, and charming bridges, offering a glimpse into China's past. It is one of the best-preserved water towns in the Shanghai area, known for its well-maintained Ming and Qing Dynasty buildings and serene waterways. Zhujiajiao dates back over 1,700 years and features a network of canals that crisscross the town, making it a popular destination for boat rides and leisurely strolls. Visitors can explore narrow alleys lined with traditional wooden houses, visit ancient temples, and sample local delicacies at street food stalls. The town is also home to several historic bridges, including the iconic Fangsheng Bridge, which is the largest stone arch bridge in the area. Zhujiajiao offers a peaceful escape from the bustling city and provides a unique opportunity to experience traditional Chinese culture.",
+    location: "Zhujiajiao Water Town, Shanghai, China",
+    rating: 4.5,
+    imageUrl:
+      "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WnVqaWFqaWFvJTIwV2F0ZXIlMjBUb3dufGVufDB8fDB8fDA%3D",
+    tags: [
+      "Water Town",
+      "Cultural Heritage",
+      "Scenic",
+      "Traditional Architecture",
+    ],
+    accessibilityFeatures: [
+      "Some Accessible Paths",
+      "Boat Rides Available",
+      "Rest Areas",
+    ],
+    openingHours: "8:00 AM - 5:30 PM, Daily",
+    entryFee: "¥20 ($3) for adults, ¥10 ($1.50) for students",
+    priceCategory: "budget",
+    timeOfDay: "daytime",
+    isPopular: true,
+    isFamilyFriendly: true,
+    isFree: false,
+    isWheelchairAccessible: true,
     isOutdoor: true,
   },
 ];
