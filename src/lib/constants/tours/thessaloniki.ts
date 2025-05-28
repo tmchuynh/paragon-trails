@@ -1,0 +1,60 @@
+import { Tour } from "@/lib/interfaces/services/tours";
+
+const thessalonikiTours: Tour[] = [
+  {
+    title: "Byzantine Heritage & Hidden Treasures",
+    description:
+      "Explore Thessaloniki's remarkable Byzantine churches, ancient ruins, and hidden historical gems with an expert archaeologist guide who brings the city's 2,300-year history to life.",
+    images: [
+      "/images/tours/thessaloniki/rotunda.jpg",
+      "/images/tours/thessaloniki/byzantine-church.jpg",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Byzantine", "Churches", "Architecture"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Dr. Elena Papadopoulos",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Will we go inside all the churches?",
+        answer:
+          "Yes, we arrange access to 5-6 significant Byzantine churches. Modest dress is required (shoulders and knees covered), and women may need to cover their heads in some locations.",
+      },
+    ],
+  },
+  {
+    title: "Thessaloniki Food Journey",
+    description:
+      "Taste your way through Greece's culinary capital with visits to traditional markets, bakeries, and tavernas while learning about the city's multicultural influences on its distinctive cuisine.",
+    images: [
+      "/images/tours/thessaloniki/food-market.jpg",
+      "/images/tours/thessaloniki/greek-meze.jpg",
+    ],
+    duration: "4 hours",
+    price: "$79",
+    rating: 4.9,
+    tags: ["Food", "Market", "Cultural"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Dimitri Antoniadis",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "How much food is included?",
+        answer:
+          "Come hungry! The tour includes at least 8 food tastings equivalent to a full meal, featuring local specialties like bougatsa, koulouri, seafood meze, and distinctive Thessaloniki sweets.",
+      },
+    ],
+  },
+];
+
+export default thessalonikiTours;
