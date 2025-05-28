@@ -22,6 +22,6 @@ export interface Tour {
   isOffTheBeatenPath?: boolean;
   isLocalExperience?: boolean;
   tourGuide: TourGuide["name"];
-  tourGuideId: TourCategory["id"];
+  tourCategoryId: TourCategory["id"];
   faqs?: FAQs[];
 }
