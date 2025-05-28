@@ -2,56 +2,56 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 const edinburghTours: Tour[] = [
   {
-    title: "Edinburgh Castle & Royal Mile Legends",
+    title: "Underground Edinburgh & Ghost Stories",
     description:
-      "Discover the secrets of Edinburgh Castle and the historic Royal Mile with a local historian who brings to life tales of royalty, battles, and ghostly encounters.",
+      "Descend beneath the Royal Mile to explore Edinburgh's forgotten underground city of Mary King's Close, hear tales of plague victims and ghostly residents, and visit haunted locations with a local historian and master storyteller.",
     images: [
-      "/images/tours/edinburgh/edinburgh-castle.jpg",
-      "/images/tours/edinburgh/royal-mile.jpg",
+      "/images/tours/edinburgh/mary-kings-close.jpg",
+      "/images/tours/edinburgh/underground-vaults.jpg",
     ],
-    duration: "4 hours",
-    price: "$75",
+    duration: "3 hours",
+    price: "$85",
     rating: 4.8,
-    tags: ["Castle", "History", "Royal"],
-    isFamilyFriendly: true,
+    tags: ["Ghost Stories", "Underground", "History"],
+    isFamilyFriendly: false,
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourGuide: "Alistair Campbell",
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Dr. Fiona MacGregor",
     tourCategoryId: "historical",
     faqs: [
       {
-        question: "Does this tour include entry to Edinburgh Castle?",
+        question: "How scary is this tour?",
         answer:
-          "Yes, skip-the-line tickets to Edinburgh Castle are included, as well as entry to St Giles' Cathedral and other significant Royal Mile landmarks.",
+          "This tour focuses on historical accuracy with atmospheric storytelling rather than jump scares. While some stories involve plague, death, and alleged hauntings, they're presented in a captivating educational manner rather than for shock value. That said, the underground locations are dimly lit and can feel eerie, which contributes to the experience.",
       },
     ],
   },
   {
-    title: "Scottish Whisky Journey & Tasting",
+    title: "Scottish Whisky Journey & Tasting Masterclass",
     description:
-      "Embark on a guided tour of Edinburgh's finest whisky establishments, learning about production methods and regional differences while sampling premium single malts.",
+      "Embark on a guided exploration of Scotland's national drink with visits to historic pubs, exclusive tastings of rare single malts, and expert insights into whisky production regions, flavor profiles, and drinking traditions.",
     images: [
       "/images/tours/edinburgh/whisky-tasting.jpg",
-      "/images/tours/edinburgh/scotch-whisky.jpg",
+      "/images/tours/edinburgh/historic-pub.jpg",
     ],
-    duration: "3 hours",
-    price: "$95",
+    duration: "4 hours",
+    price: "$125",
     rating: 4.9,
-    tags: ["Whisky", "Tasting", "Scottish"],
+    tags: ["Whisky", "Tasting", "Scottish Culture"],
     isFamilyFriendly: false,
-    isHistorical: false,
+    isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hamish MacLeod",
+    tourGuide: "Iain Campbell",
     tourCategoryId: "culinary",
     faqs: [
       {
         question: "How many whiskies will we taste?",
         answer:
-          "The tour includes guided tastings of 6 premium single malt whiskies representing different Scottish regions, with detailed tasting notes and food pairings.",
+          "The tour includes guided tastings of 6 premium single malt whiskies selected to showcase Scotland's diverse whisky regions and styles. Each whisky is paired with information about its production, history, and tasting notes. Water and small food pairings are provided to complement the experience.",
       },
     ],
   },

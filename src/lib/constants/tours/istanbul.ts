@@ -2,56 +2,56 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 const istanbulTours: Tour[] = [
   {
-    title: "Bosphorus Luxury Yacht Cruise",
+    title: "Two Continents & Bosphorus Experience",
     description:
-      "Cruise between Europe and Asia on a private yacht, enjoying panoramic views of Ottoman palaces, fortresses, and waterfront mansions with gourmet refreshments onboard.",
+      "Journey through Istanbul's unique position straddling Europe and Asia with a private Bosphorus cruise, visiting landmarks on both continents and enjoying a traditional Turkish meal with spectacular strait views.",
     images: [
       "/images/tours/istanbul/bosphorus-cruise.jpg",
-      "/images/tours/istanbul/waterfront-mansion.jpg",
+      "/images/tours/istanbul/asian-side.jpg",
     ],
-    duration: "3 hours",
-    price: "$175",
+    duration: "6 hours",
+    price: "$145",
     rating: 4.9,
-    tags: ["Yacht", "Waterfront", "Luxury"],
+    tags: ["Bosphorus", "Two Continents", "Scenic"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourGuide: "Mehmet Yilmaz",
-    tourCategoryId: "luxury",
+    isLocalExperience: true,
+    tourGuide: "Mehmet Özturk",
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What refreshments are included?",
+        question: "Will we stop on the Asian side?",
         answer:
-          "The cruise includes a selection of Turkish appetizers (meze), seasonal fruits, desserts, unlimited soft drinks, tea, and coffee. Alcoholic beverages are available for an additional charge.",
+          "Yes, we dock at Üsküdar on the Asian side of Istanbul for approximately 2 hours to explore its historic mosques, authentic local market, and beautiful waterfront promenade. This provides a perfect contrast to the more tourist-oriented European side, showing a more authentic slice of daily Istanbul life.",
       },
     ],
   },
   {
-    title: "Grand Bazaar Treasure Hunt & Artisan Workshops",
+    title: "Grand Bazaar Secrets & Artisan Workshops",
     description:
-      "Navigate the labyrinthine Grand Bazaar with a local expert guide who introduces you to hidden workshops, secret courtyards, and master craftspeople away from tourist areas.",
+      "Go beyond the tourist sections of Istanbul's legendary Grand Bazaar with access to hidden hans (merchant inns), traditional craftsmen's workshops, and private showrooms normally closed to visitors.",
     images: [
       "/images/tours/istanbul/grand-bazaar.jpg",
       "/images/tours/istanbul/artisan-workshop.jpg",
     ],
     duration: "4 hours",
-    price: "$65",
+    price: "$85",
     rating: 4.8,
-    tags: ["Shopping", "Crafts", "Culture"],
+    tags: ["Shopping", "Artisans", "Culture"],
     isFamilyFriendly: true,
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ayşe Kaya",
-    tourCategoryId: "local-experience",
+    tourGuide: "Ayşe Yılmaz",
+    tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
-        question: "Will there be pressure to buy things?",
+        question: "Will there be pressure to buy items?",
         answer:
-          "Absolutely not. This tour focuses on cultural exploration rather than shopping. Your guide acts as a buffer against aggressive selling tactics and takes you to authentic workshops where browsing is welcomed without obligation.",
+          "Absolutely not. While you'll meet authentic artisans and have opportunities to purchase unique items directly from creators, this is primarily a cultural and educational experience. Our guide acts as a cultural interpreter, not a shopping assistant. The craftspeople understand this and provide demonstrations of their art rather than sales pitches.",
       },
     ],
   },
