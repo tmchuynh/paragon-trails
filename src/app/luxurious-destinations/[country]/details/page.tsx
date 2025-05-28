@@ -132,26 +132,47 @@ export default function DestinationDetailsPage() {
         } else {
           // Fall back to old string parsing method
           const priceRange = attraction.priceRange?.toLowerCase() || "";
+          const entryFee = attraction.entryFee?.toLowerCase() || "";
+          const entryFeeCategory =
+            attraction.entryFeeCategory?.toLowerCase() || "";
 
           switch (filters.priceCategory) {
             case "free":
-              if (!priceRange.includes("free") && !attraction.isFree)
+              if (
+                (!priceRange.includes("free") && !attraction.isFree) ||
+                !entryFee.includes("free")
+              )
                 return false;
               break;
             case "budget":
-              if (!priceRange.includes("$") || priceRange.includes("$$"))
+              if (
+                priceRange.includes("$") ||
+                entryFeeCategory.includes("budget")
+              )
                 return false;
               break;
             case "moderate":
-              if (!priceRange.includes("$$") || priceRange.includes("$$$"))
+              if (
+                !priceRange.includes("$") ||
+                priceRange.includes("$$") ||
+                entryFeeCategory.includes("moderate")
+              )
                 return false;
               break;
             case "expensive":
-              if (!priceRange.includes("$$$") || priceRange.includes("$$$$"))
+              if (
+                !priceRange.includes("$$") ||
+                priceRange.includes("$$$") ||
+                entryFeeCategory.includes("expensive")
+              )
                 return false;
               break;
             case "luxury":
-              if (!priceRange.includes("$$$$")) return false;
+              if (
+                !priceRange.includes("$$$") ||
+                entryFeeCategory.includes("luxury")
+              )
+                return false;
               break;
           }
         }
@@ -645,7 +666,12 @@ export default function DestinationDetailsPage() {
                   <div className="mb-2">
                     <div className="flex md:flex-row flex-col justify-between items-start mt-3">
                       <div>
-                        <h3>{attraction.title}</h3>
+                        <div className="inline-flex items-center gap-1">
+                          <h3>{attraction.title}</h3>
+                          {attraction.priceRange && (
+                            <span>({attraction.priceRange})</span>
+                          )}
+                        </div>
                         <h5>{attraction.location}</h5>
                         {displayRatingStars(attraction.rating)}
                       </div>
@@ -666,9 +692,9 @@ export default function DestinationDetailsPage() {
                           {attraction.openingHours}
                         </p>
                       )}
-                      {attraction.priceRange && (
+                      {attraction.entryFee && (
                         <p>
-                          <strong>Entry Fee:</strong> {attraction.priceRange}
+                          <strong>Entry Fee:</strong> {attraction.entryFee}
                         </p>
                       )}
                     </div>
