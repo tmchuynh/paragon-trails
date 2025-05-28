@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const cairoTours: Tour[] = [
+const cairoTours: Tour[] = [
   {
-    title: "Pyramids of Giza & Sphinx Private Tour",
+    title: "Pyramids at Dawn & Private Archaeologist Tour",
     description:
-      "Stand in awe before the last surviving wonder of the ancient world with an expert Egyptologist guide explaining the mysteries and engineering marvels of the Great Pyramids.",
+      "Experience the majesty of the Pyramids of Giza without crowds during a special early access visit, accompanied by an Egyptologist who reveals the latest archaeological discoveries and ancient engineering secrets.",
     images: [
-      "/images/tours/cairo/pyramids.jpg",
-      "/images/tours/cairo/sphinx.jpg",
+      "/images/tours/cairo/pyramids-sunrise.jpg",
+      "/images/tours/cairo/sphinx-morning.jpg",
     ],
-    duration: "5 hours",
-    price: "$85",
-    rating: 4.9,
-    tags: ["Ancient Wonders", "Archaeology", "Photography"],
+    duration: "6 hours",
+    price: "$195",
+    rating: 5.0,
+    tags: ["Pyramids", "Archaeology", "Exclusive Access"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Ahmed Fawzy",
+    tourGuide: "Dr. Ahmed Mahmoud",
     tourCategoryId: "historical",
     faqs: [
       {
-        question: "Can we go inside the pyramids?",
+        question: "How early do we start this tour?",
         answer:
-          "Yes, entry to one pyramid is included. The Great Pyramid requires an additional fee. Inside spaces are narrow and can be hot with limited ventilation.",
+          "Hotel pickup begins approximately 1 hour before sunrise (time varies seasonally). While this is an early start, the experience of watching the sun rise over the pyramids with virtually no other visitors present is absolutely worth it. We provide coffee/tea and light breakfast refreshments to enjoy while watching the sunrise transform the monuments.",
       },
     ],
   },
   {
-    title: "Egyptian Museum & Khan el-Khalili Bazaar",
+    title: "Islamic Cairo & Khan el-Khalili Artisans",
     description:
-      "Discover the treasures of Tutankhamun and artifacts spanning 5,000 years of Egyptian civilization, then experience the sights and sounds of Cairo's oldest bazaar.",
+      "Explore medieval Cairo's magnificent mosques and madrasas with an architectural historian, then discover traditional craftsmanship with private visits to workshops hidden in the historic Khan el-Khalili bazaar.",
     images: [
-      "/images/tours/cairo/egyptian-museum.jpg",
-      "/images/tours/cairo/khan-el-khalili.jpg",
+      "/images/tours/cairo/al-azhar-mosque.jpg",
+      "/images/tours/cairo/khan-bazaar.jpg",
     ],
     duration: "7 hours",
-    price: "$75",
+    price: "$85",
     rating: 4.8,
-    tags: ["Museum", "Shopping", "Culture"],
+    tags: ["Islamic Architecture", "Bazaar", "Crafts"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: false,
+    isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Laila Mostafa",
+    tourGuide: "Dr. Laila Ibrahim",
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "How do I avoid getting overcharged at the bazaar?",
+        question: "What should I wear when visiting mosques?",
         answer:
-          "Your guide will advise on fair prices and can help with negotiations. Generally, expect to pay about 60-70% of the initial asking price after friendly haggling.",
+          "For mosque visits, both men and women should wear clothing that covers shoulders and knees. Women should also bring a scarf to cover their hair when entering mosques. We provide traditional overgowns if needed. Shoes will be removed before entering prayer halls, so wear socks and easily removable footwear.",
       },
     ],
   },
