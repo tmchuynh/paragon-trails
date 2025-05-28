@@ -106,18 +106,18 @@
   --card-foreground: oklch(0.98 0.01 100);
   --popover: oklch(0.11 0 0);
   --popover-foreground: oklch(0.98 0.01 100);
-  --primary: oklch(0.5178 0.0688 72.23);  
+  --primary: oklch(0.71 0.0966 72.43);  
   --primary-foreground: oklch(0.11 0 0);
-  --secondary: oklch(0.4158 0.0845 55.56);  
-  --secondary-foreground: oklch(0.11 0 0);
-  --tertiary: oklch(0.7264 0.07 80);   
+  --secondary: oklch(0.49 0.1183 53.06);  
+  --secondary-foreground: oklch(0.98 0.01 100);
+  --tertiary: oklch(0.82 0.0465 81.27);   
   --tertiary-foreground: oklch(0.11 0 0);
-  --fancy: oklch(0.3589 0.1293 13.15); 
+  --fancy: oklch(0.45 0.1721 16.87); 
   --fancy-foreground: oklch(0.11 0 0);
   --muted: oklch(0.15 0 0);
   --muted-foreground: oklch(0.98 0.01 100);
   --accent: oklch(0.5 0.092 222.81); 
-  --accent-foreground: oklch(0.11 0 0);
+  --accent-foreground: oklch(0.98 0.01 100);
   --destructive: oklch(0.45 0.1772 21.6);
   --destructive-foreground: oklch(0.98 0.01 100);
   --outline: oklch(0.2095 0.0047 221.92);
@@ -199,7 +199,7 @@
     @apply font-[Gloock] lg:text-lg text-primary underline text-base;
   }
   h5 {
-    @apply font-[Gloock] uppercase font-medium text-gray-600 text-xs;
+    @apply font-[Gloock] uppercase font-medium text-gray-600 dark:text-gray-400 text-xs;
   }
   p {
     @apply text-pretty leading-relaxed;
