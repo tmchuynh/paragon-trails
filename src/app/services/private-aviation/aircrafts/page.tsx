@@ -97,7 +97,9 @@ export default function Aircrafts() {
                     <h5>Starting from</h5>
                     <p className="font-bold text-fancy text-xl">
                       ${aircraft.pricePerHourUSD.toLocaleString()}{" "}
-                      <span className="font-normal text-sm">per hour</span>
+                      <span className="font-normal text-foreground text-sm">
+                        per hour
+                      </span>
                     </p>
                   </div>
                 </div>

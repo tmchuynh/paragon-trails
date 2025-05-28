@@ -16,13 +16,13 @@ import {
 } from "@/components/ui/popover";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { cn } from "@/lib/utils";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { getTourData } from "@/lib/utils/get";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 export default function TourPage() {
   const [tour, setTour] = useState<Tour | null>(null);
@@ -91,40 +91,6 @@ export default function TourPage() {
     parseFloat(tour.price.replace(/[^0-9.]/g, "")) * participants;
 
   // Function to display star ratings using React Icons
-  const displayRatingStars = (rating: number, maxStars: number = 5) => {
-    const stars = [];
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-
-    // Add full stars
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(
-        <FaStar key={`full-${i}`} className="inline text-yellow-400" />
-      );
-    }
-
-    // Add half star if needed
-    if (hasHalfStar) {
-      stars.push(
-        <FaStarHalfAlt key="half" className="inline text-yellow-400" />
-      );
-    }
-
-    // Add empty stars
-    const emptyStarsCount = maxStars - fullStars - (hasHalfStar ? 1 : 0);
-    for (let i = 0; i < emptyStarsCount; i++) {
-      stars.push(
-        <FaRegStar key={`empty-${i}`} className="inline text-yellow-400" />
-      );
-    }
-
-    return (
-      <div className="flex justify-center items-center gap-1 my-2">
-        {stars}
-        <span className="ml-2 text-gray-400">({rating})</span>
-      </div>
-    );
-  };
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -292,7 +258,7 @@ export default function TourPage() {
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mb-6">
             {tour.tags?.map((tag, i) => (
-              <Badge key={i} variant="secondary">
+              <Badge key={i} size={"lg"} variant="secondary">
                 {tag}
               </Badge>
             ))}
@@ -342,9 +308,7 @@ export default function TourPage() {
             <div className="mb-6">
               <p className="font-bold text-3xl">
                 {tour.price}{" "}
-                <span className="font-normal text-gray-600 text-sm">
-                  per person
-                </span>
+                <span className="font-normal text-sm">per person</span>
               </p>
             </div>
 

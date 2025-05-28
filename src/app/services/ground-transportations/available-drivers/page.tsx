@@ -59,7 +59,7 @@ export default function AvailableDriversPage() {
                   <div className="mb-4">
                     <strong>Certifications</strong>
                     <ul className="space-y-1 ml-2 text-sm list-disc list-inside">
-                      {profile.certifications.map((cert, index) => (
+                      {profile.certifications?.map((cert, index) => (
                         <li key={index}>{cert}</li>
                       ))}
                     </ul>
