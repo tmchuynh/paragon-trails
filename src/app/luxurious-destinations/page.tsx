@@ -28,19 +28,31 @@ export default function LuxuriousDestinations() {
   // Determine secondary sort field
   const secondarySortField = sortBy === "country" ? "region" : "country";
 
-  // Process popularity sorting
-  let processedDestinations = filteredDestinations;
-  if (popularSort !== "none") {
-    // Create a copy to avoid modifying the original data
-    processedDestinations = [...filteredDestinations];
+  // First sort by the selected criterion (city or country)
+  const sortedDestinations = groupAndSortByProperties(
+    filteredDestinations,
+    sortBy as keyof (typeof cityattractions)[0],
+    secondarySortField as keyof (typeof cityattractions)[0],
+    true,
+    false,
+    false,
+    true
+  );
 
-    // Sort by popularity
-    processedDestinations.sort((a, b) => {
-      if (popularSort === "first") {
-        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
-      } else {
-        return (a.isPopular ? 1 : 0) - (b.isPopular ? 1 : 0);
+  // Then apply popularity sorting if selected
+  if (popularSort !== "none") {
+    sortedDestinations.sort((a, b) => {
+      // If one is popular and the other is not, sort accordingly
+      if (a.isPopular !== b.isPopular) {
+        if (popularSort === "first") {
+          return a.isPopular ? -1 : 1;
+        } else {
+          return a.isPopular ? 1 : -1;
+        }
       }
+
+      // If both have the same popularity status, maintain the original sort order
+      return 0;
     });
   }
 
@@ -123,18 +135,7 @@ export default function LuxuriousDestinations() {
       </div>
 
       <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {(popularSort !== "none"
-          ? processedDestinations
-          : groupAndSortByProperties(
-              filteredDestinations,
-              sortBy,
-              secondarySortField,
-              true,
-              false,
-              false,
-              true
-            )
-        ).map((item, index) => (
+        {sortedDestinations.map((item, index) => (
           <div
             key={index}
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
