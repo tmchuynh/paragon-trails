@@ -13,9 +13,24 @@ export default function RentAVehicle() {
         </blockquote>
         <p>
           At Paragon Trails, we offer a curated selection of luxury vehicles for
-          rent, ensuring you travel in style and comfort. Whether you're
-          exploring scenic routes or navigating urban landscapes, our vehicles
-          are designed to enhance your journey.
+          rent—each chosen to match the elegance and performance our travelers
+          expect. Whether you're embarking on a coastal drive, heading into the
+          mountains, or navigating the pulse of a vibrant city, our fleet is
+          designed to elevate every mile. From sleek European sedans and
+          convertible roadsters to robust SUVs and elite electric models, each
+          vehicle combines cutting-edge technology, top-tier comfort, and
+          head-turning aesthetics. Every rental is immaculately maintained and
+          thoroughly inspected, ensuring a flawless driving experience from
+          start to finish.
+        </p>
+        <p>
+          Our team provides personalized recommendations based on your
+          itinerary, terrain, and travel preferences. We offer flexible rental
+          durations, convenient delivery and pickup options, and 24/7 support
+          throughout your journey. With Paragon Trails, renting a vehicle is
+          more than securing transportation—it’s selecting the right companion
+          for the road ahead. Travel at your pace, on your terms, with unmatched
+          freedom and refinement.
         </p>
       </header>
 

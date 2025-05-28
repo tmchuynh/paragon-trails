@@ -23,6 +23,19 @@ export default function AviationPersonnel() {
           attention to detail and commitment to excellence in every aspect of
           your flight experience.
         </p>
+        <p>
+          Inside the cabin, our crew members deliver a service experience that
+          rivals five-star hospitality. With specialized training in private
+          aviation protocols, luxury service, and in-flight safety, they
+          anticipate your needs with grace and discretion—whether you require a
+          quiet space to work, curated dining, or personal comfort enhancements.
+          Beyond technical skill, what sets our team apart is their attention to
+          detail and passion for excellence. Every interaction is guided by
+          professionalism, courtesy, and a deep respect for your time, privacy,
+          and preferences. At Paragon Trails, you're not just flying—you’re
+          being looked after by a team that treats your journey as personally as
+          you do.
+        </p>
       </header>
 
       {aviationPersonnel.map((category, index) => (

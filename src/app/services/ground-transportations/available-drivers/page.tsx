@@ -15,13 +15,17 @@ export default function AvailableDriversPage() {
           Frequent Traveler
         </blockquote>
         <p>
-          Whether you're looking for a quick ride or a long-distance journey, we
-          have a variety of drivers ready to assist you. Our drivers are
-          experienced, professional, and committed to providing a safe and
-          comfortable travel experience. Browse through our driver profiles to
-          find the right fit for your requirements. Each profile includes
-          detailed information about their qualifications, experience, and
-          availability, making it easy for you to make an informed choice.
+          Whether you need a swift city transfer or a dedicated chauffeur for a
+          long-distance journey, our network of professional drivers is at your
+          service. At Paragon Trails, we understand that the right driver can
+          transform your travel experience—from a routine ride into a journey
+          marked by comfort, reliability, and discretion. Our drivers are
+          carefully vetted, highly trained, and deeply familiar with regional
+          routes and local nuances. Each brings years of experience in executive
+          transport, with an unwavering commitment to safety, punctuality, and
+          guest care. Whether you prefer conversational engagement or a quiet
+          ride, our drivers adapt to your preferences to ensure a seamless and
+          personalized experience.
         </p>
       </header>
 

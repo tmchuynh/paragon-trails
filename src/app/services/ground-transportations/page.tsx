@@ -30,12 +30,24 @@ export default function TransportationPage() {
           At Paragon Trails, ground transportation is more than a transfer—it is
           the threshold of your journey. Every vehicle, every route, and every
           chauffeur reflects our unwavering commitment to privacy, performance,
-          and personalized service.
+          and personalized service. Our fleet features meticulously maintained
+          luxury sedans, SUVs, and specialty vehicles, each selected for
+          comfort, reliability, and style. Whether you're stepping into a
+          chauffeured Mercedes in the heart of Paris, journeying through the
+          dramatic fjords of Norway, or arriving in discreet elegance for a
+          high-profile event, we ensure the drive is seamless, secure, and
+          sophisticated.
         </p>
         <p className="mb-4">
-          Whether you're navigating the streets of Paris, traversing the fjords
-          of Norway, or simply headed to your next engagement, we ensure that
-          the vehicle beneath you complements the vision ahead.
+          Our professional drivers are handpicked for their discretion, route
+          mastery, and dedication to client care. With local insight and
+          multilingual capabilities, they don’t just transport—they anticipate
+          and adapt, offering curated stops, real-time adjustments, and a calm,
+          composed presence throughout your trip. From the moment the vehicle
+          door opens to your final destination, you’re not simply moving from
+          place to place—you’re traveling with purpose, precision, and poise.
+          Let Paragon Trails set the tone for your journey—effortless, elevated,
+          and entirely yours.
         </p>
       </section>
 
