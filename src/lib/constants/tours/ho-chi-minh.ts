@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const hoChiMinhTours: Tour[] = [
+const hoChiMinhTours: Tour[] = [
   {
-    title: "Cu Chi Tunnels & War History",
+    title: "Cu Chi Tunnels & Vietnam War History",
     description:
-      "Explore the famous Cu Chi tunnel network used during the Vietnam War and gain insights into this complex period of history from a knowledgeable guide.",
+      "Journey through Vietnam's complex wartime history with an expert guide at the Cu Chi Tunnels complex, exploring underground networks, hidden trapdoors, and gaining historical perspective from both sides of the conflict.",
     images: [
       "/images/tours/ho-chi-minh/cu-chi-tunnels.jpg",
-      "/images/tours/ho-chi-minh/war-remnants-museum.jpg",
+      "/images/tours/ho-chi-minh/war-remnants.jpg",
     ],
-    duration: "6 hours",
+    duration: "7 hours",
     price: "$65",
     rating: 4.8,
-    tags: ["Historical", "War History", "Educational"],
-    isFamilyFriendly: true,
+    tags: ["History", "War", "Cultural"],
+    isFamilyFriendly: false,
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourGuide: "Nguyen Van Minh",
-    tourCategoryId: "history-expert",
+    isLocalExperience: true,
+    tourGuide: "Mr. Tran Van Hai",
+    tourCategoryId: "historical",
     faqs: [
       {
-        question: "Is crawling through the tunnels mandatory?",
+        question: "Can we go inside the tunnels?",
         answer:
-          "No, it's completely optional. Many visitors prefer to observe from above ground, which is equally informative.",
+          "Yes, you can enter a section of the tunnels that has been slightly enlarged for visitors, though they remain quite narrow and low. This is optional, and those who prefer not to go underground can still experience most of the tour. The tunnels are not recommended for people with claustrophobia or mobility issues.",
       },
     ],
   },
   {
-    title: "Saigon After Dark: Street Food Adventure",
+    title: "Saigon Street Food Adventure",
     description:
-      "Experience Ho Chi Minh City's vibrant nightlife and culinary scene from the back of a vintage Vespa, sampling delicious street food at local hotspots.",
+      "Discover the vibrant flavors of Vietnamese cuisine with a guided food tour through bustling markets and hidden street food stalls, sampling regional specialties with insights from a local foodie expert.",
     images: [
-      "/images/tours/ho-chi-minh/vespa-tour.jpg",
       "/images/tours/ho-chi-minh/street-food.jpg",
+      "/images/tours/ho-chi-minh/local-market.jpg",
     ],
     duration: "4 hours",
-    price: "$85",
+    price: "$55",
     rating: 4.9,
-    tags: ["Food", "Nightlife", "Vespa"],
-    isFamilyFriendly: false,
+    tags: ["Food", "Markets", "Local"],
+    isFamilyFriendly: true,
     isHistorical: false,
-    isRomantic: true,
+    isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tran Thi Lan",
-    tourCategoryId: "food-culture",
+    tourGuide: "Ms. Nguyen Thi Mai",
+    tourCategoryId: "culinary",
     faqs: [
       {
-        question: "Do I drive the Vespa myself?",
+        question: "Is the food safe for foreigners?",
         answer:
-          "No, you'll be riding as a passenger with our experienced drivers, allowing you to fully enjoy the sights, sounds, and tastes of Saigon.",
+          "We carefully select vendors with the highest standards of hygiene and fresh ingredients. Your guide will explain safe eating practices and can recommend the best dishes based on your spice tolerance and dietary preferences. We provide hand sanitizer and bottled water throughout the tour.",
       },
     ],
   },
