@@ -2,14 +2,15 @@ import { homestaysAndHeritageStays } from "../constants/services/homestay/destin
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
 import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
 
-export async function getTourData(
-  tourCategory: string,
-  tour: string,
-  tourID: string
-): Promise<any> {
+export async function getTourData(city: string): Promise<any> {
+  const cityFormatted =
+    removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(city.slice(1)).replace("'", "");
+  const tourID = `${cityFormatted}tours`;
+
   try {
     const tourModule = await import(
-      `@/lib/constants/destinations/tours/${tourCategory}/${tour}`
+      `@/lib/constants/tours/${formatToSlug(city)}`
     );
     // Return the specific named export that matches tourID
     if (tourModule[tourID]) {
