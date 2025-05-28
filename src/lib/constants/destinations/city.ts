@@ -250,9 +250,9 @@ export const cityattractions: CityAttractions[] = [
     state: "",
     region: "Attica",
     country: "Greece",
-    subtitle: "Ancient Port City",
+    subtitle: "Historical Port City",
     quote:
-      "Our guide arranged a private boat tour of the harbor followed by the freshest seafood dinner at a local spot away from the tourist crowds. A perfect Greek experience!",
+      "Exploring the ancient port of Piraeus with our guide offered unique insights into Greece's maritime history. The waterfront dining experience with views of the marina was simply unforgettable.",
   },
   {
     city: "Beijing",
@@ -935,5 +935,59 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "Spiritual Oasis by the River",
     quote:
       "Visiting the stunning Blagaj Tekke with our local guide who shared stories of its spiritual significance was a highlight of our Bosnia and Herzegovina trip. The private picnic by the Buna River, surrounded by breathtaking scenery, made this experience truly unforgettable.",
+  },
+  {
+    city: "Malta",
+    state: "",
+    region: "Southern Europe",
+    country: "Malta",
+    subtitle: "Mediterranean Island Gem",
+    quote:
+      "The private tour of Valletta's ancient fortifications and hidden coves arranged by Paragon Trails gave us a perfect mix of history and natural beauty that most tourists never experience.",
+  },
+  {
+    city: "Helsinki",
+    state: "",
+    region: "Uusimaa",
+    country: "Finland",
+    subtitle: "Daughter of the Baltic",
+    quote:
+      "Our private sauna experience followed by sea swimming was the authentic Finnish adventure we dreamed of. The design district tour with a local architect showed us why Helsinki is a hub of Nordic innovation.",
+  },
+  {
+    city: "Glasgow",
+    state: "",
+    region: "Scotland",
+    country: "United Kingdom",
+    subtitle: "Scotland's Cultural Powerhouse",
+    quote:
+      "The private whisky tasting tour arranged by Paragon Trails introduced us to Scotland's finest malts with expert commentary. Exploring the city's vibrant music scene with our local guide was the highlight of our trip.",
+  },
+  {
+    city: "Casablanca",
+    state: "",
+    region: "Casablanca-Settat",
+    country: "Morocco",
+    subtitle: "White City by the Atlantic",
+    quote:
+      "Our architectural tour of Hassan II Mosque with a local historian was breathtaking. Paragon Trails arranged an authentic Moroccan cooking class that gave us skills we still use at home today.",
+  },
+  {
+    city: "Budapest",
+    state: "",
+    region: "Central Hungary",
+    country: "Hungary",
+    subtitle: "Pearl of the Danube",
+    quote:
+      "The private thermal bath experience arranged after hours was pure luxury. Cruising the Danube at sunset with a local historian sharing stories of the city's past made Budapest truly magical.",
+  },
+  {
+    city: "Amsterdam",
+    state: "",
+    region: "North Holland",
+    country: "Netherlands",
+    subtitle: "Venice of the North",
+    quote:
+      "Our canal tour with a local historian revealed Amsterdam's hidden courtyards and architectural gems. The private after-hours visit to the Van Gogh Museum arranged by Paragon Trails was an art lover's dream come true.",
   },
 ];
