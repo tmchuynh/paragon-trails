@@ -53,14 +53,27 @@ export async function getCityAttractions(
   region: string,
   country: string
 ): Promise<any> {
-  city = formatTitleToCamelCase(city).replace("'", "");
-  region = formatTitleToCamelCase(region).replace("'", "");
-  country = formatTitleToCamelCase(country).replace("'", "");
-  const cityRegionCountry = `${city}${region}${country}`;
+  // Format city name to camelCase (starts with lowercase)
+  const cityFormatted =
+    removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(city.slice(1)).replace("'", "");
+
+  // Format region and country with capital first letter
+  const regionFormatted =
+    removeAccents(region).charAt(0).toUpperCase() +
+    formatTitleToCamelCase(region.slice(1)).replace("'", "");
+
+  const countryFormatted =
+    removeAccents(country).charAt(0).toUpperCase() +
+    formatTitleToCamelCase(country.slice(1)).replace("'", "");
+
+  // Combine properly formatted parts
+  const cityRegionCountry = `${cityFormatted}${regionFormatted}${countryFormatted}`;
+
   console.log("Fetching attractions for:", cityRegionCountry);
   try {
     const attractionsModule = await import(
-      `@/lib/constants/destinations/city/${city}`
+      `@/lib/constants/destinations/city/${cityFormatted}`
     );
     if (attractionsModule[cityRegionCountry]) {
       return attractionsModule[cityRegionCountry];
