@@ -31,8 +31,8 @@ export default function CancellationAndRefundPolicy() {
         <h4>Tiered Based on Lead Time and Services Secured</h4>
 
         <div className="mb-4 overflow-x-auto">
-          <table className="bg-white border border-gray-200 min-w-full">
-            <thead className="bg-gray-50">
+          <table className="bg-card border border-gray-200 min-w-full">
+            <thead className="bg-card border border-border">
               <tr>
                 <th className="px-4 py-3 border-b text-left">
                   Days Before Scheduled Departure

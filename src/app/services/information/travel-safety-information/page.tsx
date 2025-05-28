@@ -110,7 +110,7 @@ export default function TravelSafetyInformation() {
         <h2>2. In Transit: Tips for Secure Movement</h2>
 
         <div className="gap-6 grid md:grid-cols-2">
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Airports & Flights</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>Arrive early for international departures.</li>
@@ -124,7 +124,7 @@ export default function TravelSafetyInformation() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-5 rounded-lg">
+          <div className="bg-card p-5 border border-border rounded-lg">
             <h3>Transportation Abroad</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>

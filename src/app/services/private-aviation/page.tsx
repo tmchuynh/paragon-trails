@@ -34,7 +34,7 @@ export default function PrivateAviation() {
       <section>
         <h2>Why Fly Private With Us?</h2>
         <div className="gap-8 grid lg:grid-cols-2">
-          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 rounded-lg">
             <h3>Direct Access to Hidden Destinations</h3>
             <p>
               Reach off-the-map locations—mountain villages, island resorts, or
@@ -42,7 +42,7 @@ export default function PrivateAviation() {
               connecting flights.
             </p>
           </div>
-          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 rounded-lg">
             <h3>Customized Time-Saving Itineraries</h3>
             <p>
               Maximize your travel experience by flying directly between
@@ -50,7 +50,7 @@ export default function PrivateAviation() {
               tour—not the other way around.
             </p>
           </div>
-          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 rounded-lg">
             <h3>Complete Privacy & Comfort</h3>
             <p>
               Whether traveling as a couple or group, you'll enjoy an
@@ -58,7 +58,7 @@ export default function PrivateAviation() {
               and personal space.
             </p>
           </div>
-          <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-lg">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 rounded-lg">
             <h3>Fully Integrated With Your Tour</h3>
             <p>
               Your flights are booked, timed, and managed as part of your
@@ -120,7 +120,7 @@ export default function PrivateAviation() {
           </Button>
         </div>
         <div className="space-y-8">
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-card p-6 border border-border rounded-lg">
             <h3>Light Private Jets</h3>
             <p className="mb-3">
               Ideal for short flights between cities or nearby countries. Best
@@ -141,7 +141,7 @@ export default function PrivateAviation() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-card p-6 border border-border rounded-lg">
             <h3>Midsize Jets</h3>
             <p className="mb-3">
               Perfect for longer routes or groups of 6–8 guests. More cabin
@@ -159,7 +159,7 @@ export default function PrivateAviation() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-card p-6 border border-border rounded-lg">
             <h3>Heavy Jets</h3>
             <p className="mb-3">
               Used for long-distance or international flights. Accommodates
@@ -182,7 +182,7 @@ export default function PrivateAviation() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-card p-6 border border-border rounded-lg">
             <h3>Private Helicopters</h3>
             <p className="mb-3">
               For short-range, scenic transfers—especially useful for island
@@ -212,10 +212,10 @@ export default function PrivateAviation() {
           {aviationTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between bg-gray-50 shadow-md p-5 rounded-lg"
+              className="flex flex-col justify-between bg-card shadow-md p-5 border border-border rounded-lg"
             >
               <p className="mb-2">"{testimonial.quote}"</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-sm">
                 — {testimonial.author}, {testimonial.title}
               </p>
             </div>
@@ -231,7 +231,7 @@ export default function PrivateAviation() {
             (route, index) => (
               <div
                 key={index}
-                className="flex flex-col justify-between bg-white shadow-sm p-5 border border-gray-100 rounded-lg"
+                className="flex flex-col justify-between bg-card shadow-sm p-5 border border-gray-100 rounded-lg"
               >
                 <div>
                   <h3>{route.routeName}</h3>
