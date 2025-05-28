@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const dubaiTours: Tour[] = [
+const dubaiTours: Tour[] = [
   {
-    title: "Desert Safari & Bedouin Experience",
+    title: "Desert Safari & Luxury Bedouin Camp",
     description:
-      "Experience the thrill of dune bashing, camel riding, and traditional Bedouin hospitality with dinner under the stars in the Arabian Desert.",
+      "Experience the Arabian desert with exhilarating dune bashing, sunset camel riding, and an exclusive overnight stay at a luxury Bedouin-inspired camp with private dining under the stars.",
     images: [
-      "/images/tours/dubai/dune-bashing.jpg",
-      "/images/tours/dubai/desert-camp.jpg",
+      "/images/tours/dubai/desert-dunes.jpg",
+      "/images/tours/dubai/luxury-camp.jpg",
     ],
-    duration: "6 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Adventure", "Desert", "Cultural"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourGuide: "Ahmed Al Mansoori",
-    tourCategoryId: "desert-expert",
-    faqs: [
-      {
-        question: "Is dune bashing safe?",
-        answer:
-          "Yes, our drivers are highly experienced and the vehicles are specially equipped for desert driving. However, it's not recommended for pregnant women or those with back problems.",
-      },
-    ],
-  },
-  {
-    title: "Modern Dubai: Burj Khalifa & City Tour",
-    description:
-      "Skip the lines at the world's tallest building for incredible views, then explore Dubai's most impressive modern landmarks and architectural wonders.",
-    images: [
-      "/images/tours/dubai/burj-khalifa.jpg",
-      "/images/tours/dubai/dubai-marina.jpg",
-    ],
-    duration: "5 hours",
-    price: "$120",
+    duration: "24 hours",
+    price: "$395",
     rating: 4.9,
-    tags: ["Architecture", "Luxury", "Photography"],
+    tags: ["Desert", "Adventure", "Luxury"],
     isFamilyFriendly: true,
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Layla Rahman",
-    tourCategoryId: "city-expert",
+    tourGuide: "Mohammed Al Farsi",
+    tourCategoryId: "luxury",
     faqs: [
       {
-        question: "Which floor does the tour visit in Burj Khalifa?",
+        question: "What amenities are available at the desert camp?",
         answer:
-          "Our standard tour includes access to the 124th and 125th floor observation decks. For an additional fee, we can arrange access to the premium 'At The Top SKY' on the 148th floor.",
+          "Our luxury camp features private climate-controlled tents with ensuite bathrooms, queen-sized beds with premium linens, private terrace seating, personal butler service, gourmet dining experiences, and traditional entertainment. All modern conveniences are discreetly integrated into the authentic Bedouin aesthetic.",
+      },
+    ],
+  },
+  {
+    title: "Modern Architecture & Burj Khalifa Exclusive",
+    description:
+      "Discover Dubai's architectural marvels with an expert guide, culminating in VIP access to Burj Khalifa's exclusive 148th floor observation deck and private lounge with refreshments.",
+    images: [
+      "/images/tours/dubai/burj-khalifa.jpg",
+      "/images/tours/dubai/modern-architecture.jpg",
+    ],
+    duration: "5 hours",
+    price: "$250",
+    rating: 4.8,
+    tags: ["Architecture", "Skyscrapers", "VIP"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Dr. Amina Khalid",
+    tourCategoryId: "luxury",
+    faqs: [
+      {
+        question: "What makes the 148th floor access special?",
+        answer:
+          "The At The Top SKY experience on the 148th floor is Burj Khalifa's premium observation deck, rising 555 meters above the city. Unlike the standard observation decks, this level offers a luxury lounge, dedicated hosts, refreshments, and significantly fewer visitors for a more exclusive experience with minimal waiting.",
       },
     ],
   },
