@@ -1,58 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const londonTours: Tour[] = [
+const londonTours: Tour[] = [
   {
-    title: "Royal London & Changing of the Guard",
+    title: "Hidden London Underground & Wartime Secrets",
     description:
-      "Experience the pageantry of British royal tradition with prime viewing of the Changing of the Guard and tours of royal landmarks.",
+      "Explore abandoned tube stations, Churchill's secret bunkers, and hidden tunnels beneath London with exclusive access to sites normally closed to the public, guided by a historian specializing in London's wartime history.",
     images: [
-      "/images/tours/london/buckingham-palace.jpg",
+      "/images/tours/london/abandoned-station.jpg",
+      "/images/tours/london/churchill-war-rooms.jpg",
+    ],
+    duration: "3 hours",
+    price: "$95",
+    rating: 4.9,
+    tags: ["History", "Underground", "WWII"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Dr. Emma Harrison",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Is this tour suitable for those with claustrophobia?",
+        answer:
+          "Some sections of the tour involve narrow passageways and enclosed underground spaces. While we never enter extremely confined areas, those with severe claustrophobia may find certain portions challenging. Please contact us to discuss specific concerns before booking.",
+      },
+    ],
+  },
+  {
+    title: "Royal London & Changing of the Guard Experience",
+    description:
+      "Witness royal ceremonies from insider positions, tour the ceremonial heart of London, and learn about royal traditions from an expert with connections to royal institutions.",
+    images: [
       "/images/tours/london/changing-guard.jpg",
+      "/images/tours/london/buckingham-palace.jpg",
     ],
     duration: "4 hours",
-    price: "$75",
+    price: "$85",
     rating: 4.8,
-    tags: ["Royal", "Historical", "Ceremonial"],
+    tags: ["Royal", "Ceremony", "Tradition"],
     isFamilyFriendly: true,
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Elizabeth Howard",
-    tourCategoryId: "royal-expert",
+    tourGuide: "James Spencer",
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "Does this tour go inside Buckingham Palace?",
+        question: "Is the Changing of the Guard guaranteed?",
         answer:
-          "The tour includes exterior views year-round, but interior access is available only during the summer opening (typically August-September) for an additional fee.",
-      },
-    ],
-  },
-  {
-    title: "Harry Potter's London: Film Locations & Magic",
-    description:
-      "Follow in the footsteps of The Boy Who Lived with this magical tour of London locations featured in the Harry Potter films.",
-    images: [
-      "/images/tours/london/platform-934.jpg",
-      "/images/tours/london/diagon-alley.jpg",
-    ],
-    duration: "3 hours",
-    price: "$65",
-    rating: 4.9,
-    tags: ["Harry Potter", "Film", "Family"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourGuide: "Oliver Bennett",
-    tourCategoryId: "film-expert",
-    faqs: [
-      {
-        question:
-          "Is this tour suitable for people who haven't read the books?",
-        answer:
-          "Absolutely! While fans will recognize many references, the tour is enjoyable for anyone interested in seeing iconic London locations and hearing behind-the-scenes filmmaking stories.",
+          "The ceremony takes place on specific days (generally Monday, Wednesday, Friday, and Sunday) and can be canceled in poor weather or due to state events. We monitor the schedule carefully and adjust the tour if needed, focusing on other royal sites and ceremonies if the main changing isn't occurring.",
       },
     ],
   },

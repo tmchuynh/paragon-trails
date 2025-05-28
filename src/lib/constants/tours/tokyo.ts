@@ -1,57 +1,57 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const tokyoTours: Tour[] = [
+const tokyoTours: Tour[] = [
   {
-    title: "Tokyo After Dark: Izakaya Experience",
+    title: "Tokyo After Dark: Izakaya & Hidden Bars",
     description:
-      "Experience Tokyo's vibrant nightlife with a local guide who will take you to authentic izakaya bars frequented by locals.",
+      "Experience Tokyo's legendary nightlife with a local expert who guides you through traditional izakaya pubs, secret speakeasies, and vibrant entertainment districts not found in guidebooks.",
     images: [
-      "/images/tours/tokyo/izakaya.jpg",
-      "/images/tours/tokyo/shinjuku-night.jpg",
+      "/images/tours/tokyo/golden-gai.jpg",
+      "/images/tours/tokyo/hidden-izakaya.jpg",
     ],
     duration: "4 hours",
     price: "$95",
     rating: 4.8,
-    tags: ["Nightlife", "Food", "Drinks", "Local"],
+    tags: ["Nightlife", "Food & Drink", "Local Culture"],
     isFamilyFriendly: false,
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Akira Tanaka",
-    tourCategoryId: "food-culture",
+    tourGuide: "Takashi Yamamoto",
+    tourCategoryId: "local-experience",
     faqs: [
       {
-        question: "Is this tour suitable for non-drinkers?",
+        question: "How much food and drink is included?",
         answer:
-          "Yes, there are non-alcoholic options available and the food experience is enjoyable for everyone.",
+          "The tour includes 3 drink tickets and food tastings at 3-4 establishments. Additional food and drinks can be purchased separately. We visit authentic local spots where even non-alcoholic options are culturally interesting.",
       },
     ],
   },
   {
-    title: "Traditional Tokyo: Temples, Gardens & Tea Ceremony",
+    title: "Tokyo Technology & Innovation Tour",
     description:
-      "Discover Tokyo's peaceful traditional side with visits to ancient temples, serene gardens, and participation in an authentic tea ceremony.",
+      "Explore cutting-edge Japan with visits to technology showrooms, concept stores, and electronics districts. Experience the latest innovations from robots to virtual reality alongside a tech industry insider.",
     images: [
-      "/images/tours/tokyo/meiji-shrine.jpg",
-      "/images/tours/tokyo/tea-ceremony.jpg",
+      "/images/tours/tokyo/robot-restaurant.jpg",
+      "/images/tours/tokyo/akihabara.jpg",
     ],
-    duration: "6 hours",
+    duration: "5 hours",
     price: "$85",
-    rating: 4.9,
-    tags: ["Cultural", "Spiritual", "Traditional"],
+    rating: 4.7,
+    tags: ["Technology", "Modern", "Interactive"],
     isFamilyFriendly: true,
-    isHistorical: true,
-    isRomantic: true,
+    isHistorical: false,
+    isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Yuko Nakamura",
-    tourCategoryId: "cultural-expert",
+    tourGuide: "Dr. Haruki Tanaka",
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What should I wear for the tea ceremony?",
+        question: "Is there an age requirement for this tour?",
         answer:
-          "Comfortable clothing is fine, but avoid very casual attire like shorts or tank tops. You'll need to remove shoes, so wear socks and easily removable footwear.",
+          "This tour is suitable for all ages, though some robot shows have minimum age requirements (typically 7+). We can customize the itinerary based on your group's interests and ages, focusing on either fun tech experiences or more in-depth industry insights.",
       },
     ],
   },
