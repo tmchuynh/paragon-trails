@@ -1,3 +1,5 @@
+import { tourCategorys } from "@/lib/constants/services/tourCategories";
+
 export default function TourPackages() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -27,6 +29,19 @@ export default function TourPackages() {
           travelers.
         </p>
       </section>
+      {tourCategorys.map((category) => (
+        <section key={category.id} className="mt-8">
+          <h2>{category.title}</h2>
+          <p>{category.description}</p>
+          <ul className="mt-2 pl-5 list-disc">
+            {category.tags?.map((tag) => (
+              <li key={tag} className="capitalize">
+                {tag}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </div>
   );
 }
