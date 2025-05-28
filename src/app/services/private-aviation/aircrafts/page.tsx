@@ -12,11 +12,28 @@ export default function Aircrafts() {
           Frequent Flyer
         </blockquote>
         <p>
-          Explore our fleet of private aircrafts, designed for comfort and
-          luxury. Whether you're looking for a small jet for a quick trip or a
-          larger aircraft for a long-haul journey, we have options to suit your
-          needs. Our aircrafts are equipped with the latest technology and
-          amenities to ensure a smooth and enjoyable flight experience.
+          Explore our exclusive fleet of private aircraft, meticulously curated
+          for those who demand both performance and luxury. Whether you’re
+          planning a quick regional hop or an intercontinental journey, our
+          diverse range of jets offers the ideal solution for your travel
+          preferences. From light jets perfect for short business trips to
+          ultra-long-range aircraft built for non-stop international travel, we
+          offer tailored options for every mission. Each aircraft in our fleet
+          is equipped with state-of-the-art avionics, advanced safety systems,
+          and an array of premium amenities—from fully reclining leather seating
+          and in-flight entertainment systems to onboard Wi-Fi and gourmet
+          catering. Cabin interiors are designed to provide maximum comfort and
+          privacy, ensuring you arrive refreshed, relaxed, and ready.
+        </p>
+        <p>
+          Our dedicated aviation team handles every detail with precision—from
+          pre-flight arrangements and baggage handling to runway coordination
+          and customs clearance—delivering a seamless door-to-door experience.
+          Whether flying solo, with family, or a corporate team, your journey
+          will be managed with discretion, professionalism, and white-glove
+          service. Choose private aviation with Paragon Trails and unlock the
+          freedom to fly on your schedule, to your destination, with an
+          unmatched standard of luxury and reliability.
         </p>
       </header>
 
