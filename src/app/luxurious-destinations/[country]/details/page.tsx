@@ -22,12 +22,14 @@ import {
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { cn } from "@/lib/utils";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
+import { capitalize } from "@/lib/utils/format";
 import { getCityAttractions } from "@/lib/utils/get";
 import { featuredArray } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaFilter, FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaFilter } from "react-icons/fa";
 
 export default function DestinationDetailsPage() {
   const [loading, setLoading] = useState(true);
@@ -275,42 +277,6 @@ export default function DestinationDetailsPage() {
       priceCategory: "all",
       timeOfDay: "all",
     });
-  };
-
-  // Function to display star ratings using React Icons
-  const displayRatingStars = (rating: number, maxStars: number = 5) => {
-    const stars = [];
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-
-    // Add full stars
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(
-        <FaStar key={`full-${i}`} className="inline text-yellow-400" />
-      );
-    }
-
-    // Add half star if needed
-    if (hasHalfStar) {
-      stars.push(
-        <FaStarHalfAlt key="half" className="inline text-yellow-400" />
-      );
-    }
-
-    // Add empty stars
-    const emptyStarsCount = maxStars - fullStars - (hasHalfStar ? 1 : 0);
-    for (let i = 0; i < emptyStarsCount; i++) {
-      stars.push(
-        <FaRegStar key={`empty-${i}`} className="inline text-yellow-400" />
-      );
-    }
-
-    return (
-      <div className="flex items-center gap-1 my-2">
-        {stars}
-        <span className="ml-2 text-gray-400">({rating})</span>
-      </div>
-    );
   };
 
   const queryParams = new URLSearchParams({
@@ -662,7 +628,7 @@ export default function DestinationDetailsPage() {
                   height={400}
                   className="mb-4 lg:mb-0 rounded-lg w-full lg:w-1/3 h-auto aspect-video object-cover"
                 />
-                <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between w-full">
                   <div className="mb-2">
                     <div className="flex md:flex-row flex-col justify-between items-start mt-3">
                       <div>
@@ -673,13 +639,17 @@ export default function DestinationDetailsPage() {
                           )}
                         </div>
                         <h5>{attraction.location}</h5>
-                        {displayRatingStars(attraction.rating)}
+                        <div className="w-fit">
+                          {displayRatingStars(attraction.rating)}
+                        </div>
                       </div>
                       <div>
                         {attraction.tags && (
                           <div className="flex flex-wrap gap-2">
                             {attraction.tags.map((tag, tagIndex) => (
-                              <Badge key={tagIndex}>{tag}</Badge>
+                              <Badge size={"lg"} key={tagIndex}>
+                                {capitalize(tag)}
+                              </Badge>
                             ))}
                           </div>
                         )}

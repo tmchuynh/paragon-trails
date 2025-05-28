@@ -1,7 +1,9 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tour } from "@/lib/interfaces/services/tours";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import { getTourData } from "@/lib/utils/get";
 import Image from "next/image";
@@ -68,7 +70,7 @@ export default function TourPage() {
         {tours.map((tour, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg hover:shadow-xl rounded-lg transition-shadow overflow-hidden"
+            className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg transition-shadow overflow-hidden"
           >
             <div className="relative h-64">
               <Image
@@ -79,35 +81,33 @@ export default function TourPage() {
               />
             </div>
             <div className="p-6">
-              <div className="flex justify-between items-center mb-2">
-                <h2 className="font-bold text-xl">{tour.title}</h2>
-                <div className="flex items-center">
-                  <span className="mr-1 text-amber-500">★</span>
-                  <span>{tour.rating}</span>
-                </div>
+              <div className="flex flex-col justify-between items-start mb-2">
+                <h2>{tour.title}</h2>
+                {displayRatingStars(tour.rating)}
               </div>
 
-              <p className="mb-4 text-gray-600">{tour.description}</p>
+              <p className="mb-4">{tour.description}</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {tour.tags?.map((tag, i) => (
-                  <span
-                    key={i}
-                    className="bg-gray-100 px-2 py-1 rounded text-gray-800 text-xs"
-                  >
+                  <Badge size={"lg"} variant={"secondary"} key={i}>
                     {tag}
-                  </span>
+                  </Badge>
                 ))}
               </div>
 
               <div className="flex justify-between items-center mt-4">
-                <div className="text-sm">
-                  <div className="font-semibold">Duration: {tour.duration}</div>
-                  <div>Guide: {tour.tourGuide}</div>
+                <div className="space-y-2">
+                  <h5 className="text-tertiary">
+                    <strong className="text-foreground">Duration:</strong>{" "}
+                    {tour.duration}
+                  </h5>
+                  <h5 className="text-tertiary">
+                    <strong className="text-foreground">Guide:</strong>{" "}
+                    {tour.tourGuide}
+                  </h5>
                 </div>
-                <div className="font-bold text-primary text-xl">
-                  {tour.price}
-                </div>
+                <h2>{tour.price}</h2>
               </div>
 
               <Button
