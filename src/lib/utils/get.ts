@@ -6,7 +6,7 @@ export async function getTourData(city: string): Promise<any> {
   const cityFormatted =
     removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
     formatTitleToCamelCase(city.slice(1)).replace("'", "");
-  const tourID = `${cityFormatted}tours`;
+  const tourID = `${cityFormatted}Tours`;
 
   try {
     const tourModule = await import(
