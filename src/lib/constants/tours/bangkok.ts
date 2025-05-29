@@ -74,6 +74,80 @@ export const bangkokTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Cultural Heritage & Temple Tour",
+    description:
+      "Explore Bangkok's rich cultural heritage with visits to iconic temples, including Wat Pho and Wat Arun, guided by a local historian who shares insights into the city's spiritual traditions and architectural marvels.",
+    images: [
+      "/images/tours/bangkok/wat-pho.jpg",
+      "/images/tours/bangkok/wat-arun.jpg",
+    ],
+    duration: "4 hours",
+    price: "$70",
+    rating: 4.9,
+    tags: ["Cultural", "Historical", "Temples"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Chantana Rattanapong",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are there any dress codes for visiting the temples?",
+        answer:
+          "Yes, visitors should dress modestly when entering temples. This typically means covering shoulders and knees. Comfortable walking shoes are recommended as some temple areas have uneven surfaces. Our guide will provide a scarf or shawl if needed, and we can also recommend appropriate attire before the tour.",
+      },
+      {
+        question: "How long do we spend at each temple?",
+        answer:
+          "We spend approximately 1-1.5 hours at each temple, allowing time for exploration, photography, and learning about their history and significance. The pace is relaxed to ensure you can fully appreciate each site.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with fascinating stories and interactive elements.",
+      },
+    ],
+  },
+  {
+    title: "Bangkok Markets & Local Crafts Tour",
+    description:
+      "Discover Bangkok's vibrant markets and local artisans with a guided tour through Chatuchak Weekend Market, Talad Rot Fai, and hidden craft workshops, learning about traditional Thai crafts and sampling local delicacies.",
+    images: [
+      "/images/tours/bangkok/chatuchak-market.jpg",
+      "/images/tours/bangkok/craft-workshop.jpg",
+    ],
+    duration: "6 hours",
+    price: "$90",
+    rating: 4.8,
+    tags: ["Markets", "Crafts", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Pimchanok Kongsuwan",
+    tourCategoryId: "local-experience",
+    faqs: [
+      {
+        question: "What types of crafts will we see?",
+        answer:
+          "You'll explore a variety of traditional Thai crafts including silk weaving, pottery, wood carving, and jewelry making. Many artisans offer hands-on demonstrations where you can try your hand at these crafts.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive activities and opportunities to learn about local culture.",
+      },
+      {
+        question: "Do we need to bring cash for purchases?",
+        answer:
+          "Yes, while many vendors accept cards, it's advisable to bring cash for smaller purchases at markets and craft stalls. ATMs are available at most locations.",
+      },
+    ],
+  },
 ];
 
 export default bangkokTours;

@@ -84,6 +84,75 @@ export const chiangMaiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Chiang Mai Night Bazaar & Street Food Tour",
+    description:
+      "Explore the vibrant Chiang Mai Night Bazaar with a local guide, sampling delicious street food, shopping for handicrafts, and experiencing the lively atmosphere of this iconic market.",
+    images: [
+      "/images/tours/chiang-mai/night-bazaar.jpg",
+      "/images/tours/chiang-mai/street-food.jpg",
+    ],
+    duration: "3 hours",
+    price: "$30",
+    rating: 4.7,
+    tags: ["Food", "Shopping", "Culture"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Nattaya Wong",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of local street foods, including khao soi (curry noodles), sai ua (northern Thai sausage), mango sticky rice, and more. We cater to dietary restrictions, so please inform us in advance if you have any allergies or preferences.",
+      },
+      {
+        question: "Is the market accessible for strollers or wheelchairs?",
+        answer:
+          "The Night Bazaar is mostly pedestrian-friendly, but some areas can be crowded. We recommend bringing a lightweight stroller or wheelchair if needed, but be prepared for some uneven surfaces.",
+      },
+      {
+        question: "Can we shop during the tour?",
+        answer:
+          "Yes! You'll have time to browse and shop for unique handicrafts, textiles, and souvenirs. Your guide can help you negotiate prices and find the best deals.",
+      },
+      {
+        question: "What should I bring for the night market tour?",
+        answer:
+          "Bring comfortable walking shoes, a light jacket (it can get cool in the evening), and some cash for food and shopping. Most vendors accept cash only, so it's best to have small denominations on hand.",
+      },
+    ],
+  },
+  {
+    title: "Doi Suthep & Hill Tribe Village Tour",
+    description:
+      "Visit the sacred Doi Suthep Temple and explore a nearby hill tribe village, learning about the unique cultures and traditions of northern Thailand's indigenous communities.",
+    images: [
+      "/images/tours/chiang-mai/doi-suthep.jpg",
+      "/images/tours/chiang-mai/hill-tribe-village.jpg",
+    ],
+    duration: "5 hours",
+    price: "$50",
+    rating: 4.9,
+    tags: ["Cultural", "Nature", "Historical"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Pongchai Rattanapong",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "How do we get to Doi Suthep?",
+        answer:
+          "Transportation to Doi Suthep is included in the tour price. We use comfortable, air-conditioned vehicles for the journey up the mountain, which takes about 30 minutes from Chiang Mai city center.",
+      },
+    ],
+  },
 ];
 
 export default chiangMaiTours;

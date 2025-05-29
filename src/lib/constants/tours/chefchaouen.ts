@@ -193,6 +193,38 @@ export const chefchaouenTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Chefchaouen Souk Shopping Experience",
+    description:
+      "Discover the vibrant local markets of Chefchaouen with a knowledgeable guide, learning how to haggle for traditional handicrafts, textiles, and spices while immersing yourself in the lively atmosphere of the souks.",
+    images: [
+      "/images/tours/chefchaouen/souk-shopping.jpg",
+      "/images/tours/chefchaouen/textile-market.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.7,
+    tags: ["Shopping", "Culture", "Local Markets"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Rachid El Amrani",
+    tourCategoryId: "shopping",
+    faqs: [
+      {
+        question: "What types of items can we buy in the souk?",
+        answer:
+          "The souks of Chefchaouen are famous for their vibrant textiles, including handwoven rugs, blankets, and traditional clothing. You can also find locally made pottery, leather goods, spices, and artisanal crafts. Our guide will help you navigate the stalls and find authentic products while sharing tips on how to haggle respectfully.",
+      },
+      {
+        question: "Is it safe to shop in the souk?",
+        answer:
+          "Yes, Chefchaouen is known for its friendly atmosphere and welcoming locals. However, as with any market, it's wise to keep an eye on your belongings and be aware of your surroundings. Our guide will ensure you feel comfortable and help you avoid common tourist traps.",
+      },
+    ],
+  },
 ];
 
 export default chefchaouenTours;

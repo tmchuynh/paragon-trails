@@ -74,6 +74,127 @@ export const berlinTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Berlin Food Tour: From Currywurst to Fine Dining",
+    description:
+      "Experience Berlin's diverse culinary scene with a guided food tour sampling iconic street foods like currywurst, local specialties, and fine dining at Michelin-starred restaurants.",
+    images: [
+      "/images/tours/berlin/currywurst.jpg",
+      "/images/tours/berlin/fine-dining.jpg",
+    ],
+    duration: "5 hours",
+    price: "$120",
+    rating: 4.9,
+    tags: ["Food", "Culinary", "Local"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Katrin Weiss",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are vegetarian options available?",
+        answer:
+          "Yes, we can accommodate vegetarians and vegans with advance notice. Please inform us of any dietary restrictions when booking.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of dishes from traditional currywurst and doner kebab to modern German cuisine and international influences. We also visit local markets and specialty shops.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 24 hours in advance to secure your spot and ensure we can accommodate any dietary needs.",
+      },
+      {
+        question: "What should I wear for the food tour?",
+        answer:
+          "Dress comfortably! We will be walking between venues, so wear comfortable shoes. Berlin's food scene is casual, so feel free to dress down.",
+      },
+    ],
+  },
+  {
+    title: "Berlin's Historic Pubs & Beer Gardens",
+    description:
+      "Explore Berlin's vibrant beer culture with a guided tour of historic pubs, traditional beer gardens, and local breweries, sampling a variety of German beers and learning about the city's brewing history.",
+    images: [
+      "/images/tours/berlin/historic-pub.jpg",
+      "/images/tours/berlin/beer-garden.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Culinary", "Local", "Nightlife"],
+    isFamilyFriendly: false,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Lukas Braun",
+    tourCategoryId: "nightlife",
+    faqs: [
+      {
+        question: "Is this tour suitable for non-drinkers?",
+        answer:
+          "Yes, we can accommodate non-drinkers with soft drink options or non-alcoholic beers. Please inform us when booking if you prefer not to consume alcohol.",
+      },
+      {
+        question: "What types of beers will we sample?",
+        answer:
+          "The tour includes a variety of local beers, including lagers, wheat beers, and seasonal brews. We also visit a brewery where you can learn about the brewing process.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 24 hours in advance to secure your spot and ensure we can accommodate any special requests.",
+      },
+      {
+        question: "What should I wear for the pub tour?",
+        answer:
+          "Dress casually! Berlin's pub scene is relaxed, so comfortable clothing and shoes are recommended as we will be walking between venues.",
+      },
+    ],
+  },
+  {
+    title: "Berlin's Hidden Gardens & Parks",
+    description:
+      "Discover Berlin's secret green spaces with a guided tour of hidden gardens, tranquil parks, and urban oases, including the historic Tiergarten and lesser-known botanical gems.",
+    images: [
+      "/images/tours/berlin/tiergarten.jpg",
+      "/images/tours/berlin/hidden-garden.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.6,
+    tags: ["Nature", "Hidden Gems", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Sophie Richter",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive activities and storytelling about Berlin's green spaces.",
+      },
+      {
+        question: "What should I wear for the garden tour?",
+        answer:
+          "Comfortable walking shoes are recommended, as we will be exploring parks on foot. Dress in layers as the weather can change quickly in Berlin.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 24 hours in advance to secure your spot and allow us to prepare for any special requests.",
+      },
+    ],
+  },
 ];
 
 export default berlinTours;
