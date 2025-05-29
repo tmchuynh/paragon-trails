@@ -2,6 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import {
   Select,
@@ -13,8 +14,10 @@ import {
 import { yachtStaff } from "@/lib/constants/services/transportation/staff/yachtStaff";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
 export default function CaptainsAndCrewMembersPage() {
+  const [showFilters, setShowFilters] = useState(false);
   // Gather all unique languages and experience years
   const allLanguages = new Set<string>();
   let maxExperience = 0;
@@ -96,74 +99,93 @@ export default function CaptainsAndCrewMembersPage() {
       </header>
 
       {/* Filter Section */}
-      <div className="bg-muted/20 mb-8 p-4 border border-border rounded-lg">
-        <h3 className="mb-4">Filter Personnel</h3>
-        <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
-          <div>
-            <Label htmlFor="experience" className="block mb-2">
-              <strong>Minimum Experience</strong>
-            </Label>
-            <Select
-              value={
-                experienceFilter === null ? "any" : experienceFilter.toString()
-              }
-              onValueChange={handleExperienceChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="any">Any</SelectItem>
-                {Array.from(
-                  { length: Math.ceil(maxExperience / 5) },
-                  (_, i) => (i + 1) * 5
-                )
-                  .filter((num) => num <= maxExperience)
-                  .concat(maxExperience % 5 !== 0 ? [maxExperience] : [])
-                  .sort((a, b) => a - b)
-                  .map((num) => (
-                    <SelectItem key={num} value={num.toString()}>
-                      {num}+ Years
-                    </SelectItem>
-                  ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          <div>
-            <Label htmlFor="language" className="block mb-2">
-              <strong>Language Spoken</strong>
-            </Label>
-            <Select
-              value={languageFilter || "any"}
-              onValueChange={handleLanguageChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="any">Any</SelectItem>
-                {Array.from(allLanguages)
-                  .sort((a, b) => a.localeCompare(b))
-                  .map((lang) => (
-                    <SelectItem key={lang} value={lang}>
-                      {lang}
-                    </SelectItem>
-                  ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          <div className="flex items-end">
-            <Button
-              variant="destructive"
-              onClick={resetFilters}
-              className="my-0 w-full"
-            >
-              Reset Filters
-            </Button>
-          </div>
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <h2>Filter Personnel</h2>
+          <Button
+            onClick={() => setShowFilters(!showFilters)}
+            variant="icon"
+            size={"sm"}
+            className="flex items-center gap-2"
+          >
+            <FaFilter />
+          </Button>
         </div>
+
+        {showFilters && (
+          <Card>
+            <CardContent>
+              <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
+                <div>
+                  <Label htmlFor="experience" className="block mb-2">
+                    <strong>Minimum Experience</strong>
+                  </Label>
+                  <Select
+                    value={
+                      experienceFilter === null
+                        ? "any"
+                        : experienceFilter.toString()
+                    }
+                    onValueChange={handleExperienceChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {Array.from(
+                        { length: Math.ceil(maxExperience / 5) },
+                        (_, i) => (i + 1) * 5
+                      )
+                        .filter((num) => num <= maxExperience)
+                        .concat(maxExperience % 5 !== 0 ? [maxExperience] : [])
+                        .sort((a, b) => a - b)
+                        .map((num) => (
+                          <SelectItem key={num} value={num.toString()}>
+                            {num}+ Years
+                          </SelectItem>
+                        ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div>
+                  <Label htmlFor="language" className="block mb-2">
+                    <strong>Language Spoken</strong>
+                  </Label>
+                  <Select
+                    value={languageFilter || "any"}
+                    onValueChange={handleLanguageChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {Array.from(allLanguages)
+                        .sort((a, b) => a.localeCompare(b))
+                        .map((lang) => (
+                          <SelectItem key={lang} value={lang}>
+                            {lang}
+                          </SelectItem>
+                        ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div className="flex items-end">
+                  <Button
+                    variant="destructive"
+                    onClick={resetFilters}
+                    className="my-0 w-full"
+                  >
+                    Reset Filters
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
       </div>
 
       {/* Staff Categories */}
