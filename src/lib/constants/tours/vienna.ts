@@ -54,6 +54,38 @@ export const viennaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Vienna's Hidden Art Scene & Street Art Tour",
+    description:
+      "Explore Vienna's vibrant contemporary art scene with a local artist, visiting hidden galleries, street art hotspots, and artist studios in the creative districts of Neubau and Mariahilf.",
+    images: [
+      "/images/tours/vienna/street-art.jpg",
+      "/images/tours/vienna/contemporary-gallery.jpg",
+    ],
+    duration: "3 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Art", "Street Art", "Contemporary"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Anna Schuster",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive street art and hands-on activities. We can also provide kid-friendly art materials for younger participants.",
+      },
+      {
+        question: "Do we need to walk a lot during the tour?",
+        answer:
+          "The tour covers approximately 2 km (1.2 miles) at a leisurely pace with plenty of stops to explore artworks and galleries. Comfortable walking shoes are recommended.",
+      },
+    ],
+  },
 ];
 
 export default viennaTours;

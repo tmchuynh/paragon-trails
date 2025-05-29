@@ -54,6 +54,38 @@ export const xiAnTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Silk Road Heritage & Local Crafts Tour",
+    description:
+      "Discover Xi'an's rich Silk Road history with visits to ancient trading posts, artisan workshops, and markets where you can see traditional crafts like paper cutting, calligraphy, and pottery being made.",
+    images: [
+      "/images/tours/xi-an/silk-road-market.jpg",
+      "/images/tours/xi-an/calligraphy-workshop.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Cultural", "Crafts", "Silk Road"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Liu Fang",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of crafts will we see?",
+        answer:
+          "The tour includes visits to workshops specializing in traditional crafts such as paper cutting, Chinese calligraphy, pottery, and silk weaving. You'll have the opportunity to watch artisans at work and even try your hand at some techniques under their guidance.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes! This tour is family-friendly and designed to engage visitors of all ages with hands-on activities and interactive demonstrations. Children will enjoy learning about the history of the Silk Road through crafts and stories.",
+      },
+    ],
+  },
 ];
 
 export default xiAnTours;

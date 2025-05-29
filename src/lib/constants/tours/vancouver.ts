@@ -54,6 +54,38 @@ export const vancouverTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Gastown & Granville Island Food Tour",
+    description:
+      "Savor Vancouver's culinary scene with a guided food tour through historic Gastown and vibrant Granville Island, sampling local delicacies, craft beers, and artisanal treats while learning about the city's food culture.",
+    images: [
+      "/images/tours/vancouver/gastown-food.jpg",
+      "/images/tours/vancouver/granville-island.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Food", "Culinary", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Michael Chen",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are vegetarian or vegan options available?",
+        answer:
+          "Yes, we can accommodate dietary restrictions including vegetarian and vegan preferences. Please inform us at the time of booking so we can tailor the food stops accordingly.",
+      },
+      {
+        question: "How much food should I expect on this tour?",
+        answer:
+          "The tour includes enough tastings to serve as a light meal, with approximately 6-8 different stops featuring a variety of dishes and beverages. You will leave satisfied but not overly full.",
+      },
+    ],
+  },
 ];
 
 export default vancouverTours;

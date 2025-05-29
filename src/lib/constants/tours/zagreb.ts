@@ -217,6 +217,33 @@ export const zagrebTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Zagreb's Green Spaces: Parks, Gardens & Nature",
+    description:
+      "Discover Zagreb's beautiful parks and gardens with a local nature enthusiast. Explore Maksimir Park, the Botanical Garden, and lesser-known green spaces while learning about the city's flora, fauna, and environmental initiatives.",
+    images: [
+      "/images/tours/zagreb/maksimir-park.jpg",
+      "/images/tours/zagreb/botanical-garden.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.8,
+    tags: ["Nature", "Parks", "Botanical"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Luka Novak",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "Are there any entry fees for the parks?",
+        answer:
+          "No, all the parks and gardens included in this tour are free to enter. Maksimir Park and the Botanical Garden do not charge any admission fees, allowing you to enjoy Zagreb's green spaces without cost. We may visit some smaller private gardens or community green spaces that also do not require entry fees.",
+      },
+    ],
+  },
 ];
 
 export default zagrebTours;

@@ -55,6 +55,38 @@ export const washingtonTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Georgetown's Historic Homes & Waterfront",
+    description:
+      "Explore the charming streets of Georgetown with a local historian, visiting historic homes, gardens, and the scenic waterfront while learning about the neighborhood's rich history.",
+    images: [
+      "/images/tours/washington/georgetown-homes.jpg",
+      "/images/tours/washington/georgetown-waterfront.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["History", "Architecture", "Waterfront"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Emily Carter",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are the historic homes open for interior visits?",
+        answer:
+          "The tour includes exterior visits to several historic homes and gardens. Some homes may offer limited interior access depending on availability and scheduling.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive storytelling and exploration.",
+      },
+    ],
+  },
 ];
 
 export default washingtonTours;

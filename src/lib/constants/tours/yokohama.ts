@@ -54,6 +54,38 @@ export const yokohamaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Yokohama's Hidden Temples & Gardens",
+    description:
+      "Discover the serene beauty of Yokohama's lesser-known temples and traditional gardens with a local historian, exploring peaceful spots away from the crowds while learning about their history and significance.",
+    images: [
+      "/images/tours/yokohama/hidden-temple.jpg",
+      "/images/tours/yokohama/traditional-garden.jpg",
+    ],
+    duration: "3 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Historical", "Nature", "Cultural"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Haruto Sato",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are these temples open to the public?",
+        answer:
+          "Yes, all sites visited are open to the public, but they are often less frequented by tourists. We focus on locations that offer a more tranquil experience compared to larger, more popular temples.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will be exploring gardens and temple grounds. Modest clothing is appreciated in temple areas, so please dress respectfully.",
+      },
+    ],
+  },
 ];
 
 export default yokohamaTours;
