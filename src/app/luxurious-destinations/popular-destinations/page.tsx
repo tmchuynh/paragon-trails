@@ -2,6 +2,15 @@
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { useState } from "react";
 
 export default function PopularDestinations() {
@@ -56,10 +65,13 @@ export default function PopularDestinations() {
 
       <div className="space-y-4 mb-8">
         <div className="flex md:flex-row flex-col items-start md:items-center gap-4">
-          <div className="w-full md:w-1/2">
-            <input
+          <div className="w-full">
+            <Label>
+              <strong>Search</strong>
+            </Label>
+            <Input
               type="text"
-              className="px-4 py-2 border border-border rounded-md focus:ring-2 focus:ring-primary w-full focus:outline-none"
+              className="mt-2"
               placeholder="Search by city, country, or region..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -67,16 +79,19 @@ export default function PopularDestinations() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <div className="space-x-2">
-              <span>Sort by:</span>
-              <select
-                className="px-3 py-1 border border-border rounded-md"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-              >
-                <option value="city">City</option>
-                <option value="country">Country</option>
-              </select>
+            <div className="space-y-2">
+              <Label>
+                <strong>Sort by:</strong>
+              </Label>
+              <Select value={sortBy} onValueChange={setSortBy}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select sort option" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="city">City</SelectItem>
+                  <SelectItem value="country">Country</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
           </div>
         </div>

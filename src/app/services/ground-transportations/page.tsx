@@ -69,109 +69,109 @@ export default function TransportationPage() {
         </Button>
 
         {/* Ground Transportation */}
-        <div className="bg-card mt-5 mb-12 p-6 border border-border rounded-lg">
-          <h3>Executive Sedans & Limousines</h3>
-          <h5>For discrete arrivals and seamless urban movement.</h5>
+        <div className="gap-4 lg:gap-6 grid lg:grid-cols-2">
+          {" "}
+          <div className="bg-card p-6 border border-border rounded-lg">
+            <h3>Executive Sedans & Limousines</h3>
+            <h5>For discrete arrivals and seamless urban movement.</h5>
 
-          <div className="gap-6 grid md:grid-cols-2 mb-6">
-            <div>
-              <h4>Models Include:</h4>
-              <p>Mercedes-Maybach S-Class, Audi A8 L, Rolls-Royce Ghost</p>
+            <div className="gap-6 grid md:grid-cols-2 mb-6">
+              <div>
+                <h4>Models Include:</h4>
+                <p>Mercedes-Maybach S-Class, Audi A8 L, Rolls-Royce Ghost</p>
+              </div>
+
+              <div>
+                <h4>Amenities:</h4>
+                <p>
+                  Climate-controlled cabins, ambient lighting, privacy glass,
+                  executive seating, rear-cabin media suites
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4>Amenities:</h4>
-              <p>
-                Climate-controlled cabins, ambient lighting, privacy glass,
-                executive seating, rear-cabin media suites
-              </p>
-            </div>
+            <p>
+              <strong>Ideal For:</strong> Business travel, airport transfers,
+              diplomatic appointments
+            </p>
           </div>
+          <div className="bg-card p-6 border border-border rounded-lg">
+            <h3>Luxury SUVs & Off-Road Vehicles</h3>
+            <h5>Elegance that adapts to every terrain.</h5>
 
-          <p>
-            <strong>Ideal For:</strong> Business travel, airport transfers,
-            diplomatic appointments
-          </p>
-        </div>
+            <div className="gap-6 grid md:grid-cols-2 mb-6">
+              <div>
+                <h4>Models Include:</h4>
+                <p>
+                  Range Rover Autobiography, Bentley Bentayga, Cadillac Escalade
+                  V Series
+                </p>
+              </div>
 
-        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
-          <h3>Luxury SUVs & Off-Road Vehicles</h3>
-          <h5>Elegance that adapts to every terrain.</h5>
-
-          <div className="gap-6 grid md:grid-cols-2 mb-6">
-            <div>
-              <h4>Models Include:</h4>
-              <p>
-                Range Rover Autobiography, Bentley Bentayga, Cadillac Escalade V
-                Series
-              </p>
+              <div>
+                <h4>Features:</h4>
+                <p>
+                  Adaptive 4WD, panoramic views, cooled compartments, full
+                  security tint
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4>Features:</h4>
-              <p>
-                Adaptive 4WD, panoramic views, cooled compartments, full
-                security tint
-              </p>
-            </div>
+            <p>
+              <strong>Ideal For:</strong> Mixed-terrain excursions, countryside
+              retreats, resort transfers
+            </p>
           </div>
+          <div className="bg-card p-6 border border-border rounded-lg">
+            <h3>Multi-Passenger Vehicles</h3>
+            <h5>Traveling together, arriving as one.</h5>
 
-          <p>
-            <strong>Ideal For:</strong> Mixed-terrain excursions, countryside
-            retreats, resort transfers
-          </p>
-        </div>
+            <div className="gap-6 grid md:grid-cols-2 mb-6">
+              <div>
+                <h4>Models Include:</h4>
+                <p>
+                  Mercedes Sprinter Executive Edition, Chrysler Voyager Platinum
+                </p>
+              </div>
 
-        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
-          <h3>Multi-Passenger Vehicles</h3>
-          <h5>Traveling together, arriving as one.</h5>
-
-          <div className="gap-6 grid md:grid-cols-2 mb-6">
-            <div>
-              <h4>Models Include:</h4>
-              <p>
-                Mercedes Sprinter Executive Edition, Chrysler Voyager Platinum
-              </p>
+              <div>
+                <h4>Amenities:</h4>
+                <p>
+                  Full privacy panels, executive captain seating, media walls,
+                  on-board concierge option
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4>Amenities:</h4>
-              <p>
-                Full privacy panels, executive captain seating, media walls,
-                on-board concierge option
-              </p>
-            </div>
+            <p>
+              <strong>Ideal For:</strong> Group travel, destination events,
+              private tours
+            </p>
           </div>
+          <div className="bg-card p-6 border border-border rounded-lg">
+            <h3>Eco & EV Options</h3>
+            <h5>High performance, low impact.</h5>
 
-          <p>
-            <strong>Ideal For:</strong> Group travel, destination events,
-            private tours
-          </p>
-        </div>
+            <div className="gap-6 grid md:grid-cols-2 mb-6">
+              <div>
+                <h4>Models Include:</h4>
+                <p>Tesla Model S Plaid, Lucid Air, Mercedes EQS</p>
+              </div>
 
-        <div className="bg-card mb-12 p-6 border border-border rounded-lg">
-          <h3>Eco & EV Options</h3>
-          <h5>High performance, low impact.</h5>
-
-          <div className="gap-6 grid md:grid-cols-2 mb-6">
-            <div>
-              <h4>Models Include:</h4>
-              <p>Tesla Model S Plaid, Lucid Air, Mercedes EQS</p>
+              <div>
+                <h4>Available In:</h4>
+                <p>
+                  Oslo, Vancouver, Zurich, Singapore, and other green-certified
+                  cities
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4>Available In:</h4>
-              <p>
-                Oslo, Vancouver, Zurich, Singapore, and other green-certified
-                cities
-              </p>
-            </div>
+            <p>
+              <strong>Ideal For:</strong> Eco-conscious travel, short- and
+              mid-range intercity transit
+            </p>
           </div>
-
-          <p>
-            <strong>Ideal For:</strong> Eco-conscious travel, short- and
-            mid-range intercity transit
-          </p>
         </div>
       </section>
 
@@ -394,12 +394,12 @@ export default function TransportationPage() {
           Your travel assistant can add, modify, or optimize any vehicle
           assignment within your itinerary. For real-time route adjustments,
           executive road convoys, or enhanced security coordination, contact our
-          Transportation Concierge at:
+          Concierge Services at:
         </p>
       </section>
       <section>
-        <ContactDepartmentCard department="Transportation & Charter Services" />
-        <ContactDepartmentCard department="Transportation Concierge" />
+        <ContactDepartmentCard department="Transportation Services & Rentals" />
+        <ContactDepartmentCard department="Concierge Services" />
       </section>
     </div>
   );

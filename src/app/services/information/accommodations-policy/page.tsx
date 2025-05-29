@@ -1,3 +1,4 @@
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 
 export default function Accommodations() {
@@ -64,6 +65,8 @@ export default function Accommodations() {
             verified guest details must be provided at the time of booking.
           </p>
         </div>
+
+        <ContactDepartmentCard department="Reservations & Booking" />
       </section>
 
       {/* 2. Check-In & Check-Out Policy */}
@@ -135,6 +138,34 @@ export default function Accommodations() {
             <li>Complimentary bottled water or minibar</li>
           </ul>
         </div>
+
+        <ContactDepartmentCard department="Accessibility & Special Accommodations" />
+
+        <div className="mb-6">
+          <h3>Barrier-Free Travel</h3>
+          <p className="mb-4">
+            We offer a variety of ADA-compliant accommodations and assistive
+            services, including step-free entry, wheelchair-accessible
+            bathrooms, grab bars, visual alert systems, and mobility transport
+            equipment.
+          </p>
+        </div>
+
+        <div className="mb-6">
+          <h3>Sensory-Sensitive Environments</h3>
+          <p className="mb-4">
+            Guests may request non-fragranced spaces, quiet floor assignments,
+            and light-dimming devices.
+          </p>
+        </div>
+
+        <div className="mb-6">
+          <h3>Service Animals</h3>
+          <p className="mb-4">
+            Certified service animals are welcomed at all partner properties.
+            Documentation may be required to comply with local regulations.
+          </p>
+        </div>
       </section>
 
       {/* 4. Guest Capacity, Visitors & Use */}
@@ -169,40 +200,9 @@ export default function Accommodations() {
         </div>
       </section>
 
-      {/* 5. Accessibility & Special Accommodations */}
-      <section>
-        <h2>5. Accessibility & Special Accommodations</h2>
-
-        <div className="mb-6">
-          <h3>Barrier-Free Travel</h3>
-          <p className="mb-4">
-            We offer a variety of ADA-compliant accommodations and assistive
-            services, including step-free entry, wheelchair-accessible
-            bathrooms, grab bars, visual alert systems, and mobility transport
-            equipment.
-          </p>
-        </div>
-
-        <div className="mb-6">
-          <h3>Sensory-Sensitive Environments</h3>
-          <p className="mb-4">
-            Guests may request non-fragranced spaces, quiet floor assignments,
-            and light-dimming devices.
-          </p>
-        </div>
-
-        <div className="mb-6">
-          <h3>Service Animals</h3>
-          <p className="mb-4">
-            Certified service animals are welcomed at all partner properties.
-            Documentation may be required to comply with local regulations.
-          </p>
-        </div>
-      </section>
-
       {/* 6. Property Use, Damage & Conduct */}
       <section>
-        <h2>6. Property Use, Damage & Conduct</h2>
+        <h2>5. Property Use, Damage & Conduct</h2>
 
         <div className="mb-6">
           <h3>Guest Responsibility</h3>
@@ -236,11 +236,20 @@ export default function Accommodations() {
             complaints may result in eviction and/or denied future bookings.
           </p>
         </div>
+
+        <div className="mb-6">
+          <h3>Cleanliness & Hygiene Standards</h3>
+          <p className="mb-4">
+            Properties must adhere to internationally recognized cleaning
+            protocols including enhanced disinfection of high-touch surfaces,
+            air filtration, and room ventilation between stays.
+          </p>
+        </div>
       </section>
 
       {/* 7. Homestays & Heritage Stays */}
       <section>
-        <h2>7. Homestays & Heritage Stays</h2>
+        <h2>6. Homestays & Heritage Stays</h2>
 
         <div className="mb-6">
           <h3>Curated Homestays</h3>
@@ -272,66 +281,65 @@ export default function Accommodations() {
 
       {/* 8. Refunds & Cancellations */}
       <section>
-        <h2>8. Refunds & Cancellations</h2>
+        <h2>7. Refunds & Cancellations</h2>
 
-        <section>
-          <h3>Standard Cancellation Policy</h3>
-          <h4>Tiered Based on Lead Time and Services Secured</h4>
+        <h3>Standard Cancellation Policy</h3>
+        <h4>Tiered Based on Lead Time and Services Secured</h4>
 
-          <div className="mb-4 overflow-x-auto">
-            <table className="bg-card border border-gray-200 min-w-full">
-              <thead className="bg-card border border-border">
-                <tr>
-                  <th className="px-4 py-3 border-b text-left">
-                    Days Before Scheduled Departure
-                  </th>
-                  <th className="px-4 py-3 border-b text-left">
-                    Cancellation Fee
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="px-4 py-3 border-b">90 days or more</td>
-                  <td className="px-4 py-3 border-b">
-                    15% of total booking (non-refundable deposit retained)
-                  </td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-3 border-b">60–89 days</td>
-                  <td className="px-4 py-3 border-b">30% of total booking</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-3 border-b">31–59 days</td>
-                  <td className="px-4 py-3 border-b">50% of total booking</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-3 border-b">15–30 days</td>
-                  <td className="px-4 py-3 border-b">75% of total booking</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-3 border-b">14 days or less</td>
-                  <td className="px-4 py-3 border-b">
-                    100% of total booking (non-refundable)
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div className="mb-4 overflow-x-auto">
+          <table className="bg-card mt-4 border border-border rounded-xl min-w-full">
+            <thead className="bg-card border border-border">
+              <tr>
+                <th className="px-4 py-3 border-b text-left">
+                  Days Before Scheduled Departure
+                </th>
+                <th className="px-4 py-3 border-b text-left">
+                  Cancellation Fee
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-3 border-b">90 days or more</td>
+                <td className="px-4 py-3 border-b">
+                  15% of total booking (non-refundable deposit retained)
+                </td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 border-b">60–89 days</td>
+                <td className="px-4 py-3 border-b">30% of total booking</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 border-b">31–59 days</td>
+                <td className="px-4 py-3 border-b">50% of total booking</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 border-b">15–30 days</td>
+                <td className="px-4 py-3 border-b">75% of total booking</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 border-b">14 days or less</td>
+                <td className="px-4 py-3 border-b">
+                  100% of total booking (non-refundable)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-          <p className="text-sm italic">
-            Note: Some accommodations, charter services, and local experiences
-            may carry stricter cancellation terms. These will be disclosed and
-            agreed upon prior to booking.
-          </p>
-        </section>
+        <ContactDepartmentCard department="Billing & Payments" />
 
+        <p className="text-sm italic">
+          Note: Some accommodations, charter services, and local experiences may
+          carry stricter cancellation terms. These will be disclosed and agreed
+          upon prior to booking.
+        </p>
         <Button>View Our Cancellation & Refund Policy</Button>
       </section>
 
       {/* 9. Emergency, Health & Safety */}
       <section>
-        <h2>9. Emergency, Health & Safety</h2>
+        <h2>8. Emergency, Health & Safety</h2>
 
         <div className="mb-6">
           <h3>Crisis Response Protocols</h3>
@@ -342,77 +350,7 @@ export default function Accommodations() {
           </p>
         </div>
 
-        <div className="mb-6">
-          <h3>Emergency Assistance</h3>
-          <p className="mb-4">
-            Our 24/7 Emergency Travel Support line is available for real-time
-            help:
-          </p>
-          <p>
-            Phone:{" "}
-            <a
-              href="tel:+13104778820"
-              className="text-blue-600 hover:underline"
-            >
-              +1 (310) 477–8820
-            </a>
-          </p>
-          <p>
-            Email:{" "}
-            <a
-              href="mailto:safety@paragontrails.com"
-              className="text-blue-600 hover:underline"
-            >
-              safety@paragontrails.com
-            </a>
-          </p>
-        </div>
-
-        <div className="mb-6">
-          <h3>Cleanliness & Hygiene Standards</h3>
-          <p className="mb-4">
-            Properties must adhere to internationally recognized cleaning
-            protocols including enhanced disinfection of high-touch surfaces,
-            air filtration, and room ventilation between stays.
-          </p>
-        </div>
-      </section>
-
-      {/* 10. Assistance & Contact */}
-      <section>
-        <h2>10. Assistance & Contact</h2>
-        <p className="mb-4">
-          For questions about a booking, making special requests, or adjusting
-          your itinerary, please contact:
-        </p>
-
-        <div>
-          <h3 className="mb-3 font-semibold text-2xl">Accommodations Desk</h3>
-          <div className="flex flex-col space-y-3">
-            <p>
-              <span className="inline-block w-6">📞</span>
-              <a
-                href="tel:+13104778810"
-                className="text-blue-600 hover:underline"
-              >
-                +1 (310) 477–8810
-              </a>
-            </p>
-            <p>
-              <span className="inline-block w-6">📧</span>
-              <a
-                href="mailto:reservations@paragontrails.com"
-                className="text-blue-600 hover:underline"
-              >
-                reservations@paragontrails.com
-              </a>
-            </p>
-            <p>
-              <span className="inline-block w-6">🕒</span> Office Hours:
-              Monday–Friday, 8:00 AM – 7:00 PM PT
-            </p>
-          </div>
-        </div>
+        <ContactDepartmentCard department="Emergency Travel Support" />
       </section>
     </div>
   );
