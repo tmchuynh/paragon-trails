@@ -10,7 +10,17 @@ export default function TourPackages() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
-        <h1>Tour Packages</h1>
+        <h1>Explore by Category</h1>
+        <h5>Find Your Perfect Journey by Theme, Region, or Style</h5>
+        <p>
+          Whether you're seeking a luxury retreat, a cultural deep dive, a
+          family-friendly adventure, or an off-the-grid expedition, our curated
+          categories make it easy to discover tours that match your interests
+          and travel style. Each collection has been thoughtfully designed by
+          experts and local partners to offer exceptional, immersive experiences
+          that go far beyond the ordinary. Start by exploring a category that
+          inspires you—then let us help you make it your reality.
+        </p>
       </header>
 
       <section>

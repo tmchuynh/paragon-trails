@@ -42,19 +42,19 @@ export const navbarItems = [
     ],
   },
   {
-    label: "Tour Packages",
+    label: "Tours",
     dropdown: [
       {
-        label: "All Tour Packages",
-        href: "/tour-packages",
+        label: "All Tours",
+        href: "/tours",
       },
       {
         label: "Tour Guides",
-        href: "/tour-packages/tour-guides",
+        href: "/tours/tour-guides",
       },
       {
         label: "Customize Your Tour",
-        href: "/tour-packages/customize-your-tour",
+        href: "/tours/customize-your-tour",
       },
     ],
   },
