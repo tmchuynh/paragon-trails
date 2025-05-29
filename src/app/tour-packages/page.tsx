@@ -1,6 +1,11 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
 import { tourCategorys } from "@/lib/constants/services/tourCategories";
+import { useRouter } from "next/navigation";
 
 export default function TourPackages() {
+  const router = useRouter();
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
@@ -28,20 +33,36 @@ export default function TourPackages() {
           solo, with family, or friends, our packages cater to all types of
           travelers.
         </p>
+        <Button
+          onClick={() =>
+            router.push(
+              "/about-paragon-trails/core-team-and-partnerships/tour-guides"
+            )
+          }
+        >
+          Meet Our Wonderful Tour Guides
+        </Button>
       </section>
-      {tourCategorys.map((category) => (
-        <section key={category.id} className="mt-8">
-          <h2>{category.title}</h2>
-          <p>{category.description}</p>
-          <ul className="mt-2 pl-5 list-disc">
-            {category.tags?.map((tag) => (
-              <li key={tag} className="capitalize">
-                {tag}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      <section className="gap-5 grid xl:grid-cols-2 divide-y">
+        {tourCategorys.map((category) => (
+          <section
+            key={category.id}
+            className="flex flex-col justify-between pb-15"
+          >
+            <div>
+              <h2>{category.title}</h2>
+              <p>{category.description}</p>
+            </div>
+            <ul className="mt-2 pl-5 list-disc">
+              {category.tags?.map((tag) => (
+                <li key={tag} className="capitalize">
+                  {tag}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </section>
     </div>
   );
 }
