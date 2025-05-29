@@ -1,5 +1,7 @@
 import { homestaysAndHeritageStays } from "../constants/services/homestay/destinations";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
+import { tourGuides } from "../constants/staff/tourGuides";
+import { TourGuide } from "../interfaces/people/staff";
 import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
 
 export async function getTourData(city: string): Promise<any> {
@@ -107,4 +109,39 @@ export function findOriginalCityName(slug: string): string | null {
     }
   }
   return null;
+}
+
+export function findGuideBySpecialty(
+  city: string,
+  specialty: string
+): TourGuide {
+  tourGuides.find((guide) => {
+    const cityFormatted =
+      removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
+      formatTitleToCamelCase(city.slice(1)).replace("'", "");
+    if (
+      guide.specialties.includes(specialty) &&
+      guide.city.toLowerCase() === cityFormatted
+    ) {
+      return guide;
+    }
+  });
+  // Default values for a guide not found
+  return {
+    id: "",
+    name: "To Be Determined",
+    city: "",
+    country: "",
+    state: "",
+    region: "",
+    isPopular: false,
+    bio: "",
+    description: "",
+    quote: "",
+    profileImage: "",
+    specialties: [],
+    languages: [],
+    certifications: [],
+    experienceYears: 0,
+  };
 }
