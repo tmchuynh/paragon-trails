@@ -44,7 +44,7 @@ export default function TourPackages() {
           solo, with family, or friends, our packages cater to all types of
           travelers.
         </p>
-        <div className="flex gap-5 flex-col md:flex-row mt-4">
+        <div className="flex md:flex-row flex-col gap-5 mt-4">
           <Button
             onClick={() =>
               router.push("/luxurious-destinations/popular-destinations")
@@ -53,7 +53,7 @@ export default function TourPackages() {
             Explore Popular Destinations
           </Button>
           <Button
-            varient="outline"
+            variant="outline"
             onClick={() =>
               router.push(
                 "/about-paragon-trails/core-team-and-partnerships/tour-guides"
