@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const edinburghTours: Tour[] = [
+export const edinburghTours: Tour[] = [
   {
     title: "Underground Edinburgh & Ghost Stories",
     description:

@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const chiangMaiTours: Tour[] = [
+export const chiangMaiTours: Tour[] = [
   {
     title: "Ethical Elephant Sanctuary Experience",
     description:

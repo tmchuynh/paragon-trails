@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const dubaiTours: Tour[] = [
+export const dubaiTours: Tour[] = [
   {
     title: "Desert Safari & Luxury Bedouin Camp",
     description:

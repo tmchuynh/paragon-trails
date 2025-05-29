@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const denpasarTours: Tour[] = [
+export const denpasarTours: Tour[] = [
   {
     title: "Balinese Temples & Cultural Heritage",
     description:
