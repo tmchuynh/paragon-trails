@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const tahitiTours: Tour[] = [
+export const tahitiTours: Tour[] = [
   {
     title: "Sacred Tahitian Waterfall Adventure",
     description:

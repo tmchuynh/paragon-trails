@@ -1,6 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-const sydneyTours: Tour[] = [
+export const sydneyTours: Tour[] = [
   {
     title: "Sydney Opera House VIP Backstage Tour",
     description:

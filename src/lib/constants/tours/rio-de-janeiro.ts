@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const rioDeJaneiroTours: Tour[] = [
+export const rioDeJaneiroTours: Tour[] = [
   {
     title: "Christ the Redeemer Helicopter Experience",
     description:

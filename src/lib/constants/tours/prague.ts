@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const pragueTours: Tour[] = [
+export const pragueTours: Tour[] = [
   {
     title: "Prague Castle After Hours",
     description:

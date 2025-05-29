@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const shanghaiTours: Tour[] = [
+export const shanghaiTours: Tour[] = [
   {
     title: "Shanghai Contrasts: Old Town & Futuristic Pudong",
     description:

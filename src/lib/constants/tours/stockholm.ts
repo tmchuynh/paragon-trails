@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const stockholmTours: Tour[] = [
+export const stockholmTours: Tour[] = [
   {
     title: "Stockholm Archipelago Sailing Adventure",
     description:

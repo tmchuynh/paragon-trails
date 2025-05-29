@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const portoTours: Tour[] = [
+export const portoTours: Tour[] = [
   {
     title: "Port Wine Cellars & Douro Valley",
     description:

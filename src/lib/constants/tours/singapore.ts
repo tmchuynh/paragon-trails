@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const singaporeTours: Tour[] = [
+export const singaporeTours: Tour[] = [
   {
     title: "Singapore Heritage Districts & Hawker Cuisine",
     description:
