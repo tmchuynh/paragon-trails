@@ -12,7 +12,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -32,7 +32,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "outdoor"],
+    tags: ["historical", "cultural", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -51,7 +51,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["outdoor", "recreation", "cultural"],
+    tags: ["adventure", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

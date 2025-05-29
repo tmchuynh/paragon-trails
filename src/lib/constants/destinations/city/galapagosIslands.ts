@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const galapagosIslandsGalapagosEcuador: Attraction[] = [
+export const galapagosIslandsGalapagosProvinceEcuador: Attraction[] = [
   {
     title: "Tortuga Bay",
     description:
@@ -14,7 +14,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["beach", "nature", "wildlife", "swimming", "hiking"],
+    tags: ["adventure"],
     isPopular: true,
 
     isFree: true,
@@ -45,7 +45,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["conservation", "educational", "wildlife", "science", "tortoises"],
+    tags: ["historical", "science", "tortoises"],
     accessibilityFeatures: [
       "accessible paths",
       "wheelchair accessible facilities",
@@ -79,13 +79,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: [
-      "volcanic landscape",
-      "viewpoint",
-      "snorkeling",
-      "wildlife",
-      "hiking",
-    ],
+    tags: ["adventure"],
     isPopular: true,
 
     isFree: false,
@@ -113,7 +107,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["snorkeling", "diving", "marine life", "geology", "boat tour"],
+    tags: ["adventure"],
     isPopular: true,
 
     isFree: false,
@@ -143,7 +137,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "bird watching", "nature", "hiking", "photography"],
+    tags: ["adventure", "art-and-music"],
     isPopular: true,
 
     isFree: false,
@@ -171,13 +165,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: [
-      "snorkeling",
-      "lava formations",
-      "marine life",
-      "boat tour",
-      "photography",
-    ],
+    tags: ["adventure", "art-and-music"],
     isPopular: true,
 
     isFree: false,
@@ -208,7 +196,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "tortoises", "nature", "conservation", "hiking"],
+    tags: ["historical", "adventure"],
     isPopular: true,
 
     isFree: false,
@@ -236,7 +224,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["hiking", "volcano", "nature", "views", "geology"],
+    tags: ["adventure", "local"],
     isPopular: true,
 
     isFree: false,
@@ -267,7 +255,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["swimming", "snorkeling", "nature", "geological", "hiking"],
+    tags: ["adventure"],
     isPopular: true,
 
     isFree: true,
@@ -295,7 +283,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["historical", "cultural", "tradition", "beach", "unique"],
+    tags: ["historical", "cultural", "local"],
     isPopular: true,
 
     isFree: false,

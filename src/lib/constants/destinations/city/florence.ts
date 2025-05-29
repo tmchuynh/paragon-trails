@@ -12,7 +12,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -32,7 +32,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -51,7 +51,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "scenic", "shopping"],
+    tags: ["historical", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -73,7 +73,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["art", "museum", "cultural", "historical"],
+    tags: ["art-and-music", "cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 

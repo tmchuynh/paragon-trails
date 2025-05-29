@@ -12,7 +12,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["outdoor", "scenic", "cultural"],
+    tags: ["adventure", "romantic", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "religious", "cultural"],
+    tags: ["historical", "spiritual", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "scenic", "photography"],
+    tags: ["cultural", "romantic", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -70,7 +70,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "cultural", "exclusive"],
+    tags: ["luxury", "cultural", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

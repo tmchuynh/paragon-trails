@@ -12,7 +12,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "religious", "architecture"],
+    tags: ["historical", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -70,7 +70,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "whisky", "exclusive"],
+    tags: ["luxury", "whisky", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
 
