@@ -26,6 +26,21 @@ export const jamaicaTours: Tour[] = [
         answer:
           "The tour includes moderate walking through plantation grounds with some uphill sections on uneven terrain. We spend approximately 1-2 hours walking through the coffee farms, with plenty of rest stops. Comfortable walking shoes are recommended, but the pace is leisurely and suitable for most fitness levels.",
       },
+      {
+        question: "Can I purchase Blue Mountain coffee on-site?",
+        answer:
+          "Yes, you can buy freshly roasted Blue Mountain coffee beans directly from the plantation. We also offer a selection of local artisanal products, including coffee-infused snacks and souvenirs.",
+      },
+      {
+        question: "What should I wear for the plantation tour?",
+        answer:
+          "Dress comfortably for warm weather, with sturdy shoes suitable for walking on uneven terrain. A hat and sunscreen are recommended, as well as a light jacket for cooler mountain temperatures.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. Children will enjoy learning about coffee production and tasting the delicious brews. However, please note that the plantation's terrain may not be stroller-friendly, so younger children may need to be carried.",
+      },
     ],
   },
   {
@@ -52,6 +67,16 @@ export const jamaicaTours: Tour[] = [
         question: "Do I need to know how to swim?",
         answer:
           "Basic swimming ability is recommended for fully enjoying the natural pools, but it's not required for the entire tour. Non-swimmers can still enjoy the beautiful hikes, smaller wading pools, and scenic viewpoints. Our guides are trained in water safety and can provide additional assistance to less confident swimmers.",
+      },
+      {
+        question: "What should I bring for the waterfall tour?",
+        answer:
+          "Please wear comfortable, moisture-wicking clothing suitable for hiking. Bring a swimsuit, towel, water shoes or sandals with straps, sunscreen, and insect repellent. A waterproof bag for your belongings is also recommended.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children of all ages. However, parental supervision is required near deeper pools and waterfalls. We can adjust the itinerary to accommodate younger children or those who prefer less strenuous activities.",
       },
     ],
   },
@@ -80,6 +105,21 @@ export const jamaicaTours: Tour[] = [
         answer:
           "This is a genuine cultural exchange, not a performance. We've developed this tour in partnership with Rastafarian elders to create respectful cultural bridges. You'll visit actual Rastafarian communities and interact with people living the Rastafarian way of life. Questions are welcomed, but visitors are asked to approach with an open mind and respect for the community's customs and beliefs.",
       },
+      {
+        question: "What should I wear for the village visit?",
+        answer:
+          "Dress modestly and respectfully, covering shoulders and knees. Comfortable walking shoes are recommended as we will be touring the village on foot. Avoid wearing clothing with offensive graphics or slogans.",
+      },
+      {
+        question: "Can I take photos during the tour?",
+        answer:
+          "Photography is allowed, but please ask permission before taking pictures of individuals, especially children. Some community members may prefer not to be photographed. We encourage you to focus on the experience and interactions rather than just capturing images.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children. The Rastafarian community welcomes visitors of all ages, and children will enjoy learning about different cultures and traditions. However, parents should supervise their children closely during the visit to ensure respect for the community's customs.",
+      },
     ],
   },
   {
@@ -106,6 +146,16 @@ export const jamaicaTours: Tour[] = [
         question: "Will we meet famous reggae artists?",
         answer:
           "While we can't guarantee specific artist encounters as their schedules vary, our tour often coincides with working musicians in the studio. Our guide has long-standing relationships in the reggae community, and spontaneous meetings with notable artists do occur. Regardless, you'll interact with talented session musicians who have played on countless reggae recordings and can share insider stories about the industry.",
+      },
+      {
+        question: "Can I record my own reggae track?",
+        answer:
+          "Yes, the tour includes a hands-on recording session where you can create your own reggae rhythm with professional musicians. No musical experience is required, and our studio engineers will guide you through the process. You'll leave with a digital copy of your recording as a unique souvenir.",
+      },
+      {
+        question: "What should I wear for the music studio tour?",
+        answer:
+          "Dress comfortably for a creative environment. Casual clothing is fine, but avoid overly noisy accessories like jangly jewelry that might interfere with recording. Closed-toe shoes are recommended for safety in the studio.",
       },
     ],
   },
@@ -134,6 +184,16 @@ export const jamaicaTours: Tour[] = [
         answer:
           "The bioluminescent organisms are visible year-round, but they appear brightest on darker nights with minimal moonlight. The phenomenon is also somewhat weather-dependent. Our tour operator monitors conditions daily and will advise if visibility might be compromised. Swimming in the lagoon is optional but highly recommended for the full experience of seeing the water glow around you.",
       },
+      {
+        question: "What should I bring for the lagoon tour?",
+        answer:
+          "Bring a swimsuit, towel, and a change of clothes. Water shoes are recommended for comfort while walking on the dock. We also suggest bringing a waterproof bag for your belongings. Insect repellent is advisable, as mosquitoes can be present in the area.",
+      },
+      {
+        question: "Is swimming safe in the lagoon?",
+        answer:
+          "Yes, swimming in the lagoon is safe and part of the experience. The water is calm and shallow, with a sandy bottom. Our guides will provide safety instructions before swimming, and life jackets are available if needed.",
+      },
     ],
   },
   {
@@ -160,6 +220,16 @@ export const jamaicaTours: Tour[] = [
         question: "Can you accommodate dietary restrictions?",
         answer:
           "Yes, we can adapt recipes for vegetarian, vegan, gluten-free, and most other dietary needs with advance notice. Jamaican cuisine naturally includes many plant-based dishes influenced by Rastafarian Ital cooking traditions, so there are excellent options for non-meat eaters. Please inform us of any allergies or restrictions when booking so we can prepare appropriate alternatives.",
+      },
+      {
+        question: "What should I wear for the cooking class?",
+        answer:
+          "Wear comfortable clothing suitable for cooking, such as an apron and closed-toe shoes. Long hair should be tied back, and we recommend wearing clothes that can get a little messy. We provide all necessary cooking equipment and ingredients.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and children will enjoy participating in the cooking class. We can adjust recipes to be simpler for younger chefs, and our chef is experienced in working with kids in the kitchen. Parental supervision is required for children under 12.",
       },
     ],
   },

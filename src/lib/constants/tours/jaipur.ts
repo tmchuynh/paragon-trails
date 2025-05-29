@@ -25,6 +25,11 @@ export const jaipurTours: Tour[] = [
         answer:
           "We've discontinued elephant rides in favor of jeep transportation to the fort entrance, supporting more humane animal tourism practices. For those interested in ethical elephant encounters, we can arrange a separate visit to a reputable elephant sanctuary where these magnificent animals are properly cared for.",
       },
+      {
+        question: "What should I wear for the palace tour?",
+        answer:
+          "We recommend comfortable, breathable clothing suitable for warm weather. Please dress modestly when visiting religious sites within the palace complex. A hat and sunscreen are advisable.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const jaipurTours: Tour[] = [
         question: "Can we try some of the crafts ourselves?",
         answer:
           "Yes, this hands-on tour includes opportunities to try block printing on a handkerchief, shaping a small piece of blue pottery, and learning the basics of traditional Rajasthani tie-dye techniques. These participatory experiences are designed for beginners and make wonderful memories along with the items you create.",
+      },
+      {
+        question: "Are the workshops suitable for children?",
+        answer:
+          "Absolutely! The workshops are family-friendly and designed to be engaging for all ages. Children will enjoy the interactive nature of the crafts, and our artisans are experienced in working with young learners.",
       },
     ],
   },

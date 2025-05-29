@@ -25,6 +25,11 @@ export const fortKochiTours: Tour[] = [
         answer:
           "These iconic fishing installations date back to the 14th century and were introduced by Chinese explorer Zheng He. They represent one of the oldest examples of Chinese influence in India and continue to be used by local fishermen today, using the same counterbalance technique that has remained unchanged for centuries.",
       },
+      {
+        question: "Will we visit the Jewish Synagogue?",
+        answer:
+          "Yes, the Paradesi Synagogue in Mattancherry is included in the tour. Built in 1568, it is the oldest active synagogue in the Commonwealth and features stunning hand-painted Chinese tiles and a beautiful gold pulpit. We will also explore the surrounding Jewish Quarter, which is rich in history and culture.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const fortKochiTours: Tour[] = [
           "What will we see on the backwaters that's different from standard tours?",
         answer:
           "Unlike commercial group houseboats that stick to main channels, our smaller vessels access narrow canals where we witness authentic daily life: children walking to school by boat, farmers tending to below-sea-level rice paddies, women washing clothes in the traditional manner, and artisans creating coir products by hand. We'll visit villages that rarely see tourists and share tea with local families.",
+      },
+      {
+        question: "Is food included on the houseboat?",
+        answer:
+          "Yes, a traditional Kerala lunch featuring local specialties will be prepared on board by our crew. We can accommodate dietary restrictions with prior notice. Snacks and refreshments are also provided during the journey.",
       },
     ],
   },

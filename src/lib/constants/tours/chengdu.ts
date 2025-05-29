@@ -26,6 +26,16 @@ export const chengduTours: Tour[] = [
         answer:
           "Early morning (8-10am) is when pandas are most active and feeding. We schedule our tours during this optimal time.",
       },
+      {
+        question: "Can I hold a panda?",
+        answer:
+          "Due to conservation policies, direct contact with pandas is not allowed. However, you can take photos from a safe distance.",
+      },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children of all ages. The pandas are a hit with kids!",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const chengduTours: Tour[] = [
         question: "Can you accommodate people who don't eat spicy food?",
         answer:
           "Absolutely! Sichuan cuisine has many non-spicy options, and our chef can adjust spice levels for sensitive palates.",
+      },
+      {
+        question: "Do I need any cooking experience for this tour?",
+        answer:
+          "No prior cooking experience is necessary. Our chef will guide you through each step, making it accessible for all skill levels.",
+      },
+      {
+        question: "What should I wear for the cooking class?",
+        answer:
+          "Comfortable clothing and closed-toe shoes are recommended. An apron will be provided during the cooking session.",
       },
     ],
   },

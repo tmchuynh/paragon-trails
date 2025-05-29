@@ -25,6 +25,11 @@ export const glasgowTours: Tour[] = [
         answer:
           "The daytime tour includes brief acoustic performances by your guide at select locations. Evening tours typically include a stop at a venue with live music, though specific performances vary by date.",
       },
+      {
+        question: "Are there age restrictions for this tour?",
+        answer:
+          "This tour is designed for adults and older teens. Some venues may have age restrictions, so please check with us if you plan to bring younger guests.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const glasgowTours: Tour[] = [
         question: "What makes Mackintosh's work so significant?",
         answer:
           "Charles Rennie Mackintosh was a pioneering designer whose work bridged Art Nouveau and Modernism. His distinctive style combining elegant simplicity with complex detail influenced architecture and design worldwide. Glasgow contains his most complete and best-preserved works.",
+      },
+      {
+        question: "Can we take photos inside the buildings?",
+        answer:
+          "Photography is allowed in most areas, but some locations may have restrictions to protect artworks or privacy. Your guide will inform you of any limitations during the tour.",
       },
     ],
   },
