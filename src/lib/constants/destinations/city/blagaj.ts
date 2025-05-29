@@ -16,7 +16,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
 
       timeOfDay: "daytime",
       rating: 4.9,
-      tags: ["cultural", "historical", "religious"],
+      tags: ["cultural", "historical", "spiritual"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
 
@@ -38,7 +38,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       entryFeeCategory: "free",
       timeOfDay: "all day",
       rating: 4.8,
-      tags: ["nature", "scenic", "outdoor"],
+      tags: ["romantic", "adventure"],
       accessibilityFeatures: ["wheelchair accessible"],
       isPopular: true,
 
@@ -59,7 +59,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       entryFeeCategory: "free",
       timeOfDay: "all day",
       rating: 4.6,
-      tags: ["historical", "scenic", "photography"],
+      tags: ["historical", "romantic", "art-and-music"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
 
@@ -80,7 +80,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       priceRange: "$$$",
       timeOfDay: "all day",
       rating: 4.9,
-      tags: ["luxury", "exclusive", "retreat"],
+      tags: ["luxury", "local", "wellness"],
       accessibilityFeatures: ["elevator", "assistance available"],
       isPopular: false,
 

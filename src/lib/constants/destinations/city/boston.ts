@@ -35,7 +35,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["park", "outdoor", "recreation"],
+    tags: ["park", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "gourmet", "exclusive"],
+    tags: ["culinary", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

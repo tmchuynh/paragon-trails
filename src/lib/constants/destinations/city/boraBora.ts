@@ -14,7 +14,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["beach", "scenic", "relaxation"],
+    tags: ["romantic", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "hiking", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["snorkeling", "diving", "marine life"],
+    tags: ["adventure", "marine life"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["marine", "adventure", "wildlife"],
+    tags: ["adventure", "wildlife"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

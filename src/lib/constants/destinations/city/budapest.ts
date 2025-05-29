@@ -14,7 +14,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["scenic", "historical", "viewpoint"],
+    tags: ["romantic", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["relaxation", "wellness", "cultural"],
+    tags: ["wellness", "cultural"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible changing rooms",
@@ -79,7 +79,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["luxury", "dining", "exclusive"],
+    tags: ["luxury", "culinary", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

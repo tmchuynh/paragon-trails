@@ -14,7 +14,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     priceRange: "$",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -36,7 +36,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     priceRange: "$",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "museum"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["shopping", "cultural", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -79,7 +79,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     priceRange: "$$",
     timeOfDay: "evening",
     rating: 4.5,
-    tags: ["dining", "entertainment", "scenic"],
+    tags: ["culinary",  "romantic"],
     accessibilityFeatures: ["wheelchair accessible boats available"],
     isPopular: true,
 

@@ -14,7 +14,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", "outdoor"],
+    tags: ["historical", "cultural", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["religious", "cultural", "architecture"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "viewpoint", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility due to stairs"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["historical", "educational", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "scenic", "hiking"],
+    tags: ["spiritual", "romantic", "adventure"],
     accessibilityFeatures: ["limited accessibility due to stairs"],
     isPopular: true,
 
@@ -121,7 +121,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "luxury", "gourmet"],
+    tags: ["culinary", "luxury", "gourmet"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

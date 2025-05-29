@@ -13,7 +13,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "landmark"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "art", "neighborhood"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -54,7 +54,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["outdoor", "recreation", "nature"],
+    tags: ["adventure", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.7,
-    tags: ["cultural", "performance", "historical"],
+    tags: ["cultural",  "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
