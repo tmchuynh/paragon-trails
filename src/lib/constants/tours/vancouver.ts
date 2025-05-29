@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const vancouverTours: Tour[] = [
+export const vancouverTours: Tour[] = [
   {
     title: "Capilano Suspension Bridge & Temperate Rainforest",
     description:

@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const xiAnTours: Tour[] = [
+export const xiAnTours: Tour[] = [
   {
     title: "Terracotta Army & Emperor's Tomb VIP Access",
     description:

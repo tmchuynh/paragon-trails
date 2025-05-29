@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const veniceTours: Tour[] = [
+export const veniceTours: Tour[] = [
   {
     title: "Secret Venice & Exclusive Basilica Access",
     description:

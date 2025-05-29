@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const yokohamaTours: Tour[] = [
+export const yokohamaTours: Tour[] = [
   {
     title: "Yokohama Bay Skyline Night Photography",
     description:

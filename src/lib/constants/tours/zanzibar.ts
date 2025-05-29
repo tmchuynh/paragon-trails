@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const zanzibarTours: Tour[] = [
+export const zanzibarTours: Tour[] = [
   {
     title: "Stone Town & Spice Plantation Journey",
     description:
