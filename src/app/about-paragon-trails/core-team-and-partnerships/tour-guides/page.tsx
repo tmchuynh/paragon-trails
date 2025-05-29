@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Accordion,
   AccordionContent,
@@ -5,7 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { tourGuides } from "@/lib/constants/staff/tourGuides";
+import { formatToSlug } from "@/lib/utils/format";
 import {
   generateRandomString,
   groupAndSortByProperties,
@@ -13,20 +17,33 @@ import {
 import Image from "next/image";
 
 export default function TourGuides() {
-  const sortedTourGuides = groupAndSortByProperties(tourGuides, "city", "name");
+  // Sort tour guides by country and then by name
+  const sortedTourGuides = groupAndSortByProperties(
+    tourGuides,
+    "country",
+    "name"
+  );
 
-  // Group tour guides by region/country for better organization
-  const guidesByRegion = sortedTourGuides.reduce((acc, guide) => {
-    const region = guide.region || guide.city || "Global";
-    if (!acc[region]) {
-      acc[region] = [];
+  // Group tour guides by country for better organization
+  const guidesByCountry = sortedTourGuides.reduce((acc, guide) => {
+    const country = guide.country || "Global";
+    if (!acc[country]) {
+      acc[country] = [];
     }
-    acc[region].push(guide);
+    acc[country].push(guide);
     return acc;
   }, {} as Record<string, typeof tourGuides>);
 
-  // Sort regions alphabetically
-  const sortedRegions = Object.keys(guidesByRegion).sort();
+  // Sort countries alphabetically
+  const sortedCountries = Object.keys(guidesByCountry).sort();
+
+  // Scroll to section function
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -52,20 +69,38 @@ export default function TourGuides() {
           meaningful connections between travelers and destinations.
         </p>
 
+        {/* Table of Contents */}
+        <section className="bg-muted/30 my-8 p-6 rounded-lg">
+          <h2 className="mb-4">Quick Navigation</h2>
+          <div className="flex flex-wrap gap-3">
+            {sortedCountries.map((country) => (
+              <Button
+                key={`toc-${formatToSlug(country)}-${generateRandomString(5)}`}
+                variant="outline"
+                size="sm"
+                onClick={() => scrollToSection(formatToSlug(country))}
+              >
+                {country}
+              </Button>
+            ))}
+          </div>
+        </section>
+
         <Accordion type="single" collapsible>
-          {sortedRegions.map((region, index) => (
+          {sortedCountries.map((country, index) => (
             <AccordionItem
-              value={`${region}-${index}`}
-              key={`${region}-${index}-${generateRandomString(5)}`}
-              className="bg-card mb-16 px-6 border border-border rounded-2xl"
+              id={formatToSlug(country)}
+              value={`${country}-${index}`}
+              key={`${country}-${index}-${generateRandomString(5)}`}
+              className="bg-card scroll-mt-24 mb-16 px-6 border border-border rounded-2xl"
             >
               <AccordionTrigger>
-                <h2 className="mb-0">{region}</h2>
+                <h2 className="mb-0">{country}</h2>
               </AccordionTrigger>
 
               <AccordionContent>
                 <ul className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-7 border-t-2 border-tertiary">
-                  {guidesByRegion[region].map((guide) => (
+                  {guidesByCountry[country].map((guide) => (
                     <li
                       key={`${guide.name}-${generateRandomString(5)}`}
                       className="bg-card border border-border rounded-lg transition-shadow overflow-hidden"
@@ -86,7 +121,9 @@ export default function TourGuides() {
                         <h3 className="mb-1 font-semibold text-xl">
                           {guide.name}
                         </h3>
-                        <p className="mb-3 text-tertiary">{guide.city}</p>
+                        <p className="mb-3 text-tertiary">
+                          {guide.city},<span>{guide.country}</span>
+                        </p>
 
                         {guide.specialties && (
                           <div className="flex flex-wrap gap-2 mb-4">
