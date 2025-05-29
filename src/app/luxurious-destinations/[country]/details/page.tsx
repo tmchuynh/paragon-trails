@@ -13,7 +13,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
 import {
   Tooltip,
   TooltipContent,
@@ -60,19 +59,23 @@ export default function DestinationDetailsPage() {
   // Filter states
   const [filters, setFilters] = useState({
     isFree: false,
-    isPetFriendly: false,
     isWheelchairAccessible: false,
+    isPetFriendly: false,
+    isFamilyFriendly: false,
     isHistorical: false,
     isAdventure: false,
     isRomantic: false,
     isLuxury: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isWellness: false,
+    isArtOrMusic: false,
+    isCultural: false,
+    isOutdoor: false,
+    isIndoor: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     isNightlife: false,
-    isShopping: false,
-    isDining: false,
-    isOutdoor: false,
-    isIndoor: false,
     minRating: 0,
     priceCategory: "all", // "all", "free", "budget", "moderate", "expensive", "luxury"
     timeOfDay: "all", // "all", "morning", "afternoon", "evening", "night", "24hours"
@@ -102,7 +105,6 @@ export default function DestinationDetailsPage() {
     const filtered = attractionData.filter((attraction) => {
       // Check boolean properties
       if (filters.isFree && !attraction.isFree) return false;
-      if (filters.isPetFriendly && !attraction.isPetFriendly) return false;
       if (filters.isWheelchairAccessible && !attraction.isWheelchairAccessible)
         return false;
       if (filters.isHistorical && !attraction.isHistorical) return false;
@@ -114,8 +116,14 @@ export default function DestinationDetailsPage() {
       if (filters.isLocalExperience && !attraction.isLocalExperience)
         return false;
       if (filters.isNightlife && !attraction.isNightlife) return false;
-      if (filters.isShopping && !attraction.isShopping) return false;
-      if (filters.isDining && !attraction.isDining) return false;
+      if (filters.isCulinary && !attraction.isCulinary) return false;
+      if (filters.isSpiritual && !attraction.isSpiritual) return false;
+      if (filters.isWellness && !attraction.isWellness) return false;
+      if (filters.isArtOrMusic && !attraction.isArtOrMusic) return false;
+      if (filters.isCultural && !attraction.isCultural) return false;
+      if (filters.isPetFriendly && !attraction.isPetFriendly) return false;
+      if (filters.isFamilyFriendly && !attraction.isFamilyFriendly)
+        return false;
       if (filters.isOutdoor && !attraction.isOutdoor) return false;
       if (filters.isIndoor && !attraction.isIndoor) return false;
 
@@ -257,19 +265,23 @@ export default function DestinationDetailsPage() {
   const resetFilters = () => {
     setFilters({
       isFree: false,
-      isPetFriendly: false,
       isWheelchairAccessible: false,
+      isPetFriendly: false,
+      isFamilyFriendly: false,
       isHistorical: false,
       isAdventure: false,
       isRomantic: false,
+      isCulinary: false,
+      isSpiritual: false,
+      isWellness: false,
+      isArtOrMusic: false,
+      isOutdoor: false,
+      isIndoor: false,
+      isCultural: false,
       isLuxury: false,
       isOffTheBeatenPath: false,
       isLocalExperience: false,
       isNightlife: false,
-      isShopping: false,
-      isDining: false,
-      isOutdoor: false,
-      isIndoor: false,
       minRating: 0,
       priceCategory: "all",
       timeOfDay: "all",
@@ -355,16 +367,6 @@ export default function DestinationDetailsPage() {
                     <div className="space-y-1">
                       <div className="flex items-center space-x-2">
                         <Checkbox
-                          id="pet"
-                          checked={filters.isPetFriendly}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isPetFriendly", checked)
-                          }
-                        />
-                        <Label htmlFor="pet">Pet-friendly</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
                           id="historical"
                           checked={filters.isHistorical}
                           onCheckedChange={(checked) =>
@@ -403,12 +405,66 @@ export default function DestinationDetailsPage() {
                         />
                         <Label htmlFor="luxury">Luxury</Label>
                       </div>
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="indoor"
+                          checked={filters.isSpiritual}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isSpiritual", checked)
+                          }
+                        />
+                        <Label htmlFor="indoor">Spiritual</Label>
+                      </div>
+
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="offbeat"
+                          checked={filters.isOffTheBeatenPath}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isOffTheBeatenPath", checked)
+                          }
+                        />
+                        <Label htmlFor="offbeat">Off The Beaten Path</Label>
+                      </div>
+
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="local"
+                          checked={filters.isLocalExperience}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isLocalExperience", checked)
+                          }
+                        />
+                        <Label htmlFor="local">Local Experience</Label>
+                      </div>
                     </div>
                   </div>
 
                   <div className="space-y-2">
                     <h3>Features</h3>
                     <div className="space-y-1">
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="pet"
+                          checked={filters.isPetFriendly}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isPetFriendly", checked)
+                          }
+                        />
+                        <Label htmlFor="pet">Pet-friendly</Label>
+                      </div>
+
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="pet"
+                          checked={filters.isFamilyFriendly}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isFamilyFriendly", checked)
+                          }
+                        />
+                        <Label htmlFor="pet">Family Friendly</Label>
+                      </div>
+
                       <div className="flex items-center space-x-2">
                         <Checkbox
                           id="free"
@@ -434,35 +490,27 @@ export default function DestinationDetailsPage() {
                           Wheelchair Accessible
                         </Label>
                       </div>
+
                       <div className="flex items-center space-x-2">
                         <Checkbox
-                          id="offbeat"
-                          checked={filters.isOffTheBeatenPath}
+                          id="wheelchair"
+                          checked={filters.isOutdoor}
                           onCheckedChange={(checked) =>
-                            handleFilterChange("isOffTheBeatenPath", checked)
+                            handleFilterChange("isOutdoor", checked)
                           }
                         />
-                        <Label htmlFor="offbeat">Off The Beaten Path</Label>
+                        <Label htmlFor="wheelchair">Outdoor</Label>
                       </div>
+
                       <div className="flex items-center space-x-2">
                         <Checkbox
-                          id="local"
-                          checked={filters.isLocalExperience}
+                          id="wheelchair"
+                          checked={filters.isIndoor}
                           onCheckedChange={(checked) =>
-                            handleFilterChange("isLocalExperience", checked)
+                            handleFilterChange("isIndoor", checked)
                           }
                         />
-                        <Label htmlFor="local">Local Experience</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="nightlife"
-                          checked={filters.isNightlife}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isNightlife", checked)
-                          }
-                        />
-                        <Label htmlFor="nightlife">Nightlife</Label>
+                        <Label htmlFor="wheelchair">Indoor</Label>
                       </div>
                     </div>
                   </div>
@@ -472,67 +520,85 @@ export default function DestinationDetailsPage() {
                     <div className="space-y-1">
                       <div className="flex items-center space-x-2">
                         <Checkbox
-                          id="shopping"
-                          checked={filters.isShopping}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isShopping", checked)
-                          }
-                        />
-                        <Label htmlFor="shopping">Shopping</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
                           id="dining"
-                          checked={filters.isDining}
+                          checked={filters.isCultural}
                           onCheckedChange={(checked) =>
-                            handleFilterChange("isDining", checked)
+                            handleFilterChange("isCultural", checked)
                           }
                         />
-                        <Label htmlFor="dining">Dining</Label>
+                        <Label htmlFor="dining">Cultural</Label>
                       </div>
                       <div className="flex items-center space-x-2">
                         <Checkbox
                           id="outdoor"
-                          checked={filters.isOutdoor}
+                          checked={filters.isCulinary}
                           onCheckedChange={(checked) =>
-                            handleFilterChange("isOutdoor", checked)
+                            handleFilterChange("isCulinary", checked)
                           }
                         />
-                        <Label htmlFor="outdoor">Outdoor</Label>
+                        <Label htmlFor="outdoor">Culinary</Label>
                       </div>
+
                       <div className="flex items-center space-x-2">
                         <Checkbox
                           id="indoor"
-                          checked={filters.isIndoor}
+                          checked={filters.isNightlife}
                           onCheckedChange={(checked) =>
-                            handleFilterChange("isIndoor", checked)
+                            handleFilterChange("isNightlife", checked)
                           }
                         />
-                        <Label htmlFor="indoor">Indoor</Label>
+                        <Label htmlFor="indoor">Night Life</Label>
+                      </div>
+
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="indoor"
+                          checked={filters.isArtOrMusic}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isArtOrMusic", checked)
+                          }
+                        />
+                        <Label htmlFor="indoor">Art/Music</Label>
+                      </div>
+
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          id="indoor"
+                          checked={filters.isWellness}
+                          onCheckedChange={(checked) =>
+                            handleFilterChange("isWellness", checked)
+                          }
+                        />
+                        <Label htmlFor="indoor">Wellness</Label>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
+                  {/* Rating filter */}
                   <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <Label htmlFor="rating">
-                        <strong>Minimum Rating</strong>
-                      </Label>
-                      <span className="text-sm">{filters.minRating}</span>
-                    </div>
-                    <Slider
-                      id="rating"
-                      min={0}
-                      max={5}
-                      step={0.5}
-                      value={[filters.minRating]}
-                      onValueChange={(value: any[]) =>
-                        handleFilterChange("minRating", value[0])
+                    <Label htmlFor="rating-filter">
+                      <strong>Minimum Rating</strong>
+                    </Label>
+                    <Select
+                      value={filters.minRating.toString()}
+                      onValueChange={(value) =>
+                        handleFilterChange("minRating", Number(value))
                       }
-                      className="w-full"
-                    />
+                    >
+                      <SelectTrigger id="rating-filter">
+                        <SelectValue placeholder="Any rating" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="0">Any rating</SelectItem>
+                        <SelectItem value="1">★ and above</SelectItem>
+                        <SelectItem value="2">★★ and above</SelectItem>
+                        <SelectItem value="3">★★★ and above</SelectItem>
+                        <SelectItem value="4">★★★★ and above</SelectItem>
+                        <SelectItem value="5">★★★★★ only</SelectItem>
+                      </SelectContent>
+                    </Select>
                   </div>
 
                   <div className="space-y-2">
