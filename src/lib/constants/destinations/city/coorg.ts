@@ -14,7 +14,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["natural", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["wildlife", "cultural", "family"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "scenic", "cultural"],
+    tags: ["spiritual", "romantic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["agricultural", "educational", "culinary"],
+    tags: ["agricultural", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

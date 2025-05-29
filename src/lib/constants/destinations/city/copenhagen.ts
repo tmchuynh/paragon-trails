@@ -13,7 +13,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["entertainment", "cultural", "family-friendly"],
+    tags: ["cultural", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "photography"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "historical", "landmark"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["museum", "historical", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 

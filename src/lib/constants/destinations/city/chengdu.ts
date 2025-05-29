@@ -9,7 +9,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.9,
     imageUrl:
       "https://images.unsplash.com/photo-1713165782838-e52a1bc1ccbe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q2hlbmdkdSUyMFJlc2VhcmNoJTIwQmFzZSUyMG9mJTIwR2lhbnQlMjBQYW5kYSUyMEJyZWVkaW5nfGVufDB8fDB8fHww",
-    tags: ["Wildlife", "Conservation", "Nature", "Educational"],
+    tags: [],
     accessibilityFeatures: [
       "Wheelchair Accessible Paths",
       "Tram Service",
@@ -38,7 +38,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.8,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1691960159059-04976913256a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8V3Vob3UlMjBTaHJpbmV8ZW58MHx8MHx8fDA%3D",
-    tags: ["Historical Site", "Temple", "Cultural Heritage", "Gardens"],
+    tags: ["spiritual", "Cultural"],
     accessibilityFeatures: ["Accessible Pathways", "Benches Throughout"],
     openingHours: "8:00 AM - 6:00 PM (Summer), 8:00 AM - 5:30 PM (Winter)",
     entryFee: "¥60 ($9)",
@@ -67,12 +67,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1723983555759-552bc3ad6481?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SmlubGklMjBBbmNpZW50JTIwU3RyZWV0fGVufDB8fDB8fHww",
-    tags: [
-      "Historical Street",
-      "Shopping",
-      "Local Cuisine",
-      "Cultural Experience",
-    ],
+    tags: ["Local", "Cultural"],
     accessibilityFeatures: ["Level Walking Surface", "Multiple Rest Areas"],
     openingHours:
       "10:00 AM - 10:00 PM (weekdays), 10:00 AM - 11:00 PM (weekends)",
@@ -103,7 +98,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW91bnQlMjBRaW5nY2hlbmd8ZW58MHx8MHx8fDA%3D",
-    tags: ["UNESCO World Heritage", "Mountain", "Taoist Temples", "Hiking"],
+    tags: ["spritual", "Hiking"],
     accessibilityFeatures: ["Cable Car to Some Sections", "Guide Services"],
     openingHours: "8:00 AM - 5:00 PM, Daily",
     entryFee: "¥90 ($13) for entrance, additional ¥35 ($5) for cable car",
@@ -126,7 +121,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     location: "23 Qintai Road, Qingyang District, Chengdu",
     rating: 4.7,
     imageUrl: "https://plus.unsplash.com/sichuan-opera-chengdu.jpg",
-    tags: ["Cultural Performance", "Traditional Arts", "Entertainment"],
+    tags: ["Cultural", "art-and-music"],
     accessibilityFeatures: [
       "Wheelchair Accessible Seating",
       "Assistance Available",
@@ -155,7 +150,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.8,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVqaWFuZ3lhbiUyMElycmlnYXRpb24lMjBTeXN0ZW18ZW58MHx8MHx8fDA%3D",
-    tags: ["UNESCO World Heritage", "Engineering Marvel", "Historical Site"],
+    tags: ["Historical"],
     accessibilityFeatures: ["Accessible Paths", "Guided Tours Available"],
     openingHours: "8:00 AM - 6:00 PM, Daily",
     entryFee: "¥90 ($13) for adults, ¥45 ($7) for children",
@@ -178,7 +173,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyME11c2V1bXxlbnwwfHwwfHx8MA==",
-    tags: ["Museum", "Cultural Heritage", "Art"],
+    tags: ["historical", "Cultural", "Art"],
     accessibilityFeatures: ["Wheelchair Accessible", "Audio Guides Available"],
     openingHours: "9:00 AM - 5:00 PM, Closed Mondays",
     entryFee: "Free entry",
@@ -201,7 +196,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.4,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMEVhc3QlMjBSYWlsd2F5JTIwU3RhdGlvbnxlbnwwfHwwfHx8MA==",
-    tags: ["Transportation Hub", "Architecture", "Modern Design"],
+    tags: [],
     accessibilityFeatures: ["Wheelchair Accessible", "Information Desks"],
     openingHours: "Open 24 hours",
     entryFee: "Free entry",
@@ -224,7 +219,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.3,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMEludGVybmF0aW9uYWwlMjBGaW5hbmNlJTIwU3F1YXJlJTIwKElGUyl8ZW58MHx8MHx8fDA%3D",
-    tags: ["Shopping", "Entertainment", "Dining"],
+    tags: ["culinary"],
     accessibilityFeatures: ["Wheelchair Accessible", "Elevators"],
     openingHours: "10:00 AM - 10:00 PM, Daily",
     entryFee: "Free entry",
@@ -247,7 +242,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMFBlb3BsZSUyMFBhcmslMjBQaGFya3xlbnwwfHwwfHx8MA==",
-    tags: ["Urban Park", "Nature", "Cultural Experience"],
+    tags: ["Cultural"],
     accessibilityFeatures: ["Wheelchair Accessible Paths", "Rest Areas"],
     openingHours: "6:00 AM - 10:00 PM, Daily",
     entryFee: "Free entry",
@@ -270,11 +265,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMEppbnNoYSUyMFNpdGUlMjBNdXNldW18ZW58MHx8MHx8fDA%3D",
-    tags: [
-      "Archaeological Museum",
-      "Ancient Civilization",
-      "Cultural Heritage",
-    ],
+    tags: ["historical", "Cultural"],
     accessibilityFeatures: ["Wheelchair Accessible", "Audio Guides Available"],
     openingHours: "9:00 AM - 5:30 PM, Closed Mondays",
     entryFee: "¥80 ($12) for adults, ¥40 ($6) for children",
@@ -297,7 +288,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.4,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMFRpYW5mdSUyMFNxdWFyZXxlbnwwfHwwfHx8MA==",
-    tags: ["Urban Square", "Cultural Landmark", "Shopping"],
+    tags: ["cultural", "culinary", "local"],
     accessibilityFeatures: ["Wheelchair Accessible", "Information Desks"],
     openingHours: "Open 24 hours",
     entryFee: "Free entry",
@@ -320,7 +311,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMFNpY2h1YW4lMjBDdWlzaW5lJTIwTXVzZXVtfGVufDB8fDB8fHww",
-    tags: ["Culinary Museum", "Sichuan Cuisine", "Cultural Experience"],
+    tags: ["culinary", "Cultural"],
     accessibilityFeatures: ["Wheelchair Accessible", "Guided Tours Available"],
     openingHours: "9:00 AM - 5:00 PM, Closed Mondays",
     entryFee: "¥50 ($7.50) for adults, ¥25 ($3.75) for children",
@@ -343,7 +334,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     rating: 4.3,
     imageUrl:
       "https://images.unsplash.com/photo-1722521054202-672a3d9ff0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlbmdkdSUyMFNwb3J0cyUyMENlbnRlcnxlbnwwfHwwfHx8MA==",
-    tags: ["Sports Complex", "Events", "Entertainment"],
+    tags: [],
     accessibilityFeatures: ["Wheelchair Accessible", "Information Desks"],
     openingHours: "9:00 AM - 10:00 PM, Daily",
     entryFee: "Varies by event",

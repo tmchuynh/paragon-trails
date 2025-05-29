@@ -35,7 +35,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1587906257946-8db19fc60c7c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fE15JTIwS2hlJTIwQmVhY2h8ZW58MHx8MHx8fDA%3D",
-    tags: ["Beach", "Water Sports", "Relaxation", "Seafood"],
+    tags: [],
     accessibilityFeatures: ["Beach Walkways", "Some Accessible Facilities"],
     openingHours: "Open 24/7 (lifeguards typically 6:00 AM - 6:00 PM)",
     entryFee: "Free (rentals and activities extra)",
@@ -59,7 +59,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1677861403044-e13284c44cf2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RHJhZ29uJTIwQnJpZGdlfGVufDB8fDB8fHww",
-    tags: ["Landmark", "Bridge", "Night Show", "City Views"],
+    tags: [ "Bridge", "Night Show", "City Views"],
     accessibilityFeatures: ["Wheelchair Accessible Walkways", "Viewing Areas"],
     openingHours: "Open 24/7 (fire show at 9:00 PM on weekends)",
     entryFee: "Free",

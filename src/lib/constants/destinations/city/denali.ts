@@ -13,7 +13,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["natural", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -36,7 +36,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["educational", "cultural", "information"],
+    tags: ["cultural", "information"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -58,7 +58,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["natural", "scenic", "adventure"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -80,7 +80,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["tour", "wildlife", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["accessible buses available"],
     isPopular: true,
 

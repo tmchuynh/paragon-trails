@@ -13,7 +13,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "cultural", "scenic"],
+    tags: ["spiritual", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "historical", "shopping"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["wildlife", "ethical", "nature"],
+    tags: ["ethical", "nature"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

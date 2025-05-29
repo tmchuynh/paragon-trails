@@ -14,7 +14,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "photography"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["natural", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "cultural", "viewpoint"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["culinary", "workshop", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

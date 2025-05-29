@@ -12,7 +12,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -32,7 +32,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "monument", "viewpoint"],
+    tags: ["historical", "monument"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -51,7 +51,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["outdoor", "recreation", "cultural"],
+    tags: ["adventure", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -73,7 +73,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.7,
-    tags: ["performance", "cultural", "entertainment"],
+    tags: [ "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "assistance available"],
     isPopular: true,
 
