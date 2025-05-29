@@ -1,0 +1,220 @@
+import { Tour } from "@/lib/interfaces/services/tours";
+
+export const mauiTours: Tour[] = [
+  {
+    title: "Road to Hana Private Adventure",
+    description:
+      "Journey along Maui's legendary Road to Hana with a private guide who knows hidden waterfalls, secret beaches, and local stories missed by typical tours. Enjoy customized stops, gourmet picnic lunch, and photography at your own pace.",
+    images: [
+      "/images/tours/maui/road-to-hana.jpg",
+      "/images/tours/maui/hana-waterfall.jpg",
+    ],
+    duration: "10 hours",
+    price: "$295",
+    rating: 4.9,
+    tags: ["Scenic Drive", "Waterfalls", "Private Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Kainoa Miller",
+    tourCategoryId: "off-the-beaten-path",
+    faqs: [
+      {
+        question: "Will we have time to swim at any waterfalls?",
+        answer:
+          "Yes! Unlike rushed group tours, our private format allows time for swimming at 2-3 waterfall pools (weather permitting). Our guides know which falls are safest for swimming on any given day based on recent rainfall. We provide towels and dry bags for your convenience, so bring swimwear and water shoes if you'd like to take a dip in these pristine natural pools.",
+      },
+    ],
+  },
+  {
+    title: "Sunrise at Haleakalā & Downhill Bike Adventure",
+    description:
+      "Witness the spectacular sunrise from the summit of Haleakalā volcano at 10,023 feet, then enjoy an exhilarating 27-mile guided bicycle descent through multiple climate zones with breathtaking views of Maui's central valley.",
+    images: [
+      "/images/tours/maui/haleakala-sunrise.jpg",
+      "/images/tours/maui/volcano-biking.jpg",
+    ],
+    duration: "8 hours",
+    price: "$195",
+    rating: 4.8,
+    tags: ["Sunrise", "Cycling", "National Park"],
+    isFamilyFriendly: false,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "David Kalama",
+    tourCategoryId: "adventure",
+    faqs: [
+      {
+        question: "How difficult is the bike ride down the volcano?",
+        answer:
+          "The bike descent is not technically challenging as it's primarily downhill on paved roads with very little pedaling required. Riders should be comfortable on bicycles and capable of controlling their speed. The main challenge is adapting to the switchbacks and maintaining safe distances between riders. We provide high-quality bikes with powerful disk brakes, helmets, gloves, and windbreaker jackets, plus comprehensive safety instruction before beginning the descent.",
+      },
+    ],
+  },
+  {
+    title: "Traditional Hawaiian Cultural Immersion",
+    description:
+      "Connect deeply with Hawaiian culture through hands-on experiences taught by cultural practitioners. Learn traditional lei making, practice hula dancing, try your hand at ancient games, and participate in a traditional Hawaiian earth oven (imu) feast preparation.",
+    images: [
+      "/images/tours/maui/lei-making.jpg",
+      "/images/tours/maui/hawaiian-culture.jpg",
+    ],
+    duration: "6 hours",
+    price: "$175",
+    rating: 4.9,
+    tags: ["Hawaiian Culture", "Traditions", "Hands-on"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Kumu Hula Malina Kealoha",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this authentic Hawaiian culture or a tourist show?",
+        answer:
+          "This experience is designed and led by Native Hawaiian cultural practitioners who share genuine traditions passed down through generations. Unlike commercial luau shows, our program focuses on meaningful cultural education and participation. You'll learn about the spiritual significance behind practices like lei-making and hula, the historical context of Hawaiian traditions, and how these cultural elements remain vital in contemporary Hawaiian life. Our practitioners are respected community members committed to authentic cultural perpetuation.",
+      },
+    ],
+  },
+  {
+    title: "Molokini Crater Snorkel & Marine Life Adventure",
+    description:
+      "Explore the vibrant underwater world of Molokini Crater, a submerged volcanic caldera with crystal-clear visibility. Snorkel alongside tropical fish, sea turtles, and coral formations with marine naturalist guides providing insight into Maui's unique ecosystem.",
+    images: [
+      "/images/tours/maui/molokini-crater.jpg",
+      "/images/tours/maui/turtle-snorkeling.jpg",
+    ],
+    duration: "5 hours",
+    price: "$145",
+    rating: 4.7,
+    tags: ["Snorkeling", "Marine Life", "Boat Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Marine Biologist Emily Whitman",
+    tourCategoryId: "wildlife",
+    faqs: [
+      {
+        question: "Do I need to be a strong swimmer to enjoy this tour?",
+        answer:
+          "While basic swimming ability is recommended, we accommodate all comfort levels with flotation devices, swim noodles, and guided instruction. Our boat has easy water entry platforms and our guides provide assistance in the water. For non-swimmers, we offer 'view boxes' to observe marine life from the boat and glass-bottom viewing areas. The water at Molokini is typically calm and clear, making it an ideal location even for beginners.",
+      },
+    ],
+  },
+  {
+    title: "Farm-to-Table Culinary Tour & Cooking Class",
+    description:
+      "Discover Maui's agricultural bounty and culinary diversity with visits to upcountry farms, a goat cheese dairy, and tropical fruit plantations. Learn to prepare Hawaiian fusion cuisine in a hands-on cooking class featuring just-harvested ingredients.",
+    images: [
+      "/images/tours/maui/upcountry-farm.jpg",
+      "/images/tours/maui/cooking-class.jpg",
+    ],
+    duration: "7 hours",
+    price: "$215",
+    rating: 4.8,
+    tags: ["Culinary", "Farms", "Cooking"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Chef James Simpliciano",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What dishes will we learn to prepare?",
+        answer:
+          "The menu varies seasonally based on farm harvests, but typically includes fresh poke (marinated raw fish), taro or breadfruit preparations, tropical fruit salsas, locally raised meats with Hawaiian seasonings, and lilikoi (passion fruit) desserts. Vegetarian, vegan, and gluten-free options are readily available. You'll learn traditional Hawaiian cooking techniques alongside modern Pacific Rim fusion approaches, with recipe cards provided to recreate these dishes at home.",
+      },
+    ],
+  },
+  {
+    title: "Maui Photography Workshop & Sunset Safari",
+    description:
+      "Perfect your photography skills while capturing Maui's diverse landscapes from cascading waterfalls to dramatic coastlines. Culminates with an unforgettable sunset session at a prime location chosen based on current conditions and light.",
+    images: [
+      "/images/tours/maui/landscape-photography.jpg",
+      "/images/tours/maui/sunset-photography.jpg",
+    ],
+    duration: "6 hours",
+    price: "$185",
+    rating: 4.8,
+    tags: ["Photography", "Landscapes", "Sunset"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Randy Jay Braun",
+    tourCategoryId: "photography",
+    faqs: [
+      {
+        question: "What locations will we photograph?",
+        answer:
+          "We select from over a dozen premier photography locations based on current weather conditions, seasonal factors, and group interests. Typical locations include the bamboo forests of Pipiwai Trail, dramatic lava-rock coastlines at Waianapanapa, colorful eucalyptus trees along the road to Hana, rolling lavender farms in upcountry Maui, and various beach locations optimal for sunset conditions on your specific tour date. Our guides monitor lighting conditions daily to determine the ideal sunset location.",
+      },
+    ],
+  },
+  {
+    title: "Private Outrigger Canoe & Cultural Ocean Experience",
+    description:
+      "Connect with Hawaii's voyaging heritage aboard a traditional outrigger canoe. Learn paddling techniques, navigation principles, and marine cultural knowledge while spotting sea turtles, dolphins, and seasonal whales in their natural habitat.",
+    images: [
+      "/images/tours/maui/outrigger-canoe.jpg",
+      "/images/tours/maui/ocean-paddling.jpg",
+    ],
+    duration: "3 hours",
+    price: "$125",
+    rating: 4.9,
+    tags: ["Cultural", "Paddling", "Ocean"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Kala Willis",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Do we actually get to paddle the canoe?",
+        answer:
+          "Yes! This is a hands-on, participatory experience where everyone becomes part of the paddling team. After basic instruction on paddling technique and important Hawaiian canoe terminology, you'll join your guide in paddling the canoe. The outrigger design provides excellent stability, and no prior paddling experience is necessary. Children as young as 5 can participate with proper-sized paddles provided. The cooperative nature of canoe paddling makes this a wonderful bonding activity for families and groups.",
+      },
+    ],
+  },
+  {
+    title: "Luxury Helicopter Tour: Complete Maui Experience",
+    description:
+      "Witness Maui's breathtaking diversity from the ultimate vantage point with this comprehensive helicopter tour featuring hidden waterfalls, inaccessible valleys, dormant volcano craters, and dramatic coastlines not visible from ground level.",
+    images: [
+      "/images/tours/maui/helicopter-waterfalls.jpg",
+      "/images/tours/maui/aerial-coastline.jpg",
+    ],
+    duration: "90 minutes",
+    price: "$395",
+    rating: 5.0,
+    tags: ["Helicopter", "Aerial", "Sightseeing"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Captain Michael Lee",
+    tourCategoryId: "luxury",
+    faqs: [
+      {
+        question: "Is seating assigned on the helicopter?",
+        answer:
+          "For optimal viewing, we rotate seating positions during the flight, ensuring every passenger gets front-seat views for portions of the journey. Our helicopters feature floor-to-ceiling glass windows specifically designed for sightseeing. For photography enthusiasts, we offer a doors-off option (additional fee) on certain helicopters for unobstructed shooting. Weight and balance requirements sometimes influence seating arrangements for safety purposes.",
+      },
+    ],
+  },
+];
