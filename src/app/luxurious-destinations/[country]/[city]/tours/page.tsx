@@ -21,6 +21,8 @@ export default function TourPage() {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
+  console.log("City:", city);
+
   useEffect(() => {
     async function loadTours() {
       if (city) {

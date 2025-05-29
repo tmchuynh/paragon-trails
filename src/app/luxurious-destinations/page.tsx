@@ -104,19 +104,22 @@ export default function LuxuriousDestinations() {
       </section>
 
       <div className="space-y-4 mb-8">
-        <div className="flex md:flex-row flex-col items-start md:items-center gap-4">
-          <div className="w-full md:w-1/2">
+        <div className="flex md:flex-row flex-col justify-between items-start gap-4">
+          <div className="w-full">
+            <Label>
+              <strong>Search</strong>
+            </Label>
             <Input
               type="text"
-              className="w-full"
+              className="mt-2"
               placeholder="Search by city, country, or region..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
 
-          <div className="flex flex-wrap gap-4">
-            <div className="space-x-2">
+          <div className="flex md:flex-row flex-col gap-4">
+            <div className="space-y-2">
               <Label>
                 <strong>Sort by:</strong>
               </Label>
@@ -131,7 +134,7 @@ export default function LuxuriousDestinations() {
               </Select>
             </div>
 
-            <div className="space-x-2">
+            <div className="space-y-2">
               <Label>
                 <strong>Popular:</strong>
               </Label>
