@@ -74,6 +74,43 @@ export const istanbulTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Istanbul's Hidden Neighborhoods & Street Art",
+    description:
+      "Explore the lesser-known districts of Istanbul with a local guide, discovering vibrant street art, hidden cafes, and unique shops in areas like Balat, Fener, and Kadıköy.",
+    images: [
+      "/images/tours/istanbul/street-art.jpg",
+      "/images/tours/istanbul/balat-cafe.jpg",
+    ],
+    duration: "5 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Street Art", "Local Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Selin Demir",
+    tourCategoryId: "local-experience",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive activities and storytelling about Istanbul's vibrant neighborhoods.",
+      },
+      {
+        question: "What should I wear for the walking tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will be exploring neighborhoods on foot. Dress in layers as the weather can change quickly in Istanbul.",
+      },
+      {
+        question: "Will we see famous street art?",
+        answer:
+          "Yes, you'll see a variety of street art styles from local and international artists, including murals, graffiti, and installations that reflect Istanbul's diverse culture.",
+      },
+    ],
+  },
 ];
 
 export default istanbulTours;

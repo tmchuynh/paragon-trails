@@ -233,6 +233,43 @@ export const jamaicaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Historical Kingston & Bob Marley Museum Tour",
+    description:
+      "Explore the vibrant capital city of Kingston with a local guide, visiting significant historical sites, the National Gallery, and the Bob Marley Museum. Learn about Jamaica's rich cultural heritage and the legacy of reggae music.",
+    images: [
+      "/images/tours/jamaica/kingston-national-gallery.jpg",
+      "/images/tours/jamaica/bob-marley-museum.jpg",
+    ],
+    duration: "5 hours",
+    price: "$99",
+    rating: 4.8,
+    tags: ["History", "Culture", "Reggae"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Nia Thompson",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Will we visit Bob Marley's childhood home?",
+        answer:
+          "Yes, the tour includes a visit to Bob Marley's childhood home in Trench Town, where you can see where he grew up and learn about his early influences. The museum features personal artifacts, photographs, and memorabilia that tell the story of his life and career.",
+      },
+      {
+        question: "What should I wear for the Kingston tour?",
+        answer:
+          "Dress comfortably for a city tour, with sturdy walking shoes. Lightweight clothing is recommended due to the warm climate. A hat and sunscreen are also advisable.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children. The guide will share engaging stories about Jamaica's history and culture that are accessible to all ages.",
+      },
+    ],
+  },
 ];
 
 export default jamaicaTours;

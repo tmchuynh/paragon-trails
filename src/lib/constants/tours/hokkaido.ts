@@ -330,6 +330,43 @@ export const hokkaidoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Hokkaido Snowshoeing & Winter Wildlife Tour",
+    description:
+      "Explore Hokkaido's winter wilderness on snowshoes, tracking wildlife like red foxes, deer, and owls with expert naturalist guides. Visit frozen lakes, ancient forests, and scenic viewpoints while learning about the region's unique ecology.",
+    images: [
+      "/images/tours/hokkaido/snowshoeing.jpg",
+      "/images/tours/hokkaido/winter-wildlife.jpg",
+    ],
+    duration: "4 days",
+    price: "$1,350",
+    rating: 4.8,
+    tags: ["Snowshoeing", "Wildlife", "Winter"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Yuki Nakamura",
+    tourCategoryId: "adventure",
+    faqs: [
+      {
+        question: "Do I need prior snowshoeing experience?",
+        answer:
+          "No prior snowshoeing experience is necessary! Our guides provide comprehensive instruction on using snowshoes and adjusting your technique for different terrain. The trails are designed for all skill levels, from beginners to experienced outdoor enthusiasts. A moderate fitness level is required, as we cover approximately 5-10km (3-6 miles) per day at a relaxed pace with plenty of breaks for wildlife observation and photography.",
+      },
+      {
+        question: "What should I wear for the snowshoeing tour?",
+        answer:
+          "Dress in layers suitable for cold weather, including thermal base layers, insulated jackets, waterproof pants, and warm gloves. Sturdy waterproof boots are essential for comfort while snowshoeing. We recommend wearing a hat and bringing sunglasses to protect against glare from the snow. A small backpack for personal items (water bottle, snacks) is useful during hikes.",
+      },
+      {
+        question: "Are meals included during the tour?",
+        answer:
+          "Yes, all meals are included during the tour. We provide hearty breakfasts, packed lunches for snowshoeing days, and dinners featuring local cuisine. Dietary restrictions can be accommodated with advance notice. The focus is on nutritious meals that provide energy for outdoor activities while enjoying Hokkaido's winter landscapes.",
+      },
+    ],
+  },
 ];
 
 export default hokkaidoTours;

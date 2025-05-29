@@ -75,6 +75,43 @@ export const heraklionTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Heraklion Street Food & Local Markets",
+    description:
+      "Experience the vibrant flavors of Heraklion with a guided street food tour, sampling local delicacies like kalitsounia, dakos, and loukoum at bustling markets and hidden eateries.",
+    images: [
+      "/images/tours/heraklion/street-food.jpg",
+      "/images/tours/heraklion/local-markets.jpg",
+    ],
+    duration: "4 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Food", "Markets", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Elena Stavrou",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of Cretan street foods including savory pastries, fresh salads, grilled meats, and sweet treats. The tour highlights seasonal ingredients and traditional recipes passed down through generations.",
+      },
+      {
+        question: "Are there vegetarian or vegan options available?",
+        answer:
+          "Yes, the tour can accommodate dietary preferences. Please inform us in advance so we can ensure suitable options are included.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! The guide engages children with fun stories about local food culture and allows them to try different flavors in a family-friendly environment.",
+      },
+    ],
+  },
 ];
 
 export default heraklionTours;

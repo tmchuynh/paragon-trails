@@ -225,6 +225,38 @@ export const juneauTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Juneau's Hidden Waterfalls & Rainforest Hike",
+    description:
+      "Discover Juneau's lush temperate rainforest and hidden waterfalls on this guided hiking adventure. Traverse scenic trails through towering trees, moss-covered rocks, and vibrant wildflowers while learning about the unique ecosystem that thrives in this coastal wilderness.",
+    images: [
+      "/images/tours/juneau/rainforest-waterfall.jpg",
+      "/images/tours/juneau/hiking-trail.jpg",
+    ],
+    duration: "5 hours",
+    price: "$110",
+    rating: 4.8,
+    tags: ["Hiking", "Rainforest", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Emily Carter, Naturalist Guide",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What should I wear for the rainforest hike?",
+        answer:
+          "Dress in layers suitable for variable weather conditions. Waterproof hiking boots with good traction are essential, along with moisture-wicking base layers, an insulating mid-layer, and a waterproof outer layer. We recommend bringing a hat, gloves, and sunglasses to protect against rain and sun glare. Trekking poles can also be helpful on uneven terrain.",
+      },
+      {
+        question: "How difficult is the hike?",
+        answer:
+          "This hike is moderate in difficulty, covering approximately 5 miles round-trip with some elevation gain. The trails can be muddy and uneven, so good physical fitness is recommended. However, we take breaks to enjoy the scenery and learn about the unique rainforest ecosystem, making it accessible for most hikers with a reasonable level of fitness.",
+      },
+    ],
+  },
 ];
 
 export default juneauTours;

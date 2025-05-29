@@ -75,6 +75,80 @@ export const hoiAnTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Hoi An Street Food & Market Tour",
+    description:
+      "Discover the vibrant flavors of Hoi An with a guided street food tour, sampling local specialties like cao lau, banh mi, and fresh seafood at bustling markets and hidden eateries.",
+    images: [
+      "/images/tours/hoi-an/street-food.jpg",
+      "/images/tours/hoi-an/local-markets.jpg",
+    ],
+    duration: "4 hours",
+    price: "$45",
+    rating: 4.7,
+    tags: ["Food", "Markets", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Tran Thi Lan",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of Hoi An's famous street foods including savory noodles, grilled meats, fresh seafood, and delicious desserts. The tour highlights seasonal ingredients and traditional recipes.",
+      },
+      {
+        question: "Are there vegetarian or vegan options available?",
+        answer:
+          "Yes, the tour can accommodate dietary preferences. Please inform us in advance so we can ensure suitable options are included.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! The guide engages children with fun stories about local food culture and allows them to try different flavors in a family-friendly environment.",
+      },
+    ],
+  },
+  {
+    title: "Sunset River Cruise & Traditional Music",
+    description:
+      "Experience the magic of Hoi An's riverside at sunset with a relaxing boat cruise, accompanied by live traditional Vietnamese music and local snacks.",
+    images: [
+      "/images/tours/hoi-an/sunset-cruise.jpg",
+      "/images/tours/hoi-an/traditional-music.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.8,
+    tags: ["Romantic", "Cultural", "Scenic"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Le Quang Minh",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What should I bring on the cruise?",
+        answer:
+          "We recommend bringing a light jacket for cooler evening breezes, a camera for photos, and any personal items you may need. The boat provides comfortable seating and refreshments.",
+      },
+      {
+        question: "Is the music performed by local artists?",
+        answer:
+          "Yes, the music is performed by talented local musicians who share their cultural heritage through traditional instruments and songs.",
+      },
+      {
+        question: "Can we book a private cruise for special occasions?",
+        answer:
+          "Yes, private cruises can be arranged for special events such as anniversaries or birthdays. Please contact us for more details.",
+      },
+    ],
+  },
 ];
 
 export default hoiAnTours;

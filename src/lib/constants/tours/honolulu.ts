@@ -422,6 +422,38 @@ export const honoluluTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Oahu Sunset Cruise & Stargazing",
+    description:
+      "End your day with a magical sunset cruise along Oahu's coastline, complete with live Hawaiian music, complimentary drinks, and stargazing under the clear island skies. Experience the beauty of the Pacific Ocean as the sun sets over the horizon.",
+    images: [
+      "/images/tours/honolulu/sunset-cruise.jpg",
+      "/images/tours/honolulu/stargazing.jpg",
+    ],
+    duration: "3 hours",
+    price: "$85",
+    rating: 4.9,
+    tags: ["Sunset", "Cruise", "Stargazing"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Captain Lani Kealoha",
+    tourCategoryId: "adventure",
+    faqs: [
+      {
+        question: "What type of boat is used for the cruise?",
+        answer:
+          "We use a comfortable 50-foot catamaran designed for smooth sailing and excellent views. It features shaded seating areas, restrooms, and a spacious deck for unobstructed sunset and stargazing views. The boat is equipped with safety gear and meets all US Coast Guard regulations.",
+      },
+      {
+        question: "Is food available on the cruise?",
+        answer:
+          "While the cruise does not include a full meal, we offer complimentary light snacks such as tropical fruit platters, chips, and local treats. A selection of beverages is provided, including soft drinks, juices, and a variety of alcoholic options (beer, wine, and tropical cocktails). Guests are welcome to bring their own snacks or picnic items if desired.",
+      },
+    ],
+  },
 ];
 
 export default honoluluTours;

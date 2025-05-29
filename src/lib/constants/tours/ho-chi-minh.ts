@@ -74,6 +74,80 @@ export const hoChiMinhTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Mekong Delta Day Trip",
+    description:
+      "Experience the lush landscapes and traditional lifestyles of the Mekong Delta with a full-day tour that includes boat rides, local markets, and visits to family-run farms and workshops.",
+    images: [
+      "/images/tours/ho-chi-minh/mekong-delta.jpg",
+      "/images/tours/ho-chi-minh/boat-ride.jpg",
+    ],
+    duration: "8 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Nature", "Culture", "Adventure"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Mr. Le Van Phuc",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What should I wear for the Mekong Delta tour?",
+        answer:
+          "Wear comfortable, lightweight clothing suitable for warm weather. Closed-toe shoes are recommended for walking on uneven surfaces. A hat and sunscreen are advisable, as well as insect repellent.",
+      },
+      {
+        question: "Is the boat ride safe?",
+        answer:
+          "Yes, all boats used in the tour are equipped with life jackets and are operated by experienced local captains. Safety is our top priority, and we ensure that all safety regulations are followed.",
+      },
+      {
+        question: "Can we customize the tour itinerary?",
+        answer:
+          "While the main highlights are fixed, we can accommodate some customization based on your interests. Please discuss any specific requests with your guide at the start of the tour.",
+      },
+    ],
+  },
+  {
+    title: "Saigon River Sunset Cruise",
+    description:
+      "Relax on a scenic evening cruise along the Saigon River, enjoying stunning sunset views, traditional Vietnamese music, and a selection of local snacks and drinks.",
+    images: [
+      "/images/tours/ho-chi-minh/sunset-cruise.jpg",
+      "/images/tours/ho-chi-minh/river-view.jpg",
+    ],
+    duration: "2 hours",
+    price: "$40",
+    rating: 4.6,
+    tags: ["Romantic", "Scenic", "Relaxation"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Ms. Tran Thi Lan",
+    tourCategoryId: "romantic",
+    faqs: [
+      {
+        question: "Is dinner included in the cruise?",
+        answer:
+          "The cruise includes light snacks and drinks, but a full dinner is not provided. However, you can order additional food from the onboard menu at an extra cost.",
+      },
+      {
+        question: "What time does the sunset cruise start?",
+        answer:
+          "The cruise typically departs around 5:30 PM to catch the sunset, but exact times may vary based on the season. Please check with your guide for the specific schedule on your tour date.",
+      },
+      {
+        question: "Can we book a private cruise for special occasions?",
+        answer:
+          "Yes, private cruises can be arranged for special occasions such as anniversaries or birthdays. Please contact us in advance to discuss options and pricing.",
+      },
+    ],
+  },
 ];
 
 export default hoChiMinhTours;
