@@ -25,6 +25,11 @@ export const newYorkTours: Tour[] = [
         answer:
           "The tour involves moderate walking (about 2 miles total) and climbing several flights of stairs. While we maintain a comfortable pace with breaks, participants should be able to handle standing for periods of time and navigating urban terrain including some narrow passages.",
       },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "This tour is suitable for ages 12 and up. Children under 18 must be accompanied by an adult. Due to the nature of the underground spaces, we do not recommend this tour for very young children or those with mobility issues.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const newYorkTours: Tour[] = [
         answer:
           "Yes, we'll stop at 4-5 local eateries for samples of Brooklyn's best cuisine.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! This tour is family-friendly and includes activities that children will enjoy, such as street art exploration and local snacks.",
+      },
     ],
   },
   {
@@ -77,6 +87,11 @@ export const newYorkTours: Tour[] = [
       {
         question: "Is this tour suitable for children?",
         answer: "Yes, this tour is designed to be engaging for all ages.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "We recommend comfortable walking shoes and weather-appropriate clothing, as we will be outdoors for the duration of the tour.",
       },
     ],
   },
@@ -104,6 +119,11 @@ export const newYorkTours: Tour[] = [
         question: "Can we request specific flight paths over landmarks?",
         answer:
           "Yes, while flight paths must adhere to FAA regulations, we can customize the route to focus on landmarks of particular interest to your group. Please note that weather conditions may occasionally require route adjustments for safety.",
+      },
+      {
+        question: "What is the maximum group size for the helicopter tour?",
+        answer:
+          "Our helicopter can accommodate up to 6 passengers per flight, ensuring an intimate experience with unobstructed views. Larger groups can be accommodated by scheduling multiple flights.",
       },
     ],
   },

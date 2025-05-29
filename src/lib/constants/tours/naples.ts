@@ -25,6 +25,16 @@ export const naplesTours: Tour[] = [
         answer:
           "No experience needed! This class is designed for all skill levels. Our master pizzaiolo will guide you through each step, ensuring you create an authentic Neapolitan pizza regardless of your cooking background.",
       },
+      {
+        question: "What should I wear for the class?",
+        answer:
+          "Wear comfortable clothing that you don't mind getting a bit messy. Closed-toe shoes are recommended for safety in the kitchen. An apron will be provided.",
+      },
+      {
+        question: "Can I take home my pizza?",
+        answer:
+          "Absolutely! You'll make your own pizza to enjoy at the end of the class, and we can provide a box for you to take it home if you can't finish it on-site.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const naplesTours: Tour[] = [
         question: "How difficult is the hike up Mount Vesuvius?",
         answer:
           "The hiking portion is moderately challenging, covering around 1.5 miles round-trip with an elevation gain of about 500 feet. The path is well-maintained but steep in sections, taking about 30 minutes each way for most visitors.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Wear comfortable walking shoes suitable for uneven terrain, and dress in layers as temperatures can vary significantly between Pompeii and the volcano. A hat and sunscreen are also recommended.",
+      },
+      {
+        question: "Is lunch included in the tour?",
+        answer:
+          "Lunch is not included, but we can recommend local restaurants in Pompeii where you can enjoy authentic Neapolitan cuisine before or after the tour.",
       },
     ],
   },

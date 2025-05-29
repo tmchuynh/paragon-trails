@@ -26,6 +26,11 @@ export const mostarTours: Tour[] = [
         answer:
           "Yes, we coordinate with the local diving club to ensure you witness this spectacular tradition. During summer months (May-September), divers perform regularly for visitors. In cooler months, dives are less frequent but still arranged for our tours when water conditions permit. The tradition dates back over 450 years, with young men proving their courage by making the dangerous 24-meter jump into the shallow Neretva River.",
       },
+      {
+        question: "Is the bridge safe to walk on?",
+        answer:
+          "Absolutely! The Stari Most has been fully restored to its original 16th-century design and is structurally sound. It is a UNESCO World Heritage site and a symbol of peace and reconciliation. The bridge is open to pedestrians year-round, and our guides will share its rich history and significance during your visit.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const mostarTours: Tour[] = [
         question: "Is this tour politically biased?",
         answer:
           "Our guides present multiple perspectives on the conflict, representing the complexity of Bosnia's history without promoting any single ethnic or political narrative. The tour focuses on human stories, architectural impacts, and the path to reconciliation rather than assigning blame. Our guides have personal experiences from the war period but are committed to presenting balanced information that helps visitors understand this difficult chapter in Bosnia's history.",
+      },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "While the tour is educational, it does cover sensitive topics related to war and conflict. We recommend it for teenagers and adults who can engage with these themes maturely. For younger children, we suggest our family-friendly cultural tours that focus on Mostar's history and traditions without delving into the war period.",
       },
     ],
   },
@@ -80,6 +90,11 @@ export const mostarTours: Tour[] = [
         answer:
           "You'll create a small decorative copper plate (approximately 5 inches in diameter) using traditional tools and techniques. After learning basic hammering and embossing methods, you'll engrave a design of your choice with the craftsman's guidance—typically geometric patterns, floral motifs, or Mostar Bridge imagery. The finished piece is yours to keep as a unique souvenir. No prior artistic experience is necessary to create a beautiful piece.",
       },
+      {
+        question: "Is the workshop suitable for children?",
+        answer:
+          "Yes, this workshop is family-friendly and suitable for children aged 8 and up. Younger children can participate with adult supervision. The craftsman tailors the experience to each participant's skill level, ensuring everyone can create something special. It's a fun and educational activity that introduces kids to traditional craftsmanship in an engaging way.",
+      },
     ],
   },
   {
@@ -106,6 +121,11 @@ export const mostarTours: Tour[] = [
         question: "Do I need previous rafting experience?",
         answer:
           "No prior experience is necessary. This Class II-III rafting trip is suitable for beginners with a reasonable level of fitness. Our professional guides provide comprehensive safety instructions and paddling techniques before departure. The Neretva River offers a perfect mix of exciting rapids and calm sections, making it ideal for first-time rafters. All safety equipment including helmets, life jackets, and wetsuits is provided.",
+      },
+      {
+        question: "What should I bring for the rafting trip?",
+        answer:
+          "Wear a swimsuit or quick-drying athletic wear, and bring a towel and change of clothes for after the trip. We provide all necessary safety gear including wetsuits, helmets, and life jackets. Waterproof bags are available for personal items like phones or cameras. Sunscreen and water shoes are also recommended. Our guides will ensure you have everything you need for a safe and enjoyable adventure.",
       },
     ],
   },
@@ -134,6 +154,11 @@ export const mostarTours: Tour[] = [
         answer:
           "Herzegovina's unique Mediterranean-continental climate produces distinctive wines, particularly from the indigenous Žilavka (white) and Blatina (red) grape varieties that you rarely find outside the region. You'll taste these alongside international varieties grown locally like Chardonnay and Merlot. The region's winemaking tradition dates back to Roman times but is only now gaining international recognition. Most vineyards are small, family operations producing limited quantities with traditional methods.",
       },
+      {
+        question: "Is the village lunch suitable for vegetarians?",
+        answer:
+          "Yes, the lunch features a variety of traditional Herzegovinian dishes, many of which are vegetarian-friendly. Options typically include fresh salads, grilled vegetables, homemade bread, and local cheeses. If you have specific dietary restrictions or preferences, please inform us in advance so we can accommodate your needs.",
+      },
     ],
   },
   {
@@ -161,6 +186,11 @@ export const mostarTours: Tour[] = [
         answer:
           "The tour begins approximately 45 minutes before sunrise, which varies seasonally (around 5:00 AM in summer and 7:00 AM in winter). This early start is essential for capturing the magical quality of light and experiencing the Old Town without crowds. The effort of the early wake-up is rewarded with serene scenes and perfect photographic conditions that are impossible to achieve later in the day.",
       },
+      {
+        question: "Do I need professional photography equipment?",
+        answer:
+          "While a DSLR or mirrorless camera is recommended for the best results, you can also use a high-quality smartphone with manual controls. Our guide provides tips on composition, lighting, and camera settings suitable for all skill levels. Whether you're a beginner or an experienced photographer, you'll leave with stunning images and improved techniques.",
+      },
     ],
   },
   {
@@ -187,6 +217,11 @@ export const mostarTours: Tour[] = [
         question: "When is the best time to visit Kravice Waterfalls?",
         answer:
           "The waterfalls are most impressive in late spring (May-June) when snowmelt increases water volume, creating powerful cascades. Summer (July-August) offers ideal swimming conditions with warmer water temperatures, though this is also the most popular time. Early fall (September) provides a wonderful balance with comfortable temperatures, reduced crowds, and still-flowing falls. Winter visits offer a uniquely beautiful frozen landscape, though swimming is not possible.",
+      },
+      {
+        question: "What should I bring for the Kravice trip?",
+        answer:
+          "Wear comfortable clothing and sturdy shoes suitable for walking on uneven terrain. Bring a swimsuit and towel if you plan to swim, as well as sunscreen, a hat, and water shoes for rocky areas. We provide picnic lunches, but feel free to bring snacks or drinks. A camera is essential to capture the stunning scenery!",
       },
     ],
   },

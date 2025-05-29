@@ -26,6 +26,11 @@ export const mumbaiTours: Tour[] = [
         answer:
           "This tour was designed with and for the Dharavi community. 80% of tour proceeds go directly to local NGOs supporting education and healthcare initiatives within Dharavi. Our guides are residents who share their own community with pride and dignity, focusing on resilience, entrepreneurship, and creativity rather than poverty. Photography is limited to specific areas with clear guidelines to ensure respect for residents.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children of all ages. The guides are experienced in engaging younger audiences with age-appropriate explanations and activities. However, we recommend parental discretion for very young children due to the crowded and bustling environment.",
+      },
     ],
   },
   {
@@ -53,6 +58,11 @@ export const mumbaiTours: Tour[] = [
         answer:
           "While we cannot guarantee celebrity sightings as shooting schedules vary daily, our tours frequently coincide with ongoing productions where actors may be present. Our studio access includes live sets, costume departments, and post-production facilities. The dance workshop is led by professional choreographers who have worked with leading Bollywood stars and will teach you moves from famous film sequences.",
       },
+      {
+        question: "What should I wear for the dance workshop?",
+        answer:
+          "Comfortable clothing suitable for movement is recommended. We suggest wearing breathable fabrics and closed-toe shoes with good grip. The studio provides changing facilities if needed.",
+      },
     ],
   },
   {
@@ -79,6 +89,11 @@ export const mumbaiTours: Tour[] = [
         question: "Is the street food safe to eat?",
         answer:
           "We carefully select vendors based on their hygiene practices and local reputation. Our guides are experts at identifying the most reputable stalls that locals frequent. All food is freshly prepared in front of you. We provide hand sanitizer throughout the tour and bottled water. The tour can accommodate vegetarian and most dietary restrictions, though those with severe allergies should notify us in advance.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of Mumbai's most iconic street foods, including vada pav, pav bhaji, bhel puri, pani puri, and more. We also include a sweet treat like kulfi or jalebi. The tour is designed to give you a comprehensive taste of the city's culinary diversity.",
       },
     ],
   },
@@ -134,6 +149,11 @@ export const mumbaiTours: Tour[] = [
         answer:
           "This tour involves approximately 3-4 kilometers of walking at a leisurely pace with frequent stops. The terrain is flat and mostly on sidewalks, though some areas have uneven surfaces. We recommend comfortable walking shoes, sun protection, and water. The walk can be adapted for different mobility levels with advance notice.",
       },
+      {
+        question: "Will we enter any buildings?",
+        answer:
+          "Yes, the tour includes visits to several historic buildings such as the Chhatrapati Shivaji Maharaj Terminus (CST), Bombay High Court, and the Asiatic Society Library. We also explore hidden courtyards and gardens that are not typically accessible to the public. Some buildings may have limited access due to ongoing restoration work, but our guide will provide detailed historical context for all sites.",
+      },
     ],
   },
   {
@@ -160,6 +180,11 @@ export const mumbaiTours: Tour[] = [
         question: "Is there a dress code for the rooftop bars?",
         answer:
           "Yes, the exclusive rooftop venues we visit have a smart-casual dress code. We recommend collared shirts for men (no shorts or flip-flops) and elegant casual wear for women. Our pre-tour information includes specific dress requirements for each venue on your itinerary, which typically includes some of Mumbai's most sophisticated establishments with strict door policies.",
+      },
+      {
+        question: "What if it rains?",
+        answer:
+          "Mumbai's monsoon season (June-September) can bring unexpected showers. Our tour is designed to be flexible, with alternative indoor venues available in case of rain. The rooftop bars we visit have covered areas to ensure you can still enjoy the views and ambiance even in light rain.",
       },
     ],
   },
@@ -188,6 +213,11 @@ export const mumbaiTours: Tour[] = [
         answer:
           "The journey begins with a one-hour ferry ride from the Gateway of India across Mumbai Harbor. For the standard tour, we take the public ferry, but we can arrange a private boat for an additional fee. Upon reaching Elephanta Island, there's a climb of approximately 120 steps to reach the cave entrance, though a small toy train can cover the initial portion of the path for those who prefer not to walk.",
       },
+      {
+        question: "What should we wear for the cave visit?",
+        answer:
+          "Comfortable walking shoes are essential for exploring the caves, as the paths can be uneven and rocky. We recommend lightweight, breathable clothing suitable for warm weather, as the caves can be humid. A hat and sunscreen are also advisable, especially if you plan to explore the island before or after the cave visit.",
+      },
     ],
   },
   {
@@ -214,6 +244,11 @@ export const mumbaiTours: Tour[] = [
         question: "Is this tour available year-round?",
         answer:
           "Yes, though the experience varies seasonally. The monsoon season (June-September) transforms the gardens into lush green oases with flowing waterways and blooming tropical plants. The winter months (November-February) offer pleasant temperatures and clear skies ideal for outdoor exploration. Our guide adapts the tour to showcase the best seasonal highlights, from flowering seasons to fruit harvests in the urban farms.",
+      },
+      {
+        question: "What should we wear for the garden tour?",
+        answer:
+          "Comfortable walking shoes are essential, as we will be exploring various gardens and parks. Lightweight, breathable clothing is recommended, especially during warmer months. A hat and sunscreen are advisable, and we suggest bringing a reusable water bottle to stay hydrated.",
       },
     ],
   },

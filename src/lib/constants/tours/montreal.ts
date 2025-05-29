@@ -25,6 +25,11 @@ export const montrealTours: Tour[] = [
         answer:
           "Yes, the entire underground network is wheelchair-accessible with elevators and ramps throughout. The pace is leisurely and there are many opportunities to rest along the route.",
       },
+      {
+        question: "What should I wear for the underground tour?",
+        answer:
+          "Dress in layers as temperatures can vary underground. Comfortable walking shoes are recommended, and a light jacket or sweater is advisable as some areas can be cooler.",
+      },
     ],
   },
   {
@@ -51,6 +56,16 @@ export const montrealTours: Tour[] = [
         question: "What foods will we try?",
         answer:
           "The tour includes 6-7 tastings, typically featuring Montreal's famous bagels, artisanal poutine, Quebecois pastries, craft beer samples, local cheeses, and seasonal specialties. We can accommodate most dietary restrictions with advance notice.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour covers approximately 3 km (1.9 miles) at a leisurely pace with plenty of stops. We take breaks to enjoy tastings and explore murals, so it's suitable for all fitness levels.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and children will enjoy the interactive street art and delicious food tastings. We can also provide kid-friendly food options upon request.",
       },
     ],
   },

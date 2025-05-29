@@ -25,6 +25,11 @@ export const osakaTours: Tour[] = [
         answer:
           "Yes, with advance notice we can accommodate vegetarian, halal, and most dietary restrictions. Osaka cuisine does offer many options, though some traditional dishes may be modified.",
       },
+      {
+        question: "Will we be trying raw seafood?",
+        answer:
+          "The tour focuses on cooked street food specialties, but if you're interested in raw seafood, we can recommend nearby sushi restaurants for after the tour.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const osakaTours: Tour[] = [
         question: "Will we get to handle real samurai swords?",
         answer:
           "The tour includes a demonstration with authentic historical swords, but handling is limited to specially made practice swords during the optional participation portion for safety and preservation of historical artifacts.",
+      },
+      {
+        question: "Is the castle accessible for those with mobility issues?",
+        answer:
+          "Yes, the main castle grounds and museum are wheelchair accessible, though some areas may have steep steps. We can provide assistance and alternative viewing options if needed.",
       },
     ],
   },

@@ -26,6 +26,16 @@ export const newOrleansTours: Tour[] = [
         answer:
           "Yes, the tour includes brief stops at 2-3 venues where you'll hear snippets of live performances, culminating with an optional longer stay at Preservation Hall.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly. We provide engaging stories and activities to keep children entertained while learning about the history of jazz.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Wear comfortable walking shoes and weather-appropriate clothing. The French Quarter can be hot and humid, so light fabrics are recommended.",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const newOrleansTours: Tour[] = [
         question: "How scary is this tour?",
         answer:
           "The tour focuses on historical storytelling rather than jump scares. However, some stories are macabre and not suitable for young children or those sensitive to such content.",
+      },
+      {
+        question: "What should I bring?",
+        answer:
+          "Bring a flashlight or smartphone for better visibility in darker areas, and wear comfortable shoes as we will be walking on uneven surfaces.",
+      },
+      {
+        question: "Is the tour wheelchair accessible?",
+        answer:
+          "Unfortunately, the tour includes some uneven terrain and steps, making it difficult for wheelchair users. We can recommend alternative accessible tours in the area.",
       },
     ],
   },

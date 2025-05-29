@@ -26,6 +26,26 @@ export const nhaTrangTours: Tour[] = [
         answer:
           "Basic swimming skills are recommended, but life jackets are provided for all guests during snorkeling activities.",
       },
+      {
+        question: "What should I bring for the island hopping tour?",
+        answer:
+          "Please bring swimwear, sunscreen, a hat, a towel, and any personal items you may need. Snorkeling gear is provided.",
+      },
+      {
+        question: "Are meals included in the tour price?",
+        answer:
+          "Yes, a seafood lunch is included during the tour. Please inform us of any dietary restrictions in advance.",
+      },
+      {
+        question: "Is there an age limit for this tour?",
+        answer:
+          "This tour is suitable for all ages. Children must be accompanied by an adult.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
+      },
     ],
   },
   {
@@ -52,6 +72,120 @@ export const nhaTrangTours: Tour[] = [
         question: "What should I bring for the mud bath experience?",
         answer:
           "Just bring your swimwear and a towel. Lockers, showers, and all necessary facilities are provided at the spa.",
+      },
+      {
+        question: "Is the mud bath suitable for children?",
+        answer:
+          "Yes, the mud baths are family-friendly and safe for children. However, parental supervision is required.",
+      },
+      {
+        question: "Are there any health restrictions for the hot springs?",
+        answer:
+          "Guests with certain medical conditions (e.g., heart issues, skin conditions) should consult their doctor before using the hot springs. Please inform your tour guide of any concerns.",
+      },
+      {
+        question: "Can I book spa treatments in advance?",
+        answer:
+          "Yes, you can pre-book additional spa treatments like massages or facials when you book the tour. Please let us know your preferences.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
+      },
+    ],
+  },
+  {
+    title: "Nha Trang City Highlights Tour",
+    description:
+      "Explore the best of Nha Trang with visits to the Po Nagar Cham Towers, Long Son Pagoda, and the vibrant local markets.",
+    images: [
+      "/images/tours/nha-trang/po-nagar.jpg",
+      "/images/tours/nha-trang/long-son-pagoda.jpg",
+    ],
+    duration: "Half day",
+    price: "$30",
+    rating: 4.6,
+    tags: ["Culture", "History", "Sightseeing"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Hoang Duy",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Are entrance fees included in the tour price?",
+        answer:
+          "Yes, all entrance fees to attractions are included in the tour price.",
+      },
+      {
+        question: "What should I wear for the city tour?",
+        answer:
+          "Comfortable clothing and walking shoes are recommended. Please dress modestly when visiting religious sites.",
+      },
+      {
+        question: "Is transportation provided during the tour?",
+        answer:
+          "Yes, transportation is included. We provide air-conditioned vehicles for your comfort.",
+      },
+      {
+        question: "Can I customize the itinerary?",
+        answer:
+          "Yes, we can tailor the tour to your interests. Please let us know in advance if you have specific requests.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
+      },
+    ],
+  },
+  {
+    title: "Nha Trang Night Market & Street Food Tour",
+    description:
+      "Experience the vibrant atmosphere of Nha Trang's night market with a guided food tour, sampling local delicacies and street food favorites.",
+    images: [
+      "/images/tours/nha-trang/night-market.jpg",
+      "/images/tours/nha-trang/street-food.jpg",
+    ],
+    duration: "3 hours",
+    price: "$25",
+    rating: 4.9,
+    tags: ["Food", "Nightlife", "Culture"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Nguyen Thi Mai",
+    tourCategoryId: "food",
+    faqs: [
+      {
+        question: "Is the food tour suitable for vegetarians?",
+        answer:
+          "Yes, we can accommodate vegetarian preferences. Please inform us of any dietary restrictions when booking.",
+      },
+      {
+        question: "What should I bring for the night market tour?",
+        answer:
+          "Just bring your appetite! Comfortable shoes are recommended as we will be walking through the market.",
+      },
+      {
+        question: "Are drinks included in the tour price?",
+        answer:
+          "Beverages are not included, but we will recommend local drinks to try at your own expense.",
+      },
+      {
+        question: "Can I take photos during the food tour?",
+        answer:
+          "Absolutely! We encourage you to capture the vibrant sights and delicious dishes throughout the tour.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
       },
     ],
   },
