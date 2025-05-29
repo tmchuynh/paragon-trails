@@ -1,6 +1,8 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { vehicleSelectionGuide } from "@/lib/constants/services/transportation/vehicles";
+import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
 
 export default function RentAVehicle() {
@@ -256,10 +258,12 @@ export default function RentAVehicle() {
                     className="mr-2"
                   />
                   <label htmlFor={`feature-${i}`} className="text-sm">
-                    {feature
-                      .replace(/([A-Z])/g, " $1")
-                      .replace(/([0-9]WD)/g, " $1")
-                      .trim()}
+                    {capitalize(
+                      feature
+                        .replace(/([A-Z])/g, " $1")
+                        .replace(/([0-9]WD)/g, " $1")
+                        .trim()
+                    )}
                   </label>
                 </div>
               ))}
@@ -280,7 +284,7 @@ export default function RentAVehicle() {
                     className="mr-2"
                   />
                   <label htmlFor={`interior-${i}`} className="text-sm">
-                    {feature}
+                    {capitalize(feature)}
                   </label>
                 </div>
               ))}
@@ -289,12 +293,9 @@ export default function RentAVehicle() {
         </div>
 
         <div className="text-right mt-4">
-          <button
-            className="bg-tertiary px-4 py-2 rounded text-white"
-            onClick={resetFilters}
-          >
+          <Button variant={"destructive"} onClick={resetFilters}>
             Reset Filters
-          </button>
+          </Button>
         </div>
       </div>
 
@@ -408,12 +409,9 @@ export default function RentAVehicle() {
           <h3 className="mb-4 font-semibold text-xl">
             No vehicles match your filter criteria
           </h3>
-          <button
-            className="bg-primary hover:bg-opacity-90 px-6 py-3 rounded-md text-white transition-colors"
-            onClick={resetFilters}
-          >
+          <Button variant={"accent"} onClick={resetFilters}>
             Reset All Filters
-          </button>
+          </Button>
         </div>
       )}
     </div>
