@@ -28,14 +28,17 @@ export interface Attraction {
   isPetFriendly?: boolean;
   isWheelchairAccessible?: boolean;
   isHistorical?: boolean;
+  isCultural?: boolean;
+  isCulinary?: boolean;
+  isSpiritual?: boolean;
+  isWellness?: boolean;
+  isArtOrMusic?: boolean;
   isAdventure?: boolean;
   isRomantic?: boolean;
   isLuxury?: boolean;
   isOffTheBeatenPath?: boolean;
   isLocalExperience?: boolean;
   isNightlife?: boolean;
-  isShopping?: boolean;
-  isDining?: boolean;
   isOutdoor?: boolean;
   isIndoor?: boolean;
 }
