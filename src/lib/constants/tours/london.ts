@@ -25,6 +25,16 @@ export const londonTours: Tour[] = [
         answer:
           "Some sections of the tour involve narrow passageways and enclosed underground spaces. While we never enter extremely confined areas, those with severe claustrophobia may find certain portions challenging. Please contact us to discuss specific concerns before booking.",
       },
+      {
+        question: "What should I wear for the underground tour?",
+        answer:
+          "We recommend comfortable walking shoes and weather-appropriate clothing, as some areas can be damp and cool. A light jacket is advisable, and please bring a flashlight if you have one, though we will provide torches.",
+      },
+      {
+        question: "Are children allowed on this tour?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children aged 10 and up. Younger children may find the underground spaces less engaging, but we can adapt the content for younger audiences upon request.",
+      },
     ],
   },
   {
@@ -51,6 +61,11 @@ export const londonTours: Tour[] = [
         question: "Is the Changing of the Guard guaranteed?",
         answer:
           "The ceremony takes place on specific days (generally Monday, Wednesday, Friday, and Sunday) and can be canceled in poor weather or due to state events. We monitor the schedule carefully and adjust the tour if needed, focusing on other royal sites and ceremonies if the main changing isn't occurring.",
+      },
+      {
+        question: "Can we enter Buckingham Palace during the tour?",
+        answer:
+          "Buckingham Palace is not open to the public during the Changing of the Guard ceremony. However, we will visit the exterior and discuss its history and architecture. If you wish to enter the State Rooms, we can arrange tickets for a separate visit when they are open to the public (typically in summer).",
       },
     ],
   },

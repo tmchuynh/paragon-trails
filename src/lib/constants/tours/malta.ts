@@ -25,6 +25,11 @@ export const maltaTours: Tour[] = [
         answer:
           "The megalithic temples on Malta date from 3600-2500 BCE, making them among the oldest free-standing stone structures in the world - older than Stonehenge or the Egyptian pyramids. They represent remarkable engineering achievements for their time.",
       },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. We provide engaging historical context and activities to keep children interested, and the sites are accessible for all ages.",
+      },
     ],
   },
   {
@@ -51,6 +56,16 @@ export const maltaTours: Tour[] = [
         question: "Will we have time for swimming?",
         answer:
           "Yes, the tour includes several swimming and snorkeling stops of 30-45 minutes each at different locations. We provide snorkeling equipment, and our captain knows the best spots based on daily conditions and away from larger tour boats.",
+      },
+      {
+        question: "What should I bring for the boat tour?",
+        answer:
+          "We recommend wearing a swimsuit, sunscreen, a hat, and bringing a towel. Water and light snacks are provided, but feel free to bring your own refreshments. A light jacket is advisable for the boat ride.",
+      },
+      {
+        question: "Is the boat suitable for children?",
+        answer:
+          "Yes, our traditional luzzu is family-friendly with stable seating and safety features. Children will enjoy the swimming stops and exploring the coastal caves.",
       },
     ],
   },

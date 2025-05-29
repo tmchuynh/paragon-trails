@@ -25,6 +25,11 @@ export const materaTours: Tour[] = [
         answer:
           "This tour involves moderate walking on uneven stone surfaces, including steps carved into the rock and inclined pathways. We cover approximately 2.5km at a relaxed pace with plenty of stops, but comfortable footwear with good grip is essential. While not extremely strenuous, basic mobility is required as there are areas without handrails.",
       },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children aged 6 and up. We provide engaging historical context and stories that captivate younger audiences, but parents should be aware that some areas may not be stroller-accessible.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const materaTours: Tour[] = [
         question: "What dishes will we learn to make?",
         answer:
           "You'll learn to prepare Matera's iconic bread (protected by DOP status), handmade orecchiette pasta with local bitter greens, traditional legume soup with wild herbs, and 'peperoni cruschi' (dried sweet peppers) prepared in the traditional method. The class concludes with preparing a simple almond dessert based on ancient recipes from local convents.",
+      },
+      {
+        question: "Do I need prior cooking experience?",
+        answer:
+          "No prior experience is required! This class is designed for all skill levels, from complete beginners to experienced cooks. Nonna Giovanna provides step-by-step guidance and shares her family secrets in a warm, welcoming atmosphere.",
       },
     ],
   },

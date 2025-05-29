@@ -26,6 +26,11 @@ export const losAngelesTours: Tour[] = [
         answer:
           "While celebrity sightings are possible, they cannot be guaranteed. Our guides know the popular spots where celebrities often visit, increasing your chances.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for all ages. Children will enjoy the fun of spotting celebrity homes and learning about Hollywood history.",
+      },
     ],
   },
   {
@@ -52,6 +57,16 @@ export const losAngelesTours: Tour[] = [
         question: "Do I need previous surfing experience?",
         answer:
           "No experience necessary! Our instructors are skilled at teaching beginners. Basic swimming ability is required for safety.",
+      },
+      {
+        question: "What should I wear for the surfing lesson?",
+        answer:
+          "Wear a swimsuit or board shorts, and we provide wetsuits if needed. Don't forget sunscreen and a towel!",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. Children aged 8 and up can participate in the surfing lesson with parental supervision.",
       },
     ],
   },

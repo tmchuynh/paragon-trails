@@ -26,6 +26,11 @@ export const melbourneTours: Tour[] = [
         answer:
           "Absolutely! Our workshop is designed for all skill levels, with step-by-step guidance from professional street artists. You'll learn basic stencil cutting and spray techniques to create your own piece of art to take home. All materials are provided, including eco-friendly water-based spray paints. The workshop takes place in a designated legal space for street art practice.",
       },
+      {
+        question: "What should I wear for the workshop?",
+        answer:
+          "We recommend wearing comfortable clothes that you don't mind getting a bit paint-splattered. Closed-toe shoes are also advisable, as we will be working outdoors in urban settings.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const melbourneTours: Tour[] = [
         question: "How long is the drive along the Great Ocean Road?",
         answer:
           "The journey from Melbourne to the Twelve Apostles is approximately 4 hours each way, but we make the experience engaging with frequent scenic stops including Loch Ard Gorge, London Bridge, Apollo Bay, and Great Otway National Park. Our comfortable vehicle has large windows designed for sightseeing, and we limit group size to ensure everyone gets window seats for optimal viewing and photography.",
+      },
+      {
+        question: "What should I bring for the day trip?",
+        answer:
+          "We recommend wearing comfortable clothing and sturdy shoes suitable for walking. Bring a hat, sunscreen, and a refillable water bottle. A light jacket is advisable as coastal weather can change quickly. We provide snacks and refreshments, but you may want to bring a packed lunch or purchase food at one of the stops.",
       },
     ],
   },
@@ -80,6 +90,11 @@ export const melbourneTours: Tour[] = [
         answer:
           "While coffee is our focus, this tour explores Melbourne's broader café culture and the stories behind these unique spaces. Non-coffee drinkers can enjoy specialty teas, hot chocolate, and other beverages at each stop. Many of our visitors who don't drink coffee still find the tour fascinating for its cultural insights, architectural discoveries, and the stories of entrepreneurship behind Melbourne's distinctive café scene.",
       },
+      {
+        question: "Will we learn how to make coffee?",
+        answer:
+          "Yes! The tour includes a hands-on session where you can try your hand at making espresso drinks using professional equipment. Our barista guide will demonstrate techniques for brewing the perfect cup, and you'll have the chance to practice steaming milk and pouring latte art. No prior experience is necessary, and all equipment is provided.",
+      },
     ],
   },
   {
@@ -106,6 +121,11 @@ export const melbourneTours: Tour[] = [
         question: "How many wineries do we visit?",
         answer:
           "We visit 4-5 carefully selected vineyards representing different styles and approaches to winemaking. Rather than rushing through many locations, we focus on quality experiences with private tastings, vineyard walks with winemakers, and behind-the-scenes glimpses of production facilities. The tour includes premium reserve tastings not available to the general public and focuses on the Yarra Valley's signature cool-climate Chardonnay, Pinot Noir, and sparkling wines.",
+      },
+      {
+        question: "Is lunch included in the tour?",
+        answer:
+          "Yes, a gourmet lunch is included at one of the valley's top restaurants, featuring seasonal local produce paired with wines from the region. Dietary restrictions can be accommodated with prior notice.",
       },
     ],
   },
@@ -134,6 +154,11 @@ export const melbourneTours: Tour[] = [
         answer:
           "At the wildlife sanctuary, you'll encounter koalas, kangaroos (with opportunities for supervised close interaction), wombats, Tasmanian devils, dingoes, and various native bird species. On Phillip Island, the main attraction is the evening 'penguin parade' featuring thousands of Little Penguins (the world's smallest penguin species). We often spot wild wallabies, cape barren geese, and native water birds on the island as well. Our wildlife biologist guide provides expert insight into behavior and conservation efforts.",
       },
+      {
+        question: "How long is the penguin parade?",
+        answer:
+          "The penguin parade lasts approximately 1.5 hours, starting at sunset when the penguins return from their day at sea. We arrive early to secure prime viewing spots and enjoy a brief introduction about the penguins' life cycle and conservation efforts. The experience is designed to minimize disturbance to the penguins while providing an unforgettable wildlife encounter.",
+      },
     ],
   },
   {
@@ -160,6 +185,11 @@ export const melbourneTours: Tour[] = [
         question: "How does this tour support Indigenous communities?",
         answer:
           "This tour is 100% Indigenous owned and operated. Your guide is a respected Elder who shares knowledge according to cultural protocols. A percentage of tour proceeds supports Indigenous youth education programs and cultural preservation initiatives. The experience includes products from Indigenous-owned businesses, and we facilitate connections to ethical sources for Aboriginal art and crafts should you wish to purchase culturally authentic items that properly compensate Indigenous artists.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Wear comfortable clothing suitable for walking, as we will be exploring both urban and natural environments. Closed-toe shoes are recommended. The tour takes place in various weather conditions, so dress in layers and bring a hat and sunscreen if it's sunny.",
       },
     ],
   },
@@ -188,6 +218,11 @@ export const melbourneTours: Tour[] = [
         answer:
           "This workshop accommodates all skill levels from smartphone photographers to experienced DSLR users. Our instructor provides personalized guidance based on your equipment and experience. Beginners will learn composition principles and basic settings, while advanced photographers can focus on challenging lighting techniques, long exposures, and creative architectural perspectives. The small group size (maximum 6) ensures individual attention.",
       },
+      {
+        question: "What should I bring?",
+        answer:
+          "Please bring your camera (DSLR, mirrorless, or smartphone), a tripod if you have one, and any lenses you prefer to use. We recommend comfortable walking shoes, weather-appropriate clothing, and a refillable water bottle. If you have specific photography goals or challenges, feel free to discuss them with the instructor at the start of the workshop.",
+      },
     ],
   },
   {
@@ -214,6 +249,11 @@ export const melbourneTours: Tour[] = [
         question: "What type of restaurants will we visit?",
         answer:
           "We visit 4-5 restaurants ranging from hidden local favorites to award-winning establishments. The experience is designed as a progressive meal with different courses at each location: perhaps innovative appetizers at a modern Australian restaurant, handmade pasta at an Italian trattoria, signature main courses at a chef-hatted destination, and dessert at a specialized patisserie. Each venue offers something distinctive that represents Melbourne's diverse culinary landscape, with appropriate wine pairings at each stop.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with prior notice. Please inform us of any allergies or preferences when booking, and we will ensure that alternative dishes are provided at each restaurant to suit your needs while still allowing you to enjoy the full experience.",
       },
     ],
   },

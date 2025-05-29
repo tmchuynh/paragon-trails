@@ -25,6 +25,11 @@ export const madridTours: Tour[] = [
         answer:
           "Absolutely! Our art historians specialize in making art accessible and engaging for everyone. The tour focuses on the fascinating stories behind the paintings and their historical context rather than technical art terminology. Whether you're an art enthusiast or a complete beginner, you'll find the experience enriching.",
       },
+      {
+        question: "Do we need to book tickets in advance?",
+        answer:
+          "Yes, we include skip-the-line tickets in the tour price to ensure you spend more time enjoying the art and less time waiting in queues. We recommend booking at least a week in advance, especially during peak tourist seasons.",
+      },
     ],
   },
   {
@@ -51,6 +56,16 @@ export const madridTours: Tour[] = [
         question: "How many tapas venues will we visit?",
         answer:
           "The tour includes stops at 4 different establishments, each representing a different aspect of Spanish culinary traditions. You'll sample approximately 10-12 different tapas paired with regional wines, vermouth, and sherry. The evening concludes with churros con chocolate after the flamenco show.",
+      },
+      {
+        question: "Is the flamenco show suitable for children?",
+        answer:
+          "While the flamenco performance itself is family-friendly, the tapas crawl involves visiting bars that may not be ideal for very young children. We recommend this tour for older children (12+) who can appreciate the cultural experience. For families with younger kids, we can suggest alternative dining options.",
+      },
+      {
+        question: "What should I wear for the evening?",
+        answer:
+          "Smart casual attire is recommended. Comfortable shoes are a must, as we will be walking between venues. The flamenco venue has a relaxed dress code, but avoiding overly casual clothing like flip-flops or gym wear is advisable.",
       },
     ],
   },

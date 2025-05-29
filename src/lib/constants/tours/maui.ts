@@ -107,6 +107,11 @@ export const mauiTours: Tour[] = [
         answer:
           "While basic swimming ability is recommended, we accommodate all comfort levels with flotation devices, swim noodles, and guided instruction. Our boat has easy water entry platforms and our guides provide assistance in the water. For non-swimmers, we offer 'view boxes' to observe marine life from the boat and glass-bottom viewing areas. The water at Molokini is typically calm and clear, making it an ideal location even for beginners.",
       },
+      {
+        question: "What should I bring for the snorkeling portion?",
+        answer:
+          "We provide all necessary snorkeling gear including masks, fins, and snorkels. We recommend bringing a swimsuit, towel, sunscreen (reef-safe), a hat, and a light cover-up. If you have your own gear that you're comfortable with, feel free to bring it along. We also provide dry storage for personal items on the boat.",
+      },
     ],
   },
   {
@@ -133,6 +138,11 @@ export const mauiTours: Tour[] = [
         question: "What dishes will we learn to prepare?",
         answer:
           "The menu varies seasonally based on farm harvests, but typically includes fresh poke (marinated raw fish), taro or breadfruit preparations, tropical fruit salsas, locally raised meats with Hawaiian seasonings, and lilikoi (passion fruit) desserts. Vegetarian, vegan, and gluten-free options are readily available. You'll learn traditional Hawaiian cooking techniques alongside modern Pacific Rim fusion approaches, with recipe cards provided to recreate these dishes at home.",
+      },
+      {
+        question: "Do I need prior cooking experience?",
+        answer:
+          "No prior cooking experience is necessary! Our classes are designed for all skill levels, from beginners to experienced cooks. Chef James provides step-by-step guidance, and we encourage hands-on participation. You'll leave with new skills and confidence in preparing Hawaiian-inspired dishes.",
       },
     ],
   },
@@ -161,6 +171,11 @@ export const mauiTours: Tour[] = [
         answer:
           "We select from over a dozen premier photography locations based on current weather conditions, seasonal factors, and group interests. Typical locations include the bamboo forests of Pipiwai Trail, dramatic lava-rock coastlines at Waianapanapa, colorful eucalyptus trees along the road to Hana, rolling lavender farms in upcountry Maui, and various beach locations optimal for sunset conditions on your specific tour date. Our guides monitor lighting conditions daily to determine the ideal sunset location.",
       },
+      {
+        question: "Do I need to bring my own camera?",
+        answer:
+          "Yes, please bring your own camera or smartphone. We can accommodate all skill levels and equipment types, from professional DSLRs to smartphones. If you have specific lenses or filters you prefer, feel free to bring them along. Our guides can provide tips on composition, lighting, and camera settings tailored to your equipment.",
+      },
     ],
   },
   {
@@ -188,6 +203,11 @@ export const mauiTours: Tour[] = [
         answer:
           "Yes! This is a hands-on, participatory experience where everyone becomes part of the paddling team. After basic instruction on paddling technique and important Hawaiian canoe terminology, you'll join your guide in paddling the canoe. The outrigger design provides excellent stability, and no prior paddling experience is necessary. Children as young as 5 can participate with proper-sized paddles provided. The cooperative nature of canoe paddling makes this a wonderful bonding activity for families and groups.",
       },
+      {
+        question: "What should I wear for the canoe experience?",
+        answer:
+          "Wear comfortable, quick-drying clothing suitable for water activities. Swimsuits or athletic wear are ideal. We recommend water shoes or sandals with straps to keep them secure while paddling. Sunscreen, a hat, and sunglasses are also advisable, as you'll be exposed to the sun during the tour. We provide life jackets for all participants, which must be worn at all times while on the water.",
+      },
     ],
   },
   {
@@ -214,6 +234,11 @@ export const mauiTours: Tour[] = [
         question: "Is seating assigned on the helicopter?",
         answer:
           "For optimal viewing, we rotate seating positions during the flight, ensuring every passenger gets front-seat views for portions of the journey. Our helicopters feature floor-to-ceiling glass windows specifically designed for sightseeing. For photography enthusiasts, we offer a doors-off option (additional fee) on certain helicopters for unobstructed shooting. Weight and balance requirements sometimes influence seating arrangements for safety purposes.",
+      },
+      {
+        question: "What should I wear for the helicopter tour?",
+        answer:
+          "Dress comfortably in lightweight, breathable clothing. We recommend closed-toe shoes and a light jacket as it can be cooler at higher altitudes. Avoid loose items that could fly around in the cabin. We provide noise-canceling headsets for each passenger, which also include a microphone for communication with the pilot and other passengers.",
       },
     ],
   },

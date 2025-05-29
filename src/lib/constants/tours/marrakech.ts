@@ -26,6 +26,16 @@ export const marrakechTours: Tour[] = [
         answer:
           "Our routes avoid the more aggressive commercial areas, and your guide acts as a buffer against unwanted attention. We focus on authentic artisans who provide low-pressure shopping experiences.",
       },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. We tailor the experience to be engaging for all ages, with opportunities to interact with local craftspeople and learn about their trades.",
+      },
+      {
+        question: "What should I wear for the walking tour?",
+        answer:
+          "Comfortable walking shoes are essential, as we will cover uneven cobblestone streets. Lightweight, breathable clothing is recommended due to the warm climate.",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const marrakechTours: Tour[] = [
         question: "How comfortable is the desert accommodation?",
         answer:
           "Our premium desert camp features proper beds with quality linens, private bathroom facilities with hot water, and elegant furnishings that blend traditional design with modern comfort.",
+      },
+      {
+        question: "What should I pack for the desert?",
+        answer:
+          "We recommend packing layers for temperature changes, a hat, sunscreen, and comfortable shoes for walking. A small backpack for day trips is also useful.",
+      },
+      {
+        question: "Is the camel ride suitable for beginners?",
+        answer:
+          "Yes, our camels are well-trained and suitable for all experience levels. Your guide will provide instructions and support throughout the ride.",
       },
     ],
   },
