@@ -26,6 +26,16 @@ export const hoiAnTours: Tour[] = [
         answer:
           "Yes! Your lantern will be carefully wrapped for easy packing in your luggage, or we can arrange shipping for larger lanterns.",
       },
+      {
+        question: "What should I wear for the walking tour?",
+        answer:
+          "Comfortable walking shoes are recommended, as we will explore cobblestone streets and some uneven surfaces. Light, breathable clothing is also advisable due to the warm climate.",
+      },
+      {
+        question: "Is the lantern-making suitable for children?",
+        answer:
+          "Yes, this activity is family-friendly and children will enjoy creating their own lanterns with guidance from our expert artisans.",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const hoiAnTours: Tour[] = [
         question: "How difficult is the bike ride?",
         answer:
           "The terrain is flat and the pace is leisurely, making it suitable for all fitness levels. We cover approximately 8km on quiet country roads and paths.",
+      },
+      {
+        question: "What if I'm not comfortable cooking?",
+        answer:
+          "No prior cooking experience is necessary! Our friendly chef will guide you through each step, and you can participate as much or as little as you like. The focus is on having fun and enjoying the process.",
+      },
+      {
+        question: "Are vegetarian options available for the cooking class?",
+        answer:
+          "Yes, we can accommodate vegetarian preferences. Please let us know in advance so we can prepare suitable ingredients for you.",
       },
     ],
   },

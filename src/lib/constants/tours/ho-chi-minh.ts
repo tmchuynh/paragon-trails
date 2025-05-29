@@ -25,6 +25,16 @@ export const hoChiMinhTours: Tour[] = [
         answer:
           "Yes, you can enter a section of the tunnels that has been slightly enlarged for visitors, though they remain quite narrow and low. This is optional, and those who prefer not to go underground can still experience most of the tour. The tunnels are not recommended for people with claustrophobia or mobility issues.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly, but please note that the tunnels can be cramped and dark. Children should be accompanied by an adult at all times. We recommend bringing a flashlight for younger children who may want to explore the tunnels.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "Wear comfortable clothing and sturdy shoes suitable for walking and crawling through the tunnels. Lightweight, breathable fabrics are best due to the warm climate. We also recommend bringing a hat, sunscreen, and insect repellent.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const hoChiMinhTours: Tour[] = [
         question: "Is the food safe for foreigners?",
         answer:
           "We carefully select vendors with the highest standards of hygiene and fresh ingredients. Your guide will explain safe eating practices and can recommend the best dishes based on your spice tolerance and dietary preferences. We provide hand sanitizer and bottled water throughout the tour.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of local favorites, including pho, banh mi, fresh spring rolls, and unique desserts. We can accommodate dietary restrictions, so please inform us in advance if you have any allergies or preferences.",
+      },
+      {
+        question: "Do I need to bring cash for the food tour?",
+        answer:
+          "No, the tour price includes all food samples. However, you may want to bring some cash for optional purchases or souvenirs at the markets.",
       },
     ],
   },

@@ -25,6 +25,11 @@ export const helsinkiTours: Tour[] = [
         answer:
           "Traditional Finnish saunas are typically enjoyed nude, but we provide private facilities and options to wear a swimsuit if preferred. Gender-separated saunas are standard, with towels and clear etiquette guidance provided.",
       },
+      {
+        question: "Is ice swimming safe?",
+        answer:
+          "Yes, ice swimming is a popular Finnish tradition. We provide safety gear, and our guides ensure that all participants are comfortable and safe. Beginners are welcome, and we start with a brief introduction to the practice.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const helsinkiTours: Tour[] = [
         question: "Is this a shopping tour?",
         answer:
           "While we visit several design shops, the focus is on understanding Finnish design philosophy and architectural innovation. Shopping opportunities exist but are secondary to the cultural and educational experience.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Dress comfortably for walking, as we will explore various neighborhoods. Comfortable shoes are recommended, and weather-appropriate clothing is essential, especially in colder months.",
       },
     ],
   },

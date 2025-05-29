@@ -26,6 +26,16 @@ export const heraklionTours: Tour[] = [
         answer:
           "The site features both original ruins and controversial reconstructions by archaeologist Sir Arthur Evans. Our guide provides clear context about which elements are original Minoan structures (dating to 1700-1400 BCE) and which are early 20th-century interpretations, explaining the historical debate surrounding the restoration work.",
       },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. The guide tailors explanations to engage younger visitors, making the ancient history accessible and interesting for all ages.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we explore uneven terrain. A hat and sunscreen are advisable, especially in summer months.",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const heraklionTours: Tour[] = [
         question: "What makes Cretan wines different from other Greek wines?",
         answer:
           "Crete's unique microclimate and indigenous grape varieties like Vidiano, Thrapsathiri, Liatiko, and Kotsifali produce wines found nowhere else. The island's viniculture dates back 4,000 years to Minoan times, with techniques passed through generations. You'll taste wines that express Crete's terroir with distinctive mineral notes from the mountainous terrain and influences from the surrounding Mediterranean.",
+      },
+      {
+        question: "Are the vineyard visits suitable for children?",
+        answer:
+          "Yes, children are welcome. While they won't participate in wine tasting, they can enjoy the scenic countryside, learn about traditional farming practices, and sample local juices and snacks.",
+      },
+      {
+        question: "What should I wear for the vineyard tour?",
+        answer:
+          "Comfortable clothing and sturdy shoes are recommended as we explore rural paths and vineyards. A hat and sunscreen are advisable, especially in summer months.",
       },
     ],
   },
