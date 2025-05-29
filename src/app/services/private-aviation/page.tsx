@@ -268,7 +268,7 @@ export default function PrivateAviation() {
       </section>
 
       <section>
-        <ContactDepartmentCard department="Transportation & Charter Services" />
+        <ContactDepartmentCard department="Transportation Services & Rentals" />
       </section>
     </div>
   );

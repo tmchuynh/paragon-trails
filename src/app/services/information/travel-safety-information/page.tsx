@@ -1,3 +1,5 @@
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
+
 export default function TravelSafetyInformation() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -30,7 +32,6 @@ export default function TravelSafetyInformation() {
       {/* Before You Travel Section */}
       <section>
         <h2>1. Before You Travel: Preparation Is Protection</h2>
-
         <div className="space-y-8">
           <div>
             <h3>Passport, Visas & Entry Requirements</h3>
@@ -103,6 +104,8 @@ export default function TravelSafetyInformation() {
             </p>
           </div>
         </div>
+        <ContactDepartmentCard department="General Inquiries" />{" "}
+        <ContactDepartmentCard department="Reservations & Booking" />
       </section>
 
       {/* In Transit Section */}
@@ -206,6 +209,8 @@ export default function TravelSafetyInformation() {
             </ul>
           </div>
         </div>
+
+        <ContactDepartmentCard department="Concierge Services" />
       </section>
 
       {/* Technology & Digital Security Section */}
@@ -213,7 +218,7 @@ export default function TravelSafetyInformation() {
         <h2>4. Technology & Digital Security</h2>
 
         <div className="gap-6 grid md:grid-cols-2">
-          <div className="p-5 border border-gray-200 rounded-lg">
+          <div className="p-5 border border-border rounded-lg">
             <h3>Staying Connected</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>
@@ -228,7 +233,7 @@ export default function TravelSafetyInformation() {
             </ul>
           </div>
 
-          <div className="p-5 border border-gray-200 rounded-lg">
+          <div className="p-5 border border-border rounded-lg">
             <h3>Cybersecurity Best Practices</h3>
             <ul className="space-y-1 pl-5 list-disc">
               <li>
@@ -270,6 +275,8 @@ export default function TravelSafetyInformation() {
             <li>Language translation in critical situations</li>
           </ul>
         </div>
+
+        <ContactDepartmentCard department="Emergency Travel Support" />
       </section>
 
       {/* Destination Risk Monitoring Section */}
@@ -348,22 +355,6 @@ export default function TravelSafetyInformation() {
         <p>
           If you have specific safety concerns or require a custom safety
           briefing, please contact us prior to departure.
-        </p>
-      </section>
-
-      {/* Emergency Contact Section */}
-      <section>
-        <h2>Emergency Travel Assistance:</h2>
-        <p>
-          <span className="font-medium">Phone:</span> +1 (310) 477–8820 (24/7
-          Support)
-        </p>
-        <p>
-          <span className="font-medium">Email:</span> safety@paragontrails.com
-        </p>
-        <p>
-          <span className="font-medium">Office Hours:</span> Mon–Fri, 9:00 AM –
-          5:00 PM PT
         </p>
       </section>
     </div>

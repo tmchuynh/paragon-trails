@@ -1,3 +1,5 @@
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
+
 export default function TravelInsurance() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -88,82 +90,82 @@ export default function TravelInsurance() {
             plan that includes the following six categories:
           </p>
 
-          <div>
-            <h3>1. Trip Cancellation & Interruption</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Refunds non-refundable expenses due to illness, weather events,
-                or unforeseen circumstances.
-              </li>
-              <li>
-                Coverage for missed connections, flight delays, or early returns
-                due to emergencies.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>2. Medical Expenses Abroad</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Covers hospital stays, doctor visits, prescription medications,
-                and emergency dental care.
-              </li>
-              <li>
-                Particularly important in regions without reciprocal health
-                agreements with your country.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>3. Emergency Evacuation & Repatriation</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Includes air ambulance or private evacuation if you're in a
-                remote or dangerous location.
-              </li>
-              <li>
-                Also covers the return of remains in the event of death during
-                travel.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>4. Lost, Delayed, or Damaged Baggage</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Replaces essential items in the event of baggage delay or loss.
-              </li>
-              <li>
-                Reimbursement for high-value items or stolen travel documents.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>5. Travel Delay & Missed Departures</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Covers meals, lodging, and transportation for extended delays.
-              </li>
-              <li>Also protects against missed cruises, tours, or charters.</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>6. Adventure & Activity Coverage</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Necessary for high-adrenaline excursions like diving, trekking,
-                or helicopter tours.
-              </li>
-              <li>
-                Verify inclusion of all activities booked through Paragon Trails
-                or third-party guides.
-              </li>
-            </ul>
+          <div className="gap-3 lg:gap-6 grid lg:grid-cols-2 mt-4">
+            <div>
+              <h3>1. Trip Cancellation & Interruption</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Refunds non-refundable expenses due to illness, weather
+                  events, or unforeseen circumstances.
+                </li>
+                <li>
+                  Coverage for missed connections, flight delays, or early
+                  returns due to emergencies.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>2. Medical Expenses Abroad</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Covers hospital stays, doctor visits, prescription
+                  medications, and emergency dental care.
+                </li>
+                <li>
+                  Particularly important in regions without reciprocal health
+                  agreements with your country.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>3. Emergency Evacuation & Repatriation</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Includes air ambulance or private evacuation if you're in a
+                  remote or dangerous location.
+                </li>
+                <li>
+                  Also covers the return of remains in the event of death during
+                  travel.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>4. Lost, Delayed, or Damaged Baggage</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Replaces essential items in the event of baggage delay or
+                  loss.
+                </li>
+                <li>
+                  Reimbursement for high-value items or stolen travel documents.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>5. Travel Delay & Missed Departures</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Covers meals, lodging, and transportation for extended delays.
+                </li>
+                <li>
+                  Also protects against missed cruises, tours, or charters.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>6. Adventure & Activity Coverage</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Necessary for high-adrenaline excursions like diving,
+                  trekking, or helicopter tours.
+                </li>
+                <li>
+                  Verify inclusion of all activities booked through Paragon
+                  Trails or third-party guides.
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -171,30 +173,32 @@ export default function TravelInsurance() {
         <section>
           <h2>Additional Protections to Consider</h2>
 
-          <div>
-            <h3>Cancel For Any Reason (CFAR)</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Allows maximum refund flexibility regardless of the reason.
-              </li>
-              <li>
-                Typically reimburses 50–75% of trip costs and must be purchased
-                shortly after booking.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3>Pre-Existing Medical Condition Waiver</h3>
-            <ul className="space-y-1 mb-2 pl-8 list-disc">
-              <li>
-                Available with select policies if purchased within 14–21 days of
-                your first payment.
-              </li>
-              <li>
-                Ensures coverage is not denied due to known health issues.
-              </li>
-            </ul>
+          <div className="gap-3 lg:gap-6 grid lg:grid-cols-2 mt-4">
+            {" "}
+            <div>
+              <h3>Cancel For Any Reason (CFAR)</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Allows maximum refund flexibility regardless of the reason.
+                </li>
+                <li>
+                  Typically reimburses 50–75% of trip costs and must be
+                  purchased shortly after booking.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Pre-Existing Medical Condition Waiver</h3>
+              <ul className="space-y-1 mb-2 pl-8 list-disc">
+                <li>
+                  Available with select policies if purchased within 14–21 days
+                  of your first payment.
+                </li>
+                <li>
+                  Ensures coverage is not denied due to known health issues.
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -233,6 +237,8 @@ export default function TravelInsurance() {
             <li>Emergency contact hotline</li>
             <li>List of inclusions and exclusions</li>
           </ul>
+
+          <ContactDepartmentCard department="Emergency Travel Support" />
           <p>
             Send to:{" "}
             <a
@@ -288,47 +294,7 @@ export default function TravelInsurance() {
             </li>
           </ul>
 
-          <div>
-            <h3 className="mb-2 font-medium">Emergency Travel Support</h3>
-            <p>
-              Phone:{" "}
-              <a href="tel:+13104778820" className="text-blue-600">
-                +1 (310) 477–8820
-              </a>
-              <br />
-              Email:{" "}
-              <a
-                href="mailto:safety@paragontrails.com"
-                className="text-blue-600"
-              >
-                safety@paragontrails.com
-              </a>
-              <br />
-              Available: 24/7, worldwide
-            </p>
-          </div>
-
-          <div>
-            <h3 className="mb-2 font-medium">
-              Insurance & Documentation Support
-            </h3>
-            <p>
-              Phone:{" "}
-              <a href="tel:+13104778810" className="text-blue-600">
-                +1 (310) 477–8810
-              </a>
-              <br />
-              Email:{" "}
-              <a
-                href="mailto:insurance@paragontrails.com"
-                className="text-blue-600"
-              >
-                insurance@paragontrails.com
-              </a>
-              <br />
-              Office Hours: Mon–Fri, 9:00 AM – 6:00 PM PT
-            </p>
-          </div>
+          <ContactDepartmentCard department="Emergency Travel Support" />
         </section>
 
         {/* FAQ Section */}
@@ -365,35 +331,8 @@ export default function TravelInsurance() {
           </div>
         </section>
 
-        {/* Final Note */}
-        <section>
-          <h2>Final Note</h2>
-          <p>
-            We're proud to provide unforgettable journeys, but no trip is immune
-            to disruption. A carefully chosen travel insurance policy is not a
-            luxury—it's a necessity. Whether you're sailing the Aegean,
-            exploring Patagonia, or enjoying a private safari, you deserve the
-            peace of mind that only comprehensive protection can provide.
-          </p>
-          <p>
-            For questions or help reviewing a travel insurance plan, contact our
-            reservations team at:
-          </p>
-          <p>
-            Email:{" "}
-            <a
-              href="mailto:reservations@paragontrails.com"
-              className="text-blue-600"
-            >
-              reservations@paragontrails.com
-            </a>
-            <br />
-            Phone:{" "}
-            <a href="tel:+13104778810" className="text-blue-600">
-              +1 (310) 477–8810
-            </a>
-          </p>
-        </section>
+        <ContactDepartmentCard department="General Inquiries" />
+        <ContactDepartmentCard department="Reservations & Booking" />
       </div>
     </div>
   );

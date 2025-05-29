@@ -1,3 +1,4 @@
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 
 export default function CancellationAndRefundPolicy() {
@@ -31,7 +32,7 @@ export default function CancellationAndRefundPolicy() {
         <h4>Tiered Based on Lead Time and Services Secured</h4>
 
         <div className="mb-4 overflow-x-auto">
-          <table className="bg-card border border-gray-200 min-w-full">
+          <table className="bg-card mt-4 border border-border rounded-xl min-w-full">
             <thead className="bg-card border border-border">
               <tr>
                 <th className="px-4 py-3 border-b text-left">
@@ -126,6 +127,8 @@ export default function CancellationAndRefundPolicy() {
             </p>
           </div>
         </div>
+
+        <ContactDepartmentCard department="Billing & Payments" />
       </section>
 
       {/* Modifications & Rebooking Section */}
@@ -156,6 +159,8 @@ export default function CancellationAndRefundPolicy() {
             </span>
           </li>
         </ul>
+
+        <ContactDepartmentCard department="Reservations & Booking" />
       </section>
 
       {/* Force Majeure Section */}
@@ -177,6 +182,8 @@ export default function CancellationAndRefundPolicy() {
           however, many third-party vendors apply their own policies and
           limitations.
         </p>
+
+        <ContactDepartmentCard department="Insurance, Claims & Post-Trip Support" />
       </section>
 
       {/* Travel Insurance Section */}
@@ -213,17 +220,7 @@ export default function CancellationAndRefundPolicy() {
           contact your dedicated travel designer or reach out via:
         </p>
 
-        <div>
-          <p className="mb-1">
-            <span>Email:</span> concierge@paragontrails.com
-          </p>
-          <p className="mb-1">
-            <span>Phone:</span> +1 (310) 477–8820
-          </p>
-          <p>
-            <span>Hours:</span> Monday–Friday, 9:00 AM to 5:00 PM PT
-          </p>
-        </div>
+        <ContactDepartmentCard department="Insurance, Claims & Post-Trip Support" />
       </section>
 
       {/* Commitment Section */}
