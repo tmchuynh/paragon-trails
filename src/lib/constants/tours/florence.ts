@@ -69,6 +69,80 @@ export const florenceTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Florence Architecture & Hidden Gems",
+    description:
+      "Explore Florence's architectural wonders beyond the tourist hotspots, visiting lesser-known churches, palaces, and hidden courtyards with a local architect who reveals the city's unique building styles and history.",
+    images: [
+      "/images/tours/florence/hidden-church.jpg",
+      "/images/tours/florence/architectural-tour.jpg",
+    ],
+    duration: "4 hours",
+    price: "$120",
+    rating: 4.8,
+    tags: ["Architecture", "Hidden Gems", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Luca Ferraro",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "What types of architecture will we see?",
+        answer:
+          "The tour covers a range of architectural styles from Romanesque to Baroque, including hidden gems like the Basilica di San Miniato al Monte, Palazzo Davanzati, and lesser-known chapels. Your guide will explain the historical context and significance of each site, making connections to Florence's broader architectural evolution.",
+      },
+      {
+        question: "Are there any walking requirements?",
+        answer:
+          "This tour involves moderate walking, including some stairs and uneven surfaces. We recommend comfortable shoes and being prepared for a leisurely pace to fully appreciate the details of each site.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. We engage children with interactive stories about the buildings and their history, making it an educational experience that sparks curiosity about architecture and history.",
+      },
+    ],
+  },
+  {
+    title: "Florence's Secret Gardens & Hidden Courtyards",
+    description:
+      "Discover Florence's tranquil side with a guided tour of its secret gardens, hidden courtyards, and lesser-known green spaces, exploring the city's botanical heritage and peaceful retreats away from the crowds.",
+    images: [
+      "/images/tours/florence/secret-garden.jpg",
+      "/images/tours/florence/courtyard.jpg",
+    ],
+    duration: "3 hours",
+    price: "$90",
+    rating: 4.7,
+    tags: ["Gardens", "Hidden Gems", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Giulia Conti",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of gardens will we visit?",
+        answer:
+          "The tour includes visits to the Bardini Garden, Rose Garden, and several hidden courtyards in Oltrarno. You'll learn about the history of these green spaces, their botanical significance, and how they reflect Florence's cultural heritage.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! We include fun activities like scavenger hunts in the gardens and storytelling about the plants and history that will engage children of all ages.",
+      },
+      {
+        question: "Are there any walking requirements?",
+        answer:
+          "The tour involves moderate walking with some uneven surfaces. Comfortable shoes are recommended, but we keep the pace leisurely to allow time for exploration and photography.",
+      },
+    ],
+  },
 ];
 
 export default florenceTours;

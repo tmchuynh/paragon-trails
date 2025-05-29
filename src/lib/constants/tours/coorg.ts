@@ -225,6 +225,38 @@ export const coorgTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Coorg Heritage Walk & Local Market Tour",
+    description:
+      "Explore the rich history and vibrant culture of Coorg with a guided walking tour through the town's heritage sites, ancient temples, and bustling local markets, sampling traditional snacks and learning about local crafts.",
+    images: [
+      "/images/tours/coorg/heritage-walk.jpg",
+      "/images/tours/coorg/local-market.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.5,
+    tags: ["Heritage", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Lakshmi Gowda",
+    tourCategoryId: "culture",
+    faqs: [
+      {
+        question: "What historical sites will we visit?",
+        answer:
+          "The heritage walk includes visits to ancient temples like the Omkareshwara Temple, built in the Indo-Saracenic style, and the historic Madikeri Fort with its museum showcasing Coorg's royal history. You'll also see colonial-era buildings, traditional Kodava homes, and learn about the region's unique architecture and cultural influences.",
+      },
+      {
+        question: "What can we expect at the local market?",
+        answer:
+          "The local market offers a sensory experience with vibrant stalls selling fresh produce, spices, handmade crafts, and traditional snacks like 'Kadubu' (steamed rice dumplings) and 'Pandi Curry' (pork curry). You'll have opportunities to interact with local vendors, sample street food, and purchase unique souvenirs such as Coorgi coffee, spices, and handicrafts.",
+      },
+    ],
+  },
 ];
 
 export default coorgTours;

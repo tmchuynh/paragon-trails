@@ -74,6 +74,80 @@ export const fezTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Fez Cultural Heritage & Architecture Tour",
+    description:
+      "Discover the architectural wonders of Fez with a local historian, visiting UNESCO World Heritage sites, ancient madrasas, and stunning mosques while learning about the city's rich history and cultural significance.",
+    images: [
+      "/images/tours/fez/heritage-site.jpg",
+      "/images/tours/fez/madrasa.jpg",
+    ],
+    duration: "4 hours",
+    price: "$70",
+    rating: 4.8,
+    tags: ["Heritage", "Architecture", "Historical"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Dr. Amina El Idrissi",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What historical sites will we visit?",
+        answer:
+          "The tour includes visits to key sites such as the Bou Inania Madrasa, Al Quaraouiyine University (the world's oldest existing degree-granting university), the Royal Palace, and the stunning Nejjarine Museum of Wooden Arts & Crafts. You'll learn about the architectural styles, historical significance, and cultural context of each site.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. Children will enjoy exploring the fascinating architecture and learning about Fez's history in an engaging way. However, parents should be aware that some sites may have stairs or uneven surfaces.",
+      },
+      {
+        question: "Do we need to dress modestly for this tour?",
+        answer:
+          "Yes, visitors are expected to dress modestly when visiting religious sites. We recommend wearing long pants or skirts and covering shoulders. Comfortable walking shoes are also advised as we will be walking on cobblestone streets.",
+      },
+    ],
+  },
+  {
+    title: "Fez Nightlife & Cultural Experience",
+    description:
+      "Experience the vibrant nightlife of Fez with a local guide, exploring traditional music venues, enjoying live performances, and tasting local street food in the atmospheric medina after dark.",
+    images: [
+      "/images/tours/fez/nightlife.jpg",
+      "/images/tours/fez/street-food.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Nightlife", "Music", "Cultural"],
+    isFamilyFriendly: false,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Youssef El Amrani",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of music will we experience?",
+        answer:
+          "The tour includes visits to traditional music venues where you can enjoy live performances of Moroccan folk music, including Andalusian classical music and Sufi spiritual songs. You'll also have the chance to see street musicians and performers in the medina.",
+      },
+      {
+        question: "Is this tour suitable for families?",
+        answer:
+          "This tour is primarily designed for adults and couples. While older children may enjoy the music and atmosphere, younger children may find the late hours and crowded streets challenging.",
+      },
+      {
+        question: "What kind of street food will we try?",
+        answer:
+          "You'll sample a variety of local street foods such as grilled meats, spicy merguez sausages, fresh juices, and traditional pastries. Our guide will introduce you to safe and popular vendors known for their delicious offerings.",
+      },
+    ],
+  },
 ];
 
 export default fezTours;

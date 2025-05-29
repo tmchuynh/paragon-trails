@@ -33,8 +33,7 @@ export const daNangTours: Tour[] = [
       },
       {
         question: "Are meals included in the tour?",
-        answer:
-          "Yes, lunch is included at a local restaurant in Ba Na Hills.",
+        answer: "Yes, lunch is included at a local restaurant in Ba Na Hills.",
       },
     ],
   },
@@ -72,6 +71,80 @@ export const daNangTours: Tour[] = [
         question: "Is there a dress code for visiting temples?",
         answer:
           "Yes, please wear modest clothing that covers your shoulders and knees when visiting My Son Sanctuary.",
+      },
+    ],
+  },
+  {
+    title: "Hoi An Ancient Town Day Trip",
+    description:
+      "Experience the charm of Hoi An with its well-preserved ancient architecture, lantern-lit streets, and vibrant markets. Enjoy a guided walking tour and free time to explore.",
+    images: [
+      "/images/tours/da-nang/hoi-an-ancient-town.jpg",
+      "/images/tours/da-nang/hoi-an-lanterns.jpg",
+    ],
+    duration: "Full day",
+    price: "$60",
+    rating: 4.9,
+    tags: ["Cultural", "Historical", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Nguyen Van An",
+    tourCategoryId: "cultural-expert",
+    faqs: [
+      {
+        question: "Is transportation included?",
+        answer:
+          "Yes, round-trip transportation from Da Nang to Hoi An is included in the tour price.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Comfortable walking shoes are recommended. The weather can be hot, so light clothing is advisable.",
+      },
+      {
+        question: "Are meals included?",
+        answer:
+          "Lunch at a local restaurant in Hoi An is included in the tour package.",
+      },
+    ],
+  },
+  {
+    title: "Da Nang City Highlights Tour",
+    description:
+      "Explore the vibrant city of Da Nang, visiting the Dragon Bridge, Han River, and local markets. Experience the blend of modernity and tradition in this coastal city.",
+    images: [
+      "/images/tours/da-nang/dragon-bridge.jpg",
+      "/images/tours/da-nang/han-river.jpg",
+    ],
+    duration: "4 hours",
+    price: "$40",
+    rating: 4.6,
+    tags: ["City Tour", "Local Culture", "Photography"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Le Thi Hoa",
+    tourCategoryId: "city-expert",
+    faqs: [
+      {
+        question: "What time does the Dragon Bridge light up?",
+        answer:
+          "The Dragon Bridge lights up every evening at 9 PM with a spectacular fire-breathing show on weekends.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and includes stops at parks and playgrounds.",
+      },
+      {
+        question: "Are there any shopping opportunities?",
+        answer:
+          "Yes, we will visit local markets where you can shop for souvenirs and local handicrafts.",
       },
     ],
   },

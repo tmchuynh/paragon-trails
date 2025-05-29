@@ -34,7 +34,7 @@ export const dubaiTours: Tour[] = [
         question: "What should I wear for the desert safari?",
         answer:
           "We recommend wearing light, breathable clothing suitable for warm weather, along with comfortable closed-toe shoes. A hat and sunglasses are also advisable to protect against the sun. In the evening, temperatures can drop, so a light jacket or shawl is recommended.",
-      }
+      },
     ],
   },
   {
@@ -71,7 +71,44 @@ export const dubaiTours: Tour[] = [
         question: "What should I wear for the tour?",
         answer:
           "We recommend smart casual attire for this tour, especially for the Burj Khalifa visit. Comfortable walking shoes are advisable as there will be some walking involved.",
-      }
+      },
+    ],
+  },
+  {
+    title: "Dubai Marina Yacht Cruise & Dinner",
+    description:
+      "Sail through the stunning Dubai Marina on a private luxury yacht, enjoying a gourmet dinner with panoramic views of the skyline and iconic landmarks.",
+    images: [
+      "/images/tours/dubai/yacht-cruise.jpg",
+      "/images/tours/dubai/marina-skyline.jpg",
+    ],
+    duration: "3 hours",
+    price: "$220",
+    rating: 4.9,
+    tags: ["Yacht", "Luxury", "Dining"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Captain Omar Al Rashid",
+    tourCategoryId: "luxury",
+    faqs: [
+      {
+        question: "What type of cuisine is served on the yacht?",
+        answer:
+          "Our gourmet dinner features a fusion of Middle Eastern and international dishes, prepared by top chefs. We can accommodate dietary restrictions with prior notice.",
+      },
+      {
+        question: "Is the yacht private or shared?",
+        answer:
+          "This experience is private, ensuring an intimate setting for you and your guests. The yacht can accommodate up to 10 people comfortably.",
+      },
+      {
+        question: "What should I wear for the yacht cruise?",
+        answer:
+          "Smart casual attire is recommended. Comfortable shoes are advisable as you may be walking on the deck. A light jacket may be useful in the evening when temperatures drop.",
+      },
     ],
   },
 ];

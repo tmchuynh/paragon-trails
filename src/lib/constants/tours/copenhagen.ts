@@ -74,6 +74,80 @@ export const copenhagenTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Copenhagen's Culinary Secrets: From Street Food to Fine Dining",
+    description:
+      "Embark on a gastronomic journey through Copenhagen's vibrant food scene, sampling everything from trendy street food markets to Michelin-starred restaurants, guided by a local culinary expert.",
+    images: [
+      "/images/tours/copenhagen/street-food.jpg",
+      "/images/tours/copenhagen/michelin-restaurant.jpg",
+    ],
+    duration: "6 hours",
+    price: "$160",
+    rating: 4.9,
+    tags: ["Culinary", "Street Food", "Fine Dining"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Mette Jensen",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a diverse range of culinary experiences, from traditional Danish dishes like smørrebrød and frikadeller to innovative street food from the Reffen market and exquisite tasting menus at Michelin-starred restaurants. We also explore local specialties like pickled herring and Danish pastries.",
+      },
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions including vegetarian, vegan, gluten-free, and nut allergies. Please inform us in advance so we can tailor the food selections accordingly.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage visitors of all ages. We include kid-friendly options at each stop and can adjust the menu based on children's preferences.",
+      },
+    ],
+  },
+  {
+    title: "Copenhagen's Royal Heritage & Gardens",
+    description:
+      "Explore the royal history of Copenhagen with a guided tour of Amalienborg Palace, Rosenborg Castle, and the stunning King's Garden, learning about Denmark's monarchy and its influence on the city.",
+    images: [
+      "/images/tours/copenhagen/amalienborg-palace.jpg",
+      "/images/tours/copenhagen/rosenborg-castle.jpg",
+    ],
+    duration: "5 hours",
+    price: "$120",
+    rating: 4.8,
+    tags: ["Royalty", "Gardens", "History"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Kasper Andersen",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Will we see the changing of the guard?",
+        answer:
+          "Yes, the tour includes witnessing the Changing of the Guard ceremony at Amalienborg Palace, which takes place daily at noon. This iconic event showcases the precision and tradition of the Danish royal guards.",
+      },
+      {
+        question: "Are the gardens accessible for walking?",
+        answer:
+          "Absolutely! The King's Garden surrounding Rosenborg Castle is beautifully landscaped with wide paths, making it perfect for leisurely strolls. We will take time to enjoy the gardens' beauty and learn about their history.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. Children will enjoy exploring the royal grounds and learning about Denmark's fascinating history in an engaging way. The gardens also provide plenty of space for kids to run around.",
+      },
+    ],
+  },
 ];
 
 export default copenhagenTours;
