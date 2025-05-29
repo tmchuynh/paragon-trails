@@ -111,20 +111,20 @@ export function findOriginalCityName(slug: string): string | null {
   return null;
 }
 
+
 /**
  * Finds a tour guide by city and specialty.
  * 
  * @param city - The city where the tour guide operates
- * @param specialty - The specific expertise or specialty area to search for
- * @returns A matching TourGuide object that operates in the specified city and has the requested specialty
+ * @param specialty - The specialty to look for in the tour guide's skills
+ * @returns A matching TourGuide object based on the following priority:
+ *   1. A random guide from the specified city with the matching specialty
+ *   2. If no specialty match, a random guide from the specified city
+ *   3. If no city match, a default generic tour guide object
  * 
  * @remarks
- * The function follows a fallback strategy:
- * 1. First tries to find a guide matching both city and specialty
- * 2. If not found, tries to find any guide from the specified city
- * 3. If no city match, returns a default guide object
- * 
- * City name matching is case-insensitive for better usability.
+ * The function performs case-insensitive matching for both city and specialty.
+ * When multiple guides match the criteria, one is randomly selected using the Fisher-Yates shuffle algorithm.
  */
 export function findGuideBySpecialty(
   city: string,
@@ -133,8 +133,8 @@ export function findGuideBySpecialty(
   // Format the city name to lowercase for consistent comparison
   const cityLower = city.toLowerCase();
 
-  // Find a guide that matches the city and specialty
-  const guide = tourGuides.find(
+  // Find all guides that match the city and specialty
+  const matchingGuides = tourGuides.filter(
     (guide) =>
       guide.city.toLowerCase() === cityLower &&
       guide.specialties.some((guideSpecialty) =>
@@ -142,18 +142,27 @@ export function findGuideBySpecialty(
       )
   );
 
-  // If a matching guide is found, return it
-  if (guide) {
-    return guide;
+  // If we have matching guides, return one randomly
+  if (matchingGuides.length > 0) {
+    // Shuffle the array using Fisher-Yates algorithm
+    for (let i = matchingGuides.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [matchingGuides[i], matchingGuides[j]] = [
+        matchingGuides[j],
+        matchingGuides[i],
+      ];
+    }
+    return matchingGuides[0]; // Return a random guide
   }
 
   // Try to find any guide from this city as a fallback
-  const cityGuide = tourGuides.find(
+  const cityGuides = tourGuides.filter(
     (guide) => guide.city.toLowerCase() === cityLower
   );
 
-  if (cityGuide) {
-    return cityGuide;
+  if (cityGuides.length > 0) {
+    // Return a random guide from this city
+    return cityGuides[Math.floor(Math.random() * cityGuides.length)];
   }
 
   // Return default guide if no matches found
