@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sanDiegoTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const sanDiegoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ryan Martinez",
+    tourGuide: findGuideBySpecialty("san-diego", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -39,14 +40,14 @@ export const sanDiegoTours: Tour[] = [
     duration: "4 hours",
     price: "$199",
     rating: 4.9,
-    tags: ["Wildlife", "Family", "VIP"],
+    tags: ["Family", "VIP"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Emma Wilson",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("san-diego", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "How close will we get to the animals?",
@@ -72,7 +73,7 @@ export const sanDiegoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Jake Thompson",
+    tourGuide: findGuideBySpecialty("san-diego", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

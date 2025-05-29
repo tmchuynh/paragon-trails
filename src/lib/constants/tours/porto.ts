@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const portoTours: Tour[] = [
   {
     title: "Port Wine Cellars & Douro Valley",
@@ -12,12 +14,12 @@ export const portoTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Wine", "Port", "Valley"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "João Pereira",
+    tourGuide: findGuideBySpecialty("porto", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -43,13 +45,13 @@ export const portoTours: Tour[] = [
     duration: "4 hours",
     price: "$75",
     rating: 4.8,
-    tags: ["Historical", "UNESCO", "Architecture"],
- 
+    tags: ["Historical", "Architecture"],
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Maria Santos",
+    tourGuide: findGuideBySpecialty("porto", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -81,12 +83,12 @@ export const portoTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Food", "Culture", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ana Costa",
+    tourGuide: findGuideBySpecialty("porto", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

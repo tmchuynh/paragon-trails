@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sacredValleyCuscoTours: Tour[] = [
   {
@@ -12,13 +13,13 @@ export const sacredValleyCuscoTours: Tour[] = [
     duration: "Full day",
     price: "$195",
     rating: 5.0,
-    tags: ["UNESCO", "Archaeology", "Hiking"],
- 
+    tags: ["Archaeology", "Hiking"],
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Carlos Condori",
+    tourGuide: findGuideBySpecialty("sacred-valley-cusco", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -40,13 +41,13 @@ export const sacredValleyCuscoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cultural", "Handicrafts", "Markets"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Maria Quispe",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("sacred-valley-cusco", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Are the handicrafts authentic?",
@@ -66,13 +67,13 @@ export const sacredValleyCuscoTours: Tour[] = [
     duration: "4 hours",
     price: "$60",
     rating: 4.7,
-    tags: ["Historical", "UNESCO", "Culture"],
- 
+    tags: ["Historical", "Culture"],
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Juan Carlos Huamaní",
+    tourGuide: findGuideBySpecialty("sacred-valley-cusco", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

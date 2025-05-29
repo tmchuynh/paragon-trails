@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const pragueTours: Tour[] = [
   {
     title: "Prague Castle After Hours",
@@ -12,12 +14,12 @@ export const pragueTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Castle", "Evening Tour", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Jana Novakova",
+    tourGuide: findGuideBySpecialty("prague", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const pragueTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Beer", "Culinary", "Local"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Petr Svoboda",
+    tourGuide: findGuideBySpecialty("prague", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -76,12 +78,12 @@ export const pragueTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Art", "Architecture", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Eva Kolarova",
+    tourGuide: findGuideBySpecialty("prague", "art").name,
     tourCategoryId: "art",
     faqs: [
       {
@@ -108,12 +110,12 @@ export const pragueTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["History", "Culture", "Jewish Heritage"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Rabbi David Weiss",
+    tourGuide: findGuideBySpecialty("prague", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

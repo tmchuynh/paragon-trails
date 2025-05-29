@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const romeTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const romeTours: Tour[] = [
     price: "$109",
     rating: 4.9,
     tags: ["VIP Access", "Ancient", "Historical"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Rossi",
+    tourGuide: findGuideBySpecialty("rome", "archaeology-expert").name,
     tourCategoryId: "archaeology-expert",
     faqs: [
       {
@@ -40,12 +41,12 @@ export const romeTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["Art", "Religious", "Skip-the-line"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Rossi",
+    tourGuide: findGuideBySpecialty("rome", "art-history").name,
     tourCategoryId: "art-history",
     faqs: [
       {
@@ -67,12 +68,12 @@ export const romeTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Food", "Wine", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Sofia Conti",
+    tourGuide: findGuideBySpecialty("rome", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

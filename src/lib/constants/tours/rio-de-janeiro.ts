@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const rioDeJaneiroTours: Tour[] = [
   {
     title: "Christ the Redeemer Helicopter Experience",
@@ -12,12 +14,12 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Helicopter", "Views", "Christ the Redeemer"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Paulo Rodriguez",
+    tourGuide: findGuideBySpecialty("rio-de-janeiro", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Samba", "Dance", "Carnival"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Carolina Santos",
+    tourGuide: findGuideBySpecialty("rio-de-janeiro", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Favela", "Cultural", "Local"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lucas Pereira",
+    tourGuide: findGuideBySpecialty("rio-de-janeiro", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
