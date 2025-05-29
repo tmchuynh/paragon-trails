@@ -118,7 +118,7 @@ export default function TourGuides() {
                           <Image
                             alt={`Portrait of ${guide.name}`}
                             src={
-                              guide.image ||
+                              guide.profileImage ||
                               "/images/people/default-tour-guide.jpg"
                             }
                             fill
