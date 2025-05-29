@@ -20,8 +20,9 @@ export interface Tour {
   isRomantic?: boolean;
   isAdventure?: boolean;
   isCultural?: boolean;
+  isCulinary?: boolean;
+  isSpiritual?: boolean;
   isNightlife?: boolean;
-  isFoodAndDrink?: boolean;
   isWellness?: boolean;
   isLuxury?: boolean;
   isArtOrMusic?: boolean;
