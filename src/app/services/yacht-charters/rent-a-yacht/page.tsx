@@ -1,7 +1,15 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { yachtCharterFleet } from "@/lib/constants/services/transportation/yachts";
 import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
@@ -120,25 +128,20 @@ export default function RentAYachtPage() {
     .filter((category) => category.vessels.length > 0);
 
   // Handle filter changes
-  const handleCabinsChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value === "" ? null : parseInt(e.target.value, 10);
-    setCabinsFilter(value);
+  const handleCabinsChange = (value: string) => {
+    setCabinsFilter(value === "" ? null : parseInt(value, 10));
   };
 
-  const handlePrivacyLevelChange = (
-    e: React.ChangeEvent<HTMLSelectElement>
-  ) => {
-    setPrivacyLevelFilter(e.target.value);
+  const handlePrivacyLevelChange = (value: string) => {
+    setPrivacyLevelFilter(value);
   };
 
-  const handleLengthChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value === "" ? null : parseInt(e.target.value, 10);
-    setLengthFilter(value);
+  const handleLengthChange = (value: string) => {
+    setLengthFilter(value === "" ? null : parseInt(value, 10));
   };
 
-  const handlePassengerChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value === "" ? null : parseInt(e.target.value, 10);
-    setPassengerFilter(value);
+  const handlePassengerChange = (value: string) => {
+    setPassengerFilter(value === "" ? null : parseInt(value, 10));
   };
 
   const handlePriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -203,18 +206,24 @@ export default function RentAYachtPage() {
             <Label className="block mb-2">
               <strong>Minimum Cabins</strong>
             </Label>
-            <select
-              className="p-2 border rounded w-full"
-              value={cabinsFilter || ""}
-              onChange={handleCabinsChange}
+            <Select
+              value={cabinsFilter?.toString() || ""}
+              onValueChange={handleCabinsChange}
             >
-              <option value="">Any</option>
-              {Array.from({ length: maxCabins }, (_, i) => i + 1).map((num) => (
-                <option key={num} value={num}>
-                  {num}+ Cabins
-                </option>
-              ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {Array.from({ length: maxCabins }, (_, i) => i + 1).map(
+                  (num) => (
+                    <SelectItem key={num} value={num.toString()}>
+                      {num}+ Cabins
+                    </SelectItem>
+                  )
+                )}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Privacy Level Filter */}
@@ -222,20 +231,24 @@ export default function RentAYachtPage() {
             <Label className="block mb-2">
               <strong>Privacy Level</strong>
             </Label>
-            <select
-              className="p-2 border rounded w-full"
+            <Select
               value={privacyLevelFilter}
-              onChange={handlePrivacyLevelChange}
+              onValueChange={handlePrivacyLevelChange}
             >
-              <option value="">Any</option>
-              {Array.from(allPrivacyLevels)
-                .sort()
-                .map((level) => (
-                  <option key={level} value={level}>
-                    {level.charAt(0).toUpperCase() + level.slice(1)}
-                  </option>
-                ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {Array.from(allPrivacyLevels)
+                  .sort()
+                  .map((level) => (
+                    <SelectItem key={level} value={level}>
+                      {level.charAt(0).toUpperCase() + level.slice(1)}
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Yacht Length Filter */}
@@ -243,20 +256,24 @@ export default function RentAYachtPage() {
             <Label className="block mb-2">
               <strong>Minimum Length (feet)</strong>
             </Label>
-            <select
-              className="p-2 border rounded w-full"
-              value={lengthFilter || ""}
-              onChange={handleLengthChange}
+            <Select
+              value={lengthFilter?.toString() || ""}
+              onValueChange={handleLengthChange}
             >
-              <option value="">Any</option>
-              {[50, 75, 100, 125, 150, 175, 200]
-                .filter((len) => len <= maxLength)
-                .map((len) => (
-                  <option key={len} value={len}>
-                    {len}+ ft
-                  </option>
-                ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {[50, 75, 100, 125, 150, 175, 200]
+                  .filter((len) => len <= maxLength)
+                  .map((len) => (
+                    <SelectItem key={len} value={len.toString()}>
+                      {len}+ ft
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Passenger Filter */}
@@ -264,23 +281,27 @@ export default function RentAYachtPage() {
             <Label className="block mb-2">
               <strong>Minimum Passengers</strong>
             </Label>
-            <select
-              className="p-2 border rounded w-full"
-              value={passengerFilter || ""}
-              onChange={handlePassengerChange}
+            <Select
+              value={passengerFilter?.toString() || ""}
+              onValueChange={handlePassengerChange}
             >
-              <option value="">Any</option>
-              {Array.from(
-                { length: Math.ceil(maxPassengers / 2) },
-                (_, i) => (i + 1) * 2
-              )
-                .filter((num) => num <= maxPassengers)
-                .map((num) => (
-                  <option key={num} value={num}>
-                    {num}+ Passengers
-                  </option>
-                ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {Array.from(
+                  { length: Math.ceil(maxPassengers / 2) },
+                  (_, i) => (i + 1) * 2
+                )
+                  .filter((num) => num <= maxPassengers)
+                  .map((num) => (
+                    <SelectItem key={num} value={num.toString()}>
+                      {num}+ Passengers
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Price Filter */}
@@ -288,7 +309,7 @@ export default function RentAYachtPage() {
             <Label className="block mb-2">
               <strong>Maximum Price per Day (USD)</strong>
             </Label>
-            <input
+            <Input
               type="range"
               min="0"
               max={maxPrice}
@@ -318,12 +339,12 @@ export default function RentAYachtPage() {
                 .sort()
                 .map((amenity, i) => (
                   <div key={i} className="flex items-center mb-1">
-                    <input
+                    <Input
                       type="checkbox"
                       id={`amenity-${i}`}
                       checked={selectedAmenities.includes(amenity)}
                       onChange={() => handleAmenityChange(amenity)}
-                      className="mr-2"
+                      className="mr-2 w-auto h-auto"
                     />
                     <Label
                       htmlFor={`amenity-${i}`}
@@ -346,12 +367,12 @@ export default function RentAYachtPage() {
                 .sort()
                 .map((feature, i) => (
                   <div key={i} className="flex items-center mb-1">
-                    <input
+                    <Input
                       type="checkbox"
                       id={`feature-${i}`}
                       checked={selectedFeatures.includes(feature)}
                       onChange={() => handleFeatureChange(feature)}
-                      className="mr-2"
+                      className="mr-2 w-auto h-auto"
                     />
                     <Label htmlFor={`feature-${i}`} className="text-sm">
                       {capitalize(

@@ -59,8 +59,8 @@ export default function YachtCharters() {
           seafaring experience:
         </p>
 
-        <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
-          <div className="bg-card shadow-md p-6 rounded-lg">
+        <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3 mt-4">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 border border-border rounded-lg">
             <h3>Professional Crew and Captain</h3>
             <p>
               Each charter includes a licensed captain and crew members who are
@@ -77,7 +77,7 @@ export default function YachtCharters() {
               Meet Our Expert Captains and Crew Members
             </Button>
           </div>
-          <div className="bg-card shadow-md p-6 rounded-lg">
+          <div className="bg-card shadow-md p-6 border border-border rounded-lg">
             <h3>Customizable Itineraries</h3>
             <p>
               Choose your destinations and pace—whether it's exploring secluded
@@ -85,7 +85,7 @@ export default function YachtCharters() {
               sunset sail.
             </p>
           </div>
-          <div className="bg-card shadow-md p-6 rounded-lg">
+          <div className="flex flex-col justify-between bg-card shadow-md p-6 border border-border rounded-lg">
             <h3>State-of-the-Art Yachts</h3>
             <p>
               Our fleet features a variety of vessels equipped with modern
@@ -100,7 +100,7 @@ export default function YachtCharters() {
               Explort Our Available Yachts
             </Button>
           </div>
-          <div className="bg-card shadow-md p-6 rounded-lg">
+          <div className="bg-card shadow-md p-6 border border-border rounded-lg">
             <h3>Onboard Comforts</h3>
             <p>
               Many yachts offer spacious cabins, fully equipped galleys,
@@ -108,7 +108,7 @@ export default function YachtCharters() {
               as paddleboards, snorkels, and jet skis.
             </p>
           </div>
-          <div className="md:col-span-2 lg:col-span-1 bg-card shadow-md p-6 rounded-lg">
+          <div className="bg-card shadow-md p-6 border border-border rounded-lg">
             <h3>Optional Add-Ons</h3>
             <p>
               Enhance your experience with gourmet catering prepared by onboard
@@ -149,12 +149,12 @@ export default function YachtCharters() {
           Additional destinations may be available based on your itinerary and
           location.
         </p>
-        <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-3">
+        <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-3 mt-5">
           {sortByProperty(yachtDestinations, "location").map(
             (destination, index) => (
               <div
                 key={index}
-                className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg"
+                className="bg-card shadow-sm p-5 border border-border rounded-lg"
               >
                 <h3>{destination.location}</h3>
                 <p>{destination.description}</p>
@@ -172,7 +172,7 @@ export default function YachtCharters() {
           your group size, style, and itinerary:
         </p>
 
-        <div className="gap-6 grid md:grid-cols-2">
+        <div className="gap-6 grid md:grid-cols-2 mt-4">
           <div className="bg-card p-6 border border-border rounded-lg">
             <h3>Motor Yachts</h3>
             <p>
@@ -209,35 +209,35 @@ export default function YachtCharters() {
       <section>
         <h2>Ideal Uses for Yacht Charters</h2>
         <div className="gap-6 grid md:grid-cols-3">
-          <div className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
             <h3>Romantic Getaways</h3>
             <p>
               Private sunset sails, intimate dining onboard, and secluded
               anchorages provide a perfect setting for couples.
             </p>
           </div>
-          <div className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
             <h3>Family and Group Adventures</h3>
             <p>
               Spacious yachts accommodate family groups, offering water toys and
               entertainment options for all ages.
             </p>
           </div>
-          <div className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
             <h3>Special Celebrations</h3>
             <p>
               Birthdays, anniversaries, corporate events, or exclusive parties
               can be hosted in style with customized catering and entertainment.
             </p>
           </div>
-          <div className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
             <h3>Adventure and Exploration</h3>
             <p>
               Snorkeling, diving, fishing, or island-hopping excursions tailored
               to your interests.
             </p>
           </div>
-          <div className="bg-card shadow-sm p-5 border border-gray-100 rounded-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
             <h3>Relaxation and Wellness</h3>
             <p>
               Enjoy a day of sunbathing, reading, or meditating on the deck with
