@@ -17,7 +17,7 @@ export const londonGreaterLondonUnitedKingdom: Attraction[] = [
     tags: ["historical", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const londonGreaterLondonUnitedKingdom: Attraction[] = [
     tags: ["historical", "cultural", "military"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const londonGreaterLondonUnitedKingdom: Attraction[] = [
     tags: ["outdoor", "recreation", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

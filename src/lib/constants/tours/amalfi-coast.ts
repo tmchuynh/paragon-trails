@@ -13,7 +13,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Hiking", "Scenery", "Village"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$145",
     rating: 5.0,
     tags: ["Food", "Cooking", "Limoncello"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -92,7 +92,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$795",
     rating: 4.9,
     tags: ["Yacht", "Swimming", "Luxury"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -134,7 +134,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Villas", "Gardens", "History"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -186,7 +186,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Crafts", "History", "Local Traditions"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -223,7 +223,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Off the Beaten Path", "Local Culture", "Food"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -255,7 +255,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Photography", "Sunset", "Boat Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -292,12 +292,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Hiking", "Nature", "Scenery"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Fierro",
+    tourGuide: "Marco Esposito",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -334,12 +334,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Crafts", "Artisanal", "Creative"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Signora Lucia Avallone",
+    tourGuide: "Antonio Coppola",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -377,12 +377,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Culinary", "Limoncello", "Farm Visit"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Vincenzo Aceto",
+    tourGuide: "Sofia Russo",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -419,7 +419,7 @@ export const amalfiCoastTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Archaeology", "Roman", "Historical"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -462,12 +462,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$155",
     rating: 4.8,
     tags: ["Wine", "Vineyards", "Tasting"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sommelier Antonio Romano",
+    tourGuide: "Gianni Russo",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -504,12 +504,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$160",
     rating: 4.9,
     tags: ["Cooking", "Farm-to-Table", "Organic"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nonna Maria & Chef Paolo",
+    tourGuide: "Sofia Russo",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -546,12 +546,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$130",
     rating: 4.7,
     tags: ["Crafts", "Artisans", "Shopping"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Giulia Martino",
+    tourGuide: "Antonio Coppola",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -588,12 +588,12 @@ export const amalfiCoastTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Exclusive", "Swimming", "Beaches"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Roberto",
+    tourGuide: "Captain Alessandro",
     tourCategoryId: "luxury",
     faqs: [
       {

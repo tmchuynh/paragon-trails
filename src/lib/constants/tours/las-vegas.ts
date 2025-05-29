@@ -13,7 +13,7 @@ export const lasVegasTours: Tour[] = [
     price: "$149",
     rating: 4.7,
     tags: ["Nightlife", "VIP", "Entertainment"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const lasVegasTours: Tour[] = [
     price: "$399",
     rating: 4.9,
     tags: ["Helicopter", "Grand Canyon", "Adventure"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const lasVegasTours: Tour[] = [
     price: "$295",
     rating: 4.8,
     tags: ["Culinary", "Fine Dining", "Luxury"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -99,7 +99,7 @@ export const lasVegasTours: Tour[] = [
     price: "$89",
     rating: 4.6,
     tags: ["Museum", "History", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -131,7 +131,7 @@ export const lasVegasTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Hiking", "Nature", "Desert"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -163,7 +163,7 @@ export const lasVegasTours: Tour[] = [
     price: "$129",
     rating: 4.8,
     tags: ["Nightlife", "History", "Cocktails"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -195,7 +195,7 @@ export const lasVegasTours: Tour[] = [
     price: "$349",
     rating: 4.9,
     tags: ["Photography", "Aerial", "Nighttime"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -227,7 +227,7 @@ export const lasVegasTours: Tour[] = [
     price: "$325",
     rating: 4.8,
     tags: ["Grand Canyon", "Native American", "Scenic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -260,7 +260,7 @@ export const lasVegasTours: Tour[] = [
     price: "$155",
     rating: 4.7,
     tags: ["Entertainment", "Backstage", "Production"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -292,7 +292,7 @@ export const lasVegasTours: Tour[] = [
     price: "$185",
     rating: 4.9,
     tags: ["Photography", "Nature", "Landscapes"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -324,7 +324,7 @@ export const lasVegasTours: Tour[] = [
     price: "$179",
     rating: 4.5,
     tags: ["Unusual", "Area 51", "Off the Grid"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -356,7 +356,7 @@ export const lasVegasTours: Tour[] = [
     price: "$119",
     rating: 4.7,
     tags: ["Neon", "Art", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -388,7 +388,7 @@ export const lasVegasTours: Tour[] = [
     price: "$499",
     rating: 5.0,
     tags: ["Romance", "Wedding", "Celebration"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -420,7 +420,7 @@ export const lasVegasTours: Tour[] = [
     price: "$250",
     rating: 4.6,
     tags: ["Casino", "Gambling", "Luxury"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -452,7 +452,7 @@ export const lasVegasTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Engineering", "History", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -484,7 +484,7 @@ export const lasVegasTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["National Park", "Desert", "Geology"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

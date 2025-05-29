@@ -16,7 +16,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["nature", "wildlife", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["cultural", "religious", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["beach", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["nature", "scenic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -101,7 +101,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["outdoor", "adventure", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -123,7 +123,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["cultural", "religious", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -144,7 +144,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["wildlife", "family-friendly", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -165,7 +165,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["beach", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -186,7 +186,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["wildlife", "family-friendly", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -207,7 +207,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["cultural", "historical", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -228,7 +228,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["adventure", "outdoor", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -249,7 +249,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["cultural", "historical", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -270,7 +270,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     tags: ["adventure", "outdoor", "family-friendly"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

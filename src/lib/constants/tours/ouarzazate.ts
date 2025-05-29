@@ -13,7 +13,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["UNESCO", "Historical", "Berber Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Film", "Studios", "Behind the Scenes"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -72,7 +72,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Oasis", "Kasbahs", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -99,7 +99,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$225",
     rating: 5.0,
     tags: ["Desert", "Camping", "Camel Trek"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -126,7 +126,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Astronomy", "Photography", "Night Sky"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -153,7 +153,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Traditional Crafts", "Weaving", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -180,7 +180,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -207,7 +207,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$70",
     rating: 4.9,
     tags: ["Oasis", "Local Experience", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -234,7 +234,7 @@ export const ouarzazateTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

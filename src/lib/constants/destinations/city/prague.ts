@@ -17,7 +17,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -103,7 +103,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -124,7 +124,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["nature", "scenic", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -145,7 +145,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["luxury", "exclusive", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -168,7 +168,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["luxury", "wellness", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -191,7 +191,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "iconic"],
     accessibilityFeatures: ["viewable from street level"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -213,7 +213,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     tags: ["historical", "cultural", "literary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

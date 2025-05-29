@@ -12,7 +12,7 @@ export const dubaiTours: Tour[] = [
     price: "$395",
     rating: 4.9,
     tags: ["Desert", "Adventure", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const dubaiTours: Tour[] = [
     price: "$250",
     rating: 4.8,
     tags: ["Architecture", "Skyscrapers", "VIP"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const dubaiTours: Tour[] = [
     price: "$220",
     rating: 4.9,
     tags: ["Yacht", "Luxury", "Dining"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

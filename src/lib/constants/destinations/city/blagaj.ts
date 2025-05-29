@@ -19,7 +19,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["cultural", "historical", "religious"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
-      isFamilyFriendly: true,
+
       isFree: true,
       isPetFriendly: false,
       isWheelchairAccessible: false,
@@ -41,7 +41,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["nature", "scenic", "outdoor"],
       accessibilityFeatures: ["wheelchair accessible"],
       isPopular: true,
-      isFamilyFriendly: true,
+
       isFree: true,
       isPetFriendly: true,
       isWheelchairAccessible: true,
@@ -62,7 +62,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["historical", "scenic", "photography"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
-      isFamilyFriendly: true,
+
       isFree: true,
       isPetFriendly: true,
       isWheelchairAccessible: false,
@@ -83,7 +83,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["luxury", "exclusive", "retreat"],
       accessibilityFeatures: ["elevator", "assistance available"],
       isPopular: false,
-      isFamilyFriendly: false,
+
       isFree: false,
       isPetFriendly: false,
       isWheelchairAccessible: true,

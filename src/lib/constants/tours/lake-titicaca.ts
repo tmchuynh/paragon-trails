@@ -13,7 +13,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cultural", "Indigenous", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -60,7 +60,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Archaeological", "Spiritual", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -97,7 +97,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$275",
     rating: 4.9,
     tags: ["Luxury", "Cruise", "Islands"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -134,7 +134,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Cultural", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -166,7 +166,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Photography", "Sunrise", "Landscapes"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -203,7 +203,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$350",
     rating: 4.9,
     tags: ["Spiritual", "Nature", "Retreat"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -245,7 +245,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Wildlife", "Birdwatching", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -277,7 +277,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

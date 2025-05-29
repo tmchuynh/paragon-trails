@@ -12,7 +12,7 @@ export const budapestTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Thermal Baths", "Wellness", "History"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const budapestTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Underground", "History", "Caves"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -86,7 +86,7 @@ export const budapestTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const budapestTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Nightlife", "Street Art", "Local Experience"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -160,7 +160,7 @@ export const budapestTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["History", "Architecture", "Views"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -197,7 +197,7 @@ export const budapestTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["Scenic", "Nightlife", "Romantic"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -234,7 +234,7 @@ export const budapestTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Cultural", "Historical", "Religious"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

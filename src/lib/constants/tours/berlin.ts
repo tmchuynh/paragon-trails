@@ -12,7 +12,7 @@ export const berlinTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["History", "Cold War", "Underground"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const berlinTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Alternative", "Art", "Urban"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -86,7 +86,7 @@ export const berlinTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Food", "Culinary", "Local"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -128,7 +128,7 @@ export const berlinTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Culinary", "Local", "Nightlife"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -170,7 +170,7 @@ export const berlinTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Nature", "Hidden Gems", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

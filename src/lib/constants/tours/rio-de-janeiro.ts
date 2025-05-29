@@ -12,7 +12,7 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Helicopter", "Views", "Christ the Redeemer"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Samba", "Dance", "Carnival"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -66,7 +66,7 @@ export const rioDeJaneiroTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Favela", "Cultural", "Local"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

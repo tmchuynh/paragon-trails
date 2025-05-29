@@ -15,7 +15,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     tags: ["historical", "monument", "viewpoint"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -54,7 +54,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     tags: ["outdoor", "recreation", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -76,7 +76,7 @@ export const denpasarBaliIndonesia: Attraction[] = [
     tags: ["performance", "cultural", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible", "assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -20,7 +20,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
       "accessible restrooms",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -52,7 +52,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.8,
     tags: ["historic", "architecture", "landmark", "photography", "church"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -85,7 +85,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["museum", "unique", "cultural", "art", "emotional"],
     accessibilityFeatures: ["elevator access", "accessible restrooms"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -114,7 +114,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.6,
     tags: ["market", "food", "local", "shopping", "cultural"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -145,7 +145,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.4,
     tags: ["historic", "viewpoint", "landmark", "photography", "tradition"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -177,7 +177,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["cemetery", "architecture", "peaceful", "historical", "art"],
     accessibilityFeatures: ["paved paths", "accessible main areas"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -206,7 +206,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["dining", "cafes", "shopping", "nightlife", "social"],
     accessibilityFeatures: ["flat pedestrian area", "accessible restaurants"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -238,7 +238,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["viewpoint", "photography", "city views", "bar", "sunset"],
     accessibilityFeatures: ["elevator access", "accessible restrooms"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -271,7 +271,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["art", "museum", "cultural", "folk art", "unique"],
     accessibilityFeatures: ["elevator access"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -303,7 +303,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     tags: ["park", "nature", "recreation", "walking", "picnic"],
     accessibilityFeatures: ["paved paths", "accessible restrooms"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

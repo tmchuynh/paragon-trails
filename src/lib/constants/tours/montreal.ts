@@ -12,7 +12,7 @@ export const montrealTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Architecture", "Underground", "Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -44,7 +44,7 @@ export const montrealTours: Tour[] = [
     price: "$89",
     rating: 4.9,
     tags: ["Food", "Street Art", "Local Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -81,7 +81,7 @@ export const montrealTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["History", "Architecture", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

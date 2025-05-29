@@ -17,7 +17,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["beach", "nightlife", "water sports"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["cultural", "religious", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["nature", "adventure", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -78,7 +78,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["island", "snorkeling", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -99,7 +99,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["cultural", "historical", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -121,7 +121,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["culinary", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -142,7 +142,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["wellness", "luxury", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -163,7 +163,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["entertainment", "performance", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -184,7 +184,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["shopping", "food", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -206,7 +206,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     tags: ["wildlife", "conservation", "educational"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

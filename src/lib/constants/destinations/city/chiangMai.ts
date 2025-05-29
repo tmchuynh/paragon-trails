@@ -16,7 +16,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     tags: ["religious", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     tags: ["cultural", "historical", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const chiangMaiChiangMaiProvinceThailand: Attraction[] = [
     tags: ["wildlife", "ethical", "nature"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

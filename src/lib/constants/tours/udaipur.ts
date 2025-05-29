@@ -12,7 +12,7 @@ export const udaipurTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Royal", "Palace", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const udaipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Village", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -68,7 +68,7 @@ export const udaipurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Culinary", "Food", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

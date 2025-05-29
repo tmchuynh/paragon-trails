@@ -12,7 +12,7 @@ export const capeTownTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Hiking", "Sunrise", "Nature"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const capeTownTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Coastal", "Wildlife", "Scenic Drive"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const capeTownTours: Tour[] = [
     price: "$150",
     rating: 4.9,
     tags: ["Wine", "Gourmet", "Scenic"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const capeTownTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Culture", "History", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -160,7 +160,7 @@ export const capeTownTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Nature", "Walking Tour", "Coastal"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -197,7 +197,7 @@ export const capeTownTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["Cruise", "Sunset", "Relaxation"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

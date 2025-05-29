@@ -16,7 +16,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["outdoor", "hiking", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -37,7 +37,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["outdoor", "nature", "cultural"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -79,7 +79,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["luxury", "exclusive", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -100,7 +100,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["luxury", "exclusive", "retreat"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -121,7 +121,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["luxury", "historical", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -142,7 +142,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["historical", "cultural", "garden"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -163,7 +163,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["nature", "scenic", "outdoor"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -184,7 +184,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["outdoor", "adventure", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -205,7 +205,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -226,7 +226,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["scenic", "outdoor", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -247,7 +247,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["cultural", "filming", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -268,7 +268,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["scenic", "cultural", "outdoor"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -289,7 +289,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["nature", "scenic", "cultural"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -310,7 +310,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["cultural", "scenic", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -331,7 +331,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["cultural", "historical", "coastal"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -352,7 +352,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     tags: ["nature", "scenic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

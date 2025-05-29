@@ -17,7 +17,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["cultural", "historical", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["nature", "scenic", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["beach", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["nature", "hiking", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["luxury", "scenic", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -125,7 +125,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["luxury", "exclusive", "dining"],
     accessibilityFeatures: ["elevator access", "assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -148,7 +148,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["nature", "peaceful", "botanical"],
     accessibilityFeatures: ["wheelchair accessible paths"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -170,7 +170,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     tags: ["cultural", "music", "authentic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

@@ -17,7 +17,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["art", "sculpture", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["architecture", "culture", "performance"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -101,7 +101,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["cultural", "performing arts", "architecture"],
     accessibilityFeatures: ["wheelchair accessible", "audio assistance"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -122,7 +122,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     tags: ["dining", "shopping", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

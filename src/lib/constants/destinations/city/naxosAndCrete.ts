@@ -17,7 +17,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["historical", "cultural", "views"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["historical", "scenic", "sunset"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["nature", "hiking", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["beach", "nature", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -123,7 +123,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     tags: ["luxury", "resort", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

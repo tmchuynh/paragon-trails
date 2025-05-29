@@ -13,7 +13,7 @@ export const sanFranciscoTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cycling", "Bridge", "Views"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const sanFranciscoTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Prison", "History", "Neighborhoods"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const sanFranciscoTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Food", "Street Food", "Local Cuisine"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

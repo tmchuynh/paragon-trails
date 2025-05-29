@@ -12,7 +12,7 @@ export const athensTours: Tour[] = [
     price: "$155",
     rating: 4.9,
     tags: ["Ancient Greece", "Archaeology", "Early Access"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const athensTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const athensTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["Sunset", "Ancient Temple", "Seaside"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -128,7 +128,7 @@ export const athensTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Local Life", "Hidden Gems", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -170,7 +170,7 @@ export const athensTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Photography", "Landmarks", "Urban"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -212,7 +212,7 @@ export const athensTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Wine", "Tasting", "Culinary"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -254,7 +254,7 @@ export const athensTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Mythology", "Storytelling", "Ancient Sites"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -296,7 +296,7 @@ export const athensTours: Tour[] = [
     price: "$175",
     rating: 4.7,
     tags: ["Adventure", "Climbing", "Kayaking"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -338,7 +338,7 @@ export const athensTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Family", "Interactive", "Educational"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -380,7 +380,7 @@ export const athensTours: Tour[] = [
     price: "$895",
     rating: 5.0,
     tags: ["Luxury", "Yacht", "Gourmet"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

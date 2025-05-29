@@ -13,7 +13,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Culture", "Photography", "Artisans"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -77,7 +77,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Photography", "Artistic", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Cooking", "Food", "Market"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nature", "Hiking", "Swimming"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -173,7 +173,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$35",
     rating: 4.9,
     tags: ["Sunset", "Rooftop", "Tea Ceremony"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -205,7 +205,7 @@ export const chefchaouenTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Shopping", "Culture", "Local Markets"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

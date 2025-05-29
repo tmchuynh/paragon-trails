@@ -13,7 +13,7 @@ export const mumbaiTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Community", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -45,7 +45,7 @@ export const mumbaiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Bollywood", "Entertainment", "Dance"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const mumbaiTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Food", "Street Food", "Culinary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const mumbaiTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Markets", "Fishing", "Local Life"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -136,7 +136,7 @@ export const mumbaiTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["History", "Architecture", "Colonial"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -168,7 +168,7 @@ export const mumbaiTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nightlife", "Skyline", "Luxury"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -200,7 +200,7 @@ export const mumbaiTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["UNESCO", "Archaeology", "Sailing"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -232,7 +232,7 @@ export const mumbaiTours: Tour[] = [
     price: "$60",
     rating: 4.5,
     tags: ["Nature", "Gardens", "Peaceful"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -264,7 +264,7 @@ export const mumbaiTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Architecture", "Art Deco", "Heritage"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

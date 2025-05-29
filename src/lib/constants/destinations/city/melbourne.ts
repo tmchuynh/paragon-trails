@@ -18,7 +18,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "elevators",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -53,7 +53,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "accessible restrooms",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -89,7 +89,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "elevators",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -119,7 +119,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     tags: ["market", "food", "shopping", "historical", "local experience"],
     accessibilityFeatures: ["generally accessible grounds"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -155,7 +155,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "elevators",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -183,7 +183,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     rating: 4.7,
     tags: ["street art", "urban culture", "photography", "art", "walking"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -225,7 +225,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "elevators",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -253,7 +253,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     rating: 4.4,
     tags: ["beach", "photography", "iconic", "coastal", "swimming"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -287,7 +287,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
       "day trip",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -319,7 +319,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     tags: ["beach", "amusement park", "dining", "entertainment", "sunset"],
     accessibilityFeatures: ["accessible boardwalk", "some accessible rides"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

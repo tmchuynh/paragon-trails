@@ -12,7 +12,7 @@ export const bangkokTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Canals", "Local Life", "Off-the-beaten-path"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const bangkokTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Nightlife", "Street Food", "Rooftops"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const bangkokTours: Tour[] = [
     price: "$70",
     rating: 4.9,
     tags: ["Cultural", "Historical", "Temples"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const bangkokTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Markets", "Crafts", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

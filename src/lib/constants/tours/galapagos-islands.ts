@@ -13,7 +13,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$3,250",
     rating: 4.9,
     tags: ["Wildlife", "Scientific", "Island Hopping"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -46,7 +46,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,450",
     rating: 4.8,
     tags: ["Snorkeling", "Marine Life", "Conservation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -83,7 +83,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$4,195",
     rating: 4.9,
     tags: ["Photography", "Wildlife", "Small Group"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -115,7 +115,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,850",
     rating: 4.7,
     tags: ["Geology", "Volcanoes", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -147,7 +147,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,995",
     rating: 4.9,
     tags: ["Family", "Educational", "Wildlife"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -179,7 +179,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$8,950",
     rating: 5.0,
     tags: ["Luxury", "Private Charter", "Exclusive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -211,7 +211,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$3,450",
     rating: 4.8,
     tags: ["Conservation", "Volunteering", "Educational"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -243,7 +243,7 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,200",
     rating: 4.9,
     tags: ["Birdwatching", "Wildlife", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

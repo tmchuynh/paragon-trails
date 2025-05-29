@@ -9,25 +9,11 @@ export const tourCategorys: TourCategory[] = [
     tags: ["heritage", "tradition", "local culture"],
   },
   {
-    id: "adventure",
-    title: "Adventure Tours",
-    description:
-      "Experience thrilling adventures, from trekking in the mountains to diving in the ocean. Join guided tours that take you off the beaten path and into the heart of nature. Challenge yourself with activities like white-water rafting, rock climbing, zip-lining through rainforest canopies, or hiking to remote summits for breathtaking views. Our experienced guides ensure your safety while pushing your limits, creating adrenaline-pumping memories in some of the world's most spectacular landscapes. Whether you're a seasoned adventurer or trying something new, these tours combine excitement with unforgettable natural beauty.",
-    tags: ["outdoor", "thrill", "exploration"],
-  },
-  {
     id: "culinary",
     title: "Culinary Tours",
     description:
       "Savor the flavors of local cuisines with guided food tours and cooking classes. Learn about traditional cooking methods, visit local markets, and taste authentic dishes. Discover the stories behind regional specialties as you sample street food in bustling markets, dine in hidden local gems, and participate in hands-on cooking workshops taught by skilled local chefs. Explore vineyards, olive groves, and specialty food producers to understand how geography and culture influence cuisine. Our culinary tours offer a delicious journey through the heart of each destination, creating delectable memories and new cooking skills to bring home.",
     tags: ["food", "gastronomy", "local cuisine"],
-  },
-  {
-    id: "wildlife",
-    title: "Wildlife Tours",
-    description:
-      "Discover the beauty of nature and wildlife through guided safaris and eco-tours. Experience the thrill of spotting animals in their natural habitats while learning about conservation efforts. Trek through rainforests to observe rare birds and primates, embark on photographic safaris across savanna plains to witness majestic predators, or snorkel among vibrant coral reefs teeming with marine life. Our experienced naturalist guides share their extensive knowledge of ecosystems and animal behavior, ensuring respectful wildlife encounters that support conservation. These tours combine adventure with education, creating unforgettable experiences while promoting the protection of Earth's most precious species and environments.",
-    tags: ["nature", "safari", "conservation"],
   },
   {
     id: "wellness",
@@ -44,41 +30,6 @@ export const tourCategorys: TourCategory[] = [
     tags: ["history", "archaeology", "landmarks"],
   },
   {
-    id: "photography",
-    title: "Photography Tours",
-    description:
-      "Capture stunning landscapes and vibrant cultures with guided photography tours. Learn tips and techniques from professional photographers while exploring picturesque locations. From the golden hour at iconic landmarks to the bustling energy of local markets, these tours provide exclusive access and expert guidance to help you hone your photography skills. Whether you're using a smartphone or a professional camera, our photography tours are designed to elevate your ability to capture the beauty and essence of each destination.",
-    tags: ["photography", "landscape", "culture"],
-  },
-  {
-    id: "spiritual",
-    title: "Spiritual Tours",
-    description:
-      "Embark on journeys that explore spiritual practices and sacred sites. Participate in meditation retreats, visit temples, and learn about different spiritual traditions. Experience the tranquility of ancient monasteries, the energy of sacred mountains, and the wisdom of indigenous spiritual leaders. Our spiritual tours offer a deep dive into the beliefs and practices that shape cultures, providing meaningful insights and transformative experiences. Connect with your inner self and the world around you in a profound way.",
-    tags: ["spirituality", "meditation", "sacred sites"],
-  },
-  {
-    id: "family",
-    title: "Family Tours",
-    description:
-      "Enjoy family-friendly tours that cater to all ages. Engage in fun activities, educational experiences, and interactive attractions that create lasting memories for the whole family. From wildlife safaris and cultural performances to hands-on workshops and outdoor adventures, these tours are designed to entertain and educate. Our guides are experienced in working with families, ensuring a balance of activities that will keep everyone engaged and happy. Discover the world together as a family, with experiences that will inspire and bond you.",
-    tags: ["family", "kids", "fun"],
-  },
-  {
-    id: "romantic",
-    title: "Romantic Tours",
-    description:
-      "Create unforgettable moments with romantic tours designed for couples. Enjoy candlelit dinners, scenic views, and intimate experiences that strengthen your bond. From sunset cruises and private beach dinners to couples' spa treatments and wine tasting tours, these experiences are curated to inspire romance and connection. Whether it's a honeymoon, anniversary, or just because, our romantic tours offer the perfect backdrop for celebrating your love.",
-    tags: ["romance", "couples", "intimacy"],
-  },
-  {
-    id: "off-the-beaten-path",
-    title: "Off the Beaten Path Tours",
-    description:
-      "Discover hidden gems and lesser-known destinations with tours that take you away from the crowds. Experience unique landscapes, local cultures, and authentic experiences. Explore secret beaches, ancient ruins tucked away in the jungle, or charming villages that offer a glimpse into traditional life. Our guides are experts in uncovering the road less traveled, providing you with unique stories and experiences that you won't find in standard travel itineraries. These tours are perfect for the adventurous spirit seeking to explore the world’s hidden treasures.",
-    tags: ["hidden gems", "unique", "local"],
-  },
-  {
     id: "local-experience",
     title: "Local Experience Tours",
     description:
@@ -86,31 +37,45 @@ export const tourCategorys: TourCategory[] = [
     tags: ["local", "community", "cultural exchange"],
   },
   {
+    id: "adventure",
+    title: "Adventure Tours",
+    description:
+      "For the thrill-seekers, our adventure tours offer activities like hiking, biking, kayaking, and more. Experience the great outdoors while exploring breathtaking landscapes. Conquer challenging trails, paddle through pristine waters, or zip-line through lush canopies with expert guides who ensure your safety while providing insights into the natural environment. Our adventure tours cater to all skill levels, from beginners to seasoned adventurers, offering a range of experiences that combine physical activity with stunning scenery and cultural encounters. Whether you're trekking through remote mountains, cycling along coastal paths, or navigating rivers, these tours provide an adrenaline rush and unforgettable memories.",
+    tags: ["outdoor", "nature", "sports"],
+  },
+  {
+    id: "romantic",
+    title: "Romantic Tours",
+    description:
+      "Create unforgettable memories with your loved one through romantic tours. Enjoy candlelit dinners, sunset cruises, and intimate experiences designed for couples. From private yacht charters to secluded beach picnics, our romantic tours offer the perfect setting for love to blossom. Experience breathtaking sunsets, share quiet moments in picturesque locations, and indulge in luxurious accommodations that enhance your connection. Whether you're celebrating an anniversary, honeymoon, or simply seeking a romantic getaway, these tours provide enchanting experiences that strengthen bonds and create lasting memories.",
+    tags: ["couples", "honeymoon", "intimate"],
+  },
+  {
+    id: "nightlife",
+    title: "Nightlife Tours",
+    description:
+      "Experience the vibrant nightlife of various cities with guided tours that take you to the best bars, clubs, and entertainment spots. Enjoy live music, dance, and local drinks in a lively atmosphere. Our nightlife tours are designed to showcase the unique energy and culture of each destination after dark. From rooftop bars with stunning views to hidden speakeasies and bustling night markets, these tours offer a taste of local nightlife that goes beyond the ordinary. Whether you're looking for a lively party scene or a more relaxed evening of cocktails and conversation, our expert guides will lead you to the best spots for an unforgettable night out.",
+    tags: ["bars", "clubs", "entertainment"],
+  },
+  {
+    id: "art-and-music",
+    title: "Art and Music Tours",
+    description:
+      "Explore the artistic and musical heritage of various cultures through guided tours of galleries, museums, and live performances. Discover local artists, attend concerts, and learn about the history of art and music in the region. Our art and music tours provide an immersive experience that connects you with the creative spirit of each destination. Visit renowned galleries, meet local artists, and enjoy intimate performances that showcase traditional and contemporary art forms. Whether you're an art enthusiast or a music lover, these tours offer a unique perspective on the cultural landscape through the eyes of local creators.",
+    tags: ["galleries", "performances", "cultural"],
+  },
+  {
     id: "luxury",
     title: "Luxury Tours",
     description:
-      "Indulge in opulent experiences with luxury tours that offer exclusive access to high-end accommodations, gourmet dining, and personalized services. Enjoy private jet charters, yacht cruises, and stays in world-class hotels and resorts. Our luxury tours are tailored to provide the utmost in comfort, style, and exclusivity, with bespoke itineraries that cater to your every desire. Experience the pinnacle of travel with services and amenities that are second to none.",
-    tags: ["luxury", "exclusive", "high-end"],
+      "Indulge in luxury travel experiences with private tours, exclusive access to high-end venues, and personalized services. Enjoy gourmet dining, luxury accommodations, and bespoke itineraries tailored to your preferences. Our luxury tours are designed for discerning travelers seeking the finest experiences in each destination. From private yacht charters to exclusive wine tastings at renowned vineyards, these tours offer unparalleled comfort and sophistication. Experience the best that each location has to offer with personalized attention and exceptional service that exceeds expectations.",
+    tags: ["exclusive", "high-end", "bespoke"],
   },
   {
-    id: "budget",
-    title: "Budget Tours",
+    id: "off-the-beaten-path",
+    title: "Off the Beaten Path Tours",
     description:
-      "Explore the world without breaking the bank with budget-friendly tours. Enjoy affordable experiences that provide value without compromising on quality. Stay in comfortable, budget accommodations, enjoy local transport, and partake in free or low-cost activities that highlight the best of each destination. Our budget tours are designed to offer incredible experiences at an affordable price, making travel accessible to everyone. Discover how rich and rewarding travel can be, even on a budget.",
-    tags: ["affordable", "value", "budget-friendly"],
-  },
-  {
-    id: "solo",
-    title: "Solo Tours",
-    description:
-      "Embark on adventures designed for solo travelers. Meet like-minded individuals, join group tours, and explore new destinations at your own pace. Enjoy the freedom of solo travel with the safety and social opportunities of guided tours. Our solo tours are perfect for those looking to connect with other travelers while enjoying unique experiences that cater to independent explorers. Discover the world on your terms, with the support and camaraderie of fellow adventurers.",
-    tags: ["solo travel", "independent", "exploration"],
-  },
-  {
-    id: "group",
-    title: "Group Tours",
-    description:
-      "Join group tours for a shared travel experience. Meet new people, share adventures, and enjoy guided itineraries that cover popular attractions. Our group tours are designed to provide a balance of social interaction and personal exploration, with flexible itineraries that allow you to experience the highlights of each destination. Travel with friends old and new, and create lasting memories together.",
-    tags: ["group travel", "social", "shared experiences"],
+      "Discover hidden gems and lesser-known destinations with tours that take you beyond the typical tourist spots. Explore remote villages, untouched nature reserves, and unique cultural experiences. Our off-the-beaten-path tours are designed for adventurous travelers who seek authentic experiences away from the crowds. Venture into remote landscapes, interact with local communities, and uncover the secrets of lesser-known regions that offer a different perspective on culture and nature. These tours provide an opportunity to connect with destinations in a more meaningful way, creating unforgettable memories that go beyond conventional travel.",
+    tags: ["hidden gems", "adventure", "authentic"],
   },
 ];

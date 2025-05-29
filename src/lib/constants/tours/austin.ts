@@ -13,7 +13,7 @@ export const austinTours: Tour[] = [
     price: "$79",
     rating: 4.8,
     tags: ["Music", "Nightlife", "Cultural"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const austinTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["Food", "BBQ", "Beer"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -97,7 +97,7 @@ export const austinTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["History", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -139,7 +139,7 @@ export const austinTours: Tour[] = [
     price: "$55",
     rating: 4.6,
     tags: ["Nature", "Kayaking", "Outdoor"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -181,7 +181,7 @@ export const austinTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["Wine", "Scenic", "Nature"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -223,7 +223,7 @@ export const austinTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

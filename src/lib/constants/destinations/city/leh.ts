@@ -17,7 +17,7 @@ export const lehLadakhIndia: Attraction[] = [
     tags: ["natural", "scenic", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const lehLadakhIndia: Attraction[] = [
     tags: ["religious", "cultural", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const lehLadakhIndia: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

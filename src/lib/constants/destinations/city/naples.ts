@@ -17,7 +17,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["historical", "archaeological", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -39,7 +39,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["museum", "historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["nature", "outdoor", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["art", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -124,7 +124,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["food", "cultural", "iconic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -147,7 +147,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     tags: ["luxury", "design", "wellness"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

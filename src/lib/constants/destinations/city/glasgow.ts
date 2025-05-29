@@ -15,7 +15,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     tags: ["historical", "religious", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -53,7 +53,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -73,7 +73,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     tags: ["luxury", "whisky", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

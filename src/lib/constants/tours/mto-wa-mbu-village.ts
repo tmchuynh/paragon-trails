@@ -13,7 +13,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Community", "Tribal"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -45,7 +45,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["Agriculture", "Brewing", "Food & Drink"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -77,7 +77,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$40",
     rating: 4.8,
     tags: ["Cycling", "Wildlife", "Active"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Cooking", "Food", "Cultural Exchange"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -141,7 +141,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$65",
     rating: 4.6,
     tags: ["Maasai", "Indigenous", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -174,7 +174,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Crafts", "Artisans", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -206,7 +206,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Canoe", "Wildlife", "Sunset"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -238,7 +238,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$30",
     rating: 4.9,
     tags: ["Community", "Education", "Sustainable"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -270,7 +270,7 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Festivals", "Culture", "Dance"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

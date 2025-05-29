@@ -12,7 +12,7 @@ export const yokohamaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Night Views", "Urban"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const yokohamaTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Food", "Chinatown", "Cultural Fusion"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -66,7 +66,7 @@ export const yokohamaTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Historical", "Nature", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

@@ -13,7 +13,7 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Hiking", "Sunrise", "Food"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const honoluluTours: Tour[] = [
     price: "$105",
     rating: 4.8,
     tags: ["History", "Memorial", "Military"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -97,7 +97,7 @@ export const honoluluTours: Tour[] = [
     price: "$145",
     rating: 4.7,
     tags: ["Cultural", "Food", "Entertainment"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -139,7 +139,7 @@ export const honoluluTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["North Shore", "Surfing", "Beaches"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -181,7 +181,7 @@ export const honoluluTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Snorkeling", "Marine Life", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -223,7 +223,7 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["History", "Hawaiian Royalty", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -265,7 +265,7 @@ export const honoluluTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Cooking", "Farm", "Food"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -307,7 +307,7 @@ export const honoluluTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Scenic", "Full-Day"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -349,7 +349,7 @@ export const honoluluTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Cultural", "Volunteer", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -391,7 +391,7 @@ export const honoluluTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Full Island", "Sightseeing", "Highlights"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -434,7 +434,7 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Sunset", "Cruise", "Stargazing"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

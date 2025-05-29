@@ -13,7 +13,7 @@ export const melbourneTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Street Art", "Culture", "Workshop"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const melbourneTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Coastal Drive", "Natural Wonders", "Photography"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const melbourneTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Coffee", "Food", "Cultural"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const melbourneTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Wine", "Gourmet", "Scenic"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const melbourneTours: Tour[] = [
     price: "$165",
     rating: 4.8,
     tags: ["Wildlife", "Penguins", "Conservation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -173,7 +173,7 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Indigenous", "Cultural", "Historical"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -205,7 +205,7 @@ export const melbourneTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Photography", "Architecture", "Skills"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -237,7 +237,7 @@ export const melbourneTours: Tour[] = [
     price: "$225",
     rating: 4.8,
     tags: ["Gourmet", "Dining", "Wine"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -269,7 +269,7 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Beer", "Pubs", "Local Experience"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

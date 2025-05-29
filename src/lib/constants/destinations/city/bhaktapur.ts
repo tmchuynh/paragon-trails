@@ -16,7 +16,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     tags: ["cultural", "crafts", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     tags: ["religious", "historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -79,7 +79,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     tags: ["luxury", "exclusive", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

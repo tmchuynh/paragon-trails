@@ -13,7 +13,7 @@ export const savannahTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["History", "Architecture", "Gardens"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const savannahTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Cemetery", "Photography", "Gothic"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const savannahTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cruise", "Dinner", "Views"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

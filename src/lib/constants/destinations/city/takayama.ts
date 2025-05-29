@@ -18,7 +18,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["historical", "cultural", "traditional"],
     accessibilityFeatures: ["mostly flat terrain", "some narrow streets"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -47,7 +47,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["museum", "historical", "cultural"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -76,7 +76,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["cultural", "museum", "traditional"],
     accessibilityFeatures: ["some wheelchair accessible paths"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -106,7 +106,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["festival", "cultural", "traditional"],
     accessibilityFeatures: ["crowded during festival times"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -135,7 +135,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["dining", "gourmet", "food"],
     accessibilityFeatures: ["varies by restaurant"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -163,7 +163,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["scenic", "nature", "mountain"],
     accessibilityFeatures: ["wheelchair accessible gondola"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -192,7 +192,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     tags: ["accommodation", "traditional", "luxury"],
     accessibilityFeatures: ["staff assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

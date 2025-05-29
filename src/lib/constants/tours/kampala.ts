@@ -13,7 +13,7 @@ export const kampalaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cultural", "Religious", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const kampalaTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const kampalaTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Adventure", "City Tour", "Local Experience"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const kampalaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Religious", "Historical", "Pilgrimage"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -136,7 +136,7 @@ export const kampalaTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Cultural", "UNESCO", "Historical"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -198,7 +198,7 @@ export const kampalaTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["Crafts", "Art", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -231,7 +231,7 @@ export const kampalaTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Off the Beaten Path", "Local Culture", "Hidden Gems"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

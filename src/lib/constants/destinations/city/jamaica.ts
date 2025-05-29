@@ -20,7 +20,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,
@@ -52,7 +52,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,
@@ -79,7 +79,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "free",
     timeOfDay: "all day",
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isFree: true,
     isPopular: true,
@@ -106,7 +106,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$",
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,
@@ -133,7 +133,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "moderate",
     timeOfDay: "all day",
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isFree: true,
     isHistorical: true,
@@ -166,7 +166,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,
@@ -190,7 +190,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,
@@ -215,7 +215,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "moderate",
     timeOfDay: "all day",
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isFree: true,
     isHistorical: false,
@@ -244,7 +244,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "budget",
     timeOfDay: "nighttime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isFree: false,
     isPopular: true,

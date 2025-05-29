@@ -17,7 +17,7 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     tags: ["cultural", "historical", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     tags: ["scenic", "outdoor", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

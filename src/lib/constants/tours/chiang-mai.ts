@@ -12,7 +12,7 @@ export const chiangMaiTours: Tour[] = [
     price: "$95",
     rating: 5.0,
     tags: ["Wildlife", "Conservation", "Nature"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -54,7 +54,7 @@ export const chiangMaiTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Spiritual", "Cultural", "Buddhism"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -96,7 +96,7 @@ export const chiangMaiTours: Tour[] = [
     price: "$30",
     rating: 4.7,
     tags: ["Food", "Shopping", "Culture"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -138,7 +138,7 @@ export const chiangMaiTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["Cultural", "Nature", "Historical"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

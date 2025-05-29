@@ -20,7 +20,7 @@ export const vancouverBcCanada: Attraction[] = [
       "accessible facilities",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -50,7 +50,7 @@ export const vancouverBcCanada: Attraction[] = [
     tags: ["market", "arts", "shopping"],
     accessibilityFeatures: ["wheelchair accessible", "accessible ferry"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -82,7 +82,7 @@ export const vancouverBcCanada: Attraction[] = [
       "not fully wheelchair accessible",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -111,7 +111,7 @@ export const vancouverBcCanada: Attraction[] = [
     tags: ["mountain", "outdoor activities", "views"],
     accessibilityFeatures: ["accessible Skyride and some facilities"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -140,7 +140,7 @@ export const vancouverBcCanada: Attraction[] = [
     tags: ["luxury", "adventure", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

@@ -17,7 +17,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     tags: ["natural", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     tags: ["cultural", "historical", "unique"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     tags: ["cultural", "scenic", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

@@ -13,7 +13,7 @@ export const chicagoTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Architecture", "River", "Photography"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const chicagoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Music", "Nightlife"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const chicagoTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

@@ -15,7 +15,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     tags: ["architectural", "viewpoint", "modern"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     tags: ["shopping", "entertainment", "dining"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -53,7 +53,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     tags: ["outdoor", "recreation", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

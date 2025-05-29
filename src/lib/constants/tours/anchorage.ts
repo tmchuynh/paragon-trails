@@ -12,7 +12,7 @@ export const anchorageTours: Tour[] = [
     price: "$495",
     rating: 5.0,
     tags: ["Flightseeing", "Wildlife", "Glacier"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -54,7 +54,7 @@ export const anchorageTours: Tour[] = [
     price: "$235",
     rating: 4.9,
     tags: ["Foraging", "Cooking", "Wilderness"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -91,7 +91,7 @@ export const anchorageTours: Tour[] = [
     price: "$275",
     rating: 4.8,
     tags: ["Northern Lights", "Photography", "Night Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -128,7 +128,7 @@ export const anchorageTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["History", "Walking Tour", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -170,12 +170,12 @@ export const anchorageTours: Tour[] = [
     price: "$325",
     rating: 4.9,
     tags: ["Dog Sledding", "Winter", "Adventure"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mitch Johnson, Iditarod Finisher",
+    tourGuide: "Mitch Johnson",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -207,12 +207,12 @@ export const anchorageTours: Tour[] = [
     price: "$375",
     rating: 4.9,
     tags: ["Denali", "National Park", "Wildlife"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Sarah Miller, Park Naturalist",
+    tourGuide: "Jack Stevens",
     tourCategoryId: "wildlife",
     faqs: [
       {
@@ -244,7 +244,7 @@ export const anchorageTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Indigenous Culture", "Art", "Education"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -281,7 +281,7 @@ export const anchorageTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Ice Fishing", "Winter", "Family Fun"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -318,12 +318,12 @@ export const anchorageTours: Tour[] = [
     price: "$895",
     rating: 5.0,
     tags: ["Luxury", "Spa", "Wilderness"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Elizabeth Grant, Spa Director",
+    tourGuide: "Elizabeth Grant",
     tourCategoryId: "luxury",
     faqs: [
       {

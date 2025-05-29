@@ -17,7 +17,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     tags: ["nature", "hiking", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     tags: ["cultural", "shopping", "food"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     tags: ["cultural", "scenic", "traditional"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

@@ -13,7 +13,7 @@ export const portVilaTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Waterfall", "Nature", "Swimming"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const portVilaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cultural", "Village Life", "Traditional"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -97,7 +97,7 @@ export const portVilaTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Snorkeling", "Lagoon", "Picnic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -140,7 +140,7 @@ export const portVilaTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sunset", "Dinner", "Cruise"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -183,7 +183,7 @@ export const portVilaTours: Tour[] = [
     price: "$395",
     rating: 4.9,
     tags: ["Volcano", "Adventure", "Natural Wonder"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -226,7 +226,7 @@ export const portVilaTours: Tour[] = [
     price: "$175",
     rating: 4.8,
     tags: ["Diving", "Conservation", "Marine Biology"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -270,7 +270,7 @@ export const portVilaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Caving", "Adventure", "Trekking"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -314,7 +314,7 @@ export const portVilaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Historical", "WWII", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -357,7 +357,7 @@ export const portVilaTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Cultural", "Traditional", "Local Experience"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -399,7 +399,7 @@ export const portVilaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["4WD", "Island Tour", "Adventure"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

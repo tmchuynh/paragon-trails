@@ -13,7 +13,7 @@ export const atlantaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Civil Rights", "History", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -60,12 +60,12 @@ export const atlantaTours: Tour[] = [
     price: "$125",
     rating: 4.7,
     tags: ["Film", "Entertainment", "Behind the Scenes"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sandra Mitchell, Film Industry Veteran",
+    tourGuide: "Sandra Mitchell",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -102,7 +102,7 @@ export const atlantaTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Food", "Cocktails", "Southern Cuisine"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -139,7 +139,7 @@ export const atlantaTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Urban Art", "Walking", "Outdoors"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -176,7 +176,7 @@ export const atlantaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Music", "Hip-Hop", "Cultural"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

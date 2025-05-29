@@ -13,7 +13,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["UNESCO Heritage", "Traditional Architecture", "Homestay"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$120",
     rating: 5.0,
     tags: ["Winter", "Festival", "Illumination"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Crafts", "Traditional Arts", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -94,7 +94,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Landscape", "Seasonal"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -121,7 +121,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Culinary", "Farm Visit", "Cooking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -148,7 +148,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$95",
     rating: 4.6,
     tags: ["Cycling", "Rural", "Off the Beaten Path"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -175,7 +175,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Day Trip", "UNESCO", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -202,7 +202,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Festival", "Performance", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -229,7 +229,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nature", "Birdwatching", "Ecology"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

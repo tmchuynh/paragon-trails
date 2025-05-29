@@ -16,7 +16,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     tags: ["scenic", "hiking", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     tags: ["shopping", "dining", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -56,7 +56,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     tags: ["nature", "wildlife", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -77,7 +77,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     tags: ["historical", "cultural", "museum"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -99,7 +99,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     tags: ["wine", "culinary", "scenic"],
     accessibilityFeatures: ["wheelchair accessible vehicles available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

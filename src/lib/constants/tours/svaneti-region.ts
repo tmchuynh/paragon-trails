@@ -13,7 +13,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["UNESCO", "Architecture", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -40,7 +40,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$395",
     rating: 4.8,
     tags: ["Trekking", "Mountain", "Adventure"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cooking", "Food", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -94,7 +94,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$120",
     rating: 4.6,
     tags: ["Horseback Riding", "Nature", "Adventure"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -121,7 +121,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Museum", "Art", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -149,7 +149,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Hiking", "Nature", "Lakes"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -176,7 +176,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Music", "UNESCO", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -203,7 +203,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Landscape", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -230,7 +230,7 @@ export const svanetiRegionTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nature", "Waterfalls", "Adventure"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

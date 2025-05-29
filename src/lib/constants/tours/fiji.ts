@@ -12,7 +12,7 @@ export const fijiTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Cultural", "Traditional", "Village"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -60,7 +60,7 @@ export const fijiTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Marine Conservation", "Snorkeling", "Eco-friendly"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -108,7 +108,7 @@ export const fijiTours: Tour[] = [
     price: "$180",
     rating: 5.0,
     tags: ["Island Hopping", "Snorkeling", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -156,7 +156,7 @@ export const fijiTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Hiking", "Waterfalls", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -198,7 +198,7 @@ export const fijiTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Market"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -241,7 +241,7 @@ export const fijiTours: Tour[] = [
     price: "$130",
     rating: 4.7,
     tags: ["Cultural", "Performance", "Traditional"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -286,7 +286,7 @@ export const fijiTours: Tour[] = [
     price: "$225",
     rating: 4.9,
     tags: ["Adventure", "Caves", "Islands"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -329,7 +329,7 @@ export const fijiTours: Tour[] = [
     price: "$160",
     rating: 4.7,
     tags: ["Wellness", "Healing", "Retreat"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -374,7 +374,7 @@ export const fijiTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Agriculture", "Sustainability", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -418,7 +418,7 @@ export const fijiTours: Tour[] = [
     price: "$170",
     rating: 4.9,
     tags: ["Adventure", "Cultural", "River"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -462,7 +462,7 @@ export const fijiTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Snorkeling", "Marine Life", "Conservation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

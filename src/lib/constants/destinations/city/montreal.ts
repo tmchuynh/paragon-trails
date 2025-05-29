@@ -17,7 +17,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["cultural", "historical", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["nature", "outdoor", "recreation"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -60,7 +60,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -83,7 +83,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["nature", "educational", "family"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -104,7 +104,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["food", "market", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -125,7 +125,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -146,7 +146,7 @@ export const montrealQcCanada: Attraction[] = [
     tags: ["dining", "gourmet", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

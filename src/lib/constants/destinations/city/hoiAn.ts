@@ -17,7 +17,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     tags: ["cultural", "historical", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     tags: ["historical", "cultural", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     tags: ["outdoor", "beach", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
   },
@@ -78,7 +78,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     tags: ["luxury", "wellness", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -17,7 +17,7 @@ export const munichBavariaGermany: Attraction[] = [
     tags: ["historical", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const munichBavariaGermany: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const munichBavariaGermany: Attraction[] = [
     tags: ["nature", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const munichBavariaGermany: Attraction[] = [
     tags: ["dining", "gourmet", "luxury"],
     accessibilityFeatures: ["wheelchair accessible", "elevator access"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

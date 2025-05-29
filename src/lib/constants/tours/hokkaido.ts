@@ -13,7 +13,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$2,950",
     rating: 4.9,
     tags: ["Skiing", "Winter", "Onsen"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,895",
     rating: 4.8,
     tags: ["Food", "Agriculture", "Cooking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -82,7 +82,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$2,750",
     rating: 4.9,
     tags: ["Wildlife", "Photography", "Winter"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -125,7 +125,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,250",
     rating: 4.7,
     tags: ["Hiking", "Volcanoes", "Hot Springs"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -157,7 +157,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,950",
     rating: 4.8,
     tags: ["Winter Festivals", "Cultural", "Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -189,7 +189,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,150",
     rating: 4.6,
     tags: ["Indigenous", "Cultural", "Crafts"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -258,7 +258,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,450",
     rating: 4.9,
     tags: ["Flowers", "Photography", "Summer"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -305,7 +305,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,850",
     rating: 4.7,
     tags: ["Kayaking", "Wildlife", "Camping"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -342,7 +342,7 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,350",
     rating: 4.8,
     tags: ["Snowshoeing", "Wildlife", "Winter"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

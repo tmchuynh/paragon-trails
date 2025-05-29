@@ -16,7 +16,6 @@ export interface Tour {
   price: string;
   rating: number;
   tags?: string[];
-  isFamilyFriendly?: boolean;
   isHistorical?: boolean;
   isRomantic?: boolean;
   isAdventure?: boolean;

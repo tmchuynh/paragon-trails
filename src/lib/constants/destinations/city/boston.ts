@@ -17,7 +17,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "walking tour"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     tags: ["park", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const bostonMaUnitedStates: Attraction[] = [
     tags: ["dining", "gourmet", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

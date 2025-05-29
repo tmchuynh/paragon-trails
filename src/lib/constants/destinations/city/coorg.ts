@@ -17,7 +17,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     tags: ["natural", "outdoor", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -37,7 +37,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     tags: ["wildlife", "cultural", "family"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -58,7 +58,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     tags: ["religious", "scenic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -79,7 +79,7 @@ export const coorgKarnatakaIndia: Attraction[] = [
     tags: ["agricultural", "educational", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

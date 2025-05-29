@@ -12,7 +12,7 @@ export const copenhagenTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cycling", "Canals", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const copenhagenTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["Design", "Architecture", "Modern"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const copenhagenTours: Tour[] = [
     price: "$160",
     rating: 4.9,
     tags: ["Culinary", "Street Food", "Fine Dining"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const copenhagenTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Royalty", "Gardens", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

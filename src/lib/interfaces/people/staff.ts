@@ -24,6 +24,8 @@ export interface TourGuide extends TeamMember {
   region?: string;
   isPopular?: boolean;
   bio: string;
+  description?: string;
+  quote?: string;
   profileImage: string;
   specialties: string[];
   languages: string[];

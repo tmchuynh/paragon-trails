@@ -17,7 +17,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["entertainment", "nightlife", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -101,7 +101,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["historical", "educational", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -122,7 +122,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["music", "cultural", "entertainment"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -145,7 +145,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     tags: ["dining", "luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

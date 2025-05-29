@@ -17,7 +17,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     tags: ["historical", "cultural", "iconic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     tags: ["historical", "architectural", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     tags: ["scenic", "outdoor", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     tags: ["luxury", "heritage", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible", "valet service"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

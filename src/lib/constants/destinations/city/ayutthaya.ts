@@ -16,7 +16,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -57,7 +57,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -78,7 +78,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["luxury", "exclusive", "aerial tour"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -99,7 +99,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["cultural", "shopping", "food"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -119,7 +119,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "palace"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -139,7 +139,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -159,7 +159,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["religious", "cultural", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -179,7 +179,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -199,7 +199,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -219,7 +219,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -239,7 +239,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -259,7 +259,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "religious", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -279,7 +279,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,

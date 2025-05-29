@@ -16,7 +16,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["luxury", "exclusive", "marine"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -58,7 +58,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["luxury", "wellness", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -79,7 +79,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["dining", "gourmet", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -100,7 +100,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "garden"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -121,7 +121,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["outdoor", "hiking", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -143,7 +143,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["cultural", "music", "performing arts"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -165,7 +165,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["cultural", "artisan", "workshop"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -187,7 +187,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["cultural", "culinary", "local experience"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -208,7 +208,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "garden"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -229,7 +229,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["natural", "scenic", "beach"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -250,7 +250,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "garden"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -271,7 +271,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["beach", "scenic", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -292,7 +292,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["natural", "scenic", "cave"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -313,7 +313,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["hiking", "scenic", "outdoor"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -334,7 +334,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["historical", "cultural", "garden"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -355,7 +355,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     tags: ["marine", "scenic", "outdoor"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,

@@ -12,7 +12,7 @@ export const munichTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Beer", "Cultural", "Food"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -78,7 +78,7 @@ export const munichTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Castles", "Architecture", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -127,7 +127,7 @@ export const munichTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Art", "Culture", "Museums"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -170,7 +170,7 @@ export const munichTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["History", "WWII", "Educational"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -219,7 +219,7 @@ export const munichTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Nature", "Mountains", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -268,7 +268,7 @@ export const munichTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -316,7 +316,7 @@ export const munichTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Automotive", "Technology", "Design"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -365,7 +365,7 @@ export const munichTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Seasonal", "Cultural", "Food & Drink"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -412,7 +412,7 @@ export const munichTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Festival", "Beer", "Cultural"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -459,7 +459,7 @@ export const munichTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Music", "Cultural", "Luxury"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -506,7 +506,7 @@ export const munichTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Art", "History", "Neighborhood"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -555,7 +555,7 @@ export const munichTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Historical", "Holocaust", "Educational"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -610,7 +610,7 @@ export const munichTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Royal History", "Architecture", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -657,7 +657,7 @@ export const munichTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Culinary", "Beer", "Interactive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

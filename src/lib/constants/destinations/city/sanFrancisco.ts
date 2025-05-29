@@ -17,7 +17,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["landmark", "scenic", "photography"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "tour"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["entertainment", "food", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "food"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -101,7 +101,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["nature", "recreation", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -122,7 +122,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["landmark", "scenic", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -143,7 +143,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["architectural", "scenic", "photography"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -164,7 +164,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     tags: ["landmark", "scenic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

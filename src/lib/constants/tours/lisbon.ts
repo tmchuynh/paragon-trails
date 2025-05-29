@@ -12,7 +12,7 @@ export const lisbonTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Music", "Cultural", "Evening"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const lisbonTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Palaces", "Gardens", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const lisbonTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Art", "Food", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

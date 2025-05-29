@@ -12,7 +12,7 @@ export const stockholmTours: Tour[] = [
     price: "$155",
     rating: 4.9,
     tags: ["Sailing", "Nature", "Islands"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -39,7 +39,7 @@ export const stockholmTours: Tour[] = [
     price: "$130",
     rating: 4.8,
     tags: ["Food", "Cooking", "Market"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const stockholmTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["History", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

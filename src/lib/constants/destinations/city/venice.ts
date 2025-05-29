@@ -17,7 +17,7 @@ export const veniceVenetoItaly: Attraction[] = [
     tags: ["plaza", "historic", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -46,7 +46,7 @@ export const veniceVenetoItaly: Attraction[] = [
     tags: ["canal", "gondola", "scenic"],
     accessibilityFeatures: ["accessible by water taxi"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -75,7 +75,7 @@ export const veniceVenetoItaly: Attraction[] = [
     tags: ["palace", "gothic", "history"],
     accessibilityFeatures: ["partial wheelchair access", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -104,7 +104,7 @@ export const veniceVenetoItaly: Attraction[] = [
     tags: ["artisan", "crafts", "workshop"],
     accessibilityFeatures: ["accessible by water taxi"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -133,7 +133,7 @@ export const veniceVenetoItaly: Attraction[] = [
     tags: ["exclusive", "cultural", "basilica"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

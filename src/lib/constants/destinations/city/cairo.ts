@@ -17,7 +17,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -39,7 +39,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     tags: ["historical", "cultural", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     tags: ["shopping", "cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -82,7 +82,7 @@ export const cairoCairoGovernorateEgypt: Attraction[] = [
     tags: ["dining", "entertainment", "scenic"],
     accessibilityFeatures: ["wheelchair accessible boats available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

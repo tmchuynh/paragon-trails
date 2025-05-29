@@ -17,7 +17,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     tags: ["entertainment", "luxury", "gambling"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     tags: ["educational", "marine", "science"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

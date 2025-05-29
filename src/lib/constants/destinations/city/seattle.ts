@@ -17,7 +17,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     tags: ["viewpoint", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     tags: ["shopping", "food", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     tags: ["art", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

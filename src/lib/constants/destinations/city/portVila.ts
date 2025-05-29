@@ -17,7 +17,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["nature", "waterfall", "swimming"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["cultural", "shopping", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["luxury", "resort", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["cultural", "educational", "traditional"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -103,7 +103,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["marine", "snorkeling", "island"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -125,7 +125,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["nature", "gardens", "scenic"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -147,7 +147,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -169,7 +169,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     tags: ["shopping", "cultural", "artisan"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

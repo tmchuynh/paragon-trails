@@ -15,7 +15,7 @@ export const heraklionCreteGreece: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const heraklionCreteGreece: Attraction[] = [
     tags: ["historical", "archaeological", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -54,7 +54,7 @@ export const heraklionCreteGreece: Attraction[] = [
     tags: ["historical", "fortress", "viewpoint"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -75,7 +75,7 @@ export const heraklionCreteGreece: Attraction[] = [
     tags: ["luxury", "exclusive", "marine"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

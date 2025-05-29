@@ -21,7 +21,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
       "hearing loops",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -51,7 +51,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     tags: ["iconic", "adventure", "views"],
     accessibilityFeatures: ["pedestrian path accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -83,7 +83,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
       "accessible facilities",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -114,7 +114,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
       "accessible restrooms",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -143,7 +143,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     tags: ["wildlife", "family", "educational"],
     accessibilityFeatures: ["wheelchair accessible", "accessible restrooms"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -173,7 +173,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
       "some cobblestone streets challenging for wheelchairs",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -202,7 +202,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     tags: ["views", "observation deck", "city"],
     accessibilityFeatures: ["elevator access", "wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -230,7 +230,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     tags: ["luxury", "exclusive", "sailing"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

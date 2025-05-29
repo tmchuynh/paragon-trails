@@ -13,7 +13,7 @@ export const panautiTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Cultural", "Architecture", "Religious"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -46,7 +46,7 @@ export const panautiTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Spiritual", "Hiking", "Meditation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -78,7 +78,7 @@ export const panautiTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cooking", "Culinary", "Market"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -110,7 +110,7 @@ export const panautiTours: Tour[] = [
     price: "$60",
     rating: 4.6,
     tags: ["Photography", "Architecture", "Dawn"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -142,7 +142,7 @@ export const panautiTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Hiking", "Buddhist", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

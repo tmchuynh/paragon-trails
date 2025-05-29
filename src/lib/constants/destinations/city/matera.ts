@@ -17,7 +17,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["historical", "cultural", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["religious", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["historical", "cultural", "museum"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["historical", "cultural", "underground"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -101,7 +101,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["outdoor", "nature", "hiking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -122,7 +122,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["religious", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -143,7 +143,7 @@ export const materaBasilicataItaly: Attraction[] = [
     tags: ["luxury", "heritage", "exclusive"],
     accessibilityFeatures: ["limited accessibility", "assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

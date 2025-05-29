@@ -12,7 +12,7 @@ export const edinburghTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Ghost Stories", "Underground", "History"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -54,7 +54,7 @@ export const edinburghTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Whisky", "Tasting", "Scottish Culture"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -96,7 +96,7 @@ export const edinburghTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Castle", "Royal History", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -138,7 +138,7 @@ export const edinburghTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Highlands", "Nature", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -180,7 +180,7 @@ export const edinburghTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Literature", "Walking Tour", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -218,7 +218,7 @@ export const edinburghTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Royal", "Maritime", "Exclusive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -255,7 +255,7 @@ export const edinburghTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Festival", "Arts", "Entertainment"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -297,7 +297,7 @@ export const edinburghTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Whisky", "Distillery", "Highlands"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -339,7 +339,7 @@ export const edinburghTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Hiking", "Nature", "Breakfast"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -381,7 +381,7 @@ export const edinburghTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Creative"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -423,7 +423,7 @@ export const edinburghTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Music", "Dance", "Evening"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -465,7 +465,7 @@ export const edinburghTours: Tour[] = [
     price: "$135",
     rating: 4.7,
     tags: ["Castles", "Abbeys", "Countryside"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

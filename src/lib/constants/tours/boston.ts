@@ -13,7 +13,7 @@ export const bostonTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Revolutionary History", "Walking", "Historical Sites"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const bostonTours: Tour[] = [
     price: "$39",
     rating: 4.7,
     tags: ["University", "Education", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -114,7 +114,7 @@ export const bostonTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Scenic", "Relaxation", "Evening"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -162,7 +162,7 @@ export const bostonTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Culinary", "Italian", "Local"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -209,7 +209,7 @@ export const bostonTours: Tour[] = [
     price: "$30",
     rating: 4.6,
     tags: ["Historical", "Interactive", "Family"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -258,7 +258,7 @@ export const bostonTours: Tour[] = [
     price: "$35",
     rating: 4.9,
     tags: ["Sports", "Baseball", "Historical"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -302,7 +302,7 @@ export const bostonTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Day Trip", "Historical", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -351,7 +351,7 @@ export const bostonTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Craft Beer", "Brewery", "Tasting"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -401,7 +401,7 @@ export const bostonTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Literary", "Historical", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -449,7 +449,7 @@ export const bostonTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Technology", "Innovation", "Education"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

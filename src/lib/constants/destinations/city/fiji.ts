@@ -15,7 +15,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     tags: ["natural", "outdoor", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     tags: ["natural", "garden", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -53,7 +53,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     tags: ["natural", "relaxation", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

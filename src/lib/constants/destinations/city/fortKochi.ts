@@ -15,7 +15,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     tags: ["outdoor", "scenic", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     tags: ["historical", "religious", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -53,7 +53,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     tags: ["cultural", "scenic", "photography"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -73,7 +73,7 @@ export const fortKochiKeralaIndia: Attraction[] = [
     tags: ["luxury", "cultural", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

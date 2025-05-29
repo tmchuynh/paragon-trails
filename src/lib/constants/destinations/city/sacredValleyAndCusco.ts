@@ -17,7 +17,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["cultural", "shopping", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -123,7 +123,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -144,7 +144,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["cultural", "local", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -165,7 +165,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -186,7 +186,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -207,7 +207,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -228,7 +228,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -249,7 +249,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["cultural", "shopping", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -270,7 +270,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -291,7 +291,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["scenic", "cultural", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -312,7 +312,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["nature", "wildlife", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -333,7 +333,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["luxury", "transportation", "dining"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -356,7 +356,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["luxury", "scenic", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -379,7 +379,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["culinary", "cultural", "hands-on"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -401,7 +401,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     tags: ["cultural", "artisan", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

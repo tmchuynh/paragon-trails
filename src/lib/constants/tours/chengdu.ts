@@ -13,7 +13,7 @@ export const chengduTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Wildlife", "Nature", "Photography"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const chengduTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Cooking", "Spicy"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -87,7 +87,7 @@ export const chengduTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -124,7 +124,7 @@ export const chengduTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Historical", "Nature", "Day Trip"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

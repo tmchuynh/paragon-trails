@@ -12,7 +12,7 @@ export const fezTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Medina", "Crafts", "Historical"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const fezTours: Tour[] = [
     price: "$110",
     rating: 5.0,
     tags: ["Cooking", "Market", "Culinary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const fezTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Heritage", "Architecture", "Historical"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const fezTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Nightlife", "Music", "Cultural"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

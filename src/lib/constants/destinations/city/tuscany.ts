@@ -17,7 +17,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     tags: ["countryside", "scenic", "photography"],
     accessibilityFeatures: ["accessible by car"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -48,7 +48,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
       "some cobblestone streets, challenging for wheelchairs",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -77,7 +77,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     tags: ["medieval", "towers", "historic town"],
     accessibilityFeatures: ["steep hills, limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -106,7 +106,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     tags: ["wine", "culinary", "countryside"],
     accessibilityFeatures: ["some accessible areas"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -135,7 +135,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     tags: ["luxury", "castle", "exclusive"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

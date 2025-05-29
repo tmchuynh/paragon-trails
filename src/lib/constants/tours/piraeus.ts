@@ -13,7 +13,7 @@ export const piraeusTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Archaeological", "Maritime", "Museums"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -62,7 +62,7 @@ export const piraeusTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Islands", "Cruise", "Swimming"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -99,7 +99,7 @@ export const piraeusTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Seafood", "Market", "Cooking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -131,7 +131,7 @@ export const piraeusTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Sailing", "Sunset", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -163,7 +163,7 @@ export const piraeusTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Photography", "Street Art", "Urban"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -195,7 +195,7 @@ export const piraeusTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Dining", "Evening", "Scenic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -227,7 +227,7 @@ export const piraeusTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Naval History", "Military", "Museum"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -264,7 +264,7 @@ export const piraeusTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Coastal", "Scenic Drive", "Sunset"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -301,7 +301,7 @@ export const piraeusTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Street Food", "Markets", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

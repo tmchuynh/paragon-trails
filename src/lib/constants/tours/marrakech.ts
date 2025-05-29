@@ -13,7 +13,7 @@ export const marrakechTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cultural", "Walking", "Artisans"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -50,7 +50,7 @@ export const marrakechTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Desert", "Adventure", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -87,7 +87,7 @@ export const marrakechTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nature", "Hiking", "Culinary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

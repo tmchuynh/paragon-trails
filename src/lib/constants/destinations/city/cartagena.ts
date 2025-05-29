@@ -14,7 +14,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     tags: ["historical", "architecture", "unesco", "colonial", "cultural"],
     accessibilityFeatures: ["some accessible areas", "flat streets in parts"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -45,7 +45,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.7,
     tags: ["fortress", "history", "military", "architecture", "viewpoint"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -73,7 +73,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.8,
     tags: ["local", "street art", "nightlife", "culture", "authentic"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -104,7 +104,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.6,
     tags: ["islands", "beaches", "snorkeling", "nature", "boat trip"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -136,7 +136,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     tags: ["museum", "history", "colonial", "architecture", "educational"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -167,7 +167,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.4,
     tags: ["natural spa", "unique", "adventure", "mud bath", "wellness"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -198,7 +198,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.5,
     tags: ["nature", "ecotourism", "boating", "wildlife", "community tourism"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -227,7 +227,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     tags: ["dining", "art", "culture", "nightlife", "people watching"],
     accessibilityFeatures: ["accessible plaza"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -257,7 +257,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     tags: ["shopping", "crafts", "souvenirs", "historical", "architecture"],
     accessibilityFeatures: ["ground level shops"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -285,7 +285,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     rating: 4.4,
     tags: ["beach", "swimming", "relaxation", "island", "day trip"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,

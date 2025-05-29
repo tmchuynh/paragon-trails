@@ -13,7 +13,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cultural", "Religious", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Food", "Night Markets", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Architecture", "History", "Photography"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -104,7 +104,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Art", "Craft", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -131,7 +131,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Nature", "Wildlife", "Sunset"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -158,7 +158,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Nature", "Birdwatching", "Rainforest"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -190,7 +190,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$150",
     rating: 4.8,
     tags: ["Luxury", "Shopping", "High Tea"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -222,7 +222,7 @@ export const kualaLumpurTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nightlife", "Cultural", "City Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

@@ -17,7 +17,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     tags: ["national park", "hiking", "sunrise", "nature", "volcano"],
     accessibilityFeatures: ["accessible parking", "accessible visitor center"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -44,7 +44,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.7,
     tags: ["scenic drive", "waterfalls", "nature", "beaches", "rainforest"],
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -75,7 +75,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     rating: 4.8,
     tags: ["snorkeling", "diving", "marine life", "boat tours", "wildlife"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -107,7 +107,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "coastal trails",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -136,7 +136,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "accessible restaurants and shops",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -162,7 +162,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     rating: 4.8,
     tags: ["beach", "swimming", "snorkeling", "sunset", "cliff diving"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -196,7 +196,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "cultural",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -234,7 +234,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "elevators",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -267,7 +267,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "photography",
       "hiking",
     ],
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -298,7 +298,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "accessible restrooms",
     ],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

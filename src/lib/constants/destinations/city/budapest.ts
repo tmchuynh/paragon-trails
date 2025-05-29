@@ -17,7 +17,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     tags: ["scenic", "historical", "viewpoint"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -61,7 +61,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
       "accessible changing rooms",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -82,7 +82,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     tags: ["luxury", "dining", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

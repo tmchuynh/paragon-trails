@@ -13,7 +13,7 @@ export const bhaktapurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["UNESCO", "Temples", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const bhaktapurTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Crafts", "Pottery", "Hands-on"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -82,7 +82,7 @@ export const bhaktapurTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Photography", "Cultural", "Full Day"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -114,7 +114,7 @@ export const bhaktapurTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Cooking", "Market", "Local Food"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -146,7 +146,7 @@ export const bhaktapurTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Spiritual", "Meditation", "Rituals"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

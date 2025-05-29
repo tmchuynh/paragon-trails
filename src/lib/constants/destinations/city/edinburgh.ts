@@ -17,7 +17,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     tags: ["historical", "cultural", "viewpoint"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     tags: ["outdoor", "hiking", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -56,7 +56,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     tags: ["cultural", "shopping", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
   },

@@ -15,7 +15,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     tags: ["beach", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     tags: ["hiking", "scenic", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -53,7 +53,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "memorial"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -74,7 +74,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     tags: ["luxury", "exclusive", "oceanfront"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

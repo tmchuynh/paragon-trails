@@ -17,7 +17,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     tags: ["religious", "cultural", "art"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -57,7 +57,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     tags: ["natural", "outdoor", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,

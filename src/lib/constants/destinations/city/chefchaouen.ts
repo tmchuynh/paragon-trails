@@ -17,7 +17,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     tags: ["cultural", "historical", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     tags: ["natural", "outdoor", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     tags: ["religious", "cultural", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
     tags: ["culinary", "workshop", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

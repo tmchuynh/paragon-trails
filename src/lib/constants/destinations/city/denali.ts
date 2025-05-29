@@ -16,7 +16,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     tags: ["natural", "outdoor", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
 
@@ -39,7 +39,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     tags: ["educational", "cultural", "information"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
 
@@ -61,7 +61,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     tags: ["natural", "scenic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -83,7 +83,7 @@ export const denaliAkUnitedStates: Attraction[] = [
     tags: ["tour", "wildlife", "scenic"],
     accessibilityFeatures: ["accessible buses available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

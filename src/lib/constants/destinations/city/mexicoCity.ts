@@ -17,7 +17,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     tags: ["cultural", "historical", "urban"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     tags: ["nature", "recreation", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     tags: ["cultural", "historical", "art"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     tags: ["historical", "cultural", "archaeological"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -100,7 +100,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     tags: ["dining", "luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

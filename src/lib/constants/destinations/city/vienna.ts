@@ -17,7 +17,7 @@ export const viennaViennaAustria: Attraction[] = [
     tags: ["palace", "imperial", "gardens"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -47,7 +47,7 @@ export const viennaViennaAustria: Attraction[] = [
     tags: ["opera", "classical music", "architecture"],
     accessibilityFeatures: ["wheelchair accessible areas", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -76,7 +76,7 @@ export const viennaViennaAustria: Attraction[] = [
     tags: ["art museum", "palace", "gardens"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -106,7 +106,7 @@ export const viennaViennaAustria: Attraction[] = [
     tags: ["market", "food", "shopping"],
     accessibilityFeatures: ["mostly flat terrain"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -135,7 +135,7 @@ export const viennaViennaAustria: Attraction[] = [
     tags: ["classical music", "exclusive", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

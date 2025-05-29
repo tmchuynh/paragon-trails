@@ -17,7 +17,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["cultural", "art", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["historical", "cultural", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["exclusive", "cultural", "art"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -104,7 +104,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["luxury", "adventure", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -127,7 +127,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["historical", "architectural", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -149,7 +149,7 @@ export const romeLazioItaly: Attraction[] = [
     tags: ["art", "museum", "gardens"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

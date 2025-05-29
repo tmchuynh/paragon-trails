@@ -12,7 +12,7 @@ export const tuscanyTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Wine", "Countryside", "Gourmet"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const tuscanyTours: Tour[] = [
     price: "$165",
     rating: 4.8,
     tags: ["Medieval", "Architecture", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const tuscanyTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Cooking", "Local Cuisine", "Hands-On"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -98,7 +98,7 @@ export const tuscanyTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Art", "Renaissance", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

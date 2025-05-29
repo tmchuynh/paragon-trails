@@ -13,7 +13,7 @@ export const sydneyTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Architecture", "Performing Arts", "VIP Access"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const sydneyTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Beaches", "Hiking", "Swimming"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -72,7 +72,7 @@ export const sydneyTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Food & Drink", "History", "Local Culture"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

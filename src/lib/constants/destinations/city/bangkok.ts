@@ -16,7 +16,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["religious", "cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -57,7 +57,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["shopping", "food", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -78,7 +78,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["luxury", "wellness", "spa"],
     accessibilityFeatures: ["wheelchair accessible", "private boat transfer"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -99,7 +99,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["cultural", "art", "exhibition"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -119,7 +119,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["shopping", "dining", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -139,7 +139,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["historical", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -159,7 +159,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["nature", "recreation", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -179,7 +179,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["shopping", "luxury", "dining"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -199,7 +199,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     tags: ["religious", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,

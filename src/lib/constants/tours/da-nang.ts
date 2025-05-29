@@ -13,7 +13,7 @@ export const daNangTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Mountain"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const daNangTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["UNESCO", "Temples", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -86,7 +86,7 @@ export const daNangTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Cultural", "Historical", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -123,7 +123,7 @@ export const daNangTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["City Tour", "Local Culture", "Photography"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,

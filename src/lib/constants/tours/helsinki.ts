@@ -12,7 +12,7 @@ export const helsinkiTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Sauna", "Wellness", "Traditional"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const helsinkiTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Design", "Architecture", "Shopping"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const helsinkiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["History", "UNESCO", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -113,7 +113,7 @@ export const helsinkiTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Food", "Culture", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

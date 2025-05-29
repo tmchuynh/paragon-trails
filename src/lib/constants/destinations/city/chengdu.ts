@@ -23,7 +23,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isOutdoor: true,
     isIndoor: true,
@@ -47,7 +47,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: true,
     isOutdoor: true,
@@ -81,7 +81,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     priceRange: "free",
     entryFeeCategory: "free",
     timeOfDay: "all day",
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isWheelchairAccessible: true,
     isIndoor: false,
@@ -112,7 +112,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: true,
     isAdventure: true,
@@ -138,7 +138,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: false,
     isIndoor: true,
@@ -164,7 +164,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: true,
     isOutdoor: true,
@@ -187,7 +187,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isHistorical: true,
     isIndoor: true,
@@ -210,7 +210,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isHistorical: false,
     isIndoor: true,
@@ -233,7 +233,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isHistorical: false,
     isIndoor: true,
@@ -256,7 +256,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isHistorical: false,
     isIndoor: false,
@@ -283,7 +283,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: true,
     isIndoor: true,
@@ -306,7 +306,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isHistorical: false,
     isIndoor: false,
@@ -329,7 +329,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: false,
     isIndoor: true,
@@ -352,7 +352,7 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     entryFeeCategory: "varies",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isHistorical: false,
     isIndoor: true,

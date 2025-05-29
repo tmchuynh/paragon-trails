@@ -17,7 +17,7 @@ export const berlinBerlinGermany: Attraction[] = [
     tags: ["historical", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -39,7 +39,7 @@ export const berlinBerlinGermany: Attraction[] = [
     tags: ["historical", "cultural", "memorial"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const berlinBerlinGermany: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const berlinBerlinGermany: Attraction[] = [
     tags: ["luxury", "shopping", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible", "private elevator"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

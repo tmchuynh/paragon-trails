@@ -17,7 +17,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     tags: ["outdoor", "scenic", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "walking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     tags: ["entertainment", "shopping", "dining"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

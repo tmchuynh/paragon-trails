@@ -16,7 +16,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     tags: ["historical", "cultural", "landmark"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     tags: ["cultural", "art", "neighborhood"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -57,7 +57,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     tags: ["outdoor", "recreation", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -79,7 +79,7 @@ export const buenosAiresBuenosAiresArgentina: Attraction[] = [
     tags: ["cultural", "performance", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

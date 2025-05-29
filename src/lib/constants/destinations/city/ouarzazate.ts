@@ -16,7 +16,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.9,
     tags: ["unesco", "historical", "architecture", "film location", "cultural"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -54,7 +54,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     ],
     accessibilityFeatures: ["fairly flat terrain"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -85,7 +85,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.5,
     tags: ["kasbah", "architecture", "historical", "museum", "cultural"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -113,7 +113,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.7,
     tags: ["oasis", "nature", "village", "hiking", "cultural"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -145,7 +145,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     tags: ["museum", "cinema", "film history", "cultural", "indoor activity"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -173,7 +173,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.8,
     tags: ["valley", "landscape", "palm groves", "kasbahs", "scenic drive"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -210,7 +210,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
       "film location",
     ],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -238,7 +238,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.6,
     tags: ["oasis", "palm grove", "kasbahs", "nature", "historical"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -266,7 +266,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.9,
     tags: ["canyon", "nature", "hiking", "rock climbing", "photography"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -295,7 +295,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     tags: ["dam", "reservoir", "engineering", "sunset views", "landscape"],
     accessibilityFeatures: ["paved viewing areas"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

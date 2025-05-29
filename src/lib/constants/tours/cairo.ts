@@ -12,7 +12,7 @@ export const cairoTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["Pyramids", "Archaeology", "Exclusive Access"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const cairoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Islamic Architecture", "Bazaar", "Crafts"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -97,7 +97,7 @@ export const cairoTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Nile River", "Cultural Show", "Culinary", "Sunset"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -139,7 +139,7 @@ export const cairoTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Christian Heritage", "Ancient Churches", "Religious History"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -182,7 +182,7 @@ export const cairoTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Culinary", "Street Food", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -229,7 +229,7 @@ export const cairoTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Ancient Egypt", "Pyramids", "Off the Beaten Path"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

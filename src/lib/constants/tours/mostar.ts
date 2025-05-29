@@ -13,7 +13,7 @@ export const mostarTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Historical", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const mostarTours: Tour[] = [
     price: "$35",
     rating: 4.8,
     tags: ["War History", "Educational", "Walking Tour"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const mostarTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Crafts", "Workshop", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const mostarTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Rafting", "Adventure", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -141,7 +141,7 @@ export const mostarTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Wine", "Food", "Countryside"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -173,7 +173,7 @@ export const mostarTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Photography", "Sunrise", "Architecture"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -205,7 +205,7 @@ export const mostarTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Nature", "Swimming", "Waterfalls"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -237,7 +237,7 @@ export const mostarTours: Tour[] = [
     price: "$40",
     rating: 4.8,
     tags: ["Cultural", "Spiritual", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

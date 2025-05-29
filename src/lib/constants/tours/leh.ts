@@ -13,7 +13,7 @@ export const lehTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Buddhism", "Monasteries", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const lehTours: Tour[] = [
     price: "$275",
     rating: 4.8,
     tags: ["Adventure", "Desert", "Wildlife"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -77,7 +77,7 @@ export const lehTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Lake", "Landscapes"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const lehTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cooking", "Homestay", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -142,7 +142,7 @@ export const lehTours: Tour[] = [
     price: "$225",
     rating: 4.7,
     tags: ["Rafting", "Adventure", "Camping"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -174,7 +174,7 @@ export const lehTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Meditation", "Spiritual", "Wellness"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -206,7 +206,7 @@ export const lehTours: Tour[] = [
     price: "$125",
     rating: 4.7,
     tags: ["Royal History", "Heritage", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -233,7 +233,7 @@ export const lehTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Silk Road", "History", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

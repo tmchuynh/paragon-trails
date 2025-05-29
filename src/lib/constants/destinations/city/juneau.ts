@@ -15,7 +15,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     tags: ["natural", "scenic", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     tags: ["scenic", "viewpoint", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -53,7 +53,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -12,7 +12,7 @@ export const veniceTours: Tour[] = [
     price: "$175",
     rating: 5.0,
     tags: ["After Hours", "Hidden Venice", "Exclusive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -39,7 +39,7 @@ export const veniceTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Crafts", "Murano", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const veniceTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Culinary", "Cooking Class", "Market Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -103,7 +103,7 @@ export const veniceTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Art", "Local Artists", "Hidden Gems"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

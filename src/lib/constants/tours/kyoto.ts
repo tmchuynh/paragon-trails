@@ -12,7 +12,7 @@ export const kyotoTours: Tour[] = [
     price: "$120",
     rating: 5.0,
     tags: ["Shrines", "Cultural", "Evening"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const kyotoTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Cultural", "Zen", "Traditional"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const kyotoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Culinary", "Street Food", "Markets"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

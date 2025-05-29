@@ -12,7 +12,7 @@ export const materaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["UNESCO", "History", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -44,7 +44,7 @@ export const materaTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Cooking", "Culinary", "Local"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -76,7 +76,7 @@ export const materaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Night Tour", "Photography", "Wine"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

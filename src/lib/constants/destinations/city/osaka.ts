@@ -17,7 +17,7 @@ export const osakaKansaiJapan: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const osakaKansaiJapan: Attraction[] = [
     tags: ["entertainment", "food", "nightlife"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -63,7 +63,7 @@ export const osakaKansaiJapan: Attraction[] = [
       "assistive devices available",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -84,7 +84,7 @@ export const osakaKansaiJapan: Attraction[] = [
     tags: ["cultural", "religious", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -105,7 +105,7 @@ export const osakaKansaiJapan: Attraction[] = [
     tags: ["food", "market", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -128,7 +128,7 @@ export const osakaKansaiJapan: Attraction[] = [
     tags: ["dining", "luxury", "traditional"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

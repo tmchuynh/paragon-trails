@@ -13,7 +13,7 @@ export const juneauTours: Tour[] = [
     price: "$250",
     rating: 4.9,
     tags: ["Ice Caves", "Glacier", "Hiking"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -45,7 +45,7 @@ export const juneauTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Whales", "Wildlife", "Marine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const juneauTours: Tour[] = [
     price: "$115",
     rating: 4.7,
     tags: ["Indigenous", "Cultural", "Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const juneauTours: Tour[] = [
     price: "$550",
     rating: 4.9,
     tags: ["Helicopter", "Dogsledding", "Glacier"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -141,7 +141,7 @@ export const juneauTours: Tour[] = [
     price: "$185",
     rating: 4.8,
     tags: ["Seafood", "Cooking", "Culinary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -173,7 +173,7 @@ export const juneauTours: Tour[] = [
     price: "$375",
     rating: 4.9,
     tags: ["Flightseeing", "Wilderness", "Exclusive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -205,7 +205,7 @@ export const juneauTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["City Tour", "Botanical", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -237,7 +237,7 @@ export const juneauTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Hiking", "Rainforest", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
   {
     title: "Plage de Matira",
-    description: "One of the most beautiful beaches in French Polynesia featuring powdery white sand and crystal-clear turquoise waters perfect for swimming and snorkeling.",
+    description:
+      "One of the most beautiful beaches in French Polynesia featuring powdery white sand and crystal-clear turquoise waters perfect for swimming and snorkeling.",
     imageUrl: "https://plus.unsplash.com/matira-beach-tahiti.jpg",
     location: "Matira Beach, Bora Bora, French Polynesia",
     openingHours: "Open 24 hours",
@@ -16,7 +17,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["beach", "swimming", "natural beauty"],
     accessibilityFeatures: ["firm sand in some areas"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -26,11 +27,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Lagoonarium",
-    description: "A natural aquarium where visitors can swim and snorkel among tropical fish, rays, and small sharks in a controlled section of the lagoon.",
+    description:
+      "A natural aquarium where visitors can swim and snorkel among tropical fish, rays, and small sharks in a controlled section of the lagoon.",
     imageUrl: "https://plus.unsplash.com/lagoonarium-tahiti.jpg",
     location: "Lagoonarium, Bora Bora, French Polynesia",
     openingHours: "9:00 AM - 5:00 PM daily",
@@ -43,7 +45,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["marine life", "snorkeling", "adventure"],
     accessibilityFeatures: ["staff assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -54,11 +56,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Mount Otemanu",
-    description: "The iconic volcanic remnant that forms the dramatic centerpiece of Bora Bora, offering hiking opportunities and breathtaking views of the island and lagoon.",
+    description:
+      "The iconic volcanic remnant that forms the dramatic centerpiece of Bora Bora, offering hiking opportunities and breathtaking views of the island and lagoon.",
     imageUrl: "https://plus.unsplash.com/mount-otemanu-tahiti.jpg",
     location: "Mount Otemanu, Bora Bora, French Polynesia",
     openingHours: "Best visited from 7:00 AM - 5:00 PM",
@@ -71,7 +74,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["hiking", "scenic views", "nature"],
     accessibilityFeatures: ["difficult terrain"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -82,11 +85,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Marché de Papeete",
-    description: "The colorful central market of Tahiti's capital where locals sell fresh produce, flowers, handcrafts, monoi oils, and Tahitian vanilla, offering an authentic glimpse into everyday island life.",
+    description:
+      "The colorful central market of Tahiti's capital where locals sell fresh produce, flowers, handcrafts, monoi oils, and Tahitian vanilla, offering an authentic glimpse into everyday island life.",
     imageUrl: "https://plus.unsplash.com/papeete-market.jpg",
     location: "Rue du Marché, Papeete, Tahiti",
     openingHours: "7:30 AM - 5:00 PM (Mon-Sat), 7:30 AM - 9:00 AM (Sun)",
@@ -99,7 +103,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["market", "culture", "shopping"],
     accessibilityFeatures: ["ground level access", "crowded spaces"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -109,11 +113,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: true,
     isDining: true,
     isOutdoor: false,
-    isIndoor: true
+    isIndoor: true,
   },
   {
     title: "Traditional Polynesian Dance Show",
-    description: "Experience the vibrant culture of French Polynesia through traditional dance performances featuring colorful costumes, rhythmic drums, and mesmerizing fire dancing.",
+    description:
+      "Experience the vibrant culture of French Polynesia through traditional dance performances featuring colorful costumes, rhythmic drums, and mesmerizing fire dancing.",
     imageUrl: "https://plus.unsplash.com/polynesian-dance-tahiti.jpg",
     location: "Various resorts and cultural centers throughout Tahiti",
     openingHours: "Usually 7:00 PM - 9:00 PM on select days",
@@ -126,7 +131,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["cultural", "entertainment", "traditional"],
     accessibilityFeatures: ["seating available", "well-lit venues"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -137,11 +142,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: true,
     isOutdoor: false,
-    isIndoor: true
+    isIndoor: true,
   },
   {
     title: "Overwater Bungalow Experience",
-    description: "Stay in an iconic overwater bungalow with direct lagoon access, glass floor sections to view marine life, and private terraces for unparalleled sunset views over Mount Otemanu.",
+    description:
+      "Stay in an iconic overwater bungalow with direct lagoon access, glass floor sections to view marine life, and private terraces for unparalleled sunset views over Mount Otemanu.",
     imageUrl: "https://plus.unsplash.com/overwater-bungalow-tahiti.jpg",
     location: "Various luxury resorts in Bora Bora, French Polynesia",
     openingHours: "24 hours (accommodation)",
@@ -154,7 +160,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["accommodation", "luxury", "exclusive"],
     accessibilityFeatures: ["staff assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -165,11 +171,12 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: true,
     isOutdoor: true,
-    isIndoor: true
+    isIndoor: true,
   },
   {
     title: "Private Motu Picnic",
-    description: "A luxurious private picnic experience on your own small islet (motu) featuring fresh Polynesian cuisine, champagne, and perfect snorkeling conditions in the surrounding crystal-clear waters.",
+    description:
+      "A luxurious private picnic experience on your own small islet (motu) featuring fresh Polynesian cuisine, champagne, and perfect snorkeling conditions in the surrounding crystal-clear waters.",
     imageUrl: "https://plus.unsplash.com/motu-picnic-tahiti.jpg",
     location: "Private motus around Bora Bora, French Polynesia",
     openingHours: "Typically 10:00 AM - 3:00 PM by reservation",
@@ -182,7 +189,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     tags: ["exclusive", "romantic", "culinary"],
     accessibilityFeatures: ["boat transfer required"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -193,6 +200,6 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     isShopping: false,
     isDining: true,
     isOutdoor: true,
-    isIndoor: false
-  }
+    isIndoor: false,
+  },
 ];

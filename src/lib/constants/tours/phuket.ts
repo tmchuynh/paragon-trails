@@ -13,7 +13,7 @@ export const phuketTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Islands", "Speedboat", "Snorkeling"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const phuketTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Market"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const phuketTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Wildlife", "Ethical", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const phuketTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Cultural", "Temples", "Sunset"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const phuketTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Kayaking", "Sea Caves", "National Park"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -173,7 +173,7 @@ export const phuketTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Muay Thai", "Active", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -205,7 +205,7 @@ export const phuketTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Heritage", "Architecture", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -237,7 +237,7 @@ export const phuketTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Sailing", "Sunset", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -269,7 +269,7 @@ export const phuketTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Food", "Night Market", "Street Food"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

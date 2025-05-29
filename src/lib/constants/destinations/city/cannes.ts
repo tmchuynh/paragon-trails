@@ -16,7 +16,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     tags: ["scenic", "shopping", "dining"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     tags: ["historical", "cultural", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     tags: ["cultural", "film", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

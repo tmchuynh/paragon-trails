@@ -15,7 +15,7 @@ export const istanbulMarmaraRegionTurkey: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const istanbulMarmaraRegionTurkey: Attraction[] = [
     tags: ["historical", "cultural", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -54,7 +54,7 @@ export const istanbulMarmaraRegionTurkey: Attraction[] = [
     tags: ["historical", "cultural", "underground"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

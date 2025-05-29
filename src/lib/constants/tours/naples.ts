@@ -12,7 +12,7 @@ export const naplesTours: Tour[] = [
     price: "$95",
     rating: 5.0,
     tags: ["Cooking Class", "Pizza", "Culinary Tradition"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const naplesTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Archaeology", "Volcano", "Wine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const naplesTours: Tour[] = [
     price: "$250",
     rating: 4.8,
     tags: ["Island Tour", "Boat", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

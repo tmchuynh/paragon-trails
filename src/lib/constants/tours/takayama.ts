@@ -12,7 +12,7 @@ export const takayamaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Historical", "Architecture", "Crafts"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -39,7 +39,7 @@ export const takayamaTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sake", "Brewery", "Culinary"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const takayamaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Cultural", "Crafts", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

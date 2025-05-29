@@ -13,7 +13,7 @@ export const romeTours: Tour[] = [
     price: "$109",
     rating: 4.9,
     tags: ["VIP Access", "Ancient", "Historical"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const romeTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["Art", "Religious", "Skip-the-line"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const romeTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Food", "Wine", "Local Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

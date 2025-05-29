@@ -12,7 +12,7 @@ export const madridTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Art", "Museums", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const madridTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Culinary", "Nightlife", "Flamenco"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -81,7 +81,7 @@ export const madridTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["History", "Architecture", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

@@ -12,7 +12,7 @@ export const florenceTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Art", "Secret History", "Renaissance"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const florenceTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["Wine", "Culinary", "Countryside"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -81,7 +81,7 @@ export const florenceTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Architecture", "Hidden Gems", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -118,7 +118,7 @@ export const florenceTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Gardens", "Hidden Gems", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

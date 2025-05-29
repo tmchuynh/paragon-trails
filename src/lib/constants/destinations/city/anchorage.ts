@@ -17,7 +17,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["outdoor", "hiking", "scenic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["luxury", "adventure", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["nature", "wildlife", "conservation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -100,7 +100,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["outdoor", "recreation", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -120,7 +120,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["luxury", "hotel", "downtown"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -141,7 +141,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["cultural", "heritage", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -161,7 +161,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["outdoor", "scenic", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -181,7 +181,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["transportation", "scenic", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -201,7 +201,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["historical", "outdoor", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -222,7 +222,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["nature", "botanical", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -242,7 +242,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["nature", "glacier", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -262,7 +262,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["performing arts", "theater", "concerts"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -283,7 +283,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["nature", "wildlife", "conservation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -303,7 +303,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["education", "outdoor", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -323,7 +323,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["historical", "outdoor", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -343,7 +343,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "monument"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

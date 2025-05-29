@@ -16,7 +16,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.9,
     tags: ["beach", "nature", "wildlife", "swimming", "hiking"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -51,7 +51,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
       "wheelchair accessible facilities",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -87,7 +87,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
       "hiking",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -115,7 +115,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.8,
     tags: ["snorkeling", "diving", "marine life", "geology", "boat tour"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -145,7 +145,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.7,
     tags: ["wildlife", "bird watching", "nature", "hiking", "photography"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -179,7 +179,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
       "photography",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -210,7 +210,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.7,
     tags: ["wildlife", "tortoises", "nature", "conservation", "hiking"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -238,7 +238,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.8,
     tags: ["hiking", "volcano", "nature", "views", "geology"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -269,7 +269,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.6,
     tags: ["swimming", "snorkeling", "nature", "geological", "hiking"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -297,7 +297,7 @@ export const galapagosIslandsGalapagosEcuador: Attraction[] = [
     rating: 4.5,
     tags: ["historical", "cultural", "tradition", "beach", "unique"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

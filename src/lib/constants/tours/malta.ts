@@ -12,7 +12,7 @@ export const maltaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["History", "Archaeology", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const maltaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Boat Tour", "Swimming", "Coastal"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -81,7 +81,7 @@ export const maltaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Walking Tour", "Culture", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

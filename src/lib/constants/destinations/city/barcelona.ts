@@ -16,7 +16,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     tags: ["architecture", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     tags: ["outdoor", "art", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -57,7 +57,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     tags: ["historical", "cultural", "walking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -78,7 +78,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     tags: ["architecture", "cultural", "art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -100,7 +100,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     tags: ["dining", "gourmet", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

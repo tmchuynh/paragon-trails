@@ -16,7 +16,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     tags: ["cultural", "historical", "food"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -36,7 +36,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     tags: ["religious", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -56,7 +56,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     tags: ["natural", "scenic", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

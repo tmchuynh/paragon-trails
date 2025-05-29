@@ -12,7 +12,7 @@ export const amsterdamTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Hidden Gems", "Architecture", "History"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -49,7 +49,7 @@ export const amsterdamTours: Tour[] = [
     price: "$125",
     rating: 5.0,
     tags: ["Art", "Museum", "After Hours"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -81,7 +81,7 @@ export const amsterdamTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Markets"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -123,7 +123,7 @@ export const amsterdamTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Cycling", "Outdoor", "City Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -195,7 +195,7 @@ export const amsterdamTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Canal Cruise", "Evening", "Wine & Cheese"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -237,7 +237,7 @@ export const amsterdamTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Day Trip", "Countryside", "Traditional"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -279,7 +279,7 @@ export const amsterdamTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Cultural", "History", "Adults Only"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -317,7 +317,7 @@ export const amsterdamTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Zoo", "Nature", "Family"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,

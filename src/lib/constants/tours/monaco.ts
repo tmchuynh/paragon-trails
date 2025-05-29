@@ -13,7 +13,7 @@ export const monacoTours: Tour[] = [
     price: "$3,995",
     rating: 5.0,
     tags: ["Formula 1", "VIP", "Exclusive"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const monacoTours: Tour[] = [
     price: "$275",
     rating: 4.9,
     tags: ["Royal History", "Palace", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -87,7 +87,7 @@ export const monacoTours: Tour[] = [
     price: "$3,500",
     rating: 5.0,
     tags: ["Yacht", "Luxury", "Coastal"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -124,7 +124,7 @@ export const monacoTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Casino", "Architecture", "History"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -161,7 +161,7 @@ export const monacoTours: Tour[] = [
     price: "$495",
     rating: 4.9,
     tags: ["Gourmet", "Wine", "Fine Dining"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -198,7 +198,7 @@ export const monacoTours: Tour[] = [
     price: "$375",
     rating: 4.8,
     tags: ["Nightlife", "VIP", "Entertainment"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -235,7 +235,7 @@ export const monacoTours: Tour[] = [
     price: "$125",
     rating: 4.6,
     tags: ["Marine Science", "Conservation", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -267,7 +267,7 @@ export const monacoTours: Tour[] = [
     price: "$150",
     rating: 4.7,
     tags: ["Art", "Culture", "Contemporary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

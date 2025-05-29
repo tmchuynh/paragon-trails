@@ -17,7 +17,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     tags: ["cultural", "historical", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -37,7 +37,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     tags: ["historical", "religious", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     tags: ["cultural", "museum", "arts"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

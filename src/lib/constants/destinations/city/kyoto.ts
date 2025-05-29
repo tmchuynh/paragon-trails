@@ -16,7 +16,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     tags: ["historical", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     tags: ["religious", "cultural", "hiking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     tags: ["natural", "scenic", "photography"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

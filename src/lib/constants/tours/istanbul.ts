@@ -12,7 +12,7 @@ export const istanbulTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Bosphorus", "Two Continents", "Scenic"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const istanbulTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Archaeological", "Byzantine", "Historical"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

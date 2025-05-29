@@ -15,7 +15,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     tags: ["architectural", "viewpoint", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -34,7 +34,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     tags: ["religious", "natural", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -53,7 +53,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     tags: ["nature", "family-friendly", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,

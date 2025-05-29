@@ -26,7 +26,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isHistorical: true,
     isIndoor: true,
@@ -49,7 +49,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
     isRomantic: true,
@@ -102,7 +102,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isHistorical: true,
     isIndoor: true,
@@ -122,7 +122,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -146,7 +146,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -165,7 +165,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -184,7 +184,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -203,7 +203,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -222,7 +222,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: true,
   },
@@ -241,7 +241,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isOutdoor: true,
   },
   {
@@ -259,7 +259,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isOutdoor: true,
   },
@@ -278,7 +278,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: true,
   },
@@ -297,7 +297,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isOutdoor: true,
   },
   {
@@ -315,7 +315,7 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isIndoor: true,
   },
 ];

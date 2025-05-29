@@ -12,7 +12,7 @@ export const hoChiMinhTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["History", "War", "Cultural"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const hoChiMinhTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Food", "Markets", "Local"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const hoChiMinhTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Nature", "Culture", "Adventure"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -123,7 +123,7 @@ export const hoChiMinhTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Romantic", "Scenic", "Relaxation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

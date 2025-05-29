@@ -12,7 +12,7 @@ export const seoulTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Cultural", "Palace", "Traditional Dress"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +55,7 @@ export const seoulTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Food", "Night Tour", "Markets"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -98,7 +98,7 @@ export const seoulTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Nature", "Spiritual", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -147,7 +147,7 @@ export const seoulTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["History", "Political", "DMZ"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -190,7 +190,7 @@ export const seoulTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["K-Pop", "Entertainment", "Hallyu"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -232,7 +232,7 @@ export const seoulTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Craft", "Hands-on", "Traditional"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -275,7 +275,7 @@ export const seoulTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Architecture", "Modern", "Design"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

@@ -16,7 +16,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     tags: ["cultural", "local", "crafts"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -36,7 +36,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     tags: ["nature", "wildlife", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -56,7 +56,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     tags: ["cultural", "educational", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -77,7 +77,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     tags: ["shopping", "local", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -97,7 +97,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     tags: ["luxury", "safari", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

@@ -17,7 +17,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.8,
     tags: ["unesco", "natural wonder", "boat tour", "caves", "wildlife"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -51,7 +51,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
       "lagoons",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.9,
     tags: ["lakes", "diving", "shipwrecks", "viewpoints", "island hopping"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -113,7 +113,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.9,
     tags: ["diving", "marine life", "unesco", "coral reef", "conservation"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -147,7 +147,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
       "off the beaten path",
     ],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -177,7 +177,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.8,
     tags: ["beach", "sunset", "swimming", "relaxation", "nature"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -208,7 +208,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.2,
     tags: ["wildlife", "safari", "conservation", "giraffes", "unusual"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -239,7 +239,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.3,
     tags: ["archaeology", "caves", "historical", "cultural", "educational"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -270,7 +270,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.0,
     tags: ["unusual", "cultural", "educational", "crafts", "social"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -301,7 +301,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     rating: 4.5,
     tags: ["island hopping", "beaches", "snorkeling", "swimming", "day trip"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

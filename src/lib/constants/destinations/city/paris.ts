@@ -17,7 +17,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["landmark", "viewpoint", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["historical", "religious", "architectural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -82,7 +82,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["cultural", "historical", "artistic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -103,7 +103,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["shopping", "cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -125,7 +125,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["dining", "luxury", "romantic"],
     accessibilityFeatures: ["elevator access"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -147,7 +147,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     tags: ["shopping", "luxury", "architecture"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,

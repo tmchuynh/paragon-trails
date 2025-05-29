@@ -13,7 +13,7 @@ export const sanDiegoTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Beaches", "Nature", "Photography"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -40,7 +40,7 @@ export const sanDiegoTours: Tour[] = [
     price: "$199",
     rating: 4.9,
     tags: ["Wildlife", "Family", "VIP"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const sanDiegoTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Brewery", "Craft Beer", "Local Experience"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

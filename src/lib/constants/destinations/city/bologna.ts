@@ -17,7 +17,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["historical", "cultural", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["religious", "cultural", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["historical", "viewpoint", "cultural"],
     accessibilityFeatures: ["limited accessibility due to stairs"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["historical", "educational", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -103,7 +103,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["religious", "scenic", "hiking"],
     accessibilityFeatures: ["limited accessibility due to stairs"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -124,7 +124,7 @@ export const bolognaEmiliaRomagnaItaly: Attraction[] = [
     tags: ["dining", "luxury", "gourmet"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

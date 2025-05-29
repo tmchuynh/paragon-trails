@@ -13,7 +13,7 @@ export const barcelonaTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["Architecture", "Gaudí", "Modernism"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -56,7 +56,7 @@ export const barcelonaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Food", "Wine", "Walking"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -98,7 +98,7 @@ export const barcelonaTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["History", "Roman", "Medieval"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -140,7 +140,7 @@ export const barcelonaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Cooking", "Market", "Culinary"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -182,7 +182,7 @@ export const barcelonaTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Monastery", "Mountain", "Day Trip"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -224,7 +224,7 @@ export const barcelonaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Flamenco", "Cultural", "Evening"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -266,7 +266,7 @@ export const barcelonaTours: Tour[] = [
     price: "$55",
     rating: 4.6,
     tags: ["Cycling", "Beach", "Active"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -308,7 +308,7 @@ export const barcelonaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Street Art", "Culture", "Urban"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

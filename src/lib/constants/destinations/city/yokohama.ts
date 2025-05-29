@@ -17,7 +17,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     tags: ["skyline", "observation deck", "architecture"],
     accessibilityFeatures: ["elevator access", "wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -46,7 +46,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     tags: ["cultural", "food", "shopping"],
     accessibilityFeatures: ["walkable streets"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -76,7 +76,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     tags: ["museum", "interactive", "food history"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -105,7 +105,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     tags: ["aquarium", "amusement park", "marine life"],
     accessibilityFeatures: ["wheelchair accessible", "accessible rides"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -134,7 +134,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     tags: ["garden", "traditional", "peaceful"],
     accessibilityFeatures: ["partial wheelchair access", "rest areas"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -12,7 +12,7 @@ export const cannesTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Film Festival", "Celebrity", "Exclusive"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const cannesTours: Tour[] = [
     price: "$450",
     rating: 4.8,
     tags: ["Yacht", "Coastal", "Luxury"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const cannesTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Culinary", "Local", "Gourmet"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -108,7 +108,7 @@ export const cannesTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -140,7 +140,7 @@ export const cannesTours: Tour[] = [
     price: "$200",
     rating: 4.8,
     tags: ["Nightlife", "VIP", "Party"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -172,7 +172,7 @@ export const cannesTours: Tour[] = [
     price: "$350",
     rating: 4.9,
     tags: ["Shopping", "Luxury", "Fashion"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -204,7 +204,7 @@ export const cannesTours: Tour[] = [
     price: "$600",
     rating: 4.9,
     tags: ["Yacht", "Party", "Luxury"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

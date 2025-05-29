@@ -15,7 +15,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     tags: ["historical", "cultural", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -54,7 +54,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     tags: ["outdoor", "recreation", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -75,7 +75,7 @@ export const helsinkiUusimaaFinland: Attraction[] = [
     tags: ["luxury", "wellness", "sauna"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

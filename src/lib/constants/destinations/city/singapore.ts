@@ -17,7 +17,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
     tags: ["hotel", "entertainment", "shopping"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
     tags: ["nature", "scenic", "family"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -63,7 +63,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
       "assistive devices available",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

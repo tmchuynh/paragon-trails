@@ -23,7 +23,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isWheelchairAccessible: true,
     isHistorical: true,
@@ -61,7 +61,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: true,
     isOutdoor: true,
@@ -95,7 +95,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: false,
     isOutdoor: true,
@@ -129,7 +129,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: false,
     isOutdoor: true,
@@ -161,7 +161,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     priceRange: "$$$",
     timeOfDay: "all day",
     isPopular: false,
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isIndoor: true,
     isOutdoor: true,
@@ -194,7 +194,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     priceRange: "$$",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isIndoor: true,
     isOutdoor: true,
@@ -227,7 +227,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     priceRange: "$$",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isIndoor: true,
     isOutdoor: false,
@@ -260,7 +260,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     priceRange: "$$$",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isIndoor: true,
     isOutdoor: false,

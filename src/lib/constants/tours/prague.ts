@@ -12,7 +12,7 @@ export const pragueTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Castle", "Evening Tour", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const pragueTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Beer", "Culinary", "Local"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -76,7 +76,7 @@ export const pragueTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Art", "Architecture", "Local Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -108,7 +108,7 @@ export const pragueTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["History", "Culture", "Jewish Heritage"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

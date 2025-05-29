@@ -12,7 +12,7 @@ export const osakaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Food", "Street Food", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const osakaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Castle", "Samurai", "History"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const osakaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nightlife", "Izakaya", "Local Culture"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

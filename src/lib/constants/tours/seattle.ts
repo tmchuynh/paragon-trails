@@ -13,7 +13,7 @@ export const seattleTours: Tour[] = [
     price: "$69",
     rating: 4.9,
     tags: ["Food", "Market", "Local"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const seattleTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["History", "Underground", "Unusual"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const seattleTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Adventure", "Water", "Nature"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

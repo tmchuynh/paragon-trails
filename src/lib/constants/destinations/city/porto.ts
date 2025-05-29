@@ -17,7 +17,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["cultural", "historical", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["cultural", "historical", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["historical", "viewpoint", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["cultural", "historical", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -101,7 +101,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["wine", "cultural", "tasting"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -122,7 +122,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["historical", "architecture", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -144,7 +144,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["food", "market", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -165,7 +165,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["art", "gardens", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -186,7 +186,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["historical", "culinary", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -208,7 +208,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     tags: ["cultural", "music", "dining"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

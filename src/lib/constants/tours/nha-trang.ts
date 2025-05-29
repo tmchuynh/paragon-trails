@@ -13,7 +13,7 @@ export const nhaTrangTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Beach", "Snorkeling", "Islands"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -60,7 +60,7 @@ export const nhaTrangTours: Tour[] = [
     price: "$35",
     rating: 4.8,
     tags: ["Spa", "Relaxation", "Wellness"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -107,7 +107,7 @@ export const nhaTrangTours: Tour[] = [
     price: "$30",
     rating: 4.6,
     tags: ["Culture", "History", "Sightseeing"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -154,7 +154,7 @@ export const nhaTrangTours: Tour[] = [
     price: "$25",
     rating: 4.9,
     tags: ["Food", "Nightlife", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -201,7 +201,7 @@ export const nhaTrangTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Romantic", "Cruise", "Sunset"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

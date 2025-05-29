@@ -12,7 +12,7 @@ export const newYorkTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Underground", "History", "Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -44,7 +44,7 @@ export const newYorkTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Food", "Art", "Local"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -76,7 +76,7 @@ export const newYorkTours: Tour[] = [
     price: "$49",
     rating: 4.8,
     tags: ["Walking", "Urban", "Landmarks"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -107,7 +107,7 @@ export const newYorkTours: Tour[] = [
     price: "$395",
     rating: 4.8,
     tags: ["Aerial", "Skyline", "Luxury"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -139,7 +139,7 @@ export const newYorkTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Cultural", "Diverse"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

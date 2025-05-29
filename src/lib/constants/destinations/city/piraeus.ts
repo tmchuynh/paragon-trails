@@ -51,7 +51,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isIndoor: true,
     isPopular: true,
 
-    isFamilyFriendly: true,
     isFree: false,
     isWheelchairAccessible: true,
     isLocalExperience: true,
@@ -87,7 +86,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     isOutdoor: true,
     isLocalExperience: true,
     isFree: false,
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isWheelchairAccessible: true,
     isHistorical: true,
@@ -119,7 +118,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     isDining: true,
     isLuxury: true,
     isPopular: true,
-    isFamilyFriendly: true,
+
     isPetFriendly: true,
     isHistorical: true,
     isLocalExperience: true,
@@ -148,7 +147,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: true,
     isFree: false,
@@ -182,7 +181,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isIndoor: true,
     isFree: false,
@@ -209,7 +208,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isWheelchairAccessible: true,
     isHistorical: false,
@@ -234,7 +233,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isWheelchairAccessible: true,
     isHistorical: false,
@@ -257,7 +256,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -282,7 +281,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -307,7 +306,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -331,7 +330,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -355,7 +354,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -380,7 +379,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime and evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -404,7 +403,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -427,7 +426,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

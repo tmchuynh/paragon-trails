@@ -12,7 +12,7 @@ export const zanzibarTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["UNESCO", "Cultural", "Spices"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -59,7 +59,7 @@ export const zanzibarTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Marine Life", "Snorkeling", "Dolphins"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -111,7 +111,7 @@ export const zanzibarTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Wildlife", "Nature", "Conservation"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -163,7 +163,7 @@ export const zanzibarTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Dolphins", "Snorkeling", "Marine Life"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

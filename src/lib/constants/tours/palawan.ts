@@ -13,7 +13,7 @@ export const palawanTours: Tour[] = [
     price: "$150",
     rating: 4.9,
     tags: ["Island Hopping", "Snorkeling", "Hidden Beaches"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -46,7 +46,7 @@ export const palawanTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["UNESCO", "Caves", "Natural Wonder"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -78,7 +78,7 @@ export const palawanTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Indigenous", "Cultural", "Rainforest"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -105,7 +105,7 @@ export const palawanTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Conservation", "Marine Life", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -138,7 +138,7 @@ export const palawanTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Birdwatching", "Wildlife", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -175,7 +175,7 @@ export const palawanTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -202,7 +202,7 @@ export const palawanTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Photography", "Sunset", "Landscapes"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -229,7 +229,7 @@ export const palawanTours: Tour[] = [
     price: "$450",
     rating: 5.0,
     tags: ["Glamping", "Private Island", "Luxury"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -261,7 +261,7 @@ export const palawanTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Wildlife", "Conservation", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

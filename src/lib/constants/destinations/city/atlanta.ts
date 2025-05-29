@@ -17,7 +17,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["family-friendly", "aquatic", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["cultural", "interactive", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -58,7 +58,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["outdoor", "nature", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -79,7 +79,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["dining", "gourmet", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -100,7 +100,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -120,7 +120,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["outdoor", "recreation", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -140,7 +140,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["art", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -160,7 +160,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["theater", "performing arts", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -180,7 +180,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -200,7 +200,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["food", "shopping", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -220,7 +220,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["outdoor", "recreation", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -240,7 +240,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["shopping", "food", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -260,7 +260,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     tags: ["outdoor", "recreation", "urban"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

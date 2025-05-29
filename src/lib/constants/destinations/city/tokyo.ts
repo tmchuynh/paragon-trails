@@ -17,7 +17,7 @@ export const tokyoKantoJapan: Attraction[] = [
     tags: ["shrine", "spiritual", "nature"],
     accessibilityFeatures: ["wheelchair accessible paths"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -46,7 +46,7 @@ export const tokyoKantoJapan: Attraction[] = [
     tags: ["iconic", "urban", "photography"],
     accessibilityFeatures: ["wheelchair accessible crossings"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -75,7 +75,7 @@ export const tokyoKantoJapan: Attraction[] = [
     tags: ["digital art", "interactive", "modern"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -104,7 +104,7 @@ export const tokyoKantoJapan: Attraction[] = [
     tags: ["food", "market", "seafood"],
     accessibilityFeatures: ["crowded pathways"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -133,7 +133,7 @@ export const tokyoKantoJapan: Attraction[] = [
     tags: ["cultural", "exclusive", "traditional"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

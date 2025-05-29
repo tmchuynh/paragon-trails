@@ -13,7 +13,7 @@ export const bandipurTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Safari", "Tigers", "Wildlife Photography"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -70,7 +70,7 @@ export const bandipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Indigenous", "Cultural", "Conservation"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -122,7 +122,7 @@ export const bandipurTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Wildlife", "Workshop"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -164,7 +164,7 @@ export const bandipurTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Birding", "Nature", "Endemic Species"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -216,7 +216,7 @@ export const bandipurTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Sunset", "Safari", "Astronomy"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

@@ -13,7 +13,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.8,
     tags: ["heritage", "history", "architecture", "cultural", "unesco"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -44,7 +44,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.5,
     tags: ["island", "wildlife", "history", "snorkeling", "beach"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -72,7 +72,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.9,
     tags: ["beach", "sunset", "swimming", "water sports", "relaxation"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -104,7 +104,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     tags: ["nature", "wildlife", "hiking", "monkeys", "conservation"],
     accessibilityFeatures: ["some accessible boardwalks"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -133,7 +133,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.4,
     tags: ["dining", "seafood", "unique", "photography", "views"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -164,7 +164,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.7,
     tags: ["food", "agriculture", "cultural", "educational", "sensory"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -192,7 +192,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.9,
     tags: ["snorkeling", "diving", "marine life", "coral reef", "conservation"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -222,7 +222,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     tags: ["food", "market", "street food", "local cuisine", "dining"],
     accessibilityFeatures: ["accessible open-air venue"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -253,7 +253,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.2,
     tags: ["museum", "history", "cultural", "architecture", "educational"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -281,7 +281,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     rating: 4.7,
     tags: ["kitesurfing", "beach", "water sports", "relaxation", "adventure"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

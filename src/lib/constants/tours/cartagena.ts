@@ -13,7 +13,7 @@ export const cartagenaTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Historical", "Architecture", "UNESCO"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const cartagenaTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Food", "Cooking", "Market"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const cartagenaTours: Tour[] = [
     price: "$345",
     rating: 5.0,
     tags: ["Islands", "Yacht", "Snorkeling"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -104,7 +104,7 @@ export const cartagenaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Cultural", "African Heritage", "UNESCO"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -136,7 +136,7 @@ export const cartagenaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Photography", "Sunset", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -168,7 +168,7 @@ export const cartagenaTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Literary", "Cultural", "Walking Tour"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -201,7 +201,7 @@ export const cartagenaTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

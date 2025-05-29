@@ -17,7 +17,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "historical", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -39,7 +39,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -60,7 +60,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["outdoor", "recreation", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["luxury", "heritage", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -123,7 +123,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "shopping", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -144,7 +144,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["nature", "adventure", "caving"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -165,7 +165,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -186,7 +186,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "festivals"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -207,7 +207,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["nature", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -228,7 +228,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["historical", "cultural", "UNESCO"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -249,7 +249,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -270,7 +270,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "scenic", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -291,7 +291,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["nature", "adventure", "caving"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -312,7 +312,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -333,7 +333,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["nature", "adventure", "hiking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -355,7 +355,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "food", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -376,7 +376,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["scenic", "photography", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -397,7 +397,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "historical", "museum"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -418,7 +418,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     tags: ["cultural", "shopping", "food"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

@@ -13,7 +13,7 @@ export const sapaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Trekking", "Homestay", "Cultural Immersion"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -40,7 +40,7 @@ export const sapaTours: Tour[] = [
     price: "$175",
     rating: 4.7,
     tags: ["Mountain Climbing", "Adventure", "Hiking"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const sapaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Landscape", "Portraits"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -94,7 +94,7 @@ export const sapaTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Wellness", "Traditional Medicine", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -121,7 +121,7 @@ export const sapaTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Markets", "Textiles", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -148,7 +148,7 @@ export const sapaTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Cycling", "Active", "Scenic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -175,7 +175,7 @@ export const sapaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cooking", "Food", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -202,7 +202,7 @@ export const sapaTours: Tour[] = [
     price: "$50",
     rating: 4.5,
     tags: ["Train Ride", "Scenic", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

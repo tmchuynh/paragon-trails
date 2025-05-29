@@ -12,7 +12,7 @@ export const beijingTours: Tour[] = [
     price: "$295",
     rating: 5.0,
     tags: ["Great Wall", "Exclusive", "Aerial"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -59,7 +59,7 @@ export const beijingTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Imperial", "Palace", "Exclusive"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -96,7 +96,7 @@ export const beijingTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Hutong", "Local Culture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -133,7 +133,7 @@ export const beijingTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Photography", "Landmarks", "Sunrise"],
-    isFamilyFriendly: false,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -170,7 +170,7 @@ export const beijingTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Tai Chi", "Wellness", "Morning"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -207,7 +207,7 @@ export const beijingTours: Tour[] = [
     price: "$95",
     rating: 4.6,
     tags: ["Architecture", "Olympic", "Modern"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -244,7 +244,7 @@ export const beijingTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Family", "Kung Fu", "Crafts"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -281,7 +281,7 @@ export const beijingTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Night Tour", "Lights", "Nightlife"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -323,7 +323,7 @@ export const beijingTours: Tour[] = [
     price: "$1,295",
     rating: 5.0,
     tags: ["Luxury", "Helicopter", "Exclusive"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

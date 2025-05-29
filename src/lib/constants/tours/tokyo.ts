@@ -12,7 +12,7 @@ export const tokyoTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nightlife", "Food & Drink", "Local Culture"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -39,7 +39,7 @@ export const tokyoTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Technology", "Modern", "Interactive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const tokyoTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Market", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -98,7 +98,7 @@ export const tokyoTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Cultural", "Relaxation", "Traditional"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

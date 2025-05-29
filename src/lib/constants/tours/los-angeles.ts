@@ -13,7 +13,7 @@ export const losAngelesTours: Tour[] = [
     price: "$89",
     rating: 4.7,
     tags: ["Celebrity", "Hollywood", "Luxury"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const losAngelesTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Beach", "Surfing", "Active"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -82,7 +82,7 @@ export const losAngelesTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Art", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

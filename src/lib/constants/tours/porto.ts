@@ -12,7 +12,7 @@ export const portoTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Wine", "Port", "Valley"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const portoTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Historical", "UNESCO", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -81,7 +81,7 @@ export const portoTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Food", "Culture", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

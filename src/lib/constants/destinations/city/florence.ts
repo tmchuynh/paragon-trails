@@ -15,7 +15,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     tags: ["historical", "cultural", "religious"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -54,7 +54,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     tags: ["historical", "scenic", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -76,7 +76,7 @@ export const florenceTuscanyItaly: Attraction[] = [
     tags: ["art", "museum", "cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

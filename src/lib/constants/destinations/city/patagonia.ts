@@ -21,7 +21,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -62,7 +62,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible viewpoints",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -93,7 +93,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     rating: 4.9,
     tags: ["hiking", "mountains", "photography", "trekking", "nature"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -128,7 +128,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -160,7 +160,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "some accessible activities",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -195,7 +195,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -230,7 +230,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -268,7 +268,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible downtown area",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -300,7 +300,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -341,7 +341,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "accessible visitor center",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

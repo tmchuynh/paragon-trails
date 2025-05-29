@@ -17,7 +17,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     tags: ["historical", "fortress", "park", "viewpoint", "architecture"],
     accessibilityFeatures: ["some accessible paths", "accessible viewpoints"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -45,7 +45,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     rating: 4.7,
     tags: ["dining", "culture", "bohemian", "nightlife", "historic"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -77,7 +77,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     tags: ["religious", "architecture", "cultural", "landmark", "orthodox"],
     accessibilityFeatures: ["wheelchair ramp", "accessible entrance"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -109,7 +109,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     tags: ["museum", "science", "historical", "educational", "interactive"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -138,7 +138,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     rating: 4.7,
     tags: ["beach", "recreation", "sports", "nature", "relaxation"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -173,7 +173,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     ],
     accessibilityFeatures: ["flat pedestrian area", "accessible shops"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -205,7 +205,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     tags: ["museum", "history", "cultural", "political", "mausoleum"],
     accessibilityFeatures: ["wheelchair accessible", "accessible restrooms"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -234,7 +234,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     tags: ["riverside", "dining", "romantic", "walking", "views"],
     accessibilityFeatures: ["accessible path", "flat terrain"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -271,7 +271,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
       "landmark",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -299,7 +299,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     rating: 4.4,
     tags: ["nightlife", "art", "culture", "alternative", "urban"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

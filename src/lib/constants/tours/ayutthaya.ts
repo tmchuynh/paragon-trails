@@ -13,7 +13,7 @@ export const ayutthayaTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["UNESCO", "Temples", "History"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const ayutthayaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cycling", "Boat Tour", "Active"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -87,7 +87,7 @@ export const ayutthayaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Sunset", "Temples"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -124,7 +124,7 @@ export const ayutthayaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Food", "Markets", "Cooking"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -166,7 +166,7 @@ export const ayutthayaTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Elephants", "Wildlife", "Conservation"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

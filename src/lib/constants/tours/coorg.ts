@@ -13,7 +13,7 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const coorgTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cultural", "Heritage", "Local Life"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -77,7 +77,7 @@ export const coorgTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Wildlife", "River", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -109,7 +109,7 @@ export const coorgTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Trekking", "Spiritual", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const coorgTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Spices", "Cooking", "Food"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -173,7 +173,7 @@ export const coorgTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Waterfall", "Sunset", "Scenery"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -205,7 +205,7 @@ export const coorgTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Safari", "Wildlife", "Tiger"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -237,7 +237,7 @@ export const coorgTours: Tour[] = [
     price: "$40",
     rating: 4.5,
     tags: ["Heritage", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

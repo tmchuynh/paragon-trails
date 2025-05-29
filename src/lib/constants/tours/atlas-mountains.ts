@@ -13,7 +13,7 @@ export const atlasMountainsTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Trekking", "Cultural", "Villages"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -75,12 +75,12 @@ export const atlasMountainsTours: Tour[] = [
     price: "$225",
     rating: 4.8,
     tags: ["Mountaineering", "Summit", "Challenge"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Hassan Ait Brahim, Certified Mountain Guide",
+    tourGuide: "Hassan Ait Brahim",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -117,7 +117,7 @@ export const atlasMountainsTours: Tour[] = [
     price: "$895",
     rating: 4.9,
     tags: ["Photography", "Landscapes", "Workshop"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -159,7 +159,7 @@ export const atlasMountainsTours: Tour[] = [
     price: "$1,495",
     rating: 5.0,
     tags: ["Luxury", "Relaxation", "Gourmet"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -196,7 +196,7 @@ export const atlasMountainsTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Cooking", "Herbs", "Traditional"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

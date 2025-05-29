@@ -24,7 +24,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isWheelchairAccessible: true,
     isHistorical: true,
@@ -84,7 +84,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isIndoor: true,
     isLuxury: true,
@@ -140,7 +140,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isWheelchairAccessible: true,
     isIndoor: true,
@@ -170,7 +170,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isIndoor: true,
   },
@@ -198,7 +198,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isWheelchairAccessible: true,
     isIndoor: true,
@@ -228,7 +228,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isIndoor: false,
   },
@@ -252,7 +252,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isWheelchairAccessible: true,
     isIndoor: true,
   },
@@ -280,7 +280,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isWheelchairAccessible: true,
     isOutdoor: true,

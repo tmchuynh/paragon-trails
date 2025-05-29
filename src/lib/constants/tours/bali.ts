@@ -12,7 +12,7 @@ export const baliTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Spiritual", "Temples", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -61,7 +61,7 @@ export const baliTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Art", "Crafts", "Adventure"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -108,7 +108,7 @@ export const baliTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Beaches", "Cruise", "Sunset"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -150,7 +150,7 @@ export const baliTours: Tour[] = [
     price: "$130",
     rating: 4.9,
     tags: ["Adventure", "Hiking", "Nature"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -192,7 +192,7 @@ export const baliTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

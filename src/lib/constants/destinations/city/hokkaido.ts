@@ -17,7 +17,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["nature", "flowers", "lavender", "photography", "countryside"],
     accessibilityFeatures: ["some wheelchair accessible paths"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -49,7 +49,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["scenic", "photography", "unique", "nature", "geological"],
     accessibilityFeatures: ["viewable from accessible platform"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -82,7 +82,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["festival", "winter", "cultural", "art", "illumination"],
     accessibilityFeatures: ["accessible viewing areas", "cleared paths"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -110,7 +110,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     rating: 4.7,
     tags: ["hot springs", "onsen", "geothermal", "relaxation", "nature"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -139,7 +139,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["lake", "volcano", "hot springs", "scenic", "nature"],
     accessibilityFeatures: ["accessible viewpoints"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -168,7 +168,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["historical", "scenic", "canal", "architecture", "romantic"],
     accessibilityFeatures: ["accessible walkway along canal"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -200,7 +200,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     rating: 4.9,
     tags: ["nature", "wildlife", "unesco", "hiking", "wilderness"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -236,7 +236,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
       "rental wheelchairs",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -268,7 +268,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     rating: 4.8,
     tags: ["skiing", "snowboarding", "winter sports", "powder snow", "resort"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -298,7 +298,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     tags: ["market", "seafood", "food", "shopping", "local"],
     accessibilityFeatures: ["level surfaces"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,

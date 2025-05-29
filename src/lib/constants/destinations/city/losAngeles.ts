@@ -17,7 +17,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "viewpoint"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["educational", "cultural", "viewpoint"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["art", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -82,7 +82,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["outdoor", "recreation", "family"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -104,7 +104,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["art", "museum", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -126,7 +126,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["outdoor", "beach", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -148,7 +148,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     tags: ["shopping", "luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,

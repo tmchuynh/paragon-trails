@@ -13,7 +13,7 @@ export const sacredValleyCuscoTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["UNESCO", "Archaeology", "Hiking"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const sacredValleyCuscoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cultural", "Handicrafts", "Markets"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -67,7 +67,7 @@ export const sacredValleyCuscoTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Historical", "UNESCO", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

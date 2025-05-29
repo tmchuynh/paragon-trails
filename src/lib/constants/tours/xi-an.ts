@@ -12,7 +12,7 @@ export const xiAnTours: Tour[] = [
     price: "$175",
     rating: 5.0,
     tags: ["Archaeological", "Emperor", "Ancient China"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const xiAnTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cycling", "Street Food", "Culture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const xiAnTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Cultural", "Crafts", "Silk Road"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

@@ -17,7 +17,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     tags: ["beach", "scenic", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     tags: ["nature", "hiking", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -58,7 +58,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     tags: ["snorkeling", "diving", "marine life"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -79,7 +79,7 @@ export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
     tags: ["marine", "adventure", "wildlife"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

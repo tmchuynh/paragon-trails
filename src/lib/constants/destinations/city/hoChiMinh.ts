@@ -15,7 +15,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     tags: ["historical", "educational", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -35,7 +35,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     tags: ["shopping", "cultural", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -54,7 +54,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     tags: ["religious", "historical", "architectural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -75,7 +75,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     tags: ["luxury", "dining", "nightlife"],
     accessibilityFeatures: ["elevator access"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

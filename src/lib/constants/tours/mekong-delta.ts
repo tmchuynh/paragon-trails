@@ -13,7 +13,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Markets", "River Life", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Cooking", "Food", "Agriculture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Kayaking", "Nature", "Ecotour"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Cycling", "Rural", "Agriculture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -141,7 +141,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Culture", "Landscapes"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -173,7 +173,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Sunset", "Cruise", "Dining"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -205,7 +205,7 @@ export const mekongDeltaTours: Tour[] = [
     price: "$60",
     rating: 4.6,
     tags: ["Crafts", "Cultural", "Hands-on"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

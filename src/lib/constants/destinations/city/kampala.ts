@@ -16,7 +16,7 @@ export const kampalaCentralUganda: Attraction[] = [
     rating: 4.6,
     tags: ["historical", "cultural", "unesco", "royal", "architecture"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -48,7 +48,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["religious", "architecture", "gardens", "views", "peaceful"],
     accessibilityFeatures: ["accessible grounds"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["religious", "architecture", "viewpoint", "islamic", "cultural"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -112,7 +112,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["museum", "history", "culture", "archaeology", "educational"],
     accessibilityFeatures: ["accessible entrance", "ground floor exhibits"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -141,7 +141,7 @@ export const kampalaCentralUganda: Attraction[] = [
     rating: 4.2,
     tags: ["market", "shopping", "local", "cultural", "authentic"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -173,7 +173,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["cultural", "performance", "music", "dance", "dining"],
     accessibilityFeatures: ["accessible seating"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -202,7 +202,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["monument", "historical", "photography", "landmark", "symbolic"],
     accessibilityFeatures: ["accessible viewing area"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -233,7 +233,7 @@ export const kampalaCentralUganda: Attraction[] = [
     rating: 4.4,
     tags: ["historical", "royal", "cultural", "architecture", "political"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -262,7 +262,7 @@ export const kampalaCentralUganda: Attraction[] = [
     tags: ["shopping", "urban", "busy", "commercial", "city life"],
     accessibilityFeatures: ["accessible sidewalks in parts"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -297,7 +297,7 @@ export const kampalaCentralUganda: Attraction[] = [
       "ramps in newer buildings",
     ],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

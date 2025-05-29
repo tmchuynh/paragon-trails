@@ -12,7 +12,7 @@ export const viennaTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["Classical Music", "Cultural", "Exclusive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const viennaTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Royal History", "Palace", "Habsburg"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const viennaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Art", "Street Art", "Contemporary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

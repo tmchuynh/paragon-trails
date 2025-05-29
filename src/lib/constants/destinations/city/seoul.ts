@@ -17,7 +17,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     tags: ["cultural", "historical", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     tags: ["cultural", "historical", "walking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     tags: ["viewpoint", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
 
     isPetFriendly: false,

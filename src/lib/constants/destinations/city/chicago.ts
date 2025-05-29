@@ -17,7 +17,7 @@ export const chicagoIlUnitedStates: Attraction[] = [
     tags: ["outdoor", "cultural", "art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const chicagoIlUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -57,7 +57,7 @@ export const chicagoIlUnitedStates: Attraction[] = [
     tags: ["entertainment", "shopping", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -78,7 +78,7 @@ export const chicagoIlUnitedStates: Attraction[] = [
     tags: ["tour", "architectural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

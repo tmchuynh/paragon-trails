@@ -13,7 +13,7 @@ export const hoiAnTours: Tour[] = [
     price: "$40",
     rating: 4.9,
     tags: ["Cultural", "Craft", "UNESCO"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const hoiAnTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cycling", "Cooking", "Rural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -87,7 +87,7 @@ export const hoiAnTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -124,7 +124,7 @@ export const hoiAnTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Romantic", "Cultural", "Scenic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

@@ -17,7 +17,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["cultural", "historical", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["nature", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "peaceful"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,7 +102,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["cultural", "local experience", "homestay"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -124,7 +124,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     tags: ["religious", "cultural", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,

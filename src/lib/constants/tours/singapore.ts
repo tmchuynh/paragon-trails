@@ -12,7 +12,7 @@ export const singaporeTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Heritage", "Food", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const singaporeTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Gardens", "Light Show", "Modern"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const singaporeTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Nature", "Wildlife", "Off-the-beaten-path"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

@@ -13,7 +13,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$1,750",
     rating: 4.9,
     tags: ["Island Hopping", "Multi-Island", "Comprehensive"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Archaeology", "Minoan", "Museum"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cultural", "Artisans", "Villages"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$130",
     rating: 4.9,
     tags: ["Cooking", "Food", "Agriculture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Adventure"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -173,7 +173,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sailing", "Beaches", "Swimming"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -205,7 +205,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$140",
     rating: 4.7,
     tags: ["4x4", "Mountain", "Mythology"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -237,7 +237,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Photography", "Sunset", "Ancient Temple"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -269,7 +269,7 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Wine", "Olive Oil", "Tasting"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

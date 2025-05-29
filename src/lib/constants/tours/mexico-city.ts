@@ -12,7 +12,7 @@ export const mexicoCityTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Archaeological", "Ancient Civilization", "Pyramids"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const mexicoCityTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Food", "Markets", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const mexicoCityTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Cultural", "Music", "Nature"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

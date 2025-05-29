@@ -16,7 +16,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["art", "history", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["art", "cultural", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -57,7 +57,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["historical", "cultural", "museum"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -78,7 +78,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["luxury", "dining", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -98,7 +98,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["viewpoint", "adventure", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -118,7 +118,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["cultural", "historical", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -138,7 +138,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["luxury", "nature", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -158,7 +158,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["history", "cultural", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -178,7 +178,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["outdoor", "nature", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -198,7 +198,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["cultural", "brewery", "interactive"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -218,7 +218,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["cultural", "art", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -238,7 +238,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["festival", "art", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -258,7 +258,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["shopping", "cultural", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -278,7 +278,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["zoo", "family", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -298,7 +298,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     tags: ["cultural", "performing arts", "theater"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -12,7 +12,7 @@ export const tahitiTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Nature", "Waterfalls", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -39,7 +39,7 @@ export const tahitiTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Pearls", "Crafts", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const tahitiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Sunset", "Cruise", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

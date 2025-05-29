@@ -12,7 +12,7 @@ export const jaipurTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Royal", "Palaces", "Heritage"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const jaipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Textiles", "Artisans"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -76,7 +76,7 @@ export const jaipurTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Local Culture", "Markets", "Hidden Gems"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -113,7 +113,7 @@ export const jaipurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Culture", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

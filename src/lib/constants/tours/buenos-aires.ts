@@ -12,7 +12,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Tango", "Dance", "Cultural"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -60,7 +60,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Architecture", "Art", "Local Culture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -114,7 +114,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Food", "Culinary", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -151,7 +151,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nightlife", "Tango", "Local Culture"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -188,7 +188,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["History", "Culture", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -225,7 +225,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$100",
     rating: 4.9,
     tags: ["Nature", "Adventure", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -262,7 +262,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Art", "Culture", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -299,7 +299,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Nature", "Parks", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -336,7 +336,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Wine", "Tasting", "Culinary"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -383,7 +383,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Historical", "Political", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -431,7 +431,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$130",
     rating: 4.8,
     tags: ["Gaucho", "Rural", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -480,7 +480,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Nature", "Eco-Adventure", "Waterways"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -527,7 +527,7 @@ export const buenosAiresTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Architecture", "History", "Design"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

@@ -12,7 +12,7 @@ export const glasgowTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Music", "Nightlife", "Cultural"],
-    isFamilyFriendly: false,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -44,7 +44,7 @@ export const glasgowTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "Design", "Art Nouveau"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -76,7 +76,7 @@ export const glasgowTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Urban"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -108,7 +108,7 @@ export const glasgowTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

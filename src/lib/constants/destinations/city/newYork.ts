@@ -17,7 +17,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -39,7 +39,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["nature", "recreation", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -60,7 +60,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["entertainment", "cultural", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -82,7 +82,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -103,7 +103,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["historical", "scenic", "iconic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -124,7 +124,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "views"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -145,7 +145,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["viewpoint", "modern", "photography"],
     accessibilityFeatures: ["wheelchair accessible", "elevator access"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -166,7 +166,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     tags: ["dining", "luxury", "gourmet"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

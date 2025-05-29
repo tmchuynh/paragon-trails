@@ -17,7 +17,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     tags: ["entertainment", "family", "amusement park"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     tags: ["cultural", "religious", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     tags: ["beach", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     tags: ["luxury", "resort", "wellness"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -102,7 +102,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     tags: ["adventure", "water sports", "nature"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

@@ -12,7 +12,7 @@ export const vancouverTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nature", "Adventure", "Scenic"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const vancouverTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Indigenous", "Cultural", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const vancouverTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Food", "Culinary", "Local Experience"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

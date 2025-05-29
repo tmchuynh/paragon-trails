@@ -12,7 +12,7 @@ export const shanghaiTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Architecture", "History", "Modern"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const shanghaiTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Food", "Cooking", "Culinary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const shanghaiTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Art", "Culture", "Contemporary"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -98,7 +98,7 @@ export const shanghaiTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Nightlife", "Cruise", "Views"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

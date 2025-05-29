@@ -12,7 +12,7 @@ export const fortKochiTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["History", "Colonial", "Architecture"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -44,7 +44,7 @@ export const fortKochiTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Backwaters", "Village", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -77,7 +77,7 @@ export const fortKochiTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Art", "Culture", "Street Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -104,7 +104,7 @@ export const fortKochiTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Cuisine"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

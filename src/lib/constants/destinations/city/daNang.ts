@@ -17,7 +17,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     priceRange: "$$",
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isWheelchairAccessible: true,
     isFree: false,
@@ -46,7 +46,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     isFree: true,
     isPopular: true,
     isOutdoor: true,
-    isFamilyFriendly: true,
+
     isRomantic: true,
     isPetFriendly: true,
     isDining: true,
@@ -74,7 +74,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     isShopping: false,
     isNightlife: false,
     isAdventure: false,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPopular: true,
     isWheelchairAccessible: true,
@@ -98,7 +98,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     priceRange: "$",
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    isFamilyFriendly: true,
+
     isPetFriendly: false,
     isWheelchairAccessible: true,
     isFree: false,

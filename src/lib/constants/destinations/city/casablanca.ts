@@ -16,7 +16,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     tags: ["religious", "cultural", "architectural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     tags: ["cultural", "historical", "shopping"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     tags: ["historical", "cultural", "architectural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -81,7 +81,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     tags: ["wellness", "cultural", "spa"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,

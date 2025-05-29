@@ -13,7 +13,7 @@ export const patagoniaTours: Tour[] = [
     price: "$1,295",
     rating: 4.9,
     tags: ["Trekking", "National Park", "Wilderness"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -45,7 +45,7 @@ export const patagoniaTours: Tour[] = [
     price: "$285",
     rating: 4.8,
     tags: ["Glacier", "Ice Trekking", "Adventure"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -77,7 +77,7 @@ export const patagoniaTours: Tour[] = [
     price: "$1,450",
     rating: 4.7,
     tags: ["Wildlife", "Photography", "Conservation"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -109,7 +109,7 @@ export const patagoniaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Traditional"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -141,7 +141,7 @@ export const patagoniaTours: Tour[] = [
     price: "$895",
     rating: 4.7,
     tags: ["Photography", "Mountains", "Trekking"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -173,7 +173,7 @@ export const patagoniaTours: Tour[] = [
     price: "$1,350",
     rating: 4.8,
     tags: ["Multi-sport", "Kayaking", "Biking"],
-    isFamilyFriendly: false,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -205,7 +205,7 @@ export const patagoniaTours: Tour[] = [
     price: "$265",
     rating: 4.6,
     tags: ["Boat Tour", "Glacier", "Wildlife"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -237,7 +237,7 @@ export const patagoniaTours: Tour[] = [
     price: "$180",
     rating: 4.7,
     tags: ["Archaeology", "History", "Rock Art"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
   {
     title: "Ushguli Village",
-    description: "One of the highest continuously inhabited settlements in Europe featuring ancient Svan defensive towers set against the backdrop of Mount Shkhara and glaciers.",
+    description:
+      "One of the highest continuously inhabited settlements in Europe featuring ancient Svan defensive towers set against the backdrop of Mount Shkhara and glaciers.",
     imageUrl: "https://plus.unsplash.com/ushguli-village.jpg",
     location: "Ushguli, Svaneti Region, Georgia",
     openingHours: "Open 24 hours (best visited May-October)",
@@ -16,7 +17,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["UNESCO", "historical", "mountains"],
     accessibilityFeatures: ["rough terrain", "limited facilities"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -27,11 +28,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Mestia Svan Towers",
-    description: "The iconic medieval defensive stone towers that define the skyline of Mestia, the main town of Upper Svaneti, offering insights into the region's unique cultural heritage.",
+    description:
+      "The iconic medieval defensive stone towers that define the skyline of Mestia, the main town of Upper Svaneti, offering insights into the region's unique cultural heritage.",
     imageUrl: "https://plus.unsplash.com/mestia-svan-towers.jpg",
     location: "Mestia, Svaneti Region, Georgia",
     openingHours: "Exterior viewing 24 hours, museum tower 10:00 AM - 6:00 PM",
@@ -44,7 +46,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["historical", "architecture", "cultural"],
     accessibilityFeatures: ["uneven terrain"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -55,11 +57,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Svaneti Museum of History and Ethnography",
-    description: "An excellent museum housing a remarkable collection of religious artifacts, medieval manuscripts, jewelry, and ethnographic items that showcase Svaneti's rich cultural heritage.",
+    description:
+      "An excellent museum housing a remarkable collection of religious artifacts, medieval manuscripts, jewelry, and ethnographic items that showcase Svaneti's rich cultural heritage.",
     imageUrl: "https://plus.unsplash.com/svaneti-museum.jpg",
     location: "Mestia, Svaneti Region, Georgia",
     openingHours: "10:00 AM - 6:00 PM (closed Mondays)",
@@ -72,7 +75,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["museum", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -83,11 +86,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: true,
     isDining: false,
     isOutdoor: false,
-    isIndoor: true
+    isIndoor: true,
   },
   {
     title: "Chalaadi Glacier Trek",
-    description: "A relatively accessible glacier trek through beautiful pine forests leading to the impressive Chalaadi Glacier extending down from the slopes of Mount Ushba.",
+    description:
+      "A relatively accessible glacier trek through beautiful pine forests leading to the impressive Chalaadi Glacier extending down from the slopes of Mount Ushba.",
     imageUrl: "https://plus.unsplash.com/chalaadi-glacier.jpg",
     location: "Near Mestia, Svaneti Region, Georgia",
     openingHours: "Best visited during daylight hours in summer months",
@@ -100,7 +104,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["hiking", "nature", "glacier"],
     accessibilityFeatures: ["challenging terrain"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -111,11 +115,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Traditional Svan House Experience",
-    description: "Immerse yourself in authentic Svan culture by staying in a traditional stone house with a local family, enjoying home-cooked meals featuring local specialties like kubdari (meat pie) and tashmijabi (cheese-potato dish).",
+    description:
+      "Immerse yourself in authentic Svan culture by staying in a traditional stone house with a local family, enjoying home-cooked meals featuring local specialties like kubdari (meat pie) and tashmijabi (cheese-potato dish).",
     imageUrl: "https://plus.unsplash.com/svan-house-experience.jpg",
     location: "Various villages in Svaneti Region, Georgia",
     openingHours: "By reservation",
@@ -128,7 +133,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["homestay", "cultural", "authentic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -138,11 +143,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: true,
     isOutdoor: false,
-    isIndoor: true
+    isIndoor: true,
   },
   {
     title: "Koruldi Lakes Hike",
-    description: "A spectacular day hike from Mestia to the alpine Koruldi Lakes offering breathtaking panoramic views of Mount Ushba and the surrounding Caucasus Mountains.",
+    description:
+      "A spectacular day hike from Mestia to the alpine Koruldi Lakes offering breathtaking panoramic views of Mount Ushba and the surrounding Caucasus Mountains.",
     imageUrl: "https://plus.unsplash.com/koruldi-lakes.jpg",
     location: "Near Mestia, Svaneti Region, Georgia",
     openingHours: "Best hiked June-September, daylight hours",
@@ -155,7 +161,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["hiking", "nature", "scenic"],
     accessibilityFeatures: ["difficult terrain"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -166,11 +172,12 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
+    isIndoor: false,
   },
   {
     title: "Svaneti Helicopter Tour",
-    description: "An exclusive aerial adventure offering magnificent views of the Caucasus Mountains, ancient villages, and glaciers from a unique perspective, with the option for remote landings at normally inaccessible locations.",
+    description:
+      "An exclusive aerial adventure offering magnificent views of the Caucasus Mountains, ancient villages, and glaciers from a unique perspective, with the option for remote landings at normally inaccessible locations.",
     imageUrl: "https://plus.unsplash.com/svaneti-helicopter-tour.jpg",
     location: "Departing from Mestia, Svaneti Region, Georgia",
     openingHours: "By reservation, weather dependent",
@@ -183,7 +190,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     tags: ["luxury", "scenic", "exclusive"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -194,6 +201,6 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isShopping: false,
     isDining: false,
     isOutdoor: true,
-    isIndoor: false
-  }
+    isIndoor: false,
+  },
 ];

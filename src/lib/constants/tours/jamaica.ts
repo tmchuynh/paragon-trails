@@ -13,7 +13,7 @@ export const jamaicaTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Coffee", "Mountains", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -55,7 +55,7 @@ export const jamaicaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Waterfalls", "Swimming", "Nature"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -92,7 +92,7 @@ export const jamaicaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cultural", "Spiritual", "Educational"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -134,7 +134,7 @@ export const jamaicaTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Music", "Reggae", "Cultural"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -171,7 +171,7 @@ export const jamaicaTours: Tour[] = [
     price: "$89",
     rating: 4.8,
     tags: ["Natural Wonder", "Night Tour", "Swimming"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -208,7 +208,7 @@ export const jamaicaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Cooking", "Food", "Rum"],
-    isFamilyFriendly: true,
+ 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -245,7 +245,7 @@ export const jamaicaTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["History", "Culture", "Reggae"],
-    isFamilyFriendly: true,
+ 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,

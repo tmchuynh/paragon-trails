@@ -17,7 +17,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["entertainment", "nightlife", "shopping"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["entertainment", "cultural", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -58,7 +58,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["outdoor", "nature", "hiking"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -79,7 +79,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["entertainment", "cultural", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -99,7 +99,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["scenic", "viewpoint", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -120,7 +120,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -140,7 +140,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["historical", "engineering", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -162,7 +162,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["cultural", "art", "shopping"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -182,7 +182,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["educational", "family-friendly", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -203,7 +203,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["nature", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -223,7 +223,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -244,7 +244,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["family-friendly", "educational", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -264,7 +264,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["shopping", "entertainment", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -285,7 +285,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["business", "events", "conventions"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -305,7 +305,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["nature", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -326,7 +326,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     tags: ["cultural", "art", "shopping"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

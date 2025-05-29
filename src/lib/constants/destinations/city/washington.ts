@@ -20,7 +20,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
       "accessible restrooms",
     ],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -49,7 +49,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     tags: ["museum", "science", "aviation"],
     accessibilityFeatures: ["wheelchair accessible", "listening devices"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -78,7 +78,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     tags: ["architecture", "history", "literature"],
     accessibilityFeatures: ["accessible entrance", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -107,7 +107,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     tags: ["exclusive", "political", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -137,7 +137,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     tags: ["dining", "shopping", "historic district"],
     accessibilityFeatures: ["some accessible sidewalks"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,

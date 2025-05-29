@@ -17,7 +17,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["nature", "scenic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -38,7 +38,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["cultural", "shopping", "food"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -59,7 +59,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["nature", "wildlife", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -80,7 +80,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["cultural", "agriculture", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -101,7 +101,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["cultural", "food", "urban"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -122,7 +122,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["religious", "cultural", "architecture"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -142,7 +142,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     tags: ["luxury", "cruise", "exclusive"],
     accessibilityFeatures: ["elevator access", "assistance available"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

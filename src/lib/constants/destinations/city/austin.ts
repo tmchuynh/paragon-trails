@@ -16,7 +16,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["historical", "government", "architecture"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["outdoor", "family-friendly", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -57,7 +57,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["luxury", "wellness", "spa"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -78,7 +78,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["nature", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -99,7 +99,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["swimming", "outdoor", "recreation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -119,7 +119,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["art", "cultural", "educational"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -139,7 +139,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["shopping", "food", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -160,7 +160,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["viewpoint", "nature", "scenic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -180,7 +180,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["shopping", "dining", "entertainment"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -200,7 +200,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["historical", "educational", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -221,7 +221,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["nature", "wildlife", "unique experience"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -241,7 +241,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["food", "local", "community"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -261,7 +261,7 @@ export const austinTxUnitedStates: Attraction[] = [
     tags: ["historical", "educational", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

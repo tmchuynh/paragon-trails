@@ -17,7 +17,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     tags: ["palace", "royal", "museum"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -46,7 +46,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     tags: ["lake", "boat ride", "scenic"],
     accessibilityFeatures: ["assistance available for boarding boats"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -75,7 +75,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     tags: ["temple", "spiritual", "architecture"],
     accessibilityFeatures: ["many steps, limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -104,7 +104,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     tags: ["museum", "cultural show", "heritage"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -133,7 +133,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     tags: ["luxury", "palace", "heritage hotel"],
     accessibilityFeatures: ["assistance available", "boat transfer required"],
     isPopular: true,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

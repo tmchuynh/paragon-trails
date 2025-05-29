@@ -17,7 +17,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["cultural", "historical", "outdoor"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -38,7 +38,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["zoo", "family", "wildlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -59,7 +59,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["nature", "scenic", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -81,7 +81,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["historical", "military", "museum"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -102,7 +102,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["beach", "outdoor", "scenic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -123,7 +123,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["historical", "cultural", "outdoor"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -144,7 +144,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["entertainment", "nightlife", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
@@ -165,7 +165,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["luxury", "exclusive", "marine"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -188,7 +188,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["luxury", "wellness", "exclusive"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
     isPopular: false,
-    isFamilyFriendly: false,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -211,7 +211,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["nature", "hiking", "scenic"],
     accessibilityFeatures: ["accessible viewpoints", "limited trail access"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -233,7 +233,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     tags: ["art", "cultural", "museum"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

@@ -16,7 +16,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     tags: ["entertainment", "cultural", "family-friendly"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -37,7 +37,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     tags: ["cultural", "historical", "photography"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
@@ -58,7 +58,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     tags: ["cultural", "historical", "landmark"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
@@ -80,7 +80,7 @@ export const copenhagenCapitalRegionDenmark: Attraction[] = [
     tags: ["museum", "historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,

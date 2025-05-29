@@ -12,7 +12,7 @@ export const heraklionTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Archaeology", "Ancient Civilization", "History"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +50,7 @@ export const heraklionTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Wine", "Rural", "Culinary"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -87,7 +87,7 @@ export const heraklionTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

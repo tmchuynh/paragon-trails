@@ -12,7 +12,7 @@ export const thessalonikiTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Byzantine", "Churches", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -39,7 +39,7 @@ export const thessalonikiTours: Tour[] = [
     price: "$79",
     rating: 4.9,
     tags: ["Food", "Market", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const thessalonikiTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Street Art", "Culture", "Urban"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

@@ -19,7 +19,6 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     isPopular: true,
     isHistorical: true,
     isIndoor: true,
-    isFamilyFriendly: true,
   },
   {
     title: "Aristotelous Square",
@@ -41,7 +40,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     timeOfDay: "all day",
     isPopular: true,
     isWheelchairAccessible: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isRomantic: true,
     isLocalExperience: true,
@@ -122,7 +121,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
   },
   {
@@ -145,7 +144,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
   },
   {
@@ -156,19 +155,14 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TGFkYWRpa2ElMjBEaXN0cmljdHxlbnwwfHwwfHx8MA%3D%3D",
-    tags: [
-      "Cultural District",
-      "Dining",
-      "Nightlife",
-      "Local Experience",
-    ],
+    tags: ["Cultural District", "Dining", "Nightlife", "Local Experience"],
     accessibilityFeatures: ["Flat Terrain", "Accessible Taverns"],
     openingHours: "Open 24/7 (individual establishments have varying hours)",
     entryFee: "Free (prices vary by establishment)",
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isDining: true,
     isNightlife: true,
@@ -193,7 +187,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
     isOutdoor: true,
   },
@@ -205,19 +199,14 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8VmFyZGFyaXNNYXJrZXxlbnwwfHwwfHx8MA%3D%3D",
-    tags: [
-      "Local Market",
-      "Food Experience",
-      "Cultural Heritage",
-      "Shopping",
-    ],
+    tags: ["Local Market", "Food Experience", "Cultural Heritage", "Shopping"],
     accessibilityFeatures: ["Flat Terrain", "Accessible Aisles"],
     openingHours: "7:00 AM - 3:00 PM (Monday-Saturday), Closed Sundays",
     entryFee: "Free (prices vary by vendor)",
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
   },
   {
@@ -240,7 +229,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
   },
   {
@@ -251,19 +240,14 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1vZGlhbm9NYXJrZXR8ZW58MHx8MHx8MA%3D%3D",
-    tags: [
-      "Local Market",
-      "Food Experience",
-      "Cultural Heritage",
-      "Shopping",
-    ],
+    tags: ["Local Market", "Food Experience", "Cultural Heritage", "Shopping"],
     accessibilityFeatures: ["Flat Terrain", "Accessible Aisles"],
     openingHours: "7:00 AM - 3:00 PM (Monday-Saturday), Closed Sundays",
     entryFee: "Free (prices vary by vendor)",
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
   },
   {
@@ -286,7 +270,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
   },
   {
@@ -297,19 +281,14 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFRoZXNzYWxvbmlraSUyMENvbmNlcnQlMjBIYWxsfGVufDB8fDB8fDA%3D",
-    tags: [
-      "Concert Hall",
-      "Cultural Venue",
-      "Performing Arts",
-      "Music Events",
-    ],
+    tags: ["Concert Hall", "Cultural Venue", "Performing Arts", "Music Events"],
     accessibilityFeatures: ["Wheelchair Accessible", "Hearing Assistance"],
     openingHours: "10:00 AM - 6:00 PM (Monday-Friday), Varies on event days",
     entryFee: "Varies by event (tickets available online)",
     priceCategory: "varies",
     timeOfDay: "evening",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isCulturalExperience: true,
   },
   {
@@ -332,7 +311,7 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isHistorical: true,
   },
   {
@@ -343,19 +322,14 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEthcGFuaU1hcmtldHxlbnwwfHwwfHx8MA%3D%3D",
-    tags: [
-      "Local Market",
-      "Food Experience",
-      "Cultural Heritage",
-      "Shopping",
-    ],
+    tags: ["Local Market", "Food Experience", "Cultural Heritage", "Shopping"],
     accessibilityFeatures: ["Flat Terrain", "Accessible Aisles"],
     openingHours: "7:00 AM - 3:00 PM (Monday-Saturday), Closed Sundays",
     entryFee: "Free (prices vary by vendor)",
     priceCategory: "free",
     timeOfDay: "daytime",
     isPopular: true,
-    isFamilyFriendly: true,
+
     isFree: true,
   },
 ];

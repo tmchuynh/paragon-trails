@@ -12,7 +12,7 @@ export const casablancaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "Religious", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -49,7 +49,7 @@ export const casablancaTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -86,7 +86,7 @@ export const casablancaTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Film", "History", "Walking Tour"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -118,7 +118,7 @@ export const casablancaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Architecture", "Art Deco", "Photography"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -155,7 +155,7 @@ export const casablancaTours: Tour[] = [
     price: "$95",
     rating: 4.6,
     tags: ["Beach", "Water Sports", "Relaxation"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -192,7 +192,7 @@ export const casablancaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Wellness", "Spa", "Traditional"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -219,7 +219,7 @@ export const casablancaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Food", "Local", "Shopping"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -256,7 +256,7 @@ export const casablancaTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Day Trip", "History", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -288,7 +288,7 @@ export const casablancaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Photography", "Art", "Architecture"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -325,7 +325,7 @@ export const casablancaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Family", "Kids", "Interactive"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -362,7 +362,7 @@ export const casablancaTours: Tour[] = [
     price: "$185",
     rating: 4.9,
     tags: ["Romantic", "Dinner", "Sunset"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -399,7 +399,7 @@ export const casablancaTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Luxury", "Exclusive", "Gourmet"],
-    isFamilyFriendly: false,
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -436,7 +436,7 @@ export const casablancaTours: Tour[] = [
     price: "$125",
     rating: 4.7,
     tags: ["Day Trip", "Coastal", "UNESCO"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -473,7 +473,7 @@ export const casablancaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Jewish Heritage", "History", "Cultural"],
-    isFamilyFriendly: true,
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -500,7 +500,7 @@ export const casablancaTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Craft", "Workshop", "Traditional"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -537,7 +537,7 @@ export const casablancaTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Contemporary", "Art", "Urban"],
-    isFamilyFriendly: true,
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,

@@ -18,7 +18,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["historical", "cultural", "iconic"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
-      isFamilyFriendly: true,
+
       isFree: true,
       isPetFriendly: true,
       isWheelchairAccessible: false,
@@ -39,7 +39,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["religious", "cultural", "views"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
-      isFamilyFriendly: true,
+
       isFree: false,
       isPetFriendly: false,
       isWheelchairAccessible: false,
@@ -60,7 +60,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       tags: ["luxury", "heritage", "exclusive"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: false,
-      isFamilyFriendly: false,
+
       isFree: false,
       isPetFriendly: false,
       isWheelchairAccessible: false,
