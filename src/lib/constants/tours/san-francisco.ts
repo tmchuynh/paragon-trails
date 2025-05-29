@@ -55,6 +55,38 @@ export const sanFranciscoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "San Francisco Food Truck Tour",
+    description:
+      "Taste the best of San Francisco's food truck scene with a guided tour through the Mission District, sampling gourmet tacos, artisanal ice cream, and more.",
+    images: [
+      "/images/tours/san-francisco/food-truck.jpg",
+      "/images/tours/san-francisco/mission-district.jpg",
+    ],
+    duration: "3 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Food", "Street Food", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Lily Tran",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate vegetarian, vegan, and gluten-free diets with advance notice. Please inform us of any specific dietary needs when booking.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of dishes from different food trucks, such as gourmet tacos, fusion sandwiches, artisanal desserts, and local beverages.",
+      },
+    ],
+  },
 ];
 
 export default sanFranciscoTours;

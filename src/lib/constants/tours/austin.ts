@@ -85,6 +85,174 @@ export const austinTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Austin City Tour & History Walk",
+    description:
+      "Explore Austin's rich history and vibrant culture with a guided walking tour through downtown, visiting iconic landmarks, historic districts, and learning about the city's unique heritage.",
+    images: [
+      "/images/tours/austin/city-tour.jpg",
+      "/images/tours/austin/history-walk.jpg",
+    ],
+    duration: "3 hours",
+    price: "$45",
+    rating: 4.7,
+    tags: ["History", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Sarah Johnson",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "What historical sites will we visit?",
+        answer:
+          "The tour includes stops at the Texas State Capitol, the Driskill Hotel, historic Sixth Street, and more. You'll learn about Austin's founding, its role in Texas history, and its cultural evolution.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes! The tour is family-friendly and designed to engage visitors of all ages with interesting stories and interactive elements.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour covers approximately 1.5 miles (2.4 km) at a leisurely pace with plenty of stops for explanations and photos. Comfortable walking shoes are recommended.",
+      },
+      {
+        question: "Can we customize the tour?",
+        answer:
+          "Absolutely! If you have specific interests or sites you'd like to include, just let us know when booking and we'll do our best to accommodate your requests.",
+      },
+    ],
+  },
+  {
+    title: "Lady Bird Lake Kayak & Nature Tour",
+    description:
+      "Paddle through the scenic waters of Lady Bird Lake with a guided kayak tour, exploring Austin's natural beauty, wildlife, and iconic skyline views while learning about the area's ecology and history.",
+    images: [
+      "/images/tours/austin/kayak-lady-bird.jpg",
+      "/images/tours/austin/nature-tour.jpg",
+    ],
+    duration: "2.5 hours",
+    price: "$55",
+    rating: 4.6,
+    tags: ["Nature", "Kayaking", "Outdoor"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Emily Carter",
+    tourCategoryId: "outdoor",
+    faqs: [
+      {
+        question: "Do I need prior kayaking experience?",
+        answer:
+          "No prior experience is necessary! Our guides provide a brief kayaking lesson and all necessary equipment. The tour is designed for all skill levels, including beginners.",
+      },
+      {
+        question: "What should I wear for the kayak tour?",
+        answer:
+          "Wear comfortable, moisture-wicking clothing that can get wet. We recommend closed-toe shoes that can get wet, a hat, and sunscreen. A swimsuit is also a good option if you prefer.",
+      },
+      {
+        question: "Is the tour weather-dependent?",
+        answer:
+          "Yes, the tour is weather-dependent for safety reasons. If conditions are unsafe (e.g., thunderstorms, high winds), we will reschedule or offer a full refund. We recommend checking the weather forecast before your tour date.",
+      },
+      {
+        question: "Can we bring our own snacks or drinks?",
+        answer:
+          "Yes, you can bring small snacks and non-alcoholic beverages in a waterproof bag. We provide a cooler for any items you want to keep cool during the tour. Please avoid glass containers.",
+      },
+    ],
+  },
+  {
+    title: "Texas Hill Country Wine & Scenic Tour",
+    description:
+      "Discover the beauty of Texas Hill Country with a guided tour of local wineries, including tastings of award-winning wines and scenic views of rolling hills and vineyards.",
+    images: [
+      "/images/tours/austin/wine-tasting.jpg",
+      "/images/tours/austin/hill-country.jpg",
+    ],
+    duration: "6 hours",
+    price: "$99",
+    rating: 4.8,
+    tags: ["Wine", "Scenic", "Nature"],
+    isFamilyFriendly: false,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Laura Martinez",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "How many wineries will we visit?",
+        answer:
+          "The tour typically includes visits to 3-4 wineries, each offering unique wines and experiences. You'll have the opportunity to taste a variety of wines and learn about the winemaking process.",
+      },
+      {
+        question: "Is transportation provided?",
+        answer:
+          "Yes, round-trip transportation from downtown Austin is included in the tour price. We ensure a comfortable ride with scenic views along the way.",
+      },
+      {
+        question: "Can I purchase wine during the tour?",
+        answer:
+          "Absolutely! Most wineries offer wine for purchase, and we can help arrange shipping if you want to send bottles home.",
+      },
+      {
+        question: "What should I wear for the winery tour?",
+        answer:
+          "Dress comfortably for a day in the Texas sun. We recommend wearing layers as temperatures can vary throughout the day. Comfortable shoes are also advisable as some wineries have uneven terrain.",
+      },
+    ],
+  },
+  {
+    title: "Austin Street Art & Mural Tour",
+    description:
+      "Explore Austin's vibrant street art scene with a guided walking tour of the city's most iconic murals and public art installations, led by a local artist who shares insights into the stories and techniques behind the works.",
+    images: [
+      "/images/tours/austin/street-art.jpg",
+      "/images/tours/austin/mural-tour.jpg",
+    ],
+    duration: "2 hours",
+    price: "$35",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Maya Thompson",
+    tourCategoryId: "art",
+    faqs: [
+      {
+        question: "Will we see famous murals?",
+        answer:
+          "Yes, the tour includes stops at some of Austin's most famous murals, as well as hidden gems that showcase the city's diverse street art culture. You'll learn about the artists and the stories behind each piece.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage visitors of all ages. Kids will enjoy the colorful art and interactive elements of the tour.",
+      },
+      {
+        question: "Do I need to bring anything?",
+        answer:
+          "We recommend bringing a camera or smartphone for photos, comfortable walking shoes, and water to stay hydrated. Sunscreen is also a good idea, especially in warmer months.",
+      },
+      {
+        question: "Can we customize the tour?",
+        answer:
+          "Absolutely! If you have specific murals or areas of interest, let us know when booking and we'll do our best to include them in the tour.",
+      },
+    ],
+  },
 ];
 
 export default austinTours;

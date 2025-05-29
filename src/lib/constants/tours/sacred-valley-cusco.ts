@@ -55,6 +55,38 @@ export const sacredValleyCuscoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Cusco City & Inca Heritage Tour",
+    description:
+      "Explore the historic capital of the Inca Empire with a local guide, visiting key archaeological sites, colonial architecture, and vibrant markets that showcase Cusco's rich cultural tapestry.",
+    images: [
+      "/images/tours/sacred-valley/cusco-cathedral.jpg",
+      "/images/tours/sacred-valley/sacsayhuaman.jpg",
+    ],
+    duration: "4 hours",
+    price: "$60",
+    rating: 4.7,
+    tags: ["Historical", "UNESCO", "Culture"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Juan Carlos Huamaní",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "Comfortable walking shoes are essential as we will be exploring both the city and archaeological sites. Dress in layers to accommodate changing weather conditions, and bring a hat and sunscreen for sun protection.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with fascinating stories and interactive elements.",
+      },
+    ],
+  },
 ];
 
 export default sacredValleyCuscoTours;

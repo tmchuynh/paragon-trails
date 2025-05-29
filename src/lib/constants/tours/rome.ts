@@ -55,6 +55,38 @@ export const romeTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Trastevere Food & Wine Tour",
+    description:
+      "Explore the charming Trastevere neighborhood with a local foodie, tasting authentic Roman dishes and sampling fine wines at hidden gems.",
+    images: [
+      "/images/tours/rome/trastevere-food.jpg",
+      "/images/tours/rome/roman-pizza.jpg",
+    ],
+    duration: "3 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Food", "Wine", "Local Culture"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Alessandro Romano",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample classic Roman dishes like pasta alla carbonara, supplì (fried rice balls), and artisanal pizza, paired with local wines. Vegetarian options are available upon request.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! We can accommodate children's tastes and dietary restrictions with advance notice.",
+      },
+    ],
+  },
 ];
 
 export default romeTours;

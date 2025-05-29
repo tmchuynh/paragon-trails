@@ -55,6 +55,33 @@ export const sanDiegoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Craft Beer & Brewery Tour",
+    description:
+      "Explore San Diego's vibrant craft beer scene with a guided tour of three local breweries, including tastings of unique brews and behind-the-scenes insights into the brewing process.",
+    images: [
+      "/images/tours/san-diego/craft-beer.jpg",
+      "/images/tours/san-diego/brewery-tour.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Brewery", "Craft Beer", "Local Experience"],
+    isFamilyFriendly: false,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Jake Thompson",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are non-alcoholic options available?",
+        answer:
+          "Yes, we can accommodate non-drinkers with craft sodas and water tastings at each brewery. Please let us know in advance if you prefer non-alcoholic options.",
+      },
+    ],
+  },
 ];
 
 export default sanDiegoTours;

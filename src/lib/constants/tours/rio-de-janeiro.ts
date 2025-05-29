@@ -54,6 +54,38 @@ export const rioDeJaneiroTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Favela Community Tour & Cultural Exchange",
+    description:
+      "Experience the vibrant culture of Rio's favelas with a local guide, visiting community projects, art installations, and learning about the history and daily life in these neighborhoods while supporting local businesses.",
+    images: [
+      "/images/tours/rio-de-janeiro/favela-tour.jpg",
+      "/images/tours/rio-de-janeiro/community-art.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Favela", "Cultural", "Local"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Lucas Pereira",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour safe?",
+        answer:
+          "Yes, our tours are conducted with local guides who know the area well. We prioritize safety and respect for the community, ensuring a positive experience for both visitors and residents.",
+      },
+      {
+        question: "What should I wear for the favela tour?",
+        answer:
+          "We recommend comfortable clothing and sturdy shoes suitable for walking on uneven terrain. Please dress modestly to respect local customs.",
+      },
+    ],
+  },
 ];
 
 export default rioDeJaneiroTours;

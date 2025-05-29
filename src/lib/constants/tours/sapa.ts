@@ -190,6 +190,33 @@ export const sapaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Sapa Scenic Train Ride & Village Tour",
+    description:
+      "Experience the stunning landscapes of Sapa from a different perspective with a scenic train ride through terraced fields and misty mountains. After the train journey, visit nearby villages to meet local families and learn about their traditional lifestyles.",
+    images: [
+      "/images/tours/sapa/scenic-train.jpg",
+      "/images/tours/sapa/village-tour.jpg",
+    ],
+    duration: "4 hours",
+    price: "$50",
+    rating: 4.5,
+    tags: ["Train Ride", "Scenic", "Cultural"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Le Van Phuc",
+    tourCategoryId: "scenic",
+    faqs: [
+      {
+        question: "How long is the train ride?",
+        answer:
+          "The scenic train ride lasts approximately 1.5 hours each way, covering around 30km through some of the most picturesque landscapes in Sapa. The train features comfortable seating and large windows for optimal viewing. The journey includes stops at key viewpoints and cultural sites along the way.",
+      },
+    ],
+  },
 ];
 
 export default sapaTours;
