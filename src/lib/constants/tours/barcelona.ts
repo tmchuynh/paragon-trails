@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const barcelonaTours: Tour[] = [
+export const barcelonaTours: Tour[] = [
   {
     title: "Gaudí Masterpieces & Modernisme Architecture",
     description:
