@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const kyotoTours: Tour[] = [
+export const kyotoTours: Tour[] = [
   {
     title: "Fushimi Inari After Hours & Geisha District",
     description:

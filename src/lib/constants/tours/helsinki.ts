@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const helsinkiTours: Tour[] = [
+export const helsinkiTours: Tour[] = [
   {
     title: "Finnish Sauna Journey & Ice Swimming",
     description:

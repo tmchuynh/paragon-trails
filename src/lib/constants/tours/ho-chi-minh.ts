@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const hoChiMinhTours: Tour[] = [
+export const hoChiMinhTours: Tour[] = [
   {
     title: "Cu Chi Tunnels & Vietnam War History",
     description:

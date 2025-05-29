@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const glasgowTours: Tour[] = [
+export const glasgowTours: Tour[] = [
   {
     title: "Glasgow Music Heritage & Secret Venues",
     description:

@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const heraklionTours: Tour[] = [
+export const heraklionTours: Tour[] = [
   {
     title: "Knossos Palace & Minoan Civilization",
     description:

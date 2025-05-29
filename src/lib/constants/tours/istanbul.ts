@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const istanbulTours: Tour[] = [
+export const istanbulTours: Tour[] = [
   {
     title: "Two Continents & Bosphorus Experience",
     description:

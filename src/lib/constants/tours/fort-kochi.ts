@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const fortKochiTours: Tour[] = [
+export const fortKochiTours: Tour[] = [
   {
     title: "Historic Spice Route & Colonial Heritage",
     description:

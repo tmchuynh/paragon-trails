@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const jaipurTours: Tour[] = [
+export const jaipurTours: Tour[] = [
   {
     title: "Royal Amber Fort & Palace Elegance",
     description:
