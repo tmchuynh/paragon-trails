@@ -25,6 +25,16 @@ export const athensTours: Tour[] = [
         answer:
           "We begin with hotel pickup approximately 1 hour before the Acropolis opens to the public. This early start is well worth it as you'll experience the magnificent Parthenon in the golden morning light with unobstructed views and peaceful surroundings before the crowds and heat of the day build up.",
       },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "This tour is suitable for all ages, including families with children. We adapt our pace and content to ensure an engaging experience for everyone. Children under 12 receive a discounted rate, and infants can join free of charge if they do not require their own seat.",
+      },
+      {
+        question: "What should we wear for the Acropolis tour?",
+        answer:
+          "Comfortable walking shoes are essential as the Acropolis has uneven terrain and many steps. We recommend wearing light, breathable clothing suitable for warm weather, and a hat or sunglasses for sun protection. Please note that modest dress is required when visiting the sacred sites, so shoulders and knees should be covered.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const athensTours: Tour[] = [
         question: "What will we cook in the class?",
         answer:
           "You'll prepare a complete Greek meal including classics like moussaka or pastitsio, traditional Greek salad with locally produced feta, hand-rolled dolmades (stuffed grape leaves), and baklava or galaktoboureko for dessert. The exact menu may vary slightly based on seasonal ingredients, and vegetarian options are readily available upon request.",
+      },
+      {
+        question: "Do I need any prior cooking experience?",
+        answer:
+          "No prior cooking experience is necessary! Our classes are designed for all skill levels, from complete beginners to experienced cooks. Chef Sophia will guide you through each step, providing tips and techniques to enhance your culinary skills while ensuring you have a fun and enjoyable experience.",
+      },
+      {
+        question: "Is the cooking class suitable for children?",
+        answer:
+          "Yes, this class is family-friendly and children aged 8 and up are welcome to participate. We encourage families to cook together, and our chef will adapt the activities to ensure everyone can contribute safely. Younger children can join as observers or help with simpler tasks like mixing ingredients or decorating dishes.",
       },
     ],
   },
@@ -79,6 +99,21 @@ export const athensTours: Tour[] = [
         answer:
           "Our departure time varies throughout the year to ensure we arrive at Cape Sounion approximately one hour before sunset. In summer months, we typically depart Athens around 4:00-5:00 PM, while in winter the departure is earlier, around 2:00-3:00 PM. The exact time will be confirmed when you book based on your specific date.",
       },
+      {
+        question: "Is the dinner included in the tour price?",
+        answer:
+          "Yes, a delicious dinner at a traditional seaside taverna is included in the tour price. You'll enjoy a selection of fresh seafood, local specialties, and a glass of wine while taking in the stunning views of the Aegean Sea. Vegetarian options are available upon request.",
+      },
+      {
+        question: "How long do we spend at the Temple of Poseidon?",
+        answer:
+          "We spend approximately 1 hour at the Temple of Poseidon, allowing time to explore the site, take photos, and enjoy the panoramic views. The temple is particularly beautiful during sunset when the sky turns vibrant colors against the ancient ruins.",
+      },
+      {
+        question: "Is transportation included in the tour?",
+        answer:
+          "Yes, round-trip transportation from your hotel or a central meeting point in Athens is included. Our comfortable air-conditioned vehicle will take you along the scenic coastal road to Cape Sounion and back.",
+      },
     ],
   },
   {
@@ -105,6 +140,21 @@ export const athensTours: Tour[] = [
         question: "How much walking is involved?",
         answer:
           "This tour covers approximately 3-4 km at a leisurely pace with plenty of stops. We explore some hilly neighborhoods with occasional steps, so comfortable walking shoes are recommended. The route can be modified to accommodate different mobility levels with advance notice.",
+      },
+      {
+        question: "Will we visit any historical sites?",
+        answer:
+          "While this tour focuses on contemporary local culture, we do pass by some lesser-known historical sites and landmarks. However, the emphasis is on experiencing modern Athenian life rather than in-depth historical exploration. If you're interested in a more historical-focused tour, we can recommend alternatives.",
+      },
+      {
+        question: "Are there any food tastings included?",
+        answer:
+          "Yes, we include several food tastings at local markets and shops, such as traditional pastries, olives, cheeses, and coffee. If you have specific dietary restrictions or preferences, please let us know in advance so we can accommodate you.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children of all ages. We adapt the pace and content to keep younger participants engaged, including interactive elements like scavenger hunts or storytelling about local legends. Parents often find this a great way to introduce their kids to the culture and daily life of Athens.",
       },
     ],
   },
@@ -133,6 +183,21 @@ export const athensTours: Tour[] = [
         answer:
           "This tour is suitable for any type of camera, from smartphones to DSLRs. Our professional photographer guide will provide tips specific to your equipment. More important than your gear is your interest in learning composition, lighting, and storytelling through images. We can even arrange rental of professional equipment with advance notice if you'd like to try more advanced photography during the tour.",
       },
+      {
+        question: "Do I need prior photography experience?",
+        answer:
+          "No prior photography experience is necessary! This tour is designed for all skill levels, from complete beginners to advanced photographers. Our guide will tailor the instruction to your current knowledge and help you improve your skills while enjoying the sights of Athens.",
+      },
+      {
+        question: "Can I bring a tripod?",
+        answer:
+          "Yes, you can bring a tripod, but please let us know in advance so we can plan accordingly. Some locations may have restrictions on tripod use, especially during busy times, but we will find suitable spots where you can set up for long exposure shots or group photos.",
+      },
+      {
+        question: "What if it rains on the day of the tour?",
+        answer:
+          "Photography is still possible in light rain, and we can provide ponchos if needed. However, if the weather conditions are severe, we will contact you to reschedule or offer a full refund. Athens has a unique charm even in overcast weather, and our guide will suggest alternative indoor locations with interesting architecture and atmosphere.",
+      },
     ],
   },
   {
@@ -159,6 +224,21 @@ export const athensTours: Tour[] = [
         question: "How many wines will we taste?",
         answer:
           "You'll sample 12-15 different wines throughout the evening, representing the diverse terroirs and indigenous grape varieties of Greece. Each wine is served with complementary meze (Greek appetizers) specifically chosen to enhance the tasting experience. Non-alcoholic alternatives are available with advance notice.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 48 hours in advance to secure your spot, as this tour is very popular and space is limited. If you have a larger group or specific date requests, please contact us directly to check availability.",
+      },
+      {
+        question: "Is transportation included?",
+        answer:
+          "Transportation is not included in the tour price, but we can arrange private transfers from your hotel or preferred location for an additional fee. Alternatively, the wine bars are located within walking distance of central Athens and easily accessible by public transport.",
+      },
+      {
+        question: "Can I purchase wine to take home?",
+        answer:
+          "Yes, each wine bar offers the option to purchase bottles of the wines you taste during the tour. Our sommelier can provide recommendations based on your preferences, and we can assist with shipping arrangements if needed.",
       },
     ],
   },
@@ -187,6 +267,21 @@ export const athensTours: Tour[] = [
         answer:
           "Absolutely! In fact, children often find this tour particularly engaging. Our guides adapt their storytelling style to captivate younger audiences, focusing on the adventure aspects of Greek mythology while omitting some of the more mature themes. The tour includes interactive elements where children can play roles in famous myths, making history come alive for them in a memorable way.",
       },
+      {
+        question: "What sites will we visit during the tour?",
+        answer:
+          "We will visit key sites such as the Acropolis, Ancient Agora, Temple of Olympian Zeus, and the Roman Agora. Each location is tied to specific myths and legends, allowing us to connect the physical sites with the stories of gods, heroes, and mythical creatures. The tour is designed to provide a comprehensive overview of how mythology shaped ancient Athens.",
+      },
+      {
+        question: "How long is the walking distance?",
+        answer:
+          "The total walking distance is approximately 2.5 km (1.5 miles) at a leisurely pace, with plenty of stops for storytelling and exploration. We take breaks at each site to allow time for questions and photos. The route is mostly flat with some gentle slopes, making it accessible for all ages and fitness levels.",
+      },
+      {
+        question: "Do we need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 24 hours in advance to secure your spot, especially during peak tourist seasons. This tour is very popular, and space is limited to ensure an intimate experience. If you have a larger group or specific date requests, please contact us directly to check availability.",
+      },
     ],
   },
   {
@@ -213,6 +308,21 @@ export const athensTours: Tour[] = [
         question: "Do I need prior experience with rock climbing or kayaking?",
         answer:
           "No prior experience is necessary. Our guides provide comprehensive instruction suitable for beginners, with routes and kayaking conditions adapted to your comfort level. All necessary safety equipment is provided, and we begin with thorough training before starting each activity. More experienced adventurers will also find challenging options to suit their skill level.",
+      },
+      {
+        question: "What should I bring for the adventure tour?",
+        answer:
+          "Please wear comfortable athletic clothing suitable for outdoor activities, and bring a hat, sunscreen, and a refillable water bottle. We provide all climbing gear, kayaks, and safety equipment. Swimwear is recommended for the kayaking portion, and we suggest bringing a change of clothes for after the activities.",
+      },
+      {
+        question: "Is lunch included in the tour price?",
+        answer:
+          "Yes, a packed lunch is included featuring local Greek specialties such as sandwiches with feta cheese, olives, and seasonal fruits. Vegetarian options are available upon request. We take breaks during the day to enjoy our meal while taking in the beautiful surroundings.",
+      },
+      {
+        question: "What is the age limit for this tour?",
+        answer:
+          "This tour is suitable for ages 10 and up. Children under 16 must be accompanied by an adult. We can adapt the activities to ensure a fun and safe experience for younger participants, including easier climbing routes and shorter kayaking distances if needed.",
       },
     ],
   },
@@ -241,6 +351,21 @@ export const athensTours: Tour[] = [
         answer:
           "The treasure hunt is designed primarily for families with children aged 6-14, but we've found that younger siblings (4-5) and teenagers also enjoy the experience. We adapt the difficulty of clues and puzzles to your specific family group. Parents and grandparents often report having just as much fun as the children while learning fascinating historical facts presented in an engaging way.",
       },
+      {
+        question: "How many people can participate in the treasure hunt?",
+        answer:
+          "The treasure hunt is designed for groups of 2-6 participants, making it ideal for families or small groups of friends. If you have a larger group, we can arrange multiple teams to compete against each other, adding an extra layer of excitement. Each team will receive its own set of clues and challenges to solve.",
+      },
+      {
+        question: "What should we wear for the treasure hunt?",
+        answer:
+          "Comfortable walking shoes are essential, as we will be exploring various neighborhoods and historical sites. Dress in layers to accommodate changing weather conditions, and consider bringing a small backpack with water and snacks. The tour is designed to be fun and active, so casual attire is recommended.",
+      },
+      {
+        question: "Is this tour available year-round?",
+        answer:
+          "Yes, the family treasure hunt operates year-round, although the specific route may vary slightly based on seasonal events or site accessibility. We can also customize the experience for special occasions like birthdays or family reunions with advance notice.",
+      },
     ],
   },
   {
@@ -267,6 +392,21 @@ export const athensTours: Tour[] = [
         question: "Can the yacht itinerary be customized?",
         answer:
           "Absolutely. Your private yacht cruise can be fully tailored to your preferences. Popular options include stopping at secluded swimming coves, visiting nearby islands like Aegina or Hydra, scheduling sunset viewing locations, or extending the sailing time. Similarly, the dinner menu can be customized based on your dietary preferences and tastes, with wine pairings selected by the restaurant's sommelier.",
+      },
+      {
+        question: "Is transportation included in the luxury tour?",
+        answer:
+          "Yes, we provide private chauffeur service to and from your hotel or preferred location in Athens. The yacht will be waiting for you at the marina, and after your gourmet dinner, your driver will be ready to take you back at your convenience.",
+      },
+      {
+        question: "What should we wear for the yacht cruise and dinner?",
+        answer:
+          "Smart casual attire is recommended for both the yacht cruise and the gourmet dinner. Comfortable shoes are best for the yacht, while the restaurant has a smart casual dress code. We suggest bringing a light jacket or wrap for the evening breeze on the water.",
+      },
+      {
+        question: "Is the yacht suitable for special occasions?",
+        answer:
+          "Yes, this luxury experience is perfect for celebrating special occasions such as anniversaries, birthdays, or romantic getaways. We can arrange special touches like floral arrangements, personalized menus, or even a photographer to capture your memories. Please let us know in advance so we can make the necessary arrangements.",
       },
     ],
   },

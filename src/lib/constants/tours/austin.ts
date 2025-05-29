@@ -26,6 +26,21 @@ export const austinTours: Tour[] = [
         answer:
           "Austin's music scene is diverse! Our tours typically include a mix of rock, blues, country, and indie, but each night varies based on who's performing. Let us know your preferences and we'll try to accommodate.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "While the tour is family-friendly, most venues are bars or clubs that may not allow minors after a certain hour. We recommend checking with us in advance if you plan to bring children.",
+      },
+      {
+        question: "Do we need to purchase tickets for the venues?",
+        answer:
+          "No, your tour ticket includes all venue cover charges. Drinks and food are not included but can be purchased at each location.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Dress comfortably! Austin's music scene is casual, but some venues may have dress codes. We recommend comfortable shoes for walking between venues.",
+      },
     ],
   },
   {
@@ -52,6 +67,21 @@ export const austinTours: Tour[] = [
         question: "How much BBQ will we actually eat?",
         answer:
           "Come hungry! We visit 3 legendary BBQ spots with substantial tastings at each, sampling brisket, ribs, sausage, and classic sides. The tour also includes 3-4 beer tastings at each brewery we visit.",
+      },
+      {
+        question: "Are vegetarian options available?",
+        answer:
+          "While BBQ is the star of this tour, we can accommodate vegetarians with advance notice. We can also recommend vegetarian-friendly breweries in the area.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we highly recommend booking at least 24 hours in advance to secure your spot and ensure we can accommodate any dietary restrictions.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Dress comfortably! We will be walking between venues, so wear comfortable shoes. Austin's BBQ scene is casual, so feel free to dress down.",
       },
     ],
   },
