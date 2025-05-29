@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const budapestTours: Tour[] = [
+export const budapestTours: Tour[] = [
   {
     title: "Thermal Bath Experience & Spa Heritage",
     description:

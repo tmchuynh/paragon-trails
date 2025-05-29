@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const berlinTours: Tour[] = [
+export const berlinTours: Tour[] = [
   {
     title: "Berlin Cold War History & Underground Bunkers",
     description:

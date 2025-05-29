@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const bolognaTours: Tour[] = [
+export const bolognaTours: Tour[] = [
   {
     title: "Traditional Pasta Making with Nonna",
     description:
