@@ -26,6 +26,11 @@ export const kualaLumpurTours: Tour[] = [
         answer:
           "Modest dress is required for all religious sites. For mosques, women should bring a headscarf and both men and women should wear clothing that covers shoulders and knees. For Batu Caves, comfortable clothing is recommended as you'll climb 272 steps to reach the main temple cave. We provide appropriate coverings if needed, and our guide will advise on specific requirements for each site.",
       },
+      {
+        question: "Are there any physical requirements for this tour?",
+        answer:
+          "This tour involves some walking and climbing, particularly at Batu Caves where there are 272 steps to ascend. While the steps are manageable for most people, those with mobility issues may find it challenging. We can adjust the itinerary to focus on sites that are more accessible if needed. Please inform us in advance of any specific requirements.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const kualaLumpurTours: Tour[] = [
         question: "How spicy is Malaysian food?",
         answer:
           "Malaysian cuisine offers a range of spice levels. We'll introduce you to both mild and spicy options, and our guide will help you navigate according to your preference. Many dishes can be prepared with adjustable spice levels. The tour includes Malay, Chinese, and Indian influenced dishes, providing a complete spectrum of flavors beyond just spicy foods. We can accommodate most dietary restrictions with advance notice.",
+      },
+      {
+        question: "Do we need to bring cash for the food stalls?",
+        answer:
+          "While many stalls accept digital payments, we recommend bringing some cash (Malaysian Ringgit) for smaller vendors that may not have card facilities. Our guide will assist with currency exchange if needed and ensure you have enough cash for the evening's tastings.",
       },
     ],
   },
@@ -161,6 +171,11 @@ export const kualaLumpurTours: Tour[] = [
         answer:
           "FRIM is home to over 180 bird species, and while sightings vary seasonally, common species include colorful barbets, bulbuls, sunbirds, flowerpeckers, and occasionally hornbills. Our guide is skilled at spotting and identifying even elusive species. We provide binoculars and spotting scopes to enhance your viewing experience. The tour also focuses on rainforest ecology, medicinal plants, and sustainable forestry practices at this living laboratory for tropical forest research.",
       },
+      {
+        question: "Is the canopy walkway safe for everyone?",
+        answer:
+          "Yes, the canopy walkway is designed for safety and accessibility. It is 30 meters above ground and spans 200 meters, providing a stable platform with handrails. However, those with severe vertigo or mobility issues may find it challenging. We can adjust the tour to focus on ground-level trails if needed. The walkway offers stunning views of the rainforest canopy and is an unforgettable experience for nature lovers.",
+      },
     ],
   },
   {
@@ -187,6 +202,11 @@ export const kualaLumpurTours: Tour[] = [
         question: "What's included in the high tea?",
         answer:
           "The Colonial Café high tea is a lavish affair featuring both traditional English and Malaysian delicacies. You'll enjoy finger sandwiches, scones with clotted cream, pastries, and local specialties like kuih-muih (traditional Malaysian sweets) served on fine bone china. Premium teas from Cameron Highlands and around the world are served in silver teapots. The setting in the restored Majestic Hotel, with its 1930s Art Deco elegance, completes this refined cultural experience that blends British colonial tradition with Malaysian hospitality.",
+      },
+      {
+        question: "Can we customize the shopping experience?",
+        answer:
+          "Absolutely! We tailor the shopping itinerary based on your preferences, whether you're interested in high-end designer brands, local artisanal crafts, or a mix of both. Our guide can arrange private appointments at flagship stores, exclusive boutiques, or even bespoke tailoring experiences. We also provide insights into Malaysian fashion trends and craftsmanship. If you have specific brands or items in mind, please let us know in advance so we can ensure a personalized and enjoyable shopping journey.",
       },
     ],
   },

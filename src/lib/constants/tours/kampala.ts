@@ -26,6 +26,11 @@ export const kampalaTours: Tour[] = [
         answer:
           "Modest dress is required when visiting places of worship. For both men and women, shoulders and knees should be covered. Women will need to cover their hair when visiting the mosque (scarves are provided). Comfortable walking shoes are recommended as the tour involves moderate walking, including some hills and stairs at various sites.",
       },
+      {
+        question: "Are there any entry fees for the religious sites?",
+        answer:
+          "Most sites do not charge an entry fee, but donations are appreciated to support their upkeep. The Gaddafi Mosque has a small fee for guided tours, which is included in the tour price. Our guide will ensure all necessary fees are covered.",
+      },
     ],
   },
   {
@@ -53,6 +58,11 @@ export const kampalaTours: Tour[] = [
         answer:
           "We carefully select vendors based on their hygiene practices and local reputation. Our guides are experts at identifying the safest and most delicious street food options frequented by locals rather than tourists. All food is freshly prepared, often right before your eyes. We provide hand sanitizer throughout the tour and can accommodate dietary restrictions with advance notice.",
       },
+      {
+        question: "Will we have a chance to try cooking some dishes?",
+        answer:
+          "Yes, we include a hands-on cooking demonstration at a local home or community center where you can learn to make a traditional Ugandan dish like posho or groundnut stew. This interactive experience allows you to connect with local culinary traditions and take home new skills.",
+      },
     ],
   },
   {
@@ -79,6 +89,11 @@ export const kampalaTours: Tour[] = [
         question: "Is riding a boda-boda safe?",
         answer:
           "We prioritize safety with specially selected and trained drivers who have excellent safety records. Unlike typical boda-bodas, our drivers provide high-quality helmets, follow traffic rules, drive at moderate speeds, and have undergone defensive driving training. Our routes avoid the busiest roads when possible. This experience gives you the excitement of this quintessential Kampala transport method while minimizing risks.",
+      },
+      {
+        question: "What should I wear for the boda-boda tour?",
+        answer:
+          "Comfortable clothing suitable for warm weather is recommended. We provide helmets, but you may want to wear a bandana or scarf to protect your hair from dust. Closed-toe shoes are advisable, and we recommend avoiding long skirts or dresses for ease of movement on the motorcycle.",
       },
     ],
   },
@@ -134,6 +149,41 @@ export const kampalaTours: Tour[] = [
         answer:
           "The Kasubi Tombs, a UNESCO World Heritage Site, are the burial grounds of four Buganda kings (Kabakas) and represent the spiritual center of the Buganda Kingdom. The main tomb building, called Muzibu-Azaala-Mpanga, is a masterpiece of traditional architecture built entirely of organic materials. Beyond its role as a royal burial site, it's an active religious place where rituals are performed and a vital place for preserving Ganda traditions, craftsmanship, and spiritual practices.",
       },
+      {
+        question: "Can we take photos inside the tombs?",
+        answer:
+          "Photography is not allowed inside the tombs out of respect for the sacred nature of the site. However, you can take photos in the surrounding areas, including the beautiful gardens and traditional structures. Our guide will provide insights into the significance of each area and its role in Buganda culture.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and suitable for children. The guide provides engaging stories and activities to help younger visitors understand the cultural significance of the sites. However, parents should be aware that some historical topics may be complex, so we recommend this tour for children aged 8 and up.",
+      },
+      {
+        question: "Will we have a chance to meet any local leaders or royals?",
+        answer:
+          "While we cannot guarantee meetings with high-ranking officials or royals, our guide has strong connections within the Buganda Kingdom and may arrange for a brief audience or Q&A session with local leaders if possible. This depends on their availability and schedule on the day of your visit.",
+      },
+      {
+        question: "What languages are spoken during the tour?",
+        answer:
+          "The tour is conducted in English, but our guide can also provide explanations in Luganda, the local language of the Buganda Kingdom, to enhance your understanding of cultural nuances and traditional practices.",
+      },
+      {
+        question: "Is this tour wheelchair accessible?",
+        answer:
+          "Unfortunately, the Kasubi Tombs and some areas of the Buganda Parliament have uneven terrain and steps, making them challenging for wheelchair users. However, we can modify the tour to focus on accessible areas and provide alternative cultural experiences that are more suitable for those with mobility challenges.",
+      },
+      {
+        question: "Can we purchase traditional Buganda crafts during the tour?",
+        answer:
+          "Yes, we often include a visit to local craft markets or workshops where you can purchase authentic Buganda crafts such as bark cloth, traditional jewelry, and woven baskets. This supports local artisans and allows you to take home unique souvenirs with cultural significance.",
+      },
+      {
+        question: "What is the best time of year to take this tour?",
+        answer:
+          "The tour can be enjoyed year-round, but the dry season (December to February and June to August) offers the most comfortable weather for walking tours. However, we operate in all seasons, and our guides are experienced in adapting the itinerary based on current conditions to ensure a pleasant experience.",
+      },
     ],
   },
   {
@@ -161,6 +211,11 @@ export const kampalaTours: Tour[] = [
           "Will we have opportunities to purchase crafts directly from artisans?",
         answer:
           "Yes, you'll have the opportunity to purchase directly from the artisans you meet, ensuring they receive fair compensation for their work. This direct exchange also allows you to learn the story behind each piece and sometimes even customize items. Many of the workshops we visit are social enterprises that provide sustainable income and skills training for women, people with disabilities, or youth from disadvantaged backgrounds, so your purchases directly support community development initiatives.",
+      },
+      {
+        question: "Can we try our hand at any of the crafts?",
+        answer:
+          "Absolutely! Many workshops include hands-on activities where you can learn basic techniques in crafts like basket weaving, batik painting, or bead making. These interactive experiences allow you to connect with the artisans and gain a deeper appreciation for their skills. No prior experience is needed, and all materials are provided.",
       },
     ],
   },

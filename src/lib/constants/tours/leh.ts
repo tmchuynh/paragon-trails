@@ -26,6 +26,11 @@ export const lehTours: Tour[] = [
         answer:
           "Modest dress is essential for monastery visits. Both men and women should cover shoulders and knees, and removing shoes is required before entering temple areas. Avoid wearing shorts, sleeveless tops, or revealing clothing out of respect for Buddhist traditions. We recommend bringing a light jacket or shawl as monasteries at high elevations can be cool even in summer.",
       },
+      {
+        question: "Can we participate in any rituals or prayers?",
+        answer:
+          "Yes, our guides can arrange for you to participate in morning prayers at select monasteries, providing a unique opportunity to experience the spiritual atmosphere. You may also have the chance to light butter lamps or make offerings under the guidance of the monks. However, participation is always optional and respectful silence is expected during rituals.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const lehTours: Tour[] = [
         question: "How do we handle the high altitude on this trip?",
         answer:
           "This expedition reaches elevations over 17,500 feet (5,300m) at Khardung La Pass, so proper acclimatization is essential. We recommend spending at least 2-3 days in Leh (11,500 ft/3,500m) before undertaking this journey. The tour includes oxygen supplements and our guides are trained in recognizing and managing altitude sickness. We travel at a moderate pace with frequent stops for adjustment and hydration.",
+      },
+      {
+        question: "What type of accommodation is provided in Nubra Valley?",
+        answer:
+          "We stay in luxury desert camps featuring spacious tents with comfortable beds, en-suite bathrooms, and hot showers. Each camp is equipped with modern amenities while maintaining an authentic desert experience. The camps are located near the sand dunes for easy camel rides and stargazing at night.",
       },
     ],
   },
@@ -80,6 +90,11 @@ export const lehTours: Tour[] = [
         answer:
           "For landscape photography in Ladakh's dramatic light conditions, we recommend a DSLR or mirrorless camera with wide-angle lens (16-35mm range), polarizing and neutral density filters, stable tripod for low-light shooting, and extra batteries (cold temperatures deplete them quickly). That said, even smartphone photographers will capture stunning images with our guide's assistance with composition and timing. We can arrange equipment rental with advance notice.",
       },
+      {
+        question: "Are there any restrictions on photography at Pangong Lake?",
+        answer:
+          "Photography is allowed throughout the Pangong Lake area, but please respect local customs and avoid photographing people without permission. Some areas near the border may have restricted access, so we will ensure all locations visited are open to tourists. Our guide will also provide tips on capturing the lake's unique colors and reflections.",
+      },
     ],
   },
   {
@@ -106,6 +121,12 @@ export const lehTours: Tour[] = [
         question: "What are the accommodations like in a village homestay?",
         answer:
           "Homestay accommodations are simple but comfortable, offering an authentic glimpse into traditional Ladakhi life. You'll have a private room in a family home with traditional composting toilets (no flush toilets) and bucket baths with heated water (no showers). Bedding includes thick, warm blankets on traditional wooden beds. Electricity is available but may be intermittent. While basic by urban standards, the cultural richness and hospitality of your host family create an unforgettable experience.",
+      },
+      {
+        question:
+          "Do I need to bring any special ingredients for the cooking class?",
+        answer:
+          "No special ingredients are required. All necessary ingredients will be provided by your host family, who sources fresh produce from local markets. The class focuses on traditional Ladakhi recipes using locally available ingredients like barley flour, vegetables, and dairy products. You will learn how to make dishes from scratch, including dough preparation and steaming techniques.",
       },
     ],
   },
@@ -134,6 +155,11 @@ export const lehTours: Tour[] = [
         answer:
           "No previous rafting experience is necessary, but participants should be reasonably fit, comfortable around water, and able to swim. The Zanskar River features Class III-IV rapids (moderate to difficult), making it exciting but manageable for beginners under expert guidance. All safety equipment is provided including helmets, life jackets, wetsuits, and professional rescue training for guides. A comprehensive safety briefing is conducted before launching.",
       },
+      {
+        question: "What should I bring for the rafting trip?",
+        answer:
+          "We provide all necessary rafting gear, but you should bring personal items like quick-dry clothing, swimwear, sunscreen, a hat, sunglasses with straps, and a waterproof bag for valuables. Sturdy water shoes or sandals with straps are recommended. For overnight trips, pack light camping gear (we provide tents and sleeping bags) and a change of clothes for the evening.",
+      },
     ],
   },
   {
@@ -160,6 +186,11 @@ export const lehTours: Tour[] = [
         question: "Is this retreat suitable for meditation beginners?",
         answer:
           "Yes, this retreat is designed to accommodate all levels, from complete beginners to experienced practitioners. Our teachers provide clear instruction in basic meditation techniques before progressing to more advanced practices. The schedule includes short meditation sessions (20-30 minutes) gradually increasing in duration, with plenty of breaks, discussions, and time for questions. No specific religious beliefs are required - the focus is on mindfulness techniques beneficial to everyone regardless of background.",
+      },
+      {
+        question: "What should I bring for the meditation retreat?",
+        answer:
+          "Comfortable, loose-fitting clothing suitable for meditation is recommended. Bring a meditation cushion or mat if you prefer your own, though we provide basic seating. A journal for notes and reflections can be helpful. Personal items like toiletries, a water bottle, and any medications should also be packed. We recommend avoiding electronic devices to fully immerse yourself in the experience.",
       },
     ],
   },

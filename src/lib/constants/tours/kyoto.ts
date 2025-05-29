@@ -25,6 +25,11 @@ export const kyotoTours: Tour[] = [
         answer:
           "While sightings cannot be guaranteed, our evening tour is timed to coincide with when maiko (apprentice geisha) and geiko (Kyoto's term for fully-qualified geisha) travel between appointments. Your guide will help you understand the etiquette of respectful observation and photography.",
       },
+      {
+        question: "Is the Fushimi Inari hike suitable for children?",
+        answer:
+          "Yes, the hike is family-friendly. The trails are well-maintained, and children will enjoy the thousands of vermilion torii gates. However, please note that the full hike to the summit takes about 2-3 hours, so you can choose to turn back at any point.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const kyotoTours: Tour[] = [
         question: "Do I need to sit on the floor during the tea ceremony?",
         answer:
           "Traditional tea ceremonies involve sitting on tatami mats in the seiza position (kneeling). However, we can arrange for chairs or different seating if you have mobility concerns. Please inform us in advance so we can make appropriate arrangements.",
+      },
+      {
+        question: "What should I wear for the tea ceremony?",
+        answer:
+          "While there is no strict dress code, we recommend wearing comfortable clothing. If you have a kimono or yukata, you are welcome to wear it, but it is not required. Please avoid heavy perfumes as they can interfere with the delicate aromas of the tea.",
       },
     ],
   },

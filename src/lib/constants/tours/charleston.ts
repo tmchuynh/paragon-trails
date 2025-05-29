@@ -25,6 +25,16 @@ export const charlestonTours: Tour[] = [
         answer:
           "The tour typically includes 3-4 properties, with exact homes varying based on availability. We always include at least one home not open to general public tours. Favorites include the Nathaniel Russell House, Edmondston-Alston House, and several private residences in the South of Broad neighborhood.",
       },
+      {
+        question: "Are children allowed on this tour?",
+        answer:
+          "Yes, this tour is family-friendly. However, please note that some homes have fragile antiques and furnishings, so we ask that children be supervised at all times.",
+      },
+      {
+        question: "Is photography allowed inside the homes?",
+        answer:
+          "Photography is generally not permitted inside the historic homes to protect the artifacts and privacy of the homeowners. However, you are welcome to take photos in the gardens and courtyards.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const charlestonTours: Tour[] = [
         question: "What is Gullah culture?",
         answer:
           "Gullah (or Geechee) refers to the descendants of enslaved West Africans who developed a distinctive culture and creole language in the coastal regions and Sea Islands of South Carolina and Georgia. The isolation of these communities allowed them to preserve many African linguistic patterns, cultural practices, crafts, and culinary traditions that you'll learn about during this immersive tour.",
+      },
+      {
+        question: "Will we have the chance to try Gullah food?",
+        answer:
+          "Yes, the tour includes a traditional Gullah meal featuring dishes like shrimp and grits, okra soup, and sweet potato pie. You'll also learn about the history and significance of these dishes in Gullah culture.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! This tour is family-friendly and offers a unique opportunity for children to learn about cultural diversity, history, and traditional crafts in an engaging way.",
       },
     ],
   },
