@@ -15,7 +15,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       priceCategory: "free",
       timeOfDay: "all day",
       rating: 4.9,
-      tags: ["historical", "cultural", "iconic"],
+      tags: ["historical", "cultural"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
 
@@ -36,7 +36,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       priceCategory: "budget",
       timeOfDay: "daytime",
       rating: 4.7,
-      tags: ["religious", "cultural", "views"],
+      tags: ["spiritual", "cultural"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: true,
 
@@ -57,7 +57,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       priceCategory: "expensive",
       timeOfDay: "all day",
       rating: 4.9,
-      tags: ["luxury", "heritage", "exclusive"],
+      tags: ["luxury", "historical", "local"],
       accessibilityFeatures: ["limited accessibility"],
       isPopular: false,
 

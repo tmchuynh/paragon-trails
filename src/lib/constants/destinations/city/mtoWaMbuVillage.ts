@@ -33,7 +33,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "wildlife", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -53,7 +53,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "educational", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -74,7 +74,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["shopping", "local", "cultural"],
+    tags: ["local", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -94,7 +94,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 5.0,
-    tags: ["luxury", "safari", "exclusive"],
+    tags: ["luxury", "safari", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

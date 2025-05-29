@@ -14,7 +14,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", "iconic"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "architectural", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["scenic", "outdoor", "relaxation"],
+    tags: ["romantic", "adventure", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const mumbaiMaharashtraIndia: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "heritage", "exclusive"],
+    tags: ["luxury", "historical", "local"],
     accessibilityFeatures: ["wheelchair accessible", "valet service"],
     isPopular: true,
 

@@ -14,7 +14,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "scenic"],
+    tags: ["cultural", "historical", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["nature", "outdoor", "recreation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
 
@@ -80,7 +80,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "educational", "family"],
+    tags: [],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -101,7 +101,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["food", "market", "local"],
+    tags: ["culinary", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -122,7 +122,7 @@ export const montrealQcCanada: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -143,7 +143,7 @@ export const montrealQcCanada: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "gourmet", "luxury"],
+    tags: ["culinary", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

@@ -14,7 +14,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "evening",
     rating: 4.6,
-    tags: ["entertainment", "luxury", "gambling"],
+    tags: [ "luxury", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const monacoFrenchRivieraMonaco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["educational", "marine", "science"],
+    tags: ["historical", "cultural", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
