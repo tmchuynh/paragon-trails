@@ -16,13 +16,15 @@ export interface StaffCategory {
 }
 
 export interface TourGuide extends TeamMember {
-  bio: string;
-  image?: string;
+  id?: string;
+  name: string;
   city: string;
   country: string;
   state?: string;
   region?: string;
   isPopular?: boolean;
-  description: string;
-  quote: string;
+  bio: string;
+  profileImage: string;
+  specialties: string[];
+  languages: string[];
 }
