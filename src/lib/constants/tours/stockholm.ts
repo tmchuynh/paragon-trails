@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const stockholmTours: Tour[] = [
   {
     title: "Stockholm Archipelago Sailing Adventure",
@@ -17,7 +19,7 @@ export const stockholmTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Erik Johansson",
+    tourGuide: findGuideBySpecialty("stockholm", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const stockholmTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lars Nilsson",
+    tourGuide: findGuideBySpecialty("stockholm", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const stockholmTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Anna Svensson",
+    tourGuide: findGuideBySpecialty("stockholm", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

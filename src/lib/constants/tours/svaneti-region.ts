@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const svanetiRegionTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Giorgi Margiani",
+    tourGuide: findGuideBySpecialty("svaneti-region", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -45,7 +46,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Teimuraz Nizharadze",
+    tourGuide: findGuideBySpecialty("svaneti-region", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -72,7 +73,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nana Pirtskhelani",
+    tourGuide: findGuideBySpecialty("svaneti-region", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -99,7 +100,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Vakhtang Japaridze",
+    tourGuide: findGuideBySpecialty("svaneti-region", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -126,7 +127,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Ana Gigauri",
+    tourGuide: findGuideBySpecialty("svaneti-region", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -154,7 +155,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Irakli Avaliani",
+    tourGuide: findGuideBySpecialty("svaneti-region", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -181,7 +182,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ensemble Riho",
+    tourGuide: findGuideBySpecialty("svaneti-region", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -208,7 +209,7 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Levan Michaelidze",
+    tourGuide: findGuideBySpecialty("svaneti-region", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -235,8 +236,8 @@ export const svanetiRegionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Natia Kakhiani",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("svaneti-region", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Are the waterfalls accessible year-round?",

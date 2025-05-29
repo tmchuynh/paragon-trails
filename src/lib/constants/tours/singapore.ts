@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const singaporeTours: Tour[] = [
   {
     title: "Singapore Heritage Districts & Hawker Cuisine",
@@ -12,12 +14,12 @@ export const singaporeTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Heritage", "Food", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Rachel Tan",
+    tourGuide: findGuideBySpecialty("singapore", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const singaporeTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Gardens", "Light Show", "Modern"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "David Lim",
+    tourGuide: findGuideBySpecialty("singapore", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,13 +68,13 @@ export const singaporeTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Nature", "Wildlife", "Off-the-beaten-path"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Siti Rahman",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("singapore", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What kind of wildlife can we expect to see?",

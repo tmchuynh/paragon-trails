@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const shanghaiTours: Tour[] = [
   {
     title: "Shanghai Contrasts: Old Town & Futuristic Pudong",
@@ -12,12 +14,12 @@ export const shanghaiTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Architecture", "History", "Modern"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Li Wei",
+    tourGuide: findGuideBySpecialty("shanghai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const shanghaiTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Food", "Cooking", "Culinary"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Zhang Min",
+    tourGuide: findGuideBySpecialty("shanghai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const shanghaiTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Art", "Culture", "Contemporary"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Wang Li",
+    tourGuide: findGuideBySpecialty("shanghai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -98,12 +100,12 @@ export const shanghaiTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Nightlife", "Cruise", "Views"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Zhao Ming",
+    tourGuide: findGuideBySpecialty("shanghai", "cruise").name,
     tourCategoryId: "cruise",
     faqs: [
       {

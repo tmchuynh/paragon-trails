@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const shirakawaGoTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tanaka Hiroshi",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -45,7 +46,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Yamamoto Akiko",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -72,7 +73,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nakamura Yuki",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -99,7 +100,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Suzuki Kentaro",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -126,7 +127,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Watanabe Harumi",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -153,7 +154,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Kimura Takeshi",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -180,7 +181,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sato Masaki",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -207,7 +208,7 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Kobayashi Momoko",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -234,8 +235,8 @@ export const shirakawaGoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Fujimoto Rina",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("shirakawa-go", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What kind of birds can we expect to see?",

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const seoulTours: Tour[] = [
   {
     title: "Korean Palace & Hanbok Experience",
@@ -12,12 +14,12 @@ export const seoulTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Cultural", "Palace", "Traditional Dress"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Min-ji Park",
+    tourGuide: findGuideBySpecialty("seoul", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -55,12 +57,12 @@ export const seoulTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Food", "Night Tour", "Markets"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Joon-ho Kim",
+    tourGuide: findGuideBySpecialty("seoul", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -98,13 +100,13 @@ export const seoulTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Nature", "Spiritual", "Hiking"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Soo-yeon Lee",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("seoul", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What level of fitness is required for this hike?",
@@ -147,12 +149,12 @@ export const seoulTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["History", "Political", "DMZ"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Ji-won Park",
+    tourGuide: findGuideBySpecialty("seoul", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -190,12 +192,12 @@ export const seoulTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["K-Pop", "Entertainment", "Hallyu"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hye-jin Kim",
+    tourGuide: findGuideBySpecialty("seoul", "entertainment").name,
     tourCategoryId: "entertainment",
     faqs: [
       {
@@ -232,12 +234,12 @@ export const seoulTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Craft", "Hands-on", "Traditional"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Master Craftsman Seung-ho Choi",
+    tourGuide: findGuideBySpecialty("seoul", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -275,12 +277,12 @@ export const seoulTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Architecture", "Modern", "Design"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Architect Jae-sung Kim",
+    tourGuide: findGuideBySpecialty("seoul", "architectural").name,
     tourCategoryId: "architectural",
     faqs: [
       {
