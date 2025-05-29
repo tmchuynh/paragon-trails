@@ -6,7 +6,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
   Select,
@@ -15,6 +14,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Slider } from "@/components/ui/slider";
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -38,7 +38,7 @@ export default function TourPage() {
   const [filters, setFilters] = useState({
     duration: "all",
     minPrice: 0,
-    maxPrice: 10000,
+    maxPrice: 1500,
     rating: 0,
     tags: [] as string[],
     guide: "all",
@@ -167,6 +167,15 @@ export default function TourPage() {
     });
   };
 
+  // Format price for display
+  const formatPrice = (price: number) => {
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+      maximumFractionDigits: 0,
+    }).format(price);
+  };
+
   if (loading) {
     return <Loading />;
   }
@@ -202,6 +211,7 @@ export default function TourPage() {
       {/* Filter Panel */}
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
+          <h2>Available Tours</h2>
           <Button
             onClick={() => setShowFilters(!showFilters)}
             variant="icon"
@@ -210,10 +220,6 @@ export default function TourPage() {
           >
             <FaFilter />
           </Button>
-
-          <div className="text-sm">
-            Showing {filteredTours.length} of {tours.length} tours
-          </div>
         </div>
 
         {showFilters && (
@@ -245,36 +251,30 @@ export default function TourPage() {
                   </Select>
                 </div>
 
-                {/* Price filter */}
-                <div className="space-y-2">
-                  <Label>
-                    <strong>Price Range</strong>
-                  </Label>
-                  <div className="flex items-center gap-2">
-                    <Input
-                      type="number"
-                      value={filters.minPrice}
-                      onChange={(e) =>
-                        handleFilterChange("minPrice", Number(e.target.value))
-                      }
-                      min={filterOptions.prices.min}
-                      max={filters.maxPrice}
-                      placeholder="Min"
-                      className="w-24"
-                    />
-                    <span>to</span>
-                    <Input
-                      type="number"
-                      value={filters.maxPrice}
-                      onChange={(e) =>
-                        handleFilterChange("maxPrice", Number(e.target.value))
-                      }
-                      min={filters.minPrice}
-                      max={filterOptions.prices.max}
-                      placeholder="Max"
-                      className="w-24"
-                    />
+                {/* Price filter - replaced with slider */}
+                <div className="space-y-4 col-span-1 md:col-span-2">
+                  <div className="flex justify-between">
+                    <Label>
+                      <strong>Price Range</strong>
+                    </Label>
+                    <span className="text-sm">
+                      {formatPrice(filters.minPrice)} -{" "}
+                      {formatPrice(filters.maxPrice)}
+                    </span>
                   </div>
+                  <Slider
+                    min={filterOptions.prices.min}
+                    max={filterOptions.prices.max}
+                    step={50}
+                    value={[filters.minPrice, filters.maxPrice]}
+                    onValueChange={(values) => {
+                      if (Array.isArray(values) && values.length === 2) {
+                        handleFilterChange("minPrice", values[0]);
+                        handleFilterChange("maxPrice", values[1]);
+                      }
+                    }}
+                    className="py-4"
+                  />
                 </div>
 
                 {/* Rating filter */}
@@ -375,6 +375,19 @@ export default function TourPage() {
                     ))}
                   </div>
                 </div>
+              </div>
+
+              <div className="flex justify-between items-end mt-6">
+                <div className="flex items-center text-muted-foreground text-sm">
+                  Showing {filteredTours.length} of {tours.length} tours
+                </div>
+                <Button
+                  variant="destructive"
+                  onClick={resetFilters}
+                  className="mr-2"
+                >
+                  Reset Filters
+                </Button>
               </div>
             </CardContent>
           </Card>
