@@ -14,7 +14,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     priceCategory: "paid",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["cultural", "historical", "architecture"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "historical", "walking"],
+    tags: ["cultural", "historical", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const seoulSeoulSouthKorea: Attraction[] = [
     priceCategory: "paid",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["viewpoint", "cultural", "iconic"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

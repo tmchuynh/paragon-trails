@@ -14,7 +14,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["viewpoint", "cultural", "iconic"],
+    tags: ["cultural", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["shopping", "food", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const seattleWaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "cultural", "scenic"],
+    tags: ["art-and-music", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

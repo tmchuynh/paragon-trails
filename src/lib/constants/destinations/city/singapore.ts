@@ -14,7 +14,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
     entryFeeCategory: "paid",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["hotel", "entertainment", "shopping"],
+    tags: ["hotel"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
     entryFeeCategory: "paid",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "scenic", "family"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const singaporeSingaporeSingapore: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["entertainment", "beach", "family"],
+    tags: [],
     accessibilityFeatures: [
       "wheelchair accessible",
       "assistive devices available",

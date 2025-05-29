@@ -22,6 +22,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     openingHours: "Open 24/7",
     entryFee: "Free",
     priceCategory: "free",
+    priceRange: "free",
     timeOfDay: "all day",
     isPopular: true,
 
@@ -41,22 +42,24 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1726579710883-7040d0e6d379?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WXUlMjBHYXJkZW58ZW58MHx8MHx8fDA%3D",
-    tags: [
-      "Traditional Garden",
-      "Chinese Architecture",
-      "Cultural Site",
-      "Tranquil",
-    ],
+    tags: ["Traditional Garden", "Chinese Architecture", "Tranquil"],
     accessibilityFeatures: ["Some Accessible Paths", "Rest Areas"],
     openingHours: "8:30 AM - 5:30 PM, Daily",
     entryFee:
       "¥40 ($6) April-June and Sept-Nov, ¥30 ($4) July-Aug and Dec-March",
     priceCategory: "budget",
+    priceRange: "$",
     timeOfDay: "daytime",
     isPopular: true,
     isHistorical: true,
     isRomantic: true,
+    isIndoor: false,
+    isFree: false,
     isOutdoor: true,
+    isWheelchairAccessible: true,
+    isPetFriendly: false,
+    isLocalExperience: true,
+    isDining: true,
     isShopping: true,
   },
   {
@@ -67,12 +70,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.9,
     imageUrl:
       "https://images.unsplash.com/photo-1627484986972-e544190b8abb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFNoYW5naGFpJTIwVG93ZXJ8ZW58MHx8MHx8fDA%3D",
-    tags: [
-      "Skyscraper",
-      "Observation Deck",
-      "Modern Architecture",
-      "City Views",
-    ],
+    tags: ["Skyscraper", "Observation Deck", "Modern Architecture"],
     accessibilityFeatures: [
       "Elevators",
       "Wheelchair Accessible",
@@ -80,10 +78,12 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     ],
     openingHours: "8:30 AM - 9:30 PM, Daily",
     entryFee: "¥180 ($26) for observation deck",
+
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "all day",
     isPopular: true,
+    isFree: false,
 
     isWheelchairAccessible: true,
     isIndoor: true,
@@ -97,12 +97,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1576344581549-060a332463d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmFuamluZyUyMFJvYWR8ZW58MHx8MHx8fDA%3D",
-    tags: [
-      "Shopping Street",
-      "Pedestrian Zone",
-      "Urban Experience",
-      "Entertainment",
-    ],
+    tags: ["Shopping Street", "Pedestrian Zone", "Urban Experience"],
     accessibilityFeatures: [
       "Flat Pedestrian Area",
       "Accessible Shops",
@@ -110,6 +105,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     ],
     openingHours: "Most shops: 10:00 AM - 10:00 PM, Daily",
     entryFee: "Free to walk (shopping prices vary)",
+    priceRange: "$$",
     priceCategory: "free",
     timeOfDay: "all day",
     isPopular: true,
@@ -129,7 +125,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.8,
     imageUrl:
       "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hhbmdoYWklMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
-    tags: ["Museum", "Cultural Heritage", "Art Collection", "Educational"],
+    tags: ["historical", "Cultural", "Art Collection"],
     accessibilityFeatures: [
       "Wheelchair Accessible",
       "Audio Guides Available",
@@ -138,6 +134,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     openingHours: "9:00 AM - 5:00 PM, Closed Mondays",
     entryFee: "Free",
     priceCategory: "free",
+    priceRange: "free",
     timeOfDay: "daytime",
     isPopular: true,
 
@@ -170,6 +167,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     isPopular: true,
+    isFree: false,
 
     isWheelchairAccessible: true,
     isIndoor: true,
@@ -182,12 +180,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SmFkZSUyMEJ1ZGRoYSUyMFRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D",
-    tags: [
-      "Buddhist Temple",
-      "Spiritual Site",
-      "Cultural Heritage",
-      "Artistic",
-    ],
+    tags: ["spiritual", "Spiritual Site", "Cultural", "Artistic"],
     accessibilityFeatures: [
       "Wheelchair Accessible Paths",
       "Audio Guides Available",
@@ -195,6 +188,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     ],
     openingHours: "8:00 AM - 4:30 PM, Daily",
     entryFee: "¥20 ($3) for adults, ¥10 ($1.50) for students",
+    priceRange: "$",
     priceCategory: "budget",
     timeOfDay: "daytime",
     isPopular: true,
@@ -215,7 +209,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
       "Theme Park",
       "Family Entertainment",
       "Disney Characters",
-      "Cultural Experience",
+      "Cultural",
     ],
     accessibilityFeatures: [
       "Wheelchair Accessible Attractions",
@@ -228,9 +222,18 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     isPopular: true,
+    isFree: false,
 
     isWheelchairAccessible: true,
     isIndoor: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isDining: true,
+    isShopping: true,
+    isLocalExperience: true,
+    isAdventure: true,
+    isHistorical: false,
+    isRomantic: false,
   },
   {
     title: "Shanghai Ocean Aquarium",
@@ -240,7 +243,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hhbmdoYWklMjBPY2VhbiUyMEFxdWFyaXVtfGVufDB8fDB8fDA%3D",
-    tags: ["Aquarium", "Marine Life", "Educational", "Family Friendly"],
+    tags: ["local"],
     accessibilityFeatures: [
       "Wheelchair Accessible Paths",
       "Audio Guides Available",
@@ -252,6 +255,10 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     isPopular: true,
+    isFree: false,
+    isPetFriendly: false,
+    isAdventure: true,
+    isLocalExperience: true,
 
     isWheelchairAccessible: true,
     isIndoor: true,
@@ -264,12 +271,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1567762694593-134db1c4f131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WnVqaWFqaWFvJTIwV2F0ZXIlMjBUb3dufGVufDB8fDB8fDA%3D",
-    tags: [
-      "Water Town",
-      "Cultural Heritage",
-      "Scenic",
-      "Traditional Architecture",
-    ],
+    tags: ["Water Town", "Cultural", "Scenic"],
     accessibilityFeatures: [
       "Some Accessible Paths",
       "Boat Rides Available",
@@ -278,6 +280,7 @@ export const shanghaiShanghaiMunicipalityChina: Attraction[] = [
     openingHours: "8:00 AM - 5:30 PM, Daily",
     entryFee: "¥20 ($3) for adults, ¥10 ($1.50) for students",
     priceCategory: "budget",
+    priceRange: "$",
     timeOfDay: "daytime",
     isPopular: true,
 
