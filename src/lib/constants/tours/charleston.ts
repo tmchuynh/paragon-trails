@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const charlestonTours: Tour[] = [
   {
     title: "Charleston's Historic Homes & Gardens",
@@ -17,7 +19,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Eleanor Rutledge",
+    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -65,7 +67,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Amelia Jenkins",
+    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -113,7 +115,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Oliver Graves",
+    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -162,7 +164,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Marcus Washington",
+    tourGuide: findGuideBySpecialty("charleston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -210,7 +212,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Robert Jenkins",
+    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -260,7 +262,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. James Wilson",
+    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -310,7 +312,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Josephine Bennett",
+    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -360,7 +362,7 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Thomas Pinckney",
+    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -404,14 +406,14 @@ export const charlestonTours: Tour[] = [
     duration: "2 hours",
     price: "$55",
     rating: 4.9,
-    tags: ["Wildlife", "Sunset", "Harbor"],
+    tags: ["Sunset", "Harbor"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Captain Michelle Davis",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("charleston", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Are dolphin sightings guaranteed?",

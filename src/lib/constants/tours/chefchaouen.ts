@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const chefchaouenTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mohammed El Bakkali",
+    tourGuide: findGuideBySpecialty("chefchaouen", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -50,7 +51,7 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ibrahim Ameziane",
+    tourGuide: findGuideBySpecialty("chefchaouen", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -82,8 +83,8 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Fatima Zohra",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("chefchaouen", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is required?",
@@ -114,7 +115,7 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Amina Haddou",
+    tourGuide: findGuideBySpecialty("chefchaouen", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -146,7 +147,7 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Youssef Mahjoub",
+    tourGuide: findGuideBySpecialty("chefchaouen", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -178,7 +179,7 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nadia El Haddad",
+    tourGuide: findGuideBySpecialty("chefchaouen", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -210,8 +211,8 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Rachid El Amrani",
-    tourCategoryId: "shopping",
+    tourGuide: findGuideBySpecialty("chefchaouen", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What types of items can we buy in the souk?",

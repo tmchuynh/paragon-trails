@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const casablancaTours: Tour[] = [
   {
     title: "Hassan II Mosque & Islamic Architecture",
@@ -17,7 +19,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Omar Benzakour",
+    tourGuide: findGuideBySpecialty("casablanca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Fatima Zahra",
+    tourGuide: findGuideBySpecialty("casablanca", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Younes Benali",
+    tourGuide: findGuideBySpecialty("casablanca", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -123,7 +125,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Laila Alaoui",
+    tourGuide: findGuideBySpecialty("casablanca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -160,7 +162,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Karim Berrada",
+    tourGuide: findGuideBySpecialty("casablanca", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -197,7 +199,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Amina El Haddad, Spa Director",
+    tourGuide: findGuideBySpecialty("casablanca", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -224,8 +226,8 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Hassan Benjelloun",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("casablanca", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Is the food safe to eat?",
@@ -261,7 +263,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Mohammed Cherkaoui",
+    tourGuide: findGuideBySpecialty("casablanca", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -293,8 +295,8 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Nadia Sebti",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("casablanca", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -330,8 +332,8 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Samira & Jamal",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("casablanca", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What ages is this tour appropriate for?",
@@ -367,7 +369,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Youssef & Leila",
+    tourGuide: findGuideBySpecialty("casablanca", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -404,7 +406,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Mehdi Benkirane",
+    tourGuide: findGuideBySpecialty("casablanca", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -441,7 +443,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Rachid Douiri",
+    tourGuide: findGuideBySpecialty("casablanca", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -478,7 +480,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Simon Levy",
+    tourGuide: findGuideBySpecialty("casablanca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -505,7 +507,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Master Craftsman Hamid",
+    tourGuide: findGuideBySpecialty("casablanca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -542,7 +544,7 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Zineb El Rhazoui",
+    tourGuide: findGuideBySpecialty("casablanca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const cartagenaTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Diego Morales",
+    tourGuide: findGuideBySpecialty("cartagena", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -50,7 +51,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Catalina Vélez",
+    tourGuide: findGuideBySpecialty("cartagena", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -82,7 +83,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Carlos Restrepo",
+    tourGuide: findGuideBySpecialty("cartagena", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -109,7 +110,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Rafael Cassiani",
+    tourGuide: findGuideBySpecialty("cartagena", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -141,8 +142,8 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Alejandro Gomez",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("cartagena", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "Which locations will we visit for photography?",
@@ -173,7 +174,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Prof. Luisa Valenzuela",
+    tourGuide: findGuideBySpecialty("cartagena", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -206,7 +207,7 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sofia Torres",
+    tourGuide: findGuideBySpecialty("cartagena", "art").name,
     tourCategoryId: "art",
     faqs: [
       {

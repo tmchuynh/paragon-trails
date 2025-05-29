@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const chiangMaiTours: Tour[] = [
   {
     title: "Ethical Elephant Sanctuary Experience",
@@ -11,14 +13,14 @@ export const chiangMaiTours: Tour[] = [
     duration: "Full day",
     price: "$95",
     rating: 5.0,
-    tags: ["Wildlife", "Conservation", "Nature"],
+    tags: ["Conservation", "Nature"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Somporn Thongchai",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("chiang mai", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What makes this an ethical elephant experience?",
@@ -59,7 +61,7 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ajarn Chai",
+    tourGuide: findGuideBySpecialty("chiang mai", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -101,7 +103,7 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nattaya Wong",
+    tourGuide: findGuideBySpecialty("chiang mai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -143,7 +145,7 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Pongchai Rattanapong",
+    tourGuide: findGuideBySpecialty("chiang mai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const chengduTours: Tour[] = [
   {
@@ -12,14 +13,14 @@ export const chengduTours: Tour[] = [
     duration: "4 hours",
     price: "$60",
     rating: 4.9,
-    tags: ["Wildlife", "Nature", "Photography"],
+    tags: ["Nature", "Photography"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Wang Chen",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("chengdu", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What's the best time to visit the pandas?",
@@ -55,7 +56,7 @@ export const chengduTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Liu Yun",
+    tourGuide: findGuideBySpecialty("chengdu", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -92,7 +93,7 @@ export const chengduTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Zhao Mei",
+    tourGuide: findGuideBySpecialty("chengdu", "cultural").name,
     tourCategoryId: "culture",
     faqs: [
       {
@@ -129,7 +130,7 @@ export const chengduTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Li Wei",
+    tourGuide: findGuideBySpecialty("chengdu", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

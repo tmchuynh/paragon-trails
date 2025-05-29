@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const cairoTours: Tour[] = [
   {
     title: "Pyramids at Dawn & Private Archaeologist Tour",
@@ -17,7 +19,7 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Ahmed Mahmoud",
+    tourGuide: findGuideBySpecialty("cairo", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -60,7 +62,7 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Laila Ibrahim",
+    tourGuide: findGuideBySpecialty("cairo", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -102,8 +104,8 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Omar Hassan",
-    tourCategoryId: "entertainment",
+    tourGuide: findGuideBySpecialty("cairo", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What type of boat will we be on?",
@@ -144,8 +146,8 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Mina Girgis",
-    tourCategoryId: "religious",
+    tourGuide: findGuideBySpecialty("cairo", "spiritual").name,
+    tourCategoryId: "spiritual",
     faqs: [
       {
         question: "What is the significance of Coptic Cairo?",
@@ -187,7 +189,7 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Nour El Din",
+    tourGuide: findGuideBySpecialty("cairo", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -234,8 +236,8 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Ahmed Mahmoud",
-    tourCategoryId: "archaeological",
+    tourGuide: findGuideBySpecialty("cairo", "historical").name,
+    tourCategoryId: "historical",
     faqs: [
       {
         question: "How far is Saqqara from central Cairo?",

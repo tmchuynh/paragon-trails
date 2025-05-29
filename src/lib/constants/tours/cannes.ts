@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const cannesTours: Tour[] = [
   {
     title: "Cannes Film Festival Experience",
@@ -17,7 +19,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sophie Laurent",
+    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -49,7 +51,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Jean-Pierre",
+    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -81,7 +83,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Antoine Dubois",
+    tourGuide: findGuideBySpecialty("cannes", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -113,7 +115,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Claire Moreau",
+    tourGuide: findGuideBySpecialty("cannes", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -145,7 +147,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nicolas Lefevre",
+    tourGuide: findGuideBySpecialty("cannes", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -177,7 +179,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Isabelle Couture",
+    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -209,7 +211,7 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Jean-Pierre",
+    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
