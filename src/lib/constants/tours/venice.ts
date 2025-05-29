@@ -44,7 +44,7 @@ export const veniceTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Zanetti",
+    tourGuide: "Marco Rossi",
     tourCategoryId: "cultural",
     faqs: [
       {

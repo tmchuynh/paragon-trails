@@ -44,7 +44,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Haruki Tanaka",
+    tourGuide: "Haruto Tanaka",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -71,7 +71,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Yuki Sato",
+    tourGuide: "Takashi Yamamoto",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -83,6 +83,38 @@ export const tokyoTours: Tour[] = [
         question: "Are vegetarian options available?",
         answer:
           "Yes, we can accommodate vegetarian diets with advance notice. Many street food vendors offer delicious vegetarian options like grilled vegetables, tofu dishes, and seasonal vegetable tempura.",
+      },
+    ],
+  },
+  {
+    title: "Japanese Tea Ceremony Experience",
+    description:
+      "Immerse yourself in the serene world of Japanese tea culture with a traditional tea ceremony led by a certified tea master, learning about the history, rituals, and artistry behind this ancient practice.",
+    images: [
+      "/images/tours/tokyo/tea-ceremony.jpg",
+      "/images/tours/tokyo/tea-house.jpg",
+    ],
+    duration: "2 hours",
+    price: "$60",
+    rating: 4.9,
+    tags: ["Cultural", "Relaxation", "Traditional"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Aiko Nakamura",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What should I wear for the tea ceremony?",
+        answer:
+          "We recommend wearing comfortable, modest clothing. Traditional Japanese attire like a kimono can enhance the experience, but it is not required. The tea ceremony is about mindfulness and appreciation, so dress in a way that allows you to relax and enjoy the moment.",
+      },
+      {
+        question: "Can children participate in the tea ceremony?",
+        answer:
+          "Yes, children are welcome to join the tea ceremony. We tailor the experience to be engaging for all ages, explaining the significance of each step in a way that is accessible and enjoyable for younger participants. Children will learn about the history of tea in Japan and can even help with some of the simple tasks involved.",
       },
     ],
   },
