@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -13,11 +14,13 @@ import {
 import { yachtCharterFleet } from "@/lib/constants/services/transportation/yachts";
 import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
 export default function RentAYachtPage() {
+  const [showFilters, setShowFilters] = useState(false);
   // Filter states
   const [cabinsFilter, setCabinsFilter] = useState<number | null>(null);
-  const [privacyLevelFilter, setPrivacyLevelFilter] = useState<string>("");
+  const [privacyLevelFilter, setPrivacyLevelFilter] = useState<string>("any");
   const [lengthFilter, setLengthFilter] = useState<number | null>(null);
   const [passengerFilter, setPassengerFilter] = useState<number | null>(null);
   const [priceFilter, setPriceFilter] = useState<number | null>(null);
@@ -77,7 +80,10 @@ export default function RentAYachtPage() {
         }
 
         // Filter by privacy level
-        if (privacyLevelFilter && yacht.privacyLevel !== privacyLevelFilter) {
+        if (
+          privacyLevelFilter !== "any" &&
+          yacht.privacyLevel !== privacyLevelFilter
+        ) {
           return false;
         }
 
@@ -129,7 +135,7 @@ export default function RentAYachtPage() {
 
   // Handle filter changes
   const handleCabinsChange = (value: string) => {
-    setCabinsFilter(value === "" ? null : parseInt(value, 10));
+    setCabinsFilter(value === "any" ? null : parseInt(value, 10));
   };
 
   const handlePrivacyLevelChange = (value: string) => {
@@ -137,11 +143,11 @@ export default function RentAYachtPage() {
   };
 
   const handleLengthChange = (value: string) => {
-    setLengthFilter(value === "" ? null : parseInt(value, 10));
+    setLengthFilter(value === "any" ? null : parseInt(value, 10));
   };
 
   const handlePassengerChange = (value: string) => {
-    setPassengerFilter(value === "" ? null : parseInt(value, 10));
+    setPassengerFilter(value === "any" ? null : parseInt(value, 10));
   };
 
   const handlePriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -167,7 +173,7 @@ export default function RentAYachtPage() {
 
   const resetFilters = () => {
     setCabinsFilter(null);
-    setPrivacyLevelFilter("");
+    setPrivacyLevelFilter("any");
     setLengthFilter(null);
     setPassengerFilter(null);
     setPriceFilter(null);
@@ -197,201 +203,234 @@ export default function RentAYachtPage() {
       </header>
 
       {/* Filter Section */}
-      <div className="bg-gray-50 dark:bg-gray-800 shadow mb-8 p-6 rounded-lg">
-        <h2 className="mb-4">Filter Yachts</h2>
-
-        <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {/* Cabins Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Minimum Cabins</strong>
-            </Label>
-            <Select
-              value={cabinsFilter?.toString() || ""}
-              onValueChange={handleCabinsChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Any</SelectItem>
-                {Array.from({ length: maxCabins }, (_, i) => i + 1).map(
-                  (num) => (
-                    <SelectItem key={num} value={num.toString()}>
-                      {num}+ Cabins
-                    </SelectItem>
-                  )
-                )}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Privacy Level Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Privacy Level</strong>
-            </Label>
-            <Select
-              value={privacyLevelFilter}
-              onValueChange={handlePrivacyLevelChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Any</SelectItem>
-                {Array.from(allPrivacyLevels)
-                  .sort()
-                  .map((level) => (
-                    <SelectItem key={level} value={level}>
-                      {level.charAt(0).toUpperCase() + level.slice(1)}
-                    </SelectItem>
-                  ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Yacht Length Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Minimum Length (feet)</strong>
-            </Label>
-            <Select
-              value={lengthFilter?.toString() || ""}
-              onValueChange={handleLengthChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Any</SelectItem>
-                {[50, 75, 100, 125, 150, 175, 200]
-                  .filter((len) => len <= maxLength)
-                  .map((len) => (
-                    <SelectItem key={len} value={len.toString()}>
-                      {len}+ ft
-                    </SelectItem>
-                  ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Passenger Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Minimum Passengers</strong>
-            </Label>
-            <Select
-              value={passengerFilter?.toString() || ""}
-              onValueChange={handlePassengerChange}
-            >
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Any" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="">Any</SelectItem>
-                {Array.from(
-                  { length: Math.ceil(maxPassengers / 2) },
-                  (_, i) => (i + 1) * 2
-                )
-                  .filter((num) => num <= maxPassengers)
-                  .map((num) => (
-                    <SelectItem key={num} value={num.toString()}>
-                      {num}+ Passengers
-                    </SelectItem>
-                  ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Price Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Maximum Price per Day (USD)</strong>
-            </Label>
-            <Input
-              type="range"
-              min="0"
-              max={maxPrice}
-              step="5000"
-              className="w-full"
-              value={priceFilter || maxPrice}
-              onChange={handlePriceChange}
-            />
-            <div className="flex justify-between">
-              <span>$0</span>
-              <span>
-                $
-                {priceFilter
-                  ? priceFilter.toLocaleString()
-                  : maxPrice.toLocaleString()}
-              </span>
-            </div>
-          </div>
-
-          {/* Amenities Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Amenities</strong>
-            </Label>
-            <div className="p-2 border rounded max-h-40 overflow-y-auto">
-              {Array.from(allAmenities)
-                .sort()
-                .map((amenity, i) => (
-                  <div key={i} className="flex items-center mb-1">
-                    <Input
-                      type="checkbox"
-                      id={`amenity-${i}`}
-                      checked={selectedAmenities.includes(amenity)}
-                      onChange={() => handleAmenityChange(amenity)}
-                      className="mr-2 w-auto h-auto"
-                    />
-                    <Label
-                      htmlFor={`amenity-${i}`}
-                      className="text-sm capitalize"
-                    >
-                      {capitalize(amenity)}
-                    </Label>
-                  </div>
-                ))}
-            </div>
-          </div>
-
-          {/* Features Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Interior Features</strong>
-            </Label>
-            <div className="p-2 border rounded max-h-40 overflow-y-auto">
-              {Array.from(allFeatures)
-                .sort()
-                .map((feature, i) => (
-                  <div key={i} className="flex items-center mb-1">
-                    <Input
-                      type="checkbox"
-                      id={`feature-${i}`}
-                      checked={selectedFeatures.includes(feature)}
-                      onChange={() => handleFeatureChange(feature)}
-                      className="mr-2 w-auto h-auto"
-                    />
-                    <Label htmlFor={`feature-${i}`} className="text-sm">
-                      {capitalize(
-                        feature
-                          .replace(/([A-Z])/g, " $1")
-                          .replace(/([A-Z][a-z])/g, " $1")
-                      )}
-                    </Label>
-                  </div>
-                ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="text-right mt-4">
-          <Button variant={"destructive"} onClick={resetFilters}>
-            Reset Filters
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <h2>Filter Yachts</h2>
+          <Button
+            onClick={() => setShowFilters(!showFilters)}
+            variant="icon"
+            size={"sm"}
+            className="flex items-center gap-2"
+          >
+            <FaFilter />
           </Button>
         </div>
+
+        {showFilters && (
+          <Card>
+            <CardContent>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4">
+                {/* Cabins Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Minimum Cabins</strong>
+                  </Label>
+                  <Select
+                    value={cabinsFilter?.toString() || "any"}
+                    onValueChange={handleCabinsChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {Array.from({ length: maxCabins }, (_, i) => i + 1).map(
+                        (num) => (
+                          <SelectItem key={num} value={num.toString()}>
+                            {num}+ Cabins
+                          </SelectItem>
+                        )
+                      )}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Privacy Level Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Privacy Level</strong>
+                  </Label>
+                  <Select
+                    value={privacyLevelFilter}
+                    onValueChange={handlePrivacyLevelChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {Array.from(allPrivacyLevels)
+                        .sort()
+                        .map((level) => (
+                          <SelectItem key={level} value={level}>
+                            {level.charAt(0).toUpperCase() + level.slice(1)}
+                          </SelectItem>
+                        ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Yacht Length Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Minimum Length (feet)</strong>
+                  </Label>
+                  <Select
+                    value={lengthFilter?.toString() || "any"}
+                    onValueChange={handleLengthChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {[50, 75, 100, 125, 150, 175, 200]
+                        .filter((len) => len <= maxLength)
+                        .map((len) => (
+                          <SelectItem key={len} value={len.toString()}>
+                            {len}+ ft
+                          </SelectItem>
+                        ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Passenger Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Minimum Passengers</strong>
+                  </Label>
+                  <Select
+                    value={passengerFilter?.toString() || "any"}
+                    onValueChange={handlePassengerChange}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Any" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="any">Any</SelectItem>
+                      {Array.from(
+                        { length: Math.ceil(maxPassengers / 2) },
+                        (_, i) => (i + 1) * 2
+                      )
+                        .filter((num) => num <= maxPassengers)
+                        .map((num) => (
+                          <SelectItem key={num} value={num.toString()}>
+                            {num}+ Passengers
+                          </SelectItem>
+                        ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Amenities Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Amenities</strong>
+                  </Label>
+                  <div className="px-2 border rounded h-42 overflow-y-auto">
+                    {Array.from(allAmenities)
+                      .sort()
+                      .map((amenity, i) => (
+                        <div key={i} className="flex items-center mb-1">
+                          <Input
+                            type="checkbox"
+                            id={`amenity-${i}`}
+                            checked={selectedAmenities.includes(amenity)}
+                            onChange={() => handleAmenityChange(amenity)}
+                            className="mr-2 w-auto h-auto"
+                          />
+                          <Label
+                            htmlFor={`amenity-${i}`}
+                            className="text-sm capitalize"
+                          >
+                            {capitalize(amenity)}
+                          </Label>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+
+                {/* Features Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Interior Features</strong>
+                  </Label>
+                  <div className="p-2 border rounded h-42 overflow-y-auto">
+                    {Array.from(allFeatures)
+                      .sort()
+                      .map((feature, i) => (
+                        <div key={i} className="flex items-center mb-1">
+                          <Input
+                            type="checkbox"
+                            id={`feature-${i}`}
+                            checked={selectedFeatures.includes(feature)}
+                            onChange={() => handleFeatureChange(feature)}
+                            className="mr-2 w-auto h-auto"
+                          />
+                          <Label htmlFor={`feature-${i}`} className="text-sm">
+                            {capitalize(
+                              feature
+                                .replace(/([A-Z])/g, " $1")
+                                .replace(/([A-Z][a-z])/g, " $1")
+                            )}
+                          </Label>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+
+                {/* Price Filter */}
+                <div className="col-span-1 md:col-span-2 lg:col-span-3">
+                  <Label className="block mb-2">
+                    <strong>Maximum Price per Day (USD)</strong>
+                  </Label>
+                  <Input
+                    type="range"
+                    min="0"
+                    max={maxPrice}
+                    step="5000"
+                    className="w-full"
+                    value={priceFilter || maxPrice}
+                    onChange={handlePriceChange}
+                  />
+                  <div className="flex justify-between">
+                    <span>$0</span>
+                    <span>
+                      $
+                      {priceFilter
+                        ? priceFilter.toLocaleString()
+                        : maxPrice.toLocaleString()}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex justify-between items-end mt-6">
+                <div className="flex items-center text-muted-foreground text-sm">
+                  Showing{" "}
+                  {filteredCategories.reduce(
+                    (total, category) => total + category.vessels.length,
+                    0
+                  )}{" "}
+                  of{" "}
+                  {yachtCharterFleet.reduce(
+                    (total, category) => total + category.vessels.length,
+                    0
+                  )}{" "}
+                  yachts
+                </div>
+                <Button
+                  variant="destructive"
+                  onClick={resetFilters}
+                  className="mr-2"
+                >
+                  Reset Filters
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
       </div>
 
       {/* Yacht Categories */}
