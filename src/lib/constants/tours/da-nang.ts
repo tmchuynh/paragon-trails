@@ -91,7 +91,7 @@ export const daNangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nguyen Van An",
+    tourGuide: "Minh Nguyen",
     tourCategoryId: "cultural-expert",
     faqs: [
       {

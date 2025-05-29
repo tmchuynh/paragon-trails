@@ -123,7 +123,7 @@ export const florenceTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Giulia Conti",
+    tourGuide: "Lucia Martelli",
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -17,7 +17,7 @@ export const istanbulTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mehmet Özturk",
+    tourGuide: "Elif Arslan",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -38,76 +38,44 @@ export const istanbulTours: Tour[] = [
     ],
   },
   {
-    title: "Grand Bazaar Secrets & Artisan Workshops",
+    title: "Archaeological Wonders of Istanbul",
     description:
-      "Go beyond the tourist sections of Istanbul's legendary Grand Bazaar with access to hidden hans (merchant inns), traditional craftsmen's workshops, and private showrooms normally closed to visitors.",
+      "Explore Istanbul's rich archaeological heritage with a guided tour of the ancient Hippodrome, the Basilica Cistern, and the stunning mosaics of Chora Church, led by an expert in Byzantine history.",
     images: [
-      "/images/tours/istanbul/grand-bazaar.jpg",
-      "/images/tours/istanbul/artisan-workshop.jpg",
-    ],
-    duration: "4 hours",
-    price: "$85",
-    rating: 4.8,
-    tags: ["Shopping", "Artisans", "Culture"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Ayşe Yılmaz",
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "Will there be pressure to buy items?",
-        answer:
-          "Absolutely not. While you'll meet authentic artisans and have opportunities to purchase unique items directly from creators, this is primarily a cultural and educational experience. Our guide acts as a cultural interpreter, not a shopping assistant. The craftspeople understand this and provide demonstrations of their art rather than sales pitches.",
-      },
-      {
-        question: "What types of artisans will we meet?",
-        answer:
-          "You'll meet a variety of traditional craftsmen including carpet weavers, calligraphers, ceramicists, and metalworkers. Each artisan will demonstrate their craft and share insights into the history and techniques involved.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly. Children will enjoy the vibrant atmosphere of the bazaar and the fascinating demonstrations by artisans. It's a great way to introduce them to Turkish culture and craftsmanship.",
-      },
-    ],
-  },
-  {
-    title: "Istanbul's Hidden Neighborhoods & Street Art",
-    description:
-      "Explore the lesser-known districts of Istanbul with a local guide, discovering vibrant street art, hidden cafes, and unique shops in areas like Balat, Fener, and Kadıköy.",
-    images: [
-      "/images/tours/istanbul/street-art.jpg",
-      "/images/tours/istanbul/balat-cafe.jpg",
+      "/images/tours/istanbul/hippodrome.jpg",
+      "/images/tours/istanbul/basilica-cistern.jpg",
     ],
     duration: "5 hours",
-    price: "$70",
-    rating: 4.7,
-    tags: ["Street Art", "Local Culture", "Walking Tour"],
+    price: "$120",
+    rating: 4.8,
+    tags: ["Archaeological", "Byzantine", "Historical"],
     isFamilyFriendly: true,
-    isHistorical: false,
+    isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Selin Demir",
-    tourCategoryId: "local-experience",
+    tourGuide: "Dr. Mehmet Özkan",
+    tourCategoryId: "archaeology",
     faqs: [
+      {
+        question: "What archaeological sites will we visit?",
+        answer:
+          "The tour includes the Hippodrome of Constantinople, where you'll see the Obelisk of Theodosius, the Serpent Column, and the German Fountain. We'll also explore the Basilica Cistern, an ancient underground water reservoir with stunning columns and atmospheric lighting. Finally, we'll visit Chora Church, famous for its exquisite mosaics and frescoes depicting scenes from the life of Christ.",
+      },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive activities and storytelling about Istanbul's vibrant neighborhoods.",
+          "Yes, this tour is family-friendly. Children will enjoy the fascinating history and unique architecture of these ancient sites. However, parents should be aware that some areas may have uneven surfaces or stairs.",
       },
       {
-        question: "What should I wear for the walking tour?",
+        question: "Do we need to book tickets in advance?",
         answer:
-          "Comfortable walking shoes are recommended as we will be exploring neighborhoods on foot. Dress in layers as the weather can change quickly in Istanbul.",
+          "Yes, we recommend booking tickets in advance for the Basilica Cistern and Chora Church to avoid long lines. Your guide will handle all ticketing to ensure a smooth experience.",
       },
       {
-        question: "Will we see famous street art?",
+        question: "What should I wear for the archaeological tour?",
         answer:
-          "Yes, you'll see a variety of street art styles from local and international artists, including murals, graffiti, and installations that reflect Istanbul's diverse culture.",
+          "Dress comfortably for walking, as we will be exploring several sites. Comfortable shoes are a must, and we recommend wearing layers as some areas can be cooler, especially the Basilica Cistern. Modest clothing is also appreciated in religious sites.",
       },
     ],
   },

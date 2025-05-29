@@ -17,7 +17,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Fiona MacGregor",
+    tourGuide: "Claire MacDonald",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -59,7 +59,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Iain Campbell",
+    tourGuide: "Chef Alistair Campbell",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -143,7 +143,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Callum Fraser",
+    tourGuide: "Callum Stewart",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -185,7 +185,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Eleanor Grant",
+    tourGuide: "Isla MacLeod",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -223,7 +223,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Margaret Henderson",
+    tourGuide: "Callum Stewart",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -260,7 +260,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sarah McKenzie, Festival Veteran",
+    tourGuide: "Callum Stewart",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -302,7 +302,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Douglas Murray, Whisky Expert",
+    tourGuide: "Chef Alistair Campbell",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -344,7 +344,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Andrew MacKenzie",
+    tourGuide: "Chef Alistair Campbell",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -386,7 +386,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Simon Campbell, Professional Photographer",
+    tourGuide: "Callum Stewart",
     tourCategoryId: "photography",
     faqs: [
       {
@@ -428,7 +428,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Fiona MacDonald & The Ceilidh Band",
+    tourGuide: "Callum Stewart",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -470,7 +470,7 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. William Armstrong",
+    tourGuide: "Claire MacDonald",
     tourCategoryId: "historical",
     faqs: [
       {

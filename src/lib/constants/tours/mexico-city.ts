@@ -54,7 +54,7 @@ export const mexicoCityTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Carlos Mendoza",
+    tourGuide: "Carlos Gutiérrez",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +91,7 @@ export const mexicoCityTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lucia Torres",
+    tourGuide: "Lucia Hernández",
     tourCategoryId: "cultural",
     faqs: [
       {

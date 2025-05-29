@@ -91,7 +91,7 @@ export const fezTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Amina El Idrissi",
+    tourGuide: "Hassan El Mansouri",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -128,7 +128,7 @@ export const fezTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Youssef El Amrani",
+    tourGuide: "Fatima El Idrissi",
     tourCategoryId: "cultural",
     faqs: [
       {
