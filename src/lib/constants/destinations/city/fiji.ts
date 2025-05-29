@@ -12,7 +12,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["natural", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["natural", "garden", "scenic"],
+    tags: ["wellness", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const fijiMelanesiaRepublicOfFiji: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["natural", "relaxation", "spa"],
+    tags: ["relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

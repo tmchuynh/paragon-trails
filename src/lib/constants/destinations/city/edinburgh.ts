@@ -14,7 +14,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "viewpoint"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["outdoor", "hiking", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -53,7 +53,7 @@ export const edinburghScotlandUnitedKingdom: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "shopping", "historical"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

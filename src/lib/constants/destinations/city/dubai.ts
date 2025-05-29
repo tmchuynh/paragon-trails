@@ -12,7 +12,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["architectural", "viewpoint", "modern"],
+    tags: ["local", "adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["shopping", "entertainment", "dining"],
+    tags: ["local", "culinary"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const dubaiDubaiEmirateUnitedArabEmirates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["outdoor", "recreation", "scenic"],
+    tags: ["adventure", "wellness", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

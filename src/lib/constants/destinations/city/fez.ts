@@ -14,7 +14,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "shopping"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     priceRange: "$",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "religious", "architecture"],
+    tags: ["historical", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const fezFesMeknesMorocco: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "museum", "arts"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
