@@ -10,7 +10,7 @@ export const contactDepartments = [
       "Our General Inquiries team is your starting point for all questions related to Paragon Trails. Whether you're learning about our destinations, travel packages, or company policies, we're here to assist with broad information needs. This department is ideal for first-time travelers looking to understand our offerings, for customers seeking clarification about our process, or for anyone in the early stages of planning a trip. We can direct your request to the appropriate team if your question requires more specific expertise. If you're unsure where to start, start here.",
   },
   {
-    department: "Reservations & Booking Support",
+    department: "Reservations & Booking",
     phone: "+1 (310) 477–8810",
     email: "reservations@paragontrails.com",
     hours: "Mon–Fri, 8:00 AM – 7:00 PM PT",
