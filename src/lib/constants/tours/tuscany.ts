@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const tuscanyTours: Tour[] = [
+export const tuscanyTours: Tour[] = [
   {
     title: "Chianti Wine Region Villa Experience",
     description:

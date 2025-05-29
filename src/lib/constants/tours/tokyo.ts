@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const tokyoTours: Tour[] = [
+export const tokyoTours: Tour[] = [
   {
     title: "Tokyo After Dark: Izakaya & Hidden Bars",
     description:

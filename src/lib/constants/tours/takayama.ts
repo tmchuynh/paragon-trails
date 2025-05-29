@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const takayamaTours: Tour[] = [
+export const takayamaTours: Tour[] = [
   {
     title: "Traditional Carpentry & Old Town Heritage",
     description:

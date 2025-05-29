@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const thessalonikiTours: Tour[] = [
+export const thessalonikiTours: Tour[] = [
   {
     title: "Byzantine Heritage & Hidden Treasures",
     description:

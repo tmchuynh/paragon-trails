@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const udaipurTours: Tour[] = [
+export const udaipurTours: Tour[] = [
   {
     title: "Royal Lakeside Palace Experience",
     description:
