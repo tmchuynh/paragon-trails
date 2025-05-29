@@ -296,8 +296,8 @@ export default function YachtCharters() {
       </section>
 
       <section>
-        <ContactDepartmentCard department="Transportation & Charter Services" />
-        <ContactDepartmentCard department="Transportation Concierge" />
+        <ContactDepartmentCard department="Transportation Services & Rentals" />
+        <ContactDepartmentCard department="Concierge Services" />
       </section>
     </div>
   );

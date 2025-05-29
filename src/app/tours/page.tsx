@@ -44,15 +44,25 @@ export default function TourPackages() {
           solo, with family, or friends, our packages cater to all types of
           travelers.
         </p>
-        <Button
-          onClick={() =>
-            router.push(
-              "/about-paragon-trails/core-team-and-partnerships/tour-guides"
-            )
-          }
-        >
-          Meet Our Wonderful Tour Guides
-        </Button>
+        <div className="flex gap-5 flex-col md:flex-row mt-4">
+          <Button
+            onClick={() =>
+              router.push("/luxurious-destinations/popular-destinations")
+            }
+          >
+            Explore Popular Destinations
+          </Button>
+          <Button
+            varient="outline"
+            onClick={() =>
+              router.push(
+                "/about-paragon-trails/core-team-and-partnerships/tour-guides"
+              )
+            }
+          >
+            Meet Our Wonderful Tour Guides
+          </Button>
+        </div>
       </section>
 
       <section>

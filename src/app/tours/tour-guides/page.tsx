@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { tourGuides } from "@/lib/constants/staff/tourGuides";
 import { useRouter } from "next/navigation";
+import { featuredArray } from "@/lib/utils/sort";
 
 export default function TourGuides() {
   const router = useRouter();
@@ -85,17 +86,19 @@ export default function TourGuides() {
       <div className="mb-16">
         <h2>Meet a Few of Our Incredible Guides</h2>
         <div className="gap-8 grid md:grid-cols-2">
-          {tourGuides.slice(4, 12).map(({ name, city, description }, index) => (
-            <div
-              key={index}
-              className="flex md:flex-row flex-col items-center md:items-start gap-4"
-            >
-              <div>
-                <h3>{name}</h3>
-                <p>{description}</p>
+          {featuredArray(tourGuides)
+            .slice(4, 12)
+            .map(({ name, city, bio }, index) => (
+              <div
+                key={index}
+                className="flex md:flex-row flex-col items-center md:items-start gap-4"
+              >
+                <div>
+                  <h3>{name}</h3>
+                  <p>{bio}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
         <div className="my-4 w-full">
           <Button
