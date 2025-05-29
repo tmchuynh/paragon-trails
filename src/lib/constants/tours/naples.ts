@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const naplesTours: Tour[] = [
+export const naplesTours: Tour[] = [
   {
     title: "Authentic Neapolitan Pizza Masterclass",
     description:

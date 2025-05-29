@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const maltaTours: Tour[] = [
+export const maltaTours: Tour[] = [
   {
     title: "Ancient Malta: Temples & Medieval Cities",
     description:

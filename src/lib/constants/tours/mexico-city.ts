@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const mexicoCityTours: Tour[] = [
+export const mexicoCityTours: Tour[] = [
   {
     title: "Teotihuacan Pyramids at Sunrise & Archaeologist Tour",
     description:

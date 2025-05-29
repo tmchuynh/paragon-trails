@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const materaTours: Tour[] = [
+export const materaTours: Tour[] = [
   {
     title: "Sassi Cave Dwellings & Ancient Civilization",
     description:

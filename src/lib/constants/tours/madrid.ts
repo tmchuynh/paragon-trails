@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const madridTours: Tour[] = [
+export const madridTours: Tour[] = [
   {
     title: "Madrid Art Walk: Prado, Reina Sofia & Thyssen",
     description:
