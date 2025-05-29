@@ -12,13 +12,13 @@ export const yokohamaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Night Views", "Urban"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourGuide: "Yuki Tanigawa",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -39,7 +39,7 @@ export const yokohamaTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Food", "Chinatown", "Cultural Fusion"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -66,7 +66,7 @@ export const yokohamaTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Historical", "Nature", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,

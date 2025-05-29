@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
+export const shirakawagoGifuPrefectureJapan: Attraction[] = [
   {
     title: "Shirakawa-go Village",
     description:
@@ -14,7 +14,7 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["cultural", "historical", "scenic"],
+    tags: ["cultural", "historical", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -30,15 +30,14 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     location: "Wada House, Shirakawa-go, Gifu Prefecture, Japan",
     openingHours: "9 AM - 5 PM",
     entryFee: "$5 per person",
-    priceCategory: "$",
-    priceRange: "$$",
-    entryFeeCategory: "$",
+    priceCategory: "budget",
+    priceRange: "$",
+    entryFeeCategory: "budget",
     timeOfDay: "daytime",
-    rating: 4.8,
-    tags: ["cultural", "historical", "museum"],
+    rating: 4.5,
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
-
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -56,7 +55,7 @@ export const shirakawaGoGifuPrefectureJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["scenic", "outdoor", "photography"],
+    tags: ["romantic", "adventure", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

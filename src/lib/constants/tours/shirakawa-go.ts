@@ -13,7 +13,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["UNESCO Heritage", "Traditional Architecture", "Homestay"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -40,7 +40,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$120",
     rating: 5.0,
     tags: ["Winter", "Festival", "Illumination"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Crafts", "Traditional Arts", "Hands-on"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -94,13 +94,13 @@ export const shirakawaGoTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Landscape", "Seasonal"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourGuide: "Suzuki Kentaro",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "Which season is best for photography in Shirakawa-go?",
@@ -121,7 +121,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Culinary", "Farm Visit", "Cooking"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -148,7 +148,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$95",
     rating: 4.6,
     tags: ["Cycling", "Rural", "Off the Beaten Path"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -175,7 +175,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Day Trip", "UNESCO", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -202,7 +202,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Festival", "Performance", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -229,7 +229,7 @@ export const shirakawaGoTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nature", "Birdwatching", "Ecology"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,

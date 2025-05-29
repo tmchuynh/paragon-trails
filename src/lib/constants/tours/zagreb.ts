@@ -13,7 +13,7 @@ export const zagrebTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Walking Tour", "History", "Hidden Gems"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -40,7 +40,7 @@ export const zagrebTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cooking", "Food", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -67,7 +67,7 @@ export const zagrebTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Museums", "Contemporary Art", "Culture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -94,7 +94,7 @@ export const zagrebTours: Tour[] = [
     price: "$65",
     rating: 4.6,
     tags: ["Beer", "Breweries", "Nightlife"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -121,7 +121,7 @@ export const zagrebTours: Tour[] = [
     price: "$40",
     rating: 4.9,
     tags: ["Christmas", "Seasonal", "Festive"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -148,7 +148,7 @@ export const zagrebTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Day Trip", "Food", "Small Town"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -175,7 +175,7 @@ export const zagrebTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Architecture", "Communist Era", "History"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -202,13 +202,13 @@ export const zagrebTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Photography", "Urban", "Creative"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourGuide: "Davor Rostuhar",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -229,7 +229,7 @@ export const zagrebTours: Tour[] = [
     price: "$40",
     rating: 4.8,
     tags: ["Nature", "Parks", "Botanical"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

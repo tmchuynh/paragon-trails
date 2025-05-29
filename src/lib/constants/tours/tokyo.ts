@@ -12,13 +12,13 @@ export const tokyoTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nightlife", "Food & Drink", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourGuide: "Takashi Yamamoto",
-    tourCategoryId: "local-experience",
+    tourCategoryId: "local",
     faqs: [
       {
         question: "How much food and drink is included?",
@@ -39,7 +39,7 @@ export const tokyoTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Technology", "Modern", "Interactive"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -66,7 +66,7 @@ export const tokyoTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Market", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -98,7 +98,7 @@ export const tokyoTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Cultural", "Relaxation", "Traditional"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,

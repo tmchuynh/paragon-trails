@@ -12,7 +12,7 @@ export const zanzibarTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["UNESCO", "Cultural", "Spices"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -59,13 +59,13 @@ export const zanzibarTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Marine Life", "Snorkeling", "Dolphins"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourGuide: "Captain Juma",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Are dolphin sightings guaranteed?",
@@ -111,13 +111,13 @@ export const zanzibarTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Wildlife", "Nature", "Conservation"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourGuide: "Amani Mwinyi",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What should I wear for the forest walk?",
@@ -163,13 +163,13 @@ export const zanzibarTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Dolphins", "Snorkeling", "Marine Life"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourGuide: "Fatima Juma",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "How do you ensure responsible dolphin interactions?",
