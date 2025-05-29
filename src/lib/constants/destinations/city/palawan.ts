@@ -15,7 +15,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["unesco", "natural wonder", "boat tour", "caves", "wildlife"],
+    tags: ["wildlife"],
     isPopular: true,
 
     isFree: false,
@@ -43,13 +43,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: [
-      "beaches",
-      "island hopping",
-      "snorkeling",
-      "limestone cliffs",
-      "lagoons",
-    ],
+    tags: ["island hopping", "adventure", "limestone cliffs", "lagoons"],
     isPopular: true,
 
     isFree: false,
@@ -79,7 +73,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["lakes", "diving", "shipwrecks", "viewpoints", "island hopping"],
+    tags: ["lakes", "shipwrecks", "viewpoints", "island hopping"],
     isPopular: true,
 
     isFree: false,
@@ -111,7 +105,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["diving", "marine life", "unesco", "coral reef", "conservation"],
+    tags: ["adventure"],
     isPopular: false,
 
     isFree: false,
@@ -139,13 +133,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: [
-      "beaches",
-      "relaxation",
-      "island hopping",
-      "snorkeling",
-      "off the beaten path",
-    ],
+    tags: ["island hopping", "adventure", "off the beaten path"],
     isPopular: false,
 
     isFree: true,
@@ -175,7 +163,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["beach", "sunset", "swimming", "relaxation", "nature"],
+    tags: ["adventure", "nature"],
     isPopular: true,
 
     isFree: false,
@@ -206,7 +194,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["wildlife", "safari", "conservation", "giraffes", "unusual"],
+    tags: ["safari", "historical", "giraffes", "unusual"],
     isPopular: true,
 
     isFree: false,
@@ -237,7 +225,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["archaeology", "caves", "historical", "cultural", "educational"],
+    tags: ["historical", "cultural"],
     isPopular: false,
 
     isFree: false,
@@ -268,7 +256,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.0,
-    tags: ["unusual", "cultural", "educational", "crafts", "social"],
+    tags: ["local", "cultural"],
     isPopular: false,
 
     isFree: true,
@@ -299,7 +287,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["island hopping", "beaches", "snorkeling", "swimming", "day trip"],
+    tags: ["island hopping", "adventure", "day trip"],
     isPopular: true,
 
     isFree: false,

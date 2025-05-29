@@ -12,7 +12,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["beach", "outdoor", "recreation"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["hiking", "scenic", "viewpoint"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -71,7 +71,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "oceanfront"],
+    tags: ["luxury", "local", "oceanfront"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
     isPopular: false,
 

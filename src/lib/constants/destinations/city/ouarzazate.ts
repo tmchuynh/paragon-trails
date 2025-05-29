@@ -14,7 +14,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["unesco", "historical", "architecture", "film location", "cultural"],
+    tags: ["historical", "cultural"],
     isPopular: true,
 
     isFree: false,
@@ -45,13 +45,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: [
-      "film studio",
-      "movie sets",
-      "tour",
-      "cinema history",
-      "entertainment",
-    ],
+    tags: ["film studio", "movie sets", "cinema history", ],
     accessibilityFeatures: ["fairly flat terrain"],
     isPopular: true,
 
@@ -83,7 +77,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["kasbah", "architecture", "historical", "museum", "cultural"],
+    tags: ["spiritual", "historical", "cultural"],
     isPopular: true,
 
     isFree: false,
@@ -111,7 +105,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["oasis", "nature", "village", "hiking", "cultural"],
+    tags: ["cultural", "spiritual", "wellness"],
     isPopular: false,
 
     isFree: true,
@@ -142,7 +136,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.0,
-    tags: ["museum", "cinema", "film history", "cultural", "indoor activity"],
+    tags: ["cultural", "art-and-music", "local"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
 
@@ -171,7 +165,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["valley", "landscape", "palm groves", "kasbahs", "scenic drive"],
+    tags: ["wellness", "adventure", "cultural"],
     isPopular: true,
 
     isFree: true,
@@ -202,13 +196,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: [
-      "kasbah",
-      "historical",
-      "viewpoint",
-      "architecture",
-      "film location",
-    ],
+    tags: ["historical"],
     isPopular: false,
 
     isFree: false,
@@ -236,7 +224,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["oasis", "palm grove", "kasbahs", "nature", "historical"],
+    tags: ["wellness", "historical"],
     isPopular: false,
 
     isFree: true,
@@ -264,7 +252,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["canyon", "nature", "hiking", "rock climbing", "photography"],
+    tags: ["adventure", "art-and-music", "romantic"],
     isPopular: true,
 
     isFree: true,
@@ -292,7 +280,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.0,
-    tags: ["dam", "reservoir", "engineering", "sunset views", "landscape"],
+    tags: ["romantic"],
     accessibilityFeatures: ["paved viewing areas"],
     isPopular: false,
 

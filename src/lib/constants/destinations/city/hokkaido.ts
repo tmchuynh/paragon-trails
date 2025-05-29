@@ -14,7 +14,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "flowers", "lavender", "photography", "countryside"],
+    tags: ["flowers", "lavender", "art-and-music", "countryside"],
     accessibilityFeatures: ["some wheelchair accessible paths"],
     isPopular: true,
 
@@ -46,7 +46,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["scenic", "photography", "unique", "nature", "geological"],
+    tags: ["romantic", "art-and-music", "local", "geological"],
     accessibilityFeatures: ["viewable from accessible platform"],
     isPopular: true,
 
@@ -79,7 +79,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["festival", "winter", "cultural", "art", "illumination"],
+    tags: ["festival", "winter", "cultural", "art-and-music", "illumination"],
     accessibilityFeatures: ["accessible viewing areas", "cleared paths"],
     isPopular: true,
 
@@ -108,7 +108,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["hot springs", "onsen", "geothermal", "relaxation", "nature"],
+    tags: ["hot springs", "onsen", "geothermal", "nature"],
     isPopular: true,
 
     isFree: true,
@@ -136,7 +136,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["lake", "volcano", "hot springs", "scenic", "nature"],
+    tags: ["lake", "volcano", "hot springs", "romantic", "nature"],
     accessibilityFeatures: ["accessible viewpoints"],
     isPopular: true,
 
@@ -165,7 +165,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "scenic", "canal", "architecture", "romantic"],
+    tags: ["historical", "romantic", "canal", "historical", "romantic"],
     accessibilityFeatures: ["accessible walkway along canal"],
     isPopular: true,
 
@@ -198,7 +198,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "wildlife", "unesco", "hiking", "wilderness"],
+    tags: ["wilderness"],
     isPopular: true,
 
     isFree: true,
@@ -229,7 +229,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["zoo", "animals", "family", "educational", "winter"],
+    tags: ["zoo", "animals", "winter"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -266,7 +266,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["skiing", "snowboarding", "winter sports", "powder snow", "resort"],
+    tags: ["adventure"],
     isPopular: true,
 
     isFree: false,
@@ -295,7 +295,7 @@ export const hokkaidoHokkaidoJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["market", "seafood", "food", "shopping", "local"],
+    tags: ["culinary", "local"],
     accessibilityFeatures: ["level surfaces"],
     isPopular: true,
 

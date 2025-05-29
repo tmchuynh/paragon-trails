@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const melbourneVictoriaAustralia: Attraction[] = [
+export const melbourneVicAustralia: Attraction[] = [
   {
     title: "Federation Square",
     description:
@@ -11,7 +11,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["culture", "architecture", "events", "art", "dining"],
+    tags: ["historical", "art-and-music", "culinary"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -47,7 +47,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "gardens", "walking", "relaxation", "picnic"],
+    tags: ["wellness"],
     accessibilityFeatures: [
       "wheelchair accessible paths",
       "accessible restrooms",
@@ -82,7 +82,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["art", "museum", "culture", "exhibitions", "architecture"],
+    tags: ["art-and-music"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -116,7 +116,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["market", "food", "shopping", "historical", "local experience"],
+    tags: ["culinary", "historical", "local"],
     accessibilityFeatures: ["generally accessible grounds"],
     isPopular: true,
 
@@ -148,7 +148,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["sports", "stadium", "cricket", "Australian football", "tours"],
+    tags: [],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -181,7 +181,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["street art", "urban culture", "photography", "art", "walking"],
+    tags: ["art-and-music", "cultural"],
     isPopular: true,
 
     isFree: true,
@@ -212,13 +212,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: [
-      "viewpoint",
-      "observation deck",
-      "city views",
-      "photography",
-      "architecture",
-    ],
+    tags: ["art-and-music"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -251,7 +245,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["beach", "photography", "iconic", "coastal", "swimming"],
+    tags: ["art-and-music", "adventure"],
     isPopular: true,
 
     isFree: true,
@@ -279,13 +273,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: [
-      "scenic drive",
-      "coastal",
-      "natural wonders",
-      "landmarks",
-      "day trip",
-    ],
+    tags: [],
     isPopular: true,
 
     isFree: true,
@@ -316,7 +304,7 @@ export const melbourneVictoriaAustralia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["beach", "amusement park", "dining", "entertainment", "sunset"],
+    tags: ["culinary"],
     accessibilityFeatures: ["accessible boardwalk", "some accessible rides"],
     isPopular: true,
 

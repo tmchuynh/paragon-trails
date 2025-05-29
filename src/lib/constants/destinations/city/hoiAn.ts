@@ -14,7 +14,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "photography"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "viewpoint"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["outdoor", "beach", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const hoiAnCentralVietnamVietnam: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "wellness", "spa"],
+    tags: ["luxury", "wellness"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

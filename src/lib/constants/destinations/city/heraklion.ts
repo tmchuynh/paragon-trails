@@ -12,7 +12,7 @@ export const heraklionCreteGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -51,7 +51,7 @@ export const heraklionCreteGreece: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "fortress", "viewpoint"],
+    tags: ["historical", "fortress"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -72,7 +72,7 @@ export const heraklionCreteGreece: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "marine"],
+    tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

@@ -12,7 +12,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["historical", "educational", "museum"],
+    tags: ["historical", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -32,7 +32,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["shopping", "cultural", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -51,7 +51,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "historical", "architectural"],
+    tags: ["spiritual", "historical", "architectural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -72,7 +72,7 @@ export const hoChiMinhSouthernVietnamVietnam: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["luxury", "dining", "nightlife"],
+    tags: ["luxury", "culinary", "nightlife"],
     accessibilityFeatures: ["elevator access"],
     isPopular: true,
 

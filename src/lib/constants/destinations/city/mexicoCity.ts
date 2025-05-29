@@ -35,7 +35,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "recreation", "cultural"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "historical", "art"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -97,7 +97,7 @@ export const mexicoCityCdmxMexico: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "luxury", "cultural"],
+    tags: ["culinary", "luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
