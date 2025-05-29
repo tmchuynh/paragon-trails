@@ -14,7 +14,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["countryside", "scenic", "photography"],
+    tags: ["countryside", "romantic", "art-and-music"],
     accessibilityFeatures: ["accessible by car"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["medieval", "architecture", "cultural"],
+    tags: ["medieval", "historical", "cultural"],
     accessibilityFeatures: [
       "some cobblestone streets, challenging for wheelchairs",
     ],
@@ -132,7 +132,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "castle", "exclusive"],
+    tags: ["luxury", "castle", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: false,
 

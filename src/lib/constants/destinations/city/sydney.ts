@@ -14,7 +14,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["iconic", "cultural", "architecture"],
+    tags: ["cultural"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -48,7 +48,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["iconic", "adventure", "views"],
+    tags: ["adventure"],
     accessibilityFeatures: ["pedestrian path accessible"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["beach", "surfing", "outdoor"],
+    tags: [ "adventure"],
     accessibilityFeatures: [
       "beach wheelchairs available",
       "accessible facilities",
@@ -108,7 +108,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "gardens", "peaceful"],
+    tags: [ "wellness"],
     accessibilityFeatures: [
       "wheelchair accessible paths",
       "accessible restrooms",
@@ -140,7 +140,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "family", "educational"],
+    tags: [],
     accessibilityFeatures: ["wheelchair accessible", "accessible restrooms"],
     isPopular: true,
 
@@ -168,7 +168,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "shopping", "dining"],
+    tags: ["historical", "culinary"],
     accessibilityFeatures: [
       "some cobblestone streets challenging for wheelchairs",
     ],
@@ -199,7 +199,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["views", "observation deck", "city"],
+    tags: ["cultural", "local", "adventure"],
     accessibilityFeatures: ["elevator access", "wheelchair accessible"],
     isPopular: true,
 
@@ -227,7 +227,7 @@ export const sydneyNewSouthWalesAustralia: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "sailing"],
+    tags: ["luxury", "local", "adventure"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

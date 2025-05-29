@@ -44,7 +44,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["museum", "historical", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
 
@@ -73,7 +73,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "museum", "traditional"],
+    tags: ["cultural", "traditional"],
     accessibilityFeatures: ["some wheelchair accessible paths"],
     isPopular: true,
 
@@ -132,7 +132,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["dining", "gourmet", "food"],
+    tags: ["culinary", "culinary"],
     accessibilityFeatures: ["varies by restaurant"],
     isPopular: true,
 
@@ -160,7 +160,7 @@ export const takayamaGifuPrefectureJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["scenic", "nature", "mountain"],
+    tags: ["romantic", "mountain"],
     accessibilityFeatures: ["wheelchair accessible gondola"],
     isPopular: true,
 

@@ -43,7 +43,7 @@ export const tokyoKantoJapan: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["iconic", "urban", "photography"],
+    tags: ["urban", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible crossings"],
     isPopular: true,
 
@@ -72,7 +72,7 @@ export const tokyoKantoJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["digital art", "interactive", "modern"],
+    tags: ["digital art"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -101,7 +101,7 @@ export const tokyoKantoJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["food", "market", "seafood"],
+    tags: ["culinary"],
     accessibilityFeatures: ["crowded pathways"],
     isPopular: true,
 
@@ -130,7 +130,7 @@ export const tokyoKantoJapan: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["cultural", "exclusive", "traditional"],
+    tags: ["cultural", "local", "traditional"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

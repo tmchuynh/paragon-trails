@@ -14,7 +14,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["family-friendly", "aquatic", "educational"],
+    tags: ["local", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "interactive", "museum"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["outdoor", "nature", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "gourmet", "luxury"],
+    tags: ["culinary", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -97,7 +97,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "educational"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -117,7 +117,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["outdoor", "recreation", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -137,7 +137,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["art", "cultural", "educational"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -153,16 +153,16 @@ export const atlantaGaUnitedStates: Attraction[] = [
     location: "660 Peachtree St NE, Atlanta, GA 30308",
     openingHours: "Varies by event",
     entryFee: "Varies by event",
-    priceRange: "$$ - $$$",
-    priceCategory: "moderate to expensive",
+    priceRange: "$$$",
+    priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["theater", "performing arts", "cultural"],
+    tags: ["theater", "art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
-
     isFree: false,
     isPetFriendly: false,
+
     isWheelchairAccessible: true,
   },
   {
@@ -177,7 +177,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "educational"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -197,7 +197,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["food", "shopping", "local"],
+    tags: ["culinary", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -217,7 +217,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["outdoor", "recreation", "historical"],
+    tags: ["adventure", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -237,7 +237,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["shopping", "food", "local"],
+    tags: ["culinary", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -257,7 +257,7 @@ export const atlantaGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["outdoor", "recreation", "urban"],
+    tags: ["adventure", "urban"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

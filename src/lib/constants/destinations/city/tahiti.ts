@@ -14,7 +14,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["beach", "swimming", "natural beauty"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["firm sand in some areas"],
     isPopular: true,
 
@@ -42,7 +42,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["marine life", "snorkeling", "adventure"],
+    tags: ["local", "adventure"],
     accessibilityFeatures: ["staff assistance available"],
     isPopular: true,
 
@@ -71,7 +71,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["hiking", "scenic views", "nature"],
+    tags: ["local", "wellness", "adventure"],
     accessibilityFeatures: ["difficult terrain"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["market", "culture", "shopping"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["ground level access", "crowded spaces"],
     isPopular: true,
 
@@ -128,7 +128,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["cultural", "entertainment", "traditional"],
+    tags: ["cultural", "art-and-music", "local"],
     accessibilityFeatures: ["seating available", "well-lit venues"],
     isPopular: true,
 
@@ -157,7 +157,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["accommodation", "luxury", "exclusive"],
+    tags: ["adventure", "luxury", "local"],
     accessibilityFeatures: ["staff assistance available"],
     isPopular: true,
 
@@ -186,7 +186,7 @@ export const tahitiWindwardIslandsFrenchPolynesia: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["exclusive", "romantic", "culinary"],
+    tags: ["local", "romantic", "culinary"],
     accessibilityFeatures: ["boat transfer required"],
     isPopular: true,
 

@@ -14,7 +14,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["outdoor", "hiking", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "adventure", "exclusive"],
+    tags: ["luxury", "adventure", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -77,7 +77,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "wildlife", "conservation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -97,7 +97,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["outdoor", "recreation", "nature"],
+    tags: ["adventure", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -138,7 +138,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "heritage", "education"],
+    tags: ["cultural", "historical", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -158,7 +158,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["outdoor", "scenic", "recreation"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -178,7 +178,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["transportation", "scenic", "adventure"],
+    tags: ["transportation", "romantic", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -198,7 +198,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["historical", "outdoor", "education"],
+    tags: ["historical", "adventure", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -219,7 +219,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "botanical", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -239,7 +239,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "glacier", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -259,7 +259,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.7,
-    tags: ["performing arts", "theater", "concerts"],
+    tags: ["art-and-music", "theater", "concerts"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -280,7 +280,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "wildlife", "conservation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -300,7 +300,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["education", "outdoor", "scenic"],
+    tags: ["education", "adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -320,7 +320,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["historical", "outdoor", "education"],
+    tags: ["historical", "adventure", "education"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
+export const svanetiRegionSamegrelozemoSvanetiGeorgia: Attraction[] = [
   {
     title: "Ushguli Village",
     description:
@@ -14,7 +14,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["UNESCO", "historical", "mountains"],
+    tags: ["historical", "adventure"],
     accessibilityFeatures: ["rough terrain", "limited facilities"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "architecture", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["uneven terrain"],
     isPopular: true,
 
@@ -72,7 +72,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["museum", "cultural", "historical"],
+    tags: ["historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -101,7 +101,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["hiking", "nature", "glacier"],
+    tags: ["adventure"],
     accessibilityFeatures: ["challenging terrain"],
     isPopular: true,
 
@@ -118,34 +118,6 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     isIndoor: false,
   },
   {
-    title: "Traditional Svan House Experience",
-    description:
-      "Immerse yourself in authentic Svan culture by staying in a traditional stone house with a local family, enjoying home-cooked meals featuring local specialties like kubdari (meat pie) and tashmijabi (cheese-potato dish).",
-    imageUrl: "https://plus.unsplash.com/svan-house-experience.jpg",
-    location: "Various villages in Svaneti Region, Georgia",
-    openingHours: "By reservation",
-    entryFee: "60-100 GEL per night including meals",
-    entryFeeCategory: "budget",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "all day",
-    rating: 4.9,
-    tags: ["homestay", "cultural", "authentic"],
-    accessibilityFeatures: ["limited accessibility"],
-    isPopular: true,
-
-    isFree: false,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    isShopping: false,
-    isDining: true,
-    isOutdoor: false,
-    isIndoor: true,
-  },
-  {
     title: "Koruldi Lakes Hike",
     description:
       "A spectacular day hike from Mestia to the alpine Koruldi Lakes offering breathtaking panoramic views of Mount Ushba and the surrounding Caucasus Mountains.",
@@ -158,7 +130,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["hiking", "nature", "scenic"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["difficult terrain"],
     isPopular: true,
 
@@ -187,7 +159,7 @@ export const svanetiRegionSamegreloZemoSvanetiGeorgia: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "scenic", "exclusive"],
+    tags: ["luxury", "romantic", "local", "adventure"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
