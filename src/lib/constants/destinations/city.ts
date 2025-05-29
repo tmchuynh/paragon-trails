@@ -46,7 +46,7 @@ export const cityattractions: CityAttractions[] = [
       "Our private tour of the Civil Rights landmarks with a historian as our guide was profoundly moving. The exclusive after-hours access to the Georgia Aquarium arranged by Paragon Trails was magical for our children.",
   },
   {
-    city: "Altas Mountains",
+    city: "Atlas Mountains",
     state: "",
     region: "Marrakech-Safi",
     country: "Morocco",
@@ -309,7 +309,7 @@ export const cityattractions: CityAttractions[] = [
       "The private tour of Copenhagen's historic center and Nyhavn with our local guide was delightful. Experiencing the Tivoli Gardens at night was like stepping into a fairy tale.",
   },
   {
-    city: "Da Nang",
+    city: "Đà Nẵng",
     state: "",
     region: "Central Vietnam",
     country: "Vietnam",
@@ -430,7 +430,7 @@ export const cityattractions: CityAttractions[] = [
       "The private tour of the Palace of Knossos with our guide who shared insights into Minoan civilization was a highlight of our Greek adventure. Exploring the vibrant markets and tasting local Cretan cuisine made this trip truly special.",
   },
   {
-    city: "Ho Chi Minh City",
+    city: "Hồ Chí Minh",
     state: "HCMC",
     region: "Southern Vietnam",
     country: "Vietnam",
@@ -449,7 +449,7 @@ export const cityattractions: CityAttractions[] = [
       "The private tour of Hokkaido's natural wonders with our guide who shared insights into its unique ecology was a highlight of our Japanese adventure. The breathtaking landscapes and traditional onsen experience made this trip truly special.",
   },
   {
-    city: "Hoi Anh",
+    city: "Hội An",
     state: "",
     region: "Central Vietnam",
     country: "Vietnam",
