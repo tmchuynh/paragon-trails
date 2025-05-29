@@ -15,8 +15,10 @@ import {
   groupAndSortByProperties,
 } from "@/lib/utils/sort";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function TourGuides() {
+  const router = useRouter();
   // Sort tour guides by country and then by name
   const sortedTourGuides = groupAndSortByProperties(
     tourGuides,
@@ -129,7 +131,7 @@ export default function TourGuides() {
                             {guide.name}
                           </h3>
                           <p className="mb-3 text-tertiary">
-                            {guide.city},<span>{guide.country}</span>
+                            {guide.city}, <span>{guide.country}</span>
                           </p>
 
                           {guide.specialties && (
@@ -154,6 +156,17 @@ export default function TourGuides() {
                               {guide.languages.join(", ")}
                             </p>
                           )}
+
+                          <Button
+                            className="mt-5 w-full"
+                            onClick={() =>
+                              router.push(
+                                `/luxurious-destinations/${guide.country}/${guide.city}/tours?city=${guide.city}&country=${guide.country}`
+                              )
+                            }
+                          >
+                            View Available Tours in {guide.city}
+                          </Button>
                         </div>
                       </li>
                     ))}

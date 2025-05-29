@@ -1,5 +1,6 @@
 "use client";
 
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -97,6 +98,10 @@ export default function LuxuriousDestinations() {
           sophistication.
         </p>
       </header>
+
+      <section>
+        <ContactDepartmentCard department="Reservations & Booking" />
+      </section>
 
       <div className="space-y-4 mb-8">
         <div className="flex md:flex-row flex-col items-start md:items-center gap-4">
