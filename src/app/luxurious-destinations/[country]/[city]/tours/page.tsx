@@ -4,6 +4,17 @@ import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -11,7 +22,8 @@ import { formatToSlug } from "@/lib/utils/format";
 import { getTourData } from "@/lib/utils/get";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
 export default function TourPage() {
   const searchParams = useSearchParams();
@@ -21,7 +33,17 @@ export default function TourPage() {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
-  console.log("City:", city);
+  // Filter states
+  const [showFilters, setShowFilters] = useState(false);
+  const [filters, setFilters] = useState({
+    duration: "all",
+    minPrice: 0,
+    maxPrice: 10000,
+    rating: 0,
+    tags: [] as string[],
+    guide: "all",
+    tourCategoryId: "all",
+  });
 
   useEffect(() => {
     async function loadTours() {
@@ -48,7 +70,102 @@ export default function TourPage() {
       (Array.isArray(city) ? city[0] : city).toLowerCase()
   );
 
-  console.log("City Info:", cityInfo);
+  // Extract unique filter options
+  const filterOptions = useMemo(() => {
+    if (!tours.length)
+      return {
+        durations: [],
+        guides: [],
+        categories: [],
+        tags: [],
+        prices: { min: 0, max: 0 },
+      };
+
+    const durations = [...new Set(tours.map((tour) => tour.duration))];
+    const guides = [...new Set(tours.map((tour) => tour.tourGuide))];
+    const categories = [...new Set(tours.map((tour) => tour.tourCategoryId))];
+    const allTags = new Set<string>();
+    tours.forEach((tour) => tour.tags?.forEach((tag) => allTags.add(tag)));
+
+    const prices = tours.map((tour) => {
+      const priceValue = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
+      return isNaN(priceValue) ? 0 : priceValue;
+    });
+
+    return {
+      durations,
+      guides,
+      categories,
+      tags: Array.from(allTags),
+      prices: {
+        min: Math.min(...prices),
+        max: Math.max(...prices),
+      },
+    };
+  }, [tours]);
+
+  // Apply filters to tours
+  const filteredTours = useMemo(() => {
+    return tours.filter((tour) => {
+      // Duration filter
+      if (filters.duration !== "all" && tour.duration !== filters.duration)
+        return false;
+
+      // Price filter
+      const tourPrice = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
+      if (tourPrice < filters.minPrice || tourPrice > filters.maxPrice)
+        return false;
+
+      // Rating filter
+      if (filters.rating > 0 && tour.rating < filters.rating) return false;
+
+      // Tags filter
+      if (
+        filters.tags.length > 0 &&
+        !filters.tags.some((tag) => tour.tags?.includes(tag))
+      )
+        return false;
+
+      // Guide filter
+      if (filters.guide !== "all" && tour.tourGuide !== filters.guide)
+        return false;
+
+      // Category filter
+      if (
+        filters.tourCategoryId !== "all" &&
+        tour.tourCategoryId !== filters.tourCategoryId
+      )
+        return false;
+
+      return true;
+    });
+  }, [tours, filters]);
+
+  // Handle filter changes
+  const handleFilterChange = (filterType: string, value: any) => {
+    setFilters((prev) => ({ ...prev, [filterType]: value }));
+  };
+
+  const handleTagToggle = (tag: string) => {
+    setFilters((prev) => {
+      const updatedTags = prev.tags.includes(tag)
+        ? prev.tags.filter((t) => t !== tag)
+        : [...prev.tags, tag];
+      return { ...prev, tags: updatedTags };
+    });
+  };
+
+  const resetFilters = () => {
+    setFilters({
+      duration: "all",
+      minPrice: filterOptions.prices.min,
+      maxPrice: filterOptions.prices.max,
+      rating: 0,
+      tags: [],
+      guide: "all",
+      tourCategoryId: "all",
+    });
+  };
 
   if (loading) {
     return <Loading />;
@@ -82,8 +199,190 @@ export default function TourPage() {
         <ContactDepartmentCard department="Concierge Services" />
       </section>
 
+      {/* Filter Panel */}
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <Button
+            onClick={() => setShowFilters(!showFilters)}
+            variant="icon"
+            size={"sm"}
+            className="flex items-center gap-2"
+          >
+            <FaFilter />
+          </Button>
+
+          <div className="text-sm">
+            Showing {filteredTours.length} of {tours.length} tours
+          </div>
+        </div>
+
+        {showFilters && (
+          <Card className="mb-6">
+            <CardContent>
+              {/* Duration filter */}
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4">
+                <div className="space-y-2">
+                  <Label htmlFor="duration-filter">
+                    <strong>Duration</strong>
+                  </Label>
+                  <Select
+                    value={filters.duration}
+                    onValueChange={(value) =>
+                      handleFilterChange("duration", value)
+                    }
+                  >
+                    <SelectTrigger id="duration-filter">
+                      <SelectValue placeholder="Any duration" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">Any duration</SelectItem>
+                      {filterOptions.durations.map((duration) => (
+                        <SelectItem key={duration} value={duration}>
+                          {duration}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Price filter */}
+                <div className="space-y-2">
+                  <Label>
+                    <strong>Price Range</strong>
+                  </Label>
+                  <div className="flex items-center gap-2">
+                    <Input
+                      type="number"
+                      value={filters.minPrice}
+                      onChange={(e) =>
+                        handleFilterChange("minPrice", Number(e.target.value))
+                      }
+                      min={filterOptions.prices.min}
+                      max={filters.maxPrice}
+                      placeholder="Min"
+                      className="w-24"
+                    />
+                    <span>to</span>
+                    <Input
+                      type="number"
+                      value={filters.maxPrice}
+                      onChange={(e) =>
+                        handleFilterChange("maxPrice", Number(e.target.value))
+                      }
+                      min={filters.minPrice}
+                      max={filterOptions.prices.max}
+                      placeholder="Max"
+                      className="w-24"
+                    />
+                  </div>
+                </div>
+
+                {/* Rating filter */}
+                <div className="space-y-2">
+                  <Label htmlFor="rating-filter">
+                    <strong>Minimum Rating</strong>
+                  </Label>
+                  <Select
+                    value={filters.rating.toString()}
+                    onValueChange={(value) =>
+                      handleFilterChange("rating", Number(value))
+                    }
+                  >
+                    <SelectTrigger id="rating-filter">
+                      <SelectValue placeholder="Any rating" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="0">Any rating</SelectItem>
+                      <SelectItem value="1">★ and above</SelectItem>
+                      <SelectItem value="2">★★ and above</SelectItem>
+                      <SelectItem value="3">★★★ and above</SelectItem>
+                      <SelectItem value="4">★★★★ and above</SelectItem>
+                      <SelectItem value="5">★★★★★ only</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Guide filter */}
+                <div className="space-y-2">
+                  <Label htmlFor="guide-filter">
+                    <strong>Tour Guide</strong>
+                  </Label>
+                  <Select
+                    value={filters.guide}
+                    onValueChange={(value) =>
+                      handleFilterChange("guide", value)
+                    }
+                  >
+                    <SelectTrigger id="guide-filter">
+                      <SelectValue placeholder="Any guide" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">Any guide</SelectItem>
+                      {filterOptions.guides.map((guide) => (
+                        <SelectItem key={guide} value={guide}>
+                          {guide}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Category filter */}
+                <div className="space-y-2">
+                  <Label htmlFor="category-filter">
+                    <strong>Tour Category</strong>
+                  </Label>
+                  <Select
+                    value={filters.tourCategoryId}
+                    onValueChange={(value) =>
+                      handleFilterChange("tourCategoryId", value)
+                    }
+                  >
+                    <SelectTrigger id="category-filter">
+                      <SelectValue placeholder="Any category" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">Any category</SelectItem>
+                      {filterOptions.categories.map((category) => (
+                        <SelectItem key={category} value={category}>
+                          {category}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Tags filter */}
+                <div className="space-y-2 col-span-1 md:col-span-2 lg:col-span-3">
+                  <Label>
+                    <strong>Tags</strong>
+                  </Label>
+                  <div className="gap-2 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8">
+                    {filterOptions.tags.map((tag) => (
+                      <div key={tag} className="flex items-center space-x-2">
+                        <Checkbox
+                          id={`tag-${tag}`}
+                          checked={filters.tags.includes(tag)}
+                          onCheckedChange={() => handleTagToggle(tag)}
+                        />
+                        <Label
+                          htmlFor={`tag-${tag}`}
+                          className="cursor-pointer"
+                        >
+                          {tag}
+                        </Label>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+      </div>
+
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {tours.map((tour, index) => (
+        {filteredTours.map((tour, index) => (
           <div
             key={index}
             className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg h-full transition-shadow overflow-hidden"
