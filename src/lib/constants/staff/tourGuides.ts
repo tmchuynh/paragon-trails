@@ -2,6 +2,7 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const tourGuides: TourGuide[] = [
   {
     city: "Florence",
+    country: "Italy",
     name: "Lucia",
     languages: ["Italian", "English", "French"],
     experienceYears: 12,
@@ -16,6 +17,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Đà Nẵng",
+    country: "Vietnam",
     name: "Minh",
     languages: ["Vietnamese", "English", "Mandarin"],
     experienceYears: 8,
@@ -28,20 +30,8 @@ export const tourGuides: TourGuide[] = [
     bio: "Minh comes from a family that has operated a phở restaurant for four generations in Hanoi's Old Quarter. After studying hospitality management in Singapore, he returned home to combine his professional training with his deep knowledge of Vietnamese culinary traditions. He has been featured in several international food documentaries and maintains connections with dozens of family-owned eateries across the city, giving his guests access to authentic experiences unavailable to most tourists. Minh's tours often include hands-on cooking classes where guests can learn to prepare traditional Vietnamese dishes using recipes passed down through his family.",
   },
   {
-    city: "Marrakesh",
-    name: "Jamal",
-    languages: ["Arabic", "English", "French", "Berber"],
-    experienceYears: 15,
-    specialties: ["Desert Expeditions", "Berber Culture", "Night Sky Tours"],
-    certifications: ["Wilderness First Aid", "Desert Navigation"],
-    description:
-      "A licensed desert trek guide, Jamal blends ancient Berber traditions with practical knowledge of the Sahara for immersive, safe expeditions.",
-    quote:
-      "The desert teaches patience; what seems empty is actually full of life.",
-    bio: "Born to a Berber family near the Sahara, Jamal spent his childhood learning desert survival skills and traditional knowledge from his elders. After formal training in ecology and outdoor leadership, he became one of Morocco's most respected desert guides. He has led scientific expeditions studying desert ecosystems and participated in traditional camel caravans across the Sahara. Jamal's commitment to sustainable tourism has earned him recognition from environmental organizations working to preserve desert habitats. His tours often include visits to remote Berber villages, where guests can experience traditional music, dance, and crafts firsthand.",
-  },
-  {
     city: "Barcelona",
+    country: "Spain",
     name: "Elena",
     languages: ["Spanish", "Catalan", "English", "French"],
     experienceYears: 10,
@@ -56,6 +46,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Athens",
+    country: "Greece",
     name: "Sofia",
     languages: ["Greek", "English", "Italian"],
     experienceYears: 7,
@@ -67,6 +58,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Venice",
+    country: "Italy",
     name: "Marco",
     languages: ["Italian", "English", "German"],
     experienceYears: 6,
@@ -79,6 +71,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Tokyo",
+    country: "Japan",
     name: "Aiko",
     languages: ["Japanese", "English", "Korean"],
     experienceYears: 5,
@@ -91,6 +84,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Sydney",
+    country: "Australia",
     name: "Liam",
     languages: ["English", "Mandarin"],
     experienceYears: 9,
@@ -102,6 +96,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Rome",
+    country: "Italy",
     name: "Isabella",
     languages: ["Italian", "English", "Spanish"],
     experienceYears: 11,
@@ -115,6 +110,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mexico City",
+    country: "Mexico",
     name: "Carlos",
     languages: ["Spanish", "English"],
     experienceYears: 10,
@@ -127,6 +123,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fez",
+    country: "Morocco",
     name: "Fatima",
     languages: ["Arabic", "French", "English"],
     experienceYears: 14,
@@ -139,6 +136,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Paris",
+    country: "France",
     name: "Nina",
     languages: ["French", "English", "Italian"],
     experienceYears: 8,
@@ -151,6 +149,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Berlin",
+    country: "Germany",
     name: "Hans",
     languages: ["German", "English", "Dutch"],
     experienceYears: 9,
@@ -163,6 +162,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bangkok",
+    country: "Thailand",
     name: "Maya",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 7,
@@ -174,6 +174,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Cairo",
+    country: "Egypt",
     name: "Omar",
     languages: ["Arabic", "English", "German"],
     experienceYears: 10,
@@ -187,6 +188,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Prague",
+    country: "Czech Republic",
     name: "Eva",
     languages: ["Czech", "English", "German"],
     experienceYears: 8,
@@ -200,6 +202,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Buenos Aires",
+    country: "Argentina",
     name: "Tomás",
     languages: ["Spanish", "English", "Italian"],
     experienceYears: 10,
@@ -212,6 +215,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Edinburgh",
+    country: "Scotland",
     name: "Claire",
     languages: ["English", "Scottish Gaelic"],
     experienceYears: 7,
@@ -224,6 +228,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Rio de Janeiro",
+    country: "Brazil",
     name: "Yara",
     languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 8,
@@ -236,6 +241,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Seoul",
+    country: "South Korea",
     name: "Jin",
     languages: ["Korean", "English", "Japanese"],
     experienceYears: 6,
@@ -248,6 +254,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Vancouver",
+    country: "Canada",
     name: "Sara",
     languages: ["English", "French", "Mandarin"],
     experienceYears: 7,
@@ -260,6 +267,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Dubai",
+    country: "UAE",
     name: "Ahmed",
     languages: ["Arabic", "English", "Hindi"],
     experienceYears: 9,
@@ -272,6 +280,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Stockholm",
+    country: "Sweden",
     name: "Nora",
     languages: ["Swedish", "English", "Finnish"],
     experienceYears: 8,
@@ -284,6 +293,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "New York",
+    country: "USA",
     name: "Leo",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 10,
@@ -296,6 +306,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Lisbon",
+    country: "Portugal",
     name: "Isabel",
     languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 10,
@@ -308,6 +319,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Kyoto",
+    country: "Japan",
     name: "Takashi",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 9,
@@ -320,6 +332,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mexico City",
+    country: "Mexico",
     name: "Mariana",
     languages: ["Spanish", "English", "Nahuatl"],
     experienceYears: 11,
@@ -332,6 +345,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Munich",
+    country: "Germany",
     name: "Felix",
     languages: ["German", "English", "Italian"],
     experienceYears: 8,
@@ -344,6 +358,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Naples",
+    country: "Italy",
     name: "Giulia",
     languages: ["Italian", "English", "French"],
     experienceYears: 10,
@@ -356,6 +371,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Istanbul",
+    country: "Turkey",
     name: "Elif",
     languages: ["Turkish", "English", "Arabic"],
     experienceYears: 9,
@@ -369,6 +385,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Athens",
+    country: "Greece",
     name: "Sofia",
     languages: ["Greek", "English", "French"],
     experienceYears: 12,
@@ -385,6 +402,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mumbai",
+    country: "India",
     name: "Raj",
     languages: ["Hindi", "English", "Marathi"],
     experienceYears: 8,
@@ -397,6 +415,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Cape Town",
+    country: "South Africa",
     name: "Lara",
     languages: ["English", "Afrikaans", "Xhosa"],
     experienceYears: 9,
@@ -409,6 +428,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Heraklion",
+    country: "Greece",
     name: "Dimitris",
     languages: ["Greek", "English", "Italian"],
     experienceYears: 10,
@@ -425,6 +445,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Shanghai",
+    country: "China",
     name: "Li",
     languages: ["Chinese", "English", "Japanese"],
     experienceYears: 8,
@@ -437,6 +458,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Chengdu",
+    country: "China",
     name: "Mei",
     languages: ["Chinese", "English", "French"],
     experienceYears: 7,
@@ -449,6 +471,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Chiang Mai",
+    country: "Thailand",
     name: "Somchai",
     languages: ["Thai", "English", "Lao"],
     experienceYears: 6,
@@ -461,6 +484,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Hồ Chí Minh",
+    country: "Vietnam",
     name: "Nguyen",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 8,
@@ -473,6 +497,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Đà Nẵng",
+    country: "Vietnam",
     name: "Lan",
     languages: ["Vietnamese", "English", "Chinese"],
     experienceYears: 7,
@@ -485,6 +510,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Nha Trang",
+    country: "Vietnam",
     name: "Huy",
     languages: ["Vietnamese", "English", "Russian"],
     experienceYears: 6,
@@ -497,6 +523,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Hội An",
+    country: "Vietnam",
     name: "Thao",
     languages: ["Vietnamese", "English", "Japanese"],
     experienceYears: 8,
@@ -509,6 +536,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Los Angeles",
+    country: "USA",
     name: "Carlos",
     languages: ["English", "Spanish", "Portuguese"],
     experienceYears: 9,
@@ -521,6 +549,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Los Angeles",
+    country: "USA",
     name: "Sophia",
     languages: ["English", "Spanish", "French"],
     experienceYears: 10,
@@ -533,6 +562,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Chicago",
+    country: "USA",
     name: "Michael",
     languages: ["English", "Spanish", "German"],
     experienceYears: 8,
@@ -545,6 +575,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "San Francisco",
+    country: "USA",
     name: "Emily",
     languages: ["English", "Spanish", "Mandarin"],
     experienceYears: 7,
@@ -557,6 +588,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "San Francisco",
+    country: "USA",
     name: "David",
     languages: ["English", "Spanish", "French"],
     experienceYears: 6,
@@ -569,6 +601,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "San Francisco",
+    country: "USA",
     name: "Olivia",
     languages: ["English", "Spanish", "French"],
     experienceYears: 5,
@@ -581,6 +614,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Las Vegas",
+    country: "USA",
     name: "Jake",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 7,
@@ -593,6 +627,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Las Vegas",
+    country: "USA",
     name: "Mia",
     languages: ["English", "Spanish", "French"],
     experienceYears: 6,
@@ -605,6 +640,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Washington",
+    country: "USA",
     name: "James",
     languages: ["English", "Spanish", "French"],
     experienceYears: 8,
@@ -621,6 +657,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Boston",
+    country: "USA",
     name: "Sarah",
     languages: ["English", "Spanish", "French"],
     experienceYears: 9,
@@ -632,19 +669,8 @@ export const tourGuides: TourGuide[] = [
       "In Boston, every street is a chapter in the nation’s story, and every book is a window into its soul.",
   },
   {
-    city: "Philadelphia",
-    name: "David",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 7,
-    specialties: ["Historical Tours", "Cultural Heritage", "Art Tours"],
-    bio: "David, a history enthusiast, offers tours that explore Philadelphia’s historical landmarks, cultural heritage, and art scene. He has a degree in History from Temple University and has worked as a tour guide for over seven years. David combines his extensive knowledge of Philadelphia's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and art galleries, providing guests with an immersive cultural journey.",
-    description:
-      "David, a history enthusiast, offers tours that explore Philadelphia’s historical landmarks, cultural heritage, and art scene.",
-    quote:
-      "In Philadelphia, every brick tells a story, and every painting is a reflection of the city’s spirit.",
-  },
-  {
     city: "New Orleans",
+    country: "USA",
     name: "Isabelle",
     languages: ["English", "French", "Spanish"],
     experienceYears: 10,
@@ -657,6 +683,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Savannah",
+    country: "USA",
     name: "Oliver",
     languages: ["English", "Spanish", "French"],
     experienceYears: 8,
@@ -669,6 +696,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "San Diego",
+    country: "USA",
     name: "Sophia",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 6,
@@ -681,6 +709,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Honolulu",
+    country: "USA",
     name: "Kai",
     languages: ["English", "Hawaiian", "Japanese"],
     experienceYears: 7,
@@ -693,6 +722,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Seattle",
+    country: "USA",
     name: "Ava",
     languages: ["English", "Spanish", "French"],
     experienceYears: 8,
@@ -705,6 +735,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Austin",
+    country: "USA",
     name: "Liam",
     languages: ["English", "Spanish", "German"],
     experienceYears: 6,
@@ -717,6 +748,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Tuscany",
+    country: "Italy",
     name: "Giovanni",
     languages: ["Italian", "English", "French"],
     experienceYears: 10,
@@ -729,6 +761,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Denpasar",
+    country: "Indonesia",
     name: "Made",
     languages: ["Indonesian", "English", "Balinese"],
     experienceYears: 8,
@@ -741,6 +774,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Thessaloniki",
+    country: "Greece",
     name: "Nikos",
     languages: ["Greek", "English", "Bulgarian"],
     experienceYears: 9,
@@ -753,6 +787,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Athens",
+    country: "Greece",
     name: "Elena",
     languages: ["Greek", "English", "Italian"],
     experienceYears: 11,
@@ -769,6 +804,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Piraeus",
+    country: "Greece",
     name: "Sofia",
     languages: ["Greek", "English", "French"],
     experienceYears: 10,
@@ -785,6 +821,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Beijing",
+    country: "China",
     name: "Wang",
     languages: ["Chinese", "English", "Japanese"],
     experienceYears: 9,
@@ -797,6 +834,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Xi'an",
+    country: "China",
     name: "Liang",
     languages: ["Chinese", "English", "French"],
     experienceYears: 8,
@@ -809,6 +847,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Jamaica",
+    country: "Jamaica",
     name: "Dimitris",
     languages: ["English", "Greek", "Spanish"],
     experienceYears: 7,
@@ -821,6 +860,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Amalfi Coast",
+    country: "Italy",
     name: "Giulia",
     languages: ["Italian", "English", "French"],
     experienceYears: 6,
@@ -833,6 +873,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Tokyo",
+    country: "Japan",
     name: "Haruto",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 10,
@@ -845,6 +886,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Osaka",
+    country: "Japan",
     name: "Yuki",
     languages: ["Japanese", "English", "Korean"],
     experienceYears: 8,
@@ -857,6 +899,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Yokohama",
+    country: "Japan",
     name: "Satoshi",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 7,
@@ -869,6 +912,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Naples",
+    country: "Italy",
     name: "Marco",
     languages: ["Italian", "English", "Spanish"],
     experienceYears: 9,
@@ -881,6 +925,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bologna",
+    country: "Italy",
     name: "Giulia",
     languages: ["Italian", "English", "French"],
     experienceYears: 8,
@@ -893,6 +938,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Tahiti",
+    country: "French Polynesia",
     name: "Tane",
     languages: ["French", "English", "Tahitian"],
     experienceYears: 6,
@@ -905,6 +951,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bora Bora",
+    country: "French Polynesia",
     name: "Mara",
     languages: ["French", "English", "Tahitian"],
     experienceYears: 7,
@@ -917,6 +964,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fiji",
+    country: "Fiji",
     name: "Lani",
     languages: ["Fijian", "English", "Hindi"],
     experienceYears: 8,
@@ -929,6 +977,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Port Vila",
+    country: "Vanuatu",
     name: "Tavi",
     languages: ["Bislama", "English", "French"],
     experienceYears: 6,
@@ -941,6 +990,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Anchorage",
+    country: "USA",
     name: "Kiana",
     languages: ["English", "Inupiaq", "Spanish"],
     experienceYears: 7,
@@ -953,6 +1003,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Denali",
+    country: "USA",
     name: "Tundra",
     languages: ["English", "Inupiaq", "Spanish"],
     experienceYears: 8,
@@ -965,6 +1016,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Juneau",
+    country: "USA",
     name: "Sika",
     languages: ["English", "Inupiaq", "Spanish"],
     experienceYears: 6,
@@ -977,6 +1029,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Dubai",
+    country: "UAE",
     name: "Layla",
     languages: ["Arabic", "English", "French"],
     experienceYears: 9,
@@ -989,6 +1042,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Sydney",
+    country: "Australia",
     name: "Oliver",
     languages: ["English", "Spanish", "French"],
     experienceYears: 8,
@@ -1001,6 +1055,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Rio de Janeiro",
+    country: "Brazil",
     name: "Isabella",
     languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 10,
@@ -1013,6 +1068,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Cape Town",
+    country: "South Africa",
     name: "Thandi",
     languages: ["Zulu", "English", "Afrikaans"],
     experienceYears: 9,
@@ -1025,6 +1081,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "London",
+    country: "UK",
     name: "Charlotte",
     languages: ["English", "French", "Spanish"],
     experienceYears: 8,
@@ -1037,6 +1094,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Atlanta",
+    country: "USA",
     name: "James",
     languages: ["English", "Spanish", "French"],
     experienceYears: 7,
@@ -1049,6 +1107,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Berlin",
+    country: "Germany",
     name: "Lena",
     languages: ["German", "English", "French"],
     experienceYears: 9,
@@ -1061,6 +1120,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Monaco",
+    country: "Monaco",
     name: "Antoine",
     languages: ["French", "English", "Italian"],
     experienceYears: 10,
@@ -1073,6 +1133,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Cannes",
+    country: "France",
     name: "Camille",
     languages: ["French", "English", "Italian"],
     experienceYears: 8,
@@ -1085,6 +1146,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Madrid",
+    country: "Spain",
     name: "Sofia",
     languages: ["Spanish", "English", "French"],
     experienceYears: 9,
@@ -1097,6 +1159,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Phuket",
+    country: "Thailand",
     name: "Somchai",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 8,
@@ -1109,6 +1172,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Vancouver",
+    country: "Canada",
     name: "Ava",
     languages: ["English", "French", "Spanish"],
     experienceYears: 7,
@@ -1121,6 +1185,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Montreal",
+    country: "Canada",
     name: "Émilie",
     languages: ["French", "English", "Spanish"],
     experienceYears: 9,
@@ -1133,6 +1198,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Barcelona",
+    country: "Spain",
     name: "Carlos",
     languages: ["Spanish", "Catalan", "English"],
     experienceYears: 8,
@@ -1144,19 +1210,8 @@ export const tourGuides: TourGuide[] = [
       "In Barcelona, every building tells a story, and every meal is a taste of the city’s vibrant culture.",
   },
   {
-    city: "Marrakesh",
-    name: "Amina",
-    languages: ["Arabic", "French", "English"],
-    experienceYears: 7,
-    specialties: ["Cultural Heritage", "Desert Tours", "Culinary Experiences"],
-    bio: "Amina, a Marrakesh native, offers tours that explore the city’s rich cultural heritage, stunning desert landscapes, and culinary traditions. She has a degree in Cultural Studies from Cadi Ayyad University and has worked as a tour guide for over seven years. Amina combines her extensive knowledge of Moroccan culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to cultural sites and desert adventures, providing guests with an immersive cultural journey.",
-    description:
-      "Amina, a Marrakesh native, offers tours that explore the city’s rich cultural heritage, stunning desert landscapes, and culinary traditions.",
-    quote:
-      "In Marrakesh, every souk is a treasure trove, and every meal is a taste of the desert’s spirit.",
-  },
-  {
     city: "Florence",
+    country: "Italy",
     name: "Lorenzo",
     languages: ["Italian", "English", "French"],
     experienceYears: 9,
@@ -1169,6 +1224,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Venice",
+    country: "Italy",
     name: "Giovanni",
     languages: ["Italian", "English", "Spanish"],
     experienceYears: 10,
@@ -1181,6 +1237,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Rome",
+    country: "Italy",
     name: "Alessandro",
     languages: ["Italian", "English", "French"],
     experienceYears: 11,
@@ -1193,6 +1250,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mexico City",
+    country: "Mexico",
     name: "Sofia",
     languages: ["Spanish", "English", "French"],
     experienceYears: 8,
@@ -1209,6 +1267,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fez",
+    country: "Morocco",
     name: "Youssef",
     languages: ["Arabic", "French", "English"],
     experienceYears: 9,
@@ -1225,6 +1284,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Paris",
+    country: "France",
     name: "Claire",
     languages: ["French", "English", "Spanish"],
     experienceYears: 10,
@@ -1237,6 +1297,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bangkok",
+    country: "Thailand",
     name: "Niran",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 8,
@@ -1249,6 +1310,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Cairo",
+    country: "Egypt",
     name: "Layla",
     languages: ["Arabic", "English", "French"],
     experienceYears: 9,
@@ -1261,6 +1323,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Prague",
+    country: "Czech Republic",
     name: "Marek",
     languages: ["Czech", "English", "German"],
     experienceYears: 8,
@@ -1273,6 +1336,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Buenos Aires",
+    country: "Argentina",
     name: "Lucia",
     languages: ["Spanish", "English", "Italian"],
     experienceYears: 9,
@@ -1285,6 +1349,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Edinburgh",
+    country: "Scotland",
     name: "Fiona",
     languages: ["English", "Scottish Gaelic", "French"],
     experienceYears: 8,
@@ -1297,6 +1362,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Seoul",
+    country: "South Korea",
     name: "Jin",
     languages: ["Korean", "English", "Japanese"],
     experienceYears: 7,
@@ -1309,6 +1375,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Stockholm",
+    country: "Sweden",
     name: "Astrid",
     languages: ["Swedish", "English", "German"],
     experienceYears: 8,
@@ -1321,6 +1388,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Lisbon",
+    country: "Portugal",
     name: "Miguel",
     languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 9,
@@ -1333,6 +1401,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Kyoto",
+    country: "Japan",
     name: "Hana",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 8,
@@ -1345,6 +1414,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Munich",
+    country: "Germany",
     name: "Lukas",
     languages: ["German", "English", "French"],
     experienceYears: 7,
@@ -1357,6 +1427,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Istanbul",
+    country: "Turkey",
     name: "Elif",
     languages: ["Turkish", "English", "Arabic"],
     experienceYears: 9,
@@ -1369,6 +1440,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mumbai",
+    country: "India",
     name: "Aarav",
     languages: ["Hindi", "English", "Marathi"],
     experienceYears: 8,
@@ -1381,6 +1453,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Tahiti",
+    country: "French Polynesia",
     name: "Mara",
     languages: ["French", "English", "Tahitian"],
     experienceYears: 10,
@@ -1393,6 +1466,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bora Bora",
+    country: "French Polynesia",
     name: "Tane",
     languages: ["French", "English", "Tahitian"],
     experienceYears: 9,
@@ -1405,6 +1479,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Xi'an",
+    country: "China",
     name: "Li",
     languages: ["Chinese", "English", "French"],
     experienceYears: 8,
@@ -1417,6 +1492,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "San Diego",
+    country: "USA",
     name: "Isabella",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 7,
@@ -1429,6 +1505,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Madrid",
+    country: "Spain",
     name: "Carlos",
     languages: ["Spanish", "English", "French"],
     experienceYears: 8,
@@ -1441,6 +1518,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fez",
+    country: "Morocco",
     name: "Youssef",
     languages: ["Arabic", "French", "English"],
     experienceYears: 9,
@@ -1457,6 +1535,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mexico City",
+    country: "Mexico",
     name: "Sofia",
     languages: ["Spanish", "English", "French"],
     experienceYears: 8,
@@ -1473,6 +1552,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Edinburgh",
+    country: "Scotland",
     name: "Fiona",
     languages: ["English", "Scottish Gaelic", "French"],
     experienceYears: 8,
@@ -1485,6 +1565,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Boston",
+    country: "USA",
     name: "Emily",
     languages: ["English", "Spanish", "French"],
     experienceYears: 7,
@@ -1497,6 +1578,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Đà Nẵng",
+    country: "Vietnam",
     name: "Minh",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 6,
@@ -1509,6 +1591,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Hồ Chí Minh",
+    country: "Vietnam",
     name: "Lan",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 7,
@@ -1521,6 +1604,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Chiang Mai",
+    country: "Thailand",
     name: "Suriya",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 8,
@@ -1532,19 +1616,8 @@ export const tourGuides: TourGuide[] = [
       "In Chiang Mai, every temple is a testament to tradition, and every meal is a taste of Thailand’s vibrant spirit.",
   },
   {
-    city: "Philadelphia",
-    name: "Olivia",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Olivia, a Philadelphia native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in History from Temple University and has worked as a tour guide for over six years. Olivia combines her extensive knowledge of Philadelphia's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Olivia, a Philadelphia native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
-    quote:
-      "In Philadelphia, every street is a chapter in history, and every meal is a taste of the city’s spirit.",
-  },
-  {
     city: "Port Vila",
+    country: "Vanuatu",
     name: "Talia",
     languages: ["Bislama", "English", "French"],
     experienceYears: 5,
@@ -1557,6 +1630,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fiji",
+    country: "Fiji",
     name: "Kavi",
     languages: ["Fijian", "English", "Hindi"],
     experienceYears: 6,
@@ -1569,6 +1643,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Udaipur",
+    country: "India",
     name: "Anika",
     languages: ["Hindi", "English", "Marathi"],
     experienceYears: 7,
@@ -1581,6 +1656,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Fort Kochi",
+    country: "India",
     name: "Arjun",
     languages: ["Malayalam", "English", "Tamil"],
     experienceYears: 6,
@@ -1593,6 +1669,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Coorg",
+    country: "India",
     name: "Riya",
     languages: ["Kannada", "English", "Hindi"],
     experienceYears: 5,
@@ -1605,6 +1682,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Jaipur",
+    country: "India",
     name: "Raj",
     languages: ["Hindi", "English", "Marathi"],
     experienceYears: 8,
@@ -1617,6 +1695,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Leh",
+    country: "India",
     name: "Tashi",
     languages: ["Ladakhi", "Hindi", "English"],
     experienceYears: 7,
@@ -1629,6 +1708,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Takayama",
+    country: "Japan",
     name: "Yuki",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 6,
@@ -1641,6 +1721,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Shirakawa-go",
+    country: "Japan",
     name: "Hiroshi",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 7,
@@ -1653,6 +1734,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Matera",
+    country: "Italy",
     name: "Giovanni",
     languages: ["Italian", "English", "French"],
     experienceYears: 8,
@@ -1665,6 +1747,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Sapa",
+    country: "Vietnam",
     name: "Linh",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 6,
@@ -1677,6 +1760,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mekong Delta",
+    country: "Vietnam",
     name: "Nguyen",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 7,
@@ -1688,35 +1772,8 @@ export const tourGuides: TourGuide[] = [
       "In the Mekong Delta, every river tells a story, and every meal is a taste of Vietnam’s vibrant spirit.",
   },
   {
-    city: "Marrakech & Fes",
-    name: "Amina",
-    languages: ["Arabic", "French", "English"],
-    experienceYears: 8,
-    specialties: [
-      "Cultural Heritage",
-      "Historical Tours",
-      "Culinary Experiences",
-    ],
-    bio: "Amina, a Marrakech native, offers tours that explore the cities’ rich cultural heritage, historical landmarks, and vibrant culinary scenes. She has a degree in Cultural Studies from Cadi Ayyad University and has worked as a tour guide for over eight years. Amina combines her extensive knowledge of Moroccan culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to cultural sites and culinary experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Amina, a Marrakech native, offers tours that explore the cities’ rich cultural heritage, historical landmarks, and vibrant culinary scenes.",
-    quote:
-      "In Marrakech and Fes, every souk is a tapestry of colors, and every meal is a celebration of Morocco’s rich traditions.",
-  },
-  {
-    city: "Chefchaouen",
-    name: "Rachid",
-    languages: ["Arabic", "French", "Spanish"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "Nature Tours", "City Tours"],
-    bio: "Rachid, a Chefchaouen native, offers tours that explore the city’s rich cultural heritage, stunning blue-washed streets, and vibrant neighborhoods. He has a degree in Cultural Studies from Abdelmalek Essaâdi University and has worked as a tour guide for over six years. Rachid combines his extensive knowledge of Chefchaouen's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to cultural sites and nature reserves, providing guests with an immersive cultural journey.",
-    description:
-      "Rachid, a Chefchaouen native, offers tours that explore the city’s rich cultural heritage, stunning blue-washed streets, and vibrant neighborhoods.",
-    quote:
-      "In Chefchaouen, every street is a canvas of blue, and every meal is a taste of Morocco’s vibrant spirit.",
-  },
-  {
     city: "Atlas Mountains",
+    country: "Morocco",
     name: "Fatima",
     languages: ["Arabic", "French", "English"],
     experienceYears: 7,
@@ -1729,6 +1786,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Sacred Valley & Cusco",
+    country: "Peru",
     name: "Diego",
     languages: ["Spanish", "Quechua", "English"],
     experienceYears: 8,
@@ -1740,19 +1798,8 @@ export const tourGuides: TourGuide[] = [
       "In the Sacred Valley, every stone tells a story, and every meal is a taste of Peru’s vibrant spirit.",
   },
   {
-    city: "Lake Titicaca",
-    name: "Isabel",
-    languages: ["Spanish", "Quechua", "Aymara"],
-    experienceYears: 7,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Isabel, a Lake Titicaca native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities. She has a degree in Cultural Studies from the University of Puno and has worked as a tour guide for over seven years. Isabel combines her extensive knowledge of Lake Titicaca's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to traditional Uros floating islands and nature reserves, providing guests with an immersive cultural journey.",
-    description:
-      "Isabel, a Lake Titicaca native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
-    quote:
-      "In Lake Titicaca, every wave tells a story, and every meal is a taste of Peru’s vibrant spirit.",
-  },
-  {
     city: "Bandipur",
+    country: "Nepal",
     name: "Arjun",
     languages: ["Nepali", "English", "Hindi"],
     experienceYears: 6,
@@ -1765,6 +1812,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Bhaktapur",
+    country: "Nepal",
     name: "Kavi",
     languages: ["Nepali", "English", "Hindi"],
     experienceYears: 7,
@@ -1776,31 +1824,8 @@ export const tourGuides: TourGuide[] = [
       "In Bhaktapur, every brick tells a story, and every meal is a taste of Nepal’s rich traditions.",
   },
   {
-    city: "Panauti",
-    name: "Sita",
-    languages: ["Nepali", "English", "Hindi"],
-    experienceYears: 5,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Sita, a Panauti native, offers tours that explore the town’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Tribhuvan University and has worked as a tour guide for over five years. Sita combines her extensive knowledge of Panauti's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Sita, a Panauti native, offers tours that explore the town’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
-    quote:
-      "In Panauti, every temple tells a story, and every meal is a taste of Nepal’s rich traditions.",
-  },
-  {
-    city: "Svaneti Region",
-    name: "Nino",
-    languages: ["Georgian", "English", "Russian"],
-    experienceYears: 8,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Nino, a Svaneti native, offers tours that explore the region’s rich cultural heritage, stunning mountain landscapes, and adventure opportunities. She has a degree in Cultural Studies from Tbilisi State University and has worked as a tour guide for over eight years. Nino combines her extensive knowledge of Svaneti's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to traditional Svan towers and nature reserves, providing guests with an immersive cultural journey.",
-    description:
-      "Nino, a Svaneti native, offers tours that explore the region’s rich cultural heritage, stunning mountain landscapes, and adventure opportunities.",
-    quote:
-      "In Svaneti, every mountain tells a story, and every meal is a taste of Georgia’s vibrant spirit.",
-  },
-  {
     city: "Ayutthaya",
+    country: "Thailand",
     name: "Somchai",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 6,
@@ -1812,23 +1837,8 @@ export const tourGuides: TourGuide[] = [
       "In Ayutthaya, every temple tells a story, and every meal is a taste of Thailand’s rich traditions.",
   },
   {
-    city: "Naxos & Crete",
-    name: "Elena",
-    languages: ["Greek", "English", "French"],
-    experienceYears: 7,
-    specialties: [
-      "Cultural Heritage",
-      "Historical Tours",
-      "Culinary Experiences",
-    ],
-    bio: "Elena, a Naxos native, offers tours that explore the islands’ rich cultural heritage, historical landmarks, and vibrant culinary scenes. She has a degree in Cultural Studies from the University of Athens and has worked as a tour guide for over seven years. Elena combines her extensive knowledge of Greek culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to archaeological sites and culinary experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Elena, a Naxos native, offers tours that explore the islands’ rich cultural heritage, historical landmarks, and vibrant culinary scenes.",
-    quote:
-      "In Naxos and Crete, every island tells a story, and every meal is a taste of Greece’s rich traditions.",
-  },
-  {
     city: "Mto wa Mbu Village",
+    country: "Tanzania",
     name: "Amani",
     languages: ["Swahili", "English", "French"],
     experienceYears: 5,
@@ -1841,6 +1851,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Mostar",
+    country: "Bosnia and Herzegovina",
     name: "Amir",
     languages: ["Bosnian", "Croatian", "English"],
     experienceYears: 6,
@@ -1852,19 +1863,8 @@ export const tourGuides: TourGuide[] = [
       "In Mostar, every bridge tells a story, and every meal is a taste of Bosnia’s rich traditions.",
   },
   {
-    city: "Blagaj",
-    name: "Lejla",
-    languages: ["Bosnian", "Croatian", "English"],
-    experienceYears: 5,
-    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
-    bio: "Lejla, a Blagaj native, offers tours that explore the village’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from the University of Mostar and has worked as a tour guide for over five years. Lejla combines her extensive knowledge of Blagaj's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and nature reserves, providing guests with an immersive cultural journey.",
-    description:
-      "Lejla, a Blagaj native, offers tours that explore the village’s rich cultural heritage, stunning landscapes, and historical landmarks.",
-    quote:
-      "In Blagaj, every spring tells a story, and every meal is a taste of Bosnia’s vibrant spirit.",
-  },
-  {
     city: "Atlas Mountains",
+    country: "Morocco",
     name: "Youssef",
     languages: ["Arabic", "French", "English"],
     experienceYears: 7,
@@ -1877,6 +1877,7 @@ export const tourGuides: TourGuide[] = [
   },
   {
     city: "Sacred Valley & Cusco",
+    country: "Peru",
     name: "Diego",
     languages: ["Spanish", "Quechua", "English"],
     experienceYears: 8,
