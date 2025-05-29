@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const vancouverBcCanada: Attraction[] = [
+export const vancouverBritishColumbiaCanada: Attraction[] = [
   {
     title: "Stanley Park",
     description:
@@ -14,7 +14,7 @@ export const vancouverBcCanada: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: [
       "wheelchair accessible paths",
       "accessible facilities",
@@ -47,7 +47,7 @@ export const vancouverBcCanada: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["market", "arts", "shopping"],
+    tags: ["art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "accessible ferry"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const vancouverBcCanada: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["adventure", "nature", "outdoor"],
+    tags: ["adventure"],
     accessibilityFeatures: [
       "some accessible areas",
       "not fully wheelchair accessible",
@@ -108,7 +108,7 @@ export const vancouverBcCanada: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["mountain", "outdoor activities", "views"],
+    tags: [],
     accessibilityFeatures: ["accessible Skyride and some facilities"],
     isPopular: true,
 
@@ -137,7 +137,7 @@ export const vancouverBcCanada: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "adventure", "exclusive"],
+    tags: ["luxury", "adventure", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

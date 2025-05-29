@@ -14,7 +14,7 @@ export const veniceVenetoItaly: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["plaza", "historic", "architecture"],
+    tags: ["plaza", "historic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const veniceVenetoItaly: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["canal", "gondola", "scenic"],
+    tags: ["canal", "gondola", "romantic"],
     accessibilityFeatures: ["accessible by water taxi"],
     isPopular: true,
 
@@ -72,7 +72,7 @@ export const veniceVenetoItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["palace", "gothic", "history"],
+    tags: ["luxury", "gothic", "history"],
     accessibilityFeatures: ["partial wheelchair access", "elevators"],
     isPopular: true,
 
@@ -101,7 +101,7 @@ export const veniceVenetoItaly: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["artisan", "crafts", "workshop"],
+    tags: ["art-and-music", "crafts"],
     accessibilityFeatures: ["accessible by water taxi"],
     isPopular: true,
 
@@ -130,7 +130,7 @@ export const veniceVenetoItaly: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["exclusive", "cultural", "basilica"],
+    tags: ["local", "cultural", "basilica"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
 

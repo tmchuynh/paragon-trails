@@ -14,13 +14,14 @@ export const udaipurRajasthanIndia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["palace", "royal", "museum"],
+    tags: ["luxury", "royal"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -43,7 +44,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["lake", "boat ride", "scenic"],
+    tags: ["lake", "boat ride", "romantic"],
     accessibilityFeatures: ["assistance available for boarding boats"],
     isPopular: true,
 
@@ -72,7 +73,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["temple", "spiritual", "architecture"],
+    tags: ["spiritual", "spiritual"],
     accessibilityFeatures: ["many steps, limited accessibility"],
     isPopular: true,
 
@@ -101,7 +102,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["museum", "cultural show", "heritage"],
+    tags: ["cultural show", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -130,7 +131,7 @@ export const udaipurRajasthanIndia: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "palace", "heritage hotel"],
+    tags: ["luxury", "luxury", "heritage hotel"],
     accessibilityFeatures: ["assistance available", "boat transfer required"],
     isPopular: true,
 

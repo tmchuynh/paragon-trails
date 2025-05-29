@@ -14,7 +14,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["skyline", "observation deck", "architecture"],
+    tags: ["skyline", "observation deck"],
     accessibilityFeatures: ["elevator access", "wheelchair accessible"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "food", "shopping"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["walkable streets"],
     isPopular: true,
 
@@ -73,7 +73,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["museum", "interactive", "food history"],
+    tags: ["food history"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 
@@ -102,7 +102,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["aquarium", "amusement park", "marine life"],
+    tags: ["local"],
     accessibilityFeatures: ["wheelchair accessible", "accessible rides"],
     isPopular: true,
 
@@ -131,7 +131,7 @@ export const yokohamaKantoJapan: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["garden", "traditional", "peaceful"],
+    tags: ["garden", "traditional", "wellness"],
     accessibilityFeatures: ["partial wheelchair access", "rest areas"],
     isPopular: true,
 

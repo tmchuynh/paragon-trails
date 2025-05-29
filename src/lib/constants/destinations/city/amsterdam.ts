@@ -13,7 +13,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["art", "history", "museum"],
+    tags: ["art-and-music", "history"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["art", "cultural", "museum"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -54,7 +54,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical", "cultural", "museum"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["luxury", "dining", "exclusive"],
+    tags: ["luxury", "culinary", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -95,7 +95,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["viewpoint", "adventure", "cultural"],
+    tags: ["adventure", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -115,7 +115,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "historical", "outdoor"],
+    tags: ["cultural", "historical", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -135,7 +135,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "nature", "exclusive"],
+    tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -155,7 +155,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["history", "cultural", "museum"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -175,7 +175,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["outdoor", "nature", "recreation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -195,7 +195,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["cultural", "brewery", "interactive"],
+    tags: ["cultural", "brewery"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -215,7 +215,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "art", "outdoor"],
+    tags: ["cultural", "art-and-music", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -235,7 +235,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["festival", "art", "nightlife"],
+    tags: ["festival", "art-and-music", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -255,7 +255,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["shopping", "cultural", "outdoor"],
+    tags: ["cultural", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -275,7 +275,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["zoo", "family", "nature"],
+    tags: ["zoo", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -295,7 +295,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["cultural", "performing arts", "theater"],
+    tags: ["cultural", "art-and-music", "theater"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

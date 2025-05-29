@@ -46,7 +46,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["museum", "science", "aviation"],
+    tags: ["science", "aviation"],
     accessibilityFeatures: ["wheelchair accessible", "listening devices"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["architecture", "history", "literature"],
+    tags: ["historical", "historical", "literature"],
     accessibilityFeatures: ["accessible entrance", "elevators"],
     isPopular: true,
 
@@ -104,7 +104,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["exclusive", "political", "historical"],
+    tags: ["local", "political", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
 
@@ -134,7 +134,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["dining", "shopping", "historic district"],
+    tags: ["culinary", "Historical"],
     accessibilityFeatures: ["some accessible sidewalks"],
     isPopular: true,
 

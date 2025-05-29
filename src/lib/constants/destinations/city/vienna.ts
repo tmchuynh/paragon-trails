@@ -14,7 +14,7 @@ export const viennaViennaAustria: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["palace", "imperial", "gardens"],
+    tags: ["luxury", ],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 
@@ -44,7 +44,7 @@ export const viennaViennaAustria: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["opera", "classical music", "architecture"],
+    tags: [ "art-and-music", ],
     accessibilityFeatures: ["wheelchair accessible areas", "elevators"],
     isPopular: true,
 
@@ -73,7 +73,7 @@ export const viennaViennaAustria: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["art museum", "palace", "gardens"],
+    tags: [ "luxury", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 
@@ -103,7 +103,7 @@ export const viennaViennaAustria: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["market", "food", "shopping"],
+    tags: ["local", "culinary"],
     accessibilityFeatures: ["mostly flat terrain"],
     isPopular: true,
 
@@ -132,7 +132,7 @@ export const viennaViennaAustria: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["classical music", "exclusive", "luxury"],
+    tags: ["art-and-music", "local", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: false,
 
