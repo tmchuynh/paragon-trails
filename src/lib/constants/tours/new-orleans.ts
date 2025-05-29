@@ -75,6 +75,43 @@ export const newOrleansTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Culinary Delights of New Orleans",
+    description:
+      "Savor the flavors of New Orleans with a guided food tour through the city's best eateries, sampling gumbo, jambalaya, beignets, and more while learning about Creole and Cajun culinary traditions.",
+    images: [
+      "/images/tours/new-orleans/gumbo.jpg",
+      "/images/tours/new-orleans/beignets.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Food", "Culinary", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Chef Antoine Dupont",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with advance notice. Please inform us of any allergies or preferences when booking.",
+      },
+      {
+        question: "What should I wear for the food tour?",
+        answer:
+          "Dress comfortably and wear walking shoes as we will be exploring various neighborhoods. Light clothing is recommended due to the warm climate.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! The tour includes kid-friendly food options and engaging stories about New Orleans' culinary history.",
+      },
+    ],
+  },
 ];
 
 export default newOrleansTours;

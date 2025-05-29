@@ -64,6 +64,38 @@ export const osakaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Namba Nightlife & Izakaya Experience",
+    description:
+      "Experience Osaka's vibrant nightlife with a guided tour of Namba's izakayas, sampling local drinks and dishes while learning about the city's after-dark culture.",
+    images: [
+      "/images/tours/osaka/namba-nightlife.jpg",
+      "/images/tours/osaka/izakaya.jpg",
+    ],
+    duration: "3 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Nightlife", "Izakaya", "Local Culture"],
+    isFamilyFriendly: false,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Yuki Nakamura",
+    tourCategoryId: "nightlife",
+    faqs: [
+      {
+        question: "Is this tour suitable for solo travelers?",
+        answer:
+          "Absolutely! Many solo travelers join our izakaya tours and find it a great way to meet people and experience local culture.",
+      },
+      {
+        question: "What should I wear for the nightlife tour?",
+        answer:
+          "Dress casually but comfortably. Osaka's nightlife is relaxed, so feel free to wear what you would normally wear out in the evening.",
+      },
+    ],
+  },
 ];
 
 export default osakaTours;

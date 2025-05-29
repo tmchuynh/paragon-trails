@@ -79,6 +79,43 @@ export const munichTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Munich's Art & Culture Scene",
+    description:
+      "Discover Munich's vibrant art scene with visits to the Pinakothek museums, contemporary galleries, and street art hotspots, guided by a local art historian who brings the city's creative spirit to life.",
+    images: [
+      "/images/tours/munich/pinakothek.jpg",
+      "/images/tours/munich/street-art.jpg",
+    ],
+    duration: "5 hours",
+    price: "$90",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Museums"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Anna Schmitt",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Do we need to book museum tickets in advance?",
+        answer:
+          "We handle all ticket bookings in advance to ensure priority access and avoid long lines. This allows us to maximize your time exploring the art collections.",
+      },
+      {
+        question: "What should I wear for the museum tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will cover several museums. Dress in layers as museum temperatures can vary.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! We provide engaging activities and stories to keep children interested in the art and culture of Munich.",
+      },
+    ],
+  },
 ];
 
 export default munichTours;

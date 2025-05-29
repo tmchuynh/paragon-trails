@@ -222,6 +222,38 @@ export const ouarzazateTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Ouarzazate Culinary Tour: From Market to Table",
+    description:
+      "Experience the flavors of southern Morocco with a guided tour of Ouarzazate's bustling souks, followed by a hands-on cooking class where you'll prepare traditional dishes like tagine and couscous using fresh local ingredients.",
+    images: [
+      "/images/tours/ouarzazate/market-tour.jpg",
+      "/images/tours/ouarzazate/cooking-class.jpg",
+    ],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.8,
+    tags: ["Culinary", "Cooking Class", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Fatima Zahra El Idrissi",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Do I need any cooking experience for this class?",
+        answer:
+          "No prior cooking experience is required! Our class is designed for all skill levels, from beginners to experienced cooks. We provide step-by-step instructions and hands-on guidance throughout the process, ensuring you leave with new skills and delicious dishes.",
+      },
+      {
+        question: "What should I wear for the cooking class?",
+        answer:
+          "Comfortable clothing that you don't mind getting a bit messy is recommended. An apron will be provided, but closed-toe shoes are required for safety in the kitchen.",
+      },
+    ],
+  },
 ];
 
 export default ouarzazateTours;

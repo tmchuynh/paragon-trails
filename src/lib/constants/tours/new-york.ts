@@ -127,6 +127,38 @@ export const newYorkTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Culinary Tour of Queens: Global Flavors",
+    description:
+      "Embark on a culinary journey through Queens, sampling authentic dishes from around the world in one of NYC's most diverse boroughs.",
+    images: [
+      "/images/tours/nyc/queens-food.jpg",
+      "/images/tours/nyc/queens-markets.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Food", "Cultural", "Diverse"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Chef Maria Lopez",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with advance notice. Please inform us of any allergies or preferences when booking.",
+      },
+      {
+        question: "What types of cuisine will we sample?",
+        answer:
+          "The tour includes a variety of cuisines reflecting Queens' diversity, such as Indian, Colombian, Greek, and more. Each stop features a unique dish representative of that culture.",
+      },
+    ],
+  },
 ];
 
 export default newYorkTours;

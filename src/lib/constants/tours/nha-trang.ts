@@ -189,6 +189,53 @@ export const nhaTrangTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Nha Trang Sunset Cruise",
+    description:
+      "Enjoy a romantic sunset cruise on Nha Trang Bay, complete with live music, cocktails, and stunning views of the coastline.",
+    images: [
+      "/images/tours/nha-trang/sunset-cruise.jpg",
+      "/images/tours/nha-trang/cocktails.jpg",
+    ],
+    duration: "2 hours",
+    price: "$50",
+    rating: 4.8,
+    tags: ["Romantic", "Cruise", "Sunset"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Pham Quang",
+    tourCategoryId: "romantic",
+    faqs: [
+      {
+        question: "Is dinner included in the cruise?",
+        answer:
+          "Light snacks and drinks are included, but a full dinner is not provided. You can order additional food on board.",
+      },
+      {
+        question: "What should I wear for the sunset cruise?",
+        answer:
+          "Smart casual attire is recommended. A light jacket may be needed as it can get cooler on the water in the evening.",
+      },
+      {
+        question: "Can we book a private cruise for special occasions?",
+        answer:
+          "Yes, we offer private sunset cruises for special occasions like anniversaries or proposals. Please contact us for details.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
+      },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "This tour is suitable for all ages, but children must be accompanied by an adult.",
+      },
+    ],
+  },
 ];
 
 export default nhaTrangTours;

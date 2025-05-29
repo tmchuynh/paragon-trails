@@ -257,6 +257,38 @@ export const naxosAndCreteTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Crete Wine & Olive Oil Tasting Tour",
+    description:
+      "Indulge in the flavors of Crete with a guided tour of local wineries and olive oil farms, sampling award-winning wines and extra virgin olive oils while learning about traditional production methods and the island's rich agricultural heritage.",
+    images: [
+      "/images/tours/naxos-and-crete/wine-tasting.jpg",
+      "/images/tours/naxos-and-crete/olive-oil-farm.jpg",
+    ],
+    duration: "5 hours",
+    price: "$90",
+    rating: 4.8,
+    tags: ["Wine", "Olive Oil", "Tasting"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Sophia Nikolaou",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of wines will we taste?",
+        answer:
+          "You'll sample a selection of 5-6 local wines, including whites, reds, and rosés made from indigenous Cretan grape varieties like Vidiano, Liatiko, and Mandilaria. The tasting includes both young wines and aged varieties to showcase the range of Cretan viticulture. We also offer non-alcoholic options for those who prefer not to drink wine.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. While adults enjoy wine tastings, children can participate in olive oil tastings and learn about the production process. We can also arrange for child-friendly snacks and activities at the farms to keep younger participants engaged.",
+      },
+    ],
+  },
 ];
 
 export default naxosAndCreteTours;

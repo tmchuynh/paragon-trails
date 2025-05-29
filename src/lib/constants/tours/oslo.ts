@@ -74,6 +74,43 @@ export const osloTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Oslo Culinary Experience",
+    description:
+      "Taste your way through Oslo's vibrant food scene with a guided tour of local markets, artisanal shops, and hidden gems, sampling traditional Norwegian dishes and modern cuisine.",
+    images: [
+      "/images/tours/oslo/culinary-tour.jpg",
+      "/images/tours/oslo/local-markets.jpg",
+    ],
+    duration: "5 hours",
+    price: "$120",
+    rating: 4.7,
+    tags: ["Culinary", "Food", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Astrid Nilsen",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of tastings, such as traditional Norwegian seafood, local cheeses, artisanal breads, and modern fusion dishes. We can accommodate most dietary restrictions with advance notice.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour covers approximately 3 km (1.9 miles) at a leisurely pace with plenty of stops for tastings. It's suitable for all fitness levels.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and children will enjoy the interactive food experiences. We can also provide kid-friendly food options upon request.",
+      },
+    ],
+  },
 ];
 
 export default osloTours;

@@ -74,6 +74,43 @@ export const naplesTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Capri Island Day Trip with Private Boat Tour",
+    description:
+      "Experience the stunning beauty of Capri with a private boat tour around the island, visiting the Blue Grotto, Faraglioni rocks, and hidden coves, followed by free time to explore the charming town of Anacapri.",
+    images: [
+      "/images/tours/naples/capri-boat.jpg",
+      "/images/tours/naples/blue-grotto.jpg",
+    ],
+    duration: "10 hours",
+    price: "$250",
+    rating: 4.8,
+    tags: ["Island Tour", "Boat", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Giovanni Russo",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What should I bring for the boat tour?",
+        answer:
+          "Bring a swimsuit, towel, sunscreen, and a hat. We also recommend a light jacket as it can get breezy on the water. Don't forget your camera to capture the stunning views!",
+      },
+      {
+        question: "Is the Blue Grotto always open?",
+        answer:
+          "The Blue Grotto is subject to weather conditions and sea levels. If it's closed on the day of your tour, we'll provide alternative stops around Capri.",
+      },
+      {
+        question: "Can we customize our time in Anacapri?",
+        answer:
+          "Yes! After the boat tour, you'll have several hours to explore Anacapri at your own pace. We can suggest local restaurants, shops, and attractions based on your interests.",
+      },
+    ],
+  },
 ];
 
 export default naplesTours;
