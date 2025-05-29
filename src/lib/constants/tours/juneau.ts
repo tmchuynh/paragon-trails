@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const juneauTours: Tour[] = [
   {
@@ -12,13 +13,13 @@ export const juneauTours: Tour[] = [
     duration: "8 hours",
     price: "$250",
     rating: 4.9,
-    tags: ["Ice Caves", "Glacier", "Hiking"],
- 
+    tags: ["Ice Caves", "Hiking"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Ryan Johnson, Glaciologist",
+    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -44,14 +45,14 @@ export const juneauTours: Tour[] = [
     duration: "5 hours",
     price: "$145",
     rating: 4.8,
-    tags: ["Whales", "Wildlife", "Marine"],
- 
+    tags: ["Whales", "Marine"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Sarah Miller, Marine Biologist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Is whale sighting guaranteed?",
@@ -77,12 +78,12 @@ export const juneauTours: Tour[] = [
     price: "$115",
     rating: 4.7,
     tags: ["Indigenous", "Cultural", "Art"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "David Katzeek (Kingeisti)",
+    tourGuide: findGuideBySpecialty("juneau", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const juneauTours: Tour[] = [
     price: "$550",
     rating: 4.9,
     tags: ["Helicopter", "Dogsledding", "Glacier"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jack Wilson, Iditarod Musher",
+    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -141,12 +142,12 @@ export const juneauTours: Tour[] = [
     price: "$185",
     rating: 4.8,
     tags: ["Seafood", "Cooking", "Culinary"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Tracy Andes",
+    tourGuide: findGuideBySpecialty("juneau", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -173,12 +174,12 @@ export const juneauTours: Tour[] = [
     price: "$375",
     rating: 4.9,
     tags: ["Flightseeing", "Wilderness", "Exclusive"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Michael Stevens",
+    tourGuide: findGuideBySpecialty("juneau", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -205,12 +206,12 @@ export const juneauTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["City Tour", "Botanical", "History"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sarah Thompson, Local Historian",
+    tourGuide: findGuideBySpecialty("juneau", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -237,13 +238,13 @@ export const juneauTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Hiking", "Rainforest", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Emily Carter, Naturalist Guide",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("juneau", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What should I wear for the rainforest hike?",

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const istanbulTours: Tour[] = [
   {
     title: "Two Continents & Bosphorus Experience",
@@ -17,7 +19,7 @@ export const istanbulTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Elif Arslan",
+    tourGuide: findGuideBySpecialty("istanbul", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const istanbulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Mehmet Özkan",
+    tourGuide: findGuideBySpecialty("istanbul", "historical").name,
     tourCategoryId: "archaeology",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const kualaLumpurTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cultural", "Religious", "History"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Ahmad Rizal",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Food", "Night Markets", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Lily Tan",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Architecture", "History", "Photography"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Tam Li Ying",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -104,12 +105,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Art", "Craft", "Culture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mdm. Faridah Ismail",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -130,13 +131,13 @@ export const kualaLumpurTours: Tour[] = [
     duration: "8 hours",
     price: "$95",
     rating: 4.7,
-    tags: ["Nature", "Wildlife", "Sunset"],
- 
+    tags: ["Nature", "Sunset"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Ravi Chandran",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -158,13 +159,13 @@ export const kualaLumpurTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Nature", "Birdwatching", "Rainforest"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Melissa Wong, Ornithologist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What birds might we see?",
@@ -190,12 +191,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$150",
     rating: 4.8,
     tags: ["Luxury", "Shopping", "High Tea"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Ms. Vanessa Yong",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -222,12 +223,12 @@ export const kualaLumpurTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nightlife", "Cultural", "City Tour"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mr. Amirul Hakim",
+    tourGuide: findGuideBySpecialty("kuala lumpur", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {

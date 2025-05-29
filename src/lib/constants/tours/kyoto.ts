@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const kyotoTours: Tour[] = [
   {
     title: "Fushimi Inari After Hours & Geisha District",
@@ -17,7 +19,7 @@ export const kyotoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Akiko Nakamura",
+    tourGuide: findGuideBySpecialty("kyoto", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -49,7 +51,7 @@ export const kyotoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Midori Tanaka",
+    tourGuide: findGuideBySpecialty("kyoto", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -81,7 +83,7 @@ export const kyotoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hiroshi Yamamoto",
+    tourGuide: findGuideBySpecialty("kyoto", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const hokkaidoTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$2,950",
     rating: 4.9,
     tags: ["Skiing", "Winter", "Onsen"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Takeshi Yamamoto",
+    tourGuide: findGuideBySpecialty("hokkaido", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -50,12 +51,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,895",
     rating: 4.8,
     tags: ["Food", "Agriculture", "Cooking"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Yuki Tanaka",
+    tourGuide: findGuideBySpecialty("hokkaido", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -81,14 +82,14 @@ export const hokkaidoTours: Tour[] = [
     duration: "6 days",
     price: "$2,750",
     rating: 4.9,
-    tags: ["Wildlife", "Photography", "Winter"],
- 
+    tags: ["Photography", "Winter"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Hiroshi Tanaka, Wildlife Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("hokkaido", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -125,12 +126,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,250",
     rating: 4.7,
     tags: ["Hiking", "Volcanoes", "Hot Springs"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Akira Watanabe",
+    tourGuide: findGuideBySpecialty("hokkaido", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -157,12 +158,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,950",
     rating: 4.8,
     tags: ["Winter Festivals", "Cultural", "Art"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Yumiko Sato",
+    tourGuide: findGuideBySpecialty("hokkaido", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -189,12 +190,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,150",
     rating: 4.6,
     tags: ["Indigenous", "Cultural", "Crafts"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Shizuka Kayano",
+    tourGuide: findGuideBySpecialty("hokkaido", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -258,12 +259,12 @@ export const hokkaidoTours: Tour[] = [
     price: "$1,450",
     rating: 4.9,
     tags: ["Flowers", "Photography", "Summer"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Naomi Takahashi",
+    tourGuide: findGuideBySpecialty("hokkaido", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -304,13 +305,13 @@ export const hokkaidoTours: Tour[] = [
     duration: "5 days",
     price: "$1,850",
     rating: 4.7,
-    tags: ["Kayaking", "Wildlife", "Camping"],
- 
+    tags: ["Kayaking", "Camping"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Kentaro Yoshida",
+    tourGuide: findGuideBySpecialty("hokkaido", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -341,13 +342,13 @@ export const hokkaidoTours: Tour[] = [
     duration: "4 days",
     price: "$1,350",
     rating: 4.8,
-    tags: ["Snowshoeing", "Wildlife", "Winter"],
- 
+    tags: ["Snowshoeing", "Winter"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Yuki Nakamura",
+    tourGuide: findGuideBySpecialty("hokkaido", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

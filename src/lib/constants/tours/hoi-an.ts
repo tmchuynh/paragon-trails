@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const hoiAnTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const hoiAnTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mai Thi Phuong",
+    tourGuide: findGuideBySpecialty("hoi an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -55,7 +56,7 @@ export const hoiAnTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nguyen Van Duc",
+    tourGuide: findGuideBySpecialty("hoi an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -92,7 +93,7 @@ export const hoiAnTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Tran Thi Lan",
+    tourGuide: findGuideBySpecialty("hoi an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -129,7 +130,7 @@ export const hoiAnTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Le Quang Minh",
+    tourGuide: findGuideBySpecialty("hoi an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const honoluluTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Hiking", "Sunrise", "Food"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kai Kahele",
+    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -55,12 +56,12 @@ export const honoluluTours: Tour[] = [
     price: "$105",
     rating: 4.8,
     tags: ["History", "Memorial", "Military"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Commander James Reynolds (Ret.)",
+    tourGuide: findGuideBySpecialty("honolulu", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -97,12 +98,12 @@ export const honoluluTours: Tour[] = [
     price: "$145",
     rating: 4.7,
     tags: ["Cultural", "Food", "Entertainment"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kekoa Mahoe & Cultural Team",
+    tourGuide: findGuideBySpecialty("honolulu", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -139,12 +140,12 @@ export const honoluluTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["North Shore", "Surfing", "Beaches"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Malia Wong",
+    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -181,13 +182,13 @@ export const honoluluTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Snorkeling", "Marine Life", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Emma Nakamura, Marine Biologist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Do I need to know how to swim?",
@@ -223,12 +224,12 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["History", "Hawaiian Royalty", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Leilani Kapuni, Hawaiian Historian",
+    tourGuide: findGuideBySpecialty("honolulu", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -265,12 +266,12 @@ export const honoluluTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Cooking", "Farm", "Food"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Keoni Mahelona",
+    tourGuide: findGuideBySpecialty("honolulu", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -307,13 +308,13 @@ export const honoluluTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Scenic", "Full-Day"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Michael Chen, Professional Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("honolulu", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -349,12 +350,12 @@ export const honoluluTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Cultural", "Volunteer", "Educational"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Kumu Kawika Winter",
+    tourGuide: findGuideBySpecialty("honolulu", "off-the-beaten-path").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -391,12 +392,12 @@ export const honoluluTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Full Island", "Sightseeing", "Highlights"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "David Kalama",
+    tourGuide: findGuideBySpecialty("honolulu", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -434,12 +435,12 @@ export const honoluluTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Sunset", "Cruise", "Stargazing"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Lani Kealoha",
+    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

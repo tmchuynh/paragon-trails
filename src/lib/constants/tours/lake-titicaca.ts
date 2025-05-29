@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const lakeTiticacaTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cultural", "Indigenous", "UNESCO"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Eduardo Mamani",
+    tourGuide: findGuideBySpecialty("lake titicaca", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -60,12 +61,12 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Archaeological", "Spiritual", "Hiking"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Carlos Mamani",
+    tourGuide: findGuideBySpecialty("lake titicaca", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -97,7 +98,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$275",
     rating: 4.9,
     tags: ["Luxury", "Cruise", "Islands"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -134,7 +135,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Cultural", "Hands-on"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -166,13 +167,13 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Photography", "Sunrise", "Landscapes"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Arturo Sanchez, Landscape Photographer",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -203,7 +204,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$350",
     rating: 4.9,
     tags: ["Spiritual", "Nature", "Retreat"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -244,14 +245,14 @@ export const lakeTiticacaTours: Tour[] = [
     duration: "4 hours",
     price: "$75",
     rating: 4.6,
-    tags: ["Wildlife", "Birdwatching", "Nature"],
- 
+    tags: ["Birdwatching", "Nature"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Biologist Dr. Ana Quispe",
-    tourCategoryId: "nature",
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What wildlife can we expect to see?",
@@ -277,7 +278,7 @@ export const lakeTiticacaTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const lisbonTours: Tour[] = [
   {
     title: "Fado Music Night & Alfama Exploration",
@@ -17,7 +19,7 @@ export const lisbonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Miguel Santos",
+    tourGuide: findGuideBySpecialty("lisbon", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -49,7 +51,7 @@ export const lisbonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Ana Oliveira",
+    tourGuide: findGuideBySpecialty("lisbon", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -81,7 +83,7 @@ export const lisbonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Joana Pereira",
+    tourGuide: findGuideBySpecialty("lisbon", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

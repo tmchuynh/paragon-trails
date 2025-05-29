@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const jaipurTours: Tour[] = [
   {
     title: "Royal Amber Fort & Palace Elegance",
@@ -12,12 +14,12 @@ export const jaipurTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Royal", "Palaces", "Heritage"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maharaj Singh Shekhawat",
+    tourGuide: findGuideBySpecialty("jaipur", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const jaipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Textiles", "Artisans"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lakshmi Devi",
+    tourGuide: findGuideBySpecialty("jaipur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -76,12 +78,12 @@ export const jaipurTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Local Culture", "Markets", "Hidden Gems"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Rajesh Kumar",
+    tourGuide: findGuideBySpecialty("jaipur", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -113,12 +115,12 @@ export const jaipurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Culture", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Anjali Sharma",
+    tourGuide: findGuideBySpecialty("jaipur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

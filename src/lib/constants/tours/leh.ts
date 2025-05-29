@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const lehTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const lehTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Buddhism", "Monasteries", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Geshe Tenzin Norgay",
+    tourGuide: findGuideBySpecialty("leh", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const lehTours: Tour[] = [
     price: "$275",
     rating: 4.8,
     tags: ["Adventure", "Desert", "Wildlife"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jigmet Dadul",
+    tourGuide: findGuideBySpecialty("leh", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -77,13 +78,13 @@ export const lehTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Lake", "Landscapes"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Rigzin Norbu, Landscape Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("leh", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -109,12 +110,12 @@ export const lehTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cooking", "Homestay", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Diskit Angmo",
+    tourGuide: findGuideBySpecialty("leh", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -142,12 +143,12 @@ export const lehTours: Tour[] = [
     price: "$225",
     rating: 4.7,
     tags: ["Rafting", "Adventure", "Camping"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Stanzin Tsephal, International Rafting Federation Guide",
+    tourGuide: findGuideBySpecialty("leh", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -174,12 +175,12 @@ export const lehTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Meditation", "Spiritual", "Wellness"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lama Thupten Wangchuk",
+    tourGuide: findGuideBySpecialty("leh", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -206,12 +207,12 @@ export const lehTours: Tour[] = [
     price: "$125",
     rating: 4.7,
     tags: ["Royal History", "Heritage", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Jigmet Namgyal (Royal Family Descendant)",
+    tourGuide: findGuideBySpecialty("leh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -233,12 +234,12 @@ export const lehTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Silk Road", "History", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Tashi Dolma (Silk Road Historian)",
+    tourGuide: findGuideBySpecialty("leh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

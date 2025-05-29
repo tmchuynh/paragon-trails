@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const kampalaTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const kampalaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cultural", "Religious", "Walking Tour"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Edward Ssentongo",
+    tourGuide: findGuideBySpecialty("kampala", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const kampalaTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Sarah Nakimuli",
+    tourGuide: findGuideBySpecialty("kampala", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const kampalaTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Adventure", "City Tour", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Patrick Muwonge & Boda Driver Team",
+    tourGuide: findGuideBySpecialty("kampala", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const kampalaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Religious", "Historical", "Pilgrimage"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sister Mary Nakayima",
+    tourGuide: findGuideBySpecialty("kampala", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -135,13 +136,13 @@ export const kampalaTours: Tour[] = [
     duration: "5 hours",
     price: "$55",
     rating: 4.7,
-    tags: ["Cultural", "UNESCO", "Historical"],
- 
+    tags: ["Cultural", "Historical"],
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Robert Ssemakula, Royal Historian",
+    tourGuide: findGuideBySpecialty("kampala", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -198,12 +199,12 @@ export const kampalaTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["Crafts", "Art", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Grace Nakimera",
+    tourGuide: findGuideBySpecialty("kampala", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -231,12 +232,12 @@ export const kampalaTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Off the Beaten Path", "Local Culture", "Hidden Gems"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Moses Kaggwa",
+    tourGuide: findGuideBySpecialty("kampala", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {

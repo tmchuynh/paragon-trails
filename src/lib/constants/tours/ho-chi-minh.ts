@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const hoChiMinhTours: Tour[] = [
   {
     title: "Cu Chi Tunnels & Vietnam War History",
@@ -12,12 +14,12 @@ export const hoChiMinhTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["History", "War", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mr. Tran Van Hai",
+    tourGuide: findGuideBySpecialty("ho chi minh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -49,12 +51,12 @@ export const hoChiMinhTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Food", "Markets", "Local"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ms. Nguyen Thi Mai",
+    tourGuide: findGuideBySpecialty("ho chi minh", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -86,13 +88,13 @@ export const hoChiMinhTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Nature", "Culture", "Adventure"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mr. Le Van Phuc",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("ho chi minh", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What should I wear for the Mekong Delta tour?",
@@ -123,12 +125,12 @@ export const hoChiMinhTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Romantic", "Scenic", "Relaxation"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ms. Tran Thi Lan",
+    tourGuide: findGuideBySpecialty("ho chi minh", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

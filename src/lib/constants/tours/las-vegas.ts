@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const lasVegasTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const lasVegasTours: Tour[] = [
     price: "$149",
     rating: 4.7,
     tags: ["Nightlife", "VIP", "Entertainment"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Jackson Miles",
+    tourGuide: findGuideBySpecialty("las vegas", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -40,12 +41,12 @@ export const lasVegasTours: Tour[] = [
     price: "$399",
     rating: 4.9,
     tags: ["Helicopter", "Grand Canyon", "Adventure"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Rebecca Torres",
+    tourGuide: findGuideBySpecialty("las vegas", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -67,7 +68,7 @@ export const lasVegasTours: Tour[] = [
     price: "$295",
     rating: 4.8,
     tags: ["Culinary", "Fine Dining", "Luxury"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -99,7 +100,7 @@ export const lasVegasTours: Tour[] = [
     price: "$89",
     rating: 4.6,
     tags: ["Museum", "History", "Educational"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -131,12 +132,12 @@ export const lasVegasTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Hiking", "Nature", "Desert"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "David Anderson, Certified Naturalist",
+    tourGuide: findGuideBySpecialty("las vegas", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -163,7 +164,7 @@ export const lasVegasTours: Tour[] = [
     price: "$129",
     rating: 4.8,
     tags: ["Nightlife", "History", "Cocktails"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -195,13 +196,13 @@ export const lasVegasTours: Tour[] = [
     price: "$349",
     rating: 4.9,
     tags: ["Photography", "Aerial", "Nighttime"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourGuide: "Alex Rivera, Professional Aerial Photographer",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -227,7 +228,7 @@ export const lasVegasTours: Tour[] = [
     price: "$325",
     rating: 4.8,
     tags: ["Grand Canyon", "Native American", "Scenic"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -260,7 +261,7 @@ export const lasVegasTours: Tour[] = [
     price: "$155",
     rating: 4.7,
     tags: ["Entertainment", "Backstage", "Production"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -292,13 +293,13 @@ export const lasVegasTours: Tour[] = [
     price: "$185",
     rating: 4.9,
     tags: ["Photography", "Nature", "Landscapes"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Michelle Lawson, Landscape Photographer",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -324,7 +325,7 @@ export const lasVegasTours: Tour[] = [
     price: "$179",
     rating: 4.5,
     tags: ["Unusual", "Area 51", "Off the Grid"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -356,7 +357,7 @@ export const lasVegasTours: Tour[] = [
     price: "$119",
     rating: 4.7,
     tags: ["Neon", "Art", "History"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -388,7 +389,7 @@ export const lasVegasTours: Tour[] = [
     price: "$499",
     rating: 5.0,
     tags: ["Romance", "Wedding", "Celebration"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -420,7 +421,7 @@ export const lasVegasTours: Tour[] = [
     price: "$250",
     rating: 4.6,
     tags: ["Casino", "Gambling", "Luxury"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -452,7 +453,7 @@ export const lasVegasTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Engineering", "History", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -484,7 +485,7 @@ export const lasVegasTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["National Park", "Desert", "Geology"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
