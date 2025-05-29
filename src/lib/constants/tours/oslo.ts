@@ -25,6 +25,16 @@ export const osloTours: Tour[] = [
         answer:
           "Yes, for safety reasons, tours may be rescheduled in case of heavy rain or strong winds. We monitor forecasts closely and will contact you 24 hours in advance if weather conditions are unsuitable.",
       },
+      {
+        question: "What should I wear for the cruise?",
+        answer:
+          "Dress in layers and wear comfortable, weather-appropriate clothing. A light jacket is recommended, as it can get breezy on the water. Don't forget sunscreen and a hat!",
+      },
+      {
+        question: "Can we swim during the tour?",
+        answer:
+          "Yes! We often stop at secluded beaches where you can take a refreshing swim. Bring a swimsuit and towel if you wish to swim.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const osloTours: Tour[] = [
         question: "Is this tour suitable for children?",
         answer:
           "Absolutely! Our guides are excellent at engaging children with fascinating Viking stories and hands-on activities at the Folk Museum. The Viking Ship Museum is particularly exciting for children of all ages.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour involves moderate walking, approximately 2-3 km (1.2-1.9 miles) total, with some uneven surfaces at the Folk Museum. Comfortable shoes are recommended.",
+      },
+      {
+        question: "Are there any interactive elements?",
+        answer:
+          "Yes! At the Norwegian Folk Museum, children can participate in traditional crafts and games, making it a fun and educational experience for the whole family.",
       },
     ],
   },

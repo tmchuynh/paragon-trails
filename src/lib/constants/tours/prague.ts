@@ -25,6 +25,11 @@ export const pragueTours: Tour[] = [
         answer:
           "Our evening access provides a dramatically different atmosphere with special lighting that highlights architectural details, near-empty halls that are usually crowded, and access to normally restricted areas including parts of the Old Royal Palace and Golden Lane houses.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage visitors of all ages with fascinating stories and interactive elements. However, please note that some areas may have limited accessibility for strollers.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const pragueTours: Tour[] = [
         question: "How many beer samples are included?",
         answer:
           "The tour includes tastings of 10-12 different craft beers (approximately 0.2L each) from 3-4 different microbreweries, along with traditional Czech beer snacks to complement the flavors.",
+      },
+      {
+        question: "Can I join if I don't drink alcohol?",
+        answer:
+          "Absolutely! We can provide non-alcoholic alternatives such as traditional Czech soft drinks or non-alcoholic beers. Just let us know in advance, and we'll ensure you have a great experience.",
       },
     ],
   },

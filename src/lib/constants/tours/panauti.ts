@@ -27,32 +27,10 @@ export const panautiTours: Tour[] = [
         answer:
           "Panauti's temples represent some of the finest examples of Newari architecture and have survived intact for centuries, partly because the town was never conquered by invading forces. The Indreshwar Mahadev Temple is Nepal's oldest surviving pagoda structure, dating to 1294 AD. Unlike temples in more touristed areas, Panauti's religious sites remain centers of authentic daily worship rather than primarily tourist attractions, allowing visitors to witness living religious traditions.",
       },
-    ],
-  },
-  {
-    title: "Panauti Homestay & Village Life Experience",
-    description:
-      "Immerse yourself in authentic Nepali village life with an overnight stay in a traditional family home. Help prepare meals using local ingredients, learn about daily customs, and participate in seasonal agricultural activities while experiencing the genuine warmth of Nepali hospitality.",
-    images: [
-      "/images/tours/panauti/homestay-family.jpg",
-      "/images/tours/panauti/traditional-kitchen.jpg",
-    ],
-    duration: "24 hours",
-    price: "$65",
-    rating: 4.9,
-    tags: ["Homestay", "Village Life", "Cultural Immersion"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Panauti Community Homestay Network",
-    tourCategoryId: "local-experience",
-    faqs: [
       {
-        question: "What are the accommodations like?",
+        question: "Are there any dress codes for visiting the temples?",
         answer:
-          "The homestays offer comfortable private rooms within family homes, with clean bedding and basic amenities. Bathrooms are typically shared with the family and may be traditional Nepali-style (often with a Western toilet option). While not luxurious, the accommodations are clean, safe, and provide an authentic experience of Nepali domestic life. Each home is slightly different, but all are personally vetted for cleanliness and comfort.",
+          "Yes, visitors should dress modestly when entering temples. This typically means covering shoulders and knees. Comfortable walking shoes are recommended as some temple areas have uneven surfaces. Our guide will provide a scarf or shawl if needed, and we can also recommend appropriate attire before the tour.",
       },
     ],
   },
@@ -81,6 +59,11 @@ export const panautiTours: Tour[] = [
         answer:
           "The hike is relatively easy and suitable for most fitness levels, covering approximately 3 kilometers round-trip with gentle elevation changes. We walk at a comfortable pace with plenty of stops for explanations about the natural environment and spiritual significance of different sites. The trail follows the riverside with some uneven terrain, so comfortable walking shoes are recommended, but no special hiking gear is needed.",
       },
+      {
+        question: "What should I bring for the meditation session?",
+        answer:
+          "We recommend bringing a small cushion or mat to sit on, as well as a water bottle and light snacks. Our guide will provide blankets for warmth during the meditation. If you have a favorite meditation shawl or scarf, feel free to bring it along. The session is designed to be accessible for all levels, so no prior meditation experience is necessary.",
+      },
     ],
   },
   {
@@ -107,6 +90,11 @@ export const panautiTours: Tour[] = [
         question: "What dishes will we learn to cook?",
         answer:
           "You'll learn to prepare a complete traditional Newari meal, which typically includes chatamari (rice flour crepes), bara (lentil patties), aloo tama bodi (potato, bamboo shoot, and black-eyed pea curry), and yomari (sweet rice flour dumplings) for dessert. Newari cuisine features unique cooking methods and distinctive spice combinations not found in standard Nepali food. Our cooking instructor will teach you authentic techniques while explaining the cultural and ceremonial significance of each dish.",
+      },
+      {
+        question: "Do I need any prior cooking experience?",
+        answer:
+          "No prior cooking experience is necessary! This class is designed for all skill levels, from complete beginners to experienced cooks. Our instructor will guide you through each step of the cooking process, ensuring you understand the techniques and ingredients used in Newari cuisine. You'll leave with new skills and recipes to recreate these dishes at home.",
       },
     ],
   },
@@ -135,6 +123,11 @@ export const panautiTours: Tour[] = [
         answer:
           "This tour starts approximately 45 minutes before sunrise, which varies seasonally. In winter months (November-February), this means around 5:45 AM, while summer months may require a 4:30 AM start. The early start is essential to capture the magical quality of light as it first illuminates the ancient temples and before the streets become busy. We'll confirm the exact pickup time when you book based on the sunrise time for your specific tour date.",
       },
+      {
+        question: "What photography equipment should I bring?",
+        answer:
+          "A DSLR or mirrorless camera with manual settings is recommended for the best results, but any camera that allows you to adjust exposure settings will work. Bring a tripod for stability in low light conditions, and consider lenses with wide apertures (f/2.8 or lower) for capturing details in the early morning light. Extra batteries and memory cards are also essential, as cold temperatures can drain batteries quickly. Our guide can provide additional tips on settings and composition during the tour.",
+      },
     ],
   },
   {
@@ -161,6 +154,11 @@ export const panautiTours: Tour[] = [
         question: "How challenging is this hike?",
         answer:
           "This is a moderate 12-kilometer hike with approximately 650 meters of elevation gain, usually taking 5-6 hours including stops. The trail follows established paths through villages and agricultural areas, with some uphill sections but no technical difficulty. Reasonably fit hikers of all ages can complete this trek, though some hiking experience is recommended. We maintain a comfortable pace with plenty of breaks to enjoy the scenery and learn about local life.",
+      },
+      {
+        question: "What should I bring for the hike?",
+        answer:
+          "Wear comfortable hiking shoes and dress in layers, as temperatures can vary significantly throughout the day. Bring a refillable water bottle, sunscreen, a hat, and snacks. We recommend a small daypack to carry your essentials. Our guide will provide a packed lunch at Namo Buddha Monastery, where you can enjoy stunning views while you eat.",
       },
     ],
   },

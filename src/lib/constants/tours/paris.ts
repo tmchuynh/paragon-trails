@@ -25,6 +25,11 @@ export const parisTours: Tour[] = [
         answer:
           "This tour covers approximately 3-4 km at a leisurely pace with plenty of stops. We walk through some narrow passages and cobblestone streets, so comfortable shoes are recommended.",
       },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! We keep the pace relaxed and our guide will share engaging stories that appeal to both adults and children. However, please note that some passages may not be stroller accessible.",
+      },
     ],
   },
   {
@@ -51,6 +56,16 @@ export const parisTours: Tour[] = [
         question: "Will we see the Mona Lisa?",
         answer:
           "Yes, we include the Mona Lisa and other masterpieces like the Venus de Milo and Winged Victory of Samothrace. Our strategy helps you view these popular works without being overwhelmed by crowds, while also discovering less-visited but equally impressive treasures.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! Our guide is skilled at engaging children with fascinating stories and interactive elements. We also provide a scavenger hunt to keep younger visitors entertained while learning about the art.",
+      },
+      {
+        question: "Do we skip the lines?",
+        answer:
+          "Yes, this tour includes skip-the-line access, allowing you to bypass the long queues and maximize your time inside the museum.",
       },
     ],
   },

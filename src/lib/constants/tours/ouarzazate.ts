@@ -26,6 +26,11 @@ export const ouarzazateTours: Tour[] = [
         answer:
           "The tour involves moderate walking on uneven surfaces, including some steep sections and stairs within the ksar. The full tour includes a climb to the granary at the top of the village for panoramic views, but this portion can be optional for those with mobility concerns. Most reasonably fit visitors can complete the full tour comfortably, and our guide can adjust the pace based on the group's needs.",
       },
+      {
+        question: "Is lunch included in the tour?",
+        answer:
+          "Yes, a traditional Berber lunch is included, featuring local specialties such as tagine, couscous, and fresh salads. The meal is prepared by a local family in their home, providing an authentic cultural experience. Vegetarian options are available upon request.",
+      },
     ],
   },
   {

@@ -26,6 +26,11 @@ export const portVilaTours: Tour[] = [
         answer:
           "The trail to Cascade Waterfall is moderately challenging, covering about 1 kilometer through jungle terrain with some uneven surfaces and inclines. Most reasonably fit visitors can complete it in 20-30 minutes. There are steps and handrails in steeper sections. We recommend wearing water shoes or secure sandals as they work well for both the jungle walk and swimming. The trail can be slippery after rain, so we provide walking sticks for those who want them.",
       },
+      {
+        question: "Can we swim in the waterfall pools?",
+        answer:
+          "Yes! The natural pools at the base of the waterfall are perfect for swimming. The water is clean and refreshing, with a depth of about 2-3 meters. There are shallow areas for children, but we recommend adult supervision for younger swimmers. Our guides will ensure safety and provide life jackets if needed.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const portVilaTours: Tour[] = [
         question: "Is this an authentic village or created for tourists?",
         answer:
           "This is a genuine working village where families live according to traditional customs while selectively sharing their culture with visitors. Your visit directly supports the community and helps preserve their way of life. While certain ceremonies are organized for visitors, they are authentic cultural practices that have been performed for generations. Photography is generally welcomed, but your guide will advise if there are specific ceremonies or sacred objects that should not be photographed out of respect.",
+      },
+      {
+        question: "What should I wear for the village visit?",
+        answer:
+          "We recommend wearing comfortable, modest clothing suitable for walking and sitting on the ground. Closed-toe shoes or sandals with straps are best for the village paths. A light scarf or shawl is also a good idea, as it can be used to cover shoulders if needed during ceremonies. Sunscreen and insect repellent are advisable.",
       },
     ],
   },
@@ -80,6 +90,11 @@ export const portVilaTours: Tour[] = [
         answer:
           "The Blue Lagoon's striking color comes from a combination of factors: clear freshwater springs feeding the pool, a white limestone base that reflects light, and the perfect depth to create vivid blue hues through light refraction. The water is typically 2-5 meters deep in most areas, with excellent visibility. The colors are most vibrant on sunny days and during mid-morning to early afternoon when the sun is high.",
       },
+      {
+        question: "What snorkeling equipment is provided?",
+        answer:
+          "We provide high-quality snorkeling gear including masks, snorkels, and fins. Life jackets are also available for those who prefer extra buoyancy or are less confident swimmers. Our guides will give a safety briefing and snorkeling tips before you enter the water. If you have your own gear that you prefer to use, feel free to bring it along.",
+      },
     ],
   },
   {
@@ -106,6 +121,11 @@ export const portVilaTours: Tour[] = [
         question: "What type of food is served on the dinner cruise?",
         answer:
           "The dinner features contemporary Pacific cuisine highlighting local Vanuatu ingredients. A typical menu includes coconut ceviche with fresh-caught fish, slow-cooked organic beef or fresh lagoon prawns for the main course, and tropical desserts featuring local vanilla, mango, or coconut. Vegetarian and special dietary options are available with advance notice. The meal is paired with quality Australian and New Zealand wines, local Tusker beer, or tropical fruit mocktails.",
+      },
+      {
+        question: "Is the cruise suitable for children?",
+        answer:
+          "Yes, the cruise is family-friendly! We have a children's menu available with options like chicken skewers, pasta, and fruit platters. Kids can enjoy the open deck space and watch for dolphins or other marine life during the cruise. Our crew is experienced in accommodating families and ensuring everyone has a wonderful time.",
       },
     ],
   },
@@ -134,6 +154,11 @@ export const portVilaTours: Tour[] = [
         answer:
           "The complete Ring Road around Efate is approximately 130km (80 miles) and takes about 3-4 hours of pure driving time. However, our tour spends a full day (8-9 hours) making numerous stops at villages, viewpoints, swimming locations, and historical sites along the way. The road is mostly paved but has some unpaved sections, which is why we use comfortable 4WD vehicles. We include a delicious lunch at a beachside restaurant about halfway around the island.",
       },
+      {
+        question: "What should I bring for the safari tour?",
+        answer:
+          "We recommend wearing comfortable clothing suitable for a full day of adventure, including sturdy shoes for walking. Bring a swimsuit and towel for swimming stops, sunscreen, a hat, and insect repellent. A refillable water bottle is also a good idea to stay hydrated throughout the day. Our guides will provide snacks and lunch, but feel free to bring any additional snacks you might want.",
+      },
     ],
   },
   {
@@ -160,6 +185,11 @@ export const portVilaTours: Tour[] = [
         question: "How does the underwater post office actually work?",
         answer:
           "The underwater post office is staffed by trained postal workers wearing scuba gear during scheduled hours. You purchase special waterproof postcards on the island (included in our tour), write your message, and then snorkel or dive down about 3 meters to hand your card to the postal worker. They stamp it with a special waterproof postmark before placing it in a waterproof container for delivery through the regular postal system. It's a functional post office and your card will actually be delivered to the address you write on it!",
+      },
+      {
+        question: "What marine life can we expect to see while snorkeling?",
+        answer:
+          "Hideaway Island Marine Sanctuary is home to a diverse range of marine species, including colorful reef fish, sea turtles, and various types of coral. The waters are generally calm and clear, providing excellent visibility. Our guides will point out interesting species and help you identify them. If you're lucky, you might even spot a manta ray or dolphin during your visit!",
       },
     ],
   },
@@ -188,6 +218,11 @@ export const portVilaTours: Tour[] = [
         answer:
           "Vanuatu cuisine combines Melanesian traditions with influences from French colonization. The cooking methods are distinctive—particularly the underground earth oven (called 'nakamal') used for traditional dishes like lap lap. The cuisine features abundant tropical fruits, root vegetables like taro and yam, fresh seafood, and coconut milk in many preparations. You'll learn how these elements come together in dishes that have been prepared for generations using traditional techniques that require no modern kitchen equipment.",
       },
+      {
+        question: "Do I need any prior cooking experience for the class?",
+        answer:
+          "No prior cooking experience is necessary! This class is designed for all skill levels, from complete beginners to experienced cooks. Our chef will guide you through each step of the cooking process, explaining techniques and cultural significance along the way. You'll leave with new skills and recipes to recreate these dishes at home.",
+      },
     ],
   },
   {
@@ -214,6 +249,11 @@ export const portVilaTours: Tour[] = [
         question: "Is the canyon swing scary?",
         answer:
           "The canyon swing is definitely thrilling! It features a 35-meter free-fall drop before swinging in a giant arc through the canyon. While it creates an intense (but safe) adrenaline rush, it's optional—about 20% of guests choose to watch rather than participate in this particular element. The zip lines themselves vary from moderate to exciting but are designed to be accessible to most people, including those with no previous zip line experience. Our guides prioritize safety with detailed briefings and top-quality equipment.",
+      },
+      {
+        question: "What should I wear for the zip line tour?",
+        answer:
+          "Wear comfortable, weather-appropriate clothing that allows for freedom of movement. Closed-toe shoes with straps are required for safety. We recommend wearing long pants or shorts that cover your knees, as you will be harnessed at the waist and legs. Avoid loose clothing or accessories that could get caught in the equipment. Sunscreen and insect repellent are also advisable.",
       },
     ],
   },

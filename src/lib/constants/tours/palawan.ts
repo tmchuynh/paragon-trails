@@ -27,6 +27,11 @@ export const palawanTours: Tour[] = [
         answer:
           "Our premium tour avoids the standard routes and timing of mass tourism boats. We depart earlier to reach the most popular sites before other tours arrive, then visit exclusive locations that require special access permits. We use a spacious, comfortable boat with a maximum of 8 guests (versus 20+ on standard tours), and include premium snorkeling equipment, kayaks for lagoon exploration, and a freshly prepared gourmet lunch beyond the typical basic buffet offered on regular tours.",
       },
+      {
+        question: "What should I bring for the island hopping tour?",
+        answer:
+          "We recommend wearing a swimsuit, quick-dry clothing, and comfortable sandals or water shoes. Bring a hat, sunglasses, sunscreen, and a light jacket for the boat ride. We provide towels, snorkeling gear, and a waterproof bag for your belongings. If you have specific dietary restrictions, please inform us in advance so we can accommodate your needs.",
+      },
     ],
   },
   {
@@ -53,6 +58,11 @@ export const palawanTours: Tour[] = [
         question: "Will I get wet during the underground river tour?",
         answer:
           "You'll sit in a small paddle boat navigated by your guide, and while you won't get completely wet, some water dripping from the cave ceiling is common. We provide waterproof bags for cameras and electronics. For the extended expedition sections (not available to standard tours), we provide appropriate gear including helmets with headlamps and water-resistant footwear. The cave maintains a constant temperature around 70°F (22°C), so light, quick-dry clothing is recommended.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the standard underground river tour is family-friendly and suitable for children ages 5 and up. The extended expedition sections are more adventurous and recommended for older children (12+) who are comfortable in enclosed spaces and can follow safety instructions. We provide life jackets for all participants.",
       },
     ],
   },
@@ -108,6 +118,12 @@ export const palawanTours: Tour[] = [
         answer:
           "No prior experience is necessary. Our conservation activities are designed to be accessible to beginners while still being meaningful and impactful. For snorkeling portions, basic swimming ability is helpful but not required as we provide flotation devices and guidance. Those with diving certifications can participate in optional deeper reef monitoring activities, but plenty of conservation work happens in shallow water and on shore. Each participant receives training in scientific methodology and conservation principles relevant to their activities.",
       },
+      {
+        question:
+          "What impact does this tour have on local conservation efforts?",
+        answer:
+          "Your participation directly supports ongoing marine conservation projects in Palawan. Funds from the tour help finance coral restoration, sea turtle monitoring, and community education programs. By joining us, you contribute to protecting one of the world's most biodiverse marine ecosystems while gaining a deeper understanding of the challenges and successes in conservation work.",
+      },
     ],
   },
   {
@@ -134,6 +150,16 @@ export const palawanTours: Tour[] = [
         question: "What birds might we see?",
         answer:
           "Palawan is home to numerous endemic species found nowhere else. Key species we frequently observe include the spectacular Palawan Peacock-Pheasant, Palawan Hornbill, Blue Paradise-Flycatcher, and Yellow-throated Leafbird. Our guides track recent sightings and know the territories of rare species like the Philippine Cockatoo and Palawan Scops-Owl. Even non-birders are typically amazed by the diversity and beauty of the species we encounter. We provide high-quality binoculars and spotting scopes for optimal viewing.",
+      },
+      {
+        question: "Do I need to be an experienced birdwatcher?",
+        answer:
+          "No prior birdwatching experience is required! Our tours are designed for all skill levels, from beginners to seasoned birders. Our expert guides will teach you how to identify birds by sight and sound, and we provide resources like field guides and checklists to enhance your experience. The focus is on enjoying nature and learning about Palawan's unique avifauna in a relaxed, supportive environment.",
+      },
+      {
+        question: "What should I bring for the birdwatching tour?",
+        answer:
+          "We recommend wearing comfortable, weather-appropriate clothing and sturdy walking shoes. A hat, sunglasses, and sunscreen are advisable for sun protection. Bring a refillable water bottle to stay hydrated, and a small daypack for personal items. We provide high-quality binoculars, but if you have your own, feel free to bring them. A notebook or smartphone for taking notes or photos is also useful. Our guides will provide all necessary birdwatching equipment.",
       },
     ],
   },
@@ -215,6 +241,11 @@ export const palawanTours: Tour[] = [
         question: "What amenities are available in the glamping tents?",
         answer:
           "Our luxury safari-style tents feature queen-sized beds with premium linens, solar-powered lighting, fan, private ensuite bathroom with eco-friendly shower and toilet, outdoor lounging deck with ocean views, and personal butler service. While maintaining an authentic connection to nature, we ensure comfort with thoughtful amenities including organic toiletries, plush bathrobes, a gourmet minibar, Bluetooth speakers, and charging stations for electronic devices. The experience balances luxury with environmental sustainability through our solar power system and zero-waste practices.",
+      },
+      {
+        question: "What should I bring for the stargazing experience?",
+        answer:
+          "We provide high-quality telescopes and binoculars, but you are welcome to bring your own if you have specific preferences. Dress in layers as temperatures can drop significantly at night, even in tropical climates. A light jacket or sweater is recommended. Bring a refillable water bottle, and if you have a favorite blanket or pillow for comfort while stargazing, feel free to bring those as well. Our guides will provide star maps and apps to help you identify constellations and celestial objects.",
       },
     ],
   },
