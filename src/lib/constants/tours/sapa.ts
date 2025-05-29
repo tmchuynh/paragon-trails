@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sapaTours: Tour[] = [
   {
@@ -13,13 +14,13 @@ export const sapaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Trekking", "Homestay", "Cultural Immersion"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mai Thi Hoa",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("sapa", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What are the sleeping arrangements in the homestay?",
@@ -40,12 +41,12 @@ export const sapaTours: Tour[] = [
     price: "$175",
     rating: 4.7,
     tags: ["Mountain Climbing", "Adventure", "Hiking"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Nguyen Van Thanh",
+    tourGuide: findGuideBySpecialty("sapa", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -67,13 +68,13 @@ export const sapaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Landscape", "Portraits"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Tran Minh Quang",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("sapa", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -94,12 +95,12 @@ export const sapaTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Wellness", "Traditional Medicine", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ly May Chan",
+    tourGuide: findGuideBySpecialty("sapa", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -121,12 +122,12 @@ export const sapaTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Markets", "Textiles", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lo Thi Mai",
+    tourGuide: findGuideBySpecialty("sapa", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -148,12 +149,12 @@ export const sapaTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Cycling", "Active", "Scenic"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Pham Hong",
+    tourGuide: findGuideBySpecialty("sapa", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -175,12 +176,12 @@ export const sapaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cooking", "Food", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Hang Thi Thu",
+    tourGuide: findGuideBySpecialty("sapa", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -202,12 +203,12 @@ export const sapaTours: Tour[] = [
     price: "$50",
     rating: 4.5,
     tags: ["Train Ride", "Scenic", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Le Van Phuc",
+    tourGuide: findGuideBySpecialty("sapa", "scenic").name,
     tourCategoryId: "scenic",
     faqs: [
       {

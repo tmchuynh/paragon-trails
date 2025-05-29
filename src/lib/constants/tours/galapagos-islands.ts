@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const galapagosIslandsTours: Tour[] = [
   {
@@ -12,14 +13,14 @@ export const galapagosIslandsTours: Tour[] = [
     duration: "7 days",
     price: "$3,250",
     rating: 4.9,
-    tags: ["Wildlife", "Scientific", "Island Hopping"],
- 
+    tags: ["Scientific", "Island Hopping"],
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Isabella Mendoza",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question:
@@ -46,12 +47,12 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,450",
     rating: 4.8,
     tags: ["Snorkeling", "Marine Life", "Conservation"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Carlos Jimenez, Marine Biologist",
+    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -82,14 +83,14 @@ export const galapagosIslandsTours: Tour[] = [
     duration: "8 days",
     price: "$4,195",
     rating: 4.9,
-    tags: ["Photography", "Wildlife", "Small Group"],
- 
+    tags: ["Photography", "Small Group"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Williams, National Geographic Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("galapagos islands", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -115,12 +116,12 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,850",
     rating: 4.7,
     tags: ["Geology", "Volcanoes", "Hiking"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Eduardo Sanchez, Volcanologist",
+    tourGuide: findGuideBySpecialty("galapagos islands", "historical").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -147,13 +148,13 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,995",
     rating: 4.9,
     tags: ["Family", "Educational", "Wildlife"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maria Lopez & Junior Naturalist Team",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("galapagos islands", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What ages is this tour appropriate for?",
@@ -179,12 +180,12 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$8,950",
     rating: 5.0,
     tags: ["Luxury", "Private Charter", "Exclusive"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Rodriguez & Naturalist Team",
+    tourGuide: findGuideBySpecialty("galapagos islands", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -211,13 +212,13 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$3,450",
     rating: 4.8,
     tags: ["Conservation", "Volunteering", "Educational"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Patricia Vega, Conservation Biologist",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("galapagos islands", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What type of conservation work will we be doing?",
@@ -242,13 +243,13 @@ export const galapagosIslandsTours: Tour[] = [
     duration: "5 days",
     price: "$2,200",
     rating: 4.9,
-    tags: ["Birdwatching", "Wildlife", "Nature"],
- 
+    tags: ["Birdwatching", "Nature"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Torres, Ornithologist",
+    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
     tourCategoryId: "birdwatching",
     faqs: [
       {

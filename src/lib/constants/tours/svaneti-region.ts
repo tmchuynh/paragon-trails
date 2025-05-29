@@ -13,7 +13,7 @@ export const svanetiRegionTours: Tour[] = [
     duration: "2 days",
     price: "$195",
     rating: 4.9,
-    tags: ["UNESCO", "Architecture", "Cultural"],
+    tags: ["Architecture", "Cultural"],
 
     isHistorical: true,
     isRomantic: false,
@@ -176,7 +176,7 @@ export const svanetiRegionTours: Tour[] = [
     duration: "3 hours",
     price: "$45",
     rating: 4.9,
-    tags: ["Music", "UNESCO", "Cultural"],
+    tags: ["Music", "Cultural"],
 
     isHistorical: true,
     isRomantic: false,

@@ -67,7 +67,7 @@ export const singaporeTours: Tour[] = [
     duration: "5 hours",
     price: "$90",
     rating: 4.7,
-    tags: ["Nature", "Wildlife", "Off-the-beaten-path"],
+    tags: ["Nature", "Off-the-beaten-path"],
 
     isHistorical: false,
     isRomantic: true,

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const glasgowTours: Tour[] = [
   {
     title: "Glasgow Music Heritage & Secret Venues",
@@ -17,7 +19,7 @@ export const glasgowTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Callum MacGregor",
+    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -49,7 +51,7 @@ export const glasgowTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Fiona Campbell",
+    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -81,7 +83,7 @@ export const glasgowTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lorna McLeod",
+    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -113,7 +115,7 @@ export const glasgowTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Jamie Sinclair",
+    tourGuide: findGuideBySpecialty("glasgow", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

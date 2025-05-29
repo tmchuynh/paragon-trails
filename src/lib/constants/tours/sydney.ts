@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sydneyTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const sydneyTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Architecture", "Performing Arts", "VIP Access"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Oliver Smith",
+    tourGuide: findGuideBySpecialty("sydney", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -40,12 +41,12 @@ export const sydneyTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Beaches", "Hiking", "Swimming"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Liam O'Connor",
+    tourGuide: findGuideBySpecialty("sydney", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -72,12 +73,12 @@ export const sydneyTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Food & Drink", "History", "Local Culture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Emma Johnson",
+    tourGuide: findGuideBySpecialty("sydney", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

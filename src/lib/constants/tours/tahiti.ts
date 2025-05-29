@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const tahitiTours: Tour[] = [
   {
     title: "Sacred Tahitian Waterfall Adventure",
@@ -12,12 +14,12 @@ export const tahitiTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Nature", "Waterfalls", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Tehani Marama",
+    tourGuide: findGuideBySpecialty("tahiti", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const tahitiTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Pearls", "Crafts", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Heirani Tehei",
+    tourGuide: findGuideBySpecialty("tahiti", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const tahitiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Sunset", "Cruise", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Matahi Tereora",
+    tourGuide: findGuideBySpecialty("tahiti", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

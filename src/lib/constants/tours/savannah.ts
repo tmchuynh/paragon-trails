@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const savannahTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const savannahTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["History", "Architecture", "Gardens"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Elizabeth Montgomery",
+    tourGuide: findGuideBySpecialty("savannah", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -40,13 +41,13 @@ export const savannahTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Cemetery", "Photography", "Gothic"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jonathan Mercer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("savannah", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "Is this a ghost tour?",
@@ -67,12 +68,12 @@ export const savannahTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cruise", "Dinner", "Views"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Captain James Rivers",
+    tourGuide: findGuideBySpecialty("savannah", "cruise").name,
     tourCategoryId: "cruise",
     faqs: [
       {

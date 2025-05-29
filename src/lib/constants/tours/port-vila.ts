@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const portVilaTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const portVilaTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Waterfall", "Nature", "Swimming"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "John Kaltap",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -55,12 +56,12 @@ export const portVilaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cultural", "Village Life", "Traditional"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chief Tariq",
+    tourGuide: findGuideBySpecialty("port-vila", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -97,12 +98,12 @@ export const portVilaTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Snorkeling", "Lagoon", "Picnic"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marie Touliu",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -140,12 +141,12 @@ export const portVilaTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sunset", "Dinner", "Cruise"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Michael",
+    tourGuide: findGuideBySpecialty("port-vila", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -183,12 +184,12 @@ export const portVilaTours: Tour[] = [
     price: "$395",
     rating: 4.9,
     tags: ["Volcano", "Adventure", "Natural Wonder"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "James Nakat",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -226,13 +227,13 @@ export const portVilaTours: Tour[] = [
     price: "$175",
     rating: 4.8,
     tags: ["Diving", "Conservation", "Marine Biology"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Lisa Chen, Marine Biologist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question:
@@ -270,12 +271,12 @@ export const portVilaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Caving", "Adventure", "Trekking"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Tom Seru and Village Guides",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -314,12 +315,12 @@ export const portVilaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Historical", "WWII", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Alan Thompson, Military Historian",
+    tourGuide: findGuideBySpecialty("port-vila", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -357,12 +358,12 @@ export const portVilaTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Cultural", "Traditional", "Local Experience"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chief Mael & Village Healers",
+    tourGuide: findGuideBySpecialty("port-vila", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -399,12 +400,12 @@ export const portVilaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["4WD", "Island Tour", "Adventure"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "James Wilson",
+    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {

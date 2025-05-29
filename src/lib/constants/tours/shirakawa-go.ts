@@ -175,7 +175,7 @@ export const shirakawaGoTours: Tour[] = [
     duration: "Full day",
     price: "$135",
     rating: 4.8,
-    tags: ["Day Trip", "UNESCO", "Cultural"],
+    tags: ["Day Trip", "Cultural"],
 
     isHistorical: true,
     isRomantic: false,
