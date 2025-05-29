@@ -14,7 +14,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "historical", "viewpoint"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["educational", "cultural", "viewpoint"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "cultural", "educational"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -79,7 +79,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["outdoor", "recreation", "family"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -101,7 +101,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "audio guides available"],
     isPopular: true,
 
@@ -123,7 +123,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["outdoor", "beach", "recreation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -145,7 +145,7 @@ export const losAngelesCaUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["shopping", "luxury", "cultural"],
+    tags: ["luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

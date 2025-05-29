@@ -14,7 +14,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "cultural", "art"],
+    tags: ["spiritual", "cultural", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -54,7 +54,7 @@ export const maltaSouthernEuropeMalta: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["natural", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 

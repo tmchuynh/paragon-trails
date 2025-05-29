@@ -13,7 +13,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "food"],
+    tags: ["cultural", "historical", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -33,7 +33,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "cultural", "architecture"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -53,7 +53,7 @@ export const marrakechMarrakechSafiMorocco: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["natural", "scenic", "cultural"],
+    tags: ["romantic", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

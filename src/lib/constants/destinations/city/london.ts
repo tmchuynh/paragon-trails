@@ -14,7 +14,7 @@ export const londonGreaterLondonUnitedKingdom: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "educational"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const londonGreaterLondonUnitedKingdom: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["outdoor", "recreation", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

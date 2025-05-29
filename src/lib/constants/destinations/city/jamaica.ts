@@ -9,7 +9,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.8,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fER1bm4ncyUyMFJpdmVyJTIwRmFsbHN8ZW58MHx8MHx8fDA%3D",
-    tags: ["Waterfall", "Natural Wonder", "Adventure", "Tropical"],
+    tags: ["Adventure"],
     accessibilityFeatures: [
       "Alternative Viewing Platforms",
       "Guides Available",
@@ -44,7 +44,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://images.unsplash.com/photo-1564407361985-1696781a2a09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Qm9iJTIwTWFybGV5JTIwTXVzZXVtfGVufDB8fDB8fHww",
-    tags: ["Museum", "Music", "Cultural Heritage", "Reggae"],
+    tags: ["historical", "Cultural"],
     accessibilityFeatures: ["Ground Floor Accessible", "Guided Tours"],
     openingHours: "9:30 AM - 4:00 PM, Monday-Saturday",
     entryFee: "$25 for adults, $12 for children",
@@ -68,7 +68,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.9,
     imageUrl:
       "https://images.unsplash.com/photo-1661437546744-d7fe2817cf34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE5lZ3JpbCUyMFNldmVuJTIwTWlsZSUyMEJlYWNofGVufDB8fDB8fHww",
-    tags: ["Beach", "Water Sports", "Sunset Views", "Nightlife"],
+    tags: ["Nightlife"],
     accessibilityFeatures: [
       "Beach Wheelchairs at Some Resorts",
       "Accessible Beachfront Facilities",
@@ -98,7 +98,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1738924349706-14d70715e236?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmx1ZSUyMEhvbGUlMjBPY2hvJTIwUmlvcyUyQyUyMEphbWFpY2F8ZW58MHx8MHx8fDA%3D",
-    tags: ["Natural Pool", "Waterfall", "Adventure", "Swimming"],
+    tags: ["Natural Pool", "Swimming"],
     accessibilityFeatures: ["Guides Available", "Some Viewing Areas"],
     openingHours: "9:00 AM - 5:00 PM, Daily",
     entryFee: "$15-20",
@@ -125,7 +125,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFBvcnQlMjBBbnRvbmlvJTIwSmFtYWljYXxlbnwwfHwwfHx8MA%3D%3D",
-    tags: ["Coastal Town", "Beaches", "Rainforest", "Culture"],
+    tags: ["Culture"],
     accessibilityFeatures: ["Some Accessible Areas", "Guided Tours Available"],
     openingHours: "Open 24/7 (specific attractions may vary)",
     entryFee: "Varies by attraction",
@@ -158,7 +158,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEFwcGxldG9uJTIwRXN0YXRlJTIwUmVnaW9uJTIwRHVzdGVyaWVzfGVufDB8fDB8fDA%3D",
-    tags: ["Rum Distillery", "Cultural Heritage", "Tasting", "History"],
+    tags: ["culinary", "Cultural", "nightlife", "historical"],
     accessibilityFeatures: ["Guided Tours Available", "Some Accessible Areas"],
     openingHours: "9:00 AM - 5:00 PM, Monday-Saturday",
     entryFee: "$30 for adults, $15 for children",
@@ -182,7 +182,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.8,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE15c3RpYyUyME1vdW50YWluJTIwQWR2ZW50dXJlJTIwUGFya3xlbnwwfHwwfHx8MA%3D%3D",
-    tags: ["Adventure Park", "Zip-lining", "Bobsledding", "Nature"],
+    tags: ["adventure"],
     accessibilityFeatures: ["Some Accessible Areas", "Guided Tours Available"],
     openingHours: "9:00 AM - 5:00 PM, Daily",
     entryFee: "$79 for adults, $49 for children",
@@ -207,7 +207,7 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFRyZWFzdXJlJTIwQmVhY2glMjBKYW1haWNhfGVufDB8fDB8fDA%3D",
-    tags: ["Fishing Village", "Beaches", "Art Galleries", "Culture"],
+    tags: ["art-and-music", "Culture"],
     accessibilityFeatures: ["Some Accessible Areas", "Guided Tours Available"],
     openingHours: "Open 24/7 (specific attractions may vary)",
     entryFee: "Varies by attraction",
@@ -236,14 +236,14 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://images.unsplash.com/photo-1698578038702-87e41bfc6788?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEx1bWlub3VzJTIwTGFnb29ufGVufDB8fDB8fDA%3D",
-    tags: ["Bioluminescent Lagoon", "Night Tour", "Swimming", "Nature"],
+    tags: ["local", "nightlife", "adventure"],
     accessibilityFeatures: ["Guided Tours Available", "Some Accessible Areas"],
     openingHours: "6:00 PM - 10:00 PM, Daily",
     entryFee: "$25 for adults, $15 for children",
     priceCategory: "budget",
     priceRange: "$$",
     entryFeeCategory: "budget",
-    timeOfDay: "nighttime",
+    timeOfDay: "night",
 
     isPetFriendly: false,
     isFree: false,
