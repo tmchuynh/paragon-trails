@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import {
   Accordion,
   AccordionContent,
@@ -62,11 +63,7 @@ export default function TourPage() {
   }, [city, tourName]);
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="border-primary border-t-2 border-b-2 rounded-full w-16 h-16 animate-spin"></div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!tour) {

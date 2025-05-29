@@ -1,5 +1,7 @@
 "use client";
 
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cityattractions } from "@/lib/constants/destinations/city";
@@ -47,11 +49,7 @@ export default function TourPage() {
   console.log("City Info:", cityInfo);
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="border-primary border-t-2 border-b-2 rounded-full w-16 h-16 animate-spin"></div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (tours.length === 0) {
@@ -59,9 +57,10 @@ export default function TourPage() {
       <div className="flex flex-col justify-center items-center p-8 min-h-screen">
         <h1 className="mb-4 font-bold text-3xl">No Tours Available</h1>
         <p className="max-w-2xl text-center text-lg">
-          We're currently developing tour options for this destination. Please
-          check back soon or contact us for custom tour arrangements.
+          We're currently developing tour options for {city}. Please check back
+          soon or contact us for custom tour arrangements.
         </p>
+        <ContactDepartmentCard department="Custom Tour Arrangements" />
       </div>
     );
   }
@@ -77,75 +76,81 @@ export default function TourPage() {
         <blockquote>{cityInfo?.quote}</blockquote>
       </header>
 
+      <section>
+        <ContactDepartmentCard department="Concierge Services" />
+      </section>
+
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {tours.map((tour, index) => (
           <div
             key={index}
-            className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg transition-shadow overflow-hidden"
+            className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg h-full transition-shadow overflow-hidden"
           >
-            <div className="relative h-64">
-              <Image
-                src={tour.images[0]}
-                alt={tour.title}
-                fill
-                className="object-cover"
-              />
-              <Badge
-                variant={"outline"}
-                className="top-4 right-4 absolute uppercase"
-              >
-                {tour.tourCategoryId}
-              </Badge>
-            </div>
-            <div className="p-6">
-              <div className="flex flex-col justify-between items-start mb-2">
-                <h2>{tour.title}</h2>
-                {displayRatingStars(tour.rating)}
-              </div>
-
-              <p className="mb-4">{tour.description}</p>
-
-              <div className="flex flex-wrap gap-2 mb-4">
-                {tour.tags?.map((tag, i) => (
-                  <Badge size={"lg"} variant={"secondary"} key={i}>
-                    {tag}
+            <div className="flex flex-col justify-between h-full">
+              <div>
+                <div className="relative h-64">
+                  <Image
+                    src={tour.images[0]}
+                    alt={tour.title}
+                    fill
+                    className="object-cover"
+                  />
+                  <Badge
+                    variant={"outline"}
+                    className="top-4 right-4 absolute uppercase"
+                  >
+                    {tour.tourCategoryId}
                   </Badge>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center mt-4">
-                <div className="space-y-2">
-                  <h5 className="text-tertiary">
-                    <strong className="text-foreground">Duration:</strong>{" "}
-                    {tour.duration}
-                  </h5>
-                  <h5 className="text-tertiary">
-                    <strong className="text-foreground">Guide:</strong>{" "}
-                    {tour.tourGuide}
-                  </h5>
                 </div>
-                <h2>{tour.price}</h2>
+                <div className="px-6">
+                  <div className="flex flex-col justify-between items-start mb-2">
+                    <h2>{tour.title}</h2>
+                    {displayRatingStars(tour.rating)}
+                  </div>
+                  <p className="mb-4">{tour.description}</p>
+                </div>
               </div>
 
-              <Button
-                onClick={() => {
-                  const queryParams = new URLSearchParams({
-                    city: city,
-                    country: country,
-                    tour: tour.title,
-                    tourCategoryId: tour.tourCategoryId,
-                  });
+              <div className="flex flex-col justify-between mb-7 px-6">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {tour.tags?.map((tag, i) => (
+                    <Badge size={"lg"} variant={"secondary"} key={i}>
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+                <div className="flex justify-between items-center my-4">
+                  <div className="space-y-2">
+                    <h5 className="text-tertiary">
+                      <strong className="text-foreground">Duration:</strong>{" "}
+                      {tour.duration}
+                    </h5>
+                    <h5 className="text-tertiary">
+                      <strong className="text-foreground">Guide:</strong>{" "}
+                      {tour.tourGuide}
+                    </h5>
+                  </div>
+                  <h2>{tour.price}</h2>
+                </div>
+                <Button
+                  onClick={() => {
+                    const queryParams = new URLSearchParams({
+                      city: city,
+                      country: country,
+                      tour: tour.title,
+                      tourCategoryId: tour.tourCategoryId,
+                    });
 
-                  router.push(
-                    `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
-                      tour.title
-                    )}?${queryParams.toString()}`
-                  );
-                }}
-                className="mt-4 w-full"
-              >
-                View Details
-              </Button>
+                    router.push(
+                      `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
+                        tour.title
+                      )}?${queryParams.toString()}`
+                    );
+                  }}
+                >
+                  View Details
+                </Button>
+              </div>
             </div>
           </div>
         ))}
