@@ -54,6 +54,70 @@ export const shanghaiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Shanghai Art & Culture: M50 Creative Park Tour",
+    description:
+      "Explore Shanghai's vibrant contemporary art scene at M50 Creative Park, visiting artist studios, galleries, and exhibitions with a local art curator who provides insights into the city's creative evolution.",
+    images: [
+      "/images/tours/shanghai/m50-creative-park.jpg",
+      "/images/tours/shanghai/contemporary-art.jpg",
+    ],
+    duration: "3 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Contemporary"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Wang Li",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Are there any entry fees for galleries?",
+        answer:
+          "Most galleries in M50 Creative Park are free to enter, but some special exhibitions may have a small admission fee. We will inform you of any costs in advance.",
+      },
+      {
+        question: "Can we purchase artworks directly from artists?",
+        answer:
+          "Yes, many artists welcome direct sales and commissions. The tour guide can assist with introductions and negotiations if you're interested in purchasing artwork.",
+      },
+    ],
+  },
+  {
+    title: "Shanghai Night Lights: Huangpu River Cruise",
+    description:
+      "Experience the magic of Shanghai at night with a scenic Huangpu River cruise, taking in the illuminated skyline and historic Bund while enjoying live music and local snacks on board.",
+    images: [
+      "/images/tours/shanghai/huangpu-river-cruise.jpg",
+      "/images/tours/shanghai/bund-night.jpg",
+    ],
+    duration: "2 hours",
+    price: "$50",
+    rating: 4.6,
+    tags: ["Nightlife", "Cruise", "Views"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Zhao Ming",
+    tourCategoryId: "cruise",
+    faqs: [
+      {
+        question: "What snacks are included on the cruise?",
+        answer:
+          "The cruise includes a selection of local snacks such as spring rolls, dumplings, and sweet buns, along with complimentary tea and soft drinks. Alcoholic beverages are available for purchase on board.",
+      },
+      {
+        question: "Is the cruise suitable for children?",
+        answer:
+          "Yes, the cruise is family-friendly and children will enjoy the views and entertainment. There are no age restrictions, but parents should supervise young children near the railings.",
+      },
+    ],
+  },
 ];
 
 export default shanghaiTours;

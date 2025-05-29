@@ -56,6 +56,38 @@ export const udaipurTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Udaipur Culinary Heritage Tour",
+    description:
+      "Savor the flavors of Udaipur with a guided culinary journey through local markets, cooking classes in traditional havelis, and tastings of royal recipes passed down through generations.",
+    images: [
+      "/images/tours/udaipur/culinary-tour.jpg",
+      "/images/tours/udaipur/cooking-class.jpg",
+    ],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Culinary", "Food", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Chef Anjali Rathore",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of dishes will we learn to cook?",
+        answer:
+          "You'll learn to prepare traditional Rajasthani dishes such as Dal Baati Churma, Gatte ki Sabzi, and Laal Maas, along with vegetarian options. The class is hands-on, allowing you to experience the techniques and flavors of local cuisine firsthand. We also include a visit to the spice market to select fresh ingredients.",
+      },
+      {
+        question: "Do I need prior cooking experience?",
+        answer:
+          "No prior cooking experience is necessary! The class is designed for all skill levels, and our chef will guide you through each step of the process. You'll leave with new skills and recipes to recreate at home.",
+      },
+    ],
+  },
 ];
 
 export default udaipurTours;

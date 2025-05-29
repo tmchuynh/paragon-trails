@@ -217,6 +217,33 @@ export const shirakawaGoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Shirakawa-go Nature Walks & Birdwatching",
+    description:
+      "Explore the stunning natural landscapes surrounding Shirakawa-go with a guided nature walk focusing on local flora and fauna. Ideal for birdwatchers, this tour takes you through diverse habitats where you can spot endemic species and learn about the region's ecology.",
+    images: [
+      "/images/tours/shirakawa-go/nature-walk.jpg",
+      "/images/tours/shirakawa-go/birdwatching.jpg",
+    ],
+    duration: "4 hours",
+    price: "$80",
+    rating: 4.7,
+    tags: ["Nature", "Birdwatching", "Ecology"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Fujimoto Rina",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What kind of birds can we expect to see?",
+        answer:
+          "Depending on the season, you may spot Japanese white eyes, Japanese thrushes, Japanese grosbeaks, and various migratory species.  The area is also home to many endemic plants and trees, including the iconic Japanese cedar. Our guide will provide binoculars and field guides, and share insights into the local ecosystem, conservation efforts, and the importance of these habitats to Shirakawa-go's cultural heritage.",
+      },
+    ],
+  },
 ];
 
 export default shirakawaGoTours;
