@@ -1,12 +1,22 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { aircraftSelectionGuide } from "@/lib/constants/services/transportation/aircrafts";
 import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
 export default function Aircrafts() {
+  const [showFilters, setShowFilters] = useState(false);
   // Filter states
   const [passengerFilter, setPassengerFilter] = useState<number | null>(null);
   const [priceFilter, setPriceFilter] = useState<number | null>(null);
@@ -94,9 +104,8 @@ export default function Aircrafts() {
     .filter((category) => category.models.length > 0);
 
   // Handle filter changes
-  const handlePassengerChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value === "" ? null : parseInt(e.target.value, 10);
-    setPassengerFilter(value);
+  const handlePassengerChange = (value: string) => {
+    setPassengerFilter(value === "any" ? null : parseInt(value, 10));
   };
 
   const handlePriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -147,117 +156,157 @@ export default function Aircrafts() {
       </header>
 
       {/* Filter Section */}
-      <div className="bg-gray-50 dark:bg-gray-800 shadow mb-8 p-6 rounded-lg">
-        <h2 className="mb-4">Filter Aircraft</h2>
-
-        <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          {/* Passenger Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Minimum Passengers</strong>
-            </Label>
-            <select
-              className="p-2 border rounded w-full"
-              value={passengerFilter || ""}
-              onChange={handlePassengerChange}
-            >
-              <option value="">Any</option>
-              {Array.from(
-                { length: Math.ceil(maxPassengers / 5) },
-                (_, i) => (i + 1) * 5
-              )
-                .filter((num) => num <= maxPassengers)
-                .concat(maxPassengers % 5 !== 0 ? [maxPassengers] : [])
-                .sort((a, b) => a - b)
-                .map((num) => (
-                  <option key={num} value={num}>
-                    {num}+ Passengers
-                  </option>
-                ))}
-            </select>
-          </div>
-
-          {/* Price Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Maximum Price per Hour (USD)</strong>
-            </Label>
-            <input
-              type="range"
-              min="0"
-              max={maxPrice}
-              step="1000"
-              className="w-full"
-              value={priceFilter || maxPrice}
-              onChange={handlePriceChange}
-            />
-            <div className="flex justify-between">
-              <span>$0</span>
-              <span>
-                $
-                {priceFilter
-                  ? priceFilter.toLocaleString()
-                  : maxPrice.toLocaleString()}
-              </span>
-            </div>
-          </div>
-
-          {/* Feature Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Key Features</strong>
-            </Label>
-            <div className="p-2 border rounded max-h-40 overflow-y-auto">
-              {Array.from(allFeatures).map((feature, i) => (
-                <div key={i} className="flex items-center mb-1">
-                  <input
-                    type="checkbox"
-                    id={`feature-${i}`}
-                    checked={selectedFeatures.includes(feature)}
-                    onChange={() => handleFeatureChange(feature)}
-                    className="mr-2"
-                  />
-                  <Label htmlFor={`feature-${i}`} className="text-sm">
-                    {capitalize(
-                      feature
-                        .replace(/([A-Z])/g, " $1")
-                        .replace(/([A-Z][a-z])/g, " $1")
-                    )}
-                  </Label>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Interior Feature Filter */}
-          <div>
-            <Label className="block mb-2">
-              <strong>Interior Features</strong>
-            </Label>
-            <div className="p-2 border rounded max-h-40 overflow-y-auto">
-              {Array.from(allInteriorFeatures).map((feature, i) => (
-                <div key={i} className="flex items-center mb-1">
-                  <input
-                    type="checkbox"
-                    id={`interior-${i}`}
-                    checked={selectedInteriorFeatures.includes(feature)}
-                    onChange={() => handleInteriorFeatureChange(feature)}
-                    className="mr-2"
-                  />
-                  <Label htmlFor={`interior-${i}`} className="text-sm">
-                    {capitalize(feature)}
-                  </Label>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="text-right mt-4">
-          <Button variant={"destructive"} onClick={resetFilters}>
-            Reset Filters
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <h2>Filter Aircraft</h2>
+          <Button
+            onClick={() => setShowFilters(!showFilters)}
+            variant="icon"
+            size={"sm"}
+            className="flex items-center gap-2"
+          >
+            <FaFilter />
           </Button>
         </div>
+
+        {showFilters && (
+          <Card>
+            <CardContent>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4">
+                <div className="gap-9 grid">
+                  {/* Passenger Filter */}
+                  <div>
+                    <Label className="block mb-2">
+                      <strong>Minimum Passengers</strong>
+                    </Label>
+                    <Select
+                      value={passengerFilter?.toString() || "any"}
+                      onValueChange={handlePassengerChange}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue placeholder="Any" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="any">Any</SelectItem>
+                        {Array.from(
+                          { length: Math.ceil(maxPassengers / 5) },
+                          (_, i) => (i + 1) * 5
+                        )
+                          .filter((num) => num <= maxPassengers)
+                          .concat(
+                            maxPassengers % 5 !== 0 ? [maxPassengers] : []
+                          )
+                          .sort((a, b) => a - b)
+                          .map((num) => (
+                            <SelectItem key={num} value={num.toString()}>
+                              {num}+ Passengers
+                            </SelectItem>
+                          ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  {/* Price Filter */}
+                  <div>
+                    <Label className="block mb-2">
+                      <strong>Maximum Price per Hour (USD)</strong>
+                    </Label>
+                    <input
+                      type="range"
+                      min="0"
+                      max={maxPrice}
+                      step="1000"
+                      className="w-full"
+                      value={priceFilter || maxPrice}
+                      onChange={handlePriceChange}
+                    />
+                    <div className="flex justify-between">
+                      <span>$0</span>
+                      <span>
+                        $
+                        {priceFilter
+                          ? priceFilter.toLocaleString()
+                          : maxPrice.toLocaleString()}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Feature Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Key Features</strong>
+                  </Label>
+                  <div className="p-2 border rounded max-h-40 overflow-y-auto">
+                    {Array.from(allFeatures).map((feature, i) => (
+                      <div key={i} className="flex items-center mb-1">
+                        <input
+                          type="checkbox"
+                          id={`feature-${i}`}
+                          checked={selectedFeatures.includes(feature)}
+                          onChange={() => handleFeatureChange(feature)}
+                          className="mr-2"
+                        />
+                        <Label htmlFor={`feature-${i}`} className="text-sm">
+                          {capitalize(
+                            feature
+                              .replace(/([A-Z])/g, " $1")
+                              .replace(/([A-Z][a-z])/g, " $1")
+                          )}
+                        </Label>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Interior Feature Filter */}
+                <div>
+                  <Label className="block mb-2">
+                    <strong>Interior Features</strong>
+                  </Label>
+                  <div className="p-2 border rounded max-h-40 overflow-y-auto">
+                    {Array.from(allInteriorFeatures).map((feature, i) => (
+                      <div key={i} className="flex items-center mb-1">
+                        <input
+                          type="checkbox"
+                          id={`interior-${i}`}
+                          checked={selectedInteriorFeatures.includes(feature)}
+                          onChange={() => handleInteriorFeatureChange(feature)}
+                          className="mr-2"
+                        />
+                        <Label htmlFor={`interior-${i}`} className="text-sm">
+                          {capitalize(feature)}
+                        </Label>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex justify-between items-end mt-6">
+                <div className="flex items-center text-muted-foreground text-sm">
+                  Showing{" "}
+                  {filteredCategories.reduce(
+                    (total, category) => total + category.models.length,
+                    0
+                  )}{" "}
+                  of{" "}
+                  {aircraftSelectionGuide.reduce(
+                    (total, category) => total + category.models.length,
+                    0
+                  )}{" "}
+                  vehicles
+                </div>
+                <Button
+                  variant="destructive"
+                  onClick={resetFilters}
+                  className="mr-2"
+                >
+                  Reset Filters
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
       </div>
 
       {/* Aircraft Categories */}
