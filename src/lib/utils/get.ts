@@ -56,19 +56,28 @@ export async function getCityAttractions(
   region: string,
   country: string
 ): Promise<any> {
-  // Format city name to camelCase (starts with lowercase)
-  const cityFormatted =
-    removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
-    formatTitleToCamelCase(city.slice(1)).replace("'", "");
+  // Format city name for file path using slug format
+  const citySlug = formatToSlug(city);
 
-  // Format region and country with capital first letter
+  // Format city name for variable name (camelCase starting with lowercase)
+  const cityFormatted =
+    removeAccents(city).charAt(0).toLowerCase() +
+    formatTitleToCamelCase(removeAccents(city).slice(1)).replace(/['\-]/g, "");
+
+  // Format region and country (camelCase starting with uppercase)
   const regionFormatted =
     removeAccents(region).charAt(0).toUpperCase() +
-    formatTitleToCamelCase(region.slice(1)).replace("'", "");
+    formatTitleToCamelCase(removeAccents(region).slice(1)).replace(
+      /['\-]/g,
+      ""
+    );
 
   const countryFormatted =
     removeAccents(country).charAt(0).toUpperCase() +
-    formatTitleToCamelCase(country.slice(1)).replace("'", "");
+    formatTitleToCamelCase(removeAccents(country).slice(1)).replace(
+      /['\-]/g,
+      ""
+    );
 
   // Combine properly formatted parts
   const cityRegionCountry = `${cityFormatted}${regionFormatted}${countryFormatted}`;
@@ -111,17 +120,16 @@ export function findOriginalCityName(slug: string): string | null {
   return null;
 }
 
-
 /**
  * Finds a tour guide by city and specialty.
- * 
+ *
  * @param city - The city where the tour guide operates
  * @param specialty - The specialty to look for in the tour guide's skills
  * @returns A matching TourGuide object based on the following priority:
  *   1. A random guide from the specified city with the matching specialty
  *   2. If no specialty match, a random guide from the specified city
  *   3. If no city match, a default generic tour guide object
- * 
+ *
  * @remarks
  * The function performs case-insensitive matching for both city and specialty.
  * When multiple guides match the criteria, one is randomly selected using the Fisher-Yates shuffle algorithm.
