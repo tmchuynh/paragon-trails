@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const xiAnTours: Tour[] = [
   {
     title: "Terracotta Army & Emperor's Tomb VIP Access",
@@ -17,7 +19,7 @@ export const xiAnTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Li Wei",
+    tourGuide: findGuideBySpecialty("xi-an", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const xiAnTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Zhang Min",
+    tourGuide: findGuideBySpecialty("xi-an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const xiAnTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Liu Fang",
+    tourGuide: findGuideBySpecialty("xi-an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

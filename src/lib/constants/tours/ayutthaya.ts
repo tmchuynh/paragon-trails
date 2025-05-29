@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const ayutthayaTours: Tour[] = [
   {
@@ -12,13 +13,13 @@ export const ayutthayaTours: Tour[] = [
     duration: "Full day",
     price: "$115",
     rating: 4.9,
-    tags: ["UNESCO", "Temples", "History"],
+    tags: ["Temples", "History"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Supachai Vongspootorn",
+    tourGuide: findGuideBySpecialty("ayutthaya", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -55,7 +56,7 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Noppadol 'Sam' Sirirat",
+    tourGuide: findGuideBySpecialty("ayutthaya", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -92,8 +93,8 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sirinya Panthong",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("ayutthaya", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What is the best camera equipment to bring?",
@@ -129,7 +130,7 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Kanchana",
+    tourGuide: findGuideBySpecialty("ayutthaya", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -165,14 +166,14 @@ export const ayutthayaTours: Tour[] = [
     duration: "Full day",
     price: "$145",
     rating: 4.8,
-    tags: ["Elephants", "Wildlife", "Conservation"],
+    tags: ["Elephants", "Conservation"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Khun Chai & Elephant Conservation Team",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("ayutthaya", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Is this an ethical elephant experience?",

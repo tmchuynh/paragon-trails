@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 export const baliTours: Tour[] = [
   {
     title: "Sacred Temples & Water Purification Ceremony",
@@ -17,7 +18,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Made Arjana",
+    tourGuide: findGuideBySpecialty("austin", "wellness").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -66,7 +67,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nyoman Sukadana",
+    tourGuide: findGuideBySpecialty("austin", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -113,8 +114,8 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ketut Wayan",
-    tourCategoryId: "leisure",
+    tourGuide: findGuideBySpecialty("austin", "local").name,
+    tourCategoryId: "romantic",
     faqs: [
       {
         question: "What should I bring for the beach and cruise?",
@@ -155,7 +156,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "I Made Sudana",
+    tourGuide: findGuideBySpecialty("austin", "wellness").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -197,7 +198,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sari Dewi",
+    tourGuide: findGuideBySpecialty("austin", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

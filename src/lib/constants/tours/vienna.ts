@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const viennaTours: Tour[] = [
   {
     title: "Classical Vienna & Private Concert",
@@ -17,7 +19,7 @@ export const viennaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elise Mueller",
+    tourGuide: findGuideBySpecialty("vienna", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const viennaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Franz Huber",
+    tourGuide: findGuideBySpecialty("vienna", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const viennaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Anna Schuster",
+    tourGuide: findGuideBySpecialty("vienna", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

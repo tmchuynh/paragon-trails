@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const atlantaTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Marcus Johnson",
+    tourGuide: findGuideBySpecialty("atlanta", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -65,7 +66,7 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sandra Mitchell",
+    tourGuide: findGuideBySpecialty("atlanta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -107,7 +108,7 @@ export const atlantaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Darius Williams",
+    tourGuide: findGuideBySpecialty("atlanta", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -144,7 +145,7 @@ export const atlantaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Elena Rodriguez",
+    tourGuide: findGuideBySpecialty("atlanta", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -181,7 +182,7 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "DJ Tron",
+    tourGuide: findGuideBySpecialty("atlanta", "music").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const atlasMountainsTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ibrahim Ouazzani",
+    tourGuide: findGuideBySpecialty("atlas mountains", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -80,7 +81,7 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Hassan Ait Brahim",
+    tourGuide: findGuideBySpecialty("atlas mountains", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -122,8 +123,8 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jean-Michel Laurent",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("atlas mountains", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -164,7 +165,7 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sofia Belkacem",
+    tourGuide: findGuideBySpecialty("atlas mountains", "wellness").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -201,7 +202,7 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Fatima Ourika",
+    tourGuide: findGuideBySpecialty("atlas mountains", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

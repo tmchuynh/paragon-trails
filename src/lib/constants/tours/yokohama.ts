@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const yokohamaTours: Tour[] = [
   {
     title: "Yokohama Bay Skyline Night Photography",
@@ -17,7 +19,7 @@ export const yokohamaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Yuki Tanigawa",
+    tourGuide: findGuideBySpecialty("yokohama", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const yokohamaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lin Chen",
+    tourGuide: findGuideBySpecialty("yokohama", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const yokohamaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Haruto Sato",
+    tourGuide: findGuideBySpecialty("yokohama", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
