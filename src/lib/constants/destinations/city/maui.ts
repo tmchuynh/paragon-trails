@@ -14,7 +14,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["national park", "hiking", "sunrise", "nature", "volcano"],
+    tags: ["national park", "sunrise", "volcano"],
     accessibilityFeatures: ["accessible parking", "accessible visitor center"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["scenic drive", "waterfalls", "nature", "beaches", "rainforest"],
+    tags: ["waterfalls"],
 
     isFree: true,
     isPetFriendly: true,
@@ -73,7 +73,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["snorkeling", "diving", "marine life", "boat tours", "wildlife"],
+    tags: ["adventure", "boat tours", "wildlife"],
     isPopular: true,
 
     isFree: false,
@@ -99,13 +99,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: [
-      "black sand beach",
-      "hiking",
-      "sea caves",
-      "natural pools",
-      "coastal trails",
-    ],
+    tags: ["adventure", "wellness", "local"],
     isPopular: true,
 
     isFree: false,
@@ -130,7 +124,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historic", "shopping", "dining", "art galleries", "cultural"],
+    tags: ["historical", "culinary", "art-and-music", "cultural"],
     accessibilityFeatures: [
       "accessible sidewalks",
       "accessible restaurants and shops",
@@ -160,7 +154,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["beach", "swimming", "snorkeling", "sunset", "cliff diving"],
+    tags: ["adventure", "local"],
     isPopular: true,
 
     isFree: true,
@@ -188,13 +182,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: [
-      "scenic views",
-      "hiking",
-      "historical site",
-      "rainforest",
-      "cultural",
-    ],
+    tags: ["adventure", "historical", "cultural"],
     isPopular: true,
 
     isFree: false,
@@ -221,13 +209,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: [
-      "aquarium",
-      "marine life",
-      "educational",
-      "family-friendly",
-      "indoor activity",
-    ],
+    tags: ["local"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "accessible restrooms",
@@ -260,13 +242,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: [
-      "natural wonder",
-      "scenic views",
-      "coastal",
-      "photography",
-      "hiking",
-    ],
+    tags: ["art-and-music", "adventure"],
 
     isFree: true,
     isPetFriendly: true,
@@ -292,7 +268,7 @@ export const mauiHiUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["plantation", "farm", "zip line", "dining", "shopping"],
+    tags: ["plantation", "farm", "zip line", "culinary"],
     accessibilityFeatures: [
       "wheelchair accessible grounds",
       "accessible restrooms",

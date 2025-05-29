@@ -14,7 +14,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "scenic", "cultural"],
+    tags: ["romantic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "shopping", "food"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "wildlife", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "agriculture", "scenic"],
+    tags: ["cultural", "agriculture", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "food", "urban"],
+    tags: ["cultural", "culinary", "urban"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "cultural", "architecture"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -139,7 +139,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "cruise", "exclusive"],
+    tags: ["luxury", "cruise", "local"],
     accessibilityFeatures: ["elevator access", "assistance available"],
     isPopular: false,
 
