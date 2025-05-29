@@ -34,38 +34,6 @@ export const mekongDeltaTours: Tour[] = [
     ],
   },
   {
-    title: "Mekong Delta Homestay & Village Life",
-    description:
-      "Immerse yourself in authentic Delta life with an overnight stay in a family home along the river. Join in daily activities like fishing, cooking, and gardening while learning about generations of river traditions firsthand from your welcoming host family.",
-    images: [
-      "/images/tours/mekong-delta/homestay-house.jpg",
-      "/images/tours/mekong-delta/village-life.jpg",
-    ],
-    duration: "2 days",
-    price: "$95",
-    rating: 4.9,
-    tags: ["Homestay", "Local Life", "Cultural"],
-    isFamilyFriendly: true,
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Local Host Family",
-    tourCategoryId: "local-experience",
-    faqs: [
-      {
-        question: "What are the accommodations like?",
-        answer:
-          "The homestays feature private rooms in traditional wooden houses with mosquito nets, fans, and simple but clean facilities. Bathrooms typically have Western toilets and shower facilities, though some are shared with the family. While not luxurious, the accommodations are comfortable, authentic, and carefully selected for cleanliness and hospitality. Meals are shared family-style, offering a wonderful opportunity to connect across cultures through the universal language of food.",
-      },
-      {
-        question: "What activities will we participate in?",
-        answer:
-          "Activities vary by family but typically include fishing with traditional nets, helping prepare meals using local ingredients, learning about rice cultivation, and exploring nearby orchards. You may also have the chance to join in local festivals or ceremonies if your visit coincides with one. The focus is on experiential learning and cultural exchange, allowing you to gain a deep understanding of daily life in the Mekong Delta.",
-      },
-    ],
-  },
-  {
     title: "Mekong Cuisine: Cooking Class & Orchard Tour",
     description:
       "Discover the distinctive flavors of Mekong Delta cuisine through a hands-on cooking class. Visit tropical fruit orchards, learn about unusual ingredients, and prepare regional specialties like caramelized fish in clay pot, rice paper rolls, and coconut candy.",
