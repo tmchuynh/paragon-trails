@@ -1,6 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
+import { Label } from "@/components/ui/label";
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
@@ -103,7 +104,9 @@ export default function LuxuriousDestinations() {
 
           <div className="flex flex-wrap gap-4">
             <div className="space-x-2">
-              <span>Sort by:</span>
+              <Label>
+                <strong>Sort by:</strong>
+              </Label>
               <select
                 className="px-3 py-1 border border-border rounded-md"
                 value={sortBy}
@@ -115,7 +118,9 @@ export default function LuxuriousDestinations() {
             </div>
 
             <div className="space-x-2">
-              <span>Popular:</span>
+              <Label>
+                <strong>Popular:</strong>
+              </Label>
               <select
                 className="px-3 py-1 border border-border rounded-md"
                 value={popularSort}

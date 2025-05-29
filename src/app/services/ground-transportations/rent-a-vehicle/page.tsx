@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
 import { vehicleSelectionGuide } from "@/lib/constants/services/transportation/vehicles";
 import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
@@ -180,7 +181,9 @@ export default function RentAVehicle() {
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
           {/* Passenger Filter */}
           <div>
-            <label className="block mb-2">Minimum Passengers</label>
+            <Label className="block mb-2">
+              <strong>Minimum Passengers</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={passengerFilter || ""}
@@ -204,7 +207,9 @@ export default function RentAVehicle() {
 
           {/* Sound System Filter */}
           <div>
-            <label className="block mb-2">Sound System</label>
+            <Label className="block mb-2">
+              <strong>Sound System</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={soundSystemFilter}
@@ -223,7 +228,9 @@ export default function RentAVehicle() {
 
           {/* Price Filter */}
           <div>
-            <label className="block mb-2">Maximum Price per Day (USD)</label>
+            <Label className="block mb-2">
+              <strong>Maximum Price per Day (USD)</strong>
+            </Label>
             <input
               type="range"
               min="0"
@@ -246,7 +253,9 @@ export default function RentAVehicle() {
 
           {/* Feature Filter */}
           <div>
-            <label className="block mb-2">Key Features</label>
+            <Label className="block mb-2">
+              <strong>Key Features</strong>
+            </Label>
             <div className="p-2 border rounded max-h-40 overflow-y-auto">
               {Array.from(allFeatures).map((feature, i) => (
                 <div key={i} className="flex items-center mb-1">
@@ -257,14 +266,14 @@ export default function RentAVehicle() {
                     onChange={() => handleFeatureChange(feature)}
                     className="mr-2"
                   />
-                  <label htmlFor={`feature-${i}`} className="text-sm">
+                  <Label htmlFor={`feature-${i}`} className="text-sm">
                     {capitalize(
                       feature
                         .replace(/([A-Z])/g, " $1")
                         .replace(/([0-9]WD)/g, " $1")
                         .trim()
                     )}
-                  </label>
+                  </Label>
                 </div>
               ))}
             </div>
@@ -272,7 +281,9 @@ export default function RentAVehicle() {
 
           {/* Interior Feature Filter */}
           <div>
-            <label className="block mb-2">Interior Features</label>
+            <Label className="block mb-2">
+              <strong>Interior Features</strong>
+            </Label>
             <div className="p-2 border rounded max-h-40 overflow-y-auto">
               {Array.from(allInteriorFeatures).map((feature, i) => (
                 <div key={i} className="flex items-center mb-1">
@@ -283,9 +294,9 @@ export default function RentAVehicle() {
                     onChange={() => handleInteriorFeatureChange(feature)}
                     className="mr-2"
                   />
-                  <label htmlFor={`interior-${i}`} className="text-sm">
+                  <Label htmlFor={`interior-${i}`} className="text-sm">
                     {capitalize(feature)}
-                  </label>
+                  </Label>
                 </div>
               ))}
             </div>

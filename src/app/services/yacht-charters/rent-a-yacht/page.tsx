@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
 import { yachtCharterFleet } from "@/lib/constants/services/transportation/yachts";
 import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
@@ -199,7 +200,9 @@ export default function RentAYachtPage() {
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {/* Cabins Filter */}
           <div>
-            <label className="block mb-2">Minimum Cabins</label>
+            <Label className="block mb-2">
+              <strong>Minimum Cabins</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={cabinsFilter || ""}
@@ -216,7 +219,9 @@ export default function RentAYachtPage() {
 
           {/* Privacy Level Filter */}
           <div>
-            <label className="block mb-2">Privacy Level</label>
+            <Label className="block mb-2">
+              <strong>Privacy Level</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={privacyLevelFilter}
@@ -235,7 +240,9 @@ export default function RentAYachtPage() {
 
           {/* Yacht Length Filter */}
           <div>
-            <label className="block mb-2">Minimum Length (feet)</label>
+            <Label className="block mb-2">
+              <strong>Minimum Length (feet)</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={lengthFilter || ""}
@@ -254,7 +261,9 @@ export default function RentAYachtPage() {
 
           {/* Passenger Filter */}
           <div>
-            <label className="block mb-2">Minimum Passengers</label>
+            <Label className="block mb-2">
+              <strong>Minimum Passengers</strong>
+            </Label>
             <select
               className="p-2 border rounded w-full"
               value={passengerFilter || ""}
@@ -276,7 +285,9 @@ export default function RentAYachtPage() {
 
           {/* Price Filter */}
           <div>
-            <label className="block mb-2">Maximum Price per Day (USD)</label>
+            <Label className="block mb-2">
+              <strong>Maximum Price per Day (USD)</strong>
+            </Label>
             <input
               type="range"
               min="0"
@@ -299,7 +310,9 @@ export default function RentAYachtPage() {
 
           {/* Amenities Filter */}
           <div>
-            <label className="block mb-2">Amenities</label>
+            <Label className="block mb-2">
+              <strong>Amenities</strong>
+            </Label>
             <div className="p-2 border rounded max-h-40 overflow-y-auto">
               {Array.from(allAmenities)
                 .sort()
@@ -312,12 +325,12 @@ export default function RentAYachtPage() {
                       onChange={() => handleAmenityChange(amenity)}
                       className="mr-2"
                     />
-                    <label
+                    <Label
                       htmlFor={`amenity-${i}`}
                       className="text-sm capitalize"
                     >
                       {capitalize(amenity)}
-                    </label>
+                    </Label>
                   </div>
                 ))}
             </div>
@@ -325,7 +338,9 @@ export default function RentAYachtPage() {
 
           {/* Features Filter */}
           <div>
-            <label className="block mb-2">Interior Features</label>
+            <Label className="block mb-2">
+              <strong>Interior Features</strong>
+            </Label>
             <div className="p-2 border rounded max-h-40 overflow-y-auto">
               {Array.from(allFeatures)
                 .sort()
@@ -338,13 +353,13 @@ export default function RentAYachtPage() {
                       onChange={() => handleFeatureChange(feature)}
                       className="mr-2"
                     />
-                    <label htmlFor={`feature-${i}`} className="text-sm">
+                    <Label htmlFor={`feature-${i}`} className="text-sm">
                       {capitalize(
                         feature
                           .replace(/([A-Z])/g, " $1")
                           .replace(/([A-Z][a-z])/g, " $1")
                       )}
-                    </label>
+                    </Label>
                   </div>
                 ))}
             </div>

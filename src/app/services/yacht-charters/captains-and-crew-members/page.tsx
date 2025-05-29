@@ -101,7 +101,7 @@ export default function CaptainsAndCrewMembersPage() {
         <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
           <div>
             <Label htmlFor="experience" className="block mb-2">
-              Minimum Experience
+              <strong>Minimum Experience</strong>
             </Label>
             <Select
               value={
@@ -132,7 +132,7 @@ export default function CaptainsAndCrewMembersPage() {
 
           <div>
             <Label htmlFor="language" className="block mb-2">
-              Language Spoken
+              <strong>Language Spoken</strong>
             </Label>
             <Select
               value={languageFilter || "any"}
