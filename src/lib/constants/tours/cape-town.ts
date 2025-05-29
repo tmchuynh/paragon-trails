@@ -17,7 +17,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "David Ndlovu",
+    tourGuide: "Thabo Dlamini",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -54,7 +54,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sophie Williams",
+    tourGuide: "Zanele Khumalo",
     tourCategoryId: "wildlife",
     faqs: [
       {
@@ -91,7 +91,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Annelie van der Merwe",
+    tourGuide: "Lara van der Merwe",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -128,7 +128,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Thandiwe Khumalo",
+    tourGuide: "Thandiwe Nkosi",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -165,7 +165,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Liam Jacobs",
+    tourGuide: "Sipho Moyo",
     tourCategoryId: "nature",
     faqs: [
       {
@@ -202,7 +202,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Zola Moyo",
+    tourGuide: "Nomsa Ndlovu",
     tourCategoryId: "leisure",
     faqs: [
       {

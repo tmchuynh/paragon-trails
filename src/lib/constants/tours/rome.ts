@@ -18,7 +18,7 @@ export const romeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Bianchi",
+    tourGuide: "Marco Rossi",
     tourCategoryId: "archaeology-expert",
     faqs: [
       {
@@ -45,7 +45,7 @@ export const romeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sophia Rossi",
+    tourGuide: "Marco Rossi",
     tourCategoryId: "art-history",
     faqs: [
       {
@@ -72,7 +72,7 @@ export const romeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Alessandro Romano",
+    tourGuide: "Chef Sofia Conti",
     tourCategoryId: "culinary",
     faqs: [
       {

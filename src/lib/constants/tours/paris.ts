@@ -17,7 +17,7 @@ export const parisTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Claire Dubois",
+    tourGuide: "Nina Dubois",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -49,7 +49,7 @@ export const parisTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Sophie Martin",
+    tourGuide: "Dr. Jean-Pierre Lefevre",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -86,7 +86,7 @@ export const parisTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Jean-Pierre Lefevre",
+    tourGuide: "Chef Camille Moreau",
     tourCategoryId: "culinary",
     faqs: [
       {

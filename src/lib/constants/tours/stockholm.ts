@@ -17,7 +17,7 @@ export const stockholmTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Erik Andersson",
+    tourGuide: "Erik Johansson",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -44,7 +44,7 @@ export const stockholmTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sofia Lindström",
+    tourGuide: "Lars Nilsson",
     tourCategoryId: "culinary",
     faqs: [
       {

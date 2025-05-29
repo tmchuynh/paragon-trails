@@ -102,7 +102,7 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hossam El-Sayyed",
+    tourGuide: "Omar Hassan",
     tourCategoryId: "entertainment",
     faqs: [
       {
@@ -187,7 +187,7 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Mariam Hassan",
+    tourGuide: "Chef Nour El Din",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -234,7 +234,7 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Fatima Nasser",
+    tourGuide: "Dr. Ahmed Mahmoud",
     tourCategoryId: "archaeological",
     faqs: [
       {

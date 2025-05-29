@@ -18,7 +18,7 @@ export const sydneyTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Emma Davies",
+    tourGuide: "Oliver Smith",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,13 +45,18 @@ export const sydneyTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Liam Sutherland",
+    tourGuide: "Liam O'Connor",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
         question: "How difficult is the hiking portion?",
         answer:
           "The coastal walk is moderately challenging with some steep sections and beach access points. We cover approximately 7km (4.3 miles) over varied terrain including boardwalks, steps, and some rock scrambling. Good fitness and comfortable walking shoes are recommended.",
+      },
+      {
+        question: "Are there facilities at the beaches?",
+        answer:
+          "Most of the hidden beaches have basic facilities like restrooms and picnic areas, but some are more remote with limited amenities. We recommend bringing water, snacks, and sunscreen. Our guide will ensure you have everything you need for a comfortable day outdoors.",
       },
     ],
   },
@@ -72,7 +77,7 @@ export const sydneyTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sarah Mitchell",
+    tourGuide: "Emma Johnson",
     tourCategoryId: "culinary",
     faqs: [
       {

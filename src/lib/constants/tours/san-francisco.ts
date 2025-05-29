@@ -18,7 +18,7 @@ export const sanFranciscoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Alex Chen",
+    tourGuide: "David Richard Brown",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -45,7 +45,7 @@ export const sanFranciscoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maria Gonzales",
+    tourGuide: "Emily Neo Kaw",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -72,7 +72,7 @@ export const sanFranciscoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lily Tran",
+    tourGuide: "Olivia Jane Bernt",
     tourCategoryId: "culinary",
     faqs: [
       {
