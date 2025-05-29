@@ -14,7 +14,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["beach", "nightlife", "water sports"],
+    tags: ["nightlife", "water sports"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["cultural", "religious", "scenic"],
+    tags: ["cultural", "spiritual", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["nature", "adventure", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["island", "snorkeling", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -96,7 +96,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "historical", "shopping"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -118,7 +118,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["culinary", "cultural", "educational"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -139,7 +139,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["wellness", "luxury", "spa"],
+    tags: ["wellness", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -160,7 +160,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.5,
-    tags: ["entertainment", "performance", "nightlife"],
+    tags: [ "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -181,7 +181,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "evening",
     rating: 4.6,
-    tags: ["shopping", "food", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -203,7 +203,7 @@ export const phuketSouthernThailandThailand: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "conservation", "educational"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

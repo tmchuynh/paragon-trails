@@ -14,7 +14,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "cultural", "entertainment"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -121,7 +121,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["nature", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -142,7 +142,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "cultural"],
+    tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
     isPopular: false,
 
@@ -165,7 +165,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["luxury", "wellness", "exclusive"],
+    tags: ["luxury", "wellness", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -188,7 +188,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", "iconic"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["viewable from street level"],
     isPopular: true,
 

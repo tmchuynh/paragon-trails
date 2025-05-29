@@ -14,7 +14,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["cultural", "historical", "religious"],
+    tags: ["cultural", "historical", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["beach", "outdoor", "recreation"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "hiking", "outdoor"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "scenic", "exclusive"],
+    tags: ["luxury", "romantic", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -122,7 +122,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["luxury", "exclusive", "dining"],
+    tags: ["luxury", "local", "culinary"],
     accessibilityFeatures: ["elevator access", "assistance available"],
     isPopular: true,
 
@@ -145,7 +145,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["nature", "peaceful", "botanical"],
+    tags: ["wellness"],
     accessibilityFeatures: ["wheelchair accessible paths"],
     isPopular: true,
 
@@ -167,7 +167,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["cultural", "music", "authentic"],
+    tags: ["cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

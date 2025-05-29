@@ -14,7 +14,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["cultural", "art", "religious"],
+    tags: ["cultural", "art-and-music", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "cultural", "outdoor"],
+    tags: ["historical", "cultural", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["exclusive", "cultural", "art"],
+    tags: ["local", "cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
     isPopular: false,
 
@@ -101,7 +101,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["luxury", "adventure", "exclusive"],
+    tags: ["luxury", "adventure", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 
@@ -124,7 +124,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "architectural", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -146,7 +146,7 @@ export const romeLazioItaly: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["art", "museum", "gardens"],
+    tags: ["art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 

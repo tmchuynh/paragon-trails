@@ -14,7 +14,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "shopping", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -141,7 +141,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "local", "scenic"],
+    tags: ["cultural", "local", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -183,7 +183,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -246,7 +246,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["cultural", "shopping", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -288,7 +288,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["scenic", "cultural", "outdoor"],
+    tags: ["romantic", "cultural", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -309,7 +309,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "wildlife", "outdoor"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -330,7 +330,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "transportation", "dining"],
+    tags: ["luxury", "transportation", "culinary"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 
@@ -353,7 +353,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "luxury",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "scenic", "exclusive"],
+    tags: ["luxury", "romantic", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -398,7 +398,7 @@ export const sacredValleyAndCuscoCuscoRegionPeru: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["cultural", "artisan", "shopping"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

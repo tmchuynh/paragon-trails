@@ -9,7 +9,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1570617485179-b55b8b90b187?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9ydCUyMG9mJTIwUGlyYWV1c3xlbnwwfHwwfHx8MA%3D%3D",
-    tags: ["Harbor", "Maritime", "Transportation Hub", "Gateway to Islands"],
+    tags: ["Harbor", "Maritime", "Gateway to Islands"],
     accessibilityFeatures: [
       "Accessible Terminal Buildings",
       "Elevators",
@@ -36,7 +36,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.6,
     imageUrl:
       "https://images.unsplash.com/photo-1714592627070-cec4a7909c16?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QXJjaGFlb2xvZ2ljYWwlMjBNdXNldW0lMjBvZiUyMFBpcmFldXN8ZW58MHx8MHx8fDA%3D",
-    tags: ["Museum", "Archaeology", "Ancient Artifacts", "Greek History"],
+    tags: ["historical", "Archaeology", "Greek History"],
     accessibilityFeatures: [
       "Wheelchair Access",
       "Information in Multiple Languages",
@@ -67,7 +67,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.7,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1734430859700-dff650a9a1e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWlrcm9saW1hbm8lMkMlMjBQaXJhZXVzJTJDJTIwR3JlZWNlfGVufDB8fDB8fHww",
-    tags: ["Marina", "Seafood", "Waterfront Dining", "Nightlife"],
+    tags: ["Nightlife"],
     accessibilityFeatures: [
       "Some Accessible Restaurants",
       "Waterfront Walkway",
@@ -102,7 +102,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.4,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1697729982508-47728dfc5a7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8WmVhcyUyME1hcmluYSUyQyUyMFBpcmFldXMlMkMlMjBHcmVlY2V8ZW58MHx8MHx8fDA%3D",
-    tags: ["Marina", "Yachts", "Waterfront", "Boating"],
+    tags: ["Yachts", "Waterfront", "Boating"],
     accessibilityFeatures: ["Accessible Promenade", "Ramps"],
     openingHours:
       "Marina services: 8:00 AM - 8:00 PM, Public areas accessible 24/7",
@@ -134,7 +134,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXVuaWNpcGFsJTIwVGhlYXRyZSUyMG9mJTIwUGlyYWV1c3xlbnwwfHwwfHx8MA%3D%3D",
-    tags: ["Theatre", "Cultural Venue", "Performing Arts", "Historic Building"],
+    tags: ["Theatre", "Cultural", "art-and-music", "Historic Building"],
     accessibilityFeatures: [
       "Wheelchair Access",
       "Assistive Listening Devices",
@@ -163,12 +163,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     rating: 4.3,
     imageUrl:
       "https://images.unsplash.com/photo-1601234567890-abcdef123456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SGVsbGVuaWMlMjBNYXJpdGltZSUyME11c2V1bXxlbnwwfHwwfHx8MA%3D%3D",
-    tags: [
-      "Museum",
-      "Maritime History",
-      "Nautical Artifacts",
-      "Cultural Heritage",
-    ],
+    tags: ["historical", "Maritime History", "Nautical Artifacts", "Cultural"],
     accessibilityFeatures: [
       "Wheelchair Access",
       "Information in Multiple Languages",
@@ -224,7 +219,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Ethnarchou Makariou Avenue, Neo Faliro, Piraeus",
     rating: 4.6,
     imageUrl: "https://plus.unsplash.com/piraeus-stadium.jpg",
-    tags: ["Sports", "Entertainment", "Events", "Basketball"],
+    tags: [],
     accessibilityFeatures: ["Accessible Seating", "Elevators"],
     openingHours: "Varies by event",
     entryFee: "€15-100 depending on event",
@@ -247,7 +242,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Piraeus Port, Gate E8",
     rating: 4.7,
     imageUrl: "https://plus.unsplash.com/saronic-islands-cruise.jpg",
-    tags: ["Cruise", "Islands", "Day Trip", "Swimming"],
+    tags: [],
     accessibilityFeatures: ["Accessible Boat Areas", "Assistance Available"],
     openingHours: "Departures at 8:00 AM, returns at 7:30 PM",
     entryFee: "€95-130 ($105-145) including lunch",
@@ -272,7 +267,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Kastella District, Piraeus",
     rating: 4.8,
     imageUrl: "https://plus.unsplash.com/piraeus-taverna.jpg",
-    tags: ["Local Cuisine", "Seafood", "Cultural Experience", "Dining"],
+    tags: ["Local", "Cultural", "culinary"],
     accessibilityFeatures: ["Ground Floor Access", "Accommodating Staff"],
     openingHours: "12:00 PM - 12:00 AM",
     entryFee: "€25-40 ($28-45) per person for full meal with wine",
@@ -297,7 +292,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Various locations in Piraeus",
     rating: 4.5,
     imageUrl: "https://plus.unsplash.com/piraeus-street-art.jpg",
-    tags: ["Street Art", "Culture", "Walking Tour", "Urban Exploration"],
+    tags: ["art-and-music", "cultural", "local"],
     accessibilityFeatures: ["Accessible Routes Available"],
     openingHours: "Tours available daily at 10:00 AM and 3:00 PM",
     entryFee: "€20 ($22) per person",
@@ -321,7 +316,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Piraeus Central Market, Karaiskaki Square",
     rating: 4.4,
     imageUrl: "https://plus.unsplash.com/piraeus-central-market.jpg",
-    tags: ["Market", "Local Produce", "Food", "Cultural Experience"],
+    tags: ["cultural", "culinary", "local"],
     accessibilityFeatures: ["Accessible Aisles", "Ground Level Access"],
     openingHours: "7:00 AM - 3:00 PM, Closed Sundays",
     entryFee: "Free to enter (prices vary for goods)",
@@ -345,7 +340,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Piraeus Port, Gate E8",
     rating: 4.6,
     imageUrl: "https://plus.unsplash.com/piraeus-sunset-cruise.jpg",
-    tags: ["Cruise", "Sunset", "Relaxation", "Scenic Views"],
+    tags: ["romantic", "wellness", "nightlife"],
     accessibilityFeatures: ["Accessible Boat Areas", "Assistance Available"],
     openingHours: "Departs at 6:00 PM, returns at 9:00 PM",
     entryFee: "€40-60 ($45-65) per person including refreshments",
@@ -370,20 +365,22 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Various venues in Piraeus",
     rating: 4.7,
     imageUrl: "https://plus.unsplash.com/piraeus-cultural-festival.jpg",
-    tags: ["Festival", "Culture", "Arts", "Music"],
+    tags: ["nightlife", "art-and-music"],
     accessibilityFeatures: ["Accessible Venues", "Sign Language Interpreters"],
     openingHours: "Varies by event schedule",
     entryFee: "Free entry to most events (some performances may charge)",
+
     entryFeeCategory: "free",
     priceRange: "$",
     priceCategory: "budget",
-    timeOfDay: "daytime and evening",
+    timeOfDay: "all day",
     isPopular: true,
 
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
     isHistorical: false,
+
     isIndoor: true,
     isOutdoor: true,
   },
@@ -394,7 +391,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Piraeus, Greece",
     rating: 4.2,
     imageUrl: "https://plus.unsplash.com/piraeus-aquarium.jpg",
-    tags: ["Aquarium", "Marine Life", "Family Friendly", "Educational"],
+    tags: ["local"],
     accessibilityFeatures: ["Wheelchair Access", "Family-Friendly Facilities"],
     openingHours: "10:00 AM - 6:00 PM, Closed Mondays",
     entryFee: "€5 ($6) for adults, €3 ($4) for children",
@@ -417,7 +414,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     location: "Piraeus, Greece",
     rating: 4.3,
     imageUrl: "https://plus.unsplash.com/piraeus-botanical-garden.jpg",
-    tags: ["Botanical Garden", "Nature", "Relaxation", "Scenic"],
+    tags: ["spiritual", "wellness"],
     accessibilityFeatures: ["Wheelchair Access", "Accessible Paths"],
     openingHours: "8:00 AM - 8:00 PM, Daily",
     entryFee: "Free to enter",

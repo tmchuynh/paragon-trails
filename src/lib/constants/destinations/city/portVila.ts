@@ -14,7 +14,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "waterfall", "swimming"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "shopping", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["luxury", "resort", "spa"],
+    tags: ["luxury", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "educational", "traditional"],
+    tags: ["cultural", "traditional"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["marine", "snorkeling", "island"],
+    tags: ["adventure", "island"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -122,7 +122,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "gardens", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["partial wheelchair access"],
     isPopular: true,
 
@@ -144,7 +144,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -166,7 +166,7 @@ export const portVilaEfateIslandVanuatu: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["shopping", "cultural", "artisan"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

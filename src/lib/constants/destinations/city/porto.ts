@@ -14,7 +14,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "scenic"],
+    tags: ["cultural", "historical", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["cultural", "historical", "architecture"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "viewpoint", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "architecture"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "architecture", "cultural"],
+    tags: ["historical", "historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -141,7 +141,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["food", "market", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -162,7 +162,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["art", "gardens", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -205,7 +205,7 @@ export const portoNorthernRegionPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["cultural", "music", "dining"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

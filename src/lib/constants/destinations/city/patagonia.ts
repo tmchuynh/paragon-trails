@@ -15,7 +15,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["hiking", "mountains", "glaciers", "wildlife", "trekking", "nature"],
+    tags: ["adventure"],
     accessibilityFeatures: [
       "some accessible viewpoints",
       "accessible visitor center",
@@ -50,13 +50,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: [
-      "glacier",
-      "ice trek",
-      "boat tours",
-      "national park",
-      "natural wonder",
-    ],
+    tags: ["adventure", "ice trek", "boat tours", "national park"],
     accessibilityFeatures: [
       "wheelchair accessible walkways",
       "accessible viewpoints",
@@ -91,7 +85,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["hiking", "mountains", "photography", "trekking", "nature"],
+    tags: ["adventure", "art-and-music", "trekking", "nature"],
     isPopular: true,
 
     isFree: true,
@@ -122,7 +116,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["hiking", "forests", "wildlife", "canoeing", "end of the world"],
+    tags: ["forests", "canoeing", "end of the world"],
     accessibilityFeatures: [
       "some accessible paths",
       "accessible visitor center",
@@ -154,7 +148,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["lakes", "mountains", "skiing", "chocolate", "brewing", "hiking"],
+    tags: ["lakes", "adventure", "skiing", "chocolate", "brewing", "adventure"],
     accessibilityFeatures: [
       "accessible accommodation options",
       "some accessible activities",
@@ -189,7 +183,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "whales", "penguins", "nature reserve", "coastal"],
+    tags: ["whales", "penguins", "nature reserve", "coastal"],
     accessibilityFeatures: [
       "some accessible viewpoints",
       "accessible visitor center",
@@ -224,7 +218,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["caves", "boat tours", "natural wonder", "photography", "geology"],
+    tags: ["boat tours", "art-and-music", "geology"],
     accessibilityFeatures: [
       "some accessible viewpoints",
       "accessible visitor center",
@@ -261,7 +255,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "end of the world",
       "Antarctica",
       "maritime",
-      "hiking",
+      "adventure",
     ],
     accessibilityFeatures: [
       "some accessible attractions",
@@ -294,7 +288,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["road trip", "scenic drive", "adventure", "remote", "wilderness"],
+    tags: ["road trip", "adventure", "remote", "wilderness"],
     accessibilityFeatures: [
       "some accessible viewpoints",
       "accessible visitor center",
@@ -329,13 +323,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: [
-      "wildlife",
-      "penguins",
-      "nature reserve",
-      "bird watching",
-      "coastal",
-    ],
+    tags: ["penguins", "nature reserve", "adventure", "coastal"],
     accessibilityFeatures: [
       "some accessible viewpoints",
       "accessible visitor center",
