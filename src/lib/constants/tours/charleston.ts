@@ -74,6 +74,43 @@ export const charlestonTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Charleston Ghosts & Legends Tour",
+    description:
+      "Explore Charleston's haunted history with a local storyteller, visiting eerie sites like the Old City Jail, the Battery, and the infamous graveyards while hearing chilling tales of ghosts and legends.",
+    images: [
+      "/images/tours/charleston/ghost-tour.jpg",
+      "/images/tours/charleston/old-city-jail.jpg",
+    ],
+    duration: "2 hours",
+    price: "$40",
+    rating: 4.7,
+    tags: ["Ghosts", "History", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Oliver Graves",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour scary?",
+        answer:
+          "While the tour includes spooky stories and visits to haunted locations, it is designed to be family-friendly. We focus on historical accounts and legends rather than graphic horror.",
+      },
+      {
+        question: "What should I wear for the ghost tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will be walking through historic neighborhoods. Dress for the weather, as we will be outside for most of the tour.",
+      },
+      {
+        question: "Are there any age restrictions?",
+        answer:
+          "This tour is suitable for all ages, but parental discretion is advised for very young children due to the nature of some stories.",
+      },
+    ],
+  },
 ];
 
 export default charlestonTours;

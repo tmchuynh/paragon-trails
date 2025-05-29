@@ -189,6 +189,38 @@ export const cartagenaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Cartagena Street Art & Urban Culture Tour",
+    description:
+      "Discover the vibrant street art scene of Cartagena with a local artist, exploring colorful murals, graffiti, and urban installations that reflect the city's cultural identity and social issues.",
+    images: [
+      "/images/tours/cartagena/street-art.jpg",
+      "/images/tours/cartagena/urban-murals.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Sofia Torres",
+    tourCategoryId: "art",
+    faqs: [
+      {
+        question: "What types of street art will we see?",
+        answer:
+          "The tour showcases a diverse range of street art styles, from large-scale murals by renowned Colombian artists to smaller, hidden pieces that tell stories about local life. You'll learn about the techniques used, the messages behind the art, and how it reflects Cartagena's social and political landscape. We also visit community art projects that engage local youth in creative expression.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! Our guide engages children with interactive activities like scavenger hunts to find specific artworks and encourages them to express their own creativity through drawing or photography during the tour.",
+      },
+    ],
+  },
 ];
 
 export default cartagenaTours;
