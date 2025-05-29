@@ -109,30 +109,6 @@ export default function TourPage() {
 
             {/* Tour features */}
             <div className="gap-4 grid grid-cols-2 mt-6">
-              {tour.isFamilyFriendly && (
-                <div className="flex items-center">
-                  <div className="flex justify-center items-center bg-green-100 mr-3 rounded-full w-10 h-10">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    </svg>
-                  </div>
-                  <span>Family Friendly</span>
-                </div>
-              )}
-
               {tour.isHistorical && (
                 <div className="flex items-center">
                   <div className="flex justify-center items-center bg-blue-100 mr-3 rounded-full w-10 h-10">
@@ -268,11 +244,11 @@ export default function TourPage() {
               <Accordion type="single" collapsible className="w-full">
                 {tour.faqs.map((faq, index) => (
                   <AccordionItem key={index} value={`item-${index}`}>
-                    <AccordionTrigger className="font-medium text-lg">
-                      {faq.question}
+                    <AccordionTrigger>
+                      <h3>{faq.question}</h3>
                     </AccordionTrigger>
-                    <AccordionContent className="text-gray-700">
-                      {faq.answer}
+                    <AccordionContent>
+                      <p>{faq.answer}</p>
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -375,7 +351,7 @@ export default function TourPage() {
               </div>
             </div>
 
-            <Button className="bg-primary hover:bg-primary-dark py-6 rounded-md w-full font-semibold text-lg text-white">
+            <Button onClick={() => router.push("/book-your-trip-today")}>
               Book Now
             </Button>
           </div>
