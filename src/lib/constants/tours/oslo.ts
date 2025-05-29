@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const osloTours: Tour[] = [
   {
     title: "Oslo Fjord & Islands Cruise",
@@ -12,12 +14,12 @@ export const osloTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Sailing", "Nature", "Fjords"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Magnus Eriksen",
+    tourGuide: findGuideBySpecialty("oslo", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -49,12 +51,12 @@ export const osloTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Vikings", "History", "Museums"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Ingrid Johansen",
+    tourGuide: findGuideBySpecialty("oslo", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -86,12 +88,12 @@ export const osloTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Culinary", "Food", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Astrid Nilsen",
+    tourGuide: findGuideBySpecialty("oslo", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

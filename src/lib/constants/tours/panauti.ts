@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const panautiTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const panautiTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Cultural", "Architecture", "Religious"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Binod Shrestha",
+    tourGuide: findGuideBySpecialty("panauti", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -46,12 +47,12 @@ export const panautiTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Spiritual", "Hiking", "Meditation"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Divya Sharma",
+    tourGuide: findGuideBySpecialty("panauti", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -78,7 +79,7 @@ export const panautiTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cooking", "Culinary", "Market"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -110,13 +111,13 @@ export const panautiTours: Tour[] = [
     price: "$60",
     rating: 4.6,
     tags: ["Photography", "Architecture", "Dawn"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Rajeev Shakya",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What time does this tour start?",
@@ -142,7 +143,7 @@ export const panautiTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Hiking", "Buddhist", "Nature"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

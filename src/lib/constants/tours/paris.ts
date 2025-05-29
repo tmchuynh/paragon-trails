@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const parisTours: Tour[] = [
   {
     title: "Hidden Paris Walking Tour",
@@ -12,12 +14,12 @@ export const parisTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Walking", "Hidden Gems", "Historical"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nina Dubois",
+    tourGuide: findGuideBySpecialty("paris", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const parisTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Art", "Museum", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Jean-Pierre Lefevre",
+    tourGuide: findGuideBySpecialty("paris", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -81,12 +83,12 @@ export const parisTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Culinary", "Food", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Camille Moreau",
+    tourGuide: findGuideBySpecialty("paris", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

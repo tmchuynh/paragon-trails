@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const osakaTours: Tour[] = [
   {
     title: "Osaka Street Food & Local Eats Tour",
@@ -12,12 +14,12 @@ export const osakaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Food", "Street Food", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kenji Tanaka",
+    tourGuide: findGuideBySpecialty("osaka", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const osakaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Castle", "Samurai", "History"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Hiroshi Watanabe",
+    tourGuide: findGuideBySpecialty("osaka", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -76,12 +78,12 @@ export const osakaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nightlife", "Izakaya", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Yuki Nakamura",
+    tourGuide: findGuideBySpecialty("osaka", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {

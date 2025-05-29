@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const ouarzazateTours: Tour[] = [
   {
@@ -12,13 +13,13 @@ export const ouarzazateTours: Tour[] = [
     duration: "6 hours",
     price: "$85",
     rating: 4.9,
-    tags: ["UNESCO", "Historical", "Berber Culture"],
- 
+    tags: ["Historical", "Berber Culture"],
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ibrahim Ait Said",
+    tourGuide: findGuideBySpecialty("ouarzazate", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Film", "Studios", "Behind the Scenes"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Youssef Benhamo, Film Industry Professional",
+    tourGuide: findGuideBySpecialty("ouarzazate", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -72,12 +73,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Oasis", "Kasbahs", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mohammed Oubark",
+    tourGuide: findGuideBySpecialty("ouarzazate", "wellness").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -99,12 +100,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$225",
     rating: 5.0,
     tags: ["Desert", "Camping", "Camel Trek"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Omar Ait Bella",
+    tourGuide: findGuideBySpecialty("ouarzazate", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -126,13 +127,13 @@ export const ouarzazateTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Astronomy", "Photography", "Night Sky"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Hassan Abdelhak",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("ouarzazate", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -153,12 +154,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Traditional Crafts", "Weaving", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Fatima Ait Khouya",
+    tourGuide: findGuideBySpecialty("ouarzazate", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -180,13 +181,13 @@ export const ouarzazateTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Rachid Tafraouti",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("ouarzazate", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -207,12 +208,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$70",
     rating: 4.9,
     tags: ["Oasis", "Local Experience", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ahmed Ait Omar",
+    tourGuide: findGuideBySpecialty("ouarzazate", "spiritual").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -234,12 +235,12 @@ export const ouarzazateTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Fatima Zahra El Idrissi",
+    tourGuide: findGuideBySpecialty("ouarzazate", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

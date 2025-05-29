@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const palawanTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const palawanTours: Tour[] = [
     price: "$150",
     rating: 4.9,
     tags: ["Island Hopping", "Snorkeling", "Hidden Beaches"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Marco Alvarez",
+    tourGuide: findGuideBySpecialty("palawan", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -45,13 +46,13 @@ export const palawanTours: Tour[] = [
     duration: "7 hours",
     price: "$125",
     rating: 4.8,
-    tags: ["UNESCO", "Caves", "Natural Wonder"],
- 
+    tags: ["Caves", "Natural Wonder"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Antonio Santos, Geologist",
+    tourGuide: findGuideBySpecialty("palawan", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -78,12 +79,12 @@ export const palawanTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Indigenous", "Cultural", "Rainforest"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Danilo Torres & Batak Community Members",
+    tourGuide: findGuideBySpecialty("palawan", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -105,13 +106,13 @@ export const palawanTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Conservation", "Marine Life", "Educational"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourGuide: "Marine Biologist Dr. Lisa Reyes",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Do I need scientific or diving experience?",
@@ -137,14 +138,14 @@ export const palawanTours: Tour[] = [
     duration: "6 hours",
     price: "$80",
     rating: 4.8,
-    tags: ["Birdwatching", "Wildlife", "Nature"],
- 
+    tags: ["Birdwatching", "Nature"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Dr. Rafael Cruz",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What birds might we see?",
@@ -175,7 +176,7 @@ export const palawanTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -202,13 +203,13 @@ export const palawanTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Photography", "Sunset", "Landscapes"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourGuide: "Jacob Martinez",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -229,7 +230,7 @@ export const palawanTours: Tour[] = [
     price: "$450",
     rating: 5.0,
     tags: ["Glamping", "Private Island", "Luxury"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -260,14 +261,14 @@ export const palawanTours: Tour[] = [
     duration: "8 hours",
     price: "$110",
     rating: 4.9,
-    tags: ["Wildlife", "Conservation", "Nature"],
- 
+    tags: ["Conservation", "Nature"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Dr. Elena Cruz, Wildlife Biologist",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question:

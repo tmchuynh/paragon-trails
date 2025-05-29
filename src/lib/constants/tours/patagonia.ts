@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const patagoniaTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const patagoniaTours: Tour[] = [
     price: "$1,295",
     rating: 4.9,
     tags: ["Trekking", "National Park", "Wilderness"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Mateo Diaz",
+    tourGuide: findGuideBySpecialty("patagonia", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -44,13 +45,13 @@ export const patagoniaTours: Tour[] = [
     duration: "Full day",
     price: "$285",
     rating: 4.8,
-    tags: ["Glacier", "Ice Trekking", "Adventure"],
- 
+    tags: ["Ice Trekking", "Adventure"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Lucia Mendoza",
+    tourGuide: findGuideBySpecialty("patagonia", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -76,14 +77,14 @@ export const patagoniaTours: Tour[] = [
     duration: "3 days",
     price: "$1,450",
     rating: 4.7,
-    tags: ["Wildlife", "Photography", "Conservation"],
- 
+    tags: ["Photography", "Conservation"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Dr. Carolina Martinez",
-    tourCategoryId: "wildlife",
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What are the chances of seeing pumas?",
@@ -109,7 +110,7 @@ export const patagoniaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Traditional"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -141,13 +142,13 @@ export const patagoniaTours: Tour[] = [
     price: "$895",
     rating: 4.7,
     tags: ["Photography", "Mountains", "Trekking"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourGuide: "Alejandro Fuentes",
-    tourCategoryId: "photography",
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -173,7 +174,7 @@ export const patagoniaTours: Tour[] = [
     price: "$1,350",
     rating: 4.8,
     tags: ["Multi-sport", "Kayaking", "Biking"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -204,8 +205,8 @@ export const patagoniaTours: Tour[] = [
     duration: "Full day",
     price: "$265",
     rating: 4.6,
-    tags: ["Boat Tour", "Glacier", "Wildlife"],
- 
+    tags: ["Boat Tour", "Wildlife"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -237,7 +238,7 @@ export const patagoniaTours: Tour[] = [
     price: "$180",
     rating: 4.7,
     tags: ["Archaeology", "History", "Rock Art"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,

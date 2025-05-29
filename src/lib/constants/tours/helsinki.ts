@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const helsinkiTours: Tour[] = [
   {
     title: "Finnish Sauna Journey & Ice Swimming",
@@ -12,12 +14,12 @@ export const helsinkiTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Sauna", "Wellness", "Traditional"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mikko Virtanen",
+    tourGuide: findGuideBySpecialty("helsinki", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const helsinkiTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Design", "Architecture", "Shopping"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Elina Mäkinen",
+    tourGuide: findGuideBySpecialty("helsinki", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -75,13 +77,13 @@ export const helsinkiTours: Tour[] = [
     duration: "5 hours",
     price: "$85",
     rating: 4.7,
-    tags: ["History", "UNESCO", "Walking Tour"],
- 
+    tags: ["History", "Walking Tour"],
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Anna Lehtonen",
+    tourGuide: findGuideBySpecialty("helsinki", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -113,12 +115,12 @@ export const helsinkiTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Food", "Culture", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sari Korhonen",
+    tourGuide: findGuideBySpecialty("helsinki", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
