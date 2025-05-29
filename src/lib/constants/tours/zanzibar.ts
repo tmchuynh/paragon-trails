@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const zanzibarTours: Tour[] = [
   {
     title: "Stone Town & Spice Plantation Journey",
@@ -11,13 +13,13 @@ export const zanzibarTours: Tour[] = [
     duration: "7 hours",
     price: "$85",
     rating: 4.8,
-    tags: ["UNESCO", "Cultural", "Spices"],
+    tags: ["Cultural", "Spices"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Salim Abdullah",
+    tourGuide: findGuideBySpecialty("zanzibar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -64,7 +66,7 @@ export const zanzibarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Captain Juma",
+    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -110,13 +112,13 @@ export const zanzibarTours: Tour[] = [
     duration: "4 hours",
     price: "$70",
     rating: 4.7,
-    tags: ["Wildlife", "Nature", "Conservation"],
+    tags: ["Nature", "Conservation"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Amani Mwinyi",
+    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -168,7 +170,7 @@ export const zanzibarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Fatima Juma",
+    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const zagrebTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ivana Horvat",
+    tourGuide: findGuideBySpecialty("zagreb", "historical").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -45,7 +46,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Marija Novak",
+    tourGuide: findGuideBySpecialty("zagreb", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -72,7 +73,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nina Kovačević",
+    tourGuide: findGuideBySpecialty("zagreb", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -99,7 +100,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tomislav Jurić",
+    tourGuide: findGuideBySpecialty("zagreb", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -126,7 +127,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ana Petrović",
+    tourGuide: findGuideBySpecialty("zagreb", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -153,7 +154,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Martina Kralj",
+    tourGuide: findGuideBySpecialty("zagreb", "culinary").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -180,7 +181,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Petar Jovanović",
+    tourGuide: findGuideBySpecialty("zagreb", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -207,7 +208,7 @@ export const zagrebTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Davor Rostuhar",
+    tourGuide: findGuideBySpecialty("zagreb", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -234,8 +235,8 @@ export const zagrebTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Luka Novak",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("zagreb", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Are there any entry fees for the parks?",
