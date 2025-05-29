@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const barcelonaTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Elena Martínez",
+    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -61,7 +62,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Jordi Martínez",
+    tourGuide: findGuideBySpecialty("barcelona", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -103,7 +104,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Ana Torres",
+    tourGuide: findGuideBySpecialty("barcelona", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -145,7 +146,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Montse Puig",
+    tourGuide: findGuideBySpecialty("barcelona", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -187,8 +188,8 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sergi Ramírez",
-    tourCategoryId: "spiritual",
+    tourGuide: findGuideBySpecialty("barcelona", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Will we definitely hear the boy's choir sing?",
@@ -229,7 +230,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ana Torres",
+    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -271,7 +272,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Alex Torres",
+    tourGuide: findGuideBySpecialty("barcelona", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -313,7 +314,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lola García",
+    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -339,3 +340,5 @@ export const barcelonaTours: Tour[] = [
     ],
   },
 ];
+
+export default barcelonaTours;

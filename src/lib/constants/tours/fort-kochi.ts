@@ -1,126 +1,152 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const fortKochiTours: Tour[] = [
   {
-    title: "Historic Spice Route & Colonial Heritage",
+    title: "Colonial Heritage & Chinese Fishing Nets",
     description:
-      "Walk through centuries of trading history in Fort Kochi with a historian guide, exploring Portuguese churches, Dutch architecture, ancient synagogues, and the legendary Chinese fishing nets that reflect this port town's diverse cultural influences.",
+      "Explore Fort Kochi's rich colonial past with visits to Dutch, Portuguese, and British heritage sites, culminating in sunset at the iconic Chinese fishing nets with opportunity to assist local fishermen.",
     images: [
       "/images/tours/fort-kochi/chinese-fishing-nets.jpg",
-      "/images/tours/fort-kochi/mattancherry-palace.jpg",
+      "/images/tours/fort-kochi/colonial-buildings.jpg",
     ],
     duration: "4 hours",
-    price: "$55",
+    price: "$45",
     rating: 4.8,
-    tags: ["History", "Colonial", "Architecture"],
- 
+    tags: ["Historical", "Cultural", "Photography"],
+
     isHistorical: true,
-    isRomantic: false,
+    isRomantic: true,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourGuide: "Dr. Joseph Thomas",
+    isLocalExperience: true,
+    tourGuide: findGuideBySpecialty("fort kochi", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
-        question: "How old are the Chinese fishing nets?",
+        question: "What makes the Chinese fishing nets unique?",
         answer:
-          "These iconic fishing installations date back to the 14th century and were introduced by Chinese explorer Zheng He. They represent one of the oldest examples of Chinese influence in India and continue to be used by local fishermen today, using the same counterbalance technique that has remained unchanged for centuries.",
+          "These distinctive fishing nets are believed to have been introduced by Chinese explorer Zheng He in the 14th century and represent a rare cultural exchange between ancient China and Kerala. The cantilever systems use counterweights and require multiple operators, creating a spectacular silhouette at sunset that has become symbolic of Fort Kochi.",
       },
       {
-        question: "Will we visit the Jewish Synagogue?",
+        question: "Will we get to operate the fishing nets?",
         answer:
-          "Yes, the Paradesi Synagogue in Mattancherry is included in the tour. Built in 1568, it is the oldest active synagogue in the Commonwealth and features stunning hand-painted Chinese tiles and a beautiful gold pulpit. We will also explore the surrounding Jewish Quarter, which is rich in history and culture.",
+          "Yes, you'll have the opportunity to join local fishermen in operating these massive nets. They'll demonstrate the traditional techniques and invite you to participate in lowering and raising the nets. It's a cooperative effort that provides insight into this centuries-old fishing method.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we'll cover several historical sites on foot. Light, breathable clothing is advisable for the tropical climate. For sunset at the fishing nets, a hat and sunglasses are useful, and you may want to bring a light covering for cooler evening breezes.",
       },
     ],
   },
   {
-    title: "Kerala Backwaters & Village Life",
+    title: "Kerala Cuisine Cooking Class & Spice Market",
     description:
-      "Escape the tourist routes on a private houseboat journey through Kerala's serene backwaters, visiting remote villages for authentic interactions with local families and artisans who maintain traditional ways of life.",
+      "Discover Kerala's aromatic cuisine with a guided tour of Fort Kochi's spice markets followed by a hands-on cooking class in a traditional home, learning to prepare authentic Syrian Christian and Malabari dishes.",
     images: [
-      "/images/tours/fort-kochi/kerala-backwaters.jpg",
-      "/images/tours/fort-kochi/village-crafts.jpg",
+      "/images/tours/fort-kochi/cooking-class.jpg",
+      "/images/tours/fort-kochi/spice-market.jpg",
     ],
-    duration: "8 hours",
-    price: "$120",
+    duration: "5 hours",
+    price: "$65",
     rating: 4.9,
-    tags: ["Backwaters", "Village", "Nature"],
- 
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Anil Kumar",
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question:
-          "What will we see on the backwaters that's different from standard tours?",
-        answer:
-          "Unlike commercial group houseboats that stick to main channels, our smaller vessels access narrow canals where we witness authentic daily life: children walking to school by boat, farmers tending to below-sea-level rice paddies, women washing clothes in the traditional manner, and artisans creating coir products by hand. We'll visit villages that rarely see tourists and share tea with local families.",
-      },
-      {
-        question: "Is food included on the houseboat?",
-        answer:
-          "Yes, a traditional Kerala lunch featuring local specialties will be prepared on board by our crew. We can accommodate dietary restrictions with prior notice. Snacks and refreshments are also provided during the journey.",
-      },
-    ],
-  },
-  {
-    title: "Fort Kochi Art & Culture Walk",
-    description:
-      "Explore the vibrant art scene of Fort Kochi with a local artist, visiting galleries, street art installations, and cultural spaces that showcase the town's creative spirit and contemporary artistic expressions.",
-    images: [
-      "/images/tours/fort-kochi/art-gallery.jpg",
-      "/images/tours/fort-kochi/street-art.jpg",
-    ],
-    duration: "3 hours",
-    price: "$40",
-    rating: 4.7,
-    tags: ["Art", "Culture", "Street Art"],
- 
+    tags: ["Culinary", "Cooking", "Spices"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lakshmi Menon",
-    tourCategoryId: "cultural",
+    tourGuide: findGuideBySpecialty("fort kochi", "culinary").name,
+    tourCategoryId: "culinary",
     faqs: [
       {
-        question: "What types of art will we see?",
+        question: "What dishes will we learn to prepare?",
         answer:
-          "The tour includes contemporary art galleries, street art murals, and installations by local artists. We'll explore how Fort Kochi's unique cultural blend influences its vibrant art scene, including works that reflect social issues, environmental themes, and traditional Kerala motifs.",
+          "The class focuses on signature Kerala dishes such as fish molee (coconut curry), appam (rice pancakes), avial (mixed vegetable curry with coconut), and payasam (cardamom-infused dessert). Menus vary seasonally based on available ingredients, but always include a balanced selection of vegetarian and non-vegetarian options.",
+      },
+      {
+        question: "Do I need cooking experience?",
+        answer:
+          "No prior experience is necessary! The class is designed for all skill levels, from beginners to experienced cooks. Our host will guide you through each step and explain techniques as you go.",
+      },
+      {
+        question: "Can special dietary needs be accommodated?",
+        answer:
+          "Yes, we can accommodate vegetarian, vegan, and most other dietary restrictions with advance notice. Kerala cuisine naturally includes many vegetarian options, and we can easily adapt recipes to suit your needs.",
       },
     ],
   },
   {
-    title: "Culinary Delights of Fort Kochi",
+    title: "Kathakali Classical Dance & Cultural Performance",
     description:
-      "Savor the flavors of Kerala with a guided food tour through Fort Kochi's markets, street stalls, and local eateries, tasting traditional dishes like appam, stew, and seafood specialties while learning about the region's culinary heritage.",
+      "Experience the ancient art of Kathakali with a behind-the-scenes look at elaborate makeup preparation, followed by a mesmerizing performance of this classical Kerala dance-drama that combines literature, music, painting, acting, and dance.",
     images: [
-      "/images/tours/fort-kochi/kerala-cuisine.jpg",
-      "/images/tours/fort-kochi/street-food.jpg",
+      "/images/tours/fort-kochi/kathakali-makeup.jpg",
+      "/images/tours/fort-kochi/kathakali-performance.jpg",
     ],
-    duration: "4 hours",
-    price: "$65",
-    rating: 4.8,
-    tags: ["Food", "Culinary", "Local Cuisine"],
- 
-    isHistorical: false,
-    isRomantic: true,
+    duration: "3 hours",
+    price: "$35",
+    rating: 4.7,
+    tags: ["Arts", "Cultural", "Performance"],
+
+    isHistorical: true,
+    isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Riya Nair",
-    tourCategoryId: "culinary",
+    tourGuide: findGuideBySpecialty("fort kochi", "cultural").name,
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What dishes will we try?",
+        question: "What makes Kathakali special among Indian classical dance forms?",
         answer:
-          "The tour includes a variety of Kerala specialties such as appam with stew, karimeen pollichathu (pearl spot fish), puttu with kadala curry, and traditional sweets like ada pradhaman. We also visit local spice markets to learn about the region's famous spices.",
+          "Kathakali stands out for its elaborate makeup and costumes that transform performers into mythological characters, its complex facial expressions and precise eye movements used to convey emotions, and its synthesis of multiple art forms. Dating back to the 17th century, it's one of the oldest classical dance-dramas in India, telling stories primarily from Hindu epics.",
       },
       {
-        question: "Can dietary restrictions be accommodated?",
+        question: "How long is the makeup preparation?",
         answer:
-          "Yes, we can accommodate vegetarian and vegan preferences with advance notice. Please inform us of any allergies or dietary needs when booking.",
+          "The makeup preparation takes approximately 1-1.5 hours. This fascinating process is an art form itself, as performers apply natural pigments to create colorful, three-dimensional facial designs that indicate character types. Green faces represent heroes, red faces depict evil characters, while yellow and white signify female characters and sages.",
+      },
+      {
+        question: "Will I understand the performance if I don't know the language?",
+        answer:
+          "Yes, the performance includes English narration and program notes. Additionally, before the main performance, artists demonstrate the basic hand gestures (mudras) and facial expressions used to convey different emotions, helping you understand the symbolic language of Kathakali.",
+      },
+    ],
+  },
+  {
+    title: "Jewish Heritage Walking Tour",
+    description:
+      "Explore Fort Kochi's fascinating Jewish history with visits to the 16th-century Paradesi Synagogue, Jewish Cemetery, and historic Jew Town, learning about this ancient community's rich cultural contributions and distinctive heritage.",
+    images: [
+      "/images/tours/fort-kochi/paradesi-synagogue.jpg",
+      "/images/tours/fort-kochi/jew-town.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.8,
+    tags: ["History", "Jewish Heritage", "Cultural"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: findGuideBySpecialty("fort kochi", "cultural").name,
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "How old is the Jewish community in Kochi?",
+        answer:
+          "The Jewish presence in Kerala dates back over 2,000 years, making it one of the oldest Jewish settlements outside Israel. Different waves of Jewish immigrants arrived, with the earliest possibly coming after the destruction of the Second Temple in 70 CE. The community flourished as merchants, with the Paradesi ('foreign') Jews arriving in the 16th century after fleeing the Spanish Inquisition.",
+      },
+      {
+        question: "Is the synagogue still active?",
+        answer:
+          "The Paradesi Synagogue remains India's oldest active synagogue, though the community has dwindled to very few members. It contains remarkable features including hand-painted Chinese tiles, Belgian chandeliers, and a gold crown gifted by a local Hindu ruler. Services are still occasionally held, particularly during high holidays.",
+      },
+      {
+        question: "What makes Jew Town unique?",
+        answer:
+          "Jew Town is the historic Jewish quarter centered around Synagogue Lane. Once a thriving center of the spice trade run by Jewish merchants, it now houses antique shops, spice stores, and boutiques in buildings that retain their colonial architecture. Many buildings feature Stars of David and other Jewish symbols, reflecting the area's heritage.",
       },
     ],
   },

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const vancouverTours: Tour[] = [
   {
     title: "Capilano Suspension Bridge & Temperate Rainforest",
@@ -12,12 +14,12 @@ export const vancouverTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nature", "Adventure", "Scenic"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Emma Wilson",
+    tourGuide: findGuideBySpecialty("vancouver", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const vancouverTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Indigenous", "Cultural", "Nature"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sarah Williams",
+    tourGuide: findGuideBySpecialty("vancouver", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const vancouverTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Food", "Culinary", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Michael Chen",
+    tourGuide: findGuideBySpecialty("vancouver", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

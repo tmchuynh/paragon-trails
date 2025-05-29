@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const udaipurTours: Tour[] = [
   {
     title: "Royal Lakeside Palace Experience",
@@ -12,12 +14,12 @@ export const udaipurTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Royal", "Palace", "Luxury"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maharaj Vikram Singh",
+    tourGuide: findGuideBySpecialty("udaipur", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -40,12 +42,12 @@ export const udaipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Village", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lakshmi Sharma",
+    tourGuide: findGuideBySpecialty("udaipur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -68,12 +70,12 @@ export const udaipurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Culinary", "Food", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Anjali Rathore",
+    tourGuide: findGuideBySpecialty("udaipur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

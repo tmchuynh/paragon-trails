@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const takayamaTours: Tour[] = [
   {
     title: "Traditional Carpentry & Old Town Heritage",
@@ -12,12 +14,12 @@ export const takayamaTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Historical", "Architecture", "Crafts"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Tanaka Hiroshi",
+    tourGuide: findGuideBySpecialty("takayama", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const takayamaTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sake", "Brewery", "Culinary"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Yamamoto Kenji",
+    tourGuide: findGuideBySpecialty("takayama", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const takayamaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Cultural", "Crafts", "Nature"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sato Akiko",
+    tourGuide: findGuideBySpecialty("takayama", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

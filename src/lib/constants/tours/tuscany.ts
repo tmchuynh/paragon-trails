@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const tuscanyTours: Tour[] = [
   {
     title: "Chianti Wine Region Villa Experience",
@@ -12,12 +14,12 @@ export const tuscanyTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Wine", "Countryside", "Gourmet"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sofia Bianchi",
+    tourGuide: findGuideBySpecialty("tuscany", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const tuscanyTours: Tour[] = [
     price: "$165",
     rating: 4.8,
     tags: ["Medieval", "Architecture", "History"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Rossi",
+    tourGuide: findGuideBySpecialty("tuscany", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const tuscanyTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Cooking", "Local Cuisine", "Hands-On"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Elena Conti",
+    tourGuide: findGuideBySpecialty("tuscany", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -98,12 +100,12 @@ export const tuscanyTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Art", "Renaissance", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Giovanni Ferraro",
+    tourGuide: findGuideBySpecialty("tuscany", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

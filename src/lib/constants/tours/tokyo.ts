@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const tokyoTours: Tour[] = [
   {
     title: "Tokyo After Dark: Izakaya & Hidden Bars",
@@ -17,7 +19,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Takashi Yamamoto",
+    tourGuide: findGuideBySpecialty("tokyo", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Haruto Tanaka",
+    tourGuide: findGuideBySpecialty("tokyo", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Takashi Yamamoto",
+    tourGuide: findGuideBySpecialty("tokyo", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -103,7 +105,7 @@ export const tokyoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Aiko Nakamura",
+    tourGuide: findGuideBySpecialty("tokyo", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

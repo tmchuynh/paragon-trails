@@ -1,145 +1,188 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const florenceTours: Tour[] = [
   {
-    title: "Renaissance Art & Hidden Doors",
+    title: "Renaissance Art & Architecture Masterpieces",
     description:
-      "Discover Florence's artistic masterpieces with private museum access and an art historian guide, then explore secret passages and hidden doors in Palazzo Vecchio that reveal the Medici family's clandestine history.",
+      "Explore Florence's artistic treasures with an art historian guide, enjoying priority access to the Uffizi Gallery and Accademia to view works by Michelangelo, Botticelli, and Leonardo da Vinci without the crowds.",
     images: [
+      "/images/tours/florence/david-statue.jpg",
       "/images/tours/florence/uffizi-gallery.jpg",
-      "/images/tours/florence/secret-passages.jpg",
     ],
-    duration: "5 hours",
-    price: "$165",
+    duration: "6 hours",
+    price: "$145",
     rating: 4.9,
-    tags: ["Art", "Secret History", "Renaissance"],
- 
+    tags: ["Art", "Museums", "Renaissance"],
+
     isHistorical: true,
     isRomantic: true,
-    isOffTheBeatenPath: true,
+    isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Sofia Rossi",
-    tourCategoryId: "cultural",
+    tourGuide: findGuideBySpecialty("florence", "art").name,
+    tourCategoryId: "art",
     faqs: [
       {
-        question: "Which artworks will we see?",
+        question: "How much walking is involved?",
         answer:
-          "Our tour includes Michelangelo's David at the Accademia, key masterpieces at the Uffizi including Botticelli's Birth of Venus and works by Leonardo da Vinci, and the hidden artistic treasures within Palazzo Vecchio. Your art historian guide customizes the focus based on your interests while ensuring you see the essential masterpieces.",
+          "This tour involves approximately 3-4 hours of walking between and within museums. The pace is leisurely with plenty of stops, but comfortable footwear is recommended as museum floors can be hard on the feet.",
       },
       {
-        question: "Are the secret passages accessible to everyone?",
+        question: "Is photography allowed in the museums?",
         answer:
-          "Yes, the secret passages are designed for guided tours and are fully accessible. However, some areas may involve climbing stairs or navigating narrow corridors. Please inform us in advance if you have mobility concerns.",
+          "Photography without flash is permitted in most areas of the Uffizi and Accademia, though some specific artworks may have restrictions. Your guide will advise on any limitations.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "Can we skip the long lines at the museums?",
         answer:
-          "Yes, this tour is family-friendly. We tailor the content to engage children with interactive storytelling and age-appropriate explanations of the artworks and history. Children will enjoy the adventure of exploring secret passages and learning about the Medici family's fascinating past.",
+          "Yes, this tour includes priority access tickets that allow you to bypass the main entry lines, which can save hours of waiting during peak season.",
       },
     ],
   },
   {
-    title: "Tuscan Hills & Artisanal Food Journey",
+    title: "Tuscan Countryside Wine Tour & Villa Lunch",
     description:
-      "Escape to the rolling Tuscan countryside for a day of culinary discoveries, visiting small family-run vineyards, an award-winning olive oil producer, and enjoying a traditional long lunch at a farmhouse with spectacular views.",
+      "Journey through the picturesque Chianti region visiting family-owned vineyards to sample renowned Tuscan wines, followed by a traditional lunch at a historic villa overlooking rolling hills and cypress groves.",
     images: [
-      "/images/tours/florence/tuscan-vineyard.jpg",
-      "/images/tours/florence/farmhouse-lunch.jpg",
+      "/images/tours/florence/chianti-vineyard.jpg",
+      "/images/tours/florence/tuscan-villa.jpg",
     ],
     duration: "8 hours",
-    price: "$195",
-    rating: 5.0,
-    tags: ["Wine", "Culinary", "Countryside"],
- 
+    price: "$185",
+    rating: 4.8,
+    tags: ["Wine", "Countryside", "Food"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Bianchi",
     tourCategoryId: "culinary",
     faqs: [
       {
-        question: "Which wines will we taste?",
+        question: "How many vineyards do we visit?",
         answer:
-          "The tour includes tastings of Chianti Classico, Super Tuscans, and other regional specialties like Vernaccia di San Gimignano. You'll sample approximately 8-10 different wines throughout the day, paired with appropriate foods to enhance the tasting experience. Our focus is on small-production, family-run vineyards rather than commercial operations.",
+          "We visit three carefully selected vineyards that represent different winemaking styles and traditions. Each offers a distinct tasting experience, from boutique organic producers to historically significant estates.",
       },
       {
-        question: "Is transportation provided?",
+        question: "Is lunch included in the tour price?",
         answer:
-          "Yes, we provide comfortable air-conditioned transportation for the entire day, including pick-up and drop-off at your accommodation in Florence. The drive to the countryside takes approximately 1 hour each way, allowing you to relax and enjoy the scenic views without worrying about navigation.",
+          "Yes, a traditional Tuscan lunch featuring seasonal ingredients is included. The multi-course meal typically includes antipasti, pasta, main course, and dessert, paired with wines from the estate.",
+      },
+      {
+        question: "Can non-drinkers enjoy this tour?",
+        answer:
+          "Absolutely. While wine is a focus, the tour also showcases the stunning Tuscan landscape, historic architecture, and excellent cuisine. Non-alcoholic beverages are available at all stops.",
       },
     ],
   },
   {
-    title: "Florence Architecture & Hidden Gems",
+    title: "Florence Artisan Workshops & Craftsmanship",
     description:
-      "Explore Florence's architectural wonders beyond the tourist hotspots, visiting lesser-known churches, palaces, and hidden courtyards with a local architect who reveals the city's unique building styles and history.",
+      "Discover Florence's living artistic heritage by visiting private workshops where traditional crafts including leatherworking, goldsmithing, paper marbling, and mosaic creation continue using centuries-old techniques.",
     images: [
-      "/images/tours/florence/hidden-church.jpg",
-      "/images/tours/florence/architectural-tour.jpg",
+      "/images/tours/florence/leather-workshop.jpg",
+      "/images/tours/florence/paper-marbling.jpg",
     ],
     duration: "4 hours",
-    price: "$120",
-    rating: 4.8,
-    tags: ["Architecture", "Hidden Gems", "Local Experience"],
- 
+    price: "$95",
+    rating: 4.7,
+    tags: ["Artisans", "Crafts", "Local Traditions"],
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Luca Ferraro",
-    tourCategoryId: "historical",
+    tourGuide: findGuideBySpecialty("florence", "cultural").name,
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What types of architecture will we see?",
+        question: "Will we get to try any crafts ourselves?",
         answer:
-          "The tour covers a range of architectural styles from Romanesque to Baroque, including hidden gems like the Basilica di San Miniato al Monte, Palazzo Davanzati, and lesser-known chapels. Your guide will explain the historical context and significance of each site, making connections to Florence's broader architectural evolution.",
+          "Yes, most workshops include hands-on components where you can try basic techniques. In the paper marbling workshop, for example, you'll create your own marbled paper to take home as a unique souvenir.",
       },
       {
-        question: "Are there any walking requirements?",
+        question: "Can we purchase items directly from the artisans?",
         answer:
-          "This tour involves moderate walking, including some stairs and uneven surfaces. We recommend comfortable shoes and being prepared for a leisurely pace to fully appreciate the details of each site.",
+          "Absolutely. One benefit of visiting these workshops is the opportunity to purchase authentic, high-quality items directly from the creators at fair prices, often with the option for customization.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "How many workshops do we visit?",
         answer:
-          "Yes, this tour is family-friendly. We engage children with interactive stories about the buildings and their history, making it an educational experience that sparks curiosity about architecture and history.",
+          "We visit four different artisan workshops, spending approximately 45 minutes at each location to allow time for demonstration, hands-on experience, and questions.",
       },
     ],
   },
   {
-    title: "Florence's Secret Gardens & Hidden Courtyards",
+    title: "Medici Secrets: Power & Conspiracy Tour",
     description:
-      "Discover Florence's tranquil side with a guided tour of its secret gardens, hidden courtyards, and lesser-known green spaces, exploring the city's botanical heritage and peaceful retreats away from the crowds.",
+      "Uncover the intrigue behind Florence's most influential family on this walking tour of Medici palaces, hidden passages, and conspiracy sites, revealing the scandals and power plays that shaped Renaissance history.",
     images: [
-      "/images/tours/florence/secret-garden.jpg",
-      "/images/tours/florence/courtyard.jpg",
+      "/images/tours/florence/medici-palace.jpg",
+      "/images/tours/florence/secret-passage.jpg",
     ],
     duration: "3 hours",
-    price: "$90",
-    rating: 4.7,
-    tags: ["Gardens", "Hidden Gems", "Nature"],
- 
-    isHistorical: false,
-    isRomantic: true,
+    price: "$75",
+    rating: 4.8,
+    tags: ["History", "Mystery", "Walking Tour"],
+
+    isHistorical: true,
+    isRomantic: false,
     isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourGuide: "Lucia Martelli",
-    tourCategoryId: "cultural",
+    isLocalExperience: false,
+    tourGuide: findGuideBySpecialty("florence", "historical").name,
+    tourCategoryId: "historical",
     faqs: [
       {
-        question: "What types of gardens will we visit?",
+        question: "Is this tour based on historical facts?",
         answer:
-          "The tour includes visits to the Bardini Garden, Rose Garden, and several hidden courtyards in Oltrarno. You'll learn about the history of these green spaces, their botanical significance, and how they reflect Florence's cultural heritage.",
+          "Yes, though the Medici history includes plenty of intrigue on its own, our tour is based on documented historical events and scholarly research rather than fictional accounts. We distinguish between verified facts and historical theories when appropriate.",
+      },
+      {
+        question: "Will we enter the Palazzo Vecchio?",
+        answer:
+          "Yes, we include access to select areas of the Palazzo Vecchio, including some rooms not on the standard tourist route, where key events in Medici history occurred.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly! We include fun activities like scavenger hunts in the gardens and storytelling about the plants and history that will engage children of all ages.",
+          "The tour is most appropriate for older children and adults due to the complex historical content and some discussion of assassination and political intrigue. We recommend this tour for ages 12 and up.",
+      },
+    ],
+  },
+  {
+    title: "Florence Cooking Class & Market Tour",
+    description:
+      "Begin at a local market selecting fresh seasonal ingredients, then prepare a traditional Florentine meal including handmade pasta, meat dishes, and desserts under the guidance of an experienced Italian chef.",
+    images: [
+      "/images/tours/florence/market-shopping.jpg",
+      "/images/tours/florence/cooking-class.jpg",
+    ],
+    duration: "5 hours",
+    price: "$120",
+    rating: 4.9,
+    tags: ["Cooking", "Food", "Market"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: findGuideBySpecialty("florence", "culinary").name,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Do I need cooking experience?",
+        answer:
+          "No experience necessary! Our chef will guide you through each step regardless of your cooking level. The class is designed to be approachable for beginners while still interesting for experienced home cooks.",
       },
       {
-        question: "Are there any walking requirements?",
+        question: "What dishes will we prepare?",
         answer:
-          "The tour involves moderate walking with some uneven surfaces. Comfortable shoes are recommended, but we keep the pace leisurely to allow time for exploration and photography.",
+          "You'll make a complete Tuscan meal typically including handmade pasta with traditional sauce, a main course such as arista (roast pork) or chicken cacciatore, side dishes featuring seasonal vegetables, and a classic dessert like tiramisu or panna cotta.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, with advance notice we can adapt recipes for vegetarians, vegans, and those with allergies or religious restrictions. Please inform us when booking.",
       },
     ],
   },

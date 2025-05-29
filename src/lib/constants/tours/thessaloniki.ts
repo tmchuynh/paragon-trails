@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const thessalonikiTours: Tour[] = [
   {
     title: "Byzantine Heritage & Hidden Treasures",
@@ -17,7 +19,7 @@ export const thessalonikiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Papadopoulos",
+    tourGuide: findGuideBySpecialty("thessaloniki", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -44,7 +46,7 @@ export const thessalonikiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dimitri Antoniadis",
+    tourGuide: findGuideBySpecialty("thessaloniki", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -71,7 +73,7 @@ export const thessalonikiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nikos Stavros",
+    tourGuide: findGuideBySpecialty("thessaloniki", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
