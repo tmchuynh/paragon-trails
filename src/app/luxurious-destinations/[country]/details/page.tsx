@@ -59,7 +59,6 @@ export default function DestinationDetailsPage() {
 
   // Filter states
   const [filters, setFilters] = useState({
-    isFamilyFriendly: false,
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
@@ -102,8 +101,6 @@ export default function DestinationDetailsPage() {
 
     const filtered = attractionData.filter((attraction) => {
       // Check boolean properties
-      if (filters.isFamilyFriendly && !attraction.isFamilyFriendly)
-        return false;
       if (filters.isFree && !attraction.isFree) return false;
       if (filters.isPetFriendly && !attraction.isPetFriendly) return false;
       if (filters.isWheelchairAccessible && !attraction.isWheelchairAccessible)
@@ -259,7 +256,6 @@ export default function DestinationDetailsPage() {
   // Reset filters
   const resetFilters = () => {
     setFilters({
-      isFamilyFriendly: false,
       isFree: false,
       isPetFriendly: false,
       isWheelchairAccessible: false,
@@ -357,16 +353,6 @@ export default function DestinationDetailsPage() {
                   <div className="space-y-2">
                     <h3>Experience Type</h3>
                     <div className="space-y-1">
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="family"
-                          checked={filters.isFamilyFriendly}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isFamilyFriendly", checked)
-                          }
-                        />
-                        <Label htmlFor="family">Family-friendly</Label>
-                      </div>
                       <div className="flex items-center space-x-2">
                         <Checkbox
                           id="pet"
