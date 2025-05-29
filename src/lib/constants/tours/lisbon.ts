@@ -25,6 +25,11 @@ export const lisbonTours: Tour[] = [
         answer:
           "Yes, the tour includes a traditional Portuguese dinner with wine during the fado performance. The meal typically features classic dishes like bacalhau (codfish), caldo verde (kale soup), and pastel de nata for dessert.",
       },
+      {
+        question: "Is the fado performance suitable for children?",
+        answer:
+          "While fado music is deeply emotional and may not hold children's attention, the atmosphere is family-friendly. We recommend this tour for children aged 10 and up who can appreciate cultural experiences.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const lisbonTours: Tour[] = [
         question: "How far is Sintra from Lisbon?",
         answer:
           "Sintra is located about 30km (18 miles) from Lisbon. Our comfortable private transportation takes approximately 40 minutes each way, depending on traffic conditions.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "We recommend comfortable walking shoes and weather-appropriate clothing, as we will be exploring both indoor and outdoor sites. Sintra's microclimate can be cooler than Lisbon, so a light jacket is advisable.",
       },
     ],
   },

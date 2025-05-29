@@ -25,6 +25,11 @@ export const buenosAiresTours: Tour[] = [
         answer:
           "Absolutely! Our instructors specialize in teaching beginners, and the private lesson is tailored to your level. The focus is on enjoying the experience and cultural immersion, not dance perfection.",
       },
+      {
+        question: "What should I wear for the tango lesson?",
+        answer:
+          "Comfortable clothing that allows for movement is best. Many participants wear dressy casual attire, but you can also wear comfortable shoes suitable for dancing. We recommend avoiding sneakers or overly casual footwear.",
+      },
     ],
   },
   {
@@ -51,6 +56,16 @@ export const buenosAiresTours: Tour[] = [
         question: "Which neighborhoods do we visit?",
         answer:
           "The tour explores the contrasting neighborhoods of Palermo Soho with its street art scene, San Telmo's hidden architectural gems, and the colorful working-class area of La Boca beyond the tourist section of Caminito.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. The walking pace is relaxed, and we can adjust the itinerary to include child-friendly stops like parks or ice cream shops.",
+      },
+      {
+        question: "Can we customize the tour?",
+        answer:
+          "Absolutely! We can tailor the tour to focus on specific interests such as architecture styles, street art themes, or local crafts. Just let us know your preferences when booking.",
       },
     ],
   },
