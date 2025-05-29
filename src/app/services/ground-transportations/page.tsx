@@ -1,4 +1,5 @@
 "use client";
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 import { groundTransportTestimonials } from "@/lib/constants/services/testimonials/groundTransportation";
 import { groundTransportationRoutes } from "@/lib/constants/services/transportation/routes/groundTransportationRoutes";
@@ -395,33 +396,10 @@ export default function TransportationPage() {
           executive road convoys, or enhanced security coordination, contact our
           Transportation Concierge at:
         </p>
-
-        <div>
-          <div className="flex flex-col space-y-3">
-            <p>
-              <span className="inline-block w-6">📞</span>
-              <a
-                href="tel:+13104778840"
-                className="text-blue-600 hover:underline"
-              >
-                +1 (310) 477–8840
-              </a>
-            </p>
-            <p>
-              <span className="inline-block w-6">📧</span>
-              <a
-                href="mailto:transport@paragontrails.com"
-                className="text-blue-600 hover:underline"
-              >
-                transport@paragontrails.com
-              </a>
-            </p>
-            <p>
-              <span className="inline-block w-6">🕒</span> Availability: 24/7
-              for active itineraries
-            </p>
-          </div>
-        </div>
+      </section>
+      <section>
+        <ContactDepartmentCard department="Transportation & Charter Services" />
+        <ContactDepartmentCard department="Transportation Concierge" />
       </section>
     </div>
   );

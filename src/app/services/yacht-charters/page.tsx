@@ -1,5 +1,6 @@
 "use client";
 
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 import { yachtTestimonials } from "@/lib/constants/services/testimonials/yachtTestimonials";
 import { yachtDestinations } from "@/lib/constants/services/transportation/routes/yachtDestinations";
@@ -292,6 +293,11 @@ export default function YachtCharters() {
           perspective.
         </p>
         <Button>Inquire About Availability</Button>
+      </section>
+
+      <section>
+        <ContactDepartmentCard department="Transportation & Charter Services" />
+        <ContactDepartmentCard department="Transportation Concierge" />
       </section>
     </div>
   );

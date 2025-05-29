@@ -1,5 +1,6 @@
 "use client";
 
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 import { homestayTestimonials } from "@/lib/constants/services/testimonials/homestayTestimonials";
 import { useRouter } from "next/navigation";
@@ -349,19 +350,8 @@ export default function HomestayPage() {
         </ul>
       </section>
 
-      {/* Contact Information Section */}
       <section>
-        <h2>Get in Touch</h2>
-        <p>
-          For more information about our homestay options, please contact us at:
-        </p>
-        <p>Email:</p>
-        <p>Phone: +1 (555) 123-4567</p>
-        <p>Hours: Monday–Friday, 9:00 AM to 5:00 PM PT</p>
-        <p className="text-lg">
-          We look forward to helping you create unforgettable memories with our
-          homestay experiences!
-        </p>
+        <ContactDepartmentCard department="Homestay Inquiries" />
       </section>
 
       {/* Final Thoughts Section */}

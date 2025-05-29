@@ -1,5 +1,6 @@
 "use client";
 
+import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
 import { tourCategorys } from "@/lib/constants/services/tourCategories";
 import { useRouter } from "next/navigation";
@@ -43,6 +44,11 @@ export default function TourPackages() {
           Meet Our Wonderful Tour Guides
         </Button>
       </section>
+
+      <section>
+        <ContactDepartmentCard department="Custom Tour Arrangements" />
+      </section>
+
       <section className="gap-5 grid xl:grid-cols-2 divide-y">
         {tourCategorys.map((category) => (
           <section
