@@ -87,73 +87,81 @@ export default function TourGuides() {
         </section>
 
         <Accordion type="single" collapsible>
-          {sortedCountries.map((country, index) => (
-            <AccordionItem
-              id={formatToSlug(country)}
-              value={`${country}-${index}`}
-              key={`${country}-${index}-${generateRandomString(5)}`}
-              className="bg-card scroll-mt-24 mb-16 px-6 border border-border rounded-2xl"
-            >
-              <AccordionTrigger>
-                <h2 className="mb-0">{country}</h2>
-              </AccordionTrigger>
+          {sortedCountries.map((country, index) => {
+            const sortedTourGuides = groupAndSortByProperties(
+              guidesByCountry[country],
+              "city",
+              "name"
+            );
 
-              <AccordionContent>
-                <ul className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-7 border-t-2 border-tertiary">
-                  {guidesByCountry[country].map((guide) => (
-                    <li
-                      key={`${guide.name}-${generateRandomString(5)}`}
-                      className="bg-card border border-border rounded-lg transition-shadow overflow-hidden"
-                    >
-                      <div className="relative h-64">
-                        <Image
-                          alt={`Portrait of ${guide.name}`}
-                          src={
-                            guide.image ||
-                            "/images/people/default-tour-guide.jpg"
-                          }
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
+            return (
+              <AccordionItem
+                id={formatToSlug(country)}
+                value={`${country}-${index}`}
+                key={`${country}-${index}-${generateRandomString(5)}`}
+                className="bg-card scroll-mt-24 mb-16 px-6 border border-border rounded-2xl"
+              >
+                <AccordionTrigger>
+                  <h2 className="mb-0">{country}</h2>
+                </AccordionTrigger>
 
-                      <div className="p-6">
-                        <h3 className="mb-1 font-semibold text-xl">
-                          {guide.name}
-                        </h3>
-                        <p className="mb-3 text-tertiary">
-                          {guide.city},<span>{guide.country}</span>
-                        </p>
+                <AccordionContent>
+                  <ul className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-7 border-t-2 border-tertiary">
+                    {sortedTourGuides.map((guide) => (
+                      <li
+                        key={`${guide.name}-${generateRandomString(5)}`}
+                        className="bg-card border border-border rounded-lg transition-shadow overflow-hidden"
+                      >
+                        <div className="relative h-64">
+                          <Image
+                            alt={`Portrait of ${guide.name}`}
+                            src={
+                              guide.image ||
+                              "/images/people/default-tour-guide.jpg"
+                            }
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
 
-                        {guide.specialties && (
-                          <div className="flex flex-wrap gap-2 mb-4">
-                            {guide.specialties.map((specialty, index) => (
-                              <Badge
-                                size={"lg"}
-                                key={index}
-                                variant="secondary"
-                              >
-                                {specialty}
-                              </Badge>
-                            ))}
-                          </div>
-                        )}
-
-                        <p className="mb-3">"{guide.quote}"</p>
-
-                        {guide.languages && (
-                          <p>
-                            <strong>Languages:</strong>{" "}
-                            {guide.languages.join(", ")}
+                        <div className="p-6">
+                          <h3 className="mb-1 font-semibold text-xl">
+                            {guide.name}
+                          </h3>
+                          <p className="mb-3 text-tertiary">
+                            {guide.city},<span>{guide.country}</span>
                           </p>
-                        )}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </AccordionContent>
-            </AccordionItem>
-          ))}
+
+                          {guide.specialties && (
+                            <div className="flex flex-wrap gap-2 mb-4">
+                              {guide.specialties.map((specialty, index) => (
+                                <Badge
+                                  size={"lg"}
+                                  key={index}
+                                  variant="secondary"
+                                >
+                                  {specialty}
+                                </Badge>
+                              ))}
+                            </div>
+                          )}
+
+                          <p className="mb-3">"{guide.quote}"</p>
+
+                          {guide.languages && (
+                            <p>
+                              <strong>Languages:</strong>{" "}
+                              {guide.languages.join(", ")}
+                            </p>
+                          )}
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+            );
+          })}
         </Accordion>
       </section>
 
