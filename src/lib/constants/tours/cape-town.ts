@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const capeTownTours: Tour[] = [
+export const capeTownTours: Tour[] = [
   {
     title: "Table Mountain Sunrise Hike",
     description:

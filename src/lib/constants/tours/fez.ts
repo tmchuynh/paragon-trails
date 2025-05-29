@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const fezTours: Tour[] = [
+export const fezTours: Tour[] = [
   {
     title: "Medieval Medina & Artisan Traditions",
     description:

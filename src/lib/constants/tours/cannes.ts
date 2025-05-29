@@ -1,6 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
-const cannesTours: Tour[] = [
+export const cannesTours: Tour[] = [
   {
     title: "Cannes Film Festival Experience",
     description:
