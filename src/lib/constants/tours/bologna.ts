@@ -25,6 +25,16 @@ export const bolognaTours: Tour[] = [
         answer:
           "Absolutely! Nonna Maria has been teaching pasta-making to her family for generations and has a special talent for guiding beginners. No experience is necessary, just a love of Italian food.",
       },
+      {
+        question: "What dietary restrictions can be accommodated?",
+        answer:
+          "We can accommodate vegetarian diets, but please inform us in advance of any allergies or specific dietary needs. Unfortunately, we cannot accommodate gluten-free diets as traditional pasta is made with wheat flour.",
+      },
+      {
+        question: "Will we be able to take home any pasta?",
+        answer:
+          "Yes, you will make enough pasta to enjoy a generous portion during the meal, and you can take home any leftovers. Nonna Maria will also provide you with her family recipes so you can recreate the dishes at home.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const bolognaTours: Tour[] = [
         question: "Does this tour involve a lot of climbing?",
         answer:
           "Yes, accessing the Asinelli Tower involves climbing approximately 498 steps, which requires moderate fitness. However, the climb is well worth it for the spectacular panoramic views of Bologna's red rooftops.",
+      },
+      {
+        question: "Are there any hidden fees?",
+        answer:
+          "No, the tour price includes all entrance fees to the towers and porticoes. We recommend bringing some cash for optional refreshments at local cafes during the tour.",
+      },
+      {
+        question: "Can children join this tour?",
+        answer:
+          "Yes, children are welcome, but please note that the tower climb may be challenging for very young children. We recommend this tour for ages 10 and up.",
       },
     ],
   },

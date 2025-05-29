@@ -106,6 +106,51 @@ export const amsterdamTours: Tour[] = [
         answer:
           "No prior experience is necessary. Amsterdam is flat and cyclist-friendly, with dedicated bike lanes throughout the city. We ride at a leisurely pace and our guides ensure everyone feels comfortable. Bikes are adjusted to fit each rider, and we provide a brief orientation before departing.",
       },
+      {
+        question: "What if it rains?",
+        answer:
+          "We provide rain ponchos for all participants, and cycling in light rain is quite common in Amsterdam. If the weather is severe, we will reschedule the tour or offer a full refund.",
+      },
+      {
+        question: "Are bike helmets provided?",
+        answer:
+          "Helmets are not mandatory in the Netherlands, but we do have them available if you prefer to wear one. Most locals cycle without helmets, but we prioritize your comfort and safety.",
+      },
+      {
+        question: "Can I bring my own bike?",
+        answer:
+          "Yes, you are welcome to bring your own bike. Just let us know in advance so we can adjust the tour accordingly. However, we do provide high-quality rental bikes that are well-maintained and suitable for city cycling.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children aged 8 and up. We can provide child-sized bikes or attachable seats for younger kids. Please let us know the ages of your children when booking so we can prepare accordingly.",
+      },
+      {
+        question: "What should I wear for the bike tour?",
+        answer:
+          "Comfortable clothing and closed-toe shoes are recommended. Dress in layers, as the weather can change throughout the day. We also suggest bringing a light jacket or sweater, especially in the spring and fall.",
+      },
+      {
+        question: "Is there a weight limit for the bikes?",
+        answer:
+          "Our rental bikes can accommodate riders up to 120 kg (265 lbs). If you have any concerns about bike suitability, please contact us before booking.",
+      },
+      {
+        question: "Can I take photos during the tour?",
+        answer:
+          "Absolutely! We encourage you to take photos along the way. Our guides will also be happy to assist with group photos at scenic spots.",
+      },
+      {
+        question: "What happens if I get separated from the group?",
+        answer:
+          "Our guides will ensure that the group stays together, but in case you do get separated, we provide a map and contact information so you can easily find your way back to the meeting point. We also have a designated meeting spot in case anyone needs to take a break or return early.",
+      },
+      {
+        question: "Is there a minimum number of participants for the tour?",
+        answer:
+          "No, we do not have a minimum number of participants. The tour will run as long as at least one person is booked. However, for private tours, we recommend booking in advance to ensure availability.",
+      },
     ],
   },
   {
@@ -132,6 +177,21 @@ export const amsterdamTours: Tour[] = [
         question: "Is the boat covered in case of rain?",
         answer:
           "Yes, our salon boats have a transparent cover that can be used in case of inclement weather, allowing you to still enjoy the views while staying dry. The boats are also heated during colder months for your comfort.",
+      },
+      {
+        question: "What types of cheese are served?",
+        answer:
+          "We offer a selection of traditional Dutch cheeses, including aged Gouda, Edam, and Leyden, along with seasonal specialties. Vegetarian options are available upon request. The cheese is paired with a variety of wines to enhance your tasting experience.",
+      },
+      {
+        question: "Can I book a private cruise for a special occasion?",
+        answer:
+          "Yes, we offer private evening cruises for special occasions such as anniversaries, birthdays, or corporate events. Please contact us for more details and to discuss your specific requirements.",
+      },
+      {
+        question: "Is there a restroom on board?",
+        answer:
+          "Yes, our salon boats are equipped with a restroom for your convenience during the cruise.",
       },
     ],
   },
@@ -160,6 +220,21 @@ export const amsterdamTours: Tour[] = [
         answer:
           "The Zaanse Schans windmill village is approximately 30 minutes by private coach from central Amsterdam. The countryside locations we visit are close enough for a comfortable day trip while offering a complete contrast to the urban environment of the city.",
       },
+      {
+        question: "Are the windmills still operational?",
+        answer:
+          "Yes, many of the windmills at Zaanse Schans are still operational and demonstrate traditional milling techniques. You can enter some of the windmills to see how they work and learn about their history.",
+      },
+      {
+        question: "Is lunch included in the tour?",
+        answer:
+          "Lunch is not included, but we will stop at a local café where you can purchase traditional Dutch dishes or snacks. We recommend trying a local pancake or herring sandwich.",
+      },
+      {
+        question: "Can I buy cheese and clogs during the tour?",
+        answer:
+          "Yes, there will be opportunities to purchase cheese and clogs at the farm and clog workshop. We also visit a cheese shop where you can sample various types of Dutch cheese.",
+      },
     ],
   },
   {
@@ -186,6 +261,17 @@ export const amsterdamTours: Tour[] = [
         question: "Is this tour respectful to the workers in the area?",
         answer:
           "Absolutely. We maintain a respectful distance from working areas and never photograph the workers. Our guides are trained to discuss the subject matter factually and without sensationalism, focusing on the historical, cultural, and social aspects of the district. We support ethical tourism practices that respect both the local community and visitors.",
+      },
+      {
+        question: "Is this tour suitable for all ages?",
+        answer:
+          "No, this tour is intended for adults only (18+). It contains mature themes and discussions that may not be appropriate for younger audiences. Valid ID may be required to join the tour.",
+      },
+
+      {
+        question: "Is this tour suitable for all ages?",
+        answer:
+          "No, this tour is intended for adults only (18+). It contains mature themes and discussions that may not be appropriate for younger audiences. Valid ID may be required to join the tour.",
       },
     ],
   },

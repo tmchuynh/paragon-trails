@@ -26,6 +26,26 @@ export const boraBoraTours: Tour[] = [
         answer:
           "Basic swimming ability is recommended, but we provide high-quality flotation devices and our guides offer close supervision for less confident swimmers.",
       },
+      {
+        question: "What should I bring for the snorkeling tour?",
+        answer:
+          "Please bring swimwear, sunscreen, a hat, a towel, and any personal items you may need. Snorkeling gear is provided.",
+      },
+      {
+        question: "Are meals included in the tour price?",
+        answer:
+          "Yes, a gourmet picnic lunch with local delicacies is included during the cruise.",
+      },
+      {
+        question: "Is there an age limit for this tour?",
+        answer:
+          "This tour is suitable for all ages. Children must be accompanied by an adult, and we provide life jackets for younger guests.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "Cancellations made at least 48 hours in advance will receive a full refund. Cancellations within 48 hours are non-refundable.",
+      },
     ],
   },
   {
@@ -52,6 +72,21 @@ export const boraBoraTours: Tour[] = [
         question: "Can you accommodate dietary restrictions?",
         answer:
           "Absolutely! We can customize the menu for any dietary needs including vegetarian, vegan, gluten-free, and most allergies with advance notice.",
+      },
+      {
+        question: "What is the best time for the sunset experience?",
+        answer:
+          "We recommend starting the tour about 1.5 hours before sunset to ensure you have plenty of time to enjoy the views and the picnic.",
+      },
+      {
+        question: "Is transportation included?",
+        answer:
+          "Yes, we provide round-trip transportation from your hotel or resort in Bora Bora.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "We recommend light, comfortable clothing suitable for warm weather. A light jacket may be useful as it can get cooler after sunset.",
       },
     ],
   },

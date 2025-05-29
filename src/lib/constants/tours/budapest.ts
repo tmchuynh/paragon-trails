@@ -25,6 +25,16 @@ export const budapestTours: Tour[] = [
         answer:
           "Please bring your swimwear, a towel (though towels can also be rented), flip-flops, and a water bottle. Shower facilities and lockers are provided. For the mixed-gender areas, swimwear is required, while in certain single-gender sections, it may be optional following European spa traditions.",
       },
+      {
+        question: "Are the thermal baths suitable for children?",
+        answer:
+          "Yes, many of Budapest's thermal baths are family-friendly, with designated areas for children. However, some treatments and certain pools may have age restrictions. Please check with us if you plan to bring children.",
+      },
+      {
+        question: "Can I book spa treatments in advance?",
+        answer:
+          "Yes, we can arrange additional spa treatments such as massages or beauty therapies at the baths. Please let us know your preferences when booking.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const budapestTours: Tour[] = [
         question: "Is this tour suitable for claustrophobic individuals?",
         answer:
           "Parts of this tour involve narrow passages and underground spaces that may be challenging for those with severe claustrophobia. The Hospital in the Rock and certain bunker sections have wider spaces and higher ceilings, while some cave passages are narrower with lower clearance. Please contact us to discuss specific concerns before booking.",
+      },
+      {
+        question: "What should I wear for the underground tour?",
+        answer:
+          "We recommend wearing comfortable, sturdy shoes suitable for uneven terrain, as well as clothing that can get dirty. A light jacket is advisable, as underground temperatures can be cooler than above ground. Helmets are provided where necessary.",
+      },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "This tour is generally suitable for all ages, but children must be accompanied by an adult. Some areas may not be stroller-friendly, so please consider this if bringing young children.",
       },
     ],
   },
