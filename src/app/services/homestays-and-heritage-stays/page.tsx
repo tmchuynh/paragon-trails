@@ -200,34 +200,24 @@ export default function HomestayPage() {
         <h2>Who Should Consider a Homestay?</h2>
         <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
           <div className="bg-card p-4 border border-border rounded-lg">
-            <p className="font-medium">Cultural Enthusiasts</p>
-            <p className="text-sm">
-              who want to dive deeper into local traditions.
-            </p>
+            <h3>Cultural Enthusiasts</h3>
+            <p>who want to dive deeper into local traditions.</p>
           </div>
           <div className="bg-card p-4 border border-border rounded-lg">
-            <p className="font-medium">Solo Travelers</p>
-            <p className="text-sm">
-              seeking a secure and friendly environment.
-            </p>
+            <h3>Solo Travelers</h3>
+            <p>seeking a secure and friendly environment.</p>
           </div>
           <div className="bg-card p-4 border border-border rounded-lg">
-            <p className="font-medium">Students and Language Learners</p>
-            <p className="text-sm">
-              aiming to improve their skills through immersion.
-            </p>
+            <h3>Students and Language Learners</h3>
+            <p>aiming to improve their skills through immersion.</p>
           </div>
           <div className="bg-card p-4 border border-border rounded-lg">
-            <p className="font-medium">Families and Groups</p>
-            <p className="text-sm">
-              interested in a more personal travel experience.
-            </p>
+            <h3>Families and Groups</h3>
+            <p>interested in a more personal travel experience.</p>
           </div>
           <div className="bg-card p-4 border border-border rounded-lg">
-            <p className="font-medium">Budget Travelers</p>
-            <p className="text-sm">
-              looking for affordable yet authentic accommodations.
-            </p>
+            <h3>Budget Travelers</h3>
+            <p>looking for affordable yet authentic accommodations.</p>
           </div>
         </div>
       </section>
@@ -240,10 +230,10 @@ export default function HomestayPage() {
           {homestayTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between bg-card shadow-md p-5 rounded-lg"
+              className="flex flex-col justify-between bg-card shadow-md p-5 border border-border rounded-lg"
             >
               <p className="mb-2">"{testimonial.quote}"</p>
-              <p className="text-sm">
+              <p>
                 — {testimonial.author}, {testimonial.title}
               </p>
             </div>
@@ -351,7 +341,7 @@ export default function HomestayPage() {
           When you book a homestay through us, you receive:
         </p>
 
-        <ul className="space-y-2 mb-4 pl-6 list-disc">
+        <ul className="space-y-2 my-4 pl-6 list-disc">
           <li>Verified hosts with genuine local ties</li>
           <li>Transparent pricing and clear cancellation policies</li>
           <li>Dedicated support before and during your stay</li>

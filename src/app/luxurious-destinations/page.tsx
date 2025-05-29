@@ -1,7 +1,15 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { cityattractions } from "@/lib/constants/destinations/city";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
@@ -93,9 +101,9 @@ export default function LuxuriousDestinations() {
       <div className="space-y-4 mb-8">
         <div className="flex md:flex-row flex-col items-start md:items-center gap-4">
           <div className="w-full md:w-1/2">
-            <input
+            <Input
               type="text"
-              className="px-4 py-2 border border-border rounded-md focus:ring-2 focus:ring-primary w-full focus:outline-none"
+              className="w-full"
               placeholder="Search by city, country, or region..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -107,29 +115,31 @@ export default function LuxuriousDestinations() {
               <Label>
                 <strong>Sort by:</strong>
               </Label>
-              <select
-                className="px-3 py-1 border border-border rounded-md"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-              >
-                <option value="city">City</option>
-                <option value="country">Country</option>
-              </select>
+              <Select value={sortBy} onValueChange={setSortBy}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select sort option" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="city">City</SelectItem>
+                  <SelectItem value="country">Country</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
 
             <div className="space-x-2">
               <Label>
                 <strong>Popular:</strong>
               </Label>
-              <select
-                className="px-3 py-1 border border-border rounded-md"
-                value={popularSort}
-                onChange={(e) => setPopularSort(e.target.value)}
-              >
-                <option value="none">No priority</option>
-                <option value="first">Show first</option>
-                <option value="last">Show last</option>
-              </select>
+              <Select value={popularSort} onValueChange={setPopularSort}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select popularity filter" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="none">No priority</SelectItem>
+                  <SelectItem value="first">Show first</SelectItem>
+                  <SelectItem value="last">Show last</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
           </div>
         </div>
