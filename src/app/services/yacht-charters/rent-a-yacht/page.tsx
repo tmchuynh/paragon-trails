@@ -1,6 +1,8 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { yachtCharterFleet } from "@/lib/constants/services/transportation/yachts";
+import { capitalize } from "@/lib/utils/format";
 import { useState } from "react";
 
 export default function RentAYachtPage() {
@@ -314,7 +316,7 @@ export default function RentAYachtPage() {
                       htmlFor={`amenity-${i}`}
                       className="text-sm capitalize"
                     >
-                      {amenity}
+                      {capitalize(amenity)}
                     </label>
                   </div>
                 ))}
@@ -337,9 +339,11 @@ export default function RentAYachtPage() {
                       className="mr-2"
                     />
                     <label htmlFor={`feature-${i}`} className="text-sm">
-                      {feature
-                        .replace(/([A-Z])/g, " $1")
-                        .replace(/([A-Z][a-z])/g, " $1")}
+                      {capitalize(
+                        feature
+                          .replace(/([A-Z])/g, " $1")
+                          .replace(/([A-Z][a-z])/g, " $1")
+                      )}
                     </label>
                   </div>
                 ))}
@@ -348,12 +352,9 @@ export default function RentAYachtPage() {
         </div>
 
         <div className="text-right mt-4">
-          <button
-            className="bg-tertiary px-4 py-2 rounded text-white"
-            onClick={resetFilters}
-          >
+          <Button variant={"destructive"} onClick={resetFilters}>
             Reset Filters
-          </button>
+          </Button>
         </div>
       </div>
 
@@ -468,12 +469,9 @@ export default function RentAYachtPage() {
           <h3 className="mb-4 font-semibold text-xl">
             No yachts match your filter criteria
           </h3>
-          <button
-            className="bg-primary hover:bg-opacity-90 px-6 py-3 rounded-md text-white transition-colors"
-            onClick={resetFilters}
-          >
+          <Button variant={"accent"} onClick={resetFilters}>
             Reset All Filters
-          </button>
+          </Button>
         </div>
       )}
     </div>
