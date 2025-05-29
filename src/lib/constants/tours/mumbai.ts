@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mumbaiTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const mumbaiTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Community", "Educational"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Raj Mehta",
+    tourGuide: findGuideBySpecialty("mumbai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const mumbaiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Bollywood", "Entertainment", "Dance"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Priya Singh",
+    tourGuide: findGuideBySpecialty("mumbai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const mumbaiTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Food", "Street Food", "Culinary"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Anand Kumar",
+    tourGuide: findGuideBySpecialty("mumbai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const mumbaiTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Markets", "Fishing", "Local Life"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Suresh Koli",
+    tourGuide: findGuideBySpecialty("mumbai", "culinary").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -136,12 +137,12 @@ export const mumbaiTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["History", "Architecture", "Colonial"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Pradeep Sharma",
+    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -168,12 +169,12 @@ export const mumbaiTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nightlife", "Skyline", "Luxury"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Arjun Mehta",
+    tourGuide: findGuideBySpecialty("mumbai", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -199,13 +200,13 @@ export const mumbaiTours: Tour[] = [
     duration: "7 hours",
     price: "$175",
     rating: 4.9,
-    tags: ["UNESCO", "Archaeology", "Sailing"],
- 
+    tags: ["Archaeology", "Sailing"],
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Aditya Rao",
+    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -232,12 +233,12 @@ export const mumbaiTours: Tour[] = [
     price: "$60",
     rating: 4.5,
     tags: ["Nature", "Gardens", "Peaceful"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Nandini Desai, Botanist",
+    tourGuide: findGuideBySpecialty("mumbai", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -264,12 +265,12 @@ export const mumbaiTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Architecture", "Art Deco", "Heritage"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Architect Riya Kapoor",
+    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

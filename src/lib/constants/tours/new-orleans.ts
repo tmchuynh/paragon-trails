@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const newOrleansTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const newOrleansTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Jazz", "History", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marcus Baptiste",
+    tourGuide: findGuideBySpecialty("new-orleans", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -50,12 +51,12 @@ export const newOrleansTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Paranormal", "Evening", "Storytelling"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Marie Laveau",
+    tourGuide: findGuideBySpecialty("new-orleans", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -87,12 +88,12 @@ export const newOrleansTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Culinary", "Local Cuisine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Antoine Dupont",
+    tourGuide: findGuideBySpecialty("new-orleans", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

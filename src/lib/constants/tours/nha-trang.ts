@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const nhaTrangTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const nhaTrangTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Beach", "Snorkeling", "Islands"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Tran Minh",
+    tourGuide: findGuideBySpecialty("nha-trang", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -60,12 +61,12 @@ export const nhaTrangTours: Tour[] = [
     price: "$35",
     rating: 4.8,
     tags: ["Spa", "Relaxation", "Wellness"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Linh Nguyen",
+    tourGuide: findGuideBySpecialty("nha-trang", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -107,12 +108,12 @@ export const nhaTrangTours: Tour[] = [
     price: "$30",
     rating: 4.6,
     tags: ["Culture", "History", "Sightseeing"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hoang Duy",
+    tourGuide: findGuideBySpecialty("nha-trang", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -154,12 +155,12 @@ export const nhaTrangTours: Tour[] = [
     price: "$25",
     rating: 4.9,
     tags: ["Food", "Nightlife", "Culture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nguyen Thi Mai",
+    tourGuide: findGuideBySpecialty("nha-trang", "food").name,
     tourCategoryId: "food",
     faqs: [
       {
@@ -201,12 +202,12 @@ export const nhaTrangTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Romantic", "Cruise", "Sunset"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Pham Quang",
+    tourGuide: findGuideBySpecialty("nha-trang", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

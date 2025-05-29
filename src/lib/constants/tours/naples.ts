@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const naplesTours: Tour[] = [
   {
     title: "Authentic Neapolitan Pizza Masterclass",
@@ -12,12 +14,12 @@ export const naplesTours: Tour[] = [
     price: "$95",
     rating: 5.0,
     tags: ["Cooking Class", "Pizza", "Culinary Tradition"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Esposito",
+    tourGuide: findGuideBySpecialty("naples", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -49,12 +51,12 @@ export const naplesTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Archaeology", "Volcano", "Wine"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Alessandra Romano",
+    tourGuide: findGuideBySpecialty("naples", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -86,13 +88,13 @@ export const naplesTours: Tour[] = [
     price: "$250",
     rating: 4.8,
     tags: ["Island Tour", "Boat", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Giovanni Russo",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("naples", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What should I bring for the boat tour?",

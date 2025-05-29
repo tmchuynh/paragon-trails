@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const heraklionTours: Tour[] = [
   {
     title: "Knossos Palace & Minoan Civilization",
@@ -17,7 +19,7 @@ export const heraklionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Maria Papadakis",
+    tourGuide: findGuideBySpecialty("heraklion", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -55,7 +57,7 @@ export const heraklionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nikos Georgiadis",
+    tourGuide: findGuideBySpecialty("heraklion", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -92,7 +94,7 @@ export const heraklionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Elena Stavrou",
+    tourGuide: findGuideBySpecialty("heraklion", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

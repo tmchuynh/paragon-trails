@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const newYorkTours: Tour[] = [
   {
     title: "Hidden New York: Secret Spaces & Underground Art",
@@ -12,12 +14,12 @@ export const newYorkTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Underground", "History", "Art"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Alex Winters",
+    tourGuide: findGuideBySpecialty("new-york", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -44,13 +46,13 @@ export const newYorkTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Food", "Art", "Local"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sarah Miller",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("new-york", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Does this tour include food tastings?",
@@ -76,12 +78,12 @@ export const newYorkTours: Tour[] = [
     price: "$49",
     rating: 4.8,
     tags: ["Walking", "Urban", "Landmarks"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Michael Johnson",
+    tourGuide: findGuideBySpecialty("new-york", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -107,12 +109,12 @@ export const newYorkTours: Tour[] = [
     price: "$395",
     rating: 4.8,
     tags: ["Aerial", "Skyline", "Luxury"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Michael Rodriguez",
+    tourGuide: findGuideBySpecialty("new-york", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -139,12 +141,12 @@ export const newYorkTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Cultural", "Diverse"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Maria Lopez",
+    tourGuide: findGuideBySpecialty("new-york", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

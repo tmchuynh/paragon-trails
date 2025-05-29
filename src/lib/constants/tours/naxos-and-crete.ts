@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const naxosAndCreteTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$1,750",
     rating: 4.9,
     tags: ["Island Hopping", "Multi-Island", "Comprehensive"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Stavros Papadopoulos",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Archaeology", "Minoan", "Museum"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Maria Economou",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cultural", "Artisans", "Villages"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Yiannis Koutelieris",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$130",
     rating: 4.9,
     tags: ["Cooking", "Food", "Agriculture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Katerina Papadakis",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -141,12 +142,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Adventure"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Michalis Venianakis",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -173,12 +174,13 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Sailing", "Beaches", "Swimming"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Dimitris",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "off-the-beaten-path")
+      .name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -205,12 +207,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$140",
     rating: 4.7,
     tags: ["4x4", "Mountain", "Mythology"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Giorgos Papadakis",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -237,13 +239,13 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Photography", "Sunset", "Ancient Temple"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Elena Koutsomitis",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is required?",
@@ -269,12 +271,12 @@ export const naxosAndCreteTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Wine", "Olive Oil", "Tasting"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sophia Nikolaou",
+    tourGuide: findGuideBySpecialty("naxos-and-crete", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
