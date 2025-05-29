@@ -19,6 +19,13 @@ export interface Tour {
   isFamilyFriendly?: boolean;
   isHistorical?: boolean;
   isRomantic?: boolean;
+  isAdventure?: boolean;
+  isCultural?: boolean;
+  isNightlife?: boolean;
+  isFoodAndDrink?: boolean;
+  isWellness?: boolean;
+  isLuxury?: boolean;
+  isArtOrMusic?: boolean;
   isOffTheBeatenPath?: boolean;
   isLocalExperience?: boolean;
   tourGuide: TourGuide["name"];
