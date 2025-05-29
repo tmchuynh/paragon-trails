@@ -17,7 +17,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Somchai Wongwian",
+    tourGuide: "Maya Suwanna",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -54,7 +54,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nattaporn Srisawat",
+    tourGuide: "Somchai Prasert",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +91,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chantana Rattanapong",
+    tourGuide: "Somchai Prasert",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -128,7 +128,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Pimchanok Kongsuwan",
+    tourGuide: "Maya Suwanna",
     tourCategoryId: "local-experience",
     faqs: [
       {

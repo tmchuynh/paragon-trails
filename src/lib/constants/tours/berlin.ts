@@ -54,7 +54,7 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nina Schneider",
+    tourGuide: "Hans Schmidt",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -91,7 +91,7 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Katrin Weiss",
+    tourGuide: "Chef Anna Weber",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -133,7 +133,7 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lukas Braun",
+    tourGuide: "Sophie Müller",
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -175,7 +175,7 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sophie Richter",
+    tourGuide: "Hans Schmidt",
     tourCategoryId: "nature",
     faqs: [
       {

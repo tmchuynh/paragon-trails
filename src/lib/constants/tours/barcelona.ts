@@ -18,7 +18,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Fernández",
+    tourGuide: "Elena Martínez",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -103,7 +103,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Marc Vila",
+    tourGuide: "Ana Torres",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -229,7 +229,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Carmen Heredia",
+    tourGuide: "Ana Torres",
     tourCategoryId: "cultural",
     faqs: [
       {

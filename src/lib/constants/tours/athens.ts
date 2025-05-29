@@ -91,7 +91,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Andreas Nikolaou",
+    tourGuide: "Sofia Papadakis",
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -175,7 +175,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maria Katsarou",
+    tourGuide: "Dimitri Alexopoulos",
     tourCategoryId: "photography",
     faqs: [
       {
@@ -217,7 +217,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Eleni Konstantinou, Certified Sommelier",
+    tourGuide: "Chef Sophia Dimitriou",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -301,7 +301,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Alex Papadakis",
+    tourGuide: "Maria Konstantinou",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -343,7 +343,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Christina Demetriou",
+    tourGuide: "Professor Georgios Mavridis",
     tourCategoryId: "family",
     faqs: [
       {
@@ -385,7 +385,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Stavros Constantinou",
+    tourGuide: "Maria Konstantinou",
     tourCategoryId: "luxury",
     faqs: [
       {
