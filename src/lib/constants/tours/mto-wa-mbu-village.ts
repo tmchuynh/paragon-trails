@@ -258,6 +258,38 @@ export const mtoWaMbuVillageTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Cultural Festivals & Events",
+    description:
+      "Experience the vibrant cultural festivals of Mto wa Mbu, which celebrate the village's rich diversity through music, dance, and traditional ceremonies. Join in the festivities with local families and learn about the significance of these events in fostering community spirit.",
+    images: [
+      "/images/tours/mto-wa-mbu-village/cultural-festival.jpg",
+      "/images/tours/mto-wa-mbu-village/dance-performance.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.8,
+    tags: ["Festivals", "Culture", "Dance"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Amani Ngoya",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of festivals can we attend?",
+        answer:
+          "Mto wa Mbu hosts several annual festivals celebrating different aspects of its cultural heritage, including harvest festivals, traditional dance competitions, and inter-tribal gatherings. The timing of your visit will determine which festival is taking place, but each event showcases local music, dance, food, and crafts. Our guides will provide context about the significance of each festival and introduce you to key participants.",
+      },
+      {
+        question: "Can we participate in the dances?",
+        answer:
+          "Yes! Many festivals encourage visitor participation in traditional dances. Your guide will teach you basic steps and explain the cultural meanings behind different movements. This interactive experience allows for deeper cultural exchange and creates lasting memories.",
+      },
+    ],
+  },
 ];
 
 export default mtoWaMbuVillageTours;

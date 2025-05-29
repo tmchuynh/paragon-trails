@@ -289,6 +289,38 @@ export const piraeusTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Piraeus Street Food & Local Markets Tour",
+    description:
+      "Discover the vibrant flavors of Piraeus with a guided street food tour through bustling markets and local eateries. Sample traditional Greek snacks, fresh seafood, and regional specialties while learning about the city's culinary culture from a local food expert.",
+    images: [
+      "/images/tours/piraeus/street-food.jpg",
+      "/images/tours/piraeus/local-markets.jpg",
+    ],
+    duration: "3 hours",
+    price: "$60",
+    rating: 4.7,
+    tags: ["Street Food", "Markets", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Maria Koutouki",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of street food favorites such as souvlaki (grilled meat skewers), gyros, fresh seafood from the fish market, local cheeses, olives, and traditional pastries like spanakopita (spinach pie) and loukoum (Greek delight). We also visit local markets to sample seasonal fruits and vegetables. Vegetarian options are available upon request.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! Children will enjoy trying different foods and learning about Greek culinary traditions. The guide will ensure the experience is engaging for younger visitors, and we can accommodate dietary restrictions with advance notice.",
+      },
+    ],
+  },
 ];
 
 export default piraeusTours;

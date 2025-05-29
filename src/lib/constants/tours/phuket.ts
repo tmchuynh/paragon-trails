@@ -257,6 +257,38 @@ export const phuketTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Phuket Night Market Food Tour",
+    description:
+      "Experience the vibrant flavors of Phuket's night markets with a guided food tour, sampling local street food delicacies like grilled seafood, spicy salads, and sweet desserts. Learn about Thai culinary traditions and the best dishes to try from a knowledgeable local guide.",
+    images: [
+      "/images/tours/phuket/night-market.jpg",
+      "/images/tours/phuket/street-food.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.8,
+    tags: ["Food", "Night Market", "Street Food"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Somchai Prasert",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of local specialties including grilled seafood skewers, spicy papaya salad (Som Tum), Pad Thai, coconut ice cream, and traditional desserts like mango sticky rice. The exact dishes may vary based on seasonal ingredients and market availability. Vegetarian options are available upon request.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! We can adjust the food selections to suit children's tastes and dietary restrictions. The guide will also share fun facts about each dish to engage younger participants. However, please note that some dishes may be spicy, so we can provide milder alternatives if needed.",
+      },
+    ],
+  },
 ];
 
 export default phuketTours;

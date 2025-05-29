@@ -249,6 +249,45 @@ export const palawanTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Palawan Wildlife Safari: Endangered Species Focus",
+    description:
+      "Embark on a guided wildlife safari through Palawan's diverse ecosystems, focusing on endangered species conservation. Spot rare animals like the Philippine Eagle, Palawan Bearcat, and Tarsier in their natural habitats while learning about ongoing conservation efforts.",
+    images: [
+      "/images/tours/palawan/wildlife-safari.jpg",
+      "/images/tours/palawan/philippine-eagle.jpg",
+    ],
+    duration: "8 hours",
+    price: "$110",
+    rating: 4.9,
+    tags: ["Wildlife", "Conservation", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Dr. Elena Cruz, Wildlife Biologist",
+    tourCategoryId: "wildlife",
+    faqs: [
+      {
+        question:
+          "What kind of wildlife can we expect to see during the safari?",
+        answer:
+          "Palawan is home to many unique and endangered species. On this safari, you may spot the critically endangered Philippine Eagle, Palawan Bearcat, Tarsier, various endemic reptiles and amphibians, and a wide variety of birds including hornbills and kingfishers. Our guides are experts in tracking wildlife and will take you to the best locations for sightings.",
+      },
+      {
+        question:
+          "Is this tour suitable for children or those with mobility issues?",
+        answer:
+          "Yes, this tour is designed to be family-friendly and accessible. We can adjust the pace and difficulty level based on your group's needs. The safari involves moderate walking on well-maintained trails, but we can provide assistance for those with mobility challenges. Children will enjoy learning about the unique wildlife of Palawan in an engaging way.",
+      },
+      {
+        question: "What should I bring for the wildlife safari?",
+        answer:
+          "We recommend wearing comfortable clothing suitable for outdoor activities, sturdy walking shoes, a hat, sunglasses, and sunscreen. Bring a refillable water bottle to stay hydrated. A camera with a zoom lens is highly recommended for capturing wildlife photos. Binoculars are also useful for birdwatching. We provide all necessary equipment for tracking and observing wildlife.",
+      },
+    ],
+  },
 ];
 
 export default palawanTours;

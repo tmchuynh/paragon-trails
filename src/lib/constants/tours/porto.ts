@@ -69,6 +69,43 @@ export const portoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Culinary Delights of Porto: Food & Culture Tour",
+    description:
+      "Savor the flavors of Porto with a guided food tour through the city's vibrant markets, traditional eateries, and hidden gems, tasting local specialties like Francesinha, Bacalhau, and Pastel de Nata.",
+    images: [
+      "/images/tours/porto/food-market.jpg",
+      "/images/tours/porto/francesinha.jpg",
+    ],
+    duration: "5 hours",
+    price: "$85",
+    rating: 4.9,
+    tags: ["Food", "Culture", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Ana Costa",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes tastings of iconic Porto dishes such as Francesinha (a hearty sandwich), Bacalhau à Brás (codfish dish), local cheeses, cured meats, and of course, the famous Pastel de Nata. We also visit local markets to sample fresh produce and regional specialties.",
+      },
+      {
+        question: "Are there vegetarian or vegan options available?",
+        answer:
+          "Yes, we can accommodate dietary restrictions with advance notice. Vegetarian and vegan options will be provided at most stops, ensuring everyone can enjoy the culinary experience.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! The tour is family-friendly and designed to engage visitors of all ages. Children will enjoy trying new foods and learning about Porto's culinary traditions.",
+      },
+    ],
+  },
 ];
 
 export default portoTours;

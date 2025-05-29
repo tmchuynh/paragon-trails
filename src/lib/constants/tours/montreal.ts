@@ -69,6 +69,43 @@ export const montrealTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Montreal's Historic Neighborhoods Walking Tour",
+    description:
+      "Stroll through Montreal's historic districts with a local historian, visiting Old Montreal, the Latin Quarter, and Little Italy while learning about the city's rich cultural heritage and architectural evolution.",
+    images: [
+      "/images/tours/montreal/old-montreal.jpg",
+      "/images/tours/montreal/latin-quarter.jpg",
+    ],
+    duration: "3 hours",
+    price: "$55",
+    rating: 4.8,
+    tags: ["History", "Architecture", "Culture"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Marc-André Boucher",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are there any entry fees for sites we visit?",
+        answer:
+          "No, this walking tour focuses on outdoor sites and public spaces, so there are no entry fees. We will visit historical landmarks, parks, and plazas.",
+      },
+      {
+        question: "What should I wear for the walking tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will cover approximately 2 km (1.2 miles) on foot. Dress in layers to accommodate changing weather conditions.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with fascinating stories and interactive elements.",
+      },
+    ],
+  },
 ];
 
 export default montrealTours;

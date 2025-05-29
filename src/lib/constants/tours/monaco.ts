@@ -255,6 +255,43 @@ export const monacoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Monaco Art & Culture: Galleries & Performance",
+    description:
+      "Explore Monaco's vibrant art scene with a private tour of contemporary galleries, artist studios, and exclusive access to cultural performances at the Grimaldi Forum. Meet local artists and learn about the principality's role in the global art world.",
+    images: [
+      "/images/tours/monaco/art-galleries.jpg",
+      "/images/tours/monaco/grimaldi-forum.jpg",
+    ],
+    duration: "3 hours",
+    price: "$150",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Contemporary"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Isabelle Moreau, Art Curator",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Are there any age restrictions for the art galleries?",
+        answer:
+          "No, our art tours are family-friendly and suitable for all ages. We tailor the experience to engage younger visitors with interactive activities and storytelling about the artists and their works. The galleries we visit are welcoming to families, and we can provide child-friendly explanations of contemporary art concepts.",
+      },
+      {
+        question: "What should we wear for the gallery tour?",
+        answer:
+          "Comfortable walking shoes are recommended, as we will be exploring multiple galleries on foot. Dress smart casual; while there is no strict dress code, we suggest avoiding overly casual clothing like beachwear or gym attire to respect the artistic environment.",
+      },
+      {
+        question: "Can we purchase artwork during the tour?",
+        answer:
+          "Yes, many of the galleries we visit offer artworks for sale. If you are interested in purchasing pieces, our guide can assist with introductions to gallery owners and artists. We recommend discussing your budget and preferences in advance so we can tailor the gallery selections accordingly.",
+      },
+    ],
+  },
 ];
 
 export default monacoTours;

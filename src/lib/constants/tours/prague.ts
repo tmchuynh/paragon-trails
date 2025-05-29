@@ -64,6 +64,70 @@ export const pragueTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Hidden Gems of Prague: Art & Architecture Tour",
+    description:
+      "Explore Prague's lesser-known architectural marvels and vibrant street art scene with a local guide, visiting hidden courtyards, unique buildings, and contemporary art installations that showcase the city's creative spirit.",
+    images: [
+      "/images/tours/prague/street-art.jpg",
+      "/images/tours/prague/hidden-courtyard.jpg",
+    ],
+    duration: "3 hours",
+    price: "$60",
+    rating: 4.7,
+    tags: ["Art", "Architecture", "Local Culture"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Eva Kolarova",
+    tourCategoryId: "art",
+    faqs: [
+      {
+        question: "What types of art will we see?",
+        answer:
+          "The tour includes a mix of street art murals, contemporary sculptures, and unique architectural details from various styles including Art Nouveau, Cubism, and modern design. We also visit local galleries showcasing emerging artists.",
+      },
+      {
+        question: "Is this tour suitable for families with young children?",
+        answer:
+          "Yes, this tour is family-friendly! We can adjust the pace and include engaging stories and activities for children. The outdoor nature of the tour allows for flexibility with strollers.",
+      },
+    ],
+  },
+  {
+    title: "Prague's Historic Jewish Quarter Tour",
+    description:
+      "Delve into the rich history of Prague's Jewish community with a guided tour through the Jewish Quarter, visiting synagogues, the Old Jewish Cemetery, and learning about the cultural heritage that has shaped this vibrant area.",
+    images: [
+      "/images/tours/prague/jewish-quarter.jpg",
+      "/images/tours/prague/old-jewish-cemetery.jpg",
+    ],
+    duration: "2.5 hours",
+    price: "$50",
+    rating: 4.9,
+    tags: ["History", "Culture", "Jewish Heritage"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Rabbi David Weiss",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "What sites will we visit in the Jewish Quarter?",
+        answer:
+          "The tour includes visits to the Old-New Synagogue, Pinkas Synagogue, Klausen Synagogue, and the Old Jewish Cemetery. You'll learn about the history of the Jewish community in Prague, including its traditions, struggles, and contributions to the city.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage visitors of all ages. We share stories and historical context in an accessible way, making it suitable for children while respecting the solemnity of the sites.",
+      },
+    ],
+  },
 ];
 
 export default pragueTours;

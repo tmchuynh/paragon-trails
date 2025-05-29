@@ -225,6 +225,38 @@ export const mostarTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Blagaj Tekke & Buna River Springs",
+    description:
+      "Visit the serene Blagaj Tekke, a 16th-century Dervish monastery built into a cliff overlooking the Buna River springs. Learn about Sufi traditions, explore the tranquil grounds, and enjoy a riverside tea break in this spiritual oasis.",
+    images: [
+      "/images/tours/mostar/blagaj-tekke.jpg",
+      "/images/tours/mostar/buna-river.jpg",
+    ],
+    duration: "4 hours",
+    price: "$40",
+    rating: 4.8,
+    tags: ["Cultural", "Spiritual", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Selma Dervišević",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What is the significance of Blagaj Tekke?",
+        answer:
+          "Blagaj Tekke is one of Bosnia's most important spiritual sites, representing the peaceful coexistence of different cultures and religions. It was built by the Ottoman Empire in the 16th century as a Sufi monastery and remains an active place of worship today. The stunning natural setting at the source of the Buna River adds to its spiritual ambiance.",
+      },
+      {
+        question: "Can we swim in the Buna River?",
+        answer:
+          "Swimming is not permitted in the Buna River due to its cultural significance and conservation efforts. However, you can enjoy the beautiful views, take photos, and relax by the riverside. There are also cafes where you can enjoy traditional Bosnian coffee or tea while taking in the serene surroundings.",
+      },
+    ],
+  },
 ];
 
 export default mostarTours;

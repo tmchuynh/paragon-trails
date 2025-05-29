@@ -225,6 +225,38 @@ export const patagoniaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Cueva de las Manos: Rock Art & Patagonian History",
+    description:
+      "Explore the UNESCO World Heritage site of Cueva de las Manos, home to ancient rock art created by indigenous hunter-gatherers over 9,000 years ago. Learn about the history and significance of these artworks while hiking through stunning Patagonian landscapes.",
+    images: [
+      "/images/tours/patagonia/cueva-de-las-manos.jpg",
+      "/images/tours/patagonia/rock-art.jpg",
+    ],
+    duration: "Full day",
+    price: "$180",
+    rating: 4.7,
+    tags: ["Archaeology", "History", "Rock Art"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Dr. Ana Gutierrez",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "How old are the rock paintings?",
+        answer:
+          "The rock paintings at Cueva de las Manos date back approximately 9,000 years, created by the indigenous Tehuelche people. The site features hand stencils, hunting scenes, and geometric designs that provide insight into the lives and beliefs of these early inhabitants of Patagonia. Our guide will explain the cultural context and significance of the artworks during the visit.",
+      },
+      {
+        question: "What should I wear for the cave visit?",
+        answer:
+          "Wear comfortable hiking shoes suitable for rocky terrain, layered clothing for variable weather conditions, and a hat for sun protection. The cave itself can be cool, so a light jacket is recommended. We provide all necessary safety gear for exploring the site.",
+      },
+    ],
+  },
 ];
 
 export default patagoniaTours;

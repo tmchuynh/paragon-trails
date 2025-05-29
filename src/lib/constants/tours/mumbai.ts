@@ -252,6 +252,38 @@ export const mumbaiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Mumbai's Art Deco Heritage Tour",
+    description:
+      "Explore the world's largest collection of Art Deco buildings outside Miami with an architecture expert, visiting iconic structures, hidden gems, and learning about the history and preservation of this unique architectural style.",
+    images: [
+      "/images/tours/mumbai/art-deco-building.jpg",
+      "/images/tours/mumbai/art-deco-interior.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.8,
+    tags: ["Architecture", "Art Deco", "Heritage"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourGuide: "Architect Riya Kapoor",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are there any entry fees for the buildings we visit?",
+        answer:
+          "Most of the Art Deco buildings we explore are exterior-focused, so there are no entry fees. However, some interiors may be accessible on special request or during open house events. Our guide will provide detailed historical context and stories about each building's significance.",
+      },
+      {
+        question: "What should I wear for this walking tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will cover approximately 2 km (1.2 miles) on foot. Dress in layers to accommodate changing weather conditions, and consider bringing a hat and sunscreen for sun protection.",
+      },
+    ],
+  },
 ];
 
 export default mumbaiTours;
