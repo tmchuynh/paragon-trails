@@ -218,6 +218,33 @@ export const svanetiRegionTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Svaneti's Hidden Waterfalls & Natural Wonders",
+    description:
+      "Discover Svaneti's lesser-known natural wonders on a guided tour to hidden waterfalls, glacial streams, and scenic viewpoints that showcase the region's dramatic geology and biodiversity. Visit places like the Shdugra Waterfall and the scenic Chkhunderi Pass.",
+    images: [
+      "/images/tours/svaneti-region/shdugra-waterfall.jpg",
+      "/images/tours/svaneti-region/chkhunderi-pass.jpg",
+    ],
+    duration: "6 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Nature", "Waterfalls", "Adventure"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Natia Kakhiani",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "Are the waterfalls accessible year-round?",
+        answer:
+          "The Shdugra Waterfall is accessible from late spring through early autumn (May-October) when the trails are clear of snow. During winter months, access may be limited due to snow and ice, but we can offer alternative natural sites that are accessible year-round. The Chkhunderi Pass hike is also best done in warmer months when the alpine meadows are in bloom and the weather is stable.",
+      },
+    ],
+  },
 ];
 
 export default svanetiRegionTours;

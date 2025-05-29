@@ -54,6 +54,33 @@ export const thessalonikiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Thessaloniki Street Art & Urban Culture",
+    description:
+      "Discover Thessaloniki's vibrant street art scene with a local artist, exploring murals, graffiti, and urban installations that reflect the city's contemporary culture and social movements.",
+    images: [
+      "/images/tours/thessaloniki/street-art.jpg",
+      "/images/tours/thessaloniki/urban-culture.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Street Art", "Culture", "Urban"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Nikos Stavros",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and includes engaging stories about the artists and the meaning behind the artworks. Children will enjoy the colorful and interactive nature of street art.",
+      },
+    ],
+  },
 ];
 
 export default thessalonikiTours;

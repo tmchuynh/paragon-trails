@@ -54,6 +54,38 @@ export const tokyoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Tokyo Street Food & Market Tour",
+    description:
+      "Discover Tokyo's vibrant street food scene with a local guide, sampling everything from classic yakitori to trendy fusion dishes at bustling markets and hidden stalls.",
+    images: [
+      "/images/tours/tokyo/street-food.jpg",
+      "/images/tours/tokyo/tsukiji-market.jpg",
+    ],
+    duration: "4 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Food", "Market", "Cultural"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Yuki Sato",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of street foods such as yakitori, takoyaki, okonomiyaki, and seasonal specialties. We also visit local markets where you can sample fresh seafood, fruits, and unique snacks.",
+      },
+      {
+        question: "Are vegetarian options available?",
+        answer:
+          "Yes, we can accommodate vegetarian diets with advance notice. Many street food vendors offer delicious vegetarian options like grilled vegetables, tofu dishes, and seasonal vegetable tempura.",
+      },
+    ],
+  },
 ];
 
 export default tokyoTours;

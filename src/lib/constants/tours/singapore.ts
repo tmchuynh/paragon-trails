@@ -54,6 +54,38 @@ export const singaporeTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Singapore's Hidden Nature Trails & Wildlife Encounters",
+    description:
+      "Discover Singapore's lush green spaces and diverse wildlife with a guided hike through lesser-known nature reserves, visiting hidden waterfalls, mangroves, and spotting native species in their natural habitats.",
+    images: [
+      "/images/tours/singapore/nature-trail.jpg",
+      "/images/tours/singapore/wildlife-encounter.jpg",
+    ],
+    duration: "5 hours",
+    price: "$90",
+    rating: 4.7,
+    tags: ["Nature", "Wildlife", "Off-the-beaten-path"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Siti Rahman",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What kind of wildlife can we expect to see?",
+        answer:
+          "Depending on the season, you may spot native species such as long-tailed macaques, monitor lizards, various bird species, and even the elusive flying lemur. Our guide will point out interesting flora and fauna along the trails.",
+      },
+      {
+        question: "Are there any strenuous hikes involved?",
+        answer:
+          "The trails are moderate in difficulty, with some uneven terrain and gentle slopes. We pace ourselves to ensure everyone can enjoy the experience comfortably. Sturdy footwear is recommended.",
+      },
+    ],
+  },
 ];
 
 export default singaporeTours;

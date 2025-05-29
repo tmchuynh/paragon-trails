@@ -54,6 +54,33 @@ export const takayamaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Hida Folk Village & Traditional Crafts",
+    description:
+      "Experience rural Japan at the Hida Folk Village, an open-air museum showcasing traditional thatched-roof farmhouses, followed by hands-on workshops in pottery and indigo dyeing with local artisans.",
+    images: [
+      "/images/tours/takayama/hida-folk-village.jpg",
+      "/images/tours/takayama/indigo-dyeing.jpg",
+    ],
+    duration: "6 hours",
+    price: "$110",
+    rating: 4.7,
+    tags: ["Cultural", "Crafts", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Sato Akiko",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of crafts will we learn?",
+        answer:
+          "Participants can choose between pottery making using traditional Hida clay or indigo dyeing techniques passed down through generations. Both workshops are designed for beginners and include all materials needed to create your own unique piece to take home.",
+      },
+    ],
+  },
 ];
 
 export default takayamaTours;

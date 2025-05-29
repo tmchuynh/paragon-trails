@@ -54,6 +54,38 @@ export const stockholmTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Stockholm Historical Walk: Gamla Stan & Royal Palace",
+    description:
+      "Discover the rich history of Stockholm with a guided walk through the cobblestone streets of Gamla Stan, visiting the Royal Palace, Storkyrkan Cathedral, and learning about the city's medieval past.",
+    images: [
+      "/images/tours/stockholm/gamla-stan.jpg",
+      "/images/tours/stockholm/royal-palace.jpg",
+    ],
+    duration: "3 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["History", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Anna Svensson",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are there any entry fees for the palace?",
+        answer:
+          "Yes, entry to the Royal Palace is included in the tour price. You'll have access to the Royal Apartments, Treasury, and Museum of Antiquities.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! The tour is designed to be engaging for all ages, with stories and activities that captivate younger visitors.",
+      },
+    ],
+  },
 ];
 
 export default stockholmTours;

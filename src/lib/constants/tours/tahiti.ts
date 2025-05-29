@@ -54,6 +54,33 @@ export const tahitiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Tahiti Sunset Lagoon Cruise",
+    description:
+      "Relax on a traditional outrigger canoe as you glide through Tahiti's tranquil lagoons, enjoying stunning sunset views, local snacks, and the chance to spot dolphins and sea turtles.",
+    images: [
+      "/images/tours/tahiti/sunset-cruise.jpg",
+      "/images/tours/tahiti/outrigger-canoe.jpg",
+    ],
+    duration: "3 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Sunset", "Cruise", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Matahi Tereora",
+    tourCategoryId: "romantic",
+    faqs: [
+      {
+        question: "What should I bring on the cruise?",
+        answer:
+          "We recommend bringing a light jacket for cooler evening breezes, sunscreen, a hat, and your camera to capture the beautiful scenery. Snacks and drinks are provided on board.",
+      },
+    ],
+  },
 ];
 
 export default tahitiTours;

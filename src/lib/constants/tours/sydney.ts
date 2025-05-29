@@ -55,6 +55,38 @@ export const sydneyTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Sydney's Historic Pubs & Brewery Tour",
+    description:
+      "Experience Sydney's vibrant pub culture with a guided tour of historic pubs and local breweries, sampling craft beers and learning about the city's brewing heritage.",
+    images: [
+      "/images/tours/sydney/historic-pub.jpg",
+      "/images/tours/sydney/brewery-tour.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Food & Drink", "History", "Local Culture"],
+    isFamilyFriendly: false,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Sarah Mitchell",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are non-alcoholic options available?",
+        answer:
+          "Yes, we offer non-alcoholic beverages at each stop, including local sodas and juices. Please inform us in advance if you prefer non-alcoholic options.",
+      },
+      {
+        question: "What types of beers will we sample?",
+        answer:
+          "The tour includes tastings of a variety of craft beers from local breweries, including IPAs, stouts, lagers, and seasonal specialties. We can accommodate most dietary preferences with advance notice.",
+      },
+    ],
+  },
 ];
 
 export default sydneyTours;
