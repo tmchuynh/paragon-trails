@@ -2,6 +2,14 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { yachtStaff } from "@/lib/constants/services/transportation/staff/yachtStaff";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useState } from "react";
@@ -49,13 +57,13 @@ export default function CaptainsAndCrewMembersPage() {
     })
     .filter((category) => category.profiles.length > 0);
 
-  const handleExperienceChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value === "" ? null : parseInt(e.target.value, 10);
-    setExperienceFilter(value);
+  const handleExperienceChange = (value: string) => {
+    const numValue = value === "any" ? null : parseInt(value, 10);
+    setExperienceFilter(numValue);
   };
 
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setLanguageFilter(e.target.value);
+  const handleLanguageChange = (value: string) => {
+    setLanguageFilter(value === "any" ? "" : value);
   };
 
   const resetFilters = () => {
@@ -92,48 +100,58 @@ export default function CaptainsAndCrewMembersPage() {
         <h3 className="mb-4">Filter Personnel</h3>
         <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
           <div>
-            <label htmlFor="experience" className="block mb-2 text-sm">
+            <Label htmlFor="experience" className="block mb-2">
               Minimum Experience
-            </label>
-            <select
-              className="p-2 border rounded w-full"
-              value={experienceFilter || ""}
-              onChange={handleExperienceChange}
+            </Label>
+            <Select
+              value={
+                experienceFilter === null ? "any" : experienceFilter.toString()
+              }
+              onValueChange={handleExperienceChange}
             >
-              <option value="">Any</option>
-              {Array.from(
-                { length: Math.ceil(maxExperience / 5) },
-                (_, i) => (i + 1) * 5
-              )
-                .filter((num) => num <= maxExperience)
-                .concat(maxExperience % 5 !== 0 ? [maxExperience] : [])
-                .sort((a, b) => a - b)
-                .map((num) => (
-                  <option key={num} value={num}>
-                    {num}+ Years
-                  </option>
-                ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="any">Any</SelectItem>
+                {Array.from(
+                  { length: Math.ceil(maxExperience / 5) },
+                  (_, i) => (i + 1) * 5
+                )
+                  .filter((num) => num <= maxExperience)
+                  .concat(maxExperience % 5 !== 0 ? [maxExperience] : [])
+                  .sort((a, b) => a - b)
+                  .map((num) => (
+                    <SelectItem key={num} value={num.toString()}>
+                      {num}+ Years
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
 
           <div>
-            <label htmlFor="language" className="block mb-2 text-sm">
+            <Label htmlFor="language" className="block mb-2">
               Language Spoken
-            </label>
-            <select
-              className="p-2 border rounded w-full"
-              value={languageFilter}
-              onChange={handleLanguageChange}
+            </Label>
+            <Select
+              value={languageFilter || "any"}
+              onValueChange={handleLanguageChange}
             >
-              <option value="">Any</option>
-              {Array.from(allLanguages)
-                .sort((a, b) => a.localeCompare(b))
-                .map((lang) => (
-                  <option key={lang} value={lang}>
-                    {lang}
-                  </option>
-                ))}
-            </select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="any">Any</SelectItem>
+                {Array.from(allLanguages)
+                  .sort((a, b) => a.localeCompare(b))
+                  .map((lang) => (
+                    <SelectItem key={lang} value={lang}>
+                      {lang}
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
 
           <div className="flex items-end">
