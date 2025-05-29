@@ -25,6 +25,16 @@ export const amsterdamTours: Tour[] = [
         answer:
           "This tour covers approximately 4km at a leisurely pace with plenty of stops. We walk along some narrow cobblestone paths and cross several small bridges, so comfortable footwear is recommended. The route is relatively flat but does include some stairs to access certain hidden courtyards.",
       },
+      {
+        question: "Are the hofjes accessible?",
+        answer:
+          "Yes, all hofjes we visit are open to the public and accessible. Some may have limited opening hours, but our guide ensures we visit during times when they are open. Please note that some hofjes may have quiet areas where visitors are expected to maintain silence out of respect for residents.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children aged 6 and up. The pace is relaxed, and our guide engages younger visitors with stories and activities related to the history and architecture of the sites we visit.",
+      },
     ],
   },
   {
@@ -52,6 +62,11 @@ export const amsterdamTours: Tour[] = [
         answer:
           "Our after-hours access means you'll experience the Rijksmuseum with only a small group (maximum 12 guests), enjoying the masterpieces without the usual crowds. Your guide is a published art historian specializing in Dutch Golden Age painting who provides context and stories about the artists and their work that bring the collection to life. The quieter atmosphere allows for an intimate experience with world-famous artworks.",
       },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "No, this tour is suitable for all ages. However, please note that some artworks may contain mature themes. We encourage parents to use their discretion when bringing younger children. The tour is designed to be engaging for both adults and children, with interactive elements to keep younger visitors interested.",
+      },
     ],
   },
   {
@@ -78,6 +93,21 @@ export const amsterdamTours: Tour[] = [
         question: "Are dietary restrictions accommodated?",
         answer:
           "Yes, we can accommodate vegetarian, vegan, gluten-free, and most other dietary needs with advance notice. Please let us know your requirements when booking so we can arrange suitable alternatives.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of traditional Dutch dishes, international street food, and local specialties. Highlights include stroopwafels, raw herring, poffertjes (mini pancakes), and artisanal cheeses. We also visit multicultural neighborhoods to experience the city's diverse culinary influences.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to be enjoyable for all ages. Children will love trying new foods and learning about Amsterdam's culinary culture. We can also provide child-friendly options upon request.",
+      },
+      {
+        question: "Do we need to bring any money?",
+        answer:
+          "While most tastings are included in the tour price, you may want to bring some cash or a card for additional purchases at markets or shops if you wish to buy souvenirs or extra snacks.",
       },
     ],
   },
@@ -272,6 +302,43 @@ export const amsterdamTours: Tour[] = [
         question: "Is this tour suitable for all ages?",
         answer:
           "No, this tour is intended for adults only (18+). It contains mature themes and discussions that may not be appropriate for younger audiences. Valid ID may be required to join the tour.",
+      },
+    ],
+  },
+  {
+    title: "Artis Zoo & Botanical Gardens",
+    description:
+      "Explore one of the oldest zoos in Europe, Artis, which combines a traditional zoo experience with beautiful botanical gardens. Learn about conservation efforts and see a wide variety of animals in naturalistic habitats, all while enjoying the lush greenery of the gardens.",
+    images: [
+      "/images/tours/amsterdam/artis-zoo.jpg",
+      "/images/tours/amsterdam/botanical-gardens.jpg",
+    ],
+    duration: "4 hours",
+    price: "$60",
+    rating: 4.7,
+    tags: ["Zoo", "Nature", "Family"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Lisa van Leeuwen",
+    tourCategoryId: "family",
+    faqs: [
+      {
+        question: "Is the zoo accessible for strollers and wheelchairs?",
+        answer:
+          "Yes, Artis Zoo is fully accessible for strollers and wheelchairs. The paths are paved and wide enough for easy navigation. There are also accessible restrooms available throughout the zoo.",
+      },
+      {
+        question: "Are there any animal shows or feeding sessions?",
+        answer:
+          "Yes, Artis offers various animal presentations and feeding sessions throughout the day. Our guide will inform you of the schedule during the tour so you can plan your visit accordingly.",
+      },
+      {
+        question: "Can I bring my own food and drinks?",
+        answer:
+          "Yes, you are welcome to bring your own food and drinks. However, there are also several cafés and restaurants within the zoo where you can purchase meals and snacks if you prefer.",
       },
     ],
   },

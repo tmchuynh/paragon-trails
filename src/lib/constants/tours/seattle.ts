@@ -55,6 +55,38 @@ export const seattleTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Seattle Waterfront Kayak Adventure",
+    description:
+      "Paddle through Seattle's scenic waterfront and Elliott Bay, enjoying views of the skyline, Olympic Mountains, and marine wildlife on this guided kayaking tour.",
+    images: [
+      "/images/tours/seattle/kayaking.jpg",
+      "/images/tours/seattle/elliott-bay.jpg",
+    ],
+    duration: "3 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Adventure", "Water", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Jake Larson",
+    tourCategoryId: "adventure",
+    faqs: [
+      {
+        question: "Do I need prior kayaking experience?",
+        answer:
+          "No prior experience is necessary! Our guides provide a brief orientation and all necessary equipment. The route is suitable for beginners and families.",
+      },
+      {
+        question: "What should I wear for the kayak tour?",
+        answer:
+          "Dress in layers appropriate for the weather, with quick-drying clothing. Waterproof jackets are provided, but we recommend wearing shoes that can get wet.",
+      },
+    ],
+  },
 ];
 
 export default seattleTours;
