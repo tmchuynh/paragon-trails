@@ -13,7 +13,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "all day",
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$$",
     priceCategory: "expensive",
     timeOfDay: "daytime",
-    tags: ["luxury", "exclusive", "marine"],
+    tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$$",
     priceCategory: "expensive",
     timeOfDay: "all day",
-    tags: ["luxury", "wellness", "spa"],
+    tags: ["luxury", "wellness"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$$",
     priceCategory: "expensive",
     timeOfDay: "evening",
-    tags: ["dining", "gourmet", "luxury"],
+    tags: ["culinary", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -97,7 +97,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "garden"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -118,7 +118,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     entryFee: "Free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["outdoor", "hiking", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -140,7 +140,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceCategory: "expensive",
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
-    tags: ["cultural", "music", "performing arts"],
+    tags: ["cultural",  "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -162,7 +162,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceCategory: "moderate",
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["cultural", "artisan", "workshop"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -184,7 +184,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceCategory: "moderate",
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["cultural", "culinary", "local experience"],
+    tags: ["cultural", "culinary", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -205,7 +205,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "garden"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -226,7 +226,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "all day",
-    tags: ["natural", "scenic", "beach"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -247,7 +247,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "garden"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -268,7 +268,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "all day",
-    tags: ["beach", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -289,7 +289,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["natural", "scenic", "cave"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -310,7 +310,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "all day",
-    tags: ["hiking", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -331,7 +331,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "garden"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -352,7 +352,7 @@ export const amalfiCoastCampaniaItaly: Attraction[] = [
     priceRange: "$$",
     priceCategory: "moderate",
     timeOfDay: "daytime",
-    tags: ["marine", "scenic", "outdoor"],
+    tags: [ "romantic", "adventure"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 
