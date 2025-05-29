@@ -242,4 +242,36 @@ export const mauiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Maui Whale Watching & Marine Conservation Cruise",
+    description:
+      "Join a marine biologist-led expedition to witness the majestic humpback whales that migrate to Maui's warm waters each winter. Learn about their behavior, conservation efforts, and the unique marine ecosystem of Hawaii.",
+    images: [
+      "/images/tours/maui/whale-watching.jpg",
+      "/images/tours/maui/humpback-whale.jpg",
+    ],
+    duration: "3 hours",
+    price: "$99",
+    rating: 4.9,
+    tags: ["Whale Watching", "Marine Life", "Conservation"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Dr. Leilani Kealoha",
+    tourCategoryId: "wildlife",
+    faqs: [
+      {
+        question: "When is the best time for whale watching in Maui?",
+        answer:
+          "The peak whale watching season in Maui runs from mid-December through early May, with the highest concentrations typically from January to March. During this time, thousands of humpback whales migrate from Alaska to breed and give birth in Maui's warm waters. Our tours are timed to maximize sightings, and we often see multiple whales breaching, tail slapping, and even mothers with calves during this period.",
+      },
+      {
+        question: "What should I bring for the whale watching tour?",
+        answer:
+          "We recommend wearing layers as it can be cooler on the water, especially in the morning. Bring a light jacket, sunscreen (reef-safe), a hat, and sunglasses. A camera or smartphone with a zoom lens is great for capturing photos of the whales. We provide binoculars for all guests, but feel free to bring your own if you prefer.",
+      },
+    ],
+  },
 ];

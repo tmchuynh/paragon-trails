@@ -64,6 +64,75 @@ export const helsinkiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Historical Helsinki & Fortress of Suomenlinna",
+    description:
+      "Discover Helsinki's rich history with a guided tour of the city's key historical sites, followed by a ferry ride to the UNESCO World Heritage site of Suomenlinna, an 18th-century sea fortress.",
+    images: [
+      "/images/tours/helsinki/suomenlinna-fortress.jpg",
+      "/images/tours/helsinki/historical-helsinki.jpg",
+    ],
+    duration: "5 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["History", "UNESCO", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Anna Lehtonen",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "How do we get to Suomenlinna?",
+        answer:
+          "We take a short ferry ride from the Market Square in Helsinki. The ferry ride itself offers beautiful views of the archipelago.",
+      },
+      {
+        question: "Is there an entrance fee for Suomenlinna?",
+        answer:
+          "No, the fortress is free to enter, but some museums and exhibitions within may have a small fee.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "Comfortable walking shoes are recommended as we will be exploring both the city and the fortress on foot. Weather-appropriate clothing is also essential.",
+      },
+    ],
+  },
+  {
+    title: "Helsinki Food Tour: Local Flavors & Markets",
+    description:
+      "Taste your way through Helsinki's culinary scene with a guided food tour that includes visits to local markets, traditional eateries, and tastings of Finnish delicacies like rye bread, salmon soup, and cloudberry jam.",
+    images: [
+      "/images/tours/helsinki/food-market.jpg",
+      "/images/tours/helsinki/finnish-cuisine.jpg",
+    ],
+    duration: "4 hours",
+    price: "$80",
+    rating: 4.8,
+    tags: ["Food", "Culture", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Sari Korhonen",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate vegetarian, vegan, and gluten-free diets with prior notice. Please inform us of any allergies or dietary needs when booking.",
+      },
+      {
+        question: "What types of food will we try?",
+        answer:
+          "The tour includes a variety of traditional Finnish foods such as rye bread, salmon soup, reindeer meat, and local cheeses, along with sweet treats like cinnamon buns and cloudberry jam.",
+      },
+    ],
+  },
 ];
 
 export default helsinkiTours;

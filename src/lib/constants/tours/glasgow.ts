@@ -64,6 +64,70 @@ export const glasgowTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Glasgow Street Art & Urban Culture",
+    description:
+      "Explore Glasgow's vibrant street art scene with a local artist, visiting murals, graffiti hotspots, and community projects that reflect the city's creative spirit and social issues.",
+    images: [
+      "/images/tours/glasgow/street-art.jpg",
+      "/images/tours/glasgow/mural-trail.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Urban"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Lorna McLeod",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage all ages with interactive storytelling about the artists and their work.",
+      },
+      {
+        question: "Can we participate in any street art activities?",
+        answer:
+          "While this tour focuses on observation and appreciation, we can arrange workshops for groups interested in learning street art techniques. Please inquire when booking.",
+      },
+    ],
+  },
+  {
+    title: "Glasgow Food & Drink Experience",
+    description:
+      "Savor Glasgow's culinary delights with a guided food tour through local markets, traditional pubs, and contemporary eateries, sampling everything from haggis to craft beers.",
+    images: [
+      "/images/tours/glasgow/food-market.jpg",
+      "/images/tours/glasgow/craft-beer.jpg",
+    ],
+    duration: "4 hours",
+    price: "$70",
+    rating: 4.8,
+    tags: ["Food", "Culinary", "Local Experience"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Jamie Sinclair",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are vegetarian or vegan options available?",
+        answer:
+          "Yes, we can accommodate dietary restrictions including vegetarian and vegan preferences. Please inform us at the time of booking so we can tailor the food stops accordingly.",
+      },
+      {
+        question: "Do we need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 48 hours in advance to ensure availability and allow us to customize your experience based on dietary needs.",
+      },
+    ],
+  },
 ];
 
 export default glasgowTours;

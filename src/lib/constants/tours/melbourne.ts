@@ -257,6 +257,38 @@ export const melbourneTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Melbourne's Historic Pubs & Craft Beer Tour",
+    description:
+      "Explore Melbourne's vibrant pub culture with a local guide, visiting historic pubs, hidden bars, and craft breweries. Sample a variety of local beers, learn about the city's brewing history, and enjoy traditional pub fare.",
+    images: [
+      "/images/tours/melbourne/historic-pub.jpg",
+      "/images/tours/melbourne/craft-beer.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.6,
+    tags: ["Beer", "Pubs", "Local Experience"],
+    isFamilyFriendly: false,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Tommy O'Connor, Beer Historian",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are non-alcoholic options available?",
+        answer:
+          "Yes, we offer non-alcoholic beer tastings and soft drinks at each stop for those who prefer not to consume alcohol. The focus remains on exploring Melbourne's pub culture and history.",
+      },
+      {
+        question: "What should I wear for the pub tour?",
+        answer:
+          "Dress casually and comfortably. We will be walking between venues, so wear comfortable shoes. Melbourne's pub scene is relaxed, so feel free to dress down.",
+      },
+    ],
+  },
 ];
 
 export default melbourneTours;

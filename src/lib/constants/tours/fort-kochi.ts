@@ -65,6 +65,65 @@ export const fortKochiTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Fort Kochi Art & Culture Walk",
+    description:
+      "Explore the vibrant art scene of Fort Kochi with a local artist, visiting galleries, street art installations, and cultural spaces that showcase the town's creative spirit and contemporary artistic expressions.",
+    images: [
+      "/images/tours/fort-kochi/art-gallery.jpg",
+      "/images/tours/fort-kochi/street-art.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Street Art"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Lakshmi Menon",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What types of art will we see?",
+        answer:
+          "The tour includes contemporary art galleries, street art murals, and installations by local artists. We'll explore how Fort Kochi's unique cultural blend influences its vibrant art scene, including works that reflect social issues, environmental themes, and traditional Kerala motifs.",
+      },
+    ],
+  },
+  {
+    title: "Culinary Delights of Fort Kochi",
+    description:
+      "Savor the flavors of Kerala with a guided food tour through Fort Kochi's markets, street stalls, and local eateries, tasting traditional dishes like appam, stew, and seafood specialties while learning about the region's culinary heritage.",
+    images: [
+      "/images/tours/fort-kochi/kerala-cuisine.jpg",
+      "/images/tours/fort-kochi/street-food.jpg",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Food", "Culinary", "Local Cuisine"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Chef Riya Nair",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What dishes will we try?",
+        answer:
+          "The tour includes a variety of Kerala specialties such as appam with stew, karimeen pollichathu (pearl spot fish), puttu with kadala curry, and traditional sweets like ada pradhaman. We also visit local spice markets to learn about the region's famous spices.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate vegetarian and vegan preferences with advance notice. Please inform us of any allergies or dietary needs when booking.",
+      },
+    ],
+  },
 ];
 
 export default fortKochiTours;

@@ -74,6 +74,43 @@ export const chicagoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Chicago Art & Culture Walk",
+    description:
+      "Explore Chicago's vibrant art scene with a guided walking tour through the city's best galleries, street art, and cultural landmarks.",
+    images: [
+      "/images/tours/chicago/art-walk.jpg",
+      "/images/tours/chicago/street-art.jpg",
+    ],
+    duration: "3 hours",
+    price: "$40",
+    rating: 4.7,
+    tags: ["Art", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Sofia Martinez",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive art experiences.",
+      },
+      {
+        question: "What should I wear for the walk?",
+        answer:
+          "Wear comfortable walking shoes and dress for the weather. We recommend bringing a water bottle and sunscreen.",
+      },
+      {
+        question: "Do we visit any indoor galleries?",
+        answer:
+          "Yes, we include visits to several indoor galleries as well as outdoor street art installations.",
+      },
+    ],
+  },
 ];
 
 export default chicagoTours;

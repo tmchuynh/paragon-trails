@@ -231,6 +231,38 @@ export const galapagosIslandsTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Galapagos Islands Birdwatching Expedition",
+    description:
+      "Explore the diverse avian life of the Galapagos with expert birdwatching guides. Spot endemic species like the famous Darwin's finches, flightless cormorants, and waved albatrosses while learning about their unique adaptations and conservation status.",
+    images: [
+      "/images/tours/galapagos-islands/birdwatching.jpg",
+      "/images/tours/galapagos-islands/darwins-finches.jpg",
+    ],
+    duration: "5 days",
+    price: "$2,200",
+    rating: 4.9,
+    tags: ["Birdwatching", "Wildlife", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Dr. Elena Torres, Ornithologist",
+    tourCategoryId: "birdwatching",
+    faqs: [
+      {
+        question: "Do I need prior birdwatching experience?",
+        answer:
+          "No prior experience is necessary! Our guides are skilled at helping beginners learn birdwatching techniques while also providing in-depth knowledge for more experienced birders. We provide binoculars and field guides, and our itineraries are designed to maximize sightings of both common and rare species.",
+      },
+      {
+        question: "What should I bring for birdwatching?",
+        answer:
+          "We recommend lightweight, breathable clothing suitable for warm weather, sturdy walking shoes, a wide-brimmed hat, and plenty of sunscreen. Bring a refillable water bottle, binoculars (if you have your own), a notebook for field notes, and a camera with a zoom lens for photography. A light rain jacket is useful during the cooler months (June-November).",
+      },
+    ],
+  },
 ];
 
 export default galapagosIslandsTours;

@@ -64,6 +64,38 @@ export const materaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Matera by Night: Illuminated Sassi Tour",
+    description:
+      "Experience the magical transformation of Matera's Sassi district as the sun sets, with a guided evening walk through the illuminated cave dwellings and churches, followed by a wine tasting in a historic grotto.",
+    images: [
+      "/images/tours/matera/sassi-night.jpg",
+      "/images/tours/matera/wine-tasting.jpg",
+    ],
+    duration: "3 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Night Tour", "Photography", "Wine"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourGuide: "Elena Rossi",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What should I wear for the evening tour?",
+        answer:
+          "We recommend comfortable walking shoes and layered clothing, as temperatures can drop significantly after sunset. A light jacket or shawl is advisable, especially in spring and autumn.",
+      },
+      {
+        question: "Is the wine tasting suitable for non-drinkers?",
+        answer:
+          "Yes, we offer non-alcoholic alternatives such as local grape juice and herbal infusions for those who prefer not to consume alcohol. The focus remains on enjoying the atmosphere and flavors of Matera.",
+      },
+    ],
+  },
 ];
 
 export default materaTours;

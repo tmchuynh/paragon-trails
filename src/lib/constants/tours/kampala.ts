@@ -219,6 +219,43 @@ export const kampalaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Kampala's Hidden Gems: Off-the-Beaten-Path Tour",
+    description:
+      "Explore lesser-known neighborhoods and attractions in Kampala, from vibrant local markets to scenic parks and community art projects. Experience the city's authentic daily life away from typical tourist spots.",
+    images: [
+      "/images/tours/kampala/local-market.jpg",
+      "/images/tours/kampala/community-art.jpg",
+    ],
+    duration: "5 hours",
+    price: "$55",
+    rating: 4.7,
+    tags: ["Off the Beaten Path", "Local Culture", "Hidden Gems"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Moses Kaggwa",
+    tourCategoryId: "off-the-beaten-path",
+    faqs: [
+      {
+        question: "What types of places will we visit on this tour?",
+        answer:
+          "The tour includes visits to vibrant local markets, community art projects, scenic parks, and lesser-known cultural sites that showcase everyday life in Kampala. You'll experience the city's authentic atmosphere and meet local residents who share their stories and traditions.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, the tour is family-friendly and designed to engage visitors of all ages. Our guide provides interactive activities and stories that make the experience enjoyable for children while introducing them to local culture in a fun way.",
+      },
+      {
+        question: "Will we have opportunities to try local food?",
+        answer:
+          "Yes, the tour includes stops at local eateries where you can sample traditional Ugandan dishes like luwombo (stew), posho (maize porridge), and fresh tropical fruits. We ensure that all food vendors follow hygiene standards for a safe culinary experience.",
+      },
+    ],
+  },
 ];
 
 export default kampalaTours;

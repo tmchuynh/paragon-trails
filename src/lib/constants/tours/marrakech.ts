@@ -75,6 +75,43 @@ export const marrakechTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Atlas Mountains Hiking & Local Cuisine",
+    description:
+      "Hike through the stunning Atlas Mountains, visiting traditional Berber villages, and enjoy a home-cooked meal with a local family in their mountain home.",
+    images: [
+      "/images/tours/marrakech/atlas-hiking.jpg",
+      "/images/tours/marrakech/berber-cuisine.jpg",
+    ],
+    duration: "6 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Nature", "Hiking", "Culinary"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Fatima Zahra",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "What level of fitness is required for the hike?",
+        answer:
+          "The hike is moderate, suitable for those with a basic level of fitness. We cover approximately 8km on well-marked trails with some elevation gain.",
+      },
+      {
+        question: "Will we have a chance to interact with local families?",
+        answer:
+          "Yes, the highlight of this tour is sharing a meal with a Berber family, where you can learn about their culture and daily life in the mountains.",
+      },
+      {
+        question: "What should I wear for the hike?",
+        answer:
+          "Comfortable hiking shoes are essential. Dress in layers to accommodate changing temperatures, and bring a light jacket or sweater for higher elevations.",
+      },
+    ],
+  },
 ];
 
 export default marrakechTours;

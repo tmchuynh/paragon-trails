@@ -74,6 +74,43 @@ export const mexicoCityTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Xochimilco Floating Gardens & Mariachi Experience",
+    description:
+      "Explore the UNESCO-listed Xochimilco canals on a traditional trajinera boat, enjoying a leisurely ride through the floating gardens while listening to live mariachi music and sampling local snacks.",
+    images: [
+      "/images/tours/mexico-city/xochimilco-boat.jpg",
+      "/images/tours/mexico-city/mariachi.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.6,
+    tags: ["Cultural", "Music", "Nature"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Lucia Torres",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What should I bring?",
+        answer:
+          "Bring sunscreen, a hat, and comfortable clothing. We provide blankets for seating on the boat, but you may want to bring a light jacket if it gets chilly in the evening. Don't forget your camera!",
+      },
+      {
+        question: "Can we swim in the canals?",
+        answer:
+          "Swimming is not allowed in the canals due to safety and environmental concerns. However, you can enjoy the scenery and take photos from the boat.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Absolutely! Children will love the colorful boats, music, and snacks. The ride is gentle and safe for all ages.",
+      },
+    ],
+  },
 ];
 
 export default mexicoCityTours;
