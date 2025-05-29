@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const daNangTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const daNangTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Mountain"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Pham Van Hai",
+    tourGuide: findGuideBySpecialty("da nang", "local").name,
     tourCategoryId: "local-expert",
     faqs: [
       {
@@ -48,13 +49,13 @@ export const daNangTours: Tour[] = [
     duration: "8 hours",
     price: "$75",
     rating: 4.7,
-    tags: ["UNESCO", "Temples", "Hiking"],
- 
+    tags: ["Temples", "Hiking"],
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Tran Thi Mai",
+    tourGuide: findGuideBySpecialty("da nang", "historical").name,
     tourCategoryId: "archaeology-expert",
     faqs: [
       {
@@ -86,12 +87,12 @@ export const daNangTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Cultural", "Historical", "Walking Tour"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Minh Nguyen",
+    tourGuide: findGuideBySpecialty("da nang", "cultural").name,
     tourCategoryId: "cultural-expert",
     faqs: [
       {
@@ -123,13 +124,13 @@ export const daNangTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["City Tour", "Local Culture", "Photography"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Le Thi Hoa",
-    tourCategoryId: "city-expert",
+    tourGuide: findGuideBySpecialty("da nang", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What time does the Dragon Bridge light up?",

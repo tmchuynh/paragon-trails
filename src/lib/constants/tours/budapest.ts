@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const budapestTours: Tour[] = [
   {
     title: "Thermal Bath Experience & Spa Heritage",
@@ -17,7 +19,7 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Katalin Nagy",
+    tourGuide: findGuideBySpecialty("budapest", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const budapestTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Viktor Horvath",
+    tourGuide: findGuideBySpecialty("budapest", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Eszter Kovacs",
+    tourGuide: findGuideBySpecialty("budapest", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -128,7 +130,7 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Zoltan Szabo",
+    tourGuide: findGuideBySpecialty("budapest", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -165,7 +167,7 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Anna Varga",
+    tourGuide: findGuideBySpecialty("budapest", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -202,8 +204,8 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Gabor Toth",
-    tourCategoryId: "scenic",
+    tourGuide: findGuideBySpecialty("budapest", "romantic").name,
+    tourCategoryId: "romantic",
     faqs: [
       {
         question: "What time does the cruise start?",
@@ -239,7 +241,7 @@ export const budapestTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Leah Klein",
+    tourGuide: findGuideBySpecialty("budapest", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

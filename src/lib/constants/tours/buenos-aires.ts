@@ -1,15 +1,16 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 export const buenosAiresTours: Tour[] = [
   {
-    title: "Tango Experience & Milonga Night",
+    title: "Tango Experience: Show & Dance Lesson",
     description:
-      "Immerse yourself in Argentina's passionate dance culture with a private tango lesson, followed by dinner and an authentic milonga (dance hall) experience with local dancers.",
+      "Immerse yourself in Buenos Aires' passionate tango culture with a professional dance lesson followed by dinner and a spectacular show at an authentic milonga venue.",
     images: [
-      "/images/tours/buenos-aires/tango-lesson.jpg",
-      "/images/tours/buenos-aires/milonga.jpg",
+      "/images/tours/buenos-aires/tango-show.jpg",
+      "/images/tours/buenos-aires/dance-lesson.jpg",
     ],
-    duration: "5 hours",
-    price: "$110",
+    duration: "4 hours",
+    price: "$95",
     rating: 4.9,
     tags: ["Tango", "Dance", "Cultural"],
 
@@ -17,34 +18,23 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tomás Fernández",
+    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "I have no dance experience - is this still suitable?",
+        question: "Do I need dance experience for the lesson?",
         answer:
-          "Absolutely! Our instructors specialize in teaching beginners, and the private lesson is tailored to your level. The focus is on enjoying the experience and cultural immersion, not dance perfection.",
+          "Not at all! Our instructors are experts at teaching complete beginners. You'll learn the basic steps and embraces of Argentine tango in a supportive, fun environment.",
       },
       {
-        question: "What should I wear for the tango lesson?",
+        question: "What should I wear for tango dancing?",
         answer:
-          "Comfortable clothing that allows for movement is best. Many participants wear dressy casual attire, but you can also wear comfortable shoes suitable for dancing. We recommend avoiding sneakers or overly casual footwear.",
+          "Comfortable clothing that allows movement is recommended. For women, a skirt or dress that falls below the knee works well. Bring shoes with smooth soles - avoid rubber soles as they can stick to the floor. High heels for women are traditional but not required for beginners.",
       },
       {
-        question:
-          "What is the historical significance of tango in Argentine culture?",
+        question: "Is dinner included in the price?",
         answer:
-          "Tango originated in the late 19th century in the working-class port neighborhoods of Buenos Aires, particularly in La Boca and San Telmo. It emerged as a fusion of African, European, and indigenous influences, reflecting the diverse immigrant population. Initially rejected by higher society as scandalous, tango was later embraced in Paris, which legitimized it back home in Argentina. During the 'Golden Age' (1935-1952), tango became Argentina's cultural ambassador to the world. The dance survived political repression during military dictatorships when gatherings were restricted, making it a symbol of Argentine resilience and identity. Today, UNESCO recognizes tango as part of the Intangible Cultural Heritage of Humanity.",
-      },
-      {
-        question: "What's the difference between show tango and milonga tango?",
-        answer:
-          "Show tango (tango escenario) is the theatrical style you typically see in performances—dramatic, acrobatic, and choreographed with exaggerated movements designed for audience appreciation. Milonga tango (tango de salon) is the social dance practiced at milongas, characterized by more subtle movements, improvisation, and close attention to the partner and surrounding dancers. Our experience introduces both styles, but emphasizes authentic milonga culture where locals dance weekly as a social tradition. At the milonga, you'll observe the unique customs like the cabeceo (head nod invitation to dance) and the counterclockwise flow of dancers around the floor that has remained unchanged for generations.",
-      },
-      {
-        question: "How did tango music evolve over time?",
-        answer:
-          "Tango music has undergone distinct evolutionary phases reflecting Argentina's social changes. Early tango (1880s-1910s) featured flute, violin, and guitar with African-influenced rhythms. The 'Guardia Vieja' period introduced the bandoneón, the German concertina that became tango's definitive instrument. The 'Golden Age' (1935-1952) saw large orchestras led by figures like Carlos Di Sarli and Juan D'Arienzo develop distinctive styles. Ástor Piazzolla later revolutionized tango with 'Nuevo Tango,' incorporating jazz and classical elements. During our milonga visit, you'll hear how DJs curate tandas (sets) of music from different eras and orchestras, each with unique characteristics that influence dancing styles.",
+          "Yes, a three-course dinner with wine is included. The menu features traditional Argentine cuisine with options for vegetarians and those with dietary restrictions if requested in advance.",
       },
     ],
   },
@@ -65,7 +55,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Diego Martínez",
+    tourGuide: findGuideBySpecialty("buenos aires", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -119,7 +109,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lucía González",
+    tourGuide: findGuideBySpecialty("buenos aires", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -156,7 +146,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lucía González",
+    tourGuide: findGuideBySpecialty("buenos aires", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -193,7 +183,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tomás Fernández",
+    tourGuide: findGuideBySpecialty("buenos aires", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -230,8 +220,8 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Martín Rodríguez",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("buenos aires", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What should I wear for the boat tour?",
@@ -267,7 +257,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Valentina López",
+    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -304,8 +294,8 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Martín Rodríguez",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("buenos aires", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What should I wear for the parks tour?",
@@ -341,7 +331,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Valentina López",
+    tourGuide: findGuideBySpecialty("buenos aires", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -388,7 +378,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Diego Martínez",
+    tourGuide: findGuideBySpecialty("buenos aires", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -436,7 +426,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lucía González",
+    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -485,8 +475,8 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sofía Pérez",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("buenos aires", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What makes the Tigre Delta ecologically unique?",
@@ -532,7 +522,7 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Carlos Mendoza",
+    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

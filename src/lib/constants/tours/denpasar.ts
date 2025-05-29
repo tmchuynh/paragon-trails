@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const denpasarTours: Tour[] = [
   {
     title: "Balinese Temples & Cultural Heritage",
@@ -12,12 +14,12 @@ export const denpasarTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Spiritual", "Cultural", "Architecture"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nyoman Suardika",
+    tourGuide: findGuideBySpecialty("denpasar", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -49,12 +51,12 @@ export const denpasarTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Cooking", "Market", "Culture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Made Sudarsana",
+    tourGuide: findGuideBySpecialty("denpasar", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -86,12 +88,12 @@ export const denpasarTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Art", "Culture", "Walking Tour"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ketut Arimbawa",
+    tourGuide: findGuideBySpecialty("denpasar", "cultural").name,
     tourCategoryId: "culture",
     faqs: [
       {
@@ -123,12 +125,12 @@ export const denpasarTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Food", "Night Market", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Wayan Suryawan",
+    tourGuide: findGuideBySpecialty("denpasar", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const copenhagenTours: Tour[] = [
   {
     title: "Copenhagen by Bike & Canal Cruise",
@@ -12,13 +14,13 @@ export const copenhagenTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cycling", "Canals", "Local Experience"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lars Nielsen",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("copenhagen", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "How difficult is the cycling portion?",
@@ -49,12 +51,12 @@ export const copenhagenTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["Design", "Architecture", "Modern"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Sofia Bergmann",
+    tourGuide: findGuideBySpecialty("copenhagen", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -86,12 +88,12 @@ export const copenhagenTours: Tour[] = [
     price: "$160",
     rating: 4.9,
     tags: ["Culinary", "Street Food", "Fine Dining"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mette Jensen",
+    tourGuide: findGuideBySpecialty("copenhagen", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -123,12 +125,12 @@ export const copenhagenTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Royalty", "Gardens", "History"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Kasper Andersen",
+    tourGuide: findGuideBySpecialty("copenhagen", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const coorgTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ramesh Thamaiah",
+    tourGuide: findGuideBySpecialty("coorg", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const coorgTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cultural", "Heritage", "Local Life"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Bollera Ponappa",
+    tourGuide: findGuideBySpecialty("coorg", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -76,14 +77,14 @@ export const coorgTours: Tour[] = [
     duration: "5 hours",
     price: "$55",
     rating: 4.7,
-    tags: ["Wildlife", "River", "Nature"],
- 
+    tags: ["River", "Nature"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Manu Somaiah",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("coorg", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Is this an ethical elephant experience?",
@@ -109,12 +110,12 @@ export const coorgTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Trekking", "Spiritual", "Nature"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Arun Devaiah",
+    tourGuide: findGuideBySpecialty("coorg", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -141,12 +142,12 @@ export const coorgTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Spices", "Cooking", "Food"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Seetha Nachappa",
+    tourGuide: findGuideBySpecialty("coorg", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -173,12 +174,12 @@ export const coorgTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Waterfall", "Sunset", "Scenery"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Diwan Poovaiah",
+    tourGuide: findGuideBySpecialty("coorg", "romantic").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -204,14 +205,14 @@ export const coorgTours: Tour[] = [
     duration: "6 hours",
     price: "$95",
     rating: 4.9,
-    tags: ["Safari", "Wildlife", "Tiger"],
- 
+    tags: ["Safari", "Tiger"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Shanthala Sharma, Wildlife Naturalist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("coorg", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What wildlife might we see?",
@@ -237,12 +238,12 @@ export const coorgTours: Tour[] = [
     price: "$40",
     rating: 4.5,
     tags: ["Heritage", "Culture", "Walking Tour"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lakshmi Gowda",
+    tourGuide: findGuideBySpecialty("coorg", "cultural").name,
     tourCategoryId: "culture",
     faqs: [
       {

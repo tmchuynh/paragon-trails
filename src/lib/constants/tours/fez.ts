@@ -1,24 +1,26 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const fezTours: Tour[] = [
   {
-    title: "Medieval Medina & Artisan Traditions",
+    title: "Medieval Fez Medina Deep Dive",
     description:
-      "Journey through the world's largest car-free urban area with a guide from a multi-generation Fez family, exploring ancient souks, visiting centuries-old workshops, and learning about traditional crafts still practiced as they were 1,000 years ago.",
+      "Navigate the world's largest car-free urban area with an expert local guide who unveils hidden workshops, architectural treasures, and authentic markets in the 1,200-year-old UNESCO-listed medina.",
     images: [
-      "/images/tours/fez/medina-view.jpg",
+      "/images/tours/fez/medina-streets.jpg",
       "/images/tours/fez/artisan-workshop.jpg",
     ],
-    duration: "5 hours",
-    price: "$85",
+    duration: "6 hours",
+    price: "$75",
     rating: 4.9,
-    tags: ["Medina", "Crafts", "Historical"],
- 
+    tags: ["Cultural", "History"],
+
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: true,
+    isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Hassan El Mansouri",
-    tourCategoryId: "cultural",
+    tourGuide: findGuideBySpecialty("fez", "historical").name,
+    tourCategoryId: "historical",
     faqs: [
       {
         question: "How difficult is navigating the medina?",
@@ -38,23 +40,23 @@ export const fezTours: Tour[] = [
     ],
   },
   {
-    title: "Moroccan Flavors Cooking Class & Market Tour",
+    title: "Moroccan Culinary Journey & Cooking Workshop",
     description:
-      "Master the art of Moroccan cuisine with a renowned local chef, beginning with a guided tour of food markets to select ingredients, followed by a hands-on cooking class in a traditional riad kitchen where you'll prepare an authentic multi-course feast.",
+      "Discover the secrets of Moroccan cuisine with a market tour to select fresh ingredients, followed by a hands-on cooking class in a traditional riad where you'll prepare authentic dishes like tagine and pastilla.",
     images: [
-      "/images/tours/fez/food-market.jpg",
       "/images/tours/fez/cooking-class.jpg",
+      "/images/tours/fez/spice-market.jpg",
     ],
-    duration: "6 hours",
-    price: "$110",
-    rating: 5.0,
-    tags: ["Cooking", "Market", "Culinary"],
- 
+    duration: "5 hours",
+    price: "$95",
+    rating: 4.8,
+    tags: ["Cooking", "Food", "Cultural"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Fatima Berrada",
+    tourGuide: findGuideBySpecialty("fez", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -75,76 +77,113 @@ export const fezTours: Tour[] = [
     ],
   },
   {
-    title: "Fez Cultural Heritage & Architecture Tour",
+    title: "Artisan Craft Tour: Traditional Moroccan Arts",
     description:
-      "Discover the architectural wonders of Fez with a local historian, visiting UNESCO World Heritage sites, ancient madrasas, and stunning mosques while learning about the city's rich history and cultural significance.",
+      "Meet master artisans preserving Morocco's artistic heritage with visits to workshops specializing in zellige mosaics, copper work, woodcarving, and textile weaving, with opportunities for hands-on participation.",
     images: [
-      "/images/tours/fez/heritage-site.jpg",
-      "/images/tours/fez/madrasa.jpg",
+      "/images/tours/fez/zellige-craftsman.jpg",
+      "/images/tours/fez/leather-tannery.jpg",
     ],
     duration: "4 hours",
-    price: "$70",
-    rating: 4.8,
-    tags: ["Heritage", "Architecture", "Historical"],
- 
+    price: "$65",
+    rating: 4.7,
+    tags: ["Crafts", "Artisans", "Cultural"],
+
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: false,
+    isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Hassan El Mansouri",
+    tourGuide: findGuideBySpecialty("fez", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What historical sites will we visit?",
+        question: "What can we expect from the artisan workshops?",
         answer:
-          "The tour includes visits to key sites such as the Bou Inania Madrasa, Al Quaraouiyine University (the world's oldest existing degree-granting university), the Royal Palace, and the stunning Nejjarine Museum of Wooden Arts & Crafts. You'll learn about the architectural styles, historical significance, and cultural context of each site.",
+          "The tour includes visits to several artisan workshops where you can see traditional Moroccan arts being practiced. Expect to see intricate tile work, metal forging, leather crafting, and wood carving. Some workshops may offer hands-on opportunities to try your hand at these crafts.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly. Children will enjoy exploring the fascinating architecture and learning about Fez's history in an engaging way. However, parents should be aware that some sites may have stairs or uneven surfaces.",
+          "Yes, this tour is family-friendly. Children will enjoy the colorful and interactive nature of the artisan workshops. However, parents should supervise their children closely, especially in working workshops where tools and materials are in use.",
       },
       {
-        question: "Do we need to dress modestly for this tour?",
+        question: "Do we need to book in advance?",
         answer:
-          "Yes, visitors are expected to dress modestly when visiting religious sites. We recommend wearing long pants or skirts and covering shoulders. Comfortable walking shoes are also advised as we will be walking on cobblestone streets.",
+          "Yes, advance booking is required to ensure your spot and allow us to arrange the best artisan visits. Please book at least 24 hours in advance. For groups or special requests, contact us directly.",
       },
     ],
   },
   {
-    title: "Fez Nightlife & Cultural Experience",
+    title: "Middle Atlas Mountains & Berber Villages",
     description:
-      "Experience the vibrant nightlife of Fez with a local guide, exploring traditional music venues, enjoying live performances, and tasting local street food in the atmospheric medina after dark.",
+      "Escape the city for a day exploring the stunning cedar forests of the Middle Atlas Mountains, visiting traditional Berber villages, and experiencing rural Moroccan life with a home-cooked lunch in a local family home.",
     images: [
-      "/images/tours/fez/nightlife.jpg",
-      "/images/tours/fez/street-food.jpg",
+      "/images/tours/fez/middle-atlas.jpg",
+      "/images/tours/fez/berber-village.jpg",
     ],
-    duration: "3 hours",
-    price: "$50",
-    rating: 4.7,
-    tags: ["Nightlife", "Music", "Cultural"],
- 
+    duration: "8 hours",
+    price: "$110",
+    rating: 4.8,
+    tags: ["Nature", "Cultural", "Rural"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Fatima El Idrissi",
-    tourCategoryId: "cultural",
+    tourGuide: findGuideBySpecialty("fez", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
-        question: "What types of music will we experience?",
+        question: "What should we wear for this tour?",
         answer:
-          "The tour includes visits to traditional music venues where you can enjoy live performances of Moroccan folk music, including Andalusian classical music and Sufi spiritual songs. You'll also have the chance to see street musicians and performers in the medina.",
+          "We recommend wearing comfortable, weather-appropriate clothing and sturdy shoes or boots for walking in the mountains. A hat and sunglasses are also advisable for sun protection. If you plan to swim in the river, bring a swimsuit and towel.",
       },
       {
-        question: "Is this tour suitable for families?",
+        question: "Will we have time to explore the villages?",
         answer:
-          "This tour is primarily designed for adults and couples. While older children may enjoy the music and atmosphere, younger children may find the late hours and crowded streets challenging.",
+          "Yes, the tour includes visits to several Berber villages where you can explore at a relaxed pace. You'll have the opportunity to walk through the villages, meet local people, and learn about Berber culture and traditions.",
       },
       {
-        question: "What kind of street food will we try?",
+        question: "Is lunch included in the tour?",
         answer:
-          "You'll sample a variety of local street foods such as grilled meats, spicy merguez sausages, fresh juices, and traditional pastries. Our guide will introduce you to safe and popular vendors known for their delicious offerings.",
+          "Yes, a traditional home-cooked lunch is included, featuring local specialties. If you have any dietary restrictions, please let us know in advance so we can accommodate your needs.",
+      },
+    ],
+  },
+  {
+    title: "After Dark: Fez by Night Experience",
+    description:
+      "Experience the magical atmosphere of Fez after sunset with an evening tour featuring illuminated monuments, dinner at a restored palace, and live traditional music in an authentic setting.",
+    images: [
+      "/images/tours/fez/night-monuments.jpg",
+      "/images/tours/fez/palace-dinner.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.6,
+    tags: ["Evening", "Cultural", "Dining"],
+
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: findGuideBySpecialty("fez", "nightlife").name,
+    tourCategoryId: "nightlife",
+    faqs: [
+      {
+        question: "What does the evening tour include?",
+        answer:
+          "The evening tour includes a guided walk to see Fez's monuments beautifully illuminated at night, a traditional Moroccan dinner at a restored palace, and a live music performance showcasing Moroccan musical heritage.",
+      },
+      {
+        question: "Is transportation included in the tour?",
+        answer:
+          "Yes, the tour includes transportation to and from your accommodation in Fez. Our guide will meet you at your hotel or riad and accompany you throughout the evening.",
+      },
+      {
+        question: "What should we wear for the evening tour?",
+        answer:
+          "We recommend smart casual attire for the evening tour. Comfortable shoes are advised as there will be some walking involved. If you plan to visit any religious sites, please dress modestly with shoulders and knees covered.",
       },
     ],
   },
