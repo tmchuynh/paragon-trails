@@ -26,6 +26,16 @@ export const daNangTours: Tour[] = [
         answer:
           "While there is some walking, cable cars connect most attractions at Ba Na Hills, making it accessible for most fitness levels.",
       },
+      {
+        question: "What should I wear?",
+        answer:
+          "Comfortable clothing and shoes are recommended. Bring a light jacket as it can be cooler in the mountains.",
+      },
+      {
+        question: "Are meals included in the tour?",
+        answer:
+          "Yes, lunch is included at a local restaurant in Ba Na Hills.",
+      },
     ],
   },
   {
@@ -52,6 +62,16 @@ export const daNangTours: Tour[] = [
         question: "How difficult is the climb up Marble Mountain?",
         answer:
           "There are approximately 150 steps to the main viewpoint. For those who prefer not to climb, there is an elevator option for an additional fee.",
+      },
+      {
+        question: "What should I bring for the My Son visit?",
+        answer:
+          "Wear comfortable shoes for walking on uneven terrain. Sunscreen and a hat are recommended as it can get hot.",
+      },
+      {
+        question: "Is there a dress code for visiting temples?",
+        answer:
+          "Yes, please wear modest clothing that covers your shoulders and knees when visiting My Son Sanctuary.",
       },
     ],
   },

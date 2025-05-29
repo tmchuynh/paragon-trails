@@ -25,6 +25,16 @@ export const denpasarTours: Tour[] = [
         answer:
           "Modest attire is required. Both men and women should cover shoulders and knees. We provide traditional sarongs and sashes at each temple, but please dress respectfully.",
       },
+      {
+        question: "Are the temples accessible for all ages?",
+        answer:
+          "Yes, the tour is designed to be family-friendly. However, some temple sites may involve stairs or uneven paths, so comfortable walking shoes are recommended.",
+      },
+      {
+        question: "Will we participate in any ceremonies?",
+        answer:
+          "Yes, if available, you may have the opportunity to observe or participate in a local ceremony, such as offering prayers or blessings. Your guide will explain the significance of each ritual.",
+      },
     ],
   },
   {
@@ -51,6 +61,16 @@ export const denpasarTours: Tour[] = [
         question: "Do I need cooking experience?",
         answer:
           "No experience necessary! Our hosts will guide you through each step of preparing authentic Balinese dishes, from basic techniques to complex flavors. Everyone succeeds and enjoys the meal together afterward.",
+      },
+      {
+        question: "What if I have dietary restrictions?",
+        answer:
+          "Please inform us of any dietary restrictions or allergies in advance. We can accommodate vegetarian, vegan, and gluten-free diets with prior notice.",
+      },
+      {
+        question: "Is transportation included?",
+        answer:
+          "Yes, we provide round-trip transportation from your accommodation to the market and cooking location.",
       },
     ],
   },

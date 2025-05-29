@@ -26,6 +26,15 @@ export const chicagoTours: Tour[] = [
         answer:
           "Cruises operate rain or shine. In case of severe weather, we may reschedule or offer indoor viewing options.",
       },
+      {
+        question: "Is food or drink available on the cruise?",
+        answer:
+          "Light snacks and beverages are available for purchase on board. You can also bring your own snacks.",
+      },
+      {
+        question: "Are there restrooms on the boat?",
+        answer: "Yes, all boats are equipped with restrooms.",
+      },
     ],
   },
   {
@@ -52,6 +61,16 @@ export const chicagoTours: Tour[] = [
         question: "Is there a minimum age requirement for the blues clubs?",
         answer:
           "Most venues on this tour require guests to be 21+. We offer a family-friendly alternative daytime tour that includes pizza tasting and music history.",
+      },
+      {
+        question: "What if I have dietary restrictions?",
+        answer:
+          "Please inform us of any dietary restrictions when booking. We can accommodate vegetarian and gluten-free options at the pizzerias.",
+      },
+      {
+        question: "Do we visit multiple blues clubs?",
+        answer:
+          "Yes, we visit two different venues to experience a variety of live music styles and atmospheres.",
       },
     ],
   },

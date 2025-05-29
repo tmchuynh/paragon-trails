@@ -25,6 +25,16 @@ export const dubaiTours: Tour[] = [
         answer:
           "Our luxury camp features private climate-controlled tents with ensuite bathrooms, queen-sized beds with premium linens, private terrace seating, personal butler service, gourmet dining experiences, and traditional entertainment. All modern conveniences are discreetly integrated into the authentic Bedouin aesthetic.",
       },
+      {
+        question: "Is the dune bashing suitable for children?",
+        answer:
+          "Yes, our dune bashing experience is family-friendly. However, we recommend that children be at least 6 years old to ensure their safety and comfort during the ride.",
+      },
+      {
+        question: "What should I wear for the desert safari?",
+        answer:
+          "We recommend wearing light, breathable clothing suitable for warm weather, along with comfortable closed-toe shoes. A hat and sunglasses are also advisable to protect against the sun. In the evening, temperatures can drop, so a light jacket or shawl is recommended.",
+      }
     ],
   },
   {
@@ -52,6 +62,16 @@ export const dubaiTours: Tour[] = [
         answer:
           "The At The Top SKY experience on the 148th floor is Burj Khalifa's premium observation deck, rising 555 meters above the city. Unlike the standard observation decks, this level offers a luxury lounge, dedicated hosts, refreshments, and significantly fewer visitors for a more exclusive experience with minimal waiting.",
       },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. Children will enjoy the stunning views and learning about Dubai's architectural innovations. However, please note that children under 4 years old are not permitted on the 148th floor due to safety regulations.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "We recommend smart casual attire for this tour, especially for the Burj Khalifa visit. Comfortable walking shoes are advisable as there will be some walking involved.",
+      }
     ],
   },
 ];
