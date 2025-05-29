@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mtoWaMbuVillageTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Community", "Tribal"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Emmanuel Laizer",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["Agriculture", "Brewing", "Food & Drink"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mama Happiness",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -76,13 +77,13 @@ export const mtoWaMbuVillageTours: Tour[] = [
     duration: "3 hours",
     price: "$40",
     rating: 4.8,
-    tags: ["Cycling", "Wildlife", "Active"],
- 
+    tags: ["Cycling", "Active"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Joseph Mollel",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Cooking", "Food", "Cultural Exchange"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mama Victoria",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -141,12 +142,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$65",
     rating: 4.6,
     tags: ["Maasai", "Indigenous", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Meshack Ole Nasira",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -174,12 +175,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Crafts", "Artisans", "Hands-on"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Grace Mfinanga",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -205,14 +206,14 @@ export const mtoWaMbuVillageTours: Tour[] = [
     duration: "3 hours",
     price: "$75",
     rating: 4.8,
-    tags: ["Canoe", "Wildlife", "Sunset"],
- 
+    tags: ["Canoe", "Sunset"],
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Daniel Sarakikya",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Is canoeing on Lake Manyara safe?",
@@ -238,13 +239,13 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$30",
     rating: 4.9,
     tags: ["Community", "Education", "Sustainable"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Rebecca Mwangi",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "How does tourism benefit this community?",
@@ -270,12 +271,12 @@ export const mtoWaMbuVillageTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Festivals", "Culture", "Dance"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Amani Ngoya",
+    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

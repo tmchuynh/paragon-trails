@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const melbourneTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const melbourneTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Street Art", "Culture", "Workshop"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Adrian 'Ghost' Parker",
+    tourGuide: findGuideBySpecialty("melbourne", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const melbourneTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Coastal Drive", "Natural Wonders", "Photography"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Emma Sullivan",
+    tourGuide: findGuideBySpecialty("melbourne", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const melbourneTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Coffee", "Food", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "James Taylor, Champion Barista",
+    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const melbourneTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Wine", "Gourmet", "Scenic"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sarah McLachlan, Sommelier",
+    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -140,14 +141,14 @@ export const melbourneTours: Tour[] = [
     duration: "10 hours",
     price: "$165",
     rating: 4.8,
-    tags: ["Wildlife", "Penguins", "Conservation"],
- 
+    tags: ["Penguins", "Conservation"],
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Kate Wilson, Wildlife Biologist",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("melbourne", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What animals might we see on this tour?",
@@ -173,12 +174,12 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Indigenous", "Cultural", "Historical"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Uncle Dave Wandin",
+    tourGuide: findGuideBySpecialty("melbourne", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -205,13 +206,13 @@ export const melbourneTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Photography", "Architecture", "Skills"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Mark Richards",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("melbourne", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is required?",
@@ -237,12 +238,12 @@ export const melbourneTours: Tour[] = [
     price: "$225",
     rating: 4.8,
     tags: ["Gourmet", "Dining", "Wine"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Michael Greene",
+    tourGuide: findGuideBySpecialty("melbourne", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -269,12 +270,12 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Beer", "Pubs", "Local Experience"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Tommy O'Connor, Beer Historian",
+    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

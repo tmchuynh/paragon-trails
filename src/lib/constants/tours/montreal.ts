@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const montrealTours: Tour[] = [
   {
     title: "Underground City & Hidden Passages",
@@ -12,12 +14,12 @@ export const montrealTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Architecture", "Underground", "Art"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Jean-Pierre Tremblay",
+    tourGuide: findGuideBySpecialty("montreal", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const montrealTours: Tour[] = [
     price: "$89",
     rating: 4.9,
     tags: ["Food", "Street Art", "Local Culture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sophie Lavoie",
+    tourGuide: findGuideBySpecialty("montreal", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -81,12 +83,12 @@ export const montrealTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["History", "Architecture", "Culture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marc-André Boucher",
+    tourGuide: findGuideBySpecialty("montreal", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

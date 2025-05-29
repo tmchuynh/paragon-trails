@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mekongDeltaTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Markets", "River Life", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nguyen Thi Hoa",
+    tourGuide: findGuideBySpecialty("mekong-delta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Cooking", "Food", "Agriculture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Tran Van Minh",
+    tourGuide: findGuideBySpecialty("mekong-delta", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Kayaking", "Nature", "Ecotour"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Nam Tran",
+    tourGuide: findGuideBySpecialty("mekong-delta", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Cycling", "Rural", "Agriculture"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Thanh Nguyen",
+    tourGuide: findGuideBySpecialty("mekong-delta", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -141,13 +142,13 @@ export const mekongDeltaTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Culture", "Landscapes"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Minh Quan, Professional Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("mekong-delta", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -173,12 +174,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Sunset", "Cruise", "Dining"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Huy Nguyen",
+    tourGuide: findGuideBySpecialty("mekong-delta", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -205,12 +206,12 @@ export const mekongDeltaTours: Tour[] = [
     price: "$60",
     rating: 4.6,
     tags: ["Crafts", "Cultural", "Hands-on"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mrs. Huong Tran",
+    tourGuide: findGuideBySpecialty("mekong-delta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

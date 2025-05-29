@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const marrakechTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const marrakechTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cultural", "Walking", "Artisans"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Omar Benali",
+    tourGuide: findGuideBySpecialty("marrakech", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -50,12 +51,12 @@ export const marrakechTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Desert", "Adventure", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ibrahim Amazigh",
+    tourGuide: findGuideBySpecialty("marrakech", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -87,13 +88,13 @@ export const marrakechTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nature", "Hiking", "Culinary"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Fatima Zahra",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("marrakech", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "What level of fitness is required for the hike?",

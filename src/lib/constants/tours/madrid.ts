@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const madridTours: Tour[] = [
   {
     title: "Madrid Art Walk: Prado, Reina Sofia & Thyssen",
@@ -12,12 +14,12 @@ export const madridTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Art", "Museums", "Culture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Carmen Ortiz",
+    tourGuide: findGuideBySpecialty("madrid", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const madridTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Culinary", "Nightlife", "Flamenco"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Javier Moreno",
+    tourGuide: findGuideBySpecialty("madrid", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -81,12 +83,12 @@ export const madridTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["History", "Architecture", "Walking Tour"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sofia Ruiz",
+    tourGuide: findGuideBySpecialty("madrid", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mauiTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const mauiTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Scenic Drive", "Waterfalls", "Private Tour"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kainoa Miller",
+    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -40,12 +41,12 @@ export const mauiTours: Tour[] = [
     price: "$195",
     rating: 4.8,
     tags: ["Sunrise", "Cycling", "National Park"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "David Kalama",
+    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -67,12 +68,12 @@ export const mauiTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Hawaiian Culture", "Traditions", "Hands-on"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kumu Hula Malina Kealoha",
+    tourGuide: findGuideBySpecialty("maui", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -94,13 +95,13 @@ export const mauiTours: Tour[] = [
     price: "$145",
     rating: 4.7,
     tags: ["Snorkeling", "Marine Life", "Boat Tour"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marine Biologist Emily Whitman",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("maui", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Do I need to be a strong swimmer to enjoy this tour?",
@@ -126,12 +127,12 @@ export const mauiTours: Tour[] = [
     price: "$215",
     rating: 4.8,
     tags: ["Culinary", "Farms", "Cooking"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef James Simpliciano",
+    tourGuide: findGuideBySpecialty("maui", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -158,13 +159,13 @@ export const mauiTours: Tour[] = [
     price: "$185",
     rating: 4.8,
     tags: ["Photography", "Landscapes", "Sunset"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Randy Jay Braun",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("maui", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What locations will we photograph?",
@@ -190,12 +191,12 @@ export const mauiTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Cultural", "Paddling", "Ocean"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Kala Willis",
+    tourGuide: findGuideBySpecialty("maui", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -222,12 +223,12 @@ export const mauiTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Helicopter", "Aerial", "Sightseeing"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Michael Lee",
+    tourGuide: findGuideBySpecialty("maui", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -254,13 +255,13 @@ export const mauiTours: Tour[] = [
     price: "$99",
     rating: 4.9,
     tags: ["Whale Watching", "Marine Life", "Conservation"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Leilani Kealoha",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("maui", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "When is the best time for whale watching in Maui?",
@@ -275,3 +276,5 @@ export const mauiTours: Tour[] = [
     ],
   },
 ];
+
+export default mauiTours;

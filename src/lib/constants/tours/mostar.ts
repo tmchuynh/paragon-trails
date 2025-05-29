@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mostarTours: Tour[] = [
   {
@@ -13,12 +14,12 @@ export const mostarTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Cultural", "Historical", "UNESCO"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Emir Balić",
+    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -45,12 +46,12 @@ export const mostarTours: Tour[] = [
     price: "$35",
     rating: 4.8,
     tags: ["War History", "Educational", "Walking Tour"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Damir Jazić",
+    tourGuide: findGuideBySpecialty("mostar", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -77,12 +78,12 @@ export const mostarTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Crafts", "Workshop", "Cultural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Master Craftsman Samir Temim",
+    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -109,12 +110,12 @@ export const mostarTours: Tour[] = [
     price: "$75",
     rating: 4.6,
     tags: ["Rafting", "Adventure", "Nature"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Armin Jusufović",
+    tourGuide: findGuideBySpecialty("mostar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -141,12 +142,12 @@ export const mostarTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Wine", "Food", "Countryside"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mirjana Bošković",
+    tourGuide: findGuideBySpecialty("mostar", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -173,13 +174,13 @@ export const mostarTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Photography", "Sunrise", "Architecture"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jasmina Fazlić",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("mostar", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What time does the tour start?",
@@ -205,12 +206,12 @@ export const mostarTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Nature", "Swimming", "Waterfalls"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Adnan Hodžić",
+    tourGuide: findGuideBySpecialty("mostar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -237,12 +238,12 @@ export const mostarTours: Tour[] = [
     price: "$40",
     rating: 4.8,
     tags: ["Cultural", "Spiritual", "Nature"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Selma Dervišević",
+    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

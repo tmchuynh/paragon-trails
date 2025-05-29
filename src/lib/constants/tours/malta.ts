@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const maltaTours: Tour[] = [
   {
     title: "Ancient Malta: Temples & Medieval Cities",
@@ -12,12 +14,12 @@ export const maltaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["History", "Archaeology", "UNESCO"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Joseph Calleja",
+    tourGuide: findGuideBySpecialty("malta", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -44,12 +46,12 @@ export const maltaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Boat Tour", "Swimming", "Coastal"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Marco Bonnici",
+    tourGuide: findGuideBySpecialty("malta", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -81,12 +83,12 @@ export const maltaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Walking Tour", "Culture", "UNESCO"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Maria Grech",
+    tourGuide: findGuideBySpecialty("malta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

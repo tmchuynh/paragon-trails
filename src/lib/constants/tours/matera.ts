@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const materaTours: Tour[] = [
   {
     title: "Sassi Cave Dwellings & Ancient Civilization",
@@ -11,13 +13,13 @@ export const materaTours: Tour[] = [
     duration: "4 hours",
     price: "$85",
     rating: 4.9,
-    tags: ["UNESCO", "History", "Architecture"],
+    tags: ["History", "Architecture"],
 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Marco Lombardi",
+    tourGuide: findGuideBySpecialty("matera", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -49,7 +51,7 @@ export const materaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Nonna Giovanna",
+    tourGuide: findGuideBySpecialty("matera", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -81,7 +83,7 @@ export const materaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Elena Rossi",
+    tourGuide: findGuideBySpecialty("matera", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

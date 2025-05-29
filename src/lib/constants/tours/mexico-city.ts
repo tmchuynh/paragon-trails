@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const mexicoCityTours: Tour[] = [
   {
     title: "Teotihuacan Pyramids at Sunrise & Archaeologist Tour",
@@ -17,7 +19,7 @@ export const mexicoCityTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Vásquez",
+    tourGuide: findGuideBySpecialty("mexico-city", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const mexicoCityTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Carlos Gutiérrez",
+    tourGuide: findGuideBySpecialty("mexico-city", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const mexicoCityTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lucia Hernández",
+    tourGuide: findGuideBySpecialty("mexico-city", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
