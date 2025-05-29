@@ -14,7 +14,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["landmark", "scenic", "photography"],
+    tags: ["romantic", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "tour"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["entertainment", "food", "shopping"],
+    tags: ["culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "historical", "food"],
+    tags: ["cultural", "historical", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "recreation", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["landmark", "scenic", "photography"],
+    tags: ["romantic", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -140,7 +140,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["architectural", "scenic", "photography"],
+    tags: ["romantic", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -161,7 +161,7 @@ export const sanFranciscoCaUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["landmark", "scenic", "cultural"],
+    tags: ["romantic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

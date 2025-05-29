@@ -14,7 +14,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "historical", "architecture"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["religious", "cultural", "historical"],
+    tags: ["spiritual", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["nature", "outdoor", "recreation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "cultural", "peaceful"],
+    tags: ["spiritual", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "local experience", "homestay"],
+    tags: ["cultural", "local", "homestay"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -121,7 +121,7 @@ export const panautiBagmatiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "cultural", "spiritual"],
+    tags: ["spiritual", "cultural", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

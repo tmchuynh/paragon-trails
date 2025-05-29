@@ -14,7 +14,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["outdoor", "scenic", "relaxation"],
+    tags: ["adventure", "romantic", "relaxation"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["cultural", "historical", "walking"],
+    tags: ["cultural", "historical", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const savannahGaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["entertainment", "shopping", "dining"],
+    tags: ["culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

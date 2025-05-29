@@ -14,7 +14,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     entryFeeCategory: "paid",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "hiking", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "shopping", "food"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const sapaLaoCaiProvinceVietnam: Attraction[] = [
     entryFeeCategory: "paid",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "scenic", "traditional"],
+    tags: ["cultural", "romantic", "traditional"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

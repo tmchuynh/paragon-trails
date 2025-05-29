@@ -14,7 +14,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "outdoor"],
+    tags: ["cultural", "historical", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["zoo", "family", "wildlife"],
+    tags: ["zoo", "wildlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["nature", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "military", "museum"],
+    tags: ["historical", "military"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["beach", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -120,7 +120,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "outdoor"],
+    tags: ["historical", "cultural", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -141,7 +141,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["entertainment", "nightlife", "cultural"],
+    tags: [ "nightlife", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -162,7 +162,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "marine"],
+    tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -185,7 +185,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "luxury",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "wellness", "exclusive"],
+    tags: ["luxury", "wellness", "local"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
     isPopular: false,
 
@@ -208,7 +208,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "hiking", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["accessible viewpoints", "limited trail access"],
     isPopular: true,
 
@@ -230,7 +230,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["art", "cultural", "museum"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 

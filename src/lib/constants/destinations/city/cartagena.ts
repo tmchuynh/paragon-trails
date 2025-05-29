@@ -11,7 +11,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["historical", "historical", "unesco", "colonial", "cultural"],
+    tags: ["historical", "historical", "colonial", "cultural"],
     accessibilityFeatures: ["some accessible areas", "flat streets in parts"],
     isPopular: true,
 

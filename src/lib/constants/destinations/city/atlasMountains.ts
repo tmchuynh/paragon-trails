@@ -13,7 +13,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     entryFee: "Free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["outdoor", "hiking", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "$",
     priceCategory: "budget",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     entryFee: "Free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["outdoor", "nature", "cultural"],
+    tags: ["adventure", "cultural"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "$$$",
     priceCategory: "expensive",
     timeOfDay: "all day",
-    tags: ["luxury", "exclusive", "cultural"],
+    tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -97,7 +97,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "$$$$",
     priceCategory: "luxury",
     timeOfDay: "all day",
-    tags: ["luxury", "exclusive", "retreat"],
+    tags: ["luxury", "local", "wellness"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -118,7 +118,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "$$$$",
     priceCategory: "luxury",
     timeOfDay: "all day",
-    tags: ["luxury", "historical", "exclusive"],
+    tags: ["luxury", "historical", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -139,7 +139,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "$",
     priceCategory: "budget",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "garden"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -160,7 +160,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["nature", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -181,7 +181,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["outdoor", "adventure", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -202,7 +202,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -223,7 +223,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["scenic", "outdoor", "adventure"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -265,7 +265,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["scenic", "cultural", "outdoor"],
+    tags: ["romantic", "cultural", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -286,7 +286,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["nature", "scenic", "cultural"],
+    tags: ["romantic", "cultural"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -307,7 +307,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["cultural", "scenic", "historical"],
+    tags: ["cultural", "romantic", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -349,7 +349,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     priceRange: "free",
     priceCategory: "free",
     timeOfDay: "daytime",
-    tags: ["nature", "scenic", "adventure"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 

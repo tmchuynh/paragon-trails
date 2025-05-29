@@ -14,7 +14,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["landmark", "viewpoint", "romantic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "religious", "architectural"],
+    tags: ["historical", "spiritual", "architectural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["shopping", "cultural", "historical"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -122,7 +122,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.7,
-    tags: ["dining", "luxury", "romantic"],
+    tags: ["culinary", "luxury", "romantic"],
     accessibilityFeatures: ["elevator access"],
     isPopular: true,
 
@@ -144,7 +144,7 @@ export const parisIleDeFranceFrance: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["shopping", "luxury", "architecture"],
+    tags: ["luxury"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 
