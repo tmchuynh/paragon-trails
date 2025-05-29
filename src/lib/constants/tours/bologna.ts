@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const bolognaTours: Tour[] = [
   {
     title: "Traditional Pasta Making with Nonna",
@@ -17,7 +19,7 @@ export const bolognaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Nonna Maria Rossi",
+    tourGuide: findGuideBySpecialty("bologna", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const bolognaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Elena Bianchi",
+    tourGuide: findGuideBySpecialty("bologna", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Giulia Conti",
+    tourGuide: findGuideBySpecialty("bologna", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -133,8 +135,8 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Marco Ferri",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("bologna", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Are the canals accessible by foot?",
@@ -170,7 +172,7 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Luca Moretti",
+    tourGuide: findGuideBySpecialty("bologna", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

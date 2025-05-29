@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const beijingTours: Tour[] = [
   {
     title: "Great Wall Exclusive: Untouched Sections & Helicopter View",
@@ -17,7 +19,7 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Wang Feng",
+    tourGuide: findGuideBySpecialty("beijing", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -64,7 +66,7 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Liu Mei",
+    tourGuide: findGuideBySpecialty("beijing", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -101,7 +103,7 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Zhang Wei",
+    tourGuide: findGuideBySpecialty("beijing", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -138,8 +140,8 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Li Jing, National Geographic Contributor",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("beijing", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -175,7 +177,7 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Master Chen",
+    tourGuide: findGuideBySpecialty("beijing", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -212,7 +214,7 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Zhao Ying",
+    tourGuide: findGuideBySpecialty("beijing", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -249,8 +251,8 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Master Wong & Mrs. Lin",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("beijing", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What ages is this tour appropriate for?",
@@ -286,7 +288,7 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Michael Zhang",
+    tourGuide: findGuideBySpecialty("beijing", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -328,7 +330,7 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "VIP Concierge Team",
+    tourGuide: findGuideBySpecialty("beijing", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {

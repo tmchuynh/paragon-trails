@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const berlinTours: Tour[] = [
   {
     title: "Berlin Cold War History & Underground Bunkers",
@@ -17,7 +19,7 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Hans Mueller",
+    tourGuide: findGuideBySpecialty("berlin", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Hans Schmidt",
+    tourGuide: findGuideBySpecialty("berlin", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Anna Weber",
+    tourGuide: findGuideBySpecialty("berlin", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -133,7 +135,7 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sophie Müller",
+    tourGuide: findGuideBySpecialty("berlin", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -175,8 +177,8 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Hans Schmidt",
-    tourCategoryId: "nature",
+    tourGuide: findGuideBySpecialty("berlin", "wellness").name,
+    tourCategoryId: "wellness",
     faqs: [
       {
         question: "Is this tour suitable for children?",

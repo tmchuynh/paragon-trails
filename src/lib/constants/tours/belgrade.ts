@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const belgradeTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Milan Jovanović",
+    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -65,7 +66,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dragan Petrović",
+    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -102,7 +103,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Jelena Marković",
+    tourGuide: findGuideBySpecialty("belgrade", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -139,7 +140,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Captain Nikola",
+    tourGuide: findGuideBySpecialty("belgrade", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -176,7 +177,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Ana Đorđević",
+    tourGuide: findGuideBySpecialty("belgrade", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -218,7 +219,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Milica Jovanović",
+    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -260,7 +261,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Professor Milan Nikolić",
+    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -302,7 +303,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marija Petrović",
+    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -344,7 +345,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Stefan Mirković",
+    tourGuide: findGuideBySpecialty("belgrade", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -386,7 +387,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Grandmother Dušanka",
+    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -428,7 +429,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ivan Popović",
+    tourGuide: findGuideBySpecialty("belgrade", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -470,7 +471,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Colonel Vladimir Petrović (Ret.)",
+    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -512,7 +513,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sommelier Jovan Simić",
+    tourGuide: findGuideBySpecialty("belgrade", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -554,7 +555,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Theological Scholar Nikola Jovanović",
+    tourGuide: findGuideBySpecialty("belgrade", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -597,7 +598,7 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Ethnomusicologist Vesna Đurić",
+    tourGuide: findGuideBySpecialty("belgrade", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const bhaktapurTours: Tour[] = [
   {
@@ -12,13 +13,13 @@ export const bhaktapurTours: Tour[] = [
     duration: "6 hours",
     price: "$75",
     rating: 4.9,
-    tags: ["UNESCO", "Temples", "Architecture"],
+    tags: ["Temples", "Architecture"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Dr. Ramesh Pradhan",
+    tourGuide: findGuideBySpecialty("bhaktapur", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -55,7 +56,7 @@ export const bhaktapurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Master Potter Suraj Prajapati",
+    tourGuide: findGuideBySpecialty("bhaktapur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -87,8 +88,8 @@ export const bhaktapurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Mohan Shrestha",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("bhaktapur", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography skill level is this tour designed for?",
@@ -119,7 +120,7 @@ export const bhaktapurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Binita Maharjan",
+    tourGuide: findGuideBySpecialty("bhaktapur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -151,7 +152,7 @@ export const bhaktapurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sadhu Ram Baba",
+    tourGuide: findGuideBySpecialty("bhaktapur", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {

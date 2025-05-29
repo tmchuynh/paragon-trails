@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const bostonTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Thomas Sullivan",
+    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -71,7 +72,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Emily Robertson",
+    tourGuide: findGuideBySpecialty("boston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -119,8 +120,8 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain James O'Connor",
-    tourCategoryId: "scenic",
+    tourGuide: findGuideBySpecialty("boston", "romantic").name,
+    tourCategoryId: "romantic",
     faqs: [
       {
         question: "What should I wear for the cruise?",
@@ -167,7 +168,7 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Maria Rossi",
+    tourGuide: findGuideBySpecialty("boston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -214,7 +215,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sarah Thompson",
+    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -263,8 +264,8 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Mike Sullivan",
-    tourCategoryId: "sports",
+    tourGuide: findGuideBySpecialty("boston", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Can I visit the locker rooms during the tour?",
@@ -307,7 +308,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Rebecca Proctor",
+    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -356,7 +357,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sam Brewster",
+    tourGuide: findGuideBySpecialty("boston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -406,7 +407,7 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Eleanor Wright",
+    tourGuide: findGuideBySpecialty("boston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -454,8 +455,8 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Jason Chen",
-    tourCategoryId: "educational",
+    tourGuide: findGuideBySpecialty("boston", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Will we see active research labs during the tour?",

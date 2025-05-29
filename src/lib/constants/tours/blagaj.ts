@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const blagajTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const blagajTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Professor Emir Hadžimuratović",
+    tourGuide: findGuideBySpecialty("blagaj", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -50,7 +51,7 @@ export const blagajTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Amra Begović",
+    tourGuide: findGuideBySpecialty("blagaj", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -82,8 +83,8 @@ export const blagajTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Mirza Hasanović",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("blagaj", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What are the best features to photograph in Blagaj?",
@@ -114,7 +115,7 @@ export const blagajTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Adnan Kajtaz",
+    tourGuide: findGuideBySpecialty("blagaj", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -146,7 +147,7 @@ export const blagajTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Haris Ibrahimović",
+    tourGuide: findGuideBySpecialty("blagaj", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
