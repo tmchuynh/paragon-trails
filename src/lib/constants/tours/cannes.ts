@@ -25,6 +25,11 @@ export const cannesTours: Tour[] = [
         answer:
           "Yes, this experience includes tickets to one official selection screening. During the festival, availability depends on the festival schedule, but our connections allow us to secure access to screenings that aren't available to the general public. Outside festival dates, we arrange private screenings of past Palme d'Or winners.",
       },
+      {
+        question: "What should I wear for the red carpet?",
+        answer:
+          "Dress to impress! While formal attire is not mandatory, we recommend smart casual or cocktail attire. If you want to go all out, feel free to wear evening gowns or suits. We can also arrange professional hair and makeup services for an additional fee.",
+      },
     ],
   },
   {
@@ -51,6 +56,11 @@ export const cannesTours: Tour[] = [
         question: "Is swimming possible during the cruise?",
         answer:
           "Absolutely! We make 2-3 swimming stops in beautiful secluded coves with crystal-clear water. The yacht is equipped with snorkeling gear, paddleboards, and a swimming platform for easy access to the water.",
+      },
+      {
+        question: "What should I bring for the cruise?",
+        answer:
+          "We recommend swimwear, sunscreen, a hat, and a light jacket for the evening. Towels and snorkeling gear are provided onboard. Feel free to bring your own drinks or snacks, but we also have a full bar and catering service available.",
       },
     ],
   },

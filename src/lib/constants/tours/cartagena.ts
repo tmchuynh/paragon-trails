@@ -26,6 +26,11 @@ export const cartagenaTours: Tour[] = [
         answer:
           "This tour covers approximately 3 kilometers along the city walls and includes climbing sections of the fortress with steep steps. While we maintain a leisurely pace with plenty of breaks, comfortable shoes and moderate fitness are recommended. Alternative routes with fewer stairs can be arranged for those with mobility concerns.",
       },
+      {
+        question: "Are there restroom facilities available?",
+        answer:
+          "Yes, there are restroom facilities at key points along the tour, including the San Felipe Fortress and Plaza de los Coches. We also make stops at local cafes where you can use restrooms and purchase refreshments.",
+      },
     ],
   },
   {
@@ -52,6 +57,11 @@ export const cartagenaTours: Tour[] = [
         question: "What dishes will we learn to prepare?",
         answer:
           "You'll create an authentic Caribbean Colombian meal including ceviche with fresh local seafood, coconut rice, patacones (fried plantains), and a traditional dessert like coconut flan. Our chef adapts recipes based on seasonal ingredients from the morning's market visit. Vegetarian options are available with advance notice, and all participants receive recipe cards to recreate these dishes at home.",
+      },
+      {
+        question: "Do I need prior cooking experience?",
+        answer:
+          "No prior cooking experience is required! Our class is designed for all skill levels, from beginners to experienced cooks. Chef Catalina provides step-by-step instructions and personalized guidance throughout the cooking process. The focus is on having fun while learning about Caribbean flavors and techniques.",
       },
     ],
   },
@@ -107,6 +117,11 @@ export const cartagenaTours: Tour[] = [
         answer:
           "San Basilio de Palenque was founded by escaped enslaved Africans in the 17th century and became the first free Black town in the Americas. Its residents developed their own language (Palenquero, a Spanish-Bantu creole), preserved unique African musical traditions, and maintained distinct cultural practices that survived into the modern era. UNESCO recognized Palenque's cultural space as a Masterpiece of the Oral and Intangible Heritage of Humanity due to its importance in preserving Afro-Colombian identity.",
       },
+      {
+        question: "What activities are included in the tour?",
+        answer:
+          "The tour includes a guided walk through the village, visits to local artisans, a traditional Palenque lunch, and live performances of Palenquero music and dance. You'll also have opportunities to interact with community members, learn about their history, and purchase handmade crafts directly from artisans. The experience is designed to be immersive and respectful, providing insight into the living culture of Palenque.",
+      },
     ],
   },
   {
@@ -133,6 +148,11 @@ export const cartagenaTours: Tour[] = [
         question: "Which locations will we visit for photography?",
         answer:
           "We time our tour to catch the best light, beginning with the narrow streets of Getsemaní neighborhood with its colorful houses and street art, followed by Plaza Santo Domingo as afternoon shadows create dramatic light. We then move to the city walls for golden hour, catching spectacular views of the Caribbean Sea and the colonial skyline. We conclude at Café del Mar for classic sunset shots over the water while enjoying a complimentary cocktail.",
+      },
+      {
+        question: "Do I need to bring my own camera?",
+        answer:
+          "While you can bring your own camera, our guide provides professional-grade cameras and lenses for you to use during the tour. This allows you to experiment with different settings and techniques without needing prior photography experience. We also provide tips on composition, lighting, and capturing the essence of Cartagena's unique architecture and vibrant street life.",
       },
     ],
   },
@@ -161,6 +181,11 @@ export const cartagenaTours: Tour[] = [
           "Do I need to have read García Márquez's books before taking this tour?",
         answer:
           "While prior familiarity with works like 'Love in the Time of Cholera' or '100 Years of Solitude' enhances the experience, it's not required. Our guide provides context about García Márquez's life, the literary movement of magical realism, and key passages that connect to Cartagena's locations. Many guests find themselves inspired to read his books after experiencing the real-world settings that influenced his fictional world of Macondo.",
+      },
+      {
+        question: "What locations will we visit?",
+        answer:
+          "The tour includes stops at key sites such as the Plaza de los Coches, where García Márquez's family lived, the Hotel Santa Clara (inspiration for the hotel in his novels), and the colonial streets that feature prominently in his stories. We also discuss how Cartagena's history and culture influenced his writing, making this a unique blend of literature and local heritage.",
       },
     ],
   },
