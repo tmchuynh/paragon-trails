@@ -14,7 +14,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["natural", "cultural", "scenic"],
+    tags: ["cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     priceRange: "$",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "historical", "unique"],
+    tags: ["cultural", "historical", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const lakeTiticacaPunoRegionPeru: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "scenic", "outdoor"],
+    tags: ["cultural", "romantic", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

@@ -13,7 +13,7 @@ export const lisbonLisbonDistrictPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const lisbonLisbonDistrictPortugal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const lisbonLisbonDistrictPortugal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["cultural", "historical", "neighborhood"],
+    tags: ["cultural", "historical", ],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

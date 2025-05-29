@@ -12,7 +12,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["architectural", "viewpoint", "cultural"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "natural", "cultural"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const kualaLumpurSelangorMalaysia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "family-friendly", "outdoor"],
+    tags: ["local", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

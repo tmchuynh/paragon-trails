@@ -12,7 +12,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["natural", "scenic", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -31,7 +31,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["scenic", "viewpoint", "outdoor"],
+    tags: ["romantic", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -50,7 +50,7 @@ export const juneauAkUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

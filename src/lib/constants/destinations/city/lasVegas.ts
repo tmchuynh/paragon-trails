@@ -14,7 +14,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["entertainment", "nightlife", "shopping"],
+    tags: ["nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "evening",
     rating: 4.6,
-    tags: ["entertainment", "cultural", "nightlife"],
+    tags: ["cultural", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["outdoor", "nature", "hiking"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "evening",
     rating: 4.7,
-    tags: ["entertainment", "cultural", "scenic"],
+    tags: ["cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -96,7 +96,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["scenic", "viewpoint", "entertainment"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -117,7 +117,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["cultural", "historical", "art"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -137,7 +137,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "engineering", "scenic"],
+    tags: ["historical", "engineering", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -159,7 +159,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["cultural", "art", "shopping"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -179,7 +179,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["educational", "family-friendly", "cultural"],
+    tags: ["local", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -200,7 +200,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "cultural", "educational"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -220,7 +220,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "educational"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -241,7 +241,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.1,
-    tags: ["family-friendly", "educational", "nature"],
+    tags: ["local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -261,7 +261,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["shopping", "entertainment", "outdoor"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -282,7 +282,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.3,
-    tags: ["business", "events", "conventions"],
+    tags: ["business", "conventions"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -302,7 +302,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "cultural", "educational"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -323,7 +323,7 @@ export const lasVegasNvUnitedStates: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["cultural", "art", "shopping"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

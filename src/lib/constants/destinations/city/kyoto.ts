@@ -13,7 +13,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["religious", "cultural", "hiking"],
+    tags: ["spiritual", "cultural", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const kyotoKyotoPrefectureJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["natural", "scenic", "photography"],
+    tags: ["romantic", "art-and-music"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

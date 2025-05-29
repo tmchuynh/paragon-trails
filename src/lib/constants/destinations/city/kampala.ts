@@ -14,7 +14,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "unesco", "royal", "architecture"],
+    tags: ["historical", "cultural"],
     isPopular: true,
 
     isFree: false,
@@ -45,7 +45,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "architecture", "gardens", "views", "peaceful"],
+    tags: ["spiritual", "historical", "wellness"],
     accessibilityFeatures: ["accessible grounds"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "architecture", "viewpoint", "islamic", "cultural"],
+    tags: ["spiritual", "historical", "cultural"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
 
@@ -109,7 +109,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["museum", "history", "culture", "archaeology", "educational"],
+    tags: ["cultural", "hisotrical"],
     accessibilityFeatures: ["accessible entrance", "ground floor exhibits"],
     isPopular: true,
 
@@ -139,7 +139,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["market", "shopping", "local", "cultural", "authentic"],
+    tags: ["local", "cultural"],
     isPopular: true,
 
     isFree: true,
@@ -170,7 +170,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["cultural", "performance", "music", "dance", "dining"],
+    tags: ["cultural", "art-and-music", "culinary"],
     accessibilityFeatures: ["accessible seating"],
     isPopular: true,
 
@@ -199,7 +199,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["monument", "historical", "photography", "landmark", "symbolic"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["accessible viewing area"],
     isPopular: true,
 
@@ -231,7 +231,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["historical", "royal", "cultural", "architecture", "political"],
+    tags: ["cultural", "historical"],
     isPopular: true,
 
     isFree: false,
@@ -259,7 +259,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.0,
-    tags: ["shopping", "urban", "busy", "commercial", "city life"],
+    tags: ["nightlife", "culinary", "local", "cultural"],
     accessibilityFeatures: ["accessible sidewalks in parts"],
     isPopular: true,
 
@@ -291,7 +291,7 @@ export const kampalaCentralUganda: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["education", "architecture", "historical", "campus", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: [
       "some accessible paths",
       "ramps in newer buildings",
