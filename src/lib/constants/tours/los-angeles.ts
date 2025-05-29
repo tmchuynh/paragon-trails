@@ -70,6 +70,43 @@ export const losAngelesTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Los Angeles Art Walk & Gallery Tour",
+    description:
+      "Explore LA's vibrant art scene with a guided tour of the Arts District, featuring street art, contemporary galleries, and local artist studios.",
+    images: [
+      "/images/tours/los-angeles/art-district.jpg",
+      "/images/tours/los-angeles/street-art.jpg",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Art", "Culture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Sofia Martinez",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Will we visit any indoor galleries?",
+        answer:
+          "Yes, the tour includes visits to several contemporary art galleries and artist studios in the Arts District.",
+      },
+      {
+        question: "What should I wear for the walk?",
+        answer:
+          "Wear comfortable walking shoes and dress for the weather. We recommend bringing a water bottle and sunscreen.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive art experiences.",
+      },
+    ],
+  },
 ];
 
 export default losAngelesTours;

@@ -69,6 +69,43 @@ export const londonTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "London's Hidden Gardens & Secret Parks",
+    description:
+      "Discover London's lesser-known green spaces, from tranquil hidden gardens to historic parks, guided by a local horticulturist who shares the stories and flora of these peaceful retreats.",
+    images: [
+      "/images/tours/london/hidden-garden.jpg",
+      "/images/tours/london/secret-park.jpg",
+    ],
+    duration: "3 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Nature", "Gardens", "Relaxation"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Clara Greenfield",
+    tourCategoryId: "nature",
+    faqs: [
+      {
+        question: "Are the gardens wheelchair accessible?",
+        answer:
+          "Most of the gardens we visit are accessible, but some may have uneven paths or steps. Please inform us of any mobility concerns when booking so we can tailor the tour to your needs.",
+      },
+      {
+        question: "What should I wear for the garden tour?",
+        answer:
+          "Comfortable walking shoes are recommended, as we will be exploring various gardens and parks. Dress in layers, as London weather can change quickly, and bring a light raincoat if rain is forecasted.",
+      },
+      {
+        question: "Can children join this tour?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children. We can provide engaging activities for younger participants to learn about plants and nature.",
+      },
+    ],
+  },
 ];
 
 export default londonTours;

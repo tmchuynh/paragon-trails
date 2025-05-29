@@ -210,6 +210,38 @@ export const kualaLumpurTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Kuala Lumpur by Night: City Lights & Cultural Show",
+    description:
+      "Experience the vibrant nightlife of Kuala Lumpur with a guided evening tour that includes stunning city views from the KL Tower, a visit to the illuminated Petronas Towers, and a cultural performance showcasing traditional Malaysian music and dance.",
+    images: [
+      "/images/tours/kuala-lumpur/kl-tower-night.jpg",
+      "/images/tours/kuala-lumpur/petronas-towers-night.jpg",
+    ],
+    duration: "4 hours",
+    price: "$80",
+    rating: 4.7,
+    tags: ["Nightlife", "Cultural", "City Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Mr. Amirul Hakim",
+    tourCategoryId: "nightlife",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly! The KL Tower has an observation deck with panoramic views that children love, and the cultural show features colorful costumes and engaging performances that appeal to all ages. We ensure the pace is relaxed and enjoyable for families.",
+      },
+      {
+        question: "What cultural performance can we expect?",
+        answer:
+          "The cultural show includes traditional Malaysian music and dance, such as the energetic Joget dance, graceful Zapin dance, and mesmerizing Silat martial arts performance. The show lasts about 45 minutes and provides insights into Malaysia's diverse cultural heritage through lively performances.",
+      },
+    ],
+  },
 ];
 
 export default kualaLumpurTours;

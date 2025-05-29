@@ -64,6 +64,43 @@ export const lisbonTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Lisbon Street Art & Culinary Tour",
+    description:
+      "Explore Lisbon's vibrant street art scene with a guided walking tour through the city's best murals, followed by a culinary experience sampling local delicacies at hidden food spots.",
+    images: [
+      "/images/tours/lisbon/street-art.jpg",
+      "/images/tours/lisbon/food-market.jpg",
+    ],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Art", "Food", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Joana Pereira",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive art experiences and delicious food tastings.",
+      },
+      {
+        question: "What should I wear for the walk?",
+        answer:
+          "Wear comfortable walking shoes and dress for the weather. We recommend bringing a water bottle and sunscreen.",
+      },
+      {
+        question: "Do we visit any indoor galleries?",
+        answer:
+          "Yes, we will visit a few indoor galleries showcasing local artists' work, along with outdoor murals throughout the city.",
+      },
+    ],
+  },
 ];
 
 export default lisbonTours;

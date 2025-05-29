@@ -69,6 +69,43 @@ export const maltaTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Valletta: History & Culture Walking Tour",
+    description:
+      "Experience the rich history of Malta's capital with a guided walking tour through Valletta's narrow streets, visiting St. John's Co-Cathedral, the Grand Master's Palace, and local artisan shops.",
+    images: [
+      "/images/tours/malta/valletta-st-johns.jpg",
+      "/images/tours/malta/grand-masters-palace.jpg",
+    ],
+    duration: "4 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["Walking Tour", "Culture", "UNESCO"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Maria Grech",
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "What will we see in Valletta?",
+        answer:
+          "The tour includes visits to St. John's Co-Cathedral, the Upper Barracca Gardens, the Grand Master's Palace, and hidden gems like local artisan shops and traditional cafes.",
+      },
+      {
+        question: "Is this tour suitable for those with mobility issues?",
+        answer:
+          "Valletta's streets are cobbled and can be steep in places. We recommend comfortable walking shoes, but the tour can be adjusted for those with limited mobility by focusing on accessible areas.",
+      },
+      {
+        question: "Do we need to book tickets in advance?",
+        answer:
+          "Yes, we include skip-the-line tickets for St. John's Co-Cathedral in the tour price to ensure you spend more time exploring and less time waiting.",
+      },
+    ],
+  },
 ];
 
 export default maltaTours;

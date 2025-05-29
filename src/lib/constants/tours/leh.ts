@@ -221,6 +221,38 @@ export const lehTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Ladakh's Ancient Silk Road & Caravan Trails",
+    description:
+      "Trace the historic Silk Road routes through Ladakh, visiting ancient caravanserais, trading posts, and remote villages that once thrived on this legendary trade network connecting India, Tibet, and Central Asia.",
+    images: [
+      "/images/tours/leh/silk-road.jpg",
+      "/images/tours/leh/caravanserai.jpg",
+    ],
+    duration: "6 hours",
+    price: "$110",
+    rating: 4.8,
+    tags: ["Silk Road", "History", "Cultural"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourGuide: "Tashi Dolma (Silk Road Historian)",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "What historical sites will we see?",
+        answer:
+          "The tour includes visits to ancient caravanserais (rest stops for traders), ruined forts, and remote villages that were once bustling trade hubs. We explore the remains of the Leh-Lhasa trade route, including the famous Chang La Pass and Nubra Valley's caravan trails. Our guide shares fascinating stories about the caravans that crossed these harsh terrains carrying silk, spices, and precious goods for centuries.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly with engaging storytelling and interactive elements to keep children interested in the rich history of Ladakh's Silk Road heritage. The pace is relaxed with plenty of opportunities for exploration and learning.",
+      },
+    ],
+  },
 ];
 
 export default lehTours;

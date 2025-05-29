@@ -64,6 +64,48 @@ export const kyotoTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Kyoto Culinary Walk: Markets & Street Food",
+    description:
+      "Discover Kyoto's vibrant food scene with a guided walk through Nishiki Market, sampling local delicacies, followed by an evening street food tour in the Pontocho alley, known for its izakayas and yakitori stalls.",
+    images: [
+      "/images/tours/kyoto/nishiki-market.jpg",
+      "/images/tours/kyoto/pontocho-street-food.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Culinary", "Street Food", "Markets"],
+    isFamilyFriendly: true,
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Hiroshi Yamamoto",
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What types of food will we try?",
+        answer:
+          "You'll sample a variety of Kyoto specialties including yudofu (tofu hot pot), tsukemono (pickled vegetables), matcha sweets, and local street foods like yakitori and okonomiyaki. Vegetarian options are available upon request.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly. We can provide child-friendly food options and activities to keep younger participants engaged.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes, we recommend booking at least 24 hours in advance to secure your spot and allow us to prepare for any dietary restrictions.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Dress comfortably for walking! Kyoto's streets are mostly flat but can be crowded, so comfortable shoes are recommended. The weather can vary, so check the forecast before your tour.",
+      },
+    ],
+  },
 ];
 
 export default kyotoTours;

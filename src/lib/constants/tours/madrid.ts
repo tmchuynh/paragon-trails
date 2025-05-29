@@ -69,6 +69,43 @@ export const madridTours: Tour[] = [
       },
     ],
   },
+  {
+    title: "Madrid Historical Walk: Royal Palace & Almudena Cathedral",
+    description:
+      "Explore Madrid's rich history with a guided walk through the Royal Palace, Almudena Cathedral, and the historic Plaza Mayor, learning about the city's evolution from medieval times to the present.",
+    images: [
+      "/images/tours/madrid/royal-palace.jpg",
+      "/images/tours/madrid/almudena-cathedral.jpg",
+    ],
+    duration: "4 hours",
+    price: "$80",
+    rating: 4.7,
+    tags: ["History", "Architecture", "Walking Tour"],
+    isFamilyFriendly: true,
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourGuide: "Sofia Ruiz",
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Are there any entry fees included?",
+        answer:
+          "Yes, the tour includes entry fees to both the Royal Palace and Almudena Cathedral. We also provide audio guides for a more immersive experience inside these sites.",
+      },
+      {
+        question: "Is this tour wheelchair accessible?",
+        answer:
+          "The Royal Palace is mostly wheelchair accessible, but some areas may have limited access due to historical architecture. We recommend contacting us in advance to discuss specific needs so we can accommodate you appropriately.",
+      },
+      {
+        question: "What should I wear for the tour?",
+        answer:
+          "Comfortable walking shoes are essential as we will cover a fair distance on foot. The dress code for the Royal Palace is smart casual, and visitors are expected to dress respectfully when entering religious sites like Almudena Cathedral.",
+      },
+    ],
+  },
 ];
 
 export default madridTours;
