@@ -30,7 +30,7 @@ export const tourCategorys: TourCategory[] = [
     tags: ["history", "archaeology", "landmarks"],
   },
   {
-    id: "local-experience",
+    id: "local",
     title: "Local Experience Tours",
     description:
       "Immerse yourself in the local way of life with tours that connect you to communities. Participate in workshops, home stays, and cultural exchanges to gain a deeper understanding of the region. Learn to cook traditional dishes, craft local handicrafts, or speak the local language with native speakers. Our local experience tours are designed to foster genuine connections and provide an in-depth understanding of the cultural and social dynamics of each destination. Engage with locals, share stories, and create memories that offer a true sense of place.",
@@ -77,5 +77,12 @@ export const tourCategorys: TourCategory[] = [
     description:
       "Discover hidden gems and lesser-known destinations with tours that take you beyond the typical tourist spots. Explore remote villages, untouched nature reserves, and unique cultural experiences. Our off-the-beaten-path tours are designed for adventurous travelers who seek authentic experiences away from the crowds. Venture into remote landscapes, interact with local communities, and uncover the secrets of lesser-known regions that offer a different perspective on culture and nature. These tours provide an opportunity to connect with destinations in a more meaningful way, creating unforgettable memories that go beyond conventional travel.",
     tags: ["hidden gems", "adventure", "authentic"],
+  },
+  {
+    id: "spiritual",
+    title: "Spiritual Tours",
+    description:
+      "Embark on a journey of self-discovery and spiritual growth with tours that focus on meditation, yoga, and spiritual practices. Visit sacred sites, attend retreats, and learn from spiritual leaders. Our spiritual tours offer a transformative experience that nurtures the mind, body, and soul. Engage in daily meditation sessions, participate in yoga classes led by experienced instructors, and explore ancient temples and sacred landscapes that inspire reflection and inner peace. Whether you're seeking personal growth, healing, or simply a deeper connection to spirituality, these tours provide a supportive environment for exploration and enlightenment.",
+    tags: ["meditation", "yoga", "spirituality"],
   },
 ];

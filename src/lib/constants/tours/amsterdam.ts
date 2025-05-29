@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const amsterdamTours: Tour[] = [
   {
     title: "Hidden Canals & Secret Gardens",
@@ -17,7 +19,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Emma van der Berg",
+    tourGuide: findGuideBySpecialty("amsterdam", "history").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Jan de Vries",
+    tourGuide: findGuideBySpecialty("amsterdam", "art").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -86,7 +88,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Marieke Jansen",
+    tourGuide: findGuideBySpecialty("amsterdam", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -128,7 +130,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lars Bakker",
+    tourGuide: findGuideBySpecialty("amsterdam", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -200,7 +202,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sophie van Dijk",
+    tourGuide: findGuideBySpecialty("amsterdam", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -242,8 +244,8 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Peter Smit",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("amsterdam", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "How far is the countryside from Amsterdam?",
@@ -284,7 +286,7 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Thomas Visser",
+    tourGuide: findGuideBySpecialty("amsterdam", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -322,8 +324,8 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Lisa van Leeuwen",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("amsterdam", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "Is the zoo accessible for strollers and wheelchairs?",

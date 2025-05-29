@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const anchorageTours: Tour[] = [
   {
     title: "Wildlife & Glacier Flight Safari",
@@ -11,14 +13,14 @@ export const anchorageTours: Tour[] = [
     duration: "6 hours",
     price: "$495",
     rating: 5.0,
-    tags: ["Flightseeing", "Wildlife", "Glacier"],
+    tags: ["Flightseeing", "Glacier"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Jack Stevens",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What are our chances of seeing wildlife?",
@@ -59,7 +61,7 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Chef Alyeska Jones",
+    tourGuide: findGuideBySpecialty("anchorage", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -96,8 +98,8 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Maria Winters",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("anchorage", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What are the chances of seeing the Northern Lights?",
@@ -133,7 +135,7 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Professor Robert Thompson",
+    tourGuide: findGuideBySpecialty("anchorage", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -175,7 +177,7 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mitch Johnson",
+    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -212,8 +214,8 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Jack Stevens",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What wildlife might we see?",
@@ -249,7 +251,7 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Anna Kayotuk",
+    tourGuide: findGuideBySpecialty("anchorage", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -286,8 +288,8 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Mike Peterson",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Do we need to bring our own fishing equipment?",
@@ -323,7 +325,7 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Elizabeth Grant",
+    tourGuide: findGuideBySpecialty("anchorage", "wellness").name,
     tourCategoryId: "luxury",
     faqs: [
       {

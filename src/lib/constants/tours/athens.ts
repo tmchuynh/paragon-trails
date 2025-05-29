@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const athensTours: Tour[] = [
   {
     title: "Acropolis & Ancient Athens Private Experience",
@@ -17,7 +19,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Papadopoulos",
+    tourGuide: findGuideBySpecialty("athens", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Sophia Dimitriou",
+    tourGuide: findGuideBySpecialty("athens", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sofia Papadakis",
+    tourGuide: findGuideBySpecialty("athens", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -133,7 +135,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dimitri Alexopoulos",
+    tourGuide: findGuideBySpecialty("athens", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -175,8 +177,8 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dimitri Alexopoulos",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("athens", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What kind of camera do I need?",
@@ -217,7 +219,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Sophia Dimitriou",
+    tourGuide: findGuideBySpecialty("athens", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -259,7 +261,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Georgios Mavridis",
+    tourGuide: findGuideBySpecialty("athens", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -301,7 +303,7 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Maria Konstantinou",
+    tourGuide: findGuideBySpecialty("athens", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -343,8 +345,8 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Professor Georgios Mavridis",
-    tourCategoryId: "family",
+    tourGuide: findGuideBySpecialty("athens", "historical").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What age group is this tour best suited for?",
@@ -385,7 +387,7 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maria Konstantinou",
+    tourGuide: findGuideBySpecialty("athens", "adventure").name,
     tourCategoryId: "luxury",
     faqs: [
       {

@@ -37,7 +37,7 @@ export const generalFAQs = [
   {
     question: "How do I contact customer support during my trip?",
     answer:
-      "We offer around-the-clock support to our clients while they travel. For immediate assistance during your trip, you can contact our Transportation Concierge or Emergency Travel Assistance teams, both available 24/7. Our staff are trained to handle a broad range of issues, from itinerary adjustments to emergency response, ensuring your peace of mind.",
+      "We offer around-the-clock support to our clients while they travel. For immediate assistance during your trip, you can contact our Concierge Services or Emergency Travel Assistance teams, both available 24/7. Our staff are trained to handle a broad range of issues, from itinerary adjustments to emergency response, ensuring your peace of mind.",
   },
   {
     question: "Are pets allowed in your homestays and transportation services?",

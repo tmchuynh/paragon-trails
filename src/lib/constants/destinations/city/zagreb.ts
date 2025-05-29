@@ -14,7 +14,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "historical", "architecture", "cultural", "landmark"],
+    tags: ["spiritual", "historical", "cultural"],
     accessibilityFeatures: [
       "wheelchair accessible entrance",
       "accessible restrooms",
@@ -50,7 +50,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historic", "architecture", "landmark", "photography", "church"],
+    tags: ["historic", "historical", "art-and-music", "church"],
     isPopular: true,
 
     isFree: true,
@@ -82,7 +82,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["museum", "unique", "cultural", "art", "emotional"],
+    tags: ["local", "cultural", "art-and-music", "emotional"],
     accessibilityFeatures: ["elevator access", "accessible restrooms"],
     isPopular: true,
 
@@ -112,7 +112,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["market", "food", "local", "shopping", "cultural"],
+    tags: ["culinary", "local", "cultural"],
     isPopular: true,
 
     isFree: true,
@@ -143,7 +143,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["historic", "viewpoint", "landmark", "photography", "tradition"],
+    tags: ["historic", "art-and-music", "tradition"],
     isPopular: true,
 
     isFree: false,
@@ -174,7 +174,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cemetery", "architecture", "peaceful", "historical", "art"],
+    tags: ["historical", "art-and-music"],
     accessibilityFeatures: ["paved paths", "accessible main areas"],
     isPopular: false,
 
@@ -203,7 +203,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["dining", "cafes", "shopping", "nightlife", "social"],
+    tags: ["culinary", "nightlife", "local"],
     accessibilityFeatures: ["flat pedestrian area", "accessible restaurants"],
     isPopular: true,
 
@@ -235,7 +235,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["viewpoint", "photography", "city views", "bar", "sunset"],
+    tags: ["art-and-music", "nightlife"],
     accessibilityFeatures: ["elevator access", "accessible restrooms"],
     isPopular: true,
 
@@ -268,7 +268,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["art", "museum", "cultural", "folk art", "unique"],
+    tags: ["art-and-music", "cultural", "local"],
     accessibilityFeatures: ["elevator access"],
     isPopular: false,
 
@@ -300,7 +300,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["park", "nature", "recreation", "walking", "picnic"],
+    tags: ["park", "local", "wellness"],
     accessibilityFeatures: ["paved paths", "accessible restrooms"],
     isPopular: false,
 

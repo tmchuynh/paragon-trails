@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const amalfiCoastTours: Tour[] = [
   {
@@ -18,7 +19,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Marco Esposito",
+    tourGuide: findGuideBySpecialty("amalfi coast", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -60,7 +61,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sofia Russo",
+    tourGuide: findGuideBySpecialty("amalfi coast", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -97,7 +98,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Alessandro",
+    tourGuide: findGuideBySpecialty("amalfi coast", "adventure").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -139,7 +140,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Ferrante",
+    tourGuide: findGuideBySpecialty("amalfi coast", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -191,7 +192,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Antonio Coppola",
+    tourGuide: findGuideBySpecialty("amalfi coast", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -228,7 +229,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Lucia Romano",
+    tourGuide: findGuideBySpecialty("amalfi coast", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -260,8 +261,8 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Matteo Sorrento",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("amalfi coast", "local").name,
+    tourCategoryId: "romantic",
     faqs: [
       {
         question: "Is specialized camera equipment needed?",
@@ -297,7 +298,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Esposito",
+    tourGuide: findGuideBySpecialty("amalfi coast", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -339,7 +340,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Antonio Coppola",
+    tourGuide: findGuideBySpecialty("amalfi coast", "art").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -382,7 +383,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Sofia Russo",
+    tourGuide: findGuideBySpecialty("amalfi coast", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -424,7 +425,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Ferrante",
+    tourGuide: findGuideBySpecialty("amalfi coast", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -467,7 +468,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Gianni Russo",
+    tourGuide: findGuideBySpecialty("amalfi coast", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -509,7 +510,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sofia Russo",
+    tourGuide: findGuideBySpecialty("amalfi coast", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -551,7 +552,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Antonio Coppola",
+    tourGuide: findGuideBySpecialty("amalfi coast", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -593,7 +594,7 @@ export const amalfiCoastTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Alessandro",
+    tourGuide: findGuideBySpecialty("amalfi coast", "adventure").name,
     tourCategoryId: "luxury",
     faqs: [
       {

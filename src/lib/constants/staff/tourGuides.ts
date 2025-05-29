@@ -5213,6 +5213,62 @@ export const tourGuides: TourGuide[] = [
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
+    city: "Austin",
+    country: "USA",
+    name: "Chef Emma Durchdenwald",
+    languages: ["English", "Spanish", "German"],
+    experienceYears: 7,
+    specialties: ["Culinary Tours", "Cultural Heritage", "Outdoor Activities"],
+    bio: "Chef Emma, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities. She has a degree in Culinary Arts from the Culinary Institute of America and has worked as a tour guide for over seven years. Chef Emma combines her extensive knowledge of Austin's culinary culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local restaurants and outdoor adventures, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Emma, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities.",
+    quote:
+      "In Austin, every dish tells a story, and every outdoor adventure is a celebration of the city’s vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Austin",
+    country: "USA",
+    name: "Chef Jade Bierhals",
+    languages: ["English", "Spanish", "German"],
+    experienceYears: 5,
+    specialties: ["Culinary Tours", "Cultural Heritage", "Outdoor Activities"],
+    bio: "Chef Jade, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities. She has a degree in Culinary Arts from the Culinary Institute of America and has worked as a tour guide for over five years. Chef Jade combines her extensive knowledge of Austin's culinary culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local restaurants and outdoor adventures, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Jade, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities.",
+    quote:
+      "In Austin, every dish tells a story, and every outdoor adventure is a celebration of the city’s vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Austin",
+    country: "USA",
+    name: "Chef Emma Handschuh",
+    languages: ["English", "Spanish", "German"],
+    experienceYears: 9,
+    specialties: ["Culinary Tours", "Cultural Heritage", "Outdoor Activities"],
+    bio: "Chef Emma, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities. She has a degree in Culinary Arts from the Culinary Institute of America and has worked as a tour guide for over nine years. Chef Emma combines her extensive knowledge of Austin's culinary culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local restaurants and outdoor adventures, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Emma, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities.",
+    quote:
+      "In Austin, every dish tells a story, and every outdoor adventure is a celebration of the city’s vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Austin",
+    country: "USA",
+    name: "Chef Lisa Suttner",
+    languages: ["English", "Spanish", "German"],
+    experienceYears: 10,
+    specialties: ["Culinary Tours", "Cultural Heritage", "Outdoor Activities"],
+    bio: "Chef Lisa, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities. She has a degree in Culinary Arts from the Culinary Institute of America and has worked as a tour guide for over ten years. Chef Lisa combines her extensive knowledge of Austin's culinary culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local restaurants and outdoor adventures, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Lisa, a culinary enthusiast, offers tours that explore Austin’s diverse food scene, cultural heritage, and outdoor activities.",
+    quote:
+      "In Austin, every dish tells a story, and every outdoor adventure is a celebration of the city’s vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
     city: "Tuscany",
     country: "Italy",
     name: "Giovanni Bavga",
@@ -5856,6 +5912,58 @@ export const tourGuides: TourGuide[] = [
       "Lucia, a Buenos Aires native, offers tours that explore the city’s rich cultural heritage, vibrant tango scene, and historical landmarks.",
     quote:
       "In Buenos Aires, every tango step is a dance of passion, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Buenos Aires",
+    country: "Argentina",
+    name: "Mateo González",
+    languages: ["Spanish", "English", "Italian"],
+    experienceYears: 8,
+    specialties: [
+      "Art and Music",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Mateo, a Buenos Aires native, offers tours that explore the city’s rich art and music scene, cultural heritage, and historical landmarks. He has a degree in Cultural Studies from the University of Buenos Aires and has worked as a tour guide for over eight years. Mateo combines his extensive knowledge of Buenos Aires' culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to art galleries and music venues, providing guests with an immersive cultural journey.",
+    description:
+      "Mateo, a Buenos Aires native, offers tours that explore the city’s rich art and music scene, cultural heritage, and historical landmarks.",
+    quote:
+      "In Buenos Aires, every street is a melody, and every meal is a taste of the city’s vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Buenos Aires",
+    country: "Argentina",
+    name: "Valeria Marino",
+    languages: ["Spanish", "English", "Italian"],
+    experienceYears: 10,
+    specialties: [
+      "Nightlife",
+      "Cultural Heritage",
+      "City Tours",
+      "Historical Landmarks",
+    ],
+    bio: "Valeria, a Buenos Aires native, offers tours that explore the city’s vibrant nightlife, rich cultural heritage, and historical landmarks. She has a degree in Cultural Studies from the University of Buenos Aires and has worked as a tour guide for over ten years. Valeria combines her extensive knowledge of Buenos Aires' culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nightlife venues and cultural sites, providing guests with an immersive cultural journey.",
+    description:
+      "Valeria, a Buenos Aires native, offers tours that explore the city’s vibrant nightlife, rich cultural heritage, and historical landmarks.",
+    quote:
+      "In Buenos Aires, every night is a celebration of life, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Buenos Aires",
+    country: "Argentina",
+    name: "Santiago López",
+    languages: ["Spanish", "English", "Italian"],
+    experienceYears: 9,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Santiago, a Buenos Aires native, offers tours that explore the city’s rich culinary traditions, cultural heritage, and historical landmarks. He has a degree in Culinary Arts from the Argentine Institute of Gastronomy and has worked as a tour guide for over nine years. Santiago combines his extensive knowledge of Buenos Aires' cuisine with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Santiago, a Buenos Aires native, offers tours that explore the city’s rich culinary traditions, cultural heritage, and historical landmarks.",
+    quote:
+      "In Buenos Aires, every dish is a celebration of flavor, and every street is a journey through the city’s rich history.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

@@ -11,7 +11,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["heritage", "history", "architecture", "cultural", "unesco"],
+    tags: ["historical", "historical", "historical", "cultural", "unesco"],
     isPopular: true,
 
     isFree: true,
@@ -42,7 +42,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["island", "wildlife", "history", "snorkeling", "beach"],
+    tags: ["adventure", "historical", "snorkeling"],
     isPopular: true,
 
     isFree: false,
@@ -70,7 +70,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["beach", "sunset", "swimming", "water sports", "relaxation"],
+    tags: ["adventure", "relaxation"],
     isPopular: true,
 
     isFree: true,
@@ -101,7 +101,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "wildlife", "hiking", "monkeys", "conservation"],
+    tags: ["monkeys", "adventure"],
     accessibilityFeatures: ["some accessible boardwalks"],
     isPopular: true,
 
@@ -131,7 +131,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["dining", "seafood", "unique", "photography", "views"],
+    tags: ["culinary", "local", "art-and-music"],
     isPopular: true,
 
     isFree: false,
@@ -162,7 +162,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["food", "agriculture", "cultural", "educational", "sensory"],
+    tags: ["culinary", "agriculture", "cultural", "sensory"],
     isPopular: true,
 
     isFree: false,
@@ -190,7 +190,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["snorkeling", "diving", "marine life", "coral reef", "conservation"],
+    tags: ["adventure", "adventure"],
     isPopular: true,
 
     isFree: false,
@@ -219,7 +219,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "evening",
     rating: 4.6,
-    tags: ["food", "market", "street food", "local cuisine", "dining"],
+    tags: ["culinary", "Culinary", "Local", "culinary"],
     accessibilityFeatures: ["accessible open-air venue"],
     isPopular: true,
 
@@ -251,7 +251,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["museum", "history", "cultural", "architecture", "educational"],
+    tags: ["historical", "cultural", "historical"],
     isPopular: true,
 
     isFree: false,
@@ -279,7 +279,7 @@ export const zanzibarZanzibarTanzania: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["kitesurfing", "beach", "water sports", "relaxation", "adventure"],
+    tags: ["kitesurfing", "adventure"],
     isPopular: true,
 
     isFree: true,
