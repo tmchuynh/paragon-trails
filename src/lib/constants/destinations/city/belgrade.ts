@@ -14,7 +14,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "fortress", "park", "viewpoint", "architecture"],
+    tags: ["historical", "fortress", "park"],
     accessibilityFeatures: ["some accessible paths", "accessible viewpoints"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["dining", "culture", "bohemian", "nightlife", "historic"],
+    tags: ["culinary", "bohemian", "nightlife", "historic"],
     isPopular: true,
 
     isFree: true,
@@ -74,7 +74,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["religious", "architecture", "cultural", "landmark", "orthodox"],
+    tags: ["spiritual", "historical", "cultural"],
     accessibilityFeatures: ["wheelchair ramp", "accessible entrance"],
     isPopular: true,
 
@@ -106,7 +106,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["museum", "science", "historical", "educational", "interactive"],
+    tags: ["science", "historical"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
 
@@ -136,7 +136,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["beach", "recreation", "sports", "nature", "relaxation"],
+    tags: ["local", "relaxation"],
     isPopular: true,
 
     isFree: true,
@@ -164,13 +164,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: [
-      "shopping",
-      "pedestrian zone",
-      "architecture",
-      "cafes",
-      "street performers",
-    ],
+    tags: ["pedestrian zone", "historical", "street performers"],
     accessibilityFeatures: ["flat pedestrian area", "accessible shops"],
     isPopular: true,
 
@@ -202,7 +196,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["museum", "history", "cultural", "political", "mausoleum"],
+    tags: ["historical", "cultural", "political", "mausoleum"],
     accessibilityFeatures: ["wheelchair accessible", "accessible restrooms"],
     isPopular: true,
 
@@ -231,7 +225,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["riverside", "dining", "romantic", "walking", "views"],
+    tags: ["riverside", "culinary", "romantic", "wellness"],
     accessibilityFeatures: ["accessible path", "flat terrain"],
     isPopular: true,
 
@@ -263,13 +257,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: [
-      "viewpoint",
-      "architecture",
-      "mountain",
-      "observation deck",
-      "landmark",
-    ],
+    tags: ["historical"],
     isPopular: true,
 
     isFree: false,
@@ -297,7 +285,7 @@ export const belgradeBelgradeSerbia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.4,
-    tags: ["nightlife", "art", "culture", "alternative", "urban"],
+    tags: ["nightlife", "art-and-music", "alternative", "urban"],
     isPopular: true,
 
     isFree: true,

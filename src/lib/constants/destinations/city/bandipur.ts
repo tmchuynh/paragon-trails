@@ -14,7 +14,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["cultural", "historical", "scenic"],
+    tags: ["cultural", "historical", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -36,7 +36,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["religious", "cultural", "viewpoint"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.3,
-    tags: ["outdoor", "recreation", "cultural"],
+    tags: ["adventure", "local", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "heritage", "exclusive"],
+    tags: ["luxury", "historical", "local"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -99,7 +99,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "cultural", "scenic"],
+    tags: ["spiritual", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -120,7 +120,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["cultural", "shopping", "local"],
+    tags: ["cultural", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -141,7 +141,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["nature", "adventure", "caving"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -162,7 +162,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["religious", "cultural", "historical"],
+    tags: ["spiritual", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -183,7 +183,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["religious", "cultural", "festivals"],
+    tags: ["spiritual", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -204,7 +204,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "outdoor", "recreation"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -225,7 +225,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -246,7 +246,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["religious", "cultural", "scenic"],
+    tags: ["spiritual", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -267,7 +267,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "scenic", "local"],
+    tags: ["cultural", "romantic", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -288,7 +288,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["nature", "adventure", "caving"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -309,7 +309,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["religious", "cultural", "scenic"],
+    tags: ["spiritual", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -330,7 +330,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["nature", "adventure", "hiking"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -352,7 +352,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "food", "local"],
+    tags: ["cultural", "culinary", "local"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -373,7 +373,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["scenic", "photography", "outdoor"],
+    tags: ["romantic", "art-and-music", "adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -394,7 +394,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["cultural", "historical", "museum"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -415,7 +415,7 @@ export const bandipurGandakiProvinceNepal: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "evening",
     rating: 4.5,
-    tags: ["cultural", "shopping", "food"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

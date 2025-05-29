@@ -13,7 +13,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "cultural", "historical"],
+    tags: ["spiritual", "cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -54,7 +54,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["shopping", "food", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "wellness", "spa"],
+    tags: ["luxury", "wellness"],
     accessibilityFeatures: ["wheelchair accessible", "private boat transfer"],
     isPopular: true,
 
@@ -96,7 +96,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["cultural", "art", "exhibition"],
+    tags: ["cultural", "art-and-music", "exhibition"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -116,7 +116,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "evening",
     rating: 4.4,
-    tags: ["shopping", "dining", "nightlife"],
+    tags: ["culinary", "nightlife"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -136,7 +136,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -156,7 +156,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["nature", "recreation", "outdoor"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -176,7 +176,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceRange: "$$$",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["shopping", "luxury", "dining"],
+    tags: ["luxury", "culinary"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -196,7 +196,7 @@ export const bangkokCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["religious", "cultural", "spiritual"],
+    tags: ["spiritual", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

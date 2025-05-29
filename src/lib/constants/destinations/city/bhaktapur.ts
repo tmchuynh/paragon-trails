@@ -13,7 +13,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["religious", "historical", "cultural"],
+    tags: ["spiritual", "historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -76,7 +76,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "cultural"],
+    tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 

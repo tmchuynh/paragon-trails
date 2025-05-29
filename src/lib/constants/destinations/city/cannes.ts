@@ -13,7 +13,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["scenic", "shopping", "dining"],
+    tags: ["romantic", "culinary"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "cultural", "viewpoint"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -55,7 +55,7 @@ export const cannesFrenchRivieraFrance: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "film", "iconic"],
+    tags: ["cultural", "film", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

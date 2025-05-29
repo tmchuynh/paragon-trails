@@ -13,7 +13,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["nature", "wildlife", "cultural"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["cultural", "religious", "scenic"],
+    tags: ["cultural", "spiritual", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["beach", "outdoor", "recreation"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "scenic", "cultural"],
+    tags: ["romantic", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["outdoor", "adventure", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -120,7 +120,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "religious", "scenic"],
+    tags: ["cultural", "spiritual", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -141,7 +141,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["wildlife", "family-friendly", "cultural"],
+    tags: ["local", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -162,7 +162,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["beach", "outdoor", "recreation"],
+    tags: ["adventure", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -183,7 +183,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["wildlife", "family-friendly", "educational"],
+    tags: ["local"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -225,7 +225,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["adventure", "outdoor", "scenic"],
+    tags: ["adventure", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -246,7 +246,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "historical", "educational"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -267,7 +267,7 @@ export const baliIndonesiaIndonesia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["adventure", "outdoor", "family-friendly"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

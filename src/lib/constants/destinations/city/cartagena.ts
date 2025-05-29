@@ -11,7 +11,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["historical", "architecture", "unesco", "colonial", "cultural"],
+    tags: ["historical", "historical", "unesco", "colonial", "cultural"],
     accessibilityFeatures: ["some accessible areas", "flat streets in parts"],
     isPopular: true,
 
@@ -43,7 +43,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["fortress", "history", "military", "architecture", "viewpoint"],
+    tags: ["fortress", "historical", "military"],
     isPopular: true,
 
     isFree: false,
@@ -71,7 +71,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["local", "street art", "nightlife", "culture", "authentic"],
+    tags: ["local", "street art", "nightlife"],
     isPopular: true,
 
     isFree: true,
@@ -102,7 +102,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["islands", "beaches", "snorkeling", "nature", "boat trip"],
+    tags: ["islands", "adventure", "boat trip"],
     isPopular: true,
 
     isFree: false,
@@ -133,7 +133,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["museum", "history", "colonial", "architecture", "educational"],
+    tags: ["historical", "colonial", "historical"],
     accessibilityFeatures: ["ground floor accessible"],
     isPopular: true,
 
@@ -165,7 +165,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["natural spa", "unique", "adventure", "mud bath", "wellness"],
+    tags: ["natural spa", "local", "adventure", "mud bath", "wellness"],
     isPopular: true,
 
     isFree: false,
@@ -196,7 +196,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["nature", "ecotourism", "boating", "wildlife", "community tourism"],
+    tags: ["adventure", "local"],
     isPopular: false,
 
     isFree: false,
@@ -224,7 +224,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["dining", "art", "culture", "nightlife", "people watching"],
+    tags: ["culinary", "art-and-music", "nightlife", "people watching"],
     accessibilityFeatures: ["accessible plaza"],
     isPopular: true,
 
@@ -254,7 +254,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["shopping", "crafts", "souvenirs", "historical", "architecture"],
+    tags: ["crafts", "souvenirs", "historical"],
     accessibilityFeatures: ["ground level shops"],
     isPopular: true,
 
@@ -283,7 +283,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "all day",
     rating: 4.4,
-    tags: ["beach", "swimming", "relaxation", "island", "day trip"],
+    tags: ["adventure", "day trip"],
     isPopular: true,
 
     isFree: false,

@@ -13,7 +13,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["scenic", "hiking", "nature"],
+    tags: ["romantic", "nature"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -32,7 +32,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["shopping", "dining", "entertainment"],
+    tags: ["culinary", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -53,7 +53,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "wildlife", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -74,7 +74,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "museum"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -96,7 +96,7 @@ export const capeTownWesternCapeSouthAfrica: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["wine", "culinary", "scenic"],
+    tags: ["wine", "culinary", "romantic"],
     accessibilityFeatures: ["wheelchair accessible vehicles available"],
     isPopular: true,
 

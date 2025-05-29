@@ -13,7 +13,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["religious", "cultural", "architectural"],
+    tags: ["spiritual", "cultural", "architectural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.5,
-    tags: ["cultural", "historical", "shopping"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const casablancaCasablancaSettatMorocco: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["wellness", "cultural", "spa"],
+    tags: ["wellness", "cultural"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

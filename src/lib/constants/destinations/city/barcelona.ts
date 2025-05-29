@@ -13,7 +13,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["architecture", "cultural", "religious"],
+    tags: ["historical", "cultural", "spiritual"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["outdoor", "art", "scenic"],
+    tags: ["adventure", "art-and-music", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -54,7 +54,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["historical", "cultural", "walking"],
+    tags: ["historical", "cultural", "wellness"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["architecture", "cultural", "art"],
+    tags: ["historical", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -97,7 +97,7 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "gourmet", "luxury"],
+    tags: ["culinary", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

@@ -13,7 +13,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "UNESCO"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -34,7 +34,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -75,7 +75,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["luxury", "exclusive", "aerial tour"],
+    tags: ["luxury", "local", "aerial tour"],
     accessibilityFeatures: ["assistance available"],
     isPopular: false,
 
@@ -96,7 +96,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "shopping", "food"],
+    tags: ["cultural", "culinary"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -116,7 +116,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "palace"],
+    tags: ["historical", "cultural", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -136,7 +136,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -156,7 +156,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["religious", "cultural", "temple"],
+    tags: ["spiritual", "cultural", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -176,7 +176,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -216,7 +216,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.3,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -236,7 +236,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.4,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -256,7 +256,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.2,
-    tags: ["historical", "religious", "temple"],
+    tags: ["historical", "spiritual", "temple"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
