@@ -36,7 +36,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["museum", "historical", "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "architecture"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["nature", "outdoor", "adventure"],
+    tags: ["adventure"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "cultural", "historical"],
+    tags: ["art-and-music", "cultural", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -121,7 +121,7 @@ export const naplesCampaniaItaly: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["food", "cultural", "iconic"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 

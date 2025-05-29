@@ -14,7 +14,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["art", "sculpture", "outdoor"],
+    tags: ["art-and-music", "sculpture", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["architecture", "culture", "performance"],
+    tags: ["historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["art", "museum", "cultural"],
+    tags: ["art-and-music", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["cultural", "performing arts", "architecture"],
+    tags: ["cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "audio assistance"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const osloEasternNorwayNorway: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["dining", "shopping", "architecture"],
+    tags: ["culinary"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

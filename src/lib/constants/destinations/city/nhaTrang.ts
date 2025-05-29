@@ -14,7 +14,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["entertainment", "family", "amusement park"],
+    tags: ["amusement park"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "religious", "historical"],
+    tags: ["cultural", "spiritual", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["beach", "outdoor", "recreation"],
+    tags: ["adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "resort", "wellness"],
+    tags: ["luxury",  "wellness"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const nhaTrangSouthCentralCoastVietnam: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["adventure", "water sports", "nature"],
+    tags: ["adventure", "nature"],
     accessibilityFeatures: ["assistance available"],
     isPopular: true,
 

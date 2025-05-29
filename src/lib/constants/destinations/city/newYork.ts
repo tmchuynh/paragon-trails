@@ -14,7 +14,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.8,
-    tags: ["historical", "cultural", "iconic"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -36,7 +36,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["nature", "recreation", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["entertainment", "cultural", "iconic"],
+    tags: ["cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -79,7 +79,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["cultural", "historical", "art"],
+    tags: ["cultural", "historical", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -100,7 +100,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "scenic", "iconic"],
+    tags: ["historical", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -121,7 +121,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["cultural", "historical", "views"],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -142,7 +142,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["viewpoint", "modern", "photography"],
+    tags: ["art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "elevator access"],
     isPopular: true,
 
@@ -163,7 +163,7 @@ export const newYorkNyUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "luxury", "gourmet"],
+    tags: ["culinary", "luxury", "gourmet"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

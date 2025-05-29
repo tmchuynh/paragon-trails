@@ -14,7 +14,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["entertainment", "food", "nightlife"],
+    tags: ["culinary", "nightlife"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -57,7 +57,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "daytime",
     rating: 4.6,
-    tags: ["entertainment", "family", "theme park"],
+    tags: ["local", "adventure"],
     accessibilityFeatures: [
       "wheelchair accessible",
       "assistive devices available",
@@ -81,7 +81,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["cultural", "religious", "historical"],
+    tags: ["cultural", "spiritual", "historical"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -102,7 +102,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["food", "market", "cultural"],
+    tags: ["culinary", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -125,7 +125,7 @@ export const osakaKansaiJapan: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "evening",
     rating: 4.9,
-    tags: ["dining", "luxury", "traditional"],
+    tags: ["culinary", "luxury", "traditional"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

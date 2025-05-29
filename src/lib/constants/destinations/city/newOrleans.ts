@@ -14,7 +14,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", "entertainment"],
+    tags: ["cultural", "historical", ],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: ["historical", "cultural", "outdoor"],
+    tags: ["historical", "cultural", "adventure"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["cultural", "historical", "scenic"],
+    tags: ["cultural", "historical", "romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -77,7 +77,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.6,
-    tags: ["entertainment", "nightlife", "cultural"],
+    tags: ["cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical", "educational", "cultural"],
+    tags: ["historical",  "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: ["music", "cultural", "entertainment"],
+    tags: [ "cultural", ],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -142,7 +142,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["dining", "luxury", "cultural"],
+    tags: ["culinary", "luxury", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 

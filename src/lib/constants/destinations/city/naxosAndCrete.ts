@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
+export const naxosAndCreteAegeanIslandsGreece: Attraction[] = [
   {
     title: "Naxos Castle",
     description:
@@ -14,7 +14,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.5,
-    tags: ["historical", "cultural", "views"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -35,7 +35,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "scenic", "sunset"],
+    tags: ["historical", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -56,7 +56,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "free",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["historical", "cultural", "scenic"],
+    tags: ["historical", "cultural", "romantic"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -78,7 +78,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.7,
-    tags: ["nature", "hiking", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -99,7 +99,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "budget",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["beach", "nature", "scenic"],
+    tags: ["romantic"],
     accessibilityFeatures: ["not wheelchair accessible"],
     isPopular: true,
 
@@ -120,7 +120,7 @@ export const naxosAndCreteCycladesAndCreteGreece: Attraction[] = [
     entryFeeCategory: "expensive",
     timeOfDay: "all day",
     rating: 4.9,
-    tags: ["luxury", "resort", "exclusive"],
+    tags: ["luxury",  "local"],
     accessibilityFeatures: ["wheelchair accessible", "elevators"],
     isPopular: true,
 
