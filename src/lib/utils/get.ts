@@ -111,37 +111,65 @@ export function findOriginalCityName(slug: string): string | null {
   return null;
 }
 
+/**
+ * Finds a tour guide by city and specialty.
+ * 
+ * @param city - The city where the tour guide operates
+ * @param specialty - The specific expertise or specialty area to search for
+ * @returns A matching TourGuide object that operates in the specified city and has the requested specialty
+ * 
+ * @remarks
+ * The function follows a fallback strategy:
+ * 1. First tries to find a guide matching both city and specialty
+ * 2. If not found, tries to find any guide from the specified city
+ * 3. If no city match, returns a default guide object
+ * 
+ * City name matching is case-insensitive for better usability.
+ */
 export function findGuideBySpecialty(
   city: string,
   specialty: string
 ): TourGuide {
-  tourGuides.find((guide) => {
-    const cityFormatted =
-      removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
-      formatTitleToCamelCase(city.slice(1)).replace("'", "");
-    if (
-      guide.specialties.includes(specialty) &&
-      guide.city.toLowerCase() === cityFormatted
-    ) {
-      return guide;
-    }
-  });
-  // Default values for a guide not found
+  // Format the city name to lowercase for consistent comparison
+  const cityLower = city.toLowerCase();
+
+  // Find a guide that matches the city and specialty
+  const guide = tourGuides.find(
+    (guide) =>
+      guide.city.toLowerCase() === cityLower &&
+      guide.specialties.includes(specialty)
+  );
+
+  // If a matching guide is found, return it
+  if (guide) {
+    return guide;
+  }
+
+  // Try to find any guide from this city as a fallback
+  const cityGuide = tourGuides.find(
+    (guide) => guide.city.toLowerCase() === cityLower
+  );
+
+  if (cityGuide) {
+    return cityGuide;
+  }
+
+  // Return default guide if no matches found
   return {
     id: "",
-    name: "To Be Determined",
+    name: "Local Expert Guide",
     city: "",
     country: "",
     state: "",
     region: "",
     isPopular: false,
-    bio: "",
+    bio: "A knowledgeable local expert in this destination",
     description: "",
     quote: "",
-    profileImage: "",
+    profileImage: "/images/staff/guides/default-guide.jpg",
     specialties: [],
-    languages: [],
+    languages: ["English"],
     certifications: [],
-    experienceYears: 0,
+    experienceYears: 5,
   };
 }
