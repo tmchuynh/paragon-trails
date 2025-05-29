@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const bangkokTours: Tour[] = [
   {
     title: "Hidden Canals & Local Life Experience",
@@ -17,7 +19,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Maya Suwanna",
+    tourGuide: findGuideBySpecialty("bangkok", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -54,7 +56,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Somchai Prasert",
+    tourGuide: findGuideBySpecialty("bangkok", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -91,7 +93,7 @@ export const bangkokTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Somchai Prasert",
+    tourGuide: findGuideBySpecialty("bangkok", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -128,8 +130,8 @@ export const bangkokTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Maya Suwanna",
-    tourCategoryId: "local-experience",
+    tourGuide: findGuideBySpecialty("bangkok", "local").name,
+    tourCategoryId: "local",
     faqs: [
       {
         question: "What types of crafts will we see?",

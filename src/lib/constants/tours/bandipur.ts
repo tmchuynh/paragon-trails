@@ -1,4 +1,5 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const bandipurTours: Tour[] = [
   {
@@ -18,8 +19,8 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Rajesh Kumar",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "What are the chances of seeing tigers?",
@@ -75,7 +76,7 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Muthu Soliga",
+    tourGuide: findGuideBySpecialty("bandipur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -121,14 +122,14 @@ export const bandipurTours: Tour[] = [
     duration: "2 days",
     price: "$295",
     rating: 4.9,
-    tags: ["Photography", "Wildlife", "Workshop"],
+    tags: ["Photography", "Workshop"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Arun Menon, National Geographic Photographer",
-    tourCategoryId: "photography",
+    tourGuide: findGuideBySpecialty("bandipur", "art").name,
+    tourCategoryId: "art-and-music",
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -169,8 +170,8 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Ananya Sharma",
-    tourCategoryId: "wildlife",
+    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "When is the best time for bird watching in Bandipur?",
@@ -221,7 +222,7 @@ export const bandipurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Vikram Singh",
+    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

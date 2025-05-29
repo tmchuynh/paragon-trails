@@ -1,4 +1,6 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+import { findGuideBySpecialty } from "@/lib/utils/get";
+
 export const veniceTours: Tour[] = [
   {
     title: "Secret Venice & Exclusive Basilica Access",
@@ -12,12 +14,12 @@ export const veniceTours: Tour[] = [
     price: "$175",
     rating: 5.0,
     tags: ["After Hours", "Hidden Venice", "Exclusive"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Lucia Moretti",
+    tourGuide: findGuideBySpecialty("venice", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -39,12 +41,12 @@ export const veniceTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Crafts", "Murano", "Hands-on"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Marco Rossi",
+    tourGuide: findGuideBySpecialty("venice", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,12 +68,12 @@ export const veniceTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Culinary", "Cooking Class", "Market Tour"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Isabella Rossi",
+    tourGuide: findGuideBySpecialty("venice", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -103,12 +105,12 @@ export const veniceTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Art", "Local Artists", "Hidden Gems"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Elena Bianchi",
+    tourGuide: findGuideBySpecialty("venice", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

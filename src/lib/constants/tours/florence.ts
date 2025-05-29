@@ -56,6 +56,7 @@ export const florenceTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    tourGuide: findGuideBySpecialty("florence", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
