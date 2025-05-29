@@ -137,7 +137,9 @@ export function findGuideBySpecialty(
   const guide = tourGuides.find(
     (guide) =>
       guide.city.toLowerCase() === cityLower &&
-      guide.specialties.includes(specialty)
+      guide.specialties.some((guideSpecialty) =>
+        guideSpecialty.toLowerCase().includes(specialty.toLowerCase())
+      )
   );
 
   // If a matching guide is found, return it
