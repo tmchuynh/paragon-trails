@@ -2,6 +2,7 @@
 
 import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -11,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { cityattractions } from "@/lib/constants/destinations/city";
+import { cityattractions } from "@/lib/constants/info/city";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -162,29 +163,31 @@ export default function LuxuriousDestinations() {
           <div
             key={index}
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
-            onClick={() => {
-              // Use query parameters instead of path parameters
-              const queryParams = new URLSearchParams({
-                city: item.city,
-                country: item.country,
-              });
-
-              if (item.region) {
-                queryParams.append("region", item.region as string);
-              }
-
-              if (item.state && item.state !== item.region) {
-                queryParams.append("state", item.state);
-              }
-
-              router.push(
-                `/luxurious-destinations/${
-                  item.city
-                }/details?${queryParams.toString()}`
-              );
-            }}
           >
-            <h2 className="w-2/3 font-semibold text-2xl underline-offset-2 group-hover:underline">
+            <h2
+              className="w-2/3 font-semibold text-2xl underline-offset-2 hover:underline"
+              onClick={() => {
+                // Use query parameters instead of path parameters
+                const queryParams = new URLSearchParams({
+                  city: item.city,
+                  country: item.country,
+                });
+
+                if (item.region) {
+                  queryParams.append("region", item.region as string);
+                }
+
+                if (item.state && item.state !== item.region) {
+                  queryParams.append("state", item.state);
+                }
+
+                router.push(
+                  `/luxurious-destinations/${
+                    item.city
+                  }/details?${queryParams.toString()}`
+                );
+              }}
+            >
               {item.city}
             </h2>
 
@@ -215,6 +218,18 @@ export default function LuxuriousDestinations() {
                 return locationParts.join(", ");
               })()}
             </p>
+
+            <Button
+              size={"sm"}
+              className="mt-7"
+              onClick={() =>
+                router.push(
+                  `/luxurious-destinations/${item.country}/${item.city}/tours?city=${item.city}&country=${item.country}`
+                )
+              }
+            >
+              View Tours
+            </Button>
           </div>
         ))}
       </div>
