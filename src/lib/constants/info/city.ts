@@ -828,7 +828,7 @@ export const cityattractions: CityAttractions[] = [
     city: "Patagonia",
     state: "",
     region: "Southern Chile and Argentina",
-    country: "Chile/Argentina",
+    country: "Chile",
     subtitle: "Land of Glaciers and Peaks",
     quote:
       "The private trekking tour through Torres del Paine National Park with our guide who shared insights into Patagonia's unique ecosystems was a highlight of our South American adventure. The breathtaking landscapes and pristine wilderness made this experience truly special.",
@@ -899,16 +899,6 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "Eternal City",
     quote:
       "The private Vatican Museums tour with skip-the-line access was worth every penny. Our guide's deep knowledge of art and history made the Sistine Chapel and St. Peter's Basilica come alive.",
-  },
-  {
-    city: "Sacred Valley & Cusco",
-    state: "",
-    region: "Cusco Region",
-    country: "Peru",
-    isPopular: true,
-    subtitle: "Heart of the Inca Empire",
-    quote:
-      "Exploring the Sacred Valley's ancient ruins and vibrant markets with our guide who shared stories of the Inca civilization was a highlight of our Peru adventure. The private tour of Machu Picchu at sunrise, with breathtaking views and fewer crowds, was a once-in-a-lifetime experience.",
   },
   {
     city: "San Diego",

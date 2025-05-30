@@ -1,6 +1,6 @@
 import { TourCategory } from "@/lib/interfaces/services/tours";
 
-export const tourCategorys: TourCategory[] = [
+export const tourCatorgories: TourCategory[] = [
   {
     id: "cultural",
     title: "Cultural Tours",
