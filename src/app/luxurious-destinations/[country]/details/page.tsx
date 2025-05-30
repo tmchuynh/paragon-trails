@@ -19,7 +19,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { cityattractions } from "@/lib/constants/destinations/city";
+import { cityattractions } from "@/lib/constants/info/city";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { cn } from "@/lib/utils";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -330,7 +330,7 @@ export default function DestinationDetailsPage() {
           >
             Explore Available Tours in {formattedCity}
           </Button>
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4">
             {popularAttractions.map((attraction, index) => (
               <div
                 key={index}
