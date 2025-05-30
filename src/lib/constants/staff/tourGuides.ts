@@ -1,7 +1,5 @@
 import { TourGuide } from "@/lib/interfaces/people/staff";
-
 export const tourGuides: TourGuide[] = [
-  // Atlas Mountains guides
   {
     id: "ibrahim-ouazzani",
     name: "Ibrahim Ouazzani",
@@ -81,8 +79,6 @@ export const tourGuides: TourGuide[] = [
     certifications: ["Culinary Institute of Morocco", "Botanical Expert"],
     isPopular: true,
   },
-
-  // Atlanta guides
   {
     id: "marcus-johnson",
     name: "Dr. Marcus Johnson",
@@ -161,8 +157,6 @@ export const tourGuides: TourGuide[] = [
     profileImage: "/images/guides/dj-tron.jpg",
     specialTraining: ["Music Production", "Atlanta Music History"],
   },
-
-  // Athens guides
   {
     id: "elena-papadopoulos",
     name: "Dr. Elena Papadopoulos",
@@ -249,8 +243,6 @@ export const tourGuides: TourGuide[] = [
     profileImage: "/images/guides/maria-konstantinou.jpg",
     certifications: ["Adventure Tourism Safety", "Yacht Master"],
   },
-
-  // Anchorage guides
   {
     id: "jack-stevens",
     name: "Captain Jack Stevens",
@@ -336,8 +328,6 @@ export const tourGuides: TourGuide[] = [
     profileImage: "/images/guides/elizabeth-grant.jpg",
     certifications: ["Luxury Tourism Management", "Wellness Practitioner"],
   },
-
-  // Amsterdam guides
   {
     id: "emma-van-der-berg",
     name: "Dr. Emma van der Berg",
@@ -444,8 +434,6 @@ export const tourGuides: TourGuide[] = [
     profileImage: "/images/guides/peter-smit.jpg",
     certifications: ["Dutch Cultural Heritage", "Regional Tourism"],
   },
-
-  // Amalfi Coast guides
   {
     id: "marco-esposito",
     name: "Marco Esposito",
@@ -622,7 +610,6 @@ export const tourGuides: TourGuide[] = [
     experienceYears: 11,
     specialties: ["Tuscan Cuisine", "Wine Tours", "Culinary Experiences"],
     certifications: ["Certified Sommelier", "Culinary Arts Diploma"],
-
     bio: "Marco has a diploma in Culinary Arts from the Florence Culinary Institute and is a certified sommelier. He has worked in various Michelin-starred restaurants across Italy before returning to his roots in Tuscany. Marco's tours are designed to provide an immersive culinary experience, often including hands-on cooking classes and exclusive tastings at family-run vineyards. He collaborates with local chefs and winemakers to create unique experiences that showcase the best of Tuscan cuisine, including traditional cooking techniques and modern interpretations of classic dishes.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -706,7 +693,12 @@ export const tourGuides: TourGuide[] = [
     name: "Elena Martínez",
     languages: ["Spanish", "Catalan", "English", "French"],
     experienceYears: 10,
-    specialties: ["Gaudí Architecture", "Modernism", "Urban Design"],
+    specialties: [
+      "Gaudí Architecture",
+      "Modernism",
+      "Urban Design",
+      "Luxury Tours",
+    ],
     certifications: ["Architecture Professor"],
     isPopular: true,
     description:
@@ -851,7 +843,12 @@ export const tourGuides: TourGuide[] = [
     name: "Chef Sophia Dimitriou",
     languages: ["Greek", "English", "Spanish"],
     experienceYears: 9,
-    specialties: ["Culinary Tours", "Greek Cuisine", "Wine Tasting"],
+    specialties: [
+      "Culinary Tours",
+      "Greek Cuisine",
+      "Wine Tasting",
+      "Luxury Tours",
+    ],
     certifications: ["Culinary Arts Diploma", "Certified Sommelier"],
     description:
       "Chef Sophia, a culinary school graduate, offers immersive tours of Athens' food markets and traditional tavernas, teaching guests how to prepare authentic Greek dishes.",
@@ -866,7 +863,12 @@ export const tourGuides: TourGuide[] = [
     name: "Dimitri Alexopoulos",
     languages: ["Greek", "English", "German"],
     experienceYears: 8,
-    specialties: ["Historical Tours", "Architecture", "Cultural Heritage"],
+    specialties: [
+      "Historical Tours",
+      "Architecture",
+      "Cultural Heritage",
+      "Luxury Tours",
+    ],
     certifications: ["Licensed Athens Guide"],
     description:
       "A licensed guide with a passion for history, Dimitri explores Athens' architectural wonders, from ancient temples to neoclassical buildings.",
@@ -1028,7 +1030,12 @@ export const tourGuides: TourGuide[] = [
     name: "Emma Summerbell",
     languages: ["English", "French", "Spanish"],
     experienceYears: 6,
-    specialties: ["Culinary Tours", "Wine Tasting", "Local Markets"],
+    specialties: [
+      "Culinary Tours",
+      "Wine Tasting",
+      "Local Markets",
+      "Spiritual Tours",
+    ],
     description:
       "A culinary guide, Emma introduces guests to Sydney's diverse food scene, from local markets to fine dining.",
     quote:
@@ -1071,7 +1078,12 @@ export const tourGuides: TourGuide[] = [
     name: "Marco Rossi",
     languages: ["Italian", "English", "French"],
     experienceYears: 9,
-    specialties: ["Renaissance Art", "Vatican Museums", "Cultural Heritage"],
+    specialties: [
+      "Renaissance Art",
+      "Vatican Museums",
+      "Cultural Heritage",
+      "Luxury Tours",
+    ],
     certifications: ["PhD in Art History", "Licensed Rome Guide"],
     description:
       "Dr. Rossi, an art historian with a PhD in Renaissance studies, offers in-depth tours of Rome's art and architecture, focusing on the city's unique blend of styles.",
@@ -1086,7 +1098,12 @@ export const tourGuides: TourGuide[] = [
     name: "Elena Bianchi",
     languages: ["Italian", "English", "Portuguese"],
     experienceYears: 5,
-    specialties: ["Art Tours", "Street Art", "Contemporary Culture"],
+    specialties: [
+      "Art Tours",
+      "Street Art",
+      "Contemporary Culture",
+      "Spiritual Tours",
+    ],
     description:
       "An art enthusiast, Elena leads tours through Rome's contemporary art scene, exploring street art and local galleries.",
     quote:
@@ -1203,7 +1220,12 @@ export const tourGuides: TourGuide[] = [
     name: "Lucia Hernández",
     languages: ["Spanish", "English", "Italian"],
     experienceYears: 8,
-    specialties: ["Art History", "Cultural Tours", "Street Art"],
+    specialties: [
+      "Art History",
+      "Cultural Tours",
+      "Street Art",
+      "Luxury Tours",
+    ],
     description:
       "Lucia, an art historian, leads tours through Mexico City's vibrant art scene, exploring galleries, street art, and cultural landmarks.",
     quote:
@@ -1217,7 +1239,12 @@ export const tourGuides: TourGuide[] = [
     name: "Fatima El Idrissi",
     languages: ["Arabic", "French", "English"],
     experienceYears: 14,
-    specialties: ["Medina Tours", "Cultural Heritage", "Crafts and Souks"],
+    specialties: [
+      "Medina Tours",
+      "Cultural Heritage",
+      "Crafts and Souks",
+      "Spiritual Tours",
+    ],
     description:
       "Fatima expertly navigates the medina, guiding guests through centuries-old markets while sharing traditional craft stories.",
     quote:
@@ -1409,7 +1436,12 @@ export const tourGuides: TourGuide[] = [
     name: "Pimchanok Srisuwan",
     languages: ["Thai", "English", "French"],
     experienceYears: 5,
-    specialties: ["Cultural Tours", "Local Markets", "Traditional Crafts"],
+    specialties: [
+      "Cultural Tours",
+      "Local Markets",
+      "Traditional Crafts",
+      "Luxury Tours",
+    ],
     description:
       "Pimchanok, a cultural enthusiast, leads tours through Bangkok's vibrant markets and artisan workshops, showcasing traditional crafts.",
     quote:
@@ -1525,7 +1557,12 @@ export const tourGuides: TourGuide[] = [
     name: "Chef Nour El Din",
     languages: ["Arabic", "English", "Italian"],
     experienceYears: 9,
-    specialties: ["Culinary Tours", "Egyptian Cuisine", "Spice Markets"],
+    specialties: [
+      "Culinary Tours",
+      "Egyptian Cuisine",
+      "Spice Markets",
+      "Spiritual Tours",
+    ],
     certifications: [
       "Culinary Arts Diploma",
       "Certified Egyptian Cuisine Specialist",
@@ -1646,7 +1683,12 @@ export const tourGuides: TourGuide[] = [
     name: "Lucía González",
     languages: ["Spanish", "English", "Portuguese"],
     experienceYears: 8,
-    specialties: ["Cultural Heritage", "Street Art", "Local Cuisine"],
+    specialties: [
+      "Cultural Heritage",
+      "Street Art",
+      "Local Cuisine",
+      "Luxury Tours",
+    ],
     description:
       "Lucía, a cultural enthusiast, leads tours through Buenos Aires’ vibrant neighborhoods, exploring street art and local cuisine. ",
     quote:
@@ -1660,7 +1702,12 @@ export const tourGuides: TourGuide[] = [
     name: "Diego Martínez",
     languages: ["Spanish", "English", "French"],
     experienceYears: 6,
-    specialties: ["Historical Tours", "Cultural Heritage", "Local Markets"],
+    specialties: [
+      "Historical Tours",
+      "Cultural Heritage",
+      "Local Markets",
+      "Luxury Tours",
+    ],
     description:
       "Diego, a history buff, explores Buenos Aires’ historical sites and cultural heritage, providing a unique perspective on the city’s evolution. ",
     quote:
@@ -1770,7 +1817,12 @@ export const tourGuides: TourGuide[] = [
     name: "Dr. Fiona MacGregor",
     languages: ["English", "Scottish Gaelic", "French"],
     experienceYears: 10,
-    specialties: ["Scottish History", "Cultural Heritage", "Historical Tours"],
+    specialties: [
+      "Scottish History",
+      "Cultural Heritage",
+      "Historical Tours",
+      "Spiritual Tours",
+    ],
     certifications: ["PhD in Scottish History", "Licensed Edinburgh Guide"],
     description:
       "Dr. MacGregor, a historian with a PhD in Scottish history, offers tours that explore Edinburgh's rich cultural heritage, from medieval castles to modern art.",
@@ -1908,7 +1960,12 @@ export const tourGuides: TourGuide[] = [
     name: "Soo-jin Lee",
     languages: ["Korean", "English", "Japanese"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Luxury Tours",
+    ],
     description:
       "Soo-jin, a cultural enthusiast, leads tours through Seoul’s vibrant neighborhoods, exploring street food and local culture. ",
     quote:
@@ -1922,7 +1979,12 @@ export const tourGuides: TourGuide[] = [
     name: "Hyun Woo Park",
     languages: ["Korean", "English", "Chinese"],
     experienceYears: 5,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Luxury Tours",
+    ],
     description:
       "Hyun Woo, a cultural enthusiast, leads tours through Seoul’s vibrant neighborhoods, exploring street food and local culture. ",
     quote:
@@ -1936,7 +1998,12 @@ export const tourGuides: TourGuide[] = [
     name: "Minji Kim",
     languages: ["Korean", "English", "Chinese"],
     experienceYears: 5,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Spiritual Tours",
+    ],
     description:
       "Minji leads tours that explore Seoul’s cultural heritage, from ancient palaces to modern culinary delights. ",
     quote:
@@ -2034,7 +2101,12 @@ export const tourGuides: TourGuide[] = [
     name: "Hana Tanaka",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Spiritual Tours",
+    ],
     description:
       "Hana leads tours that explore Tokyo’s cultural heritage, from ancient temples to modern culinary delights. ",
     quote:
@@ -2104,7 +2176,12 @@ export const tourGuides: TourGuide[] = [
     name: "Sara Loughty",
     languages: ["English", "French", "Mandarin"],
     experienceYears: 7,
-    specialties: ["Outdoor Adventures", "City Tours", "Cultural Experiences"],
+    specialties: [
+      "Outdoor Adventures",
+      "City Tours",
+      "Cultural Experiences",
+      "Spiritual Tours",
+    ],
     description:
       "Sara is an outdoor enthusiast who leads tours through Vancouver’s natural landscapes, blending urban culture with adventure. ",
     quote:
@@ -2130,9 +2207,20 @@ export const tourGuides: TourGuide[] = [
     city: "Vancouver",
     country: "Canada",
     name: "David Berlin",
-    languages: ["English", "French", "Spanish", "Scandinavian"],
+    languages: [
+      "English",
+      "French",
+      "Spanish",
+      "Scandinavian",
+      "Spiritual Tours",
+    ],
     experienceYears: 5,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Luxury Tours",
+    ],
     description:
       "David leads tours that explore Vancouver’s cultural heritage, from indigenous history to modern culinary delights. ",
     quote:
@@ -2244,7 +2332,12 @@ export const tourGuides: TourGuide[] = [
     name: "Fatima Al-Sayed",
     languages: ["Arabic", "English", "French"],
     experienceYears: 10,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Spiritual Tours",
+    ],
     description:
       "Fatima leads tours that explore Dubai’s cultural heritage, from ancient forts to modern culinary delights. ",
     quote:
@@ -2342,7 +2435,12 @@ export const tourGuides: TourGuide[] = [
     name: "Omar El-Naggar",
     languages: ["Arabic", "English", "French"],
     experienceYears: 6,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Spiritual Tours",
+    ],
     description:
       "Omar leads tours that explore Cairo’s cultural heritage, from ancient monuments to modern culinary delights. ",
     quote:
@@ -2370,7 +2468,12 @@ export const tourGuides: TourGuide[] = [
     name: "Erik Johansson",
     languages: ["Swedish", "English", "German"],
     experienceYears: 6,
-    specialties: ["Scandinavian Design", "Viking History", "City Tours"],
+    specialties: [
+      "Scandinavian Design",
+      "Viking History",
+      "City Tours",
+      "Luxury Tours",
+    ],
     description:
       "Erik shares stories of Scandinavian design and Viking history, offering engaging and well-rounded tours of Stockholm. ",
     quote:
@@ -2636,7 +2739,12 @@ export const tourGuides: TourGuide[] = [
     name: "Rita Costa",
     languages: ["Portuguese", "English", "German"],
     experienceYears: 11,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
+    specialties: [
+      "Fado Music",
+      "Historic Districts",
+      "Cultural Tours",
+      "Luxury Tours",
+    ],
     description:
       "Rita shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
     quote:
@@ -2902,7 +3010,12 @@ export const tourGuides: TourGuide[] = [
     name: "Maximilian Weber",
     languages: ["German", "English", "Spanish"],
     experienceYears: 9,
-    specialties: ["Beer Gardens", "Bavarian History", "Cultural Tours"],
+    specialties: [
+      "Beer Gardens",
+      "Bavarian History",
+      "Cultural Tours",
+      "Luxury Tours",
+    ],
     bio: "Maximilian, a passionate guide, shares the rich history of Munich through its beer gardens and cultural landmarks. He has a degree in Cultural Studies from the University of Munich and has worked as a tour guide for over nine years. Maximilian combines his extensive knowledge of Bavarian culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to beer gardens and cultural events, providing guests with an immersive cultural experience.",
     description:
       "Maximilian, a passionate guide, shares the rich history of Munich through its beer gardens and cultural landmarks.",
@@ -2958,7 +3071,12 @@ export const tourGuides: TourGuide[] = [
     name: "Elena Bianchi",
     languages: ["Italian", "English", "German"],
     experienceYears: 9,
-    specialties: ["Food Tours", "Pizza History", "Cultural Heritage"],
+    specialties: [
+      "Food Tours",
+      "Pizza History",
+      "Cultural Heritage",
+      "Spiritual Tours",
+    ],
     bio: "Elena, a passionate foodie, shares the secrets of Naples’ culinary scene through her engaging tours. She has a degree in Culinary Arts from the University of Naples and has worked as a tour guide for over nine years. Elena combines her extensive knowledge of Neapolitan cuisine with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and cooking classes, providing guests with an immersive culinary experience.",
     description:
       "Elena, a passionate foodie, shares the secrets of Naples’ culinary scene through her engaging tours.",
@@ -3059,7 +3177,12 @@ export const tourGuides: TourGuide[] = [
     name: "Emre Korkmaz",
     languages: ["Turkish", "English", "Italian"],
     experienceYears: 6,
-    specialties: ["Byzantine History", "Ottoman Culture", "Bazaar Navigation"],
+    specialties: [
+      "Byzantine History",
+      "Ottoman Culture",
+      "Bazaar Navigation",
+      "Spiritual Tours",
+    ],
     region: "Bosphorus",
     bio: "Emre, a passionate guide, explores Istanbul’s Byzantine and Ottoman heritage while navigating the Bosphorus. He has a degree in History from Bogazici University and has worked as a tour guide for over six years. Emre combines his extensive knowledge of Istanbul's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
     description:
@@ -3198,7 +3321,12 @@ export const tourGuides: TourGuide[] = [
     name: "Zanele Khumalo",
     languages: ["English", "Zulu", "Afrikaans"],
     experienceYears: 7,
-    specialties: ["Wine Tours", "Cultural Heritage", "Nature Tours"],
+    specialties: [
+      "Wine Tours",
+      "Cultural Heritage",
+      "Nature Tours",
+      "Luxury Tours",
+    ],
     bio: "Zanele, a passionate guide, explores Cape Town’s vineyards and natural landscapes, sharing the region’s rich heritage. She has a degree in Viticulture from Stellenbosch University and has worked as a tour guide for over seven years. Zanele combines her extensive knowledge of South African wine with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to vineyards and wine tastings, providing guests with an immersive cultural journey.",
     description:
       "Zanele, a passionate guide, explores Cape Town’s vineyards and natural landscapes, sharing the region’s rich heritage.",
@@ -3212,7 +3340,12 @@ export const tourGuides: TourGuide[] = [
     name: "Thabo Dlamini",
     languages: ["English", "Zulu", "Xhosa"],
     experienceYears: 6,
-    specialties: ["Wine Tours", "Cultural Heritage", "Nature Tours"],
+    specialties: [
+      "Wine Tours",
+      "Cultural Heritage",
+      "Nature Tours",
+      "Luxury Tours",
+    ],
     bio: "Thabo, a cultural enthusiast, shares the vibrant heritage of Cape Town through its vineyards and natural landscapes. He has a degree in Cultural Studies from the University of Cape Town and has worked as a tour guide for over six years. Thabo combines his extensive knowledge of South African culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to vineyards and cultural experiences, providing guests with an immersive cultural journey.",
     description:
       "Thabo, a cultural enthusiast, shares the vibrant heritage of Cape Town through its vineyards and natural landscapes.",
@@ -3226,7 +3359,12 @@ export const tourGuides: TourGuide[] = [
     name: "Nomsa Ndlovu",
     languages: ["English", "Zulu", "Afrikaans"],
     experienceYears: 5,
-    specialties: ["Wine Tours", "Cultural Heritage", "Nature Tours"],
+    specialties: [
+      "Wine Tours",
+      "Cultural Heritage",
+      "Nature Tours",
+      "Spiritual Tours",
+    ],
     bio: "Nomsa, a wine lover, shares the rich heritage of Cape Town through its vineyards and natural landscapes. She has a degree in Viticulture from Stellenbosch University and has worked as a tour guide for over five years. Nomsa combines her extensive knowledge of South African wine with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to vineyards and wine tastings, providing guests with an immersive cultural journey.",
     description:
       "Nomsa, a wine lover, shares the rich heritage of Cape Town through its vineyards and natural landscapes.",
@@ -3422,7 +3560,12 @@ export const tourGuides: TourGuide[] = [
     name: "Wang Li",
     languages: ["Chinese", "English", "Japanese"],
     experienceYears: 10,
-    specialties: ["Modern Architecture", "Cultural Heritage", "City Tours"],
+    specialties: [
+      "Modern Architecture",
+      "Cultural Heritage",
+      "City Tours",
+      "Luxury Tours",
+    ],
     bio: "Wang, a Shanghai native, offers tours that explore the city’s modern architecture and rich cultural heritage. He has a degree in Urban Planning from Tongji University and has worked as a tour guide for over ten years. Wang combines his extensive knowledge of Shanghai's architecture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to architectural landmarks and cultural experiences, providing guests with an immersive cultural journey.",
     description:
       "Wang, a Shanghai native, offers tours that explore the city’s modern architecture and rich cultural heritage.",
@@ -3436,7 +3579,12 @@ export const tourGuides: TourGuide[] = [
     name: "Zhang Wei",
     languages: ["Chinese", "English", "French"],
     experienceYears: 9,
-    specialties: ["Modern Architecture", "Cultural Heritage", "City Tours"],
+    specialties: [
+      "Modern Architecture",
+      "Cultural Heritage",
+      "City Tours",
+      "Spiritual Tours",
+    ],
     bio: "Zhang, a cultural guide, shares the rich history of Shanghai through its modern architecture and cultural landmarks. He has a degree in Urban Planning from Tongji University and has worked as a tour guide for over nine years. Zhang combines his extensive knowledge of Shanghai's architecture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to architectural landmarks and cultural experiences, providing guests with an immersive cultural journey.",
     description:
       "Zhang, a cultural guide, shares the rich history of Shanghai through its modern architecture and cultural landmarks.",
@@ -3548,7 +3696,12 @@ export const tourGuides: TourGuide[] = [
     name: "Zhao Li",
     languages: ["Chinese", "English", "French"],
     experienceYears: 8,
-    specialties: ["Sichuan Cuisine", "Panda Conservation", "Cultural Tours"],
+    specialties: [
+      "Sichuan Cuisine",
+      "Panda Conservation",
+      "Cultural Tours",
+      "Spiritual Tours",
+    ],
     bio: "Zhao, a cultural guide, shares the vibrant culinary traditions of Sichuan and the importance of panda conservation. He has a degree in Culinary Arts from Sichuan University and has worked as a tour guide for over eight years. Zhao combines his extensive knowledge of Sichuan cuisine with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to panda reserves and cooking classes, providing guests with an immersive cultural journey.",
     description:
       "Zhao, a cultural guide, shares the vibrant culinary traditions of Sichuan and the importance of panda conservation.",
@@ -3758,7 +3911,12 @@ export const tourGuides: TourGuide[] = [
     name: "Linh Pham",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 6,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
+    specialties: [
+      "Vietnam War History",
+      "Street Food",
+      "Cultural Tours",
+      "Spiritual Tours",
+    ],
     bio: "Linh, a cultural guide, shares the vibrant history of Hồ Chí Minh City through its Vietnam War sites and street food culture. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over six years. Linh combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
     description:
       "Linh, a cultural guide, shares the vibrant history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
@@ -3772,7 +3930,12 @@ export const tourGuides: TourGuide[] = [
     name: "Nguyen Van An",
     languages: ["Vietnamese", "English", "Japanese"],
     experienceYears: 5,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
+    specialties: [
+      "Vietnam War History",
+      "Street Food",
+      "Cultural Tours",
+      "Luxury Tours",
+    ],
     bio: "Nguyen, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture. He has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over five years. Nguyen combines his extensive knowledge of Vietnam's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
     description:
       "Nguyen, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture.",
@@ -3786,7 +3949,12 @@ export const tourGuides: TourGuide[] = [
     name: "Pham Thi Hoa",
     languages: ["Vietnamese", "English", "Chinese"],
     experienceYears: 7,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
+    specialties: [
+      "Vietnam War History",
+      "Street Food",
+      "Cultural Tours",
+      "Luxury Tours",
+    ],
     bio: "Pham, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over seven years. Pham combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
     description:
       "Pham, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
@@ -3968,7 +4136,12 @@ export const tourGuides: TourGuide[] = [
     name: "Nguyen Van Minh",
     languages: ["Vietnamese", "English", "Japanese"],
     experienceYears: 6,
-    specialties: ["Ancient Town", "Lantern Festival", "Culinary Tours"],
+    specialties: [
+      "Ancient Town",
+      "Lantern Festival",
+      "Culinary Tours",
+      "Spiritual Tours",
+    ],
     bio: "Nguyen, a cultural guide, shares the rich history of Hội An through its ancient town and Lantern Festival. He has a degree in Cultural Heritage from the University of Danang and has worked as a tour guide for over six years. Nguyen combines his extensive knowledge of Hội An's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and culinary experiences, providing guests with an immersive cultural journey.",
     description:
       "Nguyen, a cultural guide, shares the rich history of Hội An through its ancient town and Lantern Festival.",
@@ -4080,7 +4253,12 @@ export const tourGuides: TourGuide[] = [
     name: "Jane Doe",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 8,
-    specialties: ["Hollywood Tours", "Cultural Diversity", "Street Art"],
+    specialties: [
+      "Luxury Tours",
+      "Cultural Diversity",
+      "Street Art",
+      "Spiritual Tours",
+    ],
     bio: "Jane, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles. She has a degree in Film Studies from UCLA and has worked as a tour guide for over eight years. Jane combines her extensive knowledge of Hollywood with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to film sets and street art galleries, providing guests with an immersive cultural journey.",
     description:
       "Jane, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles.",
@@ -4290,7 +4468,12 @@ export const tourGuides: TourGuide[] = [
     name: "Olivia Taylor",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 8,
-    specialties: ["Architecture Tours", "Jazz History", "Cultural Diversity"],
+    specialties: [
+      "Architecture Tours",
+      "Jazz History",
+      "Cultural Diversity",
+      "Spiritual Tours",
+    ],
     bio: "Olivia, an architecture enthusiast, offers tours that explore Chicago’s iconic buildings, jazz history, and cultural diversity. She has a degree in Architecture from the University of Illinois at Chicago and has worked as a tour guide for over eight years. Olivia combines her extensive knowledge of Chicago's architecture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to architectural landmarks and jazz clubs, providing guests with an immersive cultural journey.",
     description:
       "Olivia, an architecture enthusiast, offers tours that explore Chicago’s iconic buildings, jazz history, and cultural diversity.",
@@ -4360,7 +4543,12 @@ export const tourGuides: TourGuide[] = [
     name: "Jane Smith",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 6,
-    specialties: ["Tech Tours", "Cultural Diversity", "Historical Landmarks"],
+    specialties: [
+      "Tech Tours",
+      "Cultural Diversity",
+      "Historical Landmarks",
+      "Spiritual Tours",
+    ],
     bio: "Jane, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks. She has a degree in Computer Science from Stanford University and has worked as a tour guide for over six years. Jane combines her extensive knowledge of Silicon Valley with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to tech campuses and historical sites, providing guests with an immersive cultural journey.",
     description:
       "Jane, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks.",
@@ -4374,7 +4562,12 @@ export const tourGuides: TourGuide[] = [
     name: "Michael Johnson",
     languages: ["English", "Spanish", "German"],
     experienceYears: 8,
-    specialties: ["Tech Tours", "Cultural Diversity", "Historical Landmarks"],
+    specialties: [
+      "Tech Tours",
+      "Cultural Diversity",
+      "Historical Landmarks",
+      "Luxury Tours",
+    ],
     bio: "Michael, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks. He has a degree in Computer Science from Stanford University and has worked as a tour guide for over eight years. Michael combines his extensive knowledge of Silicon Valley with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to tech campuses and historical sites, providing guests with an immersive cultural journey.",
     description:
       "Michael, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks.",
@@ -4388,7 +4581,12 @@ export const tourGuides: TourGuide[] = [
     name: "Sophia Lee",
     languages: ["English", "Spanish", "French"],
     experienceYears: 4,
-    specialties: ["Tech Tours", "Cultural Diversity", "Historical Landmarks"],
+    specialties: [
+      "Tech Tours",
+      "Cultural Diversity",
+      "Historical Landmarks",
+      "Luxury Tours",
+    ],
     bio: "Sophia, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks. She has a degree in Computer Science from Stanford University and has worked as a tour guide for over four years. Sophia combines her extensive knowledge of Silicon Valley with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to tech campuses and historical sites, providing guests with an immersive cultural journey.",
     description:
       "Sophia, a tech enthusiast, offers tours that explore San Francisco’s tech innovations, cultural diversity, and historical landmarks.",
@@ -4714,7 +4912,12 @@ export const tourGuides: TourGuide[] = [
     name: "Johnathan Doe",
     languages: ["English", "Spanish", "French"],
     experienceYears: 10,
-    specialties: ["Historical Tours", "Cultural Heritage", "Literary Tours"],
+    specialties: [
+      "Historical Tours",
+      "Cultural Heritage",
+      "Literary Tours",
+      "Spiritual Tours",
+    ],
     bio: "Johnathan, a Boston native, offers tours that explore the city’s historical landmarks, cultural heritage, and literary history. He has a degree in History from Boston University and has worked as a tour guide for over ten years. Johnathan combines his extensive knowledge of Boston's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and literary landmarks, providing guests with an immersive cultural journey.",
     description:
       "Johnathan, a Boston native, offers tours that explore the city’s historical landmarks, cultural heritage, and literary history.",
@@ -4854,7 +5057,12 @@ export const tourGuides: TourGuide[] = [
     name: "Olivia Taylor",
     languages: ["English", "French", "Spanish"],
     experienceYears: 5,
-    specialties: ["Jazz History", "Culinary Tours", "Cultural Heritage"],
+    specialties: [
+      "Jazz History",
+      "Culinary Tours",
+      "Cultural Heritage",
+      "Spiritual Tours",
+    ],
     bio: "Olivia, a jazz enthusiast, offers tours that explore New Orleans’ rich musical heritage, culinary delights, and vibrant culture. She has a degree in Music History from Tulane University and has worked as a tour guide for over five years. Olivia combines her extensive knowledge of New Orleans' music scene with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to jazz clubs and culinary tastings, providing guests with an immersive cultural journey.",
     description:
       "Olivia, a jazz enthusiast, offers tours that explore New Orleans’ rich musical heritage, culinary delights, and vibrant culture.",
@@ -4966,7 +5174,12 @@ export const tourGuides: TourGuide[] = [
     name: "Ava Sori Lakewood",
     languages: ["English", "Spanish", "French"],
     experienceYears: 6,
-    specialties: ["Historical Tours", "Ghost Tours", "Cultural Heritage"],
+    specialties: [
+      "Historical Tours",
+      "Ghost Tours",
+      "Cultural Heritage",
+      "Spiritual Tours",
+    ],
     bio: "Ava, a history enthusiast, offers tours that explore Savannah’s historical landmarks, ghost stories, and cultural heritage. She has a degree in History from the University of Georgia and has worked as a tour guide for over six years. Ava combines her extensive knowledge of Savannah's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and ghost tours, providing guests with an immersive cultural journey.",
     description:
       "Ava, a history enthusiast, offers tours that explore Savannah’s historical landmarks, ghost stories, and cultural heritage.",
@@ -5064,7 +5277,12 @@ export const tourGuides: TourGuide[] = [
     name: "Ava Sori Lakewood",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 5,
-    specialties: ["Beach Tours", "Cultural Heritage", "Outdoor Activities"],
+    specialties: [
+      "Adventure Tours",
+      "Cultural Heritage",
+      "Wellness Retreats",
+      "Luxury Tours",
+    ],
     bio: "Ava, a San Diego native, offers tours that explore the city’s beautiful beaches, cultural heritage, and outdoor activities. She has a degree in Environmental Science from UC San Diego and has worked as a tour guide for over five years. Ava combines her extensive knowledge of San Diego's natural beauty with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to beaches and outdoor adventures, providing guests with an immersive cultural journey.",
     description:
       "Ava, a San Diego native, offers tours that explore the city’s beautiful beaches, cultural heritage, and outdoor activities.",
@@ -5302,7 +5520,12 @@ export const tourGuides: TourGuide[] = [
     name: "Nikos Papadakis",
     languages: ["Greek", "English", "Bulgarian"],
     experienceYears: 9,
-    specialties: ["Byzantine History", "Culinary Tours", "Cultural Heritage"],
+    specialties: [
+      "Byzantine History",
+      "Culinary Tours",
+      "Cultural Heritage",
+      "Luxury Tours",
+    ],
     bio: "Nikos, a licensed guide, specializes in Byzantine history and culinary tours, offering a unique blend of education and gastronomy. He has a degree in History from Aristotle University of Thessaloniki and has worked as a tour guide for over nine years. Nikos combines his extensive knowledge of Byzantine history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and culinary experiences, providing guests with an immersive cultural journey.",
     description:
       "Nikos, a licensed guide, specializes in Byzantine history and culinary tours, offering a unique blend of education and gastronomy.",
@@ -5422,7 +5645,12 @@ export const tourGuides: TourGuide[] = [
     name: "Yuki Sato",
     languages: ["Japanese", "English", "Korean"],
     experienceYears: 8,
-    specialties: ["Culinary Tours", "Cultural Heritage", "City Tours"],
+    specialties: [
+      "Culinary Tours",
+      "Cultural Heritage",
+      "City Tours",
+      "Spiritual Tours",
+    ],
     bio: "Yuki, an Osaka native, offers tours that explore the city’s culinary delights, rich cultural heritage, and vibrant neighborhoods. She has a degree in Culinary Arts from Osaka Culinary Institute and has worked as a tour guide for over eight years. Yuki combines her extensive knowledge of Osaka's food culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
     description:
       "Yuki, an Osaka native, offers tours that explore the city’s culinary delights, rich cultural heritage, and vibrant neighborhoods.",
@@ -5436,7 +5664,12 @@ export const tourGuides: TourGuide[] = [
     name: "Satoshi Kobayashi",
     languages: ["Japanese", "English", "Chinese"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    specialties: [
+      "Cultural Heritage",
+      "City Tours",
+      "Culinary Experiences",
+      "Luxury Tours",
+    ],
     bio: "Satoshi, a Yokohama native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary delights. He has a degree in Cultural Studies from Keio University and has worked as a tour guide for over seven years. Satoshi combines his extensive knowledge of Yokohama's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to cultural sites and culinary experiences, providing guests with an immersive cultural journey.",
     description:
       "Satoshi, a Yokohama native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary delights.",
@@ -5702,7 +5935,12 @@ export const tourGuides: TourGuide[] = [
     name: "Sofia Gómez",
     languages: ["Spanish", "English", "French"],
     experienceYears: 9,
-    specialties: ["Cultural Heritage", "Art Tours", "City Tours"],
+    specialties: [
+      "Cultural Heritage",
+      "Art Tours",
+      "City Tours",
+      "Spiritual Tours",
+    ],
     bio: "Sofia, a Madrid native, offers tours that explore the city’s rich cultural heritage, vibrant art scene, and historical landmarks. She has a degree in Art History from the Complutense University of Madrid and has worked as a tour guide for over nine years. Sofia combines her extensive knowledge of Madrid's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to museums and cultural sites, providing guests with an immersive cultural journey.",
     description:
       "Sofia, a Madrid native, offers tours that explore the city’s rich cultural heritage, vibrant art scene, and historical landmarks.",
@@ -5972,7 +6210,12 @@ export const tourGuides: TourGuide[] = [
     name: "Fiona MacLeod",
     languages: ["English", "Scottish Gaelic", "French"],
     experienceYears: 8,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    specialties: [
+      "Cultural Heritage",
+      "Historical Tours",
+      "City Tours",
+      "Spiritual Tours",
+    ],
     bio: "Fiona, an Edinburgh native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in History from the University of Edinburgh and has worked as a tour guide for over eight years. Fiona combines her extensive knowledge of Edinburgh's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
     description:
       "Fiona, an Edinburgh native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
@@ -6246,7 +6489,12 @@ export const tourGuides: TourGuide[] = [
     name: "Suriya Chaiyaporn",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 8,
-    specialties: ["Cultural Heritage", "Nature Tours", "City Tours"],
+    specialties: [
+      "Cultural Heritage",
+      "Nature Tours",
+      "City Tours",
+      "Spiritual Tours",
+    ],
     bio: "Suriya, a Chiang Mai native, offers tours that explore the city’s rich cultural heritage, stunning mountain landscapes, and vibrant neighborhoods. He has a degree in Cultural Studies from Chiang Mai University and has worked as a tour guide for over eight years. Suriya combines his extensive knowledge of Chiang Mai's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to cultural sites and nature reserves, providing guests with an immersive cultural journey.",
     description:
       "Suriya, a Chiang Mai native, offers tours that explore the city’s rich cultural heritage, stunning mountain landscapes, and vibrant neighborhoods.",
@@ -6428,26 +6676,17 @@ export const tourGuides: TourGuide[] = [
     name: "Fatima El Amrani",
     languages: ["Arabic", "French", "English"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
+    specialties: [
+      "Cultural Heritage",
+      "Nature Tours",
+      "Adventure Tours",
+      "Luxury Tours",
+    ],
     bio: "Fatima, an Atlas Mountains native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities. She has a degree in Cultural Studies from Cadi Ayyad University and has worked as a tour guide for over seven years. Fatima combines her extensive knowledge of the Atlas Mountains' culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to traditional Berber villages and nature reserves, providing guests with an immersive cultural journey.",
     description:
       "Fatima, an Atlas Mountains native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
     quote:
       "In the Atlas Mountains, every peak tells a story, and every meal is a taste of Morocco’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Sacred Valley & Cusco",
-    country: "Peru",
-    name: "Diego Quispe",
-    languages: ["Spanish", "Quechua", "English"],
-    experienceYears: 8,
-    specialties: ["Cultural Heritage", "Historical Tours", "Nature Tours"],
-    bio: "Diego, a Cusco native, offers tours that explore the Sacred Valley’s rich cultural heritage, historical landmarks, and stunning landscapes. He has a degree in Archaeology from the National University of San Antonio Abad and has worked as a tour guide for over eight years. Diego combines his extensive knowledge of Incan history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to archaeological sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Diego, a Cusco native, offers tours that explore the Sacred Valley’s rich cultural heritage, historical landmarks, and stunning landscapes.",
-    quote:
-      "In the Sacred Valley, every stone tells a story, and every meal is a taste of Peru’s vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -6546,6 +6785,2855 @@ export const tourGuides: TourGuide[] = [
       "Diego, a Cusco native, offers tours that explore the Sacred Valley’s rich cultural heritage, historical landmarks, and stunning landscapes.",
     quote:
       "In the Sacred Valley, every stone tells a story, and every meal is a taste of Peru’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Olivia Carter",
+    languages: ["English", "Mandarin", "French"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Olivia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over seven years. Olivia combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Olivia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Liam O'Connor",
+    languages: ["English", "Irish", "French"],
+    experienceYears: 6,
+    specialties: ["Historical Tours", "Local Culture", "Nightlife"],
+    bio: "Liam, an Irish expatriate living in Melbourne, offers tours that delve into the city’s rich history, local culture, and vibrant nightlife. He has a degree in History from Trinity College Dublin and has worked as a tour guide for over six years. Liam combines his extensive knowledge of Melbourne's history with his passion for storytelling, making each tour a unique experience. His tours often include visits to historical sites, local pubs, and cultural hotspots, providing guests with an immersive cultural journey.",
+    description:
+      "Liam, an Irish expatriate living in Melbourne, offers tours that delve into the city’s rich history, local culture, and vibrant nightlife.",
+    quote:
+      "In Melbourne, every corner has a story, and every night is a celebration of culture and camaraderie.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Sophie Nguyen",
+    languages: ["English", "Vietnamese", "French"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Sophie, a Vietnamese expatriate living in Melbourne, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over five years. Sophie combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Sophie, a Vietnamese expatriate living in Melbourne, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "James Thompson",
+    languages: ["English", "Spanish", "French"],
+    experienceYears: 8,
+    specialties: ["Art History", "Romantic Tours", "Cultural Experiences"],
+    bio: "James, a Melbourne native, offers tours that explore the city’s rich art history, romantic spots, and cultural experiences. He has a degree in Art History from the University of Melbourne and has worked as a tour guide for over eight years. James combines his extensive knowledge of Melbourne's art scene with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, romantic spots, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "James, a Melbourne native, offers tours that explore the city’s rich art history, romantic spots, and cultural experiences.",
+    quote:
+      "In Melbourne, every street is a gallery, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Emma Wilson",
+    languages: ["English", "Italian", "French"],
+    experienceYears: 6,
+    specialties: [
+      "Spiritual Enlightenment",
+      "Wellness Tours",
+      "Cultural Experiences",
+    ],
+    bio: "Emma, a Melbourne native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over six years. Emma combines her extensive knowledge of Melbourne's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Emma, a Melbourne native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
+    quote:
+      "In Melbourne, every moment is an opportunity for spiritual growth, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Vienna",
+    country: "Austria",
+    name: "Klara Müller",
+    languages: ["German", "English", "French"],
+    experienceYears: 7,
+    specialties: [
+      "Classical Music",
+      "Cultural Heritage",
+      "Historical Tours",
+      "Spiritual Tours",
+    ],
+    bio: "Klara, a Vienna native, offers tours that explore the city’s rich classical music heritage, cultural landmarks, and historical sites. She has a degree in Musicology from the University of Music and Performing Arts Vienna and has worked as a tour guide for over seven years. Klara combines her extensive knowledge of Vienna's music history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to concert halls and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Klara, a Vienna native, offers tours that explore the city’s rich classical music heritage, cultural landmarks, and historical sites.",
+    quote:
+      "In Vienna, every note tells a story, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Vienna",
+    country: "Austria",
+    name: "Lukas Steiner",
+    languages: ["German", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Lukas, a Vienna native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Vienna and has worked as a tour guide for over six years. Lukas combines his extensive knowledge of Vienna's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lukas, a Vienna native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Vienna, every street is a symphony of history, and every meal is a taste of Austria’s rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Blagaj",
+    country: "Bosnia and Herzegovina",
+    name: "Mira Hadžić",
+    languages: ["Bosnian", "Croatian", "English"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Mira, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from the University of Sarajevo and has worked as a tour guide for over five years. Mira combines her extensive knowledge of Blagaj's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Mira, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Blagaj, every spring tells a story, and every meal is a taste of Bosnia’s rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Blagaj",
+    country: "Bosnia and Herzegovina",
+    name: "Chef Adnan Kovačević",
+    languages: ["Bosnian", "Croatian", "English"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "Nature Tours"],
+    bio: "Chef Adnan, a Blagaj native, offers culinary tours that explore the region’s rich culinary heritage, stunning landscapes, and cultural traditions. He has a degree in Culinary Arts from the Culinary Institute of Sarajevo and has worked as a chef and tour guide for over eight years. Chef Adnan combines his extensive knowledge of Bosnian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Adnan, a Blagaj native, offers culinary tours that explore the region’s rich culinary heritage, stunning landscapes, and cultural traditions.",
+    quote:
+      "In Blagaj, every dish tells a story, and every meal is a taste of Bosnia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Blagaj",
+    country: "Bosnia and Herzegovina",
+    name: "Elma Delić",
+    languages: ["Bosnian", "Croatian", "English"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Elma, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from the University of Sarajevo and has worked as a tour guide for over six years. Elma combines her extensive knowledge of Blagaj's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Elma, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Blagaj, every river tells a story, and every meal is a taste of Bosnia’s rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Blagaj",
+    country: "Bosnia and Herzegovina",
+    name: "Nermin Begić",
+    languages: ["Bosnian", "Croatian", "English"],
+    experienceYears: 7,
+    specialties: [
+      "Photography",
+      "Art Tours",
+      "Local Culture",
+      "Historical Tours",
+    ],
+    bio: "Nermin, a Blagaj native, offers photography and art tours that explore the region’s rich cultural heritage, stunning landscapes, and local culture. He has a degree in Fine Arts from the University of Sarajevo and has worked as a photographer and tour guide for over seven years. Nermin combines his extensive knowledge of Blagaj's art scene with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local artists and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Nermin, a Blagaj native, offers photography and art tours that explore the region’s rich cultural heritage, stunning landscapes, and local culture.",
+    quote:
+      "In Blagaj, every frame tells a story, and every meal is a taste of Bosnia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Blagaj",
+    country: "Bosnia and Herzegovina",
+    name: "Selma Avdić",
+    languages: ["Bosnian", "Croatian", "English"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Selma, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from the University of Sarajevo and has worked as a tour guide for over five years. Selma combines her extensive knowledge of Blagaj's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Selma, a Blagaj native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Blagaj, every stone tells a story, and every meal is a taste of Bosnia’s rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Rio de Janeiro",
+    country: "Brazil",
+    name: "Carlos Silva",
+    languages: ["Portuguese", "English", "Spanish"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Nature Tours", "City Tours"],
+    bio: "Carlos, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and vibrant neighborhoods. He has a degree in Cultural Studies from the Federal University of Rio de Janeiro and has worked as a tour guide for over eight years. Carlos combines his extensive knowledge of Rio's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Carlos, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and vibrant neighborhoods.",
+    quote:
+      "In Rio, every samba tells a story, and every meal is a taste of Brazil’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Rio de Janeiro",
+    country: "Brazil",
+    name: "Ana Costa",
+    languages: ["Portuguese", "English", "Spanish"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Ana, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the Federal University of Rio de Janeiro and has worked as a tour guide for over six years. Ana combines her extensive knowledge of Rio's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ana, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Rio, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Rio de Janeiro",
+    country: "Brazil",
+    name: "Pedro Almeida",
+    languages: ["Portuguese", "English", "Spanish"],
+    experienceYears: 7,
+    specialties: [
+      "Cultural Heritage",
+      "Nature Tours",
+      "Adventure Tours",
+      "Luxury Tours",
+    ],
+    bio: "Pedro, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities. He has a degree in Environmental Studies from the Federal University of Rio de Janeiro and has worked as a tour guide for over seven years. Pedro combines his extensive knowledge of Rio's environment with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Pedro, a Rio de Janeiro native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
+    quote:
+      "In Rio, every mountain tells a story, and every meal is a taste of Brazil’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Montreal",
+    country: "Canada",
+    name: "Sophie Tremblay",
+    languages: ["French", "English", "Spanish"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Local Culture", "Historical Tours"],
+    bio: "Sophie, a Montreal native, offers tours that explore the city’s rich cultural heritage, local culture, and historical landmarks. She has a degree in Cultural Studies from McGill University and has worked as a tour guide for over six years. Sophie combines her extensive knowledge of Montreal's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Sophie, a Montreal native, offers tours that explore the city’s rich cultural heritage, local culture, and historical landmarks.",
+    quote:
+      "In Montreal, every street is a tapestry of culture, and every meal is a taste of Canada’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Montreal",
+    country: "Canada",
+    name: "Marc Dupont",
+    languages: ["French", "English", "Spanish"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Marc, a Montreal native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from the Université de Montréal and has worked as a tour guide for over five years. Marc combines his extensive knowledge of Montreal's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Marc, a Montreal native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Montreal, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jamaica",
+    country: "Caribbean",
+    name: "Jamal Thompson",
+    languages: ["English", "Patois", "Spanish"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
+    bio: "Jamal, a Jamaican native, offers tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities. He has a degree in Environmental Studies from the University of the West Indies and has worked as a tour guide for over seven years. Jamal combines his extensive knowledge of Jamaica's environment with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Jamal, a Jamaican native, offers tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
+    quote:
+      "In Jamaica, every mountain tells a story, and every meal is a taste of the Caribbean’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jamaica",
+    country: "Caribbean",
+    name: "Aisha Brown",
+    languages: ["English", "Patois", "Spanish"],
+    experienceYears: 6,
+    specialties: [
+      "Historical Tours",
+      "Local Culture",
+      "Art and Music",
+      "Spiritual Tours",
+    ],
+    bio: "Aisha, a Jamaican native, offers tours that delve into the island’s rich history, local culture, and vibrant art and music scene. She has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over six years. Aisha combines her extensive knowledge of Jamaica's history with her passion for storytelling, making each tour a unique experience. Her tours often include visits to historical sites, local art galleries, and music venues, providing guests with an immersive cultural journey.",
+    description:
+      "Aisha, a Jamaican native, offers tours that delve into the island’s rich history, local culture, and vibrant art and music scene.",
+    quote:
+      "In Jamaica, every beat tells a story, and every meal is a taste of the Caribbean’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jamaica",
+    country: "Caribbean",
+    name: "Marcus Johnson",
+    languages: ["English", "Patois", "Spanish"],
+    experienceYears: 5,
+    specialties: [
+      "Spiritual Heritage",
+      "Wellness Tours",
+      "Cultural Experiences",
+    ],
+    bio: "Marcus, a Jamaican native, offers tours that explore the island’s spiritual heritage, wellness practices, and cultural experiences. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over five years. Marcus combines his extensive knowledge of Jamaica's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Marcus, a Jamaican native, offers tours that explore the island’s spiritual heritage, wellness practices, and cultural experiences.",
+    quote:
+      "In Jamaica, every moment is an opportunity for spiritual growth, and every meal is a taste of the Caribbean’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Patagonia",
+    country: "Argentina",
+    name: "Lucia Fernández",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 7,
+    specialties: ["Nature Tours", "Adventure Tours", "Cultural Heritage"],
+    bio: "Lucia, a Patagonia native, offers tours that explore the region’s stunning landscapes, adventure opportunities, and rich cultural heritage. She has a degree in Environmental Studies from the National University of Patagonia and has worked as a tour guide for over seven years. Lucia combines her extensive knowledge of Patagonia's environment with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lucia, a Patagonia native, offers tours that explore the region’s stunning landscapes, adventure opportunities, and rich cultural heritage.",
+    quote:
+      "In Patagonia, every mountain tells a story, and every meal is a taste of Argentina’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Patagonia",
+    country: "Argentina",
+    name: "Diego González",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
+    bio: "Diego, a Patagonia native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities. He has a degree in Cultural Studies from the National University of Patagonia and has worked as a tour guide for over six years. Diego combines his extensive knowledge of Patagonia's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to traditional villages and nature reserves, providing guests with an immersive cultural journey.",
+    description:
+      "Diego, a Patagonia native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
+    quote:
+      "In Patagonia, every river tells a story, and every meal is a taste of Argentina’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Patagonia",
+    country: "Argentina",
+    name: "Chef Sofia Martínez",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "Nature Tours"],
+    bio: "Chef Sofia, a Patagonia native, offers culinary tours that explore the region’s rich culinary heritage, stunning landscapes, and cultural traditions. She has a degree in Culinary Arts from the National University of Patagonia and has worked as a chef and tour guide for over eight years. Chef Sofia combines her extensive knowledge of Argentine cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Chef Sofia, a Patagonia native, offers culinary tours that explore the region’s rich culinary heritage, stunning landscapes, and cultural traditions.",
+    quote:
+      "In Patagonia, every dish tells a story, and every meal is a taste of Argentina’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Patagonia",
+    country: "Argentina",
+    name: "Professor Martín López",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Historical Tours", "Nature Tours"],
+    bio: "Professor Martín, a Patagonia native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and stunning landscapes. He has a degree in History from the National University of Patagonia and has worked as a tour guide for over five years. Martín combines his extensive knowledge of Patagonia's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Professor Martín, a Patagonia native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and stunning landscapes.",
+    quote:
+      "In Patagonia, every glacier tells a story, and every meal is a taste of Argentina’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Dr. Li Wei",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Dr. Li Wei, a Beijing native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a PhD in Cultural Studies from Peking University and has worked as a tour guide for over ten years. Dr. Li combines his extensive knowledge of Beijing's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Dr. Li Wei, a Beijing native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Beijing, every alley tells a story, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Xiaoling Zhang",
+    languages: ["Mandarin", "English", "Spanish"],
+    experienceYears: 8,
+    specialties: [
+      "Spiritual Heritage",
+      "Wellness Tours",
+      "Cultural Experiences",
+    ],
+    bio: "Xiaoling, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from Peking University and has worked as a tour guide for over eight years. Xiaoling combines her extensive knowledge of Beijing's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Xiaoling, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
+    quote:
+      "In Beijing, every moment is an opportunity for spiritual growth, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Chen Wei",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Chen, a Beijing native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from Peking University and has worked as a tour guide for over six years. Chen combines his extensive knowledge of Beijing's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Chen, a Beijing native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Beijing, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Mei Lin",
+    languages: ["Mandarin", "English", "Spanish"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
+    bio: "Mei, a Beijing native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities. She has a degree in Environmental Studies from Peking University and has worked as a tour guide for over five years. Mei combines her extensive knowledge of Beijing's environment with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Mei, a Beijing native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
+    quote:
+      "In Beijing, every mountain tells a story, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Zhang Wei",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 9,
+    specialties: [
+      "Art History",
+      "Cultural Heritage",
+      "City Tours",
+      "Historical Tours",
+    ],
+    bio: "Zhang, a Beijing native, offers tours that explore the city’s rich art history, cultural heritage, and historical landmarks. He has a degree in Art History from Peking University and has worked as a tour guide for over nine years. Zhang combines his extensive knowledge of Beijing's art scene with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, cultural landmarks, and historical sites, providing guests with an immersive cultural journey.",
+    description:
+      "Zhang, a Beijing native, offers tours that explore the city’s rich art history, cultural heritage, and historical landmarks.",
+    quote:
+      "In Beijing, every street is a gallery, and every meal is a taste of the city’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Beijing",
+    country: "China",
+    name: "Li Na",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 7,
+    specialties: [
+      "Spiritual Heritage",
+      "Wellness Tours",
+      "Cultural Experiences",
+    ],
+    bio: "Li, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from Peking University and has worked as a tour guide for over seven years. Li combines her extensive knowledge of Beijing's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Li, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
+    quote:
+      "In Beijing, every moment is an opportunity for spiritual growth, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Tokyo",
+    country: "Japan",
+    name: "Yuki Nakamura",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Yuki, a Tokyo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Tokyo and has worked as a tour guide for over ten years. Yuki combines her extensive knowledge of Tokyo's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Yuki, a Tokyo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Tokyo, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Tokyo",
+    country: "Japan",
+    name: "Hiroshi Tanaka",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 9,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Hiroshi, a Tokyo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Tokyo and has worked as a tour guide for over nine years. Hiroshi combines his extensive knowledge of Tokyo's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Hiroshi, a Tokyo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Tokyo, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Xi'an",
+    country: "China",
+    name: "Wang Mei",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Wang Mei, a Xi'an native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Xi'an Jiaotong University and has worked as a tour guide for over eight years. Wang Mei combines her extensive knowledge of Xi'an's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Wang Mei, a Xi'an native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Xi'an, every street is a tapestry of culture, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Xi'an",
+    country: "China",
+    name: "Liang Chen",
+    languages: ["Mandarin", "English", "French"],
+    experienceYears: 7,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "Nature Tours"],
+    bio: "Liang Chen, a Xi'an native, offers culinary tours that explore the city’s rich culinary heritage, stunning landscapes, and cultural traditions. He has a degree in Culinary Arts from Xi'an Jiaotong University and has worked as a chef and tour guide for over seven years. Liang combines his extensive knowledge of Chinese cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Liang Chen, a Xi'an native, offers culinary tours that explore the city’s rich culinary heritage, stunning landscapes, and cultural traditions.",
+    quote:
+      "In Xi'an, every dish tells a story, and every meal is a taste of China’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cartagena",
+    country: "Colombia",
+    name: "Isabella Torres",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 6,
+    specialties: ["Historical Tours", "Cultural Heritage", "City Tours"],
+    bio: "Isabella, a Cartagena native, offers tours that explore the city’s rich history, cultural heritage, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Cartagena and has worked as a tour guide for over six years. Isabella combines her extensive knowledge of Cartagena's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Isabella, a Cartagena native, offers tours that explore the city’s rich history, cultural heritage, and vibrant neighborhoods.",
+    quote:
+      "In Cartagena, every street is a tapestry of culture, and every meal is a taste of Colombia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cartagena",
+    country: "Colombia",
+    name: "Carlos Mendoza",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 5,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Carlos, a Cartagena native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Cartagena and has worked as a chef and tour guide for over five years. Carlos combines his extensive knowledge of Colombian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Carlos, a Cartagena native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Cartagena, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cartagena",
+    country: "Colombia",
+    name: "Sofia Ramirez",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 7,
+    specialties: ["Spiritual Heritage", "Luxury Tours", "Cultural Experiences"],
+    bio: "Sofia, a Cartagena native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Cartagena and has worked as a tour guide for over seven years. Sofia combines her extensive knowledge of Cartagena's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sofia, a Cartagena native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Cartagena, every moment is an opportunity for spiritual growth, and every meal is a taste of Colombia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cartagena",
+    country: "Colombia",
+    name: "Andrés Gómez",
+    languages: ["Spanish", "English", "Portuguese"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Andrés, a Cartagena native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from the University of Cartagena and has worked as a tour guide for over eight years. Andrés combines his extensive knowledge of Cartagena's culture with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Andrés, a Cartagena native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Cartagena, every beat tells a story, and every meal is a taste of Colombia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zagreb",
+    country: "Croatia",
+    name: "Luka Novak",
+    languages: ["Croatian", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Luka, a Zagreb native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Zagreb and has worked as a tour guide for over six years. Luka combines his extensive knowledge of Zagreb's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Luka, a Zagreb native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Zagreb, every street is a tapestry of culture, and every meal is a taste of Croatia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zagreb",
+    country: "Croatia",
+    name: "Ana Petrović",
+    languages: ["Croatian", "English", "German"],
+    experienceYears: 5,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Ana, a Zagreb native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Zagreb and has worked as a chef and tour guide for over five years. Ana combines her extensive knowledge of Croatian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ana, a Zagreb native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Zagreb, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zagreb",
+    country: "Croatia",
+    name: "Marko Kovač",
+    languages: ["Croatian", "English", "German"],
+    experienceYears: 7,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Spiritual Tours",
+    ],
+    bio: "Marko, a Zagreb native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. He has a degree in Cultural Studies from the University of Zagreb and has worked as a tour guide for over seven years. Marko combines his extensive knowledge of Zagreb's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Marko, a Zagreb native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Zagreb, every moment is an opportunity for spiritual growth, and every meal is a taste of Croatia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zagreb",
+    country: "Croatia",
+    name: "Petra Horvat",
+    languages: ["Croatian", "English", "German"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Petra, a Zagreb native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture. She has a degree in Cultural Studies from the University of Zagreb and has worked as a tour guide for over eight years. Petra combines her extensive knowledge of Zagreb's culture with her passion for storytelling, making each tour a unique experience. Her tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Petra, a Zagreb native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Zagreb, every beat tells a story, and every meal is a taste of Croatia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Prague",
+    country: "Czech Republic",
+    name: "Jan Novak",
+    languages: ["Czech", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Jan, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Charles University and has worked as a tour guide for over six years. Jan combines his extensive knowledge of Prague's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Jan, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Prague, every street is a tapestry of culture, and every meal is a taste of the Czech Republic’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zanzibar",
+    country: "Tanzania",
+    name: "Amani Mwinyi",
+    languages: ["Swahili", "English", "French"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Amani, a Zanzibar native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Dar es Salaam and has worked as a tour guide for over seven years. Amani combines his extensive knowledge of Zanzibar's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Amani, a Zanzibar native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Zanzibar, every street is a tapestry of culture, and every meal is a taste of Africa’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zanzibar",
+    country: "Tanzania",
+    name: "Fatima Hassan",
+    languages: ["Swahili", "English", "French"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Fatima, a Zanzibar native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Dar es Salaam and has worked as a chef and tour guide for over six years. Fatima combines her extensive knowledge of Tanzanian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Fatima, a Zanzibar native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Zanzibar, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zanzibar",
+    country: "Tanzania",
+    name: "Juma Ali",
+    languages: ["Swahili", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Spiritual Heritage", "Luxury Tours", "Cultural Experiences"],
+    bio: "Juma, a Zanzibar native, offers tours that explore the island’s spiritual heritage, luxury experiences, and cultural traditions. He has a degree in Cultural Studies from the University of Dar es Salaam and has worked as a tour guide for over eight years. Juma combines his extensive knowledge of Zanzibar's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Juma, a Zanzibar native, offers tours that explore the island’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Zanzibar, every moment is an opportunity for spiritual growth, and every meal is a taste of Africa’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Zanzibar",
+    country: "Tanzania",
+    name: "Aisha Mwinyi",
+    languages: ["Swahili", "English", "French"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Aisha, a Zanzibar native, offers tours that delve into the island’s rich cultural heritage, vibrant art and music scene, and local culture. She has a degree in Cultural Studies from the University of Dar es Salaam and has worked as a tour guide for over five years. Aisha combines her extensive knowledge of Zanzibar's culture with her passion for storytelling, making each tour a unique experience. Her tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Aisha, a Zanzibar native, offers tours that delve into the island’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Zanzibar, every beat tells a story, and every meal is a taste of Africa’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    name: "Hana Suzuki",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Hana, a Kyoto native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Kyoto University and has worked as a tour guide for over ten years. Hana combines her extensive knowledge of Kyoto's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Hana, a Kyoto native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Kyoto, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    name: "Taro Yamamoto",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 9,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "Nature Tours"],
+    bio: "Taro, a Kyoto native, offers culinary tours that explore the city’s rich culinary heritage, stunning landscapes, and cultural traditions. He has a degree in Culinary Arts from Kyoto University and has worked as a chef and tour guide for over nine years. Taro combines his extensive knowledge of Japanese cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Taro, a Kyoto native, offers culinary tours that explore the city’s rich culinary heritage, stunning landscapes, and cultural traditions.",
+    quote:
+      "In Kyoto, every dish tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    name: "Sakura Tanaka",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Spiritual Heritage", "Luxury Tours", "Cultural Experiences"],
+    bio: "Sakura, a Kyoto native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from Kyoto University and has worked as a tour guide for over eight years. Sakura combines her extensive knowledge of Kyoto's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sakura, a Kyoto native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Kyoto, every moment is an opportunity for spiritual growth, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    name: "Kenji Sato",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Kenji, a Kyoto native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from Kyoto University and has worked as a tour guide for over seven years. Kenji combines his extensive knowledge of Kyoto's culture with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Kenji, a Kyoto native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Kyoto, every beat tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Copenhagen",
+    country: "Denmark",
+    name: "Freja Jensen",
+    languages: ["Danish", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Freja, a Copenhagen native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Copenhagen and has worked as a tour guide for over six years. Freja combines her extensive knowledge of Copenhagen's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Freja, a Copenhagen native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Copenhagen, every street is a tapestry of culture, and every meal is a taste of Denmark’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Copenhagen",
+    country: "Denmark",
+    name: "Lars Hansen",
+    languages: ["Danish", "English", "German"],
+    experienceYears: 5,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Local Culture",
+    ],
+    bio: "Lars, a Copenhagen native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Copenhagen and has worked as a chef and tour guide for over five years. Lars combines his extensive knowledge of Danish cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lars, a Copenhagen native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Copenhagen, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Copenhagen",
+    country: "Denmark",
+    name: "Astrid Sørensen",
+    languages: ["Danish", "English", "German"],
+    experienceYears: 7,
+    specialties: ["Spiritual Heritage", "Luxury Tours", "Cultural Experiences"],
+    bio: "Astrid, a Copenhagen native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Copenhagen and has worked as a tour guide for over seven years. Astrid combines her extensive knowledge of Copenhagen's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Astrid, a Copenhagen native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Copenhagen, every moment is an opportunity for spiritual growth, and every meal is a taste of Denmark’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Galapagos Islands",
+    country: "Ecuador",
+    name: "Diego Torres",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Nature Tours", "Wildlife Tours", "Adventure Tours"],
+    bio: "Diego, a Galapagos native, offers tours that explore the islands’ unique ecosystems, diverse wildlife, and stunning landscapes. He has a degree in Environmental Science from the University of San Francisco de Quito and has worked as a tour guide for over eight years. Diego combines his extensive knowledge of the Galapagos with his passion for conservation, making each tour an educational and immersive experience. His tours often include exclusive access to protected areas and wildlife encounters, providing guests with a unique perspective on the islands’ natural wonders.",
+    description:
+      "Diego, a Galapagos native, offers tours that explore the islands’ unique ecosystems, diverse wildlife, and stunning landscapes.",
+    quote:
+      "In the Galapagos, every moment is a chance to connect with nature, and every meal is a taste of Ecuador’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Galapagos Islands",
+    country: "Ecuador",
+    name: "Isabella Cruz",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Nature Tours", "Adventure Tours"],
+    bio: "Isabella, a Galapagos native, offers culinary tours that explore the islands’ rich culinary heritage, stunning landscapes, and adventure opportunities. She has a degree in Culinary Arts from the University of San Francisco de Quito and has worked as a chef and tour guide for over six years. Isabella combines her extensive knowledge of Ecuadorian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Isabella, a Galapagos native, offers culinary tours that explore the islands’ rich culinary heritage, stunning landscapes, and adventure opportunities.",
+    quote:
+      "In the Galapagos, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Galapagos Islands",
+    country: "Ecuador",
+    name: "Mateo Vargas",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 7,
+    specialties: ["Spiritual Heritage", "Luxury Tours", "Cultural Experiences"],
+    bio: "Mateo, a Galapagos native, offers tours that explore the islands’ spiritual heritage, luxury experiences, and cultural traditions. He has a degree in Cultural Studies from the University of San Francisco de Quito and has worked as a tour guide for over seven years. Mateo combines his extensive knowledge of the Galapagos' spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Mateo, a Galapagos native, offers tours that explore the islands’ spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In the Galapagos, every moment is an opportunity for spiritual growth, and every meal is a taste of Ecuador’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Galapagos Islands",
+    country: "Ecuador",
+    name: "Sofia Morales",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Sofia, a Galapagos native, offers tours that delve into the islands’ rich cultural heritage, vibrant art and music scene, and local culture. She has a degree in Cultural Studies from the University of San Francisco de Quito and has worked as a tour guide for over five years. Sofia combines her extensive knowledge of the Galapagos' culture with her passion for storytelling, making each tour a unique experience. Her tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sofia, a Galapagos native, offers tours that delve into the islands’ rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In the Galapagos, every beat tells a story, and every meal is a taste of Ecuador’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Buenos Aires",
+    country: "Argentina",
+    name: "Lucia Fernández",
+    languages: ["Spanish", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Lucia, a Buenos Aires native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Buenos Aires and has worked as a tour guide for over six years. Lucia combines her extensive knowledge of Buenos Aires' history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lucia, a Buenos Aires native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Buenos Aires, every street is a tapestry of culture, and every meal is a taste of Argentina’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
+    name: "Mikko Virtanen",
+    languages: ["Finnish", "English", "Swedish"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Mikko, a Helsinki native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Helsinki and has worked as a tour guide for over five years. Mikko combines his extensive knowledge of Helsinki's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Mikko, a Helsinki native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Helsinki, every street is a tapestry of culture, and every meal is a taste of Finland’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
+    name: "Sofia Laine",
+    languages: ["Finnish", "English", "Swedish"],
+    experienceYears: 7,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Luxury Tours",
+    ],
+    bio: "Sofia, a Helsinki native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Helsinki and has worked as a chef and tour guide for over seven years. Sofia combines her extensive knowledge of Finnish cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Sofia, a Helsinki native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Helsinki, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
+    name: "Jari Korhonen",
+    languages: ["Finnish", "English", "Swedish"],
+    experienceYears: 8,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Jari, a Helsinki native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. He has a degree in Cultural Studies from the University of Helsinki and has worked as a tour guide for over eight years. Jari combines his extensive knowledge of Helsinki's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Jari, a Helsinki native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Helsinki, every moment is an opportunity for spiritual growth, and every meal is a taste of Finland’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cannes",
+    country: "France",
+    name: "Claire Dubois",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Claire, a Cannes native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Nice and has worked as a tour guide for over six years. Claire combines her extensive knowledge of Cannes' history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Claire, a Cannes native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Cannes, every street is a tapestry of culture, and every meal is a taste of France’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cannes",
+    country: "France",
+    name: "Julien Moreau",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 5,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Julien, a Cannes native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Nice and has worked as a chef and tour guide for over five years. Julien combines his extensive knowledge of French cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Julien, a Cannes native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Cannes, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cannes",
+    country: "France",
+    name: "Isabelle Laurent",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 7,
+    specialties: ["Nightlife Tours", "Luxury Tours", "Cultural Experiences"],
+    bio: "Isabelle, a Cannes native, offers tours that explore the city’s vibrant nightlife, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Nice and has worked as a tour guide for over seven years. Isabelle combines her extensive knowledge of Cannes' nightlife with her love for storytelling, making each tour a unique experience. Her tours often include visits to exclusive clubs, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Isabelle, a Cannes native, offers tours that explore the city’s vibrant nightlife, luxury experiences, and cultural traditions.",
+    quote:
+      "In Cannes, every night is an opportunity for adventure, and every meal is a taste of France’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Cannes",
+    country: "France",
+    name: "Pierre Dupont",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 8,
+    specialties: [
+      "Cultural Heritage",
+      "Art and Music",
+      "Local Culture",
+      "Nightlife Tours",
+    ],
+    bio: "Pierre, a Cannes native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from the University of Nice and has worked as a tour guide for over eight years. Pierre combines his extensive knowledge of Cannes' culture with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Pierre, a Cannes native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Cannes, every beat tells a story, and every meal is a taste of France’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bora Bora",
+    country: "French Polynesia",
+    name: "Tiare Tehani",
+    languages: ["French", "English", "Polynesian"],
+    experienceYears: 6,
+    specialties: ["Nightlife Tours", "Luxury Tours", "Cultural Experiences"],
+    bio: "Tiare, a Bora Bora native, offers tours that explore the island’s vibrant nightlife, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of French Polynesia and has worked as a tour guide for over six years. Tiare combines her extensive knowledge of Bora Bora's nightlife with her love for storytelling, making each tour a unique experience. Her tours often include visits to exclusive clubs, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Tiare, a Bora Bora native, offers tours that explore the island’s vibrant nightlife, luxury experiences, and cultural traditions.",
+    quote:
+      "In Bora Bora, every night is an opportunity for adventure, and every meal is a taste of Polynesia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Svaneti Region",
+    country: "Georgia",
+    name: "Nino Kakhiani",
+    languages: ["Georgian", "English", "Russian"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Nino, a Svaneti native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Tbilisi State University and has worked as a tour guide for over seven years. Nino combines her extensive knowledge of Svaneti's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Nino, a Svaneti native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Svaneti, every street is a tapestry of culture, and every meal is a taste of Georgia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Svaneti Region",
+    country: "Georgia",
+    name: "Giorgi Kakhiani",
+    languages: ["Georgian", "English", "Russian"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Giorgi, a Svaneti native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from Tbilisi State University and has worked as a chef and tour guide for over six years. Giorgi combines his extensive knowledge of Georgian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Giorgi, a Svaneti native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Svaneti, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Svaneti Region",
+    country: "Georgia",
+    name: "Ana Kakhiani",
+    languages: ["Georgian", "English", "Russian"],
+    experienceYears: 8,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Ana, a Svaneti native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from Tbilisi State University and has worked as a tour guide for over eight years. Ana combines her extensive knowledge of Svaneti's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Ana, a Svaneti native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Svaneti, every moment is an opportunity for spiritual growth, and every meal is a taste of Georgia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Svaneti Region",
+    country: "Georgia",
+    name: "Levan Kakhiani",
+    languages: ["Georgian", "English", "Russian"],
+    experienceYears: 5,
+    specialties: [
+      "Cultural Heritage",
+      "Art and Music",
+      "Local Culture",
+      "Spiritual Tours",
+    ],
+    bio: "Levan, a Svaneti native, offers tours that delve into the region’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from Tbilisi State University and has worked as a tour guide for over five years. Levan combines his extensive knowledge of Svaneti's culture with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Levan, a Svaneti native, offers tours that delve into the region’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Svaneti, every beat tells a story, and every meal is a taste of Georgia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Elena Papadopoulos",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Elena, a Naxos native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Athens and has worked as a tour guide for over six years. Elena combines her extensive knowledge of Naxos' history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Elena, a Naxos native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Naxos, every street is a tapestry of culture, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Dimitris Georgiou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 5,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Dimitris, a Naxos native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Athens and has worked as a chef and tour guide for over five years. Dimitris combines his extensive knowledge of Greek cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Dimitris, a Naxos native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Naxos, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Sophia Papadopoulos",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 7,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Sophia, a Naxos native, offers tours that explore the island’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Athens and has worked as a tour guide for over seven years. Sophia combines her extensive knowledge of Naxos' spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sophia, a Naxos native, offers tours that explore the island’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Naxos, every moment is an opportunity for spiritual growth, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Andreas Georgiou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Andreas, a Naxos native, offers tours that delve into the island’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from the University of Athens and has worked as a tour guide for over eight years. Andreas combines his extensive knowledge of Naxos' culture with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Andreas, a Naxos native, offers tours that delve into the island’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Naxos, every beat tells a story, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kyoto",
+    country: "Japan",
+    name: "Hana Suzuki",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Hana, a Kyoto native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Kyoto University and has worked as a tour guide for over ten years. Hana combines her extensive knowledge of Kyoto's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Hana, a Kyoto native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Kyoto, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Athens",
+    country: "Greece",
+    name: "Dimitra Nikolaou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 9,
+    specialties: ["Art and Music", "Cultural Heritage", "Local Culture"],
+    bio: "Dimitra, an Athens native, offers tours that delve into the city’s rich art and music scene, cultural heritage, and local culture. She has a degree in Cultural Studies from the University of Athens and has worked as a tour guide for over nine years. Dimitra combines her extensive knowledge of Athens' culture with her passion for storytelling, making each tour a unique experience. Her tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Dimitra, an Athens native, offers tours that delve into the city’s rich art and music scene, cultural heritage, and local culture.",
+    quote:
+      "In Athens, every beat tells a story, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Athens",
+    country: "Greece",
+    name: "Alexandros Papadopoulos",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 8,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Alexandros, an Athens native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Athens and has worked as a tour guide for over eight years. Alexandros combines his extensive knowledge of Greece's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Greece’s natural wonders.",
+    description:
+      "Alexandros, an Athens native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Athens, every moment is a chance to connect with nature, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Piraeus",
+    country: "Greece",
+    name: "Maria Konstantinou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 7,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Maria, a Piraeus native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Athens and has worked as a chef and tour guide for over seven years. Maria combines her extensive knowledge of Greek cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Maria, a Piraeus native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Piraeus, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Thessaloniki",
+    country: "Greece",
+    name: "Ioannis Papadakis",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Ioannis, a Thessaloniki native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Thessaloniki and has worked as a chef and tour guide for over six years. Ioannis combines his extensive knowledge of Greek cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ioannis, a Thessaloniki native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Thessaloniki, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Thessaloniki",
+    country: "Greece",
+    name: "Elena Georgiou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 5,
+    specialties: ["Historical Tours", "Local Culture"],
+    bio: "Elena, a Thessaloniki native, offers tours that explore the city’s rich historical landmarks, local culture, and vibrant neighborhoods. She has a degree in History from the University of Thessaloniki and has worked as a tour guide for over five years. Elena combines her extensive knowledge of Thessaloniki's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Elena, a Thessaloniki native, offers tours that explore the city’s rich historical landmarks, local culture, and vibrant neighborhoods.",
+    quote:
+      "In Thessaloniki, every street is a tapestry of culture, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Budapest",
+    country: "Hungary",
+    name: "Zoltán Kovács",
+    languages: ["Hungarian", "English", "German"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Zoltán, a Budapest native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Eötvös Loránd University and has worked as a tour guide for over eight years. Zoltán combines his extensive knowledge of Budapest's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Zoltán, a Budapest native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Budapest, every street is a tapestry of culture, and every meal is a taste of Hungary’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Budapest",
+    country: "Hungary",
+    name: "Eszter Nagy",
+    languages: ["Hungarian", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Eszter, a Budapest native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from Eötvös Loránd University and has worked as a chef and tour guide for over six years. Eszter combines her extensive knowledge of Hungarian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Eszter, a Budapest native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Budapest, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Budapest",
+    country: "Hungary",
+    name: "Gábor Varga",
+    languages: ["Hungarian", "English", "German"],
+    experienceYears: 7,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Gábor, a Budapest native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions. He has a degree in Cultural Studies from Eötvös Loránd University and has worked as a tour guide for over seven years. Gábor combines his extensive knowledge of Budapest's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Gábor, a Budapest native, offers tours that explore the city’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Budapest, every moment is an opportunity for spiritual growth, and every meal is a taste of Hungary’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Budapest",
+    country: "Hungary",
+    name: "Katalin Szabó",
+    languages: ["Hungarian", "English", "German"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
+    bio: "Katalin, a Budapest native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture. She has a degree in Cultural Studies from Eötvös Loránd University and has worked as a tour guide for over five years. Katalin combines her extensive knowledge of Budapest's culture with her passion for storytelling, making each tour a unique experience. Her tours often include visits to art galleries, music venues, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Katalin, a Budapest native, offers tours that delve into the city’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Budapest, every beat tells a story, and every meal is a taste of Hungary’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Budapest",
+    country: "Hungary",
+    name: "László Kovács",
+    languages: ["Hungarian", "English", "German"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Nightlife Tours",
+    ],
+    bio: "László, a Budapest native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from Eötvös Loránd University and has worked as a tour guide for over nine years. László combines his extensive knowledge of Hungary's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Hungary’s natural wonders.",
+    description:
+      "László, a Budapest native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Budapest, every moment is a chance to connect with nature, and every meal is a taste of Hungary’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Prague",
+    country: "Czech Republic",
+    name: "Petra Nováková",
+    languages: ["Czech", "English", "German"],
+    experienceYears: 9,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Petra, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Charles University and has worked as a tour guide for over nine years. Petra combines her extensive knowledge of Prague's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Petra, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Prague, every street is a tapestry of culture, and every meal is a taste of the Czech Republic’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Prague",
+    country: "Czech Republic",
+    name: "Lukáš Horák",
+    languages: ["Czech", "English", "German"],
+    experienceYears: 8,
+    specialties: ["Nightlife Tours", "Adventure Tours", "Cultural Experiences"],
+    bio: "Lukáš, a Prague native, offers tours that explore the city’s vibrant nightlife, adventure opportunities, and cultural experiences. He has a degree in Environmental Science from Charles University and has worked as a tour guide for over eight years. Lukáš combines his extensive knowledge of Prague's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on the Czech Republic’s natural wonders.",
+    description:
+      "Lukáš, a Prague native, offers tours that explore the city’s vibrant nightlife, adventure opportunities, and cultural experiences.",
+    quote:
+      "In Prague, every moment is a chance to connect with nature, and every meal is a taste of the Czech Republic’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bandipur",
+    country: "Nepal",
+    name: "Anita Gurung",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 7,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Anita, a Bandipur native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from Tribhuvan University and has worked as a tour guide for over seven years. Anita combines her extensive knowledge of Nepal's natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Nepal’s natural wonders.",
+    description:
+      "Anita, a Bandipur native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Bandipur, every moment is a chance to connect with nature, and every meal is a taste of Nepal’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bandipur",
+    country: "Nepal",
+    name: "Rajesh Thapa",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Rajesh, a Bandipur native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Tribhuvan University and has worked as a tour guide for over six years. Rajesh combines his extensive knowledge of Bandipur's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Rajesh, a Bandipur native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Bandipur, every street is a tapestry of culture, and every meal is a taste of Nepal’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bandipur",
+    country: "Nepal",
+    name: "Sita Rai",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 5,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Sita, a Bandipur native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from Tribhuvan University and has worked as a chef and tour guide for over five years. Sita combines her extensive knowledge of Nepali cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Sita, a Bandipur native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Bandipur, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Coorg",
+    country: "India",
+    name: "Arjun Rao",
+    languages: ["Kannada", "English", "Hindi"],
+    experienceYears: 8,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Arjun, a Coorg native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Mysore and has worked as a tour guide for over eight years. Arjun combines his extensive knowledge of Coorg's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    description:
+      "Arjun, a Coorg native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Coorg, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Coorg",
+    country: "India",
+    name: "Lakshmi Nair",
+    languages: ["Kannada", "English", "Hindi"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Lakshmi, a Coorg native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Mysore and has worked as a tour guide for over seven years. Lakshmi combines her extensive knowledge of Coorg's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lakshmi, a Coorg native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Coorg, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Coorg",
+    country: "India",
+    name: "Ravi Kumar",
+    languages: ["Kannada", "English", "Hindi"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Ravi, a Coorg native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Mysore and has worked as a chef and tour guide for over six years. Ravi combines his extensive knowledge of Indian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ravi, a Coorg native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Coorg, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Coorg",
+    country: "India",
+    name: "Anjali Rao",
+    languages: ["Kannada", "English", "Hindi"],
+    experienceYears: 5,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Anjali, a Coorg native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Mysore and has worked as a tour guide for over five years. Anjali combines her extensive knowledge of Coorg's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Anjali, a Coorg native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Coorg, every moment is an opportunity for spiritual growth, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fort Kochi",
+    country: "India",
+    name: "Vikram Menon",
+    languages: ["Malayalam", "English", "Hindi"],
+    experienceYears: 9,
+    specialties: [
+      "Cultural Heritage",
+      "Historical Tours",
+      "City Tours",
+      "Luxury Tours",
+    ],
+    bio: "Vikram, a Fort Kochi native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Kerala and has worked as a tour guide for over nine years. Vikram combines his extensive knowledge of Fort Kochi's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Vikram, a Fort Kochi native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Fort Kochi, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fort Kochi",
+    country: "India",
+    name: "Lakshmi Nair",
+    languages: ["Malayalam", "English", "Hindi"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Lakshmi, a Fort Kochi native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Kerala and has worked as a chef and tour guide for over eight years. Lakshmi combines her extensive knowledge of Indian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lakshmi, a Fort Kochi native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Fort Kochi, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fort Kochi",
+    country: "India",
+    name: "Rajesh Kumar",
+    languages: ["Malayalam", "English", "Hindi"],
+    experienceYears: 7,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Luxury Tours",
+    ],
+    bio: "Rajesh, a Fort Kochi native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Kerala and has worked as a tour guide for over seven years. Rajesh combines his extensive knowledge of India’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    description:
+      "Rajesh, a Fort Kochi native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Fort Kochi, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fort Kochi",
+    country: "India",
+    name: "Anjali Menon",
+    languages: ["Malayalam", "English", "Hindi"],
+    experienceYears: 6,
+    specialties: [
+      "Spiritual Heritage",
+      "Luxury Tours",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Anjali, a Fort Kochi native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Kerala and has worked as a tour guide for over six years. Anjali combines her extensive knowledge of Fort Kochi's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Anjali, a Fort Kochi native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Fort Kochi, every moment is an opportunity for spiritual growth, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Leh",
+    country: "India",
+    name: "Tashi Dolma",
+    languages: ["Ladakhi", "Hindi", "English"],
+    experienceYears: 10,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Tashi, a Leh native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the University of Jammu and has worked as a tour guide for over ten years. Tashi combines her extensive knowledge of Ladakh's natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    description:
+      "Tashi, a Leh native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Leh, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Leh",
+    country: "India",
+    name: "Lobsang Tsering",
+    languages: ["Ladakhi", "Hindi", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Cultural Heritage",
+      "Historical Tours",
+      "City Tours",
+      "Luxury Tours",
+    ],
+    bio: "Lobsang, a Leh native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Jammu and has worked as a tour guide for over nine years. Lobsang combines his extensive knowledge of Ladakh's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lobsang, a Leh native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Leh, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Leh",
+    country: "India",
+    name: "Sonam Dolma",
+    languages: ["Ladakhi", "Hindi", "English"],
+    experienceYears: 8,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Sonam, a Leh native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions. She has a degree in Cultural Studies from the University of Jammu and has worked as a tour guide for over eight years. Sonam combines her extensive knowledge of Ladakh's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, luxury accommodations, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sonam, a Leh native, offers tours that explore the region’s spiritual heritage, luxury experiences, and cultural traditions.",
+    quote:
+      "In Leh, every moment is an opportunity for spiritual growth, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Leh",
+    country: "India",
+    name: "Tenzin Norbu",
+    languages: ["Ladakhi", "Hindi", "English"],
+    experienceYears: 7,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Tenzin, a Leh native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Jammu and has worked as a chef and tour guide for over seven years. Tenzin combines his extensive knowledge of Indian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Tenzin, a Leh native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Leh, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Hanoi",
+    country: "Vietnam",
+    name: "Nguyen Thi Mai",
+    languages: ["Vietnamese", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Nguyen, a Hanoi native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Hanoi and has worked as a tour guide for over ten years. Nguyen combines her extensive knowledge of Hanoi's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Nguyen, a Hanoi native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Hanoi, every street is a tapestry of culture, and every meal is a taste of Vietnam’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jaipur",
+    country: "India",
+    name: "Rajesh Sharma",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 12,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Rajesh, a Jaipur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Rajasthan and has worked as a tour guide for over twelve years. Rajesh combines his extensive knowledge of Jaipur's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Rajesh, a Jaipur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Jaipur, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jaipur",
+    country: "India",
+    name: "Anjali Singh",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 10,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Anjali, a Jaipur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Rajasthan and has worked as a chef and tour guide for over ten years. Anjali combines her extensive knowledge of Indian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Anjali, a Jaipur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Jaipur, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jaipur",
+    country: "India",
+    name: "Vikram Mehta",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 8,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Vikram, a Jaipur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Rajasthan and has worked as a tour guide for over eight years. Vikram combines his extensive knowledge of India’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    description:
+      "Vikram, a Jaipur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Jaipur, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Udaipur",
+    country: "India",
+    name: "Meera Rathore",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 9,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Meera, an Udaipur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Rajasthan and has worked as a tour guide for over nine years. Meera combines her extensive knowledge of Udaipur's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Meera, an Udaipur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Udaipur, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Udaipur",
+    country: "India",
+    name: "Arjun Singh",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 11,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Arjun, an Udaipur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Rajasthan and has worked as a chef and tour guide for over eleven years. Arjun combines his extensive knowledge of Indian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Arjun, an Udaipur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Udaipur, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Udaipur",
+    country: "India",
+    name: "Rani Mehta",
+    languages: ["Hindi", "English", "Rajasthani"],
+    experienceYears: 8,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Rani, an Udaipur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the University of Rajasthan and has worked as a tour guide for over eight years. Rani combines her extensive knowledge of India’s natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    description:
+      "Rani, an Udaipur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Udaipur, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bali",
+    country: "Indonesia",
+    name: "Made Wijaya",
+    languages: ["Balinese", "Indonesian", "English"],
+    experienceYears: 15,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Made, a Bali native, offers tours that explore the island’s spiritual heritage, cultural traditions, and wellness experiences. He has a degree in Cultural Studies from Udayana University and has worked as a tour guide for over fifteen years. Made combines his extensive knowledge of Balinese spirituality with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Made, a Bali native, offers tours that explore the island’s spiritual heritage, cultural traditions, and wellness experiences.",
+    quote:
+      "In Bali, every moment is an opportunity for spiritual growth, and every meal is a taste of Indonesia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Denpasar",
+    country: "Indonesia",
+    name: "Nyoman Sari",
+    languages: ["Balinese", "Indonesian", "English"],
+    experienceYears: 12,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Nyoman, a Denpasar native, offers tours that explore the island’s spiritual heritage, cultural traditions, and wellness experiences. She has a degree in Cultural Studies from Udayana University and has worked as a tour guide for over twelve years. Nyoman combines her extensive knowledge of Balinese spirituality with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Nyoman, a Denpasar native, offers tours that explore the island’s spiritual heritage, cultural traditions, and wellness experiences.",
+    quote:
+      "In Denpasar, every moment is an opportunity for spiritual growth, and every meal is a taste of Indonesia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Denpasar",
+    country: "Indonesia",
+    name: "Ketut Adi",
+    languages: ["Balinese", "Indonesian", "English"],
+    experienceYears: 10,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Ketut, a Denpasar native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from Udayana University and has worked as a chef and tour guide for over ten years. Ketut combines his extensive knowledge of Indonesian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ketut, a Denpasar native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Denpasar, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Matera",
+    country: "Italy",
+    name: "Giovanni Rossi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Giovanni, a Matera native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Bari and has worked as a tour guide for over ten years. Giovanni combines his extensive knowledge of Matera's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Giovanni, a Matera native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Matera, every street is a tapestry of culture, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Matera",
+    country: "Italy",
+    name: "Francesca Bianchi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Francesca, a Matera native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Bari and has worked as a chef and tour guide for over eight years. Francesca combines her extensive knowledge of Italian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Francesca, a Matera native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Matera, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bologna",
+    country: "Italy",
+    name: "Marco Conti",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 12,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Marco, a Bologna native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Bologna and has worked as a tour guide for over twelve years. Marco combines his extensive knowledge of Bologna's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Marco, a Bologna native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Bologna, every street is a tapestry of culture, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bologna",
+    country: "Italy",
+    name: "Elena Rossi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 9,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Elena, a Bologna native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Bologna and has worked as a chef and tour guide for over nine years. Elena combines her extensive knowledge of Italian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Elena, a Bologna native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Bologna, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Florence",
+    country: "Italy",
+    name: "Lorenzo Bianchi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 14,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Lorenzo, a Florence native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Florence and has worked as a tour guide for over fourteen years. Lorenzo combines his extensive knowledge of Florence's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lorenzo, a Florence native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Florence, every street is a tapestry of culture, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bologna",
+    country: "Italy",
+    name: "Giulia Conti",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 11,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Giulia, a Bologna native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences. She has a degree in Cultural Studies from the University of Bologna and has worked as a tour guide for over eleven years. Giulia combines her extensive knowledge of Bologna's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Giulia, a Bologna native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences.",
+    quote:
+      "In Bologna, every moment is an opportunity for spiritual growth, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Tuscany",
+    country: "Italy",
+    name: "Alessandro Rossi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 13,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Alessandro, a Tuscany native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of Florence and has worked as a chef and tour guide for over thirteen years. Alessandro combines his extensive knowledge of Italian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Alessandro, a Tuscany native, offers culinary tours that explore the region’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Tuscany, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Tuscany",
+    country: "Italy",
+    name: "Sofia Bianchi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Sofia, a Tuscany native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the University of Florence and has worked as a tour guide for over ten years. Sofia combines her extensive knowledge of Italy’s natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Italy’s natural wonders.",
+    description:
+      "Sofia, a Tuscany native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Tuscany, every moment is a chance to connect with nature, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Venice",
+    country: "Italy",
+    name: "Marco Bellini",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 15,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Marco, a Venice native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Venice and has worked as a tour guide for over fifteen years. Marco combines his extensive knowledge of Venice's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Marco, a Venice native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Venice, every street is a tapestry of culture, and every meal is a taste of Italy’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Hiroshi Tanaka",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Hiroshi, a Shirakawa-go native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and traditional architecture. He has a degree in Cultural Studies from the University of Kanazawa and has worked as a tour guide for over ten years. Hiroshi combines his extensive knowledge of Shirakawa-go's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Hiroshi, a Shirakawa-go native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and traditional architecture.",
+    quote:
+      "In Shirakawa-go, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Yuki Nakamura",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Yuki, a Shirakawa-go native, offers culinary tours that explore the village’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Kanazawa and has worked as a chef and tour guide for over eight years. Yuki combines her extensive knowledge of Japanese cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Yuki, a Shirakawa-go native, offers culinary tours that explore the village’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Shirakawa-go, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Taro Suzuki",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 12,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Taro, a Shirakawa-go native, offers tours that explore the village’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Kanazawa and has worked as a tour guide for over twelve years. Taro combines his extensive knowledge of Japan’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Japan’s natural wonders.",
+    description:
+      "Taro, a Shirakawa-go native, offers tours that explore the village’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Shirakawa-go, every moment is a chance to connect with nature, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Sakura Watanabe",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 9,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Sakura, a Shirakawa-go native, offers tours that explore the village’s spiritual heritage, cultural traditions, and wellness experiences. She has a degree in Cultural Studies from the University of Kanazawa and has worked as a tour guide for over nine years. Sakura combines her extensive knowledge of Shirakawa-go's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Sakura, a Shirakawa-go native, offers tours that explore the village’s spiritual heritage, cultural traditions, and wellness experiences.",
+    quote:
+      "In Shirakawa-go, every moment is an opportunity for spiritual growth, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Takayama",
+    country: "Japan",
+    name: "Kenji Yamamoto",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 11,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Kenji, a Takayama native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Gifu and has worked as a tour guide for over eleven years. Kenji combines his extensive knowledge of Takayama's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Kenji, a Takayama native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Takayama, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Takayama",
+    country: "Japan",
+    name: "Aiko Suzuki",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 9,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Aiko, a Takayama native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Gifu and has worked as a chef and tour guide for over nine years. Aiko combines her extensive knowledge of Japanese cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Aiko, a Takayama native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Takayama, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    name: "Azlan Rahman",
+    languages: ["Malay", "English", "Mandarin"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Azlan, a Kuala Lumpur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Malaya and has worked as a tour guide for over ten years. Azlan combines his extensive knowledge of Kuala Lumpur's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Azlan, a Kuala Lumpur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Kuala Lumpur, every street is a tapestry of culture, and every meal is a taste of Malaysia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    name: "Siti Nurhaliza",
+    languages: ["Malay", "English", "Mandarin"],
+    experienceYears: 8,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Siti, a Kuala Lumpur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Malaya and has worked as a chef and tour guide for over eight years. Siti combines her extensive knowledge of Malaysian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Siti, a Kuala Lumpur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Kuala Lumpur, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    name: "Ravi Kumar",
+    languages: ["Malay", "English", "Tamil"],
+    experienceYears: 9,
+    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
+    bio: "Ravi, a Kuala Lumpur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Malaya and has worked as a tour guide for over nine years. Ravi combines his extensive knowledge of Malaysia’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Malaysia’s natural wonders.",
+    description:
+      "Ravi, a Kuala Lumpur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Kuala Lumpur, every moment is a chance to connect with nature, and every meal is a taste of Malaysia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    name: "Farah Aziz",
+    languages: ["Malay", "English", "Mandarin"],
+    experienceYears: 11,
+    specialties: [
+      "Spiritual Heritage",
+      "Cultural Experiences",
+      "Wellness Tours",
+    ],
+    bio: "Farah, a Kuala Lumpur native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences. She has a degree in Cultural Studies from the University of Malaya and has worked as a tour guide for over eleven years. Farah combines her extensive knowledge of Kuala Lumpur's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Farah, a Kuala Lumpur native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences.",
+    quote:
+      "In Kuala Lumpur, every moment is an opportunity for spiritual growth, and every meal is a taste of Malaysia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    name: "Aminah Ismail",
+    languages: ["Malay", "English", "Mandarin"],
+    experienceYears: 7,
+    specialties: [
+      "Nightlife Tours",
+      "Cultural Experiences",
+      "City Tours",
+      "Luxury Tours",
+    ],
+    bio: "Aminah, a Kuala Lumpur native, offers tours that explore the city’s vibrant nightlife, cultural experiences, and luxury offerings. She has a degree in Hospitality Management from the University of Malaya and has worked as a tour guide for over seven years. Aminah combines her extensive knowledge of Kuala Lumpur's nightlife with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nightlife hotspots, cultural experiences, and luxury offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Aminah, a Kuala Lumpur native, offers tours that explore the city’s vibrant nightlife, cultural experiences, and luxury offerings.",
+    quote:
+      "In Kuala Lumpur, every night is a celebration of culture, and every meal is a taste of Malaysia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Malta",
+    country: "Malta",
+    name: "Giovanni Caruana",
+    languages: ["Maltese", "English", "Italian"],
+    experienceYears: 10,
+    specialties: [
+      "Cultural Heritage",
+      "Historical Tours",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Giovanni, a Malta native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Malta and has worked as a tour guide for over ten years. Giovanni combines his extensive knowledge of Malta's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Giovanni, a Malta native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Malta, every street is a tapestry of culture, and every meal is a taste of the Mediterranean’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Malta",
+    country: "Malta",
+    name: "Maria Grech",
+    languages: ["Maltese", "English", "Italian"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Maria, a Malta native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Malta and has worked as a chef and tour guide for over eight years. Maria combines her extensive knowledge of Mediterranean cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Maria, a Malta native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Malta, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mexico City",
+    country: "Mexico",
+    name: "Carlos Mendoza",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 12,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Carlos, a Mexico City native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the National Autonomous University of Mexico and has worked as a tour guide for over twelve years. Carlos combines his extensive knowledge of Mexico City's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Carlos, a Mexico City native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Mexico City, every street is a tapestry of culture, and every meal is a taste of Mexico’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mexico City",
+    country: "Mexico",
+    name: "Isabella Torres",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 9,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Wellness Tours",
+    ],
+    bio: "Isabella, a Mexico City native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the National Autonomous University of Mexico and has worked as a chef and tour guide for over nine years. Isabella combines her extensive knowledge of Mexican cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Isabella, a Mexico City native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Mexico City, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Casablanca",
+    country: "Morocco",
+    name: "Youssef El Amrani",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Youssef, a Casablanca native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Hassan II University and has worked as a tour guide for over ten years. Youssef combines his extensive knowledge of Casablanca's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Youssef, a Casablanca native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Casablanca, every street is a tapestry of culture, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Casablanca",
+    country: "Morocco",
+    name: "Fatima Zahra",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Fatima, a Casablanca native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from Hassan II University and has worked as a chef and tour guide for over eight years. Fatima combines her extensive knowledge of Moroccan cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Fatima, a Casablanca native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Casablanca, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Casablanca",
+    country: "Morocco",
+    name: "Ahmed El Idrissi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Spiritual Heritage",
+    ],
+    bio: "Ahmed, a Casablanca native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from Hassan II University and has worked as a tour guide for over nine years. Ahmed combines his extensive knowledge of Morocco’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Morocco’s natural wonders.",
+    description:
+      "Ahmed, a Casablanca native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Casablanca, every moment is a chance to connect with nature, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Casablanca",
+    country: "Morocco",
+    name: "Amina El Fassi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 7,
+    specialties: [
+      "Art and Culture",
+      "Cultural Experiences",
+      "Historical Tours",
+      "Luxury Tours",
+    ],
+    bio: "Amina, a Casablanca native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings. She has a degree in Art History from Hassan II University and has worked as a tour guide for over seven years. Amina combines her extensive knowledge of Casablanca's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to art galleries, cultural experiences, and luxury offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Amina, a Casablanca native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings.",
+    quote:
+      "In Casablanca, every night is a celebration of culture, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Ouarzazate",
+    country: "Morocco",
+    name: "Rachid El Khatib",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 11,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Rachid, a Ouarzazate native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Ibn Zohr University and has worked as a tour guide for over eleven years. Rachid combines his extensive knowledge of Ouarzazate's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Rachid, a Ouarzazate native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Ouarzazate, every street is a tapestry of culture, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Ouarzazate",
+    country: "Morocco",
+    name: "Leila Boussif",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Leila, a Ouarzazate native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from Ibn Zohr University and has worked as a chef and tour guide for over nine years. Leila combines her extensive knowledge of Moroccan cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Leila, a Ouarzazate native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Ouarzazate, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Ouarzazate",
+    country: "Morocco",
+    name: "Hassan El Idrissi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 10,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Spiritual Heritage",
+    ],
+    bio: "Hassan, a Ouarzazate native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from Ibn Zohr University and has worked as a tour guide for over ten years. Hassan combines his extensive knowledge of Morocco’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Morocco’s natural wonders.",
+    description:
+      "Hassan, a Ouarzazate native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Ouarzazate, every moment is a chance to connect with nature, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Ouarzazate",
+    country: "Morocco",
+    name: "Samira El Fassi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 8,
+    specialties: [
+      "Art and Culture",
+      "Cultural Experiences",
+      "Historical Tours",
+      "Luxury Tours",
+    ],
+    bio: "Samira, a Ouarzazate native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings. She has a degree in Art History from Ibn Zohr University and has worked as a tour guide for over eight years. Samira combines her extensive knowledge of Ouarzazate's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to art galleries, cultural experiences, and luxury offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Samira, a Ouarzazate native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings.",
+    quote:
+      "In Ouarzazate, every night is a celebration of culture, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Chefchaouen",
+    country: "Morocco",
+    name: "Omar El Jaziri",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Omar, a Chefchaouen native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Abdelmalek Essaadi University and has worked as a tour guide for over ten years. Omar combines his extensive knowledge of Chefchaouen's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Omar, a Chefchaouen native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Chefchaouen, every street is a tapestry of culture, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Chefchaouen",
+    country: "Morocco",
+    name: "Layla El Fassi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Layla, a Chefchaouen native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from Abdelmalek Essaadi University and has worked as a chef and tour guide for over eight years. Layla combines her extensive knowledge of Moroccan cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Layla, a Chefchaouen native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Chefchaouen, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Chefchaouen",
+    country: "Morocco",
+    name: "Youssef El Idrissi",
+    languages: ["Arabic", "French", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Spiritual Heritage",
+    ],
+    bio: "Youssef, a Chefchaouen native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from Abdelmalek Essaadi University and has worked as a tour guide for over nine years. Youssef combines his extensive knowledge of Morocco’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Morocco’s natural wonders.",
+    description:
+      "Youssef, a Chefchaouen native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Chefchaouen, every moment is a chance to connect with nature, and every meal is a taste of Morocco’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bhaktapur",
+    country: "Nepal",
+    name: "Anita Sharma",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Anita, a Bhaktapur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Tribhuvan University and has worked as a tour guide for over ten years. Anita combines her extensive knowledge of Bhaktapur's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Anita, a Bhaktapur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Bhaktapur, every street is a tapestry of culture, and every meal is a taste of Nepal’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bhaktapur",
+    country: "Nepal",
+    name: "Rajesh Thapa",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Rajesh, a Bhaktapur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from Tribhuvan University and has worked as a chef and tour guide for over eight years. Rajesh combines his extensive knowledge of Nepali cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Rajesh, a Bhaktapur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Bhaktapur, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bhaktapur",
+    country: "Nepal",
+    name: "Sita Gurung",
+    languages: ["Nepali", "English", "Hindi"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Spiritual Heritage",
+    ],
+    bio: "Sita, a Bhaktapur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from Tribhuvan University and has worked as a tour guide for over nine years. Sita combines her extensive knowledge of Nepal’s natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Nepal’s natural wonders.",
+    description:
+      "Sita, a Bhaktapur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Bhaktapur, every moment is a chance to connect with nature, and every meal is a taste of Nepal’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Oslo",
+    country: "Norway",
+    name: "Erik Hansen",
+    languages: ["Norwegian", "English", "German"],
+    experienceYears: 10,
+    specialties: [
+      "Cultural Heritage",
+      "Historical Tours",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Erik, an Oslo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Oslo and has worked as a tour guide for over ten years. Erik combines his extensive knowledge of Oslo's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Erik, an Oslo native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Oslo, every street is a tapestry of culture, and every meal is a taste of Norway’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Oslo",
+    country: "Norway",
+    name: "Ingrid Larsen",
+    languages: ["Norwegian", "English", "German"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Ingrid, an Oslo native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the Norwegian School of Hotel Management and has worked as a chef and tour guide for over eight years. Ingrid combines her extensive knowledge of Norwegian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ingrid, an Oslo native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Oslo, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bali",
+    country: "Indonesia",
+    name: "Putri Wulandari",
+    languages: ["Indonesian", "English", "Balinese"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Putri, a Bali native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Udayana University and has worked as a tour guide for over ten years. Putri combines her extensive knowledge of Bali's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Putri, a Bali native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Bali, every street is a tapestry of culture, and every meal is a taste of Indonesia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bali",
+    country: "Indonesia",
+    name: "Budi Santoso",
+    languages: ["Indonesian", "English", "Balinese"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Spiritual Heritage",
+    ],
+    bio: "Budi, a Bali native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from Udayana University and has worked as a chef and tour guide for over eight years. Budi combines his extensive knowledge of Indonesian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Budi, a Bali native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Bali, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Bali",
+    country: "Indonesia",
+    name: "Sari Dewi",
+    languages: ["Indonesian", "English", "Balinese"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Local Experiences",
+    ],
+    bio: "Sari, a Bali native, offers tours that explore the island’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from Udayana University and has worked as a tour guide for over nine years. Sari combines her extensive knowledge of Bali’s natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Bali’s natural wonders.",
+    description:
+      "Sari, a Bali native, offers tours that explore the island’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Bali, every moment is a chance to connect with nature, and every meal is a taste of Indonesia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fiji",
+    country: "Fiji",
+    name: "Lani Tui",
+    languages: ["Fijian", "English", "Hindi"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Lani, a Fiji native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of the South Pacific and has worked as a tour guide for over ten years. Lani combines her extensive knowledge of Fiji's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Lani, a Fiji native, offers tours that explore the island’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Fiji, every street is a tapestry of culture, and every meal is a taste of the Pacific’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Fiji",
+    country: "Fiji",
+    name: "Ravi Kumar",
+    languages: ["Fijian", "English", "Hindi"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Luxury Tours",
+      "Cultural Heritage",
+      "Adventure Tours",
+    ],
+    bio: "Ravi, a Fiji native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the University of the South Pacific and has worked as a chef and tour guide for over eight years. Ravi combines his extensive knowledge of Fijian cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ravi, a Fiji native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Fiji, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Miloš Petrović",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Miloš, a Belgrade native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Belgrade and has worked as a tour guide for over ten years. Miloš combines his extensive knowledge of Belgrade's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Miloš, a Belgrade native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Belgrade, every street is a tapestry of culture, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Ana Jovanović",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Ana, a Belgrade native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Belgrade and has worked as a chef and tour guide for over eight years. Ana combines her extensive knowledge of Serbian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ana, a Belgrade native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Belgrade, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Marko Stojanović",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Local Experiences",
+    ],
+    bio: "Marko, a Belgrade native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Belgrade and has worked as a tour guide for over nine years. Marko combines his extensive knowledge of Serbia’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Serbia’s natural wonders.",
+    description:
+      "Marko, a Belgrade native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Belgrade, every moment is a chance to connect with nature, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Milena Đorđević",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 9,
+    specialties: [
+      "Romantic Tours",
+      "Cultural Experiences",
+      "Nightlife Tours",
+      "Luxury Tours",
+    ],
+    bio: "Milena, a Belgrade native, offers tours that explore the city’s romantic spots, cultural experiences, and nightlife. She has a degree in Cultural Studies from the University of Belgrade and has worked as a tour guide for over nine years. Milena combines her extensive knowledge of Belgrade's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to romantic spots, cultural experiences, and nightlife offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Milena, a Belgrade native, offers tours that explore the city’s romantic spots, cultural experiences, and nightlife.",
+    quote:
+      "In Belgrade, every night is a celebration of love, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Vladimir Janković",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 6,
+    specialties: ["Adventure Tours", "Spiritual Heritage", "Romantic Tours"],
+    bio: "Vladimir, a Belgrade native, offers tours that explore the city’s adventure opportunities, spiritual heritage, and romantic spots. He has a degree in Environmental Science from the University of Belgrade and has worked as a tour guide for over six years. Vladimir combines his extensive knowledge of Serbia’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Serbia’s natural wonders.",
+    description:
+      "Vladimir, a Belgrade native, offers tours that explore the city’s adventure opportunities, spiritual heritage, and romantic spots.",
+    quote:
+      "In Belgrade, every moment is a chance to connect with nature, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Milica Petrović",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 5,
+    specialties: [
+      "Art and Culture",
+      "Cultural Experiences",
+      "Historical Tours",
+      "Local Experiences",
+    ],
+    bio: "Milica, a Belgrade native, offers tours that explore the city’s vibrant art scene, cultural experiences, and local offerings. She has a degree in Art History from the University of Belgrade and has worked as a tour guide for over five years. Milica combines her extensive knowledge of Belgrade's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to art galleries, cultural experiences, and local offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Milica, a Belgrade native, offers tours that explore the city’s vibrant art scene, cultural experiences, and local offerings.",
+    quote:
+      "In Belgrade, every night is a celebration of culture, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Belgrade",
+    country: "Serbia",
+    name: "Jelena Marković",
+    languages: ["Serbian", "English", "German"],
+    experienceYears: 7,
+    specialties: [
+      "Art and Culture",
+      "Cultural Experiences",
+      "Historical Tours",
+      "Luxury Tours",
+    ],
+    bio: "Jelena, a Belgrade native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings. She has a degree in Art History from the University of Belgrade and has worked as a tour guide for over seven years. Jelena combines her extensive knowledge of Belgrade's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to art galleries, cultural experiences, and luxury offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Jelena, a Belgrade native, offers tours that explore the city’s vibrant art scene, cultural experiences, and luxury offerings.",
+    quote:
+      "In Belgrade, every night is a celebration of culture, and every meal is a taste of Serbia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
+    name: "Matti Virtanen",
+    languages: ["Finnish", "English", "Swedish"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Matti, a Helsinki native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Helsinki and has worked as a tour guide for over ten years. Matti combines his extensive knowledge of Helsinki's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Matti, a Helsinki native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Helsinki, every street is a tapestry of culture, and every meal is a taste of Finland’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Singapore",
+    country: "Singapore",
+    name: "Li Wei Tan",
+    languages: ["Mandarin", "English", "Malay"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Li Wei, a Singapore native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the National University of Singapore and has worked as a tour guide for over ten years. Li Wei combines her extensive knowledge of Singapore's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Li Wei, a Singapore native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Singapore, every street is a tapestry of culture, and every meal is a taste of Asia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Singapore",
+    country: "Singapore",
+    name: "Raj Kumar",
+    languages: ["Hindi", "English", "Malay"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Raj, a Singapore native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. He has a degree in Culinary Arts from the National University of Singapore and has worked as a chef and tour guide for over eight years. Raj combines his extensive knowledge of Singaporean cuisine with his love for storytelling, making each culinary tour a unique experience. His tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Raj, a Singapore native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Singapore, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Singapore",
+    country: "Singapore",
+    name: "Siti Nurhaliza",
+    languages: ["Malay", "English", "Mandarin"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Local Experiences",
+    ],
+    bio: "Siti, a Singapore native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the National University of Singapore and has worked as a tour guide for over nine years. Siti combines her extensive knowledge of Singapore’s natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Singapore’s natural wonders.",
+    description:
+      "Siti, a Singapore native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Singapore, every moment is a chance to connect with nature, and every meal is a taste of Asia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Madrid",
+    country: "Spain",
+    name: "Carlos Fernández",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Carlos, a Madrid native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the Complutense University of Madrid and has worked as a tour guide for over ten years. Carlos combines his extensive knowledge of Madrid's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Carlos, a Madrid native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Madrid, every street is a tapestry of culture, and every meal is a taste of Spain’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Madrid",
+    country: "Spain",
+    name: "Isabel García",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Isabel, a Madrid native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the Complutense University of Madrid and has worked as a chef and tour guide for over eight years. Isabel combines her extensive knowledge of Spanish cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Isabel, a Madrid native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Madrid, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Madrid",
+    country: "Spain",
+    name: "Javier López",
+    languages: ["Spanish", "English", "French"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Local Experiences",
+    ],
+    bio: "Javier, a Madrid native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the Complutense University of Madrid and has worked as a tour guide for over nine years. Javier combines his extensive knowledge of Spain’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Spain’s natural wonders.",
+    description:
+      "Javier, a Madrid native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Madrid, every moment is a chance to connect with nature, and every meal is a taste of Spain’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Amani Mwanga",
+    languages: ["Swahili", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Amani, a Mto wa Mbu native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the Nelson Mandela African Institute of Science and Technology and has worked as a tour guide for over ten years. Amani combines his extensive knowledge of Mto wa Mbu's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Amani, a Mto wa Mbu native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Mto wa Mbu, every street is a tapestry of culture, and every meal is a taste of Tanzania’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Zuri Nuru",
+    languages: ["Swahili", "English"],
+    experienceYears: 8,
+    specialties: [
+      "Culinary Experiences",
+      "Cultural Heritage",
+      "City Tours",
+      "Adventure Tours",
+    ],
+    bio: "Zuri, a Mto wa Mbu native, offers culinary tours that explore the village’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the Nelson Mandela African Institute of Science and Technology and has worked as a chef and tour guide for over eight years. Zuri combines her extensive knowledge of Tanzanian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Zuri, a Mto wa Mbu native, offers culinary tours that explore the village’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+    quote:
+      "In Mto wa Mbu, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Juma Kiongozi",
+    languages: ["Swahili", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Adventure Tours",
+      "Nature Tours",
+      "Cultural Experiences",
+      "Local Experiences",
+    ],
+    bio: "Juma, a Mto wa Mbu native, offers tours that explore the village’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the Nelson Mandela African Institute of Science and Technology and has worked as a tour guide for over nine years. Juma combines his extensive knowledge of Tanzania’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Tanzania’s natural wonders.",
+    description:
+      "Juma, a Mto wa Mbu native, offers tours that explore the village’s adventure opportunities, nature tours, and cultural experiences.",
+    quote:
+      "In Mto wa Mbu, every moment is a chance to connect with nature, and every meal is a taste of Tanzania’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Asha Nyota",
+    languages: ["Swahili", "English"],
+    experienceYears: 9,
+    specialties: [
+      "Romantic Tours",
+      "Cultural Experiences",
+      "Nightlife Tours",
+      "Luxury Tours",
+    ],
+    bio: "Asha, a Mto wa Mbu native, offers tours that explore the village’s romantic spots, cultural experiences, and nightlife. She has a degree in Cultural Studies from the Nelson Mandela African Institute of Science and Technology and has worked as a tour guide for over nine years. Asha combines her extensive knowledge of Mto wa Mbu's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to romantic spots, cultural experiences, and nightlife offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Asha, a Mto wa Mbu native, offers tours that explore the village’s romantic spots, cultural experiences, and nightlife.",
+    quote:
+      "In Mto wa Mbu, every night is a celebration of love, and every meal is a taste of Tanzania’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Kito Safari",
+    languages: ["Swahili", "English"],
+    experienceYears: 6,
+    specialties: ["Adventure Tours", "Spiritual Heritage", "Romantic Tours"],
+    bio: "Kito, a Mto wa Mbu native, offers tours that explore the village’s adventure opportunities, spiritual heritage, and romantic spots. He has a degree in Environmental Science from the Nelson Mandela African Institute of Science and Technology and has worked as a tour guide for over six years. Kito combines his extensive knowledge of Tanzania’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Tanzania’s natural wonders.",
+    description:
+      "Kito, a Mto wa Mbu native, offers tours that explore the village’s adventure opportunities, spiritual heritage, and romantic spots.",
+    quote:
+      "In Mto wa Mbu, every moment is a chance to connect with nature, and every meal is a taste of Tanzania’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mto wa Mbu Village",
+    country: "Tanzania",
+    name: "Zuri Safari",
+    languages: ["Swahili", "English"],
+    experienceYears: 5,
+    specialties: [
+      "Art and Culture",
+      "Cultural Experiences",
+      "Historical Tours",
+      "Local Experiences",
+    ],
+    bio: "Zuri, a Mto wa Mbu native, offers tours that explore the village’s vibrant art scene, cultural experiences, and local offerings. She has a degree in Art History from the Nelson Mandela African Institute of Science and Technology and has worked as a tour guide for over five years. Zuri combines her extensive knowledge of Mto wa Mbu's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to art galleries, cultural experiences, and local offerings, providing guests with an immersive cultural journey.",
+    description:
+      "Zuri, a Mto wa Mbu native, offers tours that explore the village’s vibrant art scene, cultural experiences, and local offerings.",
+    quote:
+      "In Mto wa Mbu, every night is a celebration of culture, and every meal is a taste of Tanzania’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+
+  {
+    city: "Ayutthaya",
+    country: "Thailand",
+    name: "Somchai Prasert",
+    languages: ["Thai", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Somchai, an Ayutthaya native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Thammasat University and has worked as a tour guide for over ten years. Somchai combines his extensive knowledge of Ayutthaya's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Somchai, an Ayutthaya native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Ayutthaya, every street is a tapestry of culture, and every meal is a taste of Thailand’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Phuket",
+    country: "Thailand",
+    name: "Niran Chai",
+    languages: ["Thai", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Niran, a Phuket native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Prince of Songkla University and has worked as a tour guide for over ten years. Niran combines his extensive knowledge of Phuket's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Niran, a Phuket native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Phuket, every street is a tapestry of culture, and every meal is a taste of Thailand’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Chiang Mai",
+    country: "Thailand",
+    name: "Pimchanok Srisai",
+    languages: ["Thai", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Pimchanok, a Chiang Mai native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from Chiang Mai University and has worked as a tour guide for over ten years. Pimchanok combines her extensive knowledge of Chiang Mai's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Pimchanok, a Chiang Mai native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Chiang Mai, every street is a tapestry of culture, and every meal is a taste of Thailand’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Kampala",
+    country: "Uganda",
+    name: "Kato Nsubuga",
+    languages: ["Luganda", "English"],
+    experienceYears: 10,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Kato, a Kampala native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Makerere University and has worked as a tour guide for over ten years. Kato combines his extensive knowledge of Kampala's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Kato, a Kampala native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+    quote:
+      "In Kampala, every street is a tapestry of culture, and every meal is a taste of Uganda’s vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
 ];
