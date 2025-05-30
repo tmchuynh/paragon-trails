@@ -15,7 +15,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cityattractions } from "@/lib/constants/destinations/city";
+import { cityattractions } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
