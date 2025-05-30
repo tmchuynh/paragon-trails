@@ -8,6 +8,15 @@ import {
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { tourGuides } from "@/lib/constants/staff/tourGuides";
 import { formatToSlug } from "@/lib/utils/format";
 import {
@@ -16,28 +25,123 @@ import {
 } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 
 export default function TourGuides() {
   const router = useRouter();
-  // Sort tour guides by country and then by name
-  const sortedTourGuides = groupAndSortByProperties(
-    tourGuides,
-    "country",
-    "name"
-  );
+
+  // Filter state
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState<string>("");
+  const [selectedCity, setSelectedCity] = useState<string>("");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("");
+  const [selectedSpecialty, setSelectedSpecialty] = useState<string>("");
+
+  // Extract unique values for filters
+  const allCountries = [
+    ...new Set(tourGuides.map((guide) => guide.country)),
+  ].sort();
+  const allCities = [...new Set(tourGuides.map((guide) => guide.city))].sort();
+
+  const allLanguages = [
+    ...new Set(tourGuides.flatMap((guide) => guide.languages || [])),
+  ].sort();
+
+  const allSpecialties = [
+    ...new Set(tourGuides.flatMap((guide) => guide.specialties || [])),
+  ].sort();
+
+  // Filter tour guides based on selected filters
+  const filteredTourGuides = useMemo(() => {
+    return tourGuides.filter((guide) => {
+      // Filter by search query (name)
+      if (
+        searchQuery &&
+        !guide.name.toLowerCase().includes(searchQuery.toLowerCase())
+      ) {
+        return false;
+      }
+
+      // Filter by country
+      if (selectedCountry && guide.country !== selectedCountry) {
+        return false;
+      }
+
+      // Filter by city
+      if (selectedCity && guide.city !== selectedCity) {
+        return false;
+      }
+
+      // Filter by language
+      if (
+        selectedLanguage &&
+        !(guide.languages || []).includes(selectedLanguage)
+      ) {
+        return false;
+      }
+
+      // Filter by specialty
+      if (
+        selectedSpecialty &&
+        !(guide.specialties || []).includes(selectedSpecialty)
+      ) {
+        return false;
+      }
+
+      return true;
+    });
+  }, [
+    searchQuery,
+    selectedCountry,
+    selectedCity,
+    selectedLanguage,
+    selectedSpecialty,
+  ]);
+
+  // Sort filtered tour guides by country and then by name
+  const sortedTourGuides = useMemo(() => {
+    return groupAndSortByProperties(filteredTourGuides, "country", "name");
+  }, [filteredTourGuides]);
 
   // Group tour guides by country for better organization
-  const guidesByCountry = sortedTourGuides.reduce((acc, guide) => {
-    const country = guide.country || "Global";
-    if (!acc[country]) {
-      acc[country] = [];
-    }
-    acc[country].push(guide);
-    return acc;
-  }, {} as Record<string, typeof tourGuides>);
+  const guidesByCountry = useMemo(() => {
+    return sortedTourGuides.reduce((acc, guide) => {
+      const country = guide.country || "Global";
+      if (!acc[country]) {
+        acc[country] = [];
+      }
+      acc[country].push(guide);
+      return acc;
+    }, {} as Record<string, typeof tourGuides>);
+  }, [sortedTourGuides]);
 
   // Sort countries alphabetically
-  const sortedCountries = Object.keys(guidesByCountry).sort();
+  const sortedCountries = useMemo(() => {
+    return Object.keys(guidesByCountry).sort();
+  }, [guidesByCountry]);
+
+  // Update available cities when country changes
+  const availableCities = useMemo(() => {
+    if (!selectedCountry) return allCities;
+    return [
+      ...new Set(
+        tourGuides
+          .filter((guide) => guide.country === selectedCountry)
+          .map((guide) => guide.city)
+      ),
+    ].sort();
+  }, [selectedCountry, allCities]);
+
+  // Reset dependent filters when parent filter changes
+  useEffect(() => {
+    if (selectedCountry) {
+      // Check if the currently selected city is available in the filtered list
+      const cityStillValid = availableCities.includes(selectedCity);
+      if (!cityStillValid) {
+        setSelectedCity("");
+      }
+    }
+  }, [selectedCountry, availableCities, selectedCity]);
 
   // Scroll to section function
   const scrollToSection = (id: string) => {
@@ -45,6 +149,15 @@ export default function TourGuides() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  // Clear all filters
+  const clearFilters = () => {
+    setSearchQuery("");
+    setSelectedCountry("");
+    setSelectedCity("");
+    setSelectedLanguage("");
+    setSelectedSpecialty("");
   };
 
   return (
@@ -71,22 +184,136 @@ export default function TourGuides() {
           meaningful connections between travelers and destinations.
         </p>
 
-        {/* Table of Contents */}
+        {/* Filter section */}
         <section className="bg-muted/30 my-8 p-6 rounded-lg">
-          <h2 className="mb-4">Quick Navigation</h2>
-          <div className="flex flex-wrap gap-3">
-            {sortedCountries.map((country) => (
-              <Button
-                key={`toc-${formatToSlug(country)}-${generateRandomString(5)}`}
-                variant="outline"
-                size="sm"
-                onClick={() => scrollToSection(formatToSlug(country))}
+          <h2 className="mb-4">Find Your Perfect Guide</h2>
+
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-4">
+            {/* Search by name */}
+            <div>
+              <Label htmlFor="search-name">Search by Name</Label>
+              <Input
+                id="search-name"
+                placeholder="Guide name..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+
+            {/* Filter by country */}
+            <div>
+              <Label htmlFor="filter-country">Filter by Country</Label>
+              <Select
+                value={selectedCountry}
+                onValueChange={setSelectedCountry}
               >
-                {country}
-              </Button>
-            ))}
+                <SelectTrigger id="filter-country">
+                  <SelectValue placeholder="Select country" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">All Countries</SelectItem>
+                  {allCountries.map((country) => (
+                    <SelectItem key={country} value={country}>
+                      {country}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Filter by city */}
+            <div>
+              <Label htmlFor="filter-city">Filter by City</Label>
+              <Select value={selectedCity} onValueChange={setSelectedCity}>
+                <SelectTrigger id="filter-city">
+                  <SelectValue placeholder="Select city" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">All Cities</SelectItem>
+                  {availableCities.map((city) => (
+                    <SelectItem key={city} value={city}>
+                      {city}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Filter by language */}
+            <div>
+              <Label htmlFor="filter-language">Filter by Language</Label>
+              <Select
+                value={selectedLanguage}
+                onValueChange={setSelectedLanguage}
+              >
+                <SelectTrigger id="filter-language">
+                  <SelectValue placeholder="Select language" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">All Languages</SelectItem>
+                  {allLanguages.map((language) => (
+                    <SelectItem key={language} value={language}>
+                      {language}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            {/* Filter by specialty */}
+            <div>
+              <Label htmlFor="filter-specialty">Filter by Specialty</Label>
+              <Select
+                value={selectedSpecialty}
+                onValueChange={setSelectedSpecialty}
+              >
+                <SelectTrigger id="filter-specialty">
+                  <SelectValue placeholder="Select specialty" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">All Specialties</SelectItem>
+                  {allSpecialties.map((specialty) => (
+                    <SelectItem key={specialty} value={specialty}>
+                      {specialty}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
           </div>
+
+          <Button variant="outline" onClick={clearFilters}>
+            Clear Filters
+          </Button>
+
+          {filteredTourGuides.length === 0 && (
+            <p className="mt-4 text-center text-muted-foreground">
+              No tour guides found matching your criteria. Please try adjusting
+              your filters.
+            </p>
+          )}
         </section>
+
+        {/* Table of Contents */}
+        {filteredTourGuides.length > 0 && (
+          <section className="bg-muted/30 my-8 p-6 rounded-lg">
+            <h2 className="mb-4">Quick Navigation</h2>
+            <div className="flex flex-wrap gap-3">
+              {sortedCountries.map((country) => (
+                <Button
+                  key={`toc-${formatToSlug(country)}-${generateRandomString(
+                    5
+                  )}`}
+                  variant="outline"
+                  size="sm"
+                  onClick={() => scrollToSection(formatToSlug(country))}
+                >
+                  {country}
+                </Button>
+              ))}
+            </div>
+          </section>
+        )}
 
         <Accordion type="single" collapsible>
           {sortedCountries.map((country, index) => {
