@@ -7,12 +7,12 @@ import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
 export async function getTourData(city: string): Promise<any> {
   const cityFormatted =
     removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
-    formatTitleToCamelCase(city.slice(1)).replace("'", "");
+    formatTitleToCamelCase(city.slice(1)).replace("'", "").replace("-", "");
   const tourID = `${cityFormatted}Tours`;
 
   try {
     const tourModule = await import(
-      `@/lib/constants/tours/${formatToSlug(city)}`
+      `@/lib/constants/tours/${formatToSlug(city.replace("'", "-"))}`
     );
     // Return the specific named export that matches tourID
     if (tourModule[tourID]) {
@@ -141,10 +141,15 @@ export function findGuideBySpecialty(
   // Format the city name to lowercase for consistent comparison
   const cityLower = city.toLowerCase();
 
+  console.log(
+    `Searching for guides in city: ${cityLower} with specialty: ${specialty}`
+  );
+
   // Find all guides that match the city and specialty
   const matchingGuides = tourGuides.filter(
     (guide) =>
-      guide.city.toLowerCase() === cityLower &&
+      guide.city.toLowerCase().replace("'", "-") ===
+        cityLower.replace("-", " ") &&
       guide.specialties.some((guideSpecialty) =>
         guideSpecialty.toLowerCase().includes(specialty.toLowerCase())
       )
