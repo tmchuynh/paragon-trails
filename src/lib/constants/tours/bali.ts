@@ -18,7 +18,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "wellness").name,
+    tourGuide: findGuideBySpecialty("bali", "wellness").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -67,7 +67,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "cultural").name,
+    tourGuide: findGuideBySpecialty("bali", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -114,7 +114,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "local").name,
+    tourGuide: findGuideBySpecialty("bali", "local").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -156,7 +156,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "wellness").name,
+    tourGuide: findGuideBySpecialty("bali", "wellness").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -198,7 +198,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "culinary").name,
+    tourGuide: findGuideBySpecialty("bali", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

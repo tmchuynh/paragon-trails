@@ -1,7 +1,7 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 import { findGuideBySpecialty } from "@/lib/utils/get";
 
-export const xiAnTours: Tour[] = [
+export const xianTours: Tour[] = [
   {
     title: "Terracotta Army & Emperor's Tomb VIP Access",
     description:
@@ -14,7 +14,7 @@ export const xiAnTours: Tour[] = [
     price: "$175",
     rating: 5.0,
     tags: ["Archaeological", "Emperor", "Ancient China"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -41,7 +41,7 @@ export const xiAnTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Cycling", "Street Food", "Culture"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -68,7 +68,7 @@ export const xiAnTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Cultural", "Crafts", "Silk Road"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -89,5 +89,3 @@ export const xiAnTours: Tour[] = [
     ],
   },
 ];
-
-export default xiAnTours;

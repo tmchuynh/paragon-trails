@@ -1,7 +1,7 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 import { findGuideBySpecialty } from "@/lib/utils/get";
 
-export const shirakawaGoTours: Tour[] = [
+export const shirakawagoTours: Tour[] = [
   {
     title: "Historic Gassho-Zukuri Farmhouse Experience",
     description:
@@ -246,5 +246,3 @@ export const shirakawaGoTours: Tour[] = [
     ],
   },
 ];
-
-export default shirakawaGoTours;
