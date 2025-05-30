@@ -1,4 +1,4 @@
-import { cityattractions } from "@/lib/constants/destinations/city";
+import { cityattractions } from "@/lib/constants/info/city";
 import { homestayHeritageLocations } from "@/lib/constants/services/homestay/families";
 import { capitalize } from "@/lib/utils/format";
 import { findOriginalCityName } from "@/lib/utils/get";
