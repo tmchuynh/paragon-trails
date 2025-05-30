@@ -1,7 +1,4 @@
 "use client";
-import { cityattractions } from "@/lib/constants/destinations/city";
-import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
-import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -11,6 +8,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { cityattractions } from "@/lib/constants/info/city";
+import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function PopularDestinations() {
