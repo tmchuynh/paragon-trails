@@ -4,15 +4,15 @@ export const pragueTourGuides: TourGuide[] = [
   {
     city: "Prague",
     country: "Czech Republic",
-    name: "Jan Novak",
+    name: "Jana Novakova",
     languages: ["Czech", "English", "German"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Jan, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from Charles University and has worked as a tour guide for over six years. Jan combines his extensive knowledge of Prague's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    experienceYears: 10,
+    specialties: ["Medieval History", "Architecture", "City Tours"],
+    bio: "Jana Novakova is a Prague native with ten years of experience guiding visitors through the city's architectural treasures and historical narratives. With a degree in Art History from Charles University, Jana specializes in tours that explore Prague's Gothic cathedrals, Baroque palaces, and medieval streets. Her tours often include access to spaces not typically open to the public, offering guests unique perspectives on Czech history and culture. Jana's storytelling ability and knowledge of architectural details bring Prague's past vividly to life for her tour groups.",
     description:
-      "Jan, a Prague native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+      "Jana Novakova guides visitors through Prague's architectural wonders and thousand-year history.",
     quote:
-      "In Prague, every street is a tapestry of culture, and every meal is a taste of the Czech Republic’s vibrant spirit.",
+      "Prague is a city where every building tells a story—you just need to know how to listen to the stones.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

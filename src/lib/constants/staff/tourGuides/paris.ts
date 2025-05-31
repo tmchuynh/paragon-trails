@@ -4,15 +4,15 @@ export const parisTourGuides: TourGuide[] = [
   {
     city: "Paris",
     country: "France",
-    name: "Nina Dubois",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 8,
-    specialties: ["Fashion History", "Art Tours", "Culinary Tours"],
+    name: "Sophie Dubois",
+    languages: ["French", "English", "Spanish"],
+    experienceYears: 9,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Sophie Dubois is a Parisian historian with nine years of experience guiding visitors through the city's cultural and historical landmarks. With a degree in Art History from the Sorbonne, Sophie specializes in tours that explore Paris's iconic monuments, museums, and hidden neighborhoods. Her tours often include privileged access to historical sites and cultural venues, providing guests with unique perspectives on Parisian life. Sophie's passion for storytelling and extensive knowledge make her tours both engaging and insightful.",
     description:
-      "A fashion historian and art lover, Nina takes visitors through Parisian neighborhoods rich with style and artistic history.",
-    bio: "Nina has a degree in Art History from the Sorbonne and a diploma in Fashion Design from the Paris College of Art. She has worked in various capacities in the fashion industry, from design to marketing, and has a deep understanding of the cultural and historical context of fashion. Nina's tours are a blend of art, history, and fashion, providing a unique perspective on Paris's rich cultural tapestry. Her tours often include exclusive access to fashion studios, art galleries, and culinary experiences that showcase the best of Parisian culture. Nina is also a talented writer, and her articles on fashion history and cultural trends have been published in several international magazines.",
+      "Sophie Dubois reveals Paris's artistic treasures and historical narratives through expert-led tours.",
     quote:
-      "Paris is a canvas where every street, every café, and every boutique tells a story of style and creativity. I help you see the threads that weave this city together.",
+      "Paris is not just a city; it's a living museum where every street corner has a story to tell.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
