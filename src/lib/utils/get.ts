@@ -1,7 +1,12 @@
 import { homestaysAndHeritageStays } from "../constants/services/homestay/destinations";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
 import { TourGuide } from "../interfaces/people/staff";
-import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
+import {
+  capitalize,
+  formatTitleToCamelCase,
+  formatToSlug,
+  removeAccents,
+} from "./format";
 
 export async function getTourData(city: string): Promise<any> {
   const cityFormatted =
@@ -134,11 +139,17 @@ export async function findGuideBySpecialty(
   specialty: string
 ): Promise<TourGuide> {
   // Format the city name to lowercase for consistent comparison
-  const cityLower = city.toLowerCase();
+  const cityLower = city.replace("'", "").toLowerCase();
 
+  const cityFormatted = formatTitleToCamelCase(cityLower)
+    .replace(/['\-]/g, "")
+    .replace(/-/g, " ");
   try {
     // Convert kebab-case to camelCase for variable name
-    const cityFormatted = formatTitleToCamelCase(cityLower.replace(/-/g, " "));
+
+    console.log(
+      `Searching for tour guides in city file: ${cityFormatted} with specialty: ${specialty}`
+    );
 
     // Import the city-specific tour guides
     const tourGuidesModule = await import(
@@ -146,12 +157,25 @@ export async function findGuideBySpecialty(
     );
     const cityTourGuides = tourGuidesModule[`${cityFormatted}TourGuides`];
 
+    console.log(
+      `Loaded export const ${cityFormatted}TourGuides : TourGuide[] = [] with ${
+        cityTourGuides?.length || 0
+      } guides`
+    );
+
     if (
       !cityTourGuides ||
       !Array.isArray(cityTourGuides) ||
       cityTourGuides.length === 0
     ) {
-      throw new Error(`No tour guides found for ${city}`);
+      throw new Error(`No tour guides found for ${capitalize(city)}`);
+    }
+
+    console.log("Tour guides: ", cityTourGuides);
+    // If no specialty is provided, return a random guide from the city
+    if (!specialty || specialty.trim() === "") {
+      cityTourGuides.sort(() => Math.random() - 0.5); // Shuffle the array
+      return cityTourGuides[0]; // Return a random guide
     }
 
     console.log(
