@@ -7,7 +7,7 @@ export const mekongDeltaTourGuides: TourGuide[] = [
     name: "Van Li Wu",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 7,
-    specialties: ["cultural", "Nature Tours", "Culinary Experiences"],
+    specialties: ["nature", "Cultural Heritage", "Culinary Experiences"],
     bio: "Van, a Mekong Delta native, offers tours that explore the region's rich cultural heritage, stunning waterways, and culinary traditions. He has a degree in Cultural Studies from the University of Ho Chi Minh City and has worked as a tour guide for over seven years. Van combines his extensive knowledge of the Mekong Delta's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to floating markets and cultural sites, providing guests with an immersive cultural journey.",
     description:
       "Van, a Mekong Delta native, offers tours that explore the region's rich cultural heritage, stunning waterways, and culinary traditions.",

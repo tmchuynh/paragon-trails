@@ -7,12 +7,12 @@ export const melbourneTourGuides: TourGuide[] = [
     name: "Olivia Carter",
     languages: ["English", "Mandarin", "French"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
-    bio: "Olivia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over seven years. Olivia combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    specialties: ["cultural", "City Tours", "Culinary Experiences"],
+    bio: "Olivia, a Melbourne native, offers tours that explore the city's rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over seven years. Olivia combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
     description:
-      "Olivia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+      "Olivia, a Melbourne native, offers tours that explore the city's rich cultural heritage, vibrant neighborhoods, and culinary scene.",
     quote:
-      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia’s vibrant spirit.",
+      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
