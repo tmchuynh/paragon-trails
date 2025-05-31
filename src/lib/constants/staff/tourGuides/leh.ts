@@ -7,12 +7,12 @@ export const lehTourGuides: TourGuide[] = [
     name: "Tashi Dolma",
     languages: ["Ladakhi", "Hindi", "English"],
     experienceYears: 10,
-    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
-    bio: "Tashi, a Leh native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the University of Jammu and has worked as a tour guide for over ten years. Tashi combines her extensive knowledge of Ladakh's natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    specialties: ["adventure", "Nature Tours", "Cultural Experiences"],
+    bio: "Tashi, a Leh native, offers tours that explore the region's adventure opportunities, nature tours, and cultural experiences. She has a degree in Environmental Science from the University of Jammu and has worked as a tour guide for over ten years. Tashi combines her extensive knowledge of Ladakh's natural landscapes with her love for storytelling, making each tour an educational and immersive experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India's natural wonders.",
     description:
-      "Tashi, a Leh native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+      "Tashi, a Leh native, offers tours that explore the region's adventure opportunities, nature tours, and cultural experiences.",
     quote:
-      "In Leh, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+      "In Leh, every moment is a chance to connect with nature, and every meal is a taste of India's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

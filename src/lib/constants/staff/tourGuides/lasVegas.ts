@@ -7,10 +7,10 @@ export const lasVegasTourGuides: TourGuide[] = [
     name: "Jake Victor Tuffin",
     languages: ["English", "Spanish", "Italian"],
     experienceYears: 7,
-    specialties: ["Entertainment Tours", "Culinary Experiences", "Nightlife"],
-    bio: "Jake, a Las Vegas native, offers tours that explore the city’s entertainment scene, culinary experiences, and vibrant nightlife. He has a degree in Hospitality Management from UNLV and has worked as a tour guide for over seven years. Jake combines his extensive knowledge of Las Vegas with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to shows and culinary tastings, providing guests with an immersive cultural journey.",
+    specialties: ["nightlife", "Culinary Experiences", "Entertainment"],
+    bio: "Jake, a Las Vegas native, offers tours that explore the city's entertainment scene, culinary experiences, and vibrant nightlife. He has a degree in Hospitality Management from UNLV and has worked as a tour guide for over seven years. Jake combines his extensive knowledge of Las Vegas with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to shows and culinary tastings, providing guests with an immersive cultural journey.",
     description:
-      "Jake, a Las Vegas native, offers tours that explore the city’s entertainment scene, culinary experiences, and vibrant nightlife.",
+      "Jake, a Las Vegas native, offers tours that explore the city's entertainment scene, culinary experiences, and vibrant nightlife.",
     quote:
       "In Las Vegas, every night is a spectacle, and every meal is a celebration of life.",
     profileImage: "/images/guides/valeria-marino.jpg",
