@@ -286,7 +286,7 @@ export const homestaysAndHeritageStays = [
         ],
       },
       {
-        city: "Lake Titicaca",
+        city: "Puno",
         state: "",
         region: "Puno Region",
         stayType: "Island Homestay",
