@@ -19,7 +19,7 @@ import { cityattractions } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
-import { getTourData } from "@/lib/utils/get";
+import { findGuideBySpecialty, getTourData } from "@/lib/utils/get";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
@@ -31,6 +31,7 @@ export default function TourPage() {
   const country = searchParams.get("country") || "";
   const [tours, setTours] = useState<Tour[]>([]);
   const [loading, setLoading] = useState(true);
+  const [tourGuides, setTourGuides] = useState<{ [key: string]: string }>({});
   const router = useRouter();
 
   // Filter states
@@ -53,6 +54,28 @@ export default function TourPage() {
         try {
           const tourData = await getTourData(decodeURIComponent(cityName));
           setTours(tourData);
+
+          // Load tour guides for each tour
+          const guidePromises = tourData.map(async (tour: Tour) => {
+            try {
+              const guide = await findGuideBySpecialty(
+                decodeURIComponent(cityName).toLowerCase(),
+                tour.tourCategoryId
+              );
+              return { tourTitle: tour.title, guideName: guide.name };
+            } catch (error) {
+              console.error(`Failed to load guide for ${tour.title}:`, error);
+              return { tourTitle: tour.title, guideName: "Local Expert" };
+            }
+          });
+
+          const guides = await Promise.all(guidePromises);
+          const guidesMap = guides.reduce((acc, { tourTitle, guideName }) => {
+            acc[tourTitle] = guideName;
+            return acc;
+          }, {} as { [key: string]: string });
+
+          setTourGuides(guidesMap);
         } catch (error) {
           console.error("Failed to load tour data:", error);
         } finally {
@@ -82,7 +105,7 @@ export default function TourPage() {
       };
 
     const durations = [...new Set(tours.map((tour) => tour.duration))];
-    const guides = [...new Set(tours.map((tour) => tour.tourGuide))];
+    const guides = [...new Set(Object.values(tourGuides))]; // Use the loaded guide names
     const categories = [...new Set(tours.map((tour) => tour.tourCategoryId))];
     const allTags = new Set<string>();
     tours.forEach((tour) => tour.tags?.forEach((tag) => allTags.add(tag)));
@@ -102,7 +125,7 @@ export default function TourPage() {
         max: Math.max(...prices),
       },
     };
-  }, [tours]);
+  }, [tours, tourGuides]);
 
   // Apply filters to tours
   const filteredTours = useMemo(() => {
@@ -126,8 +149,8 @@ export default function TourPage() {
       )
         return false;
 
-      // Guide filter
-      if (filters.guide !== "all" && tour.tourGuide !== filters.guide)
+      // Guide filter - use our loaded guide names
+      if (filters.guide !== "all" && tourGuides[tour.title] !== filters.guide)
         return false;
 
       // Category filter
@@ -139,7 +162,7 @@ export default function TourPage() {
 
       return true;
     });
-  }, [tours, filters]);
+  }, [tours, filters, tourGuides]);
 
   // Handle filter changes
   const handleFilterChange = (filterType: string, value: any) => {
@@ -441,7 +464,7 @@ export default function TourPage() {
                     </h5>
                     <h5 className="text-tertiary">
                       <strong className="text-foreground">Guide:</strong>{" "}
-                      {tour.tourGuide}
+                      {tourGuides[tour.title] || "Loading guide..."}
                     </h5>
                   </div>
                   <h2>{tour.price}</h2>
