@@ -1,6 +1,5 @@
 import { homestaysAndHeritageStays } from "../constants/services/homestay/destinations";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
-import { tourGuides } from "../constants/staff/tourGuides";
 import { TourGuide } from "../interfaces/people/staff";
 import { formatTitleToCamelCase, formatToSlug, removeAccents } from "./format";
 
@@ -123,77 +122,84 @@ export function findOriginalCityName(slug: string): string | null {
 /**
  * Finds a tour guide by city and specialty.
  *
- * @param city - The city where the tour guide operates
+ * @param city - The city where the tour guide operates (in kebab-case)
  * @param specialty - The specialty to look for in the tour guide's skills
  * @returns A matching TourGuide object based on the following priority:
  *   1. A random guide from the specified city with the matching specialty
  *   2. If no specialty match, a random guide from the specified city
  *   3. If no city match, a default generic tour guide object
- *
- * @remarks
- * The function performs case-insensitive matching for both city and specialty.
- * When multiple guides match the criteria, one is randomly selected using the Fisher-Yates shuffle algorithm.
  */
-export function findGuideBySpecialty(
+export async function findGuideBySpecialty(
   city: string,
   specialty: string
-): TourGuide {
+): Promise<TourGuide> {
   // Format the city name to lowercase for consistent comparison
   const cityLower = city.toLowerCase();
 
-  console.log(
-    `Searching for guides in city: ${cityLower} with specialty: ${specialty}`
-  );
+  try {
+    // Convert kebab-case to camelCase for variable name
+    const cityFormatted = formatTitleToCamelCase(cityLower.replace(/-/g, " "));
 
-  // Find all guides that match the city and specialty
-  const matchingGuides = tourGuides.filter(
-    (guide) =>
-      guide.city.toLowerCase().replace("'", "-") ===
-        cityLower.replace("-", " ") &&
-      guide.specialties.some((guideSpecialty) =>
+    // Import the city-specific tour guides
+    const tourGuidesModule = await import(
+      `@/lib/constants/staff/tourGuides/${cityFormatted}`
+    );
+    const cityTourGuides = tourGuidesModule[`${cityFormatted}TourGuides`];
+
+    if (
+      !cityTourGuides ||
+      !Array.isArray(cityTourGuides) ||
+      cityTourGuides.length === 0
+    ) {
+      throw new Error(`No tour guides found for ${city}`);
+    }
+
+    console.log(
+      `Searching for guides in city: ${cityLower} with specialty: ${specialty}`
+    );
+
+    // Find all guides that match the specialty
+    const matchingGuides = cityTourGuides.filter((guide) =>
+      guide.specialties.some((guideSpecialty: string) =>
         guideSpecialty.toLowerCase().includes(specialty.toLowerCase())
       )
-  );
+    );
 
-  // If we have matching guides, return one randomly
-  if (matchingGuides.length > 0) {
-    // Shuffle the array using Fisher-Yates algorithm
-    for (let i = matchingGuides.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [matchingGuides[i], matchingGuides[j]] = [
-        matchingGuides[j],
-        matchingGuides[i],
-      ];
+    // If we have matching guides, return one randomly
+    if (matchingGuides.length > 0) {
+      // Shuffle the array using Fisher-Yates algorithm
+      for (let i = matchingGuides.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [matchingGuides[i], matchingGuides[j]] = [
+          matchingGuides[j],
+          matchingGuides[i],
+        ];
+      }
+      return matchingGuides[0]; // Return a random guide
     }
-    return matchingGuides[0]; // Return a random guide
+
+    // If no specialty match, return any guide from this city
+    return cityTourGuides[Math.floor(Math.random() * cityTourGuides.length)];
+  } catch (error) {
+    console.error(`Error finding tour guide for ${city}: ${error}`);
+
+    // Return default guide if no matches found
+    return {
+      id: "",
+      name: "Local Expert Guide",
+      city: city.replace(/-/g, " "),
+      country: "",
+      state: "",
+      region: "",
+      isPopular: false,
+      bio: "A knowledgeable local expert in this destination",
+      description: "",
+      quote: "",
+      profileImage: "/images/staff/guides/default-guide.jpg",
+      specialties: [specialty],
+      languages: ["English"],
+      certifications: [],
+      experienceYears: 5,
+    };
   }
-
-  // Try to find any guide from this city as a fallback
-  const cityGuides = tourGuides.filter(
-    (guide) => guide.city.toLowerCase() === cityLower
-  );
-
-  if (cityGuides.length > 0) {
-    // Return a random guide from this city
-    return cityGuides[Math.floor(Math.random() * cityGuides.length)];
-  }
-
-  // Return default guide if no matches found
-  return {
-    id: "",
-    name: "Local Expert Guide",
-    city: "",
-    country: "",
-    state: "",
-    region: "",
-    isPopular: false,
-    bio: "A knowledgeable local expert in this destination",
-    description: "",
-    quote: "",
-    profileImage: "/images/staff/guides/default-guide.jpg",
-    specialties: [],
-    languages: ["English"],
-    certifications: [],
-    experienceYears: 5,
-  };
 }
