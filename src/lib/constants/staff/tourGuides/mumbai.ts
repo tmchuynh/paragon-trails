@@ -57,4 +57,88 @@ export const mumbaiTourGuides: TourGuide[] = [
       "In Mumbai, every meal is a celebration of life, and every film is a reflection of our diverse culture.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Rohan Mehta",
+    languages: ["Hindi", "English", "Marathi"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Rohan, a history enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks. He has a degree in History from the University of Mumbai and has worked as a tour guide for over six years. Rohan combines his extensive knowledge of Mumbai's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Rohan, a history enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks.",
+    quote:
+      "In Mumbai, every street is a chapter in our history, and every meal is a taste of our vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Priya Sharma",
+    languages: ["Hindi", "English", "Punjabi"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Priya, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks. She has a degree in Cultural Studies from the University of Mumbai and has worked as a tour guide for over five years. Priya combines her extensive knowledge of Mumbai's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Priya, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks.",
+    quote:
+      "In Mumbai, every meal is a taste of our diverse culture, and every street is a story waiting to be told.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Suresh Kumar",
+    languages: ["Hindi", "English", "Tamil"],
+    experienceYears: 4,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Suresh, a cultural guide, shares the vibrant culture of Mumbai through its historical landmarks and diverse neighborhoods. He has a degree in Cultural Studies from the University of Mumbai and has worked as a tour guide for over four years. Suresh combines his extensive knowledge of Mumbai's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Suresh, a cultural guide, shares the vibrant culture of Mumbai through its historical landmarks and diverse neighborhoods.",
+    quote:
+      "In Mumbai, every street is a celebration of our culture, and every meal is a taste of our rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Neha Kapoor",
+    languages: ["Hindi", "English", "Gujarati"],
+    experienceYears: 3,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Neha, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks. She has a degree in Cultural Studies from the University of Mumbai and has worked as a tour guide for over three years. Neha combines her extensive knowledge of Mumbai's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Neha, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks.",
+    quote:
+      "In Mumbai, every meal is a taste of our diverse culture, and every street is a story waiting to be told.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Karan Joshi",
+    languages: ["Hindi", "English", "Marathi"],
+    experienceYears: 2,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Karan, a cultural guide, shares the vibrant culture of Mumbai through its historical landmarks and diverse neighborhoods. He has a degree in Cultural Studies from the University of Mumbai and has worked as a tour guide for over two years. Karan combines his extensive knowledge of Mumbai's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Karan, a cultural guide, shares the vibrant culture of Mumbai through its historical landmarks and diverse neighborhoods.",
+    quote:
+      "In Mumbai, every street is a celebration of our culture, and every meal is a taste of our rich traditions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    name: "Sonia Verma",
+    languages: ["Hindi", "English", "Punjabi"],
+    experienceYears: 1,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Sonia, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks. She has a degree in Cultural Studies from the University of Mumbai and has worked as a tour guide for over a year. Sonia combines her extensive knowledge of Mumbai's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Sonia, a cultural enthusiast, offers tours that explore Mumbai’s rich cultural heritage and historical landmarks.",
+    quote:
+      "In Mumbai, every meal is a taste of our diverse culture, and every street is a story waiting to be told.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
 ];

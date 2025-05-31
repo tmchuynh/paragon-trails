@@ -62,4 +62,46 @@ export const naxosAndCreteTourGuides: TourGuide[] = [
       "In Naxos, every dish tells a story, and every street is a celebration of culture and diversity.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Maria Konstantinou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 6,
+    specialties: ["Adventure Tours", "Cultural Heritage", "City Tours"],
+    bio: "Maria, a Naxos native, offers adventure tours that explore the island’s natural beauty, cultural heritage, and vibrant neighborhoods. She has a degree in Environmental Science from the University of Athens and has worked as an adventure guide for over six years. Maria combines her love for nature with her passion for storytelling, making each adventure tour a unique experience. Her tours often include hiking trails, cultural landmarks, and local traditions, providing guests with an immersive cultural journey.",
+    description:
+      "Maria, a Naxos native, offers adventure tours that explore the island’s natural beauty, cultural heritage, and vibrant neighborhoods.",
+    quote:
+      "In Naxos, every moment is an opportunity for adventure, and every meal is a taste of Greece’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Nikos Papadopoulos",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 9,
+    specialties: ["Luxury Tours", "Cultural Heritage", "Art and Music Tours"],
+    bio: "Nikos, a Naxos native, offers luxury tours that explore the island’s rich cultural heritage, vibrant art and music scene, and local culture. He has a degree in Cultural Studies from the University of Athens and has worked as a luxury tour guide for over nine years. Nikos combines his extensive knowledge of Naxos' culture with his passion for storytelling, making each luxury tour a unique experience. His tours often include exclusive access to luxury accommodations, art galleries, and cultural landmarks, providing guests with an immersive cultural journey.",
+    description:
+      "Nikos, a Naxos native, offers luxury tours that explore the island’s rich cultural heritage, vibrant art and music scene, and local culture.",
+    quote:
+      "In Naxos, every experience is a brush with culture’s grandeur, and every meal is a taste of Greece’s elegance.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Naxos and Crete",
+    country: "Greece",
+    name: "Katerina Nikolaou",
+    languages: ["Greek", "English", "Italian"],
+    experienceYears: 7,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
+    bio: "Katerina, a Naxos native, offers culinary tours that celebrate the island’s rich food culture, vibrant neighborhoods, and cultural traditions. She has a degree in Culinary Arts from the University of Athens and has worked as a chef and tour guide for over seven years. Katerina combines her extensive knowledge of Greek cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include tastings at local markets, visits to historic tavernas, and insights into Naxos' culinary scene.",
+    description:
+      "Katerina, a Naxos native, offers culinary tours that celebrate the island’s rich food culture, vibrant neighborhoods, and cultural traditions.",
+    quote:
+      "In Naxos, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
 ];
