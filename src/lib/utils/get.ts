@@ -227,3 +227,146 @@ export async function findGuideBySpecialty(
     };
   }
 }
+
+/**
+ * Compiles all tour guide arrays from individual city files into a single array.
+ *
+ * @returns A promise that resolves to an array of all TourGuide objects
+ */
+export async function getAllTourGuides(): Promise<TourGuide[]> {
+  // List of all city file names (without the .ts extension)
+  const cityFiles = [
+    "amalfiCoast",
+    "athens",
+    "atlasMountains",
+    "bali",
+    "beijing",
+    "bologna",
+    "boston",
+    "budapest",
+    "buenosAires",
+    "cannes",
+    "chefchaouen",
+    "chicago",
+    "chiangMai",
+    "coorg",
+    "copenhagen",
+    "daNang",
+    "denali",
+    "denpasar",
+    "dubai",
+    "edinburgh",
+    "fez",
+    "fiji",
+    "florence",
+    "fortKochi",
+    "galapagosIslands",
+    "glasgow",
+    "hanoi",
+    "helsinki",
+    "heraklion",
+    "hoChiMinh",
+    "hoiAn",
+    "hokkaido",
+    "honolulu",
+    "istanbul",
+    "jaipur",
+    "jamaica",
+    "juneau",
+    "kampala",
+    "kualaLumpur",
+    "kyoto",
+    "lakeTiticaca",
+    "lasVegas",
+    "leh",
+    "lisbon",
+    "london",
+    "losAngeles",
+    "madrid",
+    "malta",
+    "marrakech",
+    "matera",
+    "maui",
+    "mekongDelta",
+    "melbourne",
+    "mexicoCity",
+    "monaco",
+    "montreal",
+    "mostar",
+    "mtoWaMbuVillage",
+    "mumbai",
+    "munich",
+    "naples",
+    "naxosAndCrete",
+    "newOrleans",
+    "newYork",
+    "nhaTrang",
+    "osaka",
+    "oslo",
+    "ouarzazate",
+    "palawan",
+    "panauti",
+    "paris",
+    "patagonia",
+    "phuket",
+    "piraeus",
+    "porto",
+    "portVila",
+    "prague",
+    "rioDeJaneiro",
+    "rome",
+    "sanDiego",
+    "sanFrancisco",
+    "sapa",
+    "savannah",
+    "seattle",
+    "seoul",
+    "shanghai",
+    "shirakawaGo",
+    "singapore",
+    "stockholm",
+    "svanetiRegion",
+    "sydney",
+    "tahiti",
+    "takayama",
+    "thessaloniki",
+    "tokyo",
+    "tuscany",
+    "udaipur",
+    "vancouver",
+    "venice",
+    "vienna",
+    "washington",
+    "xian",
+    "yokohama",
+    "zagreb",
+    "zanzibar",
+  ];
+
+  // Combined array for all tour guides
+  const allTourGuides: TourGuide[] = [];
+
+  // Loop through each city file and import its tour guides
+  for (const city of cityFiles) {
+    try {
+      // Dynamic import of the tour guides file
+      const tourGuidesModule = await import(
+        `@/lib/constants/staff/tourGuides/${city}`
+      );
+
+      // Get the tour guides array using the city name + TourGuides naming convention
+      const cityTourGuides = tourGuidesModule[`${city}TourGuides`];
+
+      if (cityTourGuides && Array.isArray(cityTourGuides)) {
+        // Add all tour guides from this city to the combined array
+        allTourGuides.push(...cityTourGuides);
+      } else {
+        console.warn(`No valid tour guides found for ${city}`);
+      }
+    } catch (error) {
+      console.error(`Error importing tour guides for ${city}:`, error);
+    }
+  }
+
+  return allTourGuides;
+}
