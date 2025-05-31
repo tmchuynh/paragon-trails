@@ -7,17 +7,12 @@ export const fortKochiTourGuides: TourGuide[] = [
     name: "Vikram Menon",
     languages: ["Malayalam", "English", "Hindi"],
     experienceYears: 9,
-    specialties: [
-      "Cultural Heritage",
-      "Historical Tours",
-      "City Tours",
-      "Luxury Tours",
-    ],
-    bio: "Vikram, a Fort Kochi native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Kerala and has worked as a tour guide for over nine years. Vikram combines his extensive knowledge of Fort Kochi's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    specialties: ["cultural", "Historical Tours", "City Tours", "Luxury Tours"],
+    bio: "Vikram, a Fort Kochi native, offers tours that explore the region's rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Kerala and has worked as a tour guide for over nine years. Vikram combines his extensive knowledge of Fort Kochi's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
     description:
-      "Vikram, a Fort Kochi native, offers tours that explore the region’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+      "Vikram, a Fort Kochi native, offers tours that explore the region's rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
     quote:
-      "In Fort Kochi, every street is a tapestry of culture, and every meal is a taste of India’s vibrant spirit.",
+      "In Fort Kochi, every street is a tapestry of culture, and every meal is a taste of India's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

@@ -97,12 +97,12 @@ export const fijiTourGuides: TourGuide[] = [
     name: "Sera Vula",
     languages: ["Fijian", "English", "Hindi"],
     experienceYears: 6,
-    specialties: ["Wellness Tours", "Cultural Heritage", "Spiritual Tours"],
-    bio: "Sera, a Fiji native, offers wellness tours that explore the islands’ rich cultural heritage, spiritual landscapes, and wellness experiences. She has a degree in Cultural Studies from the University of the South Pacific and has worked as a tour guide for over six years. Sera combines her extensive knowledge of Fijian culture with her love for storytelling, making each tour an educational and immersive experience. Her tours often include yoga sessions, meditation practices, and cultural experiences, providing guests with a unique perspective on Fiji’s natural wonders.",
+    specialties: ["wellness", "Cultural Heritage", "Spiritual Tours"],
+    bio: "Sera, a Fiji native, offers wellness tours that explore the islands' rich cultural heritage, spiritual landscapes, and wellness experiences. She has a degree in Cultural Studies from the University of the South Pacific and has worked as a tour guide for over six years. Sera combines her extensive knowledge of Fijian culture with her love for storytelling, making each tour an educational and immersive experience. Her tours often include yoga sessions, meditation practices, and cultural experiences, providing guests with a unique perspective on Fiji's natural wonders.",
     description:
-      "Sera, a Fiji native, offers wellness tours that explore the islands’ rich cultural heritage, spiritual landscapes, and wellness experiences.",
+      "Sera, a Fiji native, offers wellness tours that explore the islands' rich cultural heritage, spiritual landscapes, and wellness experiences.",
     quote:
-      "In Fiji, every moment is a chance to connect with nature, and every meal is a taste of the islands’ vibrant spirit.",
+      "In Fiji, every moment is a chance to connect with nature, and every meal is a taste of the islands' vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

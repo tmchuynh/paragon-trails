@@ -21,7 +21,7 @@ export const glasgowTourGuides: TourGuide[] = [
     name: "Ailsa Stewart",
     languages: ["English", "French", "Italian"],
     experienceYears: 7,
-    specialties: ["Culinary Tours", "Whisky Tastings", "Cultural Heritage"],
+    specialties: ["culinary", "Whisky Tastings", "Cultural Heritage"],
     bio: "Ailsa Stewart transforms Glasgow's culinary landscape into an immersive cultural experience. A certified whisky expert with seven years of guiding experience, she crafts food and drink tours that celebrate Scotland's gastronomic heritage while exploring Glasgow's evolving food scene. Her tours blend traditional Scottish fare with contemporary cuisine, always accompanied by stories of the city's history and the people who shaped its culinary identity.",
     description:
       "Ailsa Stewart guides gastronomic journeys through Glasgow's food and whisky culture.",
