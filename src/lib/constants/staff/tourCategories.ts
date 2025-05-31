@@ -1,53 +1,79 @@
 import { TourCategory } from "@/lib/interfaces/services/tours";
+import {
+  FaGem,
+  FaHeart,
+  FaLandmark,
+  FaLeaf,
+  FaMountain,
+  FaPalette,
+  FaPray,
+  FaSpa,
+  FaUtensils,
+} from "react-icons/fa";
 
 export const tourCategories: TourCategory[] = [
   {
     id: "adventure",
-    name: "Adventure Tours",
+    title: "Adventure Tours",
     description:
-      "Thrilling experiences for active travelers seeking excitement and challenges.",
-  },
-  {
-    id: "art-and-music",
-    name: "Art & Music Tours",
-    description:
-      "Cultural journeys exploring local artistic traditions, galleries, and performances.",
-  },
-  {
-    id: "culinary",
-    name: "Culinary Experiences",
-    description:
-      "Food-focused adventures featuring local cuisine, cooking classes, and market visits.",
+      "Experience thrilling outdoor activities and explorations in stunning natural settings",
+    icon: FaMountain,
   },
   {
     id: "cultural",
-    name: "Cultural Heritage",
+    title: "Cultural Tours",
     description:
-      "Immersive experiences highlighting local traditions, history, and authentic lifestyles.",
+      "Discover local traditions, heritage sites, and authentic cultural experiences",
+    icon: FaLandmark,
+  },
+  {
+    id: "culinary",
+    title: "Culinary Tours",
+    description:
+      "Explore local cuisines, markets, and food traditions with expert gastronomic guides",
+    icon: FaUtensils,
+  },
+  {
+    id: "art-and-music",
+    title: "Art & Music Tours",
+    description:
+      "Immerse yourself in local artistic expressions, galleries, and musical traditions",
+    icon: FaPalette,
   },
   {
     id: "luxury",
-    name: "Luxury Experiences",
+    title: "Luxury Experiences",
     description:
-      "Premium tours featuring exclusive access, high-end accommodations, and VIP services.",
-  },
-  {
-    id: "nature",
-    name: "Nature & Wildlife",
-    description:
-      "Outdoor excursions focused on natural beauty, biodiversity, and conservation.",
+      "Indulge in exclusive access, premium services, and extraordinary accommodations",
+    icon: FaGem,
   },
   {
     id: "romantic",
-    name: "Romantic Getaways",
+    title: "Romantic Getaways",
     description:
-      "Specially curated experiences for couples in picturesque settings.",
+      "Create unforgettable moments in beautiful settings perfect for couples",
+    icon: FaHeart,
+  },
+  {
+    id: "nature",
+    title: "Nature & Wildlife",
+    description:
+      "Connect with natural environments and observe local wildlife with expert naturalists",
+    icon: FaLeaf,
   },
   {
     id: "wellness",
-    name: "Wellness Retreats",
+    title: "Wellness Retreats",
     description:
-      "Rejuvenating journeys centered on mindfulness, relaxation, and holistic health.",
+      "Rejuvenate mind and body through spa treatments, yoga, meditation, and healthy cuisine",
+    icon: FaSpa,
+  },
+  {
+    id: "spiritual",
+    title: "Spiritual Journeys",
+    description:
+      "Explore sacred sites, religious traditions, and mindful practices with knowledgeable guides",
+    icon: FaPray,
   },
 ];
 
