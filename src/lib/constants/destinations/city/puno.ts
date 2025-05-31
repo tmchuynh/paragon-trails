@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const lakeTiticacaPunoRegionPeru: Attraction[] = [
+export const punoPunoRegionPeru: Attraction[] = [
   {
     title: "Lake Titicaca",
     description:
