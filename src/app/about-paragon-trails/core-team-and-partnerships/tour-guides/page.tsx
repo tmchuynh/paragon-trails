@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import {
   Accordion,
   AccordionContent,
@@ -17,8 +18,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { tourGuides } from "@/lib/constants/staff/tourGuides";
+import { TourGuide } from "@/lib/interfaces/people/staff";
 import { formatToSlug } from "@/lib/utils/format";
+import { getAllTourGuides } from "@/lib/utils/get";
 import {
   generateRandomString,
   groupAndSortByProperties,
@@ -29,13 +31,33 @@ import { useEffect, useMemo, useState } from "react";
 
 export default function TourGuides() {
   const router = useRouter();
+  const [tourGuides, setTourGuides] = useState<TourGuide[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Await the Promise from getToolResource
+        const data = await getAllTourGuides();
+        setTourGuides(data);
+      } catch (error) {
+        console.error("Failed to load affirmation cards:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  console.log("Tour Guides Data:", tourGuides);
 
   // Filter state
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState<string>("");
-  const [selectedCity, setSelectedCity] = useState<string>("");
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("");
-  const [selectedSpecialty, setSelectedSpecialty] = useState<string>("");
+  const [selectedCountry, setSelectedCountry] = useState<string>("all");
+  const [selectedCity, setSelectedCity] = useState<string>("all");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
+  const [selectedSpecialty, setSelectedSpecialty] = useState<string>("all");
 
   // Extract unique values for filters
   const allCountries = [
@@ -63,18 +85,18 @@ export default function TourGuides() {
       }
 
       // Filter by country
-      if (selectedCountry && guide.country !== selectedCountry) {
+      if (selectedCountry !== "all" && guide.country !== selectedCountry) {
         return false;
       }
 
       // Filter by city
-      if (selectedCity && guide.city !== selectedCity) {
+      if (selectedCity !== "all" && guide.city !== selectedCity) {
         return false;
       }
 
       // Filter by language
       if (
-        selectedLanguage &&
+        selectedLanguage !== "all" &&
         !(guide.languages || []).includes(selectedLanguage)
       ) {
         return false;
@@ -82,7 +104,7 @@ export default function TourGuides() {
 
       // Filter by specialty
       if (
-        selectedSpecialty &&
+        selectedSpecialty !== "all" &&
         !(guide.specialties || []).includes(selectedSpecialty)
       ) {
         return false;
@@ -122,7 +144,7 @@ export default function TourGuides() {
 
   // Update available cities when country changes
   const availableCities = useMemo(() => {
-    if (!selectedCountry) return allCities;
+    if (selectedCountry === "all") return allCities;
     return [
       ...new Set(
         tourGuides
@@ -134,11 +156,11 @@ export default function TourGuides() {
 
   // Reset dependent filters when parent filter changes
   useEffect(() => {
-    if (selectedCountry) {
+    if (selectedCountry !== "all") {
       // Check if the currently selected city is available in the filtered list
       const cityStillValid = availableCities.includes(selectedCity);
-      if (!cityStillValid) {
-        setSelectedCity("");
+      if (!cityStillValid && selectedCity !== "all") {
+        setSelectedCity("all");
       }
     }
   }, [selectedCountry, availableCities, selectedCity]);
@@ -151,13 +173,17 @@ export default function TourGuides() {
     }
   };
 
+  if (loading) {
+    return <Loading />;
+  }
+
   // Clear all filters
   const clearFilters = () => {
     setSearchQuery("");
-    setSelectedCountry("");
-    setSelectedCity("");
-    setSelectedLanguage("");
-    setSelectedSpecialty("");
+    setSelectedCountry("all");
+    setSelectedCity("all");
+    setSelectedLanguage("all");
+    setSelectedSpecialty("all");
   };
 
   return (
@@ -211,7 +237,7 @@ export default function TourGuides() {
                   <SelectValue placeholder="Select country" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Countries</SelectItem>
+                  <SelectItem value="all">All Countries</SelectItem>
                   {allCountries.map((country) => (
                     <SelectItem key={country} value={country}>
                       {country}
@@ -229,7 +255,7 @@ export default function TourGuides() {
                   <SelectValue placeholder="Select city" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Cities</SelectItem>
+                  <SelectItem value="all">All Cities</SelectItem>
                   {availableCities.map((city) => (
                     <SelectItem key={city} value={city}>
                       {city}
@@ -250,7 +276,7 @@ export default function TourGuides() {
                   <SelectValue placeholder="Select language" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Languages</SelectItem>
+                  <SelectItem value="all">All Languages</SelectItem>
                   {allLanguages.map((language) => (
                     <SelectItem key={language} value={language}>
                       {language}
@@ -271,7 +297,7 @@ export default function TourGuides() {
                   <SelectValue placeholder="Select specialty" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Specialties</SelectItem>
+                  <SelectItem value="all">All Specialties</SelectItem>
                   {allSpecialties.map((specialty) => (
                     <SelectItem key={specialty} value={specialty}>
                       {specialty}
