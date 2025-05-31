@@ -1,4 +1,5 @@
 import { FAQs } from "@/lib/types/types";
+import { IconType } from "react-icons/lib";
 
 export interface TourCategory {
   id: string;
@@ -9,6 +10,7 @@ export interface TourCategory {
 
 export interface Tour {
   title: string;
+  icon: IconType;
   description: string;
   images: string[];
   duration: string;
