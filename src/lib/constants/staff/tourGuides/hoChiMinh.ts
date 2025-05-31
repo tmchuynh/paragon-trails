@@ -2,144 +2,59 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const hoChiMinhTourGuides: TourGuide[] = [
   {
-    city: "Hồ Chí Minh",
+    city: "Ho Chi Minh City",
     country: "Vietnam",
-    name: "Viet Hà Chế",
+    name: "Tran Van Duc",
     languages: ["Vietnamese", "English", "French"],
-    experienceYears: 8,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
-    bio: "Viet, a history enthusiast, offers tours that explore Vietnam War history, street food culture, and the vibrant life of Hồ Chí Minh City. He has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over eight years. Viet combines his extensive knowledge of Vietnam's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
+    experienceYears: 10,
+    specialties: ["War History", "Colonial Architecture", "Cultural Heritage"],
+    bio: "Tran Van Duc is a historian with ten years of experience guiding guests through Ho Chi Minh City's complex past. With a degree in Vietnamese History from the University of Social Sciences and Humanities, Duc leads tours that provide balanced perspectives on the Vietnam War, French colonial period, and the city's rapid modernization. His tours include visits to the War Remnants Museum, Cu Chi Tunnels, and historic districts. Duc's nuanced historical knowledge and engaging presentation style make his tours both educational and thought-provoking. He is committed to presenting multiple viewpoints while helping visitors understand Vietnam's journey to the present.",
     description:
-      "Viet, a history enthusiast, offers tours that explore Vietnam War history, street food culture, and the vibrant life of Hồ Chí Minh City.",
+      "Tran Van Duc offers balanced historical tours exploring Ho Chi Minh City's wartime and colonial past.",
     quote:
-      "In Hồ Chí Minh City, every street corner has a story, and every meal is a journey through history.",
+      "To understand modern Vietnam, we must look honestly at our difficult past while celebrating our resilience and progress.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
-    city: "Hồ Chí Minh",
+    city: "Ho Chi Minh City",
     country: "Vietnam",
-    name: "Nguyen Van An",
-    languages: ["Vietnamese", "English", "Japanese"],
-    experienceYears: 5,
-    specialties: [
-      "Vietnam War History",
-      "Street Food",
-      "Cultural Tours",
-      "Luxury Tours",
-    ],
-    bio: "Nguyen, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture. He has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over five years. Nguyen combines his extensive knowledge of Vietnam's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
-    description:
-      "Nguyen, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture.",
-    quote:
-      "In Hồ Chí Minh City, every meal is a celebration of our spirit, and every site is a testament to our resilience.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Lan Zhang",
-    languages: ["Vietnamese", "English", "French"],
-    experienceYears: 7,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Lan, a Hồ Chí Minh native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. She has a degree in Cultural Studies from the University of Social Sciences and Humanities and has worked as a tour guide for over seven years. Lan combines her extensive knowledge of Hồ Chí Minh's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Lan, a Hồ Chí Minh native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
-    quote:
-      "In Hồ Chí Minh, every street is a tapestry of history, and every meal is a celebration of Vietnam’s vibrant culture.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Nguyen Thi Lan",
-    languages: ["Vietnamese", "English", "French"],
-    experienceYears: 8,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
-    bio: "Nguyen, a history enthusiast, offers tours that explore Vietnam War history, street food culture, and the vibrant life of Hồ Chí Minh City. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over eight years. Nguyen combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
-    description:
-      "Nguyen, a history enthusiast, offers tours that explore Vietnam War history, street food culture, and the vibrant life of Hồ Chí Minh City.",
-    quote:
-      "In Hồ Chí Minh City, every street corner has a story, and every meal is a journey through history.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Trần Văn Bình",
-    languages: ["Vietnamese", "English", "Japanese"],
-    experienceYears: 9,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
-    bio: "Trần, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture. He has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over nine years. Trần combines his extensive knowledge of Vietnam's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
-    description:
-      "Trần, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
-    quote:
-      "In Hồ Chí Minh City, every meal is a taste of our culture, and every site is a reminder of our journey.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Pham Thi Hoa",
+    name: "Nguyen Thi Linh",
     languages: ["Vietnamese", "English", "Chinese"],
-    experienceYears: 7,
-    specialties: [
-      "Vietnam War History",
-      "Street Food",
-      "Cultural Tours",
-      "Luxury Tours",
-    ],
-    bio: "Pham, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over seven years. Pham combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
+    experienceYears: 8,
+    specialties: ["Street Food", "Culinary Traditions", "Market Tours"],
+    bio: "Nguyen Thi Linh is a culinary expert with eight years of experience guiding food-focused tours through Ho Chi Minh City's vibrant street food scene. A graduate of the Saigon Culinary Arts Centre, Linh leads tours that explore hidden alleyways, bustling markets, and local favorites not found in guidebooks. Her tours include tastings across numerous food stalls, cooking demonstrations, and insights into Vietnamese food culture. Linh's knowledge of regional flavors and street food traditions makes her tours both delicious and authentic. She is passionate about showcasing the diversity of Vietnamese cuisine beyond the famous dishes.",
     description:
-      "Pham, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
+      "Nguyen Thi Linh leads street food adventures highlighting Ho Chi Minh City's diverse culinary landscape.",
     quote:
-      "In Hồ Chí Minh City, every meal is a taste of our resilience, and every site is a reminder of our journey.",
+      "The best of Vietnamese cuisine isn't found in fancy restaurants – it's on the streets where recipes have been perfected across generations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
-    city: "Hồ Chí Minh",
+    city: "Ho Chi Minh City",
     country: "Vietnam",
-    name: "Trần Văn Hùng",
-    languages: ["Vietnamese", "English", "Chinese"],
-    experienceYears: 7,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
-    bio: "Trần, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture. He has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over seven years. Trần combines his extensive knowledge of Vietnam's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
-    description:
-      "Trần, a passionate guide, explores Hồ Chí Minh City’s Vietnam War history and street food culture.",
-    quote:
-      "In Hồ Chí Minh City, every meal is a celebration of our spirit, and every site is a testament to our resilience.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Linh Pham",
-    languages: ["Vietnamese", "English", "French"],
-    experienceYears: 6,
-    specialties: [
-      "Vietnam War History",
-      "Street Food",
-      "Cultural Tours",
-      "Spiritual Tours",
-    ],
-    bio: "Linh, a cultural guide, shares the vibrant history of Hồ Chí Minh City through its Vietnam War sites and street food culture. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over six years. Linh combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
-    description:
-      "Linh, a cultural guide, shares the vibrant history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
-    quote:
-      "In Hồ Chí Minh City, every meal is a taste of our culture, and every site is a reminder of our journey.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Hồ Chí Minh",
-    country: "Vietnam",
-    name: "Nguyen Thi Mai",
+    name: "Pham Minh Tuan",
     languages: ["Vietnamese", "English", "Japanese"],
-    experienceYears: 9,
-    specialties: ["Vietnam War History", "Street Food", "Cultural Tours"],
-    bio: "Nguyen, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture. She has a degree in History from the University of Social Sciences and Humanities in Ho Chi Minh City and has worked as a tour guide for over nine years. Nguyen combines her extensive knowledge of Vietnam's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and street food tastings, providing guests with an immersive cultural journey.",
+    experienceYears: 7,
+    specialties: ["Contemporary Art", "Urban Development", "Modern Vietnam"],
+    bio: "Pham Minh Tuan is an art and culture specialist with seven years of experience guiding tours focused on Ho Chi Minh City's vibrant contemporary scene. With a background in Urban Studies and Art History, Tuan leads tours that explore art galleries, creative districts, and architectural innovations. His tours highlight the dynamic evolution of Vietnam's largest city beyond traditional tourist sites. Tuan's connections with local artists and designers provide unique insights into Vietnam's creative industries. He is passionate about showcasing how young Vietnamese are reshaping their culture while honoring traditions.",
     description:
-      "Nguyen, a cultural guide, shares the rich history of Hồ Chí Minh City through its Vietnam War sites and street food culture.",
+      "Pham Minh Tuan explores Ho Chi Minh City's contemporary art scene and urban transformation.",
     quote:
-      "In Hồ Chí Minh City, every meal is a taste of our resilience, and every site is a reminder of our journey.",
+      "Today's Vietnam is being shaped by a generation of creative innovators who bridge our rich past with global influences.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    name: "Le Thi Hong",
+    languages: ["Vietnamese", "English", "German"],
+    experienceYears: 9,
+    specialties: ["Mekong Delta", "Rural Life", "Waterway Tours"],
+    bio: "Le Thi Hong is a Mekong Delta specialist with nine years of experience guiding tours from Ho Chi Minh City to the surrounding waterways and rural communities. Having grown up in the Delta region, Hong offers authentic insights into riverine lifestyles, floating markets, and agricultural traditions. Her tours combine boat journeys, village visits, and cultural exchanges with local families. Hong's deep connection to the region and her extensive network of contacts make her tours both immersive and genuine. She is dedicated to supporting sustainable tourism in the Mekong Delta while showcasing its cultural and ecological significance.",
+    description:
+      "Le Thi Hong guides Mekong Delta excursions highlighting rural traditions and waterway communities.",
+    quote:
+      "The Mekong Delta is Vietnam's rice bowl, where life flows with the rhythm of the river and traditions remain strong despite rapid changes elsewhere.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
 ];

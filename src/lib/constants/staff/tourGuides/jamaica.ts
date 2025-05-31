@@ -3,155 +3,50 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const jamaicaTourGuides: TourGuide[] = [
   {
     city: "Jamaica",
-    country: "Caribbean",
-    name: "Jamal Thompson",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 7,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Jamal, a Jamaican native, offers tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities. He has a degree in Environmental Studies from the University of the West Indies and has worked as a tour guide for over seven years. Jamal combines his extensive knowledge of Jamaica's environment with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Jamal, a Jamaican native, offers tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
-    quote:
-      "In Jamaica, every mountain tells a story, and every meal is a taste of the Caribbean’s vibrant spirit.",
+    country: "Jamaica",
+    name: "Marcus Thompson",
+    languages: ["English", "Jamaican Patois"],
+    experienceYears: 8,
+    specialties: ["Reggae Culture", "Beach Tours", "Adventure Experiences", "Cultural Heritage"],
+    bio: "Marcus Thompson is a Jamaican native with eight years of experience guiding guests through the island's vibrant culture and stunning landscapes. With a degree in Tourism from the University of the West Indies, Marcus crafts tours that showcase Jamaica's reggae heritage, pristine beaches, and adventure opportunities. His tours often include exclusive access to local music venues, hidden coves, and authentic experiences. Marcus's storytelling and laid-back approach make his tours both informative and enjoyable. He is passionate about sharing Jamaica's unique spirit and ensuring every guest experiences the true essence of the island.",
+    description: "Marcus Thompson offers immersive tours celebrating Jamaica's reggae culture and natural beauty.",
+    quote: "In Jamaica, every rhythm tells a story, and every beach holds the promise of adventure and relaxation.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Jamaica",
     country: "Jamaica",
-    name: "Dimitris Campbell",
-    languages: ["English", "Greek", "Spanish"],
+    name: "Shanice Williams",
+    languages: ["English", "Jamaican Patois", "Spanish"],
+    experienceYears: 6,
+    specialties: ["Culinary Experiences", "Cultural Heritage", "Beach Tours"],
+    bio: "Shanice Williams is a culinary expert with six years of experience creating food-focused tours across Jamaica. A graduate of the Culinary Institute of Jamaica, Shanice leads tours that explore the island's rich gastronomic traditions, from jerk seasoning to rum production. Her tours often include cooking classes, market visits, and tastings at local establishments. Shanice's warm personality and passion for Jamaican cuisine make her tours both delicious and educational. She is dedicated to showcasing the diverse flavors that make Jamaican food world-renowned.",
+    description: "Shanice Williams leads culinary adventures highlighting Jamaica's diverse flavors and food traditions.",
+    quote: "In Jamaica, every dish tells a story of our history, and every meal is a celebration of our vibrant culture.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Jamaica",
+    country: "Jamaica",
+    name: "Devon Richards",
+    languages: ["English", "Jamaican Patois", "French"],
     experienceYears: 7,
-    specialties: ["Caribbean Culture", "Nature Tours", "Culinary Experiences"],
-    bio: "Dimitris, a Jamaican native, offers tours that explore the island’s rich Caribbean culture, stunning landscapes, and culinary traditions. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over seven years. Dimitris combines his extensive knowledge of Jamaican culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to cultural sites and nature reserves, providing guests with an immersive cultural journey.",
-    description:
-      "Dimitris, a Jamaican native, offers tours that explore the island’s rich Caribbean culture, stunning landscapes, and culinary traditions.",
-    quote:
-      "In Jamaica, every rhythm is a celebration of life, and every dish is a taste of the island’s spirit.",
+    specialties: ["Historical Tours", "Cultural Heritage", "Rum Tasting", "Culinary Experiences"],
+    bio: "Devon Richards is a historical expert with seven years of experience guiding guests through Jamaica's rich past. With a degree in Caribbean History, Devon offers tours that explore colonial architecture, maroon settlements, and the island's journey to independence. His tours often include visits to historic plantations, museums, and cultural landmarks. Devon's storytelling abilities and extensive knowledge make his tours both engaging and informative. He is passionate about preserving Jamaica's historical legacy and sharing it with visitors from around the world.",
+    description: "Devon Richards explores Jamaica's complex history and cultural evolution through immersive tours.",
+    quote: "In Jamaica, our history shapes who we are, from the plantation fields to the sound systems – it's all part of our story.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Jamaica",
-    country: "Caribbean",
-    name: "Marcus Johnson",
-    languages: ["English", "Patois", "Spanish"],
+    country: "Jamaica",
+    name: "Amara Johnson",
+    languages: ["English", "Jamaican Patois", "German"],
     experienceYears: 5,
-    specialties: [
-      "Spiritual Heritage",
-      "Wellness Tours",
-      "Cultural Experiences",
-    ],
-    bio: "Marcus, a Jamaican native, offers tours that explore the island’s spiritual heritage, wellness practices, and cultural experiences. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over five years. Marcus combines his extensive knowledge of Jamaica's spiritual practices with his love for storytelling, making each tour a unique experience. His tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
-    description:
-      "Marcus, a Jamaican native, offers tours that explore the island’s spiritual heritage, wellness practices, and cultural experiences.",
-    quote:
-      "In Jamaica, every moment is an opportunity for spiritual growth, and every meal is a taste of the Caribbean’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Aisha Brown",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 6,
-    specialties: [
-      "Historical Tours",
-      "Local Culture",
-      "Art and Music",
-      "Spiritual Tours",
-    ],
-    bio: "Aisha, a Jamaican native, offers tours that delve into the island’s rich history, local culture, and vibrant art and music scene. She has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over six years. Aisha combines her extensive knowledge of Jamaica's history with her passion for storytelling, making each tour a unique experience. Her tours often include visits to historical sites, local art galleries, and music venues, providing guests with an immersive cultural journey.",
-    description:
-      "Aisha, a Jamaican native, offers tours that delve into the island’s rich history, local culture, and vibrant art and music scene.",
-    quote:
-      "In Jamaica, every beat tells a story, and every meal is a taste of the Caribbean’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Kofi Richards",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 8,
-    specialties: ["Luxury Tours", "Cultural Heritage", "Adventure Tours"],
-    bio: "Kofi, a Jamaican native, offers luxury tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over eight years. Kofi combines his extensive knowledge of Jamaica's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to luxury accommodations, cultural sites, and adventure activities, providing guests with an immersive cultural journey.",
-    description:
-      "Kofi, a Jamaican native, offers luxury tours that explore the island’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
-    quote:
-      "In Jamaica, every experience is a brush with nature’s grandeur, and every meal is a taste of the Caribbean’s elegance.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Zara Thompson",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 7,
-    specialties: ["Adventure Tours", "Cultural Heritage", "Nature Tours"],
-    bio: "Zara, a Jamaican native, offers tours that explore the island’s adventure opportunities, cultural heritage, and stunning landscapes. She has a degree in Environmental Studies from the University of the West Indies and has worked as a tour guide for over seven years. Zara combines her extensive knowledge of Jamaica's environment with her love for storytelling, making each tour a unique experience. Her tours often include hiking, nature walks, and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Zara, a Jamaican native, offers tours that explore the island’s adventure opportunities, cultural heritage, and stunning landscapes.",
-    quote:
-      "In Jamaica, every mountain is a monument to nature’s majesty, and every meal is a taste of the Caribbean’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Nia Clarke",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 6,
-    specialties: ["Wellness Tours", "Cultural Heritage", "Spiritual Tours"],
-    bio: "Nia, a Jamaican native, offers wellness tours that explore the island’s natural beauty, cultural heritage, and spiritual practices. She has a degree in Holistic Health from the University of the West Indies and has worked as a wellness coach and tour guide for over six years. Nia combines her extensive knowledge of wellness practices with her love for storytelling, making each tour a unique experience. Her tours often include yoga sessions, meditation practices, and visits to sacred sites, providing guests with an immersive cultural journey.",
-    description:
-      "Nia, a Jamaican native, offers wellness tours that explore the island’s natural beauty, cultural heritage, and spiritual practices.",
-    quote:
-      "In Jamaica, every moment is a chance to connect with nature, and every meal is a taste of the Caribbean’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Rohan Bennett",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 5,
-    specialties: [
-      "Adventure Tours",
-      "Romantic Getaways",
-      "Cultural Experiences",
-    ],
-    bio: "Rohan, a Jamaican native, offers tours that explore the island’s adventure opportunities, romantic getaways, and cultural experiences. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over five years. Rohan combines his extensive knowledge of Jamaica's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to romantic locations, cultural sites, and adventure activities, providing guests with an immersive cultural journey.",
-    description:
-      "Rohan, a Jamaican native, offers tours that explore the island’s adventure opportunities, romantic getaways, and cultural experiences.",
-    quote:
-      "In Jamaica, every sunset is a canvas of romance, and every meal is a taste of the island’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Tia Morgan",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 4,
-    specialties: ["Art and Music Tours", "Local Experiences"],
-    bio: "Tia, a Jamaican native, offers tours that explore the island’s vibrant art scene, music culture, and local experiences. She has a degree in Fine Arts from the University of the West Indies and has worked as an artist and tour guide for over four years. Tia combines her extensive knowledge of Jamaica's art and music with her love for storytelling, making each tour a unique experience. Her tours often include visits to local galleries, music performances, and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Tia, a Jamaican native, offers tours that explore the island’s vibrant art scene, music culture, and local experiences.",
-    quote:
-      "In Jamaica, every brushstroke tells a story, and every note is a celebration of the island’s beauty.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Jamaica",
-    country: "Caribbean",
-    name: "Kai Thompson",
-    languages: ["English", "Patois", "Spanish"],
-    experienceYears: 6,
-    specialties: ["Romantic Tours", "Cultural Heritage", "Nightlife Tours"],
-    bio: "Kai, a Jamaican native, offers tours that explore the island’s romantic getaways, cultural heritage, and vibrant nightlife. He has a degree in Cultural Studies from the University of the West Indies and has worked as a tour guide for over six years. Kai combines his extensive knowledge of Jamaica's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to romantic locations, cultural sites, and nightlife experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Kai, a Jamaican native, offers tours that explore the island’s romantic getaways, cultural heritage, and vibrant nightlife.",
-    quote:
-      "In Jamaica, every night is a celebration of love, and every meal is a taste of the island’s vibrant spirit.",
+    specialties: ["Nature Tours", "Adventure Experiences", "Wellness Retreats", "Spiritual Heritage"],
+    bio: "Amara Johnson is an outdoor enthusiast with five years of experience leading nature tours throughout Jamaica. With a background in Environmental Science, Amara specializes in showcasing the island's diverse ecosystems, from lush rainforests to pristine reefs. Her tours often include hiking, waterfall climbs, and snorkeling expeditions. Amara's knowledge of local flora and fauna and her commitment to sustainable tourism make her tours both exciting and educational. She is dedicated to promoting environmental conservation while sharing Jamaica's natural wonders.",
+    description: "Amara Johnson leads nature and adventure tours highlighting Jamaica's diverse ecosystems.",
+    quote: "In Jamaica, every waterfall has a story, and every forest path leads to discovery and connection with nature.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
 ];
