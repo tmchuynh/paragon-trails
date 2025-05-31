@@ -143,14 +143,14 @@ export const edinburghTourGuides: TourGuide[] = [
     languages: ["English", "Scottish Gaelic"],
     experienceYears: 7,
     specialties: [
-      "Literary History",
+      "art-and-music",
       "Ghost Tours",
       "Scottish History",
       "Architecture",
     ],
     certifications: ["Licensed Edinburgh Guide", "Scottish History Diploma"],
     description:
-      "Claire combines literary history with ghost tours, providing an immersive experience of Edinburgh’s mysterious side. ",
+      "Claire combines literary history with ghost tours, providing an immersive experience of Edinburgh's mysterious side. ",
     quote:
       "Edinburgh is a city where the past lingers in every shadow, and every story has a ghost waiting to be told.",
     bio: "Claire has collaborated with local authors and historians to create specialized tours that delve into specific aspects of Edinburgh's literary heritage, such as the lives of famous writers, the city's role in the Scottish Enlightenment, and its rich folklore. Her tours often include visits to historic pubs and cafes where famous authors gathered, providing guests with a unique insight into Edinburgh's literary culture. She has a degree in Scottish Literature from the University of Edinburgh and has worked as a tour guide for over seven years. Claire combines her extensive knowledge of Edinburgh's literary history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to literary landmarks and ghostly tales, providing guests with an immersive cultural experience. ",

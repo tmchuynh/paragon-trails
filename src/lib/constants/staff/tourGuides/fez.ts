@@ -73,7 +73,7 @@ export const fezTourGuides: TourGuide[] = [
     name: "Chef Fatima Berrada",
     languages: ["Arabic", "French", "English"],
     experienceYears: 9,
-    specialties: ["Culinary Tours", "Moroccan Cuisine", "Spice Markets"],
+    specialties: ["culinary", "Moroccan Cuisine", "Spice Markets"],
     certifications: [
       "Culinary Arts Diploma",
       "Certified Moroccan Cuisine Specialist",

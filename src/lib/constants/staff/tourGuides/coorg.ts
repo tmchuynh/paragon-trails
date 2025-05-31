@@ -7,12 +7,12 @@ export const coorgTourGuides: TourGuide[] = [
     name: "Arjun Rao",
     languages: ["Kannada", "English", "Hindi"],
     experienceYears: 8,
-    specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
-    bio: "Arjun, a Coorg native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Mysore and has worked as a tour guide for over eight years. Arjun combines his extensive knowledge of Coorg's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India’s natural wonders.",
+    specialties: ["adventure", "Nature Tours", "Cultural Experiences"],
+    bio: "Arjun, a Coorg native, offers tours that explore the region's adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Mysore and has worked as a tour guide for over eight years. Arjun combines his extensive knowledge of Coorg's natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on India's natural wonders.",
     description:
-      "Arjun, a Coorg native, offers tours that explore the region’s adventure opportunities, nature tours, and cultural experiences.",
+      "Arjun, a Coorg native, offers tours that explore the region's adventure opportunities, nature tours, and cultural experiences.",
     quote:
-      "In Coorg, every moment is a chance to connect with nature, and every meal is a taste of India’s vibrant spirit.",
+      "In Coorg, every moment is a chance to connect with nature, and every meal is a taste of India's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

@@ -101,9 +101,9 @@ export const bangkokTourGuides: TourGuide[] = [
     name: "Sukanya Prasert",
     languages: ["Thai", "English", "Chinese"],
     experienceYears: 6,
-    specialties: ["Luxury Tours", "Cultural Heritage", "Local Experiences"],
+    specialties: ["luxury", "Cultural Heritage", "Local Experiences"],
     description:
-      "Sukanya, a luxury travel expert, curates exclusive tours that blend Bangkok’s cultural heritage with high-end experiences.",
+      "Sukanya, a luxury travel expert, curates exclusive tours that blend Bangkok's cultural heritage with high-end experiences.",
     quote:
       "In Bangkok, luxury is not just about comfort; it's about experiencing the essence of our culture in style.",
     bio: "Sukanya refined her approach to luxury tourism while managing diplomatic events for Thailand's Foreign Ministry, developing protocols that blend international VIP standards with distinctively Thai ceremonial elements. Her specialized training in traditional Thai royal court etiquette allows her to incorporate historically accurate cultural refinements in luxury experiences beyond generic five-star service standards. She specializes in creating bespoke experiences that connect visitors with Bangkok's creative luminaries, from nationally renowned artists to innovative chefs pushing the boundaries of Thai cuisine. Sukanya has cultivated relationships with prominent Bangkok families who occasionally open their historic homes and private collections for exclusive viewing experiences typically unavailable to tourists. Her particular expertise in contemporary Thai design movements allows her to showcase emerging luxury brands and creators before they achieve international recognition. She regularly incorporates traditional Thai wellness practices in her luxury tours, arranging private sessions with master practitioners of therapeutic traditions typically accessible only through simplified tourist adaptations.",
@@ -115,9 +115,9 @@ export const bangkokTourGuides: TourGuide[] = [
     name: "Thanakorn Srisai",
     languages: ["Thai", "English", "Japanese"],
     experienceYears: 7,
-    specialties: ["Spiritual Tours", "Cultural Heritage", "Local Experiences"],
+    specialties: ["spiritual", "Cultural Heritage", "Local Experiences"],
     description:
-      "Thanakorn, a spiritual guide, offers tours that explore Bangkok’s temples and spiritual practices, providing a unique insight into the city’s spiritual heritage.",
+      "Thanakorn, a spiritual guide, offers tours that explore Bangkok's temples and spiritual practices, providing a unique insight into the city's spiritual heritage.",
     quote:
       "In Bangkok, spirituality is woven into the fabric of our daily lives, and I am here to help you discover its profound beauty.",
     bio: "Thanakorn's spiritual perspective was shaped by his seven years as a Buddhist monk before returning to secular life, giving him authentic insights into meditative practices often superficially presented to tourists. His formal religious studies encompassed not only Buddhism but comparative research on the diverse spiritual traditions practiced throughout Bangkok, from Brahmin ceremonies to Chinese temple rituals. He specializes in creating experiences that reveal the syncretic nature of Thai spirituality, showing how animist, Hindu, Chinese, and Buddhist elements blend in actual practice beyond textbook religious categories. Thanakorn has secured special access to temple rituals typically closed to outsiders, including meditation retreats in historic temples within Bangkok's bustling urban environment. His particular expertise in sacred art and architecture helps visitors understand the symbolic systems encoded in religious structures typically viewed purely as aesthetic objects. He regularly incorporates participatory spiritual practices in his tours, teaching visitors simplified but authentic meditation techniques in their appropriate cultural and physical contexts throughout Bangkok's diverse sacred spaces.",

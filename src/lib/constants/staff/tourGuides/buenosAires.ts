@@ -134,7 +134,7 @@ export const buenosAiresTourGuides: TourGuide[] = [
     name: "Martín Rodríguez",
     languages: ["Spanish", "English", "Portuguese"],
     experienceYears: 5,
-    specialties: ["Wellness Tours", "Yoga Retreats", "Cultural Experiences"],
+    specialties: ["wellness", "Yoga Retreats", "Cultural Experiences"],
     description:
       "Martín, a wellness enthusiast, leads tours that combine yoga retreats with cultural experiences, promoting relaxation and mindfulness in the heart of Buenos Aires.",
     quote:
