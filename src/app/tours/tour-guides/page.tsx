@@ -1,12 +1,44 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
-import { tourGuides } from "@/lib/constants/staff/tourGuides";
+import { TourGuide } from "@/lib/interfaces/people/staff";
+import { getAllTourGuides } from "@/lib/utils/get";
+import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
-import { featuredArray } from "@/lib/utils/sort";
+import { useEffect, useState } from "react";
 
 export default function TourGuides() {
+  const [tourGuides, setTourGuides] = useState<TourGuide[]>([]);
+  const [loading, setLoading] = useState(true);
   const router = useRouter();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Await the Promise from getToolResource
+        const data = await getAllTourGuides();
+        setTourGuides(data);
+      } catch (error) {
+        console.error("Failed to load affirmation cards:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
+  console.log("Tour Guides Data:", tourGuides);
+
+  const sortedGuides = groupAndSortByProperties(
+    tourGuides,
+    "experienceYears",
+    "name"
+  );
+
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Header Section */}
@@ -86,16 +118,21 @@ export default function TourGuides() {
       <div className="mb-16">
         <h2>Meet a Few of Our Incredible Guides</h2>
         <div className="gap-8 grid md:grid-cols-2">
-          {featuredArray(tourGuides)
+          {featuredArray(sortedGuides)
             .slice(4, 12)
-            .map(({ name, city, bio }, index) => (
+            .map(({ name, city, country, bio, description }, index) => (
               <div
                 key={index}
                 className="flex md:flex-row flex-col items-center md:items-start gap-4"
               >
                 <div>
                   <h3>{name}</h3>
-                  <p>{bio}</p>
+                  <h5>
+                    {city}, {country}
+                  </h5>
+                  <p className="line-clamp-3">
+                    {description ? description : bio}
+                  </p>
                 </div>
               </div>
             ))}
