@@ -4,6 +4,20 @@ export const hanoiTourGuides: TourGuide[] = [
   {
     city: "Hanoi",
     country: "Vietnam",
+    name: "Thuy Nguyen",
+    languages: ["Vietnamese", "English", "French"],
+    experienceYears: 8,
+    specialties: ["Old Quarter Tours", "Street Food", "Cultural Heritage"],
+    bio: "Thuy Nguyen is a Hanoi native with deep roots in the Old Quarter. With eight years of experience, she specializes in food tours and cultural exploration. Her tours blend historical insights with authentic culinary experiences, including exclusive access to family-run establishments. Thuy's storytelling brings Hanoi's rich heritage to life through its flavors and traditions.",
+    description:
+      "Thuy Nguyen guides guests through Hanoi's culinary heritage and historic streets.",
+    quote:
+      "In Hanoi, every street corner tells a story through its aromas and flavors.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Hanoi",
+    country: "Vietnam",
     name: "Nguyen Thi Mai",
     languages: ["Vietnamese", "English", "French"],
     experienceYears: 10,

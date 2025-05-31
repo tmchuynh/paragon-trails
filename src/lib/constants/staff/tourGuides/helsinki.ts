@@ -4,6 +4,20 @@ export const helsinkiTourGuides: TourGuide[] = [
   {
     city: "Helsinki",
     country: "Finland",
+    name: "Elina Virtanen",
+    languages: ["Finnish", "Swedish", "English"],
+    experienceYears: 7,
+    specialties: ["Design District", "Architecture", "Cultural Heritage"],
+    bio: "Elina Virtanen brings Helsinki's design heritage to life with her architecture-focused tours. After studying Design History at Aalto University, she developed tours that showcase Finland's innovative spirit. Her expertise in Finnish design and architecture makes each tour both educational and inspiring.",
+    description:
+      "Elina Virtanen explores Helsinki's design heritage and architectural innovations.",
+    quote:
+      "Helsinki's soul lives in its design - every building tells a story of innovation.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Helsinki",
+    country: "Finland",
     name: "Mikko Virtanen",
     languages: ["Finnish", "English", "Swedish"],
     experienceYears: 5,
