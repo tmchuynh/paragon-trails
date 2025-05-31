@@ -1,0 +1,50 @@
+import { TourGuide } from "@/lib/interfaces/people/staff";
+
+export const marrakechTourGuides: TourGuide[] = [
+  {
+    id: "hassan-ait-brahim",
+    name: "Hassan Ait Brahim",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
+    languages: ["Arabic", "Berber", "French", "English", "Spanish"],
+    experienceYears: 20,
+    specialties: ["Adventure Tours", "Mountaineering", "Summit Expeditions"],
+    bio: "A certified mountain guide with over 500 Toubkal summits, Hassan specializes in challenging expeditions and remote treks. His expertise in high-altitude adventures ensures both an exhilarating and safe experience.",
+    profileImage: "/images/guides/hassan-ait-brahim.jpg",
+    certifications: ["Advanced Mountaineering", "Alpine Rescue Techniques"],
+  },
+  {
+    id: "jean-michel-laurent",
+    name: "Jean-Michel Laurent",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
+    languages: ["French", "English", "Arabic"],
+    experienceYears: 18,
+    specialties: [
+      "Photography Tours",
+      "Art and Music Tours",
+      "Landscape Photography",
+    ],
+    bio: "Former National Geographic photographer, Jean-Michel has captured the Atlas Mountains' dramatic landscapes for over 15 years. His intimate knowledge of light, terrain, and local culture helps photographers of all levels capture stunning images.",
+    profileImage: "/images/guides/jean-michel-laurent.jpg",
+    certifications: ["Professional Photographer Association"],
+  },
+  {
+    id: "sofia-belkacem",
+    name: "Sofia Belkacem",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
+    languages: ["Arabic", "French", "English", "Italian"],
+    experienceYears: 12,
+    specialties: ["Luxury Tours", "Wellness Tours", "Romantic Tours"],
+    bio: "With a background in luxury hospitality and deep knowledge of Moroccan heritage, Sofia specializes in creating refined experiences that balance comfort with cultural authenticity.",
+    profileImage: "/images/guides/sofia-belkacem.jpg",
+    certifications: [
+      "Luxury Tourism Management",
+      "Spa and Wellness Specialist",
+    ],
+  },
+];
