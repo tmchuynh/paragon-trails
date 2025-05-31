@@ -530,15 +530,7 @@ export const cityattractions: CityAttractions[] = [
     quote:
       "The private tour of Kinkaku-ji (Golden Pavilion) and Fushimi Inari Shrine with our guide who shared insights into Japanese spirituality was a highlight of our Kyoto experience. Participating in a traditional kaiseki meal was the perfect way to immerse ourselves in Japanese culture.",
   },
-  {
-    city: "Puno",
-    state: "",
-    region: "Puno Region",
-    country: "Peru",
-    subtitle: "Highest Navigable Lake in the World",
-    quote:
-      "The private boat tour of Lake Titicaca with our guide who shared stories of the Uros floating islands was a highlight of our Peru adventure. Experiencing the local culture and traditions while enjoying breathtaking views made this trip truly special.",
-  },
+
   {
     city: "Las Vegas",
     state: "NV",
@@ -806,6 +798,15 @@ export const cityattractions: CityAttractions[] = [
       "The private island-hopping tour around El Nido with our guide who shared insights into Palawan's unique ecosystems was a highlight of our Philippine adventure. The crystal-clear waters and stunning limestone cliffs made this experience truly special.",
   },
   {
+    city: "Palermo",
+    state: "Sicily",
+    region: "Sicily",
+    country: "Italy",
+    subtitle: "Cultural Capital of Sicily",
+    quote:
+      "The private tour of Palermo's historic markets and street food scene with our guide who shared stories of Sicilian culture was a highlight of our Italian adventure. The vibrant atmosphere and delicious local dishes made this experience truly special.",
+  },
+  {
     city: "Panauti",
     state: "",
     region: "Bagmati Province",
@@ -834,6 +835,25 @@ export const cityattractions: CityAttractions[] = [
       "The private trekking tour through Torres del Paine National Park with our guide who shared insights into Patagonia's unique ecosystems was a highlight of our South American adventure. The breathtaking landscapes and pristine wilderness made this experience truly special.",
   },
   {
+    city: "Petra",
+    state: "",
+    region: "Ma'an Governorate",
+    country: "Jordan",
+    isPopular: true,
+    subtitle: "Rose City of the Nabataeans",
+    quote:
+      "Walking through the Siq and standing before the Treasury in Petra with our guide who shared stories of its ancient civilization was a surreal experience. The private dinner under the stars in the desert made this trip truly unforgettable.",
+  },
+  {
+    city: "Phnom Penh",
+    state: "",
+    region: "Phnom Penh",
+    country: "Cambodia",
+    subtitle: "Capital of Cambodia",
+    quote:
+      "The private tour of the Royal Palace and Silver Pagoda with our guide who shared insights into Cambodian history was a highlight of our Southeast Asian adventure. The vibrant markets and delicious street food made this experience truly special.",
+  },
+  {
     city: "Phuket",
     state: "",
     region: "Southern Thailand",
@@ -850,6 +870,16 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "Historical Port City",
     quote:
       "Exploring the ancient port of Piraeus with our guide offered unique insights into Greece's maritime history. The waterfront dining experience with views of the marina was simply unforgettable.",
+  },
+  {
+    city: "Portland",
+    state: "OR",
+    region: "OR",
+    country: "United States",
+    isPopular: true,
+    subtitle: "City of Roses",
+    quote:
+      "The private tour of Portland's craft breweries with our guide who shared stories of the city's beer culture was a highlight of our Pacific Northwest adventure. The vibrant arts scene and delicious food trucks made this trip truly special.",
   },
   {
     city: "Porto",
@@ -879,6 +909,73 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "City of a Hundred Spires",
     quote:
       "Exploring Prague's medieval streets with our local guide felt like stepping into a fairy tale. The private evening concert in a historic church was the perfect way to experience the city's musical heritage.",
+  },
+  {
+    city: "Pucallpa",
+    state: "",
+    region: "Ucayali Region",
+    country: "Peru",
+    subtitle: "Gateway to the Amazon",
+    quote:
+      "The private tour of Pucallpa's indigenous communities with our guide who shared insights into Amazonian culture was a highlight of our Peruvian adventure. The breathtaking landscapes and unique wildlife made this experience truly special.",
+  },
+  {
+    city: "Puerto Escondido",
+    state: "Oaxaca",
+    region: "Oaxaca",
+    country: "Mexico",
+    subtitle: "Surfing Paradise",
+    quote:
+      "The private surf lesson with a local instructor was the highlight of our Puerto Escondido trip. The laid-back vibe, stunning beaches, and delicious seafood made this experience truly special.",
+  },
+  {
+    city: "Puno",
+    state: "",
+    region: "Puno Region",
+    country: "Peru",
+    subtitle: "Highest Navigable Lake in the World",
+    quote:
+      "The private boat tour of Lake Titicaca with our guide who shared stories of the Uros floating islands was a highlight of our Peru adventure. Experiencing the local culture and traditions while enjoying breathtaking views made this trip truly special.",
+  },
+  {
+    city: "Queenstown",
+    state: "Otago",
+    region: "Otago",
+    country: "New Zealand",
+    isPopular: true,
+    subtitle: "Adventure Capital of the World",
+    quote:
+      "The private bungee jump experience at the Kawarau Bridge was exhilarating! Paragon Trails arranged everything perfectly, from our adrenaline-packed activities to the stunning scenery.",
+  },
+  {
+    city: "Quito",
+    state: "",
+    region: "Pichincha Province",
+    country: "Ecuador",
+    isPopular: true,
+    subtitle: "Gateway to the Galapagos",
+    quote:
+      "The private tour of Quito's historic center with our guide who shared stories of its colonial past was a highlight of our Ecuadorian adventure. The breathtaking views from the Teleférico and the vibrant markets made this trip truly special.",
+  },
+  {
+    city: "Reykjavik",
+    state: "",
+    region: "Capital Region",
+    country: "Iceland",
+    isPopular: true,
+    subtitle: "Gateway to the Land of Fire and Ice",
+    quote:
+      "The private Golden Circle tour with our guide who shared insights into Iceland's unique geology was a highlight of our Nordic adventure. The breathtaking landscapes and geothermal wonders made this experience truly special.",
+  },
+  {
+    city: "Riga",
+    state: "",
+    region: "Riga Region",
+    country: "Latvia",
+    isPopular: true,
+    subtitle: "Capital of Latvia",
+    quote:
+      "The private tour of Riga's Art Nouveau district with our guide who shared stories of its architectural heritage was a highlight of our Baltic adventure. The vibrant markets and delicious local cuisine made this trip truly special.",
   },
   {
     city: "Rio de Janeiro",
@@ -920,6 +1017,16 @@ export const cityattractions: CityAttractions[] = [
       "Cycling across the Golden Gate Bridge with the local guide Paragon Trails connected us with was exhilarating. Their insider tips helped us explore beyond the typical tourist spots.",
   },
   {
+    city: "Santorini",
+    state: "",
+    region: "South Aegean",
+    country: "Greece",
+    isPopular: true,
+    subtitle: "Island of the Gods",
+    quote:
+      "The private sunset cruise around Santorini's caldera with our guide who shared stories of its volcanic history was a highlight of our Greek adventure. The breathtaking views and delicious local cuisine made this experience truly special.",
+  },
+  {
     city: "Sapa",
     state: "",
     region: "Lao Cai Province",
@@ -956,6 +1063,16 @@ export const cityattractions: CityAttractions[] = [
     subtitle: "Soul of Asia",
     quote:
       "The private tour of Gyeongbokgung Palace with our guide who shared insights into Korean history was fascinating. Experiencing a traditional tea ceremony and exploring the vibrant street food scene made this trip unforgettable.",
+  },
+  {
+    city: "Seville",
+    state: "",
+    region: "Andalusia",
+    country: "Spain",
+    isPopular: true,
+    subtitle: "Heart of Andalusia",
+    quote:
+      "The private flamenco show in a traditional tablao with our guide who shared stories of Seville's rich cultural heritage was a highlight of our Spanish adventure. The stunning architecture and vibrant atmosphere made this experience truly special.",
   },
   {
     city: "Shanghai",
