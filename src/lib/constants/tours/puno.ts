@@ -1,7 +1,7 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 import { findGuideBySpecialty } from "@/lib/utils/get";
 
-export const lakeTiticacaTours: Tour[] = [
+export const punoTours: Tour[] = [
   {
     title: "Uros Floating Islands & Taquile Cultural Experience",
     description:
@@ -19,7 +19,7 @@ export const lakeTiticacaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("lake titicaca", "cultural").name,
+    tourGuide: findGuideBySpecialty("puno", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,7 +66,7 @@ export const lakeTiticacaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("lake titicaca", "historical").name,
+    tourGuide: findGuideBySpecialty("puno", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -304,5 +304,3 @@ export const lakeTiticacaTours: Tour[] = [
     ],
   },
 ];
-
-export default lakeTiticacaTours;
