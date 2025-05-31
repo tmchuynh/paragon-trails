@@ -531,7 +531,7 @@ export const cityattractions: CityAttractions[] = [
       "The private tour of Kinkaku-ji (Golden Pavilion) and Fushimi Inari Shrine with our guide who shared insights into Japanese spirituality was a highlight of our Kyoto experience. Participating in a traditional kaiseki meal was the perfect way to immerse ourselves in Japanese culture.",
   },
   {
-    city: "Lake Titicaca",
+    city: "Puno",
     state: "",
     region: "Puno Region",
     country: "Peru",
