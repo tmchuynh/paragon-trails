@@ -1,5 +1,4 @@
 import { FAQs } from "@/lib/types/types";
-import { TourGuide } from "../people/staff";
 
 export interface TourCategory {
   id: string;
@@ -28,7 +27,6 @@ export interface Tour {
   isArtOrMusic?: boolean;
   isOffTheBeatenPath?: boolean;
   isLocalExperience?: boolean;
-  tourGuide: TourGuide["name"];
   tourCategoryId: TourCategory["id"];
   faqs?: FAQs[];
 }
