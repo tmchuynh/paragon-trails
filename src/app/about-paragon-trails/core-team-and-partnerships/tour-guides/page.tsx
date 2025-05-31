@@ -18,6 +18,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { tourCategories, tourCategoryMap } from "@/lib/constants/staff/tourCategories";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { formatToSlug } from "@/lib/utils/format";
 import { getAllTourGuides } from "@/lib/utils/get";
@@ -102,12 +103,22 @@ export default function TourGuides() {
         return false;
       }
 
-      // Filter by specialty
-      if (
-        selectedSpecialty !== "all" &&
-        !(guide.specialties || []).includes(selectedSpecialty)
-      ) {
-        return false;
+      // Filter by specialty - check both category IDs and display names
+      if (selectedSpecialty !== "all") {
+        const specialties = guide.specialties || [];
+        const matchesId = specialties.includes(selectedSpecialty);
+
+        // Check if the selected specialty matches a category name from our official categories
+        const matchesName = specialties.some((specialty) => {
+          const category = Object.values(tourCategoryMap).find(
+            (cat) => cat.name.toLowerCase() === specialty.toLowerCase()
+          );
+          return category && category.id === selectedSpecialty;
+        });
+
+        if (!matchesId && !matchesName) {
+          return false;
+        }
       }
 
       return true;
@@ -118,6 +129,7 @@ export default function TourGuides() {
     selectedCity,
     selectedLanguage,
     selectedSpecialty,
+    tourGuides,
   ]);
 
   // Sort filtered tour guides by country and then by name
@@ -286,7 +298,7 @@ export default function TourGuides() {
               </Select>
             </div>
 
-            {/* Filter by specialty */}
+            {/* Filter by specialty - updated to use official categories */}
             <div>
               <Label htmlFor="filter-specialty">Filter by Specialty</Label>
               <Select
@@ -298,11 +310,25 @@ export default function TourGuides() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">All Specialties</SelectItem>
-                  {allSpecialties.map((specialty) => (
-                    <SelectItem key={specialty} value={specialty}>
-                      {specialty}
+                  {tourCategories.map((category) => (
+                    <SelectItem key={category.id} value={category.id}>
+                      {category.name}
                     </SelectItem>
                   ))}
+                  {allSpecialties
+                    .filter(
+                      (specialty) =>
+                        !tourCategories.some(
+                          (cat) =>
+                            cat.name.toLowerCase() === specialty.toLowerCase() ||
+                            cat.id === specialty
+                        )
+                    )
+                    .map((specialty) => (
+                      <SelectItem key={specialty} value={specialty}>
+                        {specialty}
+                      </SelectItem>
+                    ))}
                 </SelectContent>
               </Select>
             </div>
@@ -387,19 +413,28 @@ export default function TourGuides() {
                             {guide.city}, <span>{guide.country}</span>
                           </p>
 
-                          {guide.specialties && (
-                            <div className="flex flex-wrap gap-2 mb-4">
-                              {guide.specialties.map((specialty, index) => (
-                                <Badge
-                                  size={"lg"}
-                                  key={index}
-                                  variant="secondary"
-                                >
-                                  {specialty}
-                                </Badge>
-                              ))}
-                            </div>
-                          )}
+                          {/* Render badge with proper display name for official categories */}
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {guide.specialties &&
+                              guide.specialties.map((specialty, index) => {
+                                const officialCategory = tourCategories.find(
+                                  (cat) => cat.id === specialty
+                                );
+                                const displayName = officialCategory
+                                  ? officialCategory.name
+                                  : specialty;
+
+                                return (
+                                  <Badge
+                                    size={"lg"}
+                                    key={index}
+                                    variant="secondary"
+                                  >
+                                    {displayName}
+                                  </Badge>
+                                );
+                              })}
+                          </div>
 
                           <p className="mb-3">"{guide.quote}"</p>
 
