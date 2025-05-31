@@ -9,7 +9,7 @@ export const marrakechTourGuides: TourGuide[] = [
     region: "Atlas Mountains",
     languages: ["Arabic", "Berber", "French", "English", "Spanish"],
     experienceYears: 20,
-    specialties: ["Adventure Tours", "Mountaineering", "Summit Expeditions"],
+    specialties: ["adventure", "Mountaineering", "Summit Expeditions"],
     bio: "A certified mountain guide with over 500 Toubkal summits, Hassan specializes in challenging expeditions and remote treks. His expertise in high-altitude adventures ensures both an exhilarating and safe experience.",
     profileImage: "/images/guides/hassan-ait-brahim.jpg",
     certifications: ["Advanced Mountaineering", "Alpine Rescue Techniques"],

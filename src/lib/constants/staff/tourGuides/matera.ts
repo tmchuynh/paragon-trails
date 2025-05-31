@@ -35,10 +35,10 @@ export const materaTourGuides: TourGuide[] = [
     name: "Francesca Bianchi",
     languages: ["Italian", "English", "French"],
     experienceYears: 8,
-    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
-    bio: "Francesca, a Matera native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Bari and has worked as a chef and tour guide for over eight years. Francesca combines her extensive knowledge of Italian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    specialties: ["culinary", "Cultural Heritage", "City Tours"],
+    bio: "Francesca, a Matera native, offers culinary tours that explore the city's rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Bari and has worked as a chef and tour guide for over eight years. Francesca combines her extensive knowledge of Italian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
     description:
-      "Francesca, a Matera native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+      "Francesca, a Matera native, offers culinary tours that explore the city's rich culinary heritage, vibrant neighborhoods, and cultural scene.",
     quote:
       "In Matera, every dish tells a story, and every street is a celebration of culture and diversity.",
     profileImage: "/images/guides/valeria-marino.jpg",

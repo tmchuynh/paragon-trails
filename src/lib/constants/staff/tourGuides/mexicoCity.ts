@@ -142,12 +142,12 @@ export const mexicoCityTourGuides: TourGuide[] = [
     name: "Carlos Herrera",
     languages: ["Spanish", "English", "French"],
     experienceYears: 9,
-    specialties: ["Art Tours", "Local Festivals", "Indigenous Heritage"],
-    bio: "Carlos, a cultural enthusiast, leads tours that explore Mexico City’s art scene and indigenous heritage. He has a degree in Cultural Studies from UNAM and has worked as a tour guide for over nine years. Carlos combines his extensive knowledge of Mexico's indigenous cultures with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to art galleries and cultural festivals, providing guests with an immersive cultural experience.",
+    specialties: ["art-and-music", "Cultural Heritage", "Street Art"],
+    bio: "Carlos, a cultural enthusiast, leads tours that explore Mexico City's art scene and indigenous heritage. He has a degree in Cultural Studies from UNAM and has worked as a tour guide for over nine years. Carlos combines his extensive knowledge of Mexico's indigenous cultures with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to art galleries and cultural festivals, providing guests with an immersive cultural journey.",
     description:
-      "Carlos, a cultural enthusiast, leads tours that explore Mexico City’s art scene and indigenous heritage.",
+      "Carlos, a cultural enthusiast, leads tours that explore Mexico City's art scene and indigenous heritage.",
     quote:
-      "In Mexico City, every street is a canvas, and every festival is a celebration of life.",
+      "In Mexico City, every street is a stage, and every mural is a masterpiece waiting to be discovered.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

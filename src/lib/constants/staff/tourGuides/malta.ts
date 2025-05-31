@@ -27,14 +27,14 @@ export const maltaTourGuides: TourGuide[] = [
     languages: ["Maltese", "English", "Italian"],
     experienceYears: 8,
     specialties: [
-      "Culinary Experiences",
+      "culinary",
       "Cultural Heritage",
       "City Tours",
       "Adventure Tours",
     ],
-    bio: "Maria, a Malta native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Malta and has worked as a chef and tour guide for over eight years. Maria combines her extensive knowledge of Mediterranean cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    bio: "Maria, a Malta native, offers culinary tours that explore the island's rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Malta and has worked as a chef and tour guide for over eight years. Maria combines her extensive knowledge of Mediterranean cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
     description:
-      "Maria, a Malta native, offers culinary tours that explore the island’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+      "Maria, a Malta native, offers culinary tours that explore the island's rich culinary heritage, vibrant neighborhoods, and cultural scene.",
     quote:
       "In Malta, every dish tells a story, and every street is a celebration of culture and diversity.",
     profileImage: "/images/guides/valeria-marino.jpg",

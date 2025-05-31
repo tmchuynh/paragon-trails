@@ -22,15 +22,15 @@ export const melbourneTourGuides: TourGuide[] = [
     languages: ["English", "Italian", "French"],
     experienceYears: 6,
     specialties: [
+      "wellness",
       "Spiritual Enlightenment",
-      "Wellness Tours",
       "Cultural Experiences",
     ],
-    bio: "Emma, a Melbourne native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over six years. Emma combines her extensive knowledge of Melbourne's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    bio: "Emma, a Melbourne native, offers tours that explore the city's spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over six years. Emma combines her extensive knowledge of Melbourne's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
     description:
-      "Emma, a Melbourne native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
+      "Emma, a Melbourne native, offers tours that explore the city's spiritual heritage, wellness practices, and cultural experiences.",
     quote:
-      "In Melbourne, every moment is an opportunity for spiritual growth, and every meal is a taste of the city’s vibrant spirit.",
+      "In Melbourne, every moment is an opportunity for spiritual growth, and every meal is a taste of the city's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
