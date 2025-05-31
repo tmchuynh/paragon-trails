@@ -8,9 +8,9 @@ export const galapagosIslandsTourGuides: TourGuide[] = [
     languages: ["Spanish", "English", "French"],
     experienceYears: 5,
     specialties: ["Cultural Heritage", "Art and Music", "Local Culture"],
-    bio: "Sofia Morales combines her background in Cultural Studies with her love for the Galapagos' artistic heritage. A graduate of the University of San Francisco de Quito, she specializes in tours that explore the islands' vibrant art scene and cultural traditions. Sofia's tours offer unique insights into local galleries, music venues, and cultural landmarks. Her storytelling brings the islands' creative spirit to life, making each tour both enriching and memorable.",
+    bio: "Sofia Morales combines her degree in Cultural Studies with her passion for the Galapagos' artistic heritage. Her five years of experience have focused on showcasing the islands' vibrant art scene and local traditions. Sofia's tours blend gallery visits with cultural immersion experiences, offering unique insights into the creative spirit of the archipelago. Her storytelling brings local art and music to life, making each tour both enriching and memorable.",
     description:
-      "Sofia Morales celebrates the Galapagos' cultural heritage through art and music.",
+      "Sofia Morales celebrates the Galapagos' cultural heritage through art, music, and local traditions.",
     quote:
       "In the Galapagos, every beat tells a story, and every meal is a taste of Ecuador’s vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
@@ -22,9 +22,9 @@ export const galapagosIslandsTourGuides: TourGuide[] = [
     languages: ["Spanish", "English", "French"],
     experienceYears: 6,
     specialties: ["Culinary Experiences", "Nature Tours", "Adventure Tours"],
-    bio: "Isabella Cruz crafts culinary adventures that showcase the Galapagos' unique flavors and natural beauty. With a degree in Culinary Arts, she combines her expertise in local cuisine with guided explorations of the islands' stunning landscapes. Isabella's tours feature hands-on cooking experiences using traditional ingredients and techniques, along with adventures through the archipelago's diverse ecosystems.",
+    bio: "Isabella Cruz crafts unique culinary adventures that showcase the Galapagos' island flavors and natural wonders. Her six years of experience and degree in Culinary Arts fuel her passion for combining local cuisine with outdoor exploration. Isabella's tours feature exclusive cooking experiences using traditional ingredients, complemented by guided adventures through the archipelago's diverse landscapes.",
     description:
-      "Isabella Cruz blends culinary exploration with nature adventures in the Galapagos.",
+      "Isabella Cruz combines culinary discoveries with nature adventures in the Galapagos.",
     quote:
       "In the Galapagos, every dish tells a story, and every street is a celebration of culture and diversity.",
     profileImage: "/images/guides/valeria-marino.jpg",
@@ -36,9 +36,9 @@ export const galapagosIslandsTourGuides: TourGuide[] = [
     languages: ["Spanish", "English", "French"],
     experienceYears: 8,
     specialties: ["Nature Tours", "Wildlife Tours", "Adventure Tours"],
-    bio: "Diego Torres is an environmental scientist turned guide who dedicates himself to sharing the Galapagos' extraordinary ecosystems. His tours offer in-depth insights into the islands' unique wildlife and conservation efforts. With eight years of experience, Diego creates experiences that combine scientific knowledge with adventure, including exclusive access to protected areas and meaningful wildlife encounters.",
+    bio: "Diego Torres applies his environmental science background to create enlightening wildlife experiences. With eight years of guiding experience, he specializes in interpreting the islands' unique ecosystems and conservation efforts. Diego's tours provide exclusive access to protected areas and meaningful wildlife encounters, enhanced by his scientific knowledge and conservation expertise.",
     description:
-      "Diego Torres guides visitors through the Galapagos' remarkable ecosystems and wildlife.",
+      "Diego Torres guides visitors through the Galapagos' remarkable ecosystems and wildlife conservation.",
     quote:
       "In the Galapagos, every moment is a chance to connect with nature, and every meal is a taste of Ecuador’s vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
