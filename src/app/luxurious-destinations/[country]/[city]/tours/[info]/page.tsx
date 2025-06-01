@@ -9,19 +9,9 @@ import {
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
 import { Tour } from "@/lib/interfaces/services/tours";
-import { cn } from "@/lib/utils";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { formatToSlug } from "@/lib/utils/format";
 import { getTourData } from "@/lib/utils/get";
-import { format } from "date-fns";
-import { Calendar as CalendarIcon } from "lucide-react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -35,8 +25,6 @@ export default function TourPage() {
   const tourName = searchParams.get("tour") || "";
   const tourGuide = searchParams.get("tourGuide") || "";
   const tourCategoryId = searchParams.get("tourCategoryId") || "";
-  const [date, setDate] = useState<Date>();
-  const [participants, setParticipants] = useState(2);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -86,11 +74,12 @@ export default function TourPage() {
     );
   }
 
-  const totalPrice =
-    parseFloat(tour.price.replace(/[^0-9.]/g, "")) * participants;
-
-  // Function to display star ratings using React Icons
-
+  const queryParams = new URLSearchParams({
+    city: city,
+    tourName: tourName,
+    tourGuide: tourGuide,
+    tourCategoryId: tourCategoryId,
+  });
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
@@ -277,96 +266,14 @@ export default function TourPage() {
               </div>
             </div>
           </div>
-
-          <div className="top-24 sticky shadow-lg p-6 border border-border rounded-lg">
-            <h2 className="mb-2 font-bold text-2xl">Book This Tour</h2>
-            <div className="mb-6">
-              <p className="font-bold text-3xl">
-                {tour.price}{" "}
-                <span className="font-normal text-sm">per person</span>
-              </p>
-            </div>
-
-            {/* Date picker */}
-            <div className="mb-6">
-              <label className="block mb-2">Select Date</label>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant={"outline"}
-                    className={cn(
-                      "w-full justify-start text-left font-normal",
-                      !date && "text-gray-400"
-                    )}
-                  >
-                    <CalendarIcon className="mr-2 w-4 h-4" />
-                    {date ? format(date, "PPP") : "Select date"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="p-0 w-auto" align="start">
-                  <Calendar
-                    mode="single"
-                    selected={date}
-                    onSelect={setDate}
-                    disabled={(date: Date) => date < new Date()}
-                    initialFocus
-                  />
-                </PopoverContent>
-              </Popover>
-            </div>
-
-            {/* Number of participants */}
-            <div className="mb-6">
-              <label className="block mb-2">Participants</label>
-              <div className="flex items-center border rounded-md">
-                <button
-                  className="px-3 py-2 text-lg"
-                  onClick={() =>
-                    setParticipants((prev) => Math.max(1, prev - 1))
-                  }
-                >
-                  −
-                </button>
-                <span className="flex-1 text-center">{participants}</span>
-                <button
-                  className="px-3 py-2 text-lg"
-                  onClick={() => setParticipants((prev) => prev + 1)}
-                >
-                  +
-                </button>
-              </div>
-            </div>
-
-            {/* Total */}
-            <div className="mb-6 py-4 border-t border-b">
-              <div className="flex justify-between mb-2">
-                <span>Price per person</span>
-                <span>{tour.price}</span>
-              </div>
-              <div className="flex justify-between mb-2">
-                <span>Participants</span>
-                <span>x{participants}</span>
-              </div>
-              <div className="flex justify-between font-bold">
-                <span>Total</span>
-                <span>${totalPrice.toFixed(2)}</span>
-              </div>
-            </div>
-
-            <Button
-              onClick={() =>
-                router.push(
-                  `/book-your-trip-today?tour=${formatToSlug(
-                    tour.title
-                  ).replace("&", "@")}&participants=${participants}&date=${
-                    date ? format(date, "yyyy-MM-dd") : ""
-                  }&tourGuide=${tourGuide}&tourCategoryId=${tourCategoryId}`
-                )
-              }
-            >
-              Book Now
-            </Button>
-          </div>
+          <Button
+            onClick={() =>
+              router.push(`/book-your-trip-today?${queryParams.toString()}`)
+            }
+            className="w-full"
+          >
+            Book Now
+          </Button>
         </div>
       </div>
     </div>
