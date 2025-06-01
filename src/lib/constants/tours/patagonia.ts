@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const patagoniaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("patagonia", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("patagonia", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Carolina Martinez",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Maria Sánchez",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Alejandro Fuentes",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Felipe Torres",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Captain Jorge Estevez",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -243,7 +235,6 @@ export const patagoniaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Ana Gutierrez",
     tourCategoryId: "historical",
     faqs: [
       {

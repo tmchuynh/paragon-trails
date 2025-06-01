@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const punoTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const punoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("puno", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,7 +64,6 @@ export const punoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("puno", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const punoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Luxury Catamaran Staff & Local Guides",
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -140,7 +136,6 @@ export const punoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Manuel Coila, Master Reed Craftsman",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -172,7 +167,6 @@ export const punoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Arturo Sanchez, Landscape Photographer",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -209,7 +203,6 @@ export const punoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Spiritual Guide Juanita Quispe",
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -251,7 +244,6 @@ export const punoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Biologist Dr. Ana Quispe",
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -283,7 +275,6 @@ export const punoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Maria Huanca",
     tourCategoryId: "culinary",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const piraeusTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const piraeusTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("piraeus", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const piraeusTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("piraeus", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

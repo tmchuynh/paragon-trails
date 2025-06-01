@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const panautiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const panautiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("panauti", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -52,7 +50,6 @@ export const panautiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("panauti", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -84,7 +81,6 @@ export const panautiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Sushila Maharjan",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -116,7 +112,6 @@ export const panautiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Rajeev Shakya",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -148,7 +143,6 @@ export const panautiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Mingma Sherpa",
     tourCategoryId: "adventure",
     faqs: [
       {

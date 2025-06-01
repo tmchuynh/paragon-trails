@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sanDiegoTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const sanDiegoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("san-diego", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const sanDiegoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("san-diego", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const sanDiegoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("san-diego", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

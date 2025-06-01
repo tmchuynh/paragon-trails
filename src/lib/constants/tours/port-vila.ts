@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const portVilaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("port-vila", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -146,7 +142,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("port-vila", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -189,7 +184,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -232,7 +226,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -276,7 +269,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -320,7 +312,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("port-vila", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -363,7 +354,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("port-vila", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -405,7 +395,6 @@ export const portVilaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("port-vila", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {

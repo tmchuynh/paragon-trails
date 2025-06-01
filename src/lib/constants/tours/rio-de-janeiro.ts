@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const rioDeJaneiroTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const rioDeJaneiroTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("rio-de-janeiro", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const rioDeJaneiroTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("rio-de-janeiro", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const rioDeJaneiroTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("rio-de-janeiro", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
