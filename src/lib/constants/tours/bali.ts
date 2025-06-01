@@ -17,6 +17,15 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -93,8 +102,7 @@ export const baliTours: Tour[] = [
       "5:30 PM: Watch Kecak Fire Dance performance (if available)",
       "7:00 PM: Return to hotel",
     ],
-    meetingPoint:
-      "Your accommodation in South Bali (Kuta, Seminyak, Nusa Dua, Jimbaran or Ubud areas)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -115,6 +123,15 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -190,8 +207,6 @@ export const baliTours: Tour[] = [
       "3:00 PM: Jungle swing experience with views of the valley",
       "5:00 PM: Return to hotel",
     ],
-    meetingPoint:
-      "Your accommodation in Bali (Ubud, Seminyak, Kuta, or Nusa Dua areas)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -212,6 +227,15 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -278,8 +302,6 @@ export const baliTours: Tour[] = [
       "6:00 PM: Enjoy a buffet dinner and watch live performances",
       "8:00 PM: Return to the beach and transfer back to the hotel",
     ],
-    meetingPoint:
-      "Your accommodation in Bali (Kuta, Seminyak, Nusa Dua, Jimbaran, or Ubud areas)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -300,6 +322,15 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -369,8 +400,6 @@ export const baliTours: Tour[] = [
       "11:00 AM: Visit a coffee plantation",
       "12:30 PM: Return to hotel",
     ],
-    meetingPoint:
-      "Your accommodation in Bali (Ubud, Seminyak, Kuta, or Nusa Dua areas)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -391,6 +420,15 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -462,8 +500,6 @@ export const baliTours: Tour[] = [
       "12:30 PM: Enjoy the meal you prepared for lunch",
       "1:30 PM: Return to hotel",
     ],
-    meetingPoint:
-      "Your accommodation in Bali (Ubud, Seminyak, Kuta, or Nusa Dua areas)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },

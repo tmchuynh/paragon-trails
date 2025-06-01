@@ -66,8 +66,6 @@ export const atlantaTours: Tour[] = [
       "3:00 PM: Walking tour of Auburn Avenue and Sweet Auburn district",
       "4:30 PM: Tour conclusion with Q&A session",
     ],
-    meetingPoint:
-      "Martin Luther King Jr. National Historical Park Visitor Center, 450 Auburn Ave NE, Atlanta, GA 30312",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -135,7 +133,6 @@ export const atlantaTours: Tour[] = [
       "3:30 PM: Visit additional filming locations and studio facilities",
       "4:30 PM: Tour conclusion with film industry resources",
     ],
-    meetingPoint: "Atlanta Movie Tours, 327 Nelson St SW, Atlanta, GA 30313",
     cancellationPolicy:
       "Full refund if canceled at least 72 hours in advance. 50% refund if canceled 48-72 hours in advance. No refund for cancellations less than 48 hours before the scheduled tour.",
   },
@@ -202,7 +199,6 @@ export const atlantaTours: Tour[] = [
       "1:00 PM: Craft cocktail tasting at a renowned bar",
       "1:45 PM: Tour concludes at the final tasting location",
     ],
-    meetingPoint: "The Varsity, 61 S. Marietta St. NW, Atlanta, GA 30303",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -267,7 +263,6 @@ export const atlantaTours: Tour[] = [
       "11:00 AM: Continue the tour exploring the natural aspects of the BeltLine",
       "12:00 PM: Tour concludes at a popular BeltLine destination",
     ],
-    meetingPoint: "Krog Street Market, 99 Krog St NE, Atlanta, GA 30307",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -336,8 +331,6 @@ export const atlantaTours: Tour[] = [
       "3:00 PM: Q&A session with a hip-hop artist or producer",
       "4:00 PM: Tour concludes with transportation back to the meeting point",
     ],
-    meetingPoint:
-      "Patchwerk Recording Studios, 1094 E. Confederate Ave. SE, Atlanta, GA 30316",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },

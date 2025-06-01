@@ -18,6 +18,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -81,8 +90,6 @@ export const athensTours: Tour[] = [
       "12:00 PM: Visit the Acropolis Museum with expert commentary",
       "1:30 PM: Tour conclusion and hotel drop-off (or lunch recommendations)",
     ],
-    meetingPoint:
-      "Your Athens hotel lobby or apartment (within city center)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -103,6 +110,15 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -163,8 +179,6 @@ export const athensTours: Tour[] = [
       "1:00 PM: Enjoy the meal you've prepared with local wine",
       "2:30 PM: Tour conclusion with recipes and cooking tips",
     ],
-    meetingPoint:
-      "Entrance of Athens Central Market (Varvakeios Agora), Athinas Street",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -185,6 +199,15 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -250,8 +273,6 @@ export const athensTours: Tour[] = [
       "8:00 PM: Dinner at a traditional seaside taverna",
       "10:00 PM: Return to Athens",
     ],
-    meetingPoint:
-      "Your Athens hotel lobby or apartment (within city center)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -272,6 +293,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -338,7 +368,6 @@ export const athensTours: Tour[] = [
       "12:00 PM: Visit the Central Market and learn about local ingredients",
       "1:00 PM: Tour conclusion and recommendations for further exploration",
     ],
-    meetingPoint: "Monastiraki Square, in front of the Church of the Pantanassa",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -359,6 +388,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -424,7 +462,6 @@ export const athensTours: Tour[] = [
       "1:00 PM: Review and editing session at a local cafe",
       "2:00 PM: Tour conclusion and digital photo delivery",
     ],
-    meetingPoint: "Plaka, Athens (exact location provided upon booking)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -445,6 +482,15 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -509,7 +555,6 @@ export const athensTours: Tour[] = [
       "6:45 PM: Visit the third wine bar, concluding with a dessert wine",
       "7:30 PM: Tour conclusion or optional dinner reservation at a nearby restaurant",
     ],
-    meetingPoint: "First wine bar location provided upon booking",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -530,6 +575,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -596,7 +650,6 @@ export const athensTours: Tour[] = [
       "1:30 PM: Enjoy a traditional Greek lunch (optional) or continue exploring",
       "3:00 PM: Tour conclusion and return to central Athens",
     ],
-    meetingPoint: "Acropolis Metro Station, Makrygianni 1, Athens",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -617,6 +670,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -683,7 +745,7 @@ export const athensTours: Tour[] = [
       "5:00 PM: Return to Athens",
       "6:00 PM: Tour conclusion",
     ],
-    meetingPoint: "Central Athens location (exact details provided upon booking)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -704,6 +766,15 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "local",
     faqs: [
       {
@@ -768,7 +839,6 @@ export const athensTours: Tour[] = [
       "11:15 AM: Prize ceremony for the winning team",
       "11:30 AM: Tour conclusion and recommendations for family-friendly activities in Athens",
     ],
-    meetingPoint: "Syntagma Square, in front of the Greek Parliament building",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -789,6 +859,15 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -854,7 +933,6 @@ export const athensTours: Tour[] = [
       "9:00 PM: Return to the yacht and continue cruising or head back",
       "10:00 PM: Disembark at the marina and transfer back to your hotel",
     ],
-    meetingPoint: "Your Athens hotel lobby or apartment (within city center)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },

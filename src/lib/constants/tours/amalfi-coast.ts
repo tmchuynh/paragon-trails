@@ -85,8 +85,6 @@ export const amalfiCoastTours: Tour[] = [
       "1:30 PM - 3:00 PM: Free time to explore Positano and have lunch",
       "3:30 PM: Return transportation to starting point",
     ],
-    meetingPoint:
-      "Piazza Paolo Capasso, Bomerano (Agerola), with the statue of the hiker",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity or in case of no-show.",
   },
@@ -169,8 +167,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:30 PM: Lunch featuring dishes prepared during class",
       "3:30 PM: Tour conclusion with limoncello gift and recipes",
     ],
-    meetingPoint:
-      "Amalfi main bus station, Piazza Flavio Gioia, in front of the fountain",
     cancellationPolicy:
       "Full refund available if canceled 72 hours before the scheduled activity. 50% refund if canceled between 48-72 hours. No refund for cancellations less than 48 hours in advance.",
   },
@@ -258,7 +254,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:00 PM: Visit another picturesque village or beach",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Marina Grande, Amalfi, at the main dock",
     cancellationPolicy:
       "Full refund if canceled 7 days in advance. 50% refund if canceled 3-6 days in advance. No refund for cancellations less than 3 days before the scheduled activity.",
   },
@@ -354,7 +349,6 @@ export const amalfiCoastTours: Tour[] = [
       "12:00 PM: Enjoy a classical music performance",
       "1:00 PM: Tour conclusion and return transportation",
     ],
-    meetingPoint: "Piazza Vescovado, Ravello, in front of the Cathedral",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -433,7 +427,6 @@ export const amalfiCoastTours: Tour[] = [
       "12:30 PM: Visit the Cathedral of St. Andrew",
       "1:00 PM: Tour conclusion and free time in Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -508,7 +501,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:30 PM: Explore the village of Furore and its fjord",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -584,7 +576,6 @@ export const amalfiCoastTours: Tour[] = [
       "6:30 PM: Photography session at the best sunset spots",
       "8:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Marina Grande, Amalfi, at the main dock",
     cancellationPolicy:
       "Full refund if canceled 7 days in advance. 50% refund if canceled 3-6 days in advance. No refund for cancellations less than 3 days before the scheduled activity.",
   },
@@ -671,8 +662,6 @@ export const amalfiCoastTours: Tour[] = [
       "1:30 PM - 3:00 PM: Free time in Positano for lunch and exploration",
       "3:30 PM: Return transportation to Bomerano",
     ],
-    meetingPoint:
-      "Piazza Paolo Capasso, Bomerano (Agerola), with the statue of the hiker",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity or in case of no-show.",
   },
@@ -758,7 +747,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:30 PM: Visit to a second ceramic workshop",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Matteotti, Vietri sul Mare, in front of the church",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -842,7 +830,6 @@ export const amalfiCoastTours: Tour[] = [
       "12:00 PM: Lemon-themed lunch at a local restaurant",
       "1:30 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -925,7 +912,6 @@ export const amalfiCoastTours: Tour[] = [
       "1:00 PM: Transfer to Herculaneum, guided tour",
       "3:30 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -1010,7 +996,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:30 PM: Visit a third winery for a tasting",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -1094,7 +1079,6 @@ export const amalfiCoastTours: Tour[] = [
       "1:00 PM: Enjoy lunch on the terrace",
       "2:30 PM: Return to Positano",
     ],
-    meetingPoint: "Piazza dei Mulini, Positano, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -1179,7 +1163,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:30 PM: Sandal making workshop in Positano",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Piazza Flavio Gioia, Amalfi, in front of the fountain",
     cancellationPolicy:
       "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
   },
@@ -1267,7 +1250,6 @@ export const amalfiCoastTours: Tour[] = [
       "2:00 PM: Visit another picturesque village or beach",
       "4:00 PM: Return to Amalfi",
     ],
-    meetingPoint: "Marina Grande, Amalfi, at the main dock",
     cancellationPolicy:
       "Full refund if canceled 7 days in advance. 50% refund if canceled 3-6 days in advance. No refund for cancellations less than 3 days before the scheduled activity.",
   },

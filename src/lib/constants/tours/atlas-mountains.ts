@@ -67,8 +67,6 @@ export const atlasMountainsTours: Tour[] = [
       "Day 3: Lunch in mountain restaurant before return transport to Marrakech",
       "Day 3: Arrive in Marrakech approximately 5:00 PM",
     ],
-    meetingPoint:
-      "Your accommodation in Marrakech (hotel or riad within the city)",
     cancellationPolicy:
       "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
   },
@@ -138,8 +136,6 @@ export const atlasMountainsTours: Tour[] = [
       "Day 2: Descend to refuge for lunch, then continue to Imlil, 5-6 hours descent",
       "Day 2: Return transportation to Marrakech, arrive approximately 6:00 PM",
     ],
-    meetingPoint:
-      "Your accommodation in Marrakech (hotel or riad within the city)",
     cancellationPolicy:
       "Full refund if canceled at least 21 days in advance. 50% refund if canceled 14-21 days in advance. No refund for cancellations less than 14 days before the scheduled expedition.",
   },
@@ -212,8 +208,6 @@ export const atlasMountainsTours: Tour[] = [
       "Day 4: Final sunrise shoot, then return to Marrakech",
       "Day 4: Departure from Marrakech",
     ],
-    meetingPoint:
-      "Your accommodation in Marrakech (hotel or riad within the city)",
     cancellationPolicy:
       "Full refund if canceled at least 30 days in advance. 50% refund if canceled 15-30 days in advance. No refund for cancellations less than 15 days before the scheduled workshop.",
   },
@@ -287,8 +281,6 @@ export const atlasMountainsTours: Tour[] = [
       "Day 5: Morning at leisure, optional hot air balloon ride",
       "Day 5: Transfer back to Marrakech for departure",
     ],
-    meetingPoint:
-      "Your accommodation in Marrakech (hotel or riad within the city)",
     cancellationPolicy:
       "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
   },
@@ -359,8 +351,6 @@ export const atlasMountainsTours: Tour[] = [
       "Day 2: Closing dinner and certificate ceremony",
       "Day 3: Departure from the Atlas Mountains to Marrakech",
     ],
-    meetingPoint:
-      "Your accommodation in Marrakech (hotel or riad within the city)",
     cancellationPolicy:
       "Full refund if canceled at least 7 days in advance. 50% refund if canceled 3-7 days in advance. No refund for cancellations less than 3 days before the scheduled class.",
   },

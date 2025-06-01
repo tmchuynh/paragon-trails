@@ -59,8 +59,6 @@ export const anchorageTours: Tour[] = [
       "12:30 PM: Return flight with glacier viewing",
       "2:00 PM: Landing at Lake Hood and tour conclusion",
     ],
-    meetingPoint:
-      "Lake Hood Seaplane Base, 4800 Aircraft Dr, Anchorage, AK 99502",
     cancellationPolicy:
       "Full refund if canceled 72 hours before the scheduled departure. 50% refund if canceled between 24-72 hours before departure. No refund if canceled less than 24 hours before departure.",
     faqs: [
@@ -144,8 +142,6 @@ export const anchorageTours: Tour[] = [
       "2:30 PM: Enjoy the gourmet feast you've prepared",
       "3:30 PM: Return to Anchorage with recipes and leftovers",
     ],
-    meetingPoint:
-      "Alaska Wild Herb Garden, 130 W International Airport Rd, Anchorage, AK 99518",
     cancellationPolicy:
       "Full refund available if canceled 48 hours before the scheduled activity. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled activity.",
     faqs: [
@@ -225,8 +221,6 @@ export const anchorageTours: Tour[] = [
       "1:30 AM: Return to Anchorage",
       "2:00 AM: Tour conclusion",
     ],
-    meetingPoint:
-      "Alaska Photo Headquarters, 425 G Street, Anchorage, AK 99501",
     cancellationPolicy:
       "Weather-dependent activity. Full refund if aurora activity is low or weather prevents viewing. Rescheduling available at no additional cost. 48-hour cancellation notice required for full refund for non-weather related cancellations.",
     faqs: [
@@ -304,8 +298,6 @@ export const anchorageTours: Tour[] = [
       "4:30 PM: Walk through historic downtown Anchorage",
       "5:30 PM: Tour concludes at a downtown location",
     ],
-    meetingPoint:
-      "Alaska Native Heritage Center, 8800 Heritage Center Dr, Anchorage, AK 99504",
     cancellationPolicy:
       "Full refund if canceled 48 hours before the tour. 50% refund if canceled 24-48 hours before the tour. No refund for cancellations less than 24 hours before the tour.",
     faqs: [
@@ -388,7 +380,6 @@ export const anchorageTours: Tour[] = [
       "2:00 PM: Depart back to Anchorage",
       "4:00 PM: Arrive in Anchorage, tour concludes",
     ],
-    meetingPoint: "Downtown Anchorage, exact location provided upon booking",
     cancellationPolicy:
       "Full refund if canceled 7 days before the tour. 50% refund if canceled 3-6 days before the tour. No refund for cancellations less than 3 days before the tour.",
     faqs: [
@@ -466,7 +457,6 @@ export const anchorageTours: Tour[] = [
       "9:00 PM: Depart Denali for Anchorage",
       "5:00 AM: Arrive back in Anchorage, tour concludes",
     ],
-    meetingPoint: "Anchorage Train Depot, 411 W 1st Ave, Anchorage, AK 99501",
     cancellationPolicy:
       "Full refund if canceled 14 days before the tour. 50% refund if canceled 7-13 days before the tour. No refund for cancellations less than 7 days before the tour.",
     faqs: [
@@ -545,8 +535,6 @@ export const anchorageTours: Tour[] = [
       "3:00 PM: Return to Anchorage",
       "4:00 PM: Tour concludes in Anchorage",
     ],
-    meetingPoint:
-      "Alaska Native Heritage Center, 8800 Heritage Center Dr, Anchorage, AK 99504",
     cancellationPolicy:
       "Full refund if canceled 48 hours before the tour. 50% refund if canceled 24-48 hours before the tour. No refund for cancellations less than 24 hours before the tour.",
     faqs: [
@@ -621,7 +609,6 @@ export const anchorageTours: Tour[] = [
       "3:00 PM: Pack up and depart from the fishing location",
       "5:00 PM: Arrive back in Anchorage, tour concludes",
     ],
-    meetingPoint: "Downtown Anchorage, exact location provided upon booking",
     cancellationPolicy:
       "Full refund if canceled 7 days before the tour. 50% refund if canceled 3-6 days before the tour. No refund for cancellations less than 3 days before the tour.",
     faqs: [
@@ -701,8 +688,6 @@ export const anchorageTours: Tour[] = [
       "8:00 PM: Return flight to Anchorage",
       "9:00 PM: Arrive in Anchorage, tour concludes",
     ],
-    meetingPoint:
-      "Lake Hood Seaplane Base, 4800 Aircraft Dr, Anchorage, AK 99502",
     cancellationPolicy:
       "Full refund if canceled 72 hours before the scheduled departure. 50% refund if canceled between 24-72 hours before departure. No refund if canceled less than 24 hours before departure.",
     faqs: [

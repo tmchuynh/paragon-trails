@@ -18,6 +18,15 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -86,8 +95,7 @@ export const austinTours: Tour[] = [
       "10:30 PM: Final venue featuring headlining act",
       "11:00 PM: Tour conclusion (you're welcome to stay at the final venue)",
     ],
-    meetingPoint:
-      "Antone's Nightclub, 305 E 5th St, Austin, TX 78701 (meeting point may change based on performance schedule)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -108,6 +116,15 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -178,8 +195,7 @@ export const austinTours: Tour[] = [
       "5:30 PM: Final brewery with extended tasting and optional dinner",
       "7:00 PM: Tour conclusion",
     ],
-    meetingPoint:
-      "Franklin Barbecue, 900 E 11th St, Austin, TX 78702 (meeting point may change based on availability)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -200,6 +216,15 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -265,8 +290,7 @@ export const austinTours: Tour[] = [
       "11:45 AM: Walk through historic Sixth Street",
       "12:30 PM: Tour conclusion at a local restaurant or shop",
     ],
-    meetingPoint:
-      "Texas State Capitol, 1100 Congress Ave, Austin, TX 78701 (meeting point may change based on availability)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -287,6 +311,15 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "outdoor",
     faqs: [
       {
@@ -353,8 +386,7 @@ export const austinTours: Tour[] = [
       "11:30 AM: Return to the launch site and shuttle back",
       "11:45 AM: Tour conclusion at the meeting point",
     ],
-    meetingPoint:
-      "Zilker Park, 2100 Barton Springs Rd, Austin, TX 78704 (meeting point may change based on availability)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -375,6 +407,15 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -447,9 +488,8 @@ export const austinTours: Tour[] = [
       "6:00 PM: Arrive back in Austin",
       "6:15 PM: Tour conclusion at the meeting point",
     ],
-    meetingPoint:
-      "Austin Visitor Center, 602 E 4th St, Austin, TX 78701 (meeting point may change based on availability)",
+
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
-]
+];
