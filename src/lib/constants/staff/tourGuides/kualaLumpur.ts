@@ -8,11 +8,11 @@ export const kualaLumpurTourGuides: TourGuide[] = [
     languages: ["Malay", "English", "Mandarin"],
     experienceYears: 10,
     specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Azlan, a Kuala Lumpur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Malaya and has worked as a tour guide for over ten years. Azlan combines his extensive knowledge of Kuala Lumpur's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    bio: "Azlan began his career as an architectural preservationist, documenting KL's colonial and pre-war buildings before their demolition. This background gives his historical tours an unmatched depth as he reveals the stories embedded in the city's rapidly changing skyline. With special access to private heritage buildings and government archives, Azlan illuminates the multicultural influences that shaped Malaysia's capital—from British colonial structures to Chinese shophouses and Indian temples. His tours often incorporate rare historical photographs that allow guests to visualize the city's transformation while standing in locations unrecognizable from their historical appearances.",
     description:
-      "Azlan, a Kuala Lumpur native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+      "An architectural historian who reads Kuala Lumpur's buildings like texts, revealing the political, cultural, and economic forces that transformed a tin mining settlement into a skyscraper metropolis.",
     quote:
-      "In Kuala Lumpur, every street is a tapestry of culture, and every meal is a taste of Malaysia’s vibrant spirit.",
+      "In Kuala Lumpur, our buildings speak multiple languages—Malay, Chinese, Indian, Colonial—and together they tell our complex national story.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -27,11 +27,11 @@ export const kualaLumpurTourGuides: TourGuide[] = [
       "City Tours",
       "Luxury Tours",
     ],
-    bio: "Aminah, a Kuala Lumpur native, offers tours that explore the city’s vibrant nightlife, cultural experiences, and luxury offerings. She has a degree in Hospitality Management from the University of Malaya and has worked as a tour guide for over seven years. Aminah combines her extensive knowledge of Kuala Lumpur's nightlife with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nightlife hotspots, cultural experiences, and luxury offerings, providing guests with an immersive cultural journey.",
+    bio: "After working as a VIP host in KL's exclusive nightclubs and luxury hotels, Aminah brings unparalleled access to the city's after-dark scene. Her previous career in event management for international music festivals and luxury brand launches connects her to Malaysian celebrities, DJs, and tastemakers. Her nightlife tours transcend typical tourist experiences by including fashion showcases in designers' private ateliers, invitation-only gallery openings, and rooftop parties normally accessible only to KL's elite. Aminah specializes in creating customized evening experiences that blend traditional Malaysian entertainment with contemporary nightlife, often securing admission to events that don't appear on public calendars.",
     description:
-      "Aminah, a Kuala Lumpur native, offers tours that explore the city’s vibrant nightlife, cultural experiences, and luxury offerings.",
+      "A nightlife curator with elite connections throughout Kuala Lumpur's entertainment industry, Aminah unlocks exclusive after-dark experiences from hidden speakeasies to invitation-only cultural events.",
     quote:
-      "In Kuala Lumpur, every night is a celebration of culture, and every meal is a taste of Malaysia’s vibrant spirit.",
+      "KL's night pulse reveals our city's true character—where traditional performances, contemporary art, and global influences create a uniquely Malaysian energy that changes every evening.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -41,11 +41,11 @@ export const kualaLumpurTourGuides: TourGuide[] = [
     languages: ["Malay", "English", "Tamil"],
     experienceYears: 9,
     specialties: ["Adventure Tours", "Nature Tours", "Cultural Experiences"],
-    bio: "Ravi, a Kuala Lumpur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences. He has a degree in Environmental Science from the University of Malaya and has worked as a tour guide for over nine years. Ravi combines his extensive knowledge of Malaysia’s natural landscapes with his love for storytelling, making each tour an educational and immersive experience. His tours often include hiking, nature walks, and cultural experiences, providing guests with a unique perspective on Malaysia’s natural wonders.",
+    bio: "Ravi transformed his background as an environmental conservation specialist into adventure experiences that showcase Malaysia's astonishing biodiversity. His work with rainforest protection gave him extensive knowledge of the primary forest preserves surrounding Kuala Lumpur. His signature tours combine physical challenges with ecological education—dawn hikes through Bukit Nanas Forest Reserve, nighttime biodiversity expeditions in FRIM, and adventure caving in limestone formations just outside the city. Ravi maintains special relationships with indigenous Orang Asli communities, allowing his guests to learn traditional survival skills and forest knowledge directly from native practitioners.",
     description:
-      "Ravi, a Kuala Lumpur native, offers tours that explore the city’s adventure opportunities, nature tours, and cultural experiences.",
+      "An environmental scientist who reveals Kuala Lumpur's surprising wild side, creating urban adventure experiences that showcase the rainforest ecosystem that still pulses beneath the modern city.",
     quote:
-      "In Kuala Lumpur, every moment is a chance to connect with nature, and every meal is a taste of Malaysia’s vibrant spirit.",
+      "Most visitors see only KL's skyscrapers, but I'll show you our true foundation—the ancient rainforest that sustained human life here for millennia before the first building rose.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -59,11 +59,11 @@ export const kualaLumpurTourGuides: TourGuide[] = [
       "Cultural Experiences",
       "Wellness Tours",
     ],
-    bio: "Farah, a Kuala Lumpur native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences. She has a degree in Cultural Studies from the University of Malaya and has worked as a tour guide for over eleven years. Farah combines her extensive knowledge of Kuala Lumpur's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness retreats, and cultural landmarks, providing guests with an immersive cultural journey.",
+    bio: "Farah's unique background combines formal training in comparative religion with certification in traditional Malaysian wellness practices. Before guiding, she documented spiritual healing traditions across Malaysia's diverse communities, creating an archive of practices at risk of disappearing. Her wellness tours integrate spiritual sites of multiple faiths—Hindu temples, mosques, Buddhist caves—with hands-on experiences in traditional healing arts. Farah has special permission to bring visitors to private ceremonies and consultations with practitioners of traditional Malay healing, Chinese herbalism, and Indian ayurvedic treatments, creating experiences that nourish both body and spirit.",
     description:
-      "Farah, a Kuala Lumpur native, offers tours that explore the city’s spiritual heritage, cultural traditions, and wellness experiences.",
+      "A spiritual anthropologist who creates holistic wellness journeys connecting KL's diverse healing traditions, offering physical and spiritual rejuvenation through ancient practices still thriving in this modern metropolis.",
     quote:
-      "In Kuala Lumpur, every moment is an opportunity for spiritual growth, and every meal is a taste of Malaysia’s vibrant spirit.",
+      "In Malaysia, wellness isn't just about the body—it's about harmonizing your spiritual existence through practices that have sustained our multicultural communities through centuries of change.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -73,11 +73,11 @@ export const kualaLumpurTourGuides: TourGuide[] = [
     languages: ["Malay", "English", "Mandarin"],
     experienceYears: 8,
     specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
-    bio: "Siti, a Kuala Lumpur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene. She has a degree in Culinary Arts from the University of Malaya and has worked as a chef and tour guide for over eight years. Siti combines her extensive knowledge of Malaysian cuisine with her love for storytelling, making each culinary tour a unique experience. Her tours often include exclusive access to local markets and traditional cooking experiences, providing guests with an immersive cultural journey.",
+    bio: "Before tour guiding, Siti documented Malaysia's endangered food heritage for a culinary conservation project, recording recipes from elderly home cooks across all ethnic communities. Her food tours explore KL through the evolution of its cuisine—from traditional Malay village cooking to Chinese-influenced Nyonya cuisine and contemporary fusion. With her extensive network of food producers, Siti arranges experiences unavailable elsewhere: dawn visits to wholesale-only markets, cooking lessons in private homes, and sampling sessions with artisanal producers of traditional ingredients like soy sauce, shrimp paste, and palm sugar that have been made the same way for generations.",
     description:
-      "Siti, a Kuala Lumpur native, offers culinary tours that explore the city’s rich culinary heritage, vibrant neighborhoods, and cultural scene.",
+      "A culinary anthropologist preserving Malaysia's multicultural food heritage through immersive experiences that reveal how KL's historic migrations, trade routes, and cultural exchanges created one of Asia's most complex cuisines.",
     quote:
-      "In Kuala Lumpur, every dish tells a story, and every street is a celebration of culture and diversity.",
+      "Malaysian food isn't just delicious—it's our most honest historical document, recording every culture that has contributed to our national identity through their ingredients, techniques, and flavors.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

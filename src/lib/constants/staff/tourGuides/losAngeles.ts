@@ -8,11 +8,11 @@ export const losangelesTourGuides: TourGuide[] = [
     languages: ["English", "Spanish", "French"],
     experienceYears: 10,
     specialties: ["Hollywood Tours", "Cultural Diversity", "Street Art"],
-    bio: "John, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles. He has a degree in Film Studies from UCLA and has worked as a tour guide for over ten years. John combines his extensive knowledge of Hollywood with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to film sets and street art galleries, providing guests with an immersive cultural journey.",
+    bio: "John combines his background in film production design with deep research into Los Angeles architectural history, creating tours that reveal how the city's built environment has shaped global perceptions of modernity. Having worked on major studio productions, he provides insider knowledge of how specific LA locations became iconic through film—from noir classics to contemporary blockbusters. His specialty 'Celluloid City' tour explores how filmmakers' visions of Los Angeles created urban archetypes that influenced real-world architecture and city planning worldwide. John maintains relationships with studio personnel, occasionally securing access to active filming locations and production facilities normally closed to the public.",
     description:
-      "John, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles.",
+      "A film industry veteran who explores how Los Angeles and cinema evolved together, revealing the complex relationship between the real city and its countless on-screen incarnations that shaped global urban imagination.",
     quote:
-      "In Los Angeles, every street is a stage, and every mural is a masterpiece waiting to be discovered.",
+      "Los Angeles is the world's most filmed city, creating a feedback loop where movies shape the city and the city shapes movies—I'll show you where reality and fantasy become indistinguishable.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -22,11 +22,11 @@ export const losangelesTourGuides: TourGuide[] = [
     languages: ["English", "Spanish", "French"],
     experienceYears: 10,
     specialties: ["Hollywood Tours", "Cultural Diversity", "Street Art"],
-    bio: "Sophia, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles. She has a degree in Film Studies from UCLA and has worked as a tour guide for over ten years. Sophia combines her extensive knowledge of Hollywood with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to film sets and street art galleries, providing guests with an immersive cultural journey.",
+    bio: "Sophia pioneered street art tourism in Los Angeles after documenting the city's mural renaissance for her doctoral research in Chicano studies. Her tours explore how LA's diverse communities use public art as cultural expression, political statement, and neighborhood revitalization. With personal connections to leading artists across communities, Sophia provides unique context about murals' meanings, techniques, and the social movements they represent. Her experiences often include studio visits with working artists and access to new installations before they're publicly announced. Sophia's specialty 'Beyond the Streets' tour explores how LA's graffiti evolved from criminalized activity to commissioned corporate art while maintaining its roots in community expression.",
     description:
-      "Sophia, a Hollywood enthusiast, offers tours that explore the film industry, cultural diversity, and the vibrant street art scene of Los Angeles.",
+      "A street art scholar who interprets Los Angeles through its vibrant mural traditions, revealing how public art serves as a visual history of the city's social movements, immigration patterns, and cultural innovations.",
     quote:
-      "In Los Angeles, every street is a stage, and every mural is a masterpiece waiting to be discovered.",
+      "LA's walls are our most democratic gallery—I'll help you read this visual language that tells stories of resistance, celebration, and neighborhood identity across our sprawling metropolis.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

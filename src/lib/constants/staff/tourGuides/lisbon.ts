@@ -4,132 +4,57 @@ export const lisbonTourGuides: TourGuide[] = [
   {
     city: "Lisbon",
     country: "Portugal",
-    name: "Miguel Costa",
-    languages: ["Portuguese", "English", "Spanish"],
-    experienceYears: 6,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
-    description:
-      "Miguel shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
-    quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Miguel has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over six years. His passion for Portuguese music is evident in his detailed knowledge of Lisbon's rich cultural heritage. Miguel's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. He collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Miguel is also a talented musician, and his tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "Carlos Oliveira",
-    languages: ["Portuguese", "English", "Spanish"],
-    experienceYears: 12,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
-    description:
-      "Carlos shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
-    quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Carlos has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over twelve years. His passion for Portuguese music is evident in his detailed knowledge of Lisbon's rich cultural heritage. Carlos' tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. He collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Carlos is also a talented musician, and his tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "Miguel Silva",
-    languages: ["Portuguese", "English", "Spanish"],
-    experienceYears: 9,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Miguel, a Lisbon native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in History from the University of Lisbon and has worked as a tour guide for over nine years. Miguel combines his extensive knowledge of Lisbon's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Miguel, a Lisbon native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
-    quote:
-      "In Lisbon, every street is a journey through time, and every meal is a taste of Portugal’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "Isabel Silva",
+    name: "João Pereira",
     languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 10,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
+    specialties: ["cultural", "Historical Tours", "City Tours"],
+    bio: "João Pereira is a Lisbon native with ten years of experience guiding visitors through the city's rich history and vibrant neighborhoods. With a degree in Portuguese History from the University of Lisbon, João specializes in tours that reveal the stories behind Lisbon's historic districts, monuments, and cultural landmarks. His tours often include exclusive access to historical sites and local experiences that most tourists miss. João's deep knowledge of Portugal's maritime legacy, colonial history, and modern transformation makes his tours both educational and entertaining.",
     description:
-      "Isabel specializes in fado music and historic district tours, bringing Portugal’s capital’s soulful spirit to visitors.",
+      "João Pereira offers insightful tours through Lisbon's historic districts and cultural treasures.",
     quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Isabel specializes in fado music and historic district tours, bringing Portugal’s capital’s soulful spirit to visitors. She has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over ten years. Isabel combines her extensive knowledge of Portuguese music and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to fado performances and historic sites, providing guests with an immersive cultural experience. Isabel has collaborated with local musicians and cultural institutions to create unique experiences that showcase the best of Lisbon's fado scene, including private concerts and workshops where guests can learn about the history and techniques of this traditional music genre. Her commitment to sustainable tourism and cultural preservation has earned her recognition from local and international organizations.",
+      "Lisbon isn't a city you simply visit—it's one you feel with all your senses, from the mournful fado music to the sweet taste of pastéis de nata.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Lisbon",
     country: "Portugal",
-    name: "Pedro Almeida",
+    name: "Maria Santos",
     languages: ["Portuguese", "English", "French"],
-    experienceYears: 9,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
-    description:
-      "Pedro shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
-    quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Pedro has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over nine years. His passion for Portuguese music is evident in his detailed knowledge of Lisbon's rich cultural heritage. Pedro's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. He collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Pedro is also a talented musician, and his tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "Rita Costa",
-    languages: ["Portuguese", "English", "German"],
-    experienceYears: 11,
-    specialties: [
-      "Fado Music",
-      "Historic Districts",
-      "Cultural Tours",
-      "Luxury Tours",
-    ],
-    description:
-      "Rita shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
-    quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Rita has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over eleven years. Her passion for Portuguese music is evident in her detailed knowledge of Lisbon's rich cultural heritage. Rita's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. She collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Rita is also a talented musician, and her tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "João Santos",
-    languages: ["Portuguese", "English", "Spanish"],
     experienceYears: 8,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
+    specialties: ["culinary", "Food Markets", "Wine Tasting"],
+    bio: "Maria Santos transforms Lisbon's food landscape into delicious educational experiences. With formal training in culinary arts and eight years of guiding experience, Maria leads food-focused tours that explain the historical and cultural context of Portuguese cuisine. Her tours include visits to traditional markets, family-run tascas, and carefully selected wine bars that showcase authentic local specialties. Maria has particular expertise in Portuguese wines and olive oils, offering tastings that demonstrate how different regions and production methods affect flavor profiles.",
     description:
-      "João shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
+      "Maria Santos guides culinary journeys through Lisbon's markets, tascas, and wine traditions.",
     quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "João has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over eight years. His passion for Portuguese music is evident in his detailed knowledge of Lisbon's rich cultural heritage. João's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. He collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. João is also a talented musician, and his tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
+      "In Portuguese cuisine, simplicity is not the absence of complexity but the perfect balance of flavors—we let quality ingredients speak for themselves.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Lisbon",
     country: "Portugal",
-    name: "Clara Martins",
+    name: "António Carvalho",
+    languages: ["Portuguese", "English", "German"],
+    experienceYears: 12,
+    specialties: ["romantic", "Sunset Viewpoints", "Fado Music"],
+    bio: "António Carvalho specializes in creating memorable romantic experiences against Lisbon's breathtaking backdrop. With twelve years of guiding experience and deep connections throughout the city, António knows exactly where to find the most picturesque and intimate settings. His tours are popular with couples celebrating special occasions, often including private sunset viewings at secret miradouros, exclusive fado performances, and romantic dining arrangements. António's knowledge of Lisbon's hidden corners and passionate storytelling about the city's history of love and longing make his tours uniquely moving.",
+    description:
+      "António Carvalho crafts personalized romantic experiences across Lisbon's most beautiful settings.",
+    quote:
+      "Lisbon has been a city of navigators, poets, and dreamers—the perfect backdrop for creating memories that last a lifetime.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Lisbon",
+    country: "Portugal",
+    name: "Sofia Ferreira",
     languages: ["Portuguese", "English", "Italian"],
     experienceYears: 7,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
+    specialties: ["art-and-music", "Street Art", "Contemporary Galleries"],
+    bio: "Sofia Ferreira navigates Lisbon's dynamic art scene with insider expertise. With seven years of guiding experience and a background in the city's gallery system, Sofia provides access to cutting-edge exhibition spaces, artist studios, and street art that defines Portugal's contemporary creative movements. Her tours explore the connections between traditional Portuguese aesthetics and modern expression, often including neighborhoods like LX Factory and Marvila that showcase independent artists. Sofia specializes in contextualizing Lisbon's artistic renaissance within both global influences and uniquely Portuguese cultural traditions.",
     description:
-      "Clara shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
+      "Sofia Ferreira explores Lisbon's cutting-edge galleries, street art, and creative districts.",
     quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Clara has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over seven years. Her passion for Portuguese music is evident in her detailed knowledge of Lisbon's rich cultural heritage. Clara's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. She collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Clara is also a talented musician, and her tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Lisbon",
-    country: "Portugal",
-    name: "Ana Pereira",
-    languages: ["Portuguese", "English", "French"],
-    experienceYears: 5,
-    specialties: ["Fado Music", "Historic Districts", "Cultural Tours"],
-    description:
-      "Ana shares the soulful sounds of fado music and the charm of Lisbon’s historic districts with visitors. ",
-    quote:
-      "Lisbon is a city that sings, and every fado note carries the weight of its history.",
-    bio: "Ana has a degree in Musicology from the University of Lisbon and has worked as a tour guide for over five years. Her passion for Portuguese music is evident in her detailed knowledge of Lisbon's rich cultural heritage. Ana's tours often include visits to fado houses, historic sites, and cultural experiences that showcase the best of Portuguese culture. She collaborates with local musicians and cultural experts to create unique experiences that provide guests with an immersive understanding of Lisbon's rich heritage. Ana is also a talented musician, and her tours provide guests with unique opportunities to experience live fado performances in intimate settings.",
+      "Lisbon has always been a city of light—today's artists are capturing that light in entirely new ways while honoring our visual heritage.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
 ];
