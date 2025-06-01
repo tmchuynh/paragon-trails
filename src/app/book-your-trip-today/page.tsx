@@ -231,21 +231,42 @@ export default function BookYourTripToday() {
                     </ul>
                   </div>
                 )}
+                </section>
+              )}
 
-                <section>
-                  <div className="relative flex flex-wrap gap-4 mb-4 w-full h-full">
-                    {tour.images.map((image, index) => (
+              <div className="mt-6">
+                <h5>Tour Guide:</h5>
+                <p>{tourGuides[tour.title] || "Local Expert"}</p>
+              </div>
+              <div className="mt-6">
+                <h5>Tour Category:</h5>
+                <p>{capitalize(tour.tourCategoryId) || "Not specified"}</p>
+              </div>
+              <div className="mt-6">
+                <h5>Tags:</h5>
+                <p>
+                  {tour.tags && tour.tags.length > 0
+                    ? tour.tags.join(", ")
+                    : "No tags available"}
+                </p>
+              </div>
+              <div className="mt-6">
+                <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                  {tour.images && tour.images.length > 0 ? (
+                    tour.images.map((image, index) => (
                       <Image
                         key={index}
                         src={image}
-                        alt={`${tour.title} - image ${index + 1}`}
-                        className="border border-border rounded-lg w-72 h-72 object-cover aspect-square object-center"
-                        width={500}
-                        height={300}
+                        alt={`Tour image ${index + 1}`}
+                        width={300}
+                        height={200}
+                        className="rounded-lg"
                       />
-                    ))}
+                    ))
+                  ) : (
+                    <p>No images available</p>
+                  )}
                   </div>
-                </section>
               </div>
 
               {tour.cancellationPolicy && (
