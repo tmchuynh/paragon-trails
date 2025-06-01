@@ -4,185 +4,71 @@ export const mauiTourGuides: TourGuide[] = [
   {
     city: "Maui",
     country: "USA",
-    name: "Lani Kealoha",
-    languages: ["English", "Hawaiian"],
+    name: "Kai Kalama",
+    languages: ["English", "Hawaiian", "Japanese"],
+    experienceYears: 8,
+    specialties: ["Ocean Conservation", "Marine Life", "Cultural Heritage"],
+    bio: "Kai's approach to Hawaiian tourism was transformed by his work as a marine biologist monitoring coral reef health throughout Maui's fragile ecosystems. Before guiding, he worked with NOAA's coral restoration program and continues to contribute research data collected during his tours. Kai specializes in educational snorkeling and diving experiences that combine scientific knowledge with Hawaiian cultural perspectives on ocean stewardship. His 'Sea to Summit' signature tour follows water from mountain springs to reef systems, explaining the traditional Hawaiian ahupua'a resource management system. With special permits for restricted marine areas, Kai provides access to conservation sites while teaching visitors about sustainable tourism practices.",
+    description:
+      "A marine scientist who reveals Maui's underwater wonders while integrating traditional Hawaiian ecological knowledge with contemporary conservation practices.",
+    quote:
+      "Understanding Maui means looking both above and below the surface—our island culture and ecological health are inseparable from the ocean that surrounds us.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Maui",
+    country: "USA",
+    name: "Leilani Kealoha",
+    languages: ["English", "Hawaiian", "Spanish"],
     experienceYears: 10,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Lani Kealoha is a Maui native with ten years of experience guiding guests through the island's rich cultural heritage and stunning landscapes. With a degree in Hawaiian Studies from the University of Hawaii, Lani specializes in tours that explore Maui's history, traditions, and natural beauty. Her tours often include visits to sacred sites, hiking adventures, and cultural workshops. Lani's deep connection to the land and her engaging storytelling make her tours both enlightening and memorable.",
+    specialties: ["Cultural Heritage", "Botanical Knowledge", "Spiritual Traditions"],
+    bio: "Descended from a long line of traditional Hawaiian healers, Leilani completed formal botanical training while maintaining her family's generational knowledge of native plant medicine. Her cultural tours explore the profound connection between Hawaiian spiritual practices and the island's unique ecosystems. With special access to private heiau (temple sites) and native plant sanctuaries, Leilani offers experiences unavailable through conventional tourism. Her healing-focused tours include forest bathing in ancient groves, traditional plant medicine workshops, and authentic ho'oponopono harmony restoration practices. As a respected cultural practitioner, she maintains relationships with elder knowledge keepers across the island who occasionally participate in her more specialized experiences.",
     description:
-      "Lani Kealoha leads tours that celebrate Maui's culture, nature, and adventure opportunities.",
+      "A botanical healer who bridges ancestral Hawaiian wisdom with scientific understanding, creating meaningful cultural experiences centered on natural harmony and spiritual wellness.",
     quote:
-      "In Maui, every moment is a chance to connect with the spirit of Aloha, and every meal is a taste of the island’s vibrant culture.",
+      "Maui isn't just a beautiful destination—it's a living teacher with ancient wisdom about balance, healing, and proper relationship with the natural world.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Maui",
     country: "USA",
-    name: "Kimo Nalu",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 8,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Kimo Nalu is a passionate guide with eight years of experience sharing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Kimo leads tours that highlight the island's ecosystems, cultural sites, and outdoor activities. His tours often include snorkeling trips, hiking adventures, and cultural experiences. Kimo's enthusiasm for nature and storytelling ensures guests enjoy an unforgettable journey through Maui.",
+    name: "David Kekoa",
+    languages: ["English", "Hawaiian", "Mandarin"],
+    experienceYears: 12,
+    specialties: ["Volcanology", "Astronomy", "Hiking"],
+    bio: "David bridges scientific expertise with cultural knowledge through his background in volcanology and his lineage as a navigator descendant. Before guiding, he worked with Haleakalā Observatory and participated in voyaging canoe expeditions using traditional Hawaiian celestial navigation. His specialty summit experiences explain both the scientific wonders and profound cultural significance of Maui's volcanic landscapes. David's combination of academic training and cultural heritage allows him to interpret the island from multiple perspectives—from geological formation to the rich mythology associated with Maui's dramatic topography. His after-dark astronomy tours blend cutting-edge science with the navigational star knowledge that guided Polynesians across the Pacific.",
     description:
-      "Kimo Nalu guides guests through Maui's culture, nature, and adventure opportunities.",
+      "A volcanologist and navigation practitioner who interprets Maui's dramatic landscapes through both scientific understanding and the rich cultural traditions that connect Hawaiians to land and sky.",
     quote:
-      "In Maui, every wave tells a story, and every meal is a celebration of the island’s spirit.",
+      "On Maui, looking up at the stars or down into a crater isn't just about science—these are the same forces that shaped our cultural understanding of who we are and how we arrived here.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Maui",
     country: "USA",
-    name: "Leilani Pua",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 9,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Leilani Pua is a Maui native with nine years of experience guiding tours that explore the island's cultural heritage and natural beauty. With a degree in Hawaiian Studies, Leilani specializes in tours that include visits to sacred sites, cultural workshops, and outdoor adventures. Her tours often feature storytelling, traditional practices, and breathtaking landscapes. Leilani's passion for Maui's culture and her engaging personality make her tours both educational and inspiring.",
-    description:
-      "Leilani Pua offers tours that immerse guests in Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every sunset is a reminder of the island’s beauty, and every meal is a taste of its rich traditions.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Kai Makani",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 11,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Kai Makani is a seasoned guide with eleven years of experience showcasing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Kai leads tours that explore the island's ecosystems, cultural sites, and outdoor activities. His tours often include snorkeling trips, hiking adventures, and cultural experiences. Kai's deep love for Maui and his engaging storytelling make his tours both exciting and informative.",
-    description:
-      "Kai Makani leads tours that celebrate Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every wave is a dance of nature, and every meal is a taste of the island’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Noelani Kaimana",
-    languages: ["English", "Hawaiian"],
+    name: "Nani Wong",
+    languages: ["English", "Hawaiian", "Japanese"],
     experienceYears: 7,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Noelani Kaimana is a Maui native with seven years of experience guiding tours that explore the island's cultural heritage and natural beauty. With a degree in Hawaiian Studies, Noelani specializes in tours that include visits to sacred sites, cultural workshops, and outdoor adventures. Her tours often feature storytelling, traditional practices, and breathtaking landscapes. Noelani's passion for Maui's culture and her engaging personality make her tours both educational and inspiring.",
+    specialties: ["Farm-to-Table", "Agricultural Heritage", "Culinary Experiences"],
+    bio: "Nani transformed her training at the Culinary Institute of the Pacific into a unique approach to Hawaiian food tourism after working to revitalize traditional crop cultivation methods. Her culinary tours explore Maui's agricultural renaissance, connecting visitors with the farmers, fishers, and producers who are restoring native food systems. With access to private farms practicing traditional Hawaiian agriculture alongside innovative sustainability initiatives, Nani's tours reveal the island's evolving food sovereignty movement. Her experiences include hands-on participation in taro cultivation, traditional fishing practices, and underground imu cooking with multi-generational knowledge keepers who share their techniques and cultural insights.",
     description:
-      "Noelani Kaimana offers tours that immerse guests in Maui's culture, nature, and adventure opportunities.",
+      "A culinary educator spotlighting Maui's food renaissance through immersive experiences that connect traditional Hawaiian agricultural practices with contemporary farm-to-table innovations.",
     quote:
-      "In Maui, every sunrise is a new beginning, and every meal is a taste of the island’s rich traditions.",
+      "Rediscovering our traditional foods isn't just about preserving culture—it's about creating a more sustainable and independent future for Maui while sharing authentic flavors with visitors.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Maui",
     country: "USA",
-    name: "Hoku Kealoha",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Hoku Kealoha is a passionate guide with six years of experience sharing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Hoku leads tours that highlight the island's ecosystems, cultural sites, and outdoor activities. His tours often include snorkeling trips, hiking adventures, and cultural experiences. Hoku's enthusiasm for nature and storytelling ensures guests enjoy an unforgettable journey through Maui.",
+    name: "Keoni Mahealani",
+    languages: ["English", "Hawaiian", "Portuguese"],
+    experienceYears: 14,
+    specialties: ["Traditional Music", "Historical Sites", "Cultural Practices"],
+    bio: "Before guiding, Keoni was recognized as a cultural treasure for his mastery of traditional Hawaiian music, dance, and chant. As a former cultural director for a major resort who left to create more authentic experiences, he now provides an insider's perspective on how Hawaiian tradition exists within contemporary island life. Keoni has special permission to bring visitors to family lands and community gatherings typically closed to tourism. His cultural immersion experiences include participation in traditional practices, from lei making to stone tool crafting, taught through a Hawaiian educational framework that emphasizes relationship and context. Keoni's historical tours explore both well-known sites and hidden places connected to his ancestral lineage.",
     description:
-      "Hoku Kealoha guides guests through Maui's culture, nature, and adventure opportunities.",
+      "A cultural practitioner and Hawaiian music master who creates intimate community-based experiences that reveal authentic island life beyond tourist performances.",
     quote:
-      "In Maui, every moment is a chance to connect with the spirit of Aloha, and every meal is a taste of the island’s vibrant culture.",
+      "True Hawaiian culture isn't frozen in the past or performed on a stage—it's a living tradition constantly adapting while maintaining the values that connect us to our ancestors and environment.",
     profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Kaimana Lani",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 8,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Kaimana Lani is a Maui native with eight years of experience guiding tours that explore the island's cultural heritage and natural beauty. With a degree in Hawaiian Studies, Kaimana specializes in tours that include visits to sacred sites, cultural workshops, and outdoor adventures. His tours often feature storytelling, traditional practices, and breathtaking landscapes. Kaimana's passion for Maui's culture and his engaging personality make his tours both educational and inspiring.",
-    description:
-      "Kaimana Lani offers tours that immerse guests in Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every sunset is a reminder of the island’s beauty, and every meal is a taste of its rich traditions.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-    isPopular: true,
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Malia Pua",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 9,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Malia Pua is a seasoned guide with nine years of experience showcasing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Malia leads tours that explore the island's ecosystems, cultural sites, and outdoor activities. Her tours often include snorkeling trips, hiking adventures, and cultural experiences. Malia's deep love for Maui and her engaging storytelling make her tours both exciting and informative.",
-    description:
-      "Malia Pua leads tours that celebrate Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every wave is a dance of nature, and every meal is a taste of the island’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-    isPopular: true,
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Koa Nalu",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 10,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Koa Nalu is a Maui native with ten years of experience guiding tours that explore the island's cultural heritage and natural beauty. With a degree in Hawaiian Studies, Koa specializes in tours that include visits to sacred sites, cultural workshops, and outdoor adventures. His tours often feature storytelling, traditional practices, and breathtaking landscapes. Koa's passion for Maui's culture and his engaging personality make his tours both educational and inspiring.",
-    description:
-      "Koa Nalu offers tours that immerse guests in Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every sunrise is a new beginning, and every meal is a taste of the island’s rich traditions.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Kailani Kealoha",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 7,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Kailani Kealoha is a passionate guide with seven years of experience sharing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Kailani leads tours that highlight the island's ecosystems, cultural sites, and outdoor activities. Her tours often include snorkeling trips, hiking adventures, and cultural experiences. Kailani's enthusiasm for nature and storytelling ensures guests enjoy an unforgettable journey through Maui.",
-    description:
-      "Kailani Kealoha guides guests through Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every moment is a chance to connect with the spirit of Aloha, and every meal is a taste of the island’s vibrant culture.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Halia Pua",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 8,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Halia Pua is a Maui native with eight years of experience guiding tours that explore the island's cultural heritage and natural beauty. With a degree in Hawaiian Studies, Halia specializes in tours that include visits to sacred sites, cultural workshops, and outdoor adventures. Her tours often feature storytelling, traditional practices, and breathtaking landscapes. Halia's passion for Maui's culture and her engaging personality make her tours both educational and inspiring.",
-    description:
-      "Halia Pua offers tours that immerse guests in Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every sunset is a reminder of the island’s beauty, and every meal is a taste of its rich traditions.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Kimo Kealoha",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 9,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Kimo Kealoha is a seasoned guide with nine years of experience showcasing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Kimo leads tours that explore the island's ecosystems, cultural sites, and outdoor activities. His tours often include snorkeling trips, hiking adventures, and cultural experiences. Kimo's deep love for Maui and his engaging storytelling make his tours both exciting and informative.",
-    description:
-      "Kimo Kealoha leads tours that celebrate Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every wave is a dance of nature, and every meal is a taste of the island’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Maui",
-    country: "USA",
-    name: "Nani Pua",
-    languages: ["English", "Hawaiian"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Nani Pua is a passionate guide with six years of experience sharing Maui's cultural heritage and natural wonders. With a background in Environmental Science, Nani leads tours that highlight the island's ecosystems, cultural sites, and outdoor activities. Her tours often include snorkeling trips, hiking adventures, and cultural experiences. Nani's enthusiasm for nature and storytelling ensures guests enjoy an unforgettable journey through Maui.",
-    description:
-      "Nani Pua guides guests through Maui's culture, nature, and adventure opportunities.",
-    quote:
-      "In Maui, every moment is a chance to connect with the spirit of Aloha, and every meal is a taste of the island’s vibrant culture.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
+  }
 ];

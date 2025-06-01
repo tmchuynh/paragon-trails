@@ -75,4 +75,116 @@ export const melbourneTourGuides: TourGuide[] = [
       "In Melbourne, every corner has a story, and every night is a celebration of culture and camaraderie.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Ava Patel",
+    languages: ["English", "Hindi", "French"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Ava, an Indian expatriate living in Melbourne, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over seven years. Ava combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ava, an Indian expatriate living in Melbourne, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Noah Smith",
+    languages: ["English", "Japanese", "French"],
+    experienceYears: 5,
+    specialties: ["Adventure Tours", "Cultural Heritage", "City Tours"],
+    bio: "Noah, a Melbourne native, offers tours that explore the city’s adventure opportunities, cultural heritage, and vibrant neighborhoods. He has a degree in Environmental Science from the University of Melbourne and has worked as a tour guide for over five years. Noah combines his love for nature with his passion for storytelling, making each tour a unique experience. His tours often include outdoor activities, historical insights, and cultural experiences that provide guests with a unique perspective on Melbourne's beauty.",
+    description:
+      "Noah blends adventure, heritage, and local culture in his Melbourne tours.",
+    quote:
+      "In Melbourne, every moment is an opportunity for adventure, and every meal is a taste of Australia’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Chloe Brown",
+    languages: ["English", "German", "French"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Chloe, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over six years. Chloe combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Chloe, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia's vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Ethan Johnson",
+    languages: ["English", "Korean", "French"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Ethan, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over eight years. Ethan combines his extensive knowledge of Melbourne's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Ethan, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Mia Taylor",
+    languages: ["English", "Portuguese", "French"],
+    experienceYears: 7,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Mia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over seven years. Mia combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Mia, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia's vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Oliver White",
+    languages: ["English", "Russian", "French"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Oliver, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over six years. Oliver combines his extensive knowledge of Melbourne's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Oliver, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Aiden Clark",
+    languages: ["English", "Arabic", "French"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Aiden, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over five years. Aiden combines his extensive knowledge of Melbourne's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Aiden, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every street is a canvas of culture, and every meal is a taste of Australia's vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Melbourne",
+    country: "Australia",
+    name: "Grace Lee",
+    languages: ["English", "Korean", "French"],
+    experienceYears: 8,
+    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
+    bio: "Grace, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. She has a degree in Cultural Studies from the University of Melbourne and has worked as a tour guide for over eight years. Grace combines her extensive knowledge of Melbourne's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Grace, a Melbourne native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+    quote:
+      "In Melbourne, every dish tells a story, and every street is a celebration of culture and diversity.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
 ];

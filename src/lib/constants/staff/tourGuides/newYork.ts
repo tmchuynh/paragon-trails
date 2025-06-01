@@ -11,7 +11,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "Sara provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "The streets of New York are a canvas, and every corner tells a story waiting to be discovered.",
     bio: "She has a degree in Urban Studies from Columbia University and has worked as a tour guide for over seven years. Sara combines her extensive knowledge of New York's neighborhoods with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. Sara has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. Her commitment to sustainable tourism and cultural preservation has earned her recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -25,7 +25,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "Emily provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "I believe that every street in New York has a story to tell, and I’m here to help you discover them.",
     bio: "Emily has a degree in Urban Studies from Columbia University and has worked as a tour guide for over six years. Emily combines her extensive knowledge of New York's neighborhoods with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. Emily has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. Her commitment to sustainable tourism and cultural preservation has earned her recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -39,7 +39,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "Sophia provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "There is a rhythm to New York that can only be felt when you walk its streets and see its art.",
     bio: "Sophia has a degree in Urban Studies from Columbia University and has worked as a tour guide for over nine years. Sophia combines her extensive knowledge of New York's neighborhoods with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. Sophia has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. Her commitment to sustainable tourism and cultural preservation has earned her recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -53,7 +53,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "Leo provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "This city is a living gallery, and every street is a brushstroke in its vibrant canvas.",
     bio: "He has a degree in Urban Studies from Columbia University and has worked as a tour guide for over ten years. Leo combines his extensive knowledge of New York's neighborhoods with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. Leo has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. His commitment to sustainable tourism and cultural preservation has earned him recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -67,7 +67,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "Michael provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "A city is not just a place; it’s a story, and New York has the most incredible stories to tell.",
     bio: "Michael has a degree in Urban Studies from Columbia University and has worked as a tour guide for over eleven years. Michael combines his extensive knowledge of New York's neighborhoods with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. Michael has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. His commitment to sustainable tourism and cultural preservation has earned him recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
@@ -81,7 +81,7 @@ export const newYorkTourGuides: TourGuide[] = [
     description:
       "David provides dynamic tours of NYC’s neighborhoods, emphasizing street art, history, and cultural hotspots. ",
     quote:
-      "New York is a city that never sleeps, and every corner has a story waiting to be told.",
+      "You haven’t truly seen New York until you’ve walked its streets and felt its art.",
     bio: "David has a degree in Urban Studies from Columbia University and has worked as a tour guide for over eight years. David combines his extensive knowledge of New York's neighborhoods with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to street art galleries and cultural events, providing guests with an immersive urban experience. David has collaborated with local artists and cultural institutions to create unique experiences that showcase the best of New York's street art scene, including private tours of graffiti hotspots and workshops where guests can learn about urban art techniques. His commitment to sustainable tourism and cultural preservation has earned him recognition from local and international organizations.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
