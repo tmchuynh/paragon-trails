@@ -111,7 +111,7 @@ export default function TourGuides() {
         // Check if the selected specialty matches a category name from our official categories
         const matchesName = specialties.some((specialty) => {
           const category = Object.values(tourCategoryMap).find(
-            (cat) => cat.name.toLowerCase() === specialty.toLowerCase()
+            (cat) => cat.title.toLowerCase() === specialty.toLowerCase()
           );
           return category && category.id === selectedSpecialty;
         });
@@ -312,7 +312,7 @@ export default function TourGuides() {
                   <SelectItem value="all">All Specialties</SelectItem>
                   {tourCategories.map((category) => (
                     <SelectItem key={category.id} value={category.id}>
-                      {category.name}
+                      {category.title}
                     </SelectItem>
                   ))}
                   {allSpecialties
@@ -320,8 +320,8 @@ export default function TourGuides() {
                       (specialty) =>
                         !tourCategories.some(
                           (cat) =>
-                            cat.name.toLowerCase() === specialty.toLowerCase() ||
-                            cat.id === specialty
+                            cat.title.toLowerCase() ===
+                              specialty.toLowerCase() || cat.id === specialty
                         )
                     )
                     .map((specialty) => (
@@ -421,7 +421,7 @@ export default function TourGuides() {
                                   (cat) => cat.id === specialty
                                 );
                                 const displayName = officialCategory
-                                  ? officialCategory.name
+                                  ? officialCategory.title
                                   : specialty;
 
                                 return (
