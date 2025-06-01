@@ -45,7 +45,7 @@ export const navbarItems = [
     label: "Tours",
     dropdown: [
       {
-        label: "All Tours",
+        label: "Types of Tours",
         href: "/tours",
       },
       {
