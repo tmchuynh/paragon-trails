@@ -55,8 +55,6 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     isRomantic: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -86,8 +84,6 @@ export const chengduSichuanProvinceChina: Attraction[] = [
     isPopular: true,
     isHistorical: true,
     isLocalExperience: true,
-    isShopping: true,
-    isDining: true,
     isNightlife: true,
   },
   {

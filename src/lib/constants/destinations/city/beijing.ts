@@ -26,8 +26,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isRomantic: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isIndoor: false,
     isNightlife: false,
   },
@@ -59,8 +57,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isLocalExperience: true,
     isFree: false,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -88,8 +84,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isRomantic: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -117,8 +111,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isRomantic: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -145,8 +137,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -173,8 +163,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -201,8 +189,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
-    isShopping: false,
     isNightlife: true,
   },
   {
@@ -229,8 +215,6 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
 ];

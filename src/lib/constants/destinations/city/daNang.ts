@@ -49,7 +49,6 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
 
     isRomantic: true,
     isPetFriendly: true,
-    isDining: true,
   },
   {
     title: "Dragon Bridge",
@@ -59,7 +58,7 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     rating: 4.5,
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1677861403044-e13284c44cf2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RHJhZ29uJTIwQnJpZGdlfGVufDB8fDB8fHww",
-    tags: [ "Bridge", "Night Show", "City Views"],
+    tags: ["Bridge", "Night Show", "City Views"],
     accessibilityFeatures: ["Wheelchair Accessible Walkways", "Viewing Areas"],
     openingHours: "Open 24/7 (fire show at 9:00 PM on weekends)",
     entryFee: "Free",
@@ -70,8 +69,6 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     isHistorical: true,
     isIndoor: false,
     isOutdoor: true,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
     isAdventure: false,
 
@@ -105,7 +102,6 @@ export const daNangCentralVietnamVietnam: Attraction[] = [
     isPopular: true,
     isHistorical: true,
     isOutdoor: true,
-    isShopping: true,
     isAdventure: true,
   },
 ];

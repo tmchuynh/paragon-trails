@@ -29,8 +29,6 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     isHistorical: true,
     isRomantic: true,
     isLocalExperience: true,
-    isDining: true,
-    isShopping: true,
     isNightlife: false,
     isIndoor: false,
     isWheelchairAccessible: false,
@@ -87,8 +85,6 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     isRomantic: true,
     isNightlife: true,
     isOutdoor: true,
-
-    isDining: true,
   },
   {
     title: "Blue Hole",
@@ -142,8 +138,6 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     isLocalExperience: true,
     isAdventure: true,
     isOutdoor: true,
-    isDining: true,
-    isShopping: true,
     isNightlife: true,
     isOffTheBeatenPath: true,
     isWheelchairAccessible: false,
@@ -224,8 +218,6 @@ export const jamaicaGreaterAntillesCaribbean: Attraction[] = [
     isLocalExperience: true,
     isAdventure: false,
     isOutdoor: true,
-    isDining: true,
-    isShopping: true,
     isNightlife: false,
   },
   {
