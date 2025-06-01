@@ -233,6 +233,8 @@ export function hasAccentedCharacters(str: string): boolean {
 export function removeAccents(str: string): string {
   // Normalize to decomposed form, which separates base characters from diacritical marks
   return str
-    .normalize('NFD')
-    .replace(/[\u0300-\u036F]/g, ''); // Remove all combining diacritical marks
+    .replaceAll("đ", "d")
+    .replaceAll("Đ", "D") // Remove all combining diacritical marks
+    .normalize("NFD")
+    .replace(/[\u0300-\u036F]/g, "");
 }
