@@ -18,6 +18,7 @@ import {
 import { Tour } from "@/lib/interfaces/services/tours";
 import { cn } from "@/lib/utils";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
+import { formatToSlug } from "@/lib/utils/format";
 import { getTourData } from "@/lib/utils/get";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";
@@ -352,7 +353,17 @@ export default function TourPage() {
               </div>
             </div>
 
-            <Button onClick={() => router.push("/book-your-trip-today")}>
+            <Button
+              onClick={() =>
+                router.push(
+                  `/book-your-trip-today?tour=${formatToSlug(
+                    tour.title
+                  ).replace("&", "@")}&participants=${participants}&date=${
+                    date ? format(date, "yyyy-MM-dd") : ""
+                  }&tourGuide=${tourGuide}&tourCategoryId=${tourCategoryId}`
+                )
+              }
+            >
               Book Now
             </Button>
           </div>
