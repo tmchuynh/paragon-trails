@@ -4,6 +4,38 @@ export const romeTourGuides: TourGuide[] = [
   {
     city: "Rome",
     country: "Italy",
+    name: "Marco Rossi",
+    languages: ["Italian", "English", "Spanish"],
+    experienceYears: 15,
+    specialties: ["cultural", "Ancient History", "Archaeological Sites"],
+    bio: "Marco Rossi brings Rome's ancient history to life with scholarly insights and engaging narratives. With a doctorate in Roman History and fifteen years of guiding experience, Marco specializes in archaeological sites, offering detailed contexts that connect Rome's past with its present. His in-depth knowledge of the Forum, Colosseum, and lesser-known ancient sites provides guests with a comprehensive understanding of Roman civilization. Marco has privileged access to recently excavated areas not yet open to the general public, offering his guests unique perspectives on ongoing archaeological discoveries.",
+    description:
+      "Marco Rossi reveals the secrets of ancient Rome through expert archaeological and historical tours.",
+    quote:
+      "In Rome, we don't merely visit ruins—we walk through living history where every stone has witnessed the rise and evolution of Western civilization.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+    certifications: [
+      "PhD in Roman History",
+      "Licensed Rome Archaeological Guide",
+    ],
+  },
+  {
+    city: "Rome",
+    country: "Italy",
+    name: "Francesca Bianchi",
+    languages: ["Italian", "English", "French"],
+    experienceYears: 9,
+    specialties: ["art-and-music", "Renaissance Art", "Baroque Architecture"],
+    bio: "Francesca Bianchi specializes in Rome's artistic treasures from Renaissance masterpieces to Baroque architectural wonders. With a master's degree in Art History and nine years of guiding experience, Francesca leads tours that explore the Vatican Museums, Galleria Borghese, and hidden church interiors with magnificent artworks. Her detailed knowledge of Bernini, Caravaggio, and Raphael enhances appreciation of their works within their historical and cultural contexts. Francesca maintains relationships with art restorers and museum curators, occasionally arranging special access to conservation projects and new exhibitions.",
+    description:
+      "Francesca Bianchi offers artistic journeys through Rome's Renaissance and Baroque masterpieces with expert insights.",
+    quote:
+      "Rome's art doesn't just hang in museums—it surrounds us in churches, palaces, and piazzas, creating the world's greatest open-air gallery.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Rome",
+    country: "Italy",
     name: "Isabella Cremoxanis",
     languages: ["Italian", "English", "Spanish"],
     experienceYears: 11,
