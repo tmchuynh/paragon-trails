@@ -235,8 +235,6 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     isFree: false,
     isWheelchairAccessible: true,
     isLocalExperience: true,
-    isShopping: true,
-    isDining: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isOutdoor: true,
@@ -267,8 +265,6 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     isHistorical: false,
     isIndoor: false,
     isOffTheBeatenPath: false,
-    isDining: false,
-    isShopping: false,
 
     isOutdoor: true,
   },
@@ -317,7 +313,6 @@ export const xianShaanxiProvinceChina: Attraction[] = [
     isWheelchairAccessible: true,
     isRomantic: true,
     isLocalExperience: true,
-    isShopping: false,
 
     isHistorical: true,
     isIndoor: true,
