@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const xianTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const xianTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("xi-an", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const xianTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("xi-an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const xianTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("xi-an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

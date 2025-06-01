@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const viennaTours: Tour[] = [
   {
@@ -14,12 +13,11 @@ export const viennaTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["Classical Music", "Cultural", "Exclusive"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("vienna", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -41,12 +39,11 @@ export const viennaTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Royal History", "Palace", "Habsburg"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("vienna", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -68,12 +65,11 @@ export const viennaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Art", "Street Art", "Contemporary"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("vienna", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const zanzibarTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const zanzibarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("zanzibar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -66,7 +64,6 @@ export const zanzibarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -118,7 +115,6 @@ export const zanzibarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -170,7 +166,6 @@ export const zanzibarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("zanzibar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
