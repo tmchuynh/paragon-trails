@@ -50,8 +50,6 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     isFree: true,
     isRomantic: true,
     isLocalExperience: true,
-    isDining: true,
-    isShopping: true,
     isOutdoor: true,
   },
   {
@@ -101,8 +99,6 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     isOutdoor: true,
     isFree: true,
     isOffTheBeatenPath: true,
-    isDining: true,
-    isShopping: true,
   },
   {
     title: "Archaeological Museum of Thessaloniki",
@@ -167,7 +163,6 @@ export const thessalonikiCentralMacedoniaGreece: Attraction[] = [
     isPopular: true,
 
     isFree: true,
-    isDining: true,
     isNightlife: true,
   },
   {
