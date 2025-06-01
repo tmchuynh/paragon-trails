@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mostarTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const mostarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const mostarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mostar", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const mostarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const mostarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mostar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const mostarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mostar", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const mostarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mostar", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const mostarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mostar", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -243,7 +235,6 @@ export const mostarTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mostar", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

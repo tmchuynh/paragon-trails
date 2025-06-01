@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mtoWaMbuVillageTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -180,7 +174,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -212,7 +205,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -244,7 +236,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -276,7 +267,6 @@ export const mtoWaMbuVillageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mto-wa-mbu-village", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mekongDeltaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mekong-delta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mekong-delta", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mekong-delta", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mekong-delta", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mekong-delta", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mekong-delta", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const mekongDeltaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mekong-delta", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const monacoTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const monacoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("monaco", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const monacoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("monaco", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const monacoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Captain Alexandre",
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const monacoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Madame Colette Beaumont",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -167,7 +162,6 @@ export const monacoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Chef Laurent Mercier",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -204,7 +198,6 @@ export const monacoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Maxime Durand, Nightlife Concierge",
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -241,7 +234,6 @@ export const monacoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Dr. Marine Lambert",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -273,7 +265,6 @@ export const monacoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Isabelle Moreau, Art Curator",
     tourCategoryId: "cultural",
     faqs: [
       {

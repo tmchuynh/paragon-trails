@@ -18,7 +18,6 @@ export const losAngelesTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuideSpecialty: "luxury", // Changed from tourGuide to tourGuideSpecialty
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -50,7 +49,6 @@ export const losAngelesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuideSpecialty: "adventure", // Changed from tourGuide to tourGuideSpecialty
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -87,7 +85,6 @@ export const losAngelesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuideSpecialty: "cultural", // Changed from tourGuide to tourGuideSpecialty
     tourCategoryId: "cultural",
     faqs: [
       {

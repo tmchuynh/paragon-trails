@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mauiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const mauiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("maui", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -100,7 +96,6 @@ export const mauiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -132,7 +127,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("maui", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -164,7 +158,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("maui", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -196,7 +189,6 @@ export const mauiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("maui", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -228,7 +220,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("maui", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -260,7 +251,6 @@ export const mauiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("maui", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const melbourneTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("melbourne", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("melbourne", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("melbourne", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("melbourne", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("melbourne", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -243,7 +235,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("melbourne", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -275,7 +266,6 @@ export const melbourneTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("melbourne", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
