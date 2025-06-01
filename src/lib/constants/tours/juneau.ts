@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const juneauTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const juneauTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("juneau", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("juneau", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("juneau", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("juneau", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const juneauTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("juneau", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -243,7 +235,6 @@ export const juneauTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("juneau", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {

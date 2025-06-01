@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const kualaLumpurTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -110,7 +106,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -137,7 +132,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -164,7 +158,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -196,7 +189,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -228,7 +220,6 @@ export const kualaLumpurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("kuala lumpur", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {

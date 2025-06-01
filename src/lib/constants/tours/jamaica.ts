@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const jamaicaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -98,7 +95,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -140,7 +136,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -177,7 +172,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("jamaica", "romantic").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -214,7 +208,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -251,7 +244,6 @@ export const jamaicaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jamaica", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

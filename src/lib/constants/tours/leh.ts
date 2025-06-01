@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const lehTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("leh", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const lehTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("leh", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const lehTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("leh", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("leh", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -148,7 +143,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("leh", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -180,7 +174,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("leh", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -212,7 +205,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("leh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -239,7 +231,6 @@ export const lehTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("leh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

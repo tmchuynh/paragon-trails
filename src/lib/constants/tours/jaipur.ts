@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const jaipurTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const jaipurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("jaipur", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const jaipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jaipur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const jaipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jaipur", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -120,7 +116,6 @@ export const jaipurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("jaipur", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

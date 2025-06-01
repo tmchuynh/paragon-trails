@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const honoluluTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("honolulu", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -145,7 +141,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -187,7 +182,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -229,7 +223,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -271,7 +264,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -313,7 +305,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("honolulu", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -355,7 +346,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("honolulu", "off-the-beaten-path").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -397,7 +387,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("honolulu", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -440,7 +429,6 @@ export const honoluluTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("honolulu", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

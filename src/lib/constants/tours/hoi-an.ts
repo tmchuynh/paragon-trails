@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const hoiAnTours: Tour[] = [
   {
@@ -14,12 +13,11 @@ export const hoiAnTours: Tour[] = [
     price: "$40",
     rating: 4.9,
     tags: ["Cultural", "Craft", "UNESCO"],
- 
+
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("hoi an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,12 +49,11 @@ export const hoiAnTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cycling", "Cooking", "Rural"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("hoi an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -88,12 +85,11 @@ export const hoiAnTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("hoi an", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -125,12 +121,11 @@ export const hoiAnTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Romantic", "Cultural", "Scenic"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("hoi an", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const lasVegasTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("las vegas", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("las vegas", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Sophia Martinez, Culinary Expert",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -105,7 +101,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Dr. Sarah Williams, Egyptologist",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -137,7 +132,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("las vegas", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -169,7 +163,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Thomas 'The Historian' Wilkins",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -201,7 +194,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Alex Rivera, Professional Aerial Photographer",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -233,7 +225,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Hualapai Tribal Guides",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -266,7 +257,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Former Cast Members & Production Staff",
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -298,7 +288,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Michelle Lawson, Landscape Photographer",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -330,7 +319,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Nick 'UFO Hunter' Thompson",
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -362,7 +350,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Richard Harris, Neon Historian",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -394,7 +381,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Wedding Coordinator & Officiant",
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -426,7 +412,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "James Kingston, Former Casino Executive",
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -458,7 +443,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Robert Jenkins, Civil Engineer",
     tourCategoryId: "historical",
     faqs: [
       {
@@ -490,7 +474,6 @@ export const lasVegasTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Lisa Stevenson, Geologist",
     tourCategoryId: "adventure",
     faqs: [
       {
