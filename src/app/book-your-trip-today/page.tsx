@@ -334,7 +334,9 @@ export default function BookYourTripToday() {
                     <span className="flex-1 text-center">{participants}</span>
                     <button
                       className="px-3 py-2 text-lg"
-                      onClick={() => setParticipants((prev) => prev + 1)}
+                      onClick={() =>
+                        setParticipants((prev) => Math.min(prev + 1, 10))
+                      }
                     >
                       +
                     </button>
