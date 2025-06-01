@@ -8,16 +8,16 @@ export const atlasMountainsTourGuides: TourGuide[] = [
     languages: ["Arabic", "French", "English"],
     experienceYears: 7,
     specialties: [
-      "Cultural Heritage",
+      "cultural",
       "Nature Tours",
       "Adventure Tours",
       "Luxury Tours",
     ],
     bio: "Fatima comes from seven generations of Atlas Mountains herbalists and began formal study of cultural anthropology after already mastering traditional plant knowledge from her grandmother. Her work documenting Berber textile patterns for a UNESCO preservation project brought her international recognition before she decided to become a guide. Fatima has unique access to women's spaces and traditions typically closed to male guides and foreign visitors, providing female travelers with insights into domestic life and craft traditions. She specializes in identifying seasonal wildflower displays and rare plant species found nowhere else in the world, timing tours to coincide with brief blooming periods. Her cultural heritage tours incorporate her family's collection of tribal artifacts and historical documents, many dating back centuries. Fatima particularly excels at facilitating respectful cultural exchanges between visitors and local families, creating authentic experiences that benefit mountain communities while preserving cultural dignity.",
     description:
-      "Fatima, an Atlas Mountains native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
+      "Fatima, an Atlas Mountains native, offers tours that explore the region's rich cultural heritage, stunning landscapes, and adventure opportunities.",
     quote:
-      "In the Atlas Mountains, every peak tells a story, and every meal is a taste of Morocco’s vibrant spirit.",
+      "In the Atlas Mountains, every peak tells a story, and every meal is a taste of Morocco's vibrant spirit.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -29,7 +29,7 @@ export const atlasMountainsTourGuides: TourGuide[] = [
     languages: ["Arabic", "Berber", "French", "English"],
     experienceYears: 15,
     specialties: [
-      "Adventure Tours",
+      "adventure",
       "Local Experience Tours",
       "Trekking",
       "Cultural Tours",

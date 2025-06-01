@@ -7,27 +7,13 @@ export const beijingTourGuides: TourGuide[] = [
     name: "Dr. Li Wei",
     languages: ["Mandarin", "English", "French"],
     experienceYears: 10,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Dr. Li Wei, a Beijing native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a PhD in Cultural Studies from Peking University and has worked as a tour guide for over ten years. Dr. Li combines his extensive knowledge of Beijing's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    specialties: ["cultural", "Historical Tours", "City Tours"],
+    bio: "Dr. Li Wei earned his doctorate in Cultural Studies from Beijing University with research focusing on cultural exchange along the Silk Road. Before becoming a guide, he worked as a curator at the National Museum, giving him exceptional knowledge of Chinese artifacts and their historical context. Dr. Li specializes in revealing the multicultural influences that shaped Beijing over different dynasties, challenging simplified narratives about Chinese cultural development. His connections with cultural institutions provide privileged access to collections and sites normally restricted to researchers. Dr. Li has pioneered specialized tours examining Beijing's continuous evolution from imperial capital to modern metropolis, explaining how urban planning reflects changing political ideologies.",
     description:
-      "Dr. Li Wei, a Beijing native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+      "Dr. Li Wei creates intellectual journeys through Beijing's cultural landscape, revealing complex historical narratives and philosophical traditions that shaped China's past and continue influencing its future.",
     quote:
-      "In Beijing, every alley tells a story, and every meal is a taste of China’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Wang Dōngyě",
-    languages: ["Chinese", "English", "Japanese"],
-    experienceYears: 9,
-    specialties: ["Ancient History", "Cultural Heritage", "City Tours"],
-    bio: "Wang, a licensed guide, specializes in ancient Chinese history and cultural heritage, offering tours that explore the rich history of Beijing. He has a degree in History from Peking University and has worked as a tour guide for over nine years. Wang combines his extensive knowledge of Chinese history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Wang, a licensed guide, specializes in ancient Chinese history and cultural heritage, offering tours that explore the rich history of Beijing.",
-    quote:
-      "In Beijing, every monument tells a story, and every street is a testament to the city’s rich heritage.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Beijing is not one story, but many stories layered atop one another—to understand this city is to understand how China continually reinvents itself while honoring its past.",
+    profileImage: "/images/staff/tour-guides/beijing/liwei.jpg",
   },
   {
     city: "Beijing",
@@ -36,122 +22,44 @@ export const beijingTourGuides: TourGuide[] = [
     languages: ["Mandarin", "English", "French"],
     experienceYears: 9,
     specialties: [
-      "Art History",
+      "art-and-music",
       "Cultural Heritage",
       "City Tours",
       "Historical Tours",
     ],
-    bio: "Zhang, a Beijing native, offers tours that explore the city’s rich art history, cultural heritage, and historical landmarks. He has a degree in Art History from Peking University and has worked as a tour guide for over nine years. Zhang combines his extensive knowledge of Beijing's art scene with his passion for storytelling, making each tour a unique experience. His tours often include visits to art galleries, cultural landmarks, and historical sites, providing guests with an immersive cultural journey.",
+    bio: "Zhang Wei studied at Beijing's Central Academy of Fine Arts before working as an art critic for major Chinese publications. His intimate knowledge of Beijing's art scene comes from years of relationships with galleries, museums, and artists throughout the city. Zhang specializes in contextualizing contemporary Chinese art within both traditional Chinese aesthetics and global art movements. His tours provide access to artist studios, private collections, and alternative art spaces rarely included in conventional tourism. Zhang has documented Beijing's rapidly evolving urban art districts, preserving their history as development continues to transform the city landscape.",
     description:
-      "Zhang, a Beijing native, offers tours that explore the city’s rich art history, cultural heritage, and historical landmarks.",
+      "Zhang Wei opens doors to Beijing's thriving contemporary art scene while explaining how today's Chinese artists navigate between ancient traditions and global influences in their creative expressions.",
     quote:
-      "In Beijing, every street is a gallery, and every meal is a taste of the city’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Chinese art has always balanced innovation with tradition—today's Beijing artists are creating the classics that future generations will study.",
+    profileImage: "/images/staff/tour-guides/beijing/zhangwei.jpg",
   },
   {
     city: "Beijing",
     country: "China",
-    name: "Li Na",
-    languages: ["Mandarin", "English", "French"],
-    experienceYears: 7,
-    specialties: [
-      "Spiritual Heritage",
-      "Wellness Tours",
-      "Cultural Experiences",
-    ],
-    bio: "Li, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from Peking University and has worked as a tour guide for over seven years. Li combines her extensive knowledge of Beijing's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
+    name: "Chen Mei",
+    languages: ["Mandarin", "English", "Japanese"],
+    experienceYears: 12,
+    specialties: ["culinary", "Food Markets", "Cooking Traditions"],
+    bio: "Chen Mei trained as a professional chef before pursuing formal studies in culinary anthropology, giving her unique insights into Beijing's food culture from both practical and academic perspectives. Her family has operated restaurants in Beijing for three generations, providing insider knowledge of the city's culinary evolution. Chen specializes in connecting historical imperial cuisine with contemporary Beijing dining, explaining how political and social factors influenced Chinese culinary development. Her relationships with market vendors, restaurant owners, and food artisans provide access to culinary experiences unavailable to most visitors. Chen has documented disappearing food traditions throughout Beijing, preserving recipes and techniques at risk of being lost to modernization.",
     description:
-      "Li, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
+      "Chen Mei guides culinary adventures that explore Beijing's gastronomic landscape, from imperial traditions to street food innovations, revealing how the city's history and culture are expressed through its distinctive cuisines.",
     quote:
-      "In Beijing, every moment is an opportunity for spiritual growth, and every meal is a taste of China’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "The true language of Beijing isn't Mandarin—it's the flavors of our kitchens, telling stories of our history, geography, and the many cultures that have contributed to our identity.",
+    profileImage: "/images/staff/tour-guides/beijing/chenmi.jpg",
   },
   {
     city: "Beijing",
     country: "China",
-    name: "Chen Wei",
-    languages: ["Mandarin", "English", "French"],
-    experienceYears: 6,
-    specialties: ["Cultural Heritage", "City Tours", "Culinary Experiences"],
-    bio: "Chen, a Beijing native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene. He has a degree in Cultural Studies from Peking University and has worked as a tour guide for over six years. Chen combines his extensive knowledge of Beijing's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to local markets and culinary experiences, providing guests with an immersive cultural journey.",
+    name: "Wang Tao",
+    languages: ["Mandarin", "English", "German"],
+    experienceYears: 15,
+    specialties: ["historical", "Imperial Sites", "Archaeological Tours"],
+    bio: "Wang Tao began his career assisting international archaeological teams working at sites throughout northern China before specializing in Beijing's historical monuments. His graduate work in Chinese historiography gives him unique perspectives on how historical narratives about Beijing have evolved over time. Wang specializes in revealing the layers of Beijing's urban development, from ancient defensive walls to modern landmarks. His detailed knowledge of imperial ritual and court life brings historical sites like the Forbidden City to life beyond their physical structures. Wang has mapped historical features throughout Beijing that remain hidden within the modern cityscape, revealing continuities between past and present urban experiences.",
     description:
-      "Chen, a Beijing native, offers tours that explore the city’s rich cultural heritage, vibrant neighborhoods, and culinary scene.",
+      "Wang Tao uncovers Beijing's imperial past with scholarly precision, revealing the political intrigues, architectural innovations, and cultural practices that defined China's imperial capital for centuries.",
     quote:
-      "In Beijing, every dish tells a story, and every street is a celebration of culture and diversity.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Mei Lin",
-    languages: ["Mandarin", "English", "Spanish"],
-    experienceYears: 5,
-    specialties: ["Cultural Heritage", "Nature Tours", "Adventure Tours"],
-    bio: "Mei, a Beijing native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities. She has a degree in Environmental Studies from Peking University and has worked as a tour guide for over five years. Mei combines her extensive knowledge of Beijing's environment with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to nature reserves and cultural experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Mei, a Beijing native, offers tours that explore the city’s rich cultural heritage, stunning landscapes, and adventure opportunities.",
-    quote:
-      "In Beijing, every mountain tells a story, and every meal is a taste of China’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Xiaoling Zhang",
-    languages: ["Mandarin", "English", "Spanish"],
-    experienceYears: 8,
-    specialties: [
-      "Spiritual Heritage",
-      "Wellness Tours",
-      "Cultural Experiences",
-    ],
-    bio: "Xiaoling, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences. She has a degree in Cultural Studies from Peking University and has worked as a tour guide for over eight years. Xiaoling combines her extensive knowledge of Beijing's spiritual practices with her love for storytelling, making each tour a unique experience. Her tours often include visits to spiritual sites, wellness centers, and cultural landmarks, providing guests with an immersive cultural journey.",
-    description:
-      "Xiaoling, a Beijing native, offers tours that explore the city’s spiritual heritage, wellness practices, and cultural experiences.",
-    quote:
-      "In Beijing, every moment is an opportunity for spiritual growth, and every meal is a taste of China’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Jin Tao",
-    languages: ["Mandarin", "English", "French"],
-    experienceYears: 4,
-    specialties: ["Luxury Tours", "Nightlife Tours"],
-    bio: "Jin, a Beijing native, offers luxury tours that explore the city’s upscale experiences and vibrant nightlife. He has a degree in Hospitality Management from Peking University and has worked as a tour guide for over four years. Jin combines his extensive knowledge of Beijing's luxury offerings with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to luxury accommodations, fine dining, and nightlife experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Jin, a Beijing native, offers luxury tours that explore the city’s upscale experiences and vibrant nightlife.",
-    quote:
-      "In Beijing, every night is a celebration of luxury, and every meal is a taste of the city’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Liu Fang",
-    languages: ["Mandarin", "English", "French"],
-    experienceYears: 6,
-    specialties: ["Romantic Tours", "Cultural Heritage", "Nightlife Tours"],
-    bio: "Liu, a Beijing native, offers romantic tours that explore the city’s historical landmarks, local experiences, and vibrant nightlife. She has a degree in Cultural Studies from Peking University and has worked as a tour guide for over six years. Liu combines her extensive knowledge of Beijing's history with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to historical sites and romantic experiences, providing guests with an immersive cultural journey.",
-    description:
-      "Liu, a Beijing native, offers romantic tours that explore the city’s historical landmarks, local experiences, and vibrant nightlife.",
-    quote:
-      "In Beijing, every moment is a celebration of love, and every meal is a taste of the city’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Beijing",
-    country: "China",
-    name: "Zhou Ming",
-    languages: ["Mandarin", "English", "French"],
-    experienceYears: 5,
-    specialties: ["Historical Tours", "Architecture", "Cultural Heritage"],
-    bio: "Zhou, a Beijing native, offers tours that explore the city’s rich architectural heritage, historical landmarks, and cultural experiences. He has a degree in Architecture from Tsinghua University and has worked as a tour guide for over five years. Zhou combines his extensive knowledge of Beijing's architecture with his love for storytelling, making each tour a unique experience. His tours often include visits to iconic buildings, cultural landmarks, and historical sites, providing guests with an immersive cultural journey.",
-    description:
-      "Zhou, a Beijing native, offers tours that explore the city’s rich architectural heritage, historical landmarks, and cultural experiences.",
-    quote:
-      "In Beijing, every building tells a story, and every meal is a taste of the city’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Every stone in Beijing has witnessed history—my mission is to make those stones speak their secrets to modern visitors.",
+    profileImage: "/images/staff/tour-guides/beijing/wangtao.jpg",
   },
 ];
