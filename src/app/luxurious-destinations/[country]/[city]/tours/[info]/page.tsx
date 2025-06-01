@@ -32,6 +32,7 @@ export default function TourPage() {
   const router = useRouter();
   const city = searchParams.get("city") || "";
   const tourName = searchParams.get("tour") || "";
+  const tourGuide = searchParams.get("tourGuide") || "";
   const tourCategoryId = searchParams.get("tourCategoryId") || "";
   const [date, setDate] = useState<Date>();
   const [participants, setParticipants] = useState(2);
@@ -265,13 +266,13 @@ export default function TourPage() {
             <div className="flex items-center">
               <Image
                 src="/images/guides/default-avatar.jpg"
-                alt={tour.tourGuide}
+                alt={tourGuide}
                 width={64}
                 height={64}
                 className="shadow mr-4 rounded-full w-16 h-16 object-cover object-center"
               />
               <div>
-                <h3 className="font-bold text-lg">{tour.tourGuide}</h3>
+                <h3 className="font-bold text-lg">{tourGuide}</h3>
               </div>
             </div>
           </div>
