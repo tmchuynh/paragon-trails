@@ -51,7 +51,7 @@ type MeetingPoint = {
     latitude: number;
     longitude: number;
   };
-  instructions?: string; // additional instructions for the meeting point
+  instructions: string; // additional instructions for the meeting point
   contactNumber?: string; // optional contact number for the meeting point
   contactEmail?: string; // optional contact email for the meeting point
 };
