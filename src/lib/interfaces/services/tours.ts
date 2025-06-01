@@ -25,6 +25,7 @@ export interface Tour {
   itinerary?: string[]; // displayed in the view details page
   meetingPoint?: string; // displayed in the view details page
   cancellationPolicy?: string; // displayed in the view details page
+  isPopular?: boolean; // to be displayed in the card as a badge and on booking page
 
   // displayed in view details page
   isHistorical?: boolean;
