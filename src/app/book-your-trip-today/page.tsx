@@ -271,7 +271,7 @@ export default function BookYourTripToday() {
                   ) : (
                     <p>No images available</p>
                   )}
-                  </div>
+                </div>
               </div>
 
               {tour.cancellationPolicy && (
@@ -362,10 +362,10 @@ export default function BookYourTripToday() {
                 <Button
                   onClick={() => {
                     const params = new URLSearchParams({
-                        city: formatToSlug(city),
-                        tourName: formatToSlug(tour.title),
-                        tourGuide: formatToSlug(tourGuide),
-                        tourCategoryId: formatToSlug(tourCategoryId),
+                      city: formatToSlug(city),
+                      tourName: formatToSlug(tour.title),
+                      tourGuide: formatToSlug(tourGuide),
+                      tourCategoryId: formatToSlug(tourCategoryId),
                       date: date ? format(date, "yyyy-MM-dd") : "",
                       participants: participants.toString(),
                     });
