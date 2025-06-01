@@ -164,7 +164,12 @@ export default function BookYourTripToday() {
                   "No rating available"
                 )}
               </h5>
-              <div className="shadow-md p-6 rounded-lg w-full max-w-2xl">
+              {(tour.itinerary ||
+                tour.meetingPoint ||
+                tour.highlights ||
+                tour.inclusions ||
+                tour.exclusions) && (
+                <section>
                 {tour.itinerary && (
                   <div className="mb-4">
                     <h3 className="font-bold text-lg">Itinerary:</h3>
@@ -295,7 +300,7 @@ export default function BookYourTripToday() {
                         variant={"outline"}
                         className={cn(
                           "w-full justify-start text-left font-normal",
-                          !date && "text-gray-400"
+                          dateClass
                         )}
                       >
                         <CalendarIcon className="mr-2 w-4 h-4" />
