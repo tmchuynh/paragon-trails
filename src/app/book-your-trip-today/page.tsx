@@ -360,18 +360,18 @@ export default function BookYourTripToday() {
                 </div>
 
                 <Button
-                  onClick={() =>
-                    router.push(
-                      `/book-your-trip-today?${new URLSearchParams({
+                  onClick={() => {
+                    const params = new URLSearchParams({
                         city: formatToSlug(city),
                         tourName: formatToSlug(tour.title),
                         tourGuide: formatToSlug(tourGuide),
                         tourCategoryId: formatToSlug(tourCategoryId),
-                      }).toString()}&date=${
-                        date ? format(date, "yyyy-MM-dd") : ""
-                      }&participants=${participants}`
-                    )
-                  }
+                      date: date ? format(date, "yyyy-MM-dd") : "",
+                      participants: participants.toString(),
+                    });
+
+                    router.push(`/book-your-trip-today?${params.toString()}`);
+                  }}
                 >
                   Add to Cart
                 </Button>
