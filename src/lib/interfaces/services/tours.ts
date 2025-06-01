@@ -6,6 +6,7 @@ export interface TourCategory {
   title: string;
   description: string;
   tags?: string[];
+  icon: React.ComponentType;
 }
 
 export interface Tour {
@@ -17,6 +18,13 @@ export interface Tour {
   price: string;
   rating: number;
   tags?: string[];
+  availableDates?: string[];
+  highlights?: string[];
+  inclusions?: string[];
+  exclusions?: string[];
+  itinerary?: string[];
+  meetingPoint?: string;
+  cancellationPolicy?: string;
   isHistorical?: boolean;
   isRomantic?: boolean;
   isAdventure?: boolean;
