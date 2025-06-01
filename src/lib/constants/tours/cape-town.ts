@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const capeTownTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cape town", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cape town", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cape town", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cape town", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -167,7 +162,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cape town", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -204,7 +198,6 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cape town", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

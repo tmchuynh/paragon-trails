@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const chiangMaiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chiang mai", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chiang mai", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chiang mai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -145,7 +141,6 @@ export const chiangMaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chiang mai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const chefchaouenTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chefchaouen", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chefchaouen", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("chefchaouen", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chefchaouen", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("chefchaouen", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chefchaouen", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const chefchaouenTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("chefchaouen", "local").name,
     tourCategoryId: "local",
     faqs: [
       {

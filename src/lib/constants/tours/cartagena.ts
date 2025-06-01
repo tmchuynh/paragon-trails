@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const cartagenaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cartagena", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cartagena", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cartagena", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -110,7 +106,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cartagena", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -142,7 +137,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cartagena", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -174,7 +168,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cartagena", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -207,7 +200,6 @@ export const cartagenaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cartagena", "art").name,
     tourCategoryId: "art",
     faqs: [
       {

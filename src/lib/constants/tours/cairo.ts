@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const cairoTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cairo", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -62,7 +60,6 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cairo", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -104,7 +101,6 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cairo", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -146,7 +142,6 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cairo", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -189,7 +184,6 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cairo", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -236,7 +230,6 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cairo", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

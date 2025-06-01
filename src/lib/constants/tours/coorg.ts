@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const coorgTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const coorgTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("coorg", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const coorgTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("coorg", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const coorgTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("coorg", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const coorgTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("coorg", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const coorgTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("coorg", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const coorgTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("coorg", "romantic").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const coorgTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("coorg", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -243,7 +235,6 @@ export const coorgTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("coorg", "cultural").name,
     tourCategoryId: "culture",
     faqs: [
       {

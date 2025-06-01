@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const charlestonTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -67,7 +65,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -115,7 +112,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -164,7 +160,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("charleston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -212,7 +207,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -262,7 +256,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -312,7 +305,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("charleston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -362,7 +354,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("charleston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -412,7 +403,6 @@ export const charlestonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("charleston", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {

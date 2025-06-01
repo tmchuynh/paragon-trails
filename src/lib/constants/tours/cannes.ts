@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const cannesTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cannes", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cannes", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -147,7 +142,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("cannes", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -179,7 +173,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -211,7 +204,6 @@ export const cannesTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("cannes", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {

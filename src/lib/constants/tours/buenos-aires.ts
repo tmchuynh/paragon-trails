@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 export const buenosAiresTours: Tour[] = [
   {
     title: "Tango Experience: Show & Dance Lesson",
@@ -18,7 +17,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -55,7 +53,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -109,7 +106,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -146,7 +142,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -183,7 +178,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -220,7 +214,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -257,7 +250,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -294,7 +286,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -331,7 +322,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -378,7 +368,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("buenos aires", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -426,7 +415,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -475,7 +463,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("buenos aires", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -522,7 +509,6 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("buenos aires", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
