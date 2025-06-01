@@ -19,23 +19,55 @@ export const bangkokTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "Which floating market will we visit?",
-        answer:
-          "Rather than the large tourist-oriented floating markets like Damnoen Saduak, we visit smaller, authentic community markets along the canals where locals still shop. The exact market depends on the day of the week, as different canal communities hold markets on different days, ensuring you experience genuine local life rather than a tourist attraction.",
-      },
-      {
-        question: "What should I wear for the boat ride?",
-        answer:
-          "Wear comfortable, lightweight clothing suitable for warm weather. We recommend closed-toe shoes that can get wet, as you may need to step into shallow water at some stops. A hat and sunscreen are also advisable.",
-      },
-      {
-        question: "Is the tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and suitable for children of all ages. The boat is stable and safe, and children will enjoy the unique experience of exploring the canals.",
-      },
+    availableDates: [
+      "2024-04-05",
+      "2024-04-12",
+      "2024-04-19",
+      "2024-04-26",
+      "2024-05-03",
+      "2024-05-10",
+      "2024-05-17",
+      "2024-05-24",
+      "2024-06-07",
+      "2024-06-14",
+      "2024-06-21",
+      "2024-06-28",
+      "2024-07-05",
+      "2024-07-12",
     ],
+    highlights: [
+      "Private longtail boat journey through Bangkok's hidden canals",
+      "Visit authentic floating markets where locals shop",
+      "Explore waterside communities and traditional wooden houses",
+      "Discover hidden temples inaccessible by road",
+      "Experience daily life along Bangkok's waterways",
+    ],
+    inclusions: [
+      "Private longtail boat for the duration of the tour",
+      "English-speaking local guide",
+      "Bottled water and seasonal fruits",
+      "All entrance fees to temples and markets",
+      "Light refreshments at a canal-side cafe",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Additional food and beverages not specified",
+      "Gratuities (optional)",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "8:30 AM: Meet your guide at the designated meeting point",
+      "9:00 AM: Board your private longtail boat and begin canal exploration",
+      "10:00 AM: Visit a local floating market away from tourist crowds",
+      "11:00 AM: Explore hidden temples and shrines along the canals",
+      "12:00 PM: Enjoy refreshments at a canal-side community",
+      "1:00 PM: Visit traditional wooden houses and artisan workshops",
+      "2:30 PM: Return to the starting point and tour conclusion",
+    ],
+    meetingPoint:
+      "Saphan Taksin BTS Station, Exit 2, in front of the River City Shopping Complex",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Bangkok After Dark: Sky Bars & Street Food",
@@ -55,23 +87,54 @@ export const bangkokTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "Is there a dress code?",
-        answer:
-          "Yes, for the sky bars portion of the tour, smart casual attire is required. This means no shorts, open-toed shoes, or sleeveless shirts for men. Women have more flexibility but should dress elegantly casual. For the street food portion, you can change into more comfortable attire if desired (we provide time and facilities for this).",
-      },
-      {
-        question: "What types of street food will we try?",
-        answer:
-          "You'll sample a variety of local favorites, including grilled skewers, spicy salads, noodle dishes, and desserts. We cater to dietary restrictions, so please inform us in advance if you have any allergies or preferences.",
-      },
-      {
-        question: "Can we stay longer at the sky bars?",
-        answer:
-          "Yes, after the guided portion ends, you are welcome to remain at the sky bars to enjoy the views and atmosphere at your leisure. Just let your guide know if you plan to do this.",
-      },
+    availableDates: [
+      "2024-04-02",
+      "2024-04-09",
+      "2024-04-16",
+      "2024-04-23",
+      "2024-05-07",
+      "2024-05-14",
+      "2024-05-21",
+      "2024-05-28",
+      "2024-06-04",
+      "2024-06-11",
+      "2024-06-18",
+      "2024-06-25",
+      "2024-07-02",
+      "2024-07-09",
     ],
+    highlights: [
+      "Visit 3 exclusive rooftop bars with spectacular city views",
+      "Sample Bangkok's best street food guided by a culinary expert",
+      "Learn about Thai drinking culture and cocktail innovations",
+      "Experience the vibrant nightlife scene like a local",
+      "Discover hidden street food spots known only to residents",
+    ],
+    inclusions: [
+      "English-speaking culinary guide",
+      "Welcome drink at each sky bar (3 total)",
+      "Street food tastings (5-7 different items)",
+      "Transportation between venues (tuk-tuk or taxi)",
+      "Sky bar reservation fees and fast-track entry",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and drinks beyond included tastings",
+      "Gratuities (optional)",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "6:00 PM: Meet your guide at the designated meeting point",
+      "6:30 PM: Visit first sky bar for sunset views and welcome drink",
+      "7:30 PM: Transfer to the second rooftop bar in a different area",
+      "8:30 PM: Visit third sky bar with panoramic night views",
+      "9:30 PM: Begin street food exploration in vibrant night markets",
+      "10:00 PM: Sample various street food specialties with expert commentary",
+      "11:00 PM: Tour conclusion at a central location",
+    ],
+    meetingPoint: "Lobby of Lebua at State Tower, 1055 Silom Road, Bangrak, Bangkok",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Cultural Heritage & Temple Tour",
@@ -91,23 +154,54 @@ export const bangkokTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "Are there any dress codes for visiting the temples?",
-        answer:
-          "Yes, visitors should dress modestly when entering temples. This typically means covering shoulders and knees. Comfortable walking shoes are recommended as some temple areas have uneven surfaces. Our guide will provide a scarf or shawl if needed, and we can also recommend appropriate attire before the tour.",
-      },
-      {
-        question: "How long do we spend at each temple?",
-        answer:
-          "We spend approximately 1-1.5 hours at each temple, allowing time for exploration, photography, and learning about their history and significance. The pace is relaxed to ensure you can fully appreciate each site.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and designed to engage visitors of all ages with fascinating stories and interactive elements.",
-      },
+    availableDates: [
+      "2024-04-03",
+      "2024-04-10",
+      "2024-04-17",
+      "2024-04-24",
+      "2024-05-01",
+      "2024-05-08",
+      "2024-05-15",
+      "2024-05-22",
+      "2024-05-29",
+      "2024-06-05",
+      "2024-06-12",
+      "2024-06-19",
+      "2024-06-26",
+      "2024-07-03",
     ],
+    highlights: [
+      "Visit to the historic Wat Pho and its Reclining Buddha",
+      "Explore the stunning Wat Arun, Temple of Dawn",
+      "Learn about Buddhist traditions and temple architecture",
+      "Experience a monk's blessing and participate in a merit-making ceremony",
+      "Enjoy a traditional Thai lunch at a local restaurant",
+    ],
+    inclusions: [
+      "English-speaking local guide",
+      "All entrance fees to temples",
+      "Traditional Thai lunch",
+      "Bottled water and refreshments",
+      "Hotel pickup and drop-off",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses",
+      "Additional food and drinks not specified",
+    ],
+    itinerary: [
+      "8:00 AM: Hotel pickup from central Bangkok locations",
+      "9:00 AM: Visit Wat Pho and explore the temple grounds",
+      "10:30 AM: Take a ferry across the river to Wat Arun",
+      "11:00 AM: Tour Wat Arun and enjoy panoramic views from the temple",
+      "12:00 PM: Lunch at a local restaurant",
+      "1:00 PM: Participate in a monk's blessing ceremony",
+      "2:00 PM: Visit a local market and learn about Thai ingredients",
+      "3:00 PM: Return to hotel or drop-off point",
+    ],
+    meetingPoint: "Pick-up from centrally located hotels in Bangkok",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Bangkok Markets & Local Crafts Tour",
@@ -127,23 +221,54 @@ export const bangkokTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "local",
-    faqs: [
-      {
-        question: "What types of crafts will we see?",
-        answer:
-          "You'll explore a variety of traditional Thai crafts including silk weaving, pottery, wood carving, and jewelry making. Many artisans offer hands-on demonstrations where you can try your hand at these crafts.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive activities and opportunities to learn about local culture.",
-      },
-      {
-        question: "Do we need to bring cash for purchases?",
-        answer:
-          "Yes, while many vendors accept cards, it's advisable to bring cash for smaller purchases at markets and craft stalls. ATMs are available at most locations.",
-      },
+    availableDates: [
+      "2024-04-04",
+      "2024-04-11",
+      "2024-04-18",
+      "2024-04-25",
+      "2024-05-02",
+      "2024-05-09",
+      "2024-05-16",
+      "2024-05-23",
+      "2024-05-30",
+      "2024-06-06",
+      "2024-06-13",
+      "2024-06-20",
+      "2024-06-27",
+      "2024-07-04",
     ],
+    highlights: [
+      "Explore the vast Chatuchak Weekend Market with over 15,000 stalls",
+      "Visit the trendy Talad Rot Fai night market for vintage finds",
+      "Experience hands-on traditional craft workshops",
+      "Meet local artisans and learn about their crafts",
+      "Sample a variety of local delicacies and snacks",
+    ],
+    inclusions: [
+      "English-speaking local guide",
+      "All entrance fees to markets and workshops",
+      "Food samples at various stalls",
+      "Transportation between locations",
+      "Bottled water and refreshments",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Gratuities (optional)",
+      "Personal expenses",
+      "Additional food and drinks not specified",
+    ],
+    itinerary: [
+      "9:00 AM: Meet your guide at the designated meeting point",
+      "9:30 AM: Arrive at Chatuchak Weekend Market and receive a tour overview",
+      "10:00 AM: Explore the market with your guide, visiting key sections",
+      "12:00 PM: Lunch at a local restaurant (own expense)",
+      "1:00 PM: Visit Talad Rot Fai night market for vintage and retro goods",
+      "3:00 PM: Participate in a craft workshop (options include pottery, painting, etc.)",
+      "5:00 PM: Tour conclusion and return to the meeting point",
+    ],
+    meetingPoint: "Chatuchak Park MRT Station, Exit 1",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
 

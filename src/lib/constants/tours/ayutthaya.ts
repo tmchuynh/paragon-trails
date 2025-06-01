@@ -19,23 +19,55 @@ export const ayutthayaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "How much walking is involved?",
-        answer:
-          "The tour involves moderate walking through temple grounds and archaeological sites, approximately 4-5 kilometers throughout the day on mostly flat terrain. Some temples require removing shoes and climbing stairs. The pace is leisurely with plenty of breaks, and transportation is provided between major sites that are further apart.",
-      },
-      {
-        question: "Are entrance fees included?",
-        answer:
-          "Yes, all entrance fees to the temples and historical sites are included in the tour price. We also provide cold water and light snacks during the tour.",
-      },
-      {
-        question: "What should I wear?",
-        answer:
-          "Please dress modestly when visiting temples. We recommend lightweight, breathable clothing that covers shoulders and knees. Comfortable walking shoes are essential, and we suggest bringing a hat and sunscreen for sun protection.",
-      },
+    availableDates: [
+      "2024-04-05",
+      "2024-04-12",
+      "2024-04-19",
+      "2024-04-26",
+      "2024-05-03",
+      "2024-05-10",
+      "2024-05-17",
+      "2024-05-24",
+      "2024-06-07",
+      "2024-06-14",
+      "2024-06-21",
+      "2024-06-28",
+      "2024-07-05",
+      "2024-07-12",
     ],
+    highlights: [
+      "Explore the UNESCO World Heritage ruins of Ayutthaya with an archaeology expert",
+      "Visit the iconic Buddha head entwined in tree roots at Wat Mahathat",
+      "Discover hidden shrines and lesser-known temples away from tourist crowds",
+      "Learn about Siamese history, architecture, and the fall of the ancient capital",
+      "Experience the grandeur of Wat Chaiwatthanaram, the most impressive temple complex",
+    ],
+    inclusions: [
+      "Private transportation in air-conditioned vehicle",
+      "Professional English-speaking guide specialized in archaeology",
+      "All entrance fees to temples and historical sites",
+      "Bottled water and light snacks",
+      "Local lunch at a riverside restaurant",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Hotel pickup and drop-off outside Bangkok city center (available for additional fee)",
+    ],
+    itinerary: [
+      "7:30 AM: Pickup from your Bangkok accommodation",
+      "9:00 AM: Arrive in Ayutthaya and visit Wat Yai Chai Mongkol",
+      "10:00 AM: Explore Wat Mahathat and the famous Buddha head in tree roots",
+      "11:00 AM: Visit Wat Phra Si Sanphet (the former royal temple)",
+      "12:30 PM: Lunch at a riverside restaurant",
+      "2:00 PM: Tour Wat Chaiwatthanaram, the most impressive temple complex",
+      "3:30 PM: Visit remaining sites based on your interests",
+      "5:00 PM: Return to Bangkok",
+      "6:30 PM: Drop-off at your accommodation",
+    ],
+    meetingPoint: "Your accommodation in Bangkok city center",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Ayutthaya by Bicycle & Longtail Boat",
@@ -55,23 +87,57 @@ export const ayutthayaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Do I need to be an experienced cyclist?",
-        answer:
-          "This tour is suitable for casual cyclists with basic riding skills. We use comfortable cruiser bikes and the terrain is mostly flat. The cycling portion covers approximately 10km at a relaxed pace with frequent stops at historical sites. For those less confident on bikes, we can arrange for a tuk-tuk to follow the group, allowing you to switch to motorized transport if desired.",
-      },
-      {
-        question: "What should I bring?",
-        answer:
-          "We recommend wearing comfortable clothing suitable for cycling, sunscreen, a hat, and sunglasses. Bring a refillable water bottle to stay hydrated. We provide helmets, but you are welcome to bring your own if preferred.",
-      },
-      {
-        question: "Is lunch included?",
-        answer:
-          "Yes, a delicious Thai lunch is included at a local riverside restaurant, featuring traditional dishes. Vegetarian options are available upon request.",
-      },
+    availableDates: [
+      "2024-04-07",
+      "2024-04-14",
+      "2024-04-21",
+      "2024-04-28",
+      "2024-05-05",
+      "2024-05-12",
+      "2024-05-19",
+      "2024-05-26",
+      "2024-11-03",
+      "2024-11-10",
+      "2024-11-17",
+      "2024-11-24",
+      "2024-12-01",
+      "2024-12-08",
     ],
+    highlights: [
+      "Cycle through Ayutthaya Historical Park on comfortable cruiser bikes",
+      "Experience the ancient city from a unique perspective",
+      "Cruise the rivers that encircle the old capital by traditional longtail boat",
+      "View temples from the water - a perspective few tourists experience",
+      "Visit local communities and markets along the route",
+    ],
+    inclusions: [
+      "Round-trip transportation from Bangkok",
+      "Professional English-speaking guide",
+      "Quality bicycle and helmet rental",
+      "Longtail boat cruise",
+      "Lunch at a riverside restaurant",
+      "Bottled water and refreshments",
+      "Entrance fees to all temples and sites",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "7:30 AM: Pickup from your Bangkok accommodation",
+      "9:00 AM: Arrive in Ayutthaya and bicycle fitting",
+      "9:30 AM: Begin cycling tour of main temple complexes",
+      "11:30 AM: Visit local market and refreshment break",
+      "12:30 PM: Lunch at a riverside restaurant",
+      "2:00 PM: Board longtail boat for river tour around the island",
+      "3:30 PM: Visit final temples accessible by boat",
+      "4:30 PM: Return bicycles and depart for Bangkok",
+      "6:00 PM: Drop-off at your accommodation",
+    ],
+    meetingPoint: "Your accommodation in Bangkok city center",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Ayutthaya Sunset Photography Tour",
@@ -91,23 +157,53 @@ export const ayutthayaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
-    faqs: [
-      {
-        question: "What is the best camera equipment to bring?",
-        answer:
-          "This tour is suitable for photographers of all levels. For best results, we recommend bringing a DSLR or mirrorless camera with a wide-angle lens (16-35mm or similar) and a medium zoom (24-70mm). A tripod is highly recommended for low-light sunset shots. Smartphone photographers are also welcome, and our guide can provide specific tips for getting the most from your phone camera.",
-      },
-      {
-        question: "Will there be opportunities for post-processing tips?",
-        answer:
-          "Yes, our guide can provide basic tips on composition and camera settings during the tour. After the shoot, we can also discuss post-processing techniques if time allows, including how to enhance sunset colors and manage low-light conditions in software like Lightroom or Photoshop.",
-      },
-      {
-        question: "What if the weather is bad?",
-        answer:
-          "In case of inclement weather, we will reschedule the tour to a later date. If rescheduling is not possible, we will provide a full refund.",
-      },
+    availableDates: [
+      "2024-04-06",
+      "2024-04-13",
+      "2024-04-20",
+      "2024-04-27",
+      "2024-05-04",
+      "2024-05-11",
+      "2024-05-18",
+      "2024-05-25",
+      "2024-06-01",
+      "2024-06-08",
+      "2024-06-15",
+      "2024-06-22",
+      "2024-06-29",
+      "2024-07-06",
     ],
+    highlights: [
+      "Capture stunning sunset photos at Wat Chaiwatthanaram",
+      "Learn photography tips and techniques from a professional",
+      "Explore Ayutthaya's ancient temples in the beautiful evening light",
+      "Experience the tranquility of the historical park at sunset",
+      "Enjoy a small group size for personalized instruction",
+    ],
+    inclusions: [
+      "Round-trip transportation from Bangkok",
+      "Professional photographer guide",
+      "Photography assistance and tips",
+      "Tripod rental (if needed)",
+      "Light refreshments",
+      "Entrance fees to all temples and sites",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "2:30 PM: Pickup from your Bangkok accommodation",
+      "4:00 PM: Arrive in Ayutthaya and visit Wat Chaiwatthanaram",
+      "5:00 PM: Explore Wat Mahathat and other temples for photography",
+      "6:30 PM: Capture sunset photos at the best vantage points",
+      "7:30 PM: Return to Bangkok",
+      "9:00 PM: Drop-off at your accommodation",
+    ],
+    meetingPoint: "Your accommodation in Bangkok city center",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Ayutthaya Floating Markets & Local Cuisine",
@@ -127,28 +223,55 @@ export const ayutthayaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What dishes will we learn to make?",
-        answer:
-          "Our cooking class focuses on central Thai and royal Thai cuisine that has historical connections to Ayutthaya. You'll learn to prepare 4-5 dishes which may include Massaman curry (with historical Persian influences), Thong Yip (egg-based royal desserts), traditional boat noodles, and herb-infused grilled fish in banana leaves. All recipes and techniques are designed to be reproducible in a standard home kitchen with ingredients that can be found in international markets.",
-      },
-      {
-        question: "Are vegetarian options available?",
-        answer:
-          "Yes, we can accommodate vegetarian preferences. Please inform us of any dietary restrictions when booking, and we will adjust the menu accordingly to ensure you can enjoy the full experience.",
-      },
-      {
-        question: "Do I need prior cooking experience?",
-        answer:
-          "No prior cooking experience is necessary! Our class is designed for all skill levels, from beginners to experienced cooks. Chef Kanchana will guide you through each step, explaining techniques and cultural significance behind the dishes.",
-      },
-      {
-        question: "What should I bring?",
-        answer:
-          "Just bring your enthusiasm for food! We provide all ingredients, cooking equipment, and aprons. Comfortable clothing is recommended as we will be working in a kitchen environment. A notebook is optional if you wish to take notes on the recipes.",
-      },
+    availableDates: [
+      "2024-04-08",
+      "2024-04-15",
+      "2024-04-22",
+      "2024-04-29",
+      "2024-05-06",
+      "2024-05-13",
+      "2024-05-20",
+      "2024-05-27",
+      "2024-11-04",
+      "2024-11-11",
+      "2024-11-18",
+      "2024-11-25",
+      "2024-12-02",
+      "2024-12-09",
     ],
+    highlights: [
+      "Visit authentic floating markets and taste regional specialties",
+      "Enjoy a hands-on cooking class for royal Thai cuisine",
+      "Learn about the historical significance of dishes from Ayutthaya",
+      "Explore local ingredients and cooking techniques",
+      "Savor the flavors of your own cooking and local delicacies",
+    ],
+    inclusions: [
+      "Round-trip transportation from Bangkok",
+      "Professional English-speaking guide",
+      "Market visits and tastings",
+      "Cooking class with a local chef",
+      "Lunch featuring your cooked dishes",
+      "Bottled water and refreshments",
+      "Entrance fees to all sites and markets",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "7:00 AM: Pickup from your Bangkok accommodation",
+      "8:30 AM: Arrive at the floating markets and explore",
+      "10:30 AM: Visit a local herb garden and learn about Thai spices",
+      "12:00 PM: Cooking class at a local restaurant or chef's home",
+      "1:30 PM: Enjoy lunch featuring your cooked dishes",
+      "3:00 PM: Return to Bangkok",
+      "4:30 PM: Drop-off at your accommodation",
+    ],
+    meetingPoint: "Your accommodation in Bangkok city center",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Elephant Sanctuary & Ayutthaya Heritage",
@@ -168,28 +291,54 @@ export const ayutthayaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Is this an ethical elephant experience?",
-        answer:
-          "Yes, this sanctuary strictly prohibits riding and unnatural elephant performances. The elephants here have been rescued from logging or tourism industries and now live in natural conditions where they can roam freely, form herds, and express natural behaviors. Visitors observe and interact with them from a respectful distance, helping prepare food and watching the elephants enjoy mud baths and foraging. The sanctuary follows the highest standards of ethical elephant tourism.",
-      },
-      {
-        question: "What should I wear?",
-        answer:
-          "Please wear comfortable, breathable clothing suitable for outdoor activities. Closed-toe shoes are recommended as we will be walking on uneven terrain. Sunscreen and insect repellent are also advisable.",
-      },
-      {
-        question: "Are there any age restrictions?",
-        answer:
-          "This tour is suitable for all ages, but children must be accompanied by an adult. We recommend that children be at least 6 years old to fully enjoy the experience and understand the importance of ethical wildlife tourism.",
-      },
-      {
-        question: "Is lunch included?",
-        answer:
-          "Yes, a traditional Thai lunch is provided at the sanctuary, featuring local dishes made with fresh ingredients. Vegetarian options are available upon request.",
-      },
+    availableDates: [
+      "2024-04-09",
+      "2024-04-16",
+      "2024-04-23",
+      "2024-04-30",
+      "2024-05-07",
+      "2024-05-14",
+      "2024-05-21",
+      "2024-05-28",
+      "2024-11-05",
+      "2024-11-12",
+      "2024-11-19",
+      "2024-11-26",
+      "2024-12-03",
+      "2024-12-10",
     ],
+    highlights: [
+      "Visit the ethical elephant sanctuary and learn about elephant conservation",
+      "Observe and interact with elephants in a natural and respectful environment",
+      "Explore Ayutthaya's historical park and UNESCO World Heritage sites",
+      "Enjoy a guided tour with a focus on history and wildlife protection",
+      "Savor a delicious Thai lunch at the sanctuary",
+    ],
+    inclusions: [
+      "Round-trip transportation from Bangkok",
+      "Professional English-speaking guide",
+      "Entrance fees to Ayutthaya Historical Park",
+      "Visit to the ethical elephant sanctuary",
+      "Lunch at the sanctuary",
+      "Bottled water and refreshments",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "7:00 AM: Pickup from your Bangkok accommodation",
+      "8:30 AM: Arrive at Ayutthaya Historical Park",
+      "9:00 AM: Guided tour of the historical park",
+      "12:00 PM: Lunch at a local restaurant",
+      "1:00 PM: Visit the ethical elephant sanctuary",
+      "3:00 PM: Return to Bangkok",
+      "4:30 PM: Drop-off at your accommodation",
+    ],
+    meetingPoint: "Your accommodation in Bangkok city center",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
 

@@ -19,33 +19,57 @@ export const atlantaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "Is this tour appropriate for children?",
-        answer:
-          "Yes, we welcome children and have designed the tour to be educational and engaging for all ages. Our guides are skilled at explaining complex historical events in age-appropriate ways, and the Center for Civil and Human Rights offers interactive exhibits specifically designed for young visitors to understand these important concepts.",
-      },
-      {
-        question: "Are there any physical requirements for this tour?",
-        answer:
-          "The tour involves walking and some standing, but we keep a leisurely pace with plenty of breaks. Most locations are wheelchair accessible, but please inform us in advance if you have specific mobility needs so we can accommodate you appropriately.",
-      },
-      {
-        question: "Can this tour be customized for school groups?",
-        answer:
-          "Absolutely! We can tailor the tour to focus on specific aspects of the Civil Rights Movement that align with educational goals. Please contact us in advance to discuss your group's needs, and we can create a customized itinerary that includes relevant discussions, activities, and learning objectives.",
-      },
-      {
-        question: "What is the cancellation policy for this tour?",
-        answer:
-          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable. We understand that plans can change, so please contact us as soon as possible if you need to reschedule.",
-      },
-      {
-        question: "Is photography allowed during the tour?",
-        answer:
-          "Yes, photography is encouraged at most locations, especially at the Martin Luther King Jr. National Historical Park and the Center for Civil and Human Rights. However, please be respectful of any signs indicating no photography in specific areas, particularly in sensitive exhibits or memorials.",
-      },
+    availableDates: [
+      "2024-04-05",
+      "2024-04-12",
+      "2024-04-19",
+      "2024-04-26",
+      "2024-05-03",
+      "2024-05-10",
+      "2024-05-17",
+      "2024-05-24",
+      "2024-06-07",
+      "2024-06-14",
+      "2024-06-21",
+      "2024-06-28",
+      "2024-07-05",
+      "2024-07-12",
     ],
+    highlights: [
+      "Visit the Martin Luther King Jr. National Historical Park including his birthplace and tomb",
+      "Explore the Center for Civil and Human Rights with immersive exhibits",
+      "Walk the historically significant Auburn Avenue and Sweet Auburn district",
+      "Visit Ebenezer Baptist Church where Dr. King preached",
+      "Learn from expert civil rights scholars and historians",
+    ],
+    inclusions: [
+      "Professional guide specialized in civil rights history",
+      "All entrance fees to museums and historical sites",
+      "Transportation between sites in comfortable vehicle",
+      "Lunch at a historically significant restaurant",
+      "Bottled water and light refreshments",
+      "Commemorative booklet with historical information",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "9:00 AM: Meet your guide at the meeting point",
+      "9:15 AM: Visit to Martin Luther King Jr. National Historical Park",
+      "10:30 AM: Tour of Dr. King's birth home (subject to availability)",
+      "11:15 AM: Visit Ebenezer Baptist Church",
+      "12:00 PM: Lunch at historic local restaurant",
+      "1:30 PM: Guided tour of the Center for Civil and Human Rights",
+      "3:00 PM: Walking tour of Auburn Avenue and Sweet Auburn district",
+      "4:30 PM: Tour conclusion with Q&A session",
+    ],
+    meetingPoint:
+      "Martin Luther King Jr. National Historical Park Visitor Center, 450 Auburn Ave NE, Atlanta, GA 30312",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Atlanta Film & TV Production Tour",
@@ -65,28 +89,55 @@ export const atlantaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "Will we see celebrities during the tour?",
-        answer:
-          "While we cannot guarantee celebrity sightings, we do visit active production locations where filming regularly takes place. Occasionally, our groups have been lucky enough to witness filming in progress or spot actors on set. Our industry-connected guides will share insider stories about working with the many productions that have made Atlanta the 'Hollywood of the South'.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and designed to be engaging for all ages. We cover the basics of film production in an entertaining way, and children often enjoy seeing the sets and learning about how their favorite movies and shows are made. However, please note that some studio areas may have age restrictions due to safety regulations.",
-      },
-      {
-        question: "Can we take photos during the tour?",
-        answer:
-          "Photography policies vary by location. While many areas allow photos, some active sets or restricted zones may not permit photography for security reasons. Our guides will inform you of any restrictions at each stop, and we encourage you to capture the experience where permitted.",
-      },
-      {
-        question: "What is the cancellation policy for this tour?",
-        answer:
-          "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable. If you need to reschedule, please contact us as soon as possible, and we will do our best to accommodate your request.",
-      },
+    availableDates: [
+      "2024-04-07",
+      "2024-04-14",
+      "2024-04-21",
+      "2024-04-28",
+      "2024-05-05",
+      "2024-05-12",
+      "2024-05-19",
+      "2024-05-26",
+      "2024-06-02",
+      "2024-06-09",
+      "2024-06-16",
+      "2024-06-23",
+      "2024-06-30",
+      "2024-07-07",
     ],
+    highlights: [
+      "Exclusive access to working film studios (subject to production schedules)",
+      "Visit iconic filming locations from popular movies and TV shows",
+      "Meet with industry professionals including crew members and set designers",
+      "Learn about Georgia's film industry growth and economic impact",
+      "Behind-the-scenes insights into movie making and production processes",
+    ],
+    inclusions: [
+      "Professional guide with film industry background",
+      "Transportation between filming locations",
+      "Studio tour access fees",
+      "Lunch at a restaurant frequented by film crews",
+      "Film location map of Atlanta",
+      "Exclusive film memorabilia souvenir",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Gratuities (optional)",
+      "Personal expenses and additional souvenirs",
+      "Professional photography services",
+    ],
+    itinerary: [
+      "9:30 AM: Meet your guide at the designated location",
+      "10:00 AM: Visit to active production studio with guided tour",
+      "11:30 AM: Explore outdoor filming locations in Atlanta",
+      "1:00 PM: Lunch at a restaurant popular with film crews",
+      "2:30 PM: Meet with industry professionals for Q&A session",
+      "3:30 PM: Visit additional filming locations and studio facilities",
+      "4:30 PM: Tour conclusion with film industry resources",
+    ],
+    meetingPoint: "Atlanta Movie Tours, 327 Nelson St SW, Atlanta, GA 30313",
+    cancellationPolicy:
+      "Full refund if canceled at least 72 hours in advance. 50% refund if canceled 48-72 hours in advance. No refund for cancellations less than 48 hours before the scheduled tour.",
   },
   {
     title: "Southern Food & Cocktail Experience",
@@ -106,23 +157,54 @@ export const atlantaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "Can dietary restrictions be accommodated?",
-        answer:
-          "Absolutely! We can accommodate vegetarian, vegan, gluten-free, and most other dietary restrictions with advance notice. Southern cuisine is traditionally diverse, and our restaurant partners are skilled at creating excellent alternatives that maintain the spirit of the dishes while meeting dietary needs.",
-      },
-      {
-        question: "Are drinks included in the tour price?",
-        answer:
-          "Yes, the tour price includes all food tastings and a selection of craft cocktails at each stop. Non-alcoholic options are also available for those who prefer them. We aim to provide a comprehensive tasting experience that showcases the best of Atlanta's culinary scene.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "This tour is primarily designed for adults and does not include child-friendly options. However, we can customize a family-friendly culinary experience upon request, focusing on Southern dishes that appeal to younger palates.",
-      },
+    availableDates: [
+      "2024-04-06",
+      "2024-04-13",
+      "2024-04-20",
+      "2024-04-27",
+      "2024-05-04",
+      "2024-05-11",
+      "2024-05-18",
+      "2024-05-25",
+      "2024-06-01",
+      "2024-06-08",
+      "2024-06-15",
+      "2024-06-22",
+      "2024-06-29",
+      "2024-07-06",
     ],
+    highlights: [
+      "Tasting of iconic Southern dishes at renowned restaurants",
+      "Craft cocktail pairing with each course",
+      "Behind-the-scenes kitchen tour at a top restaurant",
+      "Meet the chefs and learn about their culinary inspirations",
+      "Explore the historic and cultural significance of Southern cuisine",
+    ],
+    inclusions: [
+      "Professional foodie guide",
+      "All food and cocktail tastings",
+      "Transportation between tasting locations",
+      "Gratuities for restaurant staff",
+      "Recipe booklet with featured dishes",
+      "Exclusive discounts at select restaurants",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Additional food and beverages not specified",
+      "Personal expenses and souvenirs",
+      "Transportation outside the tour itinerary",
+    ],
+    itinerary: [
+      "10:00 AM: Meet your guide at the first restaurant",
+      "10:15 AM: Start with a tasting tour of classic Southern breakfast dishes",
+      "11:00 AM: Visit to a local market to explore Southern ingredients",
+      "11:45 AM: Lunch featuring a selection of Southern favorites",
+      "1:00 PM: Craft cocktail tasting at a renowned bar",
+      "1:45 PM: Tour concludes at the final tasting location",
+    ],
+    meetingPoint: "The Varsity, 61 S. Marietta St. NW, Atlanta, GA 30303",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Atlanta BeltLine Art & Nature Walk",
@@ -142,23 +224,52 @@ export const atlantaTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "How much walking is involved?",
-        answer:
-          "This tour covers approximately 3 miles of the BeltLine at a leisurely pace with frequent stops to admire art installations and discuss the project's history and impact. The terrain is flat and paved, making it accessible for most fitness levels. We recommend comfortable walking shoes and weather-appropriate clothing.",
-      },
-      {
-        question: "Are there restroom facilities along the route?",
-        answer:
-          "Yes, there are public restrooms available at several points along the BeltLine, including parks and community centers. Our guide will point these out during the tour.",
-      },
-      {
-        question: "Can I bring my dog on this tour?",
-        answer:
-          "Yes, well-behaved dogs on leashes are welcome! The BeltLine is a pet-friendly area, and many locals enjoy walking their dogs along the trails. Just be sure to clean up after your pet and keep them under control around other visitors.",
-      },
+    availableDates: [
+      "2024-04-08",
+      "2024-04-15",
+      "2024-04-22",
+      "2024-04-29",
+      "2024-05-06",
+      "2024-05-13",
+      "2024-05-20",
+      "2024-05-27",
+      "2024-06-03",
+      "2024-06-10",
+      "2024-06-17",
+      "2024-06-24",
+      "2024-07-01",
+      "2024-07-08",
     ],
+    highlights: [
+      "Walk along the Eastside Trail with views of the Atlanta skyline",
+      "See vibrant murals and street art by local and international artists",
+      "Learn about the BeltLine's history, ecology, and community impact",
+      "Explore historic neighborhoods and modern developments",
+      "Enjoy a leisurely stroll in a pet-friendly environment",
+    ],
+    inclusions: [
+      "Knowledgeable guide with expertise in art and local history",
+      "Bottled water and light snacks",
+      "Public art map of the BeltLine",
+      "Discounts at local art galleries and shops",
+      "Access to exclusive online content about the tour",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Transportation to and from the BeltLine",
+    ],
+    itinerary: [
+      "9:00 AM: Meet your guide at the start of the BeltLine",
+      "9:15 AM: Guided walk focusing on the art installations",
+      "10:30 AM: Break at a local café with views of the trail",
+      "11:00 AM: Continue the tour exploring the natural aspects of the BeltLine",
+      "12:00 PM: Tour concludes at a popular BeltLine destination",
+    ],
+    meetingPoint: "Krog Street Market, 99 Krog St NE, Atlanta, GA 30307",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
   {
     title: "Atlanta Hip-Hop Heritage Experience",
@@ -178,23 +289,56 @@ export const atlantaTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "Do I need to be a hip-hop fan to enjoy this tour?",
-        answer:
-          "While hip-hop enthusiasts will certainly appreciate the specific references and history, the tour is designed to be engaging for anyone interested in music, culture, and Atlanta's impact on the entertainment industry. Our guides contextualize the importance of Atlanta's hip-hop scene within broader cultural movements, making it accessible and interesting even for those with limited knowledge of the genre.",
-      },
-      {
-        question: "Will we visit any recording studios?",
-        answer:
-          "Yes, the tour includes visits to iconic recording studios where many famous tracks were produced. Depending on availability, you may have the chance to see where artists record and learn about the production process from industry professionals. However, please note that access to active sessions may be limited due to privacy and security protocols.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "This tour is primarily geared towards adults and older teens due to the mature themes often present in hip-hop music and culture. However, we can customize a family-friendly version focusing on the positive cultural aspects of Atlanta's music scene if requested in advance.",
-      },
+    availableDates: [
+      "2024-04-09",
+      "2024-04-16",
+      "2024-04-23",
+      "2024-04-30",
+      "2024-05-07",
+      "2024-05-14",
+      "2024-05-21",
+      "2024-05-28",
+      "2024-06-04",
+      "2024-06-11",
+      "2024-06-18",
+      "2024-06-25",
+      "2024-07-02",
+      "2024-07-09",
     ],
+    highlights: [
+      "Visit to the Hip-Hop Hall of Fame and Museum",
+      "Tour of iconic recording studios like Patchwerk and Stankonia",
+      "Explore the AUC (Atlanta University Center) and its cultural significance",
+      "See famous hip-hop landmarks and graffiti murals",
+      "Engage in a Q&A session with a local hip-hop artist or producer",
+    ],
+    inclusions: [
+      "Expert guide with deep roots in Atlanta's hip-hop community",
+      "All entrance fees to studios, museums, and landmarks",
+      "Transportation between sites in a comfortable vehicle",
+      "Lunch at a soul food restaurant",
+      "Bottled water and snacks",
+      "Exclusive hip-hop memorabilia",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+    ],
+    itinerary: [
+      "10:00 AM: Meet your guide at the first studio",
+      "10:15 AM: Visit to the Hip-Hop Hall of Fame and Museum",
+      "11:00 AM: Tour of iconic recording studios",
+      "12:30 PM: Lunch at a local soul food restaurant",
+      "1:30 PM: Drive through historic hip-hop neighborhoods",
+      "2:00 PM: Visit to graffiti murals and hip-hop landmarks",
+      "3:00 PM: Q&A session with a hip-hop artist or producer",
+      "4:00 PM: Tour concludes with transportation back to the meeting point",
+    ],
+    meetingPoint: "Patchwerk Recording Studios, 1094 E. Confederate Ave. SE, Atlanta, GA 30316",
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
 

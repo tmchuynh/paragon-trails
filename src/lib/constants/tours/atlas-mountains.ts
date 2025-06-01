@@ -19,48 +19,58 @@ export const atlasMountainsTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "How physically demanding is the trek?",
-        answer:
-          "This trek is moderately challenging, involving 4-6 hours of walking daily on mountain trails with some steep ascents and descents. Participants should have good overall fitness and some hiking experience. The maximum altitude reached is approximately 2,500 meters (8,200 feet), which is not high enough to cause altitude sickness for most people.",
-      },
-      {
-        question: "What should I pack for the trek?",
-        answer:
-          "We recommend packing lightweight, moisture-wicking clothing, a good pair of hiking boots, a warm jacket for evenings, a hat, sunglasses, sunscreen, and a refillable water bottle. A detailed packing list will be provided upon booking. We also suggest bringing a small daypack for daily essentials.",
-      },
-      {
-        question: "Are meals included during the trek?",
-        answer:
-          "Yes, all meals are included. You'll enjoy traditional Berber dishes prepared by local families, including tagines, couscous, and fresh salads. Dietary restrictions can be accommodated with advance notice.",
-      },
-      {
-        question: "What is the accommodation like?",
-        answer:
-          "Accommodation includes guesthouses in Berber villages and camping in scenic locations. Guesthouses are basic but comfortable, with shared bathrooms. Camping equipment is provided, including tents and sleeping mats.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, children aged 10 and above can join this trek with parental supervision. The trek is designed to be family-friendly, but parents should assess their child's fitness level and hiking experience before booking.",
-      },
-      {
-        question: "What is the best time to do this trek?",
-        answer:
-          "The best time for trekking in the High Atlas Mountains is from March to June and September to November when temperatures are mild and the trails are less crowded. July and August can be very hot, especially at lower altitudes, while winter months may have snow at higher elevations.",
-      },
-      {
-        question: "What if the weather is bad during the trek?",
-        answer:
-          "We monitor weather conditions closely and will adjust the itinerary if necessary for safety. In case of severe weather, we may need to cancel or postpone the trek. A full refund or rescheduling option will be provided in such cases.",
-      },
-      {
-        question: "Do I need travel insurance for this trek?",
-        answer:
-          "Yes, we strongly recommend that all participants have travel insurance that covers trekking activities. This should include coverage for medical emergencies, trip cancellations, and personal liability. Please check with your insurance provider to ensure you are adequately covered.",
-      },
+    availableDates: [
+      "2024-04-05",
+      "2024-04-15",
+      "2024-04-25",
+      "2024-05-05",
+      "2024-05-15",
+      "2024-05-25",
+      "2024-06-05",
+      "2024-06-15",
+      "2024-09-05",
+      "2024-09-15",
+      "2024-09-25",
+      "2024-10-05",
+      "2024-10-15",
+      "2024-10-25",
     ],
+    highlights: [
+      "Trek through spectacular High Atlas Mountain landscapes",
+      "Stay in traditional Berber villages and share meals with local families",
+      "Learn about Berber culture, traditions, and way of life",
+      "Explore remote valleys and ancient paths known only to locals",
+      "Experience stunning mountain vistas and diverse ecosystems",
+    ],
+    inclusions: [
+      "Professional mountain guide and support staff",
+      "All meals during the trek (breakfast, lunch, dinner)",
+      "Accommodation in local guesthouses and camping equipment",
+      "Mule support for luggage transportation",
+      "Entrance fees to villages and local sites",
+      "Transportation from/to Marrakech",
+    ],
+    exclusions: [
+      "International airfare",
+      "Personal trekking equipment (sleeping bag, hiking poles)",
+      "Travel insurance (required)",
+      "Gratuities for guides and support staff",
+      "Personal expenses and souvenirs",
+    ],
+    itinerary: [
+      "Day 1: 8:00 AM departure from Marrakech, drive to trailhead, trek to first village (4-5 hours hiking)",
+      "Day 1: Evening meal with local family and overnight in village guesthouse",
+      "Day 2: Morning trek through valleys to second village (5-6 hours hiking)",
+      "Day 2: Visit local artisans and learn traditional crafts",
+      "Day 2: Dinner and overnight in family home or camp",
+      "Day 3: Trek to final destination with panoramic views (4 hours hiking)",
+      "Day 3: Lunch in mountain restaurant before return transport to Marrakech",
+      "Day 3: Arrive in Marrakech approximately 5:00 PM",
+    ],
+    meetingPoint:
+      "Your accommodation in Marrakech (hotel or riad within the city)",
+    cancellationPolicy:
+      "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
   },
   {
     title: "Mount Toubkal Summit Expedition",
@@ -80,28 +90,58 @@ export const atlasMountainsTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "What equipment do I need to bring?",
-        answer:
-          "We provide technical mountain equipment including crampons and ice axes when needed in winter. You should bring sturdy hiking boots, layered clothing, hat, gloves, sunglasses, sunscreen, headlamp, and a 30-40L backpack. A detailed packing list will be sent upon booking. Sleeping bags can be rented locally if you don't want to travel with one.",
-      },
-      {
-        question: "Is prior mountaineering experience required?",
-        answer:
-          "No prior mountaineering experience is necessary, but participants should be in good physical condition and comfortable with long hikes at high altitudes. We recommend some training hikes before the expedition to prepare your body for the challenge.",
-      },
-      {
-        question: "What is the best time to attempt the summit?",
-        answer:
-          "The best months for summiting Mount Toubkal are May to October when conditions are generally stable. Winter ascents (December to March) are possible but require additional technical skills and equipment due to snow and ice.",
-      },
-      {
-        question: "What if I can't reach the summit?",
-        answer:
-          "Our guides will assess weather and trail conditions daily. If conditions are unsafe or if you are unable to continue, we will prioritize your safety and may turn back. A partial refund may be available depending on how much of the tour was completed.",
-      },
+    availableDates: [
+      "2024-04-10",
+      "2024-04-24",
+      "2024-05-08",
+      "2024-05-22",
+      "2024-06-05",
+      "2024-06-19",
+      "2024-07-03",
+      "2024-07-17",
+      "2024-08-07",
+      "2024-08-21",
+      "2024-09-04",
+      "2024-09-18",
+      "2024-10-02",
+      "2024-10-16",
     ],
+    highlights: [
+      "Summit North Africa's highest peak, Mount Toubkal (4,167m/13,671ft)",
+      "Experience breathtaking panoramic views across Morocco and the Sahara",
+      "Trek through diverse mountain landscapes and traditional Berber villages",
+      "Stay in authentic mountain refuges with fellow international climbers",
+      "Achievement of conquering a significant peak with professional guidance",
+    ],
+    inclusions: [
+      "Professional certified mountain guides",
+      "Technical equipment when needed (crampons, ice axes in winter)",
+      "All meals during the expedition (breakfast, lunch, dinner)",
+      "Accommodation in mountain refuge",
+      "Mule support for luggage transportation to refuge",
+      "Transportation from/to Marrakech",
+      "Safety and first aid equipment",
+    ],
+    exclusions: [
+      "Personal trekking equipment (sleeping bag, hiking boots, warm clothing)",
+      "Travel insurance with mountain rescue coverage (required)",
+      "Gratuities for guides and support staff",
+      "Personal expenses and additional snacks",
+      "Accommodation in Marrakech before/after expedition",
+    ],
+    itinerary: [
+      "Day 1: 7:00 AM departure from Marrakech to Imlil village",
+      "Day 1: Begin trek from Imlil (1,740m) to Toubkal Refuge (3,207m), 5-6 hours hiking",
+      "Day 1: Evening meal and early night at the mountain refuge",
+      "Day 2: Pre-dawn start (5:00 AM) for summit attempt",
+      "Day 2: Summit Mount Toubkal (4,167m), 3-4 hours ascent",
+      "Day 2: Descend to refuge for lunch, then continue to Imlil, 5-6 hours descent",
+      "Day 2: Return transportation to Marrakech, arrive approximately 6:00 PM",
+    ],
+    meetingPoint:
+      "Your accommodation in Marrakech (hotel or riad within the city)",
+    cancellationPolicy:
+      "Full refund if canceled at least 21 days in advance. 50% refund if canceled 14-21 days in advance. No refund for cancellations less than 14 days before the scheduled expedition.",
   },
   {
     title: "Atlas Mountains Photography Workshop",
@@ -121,28 +161,61 @@ export const atlasMountainsTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
-    faqs: [
-      {
-        question: "What camera equipment should I bring?",
-        answer:
-          "This workshop is suitable for DSLR and mirrorless camera users. We recommend bringing your camera body, a variety of lenses (wide-angle, standard zoom, and telephoto if possible), tripod, filters (ND and polarizing), extra batteries, and memory cards. A laptop with editing software is useful for our evening review and editing sessions. Rental equipment can be arranged with advance notice.",
-      },
-      {
-        question: "Do I need prior photography experience?",
-        answer:
-          "This workshop is designed for intermediate to advanced photographers. A basic understanding of exposure, composition, and camera settings is required. We will cover advanced techniques such as long exposure, low light photography, and landscape composition. Beginners may find the pace challenging.",
-      },
-      {
-        question: "What is the group size for the workshop?",
-        answer:
-          "To ensure personalized instruction, we limit the group size to a maximum of 8 participants. This allows for individual feedback and ample time at each location.",
-      },
-      {
-        question: "Will we have access to unique locations?",
-        answer:
-          "Yes, we will visit lesser-known spots in the Atlas Mountains that are not typically included in standard tours. Our local guides know the best times and places for stunning photographs, including sunrise and sunset shoots.",
-      },
+    availableDates: [
+      "2024-03-15",
+      "2024-03-25",
+      "2024-04-05",
+      "2024-04-15",
+      "2024-04-25",
+      "2024-05-05",
+      "2024-05-15",
+      "2024-05-25",
+      "2024-09-05",
+      "2024-09-15",
+      "2024-09-25",
+      "2024-10-05",
+      "2024-10-15",
+      "2024-10-25",
     ],
+    highlights: [
+      "Learn photography tips and techniques from a National Geographic photographer",
+      "Capture stunning landscapes, including mountains, valleys, and waterfalls",
+      "Experience the unique light of the Atlas Mountains at sunrise and sunset",
+      "Explore traditional Berber villages and meet local artisans",
+      "Enjoy a small group size for personalized instruction",
+    ],
+    inclusions: [
+      "Guided photography sessions with a professional photographer",
+      "All meals during the workshop (breakfast, lunch, dinner)",
+      "Accommodation in comfortable guesthouses",
+      "Transportation during the workshop",
+      "Entrance fees to sites and villages",
+      "Post-workshop editing session and feedback",
+    ],
+    exclusions: [
+      "International airfare",
+      "Personal photography equipment (camera, lenses, tripod)",
+      "Travel insurance (required)",
+      "Gratuities for guides and support staff",
+      "Personal expenses and souvenirs",
+    ],
+    itinerary: [
+      "Day 1: Arrival in Marrakech, transfer to guesthouse in the Atlas Mountains",
+      "Day 1: Afternoon orientation and photography briefing",
+      "Day 1: Sunset photography session at a scenic viewpoint",
+      "Day 2: Early morning shoot at a traditional Berber village",
+      "Day 2: Explore and photograph local markets and artisans",
+      "Day 2: Afternoon hike to a waterfall for landscape photography",
+      "Day 3: Sunrise shoot at a mountain pass",
+      "Day 3: Visit to a local herb garden and cooking class",
+      "Day 3: Evening review and editing session",
+      "Day 4: Final sunrise shoot, then return to Marrakech",
+      "Day 4: Departure from Marrakech",
+    ],
+    meetingPoint:
+      "Your accommodation in Marrakech (hotel or riad within the city)",
+    cancellationPolicy:
+      "Full refund if canceled at least 30 days in advance. 50% refund if canceled 15-30 days in advance. No refund for cancellations less than 15 days before the scheduled workshop.",
   },
   {
     title: "Atlas Mountains Luxury Kasbahs & Spas",
@@ -162,23 +235,62 @@ export const atlasMountainsTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "What makes this experience luxurious?",
-        answer:
-          "This tour features accommodations in Morocco's most exclusive mountain properties, some formerly royal residences converted to luxury hotels. You'll enjoy private terraces with mountain views, heated pools, personalized spa treatments using local argan oil and rose products, and dining experiences created by internationally trained chefs using local ingredients. Private transfers are in luxury 4x4 vehicles, and each property offers unique cultural activities exclusively for guests.",
-      },
-      {
-        question: "Are meals included in the tour price?",
-        answer:
-          "Yes, all meals are included, featuring gourmet Moroccan cuisine with a modern twist. Breakfasts are served on private terraces, and dinners include multi-course tasting menus with wine pairings. Special dietary requests can be accommodated with advance notice.",
-      },
-      {
-        question: "What activities are included?",
-        answer:
-          "Activities include guided hikes to hidden waterfalls, private cooking classes with local chefs, traditional music performances, and wellness sessions such as yoga or meditation in scenic locations. Each kasbah offers unique experiences tailored to its surroundings.",
-      },
+    availableDates: [
+      "2024-04-01",
+      "2024-04-10",
+      "2024-04-20",
+      "2024-05-01",
+      "2024-05-10",
+      "2024-05-20",
+      "2024-06-01",
+      "2024-06-10",
+      "2024-09-01",
+      "2024-09-10",
+      "2024-09-20",
+      "2024-10-01",
+      "2024-10-10",
+      "2024-10-20",
     ],
+    highlights: [
+      "Stay in luxurious kasbahs and resorts in the Atlas Mountains",
+      "Enjoy infinity pools with stunning mountain views",
+      "Indulge in hammam spa treatments and wellness therapies",
+      "Savor gourmet Moroccan cuisine with wine pairings",
+      "Experience personalized service and exclusive cultural activities",
+    ],
+    inclusions: [
+      "Accommodation in luxury kasbahs and resorts",
+      "All meals included (breakfast, lunch, dinner)",
+      "Private transfers in luxury 4x4 vehicles",
+      "Hammam spa treatments and wellness sessions",
+      "Guided tours and activities as per itinerary",
+      "Wine and beverage pairings with meals",
+    ],
+    exclusions: [
+      "International airfare",
+      "Personal expenses and gratuities",
+      "Optional activities and excursions",
+      "Travel insurance (required)",
+    ],
+    itinerary: [
+      "Day 1: Arrival in Marrakech, transfer to luxury kasbah in the Atlas Mountains",
+      "Day 1: Evening at leisure to enjoy the kasbah amenities",
+      "Day 2: Guided tour of the Atlas Mountains, visit to traditional Berber villages",
+      "Day 2: Lunch at a scenic spot with panoramic views",
+      "Day 2: Return to kasbah for spa treatments and relaxation",
+      "Day 3: Cooking class to learn gourmet Moroccan dishes",
+      "Day 3: Afternoon wine tasting and vineyard tour",
+      "Day 3: Dinner at the kasbah with live traditional music",
+      "Day 4: Explore the Ourika Valley and visit to a local market",
+      "Day 4: Picnic lunch by the river, return to kasbah for relaxation",
+      "Day 4: Stargazing experience in the Atlas Mountains",
+      "Day 5: Morning at leisure, optional hot air balloon ride",
+      "Day 5: Transfer back to Marrakech for departure",
+    ],
+    meetingPoint:
+      "Your accommodation in Marrakech (hotel or riad within the city)",
+    cancellationPolicy:
+      "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
   },
   {
     title: "Atlas Mountains Cooking & Culinary Herbs",
@@ -198,28 +310,59 @@ export const atlasMountainsTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What dishes will we learn to prepare?",
-        answer:
-          "You'll learn to prepare traditional Berber mountain cuisine including tagines with preserved lemons and olives, couscous prepared the authentic way by hand, mountain herb tea blends, flatbreads baked in clay ovens, and preserves made from local fruits. All recipes use locally sourced, seasonal ingredients, and you'll receive recipe cards to recreate these dishes at home.",
-      },
-      {
-        question: "Do I need prior cooking experience?",
-        answer:
-          "No prior cooking experience is necessary. This class is designed for all skill levels, from beginners to experienced cooks. Fatima is an excellent teacher who will guide you through each step with patience and enthusiasm.",
-      },
-      {
-        question: "What should I bring for the cooking class?",
-        answer:
-          "Please bring an apron, a notebook for notes, and any personal cooking tools you prefer (though all necessary equipment will be provided). Comfortable shoes are recommended as we will be standing for several hours. A camera is also welcome to capture the cooking process and final dishes.",
-      },
-      {
-        question: "Are meals included during the class?",
-        answer:
-          "Yes, all meals are included. You'll enjoy the dishes you prepare together, along with traditional mountain bread and local cheeses. Refreshments such as mint tea and fresh fruit will also be provided throughout the class.",
-      },
+    availableDates: [
+      "2024-03-20",
+      "2024-03-28",
+      "2024-04-05",
+      "2024-04-15",
+      "2024-04-25",
+      "2024-05-05",
+      "2024-05-15",
+      "2024-05-25",
+      "2024-09-05",
+      "2024-09-15",
+      "2024-09-25",
+      "2024-10-05",
+      "2024-10-15",
+      "2024-10-25",
     ],
+    highlights: [
+      "Learn to cook traditional Berber dishes with local chefs",
+      "Visit aromatic herb gardens and learn about medicinal plants",
+      "Experience the art of baking bread in clay ovens",
+      "Enjoy a market tour to select fresh, local ingredients",
+      "Savor the dishes you prepare in a communal dining experience",
+    ],
+    inclusions: [
+      "Hands-on cooking classes with expert local chefs",
+      "All meals during the class (breakfast, lunch, dinner)",
+      "Accommodation in a local guesthouse",
+      "Transportation during the class",
+      "Visit to a local market and herb garden",
+      "Recipe book and cooking certificate",
+    ],
+    exclusions: [
+      "International airfare",
+      "Personal cooking equipment and ingredients",
+      "Travel insurance (required)",
+      "Gratuities for guides and support staff",
+      "Personal expenses and souvenirs",
+    ],
+    itinerary: [
+      "Day 1: Arrival in Marrakech, transfer to guesthouse in the Atlas Mountains",
+      "Day 1: Afternoon visit to a local herb garden and market",
+      "Day 1: Evening cooking class: Introduction to Moroccan spices and herbs",
+      "Day 1: Dinner featuring dishes prepared during the class",
+      "Day 2: Morning cooking class: Traditional Berber tagine and couscous",
+      "Day 2: Lunch with the local family, learning about Berber culture",
+      "Day 2: Afternoon baking class: Khobz (Berber bread) in a clay oven",
+      "Day 2: Closing dinner and certificate ceremony",
+      "Day 3: Departure from the Atlas Mountains to Marrakech",
+    ],
+    meetingPoint:
+      "Your accommodation in Marrakech (hotel or riad within the city)",
+    cancellationPolicy:
+      "Full refund if canceled at least 7 days in advance. 50% refund if canceled 3-7 days in advance. No refund for cancellations less than 3 days before the scheduled class.",
   },
 ];
 
