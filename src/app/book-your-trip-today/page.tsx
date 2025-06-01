@@ -94,13 +94,14 @@ export default function BookYourTripToday() {
 
     fetchData();
   }, [city, tourName, tourCategoryId]);
+
+  useEffect(() => {
     const fetchTours = async () => {
       try {
-        // Await the Promise from getToolResource
         const data = await getAllTours();
         setAllTours(data);
-        if (allTours.length > 0) {
-          const filteredTours = getToursByCategory(allTours, tourCategoryId);
+        if (data.length > 0) {
+          const filteredTours = getToursByCategory(data, tourCategoryId);
           setFilteredTours(filteredTours);
         }
       } catch (error) {
@@ -110,9 +111,8 @@ export default function BookYourTripToday() {
       }
     };
 
-    fetchData();
     fetchTours();
-  }, [city, tourName, tourGuides, allTours]);
+  }, [tourCategoryId]);
 
   if (loading) {
     return <Loading />;
