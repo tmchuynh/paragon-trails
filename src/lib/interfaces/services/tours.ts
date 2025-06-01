@@ -10,21 +10,23 @@ export interface TourCategory {
 }
 
 export interface Tour {
-  title: string;
-  icon?: IconType;
-  description: string;
-  images: string[];
-  duration: string;
-  price: string;
-  rating: number;
-  tags?: string[];
-  availableDates?: string[];
-  highlights?: string[];
-  inclusions?: string[];
-  exclusions?: string[];
-  itinerary?: string[];
-  meetingPoint?: string;
-  cancellationPolicy?: string;
+  title: string; // displayed in the card and in the view details page
+  icon?: IconType; // displayed in the card
+  description: string; // displayed in the card and in the view details page
+  images: string[]; // displayed in the card and in the view details page
+  duration: string; // displayed in the card and in the view details page
+  price: string; // displayed in the card and in the view details page
+  rating: number; // displayed in the card and in the view details page
+  tags?: string[]; // displayed in the view details page
+  availableDates?: string[]; // displayed in the card and in the view details page
+  highlights?: string[]; // displayed in the view details page
+  inclusions?: string[]; // displayed in the card and in the view details page
+  exclusions?: string[]; // displayed in the card and in the view details page
+  itinerary?: string[]; // displayed in the view details page
+  meetingPoint?: string; // displayed in the view details page
+  cancellationPolicy?: string; // displayed in the view details page
+
+  // displayed in view details page
   isHistorical?: boolean;
   isRomantic?: boolean;
   isAdventure?: boolean;
@@ -37,6 +39,7 @@ export interface Tour {
   isArtOrMusic?: boolean;
   isOffTheBeatenPath?: boolean;
   isLocalExperience?: boolean;
-  tourCategoryId: TourCategory["id"];
-  faqs?: FAQs[];
+
+  tourCategoryId: TourCategory["id"]; // displayed as a badge
+  faqs?: FAQs[]; // displayed in view details page
 }
