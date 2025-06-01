@@ -8,11 +8,11 @@ export const veniceTourGuides: TourGuide[] = [
     languages: ["Italian", "English", "French"],
     experienceYears: 15,
     specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Marco, a Venice native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods. He has a degree in Cultural Studies from the University of Venice and has worked as a tour guide for over fifteen years. Marco combines his extensive knowledge of Venice's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    bio: "Marco's approach to Venetian history was shaped by his previous career restoring ancient manuscripts in the Marciana Library, where he gained intimate knowledge of primary historical documents spanning eight centuries of the Republic's history. His tours reconstruct Venice's past through the actual words of those who lived it—from diplomatic correspondence to merchants' logbooks. With special permission to access normally closed archives, Marco can show visitors original documents relating to Venice's most significant historical events. His specialty 'Republic of Merchants' tour traces how this unlikely city of islands became a medieval superpower through revolutionary approaches to finance, governance, and naval technology.",
     description:
-      "Marco, a Venice native, offers tours that explore the city’s rich cultural heritage, historical landmarks, and vibrant neighborhoods.",
+      "A manuscript historian who brings Venice's past to life through the authentic voices preserved in ancient documents, revealing the sophisticated political and commercial systems that made this improbable city a world power.",
     quote:
-      "In Venice, every street is a tapestry of culture, and every meal is a taste of Italy’s vibrant spirit.",
+      "Venice wasn't just built on water—it was built on information, with a revolutionary system for gathering intelligence and making decisions that was centuries ahead of its time.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

@@ -4,6 +4,34 @@ export const viennaTourGuides: TourGuide[] = [
   {
     city: "Vienna",
     country: "Austria",
+    name: "Helena Wagner",
+    languages: ["German", "English", "French"],
+    experienceYears: 11,
+    specialties: ["art-and-music", "Classical Composers", "Opera History"],
+    bio: "Helena Wagner transforms Vienna's unparalleled musical heritage into immersive experiences for visitors. With a degree in Musicology from the University of Vienna and eleven years of guiding experience, Helena offers tours that explore the city's connection to Mozart, Beethoven, Strauss, and other legendary composers. Her tours often include visits to historical apartments where masterpieces were composed, exclusive access to performance venues, and expertly curated concert experiences. Helena's deep knowledge of musical history is complemented by her ability to explain musical concepts to guests of all backgrounds, making Vienna's classical tradition accessible and engaging.",
+    description:
+      "Helena Wagner guides musical journeys through Vienna's rich heritage as the world capital of classical music.",
+    quote:
+      "In Vienna, music isn't just an art form—it's the very heartbeat of the city, flowing through our streets, cafes, and collective consciousness for centuries.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Vienna",
+    country: "Austria",
+    name: "Maximilian Hofer",
+    languages: ["German", "English", "Italian"],
+    experienceYears: 9,
+    specialties: ["cultural", "Habsburg History", "Imperial Architecture"],
+    bio: "Maximilian Hofer specializes in Vienna's imperial legacy and the far-reaching influence of the Habsburg dynasty. With nine years of guiding experience and a doctorate in Austrian History, Maximilian leads detailed tours of Schönbrunn Palace, Hofburg Palace, and other Habsburg landmarks with expert historical context. His specialized knowledge of Habsburg court protocols, political strategies, and family dynamics brings this crucial European dynasty to life for visitors. Maximilian occasionally arranges special access to imperial collections and palace areas normally closed to the general public.",
+    description:
+      "Maximilian Hofer explores Vienna's imperial heritage through expert tours of Habsburg palaces and historical insights.",
+    quote:
+      "The Habsburg story isn't just Vienna's history—it's a 640-year dynasty that shaped European politics, culture, and borders in ways that continue to influence our world today.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Vienna",
+    country: "Austria",
     name: "Klara Müller",
     languages: ["German", "English", "French"],
     experienceYears: 7,
