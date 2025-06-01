@@ -336,7 +336,8 @@ export const atlantaTours: Tour[] = [
       "3:00 PM: Q&A session with a hip-hop artist or producer",
       "4:00 PM: Tour concludes with transportation back to the meeting point",
     ],
-    meetingPoint: "Patchwerk Recording Studios, 1094 E. Confederate Ave. SE, Atlanta, GA 30316",
+    meetingPoint:
+      "Patchwerk Recording Studios, 1094 E. Confederate Ave. SE, Atlanta, GA 30316",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },

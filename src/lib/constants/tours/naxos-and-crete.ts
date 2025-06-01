@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const naxosAndCreteTours: Tour[] = [
   {
@@ -174,7 +173,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-      .name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {

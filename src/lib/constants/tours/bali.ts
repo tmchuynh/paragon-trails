@@ -190,7 +190,8 @@ export const baliTours: Tour[] = [
       "3:00 PM: Jungle swing experience with views of the valley",
       "5:00 PM: Return to hotel",
     ],
-    meetingPoint: "Your accommodation in Bali (Ubud, Seminyak, Kuta, or Nusa Dua areas)",
+    meetingPoint:
+      "Your accommodation in Bali (Ubud, Seminyak, Kuta, or Nusa Dua areas)",
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
