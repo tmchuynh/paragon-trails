@@ -75,6 +75,13 @@ export const tourCategories: TourCategory[] = [
       "Explore sacred sites, religious traditions, and mindful practices with knowledgeable guides",
     icon: FaPray,
   },
+  {
+    id: "city-tours",
+    title: "City Tours",
+    description:
+      "Discover urban landscapes, architecture, and local life through guided city explorations",
+    icon: FaLandmark,
+  },
 ];
 
 // Map for quick lookup
