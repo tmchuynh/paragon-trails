@@ -188,7 +188,36 @@ export default function BookYourTripToday() {
                   {tour.meetingPoint && (
                     <div className="mb-4">
                       <h3 className="font-bold text-lg">Meeting Point:</h3>
-                      <p>{tour.meetingPoint}</p>
+                      <div className="ml-4">
+                        <h4>Address:</h4>
+                        <p>{tour.meetingPoint.address}</p>
+                        <div className="ml-4">
+                          {" "}
+                          <h4>Coordinates:</h4>
+                          <p>
+                            Latitude: {tour.meetingPoint.coordinates.latitude},{" "}
+                            Longitude: {tour.meetingPoint.coordinates.longitude}
+                          </p>
+                        </div>
+                        {tour.meetingPoint.instructions && (
+                          <div>
+                            <h4>Instructions:</h4>
+                            <p>{tour.meetingPoint.instructions}</p>
+                          </div>
+                        )}
+                        {tour.meetingPoint.contactNumber && (
+                          <div>
+                            <h4>Contact Number:</h4>
+                            <p>{tour.meetingPoint.contactNumber}</p>
+                          </div>
+                        )}
+                        {tour.meetingPoint.contactEmail && (
+                          <div>
+                            <h4>Contact Email:</h4>
+                            <p>{tour.meetingPoint.contactEmail}</p>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   )}
 
