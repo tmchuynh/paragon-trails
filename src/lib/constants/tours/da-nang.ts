@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const daNangTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const daNangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("da nang", "local").name,
     tourCategoryId: "local-expert",
     faqs: [
       {
@@ -55,7 +53,6 @@ export const daNangTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("da nang", "historical").name,
     tourCategoryId: "archaeology-expert",
     faqs: [
       {
@@ -92,7 +89,6 @@ export const daNangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("da nang", "cultural").name,
     tourCategoryId: "cultural-expert",
     faqs: [
       {
@@ -129,7 +125,6 @@ export const daNangTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("da nang", "local").name,
     tourCategoryId: "local",
     faqs: [
       {

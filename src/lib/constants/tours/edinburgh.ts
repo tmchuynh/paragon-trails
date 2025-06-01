@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const edinburghTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "historical").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("edinburgh", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -102,7 +98,8 @@ export const edinburghTours: Tour[] = [
           "The experience includes guided tastings of five premium single malt whiskies selected to showcase Scotland's diverse whisky regions (Highlands, Speyside, Islay, Lowlands, and Campbeltown). Each whisky is paired with artisanal Scottish cheeses or chocolate to complement its specific flavor profile.",
       },
       {
-        question: "I don't know much about whisky. Is this suitable for beginners?",
+        question:
+          "I don't know much about whisky. Is this suitable for beginners?",
         answer:
           "Absolutely! This experience is designed for both novices and connoisseurs. Our whisky expert will guide you through the basics of appreciation, including proper nosing and tasting techniques. You'll learn about production methods, regional characteristics, and how to identify different flavor notes in a friendly, unpretentious atmosphere.",
       },
@@ -130,7 +127,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -167,7 +163,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("edinburgh", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -176,7 +171,8 @@ export const edinburghTours: Tour[] = [
           "Not at all! This tour is designed for everyone from dedicated Potterheads to those with casual interest in the books or films. Our guides explain the connections clearly and include the wider literary and historical context of Edinburgh that influenced Rowling's writing. Even those with limited Harry Potter knowledge will enjoy discovering how a real city inspired aspects of this magical world.",
       },
       {
-        question: "Will we enter The Elephant House café where J.K. Rowling wrote?",
+        question:
+          "Will we enter The Elephant House café where J.K. Rowling wrote?",
         answer:
           "We stop outside The Elephant House and other significant writing locations, but entrance is not included in the tour as these are working businesses. You're welcome to visit them independently before or after the tour. Our guide will provide recommendations for the best times to visit to avoid crowds.",
       },
@@ -204,7 +200,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("edinburgh", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -241,7 +236,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -278,7 +272,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -315,7 +308,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("edinburgh", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -352,7 +344,6 @@ export const edinburghTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("edinburgh", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {

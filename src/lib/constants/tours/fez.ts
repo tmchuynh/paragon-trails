@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const fezTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const fezTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fez", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const fezTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fez", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const fezTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fez", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const fezTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fez", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -167,7 +162,6 @@ export const fezTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fez", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {

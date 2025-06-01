@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const heraklionTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const heraklionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("heraklion", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -57,7 +55,6 @@ export const heraklionTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("heraklion", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -94,7 +91,6 @@ export const heraklionTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("heraklion", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

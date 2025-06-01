@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const glasgowTours: Tour[] = [
   {
@@ -14,12 +13,11 @@ export const glasgowTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Music", "Nightlife", "Cultural"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -46,12 +44,11 @@ export const glasgowTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "Design", "Art Nouveau"],
- 
+
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -78,12 +75,11 @@ export const glasgowTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Urban"],
- 
+
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("glasgow", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -110,12 +106,11 @@ export const glasgowTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Experience"],
- 
+
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("glasgow", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

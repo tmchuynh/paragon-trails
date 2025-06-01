@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const dubaiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("dubai", "art").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("dubai", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("dubai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("dubai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -167,7 +162,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("dubai", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -204,7 +198,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("dubai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -241,7 +234,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("dubai", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -278,7 +270,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("dubai", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -315,7 +306,6 @@ export const dubaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("dubai", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {

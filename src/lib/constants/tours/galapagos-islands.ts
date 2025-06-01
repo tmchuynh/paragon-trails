@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const galapagosIslandsTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -52,7 +50,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -89,7 +86,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -121,7 +117,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "historical").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -153,7 +148,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -185,7 +179,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -217,7 +210,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("galapagos islands", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -249,7 +241,6 @@ export const galapagosIslandsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("galapagos islands", "adventure").name,
     tourCategoryId: "birdwatching",
     faqs: [
       {

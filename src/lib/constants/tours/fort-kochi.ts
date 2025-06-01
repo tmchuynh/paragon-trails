@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const fortKochiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const fortKochiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fort kochi", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const fortKochiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fort kochi", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -93,11 +90,11 @@ export const fortKochiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fort kochi", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What makes Kathakali special among Indian classical dance forms?",
+        question:
+          "What makes Kathakali special among Indian classical dance forms?",
         answer:
           "Kathakali stands out for its elaborate makeup and costumes that transform performers into mythological characters, its complex facial expressions and precise eye movements used to convey emotions, and its synthesis of multiple art forms. Dating back to the 17th century, it's one of the oldest classical dance-dramas in India, telling stories primarily from Hindu epics.",
       },
@@ -107,7 +104,8 @@ export const fortKochiTours: Tour[] = [
           "The makeup preparation takes approximately 1-1.5 hours. This fascinating process is an art form itself, as performers apply natural pigments to create colorful, three-dimensional facial designs that indicate character types. Green faces represent heroes, red faces depict evil characters, while yellow and white signify female characters and sages.",
       },
       {
-        question: "Will I understand the performance if I don't know the language?",
+        question:
+          "Will I understand the performance if I don't know the language?",
         answer:
           "Yes, the performance includes English narration and program notes. Additionally, before the main performance, artists demonstrate the basic hand gestures (mudras) and facial expressions used to convey different emotions, helping you understand the symbolic language of Kathakali.",
       },
@@ -130,7 +128,6 @@ export const fortKochiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("fort kochi", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
