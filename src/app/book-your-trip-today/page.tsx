@@ -1,4 +1,6 @@
 "use client";
+import TourCard from "@/components/cards/TourCard";
+import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import {
@@ -6,10 +8,16 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { cityattractions } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { cn } from "@/lib/utils";
 import { capitalize, formatToSlug } from "@/lib/utils/format";
-import { getTourData } from "@/lib/utils/get";
+import {
+  findGuideBySpecialty,
+  getAllTours,
+  getTourData,
+  getToursByCategory,
+} from "@/lib/utils/get";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -26,13 +34,19 @@ export default function BookYourTripToday() {
   const [date, setDate] = useState<Date>();
   const [participants, setParticipants] = useState(2);
   const [loading, setLoading] = useState(true);
+  const [allTours, setAllTours] = useState<Tour[]>([]);
+  const [filteredTours, setFilteredTours] = useState<Tour[]>([]);
+  const [tourGuides, setTourGuides] = useState<{ [key: string]: string }>({});
+
+  const cityInfo = cityattractions.find(
+    (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
+  );
 
   useEffect(() => {
     const fetchData = async () => {
       if (city && tourName) {
         try {
           const data = await getTourData(city);
-          console.log("Fetched tour data:", data);
           const tourData = data.find(
             (t: Tour) =>
               t.title.toLowerCase() === tourName.toLowerCase() &&
@@ -43,7 +57,26 @@ export default function BookYourTripToday() {
             return;
           }
           setTour(tourData);
-          console.log("Found tour:", tourData);
+          const tourGuidesData = await getTourData(decodeURIComponent(city));
+          const guidePromises = tourGuidesData.map(async (tour: Tour) => {
+            try {
+              const guide = await findGuideBySpecialty(
+                decodeURIComponent(city).toLowerCase(),
+                tour.tourCategoryId
+              );
+              return { tourTitle: tour.title, guideName: guide.name };
+            } catch (error) {
+              console.error(`Failed to load guide for ${tour.title}:`, error);
+              return { tourTitle: tour.title, guideName: "Local Expert" };
+            }
+          });
+
+          const guides = await Promise.all(guidePromises);
+          const guidesMap = guides.reduce((acc, { tourTitle, guideName }) => {
+            acc[tourTitle] = guideName;
+            return acc;
+          }, {} as { [key: string]: string });
+          setTourGuides(guidesMap);
         } catch (error) {
           console.error("Failed to load tour data:", error);
         } finally {
@@ -52,8 +85,29 @@ export default function BookYourTripToday() {
       }
     };
 
+    const fetchTours = async () => {
+      try {
+        // Await the Promise from getToolResource
+        const data = await getAllTours();
+        setAllTours(data);
+        if (allTours.length > 0) {
+          const filteredTours = getToursByCategory(allTours, tourCategoryId);
+          setFilteredTours(filteredTours);
+        }
+      } catch (error) {
+        console.error("Failed to load affirmation cards:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchData();
-  }, [city, tourName]);
+    fetchTours();
+  }, [city, tourName, tourGuides, allTours]);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   const totalPrice = tour
     ? parseFloat(tour.price.replace(/[^0-9.]/g, "")) * participants
@@ -100,6 +154,33 @@ export default function BookYourTripToday() {
             <strong>Tour Category:</strong>{" "}
             {capitalize(tourCategoryId || "Not specified") || "Not specified"}
           </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Similar Tours</h2>
+        {/* {featuredArray(filteredTours).map((tour, index) => (
+          <TourCard
+            key={index}
+            tour={tour}
+            city={city}
+            country={tour.country || "Not specified"}
+            tourGuides={tour.tourGuides || {}}
+          />
+        ))} */}
+
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-6">
+          {filteredTours.slice(0, 6).map((tour, index) => {
+            return (
+              <TourCard
+                key={index}
+                tour={tour}
+                city={cityInfo?.city || "Not specified"}
+                country={cityInfo?.country || "Not specified"}
+                tourGuides={tourGuides}
+              />
+            );
+          })}
         </div>
       </section>
 
