@@ -23,7 +23,7 @@ export interface Tour {
   inclusions?: string[]; // displayed in the card and in the view details page
   exclusions?: string[]; // displayed in the card and in the view details page
   itinerary?: string[]; // displayed in the view details page
-  meetingPoint?: string; // displayed in the view details page
+  meetingPoint?: MeetingPoint; // displayed in the view details page
   cancellationPolicy?: string; // displayed in the view details page
   isPopular?: boolean; // to be displayed in the card as a badge and on booking page
 
@@ -44,3 +44,14 @@ export interface Tour {
   tourCategoryId: TourCategory["id"]; // displayed as a badge
   faqs?: FAQs[]; // displayed in view details page
 }
+
+type MeetingPoint = {
+  address: string;
+  coordinates: {
+    latitude: number;
+    longitude: number;
+  };
+  instructions?: string; // additional instructions for the meeting point
+  contactNumber?: string; // optional contact number for the meeting point
+  contactEmail?: string; // optional contact email for the meeting point
+};
