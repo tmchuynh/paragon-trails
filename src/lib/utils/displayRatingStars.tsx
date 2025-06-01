@@ -1,4 +1,4 @@
-import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 export const displayRatingStars = (rating: number, maxStars: number = 5) => {
   const stars = [];
@@ -26,7 +26,7 @@ export const displayRatingStars = (rating: number, maxStars: number = 5) => {
   return (
     <div className="flex justify-center items-center gap-1 my-2">
       {stars}
-      <span className="ml-2 text-gray-400">({rating})</span>
+      <span className="mt-1 ml-2 text-gray-400">({rating})</span>
     </div>
   );
 };
