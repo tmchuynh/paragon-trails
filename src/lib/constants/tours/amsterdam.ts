@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const amsterdamTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "history").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("amsterdam", "art").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -88,7 +85,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -202,7 +197,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -244,7 +238,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -286,7 +279,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -324,7 +316,6 @@ export const amsterdamTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("amsterdam", "local").name,
     tourCategoryId: "local",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const athensTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("athens", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -135,7 +131,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("athens", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -177,7 +172,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -219,7 +213,6 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("athens", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -261,7 +254,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -303,7 +295,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -345,7 +336,6 @@ export const athensTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "historical").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -387,7 +377,6 @@ export const athensTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("athens", "adventure").name,
     tourCategoryId: "luxury",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const ayutthayaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ayutthaya", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ayutthaya", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ayutthaya", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ayutthaya", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -172,7 +167,6 @@ export const ayutthayaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ayutthaya", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

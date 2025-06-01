@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const austinTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -145,7 +141,6 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "outdoor").name,
     tourCategoryId: "outdoor",
     faqs: [
       {
@@ -187,7 +182,6 @@ export const austinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -229,7 +223,6 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("austin", "art").name,
     tourCategoryId: "art",
     faqs: [
       {

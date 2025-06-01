@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const anchorageTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -61,7 +59,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("anchorage", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -98,7 +95,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("anchorage", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -135,7 +131,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("anchorage", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -177,7 +172,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -214,7 +208,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -251,7 +244,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("anchorage", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -288,7 +280,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("anchorage", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -325,7 +316,6 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("anchorage", "wellness").name,
     tourCategoryId: "luxury",
     faqs: [
       {

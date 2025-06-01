@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const atlasMountainsTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("atlas mountains", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -81,7 +79,6 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("atlas mountains", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -123,7 +120,6 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("atlas mountains", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -165,7 +161,6 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("atlas mountains", "wellness").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -202,7 +197,6 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("atlas mountains", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
