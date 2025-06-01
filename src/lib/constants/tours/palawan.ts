@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const palawanTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const palawanTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("palawan", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -52,7 +50,6 @@ export const palawanTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("palawan", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -84,7 +81,6 @@ export const palawanTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("palawan", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -111,7 +107,6 @@ export const palawanTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: "Marine Biologist Dr. Lisa Reyes",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -144,7 +139,6 @@ export const palawanTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Rafael Cruz",
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -181,7 +175,6 @@ export const palawanTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: "Chef Maricel Reyes",
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -208,7 +201,6 @@ export const palawanTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: "Jacob Martinez",
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -235,7 +227,6 @@ export const palawanTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Elena Rodriguez & Astronomy Team",
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -267,7 +258,6 @@ export const palawanTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: "Dr. Elena Cruz, Wildlife Biologist",
     tourCategoryId: "adventure",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const mumbaiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mumbai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mumbai", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mumbai", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -115,7 +111,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("mumbai", "culinary").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -142,7 +137,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -174,7 +168,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mumbai", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -206,7 +199,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -238,7 +230,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mumbai", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -270,7 +261,6 @@ export const mumbaiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("mumbai", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const nhaTrangTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const nhaTrangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("nha-trang", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -66,7 +64,6 @@ export const nhaTrangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("nha-trang", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -113,7 +110,6 @@ export const nhaTrangTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("nha-trang", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -160,7 +156,6 @@ export const nhaTrangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("nha-trang", "food").name,
     tourCategoryId: "food",
     faqs: [
       {
@@ -207,7 +202,6 @@ export const nhaTrangTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("nha-trang", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

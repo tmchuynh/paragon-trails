@@ -19,7 +19,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -51,7 +50,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -83,7 +81,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -115,7 +112,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -147,7 +143,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -179,7 +174,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "off-the-beaten-path")
       .name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
@@ -212,7 +206,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -244,7 +237,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -276,7 +268,6 @@ export const naxosAndCreteTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("naxos-and-crete", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

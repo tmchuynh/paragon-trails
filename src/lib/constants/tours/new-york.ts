@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const newYorkTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const newYorkTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("new-york", "art").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const newYorkTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("new-york", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -83,7 +80,6 @@ export const newYorkTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("new-york", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -114,7 +110,6 @@ export const newYorkTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("new-york", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -146,7 +141,6 @@ export const newYorkTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("new-york", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

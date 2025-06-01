@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const munichTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const munichTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("munich", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const osloTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const osloTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("oslo", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const osloTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("oslo", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const osloTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("oslo", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const ouarzazateTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ouarzazate", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -51,7 +49,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ouarzazate", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -78,7 +75,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ouarzazate", "wellness").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -105,7 +101,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ouarzazate", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -132,7 +127,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ouarzazate", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -159,7 +153,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ouarzazate", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -186,7 +179,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("ouarzazate", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -213,7 +205,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ouarzazate", "spiritual").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -240,7 +231,6 @@ export const ouarzazateTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("ouarzazate", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
