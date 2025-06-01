@@ -1,8 +1,8 @@
 "use client";
 
 import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
+import TourCard from "@/components/cards/TourCard";
 import Loading from "@/components/Loading";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -17,10 +17,7 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { cityattractions } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
-import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { formatToSlug } from "@/lib/utils/format";
 import { findGuideBySpecialty, getTourData } from "@/lib/utils/get";
-import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
@@ -419,77 +416,13 @@ export default function TourPage() {
 
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredTours.map((tour, index) => (
-          <div
+          <TourCard
             key={index}
-            className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg h-full transition-shadow overflow-hidden"
-          >
-            <div className="flex flex-col justify-between h-full">
-              <div>
-                <div className="relative h-64">
-                  <Image
-                    src={tour.images[0]}
-                    alt={tour.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <Badge
-                    variant={"outline"}
-                    className="top-4 right-4 absolute uppercase"
-                  >
-                    {tour.tourCategoryId}
-                  </Badge>
-                </div>
-                <div className="px-6">
-                  <div className="flex flex-col justify-between items-start mb-2">
-                    <h2>{tour.title}</h2>
-                    {displayRatingStars(tour.rating)}
-                  </div>
-                  <p className="mb-4">{tour.description}</p>
-                </div>
-              </div>
-
-              <div className="flex flex-col justify-between mb-7 px-6">
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {tour.tags?.map((tag, i) => (
-                    <Badge size={"lg"} variant={"secondary"} key={i}>
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-                <div className="flex justify-between items-center my-4">
-                  <div className="space-y-2">
-                    <h5 className="text-tertiary">
-                      <strong className="text-foreground">Duration:</strong>{" "}
-                      {tour.duration}
-                    </h5>
-                    <h5 className="text-tertiary">
-                      <strong className="text-foreground">Guide:</strong>{" "}
-                      {tourGuides[tour.title] || "Loading guide..."}
-                    </h5>
-                  </div>
-                  <h2>{tour.price}</h2>
-                </div>
-                <Button
-                  onClick={() => {
-                    const queryParams = new URLSearchParams({
-                      city: city,
-                      country: country,
-                      tour: tour.title,
-                      tourCategoryId: tour.tourCategoryId,
-                    });
-
-                    router.push(
-                      `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
-                        tour.title
-                      )}?${queryParams.toString()}`
-                    );
-                  }}
-                >
-                  View Details
-                </Button>
-              </div>
-            </div>
-          </div>
+            tour={tour}
+            city={city}
+            country={country}
+            tourGuides={tourGuides}
+          />
         ))}
       </div>
     </div>
