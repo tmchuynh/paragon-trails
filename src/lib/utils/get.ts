@@ -22,11 +22,15 @@ export async function getTourData(city: string): Promise<any> {
     if (tourModule[tourID]) {
       return tourModule[tourID];
     } else {
-      console.error(`Export named ${tourID} not found in module`);
+      console.error(
+        `Export named export const ${tourID}: Tour[] =[]; not found in module`
+      );
       return [];
     }
   } catch (error) {
-    console.error(`Error loading resource: ${error}`);
+    console.error(
+      `Error loading resource from @/lib/constants/tours: ${error} export const ${tourID}: Tour[] = [];`
+    );
     return [];
   }
 }
@@ -94,11 +98,15 @@ export async function getCityAttractions(
     if (attractionsModule[cityRegionCountry]) {
       return attractionsModule[cityRegionCountry];
     } else {
-      console.error(`No attractions found for ${city}`);
+      console.error(
+        `No attractions found for ${city} export const ${cityRegionCountry}: Attraction[] = []; in module`
+      );
       return [];
     }
   } catch (error) {
-    console.error(`Error loading attractions for ${city}: ${error}`);
+    console.error(
+      `Error loading attractions for ${city} from @/lib/constants/destinations/city: ${error} export const ${cityRegionCountry}: Attraction[] = [];`
+    );
     return [];
   }
 }
@@ -168,7 +176,11 @@ export async function findGuideBySpecialty(
       !Array.isArray(cityTourGuides) ||
       cityTourGuides.length === 0
     ) {
-      throw new Error(`No tour guides found for ${capitalize(city)}`);
+      throw new Error(
+        `No tour guides found for ${capitalize(
+          city
+        )} within @/lib/constants/staff/tourGuides/${cityFormatted}.ts`
+      );
     }
 
     console.log("Tour guides: ", cityTourGuides);
@@ -205,7 +217,9 @@ export async function findGuideBySpecialty(
     // If no specialty match, return any guide from this city
     return cityTourGuides[Math.floor(Math.random() * cityTourGuides.length)];
   } catch (error) {
-    console.error(`Error finding tour guide for ${city}: ${error}`);
+    console.error(
+      `Error finding tour guide for ${city} within @/lib/constants/staff/tourGuides: ${error} export const ${cityFormatted}TourGuides: TourGuide[] = [];`
+    );
 
     // Return default guide if no matches found
     return {
@@ -361,7 +375,9 @@ export async function getAllTourGuides(): Promise<TourGuide[]> {
         // Add all tour guides from this city to the combined array
         allTourGuides.push(...cityTourGuides);
       } else {
-        console.warn(`No valid tour guides found for ${city}`);
+        console.warn(
+          `No valid tour guides found for ${city} within @/lib/constants/staff/tourGuides/${city}.ts`
+        );
       }
     } catch (error) {
       console.error(`Error importing tour guides for ${city}:`, error);
