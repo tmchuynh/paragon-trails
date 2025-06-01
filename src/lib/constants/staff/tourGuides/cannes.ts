@@ -7,60 +7,13 @@ export const cannesTourGuides: TourGuide[] = [
     name: "Claire Dubois",
     languages: ["French", "English", "Italian"],
     experienceYears: 6,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Claire Dubois is a Cannes native with six years of experience guiding guests through the city's historical and cultural highlights. With a background in French history, Claire crafts tours that reveal the stories behind Cannes' iconic landmarks and hidden corners. Her tours often include exclusive access to museums and local sites, providing guests with a deep appreciation for the city's heritage. Claire's engaging storytelling and warm personality make her tours both informative and memorable.",
+    specialties: ["cultural", "Historical Tours", "City Tours"],
+    bio: "Claire holds a Master's degree in French Cultural Heritage and worked at the Archives of Cannes before becoming a specialized cultural guide. Her academic research into Cannes' transformation from fishing village to luxury destination provides unique historical context. Claire specializes in revealing how Cannes deliberately constructed its glamorous identity through architecture, events, and careful image cultivation over the past century. Her connections with cultural institutions provide access to archives and collections not typically available to visitors. Claire has documented the evolution of Cannes' cultural landscape through different historical periods, creating thematic explorations beyond the city's famous film connections.",
     description:
-      "Claire Dubois guides guests through Cannes' history and culture, revealing its hidden stories.",
+      "Claire creates cultural experiences that reveal Cannes' evolution from humble fishing village to global symbol of Mediterranean sophistication and artistic celebration.",
     quote:
-      "In Cannes, every street is a tapestry of culture, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Camille Dubois",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 8,
-    specialties: ["Film Tours", "Cultural Heritage", "City Tours"],
-    bio: "Camille Dubois is a film enthusiast and guide with eight years of experience celebrating Cannes' cinematic legacy. With a degree in Film Studies, Camille offers tours that explore the city's film history, including behind-the-scenes stories from the Cannes Film Festival. Her tours often include visits to famous film locations and exclusive insights into the world of cinema. Camille's passion for film and culture ensures every guest experiences the magic of Cannes.",
-    description:
-      "Camille Dubois leads film-focused tours that explore Cannes' cinematic history and coastal beauty.",
-    quote:
-      "In Cannes, every film tells a story, and every sunset is a reminder of the city’s cinematic spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Isabelle Laurent",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 7,
-    specialties: ["Nightlife Tours", "Luxury Tours", "Cultural Experiences"],
-    bio: "Isabelle Laurent is a nightlife and luxury expert with seven years of experience guiding guests through Cannes' vibrant evenings. With a background in hospitality, Isabelle curates tours that showcase the city's best nightlife, luxury venues, and cultural traditions. Her tours often include exclusive access to clubs, fine dining, and local events. Isabelle's energetic approach and insider knowledge make her tours both exciting and insightful.",
-    description:
-      "Isabelle Laurent curates tours of Cannes' nightlife, luxury, and cultural traditions.",
-    quote:
-      "In Cannes, every night is an opportunity for adventure, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Pierre Dupont",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 8,
-    specialties: [
-      "Cultural Heritage",
-      "Art and Music",
-      "Local Culture",
-      "Nightlife Tours",
-    ],
-    bio: "Pierre Dupont is an art and music aficionado with eight years of experience leading tours in Cannes. With a degree in Art History, Pierre specializes in exploring the city's artistic and musical scenes, as well as its cultural heritage. His tours often include visits to galleries, music venues, and local festivals, providing guests with a rich cultural experience. Pierre's passion for the arts and engaging storytelling make his tours both inspiring and memorable.",
-    description:
-      "Pierre Dupont explores Cannes' art, music, and cultural heritage with guests.",
-    quote:
-      "In Cannes, every beat tells a story, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Cannes didn't become famous by accident—it's a city that deliberately crafted its identity through culture, architecture, and an enduring appreciation for the art of living well.",
+    profileImage: "/images/staff/tour-guides/cannes/claire.jpg",
   },
   {
     city: "Cannes",
@@ -68,86 +21,40 @@ export const cannesTourGuides: TourGuide[] = [
     name: "Julien Moreau",
     languages: ["French", "English", "Italian"],
     experienceYears: 5,
-    specialties: ["Culinary Experiences", "Cultural Heritage", "City Tours"],
-    bio: "Julien Moreau is a culinary guide with five years of experience sharing Cannes' food culture and traditions. With a diploma in Culinary Arts, Julien leads tours that highlight the city's culinary heritage, from local markets to fine dining. His tours often include tastings, cooking demonstrations, and stories about Cannes' food scene. Julien's enthusiasm for cuisine and culture ensures guests enjoy a feast for the senses.",
+    specialties: ["culinary", "Cultural Heritage", "City Tours"],
+    bio: "Julien trained at the prestigious Culinary Institute in Nice before working in several Michelin-starred restaurants along the Côte d'Azur. His professional background in high-end Mediterranean cuisine provides insider knowledge of regional culinary traditions. Julien specializes in revealing how Cannes' cuisine represents a unique fusion of Provençal traditions, Italian influences, and luxury innovations catering to international visitors. His relationships with local producers, market vendors, and restaurant owners provide exclusive culinary experiences typically unavailable to tourists. Julien has documented traditional Provençal recipes being preserved by families in villages surrounding Cannes, connecting visitors with authentic regional cuisine beyond tourist establishments.",
     description:
-      "Julien Moreau leads culinary tours that celebrate Cannes' food culture and traditions.",
+      "Julien offers sensory journeys through Cannes' gastronomic landscape, from local markets to seaside restaurants serving Mediterranean specialties perfected over generations.",
     quote:
-      "In Cannes, every dish tells a story, and every street is a celebration of culture and diversity.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Cannes cuisine isn't just about luxury—it's about honoring simplicity, celebrating local ingredients, and preserving the culinary wisdom that makes Provençal cooking a global treasure.",
+    profileImage: "/images/staff/tour-guides/cannes/julien.jpg",
   },
   {
     city: "Cannes",
     country: "France",
-    name: "Sophie Martin",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 6,
-    specialties: ["Culinary Tours", "Wine Tasting", "Local Markets"],
-    bio: "Sophie Martin is a market and wine specialist with six years of experience guiding guests through Cannes' culinary delights. With a background in gastronomy, Sophie offers tours that explore local markets, wine tastings, and neighborhood eateries. Her tours often include hands-on experiences and insider tips on the best places to eat and drink. Sophie's friendly approach and expertise make her tours both delicious and informative.",
+    name: "Sophie Laurent",
+    languages: ["French", "English", "Russian"],
+    experienceYears: 8,
+    specialties: ["art-and-music", "Film History", "Gallery Tours"],
+    bio: "Sophie studied Film History at Paris-Sorbonne University and worked with the Cannes Film Festival organization before becoming a specialized arts guide. Her academic and professional background provides insider knowledge about Cannes' remarkable film heritage and contemporary arts scene. Sophie specializes in revealing the year-round artistic life of Cannes beyond the famous festival, connecting visitors with galleries, installations, and cultural venues overlooked by conventional tourism. Her professional network includes relationships with local artists, filmmakers, and cultural institutions, providing unique perspective on the city's creative energy. Sophie has documented locations throughout Cannes that have appeared in significant films, creating specialized tours connecting cinematic history to physical locations.",
     description:
-      "Sophie Martin guides guests through Cannes' markets, wine tastings, and culinary experiences.",
+      "Sophie unlocks Cannes' artistic soul through experiences that go beyond the famous film festival to reveal the city's thriving year-round creative culture and artistic heritage.",
     quote:
-      "In Cannes, every dish tells a story, and every street is a celebration of culture and diversity.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "Cinema made Cannes famous, but creativity in all its forms is what makes this city extraordinary every day of the year, not just during the festival.",
+    profileImage: "/images/staff/tour-guides/cannes/sophie.jpg",
   },
   {
     city: "Cannes",
     country: "France",
-    name: "Lucie Lefevre",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 7,
-    specialties: [
-      "Romantic Tours",
-      "Cultural Experiences",
-      "Luxury Experiences",
-    ],
-    bio: "Lucie Lefevre is a romance and luxury expert with seven years of experience curating unforgettable experiences in Cannes. With a background in event planning, Lucie specializes in romantic tours, luxury experiences, and cultural highlights. Her tours often include exclusive access to scenic spots, luxury venues, and cultural events. Lucie's attention to detail and passion for creating memorable moments make her tours truly special.",
+    name: "Alexandre Martin",
+    languages: ["French", "English", "Spanish"],
+    experienceYears: 10,
+    specialties: ["adventure", "Marine Activities", "Nature Tours"],
+    bio: "Alexandre worked as a professional sailing instructor and marine conservationist before creating specialized adventure experiences along the Cannes coastline. His environmental science background adds educational depth to physical activities in this remarkable Mediterranean setting. Alexandre specializes in revealing the natural beauty surrounding Cannes, from the Lérins Islands to the Esterel massif, areas often overlooked by visitors focused only on the famous Croisette. His certifications in various marine activities and safety procedures allow him to facilitate experiences that conventional city tourism doesn't offer. Alexandre has mapped adventure routes throughout the Cannes region that provide unique perspectives while incorporating physical activity and natural phenomena.",
     description:
-      "Lucie Lefevre curates romantic and luxury experiences in Cannes' most enchanting locales.",
+      "Alexandre guides coastal adventures that reveal the natural splendors surrounding Cannes, from sailing between the Lérins Islands to hiking the dramatic red rocks of the Esterel massif.",
     quote:
-      "In Cannes, every moment is a celebration of love, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Antoine Girard",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 9,
-    specialties: ["Wellness Tours", "Cultural Heritage", "Spiritual Tours"],
-    bio: "Antoine Girard is a wellness and culture guide with nine years of experience leading holistic tours in Cannes. With a background in wellness coaching, Antoine blends cultural heritage, spirituality, and wellness practices in his tours. Guests enjoy unique experiences such as meditation sessions, cultural site visits, and wellness workshops. Antoine's calm demeanor and holistic approach make his tours both relaxing and enriching.",
-    description:
-      "Antoine Girard blends wellness, culture, and spirituality in his Cannes tours.",
-    quote:
-      "In Cannes, every moment is a journey of self-discovery, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Elodie Bernard",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 5,
-    specialties: ["Luxury Tours", "Nightlife Tours"],
-    bio: "Elodie Bernard is a luxury and nightlife specialist with five years of experience showcasing Cannes' upscale lifestyle. With a background in luxury hospitality, Elodie offers tours that highlight the city's best nightlife, exclusive venues, and luxury experiences. Her tours often include VIP access and personalized recommendations. Elodie's energetic personality and insider knowledge ensure guests experience the best of Cannes' vibrant scene.",
-    description:
-      "Elodie Bernard showcases Cannes' luxury lifestyle and electrifying nightlife.",
-    quote:
-      "In Cannes, every night is an opportunity for adventure, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
-  },
-  {
-    city: "Cannes",
-    country: "France",
-    name: "Mathieu Rousseau",
-    languages: ["French", "English", "Italian"],
-    experienceYears: 6,
-    specialties: ["Romantic Tours", "Cultural Heritage", "Nightlife Tours"],
-    bio: "Mathieu Rousseau is a romance and culture guide with six years of experience blending Cannes' romantic spots, cultural heritage, and nightlife. With a background in French literature, Mathieu crafts tours that highlight the city's most enchanting locations and vibrant evenings. His tours often include exclusive access to romantic venues, cultural sites, and nightlife hotspots. Mathieu's storytelling and passion for Cannes make his tours both charming and memorable.",
-    description:
-      "Mathieu Rousseau blends romance, culture, and nightlife in his Cannes tours.",
-    quote:
-      "In Cannes, every night is a celebration of love, and every meal is a taste of France’s vibrant spirit.",
-    profileImage: "/images/guides/valeria-marino.jpg",
+      "The true beauty of Cannes isn't on the red carpet—it's in the red rocks of the Esterel, the clear waters around the islands, and the perfect Mediterranean light that has inspired artists for centuries.",
+    profileImage: "/images/staff/tour-guides/cannes/alexandre.jpg",
   },
 ];
