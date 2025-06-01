@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const tahitiTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const tahitiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("tahiti", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const tahitiTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("tahiti", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const tahitiTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("tahiti", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const sapaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const sapaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("sapa", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const sapaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("sapa", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const sapaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("sapa", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -100,7 +96,6 @@ export const sapaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("sapa", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -127,7 +122,6 @@ export const sapaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("sapa", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -154,7 +148,6 @@ export const sapaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("sapa", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -181,7 +174,6 @@ export const sapaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("sapa", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -208,7 +200,6 @@ export const sapaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("sapa", "scenic").name,
     tourCategoryId: "scenic",
     faqs: [
       {

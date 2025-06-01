@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const seoulTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const seoulTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("seoul", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -62,7 +60,6 @@ export const seoulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("seoul", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -105,7 +102,6 @@ export const seoulTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("seoul", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -154,7 +150,6 @@ export const seoulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("seoul", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -197,7 +192,6 @@ export const seoulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("seoul", "entertainment").name,
     tourCategoryId: "entertainment",
     faqs: [
       {
@@ -239,7 +233,6 @@ export const seoulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("seoul", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -282,7 +275,6 @@ export const seoulTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("seoul", "architectural").name,
     tourCategoryId: "architectural",
     faqs: [
       {

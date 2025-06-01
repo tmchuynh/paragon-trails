@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const shirakawagoTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -46,7 +44,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -73,7 +70,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -100,7 +96,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -127,7 +122,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -154,7 +148,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -181,7 +174,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -208,7 +200,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -235,7 +226,6 @@ export const shirakawagoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("shirakawa-go", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
