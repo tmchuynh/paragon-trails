@@ -30,7 +30,6 @@ export default function TourPage() {
     const fetchData = async () => {
       try {
         const data = await getTourData(city);
-        console.log("Fetched tour data:", data);
         const tourData = data.find(
           (t: Tour) =>
             t.title.toLowerCase() === tourName.toLowerCase() &&
