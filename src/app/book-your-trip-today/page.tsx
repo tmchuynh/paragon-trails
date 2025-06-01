@@ -378,21 +378,11 @@ export default function BookYourTripToday() {
               </div>
             </section>
           </div>
-
           <section>
             <h2>Similar Tours</h2>
-            {/* {featuredArray(filteredTours).map((tour, index) => (
-          <TourCard
-            key={index}
-            tour={tour}
-            city={city}
-            country={tour.country || "Not specified"}
-            tourGuides={tour.tourGuides || {}}
-          />
-        ))} */}
 
             {cityInfo && (
-              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto w-10/12 md:w-11/12">
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
                 {filteredTours.slice(0, 3).map((tour, index) => {
                   return (
                     <TourCard
