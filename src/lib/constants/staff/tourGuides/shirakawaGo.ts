@@ -75,4 +75,74 @@ export const shirakawaGoTourGuides: TourGuide[] = [
       "In Shirakawa-go, every dish tells a story, and every street is a celebration of culture and diversity.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Kenji Yamamoto",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 11,
+    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
+    bio: "Kenji, a Shirakawa-go native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and traditional architecture. He has a degree in Cultural Studies from the University of Kanazawa and has worked as a tour guide for over eleven years. Kenji combines his extensive knowledge of Shirakawa-go's history with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to historical sites and cultural experiences, providing guests with an immersive cultural journey.",
+    description:
+      "Kenji, a Shirakawa-go native, offers tours that explore the village’s rich cultural heritage, historical landmarks, and traditional architecture.",
+    quote:
+      "In Shirakawa-go, every street is a tapestry of culture, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Aiko Sato",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 6,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Aiko, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from Kanazawa University and has worked as a tour guide for over six years. Aiko combines her extensive knowledge of Shirakawa-go's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to traditional gassho-zukuri farmhouses and nature reserves, providing guests with an immersive cultural journey.",
+    description:
+      "Aiko, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Shirakawa-go, every farmhouse tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Ryo Taniguchi",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 5,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Ryo, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. He has a degree in Cultural Studies from Kanazawa University and has worked as a tour guide for over five years. Ryo combines his extensive knowledge of Shirakawa-go's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to traditional gassho-zukuri farmhouses and nature reserves, providing guests with an immersive cultural journey.",
+    description:
+      "Ryo, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Shirakawa-go, every farmhouse tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Miyuki Kobayashi",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 4,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Miyuki, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. She has a degree in Cultural Studies from Kanazawa University and has worked as a tour guide for over four years. Miyuki combines her extensive knowledge of Shirakawa-go's culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to traditional gassho-zukuri farmhouses and nature reserves, providing guests with an immersive cultural journey.",
+    description:
+      "Miyuki, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Shirakawa-go, every farmhouse tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    name: "Takashi Fujimoto",
+    languages: ["Japanese", "English", "French"],
+    experienceYears: 3,
+    specialties: ["Cultural Heritage", "Nature Tours", "Historical Tours"],
+    bio: "Takashi, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks. He has a degree in Cultural Studies from Kanazawa University and has worked as a tour guide for over three years. Takashi combines his extensive knowledge of Shirakawa-go's culture with his love for storytelling, making each tour a unique experience. His tours often include exclusive access to traditional gassho-zukuri farmhouses and nature reserves, providing guests with an immersive cultural journey.",
+    description:
+      "Takashi, a Shirakawa-go native, offers tours that explore the region’s rich cultural heritage, stunning landscapes, and historical landmarks.",
+    quote:
+      "In Shirakawa-go, every farmhouse tells a story, and every meal is a taste of Japan’s vibrant spirit.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
 ];

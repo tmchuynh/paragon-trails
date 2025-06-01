@@ -61,4 +61,18 @@ export const tokyoTourGuides: TourGuide[] = [
       "Tokyo's creative energy comes from constant tension—between tradition and innovation, between Western influence and Japanese identity, between conformity and rebellion.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
+  {
+    city: "Tokyo",
+    country: "Japan",
+    name: "Hiroshi Nakamura",
+    languages: ["Japanese", "English", "Korean"],
+    experienceYears: 15,
+    specialties: ["spiritual", "Traditional Practices", "Temple Stays"],
+    bio: "Hiroshi connects visitors with Tokyo's rich spiritual heritage, from ancient Shinto rituals to Zen Buddhist practices that continue to influence contemporary Japanese life. With formal training in religious studies and personal practice at several major temples, Hiroshi provides context and meaning to spiritual experiences that might otherwise remain mysterious to visitors. His tours include special access to temple ceremonies, meditation sessions with practicing monks, and visits to sacred sites typically closed to tourists. Hiroshi excels at explaining how spiritual concepts permeate everyday Japanese life, from business practices to social interactions.",
+    description:
+      "Hiroshi creates contemplative journeys through Tokyo's sacred spaces, providing insight into how traditional spiritual practices maintain relevance in modern Japanese society.",
+    quote:
+      "Tokyo's temples and shrines aren't religious museums—they're living centers of practice where ancient wisdom continues to guide contemporary Japanese through life's challenges and transitions.",
+    profileImage: "/images/guides/valeria-marino.jpg",
+  },
 ];
