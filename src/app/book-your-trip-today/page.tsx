@@ -170,72 +170,72 @@ export default function BookYourTripToday() {
                 tour.inclusions ||
                 tour.exclusions) && (
                 <section>
-                {tour.itinerary && (
-                  <div className="mb-4">
-                    <h3 className="font-bold text-lg">Itinerary:</h3>
-                    <ul className="pl-6 list-disc">
-                      {tour.itinerary?.length > 0 ? (
-                        tour.itinerary.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))
-                      ) : (
-                        <li>To Be Determined</li>
-                      )}
-                    </ul>
-                  </div>
-                )}
+                  {tour.itinerary && (
+                    <div className="mb-4">
+                      <h3 className="font-bold text-lg">Itinerary:</h3>
+                      <ul className="pl-6 list-disc">
+                        {tour.itinerary?.length > 0 ? (
+                          tour.itinerary.map((item, index) => (
+                            <li key={index}>{item}</li>
+                          ))
+                        ) : (
+                          <li>To Be Determined</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
 
-                {tour.meetingPoint && (
-                  <div className="mb-4">
-                    <h3 className="font-bold text-lg">Meeting Point:</h3>
-                    <p>{tour.meetingPoint}</p>
-                  </div>
-                )}
+                  {tour.meetingPoint && (
+                    <div className="mb-4">
+                      <h3 className="font-bold text-lg">Meeting Point:</h3>
+                      <p>{tour.meetingPoint}</p>
+                    </div>
+                  )}
 
-                {tour.highlights && (
-                  <div className="mb-4">
-                    <h3 className="font-bold text-lg">Highlights:</h3>
-                    <ul className="pl-6 list-disc">
-                      {tour.highlights?.length > 0 ? (
-                        tour.highlights.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))
-                      ) : (
-                        <li>To Be Determined</li>
-                      )}
-                    </ul>
-                  </div>
-                )}
+                  {tour.highlights && (
+                    <div className="mb-4">
+                      <h3 className="font-bold text-lg">Highlights:</h3>
+                      <ul className="pl-6 list-disc">
+                        {tour.highlights?.length > 0 ? (
+                          tour.highlights.map((item, index) => (
+                            <li key={index}>{item}</li>
+                          ))
+                        ) : (
+                          <li>To Be Determined</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
 
-                {tour.inclusions && (
-                  <div>
-                    <h3>Includes:</h3>
-                    <ul className="pl-6 list-disc">
-                      {tour.inclusions?.length > 0 ? (
-                        tour.inclusions.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))
-                      ) : (
-                        <li>To Be Determined</li>
-                      )}
-                    </ul>
-                  </div>
-                )}
+                  {tour.inclusions && (
+                    <div>
+                      <h3>Includes:</h3>
+                      <ul className="pl-6 list-disc">
+                        {tour.inclusions?.length > 0 ? (
+                          tour.inclusions.map((item, index) => (
+                            <li key={index}>{item}</li>
+                          ))
+                        ) : (
+                          <li>To Be Determined</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
 
-                {tour.exclusions && (
-                  <div className="mt-4">
-                    <h3>Excludes:</h3>
-                    <ul className="pl-6 list-disc">
-                      {tour.exclusions?.length > 0 ? (
-                        tour.exclusions.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))
-                      ) : (
-                        <li>To Be Determined</li>
-                      )}
-                    </ul>
-                  </div>
-                )}
+                  {tour.exclusions && (
+                    <div className="mt-4">
+                      <h3>Excludes:</h3>
+                      <ul className="pl-6 list-disc">
+                        {tour.exclusions?.length > 0 ? (
+                          tour.exclusions.map((item, index) => (
+                            <li key={index}>{item}</li>
+                          ))
+                        ) : (
+                          <li>To Be Determined</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
                 </section>
               )}
 
