@@ -1,8 +1,10 @@
 import { homestaysAndHeritageStays } from "../constants/services/homestay/destinations";
 import { driverQualificationMatrix } from "../constants/services/transportation/staff/drivers";
 import { TourGuide } from "../interfaces/people/staff";
+import { Tour } from "../interfaces/services/tours";
 import {
   capitalize,
+  formatKebabToCamelCase,
   formatTitleToCamelCase,
   formatToSlug,
   removeAccents,
@@ -64,9 +66,6 @@ export async function getCityAttractions(
   region: string,
   country: string
 ): Promise<any> {
-  // Format city name for file path using slug format
-  const citySlug = formatToSlug(city);
-
   // Format city name for variable name (camelCase starting with lowercase)
   const cityFormatted =
     removeAccents(city).charAt(0).toLowerCase() +
@@ -89,8 +88,6 @@ export async function getCityAttractions(
 
   // Combine properly formatted parts
   const cityRegionCountry = `${cityFormatted}${regionFormatted}${countryFormatted}`;
-
-  console.log("Fetching attractions for:", cityRegionCountry);
   try {
     const attractionsModule = await import(
       `@/lib/constants/destinations/city/${cityFormatted}`
@@ -153,24 +150,11 @@ export async function findGuideBySpecialty(
     .replace(/['\-]/g, "")
     .replace(/-/g, " ");
   try {
-    // Convert kebab-case to camelCase for variable name
-
-    console.log(
-      `Searching for tour guides in city file: ${cityFormatted} with specialty: ${specialty}`
-    );
-
     // Import the city-specific tour guides
     const tourGuidesModule = await import(
       `@/lib/constants/staff/tourGuides/${cityFormatted}`
     );
     const cityTourGuides = tourGuidesModule[`${cityFormatted}TourGuides`];
-
-    console.log(
-      `Loaded export const ${cityFormatted}TourGuides : TourGuide[] = [] with ${
-        cityTourGuides?.length || 0
-      } guides`
-    );
-
     if (
       !cityTourGuides ||
       !Array.isArray(cityTourGuides) ||
@@ -183,18 +167,11 @@ export async function findGuideBySpecialty(
       );
     }
 
-    console.log("Tour guides: ", cityTourGuides);
     // If no specialty is provided, return a random guide from the city
     if (!specialty || specialty.trim() === "") {
       cityTourGuides.sort(() => Math.random() - 0.5); // Shuffle the array
       return cityTourGuides[0]; // Return a random guide
     }
-
-    console.log(
-      `Searching for guides in city: ${cityLower} with specialty: ${specialty}`
-    );
-
-    // Find all guides that match the specialty
     const matchingGuides = cityTourGuides.filter((guide) =>
       guide.specialties.some((guideSpecialty: string) =>
         guideSpecialty.toLowerCase().includes(specialty.toLowerCase())
@@ -243,9 +220,22 @@ export async function findGuideBySpecialty(
 }
 
 /**
- * Compiles all tour guide arrays from individual city files into a single array.
+ * Fetches and aggregates all tour guides from the application's city tour guide files.
  *
- * @returns A promise that resolves to an array of all TourGuide objects
+ * This function dynamically imports each city's tour guide module based on a predefined list
+ * of city names. Each module is expected to export an array of tour guides with a naming
+ * convention of `[cityName]TourGuides`.
+ *
+ * @returns {Promise<TourGuide[]>} A promise that resolves to an array containing all tour guides
+ * from all cities.
+ *
+ * @throws Will log an error to the console if importing a particular city's tour guides fails,
+ * but continues processing other cities.
+ *
+ * @remarks
+ * - Each city file should be located at `@/lib/constants/staff/tourGuides/[cityName].ts`
+ * - Each city file should export an array named `[cityName]TourGuides`
+ * - If a city's tour guides array is not found or not an array, a warning is logged
  */
 export async function getAllTourGuides(): Promise<TourGuide[]> {
   // List of all city file names (without the .ts extension)
@@ -385,4 +375,138 @@ export async function getAllTourGuides(): Promise<TourGuide[]> {
   }
 
   return allTourGuides;
+}
+
+/**
+ * Retrieves all tour information from predefined tour files.
+ *
+ * This function imports tour data from a list of predefined files located in the
+ * '@/lib/constants/tours/' directory. Each file should export a variable named
+ * according to the camelCase version of its filename, followed by 'Tours'.
+ *
+ * For example, 'athens.ts' should export 'athensTours'.
+ *
+ * @returns A Promise that resolves to an array of Tour objects containing all the tours
+ * from all the predefined files.
+ *
+ * @throws Will catch and log errors for individual file imports, but will not throw
+ * exceptions to the caller. If a file cannot be imported, its tours will be omitted
+ * from the returned array.
+ *
+ * @example
+ * // Get all tours
+ * const tours = await getAllTours();
+ */
+export async function getAllTours(): Promise<Tour[]> {
+  const tourFiles = [
+    "amalfi-coast",
+    "athens",
+    "atlas-mountains",
+    "bali",
+    "beijing",
+    "bologna",
+    "boston",
+    "budapest",
+    "buenos-aires",
+    "cannes",
+    "chefchaouen",
+    "chicago",
+    "chiang-mai",
+    "coorg",
+    "copenhagen",
+    "da-nang",
+    "denali",
+    "denpasar",
+    "dubai",
+    "edinburgh",
+    "fez",
+    "fiji",
+    "florence",
+    "fort-kochi",
+    "galapagos-islands",
+    "glasgow",
+    "hanoi",
+    "helsinki",
+    "heraklion",
+    "ho-chi-minh",
+    "hoi-an",
+    "hokkaido",
+    "honolulu",
+    "istanbul",
+    "jaipur",
+    "jamaica",
+    "juneau",
+    "kampala",
+    "kuala-lumpur",
+    "kyoto",
+    "las-vegas",
+    "leh",
+    "lisbon",
+    "london",
+    "los-angeles",
+    "madrid",
+    "malta",
+    "marrakech",
+    "matera",
+    "maui",
+    "mekong-delta",
+    "melbourne",
+    "mexico-city",
+    "monaco",
+    "montreal",
+    "mostar",
+    "mto-wa-mbu-village",
+    "mumbai",
+    "munich",
+    "naples",
+    "naxos-and-crete", // This is a combined file for Naxos and Crete
+  ];
+  const allTours: Tour[] = [];
+  for (const file of tourFiles) {
+    const constantName = formatKebabToCamelCase(file);
+    try {
+      const tourModule = await import(`@/lib/constants/tours/${file}`);
+      const tours = tourModule[`${constantName}Tours`];
+      if (tours) {
+        allTours.push(...tours);
+      } else {
+        console.warn(
+          `No valid tours found in ${file} within @/lib/constants/tours/${file}.ts`
+        );
+      }
+    } catch (error) {
+      console.error(`Error importing tours from ${file}:`, error);
+    }
+  }
+  return allTours;
+}
+
+/**
+ * Filters an array of tours by a specific category ID
+ *
+ * @param tours - The array of Tour objects to filter
+ * @param categoryId - The category ID to filter by
+ * @returns An array of Tour objects that belong to the specified category
+ *
+ * @remarks
+ * - Returns an empty array if tours is invalid (not an array)
+ * - Logs a warning if no tours match the specified category
+ * - Logs an error if the tours parameter is invalid
+ */
+export function getToursByCategory(tours: Tour[], categoryId: string): Tour[] {
+  if (!tours || !Array.isArray(tours)) {
+    console.error("Invalid tours data provided");
+    return [];
+  }
+
+  // Filter tours by the specified category ID
+  const filteredTours = tours.filter(
+    (tour) => tour.tourCategoryId === categoryId
+  );
+
+  if (filteredTours.length === 0) {
+    console.warn(`No tours found for category ID: ${categoryId}`);
+  }
+
+  return filteredTours;
 }
