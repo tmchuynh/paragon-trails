@@ -46,6 +46,11 @@ export default function BookYourTripToday() {
 
   useEffect(() => {
     const fetchData = async () => {
+      if (!city || !tourName || city.trim() === "" || tourName.trim() === "") {
+        console.warn("City or tourName is invalid. Skipping fetchData.");
+        setLoading(false);
+        return;
+      }
       if (city && tourName) {
         try {
           const data = await getTourData(city);
@@ -87,6 +92,8 @@ export default function BookYourTripToday() {
       }
     };
 
+    fetchData();
+  }, [city, tourName, tourCategoryId]);
     const fetchTours = async () => {
       try {
         // Await the Promise from getToolResource
