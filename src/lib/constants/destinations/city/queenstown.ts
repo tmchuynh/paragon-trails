@@ -1,0 +1,56 @@
+import { Attraction } from "@/lib/interfaces/services/attractions";
+
+export const queenstownOtagoNewZealand: Attraction[] = [
+  {
+    title: "Skyline Queenstown",
+    description:
+      "A must-visit for breathtaking views of Queenstown and the surrounding mountains, accessible by gondola.",
+    imageUrl: "https://plus.unsplash.com/skyline-queenstown.jpg",
+    location: "Brecon St, Queenstown 9300, New Zealand",
+    openingHours: "9 AM - 10 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.8,
+    tags: ["adventure", "scenic"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+  },
+  {
+    title: "Lake Wakatipu",
+    description:
+      "A stunning glacial lake known for its crystal-clear waters and scenic beauty, perfect for boating and hiking.",
+    imageUrl: "https://plus.unsplash.com/lake-wakatipu.jpg",
+    location: "Lake Wakatipu, Queenstown, New Zealand",
+    openingHours: "Open 24 hours",
+    priceRange: "$",
+    priceCategory: "free",
+    timeOfDay: "daytime",
+    rating: 4.9,
+    tags: ["nature", "scenic"],
+    accessibilityFeatures: ["limited accessibility"],
+    isPopular: true,
+    isFree: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: false,
+  },
+  {
+    title: "Queenstown Gardens",
+    description:
+      "A beautiful public park featuring walking trails, gardens, and a tranquil atmosphere, ideal for relaxation.",
+    imageUrl: "https://plus.unsplash.com/queenstown-gardens.jpg",
+    location: "Queenstown Gardens, Queenstown, New Zealand",
+    openingHours: "6 AM - 9 PM",
+    priceRange: "$",
+    priceCategory: "free",
+    timeOfDay: "daytime",
+    rating: 4.7,
+    tags: ["nature", "local"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: true,
+  },
+];

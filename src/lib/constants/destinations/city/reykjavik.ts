@@ -1,0 +1,56 @@
+import { Attraction } from "@/lib/interfaces/services/attractions";
+
+export const reykjavikCapitalRegionIceland: Attraction[] = [
+  {
+    title: "Hallgrímskirkja",
+    description:
+      "An iconic church in Reykjavik, known for its unique architecture and panoramic views from the tower.",
+    imageUrl: "https://plus.unsplash.com/hallgrimskirkja.jpg",
+    location: "Hallgrímstorg 1, 101 Reykjavík, Iceland",
+    openingHours: "9 AM - 5 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.8,
+    tags: ["cultural", "historical"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+  },
+  {
+    title: "Harpa Concert Hall",
+    description:
+      "A stunning concert hall and conference center, known for its distinctive glass facade and vibrant cultural events.",
+    imageUrl: "https://plus.unsplash.com/harpa-concert-hall.jpg",
+    location: "Austurbakki 2, 101 Reykjavík, Iceland",
+    openingHours: "10 AM - 6 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.7,
+    tags: ["cultural", "local"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+  },
+  {
+    title: "Reykjavik Art Museum - Hafnarhús",
+    description:
+      "The largest art museum in Iceland, showcasing contemporary art and exhibitions from local and international artists.",
+    imageUrl: "https://plus.unsplash.com/reykjavik-art-museum.jpg",
+    location: "Tryggvagata 17, 101 Reykjavík, Iceland",
+    openingHours: "11 AM - 5 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.6,
+    tags: ["cultural", "art"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+  },
+];

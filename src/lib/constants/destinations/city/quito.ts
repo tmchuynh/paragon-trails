@@ -1,0 +1,56 @@
+import { Attraction } from "@/lib/interfaces/services/attractions";
+
+export const quitoPichinchaProvinceEcuador: Attraction[] = [
+  {
+    title: "Mitad del Mundo",
+    description:
+      "A monument marking the equatorial line, offering a unique experience of standing in both hemispheres.",
+    imageUrl: "https://plus.unsplash.com/mitad-del-mundo.jpg",
+    location: "Mitad del Mundo, Pichincha, Ecuador",
+    openingHours: "9 AM - 5 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.5,
+    tags: ["cultural", "historical"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+    isPetFriendly: true,
+    isWheelchairAccessible: true,
+  },
+  {
+    title: "Quito Old Town",
+    description:
+      "A UNESCO World Heritage site, known for its well-preserved colonial architecture and vibrant atmosphere.",
+    imageUrl: "https://plus.unsplash.com/quito-old-town.jpg",
+    location: "Quito Old Town, Pichincha, Ecuador",
+    openingHours: "Open 24 hours",
+    priceRange: "$",
+    priceCategory: "free",
+    timeOfDay: "daytime",
+    rating: 4.8,
+    tags: ["cultural", "historical"],
+    accessibilityFeatures: ["limited accessibility"],
+    isPopular: true,
+    isFree: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: false,
+  },
+  {
+    title: "TelefériQo",
+    description:
+      "A cable car offering stunning views of Quito and the surrounding Andes mountains.",
+    imageUrl: "https://plus.unsplash.com/teleferico-quito.jpg",
+    location: "Quito, Pichincha, Ecuador",
+    openingHours: "9 AM - 10 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.6,
+    tags: ["adventure", "local"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+  },
+];

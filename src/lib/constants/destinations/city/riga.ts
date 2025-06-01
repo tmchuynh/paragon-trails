@@ -1,0 +1,56 @@
+import { Attraction } from "@/lib/interfaces/services/attractions";
+
+export const rigaRigaRegionLatvia: Attraction[] = [
+  {
+    title: "Riga Old Town",
+    description:
+      "A UNESCO World Heritage site, known for its medieval architecture, cobblestone streets, and vibrant atmosphere.",
+    imageUrl: "https://plus.unsplash.com/riga-old-town.jpg",
+    location: "Riga Old Town, Riga, Latvia",
+    openingHours: "Open 24 hours",
+    priceRange: "$",
+    priceCategory: "free",
+    timeOfDay: "daytime",
+    rating: 4.8,
+    tags: ["cultural", "historical"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: true,
+  },
+  {
+    title: "House of the Blackheads",
+    description:
+      "A stunning Gothic building that was originally built in the 14th century, now a museum and event venue.",
+    imageUrl: "https://plus.unsplash.com/house-of-the-blackheads.jpg",
+    location: "Rātslaukums 7, Centra rajons, Rīga, LV-1050, Latvia",
+    openingHours: "10 AM - 6 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.7,
+    tags: ["cultural", "historical"],
+    accessibilityFeatures: ["limited accessibility"],
+    isPopular: true,
+    isFree: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+  },
+  {
+    title: "Riga Central Market",
+    description:
+      "One of the largest and most vibrant markets in Europe, housed in former zeppelin hangars.",
+    imageUrl: "https://plus.unsplash.com/riga-central-market.jpg",
+    location: "Negu iela 7, Centra rajons, Rīga, LV-1050, Latvia",
+    openingHours: "7 AM - 10 PM",
+    priceRange: "$$",
+    priceCategory: "moderate",
+    timeOfDay: "daytime",
+    rating: 4.6,
+    tags: ["local", "cultural"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+    isFree: false,
+  },
+];
