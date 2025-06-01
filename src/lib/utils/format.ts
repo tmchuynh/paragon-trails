@@ -134,6 +134,15 @@ export function formatToSlug(str: string): string {
     .replace(/^-|-$/g, "");
 }
 
+export function formatKebebToTitleCase(str: string): string {
+  return str
+    .split("-")
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
 
 /**
  * Formats an array of language strings into a grammatically correct string.
