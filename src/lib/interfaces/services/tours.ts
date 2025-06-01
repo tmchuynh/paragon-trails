@@ -10,7 +10,7 @@ export interface TourCategory {
 
 export interface Tour {
   title: string;
-  icon: IconType;
+  icon?: IconType;
   description: string;
   images: string[];
   duration: string;
