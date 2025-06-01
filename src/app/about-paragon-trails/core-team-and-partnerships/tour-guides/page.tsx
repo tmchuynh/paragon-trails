@@ -18,7 +18,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { tourCategories, tourCategoryMap } from "@/lib/constants/staff/tourCategories";
+import {
+  tourCategories,
+  tourCategoryMap,
+} from "@/lib/constants/info/tourCategories";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { formatToSlug } from "@/lib/utils/format";
 import { getAllTourGuides } from "@/lib/utils/get";
