@@ -82,6 +82,20 @@ export const tourCategories: TourCategory[] = [
       "Discover urban landscapes, architecture, and local life through guided city explorations",
     icon: FaLandmark,
   },
+  {
+    id: "historical",
+    title: "Historical Tours",
+    description:
+      "Delve into the past with expert historians, visiting ancient ruins and significant landmarks",
+    icon: FaLandmark,
+  },
+  {
+    id: "nightlife",
+    title: "Nightlife Experiences",
+    description:
+      "Experience the vibrant nightlife of cities with local guides, exploring bars, clubs, and entertainment",
+    icon: FaHeart,
+  },
 ];
 
 // Map for quick lookup
