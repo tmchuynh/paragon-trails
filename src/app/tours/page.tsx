@@ -2,7 +2,8 @@
 
 import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
-import { tourCatorgories } from "@/lib/constants/staff/tourCategories";
+import { tourCategoryMap } from "@/lib/constants/staff/tourCategories";
+
 import { useRouter } from "next/navigation";
 
 export default function TourPackages() {
@@ -70,7 +71,7 @@ export default function TourPackages() {
       </section>
 
       <section className="gap-5 grid xl:grid-cols-2 divide-y">
-        {tourCatorgories.map((category) => (
+        {Object.values(tourCategoryMap).map((category) => (
           <section
             key={category.id}
             className="flex flex-col justify-between pb-15"
