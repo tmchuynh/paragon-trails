@@ -55,8 +55,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isWheelchairAccessible: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -81,7 +79,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     timeOfDay: "all day",
     isPopular: true,
     isRomantic: true,
-    isDining: true,
     isNightlife: true,
     isOutdoor: true,
     isLocalExperience: true,
@@ -90,7 +87,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isPetFriendly: true,
     isWheelchairAccessible: true,
     isHistorical: true,
-    isShopping: false,
     isIndoor: false,
     isLuxury: true,
   },
@@ -115,14 +111,12 @@ export const piraeusAtticaGreece: Attraction[] = [
     isFree: true,
     isWheelchairAccessible: true,
     isRomantic: true,
-    isDining: true,
     isLuxury: true,
     isPopular: true,
 
     isPetFriendly: true,
     isHistorical: true,
     isLocalExperience: true,
-    isShopping: false,
     isIndoor: false,
     isNightlife: false,
   },
@@ -183,8 +177,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isWheelchairAccessible: true,
     isLocalExperience: true,
     isPetFriendly: false,
-    isDining: false,
-    isShopping: false,
     isNightlife: false,
   },
   {
@@ -209,7 +201,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isHistorical: false,
     isIndoor: true,
     isRomantic: true,
-    isDining: true,
     isLuxury: true,
   },
   {
@@ -258,7 +249,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isHistorical: false,
     isOutdoor: true,
     isRomantic: true,
-    isDining: true,
   },
   {
     title: "Traditional Greek Taverna Experience",
@@ -283,7 +273,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isHistorical: false,
     isIndoor: true,
     isLocalExperience: true,
-    isDining: true,
   },
   {
     title: "Piraeus Street Art Tour",
@@ -356,7 +345,6 @@ export const piraeusAtticaGreece: Attraction[] = [
     isHistorical: false,
     isOutdoor: true,
     isRomantic: true,
-    isDining: true,
   },
   {
     title: "Piraeus Cultural Festival",

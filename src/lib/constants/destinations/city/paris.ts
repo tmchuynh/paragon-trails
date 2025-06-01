@@ -129,7 +129,6 @@ export const parisIleDeFranceFrance: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
   },
   {
     title: "Galeries Lafayette",
@@ -151,6 +150,5 @@ export const parisIleDeFranceFrance: Attraction[] = [
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isShopping: true,
   },
 ];
