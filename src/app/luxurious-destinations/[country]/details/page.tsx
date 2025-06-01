@@ -918,38 +918,6 @@ export default function DestinationDetailsPage() {
                             </TooltipContent>
                           </Tooltip>
                         )}
-                        {attraction.isShopping && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/shopping.svg"
-                                alt="Shopping Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Shopping Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isDining && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/dining.svg"
-                                alt="Dining Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Dining Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
                         {attraction.isOffTheBeatenPath && (
                           <Tooltip>
                             <TooltipTrigger asChild>
