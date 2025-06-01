@@ -14,7 +14,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["cultural", "historical", ],
+    tags: ["cultural", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -98,7 +98,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "daytime",
     rating: 4.9,
-    tags: ["historical",  "cultural"],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -119,7 +119,7 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     priceCategory: "moderate",
     timeOfDay: "evening",
     rating: 4.8,
-    tags: [ "cultural", ],
+    tags: ["cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -149,6 +149,5 @@ export const newOrleansLaUnitedStates: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
   },
 ];

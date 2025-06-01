@@ -128,7 +128,6 @@ export const naplesCampaniaItaly: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-    isDining: true,
     isLocalExperience: true,
   },
   {

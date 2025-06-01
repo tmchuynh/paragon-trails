@@ -109,7 +109,6 @@ export const osakaKansaiJapan: Attraction[] = [
     isFree: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-    isDining: true,
     isLocalExperience: true,
   },
   {
@@ -132,6 +131,5 @@ export const osakaKansaiJapan: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
   },
 ];

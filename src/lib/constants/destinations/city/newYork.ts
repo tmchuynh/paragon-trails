@@ -170,6 +170,5 @@ export const newYorkNyUnitedStates: Attraction[] = [
     isFree: false,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-    isDining: true,
   },
 ];

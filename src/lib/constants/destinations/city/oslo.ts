@@ -126,7 +126,5 @@ export const osloEasternNorwayNorway: Attraction[] = [
     isFree: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-    isDining: true,
-    isShopping: true,
   },
 ];
