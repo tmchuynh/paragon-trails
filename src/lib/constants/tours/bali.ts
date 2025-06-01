@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 export const baliTours: Tour[] = [
   {
     title: "Sacred Temples & Water Purification Ceremony",
@@ -18,7 +17,6 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bali", "wellness").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -67,7 +65,6 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bali", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -114,7 +111,6 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bali", "local").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -156,7 +152,6 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bali", "wellness").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -198,7 +193,6 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bali", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {

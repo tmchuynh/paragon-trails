@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const bostonTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -72,7 +70,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("boston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -120,7 +117,6 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -168,7 +164,6 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("boston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -215,7 +210,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -264,7 +258,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("boston", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -308,7 +301,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -357,7 +349,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("boston", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -407,7 +398,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -455,7 +445,6 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("boston", "local").name,
     tourCategoryId: "local",
     faqs: [
       {

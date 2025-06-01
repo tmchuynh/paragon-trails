@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const belgradeTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -66,7 +64,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -140,7 +136,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -177,7 +172,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -219,7 +213,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -261,7 +254,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -303,7 +295,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -345,7 +336,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "local").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -387,7 +377,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -429,7 +418,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -471,7 +459,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -513,7 +500,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {
@@ -555,7 +541,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("belgrade", "spiritual").name,
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -598,7 +583,6 @@ export const belgradeTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("belgrade", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

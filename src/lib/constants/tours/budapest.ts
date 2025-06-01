@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const budapestTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("budapest", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -56,7 +54,6 @@ export const budapestTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("budapest", "adventure").name,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -93,7 +90,6 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("budapest", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -130,7 +126,6 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("budapest", "nightlife").name,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -167,7 +162,6 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("budapest", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -204,7 +198,6 @@ export const budapestTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("budapest", "romantic").name,
     tourCategoryId: "romantic",
     faqs: [
       {
@@ -241,7 +234,6 @@ export const budapestTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("budapest", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {

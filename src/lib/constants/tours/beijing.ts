@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const beijingTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("beijing", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -66,7 +64,6 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("beijing", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -103,7 +100,6 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("beijing", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -140,7 +136,6 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("beijing", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -177,7 +172,6 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("beijing", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -214,7 +208,6 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("beijing", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -251,7 +244,6 @@ export const beijingTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("beijing", "local").name,
     tourCategoryId: "local",
     faqs: [
       {
@@ -288,7 +280,6 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("beijing", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -330,7 +321,6 @@ export const beijingTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("beijing", "luxury").name,
     tourCategoryId: "luxury",
     faqs: [
       {

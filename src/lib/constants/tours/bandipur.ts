@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const bandipurTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -76,7 +74,6 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("bandipur", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -128,7 +125,6 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("bandipur", "art").name,
     tourCategoryId: "art-and-music",
     faqs: [
       {
@@ -170,7 +166,6 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -222,7 +217,6 @@ export const bandipurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("bandipur", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {

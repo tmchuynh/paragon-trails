@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { findGuideBySpecialty } from "@/lib/utils/get";
 
 export const barcelonaTours: Tour[] = [
   {
@@ -19,7 +18,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -62,7 +60,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("barcelona", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -104,7 +101,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("barcelona", "historical").name,
     tourCategoryId: "historical",
     faqs: [
       {
@@ -146,7 +142,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("barcelona", "culinary").name,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -188,7 +183,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourGuide: findGuideBySpecialty("barcelona", "wellness").name,
     tourCategoryId: "wellness",
     faqs: [
       {
@@ -230,7 +224,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -272,7 +265,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("barcelona", "adventure").name,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -314,7 +306,6 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourGuide: findGuideBySpecialty("barcelona", "cultural").name,
     tourCategoryId: "cultural",
     faqs: [
       {
