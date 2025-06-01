@@ -11,14 +11,21 @@ import {
 } from "./format";
 
 export async function getTourData(city: string): Promise<any> {
+  // First remove accents from the entire city name, then format it
+  const cityWithoutAccents = removeAccents(city);
   const cityFormatted =
-    removeAccents(city).replaceAll(" ", "-").charAt(0).toLowerCase() +
-    formatTitleToCamelCase(city.slice(1)).replace("'", "").replace("-", "");
+    cityWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
+    formatTitleToCamelCase(cityWithoutAccents.slice(1))
+      .replace("'", "")
+      .replace("-", "");
+
   const tourID = `${cityFormatted}Tours`;
 
   try {
     const tourModule = await import(
-      `@/lib/constants/tours/${formatToSlug(city.replace("'", "-"))}`
+      `@/lib/constants/tours/${formatToSlug(
+        cityWithoutAccents.replace("'", "-")
+      )}`
     );
     // Return the specific named export that matches tourID
     if (tourModule[tourID]) {
@@ -87,10 +94,18 @@ export async function getCityAttractions(
     );
 
   // Combine properly formatted parts
-  const cityRegionCountry = `${cityFormatted}${regionFormatted}${countryFormatted}`;
+  const cityRegionCountry = `${removeAccents(
+    cityFormatted
+  )}${regionFormatted}${countryFormatted}`;
+  console.log(
+    `Fetching attractions for: ${removeAccents(
+      cityFormatted
+    )}, ${regionFormatted}, ${countryFormatted}`
+  );
+  console.log(`Using key: ${cityRegionCountry} for attractions data`);
   try {
     const attractionsModule = await import(
-      `@/lib/constants/destinations/city/${cityFormatted}`
+      `@/lib/constants/destinations/city/${removeAccents(cityFormatted)}`
     );
     if (attractionsModule[cityRegionCountry]) {
       return attractionsModule[cityRegionCountry];
@@ -102,7 +117,9 @@ export async function getCityAttractions(
     }
   } catch (error) {
     console.error(
-      `Error loading attractions for ${city} from @/lib/constants/destinations/city: ${error} export const ${cityRegionCountry}: Attraction[] = [];`
+      `Error loading attractions for ${city} from @/lib/constants/destinations/city/${removeAccents(
+        cityFormatted
+      )}: ${error} export const ${cityRegionCountry}: Attraction[] = [];`
     );
     return [];
   }
@@ -144,7 +161,7 @@ export async function findGuideBySpecialty(
   specialty: string
 ): Promise<TourGuide> {
   // Format the city name to lowercase for consistent comparison
-  const cityLower = city.replace("'", "").toLowerCase();
+  const cityLower = removeAccents(city).replace("'", "").toLowerCase();
 
   const cityFormatted = formatTitleToCamelCase(cityLower)
     .replace(/['\-]/g, "")
@@ -355,7 +372,7 @@ export async function getAllTourGuides(): Promise<TourGuide[]> {
     try {
       // Dynamic import of the tour guides file
       const tourGuidesModule = await import(
-        `@/lib/constants/staff/tourGuides/${city}`
+        `@/lib/constants/staff/tourGuides/${removeAccents(city)}`
       );
 
       // Get the tour guides array using the city name + TourGuides naming convention
@@ -463,9 +480,11 @@ export async function getAllTours(): Promise<Tour[]> {
   ];
   const allTours: Tour[] = [];
   for (const file of tourFiles) {
-    const constantName = formatKebabToCamelCase(file);
+    const constantName = formatKebabToCamelCase(removeAccents(file));
     try {
-      const tourModule = await import(`@/lib/constants/tours/${file}`);
+      const tourModule = await import(
+        `@/lib/constants/tours/${removeAccents(file)}`
+      );
       const tours = tourModule[`${constantName}Tours`];
       if (tours) {
         allTours.push(...tours);
