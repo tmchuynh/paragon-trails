@@ -117,10 +117,19 @@ export default function BookYourTripToday() {
   if (loading) {
     return <Loading />;
   }
-
   const totalPrice = tour
-    ? parseFloat(tour.price.replace(/[^0-9.]/g, "")) * participants
+    ? (() => {
+        const priceMatch = tour.price.match(/^\$?(\d+(\.\d{1,2})?)$/);
+        if (priceMatch) {
+          return parseFloat(priceMatch[1]) * participants;
+        } else {
+          console.error("Unexpected price format:", tour.price);
+          return 0;
+        }
+      })()
     : 0;
+
+  const dateClass = !date ? "text-muted-foreground" : "";
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
