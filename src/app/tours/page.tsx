@@ -2,7 +2,7 @@
 
 import ContactDepartmentCard from "@/components/cards/ContactDepartmentCard";
 import { Button } from "@/components/ui/button";
-import { tourCategoryMap } from "@/lib/constants/staff/tourCategories";
+import { tourCategoryMap } from "@/lib/constants/info/tourCategories";
 
 import { useRouter } from "next/navigation";
 
