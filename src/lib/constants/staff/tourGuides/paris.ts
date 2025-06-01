@@ -4,29 +4,29 @@ export const parisTourGuides: TourGuide[] = [
   {
     city: "Paris",
     country: "France",
-    name: "Sophie Dubois",
+    name: "Sophie Laurent",
     languages: ["French", "English", "Spanish"],
-    experienceYears: 9,
-    specialties: ["Cultural Heritage", "Historical Tours", "City Tours"],
-    bio: "Sophie Dubois is a Parisian historian with nine years of experience guiding visitors through the city's cultural and historical landmarks. With a degree in Art History from the Sorbonne, Sophie specializes in tours that explore Paris's iconic monuments, museums, and hidden neighborhoods. Her tours often include privileged access to historical sites and cultural venues, providing guests with unique perspectives on Parisian life. Sophie's passion for storytelling and extensive knowledge make her tours both engaging and insightful.",
+    experienceYears: 10,
+    specialties: ["art-and-music", "Museum Tours", "Architecture"],
+    bio: "Sophie Laurent is an art historian with ten years of experience guiding visitors through Paris's world-renowned museums and architectural wonders. With a doctorate in Art History from the Sorbonne, Sophie offers unparalleled insights into the city's artistic heritage. Her specialty tours of the Louvre, Musée d'Orsay, and Centre Pompidou often include private access to areas closed to general visitors. Sophie's passion for Parisian art and architecture is matched only by her storytelling abilities, making complex artistic traditions accessible and engaging for all experience levels.",
     description:
-      "Sophie Dubois reveals Paris's artistic treasures and historical narratives through expert-led tours.",
+      "Sophie Laurent reveals the artistic soul of Paris through expert museum and architectural tours.",
     quote:
-      "Paris is not just a city; it's a living museum where every street corner has a story to tell.",
+      "Paris is not merely a city of monuments—it's an ongoing conversation between past and present, expressed through centuries of artistic innovation.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
     city: "Paris",
     country: "France",
-    name: "Claire Moreau",
-    languages: ["French", "English", "Spanish"],
-    experienceYears: 10,
-    specialties: ["Cultural Heritage", "Art Tours", "City Tours"],
-    bio: "Claire, a Paris native, offers tours that explore the city’s rich cultural heritage, vibrant art scene, and historical landmarks. She has a degree in Art History from the University of Paris and has worked as a tour guide for over ten years. Claire combines her extensive knowledge of Paris's art and culture with her love for storytelling, making each tour a unique experience. Her tours often include exclusive access to museums and cultural sites, providing guests with an immersive cultural journey.",
+    name: "Pierre Dubois",
+    languages: ["French", "English", "Italian"],
+    experienceYears: 12,
+    specialties: ["culinary", "Wine Tasting", "Food History"],
+    bio: "Pierre Dubois transforms Paris's culinary landscape into delicious educational experiences. With twelve years of guiding experience and previous work as a sommelier, Pierre leads food-focused tours that explain the historical and cultural context of French cuisine. His tours often include visits to specialty food markets like Marché d'Aligre, hidden patisseries, and carefully selected bistros that showcase authentic local specialties. Pierre has particular expertise in French wines, offering tastings that demonstrate how different regions and terroirs express themselves through viticulture.",
     description:
-      "Claire, a Paris native, offers tours that explore the city’s rich cultural heritage, vibrant art scene, and historical landmarks.",
+      "Pierre Dubois guides culinary journeys through Paris's markets, bistros, and wine traditions.",
     quote:
-      "In Paris, every street is a work of art, and every meal is a taste of the city’s timeless spirit.",
+      "The French approach to food is philosophical—each dish represents centuries of cultural evolution and a deeply held belief in the importance of shared pleasure.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
