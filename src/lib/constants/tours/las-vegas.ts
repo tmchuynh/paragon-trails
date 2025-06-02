@@ -465,7 +465,7 @@ export const lasVegasTours: Tour[] = [
       "/images/tours/las-vegas/death-valley.jpg",
       "/images/tours/las-vegas/badwater-basin.jpg",
     ],
-    duration: "12 hours",
+    duration: "6 hours",
     price: "$195",
     rating: 4.7,
     tags: ["National Park", "Desert", "Geology"],

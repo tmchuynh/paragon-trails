@@ -5,6 +5,9 @@ export const daNangTours: Tour[] = [
     title: "Golden Bridge & Ba Na Hills",
     description:
       "Visit the iconic Golden Bridge held by giant hands and explore the whimsical Ba Na Hills French Village with panoramic mountain views.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://media.istockphoto.com/id/1422077457/photo/view-of-dragon-bridge-at-sunset.jpg?s=612x612&w=0&k=20&c=aDrp53gDEDMTFoOfoxtsqrzv3q_WeL6uBGKjZOyco-o=",
       "https://media.istockphoto.com/id/1501738272/photo/hoi-an-ancient-town-which-is-a-very-famous-destination-for-tourists.jpg?s=612x612&w=0&k=20&c=PMbm1tZTN0UeQTfm5Ma7jk0C0sUa4k4sZZP0whiwkDI=",
@@ -43,6 +46,9 @@ export const daNangTours: Tour[] = [
     title: "Marble Mountains & My Son Sanctuary",
     description:
       "Discover ancient Hindu temples at UNESCO-listed My Son Sanctuary and explore the caves and pagodas of the marble mountains in one fascinating day.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://media.istockphoto.com/id/1472794917/photo/ancient-temple-ruins-in-my-son-sanctuary-vietnam.jpg?s=612x612&w=0&k=20&c=obHd_BmpGScR4GRwgEn022QDCXwZ7Jw7GdXq3-w9vuQ=",
       "https://media.istockphoto.com/id/2168468553/photo/my-son-hindu-temples-quang-nam-province-vietnam.jpg?s=612x612&w=0&k=20&c=H2QIAm8h17O2xhEo09lMkHyWQbQZMDim1JImNSJekrc=",
@@ -82,6 +88,9 @@ export const daNangTours: Tour[] = [
     title: "Linh Ung Pagoda Son Tra Peninsula",
     description:
       "Visit the serene Linh Ung Pagoda, home to the tallest statue of the Lady Buddha in Vietnam, and enjoy breathtaking views of Da Nang from Son Tra Peninsula.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://media.istockphoto.com/id/1637036470/photo/aerial-view-drone-chua-linh-ung-bai-but-temple-lady-buddha-temple-in-da-nang-vietnam.jpg?s=612x612&w=0&k=20&c=iM4_0vgBvr5vQ6YAP9xOdPmbrfQ0j_wbpf0KJ6aLfF0=",
       "https://media.istockphoto.com/id/2149465806/photo/linh-ung-pagoda-temple-translation-from-chinese-character-in-da-nang-city-vietnam.jpg?s=612x612&w=0&k=20&c=nTBVFCSWfi0F_7H-4kjvUI3O-ZzjD8Rv3mML_PJVyLg=",
@@ -199,6 +208,9 @@ export const daNangTours: Tour[] = [
     title: "Linh Ung Pagoda Marble Mountains",
     description:
       "Explore the stunning Linh Ung Pagoda located in the Marble Mountains, known for its intricate sculptures and breathtaking views of the surrounding landscape.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://media.istockphoto.com/id/1472794917/photo/ancient-temple-ruins-in-my-son-sanctuary-vietnam.jpg?s=612x612&w=0&k=20&c=obHd_BmpGScR4GRwgEn022QDCXwZ7Jw7GdXq3-w9vuQ=",
       "https://media.istockphoto.com/id/1472794917/photo/ancient-temple-ruins-in-my-son-sanctuary-vietnam.jpg?s=612x612&w=0&k=20&c=obHd_BmpGScR4GRwgEn022QDCXwZ7Jw7GdXq3-w9vuQ=",
@@ -298,6 +310,9 @@ export const daNangTours: Tour[] = [
     title: "Danang Fine Arts Museum",
     description:
       "Explore the Danang Fine Arts Museum, showcasing contemporary Vietnamese art and traditional crafts in a modern architectural setting.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgJY1UT_Cj-JsgMSyMs5fksfBTw9yMi_D52ICOtwgdnELP1QFjNjJ8HdG2L_x8tB0rc-DGj11O0N1caMwxBq-G0UjfGT0jhPe1uWRpMEb8BFGWCHblXJ-ifEn94G1_ao2nYJCAZg=w243-h304-n-k-no-nu",
       "https://lh3.googleusercontent.com/gpms-cs-s/AB8u6HYKZmY8GjIBak3gZ2ffZU55hEYM6MdexZtQRkIkrTm6ler9RZQA7cWsAt3ZVWAdsE-qzKnkXAjQ3m-WJj9qTl_DA7uZt4hunnTFExwcDvY3jkEV0HMSYlO1zPScDNX8Yq0lDDa0pg=s294-w294-h220-n-k-no",
@@ -408,6 +423,9 @@ export const daNangTours: Tour[] = [
     title: "Danang Night Market Tour",
     description:
       "Experience the vibrant atmosphere of Danang's night market, sampling local street food, shopping for souvenirs, and enjoying live entertainment.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://images.unsplash.com/photo-1576510683662-0f5a01be2114?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGElMjBuYW5nJTIwbmlnaHQlMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D",
       "https://plus.unsplash.com/premium_photo-1673240845266-2f2c432cf194?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGElMjBuYW5nJTIwbmlnaHQlMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D",
@@ -542,6 +560,9 @@ export const daNangTours: Tour[] = [
     title: "Club One Opera",
     description:
       "Experience the vibrant nightlife of Da Nang at Club One Opera, known for its electrifying atmosphere, live DJ performances, and stunning light shows.",
+    city: "Da Nang",
+    country: "Vietnam",
+    region: "Central Vietnam",
     images: [
       "https://lh3.googleusercontent.com/p/AF1QipP7fp4VNz3hezxfQ_NPMqDF30DEEEOWZSJQAzWU=w243-h174-n-k-no-nu",
       "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npUGJtLX0yMMjrVAuTQyDaBbkHKkY1vuxjVqCtRzh2NdQrzIvbmimmr6WHz0FfW7BN-TFOI-3ISSyrWsMxU0_4O9QNWfzr6lzMNuP7iGp75wuypas2ziwFXvAmY6G5RNWcO-I18=w243-h243-n-k-no-nu",

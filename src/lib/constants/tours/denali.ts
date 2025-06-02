@@ -5,6 +5,10 @@ export const denaliTours: Tour[] = [
     title: "Denali National Park Wildlife Safari",
     description:
       "Embark on a guided safari through Denali National Park, home to North America's highest peak and diverse wildlife including grizzly bears, moose, and caribou.",
+    city: "Denali Park",
+    country: "United States",
+    state: "Alaska",
+    region: "Interior Alaska",
     images: [
       "/images/tours/denali/wildlife-safari.jpg",
       "/images/tours/denali/grizzly-bear.jpg",
@@ -41,6 +45,10 @@ export const denaliTours: Tour[] = [
     title: "Denali Scenic Flight & Glacier Landing",
     description:
       "Experience breathtaking aerial views of Denali's glaciers and peaks, followed by a thrilling glacier landing for an up-close encounter with the Alaskan wilderness.",
+    city: "Denali Park",
+    country: "United States",
+    state: "Alaska",
+    region: "Interior Alaska",
     images: [
       "/images/tours/denali/scenic-flight.jpg",
       "/images/tours/denali/glacier-landing.jpg",
@@ -77,6 +85,10 @@ export const denaliTours: Tour[] = [
     title: "Denali Hiking Adventure",
     description:
       "Join a guided hiking adventure through Denali's stunning landscapes, exploring hidden trails and enjoying panoramic views of the park's natural beauty.",
+    city: "Denali Park",
+    country: "United States",
+    state: "Alaska",
+    region: "Interior Alaska",
     images: [
       "/images/tours/denali/hiking-adventure.jpg",
       "/images/tours/denali/panoramic-view.jpg",
@@ -109,3 +121,5 @@ export const denaliTours: Tour[] = [
     ],
   },
 ];
+
+export default denaliTours;

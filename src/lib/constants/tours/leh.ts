@@ -40,7 +40,7 @@ export const lehTours: Tour[] = [
       "/images/tours/leh/nubra-valley.jpg",
       "/images/tours/leh/bactrian-camels.jpg",
     ],
-    duration: "2 days",
+    duration: "5 hours",
     price: "$275",
     rating: 4.8,
     tags: ["Adventure", "Desert", "Wildlife"],
@@ -71,7 +71,7 @@ export const lehTours: Tour[] = [
       "/images/tours/leh/pangong-lake.jpg",
       "/images/tours/leh/pangong-sunrise.jpg",
     ],
-    duration: "2 days",
+    duration: "7 hours",
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Lake", "Landscapes"],
@@ -95,38 +95,6 @@ export const lehTours: Tour[] = [
     ],
   },
   {
-    title: "Ladakhi Cooking Class & Village Homestay",
-    description:
-      "Experience authentic Ladakhi culture by staying with a local family in a traditional village home. Learn to prepare regional specialties like thukpa, momos, and butter tea using centuries-old techniques and locally sourced ingredients.",
-    images: [
-      "/images/tours/leh/ladakhi-cooking.jpg",
-      "/images/tours/leh/traditional-home.jpg",
-    ],
-    duration: "24 hours",
-    price: "$85",
-    rating: 4.8,
-    tags: ["Cooking", "Homestay", "Cultural"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What are the accommodations like in a village homestay?",
-        answer:
-          "Homestay accommodations are simple but comfortable, offering an authentic glimpse into traditional Ladakhi life. You'll have a private room in a family home with traditional composting toilets (no flush toilets) and bucket baths with heated water (no showers). Bedding includes thick, warm blankets on traditional wooden beds. Electricity is available but may be intermittent. While basic by urban standards, the cultural richness and hospitality of your host family create an unforgettable experience.",
-      },
-      {
-        question:
-          "Do I need to bring any special ingredients for the cooking class?",
-        answer:
-          "No special ingredients are required. All necessary ingredients will be provided by your host family, who sources fresh produce from local markets. The class focuses on traditional Ladakhi recipes using locally available ingredients like barley flour, vegetables, and dairy products. You will learn how to make dishes from scratch, including dough preparation and steaming techniques.",
-      },
-    ],
-  },
-  {
     title: "River Rafting Adventure on the Zanskar",
     description:
       "Tackle exhilarating rapids on the turquoise waters of the Zanskar River, surrounded by towering gorges and pristine wilderness. This world-class rafting expedition is led by internationally certified river guides and includes riverside camping.",
@@ -134,7 +102,7 @@ export const lehTours: Tour[] = [
       "/images/tours/leh/zanskar-rafting.jpg",
       "/images/tours/leh/river-camping.jpg",
     ],
-    duration: "2 days",
+    duration: "4 hours",
     price: "$225",
     rating: 4.7,
     tags: ["Rafting", "Adventure", "Camping"],

@@ -133,7 +133,7 @@ export const naxosAndCreteTours: Tour[] = [
       "/images/tours/naxos-and-crete/samaria-gorge.jpg",
       "/images/tours/naxos-and-crete/gorge-hiking.jpg",
     ],
-    duration: "12 hours",
+    duration: "5 hours",
     price: "$95",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Adventure"],

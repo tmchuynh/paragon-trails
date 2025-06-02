@@ -133,7 +133,7 @@ export const mekongDeltaTours: Tour[] = [
       "/images/tours/mekong-delta/photography-workshop.jpg",
       "/images/tours/mekong-delta/river-sunset-photo.jpg",
     ],
-    duration: "2 days",
+    duration: "4 hours",
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Culture", "Landscapes"],

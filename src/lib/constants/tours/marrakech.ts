@@ -45,7 +45,7 @@ export const marrakechTours: Tour[] = [
       "/images/tours/marrakech/sahara-camels.jpg",
       "/images/tours/marrakech/desert-camp.jpg",
     ],
-    duration: "2 days",
+    duration: "7 hours",
     price: "$295",
     rating: 4.9,
     tags: ["Desert", "Adventure", "Cultural"],
