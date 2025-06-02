@@ -18,7 +18,27 @@ export const bolognaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Piazza Maggiore, 40124 Bologna, Italy",
+      coordinates: {
+        latitude: 44.4938,
+        longitude: 11.3426,
+      },
+      instructions:
+        "Meet your guide at the central fountain in Piazza Maggiore. Your guide will be holding a wooden rolling pin and a sign with 'Pasta Making Class' written on it. Please arrive 15 minutes before the scheduled class time. From there, we'll walk together to Nonna's home which is located about 10 minutes away in a historic neighborhood.",
+      contactNumber: "+39 051 123 4567",
+      contactEmail: "pastaclass@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this class suitable for beginners?",
@@ -34,6 +54,16 @@ export const bolognaTours: Tour[] = [
         question: "Will we be able to take home any pasta?",
         answer:
           "Yes, you will make enough pasta to enjoy a generous portion during the meal, and you can take home any leftovers. Nonna Maria will also provide you with her family recipes so you can recreate the dishes at home.",
+      },
+      {
+        question: "How many types of pasta will we learn to make?",
+        answer:
+          "During the class, you'll learn to prepare 2-3 different types of pasta, typically including tagliatelle, tortellini, and either garganelli or farfalle. Each type demonstrates different techniques, from rolling and cutting to shaping and filling. You'll also learn to prepare a traditional Bolognese ragù sauce from scratch using Nonna's secret recipe.",
+      },
+      {
+        question: "Is wine included with the meal?",
+        answer:
+          "Yes, the meal includes carefully selected local wines from Emilia-Romagna that pair perfectly with the dishes you prepare. Typically, we serve a Pignoletto (a local white wine) and a Sangiovese di Romagna (red). Non-alcoholic options like sparkling water and homemade juices are also available.",
       },
     ],
   },
@@ -54,7 +84,28 @@ export const bolognaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Due Torri (Asinelli and Garisenda), Piazza di Porta Ravegnana, 40126 Bologna, Italy",
+      coordinates: {
+        latitude: 44.4941,
+        longitude: 11.3471,
+      },
+      instructions:
+        "Meet your art historian guide at the base of the Asinelli Tower in Piazza di Porta Ravegnana. Look for a guide holding a blue folder with architectural drawings. Please arrive 10 minutes before your scheduled tour time wearing comfortable shoes for tower climbing.",
+      contactNumber: "+39 051 234 5678",
+      contactEmail: "architecture@paragontrails.com",
+    },
     faqs: [
       {
         question: "Does this tour involve a lot of climbing?",
@@ -70,6 +121,16 @@ export const bolognaTours: Tour[] = [
         question: "Can children join this tour?",
         answer:
           "Yes, children are welcome, but please note that the tower climb may be challenging for very young children. We recommend this tour for ages 10 and up.",
+      },
+      {
+        question: "What makes Bologna's porticoes unique?",
+        answer:
+          "Bologna has over 40 kilometers of porticoes (covered walkways), the largest collection in the world, which earned UNESCO World Heritage status in 2021. Dating from the Middle Ages, these architectural features were originally created to expand living space as the city grew. Our tour explores both famous porticoes and hidden sections that tell the story of Bologna's urban development across the centuries.",
+      },
+      {
+        question: "What happens in case of bad weather?",
+        answer:
+          "This tour operates in most weather conditions as the porticoes provide excellent shelter from rain or intense sun. In case of severe weather (thunderstorms, extreme winds) that could make tower access unsafe, we would modify the tour to focus on interior sites and sheltered porticoes or offer rescheduling options.",
       },
     ],
   },
@@ -90,7 +151,27 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Mercato delle Erbe, Via Ugo Bassi 25, 40121 Bologna, Italy",
+      coordinates: {
+        latitude: 44.4956,
+        longitude: 11.339,
+      },
+      instructions:
+        "Meet your culinary guide at the main entrance of Mercato delle Erbe on Via Ugo Bassi. Your guide will be holding a shopping basket with the Paragon Trails logo. Please arrive hungry and 10 minutes before your scheduled tour time.",
+      contactNumber: "+39 051 345 6789",
+      contactEmail: "foodtour@paragontrails.com",
+    },
     faqs: [
       {
         question: "What types of food will we sample?",
@@ -112,6 +193,11 @@ export const bolognaTours: Tour[] = [
         answer:
           "Dress comfortably for walking! Bologna's streets are mostly cobblestone, so comfortable shoes are recommended. The weather can vary, so check the forecast before your tour.",
       },
+      {
+        question: "How many different establishments will we visit?",
+        answer:
+          "The tour includes stops at 5-6 different locations, including historic markets, traditional food shops, a pasta maker, and a hidden enoteca (wine bar). Each location specializes in different aspects of Bolognese cuisine, from fresh produce to artisanal cured meats, cheeses, and wines.",
+      },
     ],
   },
   {
@@ -131,7 +217,27 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "wellness",
+    meetingPoint: {
+      address: "Via Piella 5, 40126 Bologna, Italy",
+      coordinates: {
+        latitude: 44.4986,
+        longitude: 11.3452,
+      },
+      instructions:
+        "Meet your guide at the 'little window' on Via Piella that looks onto the hidden canal (Finestrella di Via Piella). Your guide will be wearing a green scarf and holding a small map of Bologna's canal system. Please arrive 10 minutes before the scheduled tour time.",
+      contactNumber: "+39 051 456 7890",
+      contactEmail: "canals@paragontrails.com",
+    },
     faqs: [
       {
         question: "Are the canals accessible by foot?",
@@ -147,6 +253,16 @@ export const bolognaTours: Tour[] = [
         question: "What should I bring?",
         answer:
           "We recommend bringing a water bottle, sunscreen, and a camera to capture the beautiful scenery. A light jacket may be useful depending on the season.",
+      },
+      {
+        question: "Why are Bologna's canals hidden?",
+        answer:
+          "Unlike Venice, Bologna's extensive canal system was gradually covered during the 20th century urban development. Today, most canals run underground or are hidden between buildings, with only a few visible spots remaining. Our tour reveals these hidden waterways and explains their historical importance for trade, industry, and city life from medieval times through the industrial revolution.",
+      },
+      {
+        question: "What makes these gardens 'secret'?",
+        answer:
+          "The gardens we visit are tucked away inside private courtyards, monastery grounds, or behind unassuming facades, making them invisible to casual visitors. Some are only accessible through special arrangement with owners or caretakers. These green oases have fascinating histories as private aristocratic gardens, medicinal herb gardens of ancient hospitals, or contemplative spaces for religious orders.",
       },
     ],
   },
@@ -167,7 +283,28 @@ export const bolognaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "MAMbo - Museo d'Arte Moderna di Bologna, Via Don Giovanni Minzoni 14, 40121 Bologna, Italy",
+      coordinates: {
+        latitude: 44.5018,
+        longitude: 11.3367,
+      },
+      instructions:
+        "Meet your art guide at the entrance to MAMbo (Museum of Modern Art Bologna). Your guide will be holding an art catalog and wearing a colorful scarf. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+39 051 567 8901",
+      contactEmail: "arttour@paragontrails.com",
+    },
     faqs: [
       {
         question: "What types of art will we see?",
@@ -183,6 +320,16 @@ export const bolognaTours: Tour[] = [
         question: "Do we need to book in advance?",
         answer:
           "Yes, we recommend booking at least 24 hours in advance to secure your spot and allow us to prepare for any special requests.",
+      },
+      {
+        question: "What kind of performance will we see?",
+        answer:
+          "The performance varies depending on the evening's cultural calendar and can include jazz at a historic venue, experimental theater, contemporary dance, or classical music in an unexpected setting. We carefully select performances that showcase Bologna's vibrant cultural scene, prioritizing quality and authenticity over tourist-oriented shows.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour covers approximately 2-3 kilometers at a leisurely evening pace. We walk between several galleries and art sites in Bologna's university district and former industrial areas that have been transformed into creative hubs. The terrain is mostly flat, though some streets are cobblestoned or uneven.",
       },
     ],
   },

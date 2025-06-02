@@ -18,7 +18,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Boston Common Visitor Center, 139 Tremont St, Boston, MA 02111",
+      coordinates: {
+        latitude: 42.3554,
+        longitude: -71.064,
+      },
+      instructions:
+        "Meet your guide at the Boston Common Visitor Center entrance. Look for a guide in historical costume holding a 'Freedom Trail Tours' sign. Please arrive 15 minutes before the scheduled tour time.",
+      contactNumber: "+1 617-123-4567",
+      contactEmail: "freedomtrail@paragontrails.com",
+    },
     faqs: [
       {
         question: "How long is the walking route?",
@@ -70,7 +90,28 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Harvard Square, Cambridge, MA 02138, near the Harvard MBTA Station",
+      coordinates: {
+        latitude: 42.3737,
+        longitude: -71.119,
+      },
+      instructions:
+        "Meet your student guide by the Harvard Square MBTA station entrance next to the Out of Town News kiosk. Your guide will be wearing a crimson Harvard sweatshirt and holding a 'Harvard Tours' sign. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+1 617-234-5678",
+      contactEmail: "harvard@paragontrails.com",
+    },
     faqs: [
       {
         question: "Will this tour help with college admissions?",
@@ -117,7 +158,27 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "romantic",
+    meetingPoint: {
+      address: "Long Wharf, Boston Harbor, Boston, MA 02110",
+      coordinates: {
+        latitude: 42.3603,
+        longitude: -71.0499,
+      },
+      instructions:
+        "Meet at the ticket booth on Long Wharf, near the Marriott Hotel. Our representative will be at the booth with a manifest of guests. Please arrive 30 minutes before departure for boarding procedures and bring your ID for verification.",
+      contactNumber: "+1 617-345-6789",
+      contactEmail: "harborexperience@paragontrails.com",
+    },
     faqs: [
       {
         question: "What should I wear for the cruise?",
@@ -164,7 +225,27 @@ export const bostonTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Paul Revere Statue, North End, Boston, MA 02113",
+      coordinates: {
+        latitude: 42.3636,
+        longitude: -71.0537,
+      },
+      instructions:
+        "Meet your culinary guide at the Paul Revere Statue in the North End's Paul Revere Mall. Your guide will be holding a basket with bread and a 'North End Food Tour' sign. Please arrive 10 minutes early and come hungry, as we'll begin sampling food shortly after starting.",
+      contactNumber: "+1 617-456-7890",
+      contactEmail: "foodtours@paragontrails.com",
+    },
     faqs: [
       {
         question: "Are vegetarian options available?",
@@ -210,7 +291,28 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Boston Tea Party Ships & Museum, 306 Congress St, Boston, MA 02210",
+      coordinates: {
+        latitude: 42.3519,
+        longitude: -71.0528,
+      },
+      instructions:
+        "Meet inside the main entrance of the Boston Tea Party Ships & Museum. Check in at the ticket counter 15 minutes prior to your scheduled tour time. Your ticket will be under your name.",
+      contactNumber: "+1 617-567-8901",
+      contactEmail: "teaparty@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour suitable for young children?",
@@ -258,7 +360,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "local",
+    meetingPoint: {
+      address: "Fenway Park, 4 Jersey Street, Boston, MA 02215",
+      coordinates: {
+        latitude: 42.3467,
+        longitude: -71.0972,
+      },
+      instructions:
+        "Meet at Gate D of Fenway Park (also known as the Yawkey Way entrance). Your tour guide will be wearing a Red Sox cap and holding a 'Fenway Tours' clipboard. Please arrive 15 minutes before your scheduled tour time.",
+      contactNumber: "+1 617-678-9012",
+      contactEmail: "fenway@paragontrails.com",
+    },
     faqs: [
       {
         question: "Can I visit the locker rooms during the tour?",
@@ -282,6 +404,16 @@ export const bostonTours: Tour[] = [
         answer:
           "The tour reveals Fenway's remarkable balancing act between tradition and modernization. You'll see how the 1934 fire prompted major renovations, how the park narrowly escaped demolition in the 1960s, and how the current ownership has invested over $300 million in improvements since 2002. We explain architectural preservation techniques, modern amenities that were carefully integrated, and how the Monster Seats atop the left field wall transformed a billboard space into premium seating while respecting the park's historic character.",
       },
+      {
+        question: "Is photography allowed during the tour?",
+        answer:
+          "Yes, photography is encouraged throughout the tour for personal use. You'll have plenty of opportunities to take photos from unique vantage points, including the press box and dugout. Some areas may have restrictions during certain times of year, but your guide will clearly indicate these.",
+      },
+      {
+        question: "What happens if there is a rain delay or game cancellation?",
+        answer:
+          "Tours run regardless of weather, as most areas are covered or indoor spaces. However, if a game is rescheduled or weather conditions affect access to certain areas, your tour might be slightly modified. In cases where significant portions of the tour cannot be completed, we offer partial refunds or rescheduling options. Your guide will inform you of any last-minute changes before the tour begins.",
+      },
     ],
   },
   {
@@ -301,7 +433,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Boston Common Visitor Center, 139 Tremont St, Boston, MA 02111",
+      coordinates: {
+        latitude: 42.3554,
+        longitude: -71.064,
+      },
+      instructions:
+        "Meet your guide at the Boston Common Visitor Center main entrance. Look for a guide holding a 'Salem History Tour' sign. Please arrive 15 minutes before the scheduled departure time as the coach leaves promptly at the advertised time.",
+      contactNumber: "+1 617-789-0123",
+      contactEmail: "salem@paragontrails.com",
+    },
     faqs: [
       {
         question: "How do we travel from Boston to Salem?",
@@ -349,7 +501,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Harpoon Brewery, 306 Northern Ave, Boston, MA 02210",
+      coordinates: {
+        latitude: 42.3467,
+        longitude: -71.0338,
+      },
+      instructions:
+        "Meet your beer expert at the entrance to Harpoon Brewery in the Seaport District. Your guide will be wearing a Paragon Trails hat and holding a clipboard. Please bring a valid ID as you will not be admitted to the breweries without proof of legal drinking age.",
+      contactNumber: "+1 617-890-1234",
+      contactEmail: "beer@paragontrails.com",
+    },
     faqs: [
       {
         question: "How many breweries do we visit?",
@@ -398,7 +570,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Boston Public Library, 700 Boylston St, Boston, MA 02116",
+      coordinates: {
+        latitude: 42.3498,
+        longitude: -71.0776,
+      },
+      instructions:
+        "Meet your literary guide at the entrance to the historic Boston Public Library in Copley Square. Your guide will be carrying a copy of Emerson's 'Self-Reliance' and wearing a blue scarf. Please arrive 10 minutes before the tour begins.",
+      contactNumber: "+1 617-901-2345",
+      contactEmail: "literary@paragontrails.com",
+    },
     faqs: [
       {
         question: "Which authors' homes and haunts will we visit?",
@@ -445,7 +637,27 @@ export const bostonTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "local",
+    meetingPoint: {
+      address: "MIT Stata Center, 32 Vassar St, Cambridge, MA 02139",
+      coordinates: {
+        latitude: 42.3616,
+        longitude: -71.0909,
+      },
+      instructions:
+        "Meet your tech guide at the entrance to the Frank Gehry-designed Stata Center on MIT's campus. Your guide will be carrying a tablet with a Paragon Trails logo displayed. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+1 617-012-3456",
+      contactEmail: "techinnovation@paragontrails.com",
+    },
     faqs: [
       {
         question: "Will we see active research labs during the tour?",
