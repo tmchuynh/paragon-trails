@@ -5,6 +5,9 @@ export const fezTours: Tour[] = [
     title: "Medieval Fez Medina Deep Dive",
     description:
       "Navigate the world's largest car-free urban area with an expert local guide who unveils hidden workshops, architectural treasures, and authentic markets in the 1,200-year-old UNESCO-listed medina.",
+    city: "Fez",
+    country: "Morocco",
+    region: "Fès-Meknès",
     images: [
       "/images/tours/fez/medina-streets.jpg",
       "/images/tours/fez/artisan-workshop.jpg",
@@ -41,6 +44,9 @@ export const fezTours: Tour[] = [
     title: "Moroccan Culinary Journey & Cooking Workshop",
     description:
       "Discover the secrets of Moroccan cuisine with a market tour to select fresh ingredients, followed by a hands-on cooking class in a traditional riad where you'll prepare authentic dishes like tagine and pastilla.",
+    city: "Fez",
+    country: "Morocco",
+    region: "Fès-Meknès",
     images: [
       "/images/tours/fez/cooking-class.jpg",
       "/images/tours/fez/spice-market.jpg",
@@ -77,6 +83,9 @@ export const fezTours: Tour[] = [
     title: "Artisan Craft Tour: Traditional Moroccan Arts",
     description:
       "Meet master artisans preserving Morocco's artistic heritage with visits to workshops specializing in zellige mosaics, copper work, woodcarving, and textile weaving, with opportunities for hands-on participation.",
+    city: "Fez",
+    country: "Morocco",
+    region: "Fès-Meknès",
     images: [
       "/images/tours/fez/zellige-craftsman.jpg",
       "/images/tours/fez/leather-tannery.jpg",
@@ -113,6 +122,9 @@ export const fezTours: Tour[] = [
     title: "Middle Atlas Mountains & Berber Villages",
     description:
       "Escape the city for a day exploring the stunning cedar forests of the Middle Atlas Mountains, visiting traditional Berber villages, and experiencing rural Moroccan life with a home-cooked lunch in a local family home.",
+    city: "Ifrane",
+    country: "Morocco",
+    region: "Fès-Meknès",
     images: [
       "/images/tours/fez/middle-atlas.jpg",
       "/images/tours/fez/berber-village.jpg",
@@ -149,6 +161,9 @@ export const fezTours: Tour[] = [
     title: "After Dark: Fez by Night Experience",
     description:
       "Experience the magical atmosphere of Fez after sunset with an evening tour featuring illuminated monuments, dinner at a restored palace, and live traditional music in an authentic setting.",
+    city: "Fez",
+    country: "Morocco",
+    region: "Fès-Meknès",
     images: [
       "/images/tours/fez/night-monuments.jpg",
       "/images/tours/fez/palace-dinner.jpg",

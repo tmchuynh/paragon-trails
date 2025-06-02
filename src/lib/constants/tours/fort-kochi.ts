@@ -5,6 +5,9 @@ export const fortKochiTours: Tour[] = [
     title: "Colonial Heritage & Chinese Fishing Nets",
     description:
       "Explore Fort Kochi's rich colonial past with visits to Dutch, Portuguese, and British heritage sites, culminating in sunset at the iconic Chinese fishing nets with opportunity to assist local fishermen.",
+    city: "Fort Kochi",
+    country: "India",
+    region: "Kerala",
     images: [
       "/images/tours/fort-kochi/chinese-fishing-nets.jpg",
       "/images/tours/fort-kochi/colonial-buildings.jpg",
@@ -41,6 +44,9 @@ export const fortKochiTours: Tour[] = [
     title: "Kerala Cuisine Cooking Class & Spice Market",
     description:
       "Discover Kerala's aromatic cuisine with a guided tour of Fort Kochi's spice markets followed by a hands-on cooking class in a traditional home, learning to prepare authentic Syrian Christian and Malabari dishes.",
+    city: "Fort Kochi",
+    country: "India",
+    region: "Kerala",
     images: [
       "/images/tours/fort-kochi/cooking-class.jpg",
       "/images/tours/fort-kochi/spice-market.jpg",
@@ -77,6 +83,9 @@ export const fortKochiTours: Tour[] = [
     title: "Kathakali Classical Dance & Cultural Performance",
     description:
       "Experience the ancient art of Kathakali with a behind-the-scenes look at elaborate makeup preparation, followed by a mesmerizing performance of this classical Kerala dance-drama that combines literature, music, painting, acting, and dance.",
+    city: "Fort Kochi",
+    country: "India",
+    region: "Kerala",
     images: [
       "/images/tours/fort-kochi/kathakali-makeup.jpg",
       "/images/tours/fort-kochi/kathakali-performance.jpg",
@@ -115,6 +124,9 @@ export const fortKochiTours: Tour[] = [
     title: "Jewish Heritage Walking Tour",
     description:
       "Explore Fort Kochi's fascinating Jewish history with visits to the 16th-century Paradesi Synagogue, Jewish Cemetery, and historic Jew Town, learning about this ancient community's rich cultural contributions and distinctive heritage.",
+    city: "Fort Kochi",
+    country: "India",
+    region: "Kerala",
     images: [
       "/images/tours/fort-kochi/paradesi-synagogue.jpg",
       "/images/tours/fort-kochi/jew-town.jpg",

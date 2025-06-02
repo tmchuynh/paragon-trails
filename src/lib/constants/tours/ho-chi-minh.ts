@@ -5,6 +5,9 @@ export const hoChiMinhTours: Tour[] = [
     title: "Cu Chi Tunnels & Vietnam War History",
     description:
       "Journey through Vietnam's complex wartime history with an expert guide at the Cu Chi Tunnels complex, exploring underground networks, hidden trapdoors, and gaining historical perspective from both sides of the conflict.",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    region: "Southern Vietnam",
     images: [
       "/images/tours/ho-chi-minh/cu-chi-tunnels.jpg",
       "/images/tours/ho-chi-minh/war-remnants.jpg",
@@ -41,6 +44,9 @@ export const hoChiMinhTours: Tour[] = [
     title: "Saigon Street Food Adventure",
     description:
       "Discover the vibrant flavors of Vietnamese cuisine with a guided food tour through bustling markets and hidden street food stalls, sampling regional specialties with insights from a local foodie expert.",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    region: "Southern Vietnam",
     images: [
       "/images/tours/ho-chi-minh/street-food.jpg",
       "/images/tours/ho-chi-minh/local-market.jpg",
@@ -77,6 +83,9 @@ export const hoChiMinhTours: Tour[] = [
     title: "Mekong Delta Day Trip",
     description:
       "Experience the lush landscapes and traditional lifestyles of the Mekong Delta with a full-day tour that includes boat rides, local markets, and visits to family-run farms and workshops.",
+    city: "My Tho",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/ho-chi-minh/mekong-delta.jpg",
       "/images/tours/ho-chi-minh/boat-ride.jpg",
@@ -113,6 +122,9 @@ export const hoChiMinhTours: Tour[] = [
     title: "Saigon River Sunset Cruise",
     description:
       "Relax on a scenic evening cruise along the Saigon River, enjoying stunning sunset views, traditional Vietnamese music, and a selection of local snacks and drinks.",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    region: "Southern Vietnam",
     images: [
       "/images/tours/ho-chi-minh/sunset-cruise.jpg",
       "/images/tours/ho-chi-minh/river-view.jpg",

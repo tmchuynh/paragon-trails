@@ -5,6 +5,9 @@ export const hanoiTours: Tour[] = [
     title: "Hanoi City Highlights Tour",
     description:
       "Explore the rich history and vibrant culture of Hanoi with a guided tour of its most iconic landmarks, including the Ho Chi Minh Mausoleum, the Old Quarter, and the Temple of Literature.",
+    city: "Hanoi",
+    country: "Vietnam",
+    region: "Northern Vietnam",
     images: [
       "/images/tours/hanoi/ho-chi-minh-mausoleum.jpg",
       "/images/tours/hanoi/old-quarter.jpg",
@@ -41,6 +44,9 @@ export const hanoiTours: Tour[] = [
     title: "Hanoi Street Food Adventure",
     description:
       "Dive into Hanoi's culinary scene with a guided street food tour, sampling local delicacies like pho, banh mi, and egg coffee from hidden gems around the city.",
+    city: "Hanoi",
+    country: "Vietnam",
+    region: "Northern Vietnam",
     images: [
       "/images/tours/hanoi/street-food.jpg",
       "/images/tours/hanoi/pho.jpg",
@@ -74,3 +80,5 @@ export const hanoiTours: Tour[] = [
     ],
   },
 ];
+
+export default hanoiTours;

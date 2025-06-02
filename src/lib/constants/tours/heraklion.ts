@@ -5,6 +5,9 @@ export const heraklionTours: Tour[] = [
     title: "Knossos Palace & Minoan Civilization",
     description:
       "Journey back 4,000 years with an archaeologist guide who brings the ancient Minoan civilization to life at the legendary Palace of Knossos and Archaeological Museum of Heraklion.",
+    city: "Heraklion",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/heraklion/knossos-palace.jpg",
       "/images/tours/heraklion/archaeological-museum.jpg",
@@ -42,6 +45,9 @@ export const heraklionTours: Tour[] = [
     title: "Cretan Vineyard Tour & Mountain Villages",
     description:
       "Explore Crete's renowned wine country and traditional mountain villages, sampling unique indigenous grape varieties and enjoying authentic farm-to-table cuisine at family-run tavernas.",
+    city: "Heraklion",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/heraklion/wine-tasting.jpg",
       "/images/tours/heraklion/mountain-village.jpg",
@@ -78,6 +84,9 @@ export const heraklionTours: Tour[] = [
     title: "Heraklion Street Food & Local Markets",
     description:
       "Experience the vibrant flavors of Heraklion with a guided street food tour, sampling local delicacies like kalitsounia, dakos, and loukoum at bustling markets and hidden eateries.",
+    city: "Heraklion",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/heraklion/street-food.jpg",
       "/images/tours/heraklion/local-markets.jpg",

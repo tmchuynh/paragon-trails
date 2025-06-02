@@ -5,6 +5,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Darwin's Footsteps Wildlife Expedition",
     description:
       "Follow in the footsteps of Charles Darwin with a naturalist-led journey through the islands that inspired the theory of evolution. Observe unique wildlife including giant tortoises, marine iguanas, and blue-footed boobies in their natural habitats.",
+    city: "Puerto Ayora",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/giant-tortoise.jpg",
       "/images/tours/galapagos-islands/blue-footed-boobies.jpg",
@@ -37,6 +40,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Galapagos Marine Reserve Snorkeling Safari",
     description:
       "Explore the world's second-largest marine reserve with daily snorkeling excursions to encounter sea turtles, reef sharks, manta rays, and playful sea lions. Visit multiple islands aboard our eco-friendly expedition vessel with a marine biologist guide.",
+    city: "San Cristobal",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/snorkeling-sea-lions.jpg",
       "/images/tours/galapagos-islands/manta-rays.jpg",
@@ -73,6 +79,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Galapagos Photography Masterclass",
     description:
       "Perfect your wildlife and landscape photography skills in one of the world's most unique ecosystems. Learn specialized techniques for capturing rare species and dramatic volcanic landscapes with guidance from a National Geographic photographer.",
+    city: "Baltra",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/photography-workshop.jpg",
       "/images/tours/galapagos-islands/landscape-photography.jpg",
@@ -104,6 +113,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Volcanic Landscapes & Geological Wonders",
     description:
       "Discover the dramatic geological forces that created the Galapagos archipelago. Hike across lava fields, explore lava tubes, visit active volcanic craters, and learn how these young islands emerged from the sea to become an evolutionary laboratory.",
+    city: "Isla Isabela",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/lava-fields.jpg",
       "/images/tours/galapagos-islands/volcanic-crater.jpg",
@@ -135,6 +147,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Family-Friendly Galapagos Adventure",
     description:
       "Experience the magic of the Galapagos with activities designed for explorers of all ages. Children become certified 'Darwin's Junior Naturalists' through interactive wildlife encounters, scavenger hunts, stargazing, and guided snorkeling suitable for young adventurers.",
+    city: "Puerto Ayora",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/family-snorkeling.jpg",
       "/images/tours/galapagos-islands/kids-wildlife-activity.jpg",
@@ -166,6 +181,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Exclusive Galapagos Luxury Yacht Charter",
     description:
       "Experience the ultimate Galapagos adventure aboard a private luxury yacht with personalized itinerary, gourmet cuisine prepared by a private chef, and exclusive access to pristine visitor sites during optimal wildlife viewing hours.",
+    city: "Baltra",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/luxury-yacht.jpg",
       "/images/tours/galapagos-islands/gourmet-dining.jpg",
@@ -197,6 +215,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Galapagos Conservation Experience",
     description:
       "Contribute to ongoing conservation efforts with this unique hands-on program. Work alongside researchers on tortoise breeding programs, invasive species removal, and habitat restoration while enjoying guided wildlife excursions and learning about the challenges facing this fragile ecosystem.",
+    city: "Puerto Ayora",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/conservation-work.jpg",
       "/images/tours/galapagos-islands/tortoise-breeding-center.jpg",
@@ -228,6 +249,9 @@ export const galapagosIslandsTours: Tour[] = [
     title: "Galapagos Islands Birdwatching Expedition",
     description:
       "Explore the diverse avian life of the Galapagos with expert birdwatching guides. Spot endemic species like the famous Darwin's finches, flightless cormorants, and waved albatrosses while learning about their unique adaptations and conservation status.",
+    city: "San Cristobal",
+    country: "Ecuador",
+    region: "Galapagos Islands",
     images: [
       "/images/tours/galapagos-islands/birdwatching.jpg",
       "/images/tours/galapagos-islands/darwins-finches.jpg",

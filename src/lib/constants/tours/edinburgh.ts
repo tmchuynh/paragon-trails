@@ -4,15 +4,18 @@ export const edinburghTours: Tour[] = [
   {
     title: "Edinburgh Castle & Royal Mile Historical Tour",
     description:
-      "Explore Edinburgh's iconic castle and the historic Royal Mile with an expert local historian revealing fascinating stories of royalty, warfare, and intrigue spanning over 1,000 years of Scottish history.",
+      "Discover Edinburgh's dramatic history with an expert historian, exploring Edinburgh Castle's secrets and the Royal Mile's hidden closes, ending with a whisky tasting in a historic cellar.",
+    city: "Edinburgh",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/edinburgh/edinburgh-castle.jpg",
       "/images/tours/edinburgh/royal-mile.jpg",
     ],
-    duration: "3 hours",
+    duration: "4 hours",
     price: "$65",
-    rating: 4.9,
-    tags: ["Historical", "Castle", "Royal"],
+    rating: 4.8,
+    tags: ["Castle", "History", "Walking Tour"],
 
     isHistorical: true,
     isRomantic: false,
@@ -38,17 +41,60 @@ export const edinburghTours: Tour[] = [
     ],
   },
   {
-    title: "Underground Edinburgh: Vaults & Hidden Passages",
+    title: "Literary Edinburgh: Writers' Trail",
     description:
-      "Descend beneath the city streets to explore Edinburgh's forgotten underground vaults and hidden passages while hearing chilling tales of murders, hauntings, and the grim realities of life in historic Edinburgh.",
+      "Walk in the footsteps of famous Scottish authors including J.K. Rowling, Robert Louis Stevenson, and Sir Walter Scott, visiting the locations that inspired their works and the pubs they frequented.",
+    city: "Edinburgh",
+    country: "United Kingdom",
+    region: "Scotland",
+    images: [
+      "/images/tours/edinburgh/writers-museum.jpg",
+      "/images/tours/edinburgh/elephant-house.jpg",
+    ],
+    duration: "3 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["Literary", "Cultural", "Walking Tour"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "Do I need to be a Harry Potter expert to enjoy this tour?",
+        answer:
+          "Not at all! This tour is designed for everyone from dedicated Potterheads to those with casual interest in the books or films. Our guides explain the connections clearly and include the wider literary and historical context of Edinburgh that influenced Rowling's writing. Even those with limited Harry Potter knowledge will enjoy discovering how a real city inspired aspects of this magical world.",
+      },
+      {
+        question:
+          "Will we enter The Elephant House café where J.K. Rowling wrote?",
+        answer:
+          "We stop outside The Elephant House and other significant writing locations, but entrance is not included in the tour as these are working businesses. You're welcome to visit them independently before or after the tour. Our guide will provide recommendations for the best times to visit to avoid crowds.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes! This is a family-friendly tour designed to engage Harry Potter fans of all ages. Our guides are skilled at involving younger visitors with interactive elements and age-appropriate trivia. We recommend this tour for children aged 7 and up who are familiar with at least some of the Harry Potter stories.",
+      },
+    ],
+  },
+  {
+    title: "Underground Edinburgh Ghost Tour",
+    description:
+      "Descend into Edinburgh's haunted underground vaults and hidden chambers with only a torch to guide you, as your guide shares spine-chilling tales of murder, mystery and supernatural encounters.",
+    city: "Edinburgh",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/edinburgh/underground-vaults.jpg",
-      "/images/tours/edinburgh/hidden-passages.jpg",
+      "/images/tours/edinburgh/ghostly-tour.jpg",
     ],
     duration: "2 hours",
     price: "$35",
-    rating: 4.8,
-    tags: ["Underground", "Spooky", "Historical"],
+    rating: 4.6,
+    tags: ["Haunted", "Ghost Tour", "Underground"],
 
     isHistorical: true,
     isRomantic: false,
@@ -74,17 +120,20 @@ export const edinburghTours: Tour[] = [
     ],
   },
   {
-    title: "Scottish Whisky Tasting Experience",
+    title: "Whisky Experience & Tasting Journey",
     description:
-      "Embark on a guided journey through Scotland's national drink with expert-led tastings of fine single malt whiskies from distinct regions, learning about production methods and flavor profiles in an authentic Scottish setting.",
+      "Embark on a guided whisky tasting adventure with a certified whisky expert, learning about Scotland's national drink while sampling premium single malts from different regions and distilleries.",
+    city: "Edinburgh",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/edinburgh/whisky-tasting.jpg",
-      "/images/tours/edinburgh/whisky-barrels.jpg",
+      "/images/tours/edinburgh/scotch-whisky.jpg",
     ],
-    duration: "2.5 hours",
+    duration: "3 hours",
     price: "$85",
     rating: 4.9,
-    tags: ["Whisky", "Tasting", "Cultural"],
+    tags: ["Whisky", "Tasting", "Scottish Culture"],
 
     isHistorical: false,
     isRomantic: true,
@@ -118,7 +167,7 @@ export const edinburghTours: Tour[] = [
       "/images/tours/edinburgh/loch-ness.jpg",
       "/images/tours/edinburgh/glencoe.jpg",
     ],
-    duration: "12 hours",
+    duration: "9 hours",
     price: "$125",
     rating: 4.8,
     tags: ["Highlands", "Scenery", "Day Trip"],

@@ -5,6 +5,9 @@ export const denpasarTours: Tour[] = [
     title: "Balinese Temples & Cultural Heritage",
     description:
       "Discover Bali's spiritual side with visits to ancient water temples, clifftop sanctuaries, and a traditional Balinese compound where you'll witness ceremonial preparations and offerings.",
+    city: "Denpasar",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/water-temple.jpg",
       "/images/tours/denpasar/temple-ceremony.jpg",
@@ -41,6 +44,9 @@ export const denpasarTours: Tour[] = [
     title: "Balinese Home Cooking & Market Tour",
     description:
       "Start at a local market to select fresh ingredients, then travel to a traditional Balinese home where you'll learn authentic cooking techniques and prepare a multi-course feast.",
+    city: "Denpasar",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/cooking-class.jpg",
       "/images/tours/denpasar/market-tour.jpg",
@@ -77,6 +83,9 @@ export const denpasarTours: Tour[] = [
     title: "Denpasar City & Art Scene Tour",
     description:
       "Explore the vibrant art and culture of Denpasar with visits to local galleries, museums, and street art installations, guided by a local artist who shares insights into Bali's contemporary art scene.",
+    city: "Denpasar",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/art-gallery.jpg",
       "/images/tours/denpasar/street-art.jpg",
@@ -113,6 +122,9 @@ export const denpasarTours: Tour[] = [
     title: "Denpasar Night Market & Street Food Adventure",
     description:
       "Experience the bustling atmosphere of Denpasar's night market, sampling a variety of local street foods, from satay to desserts, while learning about Balinese culinary traditions.",
+    city: "Denpasar",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/night-market.jpg",
       "/images/tours/denpasar/street-food.jpg",
@@ -149,6 +161,9 @@ export const denpasarTours: Tour[] = [
     title: "Denpasar Heritage Walking Tour",
     description:
       "Discover the rich history and colonial architecture of Denpasar on this walking tour of the city's heritage sites, including Dutch colonial buildings, traditional Balinese houses, and historical landmarks.",
+    city: "Denpasar",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/colonial-architecture.jpg",
       "/images/tours/denpasar/bali-museum.jpg",
@@ -264,6 +279,9 @@ export const denpasarTours: Tour[] = [
     title: "Sacred Monkey Forest & Temple Sanctuary",
     description:
       "Visit the famous Sacred Monkey Forest Sanctuary, home to over 700 Balinese long-tailed macaques living freely among ancient temple ruins, followed by a guided meditation session at a secluded holy water temple.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/monkey-forest.jpg",
       "/images/tours/denpasar/water-temple.jpg",
@@ -381,6 +399,9 @@ export const denpasarTours: Tour[] = [
     title: "Bali Spiritual Healing & Wellness Journey",
     description:
       "Experience Bali's traditional healing practices with a day dedicated to wellness, including a consultation with a local healer, a cleansing ritual at a sacred spring temple, yoga session, and natural herbal treatments.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/healing-ritual.jpg",
       "/images/tours/denpasar/yoga-session.jpg",
@@ -493,6 +514,9 @@ export const denpasarTours: Tour[] = [
     title: "Bali Rice Terraces & Agricultural Traditions",
     description:
       "Journey through Bali's iconic emerald rice terraces, learning traditional farming methods from local farmers, participating in rice planting or harvesting (season dependent), and discovering the ancient subak irrigation system that defines Balinese agriculture.",
+    city: "Tegallalang",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/denpasar/rice-terraces.jpg",
       "/images/tours/denpasar/farming-activities.jpg",

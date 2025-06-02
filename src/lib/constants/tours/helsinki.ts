@@ -5,6 +5,9 @@ export const helsinkiTours: Tour[] = [
     title: "Finnish Sauna Journey & Ice Swimming",
     description:
       "Experience authentic Finnish sauna culture with visits to different types of saunas, from traditional smoke saunas to modern design saunas, with optional ice swimming in the sea or a lake.",
+    city: "Helsinki",
+    country: "Finland",
+    region: "Uusimaa",
     images: [
       "/images/tours/helsinki/traditional-sauna.jpg",
       "/images/tours/helsinki/ice-swimming.jpg",
@@ -36,6 +39,9 @@ export const helsinkiTours: Tour[] = [
     title: "Helsinki Design District & Architecture Tour",
     description:
       "Explore the world-renowned Finnish design scene with visits to flagship stores, hidden boutiques, and architectural masterpieces from Alvar Aalto to contemporary innovators.",
+    city: "Helsinki",
+    country: "Finland",
+    region: "Uusimaa",
     images: [
       "/images/tours/helsinki/design-district.jpg",
       "/images/tours/helsinki/aalto-architecture.jpg",
@@ -67,6 +73,9 @@ export const helsinkiTours: Tour[] = [
     title: "Historical Helsinki & Fortress of Suomenlinna",
     description:
       "Discover Helsinki's rich history with a guided tour of the city's key historical sites, followed by a ferry ride to the UNESCO World Heritage site of Suomenlinna, an 18th-century sea fortress.",
+    city: "Helsinki",
+    country: "Finland",
+    region: "Uusimaa",
     images: [
       "/images/tours/helsinki/suomenlinna-fortress.jpg",
       "/images/tours/helsinki/historical-helsinki.jpg",
@@ -103,6 +112,9 @@ export const helsinkiTours: Tour[] = [
     title: "Helsinki Food Tour: Local Flavors & Markets",
     description:
       "Taste your way through Helsinki's culinary scene with a guided food tour that includes visits to local markets, traditional eateries, and tastings of Finnish delicacies like rye bread, salmon soup, and cloudberry jam.",
+    city: "Helsinki",
+    country: "Finland",
+    region: "Uusimaa",
     images: [
       "/images/tours/helsinki/food-market.jpg",
       "/images/tours/helsinki/finnish-cuisine.jpg",

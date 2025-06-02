@@ -5,6 +5,9 @@ export const glasgowTours: Tour[] = [
     title: "Glasgow Music Heritage & Secret Venues",
     description:
       "Explore Glasgow's legendary music scene with a local musician, visiting iconic venues, hidden underground clubs, and famous recording studios that shaped genres from post-punk to contemporary indie.",
+    city: "Glasgow",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/glasgow/barrowland.jpg",
       "/images/tours/glasgow/king-tuts.jpg",
@@ -36,6 +39,9 @@ export const glasgowTours: Tour[] = [
     title: "Charles Rennie Mackintosh Architectural Trail",
     description:
       "Discover the revolutionary designs of Glasgow's most celebrated architect with exclusive access to Mackintosh buildings, including private areas of the Glasgow School of Art and House for an Art Lover.",
+    city: "Glasgow",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/glasgow/mackintosh-school.jpg",
       "/images/tours/glasgow/house-for-art-lover.jpg",
@@ -67,6 +73,9 @@ export const glasgowTours: Tour[] = [
     title: "Glasgow Street Art & Urban Culture",
     description:
       "Explore Glasgow's vibrant street art scene with a local artist, visiting murals, graffiti hotspots, and community projects that reflect the city's creative spirit and social issues.",
+    city: "Glasgow",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/glasgow/street-art.jpg",
       "/images/tours/glasgow/mural-trail.jpg",
@@ -98,6 +107,9 @@ export const glasgowTours: Tour[] = [
     title: "Glasgow Food & Drink Experience",
     description:
       "Savor Glasgow's culinary delights with a guided food tour through local markets, traditional pubs, and contemporary eateries, sampling everything from haggis to craft beers.",
+    city: "Glasgow",
+    country: "United Kingdom",
+    region: "Scotland",
     images: [
       "/images/tours/glasgow/food-market.jpg",
       "/images/tours/glasgow/craft-beer.jpg",

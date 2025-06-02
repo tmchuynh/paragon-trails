@@ -2,16 +2,18 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const dubaiTours: Tour[] = [
   {
-    title: "Desert Safari & Bedouin Experience",
+    title: "Desert Safari & Traditional Bedouin Experience",
     description:
-      "Experience the magic of the Arabian desert with thrilling dune bashing in 4x4 vehicles, camel rides at sunset, and an authentic Bedouin camp dinner featuring traditional entertainment including belly dancing, tanoura shows, and stargazing.",
+      "Experience the magic of the Arabian desert with dune bashing in 4x4 vehicles, sandboarding, camel riding, and an authentic Bedouin camp dinner featuring traditional entertainment under the stars.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
       "/images/tours/dubai/desert-safari.jpg",
-      "/images/tours/dubai/dune-bashing.jpg",
       "/images/tours/dubai/bedouin-camp.jpg",
     ],
     duration: "6 hours",
-    price: "$85",
+    price: "$95",
     rating: 4.8,
     tags: ["Desert", "Adventure", "Cultural"],
 
@@ -136,17 +138,19 @@ export const dubaiTours: Tour[] = [
     ],
   },
   {
-    title: "Modern Dubai Architectural Tour",
+    title: "Modern Dubai Architecture Tour",
     description:
-      "Explore Dubai's futuristic skyline and architectural marvels with an expert guide. Visit the iconic Burj Khalifa, Dubai Frame, and Museum of the Future while learning about the vision and engineering behind Dubai's transformation from desert to global metropolis.",
+      "Discover the architectural marvels of Dubai with an expert guide, including Burj Khalifa, Dubai Frame, and Museum of the Future, with priority access and insights into the innovative design concepts.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
       "/images/tours/dubai/burj-khalifa.jpg",
-      "/images/tours/dubai/dubai-frame.jpg",
-      "/images/tours/dubai/museum-future.jpg",
+      "/images/tours/dubai/dubai-architecture.jpg",
     ],
-    duration: "5 hours",
+    duration: "4 hours",
     price: "$120",
-    rating: 4.9,
+    rating: 4.7,
     tags: ["Architecture", "Modern", "Sightseeing"],
 
     isHistorical: false,
@@ -260,18 +264,20 @@ export const dubaiTours: Tour[] = [
     ],
   },
   {
-    title: "Old Dubai Cultural Walking Tour",
+    title: "Old Dubai Cultural Walk & Abra Ride",
     description:
-      "Discover the authentic heart of Dubai in the historic Al Fahidi district, navigating narrow sikkas (alleyways), visiting the Dubai Museum in Al Fahidi Fort, exploring colorful souks, and crossing Dubai Creek in traditional abra boats to experience the city's trading heritage.",
+      "Explore Dubai's heritage in the historic Al Fahidi district and bustling souks, traveling between them on a traditional abra boat across Dubai Creek while learning about the city's transformation from fishing village to global metropolis.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
-      "/images/tours/dubai/al-fahidi.jpg",
-      "/images/tours/dubai/dubai-museum.jpg",
-      "/images/tours/dubai/abra-crossing.jpg",
+      "/images/tours/dubai/dubai-creek.jpg",
+      "/images/tours/dubai/al-fahidi-district.jpg",
     ],
-    duration: "4 hours",
-    price: "$65",
-    rating: 4.7,
-    tags: ["Historical", "Cultural", "Walking"],
+    duration: "3 hours",
+    price: "$55",
+    rating: 4.6,
+    tags: ["Historical", "Cultural", "Walking Tour"],
 
     isHistorical: true,
     isRomantic: false,
@@ -382,18 +388,20 @@ export const dubaiTours: Tour[] = [
     ],
   },
   {
-    title: "Dubai Marina Luxury Yacht Cruise",
+    title: "Luxury Yacht Cruise & Dubai Skyline Views",
     description:
-      "Sail in style aboard a luxury yacht through Dubai Marina and along the stunning coastline, taking in magnificent views of iconic landmarks like Atlantis The Palm, Burj Al Arab, and the futuristic Dubai skyline while enjoying premium beverages and gourmet canapés.",
+      "Sail along Dubai's spectacular coastline aboard a luxury yacht, taking in iconic landmarks like Palm Jumeirah, Burj Al Arab, and the city's dramatic skyline from the perfect vantage point on the Arabian Gulf.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
-      "/images/tours/dubai/dubai-yacht.jpg",
-      "/images/tours/dubai/dubai-marina-view.jpg",
-      "/images/tours/dubai/palm-jumeirah-yacht.jpg",
+      "/images/tours/dubai/yacht-cruise.jpg",
+      "/images/tours/dubai/dubai-skyline.jpg",
     ],
-    duration: "3 hours",
-    price: "$195",
-    rating: 4.8,
-    tags: ["Luxury", "Yacht", "Sightseeing"],
+    duration: "2 hours",
+    price: "$180",
+    rating: 4.9,
+    tags: ["Luxury", "Cruise", "Sightseeing"],
 
     isHistorical: false,
     isRomantic: true,
@@ -450,7 +458,7 @@ export const dubaiTours: Tour[] = [
       "Enjoy refreshing beverages and gourmet canapés on board",
     ],
     inclusions: [
-      "3-hour luxury yacht cruise",
+      "2-hour luxury yacht cruise",
       "Professional captain and crew",
       "Selection of soft drinks, water, and juices",
       "Gourmet canapés and light refreshments",
@@ -510,6 +518,9 @@ export const dubaiTours: Tour[] = [
     title: "Dubai Culinary Secrets & Ethnic Flavors",
     description:
       "Embark on a gastronomic journey through Dubai's diverse culinary landscape, from traditional Emirati cuisine to Indian, Persian, and Levantine influences that have shaped the city's unique food culture, with tastings at hidden local gems and bustling food streets.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
       "/images/tours/dubai/emirati-cuisine.jpg",
       "/images/tours/dubai/street-food-dubai.jpg",
@@ -757,6 +768,9 @@ export const dubaiTours: Tour[] = [
     title: "Dubai Desert Conservation Experience",
     description:
       "Explore Dubai's desert ecosystem with conservation experts in the Dubai Desert Conservation Reserve. Track native wildlife like Arabian oryx and gazelles, learn about desert ecology and sustainability efforts, and experience traditional desert activities with a focus on environmental education.",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    region: "Dubai",
     images: [
       "/images/tours/dubai/desert-conservation.jpg",
       "/images/tours/dubai/arabian-oryx.jpg",

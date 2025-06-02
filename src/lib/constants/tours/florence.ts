@@ -5,6 +5,9 @@ export const florenceTours: Tour[] = [
     title: "Renaissance Art & Architecture Masterpieces",
     description:
       "Explore Florence's artistic treasures with an art historian guide, enjoying priority access to the Uffizi Gallery and Accademia to view works by Michelangelo, Botticelli, and Leonardo da Vinci without the crowds.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/florence/david-statue.jpg",
       "/images/tours/florence/uffizi-gallery.jpg",
@@ -41,6 +44,9 @@ export const florenceTours: Tour[] = [
     title: "Tuscan Countryside Wine Tour & Villa Lunch",
     description:
       "Journey through the picturesque Chianti region visiting family-owned vineyards to sample renowned Tuscan wines, followed by a traditional lunch at a historic villa overlooking rolling hills and cypress groves.",
+    city: "Chianti",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/florence/chianti-vineyard.jpg",
       "/images/tours/florence/tuscan-villa.jpg",
@@ -77,6 +83,9 @@ export const florenceTours: Tour[] = [
     title: "Florence Artisan Workshops & Craftsmanship",
     description:
       "Discover Florence's living artistic heritage by visiting private workshops where traditional crafts including leatherworking, goldsmithing, paper marbling, and mosaic creation continue using centuries-old techniques.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/florence/leather-workshop.jpg",
       "/images/tours/florence/paper-marbling.jpg",
@@ -113,6 +122,9 @@ export const florenceTours: Tour[] = [
     title: "Medici Secrets: Power & Conspiracy Tour",
     description:
       "Uncover the intrigue behind Florence's most influential family on this walking tour of Medici palaces, hidden passages, and conspiracy sites, revealing the scandals and power plays that shaped Renaissance history.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/florence/medici-palace.jpg",
       "/images/tours/florence/secret-passage.jpg",
@@ -149,6 +161,9 @@ export const florenceTours: Tour[] = [
     title: "Florence Cooking Class & Market Tour",
     description:
       "Begin at a local market selecting fresh seasonal ingredients, then prepare a traditional Florentine meal including handmade pasta, meat dishes, and desserts under the guidance of an experienced Italian chef.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/florence/market-shopping.jpg",
       "/images/tours/florence/cooking-class.jpg",
