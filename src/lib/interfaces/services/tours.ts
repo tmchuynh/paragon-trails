@@ -10,6 +10,10 @@ export interface TourCategory {
 }
 
 export interface BaseTour {
+  city?: string;
+  country?: string;
+  state?: string;
+  region?: string;
   icon?: IconType;
   images: string[];
   duration: string;
