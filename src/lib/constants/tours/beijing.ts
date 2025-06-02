@@ -5,6 +5,9 @@ export const beijingTours: Tour[] = [
     title: "Great Wall Exclusive: Untouched Sections & Helicopter View",
     description:
       "Experience the majestic Great Wall of China like few visitors ever do – with exclusive access to remote, untouched sections at Jiankou, a thrilling helicopter flyover, and expert commentary from a leading historian on Chinese military architecture.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/great-wall-helicopter.jpg",
       "/images/tours/beijing/jiankou-section.jpg",
@@ -73,6 +76,9 @@ export const beijingTours: Tour[] = [
     title: "Forbidden City Behind-the-Scenes & Imperial Treasures",
     description:
       "Gain unprecedented access to normally closed sections of Beijing's Forbidden City with a former palace museum curator, exploring imperial treasures and hidden chambers while learning about the intriguing lives of emperors, concubines and eunuchs who once inhabited this mysterious complex.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/forbidden-city-restricted.jpg",
       "/images/tours/beijing/imperial-treasures.jpg",
@@ -140,6 +146,9 @@ export const beijingTours: Tour[] = [
     title: "Beijing Hutong Food & Culture Walking Tour",
     description:
       "Explore Beijing's maze-like hutongs (traditional alleyways) with a local food expert, sampling authentic specialties from family-run eateries and street vendors while learning about daily life in these historic neighborhoods that preserve centuries-old traditions despite rapid modernization.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/hutong-street-food.jpg",
       "/images/tours/beijing/local-restaurant.jpg",
@@ -189,7 +198,7 @@ export const beijingTours: Tour[] = [
       {
         question: "How authentic are the food stops on this tour?",
         answer:
-          "We prioritize family-run establishments that have been operating for generations, many without English menus or international clientele. Our relationships with these vendors give you access to authentic preparations rather than tourist-modified versions. Several stops include interaction with the food preparers themselves, some using techniques passed down for generations. These include a family making dumplings in their courtyard home, street vendors who specialize in single iconic dishes, and tiny shops producing specific foods using traditional methods.",
+          "We prioritize family-run establishments that have been operating for generations, many of whom without English menus or international clientele. Our relationships with these vendors give you access to authentic preparations rather than tourist-modified versions. Several stops include interaction with the food preparers themselves, some using techniques passed down for generations. These include a family making dumplings in their courtyard home, street vendors who specialize in single iconic dishes, and tiny shops producing specific foods using traditional methods.",
       },
       {
         question: "Can dietary restrictions be accommodated?",
@@ -207,6 +216,9 @@ export const beijingTours: Tour[] = [
     title: "Beijing Photography: Dawn to Dusk",
     description:
       "Capture Beijing's visual drama from sunrise to sunset with a professional photographer guide, accessing optimal vantage points for shots of iconic landmarks in perfect light while learning specialized techniques for architectural, street, and cultural photography in one of the world's most photogenic cities.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/temple-of-heaven-dawn.jpg",
       "/images/tours/beijing/street-photography.jpg",
@@ -273,6 +285,9 @@ export const beijingTours: Tour[] = [
     title: "Temple of Heaven Tai Chi at Sunrise",
     description:
       "Begin your day as locals have for centuries with an early morning Tai Chi session in the mystical surroundings of the Temple of Heaven park, learning this ancient martial art from a master practitioner before exploring the imperial complex where emperors once prayed for good harvests.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/tai-chi-practice.jpg",
       "/images/tours/beijing/temple-of-heaven-morning.jpg",
@@ -339,6 +354,9 @@ export const beijingTours: Tour[] = [
     title: "Beijing Olympic Architecture Tour",
     description:
       "Explore the architectural marvels of Beijing's Olympic Park with a design expert, gaining special access to the Bird's Nest National Stadium and Water Cube Aquatics Center while learning about the innovative engineering and cultural symbolism behind these iconic structures that transformed Beijing's skyline.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/birds-nest-exterior.jpg",
       "/images/tours/beijing/water-cube-interior.jpg",
@@ -406,6 +424,9 @@ export const beijingTours: Tour[] = [
     title: "Beijing Family Adventure: Kung Fu & Kite Making",
     description:
       "Create unforgettable family memories with this interactive tour designed specifically for children and parents, featuring a private Kung Fu class with Shaolin-trained masters, traditional Chinese kite making, and family-friendly exploration of the historic Temple of Earth Park.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/kung-fu-lesson.jpg",
       "/images/tours/beijing/kite-making.jpg",
@@ -473,6 +494,9 @@ export const beijingTours: Tour[] = [
     title: "Beijing by Night: Illuminated Landmarks & Nightlife",
     description:
       "Experience Beijing's dramatic transformation after dark with visits to spectacularly illuminated historic sites, followed by your choice of evening entertainment – from acrobatic performances to trendy cocktail bars – concluding with a late-night authentic food adventure at a bustling night market.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/forbidden-city-night.jpg",
       "/images/tours/beijing/acrobat-show.jpg",
@@ -540,6 +564,9 @@ export const beijingTours: Tour[] = [
     title: "Luxury Beijing: Private Helicopter Tour & Imperial Dining",
     description:
       "Indulge in the ultimate Beijing luxury experience with a private helicopter journey over the Great Wall and Imperial Palace, followed by exclusive museum access with an internationally renowned historian and a bespoke multi-course imperial feast in a private pavilion of a former royal garden.",
+    city: "Beijing",
+    country: "China",
+    region: "Northern China",
     images: [
       "/images/tours/beijing/luxury-helicopter.jpg",
       "/images/tours/beijing/imperial-dining.jpg",

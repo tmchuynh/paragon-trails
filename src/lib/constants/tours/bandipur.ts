@@ -5,6 +5,10 @@ export const bandipurTours: Tour[] = [
     title: "Wildlife Safari: Tiger & Elephant Expedition",
     description:
       "Explore Bandipur National Park's diverse ecosystems on an exclusive safari led by wildlife experts, with prime opportunities to spot Bengal tigers, wild elephants, leopards, and over 200 bird species in their natural habitat.",
+    city: "Bandipur",
+    country: "India",
+    state: "Karnataka",
+    region: "Western Ghats",
     images: [
       "/images/tours/bandipur/tiger-safari.jpg",
       "/images/tours/bandipur/elephant-sighting.jpg",
@@ -131,6 +135,10 @@ export const bandipurTours: Tour[] = [
     title: "Indigenous Soliga Tribe Cultural Experience",
     description:
       "Connect with the indigenous Soliga tribe who have called the Bandipur forests home for centuries. Learn their traditional knowledge of medicinal plants, participate in cultural rituals, and understand their sustainable forest conservation practices.",
+    city: "Bandipur",
+    country: "India",
+    state: "Karnataka",
+    region: "Western Ghats",
     images: [
       "/images/tours/bandipur/soliga-tribe.jpg",
       "/images/tours/bandipur/medicinal-plants.jpg",
@@ -251,6 +259,10 @@ export const bandipurTours: Tour[] = [
     title: "Bandipur Wilderness Photography Workshop",
     description:
       "Perfect your wildlife photography skills with expert guidance in one of India's premier tiger reserves. Learn specialized techniques for capturing elusive wildlife, dramatic landscapes, and macro shots of Bandipur's rich biodiversity.",
+    city: "Bandipur",
+    country: "India",
+    state: "Karnataka",
+    region: "Western Ghats",
     images: [
       "/images/tours/bandipur/photography-workshop.jpg",
       "/images/tours/bandipur/wildlife-camera.jpg",
@@ -378,6 +390,10 @@ export const bandipurTours: Tour[] = [
     title: "Bird Watching Expedition: Nilgiri Specialties",
     description:
       "Discover Bandipur's incredible avian diversity with an expert ornithologist, focusing on endemic species of the Nilgiri Biosphere Reserve including the Malabar Trogon, Nilgiri Flycatcher, and Malabar Whistling Thrush.",
+    city: "Bandipur",
+    country: "India",
+    state: "Karnataka",
+    region: "Western Ghats",
     images: [
       "/images/tours/bandipur/birdwatching.jpg",
       "/images/tours/bandipur/malabar-trogon.jpg",
@@ -506,6 +522,10 @@ export const bandipurTours: Tour[] = [
     title: "Bandipur Sunset Jeep Safari & Stargazing",
     description:
       "Experience the magic of Bandipur as day transitions to night with an evening safari capturing golden hour light, followed by dinner under the stars and guided astronomy with powerful telescopes far from light pollution.",
+    city: "Bandipur",
+    country: "India",
+    state: "Karnataka",
+    region: "Western Ghats",
     images: [
       "/images/tours/bandipur/sunset-safari.jpg",
       "/images/tours/bandipur/stargazing.jpg",

@@ -5,6 +5,9 @@ export const barcelonaTours: Tour[] = [
     title: "Gaudí Masterpieces & Modernist Barcelona",
     description:
       "Experience Barcelona's extraordinary architectural heritage with priority access to Sagrada Familia, Park Güell, and Casa Batlló. Learn how Antoni Gaudí's visionary designs revolutionized architecture and defined Barcelona's unique aesthetic with insights from an architectural historian.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/sagrada-familia.jpg",
       "/images/tours/barcelona/park-guell.jpg",
@@ -107,6 +110,9 @@ export const barcelonaTours: Tour[] = [
     title: "Barcelona Tapas & Wine Walking Tour",
     description:
       "Discover Barcelona's culinary soul through its tapas culture, visiting authentic venues in the Gothic Quarter and El Born neighborhoods. Sample over 15 traditional tapas paired with Spanish wines and local beverages while learning about Catalan food traditions.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/tapas-variety.jpg",
       "/images/tours/barcelona/wine-tasting.jpg",
@@ -198,6 +204,9 @@ export const barcelonaTours: Tour[] = [
     title: "Gothic Quarter & Roman Barcelona Hidden History",
     description:
       "Peel back 2,000 years of Barcelona's layered history with an archaeological expert. Discover hidden Roman ruins beneath medieval streets, access restricted historical sites, and explore the atmospheric Gothic Quarter through the eyes of the ancient Romans, medieval merchants, and Inquisition-era residents who shaped this enigmatic district.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/roman-ruins.jpg",
       "/images/tours/barcelona/gothic-quarter.jpg",
@@ -299,6 +308,9 @@ export const barcelonaTours: Tour[] = [
     title: "Market to Table: Barcelona Cooking Experience",
     description:
       "Begin at the famous La Boqueria market selecting fresh ingredients with a professional chef, then proceed to a fully-equipped cooking school to prepare authentic Catalan dishes including paella, tapas, and crema catalana. Enjoy your creations with paired regional wines.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/la-boqueria.jpg",
       "/images/tours/barcelona/cooking-class.jpg",
@@ -394,6 +406,9 @@ export const barcelonaTours: Tour[] = [
     title: "Montserrat Mountain, Monastery & Choir Experience",
     description:
       "Journey to the spectacular Montserrat mountain range to visit its legendary monastery, hear the world-famous boy's choir perform Gregorian chants, taste locally-produced liqueurs, and take a scenic mountain walk with breathtaking views of Catalonia.",
+    city: "Montserrat",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/montserrat-monastery.jpg",
       "/images/tours/barcelona/montserrat-views.jpg",
@@ -468,6 +483,9 @@ export const barcelonaTours: Tour[] = [
     title: "Evening Flamenco & Authentic Tablao Experience",
     description:
       "Experience the passionate art of flamenco in an intimate, historic tablao venue featuring top performers. Learn about this UNESCO-protected cultural tradition before enjoying front-row seats to a powerful live show, followed by tapas and wine at a nearby tavern.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/flamenco-performance.jpg",
       "/images/tours/barcelona/tablao.jpg",
@@ -559,6 +577,9 @@ export const barcelonaTours: Tour[] = [
     title: "Barcelona by Bike: Beaches, Parks & Hidden Gems",
     description:
       "Discover Barcelona on two wheels with a bike tour covering both iconic landmarks and local neighborhoods. Cycle along the Mediterranean beachfront, through the Olympic Village, verdant Ciutadella Park, and the charming alleys of El Born, with stops for photos and local stories.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/bike-barceloneta.jpg",
       "/images/tours/barcelona/bike-ciutadella.jpg",
@@ -659,6 +680,9 @@ export const barcelonaTours: Tour[] = [
     title: "Barcelona Street Art & Urban Culture Tour",
     description:
       "Explore Barcelona's vibrant street art scene with a local artist as your guide. Discover hidden murals, learn about the city's urban art history, and even create your own piece of street art to take home. Visit lesser-known neighborhoods and meet the artists behind the works.",
+    city: "Barcelona",
+    country: "Spain",
+    region: "Catalonia",
     images: [
       "/images/tours/barcelona/street-art.jpg",
       "/images/tours/barcelona/urban-culture.jpg",

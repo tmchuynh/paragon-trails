@@ -5,6 +5,9 @@ export const belgradeTours: Tour[] = [
     title: "Belgrade Fortress & Underground Secrets",
     description:
       "Explore the ancient Kalemegdan Fortress with exclusive access to underground military tunnels, Roman wells, and hidden chambers spanning 2,000 years of Belgrade's turbulent history as the gateway between East and West.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/kalemegdan-fortress.jpg",
       "/images/tours/belgrade/underground-tunnels.jpg",
@@ -63,6 +66,9 @@ export const belgradeTours: Tour[] = [
     title: "Rakija Experience: Serbian Spirit Tasting Journey",
     description:
       "Discover Serbia's national drink through an immersive rakija tasting experience featuring premium artisanal varieties, traditional meze pairings, and insights into centuries-old distillation techniques from a master craftsman.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/rakija-tasting.jpg",
       "/images/tours/belgrade/traditional-meze.jpg",
@@ -110,6 +116,9 @@ export const belgradeTours: Tour[] = [
     title: "Yugoslav History & Architecture Tour",
     description:
       "Examine Belgrade's fascinating communist-era heritage through its monumental architecture, controversial history, and cultural impacts with visits to New Belgrade's brutalist masterpieces and the Museum of Yugoslavia.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/brutalist-architecture.jpg",
       "/images/tours/belgrade/house-of-flowers.jpg",
@@ -158,6 +167,9 @@ export const belgradeTours: Tour[] = [
     title: "Belgrade River Cruise & Sunset Dinner",
     description:
       "Cruise the confluence of the Sava and Danube rivers aboard a private boat, enjoying panoramic views of Belgrade's landmarks followed by an exclusive dinner at a floating restaurant with live traditional music.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/river-cruise.jpg",
       "/images/tours/belgrade/floating-restaurant.jpg",
@@ -205,6 +217,9 @@ export const belgradeTours: Tour[] = [
     title: "Belgrade Street Art & Alternative Culture Tour",
     description:
       "Discover Belgrade's vibrant underground culture through its striking murals, hidden galleries, and creative districts while learning how street art became a powerful form of expression during Yugoslavia's collapse and Serbia's transition.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/street-art.jpg",
       "/images/tours/belgrade/savamala-district.jpg",
@@ -258,6 +273,9 @@ export const belgradeTours: Tour[] = [
     title: "Nikola Tesla Museum Private Experience",
     description:
       "Explore the legacy of one of history's greatest inventors with a private, curator-led tour of the Nikola Tesla Museum, featuring exclusive access to the archives, original documents, and hands-on demonstrations of Tesla's revolutionary electromagnetic discoveries.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/tesla-museum.jpg",
       "/images/tours/belgrade/tesla-coil-demonstration.jpg",
@@ -310,6 +328,9 @@ export const belgradeTours: Tour[] = [
     title: "Communist Yugoslavia Time Capsule Tour",
     description:
       "Step back into Yugoslavia's socialist era with visits to monumental buildings, worker neighborhoods, and the Museum of Yugoslav History, culminating with a Yugoslav-era meal in a preserved 1970s apartment decorated with original socialist furnishings and memorabilia.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/tito-mausoleum.jpg",
       "/images/tours/belgrade/yugoslav-apartment.jpg",
@@ -362,6 +383,9 @@ export const belgradeTours: Tour[] = [
     title: "Belgrade Culinary Walking Journey",
     description:
       "Discover the rich flavors of Serbian cuisine through an immersive walking tour of Belgrade's food landmarks, from historic kafanas to local markets, with tastings of traditional dishes including ćevapi, kajmak, ajvar, and plum delicacies guided by a local food writer.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/food-market.jpg",
       "/images/tours/belgrade/traditional-dishes.jpg",
@@ -414,6 +438,9 @@ export const belgradeTours: Tour[] = [
     title: "Avala Mountain Nature & Monument Escape",
     description:
       "Escape the city to nearby Avala Mountain for breathtaking panoramic views, forest hiking trails, the striking Monument to the Unknown Hero, and the iconic Avala Tower with its unique architecture and viewing platforms offering vistas across Belgrade and beyond.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/avala-tower.jpg",
       "/images/tours/belgrade/avala-monument.jpg",
@@ -466,6 +493,9 @@ export const belgradeTours: Tour[] = [
     title: "Private Serbian Cooking Class & Home Dinner",
     description:
       "Master the secrets of traditional Serbian cuisine in a private home kitchen, learning family recipes passed down through generations before enjoying your creations during a convivial dinner with local wines and homemade rakija.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/cooking-class.jpg",
       "/images/tours/belgrade/home-dinner.jpg",
@@ -518,6 +548,9 @@ export const belgradeTours: Tour[] = [
     title: "Belgrade at Night: Splav Clubs & Nightlife Experience",
     description:
       "Immerse yourself in Belgrade's world-famous nightlife scene with VIP access to the city's renowned floating river clubs (splavovi), trendy bars, and hidden nightspots, guided by a local nightlife insider.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/river-clubs.jpg",
       "/images/tours/belgrade/nightlife.jpg",
@@ -571,6 +604,9 @@ export const belgradeTours: Tour[] = [
     title: "Military History & Underground Bunker Exploration",
     description:
       "Uncover Belgrade's military history with exclusive access to secretive Yugoslav-era bunkers and military installations, including the massive Karađorđevo underground command center designed to survive nuclear attacks, with insights from military historians.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/military-bunker.jpg",
       "/images/tours/belgrade/military-museum.jpg",
@@ -623,6 +659,9 @@ export const belgradeTours: Tour[] = [
     title: "Danube Catamaran Cruise & Wine Tasting",
     description:
       "Cruise the mighty Danube River aboard a luxury catamaran, enjoying spectacular views of Belgrade's rivers and islands while sampling premium Serbian wines from riverside vineyards paired with gourmet local delicacies.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/danube-catamaran.jpg",
       "/images/tours/belgrade/wine-tasting.jpg",
@@ -675,6 +714,9 @@ export const belgradeTours: Tour[] = [
     title: "Orthodox Monasteries & Religious Heritage Tour",
     description:
       "Journey into the spiritual heartland of Serbia with visits to magnificent medieval monasteries including Fruška Gora's hidden gems and the stunning Krušedol, featuring exceptional frescoes, ancient manuscripts, and living monastic traditions.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/monastery-frescoes.jpg",
       "/images/tours/belgrade/orthodox-service.jpg",
@@ -728,6 +770,9 @@ export const belgradeTours: Tour[] = [
     title: "Traditional Serbian Music & Dance Evening",
     description:
       "Experience the soul of Serbian culture through its folk music traditions with an immersive evening featuring live performances of epic poetry, kolo dancing, and instrumental music, plus hands-on instruction in traditional instruments and dance steps.",
+    city: "Belgrade",
+    country: "Serbia",
+    region: "Balkans",
     images: [
       "/images/tours/belgrade/folk-musicians.jpg",
       "/images/tours/belgrade/kolo-dancing.jpg",

@@ -5,6 +5,9 @@ export const bangkokTours: Tour[] = [
     title: "Hidden Canals & Local Life Experience",
     description:
       "Escape the urban bustle on a private longtail boat journey through Bangkok's hidden canals (klongs), visiting floating markets, waterside communities, and ancient temples inaccessible by road.",
+    city: "Bangkok",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/bangkok/klong-boat.jpg",
       "/images/tours/bangkok/floating-market.jpg",
@@ -120,6 +123,9 @@ export const bangkokTours: Tour[] = [
     title: "Bangkok After Dark: Sky Bars & Street Food",
     description:
       "Experience Bangkok's dynamic nightlife with a curated evening visiting exclusive rooftop bars with spectacular city views, followed by an exploration of vibrant street food districts guided by a local culinary expert.",
+    city: "Bangkok",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/bangkok/skybar-view.jpg",
       "/images/tours/bangkok/night-street-food.jpg",
@@ -234,6 +240,9 @@ export const bangkokTours: Tour[] = [
     title: "Cultural Heritage & Temple Tour",
     description:
       "Explore Bangkok's rich cultural heritage with visits to iconic temples, including Wat Pho and Wat Arun, guided by a local historian who shares insights into the city's spiritual traditions and architectural marvels.",
+    city: "Bangkok",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/bangkok/wat-pho.jpg",
       "/images/tours/bangkok/wat-arun.jpg",
@@ -347,6 +356,9 @@ export const bangkokTours: Tour[] = [
     title: "Bangkok Markets & Local Crafts Tour",
     description:
       "Discover Bangkok's vibrant markets and local artisans with a guided tour through Chatuchak Weekend Market, Talad Rot Fai, and hidden craft workshops, learning about traditional Thai crafts and sampling local delicacies.",
+    city: "Bangkok",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/bangkok/chatuchak-market.jpg",
       "/images/tours/bangkok/craft-workshop.jpg",
