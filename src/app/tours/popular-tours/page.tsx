@@ -339,17 +339,19 @@ export default function PopularTours() {
                 return null; // Skip rendering this tour if city, country, or region is missing
               }
               const cityInfo = cityattractions.find((attraction) => {
-                if (attraction.city.toLowerCase() === tour.city.toLowerCase()) {
-                  return attraction;
-                }
                 if (
-                  attraction.country.toLowerCase() ===
-                  tour.country.toLowerCase()
+                  attraction.city.toLowerCase() === tour.city?.toLowerCase()
                 ) {
                   return attraction;
                 }
                 if (
-                  attraction.region.toLowerCase() === tour.region.toLowerCase()
+                  attraction.country.toLowerCase() ===
+                  tour.country?.toLowerCase()
+                ) {
+                  return attraction;
+                }
+                if (
+                  attraction.region.toLowerCase() === tour.region?.toLowerCase()
                 ) {
                   return attraction;
                 }
@@ -376,4 +378,3 @@ export default function PopularTours() {
     </div>
   );
 }
-
