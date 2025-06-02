@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const belgradeTours: Tour[] = [
   {
     title: "Belgrade Fortress & Underground Secrets",
@@ -16,7 +15,6 @@ export const belgradeTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["History", "Military", "Underground"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -77,7 +75,6 @@ export const belgradeTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Drinks", "Cultural", "Tasting"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -127,7 +124,6 @@ export const belgradeTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Communist Era", "Architecture", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -178,7 +174,6 @@ export const belgradeTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Cruise", "Dinner", "Sunset"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -228,7 +223,6 @@ export const belgradeTours: Tour[] = [
     price: "$35",
     rating: 4.6,
     tags: ["Street Art", "Urban", "Alternative"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -284,7 +278,6 @@ export const belgradeTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Science", "History", "Museum"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -339,7 +332,6 @@ export const belgradeTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Communist Era", "History", "Unique Experience"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -394,7 +386,6 @@ export const belgradeTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Food", "Culinary", "Walking"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -449,7 +440,6 @@ export const belgradeTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Nature", "Monuments", "Hiking"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -504,7 +494,6 @@ export const belgradeTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Home Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -559,7 +548,6 @@ export const belgradeTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nightlife", "VIP", "Party"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -615,7 +603,6 @@ export const belgradeTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Military", "Underground", "Cold War"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -670,7 +657,6 @@ export const belgradeTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Wine", "River Cruise", "Luxury"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -725,7 +711,6 @@ export const belgradeTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Religious", "Orthodox", "Monasteries"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -781,7 +766,6 @@ export const belgradeTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Music", "Folk", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -822,5 +806,4 @@ export const belgradeTours: Tour[] = [
     ],
   },
 ];
-
 export default belgradeTours;

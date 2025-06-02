@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const beijingTours: Tour[] = [
   {
     title: "Great Wall Exclusive: Untouched Sections & Helicopter View",
@@ -16,7 +15,6 @@ export const beijingTours: Tour[] = [
     price: "$895",
     rating: 4.9,
     tags: ["Great Wall", "Helicopter", "History"],
-
     isPopular: true,
     isAdventure: true,
     isCultural: true,
@@ -87,7 +85,6 @@ export const beijingTours: Tour[] = [
     price: "$475",
     rating: 4.9,
     tags: ["Forbidden City", "Imperial", "Exclusive"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -157,7 +154,6 @@ export const beijingTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Hutongs", "Local Culture"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -227,7 +223,6 @@ export const beijingTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Photography", "Full Day", "All Levels"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -296,7 +291,6 @@ export const beijingTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Tai Chi", "Morning", "Spiritual"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -365,7 +359,6 @@ export const beijingTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Architecture", "Olympic", "Design"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -435,7 +428,6 @@ export const beijingTours: Tour[] = [
     price: "$105",
     rating: 4.9,
     tags: ["Family", "Activities", "Cultural"],
-
     isPopular: true,
     isAdventure: true,
     isCultural: true,
@@ -505,7 +497,6 @@ export const beijingTours: Tour[] = [
     price: "$135",
     rating: 4.7,
     tags: ["Night Tour", "Entertainment", "Food"],
-
     isPopular: true,
     isAdventure: false,
     isCultural: true,
@@ -575,7 +566,6 @@ export const beijingTours: Tour[] = [
     price: "$2,950",
     rating: 4.9,
     tags: ["Luxury", "Helicopter", "Exclusive"],
-
     isPopular: true,
     isAdventure: true,
     isCultural: true,
@@ -631,5 +621,4 @@ export const beijingTours: Tour[] = [
     ],
   },
 ];
-
 export default beijingTours;

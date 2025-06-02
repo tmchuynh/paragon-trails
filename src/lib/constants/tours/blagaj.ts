@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const blagajTours: Tour[] = [
   {
     title: "Blagaj Tekija & Buna River Spring Experience",
@@ -13,7 +12,6 @@ export const blagajTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Spiritual", "Nature", "History"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -79,7 +77,6 @@ export const blagajTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Culinary", "Local Food", "Cooking"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -145,7 +142,6 @@ export const blagajTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Photography", "Landscape", "Architecture"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -212,7 +208,6 @@ export const blagajTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Kayaking", "Adventure", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -278,7 +273,6 @@ export const blagajTours: Tour[] = [
     price: "$35",
     rating: 4.6,
     tags: ["Hiking", "Sunset", "History"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -335,5 +329,4 @@ export const blagajTours: Tour[] = [
     ],
   },
 ];
-
 export default blagajTours;

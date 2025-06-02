@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const bhaktapurTours: Tour[] = [
   {
     title: "Ancient Temples & Living Heritage of Bhaktapur",
@@ -13,7 +12,6 @@ export const bhaktapurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Temples", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -80,7 +78,6 @@ export const bhaktapurTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Crafts", "Pottery", "Hands-on"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -146,7 +143,6 @@ export const bhaktapurTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Photography", "Cultural", "Full Day"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -214,7 +210,6 @@ export const bhaktapurTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Cooking", "Market", "Local Food"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -281,7 +276,6 @@ export const bhaktapurTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Spiritual", "Meditation", "Rituals"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -337,5 +331,4 @@ export const bhaktapurTours: Tour[] = [
     ],
   },
 ];
-
 export default bhaktapurTours;

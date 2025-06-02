@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const barcelonaTours: Tour[] = [
   {
     title: "Gaudí Masterpieces & Modernist Barcelona",
@@ -16,7 +15,6 @@ export const barcelonaTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["Architecture", "Gaudí", "Modernism"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -171,7 +169,6 @@ export const barcelonaTours: Tour[] = [
       instructions:
         "Meet your guide at the fountain in the center of Plaça del Pi. Look for the guide holding a sign with 'Tapas Tour' written on it.",
     },
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -275,7 +272,6 @@ export const barcelonaTours: Tour[] = [
       instructions:
         "Meet your guide at the fountain in the center of Plaça del Rei. Look for the guide holding a sign with 'Gothic Quarter Tour' written on it.",
     },
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -373,7 +369,6 @@ export const barcelonaTours: Tour[] = [
       instructions:
         "Meet your chef at the entrance of La Boqueria Market, near the main archway. Look for the chef holding a sign with 'Cooking Experience' written on it.",
     },
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -450,7 +445,6 @@ export const barcelonaTours: Tour[] = [
       instructions:
         "Meet your guide at the entrance of the office located at Carrer de Balmes, 5. Look for the guide holding a sign with 'Montserrat Tour' written on it.",
     },
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -544,7 +538,6 @@ export const barcelonaTours: Tour[] = [
       "Savor a drink of your choice during the show",
       "Indulge in traditional tapas at a nearby tavern after the performance",
     ],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -588,7 +581,6 @@ export const barcelonaTours: Tour[] = [
     price: "$55",
     rating: 4.6,
     tags: ["Cycling", "Beach", "Active"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -691,7 +683,6 @@ export const barcelonaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Street Art", "Culture", "Urban"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -781,5 +772,4 @@ export const barcelonaTours: Tour[] = [
       "Full refund if canceled at least 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour or in case of no-shows.",
   },
 ];
-
 export default barcelonaTours;
