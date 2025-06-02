@@ -264,7 +264,9 @@ export default function PrivateAviation() {
           To add private flights to your tour package, speak with your travel
           coordinator or request a custom quote today.
         </p>
-        <Button>Request a Custom Quote</Button>
+        <Button onClick={() => router.push("/contact-information")}>
+          Request a Custom Quote
+        </Button>
       </section>
 
       <section>

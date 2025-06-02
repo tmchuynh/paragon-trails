@@ -292,7 +292,9 @@ export default function YachtCharters() {
           Set sail with us and discover your destination from a breathtaking new
           perspective.
         </p>
-        <Button>Inquire About Availability</Button>
+        <Button onClick={() => router.push("/contact-information")}>
+          Inquire About Availability
+        </Button>
       </section>
 
       <section>
