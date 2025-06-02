@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const coorgTours: Tour[] = [
   {
     title: "Coffee Plantation Experience & Tasting",
@@ -122,7 +121,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isAdventure: false,
@@ -218,7 +216,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isAdventure: false,
@@ -314,7 +311,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isAdventure: false,
@@ -410,7 +406,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isAdventure: false,
@@ -461,7 +456,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -505,7 +499,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -549,7 +542,6 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -590,7 +582,6 @@ export const coorgTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["River", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -627,7 +618,6 @@ export const coorgTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Trekking", "Spiritual", "Nature"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -661,7 +651,6 @@ export const coorgTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Spices", "Cooking", "Food"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -775,7 +764,6 @@ export const coorgTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Wildlife", "Safari", "Nature"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -902,7 +890,6 @@ export const coorgTours: Tour[] = [
     price: "$40",
     rating: 4.5,
     tags: ["Heritage", "Culture", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -922,5 +909,4 @@ export const coorgTours: Tour[] = [
     ],
   },
 ];
-
 export default coorgTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const daNangTours: Tour[] = [
   {
     title: "Golden Bridge & Ba Na Hills",
@@ -19,7 +18,6 @@ export const daNangTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Photography", "Architecture", "Mountain"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -60,7 +58,6 @@ export const daNangTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Temples", "Hiking"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -690,5 +687,4 @@ export const daNangTours: Tour[] = [
     ],
   },
 ];
-
 export default daNangTours;

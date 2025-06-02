@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const charlestonTours: Tour[] = [
   {
     title: "Charleston's Historic Homes & Gardens",
@@ -13,7 +12,6 @@ export const charlestonTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "History", "Gardens"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -120,7 +118,6 @@ export const charlestonTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Cultural", "Cuisine", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -226,7 +223,6 @@ export const charlestonTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Ghosts", "History", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -339,7 +335,6 @@ export const charlestonTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Culinary", "History", "Southern Food"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -451,7 +446,6 @@ export const charlestonTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["History", "Civil War", "Harbor"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -565,7 +559,6 @@ export const charlestonTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["History", "Architecture", "Gardens"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -680,7 +673,6 @@ export const charlestonTours: Tour[] = [
     price: "$80",
     rating: 4.9,
     tags: ["History", "Cultural", "Educational"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -791,7 +783,6 @@ export const charlestonTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["History", "Revolutionary War", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -902,7 +893,6 @@ export const charlestonTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Sunset", "Harbor"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -1016,7 +1006,6 @@ export const charlestonTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Culinary", "Boating", "Seafood"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -1117,5 +1106,4 @@ export const charlestonTours: Tour[] = [
     ],
   },
 ];
-
 export default charlestonTours;

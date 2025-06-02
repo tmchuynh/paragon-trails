@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const casablancaTours: Tour[] = [
   {
     title: "Hassan II Mosque & Islamic Architecture",
@@ -16,7 +15,6 @@ export const casablancaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "Religious", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -55,7 +53,6 @@ export const casablancaTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -94,7 +91,6 @@ export const casablancaTours: Tour[] = [
     price: "$95",
     rating: 4.6,
     tags: ["Beach", "Water Sports", "Relaxation"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -133,7 +129,6 @@ export const casablancaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Wellness", "Spa", "Traditional"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -162,7 +157,6 @@ export const casablancaTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Food", "Local", "Shopping"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -201,7 +195,6 @@ export const casablancaTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Day Trip", "History", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -235,7 +228,6 @@ export const casablancaTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Photography", "Art", "Architecture"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -274,7 +266,6 @@ export const casablancaTours: Tour[] = [
     price: "$395",
     rating: 5.0,
     tags: ["Luxury", "Exclusive", "Gourmet"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -313,7 +304,6 @@ export const casablancaTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Craft", "Workshop", "Traditional"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -352,7 +342,6 @@ export const casablancaTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Contemporary", "Art", "Urban"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -423,7 +412,6 @@ export const casablancaTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Astronomy", "Desert", "Evening"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -493,7 +481,6 @@ export const casablancaTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Surfing", "Beach", "Active"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -562,7 +549,6 @@ export const casablancaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Music", "Cultural", "Interactive"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -618,5 +604,4 @@ export const casablancaTours: Tour[] = [
     ],
   },
 ];
-
 export default casablancaTours;

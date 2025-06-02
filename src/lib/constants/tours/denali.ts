@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const denaliTours: Tour[] = [
   {
     title: "Denali National Park Wildlife Safari",
@@ -274,5 +273,4 @@ export const denaliTours: Tour[] = [
     ],
   },
 ];
-
 export default denaliTours;

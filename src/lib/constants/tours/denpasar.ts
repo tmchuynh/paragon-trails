@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const denpasarTours: Tour[] = [
   {
     title: "Balinese Temples & Cultural Heritage",
@@ -16,7 +15,6 @@ export const denpasarTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Spiritual", "Cultural", "Architecture"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -55,7 +53,6 @@ export const denpasarTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Cooking", "Market", "Culture"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -94,7 +91,6 @@ export const denpasarTours: Tour[] = [
     price: "$50",
     rating: 4.6,
     tags: ["Art", "Culture", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -133,7 +129,6 @@ export const denpasarTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Food", "Night Market", "Local Culture"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -172,7 +167,6 @@ export const denpasarTours: Tour[] = [
     price: "$35",
     rating: 4.6,
     tags: ["History", "Architecture", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -290,7 +284,6 @@ export const denpasarTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Wildlife", "Temples", "Nature"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -410,7 +403,6 @@ export const denpasarTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Wellness", "Spiritual", "Healing"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -525,7 +517,6 @@ export const denpasarTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["Agriculture", "Nature", "Rural Life"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -624,5 +615,4 @@ export const denpasarTours: Tour[] = [
     ],
   },
 ];
-
 export default denpasarTours;

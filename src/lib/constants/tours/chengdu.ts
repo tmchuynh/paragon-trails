@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const chengduTours: Tour[] = [
   {
     title: "Giant Panda Experience",
@@ -16,7 +15,6 @@ export const chengduTours: Tour[] = [
     price: "$60",
     rating: 4.9,
     tags: ["Nature", "Photography"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -131,7 +129,6 @@ export const chengduTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Cooking", "Spicy"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -246,7 +243,6 @@ export const chengduTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -362,7 +358,6 @@ export const chengduTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Historical", "Nature", "Day Trip"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -480,7 +475,6 @@ export const chengduTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Tea", "Culture", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -584,5 +578,4 @@ export const chengduTours: Tour[] = [
     ],
   },
 ];
-
 export default chengduTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const chicagoTours: Tour[] = [
   {
     title: "Chicago Architecture River Cruise",
@@ -17,7 +16,6 @@ export const chicagoTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Architecture", "River", "Photography"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -142,7 +140,6 @@ export const chicagoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Music", "Nightlife"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -261,7 +258,6 @@ export const chicagoTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -381,7 +377,6 @@ export const chicagoTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["History", "Crime", "Prohibition"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -502,7 +497,6 @@ export const chicagoTours: Tour[] = [
     price: "$49",
     rating: 4.9,
     tags: ["Bicycle", "Lakefront", "Outdoor"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -606,5 +600,4 @@ export const chicagoTours: Tour[] = [
     ],
   },
 ];
-
 export default chicagoTours;

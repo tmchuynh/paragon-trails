@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const copenhagenTours: Tour[] = [
   {
     title: "Copenhagen by Bike & Canal Cruise",
@@ -19,7 +18,6 @@ export const copenhagenTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cycling", "Canals", "Local Experience"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -140,7 +138,6 @@ export const copenhagenTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["Design", "Architecture", "Modern"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -256,7 +253,6 @@ export const copenhagenTours: Tour[] = [
     price: "$160",
     rating: 4.9,
     tags: ["Culinary", "Street Food", "Fine Dining"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -373,7 +369,6 @@ export const copenhagenTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Royalty", "Gardens", "History"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -496,7 +491,6 @@ export const copenhagenTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Sustainability", "Innovation", "Urban Planning"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -595,5 +589,4 @@ export const copenhagenTours: Tour[] = [
     ],
   },
 ];
-
 export default copenhagenTours;

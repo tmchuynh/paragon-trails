@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const chiangMaiTours: Tour[] = [
   {
     title: "Wat Phra Singh Woramahawihan",
@@ -61,5 +60,4 @@ export const chiangMaiTours: Tour[] = [
       "Free cancellation up to 48 hours before the tour starts. 50% refund for cancellations made 24-48 hours before the tour. No refund for cancellations less than 24 hours before the tour or no-shows.",
   },
 ];
-
 export default chiangMaiTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const chefchaouenTours: Tour[] = [
   {
     title: "Blue City Walking Tour & Local Artisans",
@@ -16,7 +15,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Culture", "Photography", "Artisans"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -131,7 +129,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -247,7 +244,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Photography", "Artistic", "Architecture"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -357,7 +353,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Cooking", "Food", "Market"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -469,7 +464,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Nature", "Hiking", "Swimming"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -585,7 +579,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$35",
     rating: 4.9,
     tags: ["Sunset", "Rooftop", "Tea Ceremony"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -700,7 +693,6 @@ export const chefchaouenTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Shopping", "Culture", "Local Markets"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -800,5 +792,4 @@ export const chefchaouenTours: Tour[] = [
     ],
   },
 ];
-
 export default chefchaouenTours;
