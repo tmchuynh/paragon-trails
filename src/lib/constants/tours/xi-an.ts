@@ -5,6 +5,9 @@ export const xianTours: Tour[] = [
     title: "Terracotta Army & Emperor's Tomb VIP Access",
     description:
       "Experience the archaeological wonder of China's Terracotta Warriors with privileged access to areas closed to regular visitors, guided by an expert archaeologist who reveals the latest discoveries and historical context.",
+    city: "Xi'an",
+    country: "China",
+    region: "Shaanxi Province",
     images: [
       "/images/tours/xi-an/terracotta-warriors.jpg",
       "/images/tours/xi-an/emperor-tomb.jpg",
@@ -31,6 +34,9 @@ export const xianTours: Tour[] = [
     title: "Xi'an Ancient City Wall & Muslim Quarter",
     description:
       "Cycle along China's best-preserved ancient city wall offering panoramic views, then explore the vibrant Muslim Quarter's narrow lanes and sample its famous street food with insights into the city's Silk Road heritage.",
+    city: "Xi'an",
+    country: "China",
+    region: "Shaanxi Province",
     images: [
       "/images/tours/xi-an/city-wall-cycling.jpg",
       "/images/tours/xi-an/muslim-quarter.jpg",
@@ -57,6 +63,9 @@ export const xianTours: Tour[] = [
     title: "Silk Road Heritage & Local Crafts Tour",
     description:
       "Discover Xi'an's rich Silk Road history with visits to ancient trading posts, artisan workshops, and markets where you can see traditional crafts like paper cutting, calligraphy, and pottery being made.",
+    city: "Xi'an",
+    country: "China",
+    region: "Shaanxi Province",
     images: [
       "/images/tours/xi-an/silk-road-market.jpg",
       "/images/tours/xi-an/calligraphy-workshop.jpg",
@@ -85,3 +94,5 @@ export const xianTours: Tour[] = [
     ],
   },
 ];
+
+export default xianTours;

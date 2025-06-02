@@ -5,6 +5,9 @@ export const zagrebTours: Tour[] = [
     title: "Zagreb Upper Town Secrets & Hidden Courtyards",
     description:
       "Discover the historical heart of Zagreb beyond the usual tourist routes. Explore hidden courtyards, secret passages, and tucked-away gardens of the Upper Town while learning about the city's medieval origins, legends, and the everyday lives of locals past and present.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/hidden-courtyard.jpg",
       "/images/tours/zagreb/upper-town-street.jpg",
@@ -31,6 +34,9 @@ export const zagrebTours: Tour[] = [
     title: "Strukli Cooking Class & Croatian Cuisine",
     description:
       "Master the art of making strukli, Zagreb's iconic cheese pastry, in a hands-on cooking workshop. Learn about Croatian culinary traditions, visit Dolac Market to select ingredients, and discover the techniques behind this UNESCO-recognized intangible cultural heritage dish.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/strukli-making.jpg",
       "/images/tours/zagreb/dolac-market.jpg",
@@ -57,6 +63,9 @@ export const zagrebTours: Tour[] = [
     title: "Museum of Broken Relationships & Artistic Zagreb",
     description:
       "Explore Zagreb's innovative museum scene, starting with the globally acclaimed Museum of Broken Relationships and continuing through the city's creative art spaces, galleries, and artistic quarters. Discuss contemporary Croatian culture with local artists and creative professionals.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/broken-relationships.jpg",
       "/images/tours/zagreb/art-gallery.jpg",
@@ -83,6 +92,9 @@ export const zagrebTours: Tour[] = [
     title: "Zagreb Craft Beer Tour & Brewery Visits",
     description:
       "Experience Croatia's booming craft beer scene with guided tastings at Zagreb's top microbreweries and craft beer bars. Meet brewmasters, learn about brewing techniques, and discover how young entrepreneurs are revolutionizing Croatian beer culture with innovative local ingredients and methods.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/craft-beer.jpg",
       "/images/tours/zagreb/brewery-tour.jpg",
@@ -109,6 +121,9 @@ export const zagrebTours: Tour[] = [
     title: "Zagreb Christmas Markets & Festive Traditions",
     description:
       "Experience the magic of Zagreb's award-winning Christmas markets, voted Europe's best several years running. Explore festively decorated squares, sample seasonal delicacies and mulled wine, and learn about Croatian holiday traditions with a local guide who knows all the best spots.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/christmas-market.jpg",
       "/images/tours/zagreb/advent-zagreb.jpg",
@@ -135,6 +150,9 @@ export const zagrebTours: Tour[] = [
     title: "Samobor Culinary Excursion & Kremšnite Tasting",
     description:
       "Journey to the charming medieval town of Samobor just outside Zagreb for a food-focused exploration. Sample the famous Samobor kremšnite cream cake, bermet aperitif wine, and other local specialties while exploring the picturesque old town with its artisan traditions and beautiful setting.",
+    city: "Samobor",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/samobor-town.jpg",
       "/images/tours/zagreb/kremsnite.jpg",
@@ -161,6 +179,9 @@ export const zagrebTours: Tour[] = [
     title: "Socialist Zagreb: Communist Era Architecture & History",
     description:
       "Explore Zagreb's fascinating socialist period through its striking modernist architecture, monuments, and public spaces. Learn how the Yugoslav era shaped the city with massive housing projects, innovative cultural venues, and distinctive design that still defines much of Zagreb today.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/modernist-architecture.jpg",
       "/images/tours/zagreb/socialist-monument.jpg",
@@ -187,6 +208,9 @@ export const zagrebTours: Tour[] = [
     title: "Zagreb Photography Walk: Contrasts & Compositions",
     description:
       "Explore Zagreb through your camera lens with guidance from a professional photographer. Capture the city's unique contrasts between Habsburg elegance and socialist-era structures, colorful markets and quiet courtyards, all while learning composition techniques and photography tips.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/street-photography.jpg",
       "/images/tours/zagreb/urban-composition.jpg",
@@ -213,6 +237,9 @@ export const zagrebTours: Tour[] = [
     title: "Zagreb's Green Spaces: Parks, Gardens & Nature",
     description:
       "Discover Zagreb's beautiful parks and gardens with a local nature enthusiast. Explore Maksimir Park, the Botanical Garden, and lesser-known green spaces while learning about the city's flora, fauna, and environmental initiatives.",
+    city: "Zagreb",
+    country: "Croatia",
+    region: "Central Croatia",
     images: [
       "/images/tours/zagreb/maksimir-park.jpg",
       "/images/tours/zagreb/botanical-garden.jpg",

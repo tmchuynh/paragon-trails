@@ -5,6 +5,9 @@ export const washingtonTours: Tour[] = [
     title: "Monuments & Memorials by Moonlight",
     description:
       "Experience the magic of Washington DC's iconic monuments and memorials illuminated against the night sky, with fewer crowds and dramatic lighting.",
+    city: "Washington",
+    country: "United States",
+    region: "District of Columbia",
     images: [
       "/images/tours/washington/lincoln-memorial-night.jpg",
       "/images/tours/washington/washington-monument-night.jpg",
@@ -31,6 +34,9 @@ export const washingtonTours: Tour[] = [
     title: "Smithsonian & National Archives VIP Tour",
     description:
       "Get insider access to the treasures of Washington's premier museums with skip-the-line privileges and expert guidance through the most significant exhibits.",
+    city: "Washington",
+    country: "United States",
+    region: "District of Columbia",
     images: [
       "/images/tours/washington/smithsonian.jpg",
       "/images/tours/washington/national-archives.jpg",
@@ -57,6 +63,9 @@ export const washingtonTours: Tour[] = [
     title: "Georgetown's Historic Homes & Waterfront",
     description:
       "Explore the charming streets of Georgetown with a local historian, visiting historic homes, gardens, and the scenic waterfront while learning about the neighborhood's rich history.",
+    city: "Washington",
+    country: "United States",
+    region: "District of Columbia",
     images: [
       "/images/tours/washington/georgetown-homes.jpg",
       "/images/tours/washington/georgetown-waterfront.jpg",

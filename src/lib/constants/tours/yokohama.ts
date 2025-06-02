@@ -5,6 +5,9 @@ export const yokohamaTours: Tour[] = [
     title: "Yokohama Bay Skyline Night Photography",
     description:
       "Capture stunning night shots of Japan's most beautiful harbor skyline with a professional photographer guide, using both Minato Mirai's futuristic architecture and historic Red Brick Warehouse as backdrops.",
+    city: "Yokohama",
+    country: "Japan",
+    region: "Kanagawa Prefecture",
     images: [
       "/images/tours/yokohama/night-skyline.jpg",
       "/images/tours/yokohama/minatomirai.jpg",
@@ -31,6 +34,9 @@ export const yokohamaTours: Tour[] = [
     title: "Chinatown Culinary Adventure",
     description:
       "Explore Japan's largest Chinatown with a local food expert, sampling authentic Chinese-Japanese fusion cuisine from hidden family-run restaurants spanning multiple generations.",
+    city: "Yokohama",
+    country: "Japan",
+    region: "Kanagawa Prefecture",
     images: [
       "/images/tours/yokohama/chinatown.jpg",
       "/images/tours/yokohama/dim-sum.jpg",
@@ -57,6 +63,9 @@ export const yokohamaTours: Tour[] = [
     title: "Yokohama's Hidden Temples & Gardens",
     description:
       "Discover the serene beauty of Yokohama's lesser-known temples and traditional gardens with a local historian, exploring peaceful spots away from the crowds while learning about their history and significance.",
+    city: "Yokohama",
+    country: "Japan",
+    region: "Kanagawa Prefecture",
     images: [
       "/images/tours/yokohama/hidden-temple.jpg",
       "/images/tours/yokohama/traditional-garden.jpg",

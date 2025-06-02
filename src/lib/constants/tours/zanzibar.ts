@@ -55,7 +55,7 @@ export const zanzibarTours: Tour[] = [
       "/images/tours/zanzibar/dhow-sailing.jpg",
       "/images/tours/zanzibar/dolphins.jpg",
     ],
-    duration: "Full day",
+    duration: "10 hours",
     price: "$95",
     rating: 4.9,
     tags: ["Marine Life", "Snorkeling", "Dolphins"],

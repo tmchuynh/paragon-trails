@@ -5,6 +5,9 @@ export const viennaTours: Tour[] = [
     title: "Classical Vienna & Private Concert",
     description:
       "Immerse yourself in the musical heritage of Vienna with a distinguished musicologist, visiting the homes of Mozart and Beethoven, followed by a private chamber concert in a historic palace with champagne reception.",
+    city: "Vienna",
+    country: "Austria",
+    region: "Vienna State",
     images: [
       "/images/tours/vienna/mozart-house.jpg",
       "/images/tours/vienna/palace-concert.jpg",
@@ -31,6 +34,9 @@ export const viennaTours: Tour[] = [
     title: "Imperial Vienna & Habsburg Treasures",
     description:
       "Experience the grandeur of the Habsburg Empire with private access to imperial apartments in Schönbrunn Palace, the Imperial Treasury's crown jewels, and the Spanish Riding School with a historian specializing in royal history.",
+    city: "Vienna",
+    country: "Austria",
+    region: "Vienna State",
     images: [
       "/images/tours/vienna/schonbrunn-palace.jpg",
       "/images/tours/vienna/imperial-crown.jpg",
@@ -57,6 +63,9 @@ export const viennaTours: Tour[] = [
     title: "Vienna's Hidden Art Scene & Street Art Tour",
     description:
       "Explore Vienna's vibrant contemporary art scene with a local artist, visiting hidden galleries, street art hotspots, and artist studios in the creative districts of Neubau and Mariahilf.",
+    city: "Vienna",
+    country: "Austria",
+    region: "Vienna State",
     images: [
       "/images/tours/vienna/street-art.jpg",
       "/images/tours/vienna/contemporary-gallery.jpg",
