@@ -16,6 +16,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import CartContext from "@/context/cartContext";
 import { cityattractions } from "@/lib/constants/info/city";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { Tour } from "@/lib/interfaces/services/tours"; // Added TourGuide
@@ -34,13 +35,15 @@ import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { toast } from "sonner";
 
 export default function TourPage() {
   const [tour, setTour] = useState<Tour | null>(null);
   const [loading, setLoading] = useState(true);
   const [date, setDate] = useState<Date>();
   const [participants, setParticipants] = useState(2);
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
   const searchParams = useSearchParams();
   const router = useRouter();
   const city = searchParams.get("city") || "";
@@ -50,6 +53,7 @@ export default function TourPage() {
   const [filteredTours, setFilteredTours] = useState<Tour[]>([]);
   const [allTours, setAllTours] = useState<Tour[]>([]);
   const [tourGuides, setTourGuides] = useState<TourGuide[]>([]); // Changed type
+  const cartContext = useContext(CartContext);
 
   const cityInfo = cityattractions.find(
     (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
@@ -151,6 +155,33 @@ export default function TourPage() {
         }
       })()
     : 0;
+
+  const handleAddToCart = () => {
+    if (!cartContext) return;
+
+    setIsAddingToCart(true);
+
+    // Create a unique ID for the cart item
+    const tourItem = {
+      id: `${formatToSlug(tour.title)}-${Math.random()
+        .toString(36)
+        .substr(2, 9)}`,
+      title: tour.title,
+      price: parseFloat(tour.price.replace(/[^0-9.]/g, "")),
+      image: tour.images[0],
+      duration: tour.duration,
+      category: tour.tourCategoryId,
+      city,
+      country: searchParams.get("country") || "",
+      tourGuide: tourGuide || null,
+      date: date ? format(date, "yyyy-MM-dd") : null,
+      participants: participants,
+    };
+
+    cartContext.addToCart(tourItem);
+    toast.success(`${tour.title} added to your cart!`);
+    setIsAddingToCart(false);
+  };
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -435,21 +466,15 @@ export default function TourPage() {
                 </div>
               </div>
               <Button
-                onClick={() =>
-                  router.push(
-                    `/book-your-trip-today?${new URLSearchParams({
-                      city: formatToSlug(city),
-                      tourName: formatToSlug(tour.title),
-                      tourGuide: formatToSlug(tourGuide),
-                      tourCategoryId: formatToSlug(tourCategoryId),
-                    }).toString()}&date=${
-                      date ? format(date, "yyyy-MM-dd") : ""
-                    }&participants=${participants}`
-                  )
-                }
+                onClick={handleAddToCart}
+                disabled={isAddingToCart || !date}
                 className="w-full"
               >
-                Add to Cart
+                {!date
+                  ? "Select a date first"
+                  : isAddingToCart
+                  ? "Adding..."
+                  : "Add to Cart"}
               </Button>
             </div>
           </div>
