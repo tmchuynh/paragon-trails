@@ -2,309 +2,394 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const monacoTours: Tour[] = [
   {
-    title: "Monaco Grand Prix VIP Experience",
+    title: "Monaco Glamour & Monte Carlo Elegance",
     description:
-      "Experience the legendary Monaco Grand Prix from exclusive VIP terraces overlooking the circuit's most exciting corners. Enjoy champagne reception, gourmet catering, and meet-and-greets with Formula 1 personalities while witnessing motorsport's most prestigious race.",
-    city: "Monte Carlo",
-    country: "Monaco",
-    region: "Monaco",
-    images: [
-      "/images/tours/monaco/grand-prix-vip.jpg",
-      "/images/tours/monaco/f1-terrace-view.jpg",
-    ],
-    duration: "8 hours",
-    price: "$3,995",
-    rating: 5.0,
-    tags: ["Formula 1", "VIP", "Exclusive"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "What's included in the VIP package?",
-        answer:
-          "This premium experience includes exclusive access to a private terrace with prime views of the circuit, gourmet catering throughout the day, open bar with champagne and premium spirits, official race program, commemorative gift, noise-canceling radio headsets with expert commentary, and opportunities to meet racing personalities (varies by race weekend). Private helicopter transfers between Nice and Monaco can be arranged for an additional fee.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "While the Monaco Grand Prix is a thrilling event, it is not specifically designed for children. The VIP areas are more family-friendly than general admission zones, but we recommend this experience primarily for adults and older teens who appreciate motorsport. Children under 12 are not permitted in the VIP areas due to safety regulations.",
-      },
-      {
-        question: "What should I wear for the Grand Prix?",
-        answer:
-          "Smart casual attire is recommended for the VIP areas. While there is no strict dress code, we suggest comfortable clothing suitable for a day outdoors, as well as comfortable shoes for walking around the circuit. Many guests opt for polo shirts, light jackets, and sunglasses. If you plan to visit the paddock or meet drivers, a collared shirt and smart shoes are advisable.",
-      },
-    ],
-  },
-  {
-    title: "Monaco Royal Palace & Old Town Private Tour",
-    description:
-      "Explore the fascinating history of Europe's oldest monarchy with private access to areas of the Prince's Palace normally closed to the public, followed by a guided walk through Monaco-Ville's medieval lanes and exclusive lunch at a palace-view restaurant.",
-    city: "Monaco-Ville",
-    country: "Monaco",
-    region: "Monaco",
-    images: [
-      "/images/tours/monaco/royal-palace.jpg",
-      "/images/tours/monaco/monaco-ville.jpg",
-    ],
-    duration: "4 hours",
-    price: "$275",
-    rating: 4.9,
-    tags: ["Royal History", "Palace", "Cultural"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "Do we get to see the inside of the Prince's Palace?",
-        answer:
-          "Yes, this special tour includes interior access to the State Apartments including the Throne Room, Blue Room, and Mazarin Room with their collections of Renaissance frescoes and royal portraits. During summer months (April-October), we also view the private royal collection of antique cars, and depending on the royal family's schedule, occasionally gain access to gardens not on the regular public tour route.",
-      },
-      {
-        question: "Is the tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and suitable for children of all ages. The palace and old town offer engaging historical context, and our guides are skilled at making the experience enjoyable for younger visitors. We can also provide child-friendly lunch options at the restaurant.",
-      },
-      {
-        question: "What should we wear for the palace tour?",
-        answer:
-          "Comfortable walking shoes are recommended, as the tour involves exploring the hilly terrain of Monaco-Ville. The dress code is smart casual; no shorts or beachwear are allowed inside the palace. We recommend light layers due to the Mediterranean climate, and sun protection is advisable if visiting during warmer months.",
-      },
-    ],
-  },
-  {
-    title: "Monaco Yacht Charter & Coastal Elegance",
-    description:
-      "Cruise the French Riviera aboard a private luxury yacht with champagne and gourmet canapés. Explore hidden coves, enjoy swimming in crystal waters, and experience Monaco's coastline as the privileged do - from the stunning vantage point of the sea.",
+      "Experience the opulence of Monaco with a guided tour through this legendary principality. Visit the Prince's Palace, Monte Carlo Casino, and the famous F1 circuit while learning about Monaco's unique history, royal family, and transformation into a luxury destination.",
     city: "Monaco",
     country: "Monaco",
-    region: "Monaco",
-    images: [
-      "/images/tours/monaco/luxury-yacht.jpg",
-      "/images/tours/monaco/coast-cruise.jpg",
-    ],
-    duration: "6 hours",
-    price: "$3,500",
-    rating: 5.0,
-    tags: ["Yacht", "Luxury", "Coastal"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "How many guests can the yacht accommodate?",
-        answer:
-          "Our standard package includes a 24-meter (78-foot) luxury motor yacht that comfortably accommodates up to 8 guests with 3 crew members. Larger vessels accommodating up to 12 guests are available for an additional fee. Each yacht features spacious sundecks, interior lounges, multiple water toys (paddleboards, snorkeling gear, sea scooters), and premium sound systems for your enjoyment.",
-      },
-      {
-        question: "What should we bring for the yacht tour?",
-        answer:
-          "We recommend bringing swimwear, sunscreen, hats, and light cover-ups for sun protection. We provide towels, snorkeling gear, and paddleboards. If you have specific dietary restrictions or preferences, please inform us in advance so we can accommodate your needs with our onboard catering.",
-      },
-      {
-        question: "Is the yacht tour suitable for children?",
-        answer:
-          "Yes, our yacht tours are family-friendly and suitable for children of all ages. We provide life jackets for younger guests and can arrange child-friendly meals upon request. The crew is experienced in ensuring a safe and enjoyable experience for families.",
-      },
-    ],
-  },
-  {
-    title: "Monte Carlo Casino & Belle Époque Heritage Tour",
-    description:
-      "Step into the glamorous world of Monte Carlo's legendary casino with a behind-the-scenes tour of its opulent Belle Époque architecture, famous gaming rooms, and rich history. Learn about famous gamblers, royal patrons, and the casino's role in Monaco's prosperity.",
-    city: "Monte Carlo",
-    country: "Monaco",
-    region: "Monaco",
+    region: "Western Europe",
     images: [
       "/images/tours/monaco/monte-carlo-casino.jpg",
-      "/images/tours/monaco/belle-epoque-architecture.jpg",
+      "/images/tours/monaco/princes-palace.jpg",
     ],
     duration: "3 hours",
-    price: "$195",
-    rating: 4.7,
-    tags: ["Casino", "Architecture", "History"],
+    price: "$95",
+    rating: 4.8,
+    tags: ["Luxury", "Casino", "Royal"],
 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "historical",
+    tourCategoryId: "luxury",
+
+    meetingPoint: {
+      address: "Place du Casino, Monte Carlo, Monaco",
+      coordinates: {
+        latitude: 43.7398,
+        longitude: 7.4274,
+      },
+      instructions: "Meet in front of the Monte Carlo Casino main entrance. Your guide will be holding a white 'Monaco Tours' sign.",
+      contactNumber: "+377 99 99 30 00",
+      contactEmail: "monacotour@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-18", "2023-12-21", "2023-12-24", "2023-12-27", "2023-12-30",
+      "2024-01-02", "2024-01-05", "2024-01-08", "2024-01-11", "2024-01-14", "2024-01-17", 
+      "2024-01-20", "2024-01-23", "2024-01-26", "2024-01-29",
+      "2024-02-01", "2024-02-04", "2024-02-07", "2024-02-10", "2024-02-13", "2024-02-16", 
+      "2024-02-19", "2024-02-22", "2024-02-25", "2024-02-28",
+    ],
+    
+    highlights: [
+      "Tour the legendary Monte Carlo Casino with its Belle Époque architecture",
+      "Visit the Prince's Palace and witness the Changing of the Guard ceremony",
+      "Walk sections of the famous Formula 1 Grand Prix circuit",
+      "Explore the exclusive Port Hercule with its spectacular superyachts",
+      "Enjoy panoramic views from multiple vantage points around the principality",
+    ],
+    
+    inclusions: [
+      "Professional local guide with expert knowledge of Monaco's history",
+      "Entry ticket to Monte Carlo Casino's atrium and public areas",
+      "Entry to Prince's Palace (April-October only)",
+      "Luxury bottled water",
+      "Small group size (maximum 8 participants)",
+    ],
+    
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages beyond water provided",
+      "Casino gaming rooms entrance fee (€17, payable directly if desired)",
+      "Gratuities (recommended but optional)",
+      "Personal expenses and souvenirs",
+    ],
+    
+    itinerary: [
+      "10:00 - Meet at Monte Carlo Casino for introduction to Monaco's history",
+      "10:15 - Guided tour of Casino Square and Monte Carlo Casino (main atrium)",
+      "10:45 - Walk through Casino Gardens with Mediterranean views",
+      "11:15 - Visit to Café de Paris and Hôtel de Paris with historical context",
+      "11:30 - Walk along section of the Formula 1 circuit toward Port Hercule",
+      "11:45 - Explore Port Hercule and see luxury yachts",
+      "12:15 - Take the Rampe Major path up to Monaco-Ville (The Rock)",
+      "12:30 - Watch Changing of the Guard ceremony at Prince's Palace (if scheduled)",
+      "12:45 - Visit Monaco Cathedral where Grace Kelly is buried",
+      "13:00 - Tour conclusion with panoramic views and recommendations",
+    ],
+    
     faqs: [
       {
-        question: "Is there a dress code for the casino tour?",
+        question: "What should I wear for this tour?",
         answer:
-          "Yes, even for morning tours, the Casino maintains a smart-casual dress code. Gentlemen are required to wear a jacket (we can provide one if needed), closed shoes, and collared shirts. No shorts, sports shoes, or flip-flops are permitted. Ladies should dress elegantly (no beachwear). For evening tours, more formal attire is expected. This tradition maintains the casino's historic sophistication and exclusivity.",
+          "Smart casual attire is recommended for this tour. If you wish to enter the casino gaming rooms after the tour, please note there's a strict dress code: jackets for men are recommended in the evening (required in some private rooms), no shorts or flip-flops, and elegant attire is expected. For the general tour, comfortable walking shoes are advised as Monaco has many hills and steps."
       },
       {
-        question: "Can we try our luck at the tables during the tour?",
+        question: "Will we see the inside of the Monte Carlo Casino?",
         answer:
-          "The tour does not include gaming, but you can purchase chips and play after the guided portion ends. We recommend arriving early to familiarize yourself with the rules and etiquette of the games. Our guide can provide tips on how to play popular games like roulette, blackjack, and baccarat if you're new to casino gaming.",
+          "Morning tours include entry to the casino's atrium and public areas with their spectacular Belle Époque architecture and artwork. The private gaming rooms are only accessible after 2pm for those wishing to gamble (passport required and entry fee applies). Our guide explains the casino's history, architecture, and cultural significance, but gambling activities are not part of the guided tour."
       },
       {
-        question: "Are children allowed in the casino?",
+        question: "Is there a chance we'll see members of the royal family?",
         answer:
-          "Children under 18 are not permitted in the gaming areas of the Casino de Monte-Carlo. However, they can join the tour of the public areas and gardens. We recommend this tour primarily for adults and older teens who appreciate history and architecture.",
+          "While royal sightings are rare and never guaranteed, our guides are well-informed about royal family activities and public appearances. The Changing of the Guard ceremony at 11:55am (daily from April to October) is the most likely time to glimpse palace activities. Throughout the tour, your guide will share fascinating insights about the Grimaldi family who have ruled Monaco for over 700 years."
       },
     ],
   },
+  
   {
-    title: "Monaco Gastronomic Journey & Wine Tasting",
+    title: "Monaco Grand Prix Historic Circuit Tour",
     description:
-      "Indulge in Monaco's exceptional culinary scene with a progressive dining experience through Michelin-starred restaurants and private wine cellars, guided by a gourmet expert who shares insights into Mediterranean haute cuisine.",
+      "Walk the legendary Monaco Formula 1 circuit with a motorsport expert, visiting famous corners, the starting grid, and exclusive areas while learning about historic races and legendary drivers who mastered this challenging street course.",
     city: "Monaco",
     country: "Monaco",
-    region: "Monaco",
+    region: "Western Europe",
     images: [
-      "/images/tours/monaco/michelin-cuisine.jpg",
-      "/images/tours/monaco/wine-cellar.jpg",
+      "/images/tours/monaco/f1-circuit.jpg",
+      "/images/tours/monaco/race-memorabilia.jpg",
     ],
-    duration: "5 hours",
-    price: "$495",
-    rating: 4.9,
-    tags: ["Gourmet", "Wine", "Fine Dining"],
+    duration: "2.5 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Formula 1", "Motorsport", "Walking Tour"],
 
-    isHistorical: false,
-    isRomantic: true,
+    isHistorical: true,
+    isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "culinary",
+    tourCategoryId: "sports",
+
+    meetingPoint: {
+      address: "Automobile Club de Monaco, 23 Boulevard Albert 1er, Monaco",
+      coordinates: {
+        latitude: 43.7331,
+        longitude: 7.4210,
+      },
+      instructions: "Meet in front of the Automobile Club de Monaco building. Your guide will be wearing a red cap with 'F1 Expert' written on it.",
+      contactNumber: "+377 99 99 30 01",
+      contactEmail: "f1tour@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-16", "2023-12-19", "2023-12-22", "2023-12-25", "2023-12-28", "2023-12-31",
+      "2024-01-03", "2024-01-06", "2024-01-09", "2024-01-12", "2024-01-15", "2024-01-18",
+      "2024-01-21", "2024-01-24", "2024-01-27", "2024-01-30",
+      "2024-02-02", "2024-02-05", "2024-02-08", "2024-02-11", "2024-02-14", "2024-02-17",
+      "2024-02-20", "2024-02-23", "2024-02-26", "2024-02-29",
+    ],
+    
+    highlights: [
+      "Walk the entire 3.337 km Monaco Grand Prix circuit with a motorsport expert",
+      "Stand on the exact starting grid where F1 legends begin the race",
+      "Visit the famous Casino hairpin and Fairmont hairpin turns",
+      "See the tunnel section and infamous chicane where many races were decided",
+      "Learn insider racing stories and technical details about this unique street circuit",
+    ],
+    
+    inclusions: [
+      "Formula 1 expert guide with racing knowledge",
+      "Circuit map with key points and racing facts",
+      "Formula 1 memorabilia viewing",
+      "Photo opportunities at iconic circuit locations",
+      "Commemorative Monaco Grand Prix pin",
+      "Bottled water during the walk",
+    ],
+    
+    exclusions: [
+      "Transportation to and from meeting point",
+      "Food and beverages beyond water provided",
+      "Entry to private venues along the route",
+      "Gratuities (optional)",
+      "Personal purchases",
+    ],
+    
+    itinerary: [
+      "10:00 - Meet at Automobile Club de Monaco for introduction",
+      "10:15 - Begin circuit walk at the official starting grid on Boulevard Albert 1er",
+      "10:30 - Visit Sainte Devote corner, site of many first-lap incidents",
+      "10:45 - Climb up Beau Rivage to Casino Square",
+      "11:00 - Explore the famous Casino hairpin with racing stories",
+      "11:15 - Continue to the Mirabeau and Portier sections",
+      "11:30 - View the tunnel entrance (exterior only)",
+      "11:45 - Visit the harbor chicane and Swimming Pool complex",
+      "12:00 - Walk through Rascasse corner and toward Anthony Noghès corner",
+      "12:15 - Complete the circuit loop back at the starting point",
+      "12:30 - Tour conclusion with Formula 1 memorabilia viewing",
+    ],
+    
     faqs: [
       {
-        question: "Can dietary restrictions be accommodated?",
+        question: "How physically demanding is this walking tour?",
         answer:
-          "Yes, with sufficient advance notice (ideally 3+ days), we can accommodate most dietary preferences and restrictions including vegetarian, vegan, gluten-free, kosher, and food allergies. The Michelin-starred chefs pride themselves on creating customized tasting experiences that maintain the same level of excellence regardless of dietary limitations. Please specify all requirements when booking so each venue can prepare accordingly.",
+          "The tour involves approximately 3.3 km (2 miles) of walking including some uphill sections and stairs, particularly in the Beau Rivage area. We maintain a moderate pace with frequent stops for explanations and photos. While not excessively strenuous, comfortable walking shoes are essential, and a basic level of fitness is recommended."
       },
       {
-        question: "What is the dress code for the dining experience?",
+        question: "Will we see race preparations if visiting close to the Grand Prix?",
         answer:
-          "The dress code varies by restaurant but generally falls under smart casual to formal. For Michelin-starred venues, we recommend elegant attire (no shorts, flip-flops, or overly casual clothing). Gentlemen should wear collared shirts and closed shoes, while ladies should opt for dresses or smart separates. Some venues may have specific requirements, which we will inform you of in advance. This ensures a refined dining atmosphere that matches the culinary excellence.",
+          "If you visit in the weeks leading up to the Monaco Grand Prix (held annually in late May), you'll see the gradual transformation of the city as grandstands are erected and barriers installed. Our tour route may be slightly modified during this period due to construction, but this offers a fascinating behind-the-scenes look at how a city street circuit comes together."
       },
       {
-        question: "Are children allowed on the gastronomic tour?",
+        question: "Does the tour include a visit to a Formula 1 team garage?",
         answer:
-          "While this tour is designed for adults and older teens who appreciate fine dining, we can accommodate younger guests if they are comfortable in a formal dining setting. Please inform us in advance if you plan to bring children so we can arrange appropriate menu options and seating.",
+          "This tour focuses on the public streets that make up the circuit. Formula 1 team facilities are highly secured and not accessible outside of race weekends, and even then only with special passes. However, our guides share insider knowledge about team operations and logistics for this unique street circuit."
       },
     ],
   },
+  
   {
-    title: "Monaco by Night: Glamour & Entertainment",
+    title: "Monaco by Night: Sunset & Casino Experience",
     description:
-      "Experience Monaco's legendary nightlife with VIP access to exclusive clubs, lounges, and casino private rooms. Enjoy priority entry, premium services, and the vibrant atmosphere that attracts celebrities and jet-setters from around the world.",
-    city: "Monte Carlo",
+      "Experience Monaco's glamorous transformation after dark, from a spectacular sunset over the Mediterranean to the excitement of Monte Carlo's legendary casino. Includes an elegant three-course dinner at a premium restaurant.",
+    city: "Monaco",
     country: "Monaco",
-    region: "Monaco",
+    region: "Western Europe",
     images: [
-      "/images/tours/monaco/nightclub-vip.jpg",
+      "/images/tours/monaco/monaco-sunset.jpg",
       "/images/tours/monaco/casino-night.jpg",
     ],
-    duration: "6 hours",
-    price: "$375",
-    rating: 4.8,
-    tags: ["Nightlife", "VIP", "Entertainment"],
+    duration: "5 hours",
+    price: "$250",
+    rating: 4.9,
+    tags: ["Evening", "Dining", "Luxury"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "luxury",
+    tourCategoryId: "nightlife",
+
+    meetingPoint: {
+      address: "Fairmont Monte Carlo Hotel, 12 Avenue des Spélugues, Monaco",
+      coordinates: {
+        latitude: 43.7394,
+        longitude: 7.4292,
+      },
+      instructions: "Meet in the Fairmont Hotel lobby near the concierge desk. Your host will be wearing a black suit with a gold 'Monaco Elite' pin.",
+      contactNumber: "+377 99 99 30 02",
+      contactEmail: "nighttour@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-22", "2023-12-24", "2023-12-26", "2023-12-29", "2023-12-31",
+      "2024-01-02", "2024-01-05", "2024-01-07", "2024-01-09", "2024-01-12", "2024-01-14", "2024-01-16", 
+      "2024-01-19", "2024-01-21", "2024-01-23", "2024-01-26", "2024-01-28", "2024-01-30",
+      "2024-02-02", "2024-02-04", "2024-02-06", "2024-02-09", "2024-02-11", "2024-02-13",
+      "2024-02-16", "2024-02-18", "2024-02-20", "2024-02-23", "2024-02-25", "2024-02-27",
+    ],
+    
+    highlights: [
+      "Enjoy champagne at a premium vantage point while watching the Mediterranean sunset",
+      "Experience a three-course gourmet dinner at an exclusive Monaco restaurant",
+      "Tour the illuminated city-state with its dazzling evening light displays",
+      "Visit the Monte Carlo Casino with VIP admission to gaming rooms",
+      "See luxury supercars and high society gathering around Casino Square",
+    ],
+    
+    inclusions: [
+      "Welcome glass of champagne at sunset viewpoint",
+      "Three-course gourmet dinner at premium restaurant",
+      "One glass of wine with dinner",
+      "Professional evening guide/host",
+      "Casino entry fees and gaming room access",
+      "Complimentary casino gaming chip (€25 value)",
+      "Walking tour of illuminated Monaco highlights",
+    ],
+    
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional alcoholic beverages beyond those mentioned",
+      "Additional casino chips beyond complimentary chip",
+      "Gratuities (recommended but optional)",
+      "Formal attire rental (required for casino entry, available if needed)",
+    ],
+    
+    itinerary: [
+      "19:00 - Meet at Fairmont Hotel for welcome and introductions",
+      "19:15 - Walk to sunset viewpoint for champagne toast overlooking the Mediterranean",
+      "19:45 - Stroll through illuminated gardens to dinner venue",
+      "20:00 - Gourmet three-course dinner at exclusive Monaco restaurant",
+      "21:30 - Evening walking tour through illuminated Monaco highlights",
+      "22:00 - Arrive at Casino Square to admire luxury vehicles and nighttime ambiance",
+      "22:15 - VIP entry to Monte Carlo Casino with gaming rooms access",
+      "22:30 - Introduction to casino games and gaming chip presentation",
+      "22:45 - Free time for gaming or enjoying casino atmosphere",
+      "00:00 - Tour officially ends (guests may stay longer at casino if desired)",
+    ],
+    
     faqs: [
       {
-        question: "Is there a dress code for the nightlife tour?",
+        question: "What is the dress code for this evening tour?",
         answer:
-          "Absolutely. Monaco's premier venues maintain strict dress codes. For gentlemen: collared shirts, dress shoes, and often jackets are required (no sneakers, jeans, or casual attire). For ladies: elegant evening wear is expected. Our detailed pre-tour information includes specific requirements for each venue on your itinerary. We can arrange emergency shopping assistance or clothing rental if needed upon arrival in Monaco.",
+          "Formal evening attire is required for casino entry. Gentlemen must wear a jacket and tie (blazer acceptable), dress shoes, and long trousers. Ladies should wear cocktail dresses, formal evening wear, or elegant pantsuits. The casino strictly enforces these dress codes in the gaming rooms. Jeans, shorts, sneakers, and overly casual attire are not permitted inside the casino gaming areas."
       },
       {
-        question: "What venues are included in the nightlife tour?",
+        question: "Do I need to bring identification?",
         answer:
-          "The itinerary varies based on availability and special events, but typically includes exclusive access to top nightclubs like Jimmy'z, private lounges such as Buddha-Bar, and VIP areas of the Casino de Monte-Carlo. We also include a visit to a renowned rooftop bar for panoramic views of the city. Our concierge service ensures you experience the best of Monaco's nightlife tailored to your preferences.",
+          "Yes, a valid passport is required for entry into the gaming rooms at Monte Carlo Casino, regardless of your nationality or age. Casino policy requires this identification, and entry will be refused without it. No photocopies are accepted - you must have your original passport."
       },
       {
-        question: "Are there age restrictions for the nightlife venues?",
+        question: "Is the dinner suitable for those with dietary restrictions?",
         answer:
-          "Yes, most clubs and lounges in Monaco have a minimum age requirement of 18 years. The Casino de Monte-Carlo requires guests to be at least 21 years old to enter the gaming areas. We recommend this tour primarily for adults and older teens who appreciate nightlife and entertainment.",
+          "Yes, the restaurant can accommodate most dietary requirements including vegetarian, gluten-free, and common allergies with advance notice. Please inform us of any dietary restrictions at least 48 hours before the tour so we can make appropriate arrangements with the restaurant. The menu typically features Mediterranean cuisine with French and Italian influences, using premium seasonal ingredients."
       },
     ],
   },
+  
   {
-    title: "Monaco Ocean Conservation & Oceanographic Museum",
+    title: "Hidden Monaco History & Secret Corners",
     description:
-      "Discover Prince Albert's environmental initiatives with a marine biologist guide at the historic Oceanographic Museum. Participate in a private marine conservation workshop and enjoy an exclusive behind-the-scenes tour of research facilities normally closed to visitors.",
+      "Discover the lesser-known stories and places of Monaco on this insightful walking tour that reveals the principality's fascinating history beyond the glamour, from medieval origins to wartime intrigue and royal secrets.",
     city: "Monaco",
     country: "Monaco",
-    region: "Monaco",
+    region: "Western Europe",
     images: [
-      "/images/tours/monaco/oceanographic-museum.jpg",
-      "/images/tours/monaco/marine-conservation.jpg",
+      "/images/tours/monaco/old-monaco.jpg",
+      "/images/tours/monaco/hidden-corners.jpg",
     ],
-    duration: "4 hours",
-    price: "$125",
+    duration: "3 hours",
+    price: "$55",
     rating: 4.6,
-    tags: ["Marine Science", "Conservation", "Educational"],
+    tags: ["History", "Walking", "Off the Beaten Path"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, we welcome children and customize the experience based on age groups. For younger children (5-10), we focus on interactive marine life exhibits and touch pools. For older children and teens, we include more in-depth scientific concepts and conservation challenges. The museum's dramatic cliff-top location, aquariums, and marine skeletons captivate visitors of all ages, while our guides are skilled at making complex scientific concepts accessible and engaging.",
-      },
-      {
-        question: "What should we wear for the museum tour?",
-        answer:
-          "Comfortable clothing and shoes are recommended, as the museum involves walking through multiple levels and outdoor terraces. The climate in Monaco can be warm, so light layers are advisable. We also recommend sun protection if you plan to explore the outdoor exhibits. The museum has a café with indoor seating if you wish to take a break during your visit.",
-      },
-    ],
-  },
-  {
-    title: "Monaco Art & Culture: Galleries & Performance",
-    description:
-      "Explore Monaco's vibrant art scene with a private tour of contemporary galleries, artist studios, and exclusive access to cultural performances at the Grimaldi Forum. Meet local artists and learn about the principality's role in the global art world.",
-    city: "Monaco",
-    country: "Monaco",
-    region: "Monaco",
-    images: [
-      "/images/tours/monaco/art-galleries.jpg",
-      "/images/tours/monaco/grimaldi-forum.jpg",
-    ],
-    duration: "3 hours",
-    price: "$150",
-    rating: 4.7,
-    tags: ["Art", "Culture", "Contemporary"],
+    tourCategoryId: "historical",
 
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Place de la Visitation, Monaco-Ville, Monaco",
+      coordinates: {
+        latitude: 43.7315,
+        longitude: 7.4226,
+      },
+      instructions: "Meet at the small square near the Cathedral in Monaco-Ville (The Rock). Your guide will be holding a blue folder with 'Hidden Monaco' written on it.",
+      contactNumber: "+377 99 99 30 03",
+      contactEmail: "historytour@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-17", "2023-12-20", "2023-12-23", "2023-12-26", "2023-12-29",
+      "2024-01-01", "2024-01-04", "2024-01-07", "2024-01-10", "2024-01-13", "2024-01-16",
+      "2024-01-19", "2024-01-22", "2024-01-25", "2024-01-28", "2024-01-31",
+      "2024-02-03", "2024-02-06", "2024-02-09", "2024-02-12", "2024-02-15",
+      "2024-02-18", "2024-02-21", "2024-02-24", "2024-02-27",
+    ],
+    
+    highlights: [
+      "Explore Monaco-Ville's medieval streets and discover their surprising history",
+      "Learn about Monaco's strategic importance through centuries of European politics",
+      "Visit hidden gardens and secluded viewpoints known only to locals",
+      "Discover the Grimaldi family's 700+ year rule and colorful historical characters",
+      "Explore sites related to Monaco's wartime experiences and diplomatic maneuvering",
+    ],
+    
+    inclusions: [
+      "Local historian guide with specialized knowledge",
+      "Entry to St. Nicholas Cathedral",
+      "Access to special viewpoints normally missed by tourists",
+      "Historical maps and photographs for context",
+      "Traditional Monégasque snack sampling",
+      "Bottled water",
+    ],
+    
+    exclusions: [
+      "Transportation to and from meeting point",
+      "Entry fees to additional sites not specified",
+      "Meals and additional beverages",
+      "Gratuities (optional)",
+      "Personal expenses",
+    ],
+    
+    itinerary: [
+      "10:00 - Meet at Place de la Visitation for introduction to Monaco's early history",
+      "10:15 - Visit St. Nicholas Cathedral with historical context beyond Grace Kelly",
+      "10:45 - Explore hidden medieval streets of Monaco-Ville",
+      "11:15 - Discover secluded gardens with panoramic views",
+      "11:30 - Learn about Monaco's surprising military history and fortifications",
+      "11:45 - Visit sites connected to World War II and Monaco's delicate position",
+      "12:15 - Explore lesser-known royal residences and historical buildings",
+      "12:30 - Sample traditional Monégasque barbagiuan pastry with historical context",
+      "12:45 - Final stories of Monaco's transformation from poor principality to wealthy enclave",
+      "13:00 - Tour conclusion with recommendations for further exploration",
+    ],
+    
     faqs: [
       {
-        question: "Are there any age restrictions for the art galleries?",
+        question: "How strenuous is this walking tour?",
         answer:
-          "No, our art tours are family-friendly and suitable for all ages. We tailor the experience to engage younger visitors with interactive activities and storytelling about the artists and their works. The galleries we visit are welcoming to families, and we can provide child-friendly explanations of contemporary art concepts.",
+          "This tour involves moderate walking (approximately 2 km/1.2 miles) through Monaco-Ville, which sits on a rocky promontory. While distances aren't great, there are some steep streets and steps. We maintain a leisurely pace with frequent stops, but comfortable walking shoes are essential. Monaco's historic areas feature some cobblestone streets and uneven surfaces."
       },
       {
-        question: "What should we wear for the gallery tour?",
+        question: "Does this tour overlap with the main Monaco highlights tour?",
         answer:
-          "Comfortable walking shoes are recommended, as we will be exploring multiple galleries on foot. Dress smart casual; while there is no strict dress code, we suggest avoiding overly casual clothing like beachwear or gym attire to respect the artistic environment.",
+          "This specialized tour is designed to complement rather than duplicate our Monaco Glamour & Monte Carlo Elegance tour. While we do visit Monaco-Ville, we focus on different aspects, hidden corners, and lesser-known historical sites. This tour delves deeper into the principality's surprising military, political, and cultural history beyond the casinos and glamour."
       },
       {
-        question: "Can we purchase artwork during the tour?",
+        question: "Will we visit the Prince's Palace?",
         answer:
-          "Yes, many of the galleries we visit offer artworks for sale. If you are interested in purchasing pieces, our guide can assist with introductions to gallery owners and artists. We recommend discussing your budget and preferences in advance so we can tailor the gallery selections accordingly.",
+          "We view the Palace exterior and explain its historical significance, but this tour does not include interior access. If you wish to visit inside the State Apartments (open April-October), we recommend combining this tour with our Monaco Glamour tour or visiting independently afterward. Our guide can provide practical advice for tickets and optimal visiting times."
       },
     ],
   },

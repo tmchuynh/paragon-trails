@@ -4,307 +4,277 @@ export const mtoWaMbuVillageTours: Tour[] = [
   {
     title: "Cultural Mosaic: Tribes of Mto wa Mbu",
     description:
-      "Discover the incredible cultural diversity of this unique village where over 120 tribes coexist harmoniously. Visit family homes from different ethnic groups, learn about traditional customs, and witness daily life activities with local community members as your hosts.",
+      "Experience the cultural diversity of this unique village where over 120 tribes coexist harmoniously. Visit local homes, farms, and workshops while learning about traditional practices and daily life.",
     city: "Mto wa Mbu",
     country: "Tanzania",
-    region: "Arusha Region",
+    region: "Arusha",
     images: [
-      "/images/tours/mto-wa-mbu-village/tribal-homes.jpg",
-      "/images/tours/mto-wa-mbu-village/cultural-activities.jpg",
+      "/images/tours/mto-wa-mbu-village/banana-plantation.jpg",
+      "/images/tours/mto-wa-mbu-village/traditional-art.jpg",
     ],
     duration: "4 hours",
     price: "$45",
-    rating: 4.9,
-    tags: ["Cultural", "Community", "Tribal"],
+    rating: 4.8,
+    tags: ["Cultural", "Rural", "Local Experience"],
 
-    isHistorical: true,
+    isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+    
+    meetingPoint: {
+      address: "Mto wa Mbu Cultural Tourism Office, Main Street, Mto wa Mbu",
+      coordinates: {
+        latitude: -3.3521,
+        longitude: 35.8454,
+      },
+      instructions: "Meet at the Cultural Tourism Office in the center of Mto wa Mbu village. Look for our guide wearing a green vest with 'Cultural Guide' printed on it.",
+      contactNumber: "+255 763 482 591",
+      contactEmail: "mtowambu@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", 
+      "2024-01-05", "2024-01-07", "2024-01-12", "2024-01-14", "2024-01-19", "2024-01-21", "2024-01-26", "2024-01-28",
+      "2024-02-02", "2024-02-04", "2024-02-09", "2024-02-11", "2024-02-16", "2024-02-18", "2024-02-23", "2024-02-25",
+    ],
+    
+    highlights: [
+      "Visit a traditional Maasai boma and learn about their pastoral lifestyle",
+      "Explore banana plantations and learn about the 30+ varieties grown in the region",
+      "Sample local banana beer made using traditional brewing methods",
+      "Meet artisans creating vibrant Tinga Tinga paintings and wood carvings",
+      "Visit a local school and interact with students (when in session)",
+    ],
+    
+    inclusions: [
+      "Local English-speaking cultural guide",
+      "All activity and entrance fees for mentioned sites",
+      "Traditional lunch prepared by local family",
+      "Banana beer tasting experience",
+      "Contribution to community development projects",
+      "Bottled water",
+    ],
+    
+    exclusions: [
+      "Transportation to Mto wa Mbu (can be arranged for additional fee)",
+      "Gratuities for guide (recommended but at your discretion)",
+      "Personal purchases from artisan workshops",
+      "Additional food and beverages beyond included lunch",
+    ],
+    
+    itinerary: [
+      "09:00 - Meet at Cultural Tourism Office for introductions",
+      "09:15 - Walk through village center with orientation talk",
+      "09:45 - Visit local school and meet students (when in session)",
+      "10:30 - Tour of banana plantations and agricultural areas",
+      "11:15 - Visit to traditional banana beer brewing demonstration",
+      "11:45 - Meet with local artisans in their workshops",
+      "12:30 - Traditional lunch with local family",
+      "13:30 - Visit Maasai boma to learn about pastoral traditions",
+      "14:15 - Free time for photos and personal exploration",
+      "14:45 - Return to Cultural Tourism Office where tour concludes",
+    ],
+    
     faqs: [
       {
-        question: "Why do so many different tribes live in this one village?",
-        answer:
-          "Mto wa Mbu ('River of Mosquitoes' in Swahili) developed as a crossroads village where the fertile land and water sources attracted people from across Tanzania. Government relocation programs in the 1960s-70s brought additional tribal groups, creating this unique cultural melting pot. Unlike many areas where tribes remain segregated, Mto wa Mbu became a place of integration where diverse groups maintain their cultural identities while living cooperatively, making it a fascinating microcosm of Tanzania's ethnic diversity.",
+        question: "Why is this village called 'Mto wa Mbu'?",
+        answer: "The name 'Mto wa Mbu' means 'River of Mosquitoes' in Swahili, named after the nearby river. Despite its name, the village is actually quite pleasant! What makes it unique is that it's one of the few places in Tanzania where representatives of all 120+ tribal groups live together harmoniously, creating a vibrant cultural mosaic you won't find elsewhere."
       },
       {
-        question: "What can I expect to see during the tour?",
-        answer:
-          "The tour includes visits to homes of different tribes such as the Chaga, Iraqw, Maasai, and others. You'll witness traditional cooking methods, farming practices, and daily life activities like weaving or pottery. Each visit is an opportunity for cultural exchange where you can ask questions and learn about their unique customs, languages, and ways of life. The tour is designed to be interactive and immersive, allowing you to experience the rich tapestry of Mto wa Mbu's community.",
+        question: "What makes this tour different from other cultural experiences?",
+        answer: "Unlike many staged cultural shows, this tour offers authentic interaction with local community members going about their daily lives. All guides are from the village itself, providing genuine insider perspectives. The tour directly benefits community projects, with a significant portion of proceeds supporting the local school, water projects, and healthcare initiatives."
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer: "Yes, this tour is family-friendly and suitable for children of all ages. Kids especially enjoy meeting school children, watching artisans at work, and tasting tropical fruits. The walking pace is leisurely with plenty of shade breaks, making it manageable even in warm weather. For very young children, parents might consider bringing a carrier as some paths may not be stroller-friendly."
       },
     ],
   },
+  
   {
-    title: "Banana Plantation Tour & Local Brewing Experience",
+    title: "Mto wa Mbu Bicycle Safari & Village Life",
     description:
-      "Walk through lush banana plantations learning about the 30+ banana varieties grown locally, followed by participation in traditional banana beer brewing. Sample this unique beverage alongside other local specialties and take home brewing knowledge passed down through generations.",
+      "Explore the diverse landscapes and communities surrounding Mto wa Mbu on two wheels. Cycle through rice paddies, banana plantations, and acacia woodlands while meeting local farmers and artisans along the way.",
     city: "Mto wa Mbu",
     country: "Tanzania",
-    region: "Arusha Region",
+    region: "Arusha",
     images: [
-      "/images/tours/mto-wa-mbu-village/banana-plantation.jpg",
-      "/images/tours/mto-wa-mbu-village/banana-beer-brewing.jpg",
-    ],
-    duration: "3 hours",
-    price: "$35",
-    rating: 4.7,
-    tags: ["Agriculture", "Brewing", "Food & Drink"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What makes Mto wa Mbu's bananas special?",
-        answer:
-          "The unique microclimate and irrigation systems created by natural underground water sources make this region ideal for banana cultivation. Unlike commercial single-variety plantations, Mto wa Mbu farmers grow over 30 distinct varieties of bananas, each with different uses: green cooking bananas (matoke), sweet dessert bananas, brewing varieties, and special ceremonial types. This agricultural diversity is part of the traditional farming knowledge preserved in the community and represents important food security through biodiversity.",
-      },
-      {
-        question: "Can I participate in the brewing process?",
-        answer:
-          "Yes! The tour includes a hands-on experience where you can help with the banana beer brewing process, from mashing the bananas to fermentation. You'll learn about the cultural significance of this beverage, which has been brewed for generations as part of local celebrations and daily life. After brewing, you'll have the chance to taste the finished product along with other traditional foods.",
-      },
-    ],
-  },
-  {
-    title: "Village Cycling Safari & Wildlife Encounters",
-    description:
-      "Explore the village and surrounding landscapes by bicycle, riding through farms, forests, and along the edges of Lake Manyara National Park where wildlife often ventures outside park boundaries. Experience rural Tanzania at a perfect pace with plenty of stops for photos and interaction.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/cycling-tour.jpg",
-      "/images/tours/mto-wa-mbu-village/village-wildlife.jpg",
-    ],
-    duration: "3 hours",
-    price: "$40",
-    rating: 4.8,
-    tags: ["Cycling", "Active"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "What wildlife might we see?",
-        answer:
-          "While not a replacement for a proper safari, this cycling tour often encounters wildlife that roams outside park boundaries including baboons, vervet monkeys, and occasionally zebras or giraffes in the distance. Numerous bird species inhabit the area, including impressive fish eagles, colorful kingfishers, and various waterbirds around irrigation channels. The proximity to Lake Manyara National Park creates unique opportunities for wildlife sightings in a village setting.",
-      },
-      {
-        question: "Do I need to bring my own bike?",
-        answer:
-          "No, we provide high-quality mountain bikes suitable for the terrain. Each bike is equipped with a helmet and water bottle holder. If you have specific preferences or require special equipment (like child seats), please let us know in advance so we can accommodate your needs.",
-      },
-    ],
-  },
-  {
-    title: "Traditional Cooking Class & Family Meal",
-    description:
-      "Learn to prepare authentic Tanzanian dishes in a local home kitchen using fresh ingredients from the village market. Cook over an open fire just as local families do daily, then enjoy your creations with your host family while sharing stories and cultural exchange.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/cooking-class.jpg",
-      "/images/tours/mto-wa-mbu-village/family-meal.jpg",
-    ],
-    duration: "4 hours",
-    price: "$55",
-    rating: 4.9,
-    tags: ["Cooking", "Food", "Cultural Exchange"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What dishes will we learn to cook?",
-        answer:
-          "You'll typically learn to prepare 3-4 traditional dishes including ugali (cornmeal staple), local vegetable preparations like mchicha (African spinach), beans cooked with coconut milk, and possibly a banana-based dish unique to the region. Depending on season and availability, you might also prepare freshwater fish or chicken dishes. Vegetarian options are readily available, as many traditional meals are plant-based. All cooking is done using traditional methods and equipment—an authentic experience quite different from modern kitchen cooking.",
-      },
-      {
-        question: "Can I take the recipes home?",
-        answer:
-          "Absolutely! At the end of the class, you'll receive printed recipes for each dish prepared during the session. Your host will also share tips on sourcing ingredients locally or adapting recipes to what is available in your home country. This way, you can recreate the flavors of Mto wa Mbu long after your visit.",
-      },
-    ],
-  },
-  {
-    title: "Maasai Traditions & Boma Visit",
-    description:
-      "Visit a nearby Maasai boma (village compound) where this iconic pastoralist tribe maintains traditional lifestyles while adapting to modern challenges. Learn about their unique culture, witness traditional ceremonies, and understand the complex relationship between conservation and indigenous ways of life.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/maasai-boma.jpg",
-      "/images/tours/mto-wa-mbu-village/maasai-ceremonies.jpg",
+      "/images/tours/mto-wa-mbu-village/bicycle-tour.jpg",
+      "/images/tours/mto-wa-mbu-village/rice-fields.jpg",
     ],
     duration: "5 hours",
-    price: "$65",
-    rating: 4.6,
-    tags: ["Maasai", "Indigenous", "Cultural"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question:
-          "Is this an authentic Maasai experience or staged for tourists?",
-        answer:
-          "We partner with a genuine Maasai community that maintains traditional practices while selectively sharing their culture with visitors. While some elements are presented specifically for guests (like welcome dances), you'll visit a functioning boma where families actually live and raise livestock using traditional methods. Our Maasai guides provide context about how their community balances tradition with modern realities. A portion of your tour fee directly supports education initiatives within this specific Maasai community.",
-      },
-      {
-        question: "What should I wear when visiting a Maasai boma?",
-        answer:
-          "Dress modestly and respectfully, as you would for any cultural visit. Comfortable walking shoes are recommended since the boma is often in rural areas with uneven ground. While traditional Maasai attire is not required, wearing bright colors or patterns is appreciated as it aligns with their cultural aesthetics. Avoid shorts or revealing clothing out of respect for local customs.",
-      },
-    ],
-  },
-  {
-    title: "Artisan Workshops & Craft Learning",
-    description:
-      "Engage with local artisans practicing traditional crafts including wood carving, beading, and basket weaving. Try your hand at these techniques with guidance from master craftspeople and create your own souvenir while supporting local creative enterprises.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/wood-carving.jpg",
-      "/images/tours/mto-wa-mbu-village/basket-weaving.jpg",
-    ],
-    duration: "3 hours",
-    price: "$40",
+    price: "$55",
     rating: 4.7,
-    tags: ["Crafts", "Artisans", "Hands-on"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What craft will I get to try?",
-        answer:
-          "You can choose from several options including beadwork (creating simple jewelry or decorative items), basic wood carving techniques, or basket weaving with natural fibers. Each workshop is led by an artisan who has been practicing their craft for decades. While your first attempt may be simple, you'll gain appreciation for the skill involved and take home a unique handmade item. Materials are included in the tour price.",
-      },
-      {
-        question: "Can I purchase additional crafts from the artisans?",
-        answer:
-          "Yes, there will be opportunities to purchase high-quality handmade crafts directly from the artisans after your workshop. This supports their livelihoods and ensures you receive authentic, locally made souvenirs. Prices are reasonable and reflect fair compensation for the time and skill involved in creating each piece.",
-      },
-    ],
-  },
-  {
-    title: "Sunset Canoe Safari on Lake Manyara",
-    description:
-      "Paddle traditional wooden canoes on the edges of Lake Manyara as the sun sets behind the Great Rift Valley escarpment. Spot incredible birdlife, hippos, and other wildlife from a unique water perspective while learning about the lake's ecological importance.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/lake-canoe.jpg",
-      "/images/tours/mto-wa-mbu-village/sunset-lake-manyara.jpg",
-    ],
-    duration: "3 hours",
-    price: "$75",
-    rating: 4.8,
-    tags: ["Canoe", "Sunset"],
+    tags: ["Cycling", "Wildlife", "Active"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
+    
+    meetingPoint: {
+      address: "Twiga Campsite, Lake Manyara Road, Mto wa Mbu",
+      coordinates: {
+        latitude: -3.3536,
+        longitude: 35.8461,
+      },
+      instructions: "Meet at the reception area of Twiga Campsite, about 1km from the main village center. Our bicycle equipment will be set up in the shade.",
+      contactNumber: "+255 763 482 592",
+      contactEmail: "bikesafari@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-16", "2023-12-18", "2023-12-20", "2023-12-22", "2023-12-24", 
+      "2024-01-06", "2024-01-08", "2024-01-13", "2024-01-15", "2024-01-20", "2024-01-22", "2024-01-27", "2024-01-29",
+      "2024-02-03", "2024-02-05", "2024-02-10", "2024-02-12", "2024-02-17", "2024-02-19", "2024-02-24", "2024-02-26",
+    ],
+    
+    highlights: [
+      "Cycle through diverse landscapes from farmlands to wilderness areas",
+      "Spot wildlife like baboons, monkeys, and abundant bird species",
+      "Visit rice paddies and learn about traditional irrigation systems",
+      "Meet local farmers and sample fresh tropical fruits",
+      "Enjoy panoramic views of the Great Rift Valley escarpment",
+    ],
+    
+    inclusions: [
+      "Quality mountain bike with helmet",
+      "Local English-speaking cycling guide",
+      "Support vehicle for tired riders",
+      "Bottled water and energy snacks",
+      "Traditional Tanzanian lunch at local restaurant",
+      "Wildlife spotting guide",
+      "Bike repair kit and first aid supplies",
+    ],
+    
+    exclusions: [
+      "Transportation to meeting point",
+      "Gratuities for guide and support team",
+      "Personal items and souvenirs",
+      "Additional beverages beyond water provided",
+    ],
+    
+    itinerary: [
+      "08:00 - Meet at Twiga Campsite for bike fitting and safety briefing",
+      "08:30 - Begin cycling through village outskirts and farms",
+      "09:15 - Visit rice paddies and irrigation canals",
+      "10:00 - Refreshment break at local fruit stand with tastings",
+      "10:30 - Continue cycling toward acacia woodlands with wildlife viewing",
+      "11:15 - Visit traditional irrigation system with local guide",
+      "12:00 - Cycle to viewpoint overlooking Lake Manyara",
+      "12:30 - Return to village for traditional lunch",
+      "13:30 - Visit local craftspeople and workshops",
+      "14:30 - Return to starting point, tour conclusion",
+    ],
+    
     faqs: [
       {
-        question: "Is canoeing on Lake Manyara safe?",
-        answer:
-          "Our canoe safari takes place in carefully selected areas of the lake with shallow, calm waters. Each canoe is piloted by an experienced local guide who knows the waters intimately. We maintain safe distances from hippo territories and other potentially dangerous wildlife. Basic life vests are provided, though the water depth in our paddling areas is typically only 3-4 feet. No swimming is permitted during this activity due to the presence of wildlife.",
+        question: "What level of fitness is required for this tour?",
+        answer: "This tour is designed for casual cyclists with basic fitness. The terrain is mostly flat with some gentle slopes, covering approximately 15-20km at a leisurely pace with frequent stops. A support vehicle follows the group for anyone who needs a break. No technical mountain biking skills are required."
       },
       {
-        question: "What should I bring for the canoe safari?",
-        answer:
-          "We recommend wearing comfortable, quick-drying clothing suitable for warm weather. A hat, sunglasses, and sunscreen are advisable as you'll be exposed to the sun during the paddle. Bring a refillable water bottle to stay hydrated. We provide dry bags for personal items, but please avoid bringing valuables that could be damaged by water. Binoculars and cameras are welcome for wildlife viewing.",
+        question: "Will we see wildlife on this bicycle tour?",
+        answer: "Yes! While not a traditional safari, the tour passes through areas where you'll likely spot wildlife. Common sightings include olive baboons, vervet monkeys, bushbuck, dik-dik, and numerous bird species. Occasionally, elephants can be spotted in the distance near the forest edge. Our guides are skilled at spotting wildlife while ensuring your safety."
+      },
+      {
+        question: "What should I wear for cycling?",
+        answer: "Wear comfortable, breathable clothing suitable for warm weather. Closed shoes are required (athletic shoes are perfect). We recommend long, lightweight pants or shorts that reach the knee, and shirts that cover your shoulders for sun protection. Don't forget sunglasses, sunscreen, and a hat that fits under your helmet. We provide water, but a small backpack for personal items is useful."
       },
     ],
   },
+  
   {
-    title: "Community Development Projects & Local Impact",
+    title: "Farm-to-Table: Mto wa Mbu Culinary Adventure",
     description:
-      "Go beyond typical tourism by visiting community-led development initiatives including schools, sustainable agriculture projects, and women's cooperatives. Learn how responsible tourism directly benefits local communities and contributes to conservation efforts.",
+      "Discover the rich agricultural heritage of Mto wa Mbu through its cuisine. Harvest fresh ingredients from local farms, learn traditional cooking methods, and prepare an authentic Tanzanian feast with guidance from village cooks.",
     city: "Mto wa Mbu",
     country: "Tanzania",
-    region: "Arusha Region",
+    region: "Arusha",
     images: [
-      "/images/tours/mto-wa-mbu-village/community-project.jpg",
-      "/images/tours/mto-wa-mbu-village/school-visit.jpg",
+      "/images/tours/mto-wa-mbu-village/cooking-class.jpg",
+      "/images/tours/mto-wa-mbu-village/farm-harvest.jpg",
     ],
-    duration: "4 hours",
-    price: "$30",
+    duration: "6 hours",
+    price: "$75",
     rating: 4.9,
-    tags: ["Community", "Education", "Sustainable"],
+    tags: ["Cooking", "Food", "Agriculture"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "local",
+    tourCategoryId: "culinary",
+    
+    meetingPoint: {
+      address: "Africa Amini Life, Mto wa Mbu Main Road",
+      coordinates: {
+        latitude: -3.3529,
+        longitude: 35.8447,
+      },
+      instructions: "Meet at the Africa Amini Life Center, which has a prominent sign visible from the main road. Look for your guide wearing a chef's apron.",
+      contactNumber: "+255 763 482 593",
+      contactEmail: "cooking@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", "2023-12-27", 
+      "2024-01-07", "2024-01-14", "2024-01-21", "2024-01-28",
+      "2024-02-04", "2024-02-11", "2024-02-18", "2024-02-25",
+    ],
+    
+    highlights: [
+      "Visit local farms to harvest fresh ingredients for your meal",
+      "Learn traditional cooking methods including wood-fire cooking",
+      "Master authentic recipes like ugali, banana stew, and vegetable curries",
+      "Discover the medicinal and culinary uses of local spices and herbs",
+      "Enjoy a feast of your prepared dishes in a traditional setting",
+    ],
+    
+    inclusions: [
+      "Local chef instructor and culinary guide",
+      "All ingredients and cooking equipment",
+      "Farm visits with harvesting experience",
+      "Full meal featuring dishes you've prepared",
+      "Printed recipe cards to take home",
+      "Traditional cooking methods demonstration",
+      "Local beer, wine or soft drinks with meal",
+    ],
+    
+    exclusions: [
+      "Transportation to Mto wa Mbu",
+      "Additional alcoholic beverages beyond those included",
+      "Gratuities for chef and farm hosts",
+      "Personal cooking equipment to take home",
+    ],
+    
+    itinerary: [
+      "09:00 - Meet at Africa Amini Life Center for introductions",
+      "09:15 - Tour of herb garden with explanation of local ingredients",
+      "09:45 - Visit banana plantation to harvest cooking bananas",
+      "10:30 - Stop at local market to select remaining ingredients",
+      "11:15 - Return to cooking center to begin food preparation",
+      "11:30 - Learn fire management and traditional cooking techniques",
+      "12:00 - Prepare main dishes including ugali and vegetable sides",
+      "13:30 - Cook banana-based dishes and local specialties",
+      "14:30 - Feast on prepared meal with local drinks",
+      "15:30 - Recipe sharing and cooking tips, tour conclusion",
+    ],
+    
     faqs: [
       {
-        question: "How does tourism benefit this community?",
-        answer:
-          "Mto wa Mbu has developed a community-based tourism model where revenue directly benefits local residents through established community projects rather than outside companies. Your tour fees support school infrastructure, clean water initiatives, healthcare services, and small business development. Additionally, many families earn income directly through tourism-related activities like hosting meals, providing accommodations, selling crafts, or working as guides. This tour specifically highlights these initiatives and the positive impact of responsible tourism when managed by the community itself.",
+        question: "What dishes will we learn to prepare?",
+        answer: "The cooking class focuses on authentic Tanzanian cuisine with local specialties. You'll learn to prepare staples like ugali (cornmeal porridge), various banana-based dishes (as Mto wa Mbu is famous for its 30+ banana varieties), vegetable curries with local greens, beans cooked with coconut milk, and tropical fruit desserts. Vegetarian options are always available, and the menu varies slightly based on seasonal ingredients."
       },
       {
-        question: "Can I contribute to any of the projects?",
-        answer:
-          "Yes, visitors often ask how they can help. While your tour fee already supports local initiatives, we can connect you with specific projects that welcome additional contributions, whether financial donations or in-kind support (like school supplies). Our guides will provide information on how to make a positive impact during your visit, ensuring that any contributions go directly to community-led efforts.",
-      },
-    ],
-  },
-  {
-    title: "Cultural Festivals & Events",
-    description:
-      "Experience the vibrant cultural festivals of Mto wa Mbu, which celebrate the village's rich diversity through music, dance, and traditional ceremonies. Join in the festivities with local families and learn about the significance of these events in fostering community spirit.",
-    city: "Mto wa Mbu",
-    country: "Tanzania",
-    region: "Arusha Region",
-    images: [
-      "/images/tours/mto-wa-mbu-village/cultural-festival.jpg",
-      "/images/tours/mto-wa-mbu-village/dance-performance.jpg",
-    ],
-    duration: "3 hours",
-    price: "$50",
-    rating: 4.8,
-    tags: ["Festivals", "Culture", "Dance"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What types of festivals can we attend?",
-        answer:
-          "Mto wa Mbu hosts several annual festivals celebrating different aspects of its cultural heritage, including harvest festivals, traditional dance competitions, and inter-tribal gatherings. The timing of your visit will determine which festival is taking place, but each event showcases local music, dance, food, and crafts. Our guides will provide context about the significance of each festival and introduce you to key participants.",
+        question: "Do I need previous cooking experience?",
+        answer: "No prior cooking experience is necessary! Our local cooks provide step-by-step guidance suitable for all skill levels. The class focuses on simple techniques using basic equipment, similar to how most Tanzanian families cook daily. Even culinary novices will be able to successfully prepare delicious dishes."
       },
       {
-        question: "Can we participate in the dances?",
-        answer:
-          "Yes! Many festivals encourage visitor participation in traditional dances. Your guide will teach you basic steps and explain the cultural meanings behind different movements. This interactive experience allows for deeper cultural exchange and creates lasting memories.",
+        question: "Is this class suitable for children?",
+        answer: "Yes, children are welcome and often enjoy the hands-on nature of harvesting ingredients and helping with simple tasks like kneading dough or mashing bananas. For safety reasons, activities involving open fire or sharp implements will be supervised closely or handled by adults. Please inform us of children's ages when booking so we can prepare appropriate activities."
       },
     ],
   },

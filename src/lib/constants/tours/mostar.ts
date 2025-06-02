@@ -2,274 +2,274 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const mostarTours: Tour[] = [
   {
-    title: "Stari Most: Bridge Diving Traditions & History",
+    title: "Bridges of Mostar: Ottoman Heritage Tour",
     description:
-      "Discover the fascinating history and traditions surrounding Mostar's iconic Ottoman bridge. Meet local divers from the centuries-old diving club, learn about the bridge's destruction and reconstruction, and witness the breathtaking 24-meter dive into the emerald waters below.",
+      "Explore Mostar's architectural treasures and complex history with a local historian, focusing on the iconic Stari Most (Old Bridge) and the city's remarkable recovery from the 1990s conflict.",
     city: "Mostar",
     country: "Bosnia and Herzegovina",
     region: "Herzegovina-Neretva Canton",
     images: [
-      "/images/tours/mostar/stari-most-bridge.jpg",
-      "/images/tours/mostar/bridge-diver.jpg",
+      "/images/tours/mostar/stari-most.jpg",
+      "/images/tours/mostar/ottoman-quarter.jpg",
     ],
     duration: "3 hours",
-    price: "$45",
+    price: "$40",
     rating: 4.9,
-    tags: ["Cultural", "Historical", "UNESCO"],
+    tags: ["Historical", "Architecture", "Cultural"],
 
     isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "Will we see actual bridge diving during the tour?",
-        answer:
-          "Yes, we coordinate with the local diving club to ensure you witness this spectacular tradition. During summer months (May-September), divers perform regularly for visitors. In cooler months, dives are less frequent but still arranged for our tours when water conditions permit. The tradition dates back over 450 years, with young men proving their courage by making the dangerous 24-meter jump into the shallow Neretva River.",
-      },
-      {
-        question: "Is the bridge safe to walk on?",
-        answer:
-          "Absolutely! The Stari Most has been fully restored to its original 16th-century design and is structurally sound. It is a UNESCO World Heritage site and a symbol of peace and reconciliation. The bridge is open to pedestrians year-round, and our guides will share its rich history and significance during your visit.",
-      },
-    ],
-  },
-  {
-    title: "War History & Reconciliation Walking Tour",
-    description:
-      "Gain deep insights into Bosnia's complex recent history through the eyes of local residents who lived through the 1990s conflict. Visit sites of significance including the former front line, restored buildings, and powerful memorials while hearing personal stories of war and peace.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/war-damage.jpg",
-      "/images/tours/mostar/reconciliation-memorial.jpg",
-    ],
-    duration: "4 hours",
-    price: "$35",
-    rating: 4.8,
-    tags: ["War History", "Educational", "Walking Tour"],
-
-    isHistorical: true,
-    isRomantic: false,
+    isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
+    
+    meetingPoint: {
+      address: "Spanish Square (Španski trg), Mostar",
+      coordinates: {
+        latitude: 43.3423,
+        longitude: 17.8081,
+      },
+      instructions: "Meet at the fountain in Spanish Square. Your guide will be holding a blue umbrella with 'Mostar Tours' written on it.",
+      contactNumber: "+387 63 123 456",
+      contactEmail: "mostar@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-22", "2023-12-23", 
+      "2024-01-05", "2024-01-06", "2024-01-12", "2024-01-13", "2024-01-19", "2024-01-20", "2024-01-26", "2024-01-27",
+      "2024-02-02", "2024-02-03", "2024-02-09", "2024-02-10", "2024-02-16", "2024-02-17", "2024-02-23", "2024-02-24",
+    ],
+    
+    highlights: [
+      "Walk across the UNESCO-listed Stari Most (Old Bridge) with its dramatic history",
+      "Explore the Ottoman quarter with its authentic Turkish houses and workshops",
+      "Visit Koski Mehmed Pasha Mosque with minaret climb for panoramic city views",
+      "Learn about Mostar's complex history and remarkable post-war recovery",
+      "Meet local craftspeople continuing centuries-old traditions",
+    ],
+    
+    inclusions: [
+      "Professional local guide with historical expertise",
+      "Entrance fees to Koski Mehmed Pasha Mosque and minaret",
+      "Traditional Bosnian coffee experience",
+      "Local craft demonstration",
+      "Small group size (maximum 12 participants)",
+      "Map of historical Mostar",
+    ],
+    
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and additional beverages beyond included coffee",
+      "Optional gratuities",
+      "Personal purchases from craft shops",
+    ],
+    
+    itinerary: [
+      "10:00 - Meet at Spanish Square for introduction to Mostar's history",
+      "10:15 - Walk to viewpoint for first glimpse of Stari Most",
+      "10:30 - Cross the historic bridge while learning about its destruction and reconstruction",
+      "10:45 - Explore Ottoman quarter with traditional stone houses",
+      "11:15 - Visit to Koski Mehmed Pasha Mosque with optional minaret climb",
+      "11:45 - Coffee break with traditional Bosnian coffee preparation",
+      "12:15 - Visit copper craftsman workshop with demonstration",
+      "12:45 - Walk through old bazaar with time for shopping",
+      "13:00 - Tour concludes at Kriva Ćuprija (Crooked Bridge)",
+    ],
+    
     faqs: [
       {
-        question: "Is this tour politically biased?",
-        answer:
-          "Our guides present multiple perspectives on the conflict, representing the complexity of Bosnia's history without promoting any single ethnic or political narrative. The tour focuses on human stories, architectural impacts, and the path to reconciliation rather than assigning blame. Our guides have personal experiences from the war period but are committed to presenting balanced information that helps visitors understand this difficult chapter in Bosnia's history.",
+        question: "Will we see bridge divers during the tour?",
+        answer: "The famous bridge divers of Mostar typically perform during summer months when the river is at the right level and there are sufficient tourists (they collect donations before jumping). While we cannot guarantee a dive during your tour, your guide will explain this traditional practice dating back centuries and share stories about the divers' club. If divers are preparing to jump during our tour, we'll certainly pause to watch!"
       },
       {
-        question: "Is the tour suitable for children?",
-        answer:
-          "While the tour is educational, it does cover sensitive topics related to war and conflict. We recommend it for teenagers and adults who can engage with these themes maturely. For younger children, we suggest our family-friendly cultural tours that focus on Mostar's history and traditions without delving into the war period.",
+        question: "Does this tour discuss the 1990s conflict?",
+        answer: "Yes, our guides provide balanced and sensitive insights into the 1990s conflict that severely damaged Mostar, including the destruction of the Old Bridge. We explain both the historical context and the remarkable international effort to rebuild the bridge and heal community divisions. Our guides come from diverse backgrounds and focus on reconciliation while honoring the complex history."
+      },
+      {
+        question: "Is the minaret climb mandatory?",
+        answer: "The minaret climb is optional and requires ascending a narrow spiral staircase (approximately 90 steps). Those who prefer not to climb can enjoy the mosque's beautiful courtyard garden and interior. The panoramic view from the top is spectacular but alternative viewpoints are included in the tour for those who skip the climb."
       },
     ],
   },
+  
   {
-    title: "Ottoman Crafts & Coppersmith Workshop",
+    title: "Neretva Valley: Wine, Waterfalls & Ancient Sites",
     description:
-      "Experience the living heritage of Mostar's traditional crafts with a hands-on workshop in a family-run coppersmith studio. Create your own decorated copper souvenir using centuries-old techniques while learning about Ottoman artistic traditions that have survived through generations.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/coppersmith-workshop.jpg",
-      "/images/tours/mostar/copper-crafts.jpg",
-    ],
-    duration: "3 hours",
-    price: "$55",
-    rating: 4.7,
-    tags: ["Crafts", "Workshop", "Cultural"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What will I make during the workshop?",
-        answer:
-          "You'll create a small decorative copper plate (approximately 5 inches in diameter) using traditional tools and techniques. After learning basic hammering and embossing methods, you'll engrave a design of your choice with the craftsman's guidance—typically geometric patterns, floral motifs, or Mostar Bridge imagery. The finished piece is yours to keep as a unique souvenir. No prior artistic experience is necessary to create a beautiful piece.",
-      },
-      {
-        question: "Is the workshop suitable for children?",
-        answer:
-          "Yes, this workshop is family-friendly and suitable for children aged 8 and up. Younger children can participate with adult supervision. The craftsman tailors the experience to each participant's skill level, ensuring everyone can create something special. It's a fun and educational activity that introduces kids to traditional craftsmanship in an engaging way.",
-      },
-    ],
-  },
-  {
-    title: "Neretva River Rafting Adventure",
-    description:
-      "Navigate crystal-clear turquoise waters on an exciting rafting journey down the Neretva River. Encounter rapids, tranquil stretches, and dramatic canyons while experiencing Bosnia's stunning natural landscapes from a unique perspective.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/neretva-rafting.jpg",
-      "/images/tours/mostar/river-canyon.jpg",
-    ],
-    duration: "6 hours",
-    price: "$75",
-    rating: 4.6,
-    tags: ["Rafting", "Adventure", "Nature"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Do I need previous rafting experience?",
-        answer:
-          "No prior experience is necessary. This Class II-III rafting trip is suitable for beginners with a reasonable level of fitness. Our professional guides provide comprehensive safety instructions and paddling techniques before departure. The Neretva River offers a perfect mix of exciting rapids and calm sections, making it ideal for first-time rafters. All safety equipment including helmets, life jackets, and wetsuits is provided.",
-      },
-      {
-        question: "What should I bring for the rafting trip?",
-        answer:
-          "Wear a swimsuit or quick-drying athletic wear, and bring a towel and change of clothes for after the trip. We provide all necessary safety gear including wetsuits, helmets, and life jackets. Waterproof bags are available for personal items like phones or cameras. Sunscreen and water shoes are also recommended. Our guides will ensure you have everything you need for a safe and enjoyable adventure.",
-      },
-    ],
-  },
-  {
-    title: "Herzegovina Wine Route & Village Lunch",
-    description:
-      "Discover Herzegovina's emerging wine scene with tastings at family-owned vineyards specializing in indigenous grape varieties. Visit stone cellars, meet winemakers, and enjoy a homestyle lunch in a traditional village home featuring local specialties paired with regional wines.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/wine-tasting.jpg",
-      "/images/tours/mostar/village-lunch.jpg",
-    ],
-    duration: "7 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Wine", "Food", "Countryside"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What types of wines will we taste?",
-        answer:
-          "Herzegovina's unique Mediterranean-continental climate produces distinctive wines, particularly from the indigenous Žilavka (white) and Blatina (red) grape varieties that you rarely find outside the region. You'll taste these alongside international varieties grown locally like Chardonnay and Merlot. The region's winemaking tradition dates back to Roman times but is only now gaining international recognition. Most vineyards are small, family operations producing limited quantities with traditional methods.",
-      },
-      {
-        question: "Is the village lunch suitable for vegetarians?",
-        answer:
-          "Yes, the lunch features a variety of traditional Herzegovinian dishes, many of which are vegetarian-friendly. Options typically include fresh salads, grilled vegetables, homemade bread, and local cheeses. If you have specific dietary restrictions or preferences, please inform us in advance so we can accommodate your needs.",
-      },
-    ],
-  },
-  {
-    title: "Mostar Photography Walk at Dawn",
-    description:
-      "Capture stunning images of Mostar's medieval architecture and dramatic landscapes in the magical morning light. A professional photographer guides you to prime shooting locations at optimal times, providing technical advice and historical context.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/dawn-photography.jpg",
-      "/images/tours/mostar/bridge-sunrise.jpg",
-    ],
-    duration: "3 hours",
-    price: "$65",
-    rating: 4.7,
-    tags: ["Photography", "Sunrise", "Architecture"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "art-and-music",
-    faqs: [
-      {
-        question: "What time does the tour start?",
-        answer:
-          "The tour begins approximately 45 minutes before sunrise, which varies seasonally (around 5:00 AM in summer and 7:00 AM in winter). This early start is essential for capturing the magical quality of light and experiencing the Old Town without crowds. The effort of the early wake-up is rewarded with serene scenes and perfect photographic conditions that are impossible to achieve later in the day.",
-      },
-      {
-        question: "Do I need professional photography equipment?",
-        answer:
-          "While a DSLR or mirrorless camera is recommended for the best results, you can also use a high-quality smartphone with manual controls. Our guide provides tips on composition, lighting, and camera settings suitable for all skill levels. Whether you're a beginner or an experienced photographer, you'll leave with stunning images and improved techniques.",
-      },
-    ],
-  },
-  {
-    title: "Kravice Waterfalls & Natural Bosnia",
-    description:
-      "Escape to the breathtaking Kravice Waterfalls, a hidden natural wonder with cascades spanning 25 meters high and 120 meters across. Swim in crystal-clear emerald pools, enjoy a picnic lunch in this pristine setting, and explore surrounding villages and landscapes.",
+      "Journey beyond Mostar to discover the natural and historical treasures of the Neretva Valley. Visit ancient Roman ruins, sample wines from family vineyards, and enjoy the spectacular Kravice Waterfalls.",
     city: "Mostar",
     country: "Bosnia and Herzegovina",
     region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/kravice-waterfalls.jpg",
-      "/images/tours/mostar/waterfall-swimming.jpg",
+      "/images/tours/mostar/herzegovina-vineyard.jpg",
     ],
-    duration: "6 hours",
-    price: "$85",
-    rating: 4.9,
-    tags: ["Nature", "Swimming", "Waterfalls"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "When is the best time to visit Kravice Waterfalls?",
-        answer:
-          "The waterfalls are most impressive in late spring (May-June) when snowmelt increases water volume, creating powerful cascades. Summer (July-August) offers ideal swimming conditions with warmer water temperatures, though this is also the most popular time. Early fall (September) provides a wonderful balance with comfortable temperatures, reduced crowds, and still-flowing falls. Winter visits offer a uniquely beautiful frozen landscape, though swimming is not possible.",
-      },
-      {
-        question: "What should I bring for the Kravice trip?",
-        answer:
-          "Wear comfortable clothing and sturdy shoes suitable for walking on uneven terrain. Bring a swimsuit and towel if you plan to swim, as well as sunscreen, a hat, and water shoes for rocky areas. We provide picnic lunches, but feel free to bring snacks or drinks. A camera is essential to capture the stunning scenery!",
-      },
-    ],
-  },
-  {
-    title: "Blagaj Tekke & Buna River Springs",
-    description:
-      "Visit the serene Blagaj Tekke, a 16th-century Dervish monastery built into a cliff overlooking the Buna River springs. Learn about Sufi traditions, explore the tranquil grounds, and enjoy a riverside tea break in this spiritual oasis.",
-    city: "Mostar",
-    country: "Bosnia and Herzegovina",
-    region: "Herzegovina-Neretva Canton",
-    images: [
-      "/images/tours/mostar/blagaj-tekke.jpg",
-      "/images/tours/mostar/buna-river.jpg",
-    ],
-    duration: "4 hours",
-    price: "$40",
+    duration: "8 hours",
+    price: "$95",
     rating: 4.8,
-    tags: ["Cultural", "Spiritual", "Nature"],
+    tags: ["Nature", "Wine", "History"],
 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
+    isLocalExperience: true,
+    tourCategoryId: "off-the-beaten-path",
+    
+    meetingPoint: {
+      address: "Mostar Bus Station, Sjeverni logor, Mostar",
+      coordinates: {
+        latitude: 43.3534,
+        longitude: 17.8092,
+      },
+      instructions: "Meet in front of the main entrance to Mostar Bus Station. Your guide will be waiting in a vehicle marked with 'Neretva Valley Tours'.",
+      contactNumber: "+387 63 123 457",
+      contactEmail: "neretva@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-20", "2023-12-27", 
+      "2024-01-03", "2024-01-10", "2024-01-17", "2024-01-24", "2024-01-31",
+      "2024-02-07", "2024-02-14", "2024-02-21", "2024-02-28",
+    ],
+    
+    highlights: [
+      "Explore the ancient Roman ruins of Mogorjelo with 4th-century mosaics",
+      "Visit family-owned vineyards producing the native Žilavka and Blatina wines",
+      "Swim beneath the magnificent Kravice Waterfalls (summer months)",
+      "Discover the medieval necropolis at Radimlja with mysterious stećci tombstones",
+      "Taste traditional Herzegovina cuisine at a local konoba restaurant",
+    ],
+    
+    inclusions: [
+      "Transportation in comfortable air-conditioned vehicle",
+      "Professional English-speaking guide",
+      "Wine tasting at premier Herzegovina winery",
+      "Traditional lunch with local specialties",
+      "Entrance fees to all sites (Roman villa, waterfalls, necropolis)",
+      "Bottled water throughout the day",
+      "Hotel pickup and drop-off within Mostar city limits",
+    ],
+    
+    exclusions: [
+      "Additional food and beverages beyond included lunch and tasting",
+      "Optional gratuities",
+      "Swimming equipment (bring your own if desired)",
+      "Personal expenses",
+    ],
+    
+    itinerary: [
+      "09:00 - Pickup from your Mostar accommodation",
+      "09:30 - Visit ancient Roman villa rustica at Mogorjelo",
+      "10:30 - Drive through scenic Neretva Valley",
+      "11:00 - Visit to family winery with tasting of local varieties",
+      "12:30 - Traditional lunch at authentic konoba restaurant",
+      "14:00 - Explore the medieval stećci tombstones at Radimlja necropolis",
+      "15:00 - Visit spectacular Kravice Waterfalls with free time for swimming (seasonal)",
+      "16:30 - Return journey to Mostar with photo stops",
+      "17:30 - Drop-off at your accommodation",
+    ],
+    
     faqs: [
       {
-        question: "What is the significance of Blagaj Tekke?",
-        answer:
-          "Blagaj Tekke is one of Bosnia's most important spiritual sites, representing the peaceful coexistence of different cultures and religions. It was built by the Ottoman Empire in the 16th century as a Sufi monastery and remains an active place of worship today. The stunning natural setting at the source of the Buna River adds to its spiritual ambiance.",
+        question: "Can we swim at Kravice Waterfalls?",
+        answer: "Swimming is possible at Kravice Waterfalls from approximately May through September when water temperatures are comfortable. The pool beneath the falls reaches depths of 5-6 meters in places but has shallower areas suitable for less confident swimmers. Changing facilities are available at the site. During winter and early spring, water levels are much higher making swimming unsafe, but the falls are spectacularly powerful during these periods."
       },
       {
-        question: "Can we swim in the Buna River?",
-        answer:
-          "Swimming is not permitted in the Buna River due to its cultural significance and conservation efforts. However, you can enjoy the beautiful views, take photos, and relax by the riverside. There are also cafes where you can enjoy traditional Bosnian coffee or tea while taking in the serene surroundings.",
+        question: "What kinds of wine will we taste?",
+        answer: "Herzegovina is known for its distinctive native grape varieties, particularly Žilavka (white) and Blatina (red). Our tasting typically includes 4-5 wines, focusing on these indigenous varieties as well as international grapes that grow well in the region's Mediterranean climate. The winery we visit has been family-operated for generations and offers informative tastings that explain the unique terroir and winemaking traditions of Herzegovina."
+      },
+      {
+        question: "What is included in the traditional lunch?",
+        answer: "Lunch features authentic Herzegovina cuisine at a family-run konoba (traditional restaurant). Typical dishes include slow-roasted lamb under a bell (sač), homemade cheeses, locally produced prosciutto (pršut), river trout, seasonal vegetables, and homemade bread. Vegetarian options are available with advance notice. The meal is served family-style with multiple dishes to share, accompanied by local wine."
+      },
+    ],
+  },
+  
+  {
+    title: "War & Peace: Mostar's Recent History Tour",
+    description:
+      "Gain deeper understanding of the 1990s conflict that devastated Mostar through visits to key sites and personal accounts from locals who lived through the siege, while exploring efforts toward reconciliation and rebuilding.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
+    images: [
+      "/images/tours/mostar/war-museum.jpg",
+      "/images/tours/mostar/sniper-tower.jpg",
+    ],
+    duration: "4 hours",
+    price: "$45",
+    rating: 4.7,
+    tags: ["History", "Educational", "Cultural"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "historical",
+    
+    meetingPoint: {
+      address: "Musala Bridge, Mostar",
+      coordinates: {
+        latitude: 43.3416,
+        longitude: 17.8078,
+      },
+      instructions: "Meet at the eastern end of Musala Bridge, near Hotel Mostar. Your guide will be holding a white peace flag.",
+      contactNumber: "+387 63 123 458",
+      contactEmail: "warpeace@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-18", "2023-12-25", 
+      "2024-01-08", "2024-01-15", "2024-01-22", "2024-01-29",
+      "2024-02-05", "2024-02-12", "2024-02-19", "2024-02-26",
+    ],
+    
+    highlights: [
+      "Visit the War Photo Exhibition with powerful images from wartime photojournalists",
+      "Explore the former frontline along Bulevar street with visible war damage",
+      "See the preserved ruins of the 'Sniper Tower' (former bank building)",
+      "Learn about life during the 978-day siege from those who experienced it",
+      "Discuss post-war reconciliation efforts and current community relations",
+    ],
+    
+    inclusions: [
+      "Local guide with personal experience of the conflict",
+      "Entrance to War Photo Exhibition",
+      "Visit to memorial sites not found in guidebooks",
+      "Coffee or drink with local resident who lived through the siege",
+      "Map marking key war sites and peace monuments",
+      "Donation to local peacebuilding organization",
+    ],
+    
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Lunch (optional extension available)",
+      "Additional beverages beyond included drink",
+      "Personal expenses",
+    ],
+    
+    itinerary: [
+      "14:00 - Meet at Musala Bridge for introduction and historical context",
+      "14:15 - Walk to former frontline along Bulevar street",
+      "14:45 - Visit symbolic 'Sniper Tower' with explanation of siege tactics",
+      "15:15 - Tour of War Photo Exhibition with eyewitness commentary",
+      "16:00 - Coffee break with local resident sharing personal experiences",
+      "16:45 - Visit to peace monuments and reconciliation projects",
+      "17:30 - Discussion of current community relations and future prospects",
+      "18:00 - Tour conclusion with recommendations for further learning",
+    ],
+    
+    faqs: [
+      {
+        question: "Is this tour politically biased?",
+        answer: "We strive to present a balanced view of the conflict from multiple perspectives. Our guides include people from diverse backgrounds who focus on historical facts while acknowledging the complex ethnic and political dimensions. The tour emphasizes human experiences and reconciliation rather than assigning blame. We welcome respectful questions and discussion but avoid divisive political commentary."
+      },
+      {
+        question: "Is this tour appropriate for children?",
+        answer: "Due to the serious subject matter and potentially disturbing imagery, we recommend this tour for ages 16 and older. Parents should use discretion as some war photographs and discussions may be upsetting. For families with younger children, we offer a modified 'Building Bridges' tour that focuses more on reconciliation efforts and positive community projects."
+      },
+      {
+        question: "Will this be an emotionally difficult tour?",
+        answer: "This tour deals with difficult subject matter including siege, civilian suffering, and ethnic conflict. While not graphic or sensationalized, the personal stories and images can be emotionally impactful. Our guides are sensitive to participants' reactions and strike a respectful balance between honest historical account and appropriate emotional context. The tour ends with hopeful examples of reconciliation and rebuilding."
       },
     ],
   },
