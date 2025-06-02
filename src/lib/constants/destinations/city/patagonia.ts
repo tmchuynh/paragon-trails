@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
+export const patagoniaSouthernChileAndArgentinaChile: Attraction[] = [
   {
     title: "Torres del Paine National Park",
     description:

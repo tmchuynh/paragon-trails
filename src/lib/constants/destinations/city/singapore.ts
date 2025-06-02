@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const singaporeSingaporeSingapore: Attraction[] = [
+export const singaporeCentralSingaporeSingapore: Attraction[] = [
   {
     title: "Marina Bay Sands",
     description:

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const parisIleDeFranceFrance: Attraction[] = [
+export const parisIledefranceFrance: Attraction[] = [
   {
     title: "Eiffel Tower",
     description:

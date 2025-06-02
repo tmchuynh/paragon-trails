@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const zanzibarZanzibarTanzania: Attraction[] = [
+export const zanzibarZanzibarArchipelagoCroatia: Attraction[] = [
   {
     title: "Stone Town",
     description:

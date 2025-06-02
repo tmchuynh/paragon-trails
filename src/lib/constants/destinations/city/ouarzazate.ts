@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
+export const ouarzazateDraatafilaletMorocco: Attraction[] = [
   {
     title: "Aït Benhaddou",
     description:

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const portoNorthernRegionPortugal: Attraction[] = [
+export const portoNorthernPortugalPortugal: Attraction[] = [
   {
     title: "Ribeira District",
     description:
