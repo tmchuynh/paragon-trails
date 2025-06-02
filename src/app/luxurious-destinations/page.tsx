@@ -20,8 +20,8 @@ import { useState } from "react";
 export default function LuxuriousDestinations() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortBy, setSortBy] = useState("country");
-  const [popularSort, setPopularSort] = useState("none"); // "first", "last", "none"
+  const [sortBy, setSortBy] = useState("city");
+  const [popularSort, setPopularSort] = useState("first"); // "first", "last", "none"
 
   // Filter destinations based on search
   const filteredDestinations = cityattractions.filter((item) => {
