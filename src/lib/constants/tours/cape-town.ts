@@ -301,7 +301,7 @@ export const capeTownTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: false,
     isCulinary: false,
