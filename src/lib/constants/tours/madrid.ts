@@ -2,15 +2,15 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const madridTours: Tour[] = [
   {
-    title: "Madrid Art Walk: Prado, Reina Sofia & Thyssen",
+    title: "Madrid Art Walk: Prado, Reina Sofía & Thyssen",
     description:
-      "Experience Madrid's Golden Triangle of Art with a passionate art historian, exploring masterpieces by Velázquez, Goya, El Greco, Picasso, and Dalí with skip-the-line access.",
+      "Experience Madrid's Golden Triangle of Art with an expert guide providing insight into masterpieces by Velázquez, Goya, Picasso, and more, including skip-the-line access and carefully curated routes through each museum.",
     city: "Madrid",
     country: "Spain",
-    region: "Community of Madrid",
+    region: "Central Spain",
     images: [
       "/images/tours/madrid/prado-museum.jpg",
-      "/images/tours/madrid/guernica.jpg",
+      "/images/tours/madrid/guernica-reina-sofia.jpg",
     ],
     duration: "6 hours",
     price: "$95",
@@ -22,97 +22,248 @@ export const madridTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "Prado Museum, Calle Ruiz de Alarcón 23, Main Entrance, Madrid 28014",
+      coordinates: {
+        latitude: 40.4138,
+        longitude: -3.6922,
+      },
+      instructions:
+        "Meet outside the main entrance of the Prado Museum, under the statue of Velázquez. Your guide will be holding a sign with 'Madrid Art Tour' written on it.",
+      contactNumber: "+34 91 123 4567",
+      contactEmail: "madridart@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
+    ],
+
+    highlights: [
+      "Skip-the-line access to all three world-class museums",
+      "Expert analysis of masterpieces like 'Las Meninas', 'Guernica', and 'The Garden of Earthly Delights'",
+      "Specially designed route covering the essential works while avoiding museum fatigue",
+      "Chronological journey through Spanish and European art history",
+      "Small group size ensuring personal attention and ability to ask questions",
+    ],
+
+    inclusions: [
+      "Professional art historian guide",
+      "Skip-the-line entrance tickets to all three museums",
+      "Audio headsets to clearly hear the guide in crowded galleries",
+      "Museum maps with highlights marked",
+      "Walking tour between museums through Madrid's literary quarter",
+      "Coffee break between museums (includes one beverage and pastry)",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Lunch (time allocated for optional meal)",
+      "Additional food and beverages beyond included coffee break",
+      "Gratuities",
+      "Museum guidebooks and souvenirs",
+    ],
+
+    itinerary: [
+      "09:30 - Meet at Prado Museum for introduction and context",
+      "09:45 - Skip-the-line entry to Prado Museum",
+      "10:00 - Guided tour of Spanish masters (Velázquez, Goya, El Greco)",
+      "11:30 - Walk through Literary Quarter to Reina Sofía Museum",
+      "12:00 - Coffee break at historical café",
+      "12:30 - Skip-the-line entry to Reina Sofía Museum",
+      "12:45 - Guided tour focusing on Picasso, Dalí, and Miró",
+      "14:00 - Lunch break (not included)",
+      "15:00 - Skip-the-line entry to Thyssen-Bornemisza Museum",
+      "15:15 - Tour of Thyssen's highlights from medieval to contemporary art",
+      "16:30 - Tour conclusion with recommendations for further exploration",
+    ],
+
     faqs: [
       {
-        question: "Is this tour suitable for those without art knowledge?",
+        question:
+          "Is this tour suitable for first-time visitors to these museums?",
         answer:
-          "Absolutely! Our art historians specialize in making art accessible and engaging for everyone. The tour focuses on the fascinating stories behind the paintings and their historical context rather than technical art terminology. Whether you're an art enthusiast or a complete beginner, you'll find the experience enriching.",
+          "Absolutely! This tour is specifically designed to give first-time visitors a comprehensive overview of these world-class collections. Our art historian guides focus on the most significant works while providing historical context and artistic analysis accessible to all levels of art knowledge.",
       },
       {
-        question: "Do we need to book tickets in advance?",
+        question: "How much walking is involved?",
         answer:
-          "Yes, we include skip-the-line tickets in the tour price to ensure you spend more time enjoying the art and less time waiting in queues. We recommend booking at least a week in advance, especially during peak tourist seasons.",
+          "The tour involves approximately 4-5 km (2.5-3 miles) of walking throughout the day, including time spent standing in museums. There are opportunities to sit in the galleries, and we take a coffee break between museums. The walking pace is leisurely, but comfortable shoes are recommended.",
+      },
+      {
+        question: "Can I stay in the museums after the tour ends?",
+        answer:
+          "Yes, your entrance tickets remain valid until museum closing time on the day of your visit. After the guided tour concludes, you are welcome to continue exploring on your own, revisit favorite works, or see additional galleries not covered during the tour. Our guide will be happy to make recommendations based on your interests.",
       },
     ],
   },
   {
-    title: "Madrid Tapas & Flamenco Evening",
+    title: "Madrid Tapas & Wine Tasting Adventure",
     description:
-      "Dive into Madrid's vibrant nightlife with a tapas crawl through historic taverns and hidden bars, followed by an authentic flamenco performance in an intimate tablao venue.",
+      "Dive into Madrid's legendary tapas culture with a local food expert guiding you through traditional bars, family-run taverns, and modern gastro-spots while sampling regional specialties paired with Spanish wines.",
     city: "Madrid",
     country: "Spain",
-    region: "Community of Madrid",
+    region: "Central Spain",
     images: [
-      "/images/tours/madrid/tapas-tour.jpg",
-      "/images/tours/madrid/flamenco-show.jpg",
+      "/images/tours/madrid/tapas-experience.jpg",
+      "/images/tours/madrid/wine-tasting.jpg",
     ],
-    duration: "5 hours",
-    price: "$110",
+    duration: "4 hours",
+    price: "$85",
     rating: 4.8,
-    tags: ["Culinary", "Nightlife", "Flamenco"],
+    tags: ["Food", "Wine", "Tapas"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "How many tapas venues will we visit?",
-        answer:
-          "The tour includes stops at 4 different establishments, each representing a different aspect of Spanish culinary traditions. You'll sample approximately 10-12 different tapas paired with regional wines, vermouth, and sherry. The evening concludes with churros con chocolate after the flamenco show.",
-      },
-      {
-        question: "Is the flamenco show suitable for children?",
-        answer:
-          "While the flamenco performance itself is family-friendly, the tapas crawl involves visiting bars that may not be ideal for very young children. We recommend this tour for older children (12+) who can appreciate the cultural experience. For families with younger kids, we can suggest alternative dining options.",
-      },
-      {
-        question: "What should I wear for the evening?",
-        answer:
-          "Smart casual attire is recommended. Comfortable shoes are a must, as we will be walking between venues. The flamenco venue has a relaxed dress code, but avoiding overly casual clothing like flip-flops or gym wear is advisable.",
-      },
-    ],
-  },
-  {
-    title: "Madrid Historical Walk: Royal Palace & Almudena Cathedral",
-    description:
-      "Explore Madrid's rich history with a guided walk through the Royal Palace, Almudena Cathedral, and the historic Plaza Mayor, learning about the city's evolution from medieval times to the present.",
-    city: "Madrid",
-    country: "Spain",
-    region: "Community of Madrid",
-    images: [
-      "/images/tours/madrid/royal-palace.jpg",
-      "/images/tours/madrid/almudena-cathedral.jpg",
-    ],
-    duration: "4 hours",
-    price: "$80",
-    rating: 4.7,
-    tags: ["History", "Architecture", "Walking Tour"],
 
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Plaza Mayor, Central Statue, Madrid 28012",
+      coordinates: {
+        latitude: 40.4168,
+        longitude: -3.7038,
+      },
+      instructions:
+        "Meet by the central equestrian statue of Felipe III in Plaza Mayor. Your guide will be holding a small red umbrella with 'Tapas Tour' written on it.",
+      contactNumber: "+34 91 123 4568",
+      contactEmail: "madridtapas@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Visit 5 distinctive tapas establishments from traditional to modern",
+      "Sample 10-12 different Spanish tapas representing regional specialties",
+      "Enjoy 4 wine pairings featuring different Spanish varietals and regions",
+      "Learn about Madrid's food culture and tapeo (tapas-hopping) tradition",
+      "Discover hidden family-run establishments away from tourist routes",
+    ],
+
+    inclusions: [
+      "Expert local foodie guide",
+      "10-12 tapas tastings across multiple venues (equivalent to a full meal)",
+      "4 wine tastings (approximately one glass at each location)",
+      "One sherry or vermouth tasting",
+      "Tapas recipe booklet to take home",
+      "Food and wine pairing guide",
+      "All food and drink included in price",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food or drinks beyond the included tastings",
+      "Gratuities",
+      "Personal shopping",
+    ],
+
+    itinerary: [
+      "19:00 - Meet in Plaza Mayor for introduction to Spanish tapas culture",
+      "19:15 - Visit first traditional tavern for classic Madrid tapas",
+      "19:45 - Walk through historic Madrid center with commentary",
+      "20:00 - Second stop at family-run bar specializing in seafood tapas",
+      "20:45 - Visit third location for regional Spanish tapas and wine pairings",
+      "21:30 - Fourth stop at modern gastro-bar for innovative tapas",
+      "22:15 - Final stop for traditional Spanish dessert and digestif",
+      "23:00 - Tour concludes with recommendations for continuing your evening",
+    ],
+
     faqs: [
       {
-        question: "Are there any entry fees included?",
+        question: "Can dietary restrictions be accommodated?",
         answer:
-          "Yes, the tour includes entry fees to both the Royal Palace and Almudena Cathedral. We also provide audio guides for a more immersive experience inside these sites.",
+          "Yes, with advance notice we can accommodate most dietary restrictions including vegetarian, gluten-free, and pescatarian options. Please inform us when booking so our guide can arrange alternative tapas at each location. Due to the traditional nature of Spanish cuisine, vegan options may be more limited but still possible.",
       },
       {
-        question: "Is this tour wheelchair accessible?",
+        question: "How much walking is involved?",
         answer:
-          "The Royal Palace is mostly wheelchair accessible, but some areas may have limited access due to historical architecture. We recommend contacting us in advance to discuss specific needs so we can accommodate you appropriately.",
+          "The tour covers approximately 2 km (1.2 miles) of walking through Madrid's historic center at a leisurely pace. We walk between tapas venues, which are typically 5-10 minutes apart. The route is mostly flat with some cobbled streets. Comfortable walking shoes are recommended.",
       },
       {
-        question: "What should I wear for the tour?",
+        question: "Is this tour suitable for non-drinkers?",
         answer:
-          "Comfortable walking shoes are essential as we will cover a fair distance on foot. The dress code for the Royal Palace is smart casual, and visitors are expected to dress respectfully when entering religious sites like Almudena Cathedral.",
+          "Absolutely! While wine is a significant part of Spanish culinary culture, we can provide non-alcoholic alternatives such as regional fruit juices, craft sodas, or traditional non-alcoholic Spanish drinks. The focus remains on the food experience, and the tour is just as enjoyable without alcohol.",
       },
     ],
   },
+  // Additional tours would follow the same pattern
 ];
 
 export default madridTours;

@@ -2,117 +2,265 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const maltaTours: Tour[] = [
   {
-    title: "Ancient Malta: Temples & Medieval Cities",
+    title: "Valletta: Knights & Fortifications Tour",
     description:
-      "Explore Malta's remarkable history spanning 7,000 years, from prehistoric megalithic temples to the medieval walled city of Mdina, with an archaeologist guide bringing ancient stories to life.",
+      "Explore the UNESCO-listed capital built by the Knights of St. John with a military historian guiding you through stunning fortifications, secret tunnels, and grand palaces while explaining Malta's strategic importance throughout history.",
     city: "Valletta",
     country: "Malta",
-    region: "Southeastern Region",
+    region: "Southern Europe",
     images: [
-      "/images/tours/malta/hagar-qim-temple.jpg",
-      "/images/tours/malta/mdina.jpg",
+      "/images/tours/malta/valletta-fortifications.jpg",
+      "/images/tours/malta/grand-masters-palace.jpg",
     ],
-    duration: "7 hours",
-    price: "$120",
-    rating: 4.9,
-    tags: ["History", "Archaeology", "UNESCO"],
+    duration: "3 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["History", "Architecture", "Military"],
 
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
+
+    meetingPoint: {
+      address: "City Gate Entrance, Valletta, Malta",
+      coordinates: {
+        latitude: 35.9005,
+        longitude: 14.5113,
+      },
+      instructions:
+        "Meet outside the main City Gate of Valletta, near the large Triton Fountain. Your guide will be holding a sign with 'Knights of Malta Tour' written on it.",
+      contactNumber: "+356 2123 4567",
+      contactEmail: "valletta@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
+    ],
+
+    highlights: [
+      "Explore Europe's most complete Renaissance fortified city with military expertise",
+      "Visit the stunning St. John's Co-Cathedral with Caravaggio masterpieces",
+      "Discover secret tunnels and defensive systems not open to regular tourists",
+      "Learn about the Great Siege of 1565 that shaped European history",
+      "Enjoy spectacular harbor views from exclusive vantage points",
+    ],
+
+    inclusions: [
+      "Professional military historian guide",
+      "Skip-the-line entrance to St. John's Co-Cathedral",
+      "Access to Upper Barrakka Gardens and Saluting Battery",
+      "Special access to normally restricted fortification areas",
+      "Audio headsets to clearly hear the guide",
+      "Map of Valletta's historical sites",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities",
+      "Entrance to additional museums or attractions not specified",
+      "Transportation outside the walking tour route",
+    ],
+
+    itinerary: [
+      "10:00 - Meet at City Gate for introduction to Valletta and the Knights of St. John",
+      "10:15 - Walk along Republic Street with commentary on city planning and defenses",
+      "10:45 - Visit St. John's Co-Cathedral and Caravaggio's masterpieces",
+      "11:30 - Explore Upper Barrakka Gardens with panoramic harbor views",
+      "11:45 - Witness the Saluting Battery cannon firing (if timing permits)",
+      "12:15 - Tour Fort St. Elmo and learn about the Great Siege of 1565",
+      "12:45 - Discover hidden defensive tunnels and specialized fortifications",
+      "13:00 - Tour concludes at Grand Master's Palace with recommendations",
+    ],
+
     faqs: [
       {
-        question: "How old are the temples we'll visit?",
+        question: "How much walking is involved?",
         answer:
-          "The megalithic temples on Malta date from 3600-2500 BCE, making them among the oldest free-standing stone structures in the world - older than Stonehenge or the Egyptian pyramids. They represent remarkable engineering achievements for their time.",
+          "This tour involves approximately 2.5 km (1.5 miles) of walking on mostly level terrain with some steps and inclines. Valletta is built on a hill, so there are some sloping streets. We maintain a moderate pace with frequent stops for explanations and rest. Comfortable walking shoes are strongly recommended.",
       },
       {
         question: "Is the tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly. We provide engaging historical context and activities to keep children interested, and the sites are accessible for all ages.",
+          "Yes, the tour is suitable for children interested in knights, castles, and military history. Our guides are experienced in engaging younger participants with age-appropriate stories and interesting facts. For very young children, please note the tour involves 3 hours of guided exploration.",
+      },
+      {
+        question: "What should I wear for visiting the cathedral?",
+        answer:
+          "St. John's Co-Cathedral requires modest dress for all visitors. Shoulders and knees must be covered for both men and women. Comfortable walking shoes are recommended as the tour involves walking on stone surfaces. Hats and water bottles are advisable during summer months.",
       },
     ],
   },
   {
-    title: "Hidden Coves & Blue Lagoon Boat Tour",
+    title: "Blue Grotto & Megalithic Temples",
     description:
-      "Discover Malta's stunning coastline aboard a traditional luzzu fishing boat, visiting secluded swimming spots, sea caves, and the famous Blue Lagoon away from the tourist crowds.",
-    city: "Sliema",
+      "Combine natural beauty and prehistoric wonder with a boat trip through the stunning Blue Grotto sea caves followed by exploration of UNESCO-listed megalithic temples that predate Stonehenge and the Egyptian pyramids.",
+    city: "Qrendi",
     country: "Malta",
-    region: "Northern Region",
+    region: "Southern Europe",
     images: [
-      "/images/tours/malta/blue-lagoon.jpg",
-      "/images/tours/malta/sea-caves.jpg",
+      "/images/tours/malta/blue-grotto.jpg",
+      "/images/tours/malta/hagar-qim-temple.jpg",
     ],
-    duration: "6 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Boat Tour", "Swimming", "Coastal"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "Will we have time for swimming?",
-        answer:
-          "Yes, the tour includes several swimming and snorkeling stops of 30-45 minutes each at different locations. We provide snorkeling equipment, and our captain knows the best spots based on daily conditions and away from larger tour boats.",
-      },
-      {
-        question: "What should I bring for the boat tour?",
-        answer:
-          "We recommend wearing a swimsuit, sunscreen, a hat, and bringing a towel. Water and light snacks are provided, but feel free to bring your own refreshments. A light jacket is advisable for the boat ride.",
-      },
-      {
-        question: "Is the boat suitable for children?",
-        answer:
-          "Yes, our traditional luzzu is family-friendly with stable seating and safety features. Children will enjoy the swimming stops and exploring the coastal caves.",
-      },
-    ],
-  },
-  {
-    title: "Valletta: History & Culture Walking Tour",
-    description:
-      "Experience the rich history of Malta's capital with a guided walking tour through Valletta's narrow streets, visiting St. John's Co-Cathedral, the Grand Master's Palace, and local artisan shops.",
-    city: "Valletta",
-    country: "Malta",
-    region: "Southeastern Region",
-    images: [
-      "/images/tours/malta/valletta-st-johns.jpg",
-      "/images/tours/malta/grand-masters-palace.jpg",
-    ],
-    duration: "4 hours",
-    price: "$70",
-    rating: 4.7,
-    tags: ["Walking Tour", "Culture", "UNESCO"],
+    duration: "5 hours",
+    price: "$85",
+    rating: 4.9,
+    tags: ["Nature", "Archaeology", "UNESCO"],
 
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
-    isLocalExperience: true,
+    isLocalExperience: false,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address: "Blue Grotto Viewpoint, Triq il-Qrendi, Qrendi, Malta",
+      coordinates: {
+        latitude: 35.8252,
+        longitude: 14.4474,
+      },
+      instructions:
+        "Meet at the Blue Grotto viewpoint parking area near the official ticket office. Your guide will be waiting with a blue flag marked 'Paragon Trails'.",
+      contactNumber: "+356 2123 4568",
+      contactEmail: "bluegrotto@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Take a traditional boat ride through the magnificent Blue Grotto sea caves",
+      "Experience the stunning azure waters and unique rock formations",
+      "Explore the 5,000-year-old Ħaġar Qim and Mnajdra temple complexes",
+      "Learn about prehistoric Malta and the mysterious temple builders",
+      "Enjoy spectacular coastal views along the southern cliffs of Malta",
+    ],
+
+    inclusions: [
+      "Professional guide with archaeological expertise",
+      "Blue Grotto boat trip (weather permitting)",
+      "Entrance fees to Ħaġar Qim and Mnajdra temple complexes",
+      "Transportation between sites",
+      "Informative booklet about Malta's megalithic temples",
+      "Bottled water",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Lunch (time allocated for optional meal at local restaurant)",
+      "Additional food and beverages",
+      "Gratuities",
+      "Optional activities not specified in the itinerary",
+    ],
+
+    itinerary: [
+      "09:30 - Meet at Blue Grotto viewpoint for introduction",
+      "09:45 - Board traditional luzzu boats for Blue Grotto cave exploration",
+      "10:30 - Free time for photos and optional coffee at sea view café",
+      "11:00 - Short drive to Ħaġar Qim temples",
+      "11:15 - Guided tour of the main temple complex with expert commentary",
+      "12:15 - Walk to nearby Mnajdra temples with coastal views",
+      "12:45 - Explore the three temples of Mnajdra with astronomical alignments",
+      "13:30 - Optional lunch at local restaurant (not included)",
+      "14:30 - Tour concludes with transfer back to meeting point",
+    ],
+
     faqs: [
       {
-        question: "What will we see in Valletta?",
+        question:
+          "What if the Blue Grotto boat trip is canceled due to weather?",
         answer:
-          "The tour includes visits to St. John's Co-Cathedral, the Upper Barracca Gardens, the Grand Master's Palace, and hidden gems like local artisan shops and traditional cafes.",
+          "The Blue Grotto boat trip is weather-dependent, as sea conditions can make it unsafe. If the boats are not operating on the day of your tour, we will extend the temple visits and add the impressive Dingli Cliffs to the itinerary. A partial refund for the boat portion will be provided in this case.",
       },
       {
-        question: "Is this tour suitable for those with mobility issues?",
+        question: "How difficult is the walking during the temple visits?",
         answer:
-          "Valletta's streets are cobbled and can be steep in places. We recommend comfortable walking shoes, but the tour can be adjusted for those with limited mobility by focusing on accessible areas.",
+          "The temple complexes require moderate walking on uneven surfaces, with some steps and rocky terrain. The total walking distance is approximately 1.5 km (1 mile) across both sites. Walkways are maintained, but comfortable shoes are strongly recommended. The sites are mostly exposed to the elements, so sun protection is advisable.",
       },
       {
-        question: "Do we need to book tickets in advance?",
+        question: "How old are these megalithic temples?",
         answer:
-          "Yes, we include skip-the-line tickets for St. John's Co-Cathedral in the tour price to ensure you spend more time exploring and less time waiting.",
+          "The Ħaġar Qim and Mnajdra temples date back to approximately 3600-3200 BCE, making them among the oldest free-standing stone structures in the world. They predate Stonehenge and the Great Pyramids of Egypt. Their sophisticated design and astronomical alignments demonstrate the advanced knowledge of their prehistoric builders.",
       },
     ],
   },
+  // Additional tours would be added here following the same pattern
 ];
 
 export default maltaTours;

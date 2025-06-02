@@ -4,6 +4,10 @@ export const mauiTours: Tour[] = [
     title: "Road to Hana Private Adventure",
     description:
       "Journey along Maui's legendary Road to Hana with a private guide who knows hidden waterfalls, secret beaches, and local stories missed by typical tours. Enjoy customized stops, gourmet picnic lunch, and photography at your own pace.",
+    city: "Kahului",
+    country: "United States",
+    state: "Hawaii",
+    region: "Maui",
     images: [
       "/images/tours/maui/road-to-hana.jpg",
       "/images/tours/maui/hana-waterfall.jpg",
@@ -17,11 +21,110 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
+
+    meetingPoint: {
+      address:
+        "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
+      coordinates: {
+        latitude: 20.8986,
+        longitude: -156.4305,
+      },
+      instructions:
+        "Meet your guide at the designated tour operator stand in the airport's arrival area. Look for your name on a sign or the 'Maui Private Tours' logo.",
+      contactNumber: "+1 808-555-0175",
+      contactEmail: "roadtohana@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Travel the famous 64-mile Road to Hana with over 600 hairpin turns and 50+ one-lane bridges",
+      "Swim at exclusive waterfall pools known only to locals",
+      "Visit hidden black and red sand beaches off the tourist path",
+      "Explore lava tubes and bamboo forests at your own pace",
+      "Enjoy a gourmet picnic lunch featuring local Hawaiian ingredients",
+    ],
+
+    inclusions: [
+      "Private luxury vehicle with experienced local guide",
+      "Gourmet picnic lunch and snacks featuring local Hawaiian ingredients",
+      "Fresh tropical fruits picked along the journey (seasonal)",
+      "Cold beverages including water, juice, and sodas",
+      "Beach towels, rain ponchos, and insect repellent",
+      "Professional photography at key scenic points",
+      "WiFi and charging ports in vehicle",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Alcoholic beverages",
+      "Additional activities not specified (e.g., helicopter tours, ziplines)",
+      "Entrance fees to private gardens or attractions (if any)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "07:00 - Pickup at your accommodation or airport",
+      "07:30 - Begin journey toward Hana with breakfast stop for famous banana bread",
+      "08:30 - First waterfall stop with swimming opportunity (weather permitting)",
+      "09:30 - Visit to hidden black sand beach with sea turtle viewing",
+      "10:45 - Explore bamboo forest trail and sacred pools",
+      "12:00 - Gourmet picnic lunch at scenic lookout",
+      "13:30 - Visit Wai'anapanapa State Park with black sand beach",
+      "14:30 - Stop at Hana town for local shopping and treats",
+      "15:30 - Visit red sand beach (tide permitting)",
+      "16:30 - Begin return journey with different stops",
+      "17:30 - Optional stop at local farm for tropical fruit tasting",
+      "19:00 - Return to your accommodation or airport",
+    ],
+
     faqs: [
       {
         question: "Will we have time to swim at any waterfalls?",
         answer:
           "Yes! Unlike rushed group tours, our private format allows time for swimming at 2-3 waterfall pools (weather permitting). Our guides know which falls are safest for swimming on any given day based on recent rainfall. We provide towels and dry bags for your convenience, so bring swimwear and water shoes if you'd like to take a dip in these pristine natural pools.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and can be customized to accommodate children of all ages. We can adjust the itinerary to include more child-friendly activities and ensure adequate breaks. Car seats are available upon request.",
+      },
+      {
+        question: "What should I bring on this tour?",
+        answer:
+          "We recommend bringing swimwear, towel, sunscreen, hat, camera, and comfortable walking shoes. Don't forget a light jacket as weather can change quickly in the mountains. We provide water, snacks, and lunch, but you're welcome to bring your favorite snacks as well.",
       },
     ],
   },
@@ -29,6 +132,10 @@ export const mauiTours: Tour[] = [
     title: "Sunrise at Haleakalā & Downhill Bike Adventure",
     description:
       "Witness the spectacular sunrise from the summit of Haleakalā volcano at 10,023 feet, then enjoy an exhilarating 27-mile guided bicycle descent through multiple climate zones with breathtaking views of Maui's central valley.",
+    city: "Haiku",
+    country: "United States",
+    state: "Hawaii",
+    region: "Maui",
     images: [
       "/images/tours/maui/haleakala-sunrise.jpg",
       "/images/tours/maui/volcano-biking.jpg",
@@ -42,11 +149,113 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
+
+    meetingPoint: {
+      address: "Haleakalā Bike Company, 810 Haiku Rd, Haiku, HI 96708",
+      coordinates: {
+        latitude: 20.9171,
+        longitude: -156.3236,
+      },
+      instructions:
+        "Meet at the Haleakalā Bike Company headquarters at least 15 minutes before the scheduled departure time (typically around 2:30 AM). Free parking available on site.",
+      contactNumber: "+1 808-555-0176",
+      contactEmail: "haleakalaadventure@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Witness the spectacular sunrise from 10,023 feet elevation at Haleakalā crater",
+      "Experience the surreal landscape often described as 'like being on Mars'",
+      "Enjoy an exhilarating 27-mile downhill bike ride through 7 distinct climate zones",
+      "Stop at stunning viewpoints overlooking Maui's central valley and neighboring islands",
+      "Learn about Hawaiian cultural significance and the unique silversword plants found nowhere else on Earth",
+    ],
+
+    inclusions: [
+      "Pre-dawn transportation to Haleakalā summit in comfortable van",
+      "National Park entrance fees",
+      "Professional guide with expertise in geology, ecology, and Hawaiian culture",
+      "High-quality Kona mountain bikes with disc brakes and suspension",
+      "Safety equipment (helmet, gloves, rain/wind gear)",
+      "Hot beverage service at sunrise",
+      "Light breakfast after sunrise viewing",
+      "Souvenir water bottle",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+      "Additional food beyond included light breakfast",
+    ],
+
+    itinerary: [
+      "02:45 - Meet at bike company headquarters for check-in",
+      "03:00 - Van departure to Haleakalā National Park",
+      "04:30 - Arrive at summit (10,023 ft) and prepare for sunrise",
+      "05:30 - Experience sunrise from summit viewpoint with hot beverages",
+      "06:15 - Visit crater viewpoints and learn about the volcano's formation",
+      "07:00 - Light breakfast and bike safety orientation",
+      "07:30 - Begin 27-mile guided downhill bike adventure",
+      "08:30 - First rest stop with panoramic views of Maui's north shore",
+      "09:30 - Pass through upcountry Kula with views of lavender farms",
+      "10:30 - Stop in Makawao town for refreshments (optional)",
+      "11:30 - Continue downhill through pineapple country",
+      "12:15 - Complete bike ride at headquarters",
+    ],
+
     faqs: [
       {
         question: "How difficult is the bike ride down the volcano?",
         answer:
           "The bike descent is not technically challenging as it's primarily downhill on paved roads with very little pedaling required. Riders should be comfortable on bicycles and capable of controlling their speed. The main challenge is adapting to the switchbacks and maintaining safe distances between riders. We provide high-quality bikes with powerful disk brakes, helmets, gloves, and windbreaker jackets, plus comprehensive safety instruction before beginning the descent.",
+      },
+      {
+        question: "What should I wear for the bike tour?",
+        answer:
+          "Dress in layers that can handle variable temperatures, as it will be cold at the summit and warmer as you descend. A light jacket, long pants, and closed-toe shoes are recommended. We provide helmets, gloves, and other necessary gear. Don't forget sunglasses and sunscreen for protection against UV rays at high altitude.",
+      },
+      {
+        question: "Is breakfast included in the tour?",
+        answer:
+          "Yes, a light breakfast is included after the sunrise viewing. It typically consists of pastries, fresh fruit, and beverages. Please inform us of any dietary restrictions in advance.",
       },
     ],
   },
@@ -67,11 +276,105 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address: "Maui Cultural Lands, 4050 Makena Alanui, Kihei, HI 96753",
+      coordinates: {
+        latitude: 20.6281,
+        longitude: -156.4477,
+      },
+      instructions:
+        "Meet at the Maui Cultural Lands entrance. Please arrive 10 minutes early to check in. Look for the 'Traditional Hawaiian Cultural Immersion' sign.",
+      contactNumber: "+1 808-555-0177",
+      contactEmail: "culturalimmersion@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+    ],
+
+    highlights: [
+      "Learn to make a traditional Hawaiian lei from fresh flowers and plants",
+      "Experience the art of hula dancing and its cultural significance",
+      "Try your hand at ancient Hawaiian games and sports",
+      "Participate in the preparation and cooking of an imu feast",
+      "Enjoy a delicious meal featuring locally sourced ingredients",
+    ],
+
+    inclusions: [
+      "All materials for lei making, hula, and games",
+      "Traditional Hawaiian lunch with vegetarian and gluten-free options",
+      "Refreshments throughout the experience",
+      "Cultural practitioner fees",
+      "Transportation from central meeting point to cultural site",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Transportation from your accommodation (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "09:00 - Pickup from central Kihei location",
+      "09:30 - Arrive at Maui Cultural Lands and welcome ceremony",
+      "10:00 - Lei making workshop",
+      "11:00 - Hula dancing lesson",
+      "12:00 - Traditional Hawaiian games",
+      "12:45 - Imu feast preparation and lunch",
+      "14:00 - Guided tour of the cultural site and its significance",
+      "15:00 - Return to Kihei",
+    ],
+
     faqs: [
       {
         question: "Is this authentic Hawaiian culture or a tourist show?",
         answer:
           "This experience is designed and led by Native Hawaiian cultural practitioners who share genuine traditions passed down through generations. Unlike commercial luau shows, our program focuses on meaningful cultural education and participation. You'll learn about the spiritual significance behind practices like lei-making and hula, the historical context of Hawaiian traditions, and how these cultural elements remain vital in contemporary Hawaiian life. Our practitioners are respected community members committed to authentic cultural perpetuation.",
+      },
+      {
+        question: "Do I need to be physically fit for this experience?",
+        answer:
+          "While a moderate level of fitness is helpful, most activities can be adapted to different ability levels. Hula dancing and games involve light to moderate physical activity, and our practitioners provide guidance and assistance as needed. If you have specific concerns, please contact us in advance to discuss accommodations.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Wear comfortable clothing that allows for movement, and dress in layers as it can be cool in the morning and warmer in the afternoon. Closed-toe shoes are recommended for safety during the activities. We provide any necessary equipment or materials for the cultural practices.",
       },
     ],
   },
@@ -92,6 +395,89 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
+
+    meetingPoint: {
+      address: "Maalaea Harbor, 300 Maalaea Rd, Wailuku, HI 96793",
+      coordinates: {
+        latitude: 20.7984,
+        longitude: -156.5931,
+      },
+      instructions:
+        "Meet at the Pacific Whale Foundation's check-in counter at Maalaea Harbor. Please arrive 30 minutes before departure time. Look for the 'Molokini Crater Snorkel' sign.",
+      contactNumber: "+1 808-555-0178",
+      contactEmail: "molokinisnorkel@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Snorkel in the crystal-clear waters of Molokini Crater, a marine sanctuary",
+      "See a variety of tropical fish, sea turtles, and vibrant coral reefs",
+      "Enjoy a continental breakfast and gourmet lunch on board",
+      "Learn about Maui's marine ecosystem from expert naturalist guides",
+      "Small group size for a personalized experience",
+    ],
+
+    inclusions: [
+      "Snorkeling gear: mask, snorkel, fins, and flotation devices",
+      "Wet suits or rash guards for added warmth and protection",
+      "Breakfast and lunch prepared on board",
+      "Beverages including water, juice, and soda",
+      "Professional guide with marine biology expertise",
+      "Transportation from central locations in Maui to the harbor",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "07:00 - Check-in at Maalaea Harbor",
+      "07:30 - Depart for Molokini Crater",
+      "08:15 - Arrive at Molokini Crater, safety briefing and snorkeling orientation",
+      "08:30 - Snorkeling at Molokini Crater with guided marine life tour",
+      "10:30 - Depart from Molokini Crater to Turtle Town",
+      "11:00 - Snorkeling at Turtle Town, known for sea turtle sightings",
+      "12:00 - Lunch on board the boat",
+      "13:00 - Return to Maalaea Harbor",
+      "13:30 - Arrive at harbor, tour concludes",
+    ],
+
     faqs: [
       {
         question: "Do I need to be a strong swimmer to enjoy this tour?",
@@ -102,6 +488,11 @@ export const mauiTours: Tour[] = [
         question: "What should I bring for the snorkeling portion?",
         answer:
           "We provide all necessary snorkeling gear including masks, fins, and snorkels. We recommend bringing a swimsuit, towel, sunscreen (reef-safe), a hat, and a light cover-up. If you have your own gear that you're comfortable with, feel free to bring it along. We also provide dry storage for personal items on the boat.",
+      },
+      {
+        question: "Is food included on the tour?",
+        answer:
+          "Yes, a continental breakfast and a gourmet lunch are included, featuring fresh and locally sourced ingredients. We can accommodate common dietary restrictions with advance notice. Please inform us of any allergies or dietary needs when you book the tour.",
       },
     ],
   },
@@ -122,6 +513,91 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+
+    meetingPoint: {
+      address:
+        "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
+      coordinates: {
+        latitude: 20.8986,
+        longitude: -156.4305,
+      },
+      instructions:
+        "Meet your guide at the designated tour operator stand in the airport's arrival area. Look for your name on a sign or the 'Maui Culinary Tours' logo.",
+      contactNumber: "+1 808-555-0179",
+      contactEmail: "culinarytours@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Visit local farms and learn about sustainable Hawaiian agriculture",
+      "Taste fresh tropical fruits, farm-fresh eggs, and locally made goat cheese",
+      "Participate in a hands-on cooking class with a professional chef",
+      "Enjoy a farm-to-table meal featuring organic and locally sourced ingredients",
+      "Learn to prepare traditional Hawaiian dishes with a modern twist",
+    ],
+
+    inclusions: [
+      "All ingredients and materials for cooking class",
+      "Farm visits and tastings as per itinerary",
+      "Lunch featuring the dishes you helped prepare",
+      "Beverages including water, juice, and soda",
+      "Professional chef and guide fees",
+      "Transportation from central locations in Maui to the farms",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "08:30 - Pickup from central location in Maui",
+      "09:00 - Arrive at first farm, tour and tasting",
+      "10:30 - Visit to second farm, meet local farmers",
+      "11:30 - Cooking class introduction and ingredient preparation",
+      "12:00 - Hands-on cooking class with professional chef",
+      "13:30 - Enjoy the meal you prepared, farm-to-table style",
+      "14:30 - Return to Maui",
+    ],
+
     faqs: [
       {
         question: "What dishes will we learn to prepare?",
@@ -132,6 +608,11 @@ export const mauiTours: Tour[] = [
         question: "Do I need prior cooking experience?",
         answer:
           "No prior cooking experience is necessary! Our classes are designed for all skill levels, from beginners to experienced cooks. Chef James provides step-by-step guidance, and we encourage hands-on participation. You'll leave with new skills and confidence in preparing Hawaiian-inspired dishes.",
+      },
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate common dietary restrictions such as vegetarian, vegan, and gluten-free diets. Please inform us of your dietary needs at the time of booking, and we will do our best to accommodate them during the tour.",
       },
     ],
   },
@@ -152,6 +633,87 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
+
+    meetingPoint: {
+      address:
+        "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
+      coordinates: {
+        latitude: 20.8986,
+        longitude: -156.4305,
+      },
+      instructions:
+        "Meet your photography guide at the designated tour operator stand in the airport's arrival area. Look for your name on a sign or the 'Maui Photography Tours' logo.",
+      contactNumber: "+1 808-555-0180",
+      contactEmail: "photographyworkshop@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Learn photography tips and techniques from a professional photographer",
+      "Capture stunning landscapes, waterfalls, and coastal views",
+      "Small group size for personalized instruction and attention",
+      "Post-processing tutorial to enhance your photos",
+      "Enjoy a beautiful sunset at a scenic location",
+    ],
+
+    inclusions: [
+      "Photography instruction and guidance from a pro photographer",
+      "Transportation from central locations in Maui to photo sites",
+      "Use of professional camera equipment (if needed)",
+      "Tripod and other photography accessories",
+      "Light refreshments and snacks",
+      "Post-workshop photo review and editing session",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "14:00 - Meet at Kahului Airport and depart for photography locations",
+      "14:30 - Arrive at first location: waterfall and rainforest area",
+      "16:00 - Depart for second location: coastal cliffs and beaches",
+      "17:30 - Set up for sunset photography at prime location",
+      "18:00 - Sunset photography session",
+      "19:00 - Return to Kahului",
+    ],
+
     faqs: [
       {
         question: "What locations will we photograph?",
@@ -162,6 +724,11 @@ export const mauiTours: Tour[] = [
         question: "Do I need to bring my own camera?",
         answer:
           "Yes, please bring your own camera or smartphone. We can accommodate all skill levels and equipment types, from professional DSLRs to smartphones. If you have specific lenses or filters you prefer, feel free to bring them along. Our guides can provide tips on composition, lighting, and camera settings tailored to your equipment.",
+      },
+      {
+        question: "Is transportation provided during the workshop?",
+        answer:
+          "Yes, transportation is included from a central meeting point in Maui to the various photography locations. We ensure that you have a comfortable and convenient experience while focusing on capturing stunning photos.",
       },
     ],
   },
@@ -182,6 +749,82 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address: "Maliko Bay, 1000 Hana Hwy, Haiku, HI 96708",
+      coordinates: {
+        latitude: 20.9617,
+        longitude: -156.3054,
+      },
+      instructions:
+        "Meet at the Maliko Bay parking area. Look for the 'Outrigger Canoe Experience' sign. Please arrive 15 minutes early for check-in.",
+      contactNumber: "+1 808-555-0181",
+      contactEmail: "outriggerexperience@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Learn traditional Hawaiian navigation and paddling techniques",
+      "Experience the beauty of Maui's coastline from the water",
+      "Small group size ensures personalized attention and instruction",
+      "Spot marine life such as sea turtles, dolphins, and seasonal whales",
+      "Enjoy a cultural exchange with your Hawaiian guide",
+    ],
+
+    inclusions: [
+      "All paddling and safety equipment",
+      "Light refreshments and snacks",
+      "Professional guide with expertise in Hawaiian culture and marine life",
+      "Transportation from central locations in Maui to the canoe launch site",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "07:30 - Check-in at Maliko Bay",
+      "08:00 - Safety briefing and paddling instruction",
+      "08:30 - Begin outrigger canoe experience",
+      "10:00 - Return to shore and conclude tour",
+    ],
+
     faqs: [
       {
         question: "Do we actually get to paddle the canoe?",
@@ -192,6 +835,11 @@ export const mauiTours: Tour[] = [
         question: "What should I wear for the canoe experience?",
         answer:
           "Wear comfortable, quick-drying clothing suitable for water activities. Swimsuits or athletic wear are ideal. We recommend water shoes or sandals with straps to keep them secure while paddling. Sunscreen, a hat, and sunglasses are also advisable, as you'll be exposed to the sun during the tour. We provide life jackets for all participants, which must be worn at all times while on the water.",
+      },
+      {
+        question: "Is transportation provided to the canoe launch site?",
+        answer:
+          "Yes, transportation is included from central locations in Maui to the canoe launch site at Maliko Bay. We ensure that you have a convenient and enjoyable experience while learning about Hawaii's voyaging heritage.",
       },
     ],
   },
@@ -212,6 +860,83 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "luxury",
+
+    meetingPoint: {
+      address:
+        "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
+      coordinates: {
+        latitude: 20.8986,
+        longitude: -156.4305,
+      },
+      instructions:
+        "Meet your helicopter tour guide at the designated tour operator stand in the airport's arrival area. Look for your name on a sign or the 'Maui Helicopter Tours' logo.",
+      contactNumber: "+1 808-555-0182",
+      contactEmail: "helicoptertours@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Fly over the stunning landscapes of Maui, including Haleakalā National Park",
+      "See hidden waterfalls and lush valleys only accessible by air",
+      "Experience the thrill of a doors-off helicopter tour for the best views",
+      "Learn about Maui's geology and history from your pilot-guide",
+      "Capture breathtaking aerial photos of Maui's coastline and interior",
+    ],
+
+    inclusions: [
+      "Helicopter tour with experienced pilot-guide",
+      "Noise-canceling headsets for each passenger",
+      "Beverages and light snacks",
+      "Transportation from central locations in Maui to the helicopter base",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "08:00 - Check-in at helicopter base near Kahului Airport",
+      "08:30 - Safety briefing and tour orientation",
+      "09:00 - Depart on helicopter tour of Maui",
+      "11:00 - Return from helicopter tour, debrief and photo viewing",
+    ],
+
     faqs: [
       {
         question: "Is seating assigned on the helicopter?",
@@ -222,6 +947,11 @@ export const mauiTours: Tour[] = [
         question: "What should I wear for the helicopter tour?",
         answer:
           "Dress comfortably in lightweight, breathable clothing. We recommend closed-toe shoes and a light jacket as it can be cooler at higher altitudes. Avoid loose items that could fly around in the cabin. We provide noise-canceling headsets for each passenger, which also include a microphone for communication with the pilot and other passengers.",
+      },
+      {
+        question: "Are there any age or weight restrictions?",
+        answer:
+          "Children under 2 years old are not permitted on the tour. Children aged 2-12 must be accompanied by an adult. There is no maximum age, but passengers should be in good health and able to board the helicopter without assistance. The combined weight of passengers in a row cannot exceed 550 lbs (250 kg) for safety reasons. Heavier individuals may be required to purchase an additional seat.",
       },
     ],
   },
@@ -242,6 +972,84 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
+
+    meetingPoint: {
+      address: "Maalaea Harbor, 300 Maalaea Rd, Wailuku, HI 96793",
+      coordinates: {
+        latitude: 20.7984,
+        longitude: -156.5931,
+      },
+      instructions:
+        "Meet at the Pacific Whale Foundation's check-in counter at Maalaea Harbor. Please arrive 30 minutes before departure time. Look for the 'Whale Watching Cruise' sign.",
+      contactNumber: "+1 808-555-0183",
+      contactEmail: "whalewatching@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Learn about humpback whale behavior and migration from a marine biologist",
+      "See whales breaching, tail slapping, and spouting water",
+      "Enjoy a continental breakfast and gourmet lunch on board",
+      "Small group size for a personalized experience",
+      "Contribute to marine conservation efforts through your participation",
+    ],
+
+    inclusions: [
+      "Whale watching cruise with marine biologist guide",
+      "Continental breakfast and gourmet lunch",
+      "Beverages including water, juice, and soda",
+      "Transportation from central locations in Maui to the harbor",
+    ],
+
+    exclusions: [
+      "Gratuities for guide (recommended but at your discretion)",
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Photos (available for purchase)",
+      "Travel insurance",
+    ],
+
+    itinerary: [
+      "07:00 - Check-in at Maalaea Harbor",
+      "07:30 - Depart for whale watching area",
+      "08:00 - Arrive at whale watching area, safety briefing",
+      "08:30 - Whale watching with guided commentary",
+      "10:30 - Return to Maalaea Harbor",
+      "11:00 - Arrive at harbor, tour concludes",
+    ],
+
     faqs: [
       {
         question: "When is the best time for whale watching in Maui?",
@@ -252,6 +1060,11 @@ export const mauiTours: Tour[] = [
         question: "What should I bring for the whale watching tour?",
         answer:
           "We recommend wearing layers as it can be cooler on the water, especially in the morning. Bring a light jacket, sunscreen (reef-safe), a hat, and sunglasses. A camera or smartphone with a zoom lens is great for capturing photos of the whales. We provide binoculars for all guests, but feel free to bring your own if you prefer.",
+      },
+      {
+        question: "Is food included on the tour?",
+        answer:
+          "Yes, a continental breakfast and a gourmet lunch are included. We can accommodate common dietary restrictions with advance notice. Please inform us of any allergies or dietary needs when you book the tour.",
       },
     ],
   },

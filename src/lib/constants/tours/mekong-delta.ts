@@ -2,240 +2,401 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const mekongDeltaTours: Tour[] = [
   {
-    title: "Floating Markets & Waterways Exploration",
+    title: "Mekong Delta Floating Markets & Waterways Adventure",
     description:
-      "Experience the authentic river life of the Mekong Delta by visiting vibrant floating markets where farmers trade produce from boat to boat. Navigate narrow canals, witness traditional commerce unchanged for centuries, and interact with welcoming local merchants.",
+      "Experience the vibrant floating markets of the Mekong Delta with an early morning boat journey through Cai Rang and Phong Dien, followed by exploration of hidden waterways and authentic rural villages.",
     city: "Can Tho",
     country: "Vietnam",
     region: "Mekong Delta",
     images: [
-      "/images/tours/mekong-delta/cai-rang-market.jpg",
-      "/images/tours/mekong-delta/boat-vendors.jpg",
+      "/images/tours/mekong-delta/floating-market.jpg",
+      "/images/tours/mekong-delta/river-boats.jpg",
     ],
-    duration: "10 hours",
-    price: "$75",
+    duration: "8 hours",
+    price: "$65",
     rating: 4.8,
-    tags: ["Markets", "River Life", "Cultural"],
+    tags: ["Markets", "Rural", "Boat Tour"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+    
+    meetingPoint: {
+      address: "Ninh Kieu Pier, Can Tho City, Vietnam",
+      coordinates: {
+        latitude: 10.0347,
+        longitude: 105.7907,
+      },
+      instructions: "Meet at Ninh Kieu tourist pier next to the illuminated pedestrian bridge. Look for your guide holding a sign with 'Mekong Tours' written on it.",
+      contactNumber: "+84 292 123 4567",
+      contactEmail: "mekong@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", "2023-12-25", "2023-12-27", "2023-12-29", "2023-12-31",
+      "2024-01-02", "2024-01-04", "2024-01-06", "2024-01-08", "2024-01-10", "2024-01-12", "2024-01-14", "2024-01-16", "2024-01-18", "2024-01-20", "2024-01-22", "2024-01-24", "2024-01-26", "2024-01-28", "2024-01-30",
+      "2024-02-01", "2024-02-03", "2024-02-05", "2024-02-07", "2024-02-09", "2024-02-11", "2024-02-13", "2024-02-15", "2024-02-17", "2024-02-19", "2024-02-21", "2024-02-23", "2024-02-25", "2024-02-27", "2024-02-29",
+    ],
+    
+    highlights: [
+      "Experience Cai Rang floating market in early morning when local trade is most active",
+      "Navigate narrow waterways unreachable by larger tourist boats",
+      "Visit local family businesses producing rice paper, coconut candy, and rice wine",
+      "Enjoy authentic home-cooked lunch in a rural Mekong Delta home",
+      "Cycle through orchard-lined paths in villages with no car access",
+    ],
+    
+    inclusions: [
+      "Private sampan boat with experienced local captain",
+      "English-speaking guide with expert knowledge of Mekong culture",
+      "Home-cooked lunch featuring local specialties",
+      "Fresh tropical fruit tastings at family orchards",
+      "Bicycle rental for village exploration",
+      "All entrance fees to craft villages",
+      "Filtered water and refreshing coconuts",
+    ],
+    
+    exclusions: [
+      "Hotel pickup and drop-off (can be arranged for additional fee)",
+      "Alcoholic beverages beyond included rice wine tasting",
+      "Personal expenses and souvenirs",
+      "Gratuities for guide and boat operator",
+    ],
+    
+    itinerary: [
+      "05:30 - Meet at Ninh Kieu Pier to board private sampan boat",
+      "06:00 - Depart for Cai Rang floating market as vendors begin morning trade",
+      "06:30 - Navigate through the bustling Cai Rang floating market",
+      "07:30 - Visit smaller, more authentic Phong Dien floating market",
+      "08:30 - Breakfast onboard with noodles and fresh fruits",
+      "09:00 - Visit family rice paper workshop with demonstration",
+      "09:45 - Explore narrow canals and waterways by smaller rowing boat",
+      "10:30 - Bicycle ride through orchard villages and rural pathways",
+      "11:30 - Visit local family home and learn about delta lifestyle",
+      "12:00 - Home-cooked lunch with Mekong Delta specialties",
+      "13:00 - Visit coconut candy workshop with tasting",
+      "13:45 - Return journey through scenic waterways",
+      "14:30 - Arrive back at Ninh Kieu Pier in Can Tho",
+    ],
+    
     faqs: [
       {
-        question: "When is the best time to visit the floating markets?",
+        question: "Why do we need to start so early in the morning?",
         answer:
-          "The markets are most active in the early morning, typically between 5:30-9:00 AM when local farmers bring fresh produce to trade. We depart pre-dawn to arrive when activity is at its peak. By mid-morning, much of the wholesale trading concludes, though some vendors remain. For photographers, the early morning light creates magical conditions with misty waterways and golden light illuminating the colorful boats.",
+          "The floating markets are most active and authentic very early in the morning when local farmers and traders conduct their business. By starting at 5:30am, we catch the markets at their busiest and most photogenic time, before most tourist boats arrive. The early start also means more comfortable temperatures for exploration and better light for photography."
       },
       {
-        question: "What should I wear for the boat tour?",
+        question: "What should I bring on this tour?",
         answer:
-          "Wear comfortable, lightweight clothing suitable for warm weather. Closed-toe shoes that can get wet are recommended, as you may need to step into shallow water at some stops. A hat and sunscreen are also advisable, as the sun can be strong on the water.",
+          "We recommend bringing a hat, sunglasses, sunscreen, insect repellent, and a light rain jacket or poncho (especially during rainy season from May to October). Camera, extra battery and memory cards are essential as the floating markets offer fantastic photo opportunities. Wear comfortable clothing that can get slightly wet and shoes that are easy to remove when entering homes."
+      },
+      {
+        question: "Will we get wet on this tour?",
+        answer:
+          "You'll remain relatively dry on the main sampan boat, but some water splash is possible when transferring to smaller rowing boats. During rainy season (May-October), brief tropical showers may occur. Our boats have rain covers, but it's still wise to bring a light rain jacket. The humidity in the delta means you may feel damp regardless of rain - light, breathable clothing is recommended."
       },
     ],
   },
   {
-    title: "Mekong Cuisine: Cooking Class & Orchard Tour",
+    title: "Home Stay Experience & Rural Mekong Life",
     description:
-      "Discover the distinctive flavors of Mekong Delta cuisine through a hands-on cooking class. Visit tropical fruit orchards, learn about unusual ingredients, and prepare regional specialties like caramelized fish in clay pot, rice paper rolls, and coconut candy.",
+      "Immerse yourself in authentic Mekong Delta culture with an overnight stay in a local family home, participating in daily activities from fishing to cooking while experiencing the warm hospitality and traditional lifestyle of the region.",
     city: "Vinh Long",
     country: "Vietnam",
     region: "Mekong Delta",
     images: [
-      "/images/tours/mekong-delta/cooking-class.jpg",
-      "/images/tours/mekong-delta/fruit-orchard.jpg",
+      "/images/tours/mekong-delta/homestay.jpg",
+      "/images/tours/mekong-delta/rural-cooking.jpg",
     ],
-    duration: "7 hours",
-    price: "$65",
-    rating: 4.7,
-    tags: ["Cooking", "Food", "Agriculture"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What dishes will we learn to cook?",
-        answer:
-          "The cooking class typically includes 4-5 authentic Mekong Delta dishes: caramelized fish in clay pot (cá kho tộ), fresh spring rolls with herbs and river shrimp (gỏi cuốn), elephant ear fish with rice paper (cá tai tượng), green mango salad (gỏi xoài), and coconut-based desserts. Vegetarian options are available. All recipes use fresh ingredients sourced that morning from floating markets or the host family's garden, and recipe cards are provided so you can recreate these dishes at home.",
-      },
-      {
-        question: "Do I need prior cooking experience?",
-        answer:
-          "No prior cooking experience is necessary. The class is designed for all skill levels, from beginners to experienced cooks. Chef Minh provides step-by-step instructions and personalized guidance, ensuring everyone can participate and learn. The focus is on traditional techniques and flavors, making it accessible and enjoyable for everyone.",
-      },
-    ],
-  },
-  {
-    title: "Paddle Through Mangrove Forests & Hidden Canals",
-    description:
-      "Navigate the Mekong's less-visited waterways by sampan or kayak, gliding through tranquil water coconut forests and narrow canals that larger boats can't access. Spot diverse birds, monitor lizards, and traditional riverside homes while experiencing the delta's natural beauty.",
-    city: "Ben Tre",
-    country: "Vietnam",
-    region: "Mekong Delta",
-    images: [
-      "/images/tours/mekong-delta/mangrove-kayaking.jpg",
-      "/images/tours/mekong-delta/narrow-canals.jpg",
-    ],
-    duration: "6 hours",
-    price: "$55",
-    rating: 4.8,
-    tags: ["Kayaking", "Nature", "Ecotour"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Do I need kayaking experience?",
-        answer:
-          "No prior experience is necessary. We use stable, traditional sampan boats with a guide who does the paddling, or for the more adventurous, two-person sit-on-top kayaks which are very stable and easy to maneuver in the calm waters. The canals and tributaries we explore have minimal current and are sheltered, making this suitable for beginners. Life jackets and basic paddling instruction are provided for those choosing to kayak.",
-      },
-      {
-        question: "What wildlife can we expect to see?",
-        answer:
-          "The mangrove forests and waterways are home to a variety of bird species, including kingfishers, herons, and egrets. You may also spot monitor lizards sunning themselves on the banks, as well as various fish species in the clear waters. The delta's biodiversity is rich, and our guides are skilled at pointing out interesting flora and fauna along the way.",
-      },
-    ],
-  },
-  {
-    title: "Bicycle Tour: Island Villages & Orchards",
-    description:
-      "Explore the peaceful back roads of Mekong Delta islands by bicycle, pedaling past rice fields, fruit orchards, and rural villages. Stop to interact with farmers, visit cottage industries, and enjoy fresh tropical fruits straight from the orchard.",
-    city: "Tra Vinh",
-    country: "Vietnam",
-    region: "Mekong Delta",
-    images: [
-      "/images/tours/mekong-delta/cycling-rice-fields.jpg",
-      "/images/tours/mekong-delta/village-cycling.jpg",
-    ],
-    duration: "6 hours",
-    price: "$45",
-    rating: 4.6,
-    tags: ["Cycling", "Rural", "Agriculture"],
+    duration: "2 days",
+    price: "$120",
+    rating: 4.9,
+    tags: ["Homestay", "Cultural Immersion", "Authentic"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
+    
+    meetingPoint: {
+      address: "Vinh Long Boat Pier, Ward 1, Vinh Long City",
+      coordinates: {
+        latitude: 10.2532,
+        longitude: 105.9723,
+      },
+      instructions: "Meet at the main boat pier in Vinh Long city center. Your guide will be waiting with a sign showing 'Mekong Homestay Experience'.",
+      contactNumber: "+84 270 456 7890",
+      contactEmail: "homestay@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-15", "2023-12-18", "2023-12-21", "2023-12-24", "2023-12-27", "2023-12-30",
+      "2024-01-02", "2024-01-05", "2024-01-08", "2024-01-11", "2024-01-14", "2024-01-17", "2024-01-20", "2024-01-23", "2024-01-26", "2024-01-29",
+      "2024-02-01", "2024-02-04", "2024-02-07", "2024-02-10", "2024-02-13", "2024-02-16", "2024-02-19", "2024-02-22", "2024-02-25", "2024-02-28",
+    ],
+    
+    highlights: [
+      "Experience authentic rural Vietnamese life with a host family",
+      "Learn to cook traditional Mekong Delta dishes with fresh local ingredients",
+      "Try traditional fishing methods using nets and basket traps",
+      "Cycle through fruit orchards and village paths inaccessible to vehicles",
+      "Participate in seasonal farming activities alongside local farmers",
+    ],
+    
+    inclusions: [
+      "English-speaking guide throughout the experience",
+      "Private boat transportation to island homestay",
+      "Accommodation in traditional wooden Mekong Delta home (private room)",
+      "All meals (1 breakfast, 2 lunches, 1 dinner)",
+      "Bicycle rental for local exploration",
+      "Fishing equipment and farming tools",
+      "Cooking class materials and ingredients",
+      "Seasonal fruit tastings from family orchard",
+    ],
+    
+    exclusions: [
+      "Transportation to/from Vinh Long meeting point",
+      "Alcoholic beverages (available for purchase)",
+      "Personal expenses",
+      "Gratuities for guide and host family (optional but appreciated)",
+      "Travel insurance",
+    ],
+    
+    itinerary: [
+      "Day 1: 11:00 - Meet at Vinh Long boat pier",
+      "Day 1: 11:15 - Boat journey to island homestay through small canals",
+      "Day 1: 12:00 - Welcome lunch with host family",
+      "Day 1: 13:30 - Tour of island village by bicycle",
+      "Day 1: 14:30 - Visit local workshops (rice paper, coconut candy)",
+      "Day 1: 16:00 - Seasonal farming activities with host family",
+      "Day 1: 17:30 - Learn traditional fishing techniques in nearby pond or river",
+      "Day 1: 18:30 - Help prepare dinner using fresh local ingredients",
+      "Day 1: 19:30 - Family dinner with host family",
+      "Day 1: 20:30 - Evening cultural exchange with local music or stories",
+      
+      "Day 2: 06:30 - Early morning village walk to local market",
+      "Day 2: 07:30 - Help prepare traditional Vietnamese breakfast",
+      "Day 2: 08:30 - Breakfast with host family",
+      "Day 2: 09:30 - Cooking class focusing on Mekong Delta specialties",
+      "Day 2: 11:30 - Enjoy the lunch you prepared",
+      "Day 2: 13:00 - Final activities and farewell to host family",
+      "Day 2: 14:00 - Return boat journey to Vinh Long pier",
+      "Day 2: 15:00 - Tour concludes at Vinh Long pier",
+    ],
+    
     faqs: [
       {
-        question: "How difficult is the cycling route?",
+        question: "What are the accommodation conditions like?",
         answer:
-          "The route is primarily flat and easy, covering approximately 15-20 km (9-12 miles) at a leisurely pace with frequent stops. We use comfortable bikes with basic gearing suitable for the terrain, and the paths are mostly concrete or packed dirt roads through villages and along canals. The biggest challenge can be the tropical heat rather than the terrain, so we start early and provide plenty of water and shade breaks. Alternative transportation can be arranged for portions of the journey if needed.",
+          "The homestay is a traditional wooden Mekong house with basic but clean and comfortable accommodations. You'll have a private room with mosquito netting, fan, and often a separate shower/toilet area (some homes have shared facilities). While not luxury, these authentic homes offer a genuine experience of rural Mekong life with the essential comforts needed for international guests."
       },
       {
-        question: "What kind of bikes are provided?",
+        question: "What should I pack for the homestay?",
         answer:
-          "We provide high-quality, well-maintained mountain bikes with comfortable seats and adjustable handlebars. Helmets are included, and we ensure the bikes are the right size for each participant. For families with young children, we can provide child seats or tandem bikes upon request. The bikes are suitable for both paved roads and packed dirt paths commonly found in the delta.",
+          "Pack light for this overnight experience. Essentials include lightweight clothing (modest attire respectful of local culture), toiletries, insect repellent, sunscreen, hat, camera, any personal medications, and perhaps a small gift for your host family (something from your home country is always appreciated but not required). We provide towels, bedding, and drinking water."
+      },
+      {
+        question: "Will language be a barrier with the host family?",
+        answer:
+          "Your guide will be present throughout the experience to translate and facilitate communication with your host family. Most host families have some basic English phrases, and you'll be surprised how much can be communicated through gestures, smiles, and participation in activities together. Many guests report that the connection with their host family was a highlight despite limited shared language."
       },
     ],
   },
   {
-    title: "Mekong Delta Photography Expedition",
+    title: "Mekong Delta Bird Sanctuary & Wetlands Tour",
     description:
-      "Capture the photogenic essence of the Mekong Delta with a professional photographer guiding you to optimal shooting locations and helping perfect your technique. Focus on floating markets at dawn, daily river life, and stunning sunset scenes over the waterways.",
-    city: "Can Tho",
+      "Discover the incredible biodiversity of the Mekong Delta's Tram Chim National Park, a designated Ramsar wetland site, home to rare birds including the endangered Eastern Sarus Crane, with guided boat trips and elevated viewing platforms.",
+    city: "Cao Lanh",
     country: "Vietnam",
     region: "Mekong Delta",
     images: [
-      "/images/tours/mekong-delta/photography-workshop.jpg",
-      "/images/tours/mekong-delta/river-sunset-photo.jpg",
+      "/images/tours/mekong-delta/bird-sanctuary.jpg",
+      "/images/tours/mekong-delta/wetlands.jpg",
     ],
-    duration: "4 hours",
-    price: "$195",
+    duration: "7 hours",
+    price: "$90",
     rating: 4.7,
-    tags: ["Photography", "Culture", "Landscapes"],
+    tags: ["Wildlife", "Birdwatching", "Nature"],
 
     isHistorical: false,
     isRomantic: false,
-    isOffTheBeatenPath: false,
+    isOffTheBeatenPath: true,
     isLocalExperience: false,
-    tourCategoryId: "art-and-music",
+    tourCategoryId: "nature",
+    
+    meetingPoint: {
+      address: "Hong Ngu Boat Station, Tram Chim National Park, Dong Thap",
+      coordinates: {
+        latitude: 10.7127,
+        longitude: 105.5466,
+      },
+      instructions: "Meet at the main entrance to Tram Chim National Park near the Park Headquarters. Your guide will be waiting with binoculars and a 'Bird Sanctuary Tour' sign.",
+      contactNumber: "+84 277 789 0123",
+      contactEmail: "birdsanctuary@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-16", "2023-12-19", "2023-12-22", "2023-12-25", "2023-12-28", "2023-12-31",
+      "2024-01-03", "2024-01-06", "2024-01-09", "2024-01-12", "2024-01-15", "2024-01-18", "2024-01-21", "2024-01-24", "2024-01-27", "2024-01-30",
+      "2024-02-02", "2024-02-05", "2024-02-08", "2024-02-11", "2024-02-14", "2024-02-17", "2024-02-20", "2024-02-23", "2024-02-26", "2024-02-29",
+    ],
+    
+    highlights: [
+      "Boat safari through Tram Chim National Park, a UNESCO Ramsar wetland site",
+      "Observe rare birds including the endangered Eastern Sarus Crane (seasonal)",
+      "Access elevated observation towers with panoramic wetland views",
+      "Learn about wetland ecosystem conservation efforts",
+      "Explore diverse habitats including lotus fields, reed beds, and melaleuca forests",
+    ],
+    
+    inclusions: [
+      "Expert birding guide with knowledge of local species",
+      "Private motorboat and rowing boat journeys through the park",
+      "Use of quality binoculars and spotting scope",
+      "National park entrance and conservation fees",
+      "Traditional Mekong Delta lunch at floating restaurant",
+      "Bird species checklist and identification guide",
+      "Bottled water and fresh fruits",
+    ],
+    
+    exclusions: [
+      "Transportation to/from Tram Chim National Park",
+      "Alcoholic beverages",
+      "Personal expenses and souvenirs",
+      "Gratuities for guide and boat operator",
+      "Professional photography equipment rental",
+    ],
+    
+    itinerary: [
+      "05:30 - Meet at Tram Chim National Park entrance",
+      "05:45 - Brief introduction to the park and its ecosystem",
+      "06:00 - Begin early morning boat safari when birds are most active",
+      "07:30 - Visit first observation tower for panoramic wetland views",
+      "08:15 - Continue through narrow waterways by rowing boat",
+      "09:30 - Morning refreshments at ranger station",
+      "10:00 - Second boat journey through diverse habitats",
+      "11:30 - Visit seasonal crane observation area (Dec-May)",
+      "12:30 - Traditional lunch at floating restaurant",
+      "13:30 - Final boat journey through melaleuca forest",
+      "14:30 - Return to park headquarters with final bird spotting opportunities",
+      "15:00 - Tour concludes with species checklist review",
+    ],
+    
     faqs: [
       {
-        question: "What photography skill level is this tour designed for?",
+        question: "When is the best time to see birds at Tram Chim National Park?",
         answer:
-          "This tour accommodates all skill levels from smartphone photographers to professional DSLR users. Our guide provides personalized instruction based on your equipment and experience. Beginners will learn composition techniques and basic settings, while advanced photographers can focus on challenging lighting conditions, long exposures, and environmental portraiture. The small group size (maximum 6 photographers) ensures individual attention regardless of your level.",
+          "The peak season for bird watching at Tram Chim is from December to May, during the dry season. This is when thousands of birds, including the endangered Eastern Sarus Crane, gather in the park. Early morning (6am-9am) provides optimal viewing conditions when birds are most active feeding, with a second active period in late afternoon. Different species can be observed year-round, though the diversity and concentration is highest during the dry season."
       },
       {
-        question: "What equipment should I bring?",
+        question: "What birds might we see?",
         answer:
-          "Bring your camera (DSLR, mirrorless, or high-end smartphone), extra batteries, and memory cards. A tripod is recommended for low-light photography, especially during sunrise and sunset shoots. If you have specific lenses (wide-angle, telephoto), feel free to bring those as well. We also provide a limited number of tripods for those who need them. Don't forget comfortable walking shoes and weather-appropriate clothing, as we will be outdoors for extended periods.",
+          "Tram Chim hosts over 230 bird species. Key species include the endangered Eastern Sarus Crane (Dec-May), Purple Swamphen, Black-headed Ibis, Spot-billed Pelican, Oriental Darter, and various kingfishers, storks, and herons. The park also supports large populations of egrets, cormorants, and various duck species. While wildlife sightings cannot be guaranteed, our experienced guides know the best locations for spotting different species."
+      },
+      {
+        question: "Should I bring my own binoculars?",
+        answer:
+          "While we provide quality binoculars and a spotting scope, experienced birders may prefer using their own familiar equipment. We recommend bringing your own binoculars if you have them, as well as a camera with telephoto lens if you're interested in bird photography. Early morning light can be stunning for photography, and our guides can advise on the best angles and locations for capturing specific species."
       },
     ],
   },
   {
-    title: "Mekong River Sunset Cruise & Dinner",
+    title: "Mekong Delta Cooking Adventure by Sampan",
     description:
-      "Cruise the majestic waters of the Mekong at the most enchanting time of day, when the setting sun bathes the river in golden light. Enjoy a gourmet Vietnamese dinner aboard a traditional wooden boat while watching river life unfold along the banks.",
-    city: "Can Tho",
-    country: "Vietnam",
-    region: "Mekong Delta",
-    images: [
-      "/images/tours/mekong-delta/sunset-cruise.jpg",
-      "/images/tours/mekong-delta/river-dinner.jpg",
-    ],
-    duration: "4 hours",
-    price: "$85",
-    rating: 4.9,
-    tags: ["Sunset", "Cruise", "Dining"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "romantic",
-    faqs: [
-      {
-        question: "What kind of food is served during the dinner cruise?",
-        answer:
-          "The dinner features a multi-course Vietnamese meal highlighting fresh Mekong Delta specialties. Typical dishes include elephant ear fish with rice paper, river prawns grilled with salt and chili, caramelized pork in clay pot, seasonal vegetable stir-fry, and fresh tropical fruits for dessert. Vegetarian options are available with advance notice. Beverages include local beer, wine, soft drinks, and filtered water. The food is prepared fresh onboard by our chef, using ingredients sourced from local markets that morning.",
-      },
-      {
-        question: "Is the cruise suitable for children?",
-        answer:
-          "Yes, the cruise is family-friendly and suitable for children of all ages. The boat is stable and safe, with plenty of space for kids to move around. We can accommodate children's dietary preferences, and the relaxed atmosphere makes it a great way for families to enjoy the Mekong Delta together.",
-      },
-    ],
-  },
-  {
-    title: "Traditional Crafts & Cottage Industries",
-    description:
-      "Discover the rich artisanal heritage of the Mekong Delta by visiting family workshops that produce coconut candy, rice paper, pottery, and woven mats using techniques passed down through generations. Try your hand at each craft with guidance from master artisans.",
+      "Float down peaceful Mekong Delta waterways on a traditional sampan while learning to prepare authentic southern Vietnamese cuisine, visiting local ingredient markets, and enjoying your creations in scenic riverside settings.",
     city: "Ben Tre",
     country: "Vietnam",
     region: "Mekong Delta",
     images: [
-      "/images/tours/mekong-delta/coconut-candy-making.jpg",
-      "/images/tours/mekong-delta/traditional-crafts.jpg",
+      "/images/tours/mekong-delta/cooking-sampan.jpg",
+      "/images/tours/mekong-delta/river-cooking.jpg",
     ],
-    duration: "7 hours",
-    price: "$60",
-    rating: 4.6,
-    tags: ["Crafts", "Cultural", "Hands-on"],
+    duration: "6 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Cooking", "Culinary", "Boat Tour"],
 
-    isHistorical: true,
-    isRomantic: false,
+    isHistorical: false,
+    isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "cultural",
+    tourCategoryId: "culinary",
+    
+    meetingPoint: {
+      address: "Ham Luong Tourist Pier, Ben Tre City",
+      coordinates: {
+        latitude: 10.2457,
+        longitude: 106.3758,
+      },
+      instructions: "Meet at the Ham Luong tourist pier in central Ben Tre. Look for your guide holding a sign with a sampan boat and cooking pan logo.",
+      contactNumber: "+84 275 567 8901",
+      contactEmail: "mekongcooking@paragontrails.com",
+    },
+    
+    availableDates: [
+      "2023-12-17", "2023-12-20", "2023-12-23", "2023-12-26", "2023-12-29",
+      "2024-01-01", "2024-01-04", "2024-01-07", "2024-01-10", "2024-01-13", "2024-01-16", "2024-01-19", "2024-01-22", "2024-01-25", "2024-01-28", "2024-01-31",
+      "2024-02-03", "2024-02-06", "2024-02-09", "2024-02-12", "2024-02-15", "2024-02-18", "2024-02-21", "2024-02-24", "2024-02-27",
+    ],
+    
+    highlights: [
+      "Float on traditional wooden sampan boats through scenic Mekong waterways",
+      "Learn to cook authentic Vietnamese dishes on specialized cooking boats",
+      "Shop for fresh ingredients at a colorful floating market",
+      "Master key Vietnamese cooking techniques from expert local chef",
+      "Enjoy your prepared dishes in picturesque riverside settings",
+    ],
+    
+    inclusions: [
+      "Private traditional sampan boat transportation",
+      "Expert Vietnamese chef instructor",
+      "All cooking ingredients and equipment",
+      "Market visit with ingredient selection guidance",
+      "Full meal of all dishes prepared during class",
+      "Recipe booklet to take home",
+      "Fresh tropical fruit tastings",
+      "Unlimited filtered water and one coconut drink",
+    ],
+    
+    exclusions: [
+      "Transportation to/from Ben Tre meeting point",
+      "Alcoholic beverages beyond welcome drink",
+      "Personal expenses and souvenirs",
+      "Gratuities for chef and boat operator",
+    ],
+    
+    itinerary: [
+      "09:00 - Meet at Ham Luong pier in Ben Tre",
+      "09:15 - Board traditional wooden sampan boat",
+      "09:30 - Visit local floating market to select fresh ingredients",
+      "10:15 - Cruise through narrow canals while learning about Mekong Delta cuisine",
+      "10:45 - First cooking demonstration on specialized cooking boat",
+      "11:15 - Hands-on cooking of traditional Vietnamese appetizers",
+      "11:45 - Continue to scenic location while preparing main dishes",
+      "12:30 - Dock at beautiful riverside location to enjoy your creations",
+      "13:30 - Final dessert preparation using tropical fruits",
+      "14:00 - Leisurely return journey through peaceful waterways",
+      "15:00 - Arrive back at Ham Luong pier with recipes and cooking tips",
+    ],
+    
     faqs: [
       {
-        question: "Will we get to participate in making crafts?",
+        question: "What dishes will we learn to cook?",
         answer:
-          "Yes, this is an interactive experience where you'll have hands-on opportunities at each workshop. You'll try making rice paper on a traditional cloth-covered steamer, hand-rolling coconut candy, weaving simple patterns with water hyacinth, and throwing a clay pot on a potter's wheel. While mastering these crafts takes years, the artisans are skilled at guiding beginners to create simple pieces and understand the processes. You'll take home samples of your work as unique souvenirs of your visit.",
+          "The menu typically includes 4-5 classic southern Vietnamese dishes such as fresh spring rolls (gỏi cuốn), caramelized fish or pork in clay pot (cá kho tộ/thịt kho tộ), sizzling catfish with turmeric and dill (chả cá), green papaya salad (gỏi đu đủ), and coconut-based desserts. Ingredients are seasonal and market-dependent, so specific dishes may vary. Vegetarian options are available with advance notice."
       },
       {
-        question: "Are the workshops suitable for children?",
+        question: "Do I need cooking experience to enjoy this tour?",
         answer:
-          "Yes, the workshops are family-friendly and designed to engage participants of all ages. Children will enjoy the hands-on activities and learning about traditional crafts. The artisans are experienced in working with kids and can adapt activities to be age-appropriate, ensuring everyone has a fun and educational experience.",
+          "Not at all! The class is designed for all skill levels from beginners to experienced home cooks. Our chef instructor demonstrates techniques step by step and provides personal guidance throughout. The emphasis is on fun, hands-on learning in a beautiful setting, not on creating perfect restaurant-quality dishes (though you might surprise yourself with what you create!)."
+      },
+      {
+        question: "How stable are the boats? Will I get seasick?",
+        answer:
+          "The traditional sampan boats used on this tour are wide, flat-bottomed vessels designed for stability in the calm waters of the Mekong Delta. Seasickness is extremely rare as we travel on sheltered rivers and canals with minimal current. The specialized cooking boats have stable cooking stations. Those with mobility concerns should note that boarding requires stepping from pier to boat with assistance from our staff."
       },
     ],
   },
