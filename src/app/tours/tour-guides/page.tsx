@@ -41,14 +41,13 @@ export default function TourGuides() {
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
-      {/* Header Section */}
-      <div className="mb-12 text-center">
+      <header>
         <h1>Tour Guides</h1>
         <h5>
           Passionate Locals. Expert Storytellers. Your Gateway to Authentic
           Experiences.
         </h5>
-      </div>
+      </header>
 
       {/* What Sets Our Guides Apart */}
       <div className="mb-16">
