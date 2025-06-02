@@ -5,6 +5,9 @@ export const cartagenaTours: Tour[] = [
     title: "Colonial City Walls & Hidden Fortresses",
     description:
       "Explore Cartagena's impressive UNESCO-listed fortifications with a military historian, discovering secret tunnels, hidden chambers, and strategic viewpoints while learning about the city's defense against pirates and rival empires.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/city-walls.jpg",
       "/images/tours/cartagena/san-felipe-fortress.jpg",
@@ -71,6 +74,9 @@ export const cartagenaTours: Tour[] = [
     title: "Caribbean Culinary Journey & Cooking Class",
     description:
       "Discover the vibrant flavors of Colombian Caribbean cuisine through market visits, rum tastings, and a hands-on cooking class led by a local chef in a beautiful colonial mansion in the historic center.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/cooking-class.jpg",
       "/images/tours/cartagena/bazurto-market.jpg",
@@ -138,6 +144,9 @@ export const cartagenaTours: Tour[] = [
     title: "Rosario Islands Private Yacht Experience",
     description:
       "Escape to the stunning Rosario Islands aboard a private yacht, enjoying crystal-clear waters perfect for snorkeling, a fresh seafood lunch on a secluded beach, and the exclusive experience of Caribbean paradise without the crowds.",
+    city: "Rosario Islands",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/rosario-islands-yacht.jpg",
       "/images/tours/cartagena/snorkeling-coral.jpg",
@@ -204,6 +213,9 @@ export const cartagenaTours: Tour[] = [
     title: "Palenque Cultural Heritage Experience",
     description:
       "Visit San Basilio de Palenque, the first free African town in the Americas and UNESCO Cultural Heritage site, meeting descendants of escaped slaves who maintain unique cultural traditions, music, and language.",
+    city: "San Basilio de Palenque",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/palenque-drummers.jpg",
       "/images/tours/cartagena/palenque-village.jpg",
@@ -270,6 +282,9 @@ export const cartagenaTours: Tour[] = [
     title: "Sunset Photography: Colonial Gems & Caribbean Light",
     description:
       "Capture the magical golden hour light of Cartagena with a professional photographer guiding you through the most photogenic spots, from colorful colonial streets to panoramic views from the historic walls.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/sunset-photography.jpg",
       "/images/tours/cartagena/colonial-balconies.jpg",
@@ -336,6 +351,9 @@ export const cartagenaTours: Tour[] = [
     title: "Gabriel García Márquez Literary Tour",
     description:
       "Follow in the footsteps of Nobel Prize-winning author Gabriel García Márquez, exploring the real Cartagena locations that inspired scenes from 'Love in the Time of Cholera' and other works of magical realism.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/garcia-marquez-sites.jpg",
       "/images/tours/cartagena/colonial-streets.jpg",
@@ -405,6 +423,9 @@ export const cartagenaTours: Tour[] = [
     title: "Cartagena Street Art & Urban Culture Tour",
     description:
       "Discover the vibrant street art scene of Cartagena with a local artist, exploring colorful murals, graffiti, and urban installations that reflect the city's cultural identity and social issues.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/street-art.jpg",
       "/images/tours/cartagena/urban-murals.jpg",
@@ -472,6 +493,9 @@ export const cartagenaTours: Tour[] = [
     title: "Cartagena Salsa Night: Dance Lessons & Local Clubs",
     description:
       "Experience Cartagena's vibrant nightlife with private salsa lessons from professional dancers, followed by guided visits to authentic local clubs where you can practice your moves alongside Cartageneros.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/salsa-lesson.jpg",
       "/images/tours/cartagena/local-club.jpg",
@@ -538,6 +562,9 @@ export const cartagenaTours: Tour[] = [
     title: "Mangrove Eco-Tour & Birdwatching",
     description:
       "Explore the rich ecosystem of Cartagena's surrounding mangrove forests by canoe, spotting diverse bird species and learning about the crucial environmental role these coastal wetlands play in the Caribbean.",
+    city: "La Boquilla",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/mangrove-canoe.jpg",
       "/images/tours/cartagena/coastal-birds.jpg",
@@ -604,6 +631,9 @@ export const cartagenaTours: Tour[] = [
     title: "Caribbean Fishing With Local Fishermen",
     description:
       "Join traditional fishermen from the coastal village of La Boquilla for an authentic Caribbean fishing experience, learning ancestral techniques passed down through generations and enjoying the freshest seafood lunch possible.",
+    city: "La Boquilla",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/traditional-fishing.jpg",
       "/images/tours/cartagena/fresh-catch.jpg",
@@ -670,6 +700,9 @@ export const cartagenaTours: Tour[] = [
     title: "Colonial Cocktail Journey: Historic Bars & Mixology",
     description:
       "Sample the spirits of Colombia through a guided mixology tour of Cartagena's most historic and innovative cocktail venues, learning about traditional ingredients while enjoying drinks in atmospheric colonial settings.",
+    city: "Cartagena",
+    country: "Colombia",
+    region: "Caribbean Coast",
     images: [
       "/images/tours/cartagena/craft-cocktails.jpg",
       "/images/tours/cartagena/colonial-bar.jpg",

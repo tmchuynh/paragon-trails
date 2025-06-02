@@ -5,6 +5,9 @@ export const casablancaTours: Tour[] = [
     title: "Hassan II Mosque & Islamic Architecture",
     description:
       "Explore the magnificence of one of the world's largest mosques with an architecture expert, gaining special access to ornate details and design elements typically overlooked, followed by a tour of Casablanca's stunning Art Deco district.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/hassan-ii-mosque.jpg",
       "/images/tours/casablanca/art-deco-district.jpg",
@@ -41,6 +44,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Culinary Journey & Spice Markets",
     description:
       "Immerse yourself in Morocco's legendary cuisine with a chef-led exploration of vibrant markets, followed by a hands-on cooking class in a traditional riad where you'll master authentic tagine, couscous, and pastry techniques.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/spice-market.jpg",
       "/images/tours/casablanca/cooking-class.jpg",
@@ -77,6 +83,9 @@ export const casablancaTours: Tour[] = [
     title: "Coastal Paradise: Ain Diab Beach Day & Water Sports",
     description:
       "Escape the city bustle for a day of sun and sea at Casablanca's premier beach district, with optional water sports, beachfront lunch at an exclusive club, and guided exploration of the scenic Corniche area.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/ain-diab-beach.jpg",
       "/images/tours/casablanca/corniche.jpg",
@@ -113,6 +122,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Hammam & Spa Ritual",
     description:
       "Indulge in the centuries-old tradition of the Moroccan hammam with a private spa experience featuring traditional black soap scrub, rhassoul clay treatment, argan oil massage, and mint tea relaxation.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/hammam.jpg",
       "/images/tours/casablanca/spa-treatment.jpg",
@@ -139,6 +151,9 @@ export const casablancaTours: Tour[] = [
     title: "Hidden Medina Food & Craft Tour",
     description:
       "Navigate the labyrinthine old medina of Casablanca with a local guide, discovering hidden food stalls, artisan workshops, and authentic markets far from tourist paths, with tastings of street food specialties throughout the journey.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/medina-alley.jpg",
       "/images/tours/casablanca/street-food.jpg",
@@ -175,6 +190,9 @@ export const casablancaTours: Tour[] = [
     title: "Day Trip: Rabat Royal City Tour",
     description:
       "Explore Morocco's elegant capital city with a day trip to Rabat featuring the royal palace, ancient Kasbah des Oudaias, historic Chellah necropolis, and the magnificent Hassan Tower, with round-trip transportation from your Casablanca hotel.",
+    city: "Rabat",
+    country: "Morocco",
+    region: "Rabat-Salé-Kénitra",
     images: [
       "/images/tours/casablanca/rabat-kasbah.jpg",
       "/images/tours/casablanca/hassan-tower.jpg",
@@ -206,6 +224,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Photography Masterclass",
     description:
       "Perfect your photography skills with a professional photographer who guides you through Casablanca's most photogenic locations, from hidden courtyards and bustling markets to architectural marvels in optimal lighting conditions.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/photo-workshop.jpg",
       "/images/tours/casablanca/mosque-photography.jpg",
@@ -242,6 +263,9 @@ export const casablancaTours: Tour[] = [
     title: "Luxury Casablanca: Private Tour & Fine Dining",
     description:
       "Indulge in the finest Casablanca has to offer with private chauffeur-driven exploration, exclusive access to luxury locations, rooftop champagne, and dinner at Morocco's most acclaimed restaurant with a customized tasting menu.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/luxury-transportation.jpg",
       "/images/tours/casablanca/fine-dining.jpg",
@@ -278,6 +302,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Artisanry Workshop: Zellige Tile Making",
     description:
       "Learn the intricate art of traditional Moroccan zellige tile mosaic from master craftsmen, creating your own geometric pattern using ancient techniques passed down through generations, with your finished piece shipped to your home.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/zellige-workshop.jpg",
       "/images/tours/casablanca/tile-crafting.jpg",
@@ -314,6 +341,9 @@ export const casablancaTours: Tour[] = [
     title: "Modern Casablanca Urban Experience",
     description:
       "Discover contemporary Casablanca beyond the tourist sites with visits to cutting-edge art galleries, trendy cafés, modern architecture, and vibrant neighborhoods where young Moroccans are creating new expressions of their cultural heritage.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/modern-architecture.jpg",
       "/images/tours/casablanca/art-gallery.jpg",
@@ -382,6 +412,9 @@ export const casablancaTours: Tour[] = [
     title: "Casablanca Stargazing Desert Retreat",
     description:
       "Escape the city lights for an unforgettable evening in the desert outside Casablanca. Experience traditional Moroccan hospitality in a luxury desert camp, enjoy dinner under the stars, and observe celestial wonders through professional telescopes with an astronomy expert.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/desert-camp.jpg",
       "/images/tours/casablanca/stargazing.jpg",
@@ -449,6 +482,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Surfing Adventure",
     description:
       "Experience the Atlantic waves near Casablanca with a surfing lesson tailored to your skill level. Learn from professional instructors, enjoy beach relaxation time, and conclude with a traditional beach barbecue as the sun sets over the ocean.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/surfing.jpg",
       "/images/tours/casablanca/beach-barbecue.jpg",
@@ -515,6 +551,9 @@ export const casablancaTours: Tour[] = [
     title: "Moroccan Musical Heritage Experience",
     description:
       "Immerse yourself in Morocco's rich musical traditions with visits to instrument workshops, private performances of Andalusian classical music and Gnawa spiritual sounds, and participation in a percussion workshop to learn traditional rhythms.",
+    city: "Casablanca",
+    country: "Morocco",
+    region: "Casablanca-Settat",
     images: [
       "/images/tours/casablanca/music-performance.jpg",
       "/images/tours/casablanca/instrument-workshop.jpg",

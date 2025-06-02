@@ -5,6 +5,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Blue City Walking Tour & Local Artisans",
     description:
       "Explore the enchanting blue streets of Chefchaouen with a local guide, discovering hidden corners, meeting artisans in their workshops, and learning the fascinating history behind the city's distinctive blue-washed buildings.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/blue-streets.jpg",
       "/images/tours/chefchaouen/artisan-workshop.jpg",
@@ -117,6 +120,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Rif Mountains Day Trek & Berber Villages",
     description:
       "Journey into the stunning Rif Mountains surrounding Chefchaouen, hiking through pine forests to traditional Berber villages where you'll enjoy home-cooked meals with local families and learn about their sustainable mountain lifestyle.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/rif-mountains.jpg",
       "/images/tours/chefchaouen/berber-village.jpg",
@@ -230,6 +236,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Chefchaouen Photography Masterclass",
     description:
       "Perfect your photography skills in one of the world's most photogenic cities with expert guidance on capturing Chefchaouen's unique blue palette, atmospheric light, and architectural details during optimal lighting conditions.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/photography-workshop.jpg",
       "/images/tours/chefchaouen/blue-doorways.jpg",
@@ -337,6 +346,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Traditional Moroccan Cooking Class",
     description:
       "Learn the secrets of authentic Moroccan cuisine in a hands-on cooking class, beginning with a visit to the local market to select fresh ingredients followed by preparation of traditional dishes in a beautiful blue home kitchen.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/cooking-class.jpg",
       "/images/tours/chefchaouen/local-market.jpg",
@@ -446,6 +458,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Akchour Waterfalls & Paradise Valley",
     description:
       "Escape to the natural paradise of Akchour, just outside Chefchaouen, to hike alongside crystal-clear rivers, swim in natural pools beneath stunning waterfalls, and enjoy a picnic lunch in one of Morocco's most beautiful landscapes.",
+    city: "Akchour",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/akchour-waterfall.jpg",
       "/images/tours/chefchaouen/natural-bridge.jpg",
@@ -559,6 +574,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Sunset Rooftop Tour & Traditional Mint Tea",
     description:
       "Experience Chefchaouen's magical transformation at sunset from exclusive rooftop terraces normally closed to the public, enjoying traditional mint tea and Moroccan sweets as the call to prayer echoes through the blue city.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/rooftop-sunset.jpg",
       "/images/tours/chefchaouen/mint-tea-ceremony.jpg",
@@ -671,6 +689,9 @@ export const chefchaouenTours: Tour[] = [
     title: "Chefchaouen Souk Shopping Experience",
     description:
       "Discover the vibrant local markets of Chefchaouen with a knowledgeable guide, learning how to haggle for traditional handicrafts, textiles, and spices while immersing yourself in the lively atmosphere of the souks.",
+    city: "Chefchaouen",
+    country: "Morocco",
+    region: "Rif Mountains",
     images: [
       "/images/tours/chefchaouen/souk-shopping.jpg",
       "/images/tours/chefchaouen/textile-market.jpg",

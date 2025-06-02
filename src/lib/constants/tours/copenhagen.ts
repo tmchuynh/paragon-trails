@@ -5,6 +5,9 @@ export const copenhagenTours: Tour[] = [
     title: "Copenhagen by Bike & Canal Cruise",
     description:
       "Experience Copenhagen like a local with a guided bicycle tour through the city's beautiful parks, historic districts, and along the harbor, followed by a relaxing canal cruise with Nordic refreshments.",
+    city: "Copenhagen",
+    country: "Denmark",
+    region: "Capital Region",
     images: [
       "https://images.unsplash.com/photo-1561560392-39ff98f2d54c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q29wZW5oYWdlbnxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1577346895253-445f05a6670d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENvcGVuaGFnZW58ZW58MHx8MHx8fDA%3D",
@@ -123,6 +126,9 @@ export const copenhagenTours: Tour[] = [
     title: "Danish Design & Architecture Masterpieces",
     description:
       "Discover Copenhagen's revolutionary design heritage with an architecture specialist guiding you through iconic modern buildings, design studios, and exclusive access to private homes showcasing Danish design principles.",
+    city: "Copenhagen",
+    country: "Denmark",
+    region: "Capital Region",
     images: [
       "https://images.unsplash.com/photo-1668083945157-15744f6f7301?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIzfHx8ZW58MHx8fHx8",
       "https://images.unsplash.com/photo-1723036382091-6c8f61653b71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM5fHx8ZW58MHx8fHx8",
@@ -236,6 +242,9 @@ export const copenhagenTours: Tour[] = [
     title: "Copenhagen's Culinary Secrets: From Street Food to Fine Dining",
     description:
       "Embark on a gastronomic journey through Copenhagen's vibrant food scene, sampling everything from trendy street food markets to Michelin-starred restaurants, guided by a local culinary expert.",
+    city: "Copenhagen",
+    country: "Denmark",
+    region: "Capital Region",
     images: [
       "https://media.istockphoto.com/id/1045422456/photo/close-up-of-a-seafood-salad.jpg?s=612x612&w=0&k=20&c=32uW2aIvAOsgyzJe42Qm7u5oB18TnE-PVuKwxRZRezU=",
       "https://media.istockphoto.com/id/534737185/photo/contemporary-cafe-culture-healthy-salad.jpg?s=612x612&w=0&k=20&c=-zKCs2aCwNmVVUAYpTthwZA7ssV1RAXoSpWrZ7FIt0A=",
@@ -350,6 +359,9 @@ export const copenhagenTours: Tour[] = [
     title: "Copenhagen's Royal Heritage & Gardens",
     description:
       "Explore the royal history of Copenhagen with a guided tour of Amalienborg Palace, Rosenborg Castle, and the stunning King's Garden, learning about Denmark's monarchy and its influence on the city.",
+    city: "Copenhagen",
+    country: "Denmark",
+    region: "Capital Region",
     images: [
       "https://media.istockphoto.com/id/1098385658/photo/the-square-of-amalienborg-royal-palace-copenhagen-denmark-dawn.jpg?s=612x612&w=0&k=20&c=vzffZIR1eYXpmYO9_O7OmIS_jL_5pfkCwFJmu8KKKbU=",
       "https://media.istockphoto.com/id/155149091/photo/copenhagen-rosenborg-slot-castle-kongens-have-spring-tulips-denmark.jpg?s=612x612&w=0&k=20&c=cYBxyicC6f0Eym9PHgSJwL7zprZA9bjxJhy9RVvoD0o=",
@@ -471,6 +483,9 @@ export const copenhagenTours: Tour[] = [
     title: "Copenhagen Sustainable City Innovations Tour",
     description:
       "Discover why Copenhagen is a world leader in sustainability with visits to innovative eco-projects, carbon-neutral neighborhoods, and cutting-edge urban solutions that showcase Danish ingenuity in creating a greener future.",
+    city: "Copenhagen",
+    country: "Denmark",
+    region: "Capital Region",
     images: [
       "https://images.unsplash.com/photo-1559260834-e03c79a0738e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENvcGVuaGFnZW4lMjBzdXN0YWluYWJsZXxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1558210472-c6f4b8672a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q29wZW5oYWdlbiUyMHN1c3RhaW5hYmxlfGVufDB8fDB8fHww",

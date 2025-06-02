@@ -5,6 +5,9 @@ export const coorgTours: Tour[] = [
     title: "Coffee Plantation Experience & Tasting",
     description:
       "Immerse yourself in the world of premium coffee production with a guided tour through lush Coorg plantations, learning the journey from bean to cup before participating in a professional cupping session to discern flavor profiles.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
     images: [
       "https://plus.unsplash.com/premium_photo-1663040345653-1ff78b0ac36c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SW1tZXJzZSUyMHlvdXJzZWxmJTIwaW4lMjB0aGUlMjB3b3JsZCUyMG9mJTIwcHJlbWl1bSUyMGNvZmZlZSUyMHByb2R1Y3Rpb24lMjB3aXRoJTIwYSUyMGd1aWRlZCUyMHRvdXIlMjB0aHJvdWdoJTIwbHVzaCUyMENvb3JnJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1677123618781-a713408ebc59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SW1tZXJzZSUyMHlvdXJzZWxmJTIwaW4lMjB0aGUlMjB3b3JsZCUyMG9mJTIwcHJlbWl1bSUyMGNvZmZlZSUyMHByb2R1Y3Rpb24lMjB3aXRoJTIwYSUyMGd1aWRlZCUyMHRvdXIlMjB0aHJvdWdoJTIwbHVzaCUyMENvb3JnJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
@@ -47,6 +50,9 @@ export const coorgTours: Tour[] = [
     title: "Kodava Cultural Heritage & Traditional Homes",
     description:
       "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
     images: [
       "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
@@ -61,26 +67,290 @@ export const coorgTours: Tour[] = [
       "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
     ],
-    duration: "6 hours",
-    price: "$75",
-    rating: 4.8,
-    tags: ["Cultural", "Heritage", "Local Life"],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
 
-    isHistorical: true,
+    isHistorical: false,
     isRomantic: false,
-    isOffTheBeatenPath: true,
+    isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "cultural",
+    tourCategoryId: "culinary",
     faqs: [
       {
-        question: "Who are the Kodava people?",
+        question: "When is the best time to see coffee harvesting?",
         answer:
-          "The Kodavas are the indigenous people of Coorg (Kodagu) with a distinct culture that sets them apart from other groups in South India. They have unique traditions including a martial heritage, ancestor worship, and their own language. Kodavas are known for their distinctive dress (men wear a traditional wrap called 'Kupya' and carry ceremonial knives called 'Peeche Kathi'), their non-vegetarian cuisine featuring pork and wild game, and their special relationship with firearms and warfare, having been exempted from Indian arms licensing laws due to their historical role as warriors.",
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
       },
       {
-        question: "What can we expect during the home visit?",
+        question: "Can I buy fresh coffee beans?",
         answer:
-          "During the ainmane visit, you'll be welcomed into a traditional Kodava home where you can observe daily life, learn about family customs, and even participate in cooking a Kodava meal. The hosts will share stories about their ancestors and the significance of the ainmane as a gathering place for family members. You'll also have the opportunity to try on traditional Kodava attire and learn about their unique rituals and festivals.",
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
+      },
+    ],
+  },
+  {
+    title: "Kodava Cultural Heritage & Traditional Homes",
+    description:
+      "Discover the unique culture of Coorg's indigenous Kodava people with visits to traditional ainmanes (ancestral homes), interactions with local families, and insights into their distinct customs, cuisine, and martial heritage.",
+    city: "Coorg",
+    country: "India",
+    region: "Karnataka",
+    images: [
+      "https://plus.unsplash.com/premium_photo-1724695601322-daf8155061d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1544115447-d78ef402cad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601205-e22b44cea1ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjBjdWx0dXJlJTIwb2YlMjBDb29yZydzJTIwaW5kaWdlbm91cyUyMEtvZGF2YSUyMHBlb3BsZSUyMHdpdGglMjB2aXNpdHMlMjB0byUyMHRyYWRpdGlvbmFsJTIwYWlubWFuZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1724695601246-3bf5a4692049?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1700013188526-ba9d81f18ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1724695601024-26c417347557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1745293007697-efa1084793ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Coffee", "Agriculture", "Tasting"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "When is the best time to see coffee harvesting?",
+        answer:
+          "The main coffee harvesting season in Coorg runs from November through January. During this time, you'll see the entire process from picking the ripe red coffee cherries to processing and drying. However, our plantation tours are educational and enjoyable year-round. In the flowering season (March-April), the plantations are filled with fragrant white blossoms, while the monsoon period (June-August) showcases the lush green landscapes that make Coorg famous.",
+      },
+      {
+        question: "Can I buy fresh coffee beans?",
+        answer:
+          "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
       },
     ],
   },
@@ -88,13 +358,16 @@ export const coorgTours: Tour[] = [
     title: "Dubare Elephant Camp & River Experience",
     description:
       "Spend a morning with rescued elephants at Dubare Camp, assisting mahouts with bathing and feeding these gentle giants, followed by a coracle boat ride on the scenic Kaveri River and a forest trek to spot diverse birdlife.",
+    city: "Dubare",
+    country: "India",
+    region: "Karnataka",
     images: [
       "https://plus.unsplash.com/premium_photo-1661853807868-311cc24e27ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1551240823-3de649f16e91?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFNwZW5kJTIwYSUyMG1vcm5pbmclMjB3aXRoJTIwcmVzY3VlZCUyMGVsZXBoYW50cyUyMGF0JTIwRHViYXJlJTIwQ2FtcHxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1622397575821-b4cbd69759cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1605230521018-61f2095a762a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
       "https://plus.unsplash.com/premium_photo-1664303410788-36d404dd52c3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
-      "https://plus.unsplash.com/premium_photo-1661963637350-404954873d60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1661963637350-404954873d60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U3BlbmQlMjBhJTIwbW9ybmluZyUyMHdpdGglMjByZXNjdWVkJTIwZWxlcGhhbnRzJTIwYXQlMjBEdWJhcmUlMjBDYW1wfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1730432997123-76a755eb8941?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNwZW5kJTIwYSUyMG1vcm5pbmclMjB3aXRoJTIwcmVzY3VlZCUyMGVsZXBoYW50cyUyMGF0JTIwRHViYXJlJTIwQ2FtcHxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1689596633178-d00c6f440f9b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNwZW5kJTIwYSUyMG1vcm5pbmclMjB3aXRoJTIwcmVzY3VlZCUyMGVsZXBoYW50cyUyMGF0JTIwRHViYXJlJTIwQ2FtcHxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1701857356113-7997f3dd75e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFNwZW5kJTIwYSUyMG1vcm5pbmclMjB3aXRoJTIwcmVzY3VlZCUyMGVsZXBoYW50cyUyMGF0JTIwRHViYXJlJTIwQ2FtcHxlbnwwfHwwfHx8MA%3D%3D",
@@ -126,6 +399,9 @@ export const coorgTours: Tour[] = [
     title: "Talakaveri Temple Trek & Source of the Kaveri",
     description:
       "Hike to the sacred source of the River Kaveri at Talakaveri, visiting the ancient temple complex and climbing Brahmagiri Hill for spectacular views across the Western Ghats, while learning about the spiritual significance of this pilgrimage site.",
+    city: "Talakaveri",
+    country: "India",
+    region: "Karnataka",
     images: [
       "https://plus.unsplash.com/premium_photo-1686629617080-f90053630af7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGlrZSUyMHRvJTIwdGhlJTIwc2FjcmVkJTIwc291cmNlJTIwb2YlMjB0aGUlMjBSaXZlciUyMEthdmVyaSUyMGF0JTIwVGFsYWthdmVyaXxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1727454921097-9de6c1e56333?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGlrZSUyMHRvJTIwdGhlJTIwc2FjcmVkJTIwc291cmNlJTIwb2YlMjB0aGUlMjBSaXZlciUyMEthdmVyaSUyMGF0JTIwVGFsYWthdmVyaXxlbnwwfHwwfHx8MA%3D%3D",
@@ -160,6 +436,9 @@ export const coorgTours: Tour[] = [
     title: "Coorg Spice Plantation & Cooking Workshop",
     description:
       "Explore aromatic spice gardens nestled in the misty hills of Coorg, learning about pepper, cardamom, and vanilla cultivation before joining a hands-on cooking class featuring traditional Kodava cuisine with freshly harvested ingredients.",
+    city: "Madikeri",
+    country: "India",
+    region: "Karnataka",
     images: [
       "/images/tours/coorg/spice-plantation.jpg",
       "/images/tours/coorg/cooking-class.jpg",
@@ -187,39 +466,46 @@ export const coorgTours: Tour[] = [
       address: "Kalathooru Estate, Madikeri, Coorg 571201, India",
       coordinates: {
         latitude: 12.4155,
-        longitude: 75.7389
+        longitude: 75.7389,
       },
-      instructions: "Meet at the entrance of Kalathooru Spice Estate. Look for our guide holding a sign with 'Spice & Cooking Tour'. Please arrive 15 minutes before the scheduled start time.",
+      instructions:
+        "Meet at the entrance of Kalathooru Spice Estate. Look for our guide holding a sign with 'Spice & Cooking Tour'. Please arrive 15 minutes before the scheduled start time.",
       contactNumber: "+91 94484 32109",
-      contactEmail: "spices@paragontrails.com"
+      contactEmail: "spices@paragontrails.com",
     },
     availableDates: [
-      "2024-04-09", "2024-04-23",
-      "2024-05-07", "2024-05-21",
-      "2024-06-04", "2024-06-18",
-      "2024-10-08", "2024-10-22",
-      "2024-11-05", "2024-11-19",
-      "2024-12-03", "2024-12-17"
+      "2024-04-09",
+      "2024-04-23",
+      "2024-05-07",
+      "2024-05-21",
+      "2024-06-04",
+      "2024-06-18",
+      "2024-10-08",
+      "2024-10-22",
+      "2024-11-05",
+      "2024-11-19",
+      "2024-12-03",
+      "2024-12-17",
     ],
     highlights: [
       "Tour a working spice plantation with expert guides",
       "Learn about sustainable spice cultivation methods",
       "Participate in a hands-on cooking class using fresh spices",
       "Prepare and enjoy authentic Kodava cuisine",
-      "Take home recipe cards and a sample of plantation spices"
+      "Take home recipe cards and a sample of plantation spices",
     ],
     inclusions: [
       "Guided plantation tour",
       "Cooking class with all ingredients",
       "Full meal of prepared dishes",
       "Spice samples to take home",
-      "Recipe cards for all dishes prepared"
+      "Recipe cards for all dishes prepared",
     ],
     exclusions: [
       "Transportation to/from spice plantation",
       "Alcoholic beverages",
       "Additional spice purchases",
-      "Gratuities"
+      "Gratuities",
     ],
     itinerary: [
       "09:00 AM - Meet guide at plantation entrance",
@@ -228,36 +514,45 @@ export const coorgTours: Tour[] = [
       "11:15 AM - Begin cooking class with plantation chef",
       "12:45 PM - Enjoy the prepared meal together",
       "01:30 PM - Spice market shopping opportunity",
-      "02:00 PM - Tour conclusion with spice samples"
+      "02:00 PM - Tour conclusion with spice samples",
     ],
-    cancellationPolicy: "Full refund if canceled 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before tour start time.",
+    cancellationPolicy:
+      "Full refund if canceled 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before tour start time.",
     faqs: [
       {
         question: "Do I need cooking experience to enjoy this workshop?",
-        answer: "Not at all! Our cooking workshop is designed for all skill levels, from beginners to experienced cooks. The chef will guide you through each step, and you'll work in small groups to create traditional dishes. Everyone participates and learns at their own pace in a relaxed, supportive environment."
+        answer:
+          "Not at all! Our cooking workshop is designed for all skill levels, from beginners to experienced cooks. The chef will guide you through each step, and you'll work in small groups to create traditional dishes. Everyone participates and learns at their own pace in a relaxed, supportive environment.",
       },
       {
         question: "What spices will we see growing at the plantation?",
-        answer: "Coorg's climate is ideal for growing various spices including black pepper (the king of spices), cardamom, cinnamon, vanilla, nutmeg, cloves, and turmeric. Depending on the season, you'll see different stages of growth and harvest. The plantation also grows coffee and exotic fruits that are used in local cuisine."
+        answer:
+          "Coorg's climate is ideal for growing various spices including black pepper (the king of spices), cardamom, cinnamon, vanilla, nutmeg, cloves, and turmeric. Depending on the season, you'll see different stages of growth and harvest. The plantation also grows coffee and exotic fruits that are used in local cuisine.",
       },
       {
         question: "What dishes will we prepare in the cooking class?",
-        answer: "You'll learn to prepare 3-4 traditional Kodava (Coorg) dishes which may include Pandi Curry (pork curry with Coorg spices), Kadambuttu (rice dumplings), Bamboo Shoot Curry, and Akki Roti (rice flatbread). The menu varies seasonally based on available fresh ingredients from the plantation and local markets."
+        answer:
+          "You'll learn to prepare 3-4 traditional Kodava (Coorg) dishes which may include Pandi Curry (pork curry with Coorg spices), Kadambuttu (rice dumplings), Bamboo Shoot Curry, and Akki Roti (rice flatbread). The menu varies seasonally based on available fresh ingredients from the plantation and local markets.",
       },
       {
         question: "Is this tour suitable for vegetarians?",
-        answer: "Yes, the tour can be fully vegetarian if requested. Kodava cuisine includes many delicious vegetarian dishes featuring local produce, bamboo shoots, and forest honey. Please inform us of dietary preferences when booking so the cooking class menu can be adjusted accordingly."
+        answer:
+          "Yes, the tour can be fully vegetarian if requested. Kodava cuisine includes many delicious vegetarian dishes featuring local produce, bamboo shoots, and forest honey. Please inform us of dietary preferences when booking so the cooking class menu can be adjusted accordingly.",
       },
       {
         question: "What makes Coorg spices unique?",
-        answer: "Coorg spices are renowned for their exceptional quality due to the region's unique microclimate, elevation (between 3,000-5,500 feet), and rich volcanic soil. The traditional cultivation methods used in Coorg's small plantations focus on sustainable, organic practices that preserve the natural flavor and essential oils of each spice. During the tour, you'll learn how to identify premium spices and understand the difference they make in authentic cooking."
-      }
-    ]
+        answer:
+          "Coorg spices are renowned for their exceptional quality due to the region's unique microclimate, elevation (between 3,000-5,500 feet), and rich volcanic soil. The traditional cultivation methods used in Coorg's small plantations focus on sustainable, organic practices that preserve the natural flavor and essential oils of each spice. During the tour, you'll learn how to identify premium spices and understand the difference they make in authentic cooking.",
+      },
+    ],
   },
   {
     title: "Coorg Wildlife Safari & Bird Watching",
     description:
       "Explore the biodiversity of Coorg's Nagarhole National Park, home to tigers, elephants, and over 270 bird species, with expert naturalists guiding you through jungle trails and waterways in this Western Ghats sanctuary.",
+    city: "Nagarhole",
+    country: "India",
+    region: "Karnataka",
     images: [
       "/images/tours/coorg/wildlife-safari.jpg",
       "/images/tours/coorg/bird-watching.jpg",
@@ -282,27 +577,43 @@ export const coorgTours: Tour[] = [
     isArtOrMusic: false,
     tourCategoryId: "adventure",
     meetingPoint: {
-      address: "Nagarhole National Park Entrance, Hunsur Road, Coorg, Karnataka, India",
+      address:
+        "Nagarhole National Park Entrance, Hunsur Road, Coorg, Karnataka, India",
       coordinates: {
         latitude: 12.0223,
-        longitude: 76.1433
+        longitude: 76.1433,
       },
-      instructions: "Meet at the main entrance gate of Nagarhole National Park (Kabini side). Our guide will be waiting with a 'Paragon Wildlife Safari' sign. Please arrive 30 minutes before the safari departure as there are park registration formalities to complete.",
+      instructions:
+        "Meet at the main entrance gate of Nagarhole National Park (Kabini side). Our guide will be waiting with a 'Paragon Wildlife Safari' sign. Please arrive 30 minutes before the safari departure as there are park registration formalities to complete.",
       contactNumber: "+91 94822 65437",
-      contactEmail: "wildlife@paragontrails.com"
+      contactEmail: "wildlife@paragontrails.com",
     },
     availableDates: [
-      "2024-04-04", "2024-04-11", "2024-04-18", "2024-04-25",
-      "2024-05-02", "2024-05-09", "2024-05-16", "2024-05-23", "2024-05-30",
-      "2024-10-03", "2024-10-10", "2024-10-17", "2024-10-24", "2024-10-31",
-      "2024-11-07", "2024-11-14", "2024-11-21", "2024-11-28"
+      "2024-04-04",
+      "2024-04-11",
+      "2024-04-18",
+      "2024-04-25",
+      "2024-05-02",
+      "2024-05-09",
+      "2024-05-16",
+      "2024-05-23",
+      "2024-05-30",
+      "2024-10-03",
+      "2024-10-10",
+      "2024-10-17",
+      "2024-10-24",
+      "2024-10-31",
+      "2024-11-07",
+      "2024-11-14",
+      "2024-11-21",
+      "2024-11-28",
     ],
     highlights: [
       "Jeep safari through diverse habitats within Nagarhole National Park",
       "Expert naturalist guide with extensive knowledge of local wildlife",
       "Boat safari on the Kabini River to observe waterside wildlife",
       "Bird watching opportunities with over 270 species",
-      "Chance to spot tigers, elephants, leopards, and other native wildlife"
+      "Chance to spot tigers, elephants, leopards, and other native wildlife",
     ],
     inclusions: [
       "Park entry fees and permits",
@@ -310,14 +621,14 @@ export const coorgTours: Tour[] = [
       "Boat safari on the Kabini River",
       "Professional naturalist guide",
       "Picnic lunch in designated forest areas",
-      "Use of spotting scopes and binoculars"
+      "Use of spotting scopes and binoculars",
     ],
     exclusions: [
       "Transportation to/from Nagarhole National Park",
       "Camera fees (payable directly to the park)",
       "Alcoholic beverages",
       "Gratuities",
-      "Optional activities not mentioned"
+      "Optional activities not mentioned",
     ],
     itinerary: [
       "06:00 AM - Meet guide at park entrance",
@@ -327,36 +638,45 @@ export const coorgTours: Tour[] = [
       "12:30 PM - Picnic lunch in designated area",
       "02:30 PM - Boat safari on Kabini River",
       "04:00 PM - Evening jeep safari in different zone",
-      "06:30 PM - Tour conclusion and departure"
+      "06:30 PM - Tour conclusion and departure",
     ],
-    cancellationPolicy: "Full refund if canceled 72 hours before the scheduled tour. 50% refund if canceled 24-72 hours in advance. No refund for cancellations less than 24 hours before tour start time due to park reservation policies.",
+    cancellationPolicy:
+      "Full refund if canceled 72 hours before the scheduled tour. 50% refund if canceled 24-72 hours in advance. No refund for cancellations less than 24 hours before tour start time due to park reservation policies.",
     faqs: [
       {
         question: "What are the chances of seeing tigers?",
-        answer: "While Nagarhole has a healthy tiger population, sightings are never guaranteed as these are wild animals in their natural habitat. During peak season (October-May), tiger sighting probability is around 30-40% over a two-safari period. However, you're almost certain to see elephants, deer, gaur (Indian bison), langurs, macaques, and numerous bird species on every safari."
+        answer:
+          "While Nagarhole has a healthy tiger population, sightings are never guaranteed as these are wild animals in their natural habitat. During peak season (October-May), tiger sighting probability is around 30-40% over a two-safari period. However, you're almost certain to see elephants, deer, gaur (Indian bison), langurs, macaques, and numerous bird species on every safari.",
       },
       {
         question: "What's the best time to visit for wildlife viewing?",
-        answer: "The park is typically open from October to May, with the best wildlife viewing between February and May when water becomes scarce and animals concentrate around remaining water sources. October-December offers lush green landscapes after the monsoon and good bird watching opportunities. The park is closed during monsoon season (approximately June to September)."
+        answer:
+          "The park is typically open from October to May, with the best wildlife viewing between February and May when water becomes scarce and animals concentrate around remaining water sources. October-December offers lush green landscapes after the monsoon and good bird watching opportunities. The park is closed during monsoon season (approximately June to September).",
       },
       {
         question: "What should I wear and bring for the safari?",
-        answer: "Wear earth-toned clothing (greens, browns, khakis) to blend with the environment. Avoid bright colors and strong perfumes. Bring sun protection including hat and sunscreen, insect repellent, a light jacket for early morning safaris, and a water bottle. Camera equipment should include a zoom lens (at least 300mm recommended) and extra batteries."
+        answer:
+          "Wear earth-toned clothing (greens, browns, khakis) to blend with the environment. Avoid bright colors and strong perfumes. Bring sun protection including hat and sunscreen, insect repellent, a light jacket for early morning safaris, and a water bottle. Camera equipment should include a zoom lens (at least 300mm recommended) and extra batteries.",
       },
       {
         question: "Is this safari suitable for children?",
-        answer: "The safari is suitable for children aged 6 and above who can maintain reasonable quiet during wildlife watching. The jeeps are comfortable but the rides can be bumpy. Children often enjoy spotting animals and the excitement of the safari experience, though parents should be prepared for early morning starts."
+        answer:
+          "The safari is suitable for children aged 6 and above who can maintain reasonable quiet during wildlife watching. The jeeps are comfortable but the rides can be bumpy. Children often enjoy spotting animals and the excitement of the safari experience, though parents should be prepared for early morning starts.",
       },
       {
         question: "How much walking is involved in this tour?",
-        answer: "The jeep and boat safaris involve minimal walking. The optional guided nature walk in the buffer zone covers approximately 2 km on relatively flat terrain. This walk can be skipped if preferred, with more time spent on jeep safari instead. All activities are conducted at a leisurely pace with wildlife observation being the priority."
-      }
-    ]
+        answer:
+          "The jeep and boat safaris involve minimal walking. The optional guided nature walk in the buffer zone covers approximately 2 km on relatively flat terrain. This walk can be skipped if preferred, with more time spent on jeep safari instead. All activities are conducted at a leisurely pace with wildlife observation being the priority.",
+      },
+    ],
   },
   {
     title: "Coorg Heritage Walk & Local Market Tour",
     description:
       "Explore the rich history and vibrant culture of Coorg with a guided walking tour through the town's heritage sites, ancient temples, and bustling local markets, sampling traditional snacks and learning about local crafts.",
+    city: "Madikeri",
+    country: "India",
+    region: "Karnataka",
     images: [
       "https://images.unsplash.com/photo-1633511822866-6cd346889348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUyMHRvd24ncyUyIGhlcml0YWdlJTIwc2l0ZXMlMjBDb29yZyUyIEhlcml0YWdlJTIwV2Fsa3MlMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1729729353581-521650a2ac17?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUyMHRvd24ncyUyIGhlcml0YWdlJTIwc2l0ZXMlMjBDb29yZyUyIEhlcml0YWdlJTIwV2Fsa3MlMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",

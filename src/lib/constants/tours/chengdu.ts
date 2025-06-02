@@ -5,6 +5,9 @@ export const chengduTours: Tour[] = [
     title: "Giant Panda Experience",
     description:
       "Visit the world-famous Chengdu Research Base of Giant Panda Breeding to observe these beloved creatures up close in a natural habitat.",
+    city: "Chengdu",
+    country: "China",
+    region: "Sichuan",
     images: [
       "/images/tours/chengdu/giant-pandas.jpg",
       "/images/tours/chengdu/panda-cubs.jpg",
@@ -117,6 +120,9 @@ export const chengduTours: Tour[] = [
     title: "Sichuan Culinary Adventure",
     description:
       "Dive into the bold flavors of authentic Sichuan cuisine with market tours, cooking demonstrations, and tastings of the region's famous spicy dishes.",
+    city: "Chengdu",
+    country: "China",
+    region: "Sichuan",
     images: [
       "/images/tours/chengdu/sichuan-cuisine.jpg",
       "/images/tours/chengdu/hotpot.jpg",
@@ -229,6 +235,9 @@ export const chengduTours: Tour[] = [
     title: "Chengdu Street Art & Culture Tour",
     description:
       "Explore Chengdu's vibrant street art scene and cultural hotspots with a local guide, visiting murals, galleries, and hidden gems that showcase the city's creative spirit.",
+    city: "Chengdu",
+    country: "China",
+    region: "Sichuan",
     images: [
       "/images/tours/chengdu/street-art.jpg",
       "/images/tours/chengdu/cultural-spot.jpg",
@@ -342,6 +351,9 @@ export const chengduTours: Tour[] = [
     title: "Leshan Giant Buddha Day Trip",
     description:
       "Take a day trip to the UNESCO World Heritage Site of Leshan to see the world's largest stone Buddha statue, carved into a cliff face overlooking the confluence of three rivers.",
+    city: "Leshan",
+    country: "China",
+    region: "Sichuan",
     images: [
       "/images/tours/chengdu/leshan-buddha.jpg",
       "/images/tours/chengdu/leshan-view.jpg",
@@ -457,6 +469,9 @@ export const chengduTours: Tour[] = [
     title: "Tea Culture Experience & Mountain Plantation",
     description:
       "Journey into the lush mountains outside Chengdu to visit traditional tea plantations, learn about the tea-making process from expert growers, and participate in an authentic Chinese tea ceremony while enjoying panoramic mountain views.",
+    city: "Chengdu",
+    country: "China",
+    region: "Sichuan",
     images: [
       "/images/tours/chengdu/tea-plantation.jpg",
       "/images/tours/chengdu/tea-ceremony.jpg",
