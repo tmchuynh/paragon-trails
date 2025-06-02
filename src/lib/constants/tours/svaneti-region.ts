@@ -9,7 +9,7 @@ export const svanetiRegionTours: Tour[] = [
       "/images/tours/svaneti-region/tower-houses.jpg",
       "/images/tours/svaneti-region/ushguli-village.jpg",
     ],
-    duration: "2 days",
+    duration: "7 hours",
     price: "$195",
     rating: 4.9,
     tags: ["Architecture", "Cultural"],

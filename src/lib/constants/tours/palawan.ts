@@ -218,7 +218,7 @@ export const palawanTours: Tour[] = [
       "/images/tours/palawan/luxury-glamping.jpg",
       "/images/tours/palawan/private-island-dinner.jpg",
     ],
-    duration: "24 hours",
+    duration: "11 hours",
     price: "$450",
     rating: 5.0,
     tags: ["Glamping", "Private Island", "Luxury"],

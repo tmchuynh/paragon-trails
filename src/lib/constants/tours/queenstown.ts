@@ -9,7 +9,7 @@ export const queenstownTours: Tour[] = [
       "/images/tours/queenstown/milford-sound.jpg",
       "/images/tours/queenstown/fjord-cruise.jpg",
     ],
-    duration: "12 hours",
+    duration: "6 hours",
     price: "$199",
     rating: 4.9,
     tags: ["Nature", "Adventure", "Scenic"],

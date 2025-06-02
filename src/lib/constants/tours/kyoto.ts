@@ -5,6 +5,9 @@ export const kyotoTours: Tour[] = [
     title: "Fushimi Inari After Hours & Geisha District",
     description:
       "Experience Kyoto's most famous shrine after the crowds depart, followed by an exclusive evening stroll through the atmospheric Gion district with insights into the secretive geisha world.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
     images: [
       "/images/tours/kyoto/fushimi-evening.jpg",
       "/images/tours/kyoto/geisha-district.jpg",
@@ -36,6 +39,9 @@ export const kyotoTours: Tour[] = [
     title: "Traditional Tea Ceremony & Zen Gardens",
     description:
       "Immerse yourself in Japanese traditions with a private tea ceremony in an authentic tea house, followed by guided meditation and contemplation in Kyoto's most serene Zen gardens.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
     images: [
       "/images/tours/kyoto/tea-ceremony.jpg",
       "/images/tours/kyoto/zen-garden.jpg",
@@ -67,6 +73,9 @@ export const kyotoTours: Tour[] = [
     title: "Kyoto Culinary Walk: Markets & Street Food",
     description:
       "Discover Kyoto's vibrant food scene with a guided walk through Nishiki Market, sampling local delicacies, followed by an evening street food tour in the Pontocho alley, known for its izakayas and yakitori stalls.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
     images: [
       "/images/tours/kyoto/nishiki-market.jpg",
       "/images/tours/kyoto/pontocho-street-food.jpg",

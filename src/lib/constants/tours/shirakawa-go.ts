@@ -9,7 +9,7 @@ export const shirakawagoTours: Tour[] = [
       "/images/tours/shirakawa-go/gassho-houses.jpg",
       "/images/tours/shirakawa-go/farmhouse-interior.jpg",
     ],
-    duration: "24 hours",
+    duration: "3 days",
     price: "$175",
     rating: 4.9,
     tags: ["UNESCO Heritage", "Traditional Architecture", "Homestay"],
@@ -19,13 +19,6 @@ export const shirakawagoTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "What are the sleeping arrangements in the farmhouse?",
-        answer:
-          "You'll sleep on traditional futon bedding laid out on tatami mat floors in a communal sleeping area, just as Japanese families have done for centuries. The farmhouses are equipped with modern amenities like electricity, heating, and indoor plumbing, while maintaining their historic character. While the accommodations are rustic, they are clean and comfortable, offering an authentic glimpse into traditional rural Japanese lifestyle.",
-      },
-    ],
   },
   {
     title: "Winter Illumination & Snow Festival Tour",

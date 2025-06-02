@@ -2,32 +2,6 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const sapaTours: Tour[] = [
   {
-    title: "Hmong Village Trek & Homestay Experience",
-    description:
-      "Immerse yourself in the daily life of Vietnam's Hmong people with a guided trek through terraced rice fields to remote villages untouched by mass tourism. Stay overnight with a local family, share meals, and learn traditional crafts while experiencing authentic mountain hospitality.",
-    images: [
-      "/images/tours/sapa/hmong-village.jpg",
-      "/images/tours/sapa/rice-terraces-trek.jpg",
-    ],
-    duration: "2 days",
-    price: "$95",
-    rating: 4.9,
-    tags: ["Trekking", "Homestay", "Cultural Immersion"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "local",
-    faqs: [
-      {
-        question: "What are the sleeping arrangements in the homestay?",
-        answer:
-          "Homestays are simple but comfortable, typically offering mattresses with clean bedding and mosquito nets in a communal sleeping area of a traditional wooden house. Bathrooms are basic and often shared, with some homes having Western toilets while others use traditional facilities. The authentic experience allows you to witness daily life in a Hmong household where multiple generations often live under one roof.",
-      },
-    ],
-  },
-  {
     title: "Fansipan Summit Expedition",
     description:
       "Conquer the 'Roof of Indochina' with a challenging trek up Mount Fansipan (3,143m), Vietnam's highest peak. This guided adventure takes you through diverse ecosystems from bamboo forests to cloud-shrouded alpine terrain, with spectacular panoramic views of Sapa's valleys and beyond to China's Yunnan province.",
