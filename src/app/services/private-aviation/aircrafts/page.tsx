@@ -10,13 +10,18 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import CartContext from "@/context/cartContext";
 import { aircraftSelectionGuide } from "@/lib/constants/services/transportation/aircrafts";
 import { capitalize } from "@/lib/utils/format";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FaFilter } from "react-icons/fa";
+import { toast } from "sonner";
 
 export default function Aircrafts() {
   const [showFilters, setShowFilters] = useState(false);
+  const [addingToCartId, setAddingToCartId] = useState<string | null>(null);
+  const cartContext = useContext(CartContext);
+
   // Filter states
   const [passengerFilter, setPassengerFilter] = useState<number | null>(null);
   const [priceFilter, setPriceFilter] = useState<number | null>(null);
@@ -134,6 +139,41 @@ export default function Aircrafts() {
     setPriceFilter(null);
     setSelectedFeatures([]);
     setSelectedInteriorFeatures([]);
+  };
+
+  // Handle adding an aircraft to the cart
+  const handleAddToCart = (aircraft: any, category: string) => {
+    if (!cartContext) return;
+
+    // Set loading state for this specific aircraft
+    setAddingToCartId(aircraft.name);
+
+    // Create cart item with unique ID
+    const aircraftItem = {
+      id: `aircraft-${aircraft.name
+        .toLowerCase()
+        .replace(/\s/g, "-")}-${Math.random().toString(36).substr(2, 9)}`,
+      title: `${aircraft.name} (${category})`,
+      price: aircraft.pricePerHourUSD,
+      image: aircraft.image || "/images/default-aircraft.jpg", // Using a default image if none provided
+      duration: "1 hour", // Default duration
+      category: category,
+      type: "aircraft",
+      details: {
+        passengers: aircraft.maxPassengers,
+        rangeMiles: aircraft.rangeMiles,
+        features: Object.entries(aircraft.features)
+          .filter(([_, value]) => value === true)
+          .map(([key, _]) => key),
+        interiorFeatures: aircraft.interiorFeatures,
+      },
+    };
+
+    cartContext.addToCart(aircraftItem);
+    toast.success(`${aircraft.name} added to your cart!`);
+
+    // Reset loading state
+    setAddingToCartId(null);
   };
 
   return (
@@ -393,6 +433,16 @@ export default function Aircrafts() {
                       </p>
                     </div>
                   </div>
+
+                  <Button
+                    className="w-full"
+                    onClick={() => handleAddToCart(aircraft, category.category)}
+                    disabled={addingToCartId === aircraft.name}
+                  >
+                    {addingToCartId === aircraft.name
+                      ? "Adding..."
+                      : "Add to Cart"}
+                  </Button>
                 </div>
               ))}
             </div>
