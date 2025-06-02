@@ -423,75 +423,45 @@ export default function DestinationDetailsPage() {
                   <div className="space-y-2">
                     <h3>Features</h3>
                     <div className="space-y-1">
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="pet"
-                          checked={filters.isPetFriendly}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isPetFriendly", checked)
-                          }
-                        />
-                        <Label htmlFor="pet">Pet-friendly</Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="pet"
-                          checked={filters.isFamilyFriendly}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isFamilyFriendly", checked)
-                          }
-                        />
-                        <Label htmlFor="pet">Family Friendly</Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="free"
-                          checked={filters.isFree}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isFree", checked)
-                          }
-                        />
-                        <Label htmlFor="free">Free</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="wheelchair"
-                          checked={filters.isWheelchairAccessible}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange(
-                              "isWheelchairAccessible",
-                              checked
-                            )
-                          }
-                        />
-                        <Label htmlFor="wheelchair">
-                          Wheelchair Accessible
-                        </Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="wheelchair"
-                          checked={filters.isOutdoor}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isOutdoor", checked)
-                          }
-                        />
-                        <Label htmlFor="wheelchair">Outdoor</Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="wheelchair"
-                          checked={filters.isIndoor}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isIndoor", checked)
-                          }
-                        />
-                        <Label htmlFor="wheelchair">Indoor</Label>
-                      </div>
+                      {[
+                        {
+                          id: "pet-friendly",
+                          key: "isPetFriendly",
+                          label: "Pet-friendly",
+                        },
+                        {
+                          id: "family-friendly",
+                          key: "isFamilyFriendly",
+                          label: "Family Friendly",
+                        },
+                        { id: "free", key: "isFree", label: "Free" },
+                        {
+                          id: "wheelchair",
+                          key: "isWheelchairAccessible",
+                          label: "Wheelchair Accessible",
+                        },
+                        { id: "outdoor", key: "isOutdoor", label: "Outdoor" },
+                        { id: "indoor", key: "isIndoor", label: "Indoor" },
+                      ].map((item) => (
+                        <div
+                          key={item.id}
+                          className="flex items-center space-x-2"
+                        >
+                          <Checkbox
+                            id={item.id}
+                            checked={Boolean(
+                              filters[item.key as keyof typeof filters]
+                            )}
+                            onCheckedChange={(checked) =>
+                              handleFilterChange(
+                                item.key as keyof typeof filters,
+                                checked
+                              )
+                            }
+                          />
+                          <Label htmlFor={item.id}>{item.label}</Label>
+                        </div>
+                      ))}
                     </div>
                   </div>
 
