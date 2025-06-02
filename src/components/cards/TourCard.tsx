@@ -5,17 +5,18 @@ import { Button } from "@/components/ui/button";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
-import { DialogDescription } from "@radix-ui/react-dialog";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { IoMdInformationCircle } from "react-icons/io";
+
 import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "../ui/dialog";
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function TourCard({
   tour,
@@ -52,8 +53,8 @@ export default function TourCard({
               <h2>{tour.title}</h2>
               {displayRatingStars(tour.rating)}
             </div>
-            <Dialog>
-              <DialogTrigger asChild>
+            <Sheet>
+              <SheetTrigger asChild>
                 <Button
                   variant={"icon"}
                   size={"icon"}
@@ -62,14 +63,14 @@ export default function TourCard({
                 >
                   <IoMdInformationCircle />
                 </Button>
-              </DialogTrigger>
-              <DialogContent className="mx-auto max-w-11/12">
-                <DialogHeader>
-                  <DialogTitle>
+              </SheetTrigger>
+              <SheetContent className="mx-auto w-11/12">
+                <SheetHeader className="mt-8">
+                  <SheetTitle>
                     {tour.icon && <tour.icon />}
                     {tour.title}
-                  </DialogTitle>
-                  <DialogDescription>{tour.description}</DialogDescription>
+                  </SheetTitle>
+                  <SheetDescription>{tour.description}</SheetDescription>
                   {tour.tags?.length && (
                     <div className="flex flex-wrap gap-2 mt-2">
                       {tour.tags.map((tag, i) => (
@@ -79,10 +80,10 @@ export default function TourCard({
                       ))}
                     </div>
                   )}
-                </DialogHeader>
-                <div className="flex flex-col gap-4">
+                </SheetHeader>
+                <div className="flex flex-col gap-4 mx-auto w-12/14">
                   <section>
-                    <h3 className="font-semibold text-lg">Tour Details</h3>
+                    <h3>Tour Details</h3>
                     <h5>Itinerary:</h5>
                     {tour.itinerary?.length ? (
                       <ul className="pl-5 list-disc">
@@ -95,7 +96,7 @@ export default function TourCard({
                     )}
                   </section>
                   <section>
-                    <h5 className="mt-2">Highlights:</h5>
+                    <h5>Highlights:</h5>
                     {tour.highlights?.length ? (
                       <ul className="pl-5 list-disc">
                         {tour.highlights.map((highlight, index) => (
@@ -105,7 +106,7 @@ export default function TourCard({
                     ) : (
                       <p>Will be posted at a later date.</p>
                     )}
-                    <h5 className="mt-2">Inclusions:</h5>
+                    <h5>Inclusions:</h5>
                     {tour.inclusions?.length ? (
                       <ul className="pl-5 list-disc">
                         {tour.inclusions.map((inclusion, index) => (
@@ -115,7 +116,7 @@ export default function TourCard({
                     ) : (
                       <p>Will be posted at a later date.</p>
                     )}
-                    <h5 className="mt-2">Exclusions:</h5>
+                    <h5>Exclusions:</h5>
                     {tour.exclusions?.length ? (
                       <ul className="pl-5 list-disc">
                         {tour.exclusions.map((exclusion, index) => (
@@ -127,9 +128,63 @@ export default function TourCard({
                     )}
                   </section>
                   <section>
-                    <h5 className="mt-2">Meeting Point:</h5>
-                    <p>{tour.meetingPoint || "To be determined."}</p>
-                    <h5 className="mt-2">Cancellation Policy:</h5>
+                    <h5>Meeting Point:</h5>
+                    <div className="flex flex-col gap-3">
+                      {" "}
+                      <div>
+                        <p>
+                          {tour.meetingPoint?.address ||
+                            "Meeting point not specified."}
+                        </p>
+                      </div>
+                      <div>
+                        {tour.meetingPoint?.coordinates && (
+                          <p>
+                            <strong>Coordinates:</strong>{" "}
+                            {tour.meetingPoint.coordinates.latitude},{" "}
+                            {tour.meetingPoint.coordinates.longitude}
+                          </p>
+                        )}
+                      </div>
+                      <div>
+                        {tour.meetingPoint?.instructions && (
+                          <p>
+                            <strong>Instructions:</strong>{" "}
+                            {tour.meetingPoint.instructions}
+                          </p>
+                        )}
+                      </div>
+                      <div>
+                        {tour.meetingPoint?.contactNumber && (
+                          <p>
+                            <strong>Contact Number:</strong>{" "}
+                            <a
+                              href={`tel:${tour.meetingPoint.contactNumber}`}
+                              className="text-blue-500 hover:underline"
+                            >
+                              {tour.meetingPoint.contactNumber}
+                            </a>
+                          </p>
+                        )}
+                      </div>
+                      <div>
+                        {tour.meetingPoint?.contactEmail && (
+                          <p>
+                            <strong>Contact Email:</strong>{" "}
+                            <a
+                              href={`mailto:${tour.meetingPoint.contactEmail}`}
+                              className="text-blue-500 hover:underline"
+                            >
+                              {tour.meetingPoint.contactEmail}
+                            </a>
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  </section>
+
+                  <section>
+                    <h5>Cancellation Policy:</h5>
                     <p>{tour.cancellationPolicy || "Not specified"}</p>
                   </section>
                 </div>
@@ -139,11 +194,12 @@ export default function TourCard({
                       "/book-your-trip-today?tour=" + formatToSlug(tour.title)
                     )
                   }
+                  className="mx-auto mt-4 w-12/14"
                 >
-                  Book Now
+                  Add to Cart
                 </Button>
-              </DialogContent>
-            </Dialog>
+              </SheetContent>
+            </Sheet>
             <p className="mb-4">{tour.description}</p>
           </div>
         </div>
@@ -164,7 +220,7 @@ export default function TourCard({
               </h5>
               <h5 className="text-tertiary">
                 <strong className="text-foreground">Guide:</strong>{" "}
-                {tourGuides[tour.title] || "Loading guide..."}
+                {tourGuides[tour.title] || "Guide not assigned yet"}
               </h5>
             </div>
             <h2>{tour.price}</h2>
