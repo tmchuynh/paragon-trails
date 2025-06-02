@@ -1,5 +1,5 @@
 "use client";
-import { dockNavigationMenu } from "@/lib/constants/navigation";
+import { dockNavigationMenu } from "@/lib/constants/info/navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
