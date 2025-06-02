@@ -26,6 +26,7 @@ import {
   getAllTours,
   getTourData,
   getToursByCategory,
+  getRandomDatesFromNextWeek,
 } from "@/lib/utils/get";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { format } from "date-fns";
@@ -69,8 +70,6 @@ export default function TourPage() {
         setTour(tourData);
 
         await fetchTourGuides();
-
-        console.log("Found tour:", tourData);
       } catch (error) {
         console.error("Failed to load tour data:", error);
       } finally {
@@ -102,6 +101,17 @@ export default function TourPage() {
 
   if (loading) {
     return <Loading />;
+  }
+
+  let availableDates: string[];
+
+  if (tour.availableDates && tour.availableDates.length > 0) {
+    availableDates = tour.availableDates.map((date) =>
+      format(new Date(date), "yyyy-MM-dd")
+    );
+    availableDates.push(...getRandomDatesFromNextWeek(250, 300));
+  } else {
+    availableDates = getRandomDatesFromNextWeek(200, 300);
   }
 
   if (!tour) {
@@ -154,7 +164,7 @@ export default function TourPage() {
       {/* Main content */}
       <section className="gap-8 grid grid-cols-1 lg:grid-cols-3">
         {/* Left column - Tour details */}
-        <section className="lg:col-span-2">
+        <div className="lg:col-span-2">
           {/* Description */}
           <div className="mb-8">
             <p>{tour.description}</p>
@@ -250,16 +260,14 @@ export default function TourPage() {
           </div>
 
           {/* Gallery */}
-          <div className="flex md:flex-row flex-col justify-center items-center gap-2 md:gap-4 my-2 md:my-3 border w-full h-fit md:h-1/3">
-            <div className="relative rounded-lg w-full md:w-1/2 md:h-full aspect-video md:aspect-auto">
+          <div className="flex md:flex-row flex-col justify-center items-center gap-2 md:gap-4 my-2 md:my-3 w-full h-fit md:h-1/3">
+            <div className="relative w-full md:w-1/2 md:h-full aspect-video md:aspect-auto">
               {tour.images && tour.images.length > 0 && (
                 <Image
                   src={tour.images[0]}
                   alt={tour.title}
                   fill
-                  quality={100}
-                  className="rounded-2xl w-full h-full object-cover object-center"
-                  priority
+                  className="rounded-lg object-cover"
                 />
               )}
             </div>
@@ -306,25 +314,9 @@ export default function TourPage() {
             </div>
           )}
 
-          {/* Tags */}
-          <div className="flex flex-wrap gap-2 mb-6">
-            {tour.tags?.map((tag, i) => (
-              <Badge key={i} size={"lg"} variant="secondary">
-                {tag}
-              </Badge>
-            ))}
-          </div>
-
-          {tour.cancellationPolicy && (
-            <div className="my-6">
-              <h5>Cancellation Policy:</h5>
-              <p>{tour.cancellationPolicy}</p>
-            </div>
-          )}
-
           {/* FAQs */}
           {tour.faqs && tour.faqs.length > 0 && (
-            <div className="mb-8">
+            <div className="mb-8 max-h-[50rem]">
               <h2>Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 {tour.faqs.map((faq, index) => (
@@ -340,10 +332,10 @@ export default function TourPage() {
               </Accordion>
             </div>
           )}
-        </section>
+        </div>
 
         {/* Right column - Booking */}
-        <section className="lg:col-span-1">
+        <div className="lg:col-span-1">
           {/* Tour guide */}
           <section className="mb-8">
             <h2>Your Tour Guide</h2>
@@ -394,7 +386,10 @@ export default function TourPage() {
                       mode="single"
                       selected={date}
                       onSelect={setDate}
-                      disabled={(date: Date) => date < new Date()}
+                      disabled={(date: Date) =>
+                        date < new Date() ||
+                        !availableDates.includes(format(date, "yyyy-MM-dd"))
+                      }
                       initialFocus
                     />
                   </PopoverContent>
@@ -457,7 +452,23 @@ export default function TourPage() {
               </Button>
             </div>
           </div>
-        </section>
+
+          {/* Tags */}
+          <div className="flex flex-wrap gap-2 my-6">
+            {tour.tags?.map((tag, i) => (
+              <Badge key={i} size={"lg"} variant="secondary">
+                {tag}
+              </Badge>
+            ))}
+          </div>
+
+          {tour.cancellationPolicy && (
+            <div className="my-6">
+              <h5>Cancellation Policy:</h5>
+              <p>{tour.cancellationPolicy}</p>
+            </div>
+          )}
+        </div>
       </section>
 
       <section>
