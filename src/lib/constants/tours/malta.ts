@@ -243,6 +243,66 @@ export const maltaTours: Tour[] = [
       },
     ],
   },
-  // Additional tours would be added here following the same pattern
+  {
+    title: "Mdina: The Silent City Tour",
+    description:
+      "Step back in time in Malta's medieval capital, exploring its narrow streets, baroque architecture, and rich history with a local guide who brings the stories of knights, nobles, and the city's role in Malta's defense to life.",
+    city: "Mdina",
+    country: "Malta",
+    region: "Southern Europe",
+    images: [
+      "/images/tours/malta/mdina-street.jpg",
+      "/images/tours/malta/st-pauls-cathedral.jpg",
+    ],
+    duration: "2.5 hours",
+    price: "$50",
+    rating: 4.7,
+    tags: ["History", "Architecture", "Culture"],
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Main Gate of Mdina, Triq Villegaignon, Mdina, Malta",
+      coordinates: {
+        latitude: 35.8869,
+        longitude: 14.4036,
+      },
+      instructions:
+        "Meet at the Main Gate of Mdina, where your guide will be waiting with a sign that says 'Mdina Tour'. The gate is easily accessible by public transport or taxi.",
+      contactNumber: "+356 2123 4569",
+    },
+    inclusions: [
+      "Professional local guide with expertise in Mdina's history",
+      "Entrance to St. Paul's Cathedral",
+      "Visit to the Mdina Dungeons Museum",
+      "Audio headsets to hear the guide clearly",
+      "Map of Mdina with historical highlights marked",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities",
+      "Entrance to additional museums or attractions not specified",
+      "Transportation outside the walking tour route",
+    ],
+    itinerary: [
+      "10:00 - Meet at Mdina Main Gate for introduction to the city's history",
+      "10:15 - Walk through the narrow streets, admiring the medieval architecture",
+      "10:30 - Visit St. Paul's Cathedral and learn about its baroque design",
+      "11:00 - Explore the Mdina Dungeons Museum with stories of the city's past",
+      "11:30 - Enjoy panoramic views from the bastions overlooking the countryside",
+      "12:00 - Discover hidden gems and lesser-known sites with fascinating tales",
+      "12:30 - Tour concludes at the Main Gate with recommendations for further exploration",
+    ],
+    faqs: [
+      {
+        question: "Is Mdina accessible for people with mobility issues?",
+        answer:
+          "Mdina's narrow streets and cobblestone paths can be challenging for those with mobility issues. While the Main Gate and some areas are accessible, many parts of the city involve steps and uneven surfaces. We recommend comfortable walking shoes and caution for those with limited mobility. Please contact us in advance if you have specific accessibility needs.",
+      },
+    ],
+  },
 ];
 export default maltaTours;

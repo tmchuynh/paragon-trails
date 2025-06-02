@@ -246,6 +246,217 @@ export const madridTours: Tour[] = [
       },
     ],
   },
-  // Additional tours would follow the same pattern
+  {
+    title: "Madrid Royal Palace & Gardens Guided Tour",
+    description:
+      "Explore the opulent Royal Palace of Madrid and its stunning gardens with a knowledgeable guide, delving into the history, art, and architecture of Spain's royal heritage while enjoying skip-the-line access.",
+    city: "Madrid",
+    country: "Spain",
+    region: "Central Spain",
+    images: [
+      "/images/tours/madrid/royal-palace.jpg",
+      "/images/tours/madrid/royal-gardens.jpg",
+    ],
+    duration: "3 hours",
+    price: "$70",
+    rating: 4.7,
+    tags: ["History", "Architecture", "Gardens"],
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Royal Palace Main Entrance, Calle de Bailén, Madrid 28071, Spain",
+      coordinates: {
+        latitude: 40.417,
+        longitude: -3.7143,
+      },
+      instructions:
+        "Meet at the main entrance of the Royal Palace, under the large bronze statue of King Philip IV. Your guide will be holding a blue umbrella with 'Royal Palace Tour' written on it.",
+      contactNumber: "+34 91 123 4569",
+    },
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+    ],
+    highlights: [
+      "Skip-the-line access to the Royal Palace and Gardens",
+      "Guided tour of the Throne Room, Royal Chapel, and Hall of Mirrors",
+      "Explore the beautiful Sabatini Gardens and Campo del Moro Gardens",
+      "Learn about the history of the Spanish monarchy and royal traditions",
+    ],
+    inclusions: [
+      "Professional guide with expertise in Spanish history and art",
+      "Skip-the-line entrance tickets to the Royal Palace and Gardens",
+      "Audio headsets to hear the guide clearly in large groups",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages (available for purchase at the gardens)",
+      "Gratuities (optional)",
+    ],
+    itinerary: [
+      "10:00 - Meet at Royal Palace main entrance for introduction to Spanish monarchy history.",
+      "10:15 - Skip-the-line entry to Royal Palace.",
+      "10:30 - Guided tour of Throne Room, Royal Chapel, Hall of Mirrors, and more.",
+      "11:30 - Explore Sabatini Gardens with commentary on landscaping and royal traditions.",
+      "12:00 - Visit Campo del Moro Gardens, learning about their history and design.",
+      "12:30 - Tour concludes with recommendations for further exploration of Madrid's royal heritage.",
+    ],
+    faqs: [
+      {
+        question:
+          "Is the Royal Palace accessible for visitors with mobility issues?",
+        answer:
+          "Yes, the Royal Palace is wheelchair accessible, and there are elevators available to access different floors. The gardens also have paved paths suitable for wheelchairs and strollers. Please inform us in advance if you require any special assistance so we can accommodate your needs.",
+      },
+      {
+        question:
+          "Are there any dress code requirements for visiting the Royal Palace?",
+        answer:
+          "While there is no strict dress code, visitors are encouraged to dress respectfully when entering the Royal Palace. This means avoiding beachwear, shorts, and flip-flops. Comfortable walking shoes are recommended as the tour involves walking through both indoor and outdoor areas.",
+      },
+      {
+        question: "Can I take photos inside the Royal Palace?",
+        answer:
+          "Photography is allowed in most areas of the Royal Palace, but flash photography and tripods are not permitted. Some specific rooms may have restrictions on photography to protect the artworks and artifacts. Your guide will inform you of any areas where photography is not allowed during the tour.",
+      },
+    ],
+  },
+  {
+    title: "Madrid Hidden Gems: Local Markets & Neighborhoods",
+    description:
+      "Discover the authentic side of Madrid with a local guide, exploring vibrant markets, charming neighborhoods, and lesser-known cultural spots while tasting traditional foods and meeting local artisans.",
+    city: "Madrid",
+    country: "Spain",
+    region: "Central Spain",
+    images: [
+      "/images/tours/madrid/local-markets.jpg",
+      "/images/tours/madrid/charming-neighborhoods.jpg",
+    ],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.6,
+    tags: ["Local", "Culture", "Markets"],
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Plaza de España, Central Fountain, Madrid 28008",
+      coordinates: {
+        latitude: 40.4233,
+        longitude: -3.7138,
+      },
+      instructions:
+        "Meet at the central fountain in Plaza de España. Your guide will be wearing a green jacket and holding a sign that says 'Hidden Gems Tour'.",
+      contactNumber: "+34 91 123 4570",
+    },
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+    ],
+    highlights: [
+      "Visit 3 local markets including Mercado de San Miguel and Mercado de Antón Martín",
+      "Explore 2 lesser-known neighborhoods with rich cultural heritage (Lavapiés and Malasaña)",
+      "Sample traditional foods like churros, jamón ibérico, and local cheeses at market stalls and family-run shops",
+      "Meet local artisans and learn about their crafts (pottery, textiles, etc.) in hidden workshops and studios",
+    ],
+    inclusions: [
+      "Local guide with expertise in Madrid's culture and neighborhoods",
+      "Food tastings at multiple market stalls (enough for a light lunch)",
+      "Beverages included (local wines, vermouth, or soft drinks)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food or drinks beyond the included tastings",
+      "Gratuities (optional)",
+    ],
+    itinerary: [
+      "10:00 - Meet at Plaza de España for introduction to Madrid's hidden gems.",
+      "10:15 - Walk to Mercado de San Miguel for tapas tasting and market exploration.",
+      "11:00 - Visit Mercado de Antón Martín for local produce and artisan foods.",
+      "11:45 - Explore Lavapiés neighborhood, visiting local shops and galleries.",
+      "12:30 - Lunch break at a family-run restaurant in Lavapiés (not included).",
+      "13:15 - Walk to Malasaña neighborhood, known for its vibrant street art and culture.",
+      "13:45 - Visit local artisan workshops and studios, meeting craftspeople.",
+      "14:30 - Conclude tour with recommendations for further exploration of Madrid's local culture.",
+    ],
+    faqs: [
+      {
+        question: "Is this tour suitable for families with children?",
+        answer:
+          "Yes, this tour is family-friendly and suitable for children of all ages. The pace is relaxed, and we include fun food tastings that kids usually enjoy, such as churros and local cheeses. We also make stops at interesting shops and markets that are engaging for younger visitors. Please let us know in advance if you have specific needs or requests for your family.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with advance notice. Please inform us of any allergies or dietary preferences when booking so our guide can arrange suitable food tastings at the markets and shops. Vegetarian, gluten-free, and dairy-free options are typically available, but please note that some traditional foods may not be suitable for all diets.",
+      },
+      {
+        question: "How much walking is involved in this tour?",
+        answer:
+          "The tour involves approximately 3-4 km (1.8-2.5 miles) of walking at a leisurely pace, with plenty of stops to explore markets and neighborhoods. The route is mostly flat, but there are some cobbled streets in the historic areas. Comfortable walking shoes are recommended, and we take breaks throughout the tour to rest and enjoy tastings.",
+      },
+    ],
+  },
 ];
 export default madridTours;

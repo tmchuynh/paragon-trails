@@ -1,404 +1,489 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+
 export const londonTours: Tour[] = [
   {
-    title: "Hidden London Underground & Wartime Secrets",
+    title: "Tower of London & Crown Jewels Tour",
     description:
-      "Explore abandoned tube stations, Churchill's secret bunkers, and hidden tunnels beneath London with exclusive access to sites normally closed to the public, guided by a historian specializing in London's wartime history.",
+      "Explore the iconic Tower of London with an expert Yeoman Warder (Beefeater) guide to discover royal history, infamous prisoners, and the dazzling Crown Jewels collection.",
     city: "London",
     country: "United Kingdom",
-    region: "Greater London",
+    region: "England",
     images: [
-      "https://media.istockphoto.com/id/1330587634/photo/old-underground-london-tunnel.jpg",
-      "https://images.unsplash.com/photo-1576921450048-7b5d16976c63",
+      "/images/tours/london/tower-of-london.jpg",
+      "/images/tours/london/crown-jewels.jpg",
     ],
     duration: "3 hours",
     price: "$95",
-    rating: 4.9,
-    tags: ["History", "Underground", "WWII"],
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "historical",
-    itinerary: [
-      "10:00 - Meet at designated entrance near Aldwych Station",
-      "10:15 - Begin underground exploration of disused tunnels",
-      "11:00 - Guided walk through Churchill War Rooms",
-      "12:00 - Recap, Q&A, and optional museum time",
-      "13:00 - Tour ends at Westminster",
-    ],
-    faqs: [
-      {
-        question: "Is this tour suitable for those with claustrophobia?",
-        answer:
-          "Some sections involve narrow passageways. Those with severe claustrophobia should contact us prior to booking for tailored advice.",
-      },
-      {
-        question: "What should I wear for the underground tour?",
-        answer:
-          "Comfortable shoes and a jacket are advised, as it may be damp. We provide torches if needed.",
-      },
-      {
-        question: "Are children allowed on this tour?",
-        answer:
-          "Yes, for ages 10+. Content can be adjusted for families upon request.",
-      },
-    ],
-    inclusions: [
-      "Expert guide with historical knowledge",
-      "Access to disused tube stations and Churchill War Rooms",
-      "Use of torches and safety equipment",
-      "Small group size for personalized experience",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Food and beverages",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
-    meetingPoint: {
-      address: "Aldwych Station Entrance, London",
-      coordinates: {
-        latitude: 51.5133,
-        longitude: -0.1196,
-      },
-      instructions:
-        "Meet outside the Aldwych Station entrance. Your guide will be holding a sign with 'Hidden London Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
-    },
-  },
-  {
-    title: "Royal London & Changing of the Guard Experience",
-    description:
-      "Witness royal ceremonies from insider positions, tour the ceremonial heart of London, and learn about royal traditions from an expert with connections to royal institutions.",
-    city: "London",
-    country: "United Kingdom",
-    region: "Greater London",
-    images: [
-      "https://images.unsplash.com/photo-1595581532321-0d2b7ff6b4db",
-      "https://cdn.pixabay.com/photo/2020/02/13/10/57/buckingham-palace-4845069_1280.jpg",
-    ],
-    duration: "4 hours",
-    price: "$85",
     rating: 4.8,
-    tags: ["Royal", "Ceremony", "Tradition"],
+    tags: ["Historical", "Royal", "UNESCO"],
+    meetingPoint: {
+      address: "Tower Hill, London EC3N 4AB",
+      coordinates: {
+        latitude: 51.5098,
+        longitude: -0.0766,
+      },
+      instructions:
+        "Meet at the Tower of London Welcome Centre by the main entrance. Your guide will be holding a blue 'London Historical Tours' sign.",
+      contactNumber: "+44 20 7123 4567",
+      contactEmail: "bookings@londonhistoricaltours.com",
+    },
+    highlights: [
+      "Skip-the-line access to the Tower of London",
+      "See the magnificent Crown Jewels collection including the Imperial State Crown",
+      "Guided tour with a genuine Yeoman Warder in traditional uniform",
+      "Explore the White Tower, medieval palace, and infamous prison chambers",
+      "Learn about the Tower's 900+ years of history and royal scandals",
+    ],
+    inclusions: [
+      "Skip-the-line entrance ticket to the Tower of London",
+      "Professional historian guide",
+      "Yeoman Warder (Beefeater) guided segment",
+      "Crown Jewels viewing with priority access",
+      "Small group size (maximum 15 people)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities (optional)",
+      "Audio guide (as you'll have a live guide)",
+      "Access to special exhibitions not included in general admission",
+    ],
+    itinerary: [
+      "9:30 AM - Meet at the Tower of London Welcome Centre",
+      "9:45 AM - Skip-the-line entrance and introduction",
+      "10:00 AM - Join Yeoman Warder tour of the Tower grounds",
+      "10:45 AM - Visit to the White Tower and medieval palace",
+      "11:30 AM - Priority access to view the Crown Jewels collection",
+      "12:00 PM - Free time to explore the Tower at your own pace",
+      "12:30 PM - Tour conclusion with recommendations for nearby lunch options",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "cultural",
-    itinerary: [
-      "09:00 - Meet outside Green Park Station",
-      "09:30 - Guided walk to Buckingham Palace",
-      "10:00 - Watch Changing of the Guard from VIP viewing area",
-      "11:00 - Walk to Horse Guards Parade and Royal Mall",
-      "12:30 - End at Westminster Abbey",
-    ],
-    faqs: [
-      {
-        question: "Is the Changing of the Guard guaranteed?",
-        answer:
-          "Subject to schedule and weather. Alternatives will be provided if canceled.",
-      },
-      {
-        question: "Can we enter Buckingham Palace during the tour?",
-        answer:
-          "No, but we explore its surroundings. Separate entry tickets available upon request.",
-      },
-    ],
-    inclusions: [
-      "Expert guide with royal connections",
-      "VIP viewing area for Changing of the Guard",
-      "Guided walk through royal landmarks",
-      "Small group size for personalized experience",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Food and beverages",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
-    meetingPoint: {
-      address: "Green Park Station, London",
-      coordinates: {
-        latitude: 51.5064,
-        longitude: -0.1422,
-      },
-      instructions:
-        "Meet outside Green Park Station, near the entrance to the park. Your guide will be holding a sign with 'Royal London Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
-    },
-  },
-  {
-    title: "London's Hidden Gardens & Secret Parks",
-    description:
-      "Discover London's lesser-known green spaces, from tranquil hidden gardens to historic parks, guided by a local horticulturist who shares the stories and flora of these peaceful retreats.",
-    city: "London",
-    country: "United Kingdom",
-    region: "Greater London",
-    images: [
-      "https://lh3.googleusercontent.com/p/AF1QipM4nBboUGL95yD6RQ8KJ0qk5vNU-AJqONhECeWD=w1080-h608-p-k-no",
-      "https://cdn.pixabay.com/photo/2020/09/06/16/47/london-5547822_1280.jpg",
-    ],
-    duration: "3 hours",
-    price: "$70",
-    rating: 4.7,
-    tags: ["Nature", "Gardens", "Relaxation"],
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "wellness",
-    itinerary: [
-      "14:00 - Meet at Barbican Conservatory entrance",
-      "14:15 - Walk through historic Postman’s Park",
-      "15:00 - Visit the Chelsea Physic Garden",
-      "16:00 - Relaxation break and optional tea service",
-      "17:00 - Tour ends near Sloane Square",
-    ],
-    faqs: [
-      {
-        question: "Are the gardens wheelchair accessible?",
-        answer:
-          "Most are accessible. Let us know about any mobility concerns in advance.",
-      },
-      {
-        question: "What should I wear for the garden tour?",
-        answer:
-          "Walking shoes and weather-appropriate layers. Umbrella recommended for rainy days.",
-      },
-      {
-        question: "Can children join this tour?",
-        answer:
-          "Yes, it's family-friendly. Activities can be provided for children.",
-      },
-    ],
-    inclusions: [
-      "Local horticulturist guide",
-      "Access to private gardens and parks",
-      "Relaxation break with optional tea service",
-      "Small group size for personalized experience",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Food and beverages (except optional tea service)",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
-    meetingPoint: {
-      address: "Barbican Conservatory, Silk Street, London",
-      coordinates: {
-        latitude: 51.52,
-        longitude: -0.0922,
-      },
-      instructions:
-        "Meet at the entrance of the Barbican Conservatory. Your guide will be holding a sign with 'Hidden Gardens Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
-    },
-  },
-  {
-    title: "London Nightlife & Rooftop Cocktails",
-    description:
-      "Experience the best of London nightlife with guided access to sky-high rooftop bars, hidden speakeasies, and stylish lounges with panoramic views of the skyline.",
-    city: "London",
-    country: "United Kingdom",
-    region: "Greater London",
-    images: [
-      "https://img.freepik.com/free-photo/view-london-sunset-with-city-skyscrapers_53876-143223.jpg",
-      "https://media.istockphoto.com/id/1197945175/photo/rooftop-bar-in-london-at-night.jpg",
-    ],
-    duration: "4 hours",
-    price: "$110",
-    rating: 4.6,
-    tags: ["Nightlife", "Drinks", "Skyline"],
-    isNightlife: true,
-    isLuxury: true,
-    isRomantic: true,
-    isLocalExperience: true,
-    isOffTheBeatenPath: false,
-    isHistorical: false,
-    tourCategoryId: "luxury",
-    itinerary: [
-      "19:00 - Meet at Sky Garden entrance for welcome drink",
-      "19:45 - Private rooftop bar tour with city views",
-      "21:00 - Hidden speakeasy experience with craft cocktails",
-      "22:00 - End with VIP lounge access or transfer options",
-    ],
-    faqs: [
-      {
-        question: "Is there a dress code?",
-        answer:
-          "Yes, smart casual. No sportswear or flip-flops allowed in rooftop venues.",
-      },
-      {
-        question: "Are drinks included?",
-        answer:
-          "One welcome drink is included. Additional beverages are available for purchase.",
-      },
-      {
-        question: "Is this suitable for non-drinkers?",
-        answer:
-          "Yes, mocktails and non-alcoholic options are available at all venues.",
-      },
-    ],
-    inclusions: [
-      "Expert nightlife guide",
-      "Welcome drink at Sky Garden",
-      "Access to exclusive rooftop bars and speakeasies",
-      "VIP lounge access or transfer options",
-      "Small group size for personalized experience",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Additional food and beverages",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
-    meetingPoint: {
-      address: "Sky Garden, 20 Fenchurch Street, London",
-      coordinates: {
-        latitude: 51.5123,
-        longitude: -0.0802,
-      },
-      instructions:
-        "Meet at the entrance of Sky Garden. Your guide will be holding a sign with 'London Nightlife Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
-    },
-  },
-  {
-    title: "Street Art & Urban Culture Tour",
-    description:
-      "Explore London's vibrant street art scene with a local artist, visiting iconic murals, hidden graffiti spots, and learning about the stories behind the art in neighborhoods like Shoreditch and Camden.",
-    city: "London",
-    country: "United Kingdom",
-    region: "Greater London",
-    images: [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-      "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
-    ],
-    duration: "3 hours",
-    price: "$65",
-    rating: 4.5,
-    tags: ["Art", "Culture", "Urban"],
+    isAdventure: false,
     isCultural: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    itinerary: [
-      "10:00 - Meet at Old Street Station",
-      "10:15 - Guided walk through Shoreditch's street art hotspots",
-      "11:30 - Visit Camden Market for urban art and culture",
-      "12:30 - End at Brick Lane with optional lunch recommendations",
-    ],
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "historical",
     faqs: [
       {
-        question: "Is this tour suitable for children?",
+        question: "How much time will we spend at the Crown Jewels?",
         answer:
-          "Yes, it's family-friendly. We can adjust content for younger audiences.",
+          "The Crown Jewels segment typically lasts 30-45 minutes. With our priority access, you'll avoid the long queues that can form during busy periods. Note that the viewing area has a moving walkway to keep visitors flowing past the collection, but you can ride it multiple times if you wish to see items again.",
       },
       {
-        question: "Can we take photos during the tour?",
+        question: "Is photography allowed inside the Tower of London?",
         answer:
-          "Absolutely! Photography is encouraged to capture the vibrant street art.",
+          "Photography is permitted in most areas of the Tower, but strictly prohibited in the Crown Jewels house. Your guide will clearly indicate where photos are not allowed. Flash photography and tripods are not permitted anywhere inside the Tower.",
       },
       {
-        question: "What should I wear?",
+        question: "How much walking is involved in this tour?",
         answer:
-          "Comfortable walking shoes and weather-appropriate clothing are recommended.",
+          "This tour involves approximately 1.5 miles (2.4 km) of walking on mostly flat terrain, with some cobblestones and steps. There are several places to sit and rest throughout the Tower complex. Comfortable walking shoes are recommended.",
       },
     ],
-    inclusions: [
-      "Local street art guide",
-      "Access to hidden street art locations",
-      "Small group size for personalized experience",
-      "Optional lunch recommendations at Brick Lane",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Food and beverages",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
-    meetingPoint: {
-      address: "Old Street Station, London",
-      coordinates: {
-        latitude: 51.5255,
-        longitude: -0.0872,
-      },
-      instructions:
-        "Meet outside Old Street Station, near the entrance to the station. Your guide will be holding a sign with 'Street Art Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
-    },
   },
   {
-    title: "Historic Pubs & Brewery Tour",
+    title: "Westminster Abbey & Changing of the Guard",
     description:
-      "Discover London's historic pubs and breweries with a local guide, sampling traditional ales and learning about the city's brewing heritage in iconic establishments dating back centuries.",
+      "Experience London's royal heritage with a guided tour of magnificent Westminster Abbey, followed by the iconic Changing of the Guard ceremony at Buckingham Palace.",
     city: "London",
     country: "United Kingdom",
-    region: "Greater London",
+    region: "England",
     images: [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-      "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
+      "/images/tours/london/westminster-abbey.jpg",
+      "/images/tours/london/changing-guard.jpg",
+    ],
+    duration: "3.5 hours",
+    price: "$85",
+    rating: 4.7,
+    tags: ["Royal", "Historical", "Architecture"],
+    meetingPoint: {
+      address: "Westminster Abbey, 20 Deans Yd, London SW1P 3PA",
+      coordinates: {
+        latitude: 51.4994,
+        longitude: -0.1276,
+      },
+      instructions:
+        "Meet outside the West Entrance of Westminster Abbey (Great West Door). Your guide will be holding a Union Jack umbrella.",
+      contactNumber: "+44 20 7234 5678",
+      contactEmail: "info@londonroyaltours.com",
+    },
+    highlights: [
+      "Guided tour of Westminster Abbey, the coronation church of British monarchs since 1066",
+      "See Poets' Corner, Royal Tombs, and the magnificent medieval architecture",
+      "Witness the famous Changing of the Guard ceremony at Buckingham Palace",
+      "Learn about royal traditions and ceremonies from an expert guide",
+      "Walk through St. James's Park and see Horse Guards Parade",
+    ],
+    inclusions: [
+      "Fast-track entrance to Westminster Abbey",
+      "Professional Blue Badge guide",
+      "Headsets to clearly hear your guide",
+      "Guided walk through royal London",
+      "Prime viewing position for the Changing of the Guard ceremony",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Entrance to Buckingham Palace State Rooms (only open during summer months)",
+      "Transportation",
+      "Gratuities",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Westminster Abbey West Entrance",
+      "9:15 AM - Fast-track entry and guided tour of Westminster Abbey",
+      "10:45 AM - Walk through St. James's Park toward Buckingham Palace",
+      "11:15 AM - Take position for Changing of the Guard ceremony",
+      "11:30 AM - Witness the Changing of the Guard ceremony",
+      "12:15 PM - Visit Horse Guards Parade and Downing Street",
+      "12:30 PM - Tour concludes near Trafalgar Square with recommendations",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Does the Changing of the Guard take place every day?",
+        answer:
+          "The Changing of the Guard ceremony typically takes place on Mondays, Wednesdays, Fridays, and Sundays, weather permitting. During summer, it may occur daily. If the ceremony is canceled due to weather or official events, your guide will provide extended commentary on the palace and royal traditions instead.",
+      },
+      {
+        question: "Is Westminster Abbey suitable for children?",
+        answer:
+          "Yes, children often find Westminster Abbey fascinating with its royal connections and historical significance. Our guides are skilled at engaging younger visitors with age-appropriate stories and interesting facts about the monarchs, poets, and scientists buried there.",
+      },
+      {
+        question: "Is there a dress code for Westminster Abbey?",
+        answer:
+          "Westminster Abbey is a place of worship, so modest attire is appreciated. Shoulders should be covered, and overly casual clothing like shorts and flip-flops is discouraged. Comfortable shoes are recommended as there is considerable walking on stone floors.",
+      },
+    ],
+  },
+  {
+    title: "Warner Bros. Studio: The Making of Harry Potter",
+    description:
+      "Step into the magical world of Harry Potter with a behind-the-scenes tour of Warner Bros. Studio, featuring original sets, costumes, and props from the beloved film series.",
+    city: "London",
+    country: "United Kingdom",
+    region: "England",
+    images: [
+      "/images/tours/london/harry-potter-studio.jpg",
+      "/images/tours/london/hogwarts-great-hall.jpg",
+    ],
+    duration: "7 hours",
+    price: "$125",
+    rating: 4.9,
+    tags: ["Harry Potter", "Film", "Family"],
+    meetingPoint: {
+      address: "Victoria Coach Station, 164 Buckingham Palace Road, London SW1W 9TP",
+      coordinates: {
+        latitude: 51.4945,
+        longitude: -0.1444,
+      },
+      instructions:
+        "Meet at Victoria Coach Station, Gate 0. Look for your guide holding a 'Harry Potter Studio Tour' sign. Please arrive 15 minutes before departure.",
+      contactNumber: "+44 20 8765 4321",
+      contactEmail: "wizards@potterstudiotours.com",
+    },
+    highlights: [
+      "Walk through the Great Hall of Hogwarts and see iconic film sets",
+      "Discover original costumes, props, and magical creatures from the films",
+      "See Diagon Alley, the Forbidden Forest, and Platform 9¾",
+      "Learn filmmaking secrets and visual effects techniques",
+      "Savor a refreshing Butterbeer in the studio café",
+    ],
+    inclusions: [
+      "Round-trip transportation from central London",
+      "Entrance ticket to Warner Bros. Studio Tour",
+      "Multimedia guide in your chosen language",
+      "Expert studio guide",
+      "Free time to explore the studio at your own pace",
+    ],
+    exclusions: [
+      "Food and beverages (including Butterbeer)",
+      "Optional digital photos on broomsticks",
+      "Souvenir purchases",
+      "Gratuities",
+      "Hotel pickup and drop-off",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Victoria Coach Station",
+      "9:30 AM - Depart London for Warner Bros. Studio in luxury coach",
+      "10:45 AM - Arrival at Warner Bros. Studio Tour",
+      "11:00 AM - Introduction and Great Hall visit with studio guide",
+      "11:45 AM - Free time to explore all studio areas at your own pace",
+      "3:00 PM - Final shopping opportunity at the Studio Shop",
+      "3:30 PM - Depart studio for return journey",
+      "5:00 PM - Arrive back at Victoria Station",
+    ],
+    cancellationPolicy:
+      "Due to limited tickets: No refund within 7 days of tour. 50% refund if canceled 7-14 days before. Full refund only if canceled more than 14 days in advance.",
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
+    tourCategoryId: "entertainment",
+    faqs: [
+      {
+        question: "Is this tour suitable for people who haven't read the books or seen the films?",
+        answer:
+          "While fans will certainly get the most enjoyment, the tour is designed to be accessible to everyone. The craftsmanship, artistry, and technology on display are impressive regardless of your familiarity with Harry Potter. Guides provide context so everyone can appreciate what they're seeing.",
+      },
+      {
+        question: "How much time do we get at the studio?",
+        answer:
+          "You will have approximately 4 hours at the studio, which is typically enough time to see everything. The tour is self-guided after the initial introduction, so you can spend more time in the areas that interest you most. Most visitors spend 3-4 hours exploring all areas.",
+      },
+      {
+        question: "Can I take photographs inside the studio?",
+        answer:
+          "Photography (without flash) is permitted and encouraged in most areas of the studio. There are a few sections where photography is prohibited, which will be clearly marked. The use of tripods or professional equipment requires prior permission.",
+      },
+    ],
+  },
+  {
+    title: "London Eye & Thames River Cruise",
+    description:
+      "Combine two iconic London experiences with a flight on the London Eye observation wheel and a scenic cruise along the River Thames.",
+    city: "London",
+    country: "United Kingdom",
+    region: "England",
+    images: [
+      "/images/tours/london/london-eye.jpg",
+      "/images/tours/london/thames-cruise.jpg",
     ],
     duration: "3 hours",
     price: "$75",
-    rating: 4.4,
-    tags: ["Food", "Drink", "History"],
-    isCulinary: true,
-    isHistorical: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    itinerary: [
-      "18:00 - Meet at the first historic pub in Covent Garden",
-      "18:15 - Guided walk to the second pub with brewing history",
-      "19:00 - Sample local ales and learn about brewing traditions",
-      "20:00 - End at a brewery with tasting options available",
-    ],
-    faqs: [
-      {
-        question: "Is this tour suitable for non-drinkers?",
-        answer: "Yes, non-alcoholic options are available at all venues.",
-      },
-      {
-        question: "What should I wear?",
-        answer:
-          "Casual attire is fine, but smart casual is recommended for some pubs.",
-      },
-      {
-        question: "Are children allowed on this tour?",
-        answer:
-          "Yes, children are welcome. We can provide soft drinks for them.",
-      },
-    ],
-    inclusions: [
-      "Local guide with brewing knowledge",
-      "Samples of traditional ales",
-      "Access to historic pubs and breweries",
-      "Small group size for personalized experience",
-    ],
-    exclusions: [
-      "Transportation to the meeting point",
-      "Additional food and beverages",
-      "Gratuities for the guide (optional)",
-    ],
-    cancellationPolicy:
-      "Free cancellation up to 48 hours before the tour. Cancellations within 48 hours are non-refundable.",
+    rating: 4.6,
+    tags: ["Views", "River Cruise", "Landmarks"],
     meetingPoint: {
-      address: "Covent Garden, London",
+      address: "London Eye Pier, Westminster Bridge Road, London SE1 7PB",
       coordinates: {
-        latitude: 51.5115,
-        longitude: -0.1235,
+        latitude: 51.5033,
+        longitude: -0.1197,
       },
       instructions:
-        "Meet outside the first historic pub in Covent Garden. Your guide will be holding a sign with 'Historic Pubs Tour' written on it.",
-      contactNumber: "+44 20 7946 0958",
+        "Meet at the London Eye ticket office. Your guide will be waiting with a 'London Experiences' placard.",
+      contactNumber: "+44 20 7321 8765",
+      contactEmail: "bookings@londonexperiences.co.uk",
     },
+    highlights: [
+      "Priority boarding on the London Eye for spectacular 360° views of London",
+      "30-minute rotation in a private capsule with interactive tablets",
+      "Scenic River Thames cruise passing major London landmarks",
+      "Live commentary pointing out historical sites and interesting facts",
+      "Photo opportunities of Big Ben, Houses of Parliament, Tower Bridge and more",
+    ],
+    inclusions: [
+      "Fast-track London Eye ticket (priority boarding)",
+      "Private capsule experience on the London Eye",
+      "40-minute Thames river cruise",
+      "Live commentary during the cruise",
+      "Professional guide",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities",
+      "Souvenir photos (available for purchase)",
+      "Additional attractions",
+    ],
+    itinerary: [
+      "2:00 PM - Meet at the London Eye ticket office",
+      "2:15 PM - Fast-track boarding onto the London Eye",
+      "2:20 PM - Begin 30-minute rotation with commentary",
+      "2:50 PM - Exit London Eye and short walk to pier",
+      "3:15 PM - Board Thames river cruise boat",
+      "3:20 PM - Begin scenic cruise along the Thames",
+      "4:00 PM - Disembark at Tower Pier (optional) or return to London Eye Pier",
+      "4:15 PM - Tour conclusion with recommendations for evening activities",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before. No refund for cancellations less than 24 hours before scheduled time.",
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "sightseeing",
+    faqs: [
+      {
+        question: "What happens in case of bad weather?",
+        answer:
+          "The London Eye operates in most weather conditions except severe wind or storms. In case of dangerous weather, your ticket can be used another day. The river cruise may be modified or rescheduled in extreme weather, with the option to reschedule or receive a partial refund.",
+      },
+      {
+        question: "Is the London Eye suitable for people with a fear of heights?",
+        answer:
+          "The capsules are very stable with minimal movement sensation. The rotation is extremely slow (30 minutes for one revolution) and the solid construction helps many visitors with mild fear of heights feel comfortable. The capsules are spacious, allowing you to stay toward the center if preferred.",
+      },
+      {
+        question: "Can I get off the boat cruise at different piers?",
+        answer:
+          "Yes, this cruise allows you to disembark at any of the stops along the route, including Tower Pier, Greenwich, and Westminster. Your ticket is valid for the whole day, so you can explore areas of interest and continue your journey later.",
+      },
+    ],
+  },
+  {
+    title: "Secret Underground London Walking Tour",
+    description:
+      "Uncover London's hidden subterranean world with a guided walking tour exploring ancient crypts, forgotten tunnels, and underground Roman ruins that reveal the city's mysterious past.",
+    city: "London",
+    country: "United Kingdom",
+    region: "England",
+    images: [
+      "/images/tours/london/underground-london.jpg",
+      "/images/tours/london/hidden-crypt.jpg",
+    ],
+    duration: "3 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Underground", "Hidden", "History"],
+    meetingPoint: {
+      address: "Temple Underground Station, Temple Place, London WC2R 2PH",
+      coordinates: {
+        latitude: 51.5111,
+        longitude: -0.1141,
+      },
+      instructions:
+        "Meet outside Temple Underground Station near the entrance. Your guide will be holding a lantern and wearing a black coat.",
+      contactNumber: "+44 20 4567 8912",
+      contactEmail: "underground@hiddenlondontours.co.uk",
+    },
+    highlights: [
+      "Explore the ancient crypts of forgotten churches not open to the general public",
+      "Descend beneath the city to discover Roman ruins and archaeological sites",
+      "Visit a section of London's vast subterranean tunnel network",
+      "Learn about the hidden rivers that flow beneath London's streets",
+      "Hear chilling tales of plague pits, secret passages, and underground shelters",
+    ],
+    inclusions: [
+      "Expert historian guide with specialist knowledge",
+      "Access to restricted underground sites",
+      "Small group size (maximum 12 people)",
+      "Use of flashlights in darker sections",
+      "Entry fees to all underground locations",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities",
+      "Transportation between some sites (tube fare may be required)",
+      "Souvenir photos or booklets",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Temple Underground Station",
+      "10:15 AM - Walk to first underground site with historical context",
+      "10:45 AM - Explore ancient crypt beneath a working church",
+      "11:30 AM - Visit to recently discovered Roman ruins beneath an office building",
+      "12:15 PM - Short tube journey to next location (fare not included)",
+      "12:30 PM - Descend into abandoned underground tunnels and chambers",
+      "1:15 PM - Final underground site exploration",
+      "1:45 PM - Return to street level and tour conclusion",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: false,
+    isIndoor: true,
+    tourCategoryId: "history",
+    faqs: [
+      {
+        question: "Is this tour suitable for people with claustrophobia?",
+        answer:
+          "This tour is not recommended for those with severe claustrophobia as it involves several narrow passages, low ceilings, and enclosed spaces. Some underground sections are quite restricted, though most areas are reasonably spacious. Please contact us if you have specific concerns.",
+      },
+      {
+        question: "How physically demanding is this tour?",
+        answer:
+          "The tour involves walking approximately 2 miles, climbing several staircases (some spiral and narrow), and navigating uneven surfaces. Participants should be able to walk comfortably for 3 hours and climb the equivalent of 5 flights of stairs throughout the tour.",
+      },
+      {
+        question: "Are the underground spaces cold or damp?",
+        answer:
+          "Most underground locations maintain a constant cool temperature year-round (approximately 55°F/13°C). Some areas may be slightly damp or humid. We recommend bringing a light jacket even in summer and wearing closed-toe, comfortable shoes with good grip.",
+      },
+    ],
   },
 ];
+
 export default londonTours;
