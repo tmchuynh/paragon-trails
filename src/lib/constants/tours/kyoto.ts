@@ -22,6 +22,99 @@ export const kyotoTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "Fushimi Inari Shrine Main Gate, 68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto 612-0882",
+      coordinates: {
+        latitude: 34.9671,
+        longitude: 135.7727,
+      },
+      instructions:
+        "Meet at the main stone torii gate of Fushimi Inari Shrine. Your guide will be holding a red paper lantern with the Paragon Trails logo.",
+      contactNumber: "+81 75-123-4567",
+      contactEmail: "kyoto@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-25",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Walk through thousands of vermilion torii gates at magical twilight hours",
+      "Climb to sacred viewing points seldom visited by tourists",
+      "Learn about Shinto traditions and fox deities from a cultural expert",
+      "Stroll through Gion's preserved wooden machiya townhouses at dusk",
+      "Discover hidden geisha teahouses and learn about authentic geisha culture",
+    ],
+
+    inclusions: [
+      "Professional English-speaking cultural guide",
+      "Public transportation between Fushimi Inari and Gion",
+      "Traditional Japanese sweet at a local café",
+      "Small group size (maximum 8 participants)",
+      "Geisha district etiquette guide",
+      "Evening tea ceremony observation (when available)",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Dinner (optional recommendations provided)",
+      "Additional food and drinks beyond included tea and sweet",
+      "Gratuities (not customary in Japan)",
+      "Professional photography of geisha (if encountered)",
+    ],
+
+    itinerary: [
+      "16:00 - Meet at Fushimi Inari main gate for shrine introduction",
+      "16:15 - Begin ascent through the vermilion torii gate corridors",
+      "16:45 - Visit sacred mountain shrines and learn about Inari fox worship",
+      "17:30 - Reach scenic viewpoint overlooking Kyoto at sunset",
+      "18:00 - Descend through illuminated sections of the shrine",
+      "18:30 - Public transportation to Gion district",
+      "19:00 - Guided walking tour through historic Gion streets",
+      "19:30 - Traditional Japanese sweet and tea at local café",
+      "20:00 - Continue exploration of geisha districts of Pontocho and Miyagawacho",
+      "20:30 - Tour concludes at Gion Corner with recommendations for dinner",
+    ],
+
     faqs: [
       {
         question: "Will we see geisha during the tour?",
@@ -56,6 +149,99 @@ export const kyotoTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "spiritual",
+
+    meetingPoint: {
+      address:
+        "Camellia Tea Ceremony House, 358-5 Masuyacho, Higashiyama Ward, Kyoto 605-0826",
+      coordinates: {
+        latitude: 35.0042,
+        longitude: 135.7809,
+      },
+      instructions:
+        "Meet at the entrance of Camellia Tea Ceremony House. Look for the wooden sign with camellia flower design.",
+      contactNumber: "+81 75-123-4568",
+      contactEmail: "teaceremony@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
+    ],
+
+    highlights: [
+      "Participate in an authentic Japanese tea ceremony with a certified tea master",
+      "Learn the proper rituals and symbolic meanings of each tea ceremony movement",
+      "Practice Zen meditation techniques in a traditional temple setting",
+      "Explore meticulously designed Zen rock and moss gardens",
+      "Discover the philosophical principles behind Japanese garden design",
+    ],
+
+    inclusions: [
+      "Traditional tea ceremony experience with tea and Japanese sweets",
+      "Tea ceremony guidebook with illustrated instructions",
+      "Entrance fees to selected Zen gardens",
+      "Professional cultural guide and tea ceremony instructor",
+      "Guided meditation session at a Zen temple",
+      "Transportation between tea house and gardens",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and beverages",
+      "Personal expenses and souvenirs",
+      "Optional kimono rental for ceremony (available at additional cost)",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "09:00 - Meet at Camellia Tea House for introduction",
+      "09:15 - Change into traditional tabi socks and prepare for ceremony",
+      "09:30 - Learn proper tea ceremony etiquette and movements",
+      "10:00 - Participate in complete tea ceremony with matcha preparation",
+      "10:45 - Discussion about tea culture and its relation to Zen Buddhism",
+      "11:15 - Walk or taxi to nearby Zen temple garden",
+      "11:30 - Guided tour of Zen garden design principles and symbolism",
+      "12:00 - Seated meditation session with temple monk (subject to availability)",
+      "12:30 - Contemplative free time in the garden",
+      "12:45 - Tour conclusion with final thoughts on Zen philosophy",
+    ],
+
     faqs: [
       {
         question: "Do I need to sit on the floor during the tea ceremony?",
@@ -72,44 +258,592 @@ export const kyotoTours: Tour[] = [
   {
     title: "Kyoto Culinary Walk: Markets & Street Food",
     description:
-      "Discover Kyoto's vibrant food scene with a guided walk through Nishiki Market, sampling local delicacies, followed by an evening street food tour in the Pontocho alley, known for its izakayas and yakitori stalls.",
+      "Discover Kyoto's rich food culture through its historic markets, traditional food shops, and hidden street food stalls with an expert culinary guide who will introduce you to authentic local flavors.",
     city: "Kyoto",
     country: "Japan",
     region: "Kansai",
     images: [
       "/images/tours/kyoto/nishiki-market.jpg",
-      "/images/tours/kyoto/pontocho-street-food.jpg",
+      "/images/tours/kyoto/street-food.jpg",
     ],
-    duration: "4 hours",
+    duration: "3.5 hours",
     price: "$85",
     rating: 4.8,
-    tags: ["Culinary", "Street Food", "Markets"],
+    tags: ["Food", "Culinary", "Markets"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+
+    meetingPoint: {
+      address: "Nishiki Market Entrance, Nakagyo Ward, Kyoto 604-8054",
+      coordinates: {
+        latitude: 35.0046,
+        longitude: 135.7651,
+      },
+      instructions:
+        "Meet at the eastern entrance to Nishiki Market, near the red torii gate. Your guide will be holding a sign with a sushi icon.",
+      contactNumber: "+81 75-123-4569",
+      contactEmail: "foodtour@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+    ],
+
+    highlights: [
+      "Explore the 400-year-old Nishiki Market, known as 'Kyoto's Kitchen'",
+      "Sample local delicacies from specialty food vendors with centuries of history",
+      "Learn about traditional Kyoto vegetables and unique local ingredients",
+      "Discover hidden street food stalls favored by locals",
+      "Visit a traditional Japanese confectionery shop to sample wagashi sweets",
+    ],
+
+    inclusions: [
+      "Food-specialist guide with deep knowledge of Kyoto cuisine",
+      "Multiple food tastings (equivalent to a full meal)",
+      "One local drink (sake, beer or non-alcoholic option)",
+      "Guided tours of Nishiki Market and surrounding food districts",
+      "Small group size (maximum 8 participants)",
+      "Detailed food map with recommendations for further exploration",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and drinks beyond included tastings",
+      "Personal shopping at markets and food shops",
+      "Gratuities (not customary in Japan)",
+      "Transportation during tour (all locations within walking distance)",
+    ],
+
+    itinerary: [
+      "10:00 - Meet at Nishiki Market entrance for introduction to Kyoto cuisine",
+      "10:15 - Guided exploration of Nishiki Market with tastings at selected stalls",
+      "11:00 - Sample traditional Kyoto pickles and preserved foods",
+      "11:30 - Visit local fishmonger for fresh seafood tasting",
+      "12:00 - Explore traditional Japanese confectionery shop with wagashi sampling",
+      "12:30 - Street food tasting in hidden alleyways near Teramachi",
+      "13:00 - Visit sake shop for explanation of sake production and tasting",
+      "13:30 - Tour concludes with final savory tasting and recommendations",
+    ],
+
+    faqs: [
+      {
+        question: "How much food is included in this tour?",
+        answer:
+          "The tour includes 8-10 different food tastings that together comprise a substantial meal. We'll sample a variety of foods including seafood, pickles, grilled items, tea, wagashi (traditional sweets), and a drink. Come with an appetite but not completely hungry as we'll be eating throughout the tour.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate vegetarian, gluten-free, and most other dietary restrictions with advance notice. Please inform us when booking so our guide can arrange alternative tastings where necessary. However, please note that strict vegan options can be limited in traditional Kyoto cuisine.",
+      },
+    ],
+  },
+  {
+    title: "Arashiyama Bamboo Grove & Monkey Park",
+    description:
+      "Explore Kyoto's enchanting western district with early morning access to the famous bamboo grove without crowds, followed by a visit to Iwatayama Monkey Park and a traditional tofu lunch by the scenic Hozu River.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
+    images: [
+      "/images/tours/kyoto/bamboo-grove.jpg",
+      "/images/tours/kyoto/monkey-park.jpg",
+    ],
+    duration: "6 hours",
+    price: "$105",
+    rating: 4.7,
+    tags: ["Nature", "Wildlife", "Photography"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
+    isLocalExperience: false,
+    tourCategoryId: "nature",
+
+    meetingPoint: {
+      address: "Arashiyama Station, Saga-Arashiyama, Ukyo Ward, Kyoto 616-0000",
+      coordinates: {
+        latitude: 35.0094,
+        longitude: 135.7159,
+      },
+      instructions:
+        "Meet outside the JR Saga-Arashiyama Station main exit. Your guide will be holding a bamboo leaf sign.",
+      contactNumber: "+81 75-123-4570",
+      contactEmail: "arashiyama@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Experience the magical Arashiyama Bamboo Grove in early morning light before crowds arrive",
+      "Visit Iwatayama Monkey Park to observe Japanese macaques in natural habitat",
+      "Explore the picturesque Togetsukyo Bridge and scenic Hozu River area",
+      "Enjoy a traditional yudofu (tofu) lunch at a riverside restaurant",
+      "Discover the hidden Gioji Temple with its moss garden and bamboo backdrop",
+    ],
+
+    inclusions: [
+      "Professional English-speaking nature guide",
+      "Early access timing to avoid bamboo grove crowds",
+      "Entrance fee to Iwatayama Monkey Park",
+      "Traditional tofu lunch at local restaurant",
+      "Entrance fees to Gioji Temple",
+      "Small-group experience (maximum 8 participants)",
+      "Photography tips for bamboo grove shots",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Train fare to/from Arashiyama (approx. 240 yen each way from central Kyoto)",
+      "Additional food and drinks beyond included lunch",
+      "Optional activities such as river boat ride",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "07:30 - Meet at Saga-Arashiyama Station",
+      "07:45 - Walk to Bamboo Grove for early morning photography",
+      "08:30 - Explore northern sections of the bamboo forest away from crowds",
+      "09:15 - Begin hike to Iwatayama Monkey Park",
+      "10:00 - Observe Japanese macaques at the monkey park",
+      "11:00 - Descend and explore Togetsukyo Bridge area",
+      "11:30 - Visit hidden Gioji Temple with moss gardens",
+      "12:30 - Traditional yudofu (tofu) lunch at riverside restaurant",
+      "13:30 - Free time for shopping in Arashiyama traditional streets",
+      "14:30 - Tour concludes at original meeting point",
+    ],
+
     faqs: [
       {
-        question: "What types of food will we try?",
+        question: "How difficult is the hike to the monkey park?",
         answer:
-          "You'll sample a variety of Kyoto specialties including yudofu (tofu hot pot), tsukemono (pickled vegetables), matcha sweets, and local street foods like yakitori and okonomiyaki. Vegetarian options are available upon request.",
+          "The hike takes approximately 20-30 minutes uphill on a well-maintained path. It's moderately steep in parts, equivalent to climbing several flights of stairs. Comfortable walking shoes are recommended. While most people with average fitness find it manageable, those with mobility issues may find it challenging. Water and rest areas are available along the path.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "Is it safe to visit the monkeys?",
         answer:
-          "Yes, this tour is family-friendly. We can provide child-friendly food options and activities to keep younger participants engaged.",
+          "Yes, the Iwatayama Monkey Park provides a safe environment to observe the macaques. The monkeys are wild but accustomed to visitors. Park staff monitor the area, and rules are in place to ensure both visitor and monkey safety. You'll be able to feed them from inside a designated building (food available for purchase) while they remain outside, creating a safe barrier.",
+      },
+    ],
+  },
+  {
+    title: "Samurai & Ninja Experience",
+    description:
+      "Step into feudal Japan with an immersive martial arts experience learning authentic samurai sword techniques and ninja stealth skills from trained masters, with historical context and full costume.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
+    images: [
+      "/images/tours/kyoto/samurai-experience.jpg",
+      "/images/tours/kyoto/ninja-training.jpg",
+    ],
+    duration: "3 hours",
+    price: "$115",
+    rating: 4.8,
+    tags: ["Samurai", "Martial Arts", "Cultural"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "Kyoto Samurai & Ninja Museum, 761-2 Minamiseihan-cho, Karasuma-dori, Kyoto 600-8015",
+      coordinates: {
+        latitude: 35.0015,
+        longitude: 135.7581,
+      },
+      instructions:
+        "Meet at the main entrance to the Samurai & Ninja Museum. Look for staff member in traditional Japanese clothing.",
+      contactNumber: "+81 75-123-4571",
+      contactEmail: "samurai@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-25",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Learn authentic samurai sword techniques from trained martial artists",
+      "Practice ninja stealth movements, star throwing, and blowgun skills",
+      "Wear full traditional samurai armor and ninja garb for an immersive experience",
+      "Discover the historical context and philosophy behind these warrior traditions",
+      "Take home professional photos of your experience in full costume",
+    ],
+
+    inclusions: [
+      "Professional martial arts instructors",
+      "All equipment including training swords and ninja tools",
+      "Full costume rental (samurai armor and ninja outfit)",
+      "Museum entrance fee with guided tour",
+      "Digital photos of your experience",
+      "Traditional Japanese tea ceremony to conclude",
+      "Samurai and ninja history guidebook",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional costume rentals beyond included options",
+      "Premium photo packages (available for purchase)",
+      "Personal souvenirs from museum shop",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "13:00 - Welcome and introduction to samurai and ninja history",
+      "13:15 - Museum tour with explanation of authentic artifacts",
+      "13:45 - Change into samurai costume with assistance",
+      "14:00 - Learn samurai sword techniques and philosophy",
+      "14:30 - Practice samurai movements and poses",
+      "14:45 - Change into ninja attire",
+      "15:00 - Ninja training including stealth movements and weapon techniques",
+      "15:30 - Photo session in full costume with professional backdrop",
+      "15:45 - Traditional Japanese tea ceremony experience",
+      "16:00 - Tour conclusion with presentation of digital photos",
+    ],
+
+    faqs: [
+      {
+        question: "Do I need martial arts experience for this activity?",
+        answer:
+          "No prior experience is necessary. Our instructors adapt the sessions for all skill and fitness levels, ensuring everyone can participate safely while learning authentic techniques. The focus is on basic movements, proper form, and understanding the historical context rather than advanced martial arts.",
       },
       {
-        question: "Do I need to book in advance?",
+        question: "Is this experience suitable for children?",
         answer:
-          "Yes, we recommend booking at least 24 hours in advance to secure your spot and allow us to prepare for any dietary restrictions.",
+          "Yes, this is a family-friendly activity suitable for children 6 and older. We provide appropriate-sized equipment and costumes for younger participants, and instructors adjust the training to be fun and safe for all ages. Children particularly enjoy the ninja training segment with its focus on stealth and coordination.",
+      },
+    ],
+  },
+  {
+    title: "Golden Pavilion & Zen Temple Cycling Tour",
+    description:
+      "Explore Kyoto's iconic temples by bicycle, including the dazzling Kinkaku-ji (Golden Pavilion), serene Ryoan-ji rock garden, and hidden zen temples off the tourist path, guided by a local with intimate knowledge of backstreets and scenic routes.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
+    images: [
+      "/images/tours/kyoto/golden-pavilion.jpg",
+      "/images/tours/kyoto/cycling-kyoto.jpg",
+    ],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Cycling", "Temples", "Active"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "adventure",
+
+    meetingPoint: {
+      address:
+        "Kyoto Cycling Tour Project, 751-1 Higashi Oji-dori, Kyoto 605-0846",
+      coordinates: {
+        latitude: 35.0065,
+        longitude: 135.7709,
+      },
+      instructions:
+        "Meet at the Kyoto Cycling Tour Project shop. Look for the green bicycle sign and staff wearing cycling gear.",
+      contactNumber: "+81 75-123-4572",
+      contactEmail: "cycling@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-25",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Visit the stunning Kinkaku-ji (Golden Pavilion), one of Japan's most iconic temples",
+      "Experience the meditative Ryoan-ji rock garden, a masterpiece of Zen design",
+      "Explore hidden temple paths and local neighborhoods not accessible by tour buses",
+      "Cycle along the picturesque Kamogawa River on dedicated bike paths",
+      "Discover lesser-known temples with fewer tourists and authentic atmosphere",
+    ],
+
+    inclusions: [
+      "High-quality bicycle rental (including helmet)",
+      "English-speaking local cycling guide",
+      "Entrance fees to all temples (Kinkaku-ji, Ryoan-ji, and others)",
+      "Bottled water and light snack",
+      "Rain gear (if needed)",
+      "Cultural guidebook with temple history",
+      "Small group size (maximum 8 riders)",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Lunch (stop at local restaurant, pay directly)",
+      "Additional food and beverages",
+      "Personal accident insurance (optional)",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "08:30 - Meet at bicycle shop for fitting and safety briefing",
+      "09:00 - Begin cycling through scenic Kyoto neighborhoods",
+      "09:45 - Arrive at Kinkaku-ji (Golden Pavilion) for guided visit",
+      "10:30 - Cycle to Ryoan-ji Temple through backstreets",
+      "11:15 - Guided meditation at the famous rock garden",
+      "12:00 - Cycle to local lunch spot for optional meal",
+      "13:00 - Continue to hidden Zen temples off tourist routes",
+      "14:00 - Ride along Kamogawa River on dedicated cycling paths",
+      "14:30 - Visit final temple with special garden access",
+      "15:00 - Return to bicycle shop via scenic route",
+    ],
+
+    faqs: [
+      {
+        question: "How difficult is the cycling route?",
+        answer:
+          "This tour follows primarily flat terrain with occasional gentle slopes. We ride at a leisurely pace suitable for anyone comfortable on a bicycle, and the total distance is approximately 15 km (9 miles) with plenty of stops. The route uses dedicated cycling paths and quiet backstreets to avoid heavy traffic. Electric-assist bicycles are available upon request for an additional fee.",
       },
       {
-        question: "What should I wear?",
+        question: "What happens if it rains?",
         answer:
-          "Dress comfortably for walking! Kyoto's streets are mostly flat but can be crowded, so comfortable shoes are recommended. The weather can vary, so check the forecast before your tour.",
+          "The tour operates in light rain with rain gear provided. In case of heavy rain, we offer the option to reschedule or receive a full refund. Alternatively, we can provide a modified tour using public transportation to visit the same temples while keeping you dry.",
+      },
+    ],
+  },
+  {
+    title: "Kyoto Evening Food & Sake Adventure",
+    description:
+      "Discover Kyoto's vibrant nightlife with a local guide who will take you to authentic izakayas, hidden sake bars, and street food vendors for an unforgettable evening of culinary exploration.",
+    city: "Kyoto",
+    country: "Japan",
+    region: "Kansai",
+    images: [
+      "/images/tours/kyoto/izakaya-dining.jpg",
+      "/images/tours/kyoto/sake-tasting.jpg",
+    ],
+    duration: "4 hours",
+    price: "$140",
+    rating: 4.8,
+    tags: ["Food", "Nightlife", "Sake"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+
+    meetingPoint: {
+      address: "Kawaramachi Station, Exit 5, Kyoto 600-8001",
+      coordinates: {
+        latitude: 35.0042,
+        longitude: 135.7685,
+      },
+      instructions:
+        "Meet outside Exit 5 of Kawaramachi Station. Your guide will be holding a lantern with the Paragon Trails logo.",
+      contactNumber: "+81 75-123-4573",
+      contactEmail: "nightfood@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Experience authentic izakaya dining at local favorites not in guidebooks",
+      "Taste premium sake with expert guidance on varieties and brewing methods",
+      "Sample a wide range of Japanese specialties from street food to haute cuisine",
+      "Explore Pontocho Alley and Kiyamachi Street's hidden food establishments",
+      "Meet local chefs and sake brewers for insider perspectives",
+    ],
+
+    inclusions: [
+      "Food tastings at 4-5 different establishments (equivalent to full dinner)",
+      "Premium sake tasting flight (3 varieties)",
+      "One additional alcoholic or non-alcoholic beverage of choice",
+      "English-speaking food and sake expert guide",
+      "All food and sake establishment cover charges",
+      "Small group size (maximum 8 participants)",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and drinks beyond those included",
+      "Transportation during tour (all locations within walking distance)",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "17:30 - Meet at Kawaramachi Station for introductions",
+      "17:45 - Walk to first venue: traditional street food stall for quick bites",
+      "18:15 - Visit local standing bar for first sake tasting with appetizers",
+      "19:00 - Continue to hidden izakaya for signature Kyoto dishes",
+      "20:00 - Explore Pontocho Alley with stories of geisha traditions",
+      "20:30 - Premium sake tasting at specialist sake bar with food pairings",
+      "21:15 - Final stop for dessert and nightcap",
+      "21:30 - Tour concludes with recommendations for continuation",
+    ],
+
+    faqs: [
+      {
+        question: "How much food is included?",
+        answer:
+          "The tour includes a substantial amount of food equivalent to a full dinner. You'll sample 8-10 different dishes across multiple venues, ranging from street food snacks to izakaya classics and specialty items. The sake tastings include three premium varieties paired with appropriate foods. Come hungry!",
+      },
+      {
+        question: "Is this tour suitable for non-drinkers?",
+        answer:
+          "Absolutely! While sake tasting is a featured component, non-alcoholic alternatives are available at each stop. The food experience is comprehensive regardless of whether you drink alcohol. Please inform us when booking if you prefer non-alcoholic options so we can prepare accordingly.",
       },
     ],
   },

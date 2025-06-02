@@ -2,9 +2,9 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const losAngelesTours: Tour[] = [
   {
-    title: "VIP Hollywood & Celebrity Homes Tour",
+    title: "Hollywood Behind-the-Scenes & Celebrity Homes",
     description:
-      "Get an insider's view of Hollywood, the Walk of Fame, and exclusive Beverly Hills neighborhoods where the stars live.",
+      "Discover the real Hollywood with exclusive access to historic studios, iconic filming locations, and the luxurious neighborhoods where the stars call home, guided by an industry insider with personal anecdotes.",
     city: "Los Angeles",
     country: "United States",
     state: "California",
@@ -14,108 +14,259 @@ export const losAngelesTours: Tour[] = [
       "/images/tours/los-angeles/beverly-hills.jpg",
     ],
     duration: "5 hours",
-    price: "$89",
+    price: "$95",
     rating: 4.7,
-    tags: ["Celebrity", "Hollywood", "Luxury"],
+    tags: ["Hollywood", "Celebrity", "Film Industry"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "luxury",
+    tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "TCL Chinese Theatre, 6925 Hollywood Blvd, Los Angeles, CA 90028",
+      coordinates: {
+        latitude: 34.102,
+        longitude: -118.341,
+      },
+      instructions:
+        "Meet in front of the main entrance to the TCL Chinese Theatre on Hollywood Boulevard. Your guide will be holding a star-shaped sign with 'Hollywood Insider Tour' written on it.",
+      contactNumber: "+1 323-555-1234",
+      contactEmail: "hollywood@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
+    ],
+
+    highlights: [
+      "Special access to a working film or television studio (subject to production schedule)",
+      "Drive through exclusive Beverly Hills and Bel Air neighborhoods with celebrity home viewings",
+      "Visit famous filming locations from classic and contemporary movies",
+      "Photo opportunity with the Hollywood Sign from an exclusive vantage point",
+      "Walk of Fame exploration with insider stories about the stars and ceremonies",
+    ],
+
+    inclusions: [
+      "Transportation in air-conditioned vehicle with WiFi",
+      "Professional guide with entertainment industry experience",
+      "Studio backlot access (production schedule permitting)",
+      "Bottled water and snacks",
+      "Hollywood history guidebook",
+      "Souvenir Hollywood map with celebrity home locations",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Meals and additional beverages",
+      "Gratuities for guide and driver",
+      "Studio tour admission (if not included in the day's itinerary)",
+      "Entry to additional attractions",
+    ],
+
+    itinerary: [
+      "10:00 - Meet at TCL Chinese Theatre for introduction",
+      "10:15 - Walk of Fame exploration with Hollywood history",
+      "10:45 - Visit to historic Dolby Theatre (home of the Academy Awards)",
+      "11:15 - Departure by vehicle for celebrity neighborhoods tour",
+      "11:45 - Drive through Beverly Hills with Rodeo Drive stop",
+      "12:30 - Lunch break in Beverly Hills (meal not included)",
+      "13:30 - Continue to Bel Air for exclusive mansion viewing",
+      "14:15 - Visit to special Hollywood Sign viewpoint for photos",
+      "14:45 - Behind-the-scenes studio experience or iconic film locations",
+      "15:30 - Return to original meeting point with time for questions",
+    ],
+
     faqs: [
       {
-        question: "Will we see celebrities during the tour?",
+        question: "Will we actually see celebrities during the tour?",
         answer:
-          "While celebrity sightings are possible, they cannot be guaranteed. Our guides know the popular spots where celebrities often visit, increasing your chances.",
+          "While we cannot guarantee celebrity sightings as their schedules are unpredictable, our guides know the popular local spots frequented by stars. We time our visits to maximize chances of sightings, especially during regular filming seasons. Many guests do spot celebrities, particularly in areas like Beverly Hills and studio lots, but each tour experience will vary.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "How close can we get to the celebrity homes?",
         answer:
-          "Yes, this tour is family-friendly and suitable for all ages. Children will enjoy the fun of spotting celebrity homes and learning about Hollywood history.",
+          "Our tour observes all privacy laws and neighborhood regulations while providing the best possible views of celebrity properties. In most cases, you'll see the front gates, driveways, and sometimes portions of the homes from public roads. Our guides provide details about the properties and their famous residents, enhancing the experience with insider information and historical context.",
+      },
+      {
+        question: "Is photography allowed throughout the tour?",
+        answer:
+          "Photography is permitted throughout most of the tour, including at the Hollywood Sign viewpoint and along the Walk of Fame. However, photography may be restricted in certain studio areas due to active production. Your guide will clearly indicate when photography is not permitted. We recommend bringing a camera with zoom capability for better views of celebrity homes.",
       },
     ],
   },
   {
-    title: "California Beach Culture & Surfing Lesson",
+    title: "Coastal Los Angeles: Venice Beach & Santa Monica",
     description:
-      "Experience the iconic beach lifestyle of Southern California with a private surfing lesson and tour of Venice Beach, Santa Monica, and Malibu.",
+      "Experience LA's iconic beach culture with a guided exploration of Venice's artistic spirit, Santa Monica's classic pier, and the stunning coastal scenery that defines Southern California living.",
     city: "Los Angeles",
     country: "United States",
     state: "California",
     region: "Southern California",
     images: [
-      "/images/tours/los-angeles/surfing-lesson.jpg",
       "/images/tours/los-angeles/venice-beach.jpg",
+      "/images/tours/los-angeles/santa-monica-pier.jpg",
     ],
-    duration: "6 hours",
-    price: "$120",
-    rating: 4.9,
-    tags: ["Beach", "Surfing", "Active"],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.6,
+    tags: ["Beach", "Culture", "Outdoor"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Do I need previous surfing experience?",
-        answer:
-          "No experience necessary! Our instructors are skilled at teaching beginners. Basic swimming ability is required for safety.",
-      },
-      {
-        question: "What should I wear for the surfing lesson?",
-        answer:
-          "Wear a swimsuit or board shorts, and we provide wetsuits if needed. Don't forget sunscreen and a towel!",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly. Children aged 8 and up can participate in the surfing lesson with parental supervision.",
-      },
-    ],
-  },
-  {
-    title: "Los Angeles Art Walk & Gallery Tour",
-    description:
-      "Explore LA's vibrant art scene with a guided tour of the Arts District, featuring street art, contemporary galleries, and local artist studios.",
-    city: "Los Angeles",
-    country: "United States",
-    state: "California",
-    region: "Southern California",
-    images: [
-      "/images/tours/los-angeles/art-district.jpg",
-      "/images/tours/los-angeles/street-art.jpg",
-    ],
-    duration: "4 hours",
-    price: "$65",
-    rating: 4.8,
-    tags: ["Art", "Culture", "Walking Tour"],
+    tourCategoryId: "nature",
 
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Venice Beach Boardwalk, 1800 Ocean Front Walk, Venice, CA 90291",
+      coordinates: {
+        latitude: 33.985,
+        longitude: -118.4695,
+      },
+      instructions:
+        "Meet at the Venice Beach sign at the beginning of the Boardwalk near Windward Avenue. Your guide will be wearing a blue hat with 'Coastal LA Tour' written on it.",
+      contactNumber: "+1 310-555-2345",
+      contactEmail: "beachtour@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
+    ],
+
+    highlights: [
+      "Stroll Venice Beach's famous Boardwalk with its eclectic street performers and vendors",
+      "Explore the picturesque Venice Canals inspired by their Italian namesake",
+      "Visit Muscle Beach, skateboard parks, and street art installations",
+      "Ride along the beach bike path between Venice and Santa Monica",
+      "Enjoy free time on the historic Santa Monica Pier with its iconic Ferris wheel",
+    ],
+
+    inclusions: [
+      "Professional local guide with knowledge of beach culture and history",
+      "Bicycle rental for beach path ride (or electric scooter if preferred)",
+      "Bottled water and light snack",
+      "Sunscreen and beach essentials",
+      "Santa Monica Pier Ferris wheel ticket",
+      "Photography service at scenic viewpoints",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Meals and additional beverages",
+      "Gratuities",
+      "Additional attraction tickets beyond included Ferris wheel",
+      "Personal shopping expenses",
+    ],
+
+    itinerary: [
+      "10:00 - Meet at Venice Beach Boardwalk for introduction",
+      "10:15 - Guided walk through Venice Boardwalk with street performance viewing",
+      "10:45 - Visit Venice Muscle Beach and skateboard park",
+      "11:15 - Explore the charming Venice Canals residential area",
+      "11:45 - Bicycle/scooter fitting and safety briefing",
+      "12:00 - Scenic ride along beach bike path toward Santa Monica",
+      "12:30 - Arrive at Santa Monica Pier with guide introduction",
+      "12:45 - Free time to explore the pier and enjoy included Ferris wheel ride",
+      "13:30 - Optional group photo at Pacific Park sign",
+      "13:45 - Bicycle/scooter return and tour conclusion with recommendations",
+    ],
+
     faqs: [
       {
-        question: "Will we visit any indoor galleries?",
+        question: "Do I need to know how to ride a bicycle?",
         answer:
-          "Yes, the tour includes visits to several contemporary art galleries and artist studios in the Arts District.",
+          "Basic cycling ability is helpful for the beach path portion, but we offer alternatives if you're not comfortable cycling. You can choose an electric scooter instead, or we can arrange to walk this portion of the tour. The beach path is flat and easy to navigate, making it suitable for casual riders.",
       },
       {
-        question: "What should I wear for the walk?",
+        question: "What should I wear for this tour?",
         answer:
-          "Wear comfortable walking shoes and dress for the weather. We recommend bringing a water bottle and sunscreen.",
+          "We recommend comfortable clothing suitable for the beach environment. Wear layers as coastal weather can change, and bring sunglasses, hat, and comfortable walking shoes. If you plan to dip your feet in the ocean, bring a small towel. Sunscreen is provided, but apply before the tour if you have a preferred brand.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive art experiences.",
+          "Yes, this tour is family-friendly and suitable for children of all ages. Kids especially enjoy the Santa Monica Pier attractions and beach activities. We provide appropriate-sized bicycles or alternative transportation for children. Please specify ages when booking so we can prepare accordingly.",
       },
     ],
   },
+  // Additional tours would follow this pattern
 ];
 
 export default losAngelesTours;

@@ -22,6 +22,72 @@ export const jaipurTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
+
+    meetingPoint: {
+      address: "Trident Hotel, Amber Fort Road, Jaipur 302002",
+      coordinates: {
+        latitude: 26.9239,
+        longitude: 75.8267,
+      },
+      instructions:
+        "Meet at the hotel lobby. Your guide will be holding a sign with your name and 'Paragon Trails' logo.",
+      contactNumber: "+91 98765 43210",
+      contactEmail: "jaipur@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-22",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
+    ],
+
+    highlights: [
+      "Jeep ride up to the magnificent hilltop Amber Fort complex",
+      "Guided tour of Amber Fort's mirrored halls and artistic courtyards",
+      "Exclusive access to private royal apartments in City Palace not open to regular visitors",
+      "Photo opportunity at the iconic Hawa Mahal (Palace of Winds)",
+      "Traditional Rajasthani dinner with folk music and dance performances",
+    ],
+
+    inclusions: [
+      "Professional English-speaking guide with royal heritage expertise",
+      "All monument entrance fees",
+      "Jeep ride to Amber Fort",
+      "Bottled water throughout the tour",
+      "Traditional Rajasthani welcome with flower garlands",
+      "Gourmet dinner with folk performance",
+      "Private air-conditioned vehicle with professional driver",
+    ],
+
+    exclusions: [
+      "Camera fees at certain monuments",
+      "Alcoholic beverages",
+      "Personal expenses and shopping",
+      "Tips and gratuities",
+      "Anything not mentioned in inclusions",
+    ],
+
+    itinerary: [
+      "09:00 - Meet guide at hotel and transfer to Amber Fort",
+      "09:45 - Jeep ride up to Amber Fort",
+      "10:00 - Guided exploration of Amber Fort's four courtyards and royal chambers",
+      "12:30 - Visit to Jal Mahal (Water Palace) for photos and historical context",
+      "13:30 - Lunch at heritage restaurant featuring Rajasthani cuisine",
+      "15:00 - City Palace tour with special access to royal apartments",
+      "16:30 - Photo stop at Hawa Mahal (Palace of Winds)",
+      "17:30 - Free time for shopping at royal crafts emporium",
+      "19:00 - Traditional dinner with folk performances",
+      "21:00 - Return to hotel",
+    ],
+
     faqs: [
       {
         question: "Is the elephant ride to Amber Fort ethical?",
@@ -56,6 +122,72 @@ export const jaipurTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "Anokhi Museum of Hand Printing, Kheri Gate, Amber, Jaipur 302028",
+      coordinates: {
+        latitude: 26.9853,
+        longitude: 75.8519,
+      },
+      instructions:
+        "Meet at the museum entrance. Look for your guide holding a blue fabric banner with block printed patterns.",
+      contactNumber: "+91 98765 43211",
+      contactEmail: "artisans@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-23",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-13",
+      "2024-01-20",
+      "2024-01-27",
+      "2024-02-03",
+      "2024-02-10",
+      "2024-02-17",
+      "2024-02-24",
+    ],
+
+    highlights: [
+      "Visit traditional block printing workshop with hands-on printing experience",
+      "Meet master blue pottery artisans and try your hand at this ancient craft",
+      "Observe gemstone cutting and traditional jewelry making techniques",
+      "Learn about natural dyeing processes using regional plants and minerals",
+      "Take home your own handcrafted souvenirs from each workshop",
+    ],
+
+    inclusions: [
+      "Craft specialist guide",
+      "All workshop materials and tools",
+      "Traditional chai tea at each workshop visit",
+      "Your handmade creations to take home",
+      "Transportation between workshops",
+      "Light vegetarian lunch at an artisan's home",
+      "Bottled water and refreshments",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional purchases beyond the included craft activities",
+      "Tips and gratuities",
+      "Personal expenses",
+    ],
+
+    itinerary: [
+      "09:00 - Meet at Anokhi Museum for introduction to textile traditions",
+      "09:45 - Transfer to block printing workshop in Sanganer",
+      "10:15 - Block printing demonstration and hands-on experience",
+      "11:30 - Visit to blue pottery workshop",
+      "12:30 - Try your hand at blue pottery crafting",
+      "13:30 - Light lunch at artisan's home",
+      "14:30 - Natural dyeing demonstration with local materials",
+      "15:30 - Visit to gemstone cutting workshop",
+      "16:30 - Learn basic jewelry making techniques",
+      "17:00 - Tour concludes with certificate of participation",
+    ],
+
     faqs: [
       {
         question: "Can we try some of the crafts ourselves?",
@@ -90,6 +222,69 @@ export const jaipurTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
+
+    meetingPoint: {
+      address: "Hawa Mahal Road, near Windview Café, Jaipur 302002",
+      coordinates: {
+        latitude: 26.9239,
+        longitude: 75.8267,
+      },
+      instructions:
+        "Meet outside Windview Café across from Hawa Mahal. Your guide will be wearing a traditional Rajasthani turban.",
+      contactNumber: "+91 98765 43212",
+      contactEmail: "hiddenjaipur@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-17",
+      "2023-12-24",
+      "2023-12-31",
+      "2024-01-07",
+      "2024-01-14",
+      "2024-01-21",
+      "2024-01-28",
+      "2024-02-04",
+      "2024-02-11",
+      "2024-02-18",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Explore winding lanes of old Jaipur rarely visited by tourists",
+      "Visit hidden neighborhood temples with local significance",
+      "Shop at authentic local markets where residents buy daily supplies",
+      "Meet local artisans working from home workshops",
+      "Experience traditional chai preparation at a family-run tea stall",
+    ],
+
+    inclusions: [
+      "Local expert guide",
+      "Chai and snacks at local tea shop",
+      "Street food tastings (vegetarian options available)",
+      "Rickshaw ride through narrow lanes",
+      "Blessing ceremony at neighborhood temple",
+      "Bottled water",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Personal purchases at markets",
+      "Tips and gratuities",
+      "Additional food beyond included tastings",
+    ],
+
+    itinerary: [
+      "15:00 - Meet guide at Windview Café and orientation walk",
+      "15:15 - Explore hidden lanes of Chandi Chowk neighborhood",
+      "15:45 - Visit local community temple with blessing ceremony",
+      "16:15 - Rickshaw ride through narrow streets to crafts area",
+      "16:45 - Meet home-based artisans working on traditional crafts",
+      "17:30 - Visit authentic spice and flower market",
+      "18:00 - Stop at local chai shop for tea preparation demonstration",
+      "18:30 - Street food sampling at residents' favorite stalls",
+      "19:00 - Tour concludes with recommendations for dinner",
+    ],
+
     faqs: [
       {
         question: "Will we visit any tourist attractions?",
@@ -129,6 +324,70 @@ export const jaipurTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+
+    meetingPoint: {
+      address: "Laxmi Misthan Bhandar (LMB), Johari Bazaar, Jaipur 302003",
+      coordinates: {
+        latitude: 26.9242,
+        longitude: 75.8242,
+      },
+      instructions:
+        "Meet in front of LMB Sweet Shop in Johari Bazaar. Your guide will be holding a food tour sign.",
+      contactNumber: "+91 98765 43214",
+      contactEmail: "jaipurfood@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-18",
+      "2023-12-22",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
+    ],
+
+    highlights: [
+      "Sample authentic Dal Baati Churma, Rajasthan's signature dish",
+      "Taste royal recipes once served in the maharaja's palace",
+      "Try traditional sweets made with century-old recipes",
+      "Learn about the influences of Rajput, Mughal, and local cultures on Jaipur cuisine",
+      "Visit both famous establishments and hidden family-run eateries",
+    ],
+
+    inclusions: [
+      "Culinary expert guide",
+      "8-10 food tastings (enough for a full meal)",
+      "One traditional beverage (lassi or masala chai)",
+      "All food and drink samples",
+      "Walking tour between food stops",
+      "Bottled water",
+      "Food guide booklet with recipes and recommendations",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Alcoholic beverages",
+      "Personal purchases beyond included tastings",
+      "Tips and gratuities",
+    ],
+
+    itinerary: [
+      "16:00 - Meet at LMB for introduction and first sweet tasting",
+      "16:30 - Walk through Johari Bazaar to traditional lassi shop",
+      "17:00 - Visit family-run restaurant for Dal Baati Churma tasting",
+      "17:45 - Explore spice market with tastings of local ingredients",
+      "18:30 - Sample street food specialties in Choti Chaupar area",
+      "19:15 - Visit royal heritage restaurant for traditional Rajput dishes",
+      "20:00 - Conclude with ceremonial pan and digestif at historic venue",
+      "21:00 - Tour ends with recommendations for dinner or drinks",
+    ],
+
     faqs: [
       {
         question: "Will we try street food during the tour?",

@@ -44,6 +44,7 @@ export const jamaicaTours: Tour[] = [
           "Yes, this tour is family-friendly. Children will enjoy learning about coffee production and tasting the delicious brews. However, please note that the plantation's terrain may not be stroller-friendly, so younger children may need to be carried.",
       },
     ],
+    
   },
   {
     title: "Secret Waterfalls & Hidden Lagoons",
