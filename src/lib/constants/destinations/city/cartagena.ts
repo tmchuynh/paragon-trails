@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const cartagenaBolivarColombia: Attraction[] = [
+export const cartagenaBolivarDepartmentColombia: Attraction[] = [
   {
     title: "Walled City (Ciudad Amurallada)",
     description:

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const casablancaCasablancaSettatMorocco: Attraction[] = [
+export const casablancaCasablancasettatMorocco: Attraction[] = [
   {
     title: "Hassan II Mosque",
     description:

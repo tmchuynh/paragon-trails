@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
+export const atlasMountainsMarrakechsafiMorocco: Attraction[] = [
   {
     title: "Toubkal National Park",
     description:

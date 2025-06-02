@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const boraBoraScietyIslandsFrenchPolynesia: Attraction[] = [
+export const boraBoraSocietyIslandsFrenchPolynesia: Attraction[] = [
   {
     title: "Matira Beach",
     description:

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const baliIndonesiaIndonesia: Attraction[] = [
+export const baliBaliIndonesia: Attraction[] = [
   {
     title: "Ubud Monkey Forest",
     description:

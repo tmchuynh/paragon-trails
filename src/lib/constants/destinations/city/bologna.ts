@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const bolognaEmiliaRomagnaItaly: Attraction[] = [
+export const bolognaEmiliaromagnaItaly: Attraction[] = [
   {
     title: "Piazza Maggiore",
     description:

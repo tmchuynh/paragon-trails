@@ -106,4 +106,24 @@ export const barcelonaCataloniaSpain: Attraction[] = [
     isWheelchairAccessible: true,
     isHistorical: false,
   },
+  {
+    title: "La Boqueria Market",
+    description:
+      "A bustling market offering a wide variety of fresh produce, meats, seafood, and local delicacies.",
+    imageUrl: "https://plus.unsplash.com/la-boqueria-market.jpg",
+    location: "La Rambla, 91, 08001 Barcelona, Spain",
+    openingHours: "8 AM - 8:30 PM",
+    entryFee: "Free",
+    priceRange: "free",
+    priceCategory: "free",
+    timeOfDay: "all day",
+    rating: 4.5,
+    tags: ["local", "cultural", "food"],
+    accessibilityFeatures: ["wheelchair accessible"],
+    isPopular: true,
+
+    isFree: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: true,
+  },
 ];

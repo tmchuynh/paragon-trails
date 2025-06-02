@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const belgradeBelgradeSerbia: Attraction[] = [
+export const belgradeCentralSerbiaSerbia: Attraction[] = [
   {
     title: "Belgrade Fortress (Kalemegdan)",
     description:

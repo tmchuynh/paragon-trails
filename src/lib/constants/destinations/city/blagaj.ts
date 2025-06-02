@@ -89,4 +89,26 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       isWheelchairAccessible: true,
       isHistorical: false,
     },
+    {
+      title: "Blagaj Cultural Festival",
+      description:
+        "An annual festival celebrating local culture with traditional music, dance, and crafts, held in the scenic surroundings of Blagaj.",
+      imageUrl: "https://plus.unsplash.com/blagaj-cultural-festival.jpg",
+      location: "Blagaj, Bosnia and Herzegovina",
+      openingHours: "Varies by event",
+      entryFee: "Free",
+      priceCategory: "free",
+      priceRange: "free",
+      entryFeeCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: ["cultural", "local", "art-and-music"],
+      accessibilityFeatures: ["limited accessibility"],
+      isPopular: true,
+
+      isFree: true,
+      isPetFriendly: true,
+      isWheelchairAccessible: false,
+      isHistorical: false,
+    },
   ];

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const chefchaouenTangerTetouanAlHoceimaMorocco: Attraction[] = [
+export const chefchaouenTangertetouanalHoceimaMorocco: Attraction[] = [
   {
     title: "Chefchaouen Medina",
     description:
