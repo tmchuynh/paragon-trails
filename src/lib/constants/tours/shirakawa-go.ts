@@ -1,231 +1,277 @@
 import { Tour } from "@/lib/interfaces/services/tours";
 
-export const shirakawagoTours: Tour[] = [
+export const shirakawaGoTours: Tour[] = [
   {
-    title: "Historic Gassho-Zukuri Farmhouse Experience",
+    title: "Traditional Gassho-zukuri Village Tour",
     description:
-      "Step back in time with an immersive visit to Shirakawa-go's UNESCO-listed traditional farmhouses. Explore these architectural marvels with distinctive steep thatched roofs designed to withstand heavy snowfall, and spend the night in an authentic gassho-style home with a local family.",
+      "Experience Japan's UNESCO World Heritage site featuring unique thatched-roof farmhouses that have withstood heavy snowfall for centuries. This guided tour explores the history, architecture, and traditional way of life in this remote mountain village.",
+    city: "Shirakawa-go",
+    country: "Japan",
+    region: "Gifu Prefecture",
     images: [
-      "/images/tours/shirakawa-go/gassho-houses.jpg",
-      "/images/tours/shirakawa-go/farmhouse-interior.jpg",
-    ],
-    duration: "3 days",
-    price: "$175",
-    rating: 4.9,
-    tags: ["UNESCO Heritage", "Traditional Architecture", "Homestay"],
-
-    isHistorical: true,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "historical",
-  },
-  {
-    title: "Winter Illumination & Snow Festival Tour",
-    description:
-      "Experience the magical winter illumination event when Shirakawa-go's historic village is lit up against a snowy backdrop, creating a scene straight from a fairy tale. View the village from the special observation deck and participate in traditional winter activities and festival celebrations.",
-    images: [
-      "/images/tours/shirakawa-go/winter-illumination.jpg",
-      "/images/tours/shirakawa-go/snow-festival.jpg",
-    ],
-    duration: "8 hours",
-    price: "$120",
-    rating: 5.0,
-    tags: ["Winter", "Festival", "Illumination"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "When exactly does the winter illumination take place?",
-        answer:
-          "The special illumination events typically occur on selected evenings in January and February, usually on Sundays and during Japanese holidays. Dates are confirmed by the village council each autumn for the coming winter season. Our tour is specifically scheduled to coincide with these magical evenings when the entire historic village is illuminated against the snow. As this is an extremely popular event, we secure access well in advance and provide special transportation to avoid the limited parking and traffic restrictions.",
-      },
-    ],
-  },
-  {
-    title: "Traditional Craft Workshop & Cultural Heritage",
-    description:
-      "Learn traditional Japanese crafts practiced for generations in this mountain village. Master the basics of washi paper making, try your hand at sarubobo doll creation, or learn fabric dyeing techniques using traditional plant-based pigments under the guidance of local artisans.",
-    images: [
-      "/images/tours/shirakawa-go/craft-workshop.jpg",
-      "/images/tours/shirakawa-go/washi-making.jpg",
-    ],
-    duration: "5 hours",
-    price: "$85",
-    rating: 4.7,
-    tags: ["Crafts", "Traditional Arts", "Hands-on"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What craft will I get to make during the workshop?",
-        answer:
-          "When booking, you can select one of three traditional crafts: washi paper making, where you'll create decorative papers using traditional fiber techniques; sarubobo doll creation, crafting the faceless dolls that are traditional Hida region charms for good luck; or fabric dyeing using natural indigo and plant-based dyes with traditional stencil patterns. Each workshop is approximately 2 hours and you'll create a finished piece to take home as a souvenir.",
-      },
-    ],
-  },
-  {
-    title: "Shirakawa-go Photography Tour: Four Seasons",
-    description:
-      "Capture the stunning beauty of Shirakawa-go in your chosen season with a photography-focused tour led by a professional landscape photographer. Learn techniques specifically suited to the lighting and conditions of the village, whether blanketed in snow, surrounded by cherry blossoms, lush with summer greenery, or adorned with autumn foliage.",
-    images: [
-      "/images/tours/shirakawa-go/autumn-village.jpg",
-      "/images/tours/shirakawa-go/photography-viewpoint.jpg",
+      "/images/tours/shirakawa-go/gassho-village.jpg",
+      "/images/tours/shirakawa-go/traditional-houses.jpg",
     ],
     duration: "4 hours",
-    price: "$95",
+    price: "$75",
+    rating: 4.9,
+    tags: ["UNESCO", "Traditional", "Cultural"],
+    meetingPoint: {
+      address: "Shirakawa-go Tourist Information Center, 337 Ogimachi, Shirakawa",
+      coordinates: {
+        latitude: 36.2599,
+        longitude: 136.9041,
+      },
+      instructions: "Meet outside the main entrance of the Shirakawa-go Tourist Information Center. Your guide will be holding a sign with 'Gassho Village Tour'.",
+      contactNumber: "+81 5769-6-1013",
+      contactEmail: "info@shirakawagotour.jp"
+    },
+    highlights: [
+      "Explore the UNESCO World Heritage village with its distinctive thatched-roof houses",
+      "Visit the Wada House, one of the largest traditional gassho-zukuri buildings open to the public",
+      "Learn about the unique community roof-thatching tradition that has preserved these structures for centuries",
+      "Enjoy panoramic views of the village from the Shiroyama Viewpoint"
+    ],
+    inclusions: [
+      "Professional English-speaking guide",
+      "Admission to Wada House and village museums",
+      "Traditional Japanese tea ceremony experience",
+      "Transportation to Shiroyama Viewpoint",
+      "Small group experience (maximum 8 people)"
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Meals and additional beverages",
+      "Souvenir purchases",
+      "Gratuities"
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Tourist Information Center and orientation",
+      "9:15 AM - Guided walk through the historic village",
+      "10:00 AM - Visit to Wada House and explanation of gassho-zukuri architecture",
+      "11:00 AM - Visit to Myozenji Temple and village museum",
+      "12:00 PM - Traditional tea ceremony and rest break",
+      "12:30 PM - Transportation to Shiroyama Viewpoint",
+      "1:00 PM - Return to the village center and tour conclusion"
+    ],
+    cancellationPolicy: "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before scheduled tour.",
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "When is the best time to visit Shirakawa-go?",
+        answer: "Each season offers a unique experience: winter (December-February) showcases the famous snow-covered thatched roofs; spring (April-May) features cherry blossoms; summer (June-August) offers lush green surroundings; and autumn (October-November) displays vibrant fall colors. Winter illumination events in January and February are particularly popular."
+      },
+      {
+        question: "Is photography allowed inside the historic houses?",
+        answer: "Photography is generally permitted in the village and outside the houses. Inside the Wada House and museums, some areas may have photography restrictions which your guide will clearly indicate. Flash photography is not permitted inside any of the historic structures."
+      },
+      {
+        question: "How much walking is involved?",
+        answer: "This tour involves approximately 2-3 km (1.2-1.8 miles) of walking on village paths that may be uneven in places. In winter, paths can be snowy or icy. Comfortable walking shoes are strongly recommended."
+      }
+    ],
+  },
+  {
+    title: "Gokayama and Shirakawa-go Photography Tour",
+    description:
+      "Capture the beauty of Japan's historic thatched-roof villages with this photography-focused tour spanning both Shirakawa-go and the lesser-visited Gokayama region, with expert guidance on the best angles and lighting.",
+    city: "Shirakawa-go",
+    country: "Japan",
+    region: "Gifu & Toyama Prefectures",
+    images: [
+      "/images/tours/shirakawa-go/photography-tour.jpg",
+      "/images/tours/shirakawa-go/gokayama-village.jpg",
+    ],
+    duration: "8 hours",
+    price: "$140",
     rating: 4.8,
-    tags: ["Photography", "Landscape", "Seasonal"],
-
-    isHistorical: false,
+    tags: ["Photography", "UNESCO", "Off the beaten path"],
+    meetingPoint: {
+      address: "Shirakawa-go Bus Terminal, 337 Ogimachi, Shirakawa",
+      coordinates: {
+        latitude: 36.2602,
+        longitude: 136.9045,
+      },
+      instructions: "Meet at the bus terminal parking lot. Your photography guide will be waiting with a sign reading 'Photo Tour'.",
+      contactNumber: "+81 5769-6-2345",
+      contactEmail: "photos@shirakawa-gokayama.com"
+    },
+    highlights: [
+      "Visit both famous Shirakawa-go and less crowded Gokayama villages",
+      "Photograph from special vantage points at optimal times of day",
+      "Learn composition techniques for capturing traditional architecture",
+      "Access to special locations normally off-limits to regular tourists"
+    ],
+    inclusions: [
+      "Professional photographer guide",
+      "Transportation between villages",
+      "Admission fees to all viewpoints and special photo locations",
+      "Permission arrangements for special photography access",
+      "Bottled water and light snacks"
+    ],
+    exclusions: [
+      "Camera equipment (bring your own)",
+      "Meals",
+      "Hotel pickup and drop-off",
+      "Gratuities"
+    ],
+    itinerary: [
+      "7:30 AM - Meet at Shirakawa-go Bus Terminal",
+      "7:45 AM - Drive to morning viewpoint for early light photography",
+      "8:30 AM - Village photography in Shirakawa-go when few tourists are present",
+      "10:30 AM - Travel to Gokayama region (Suganuma and Ainokura villages)",
+      "11:30 AM - Photography in less-visited Gokayama villages",
+      "1:00 PM - Lunch break at local restaurant (not included)",
+      "2:00 PM - Interior photography of selected houses with special permission",
+      "3:30 PM - Return to Shirakawa-go for late afternoon light",
+      "4:30 PM - Shiroyama Viewpoint for sunset/golden hour photography",
+      "5:30 PM - Tour conclusion at Shirakawa-go Bus Terminal"
+    ],
+    cancellationPolicy: "Full refund if canceled 72 hours in advance. 50% refund if canceled 48-72 hours in advance. No refund for cancellations less than 48 hours before scheduled tour. Alternative date offered in case of severe weather affecting photography conditions.",
+    isHistorical: true,
     isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "art-and-music",
     faqs: [
       {
-        question: "Which season is best for photography in Shirakawa-go?",
-        answer:
-          "Each season offers distinctive photographic opportunities: Winter (December-February) provides the classic snow-covered village scenes with dramatic lighting; Spring (April-May) features cherry blossoms and new greenery against the traditional houses; Summer (June-August) offers lush rice fields and vibrant blue skies; while Autumn (October-November) brings spectacular red and gold foliage. Our guide will take you to season-specific viewpoints and adjust techniques for the current lighting conditions. The tour operates year-round with seasonal adaptations.",
+        question: "What type of camera should I bring?",
+        answer: "This tour is suitable for all camera types from smartphones to professional DSLRs. For best results, we recommend a camera with manual settings and interchangeable lenses. A wide-angle lens (16-35mm equivalent) is useful for village scenes, while a medium telephoto (70-200mm equivalent) works well for details and distant landscapes. A tripod is recommended for low-light situations."
       },
-    ],
-  },
-  {
-    title: "Farm-to-Table Hida Cuisine Experience",
-    description:
-      "Discover the unique mountain cuisine of the Hida region with a hands-on culinary journey. Harvest seasonal ingredients from a local farm, learn traditional preservation techniques vital for mountain winters, and cook regional specialties like Hida beef, mountain vegetables, and hoba miso in a traditional irori hearth.",
-    images: [
-      "/images/tours/shirakawa-go/hida-beef.jpg",
-      "/images/tours/shirakawa-go/irori-cooking.jpg",
-    ],
-    duration: "6 hours",
-    price: "$110",
-    rating: 4.8,
-    tags: ["Culinary", "Farm Visit", "Cooking"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
       {
-        question: "What dishes will we prepare during the cooking class?",
-        answer:
-          "The menu changes seasonally but typically includes: Hoba miso (local miso grilled on a magnolia leaf), Hida beef preparation (premium local wagyu), seasonal mountain vegetable dishes, traditional pickles, and gohei mochi (pounded rice cakes with walnut sauce). Vegetarian options are available with advance notice. All cooking is done using traditional methods including the irori (sunken hearth) that forms the center of traditional gassho-zukuri houses. You'll receive recipe cards to recreate these dishes at home.",
+        question: "How does the Gokayama region differ from Shirakawa-go?",
+        answer: "While both regions feature traditional gassho-zukuri architecture, Gokayama's villages (particularly Ainokura and Suganuma) are smaller, less visited by tourists, and often considered more authentic. The houses in Gokayama tend to have steeper roof angles due to heavier snowfall in that region. From a photography perspective, Gokayama offers more intimate scenes and opportunities to capture village life without crowds."
       },
+      {
+        question: "What if weather conditions are poor?",
+        answer: "Photography is possible in various weather conditions, and foggy or snowy days can create atmospheric images. In case of heavy rain or severe weather that would significantly impact the quality of photography, we offer the option to reschedule or receive a partial refund. Your guide will make adjustments to the itinerary based on lighting conditions on the day."
+      }
     ],
   },
   {
-    title: "Hidden Villages Cycling Tour",
+    title: "Traditional Craft Workshop & Cultural Experience",
     description:
-      "Explore beyond Shirakawa-go to discover lesser-known traditional villages in the surrounding mountains. This guided bicycle tour follows scenic country roads to neighboring hamlets like Suganuma and Ainokura, which offer authentic rural experiences with fewer tourists.",
+      "Immerse yourself in Japanese traditional crafts with hands-on workshops in either washi paper making, mochi pounding, or sarubobo doll crafting, followed by a traditional lunch in a historic gassho-zukuri house.",
+    city: "Shirakawa-go",
+    country: "Japan",
+    region: "Gifu Prefecture",
     images: [
-      "/images/tours/shirakawa-go/countryside-cycling.jpg",
-      "/images/tours/shirakawa-go/hidden-village.jpg",
+      "/images/tours/shirakawa-go/craft-workshop.jpg",
+      "/images/tours/shirakawa-go/traditional-lunch.jpg",
     ],
-    duration: "7 hours",
+    duration: "5 hours",
     price: "$95",
-    rating: 4.6,
-    tags: ["Cycling", "Rural", "Off the Beaten Path"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "How difficult is the cycling route?",
-        answer:
-          "The route covers approximately 25km (15.5 miles) through rolling countryside with some moderate hills. We use comfortable hybrid bikes with appropriate gearing, and the pace is leisurely with many stops for sightseeing and photography. Basic cycling experience and average fitness are sufficient. For those concerned about the hills, we offer electric-assist bicycles for an additional fee (must be reserved in advance). This tour operates from April to November when roads are clear of snow.",
+    rating: 4.7,
+    tags: ["Crafts", "Hands-on", "Cultural"],
+    meetingPoint: {
+      address: "Shirakawa-go Heritage Center, 2499-1 Ogimachi, Shirakawa",
+      coordinates: {
+        latitude: 36.2576,
+        longitude: 136.9049,
       },
+      instructions: "Meet at the entrance of the Shirakawa-go Heritage Center. Your guide will be holding a sign with 'Craft Workshop Tour'.",
+      contactNumber: "+81 5769-6-1900",
+      contactEmail: "workshop@shirakawa-crafts.jp"
+    },
+    highlights: [
+      "Participate in a traditional craft workshop of your choice: washi papermaking, mochi pounding, or sarubobo doll making",
+      "Learn from local artisans who have preserved traditional techniques for generations",
+      "Enjoy an authentic homecooked multi-course lunch in a historic farmhouse",
+      "Take home your handmade craft as a personal souvenir"
     ],
-  },
-  {
-    title: "Shirakawa-go & Takayama Cultural Day Trip",
-    description:
-      "Combine a visit to Shirakawa-go's UNESCO World Heritage village with the beautifully preserved old town of Takayama. Explore traditional architecture, historic districts, local markets, and centuries-old traditions in these two complementary destinations that showcase rural Japan at its most authentic.",
-    images: [
-      "/images/tours/shirakawa-go/village-overview.jpg",
-      "/images/tours/shirakawa-go/takayama-old-town.jpg",
+    inclusions: [
+      "Professional English-speaking cultural guide",
+      "All materials for the craft workshop of your choice",
+      "Traditional Japanese lunch",
+      "Tea ceremony experience",
+      "Village walking tour"
     ],
-    duration: "10 hours",
-    price: "$135",
-    rating: 4.8,
-    tags: ["Day Trip", "Cultural"],
-
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional crafts beyond the selected workshop",
+      "Alcoholic beverages",
+      "Gratuities"
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Shirakawa-go Heritage Center",
+      "9:15 AM - Introduction to village crafts and history",
+      "9:45 AM - Begin craft workshop of choice with local artisan",
+      "11:30 AM - Complete craft project to take home",
+      "12:00 PM - Traditional lunch in historic farmhouse",
+      "1:30 PM - Tea ceremony experience",
+      "2:00 PM - Guided walk through village highlights",
+      "2:30 PM - Tour conclusion at Heritage Center"
+    ],
+    cancellationPolicy: "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the tour.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "How much time do we spend in each location?",
-        answer:
-          "We typically spend 2-3 hours exploring Shirakawa-go in the morning, including the open-air museum and key historic buildings, followed by 3-4 hours in Takayama's old town district in the afternoon. The exact timing can be adjusted based on group interests and seasonal factors like daylight hours. Transportation between sites takes approximately 50 minutes through scenic mountain roads. Lunch is included at a traditional restaurant serving local specialties.",
-      },
-    ],
-  },
-  {
-    title: "Shirakawa-go Festival & Folk Performance",
-    description:
-      "Coincide your visit with one of Shirakawa-go's traditional festivals or special folk performance days. Witness age-old rituals, traditional dances, music, and celebrations that have been preserved for generations in this remote mountain community.",
-    images: [
-      "/images/tours/shirakawa-go/doburoku-festival.jpg",
-      "/images/tours/shirakawa-go/traditional-dance.jpg",
-    ],
-    duration: "6 hours",
-    price: "$90",
-    rating: 4.9,
-    tags: ["Festival", "Performance", "Cultural"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "What festivals might be included in this tour?",
-        answer:
-          "The main festivals include: Doburoku Festival (mid-October) featuring sacred sake offerings, traditional lion dances, and folk performances; Shirakawa-go Hatsubon Dance (late August) with Buddhist rituals and ancestor memorial ceremonies; and the Spring/Autumn Fire Festival drills (June and November) demonstrating the village's traditional firefighting techniques - critical for preserving these wooden structures. We schedule this special tour to coincide with festival dates or regular folk performance days at the Gassho-zukuri Minkaen open-air museum.",
+        question: "Which craft workshop should I choose?",
+        answer: "Each workshop offers a different experience: Washi papermaking involves creating delicate Japanese paper using traditional fiber methods. Mochi pounding is an energetic, interactive experience making sweet rice cakes. Sarubobo doll making creates a traditional amulet unique to this region. All workshops are suitable for beginners, and your completed craft will be yours to keep."
       },
-    ],
-  },
-  {
-    title: "Shirakawa-go Nature Walks & Birdwatching",
-    description:
-      "Explore the stunning natural landscapes surrounding Shirakawa-go with a guided nature walk focusing on local flora and fauna. Ideal for birdwatchers, this tour takes you through diverse habitats where you can spot endemic species and learn about the region's ecology.",
-    images: [
-      "/images/tours/shirakawa-go/nature-walk.jpg",
-      "/images/tours/shirakawa-go/birdwatching.jpg",
-    ],
-    duration: "4 hours",
-    price: "$80",
-    rating: 4.7,
-    tags: ["Nature", "Birdwatching", "Ecology"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "wellness",
-    faqs: [
       {
-        question: "What kind of birds can we expect to see?",
-        answer:
-          "Depending on the season, you may spot Japanese white eyes, Japanese thrushes, Japanese grosbeaks, and various migratory species.  The area is also home to many endemic plants and trees, including the iconic Japanese cedar. Our guide will provide binoculars and field guides, and share insights into the local ecosystem, conservation efforts, and the importance of these habitats to Shirakawa-go's cultural heritage.",
+        question: "What will be served for lunch?",
+        answer: "Lunch features local specialties such as hoba miso (miso grilled on a magnolia leaf), sansai mountain vegetables, homemade tofu, and seasonal dishes. The meal is prepared by local families using traditional methods and ingredients. Vegetarian options are available with advance notice."
       },
+      {
+        question: "Is this workshop suitable for children?",
+        answer: "Yes, children aged 6 and above can participate in all workshops. The sarubobo doll making is particularly suitable for younger children. Parents should accompany children under 12 years old."
+      }
     ],
-  },
+  }
 ];
+
+export default shirakawaGoTours;

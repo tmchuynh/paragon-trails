@@ -2,240 +2,271 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const svanetiRegionTours: Tour[] = [
   {
-    title: "Medieval Tower Houses & Highland Villages",
+    title: "Svaneti Medieval Towers & High Mountain Villages",
     description:
-      "Explore Svaneti's UNESCO World Heritage villages with their distinctive medieval defensive towers that have guarded Caucasus mountain passes for over a thousand years. Visit the communities of Mestia and Ushguli while learning about the unique Svan culture that has preserved ancient Georgian traditions.",
+      "Explore Georgia's remote Svaneti region with its UNESCO-listed medieval defensive towers, ancient villages, and stunning high-mountain landscapes, accompanied by a local Svan guide.",
+    city: "Mestia",
+    country: "Georgia",
+    region: "Svaneti",
     images: [
-      "/images/tours/svaneti-region/tower-houses.jpg",
-      "/images/tours/svaneti-region/ushguli-village.jpg",
+      "/images/tours/svaneti/defensive-towers.jpg",
+      "/images/tours/svaneti/mountain-village.jpg",
     ],
-    duration: "7 hours",
-    price: "$195",
+    duration: "3 days",
+    price: "$390",
     rating: 4.9,
-    tags: ["Architecture", "Cultural"],
-
+    tags: ["Cultural", "Historical", "Mountains"],
+    meetingPoint: {
+      address: "Seti Square, Mestia 3200, Georgia",
+      coordinates: {
+        latitude: 43.0359,
+        longitude: 42.7236,
+      },
+      instructions: "Meet at the central square in Mestia near the Tourism Information Center. Your guide will be waiting with a 'Svaneti Tours' sign.",
+      contactNumber: "+995 598 12 34 56",
+      contactEmail: "info@svanetitours.ge"
+    },
+    highlights: [
+      "Visit UNESCO-protected medieval tower houses in Ushguli, Europe's highest permanently inhabited settlement",
+      "Stay with local families in traditional Svan homes",
+      "Hike to pristine alpine meadows with views of Mt. Ushba and surrounding glaciers",
+      "Experience authentic Svan culture, cuisine, and folk music"
+    ],
+    inclusions: [
+      "Professional local Svan guide with deep historical knowledge",
+      "2 nights accommodation in traditional guesthouses",
+      "All meals featuring authentic Svan cuisine",
+      "4x4 transportation between villages",
+      "Entry fees to museums and cultural sites",
+      "Folk music performance"
+    ],
+    exclusions: [
+      "Transportation to/from Mestia",
+      "Alcoholic beverages",
+      "Personal expenses and souvenirs",
+      "Travel insurance",
+      "Gratuities"
+    ],
+    itinerary: [
+      "Day 1: Meet in Mestia, visit Svaneti History Museum, explore Mestia towers, overnight in local guesthouse",
+      "Day 2: 4x4 journey to Ushguli village complex, hike to Queen Tamar's tower, visit ancient churches, overnight in Ushguli family home",
+      "Day 3: Morning hike to Shkhara Glacier viewpoint, return to Ushguli for lunch, afternoon return to Mestia with stops at panoramic viewpoints"
+    ],
+    cancellationPolicy: "Full refund if canceled 7 days in advance. 50% refund if canceled 3-7 days before departure. No refund for cancellations less than 3 days in advance. Alternative dates offered in case of severe weather affecting access.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "historical",
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "How difficult is the journey to Ushguli?",
-        answer:
-          "Ushguli is one of Europe's highest continuously inhabited settlements (2,200m) and the road journey there is an adventure in itself. We travel by 4x4 vehicles on unpaved mountain roads with stunning views but some bumpy sections. The drive from Mestia to Ushguli takes approximately 2 hours each way, weather permitting. During winter months (November-April), Ushguli can sometimes be inaccessible due to snow, in which case we offer alternative Svan villages that are equally authentic.",
+        question: "Why were the defensive towers built?",
+        answer: "The distinctive Svan towers, dating from the 9th-12th centuries, served multiple purposes: protection during clan feuds that were common in medieval Svaneti, defense against invaders (the region was never conquered by the Mongols or Ottoman Empire), storage for food and valuables, and as refuge during harsh winter avalanches. Each family built and maintained their own tower, with most standing 20-25 meters tall with walls up to 1.5 meters thick."
       },
+      {
+        question: "What is the accommodation like?",
+        answer: "You'll stay in authentic Svan guesthouses - historic family homes with traditional wood and stone architecture. Accommodations are clean and comfortable but rustic, typically with shared bathrooms. These homestays provide a genuine cultural experience with home-cooked meals and interaction with local families. Some homes may have limited electricity during certain hours, and internet connectivity is minimal."
+      },
+      {
+        question: "How difficult is the terrain and hiking?",
+        answer: "This tour includes moderate hiking (2-3 hours daily) on varied terrain with some steep sections. Trails reach elevations of 2,200-2,500 meters above sea level. While no technical climbing skills are required, participants should be reasonably fit and accustomed to walking. The region's remote nature means medical facilities are limited, so those with serious health concerns should consult their doctor before booking."
+      }
     ],
   },
   {
-    title: "Trekking the Caucasus: Mestia to Ushguli",
+    title: "Trekking the Svaneti Range: Mestia to Ushguli",
     description:
-      "Experience one of the world's great mountain hikes on this guided trek through the high Caucasus from Mestia to Ushguli. Cross alpine meadows, pass glacial streams, and enjoy panoramic views of 5,000-meter peaks while staying in remote villages where time seems to have stood still.",
+      "Challenge yourself with a multi-day trek through the spectacular Svaneti mountains, following ancient pathways between remote villages with views of the Greater Caucasus peaks.",
+    city: "Mestia",
+    country: "Georgia",
+    region: "Svaneti",
     images: [
-      "/images/tours/svaneti-region/mountain-trekking.jpg",
-      "/images/tours/svaneti-region/alpine-meadow.jpg",
+      "/images/tours/svaneti/mountain-trekking.jpg",
+      "/images/tours/svaneti/caucasus-peaks.jpg",
     ],
     duration: "4 days",
-    price: "$395",
+    price: "$480",
     rating: 4.8,
-    tags: ["Trekking", "Mountain", "Adventure"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "How challenging is this trek?",
-        answer:
-          "This is a moderate to challenging trek covering approximately 65km over 4 days with daily elevation gains of 500-800m. You'll be hiking 6-8 hours per day at altitudes between 1,500-2,700m. While the trails are generally well-defined, some sections can be steep or rocky. Good physical condition and previous hiking experience are recommended. We provide pack horses for carrying main luggage, so you'll only need to carry a daypack with essentials during hiking days.",
+    tags: ["Trekking", "Adventure", "Nature"],
+    meetingPoint: {
+      address: "Svaneti Trekking Center, 15 Queen Tamar Street, Mestia",
+      coordinates: {
+        latitude: 43.0366,
+        longitude: 42.7276,
       },
+      instructions: "Meet at the Svaneti Trekking Center office in Mestia. Look for the building with mountain gear displayed in the windows.",
+      contactNumber: "+995 598 98 76 54",
+      contactEmail: "trek@svanetihiking.ge"
+    },
+    highlights: [
+      "Trek the spectacular route from Mestia to Ushguli through diverse mountain landscapes",
+      "Cross high mountain passes with panoramic views of glaciers and 5000m+ peaks",
+      "Stay in remote mountain villages inaccessible by road",
+      "Experience the untouched natural beauty of the Caucasus Mountains"
     ],
-  },
-  {
-    title: "Svan Culinary Traditions & Cooking Workshop",
-    description:
-      "Discover the unique flavors of high-mountain Svanetian cuisine with its distinctive spices, cheese-filled breads, and hearty stews designed to sustain life in harsh mountain environments. Join a local family to prepare traditional dishes in a hands-on cooking class using centuries-old methods.",
-    images: [
-      "/images/tours/svaneti-region/svan-cuisine.jpg",
-      "/images/tours/svaneti-region/cooking-class.jpg",
+    inclusions: [
+      "Experienced mountain guide and assistant",
+      "3 nights accommodation in village guesthouses",
+      "All meals during the trek",
+      "Luggage transport between overnight stops",
+      "Return transportation from Ushguli to Mestia",
+      "Trekking permits and maps"
     ],
-    duration: "6 hours",
-    price: "$85",
-    rating: 4.7,
-    tags: ["Cooking", "Food", "Cultural"],
-
+    exclusions: [
+      "Personal trekking equipment (hiking boots, backpacks, etc.)",
+      "Transportation to/from Mestia",
+      "Travel insurance (mandatory)",
+      "Personal expenses",
+      "Alcoholic beverages",
+      "Gratuities"
+    ],
+    itinerary: [
+      "Day 1: Orientation in Mestia, trek to Zhabeshi village (16km, +250m/-350m elevation)",
+      "Day 2: Trek from Zhabeshi to Adishi village crossing Adishi Pass (17km, +1100m/-700m elevation)",
+      "Day 3: Trek from Adishi to Iprali, crossing the Chkhunderi Pass (17km, +900m/-1000m elevation)",
+      "Day 4: Final trek from Iprali to Ushguli, then 4x4 transfer back to Mestia (15km, +500m/-300m elevation)"
+    ],
+    cancellationPolicy: "Full refund if canceled 14 days in advance. 50% refund if canceled 7-14 days before departure. No refund for cancellations less than 7 days before trek. Alternative dates offered in case of severe weather.",
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What dishes will we learn to cook?",
-        answer:
-          "You'll learn to prepare authentic Svanetian specialties including: kubdari (spiced meat-filled bread), chvishtari (corn and cheese bread), tashmijabi (potato and cheese dish), Svanetian khachapuri with local cheese, and svan salt (the region's famous spice blend with red pepper and herbs). The class takes place in a traditional Svan kitchen with an open hearth, using local ingredients and methods passed down through generations. All recipes are provided to take home.",
-      },
-    ],
-  },
-  {
-    title: "Caucasus Horseback Adventure",
-    description:
-      "Explore Svaneti's breathtaking landscape the way locals have for centuries—on horseback. Ride sturdy mountain horses through alpine meadows, ancient forests, and high pastures with spectacular views of snow-capped peaks, visiting villages inaccessible by road.",
-    images: [
-      "/images/tours/svaneti-region/horseback-riding.jpg",
-      "/images/tours/svaneti-region/mountain-horses.jpg",
-    ],
-    duration: "10 hours",
-    price: "$120",
-    rating: 4.6,
-    tags: ["Horseback Riding", "Nature", "Adventure"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "adventure",
     faqs: [
       {
-        question: "Do I need horseback riding experience?",
-        answer:
-          "No prior experience is necessary as we use well-trained, sure-footed local horses accustomed to mountain terrain and beginners. We provide basic instruction before departure and match horses to riders based on their experience level and size. The pace is generally walking with some opportunities for trotting in suitable areas for those who are comfortable. Our guides are experienced horsemen who prioritize safety while sharing their deep knowledge of the mountains.",
+        question: "How physically demanding is this trek?",
+        answer: "This is a moderately difficult trek requiring good physical fitness. You'll walk 15-17km daily with elevation gain/loss of 500-1100m, reaching maximum altitudes of approximately 2,700m at mountain passes. The terrain includes rocky paths, stream crossings, and steep sections. Previous mountain hiking experience is recommended."
       },
+      {
+        question: "What should I pack for the trek?",
+        answer: "Essential items include: broken-in hiking boots, layered clothing for variable mountain weather (temperatures can range from 25°C/77°F to near freezing), waterproof jacket and pants, sun protection, personal medications, basic first aid supplies, and a day pack (15-30L). A detailed packing list will be provided after booking. Your main luggage is transported between overnight stops."
+      },
+      {
+        question: "What are the accommodation conditions along the trek?",
+        answer: "Accommodations are in local family guesthouses in remote mountain villages. These are simple but clean with authentic character. Expect shared rooms with 2-4 people and shared bathroom facilities. Hot water and electricity may be limited. The hospitality and home-cooked meals featuring fresh local ingredients are highlights of the experience."
+      }
     ],
   },
   {
-    title: "Svaneti Ethnographic Museum & Cultural Treasures",
+    title: "Svaneti Photography Expedition",
     description:
-      "Discover the extraordinary cultural heritage of Svaneti at Mestia's renowned Ethnographic Museum, housing medieval icons, manuscripts, and gold artifacts preserved for centuries in tower houses. Meet with local craftspeople continuing ancient traditions of woodcarving, icon painting, and textile arts.",
+      "Capture the stunning landscapes, ancient architecture, and vibrant culture of Svaneti on this photography-focused tour led by a professional landscape photographer.",
+    city: "Mestia",
+    country: "Georgia",
+    region: "Svaneti",
     images: [
-      "/images/tours/svaneti-region/ethnographic-museum.jpg",
-      "/images/tours/svaneti-region/medieval-icons.jpg",
+      "/images/tours/svaneti/photography-expedition.jpg",
+      "/images/tours/svaneti/svaneti-landscape.jpg",
     ],
-    duration: "5 hours",
-    price: "$65",
-    rating: 4.8,
-    tags: ["Museum", "Art", "Cultural"],
-
+    duration: "5 days",
+    price: "$790",
+    rating: 4.7,
+    tags: ["Photography", "Cultural", "Landscape"],
+    meetingPoint: {
+      address: "Hotel Suntower, 3 Kakhiani Street, Mestia",
+      coordinates: {
+        latitude: 43.0375,
+        longitude: 42.7298,
+      },
+      instructions: "Meet in the lobby of Hotel Suntower in Mestia. Your photography guide will welcome you with a photography briefing.",
+      contactNumber: "+995 599 87 65 43",
+      contactEmail: "photo@svanetilens.com"
+    },
+    highlights: [
+      "Photograph medieval towers at optimal golden hour lighting",
+      "Capture sunrise and sunset over the Caucasus mountain range",
+      "Document traditional Svan cultural practices with local permission",
+      "Learn specialized landscape and cultural photography techniques"
+    ],
+    inclusions: [
+      "Professional photographer guide throughout the expedition",
+      "4 nights accommodation in comfortable guesthouses",
+      "All meals featuring local cuisine",
+      "All transportation during the tour",
+      "4x4 vehicle access to remote shooting locations",
+      "Daily photography instruction and image review sessions"
+    ],
+    exclusions: [
+      "Transportation to/from Mestia",
+      "Camera equipment (bring your own)",
+      "Tripod (essential for this tour)",
+      "Personal travel insurance",
+      "Alcoholic beverages",
+      "Gratuities"
+    ],
+    itinerary: [
+      "Day 1: Evening arrival in Mestia, equipment check, photography brief, and sunset shoot of Mestia towers",
+      "Day 2: Pre-dawn start for sunrise at Hatsvali overlooking the Caucasus range, daytime cultural photography in Mestia, evening light on tower reflections",
+      "Day 3: Full day expedition to Ushguli for mountain landscape photography and ancient tower compositions",
+      "Day 4: Hike to alpine meadows for wildflower macro photography and dramatic mountain backdrops, evening village life documentation",
+      "Day 5: Final sunrise shoot, morning image review session, post-processing workshop, afternoon conclusion"
+    ],
+    cancellationPolicy: "Full refund if canceled 21 days in advance. 50% refund if canceled 10-21 days before departure. No refund for cancellations less than 10 days before tour. Weather-dependent alternative shooting locations are provided rather than cancellation.",
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question:
-          "Why are there so many valuable artifacts in such a remote region?",
-        answer:
-          "Svaneti's isolation and defensive tower houses made it a natural vault for Georgian cultural treasures during centuries of invasions. When lowland Georgia faced Persian, Ottoman, or Mongol attacks, priceless religious icons, manuscripts, and gold work were sent to Svaneti for safekeeping. The Svans became fierce guardians of these national treasures, often defending them with their lives. Today, the museum houses an extraordinary collection including 1,000-year-old icons, Byzantine-influenced religious artwork, and medieval manuscripts—all preserved by this highland community cut off from the outside world through harsh winters and mountain geography.",
-      },
-    ],
-  },
-  {
-    title: "Glacial Lakes & Alpine Wilderness Day Hike",
-    description:
-      "Hike through pristine alpine environments to crystal-clear glacial lakes surrounded by 4,000+ meter peaks. This guided day trek visits either Koruldi Lakes or Tobavarchkhili Lake (depending on season), showcasing some of the Caucasus' most spectacular high-mountain scenery.",
-    images: [
-      "/images/tours/svaneti-region/glacial-lake.jpg",
-      "/images/tours/svaneti-region/alpine-flowers.jpg",
-    ],
-    duration: "8 hours",
-    price: "$75",
-    rating: 4.7,
-    tags: ["Hiking", "Nature", "Lakes"],
-
-    isHistorical: false,
-    isRomantic: true,
     isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "What is the difficulty level of this hike?",
-        answer:
-          "This is a moderate to challenging day hike covering 12-16km (depending on the chosen lake) with approximately 800-1000m elevation gain. The trail involves some steep sections and uneven terrain at altitudes up to 3,000m. Good physical fitness is required, and hiking boots are essential. We maintain a steady pace with plenty of breaks to enjoy the scenery and adjust to the altitude. The hike operates from June to September when mountain trails are free of snow and alpine flowers are blooming.",
-      },
-    ],
-  },
-  {
-    title: "Svan Polyphonic Singing & Musical Traditions",
-    description:
-      "Experience the haunting, UNESCO-recognized polyphonic singing traditions of Svaneti with a special performance by local masters, followed by a workshop where you'll learn the basics of this ancient three-voice harmonic style that predates Christianity in Georgia.",
-    images: [
-      "/images/tours/svaneti-region/polyphonic-singers.jpg",
-      "/images/tours/svaneti-region/traditional-instruments.jpg",
-    ],
-    duration: "3 hours",
-    price: "$45",
-    rating: 4.9,
-    tags: ["Music", "Cultural"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What makes Svan polyphonic singing unique?",
-        answer:
-          "Svanetian polyphonic singing is among the world's oldest surviving vocal traditions, characterized by close harmonies, dissonant chords, and sudden shifts that reflect the dramatic mountain landscape. UNESCO has recognized Georgian polyphonic singing as an Intangible Cultural Heritage of Humanity, with Svan examples being particularly ancient and distinctive. The songs are performed without instrumental accompaniment and often accompany ritual activities, work, or celebrations. During the workshop portion, you'll learn about the different vocal parts and try singing simple traditional songs with guidance from the masters.",
-      },
-    ],
-  },
-  {
-    title: "Photography Expedition: Towers & Mountains",
-    description:
-      "Capture the dramatic landscapes and medieval architecture of Svaneti with a photography-focused tour led by a professional photographer. Visit optimal viewpoints at the best times of day, with guidance on composition, lighting, and technical settings to document this visually stunning region.",
-    images: [
-      "/images/tours/svaneti-region/photography-tour.jpg",
-      "/images/tours/svaneti-region/sunset-towers.jpg",
-    ],
-    duration: "10 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Photography", "Landscape", "Architecture"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "art-and-music",
     faqs: [
       {
-        question: "What are the best seasons for photography in Svaneti?",
-        answer:
-          "Each season offers distinct photographic opportunities: Spring (May-June) features wildflowers and rushing streams; Summer (July-August) offers green alpine meadows and clear mountain views; Autumn (September-October) brings golden forests and harvest activities; Winter (December-March) transforms villages into snow-covered fairy tales with dramatic tower silhouettes. Our itinerary adjusts seasonally to capture the best conditions, with early morning and late afternoon sessions timed for optimal light on the mountains and medieval towers.",
+        question: "What camera equipment should I bring?",
+        answer: "A DSLR or mirrorless camera with manual controls is recommended. Essential lenses include a wide-angle (16-35mm equivalent) for landscapes and architecture, standard zoom (24-70mm equivalent) for versatility, and telephoto (70-200mm equivalent) for mountain details and portraits. A sturdy tripod is essential for low-light shooting. Bring plenty of batteries, memory cards, cleaning supplies, and weather protection for your gear as charging opportunities may be limited."
       },
-    ],
-  },
-  {
-    title: "Svaneti's Hidden Waterfalls & Natural Wonders",
-    description:
-      "Discover Svaneti's lesser-known natural wonders on a guided tour to hidden waterfalls, glacial streams, and scenic viewpoints that showcase the region's dramatic geology and biodiversity. Visit places like the Shdugra Waterfall and the scenic Chkhunderi Pass.",
-    images: [
-      "/images/tours/svaneti-region/shdugra-waterfall.jpg",
-      "/images/tours/svaneti-region/chkhunderi-pass.jpg",
-    ],
-    duration: "6 hours",
-    price: "$70",
-    rating: 4.7,
-    tags: ["Nature", "Waterfalls", "Adventure"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "wellness",
-    faqs: [
       {
-        question: "Are the waterfalls accessible year-round?",
-        answer:
-          "The Shdugra Waterfall is accessible from late spring through early autumn (May-October) when the trails are clear of snow. During winter months, access may be limited due to snow and ice, but we can offer alternative natural sites that are accessible year-round. The Chkhunderi Pass hike is also best done in warmer months when the alpine meadows are in bloom and the weather is stable.",
+        question: "Do I need to be a professional photographer to join?",
+        answer: "No, this tour is designed for enthusiast photographers with a basic understanding of their camera's manual settings (aperture, shutter speed, ISO). Our guide provides instruction tailored to all skill levels, from intermediate to advanced. Complete beginners may find some technical aspects challenging but will still capture amazing images with guidance."
       },
+      {
+        question: "Is it ethical to photograph local people?",
+        answer: "Cultural sensitivity is a cornerstone of this tour. Our local connections and guide's experience ensure we photograph people with proper permission and respect. We'll learn appropriate approaches to documentary photography, including when to ask permission, when photography may be intrusive, and how to compensate or share images with subjects. In some cases, we arrange specific cultural demonstrations for photography purposes with fair compensation to participants."
+      }
     ],
-  },
+  }
 ];
 
 export default svanetiRegionTours;
