@@ -11,10 +11,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import CartContext from "@/context/cartContext";
 import { yachtCharterFleet } from "@/lib/constants/services/transportation/yachts";
 import { capitalize } from "@/lib/utils/format";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FaFilter } from "react-icons/fa";
+import { toast } from "sonner";
 
 export default function RentAYachtPage() {
   const [showFilters, setShowFilters] = useState(false);
@@ -26,6 +28,8 @@ export default function RentAYachtPage() {
   const [priceFilter, setPriceFilter] = useState<number | null>(null);
   const [selectedAmenities, setSelectedAmenities] = useState<string[]>([]);
   const [selectedFeatures, setSelectedFeatures] = useState<string[]>([]);
+  const [addingToCartId, setAddingToCartId] = useState<string | null>(null);
+  const cartContext = useContext(CartContext);
 
   // Get all unique privacy levels, amenities, and features
   const allPrivacyLevels = new Set<string>();
@@ -169,6 +173,40 @@ export default function RentAYachtPage() {
         ? prev.filter((f) => f !== feature)
         : [...prev, feature]
     );
+  };
+
+  // Handle adding a yacht to the cart
+  const handleAddToCart = (yacht: any, category: string) => {
+    if (!cartContext) return;
+
+    // Set loading state for this specific yacht
+    setAddingToCartId(yacht.name);
+
+    // Create cart item with unique ID
+    const yachtItem = {
+      id: `yacht-${yacht.name.toLowerCase().replace(/\s/g, "-")}-${Math.random()
+        .toString(36)
+        .substr(2, 9)}`,
+      title: `${yacht.name} (${yacht.model})`,
+      price: yacht.pricePerDayUSD,
+      image: yacht.image || "/images/default-yacht.jpg", // Using a default image if none provided
+      duration: "1 day", // Default duration
+      category: category,
+      type: "yacht",
+      details: {
+        lengthFeet: yacht.lengthFeet,
+        cabins: yacht.cabins,
+        passengers: yacht.maxPassengers,
+        crew: yacht.crew,
+        privacyLevel: yacht.privacyLevel,
+      },
+    };
+
+    cartContext.addToCart(yachtItem);
+    toast.success(`${yacht.name} added to your cart!`);
+
+    // Reset loading state
+    setAddingToCartId(null);
   };
 
   const resetFilters = () => {
@@ -534,6 +572,15 @@ export default function RentAYachtPage() {
                       </div>
                     </div>
                   </div>
+                  <Button
+                    className="w-full"
+                    onClick={() => handleAddToCart(yacht, category.category)}
+                    disabled={addingToCartId === yacht.name}
+                  >
+                    {addingToCartId === yacht.name
+                      ? "Adding..."
+                      : "Add to Cart"}
+                  </Button>
                 </div>
               ))}
             </div>
