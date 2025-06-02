@@ -38,7 +38,7 @@ export default function BookYourTripToday() {
   const [loading, setLoading] = useState(true);
   const [allTours, setAllTours] = useState<Tour[]>([]);
   const [filteredTours, setFilteredTours] = useState<Tour[]>([]);
-  const [tourGuides, setTourGuides] = useState<{ [key: string]: string }>({});
+  const [tourGuides, setTourGuides] = useState<any[]>([]);
 
   const cityInfo = cityattractions.find(
     (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
@@ -79,11 +79,13 @@ export default function BookYourTripToday() {
           });
 
           const guides = await Promise.all(guidePromises);
-          const guidesMap = guides.reduce((acc, { tourTitle, guideName }) => {
-            acc[tourTitle] = guideName;
-            return acc;
-          }, {} as { [key: string]: string });
-          setTourGuides(guidesMap);
+          const tourGuidesArray = guides.map(({ tourTitle, guideName }) => ({
+            id: tourTitle,
+            name: guideName,
+            specialty: tour?.tourCategoryId || "",
+            city: decodeURIComponent(city).toLowerCase(),
+          }));
+          setTourGuides(tourGuidesArray);
         } catch (error) {
           console.error("Failed to load tour data:", error);
         } finally {
@@ -270,7 +272,7 @@ export default function BookYourTripToday() {
 
               <div className="mt-6">
                 <h5>Tour Guide:</h5>
-                <p>{tourGuides[tour.title] || "Local Expert"}</p>
+                <p>{tourGuides[0] || "Local Expert"}</p>
               </div>
               <div className="mt-6">
                 <h5>Tour Category:</h5>
