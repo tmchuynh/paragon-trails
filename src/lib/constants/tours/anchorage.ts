@@ -6,8 +6,8 @@ export const anchorageTours: Tour[] = [
     description:
       "Soar over Alaska's breathtaking wilderness in a floatplane to spot bears, moose, and wolves in their natural habitat, landing on a remote glacial lake for a wilderness champagne picnic.",
     images: [
-      "/images/tours/anchorage/floatplane.jpg",
-      "/images/tours/anchorage/glacier-landing.jpg",
+      "https://images.unsplash.com/photo-1663429050871-bd0a8b41888b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvYXRwbGFuZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1661897189445-e91ed35f8e89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmxvYXRwbGFuZXxlbnwwfHwwfHx8MA%3D%3D",
     ],
     duration: "6 hours",
     price: "$495",
@@ -18,17 +18,37 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
-      "May 15, 2024",
-      "May 22, 2024",
-      "June 5, 2024",
-      "June 19, 2024",
-      "July 3, 2024",
-      "July 17, 2024",
-      "August 7, 2024",
-      "August 21, 2024",
+      "2024-05-15",
+      "2024-05-22",
+      "2024-06-05",
+      "2024-06-19",
+      "2024-07-03",
+      "2024-07-17",
+      "2024-08-07",
+      "2024-08-21",
     ],
+    meetingPoint: {
+      address: "Lake Hood Seaplane Base, 4101 Aircraft Dr, Anchorage, AK 99502",
+      coordinates: {
+        latitude: 61.1808,
+        longitude: -149.9704,
+      },
+      instructions:
+        "Meet at the main terminal building of Lake Hood Seaplane Base. Look for our company sign with the eagle logo. Please arrive 30 minutes before departure for check-in and safety briefing.",
+      contactNumber: "+1 907-555-0189",
+      contactEmail: "info@alaskaflightsafari.com",
+    },
     highlights: [
       "Soar over pristine wilderness in a floatplane",
       "Land on a remote glacial lake",
@@ -82,6 +102,11 @@ export const anchorageTours: Tour[] = [
         answer:
           "Yes, cameras are encouraged! Our pilots will make stops for photo opportunities. However, drones are not allowed due to safety regulations and wildlife disturbance concerns. Please ensure your camera gear is securely fastened during the flight.",
       },
+      {
+        question: "What happens if there's bad weather?",
+        answer:
+          "Safety is our top priority. If weather conditions are deemed unsafe for flying, we'll work with you to reschedule your tour or provide a full refund. Our pilots make weather-based decisions daily and will keep you informed about any potential changes to your scheduled tour.",
+      },
     ],
   },
   {
@@ -89,8 +114,8 @@ export const anchorageTours: Tour[] = [
     description:
       "Explore Chugach State Park with a local chef to gather wild Alaskan ingredients, then enjoy a gourmet wilderness cooking class featuring freshly caught salmon and foraged delicacies.",
     images: [
-      "/images/tours/anchorage/foraging.jpg",
-      "/images/tours/anchorage/wilderness-cooking.jpg",
+      "https://images.unsplash.com/photo-1602166659170-92818fa8af19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yYWdpbmd8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1694557307170-0277eec8c2e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9yYWdpbmd8ZW58MHx8MHx8fDA%3D",
     ],
     duration: "7 hours",
     price: "$235",
@@ -101,18 +126,39 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     availableDates: [
-      "May 10, 2024",
-      "May 24, 2024",
-      "June 7, 2024",
-      "June 21, 2024",
-      "July 5, 2024",
-      "July 19, 2024",
-      "August 2, 2024",
-      "August 16, 2024",
-      "September 6, 2024",
+      "2024-05-10",
+      "2024-05-24",
+      "2024-06-07",
+      "2024-06-21",
+      "2024-07-05",
+      "2024-07-19",
+      "2024-08-02",
+      "2024-08-16",
+      "2024-09-06",
     ],
+    meetingPoint: {
+      address:
+        "Alaska Botanical Garden, 4601 Campbell Airstrip Rd, Anchorage, AK 99507",
+      coordinates: {
+        latitude: 61.1935,
+        longitude: -149.7835,
+      },
+      instructions:
+        "Meet at the main entrance to the Alaska Botanical Garden. Your guide will be waiting with a 'Culinary Foraging' sign. Please wear appropriate outdoor clothing and sturdy footwear.",
+      contactNumber: "+1 907-555-0127",
+      contactEmail: "foraging@alaskaculinary.com",
+    },
     highlights: [
       "Forage for wild Alaskan ingredients with a local chef",
       "Learn about edible plants and sustainable harvesting",
@@ -160,6 +206,16 @@ export const anchorageTours: Tour[] = [
         answer:
           "Yes! While we focus on local seafood, we can easily adapt the menu to accommodate vegetarian or vegan diets using foraged plants and mushrooms. Please inform us of dietary restrictions when booking.",
       },
+      {
+        question: "Is this tour suitable for people with limited mobility?",
+        answer:
+          "This tour involves walking on uneven terrain and forest paths for approximately 2 miles total. While we move at a leisurely pace with frequent stops, it may be challenging for those with mobility issues. Please contact us in advance if you have concerns about the physical requirements so we can discuss possible accommodations.",
+      },
+      {
+        question: "What is the cancellation policy for this tour?",
+        answer:
+          "We offer full refunds for cancellations made at least 48 hours before the scheduled activity. Cancellations between 24-48 hours receive a 50% refund, and unfortunately, we cannot offer refunds for cancellations less than 24 hours before the tour begins.",
+      },
     ],
   },
   {
@@ -167,8 +223,8 @@ export const anchorageTours: Tour[] = [
     description:
       "Venture into the Alaskan wilderness away from city lights with a professional photographer to capture the mesmerizing aurora borealis. Learn night photography techniques while witnessing one of nature's most spectacular light shows.",
     images: [
-      "/images/tours/anchorage/northern-lights.jpg",
-      "/images/tours/anchorage/aurora-photography.jpg",
+      "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Tm9ydGhlcm4lMjBMaWdodHN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1675805015838-7f8b70536f0f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Tm9ydGhlcm4lMjBMaWdodHN8ZW58MHx8MHx8fDA%3D",
     ],
     duration: "6 hours",
     price: "$275",
@@ -179,19 +235,40 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "art-and-music",
     availableDates: [
-      "September 15, 2024",
-      "September 22, 2024",
-      "October 5, 2024",
-      "October 19, 2024",
-      "November 10, 2024",
-      "November 24, 2024",
-      "December 14, 2024",
-      "January 18, 2025",
-      "February 15, 2025",
-      "March 10, 2025",
+      "2024-09-15",
+      "2024-09-22",
+      "2024-10-05",
+      "2024-10-19",
+      "2024-11-10",
+      "2024-11-24",
+      "2024-12-14",
+      "2025-01-18",
+      "2025-02-15",
+      "2025-03-10",
     ],
+    meetingPoint: {
+      address:
+        "Aurora Photography Center, 420 Northern Lights Blvd, Anchorage, AK 99503",
+      coordinates: {
+        latitude: 61.195,
+        longitude: -149.8914,
+      },
+      instructions:
+        "Meet at our photography center located on Northern Lights Boulevard. We'll conduct an equipment check and briefing before departing for the viewing location. Dress warmly in layers, and bring any camera equipment you wish to use.",
+      contactNumber: "+1 907-555-0231",
+      contactEmail: "aurora@northernlightsphotos.com",
+    },
     highlights: [
       "Photograph the magical Northern Lights away from city light pollution",
       "Learn night photography techniques from a professional",
@@ -214,12 +291,12 @@ export const anchorageTours: Tour[] = [
       "Specialized filters or camera accessories",
     ],
     itinerary: [
-      "8:00 PM: Meet guide for equipment check and photography tutorial",
-      "9:00 PM: Depart for prime aurora viewing location",
+      "08:00 PM: Meet guide for equipment check and photography tutorial",
+      "09:00 PM: Depart for prime aurora viewing location",
       "10:00 PM: Set up equipment at first viewing site",
-      "10:30 PM - 1:00 AM: Aurora photography with expert guidance",
-      "1:30 AM: Return to Anchorage",
-      "2:00 AM: Tour conclusion",
+      "10:30 PM - 01:00 AM: Aurora photography with expert guidance",
+      "01:30 AM: Return to Anchorage",
+      "02:00 AM: Tour conclusion",
     ],
     cancellationPolicy:
       "Weather-dependent activity. Full refund if aurora activity is low or weather prevents viewing. Rescheduling available at no additional cost. 48-hour cancellation notice required for full refund for non-weather related cancellations.",
@@ -238,6 +315,16 @@ export const anchorageTours: Tour[] = [
         question: "What should I wear for this tour?",
         answer:
           "Dress warmly in layers, including thermal base layers, insulated jackets, hats, gloves, and waterproof boots. Temperatures can drop significantly at night, especially in remote areas. We provide hand warmers and hot drinks to keep you comfortable.",
+      },
+      {
+        question: "Can I bring my smartphone instead of a camera?",
+        answer:
+          "Yes, many modern smartphones have excellent night photography capabilities. Our guides can provide tips for smartphone aurora photography, though results won't be as detailed as those from DSLR cameras. We recommend bringing a small tripod for your phone if you plan to use it as your primary camera.",
+      },
+      {
+        question: "Is there a minimum age requirement?",
+        answer:
+          "Due to the late hours and cold conditions, we recommend this tour for participants aged 12 and above. Children must be accompanied by an adult. Please keep in mind that the tour runs very late into the night, returning around 2:00 AM.",
       },
     ],
   },
@@ -258,19 +345,40 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
     availableDates: [
-      "April 1, 2024",
-      "April 15, 2024",
-      "May 1, 2024",
-      "May 15, 2024",
-      "June 1, 2024",
-      "June 15, 2024",
-      "July 1, 2024",
-      "July 15, 2024",
-      "August 1, 2024",
-      "August 15, 2024",
+      "2024-04-01",
+      "2024-04-15",
+      "2024-05-01",
+      "2024-05-15",
+      "2024-06-01",
+      "2024-06-15",
+      "2024-07-01",
+      "2024-07-15",
+      "2024-08-01",
+      "2024-08-15",
     ],
+    meetingPoint: {
+      address:
+        "Alaska Native Heritage Center, 8800 Heritage Center Dr, Anchorage, AK 99504",
+      coordinates: {
+        latitude: 61.2306,
+        longitude: -149.7719,
+      },
+      instructions:
+        "Meet in front of the main entrance of the Alaska Native Heritage Center. Your guide will be holding a sign reading 'Historic Anchorage Tour'. Parking is available on-site.",
+      contactNumber: "+1 907-555-0467",
+      contactEmail: "tours@historicanchorage.com",
+    },
     highlights: [
       "Explore Anchorage's historic sites and learn their stories",
       "Visit the Alaska Native Heritage Center",
@@ -321,6 +429,11 @@ export const anchorageTours: Tour[] = [
         answer:
           "Yes, photography is encouraged! Our guide will point out the best spots for photos along the route.",
       },
+      {
+        question: "Will we be visiting any museums or attractions?",
+        answer:
+          "Yes, the tour includes entry to the Alaska Native Heritage Center and the Anchorage Museum at Rasmuson Center. Both locations offer fascinating insights into the history and culture of Alaska, with exhibits and artifacts that tell the story of the region's diverse peoples.",
+      },
     ],
   },
   {
@@ -340,17 +453,38 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
-      "December 1, 2024",
-      "December 15, 2024",
-      "January 5, 2025",
-      "January 19, 2025",
-      "February 2, 2025",
-      "February 16, 2025",
-      "March 1, 2025",
-      "March 15, 2025",
+      "2024-12-01",
+      "2024-12-15",
+      "2025-01-05",
+      "2025-01-19",
+      "2025-02-02",
+      "2025-02-16",
+      "2025-03-01",
+      "2025-03-15",
     ],
+    meetingPoint: {
+      address:
+        "Iditarod Headquarters, 2100 S Knik Goose Bay Rd, Wasilla, AK 99654",
+      coordinates: {
+        latitude: 61.5375,
+        longitude: -149.9545,
+      },
+      instructions:
+        "Meet at the Iditarod Headquarters in Wasilla. Transportation from downtown Anchorage is provided, departing from the Visit Anchorage Log Cabin at 546 W 4th Ave. Please arrive 15 minutes early for check-in.",
+      contactNumber: "+1 907-555-0389",
+      contactEmail: "mush@iditarodexperience.com",
+    },
     highlights: [
       "Experience the thrill of dog sledding with Iditarod champions",
       "Learn from an experienced musher about the sport and its history",
@@ -398,6 +532,16 @@ export const anchorageTours: Tour[] = [
         answer:
           "Yes! Children ages 5 and up can ride along as passengers. For younger children, we can arrange a special sled designed for family rides. Please inform us of children's ages when booking.",
       },
+      {
+        question: "Is there a weight limit for participants?",
+        answer:
+          "For the safety of our dogs, we have a weight limit of 250 pounds (113 kg) per person for driving your own sled. Participants exceeding this limit can still enjoy the experience as passengers in a guide-driven sled. Please let us know in advance if you have any concerns.",
+      },
+      {
+        question: "Will we learn about the history of the Iditarod race?",
+        answer:
+          "Absolutely! Your guide is an Iditarod veteran who will share personal stories from the famous 1,000-mile race across Alaska. You'll learn about the race's history, legendary mushers and dogs, and the importance of dog sledding in Alaska's history and modern culture.",
+      },
     ],
   },
   {
@@ -417,17 +561,37 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
-      "May 20, 2024",
-      "May 27, 2024",
-      "June 10, 2024",
-      "June 24, 2024",
-      "July 8, 2024",
-      "July 22, 2024",
-      "August 5, 2024",
-      "August 19, 2024",
+      "2024-05-20",
+      "2024-05-27",
+      "2024-06-10",
+      "2024-06-24",
+      "2024-07-08",
+      "2024-07-22",
+      "2024-08-05",
+      "2024-08-19",
     ],
+    meetingPoint: {
+      address: "Alaska Railroad Depot, 411 W 1st Ave, Anchorage, AK 99501",
+      coordinates: {
+        latitude: 61.2219,
+        longitude: -149.8908,
+      },
+      instructions:
+        "Meet at the Alaska Railroad Depot in downtown Anchorage at 5:30 AM for check-in. Please bring your confirmation email, ID, and dress appropriately for variable weather conditions in Denali.",
+      contactNumber: "+1 907-555-0543",
+      contactEmail: "expeditions@denaliadventures.com",
+    },
     highlights: [
       "Scenic train ride on the Alaska Railroad",
       "Guided tour in Denali National Park",
@@ -475,6 +639,16 @@ export const anchorageTours: Tour[] = [
         answer:
           "Dress in layers for variable weather conditions. Bring a camera, binoculars for wildlife viewing, a refillable water bottle, and any personal items you may need for a full day outdoors. We provide lunch and snacks.",
       },
+      {
+        question: "How far in advance should I book this tour?",
+        answer:
+          "We recommend booking at least 3-4 weeks in advance during peak season (June-August) as the train tickets often sell out. For May and September visits, 2 weeks advance booking is usually sufficient. Last-minute bookings may be possible but cannot be guaranteed.",
+      },
+      {
+        question: "Will we actually see Denali (Mt. McKinley)?",
+        answer:
+          "Denali is notoriously shy, with the mountain fully visible only about 30% of the time due to cloud cover. However, even if the peak is obscured, the park's stunning landscapes and wildlife viewing opportunities make the trip incredibly worthwhile. We'll always try to find the best viewpoints based on daily conditions.",
+      },
     ],
   },
   {
@@ -494,19 +668,40 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     availableDates: [
-      "April 1, 2024",
-      "April 15, 2024",
-      "May 1, 2024",
-      "May 15, 2024",
-      "June 1, 2024",
-      "June 15, 2024",
-      "July 1, 2024",
-      "July 15, 2024",
-      "August 1, 2024",
-      "August 15, 2024",
+      "2024-04-01",
+      "2024-04-15",
+      "2024-05-01",
+      "2024-05-15",
+      "2024-06-01",
+      "2024-06-15",
+      "2024-07-01",
+      "2024-07-15",
+      "2024-08-01",
+      "2024-08-15",
     ],
+    meetingPoint: {
+      address:
+        "Alaska Native Heritage Center, 8800 Heritage Center Dr, Anchorage, AK 99504",
+      coordinates: {
+        latitude: 61.2306,
+        longitude: -149.7719,
+      },
+      instructions:
+        "Meet at the visitor information desk inside the main entrance of the Alaska Native Heritage Center. Your guide will be wearing a blue vest with the center's logo. Please arrive 15 minutes before the tour start time.",
+      contactNumber: "+1 907-555-0287",
+      contactEmail: "heritage@alaskanativetours.com",
+    },
     highlights: [
       "Learn about Alaska Native cultures and histories",
       "Visit the Alaska Native Heritage Center",
@@ -553,6 +748,18 @@ export const anchorageTours: Tour[] = [
         answer:
           "Dress comfortably for a mix of indoor and outdoor activities. We recommend wearing layers, as temperatures can vary. Comfortable walking shoes are essential, as some areas involve light walking. If visiting during colder months, a warm jacket and hat are advisable.",
       },
+      {
+        question:
+          "Will we have the opportunity to purchase authentic Native Alaskan art?",
+        answer:
+          "Yes, the tour includes visits to authentic Native art galleries where you can purchase items directly from indigenous artisans. All items for sale meet the standards of the Silver Hand Program, guaranteeing they are handcrafted by Alaska Native artists. These make meaningful souvenirs with cultural significance.",
+      },
+      {
+        question:
+          "Will we learn about all Alaska Native cultures or just one specific group?",
+        answer:
+          "The tour provides information about all major Alaska Native cultural groups, including Athabascan, Yup'ik, Cup'ik, Inupiaq, St. Lawrence Island Yupik, Unangax̂, Sugpiaq (Alutiiq), Eyak, Haida, Tsimshian, and Tlingit peoples. You'll learn about their unique traditions, survival techniques, art forms, and modern challenges.",
+      },
     ],
   },
   {
@@ -572,15 +779,35 @@ export const anchorageTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
-      "January 10, 2025",
-      "January 24, 2025",
-      "February 7, 2025",
-      "February 21, 2025",
-      "March 7, 2025",
-      "March 21, 2025",
+      "2025-01-10",
+      "2025-01-24",
+      "2025-02-07",
+      "2025-02-21",
+      "2025-03-07",
+      "2025-03-21",
     ],
+    meetingPoint: {
+      address: "Alaska Wild Fish Tours, 333 W 4th Ave, Anchorage, AK 99501",
+      coordinates: {
+        latitude: 61.218,
+        longitude: -149.8901,
+      },
+      instructions:
+        "Meet at our downtown office on 4th Avenue. Look for the building with the large fish mural. We'll provide transportation to the ice fishing location. Arrive 15 minutes early to get fitted for any necessary gear.",
+      contactNumber: "+1 907-555-0624",
+      contactEmail: "fish@alaskawildtours.com",
+    },
     highlights: [
       "Experience the thrill of ice fishing on a frozen lake",
       "Learn from an expert guide about ice fishing techniques",
@@ -627,6 +854,16 @@ export const anchorageTours: Tour[] = [
         answer:
           "Dress warmly in layers, including thermal base layers, insulated jackets, hats, gloves, and waterproof boots. We provide heated shelters to keep you comfortable while fishing.",
       },
+      {
+        question: "What type of fish might we catch?",
+        answer:
+          "During winter months, we typically catch Arctic char, rainbow trout, and landlocked salmon. Occasionally, we also catch northern pike and burbot. All fishing is catch-and-release unless you specifically want to keep your catch for the included lakeside cookout.",
+      },
+      {
+        question: "How cold does it get during the ice fishing activity?",
+        answer:
+          "Temperatures can range from 0°F to 20°F (-18°C to -7°C) during winter months. However, we provide heated ice shelters that maintain comfortable temperatures, and you can warm up any time. With our provided cold-weather gear and frequent breaks for hot drinks, most participants remain surprisingly comfortable.",
+      },
     ],
   },
   {
@@ -646,15 +883,35 @@ export const anchorageTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "luxury",
     availableDates: [
-      "June 1, 2024",
-      "June 15, 2024",
-      "July 1, 2024",
-      "July 15, 2024",
-      "August 1, 2024",
-      "August 15, 2024",
+      "2024-06-01",
+      "2024-06-15",
+      "2024-07-01",
+      "2024-07-15",
+      "2024-08-01",
+      "2024-08-15",
     ],
+    meetingPoint: {
+      address: "Lakefront Seaplane Base, 4800 Spenard Rd, Anchorage, AK 99517",
+      coordinates: {
+        latitude: 61.1781,
+        longitude: -149.9438,
+      },
+      instructions:
+        "Meet at the Lakefront Seaplane Terminal's private lounge. Valet parking is available. Please check in at the concierge desk upon arrival where you'll be offered a welcome beverage before your departure briefing.",
+      contactNumber: "+1 907-555-0861",
+      contactEmail: "concierge@alaskawildernessretreat.com",
+    },
     highlights: [
       "Relax at a luxury wilderness lodge",
       "Enjoy a scenic seaplane flight",

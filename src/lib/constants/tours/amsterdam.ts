@@ -74,6 +74,45 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 24 hours before the tour starts. No refund for cancellations less than 24 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Begijnhof 30, 1012 WT Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3702,
+        longitude: 4.8901,
+      },
+      instructions:
+        "Meet your guide at the entrance gate to the Begijnhof courtyard. Look for the guide holding a blue umbrella with 'Secret Amsterdam' written on it. Please arrive 10 minutes before the tour starts.",
+      contactNumber: "+31 20 123 4567",
+      contactEmail: "tours@secretamsterdam.com",
+    },
+    faqs: [
+      {
+        question: "How much walking is involved?",
+        answer:
+          "This tour covers approximately 3 kilometers at a gentle pace with plenty of stops. We'll be walking for about 3 hours total, mostly on flat terrain, though some areas have cobblestones which may be uneven.",
+      },
+      {
+        question: "What should I wear?",
+        answer:
+          "Comfortable walking shoes are recommended. Amsterdam weather can be unpredictable, so dress in layers and bring a waterproof jacket or umbrella if rain is forecasted.",
+      },
+      {
+        question:
+          "Are the hidden hofjes accessible for those with mobility issues?",
+        answer:
+          "Some of the courtyards have steps and narrow entrances. While we try to accommodate all participants, this particular tour is challenging for wheelchair users or those with significant mobility limitations. Please contact us in advance to discuss alternatives.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, children are welcome. The tour includes many interesting visual elements and stories that can engage younger participants. We recommend it for children aged 8 and up who enjoy walking and exploring.",
+      },
+      {
+        question: "Will we be able to take photos in the private courtyards?",
+        answer:
+          "Photography is permitted in most locations for personal use, but some private gardens have restrictions. Your guide will advise you about each specific location. We ask that you be respectful of residents when taking photos.",
+      },
+    ],
   },
   {
     title: "Dutch Masters & Rijksmuseum After Hours",
@@ -147,6 +186,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3599,
+        longitude: 4.8852,
+      },
+      instructions:
+        "Meet at the main entrance of the Rijksmuseum under the passageway arch. Your guide will be holding a sign with 'After Hours Art Tour' written on it. Please arrive 15 minutes early with your ID as it's required for after-hours access.",
+      contactNumber: "+31 20 674 7000",
+      contactEmail: "afterhours@rijksmuseum.nl",
+    },
+    faqs: [
+      {
+        question: "What makes this after-hours experience special?",
+        answer:
+          "This exclusive experience allows you to enjoy the Rijksmuseum with dramatically fewer visitors than during regular hours. You'll be able to get up close to masterpieces like Rembrandt's Night Watch without crowds, take unobstructed photos, and have more personal interaction with your art historian guide.",
+      },
+      {
+        question: "Is photography allowed in the museum?",
+        answer:
+          "Photography for personal use without flash is permitted in most permanent collection areas. Some special exhibitions and certain artworks may have restrictions, which your guide will point out.",
+      },
+      {
+        question: "What should I bring?",
+        answer:
+          "Please bring a valid photo ID as it's required for after-hours access. We recommend comfortable shoes as there will be standing and walking involved. No large bags are allowed in the museum, but small purses and camera bags are permitted.",
+      },
+      {
+        question: "How many masterpieces will we see?",
+        answer:
+          "The tour focuses on approximately 15-20 key masterpieces, allowing time for detailed explanation and appreciation. Your guide will cover the most significant works while adapting the tour to the group's specific interests whenever possible.",
+      },
+      {
+        question: "Is this tour accessible for those with mobility issues?",
+        answer:
+          "Yes, the Rijksmuseum is fully wheelchair accessible with elevators to all floors. The tour pace is leisurely with opportunities to sit periodically. Please inform us in advance if you have specific mobility requirements so we can tailor the route accordingly.",
+      },
+    ],
   },
   {
     title: "Amsterdam Culinary Journey",
@@ -220,6 +297,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 48 hours before the tour starts. 50% refund for cancellations made 24-48 hours before the tour. No refund for cancellations less than 24 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Albert Cuypmarkt 1, 1072 CW Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3562,
+        longitude: 4.8933,
+      },
+      instructions:
+        "Meet your chef guide at the entrance to Albert Cuyp Market where Albert Cuypstraat meets Ferdinand Bolstraat. The guide will be wearing a chef's jacket with a 'Taste of Amsterdam' logo. Please arrive 5-10 minutes early.",
+      contactNumber: "+31 20 423 1678",
+      contactEmail: "bookings@amsterdamfoodtours.com",
+    },
+    faqs: [
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions including vegetarian, vegan, gluten-free, and most food allergies. Please inform us at least 48 hours in advance so we can prepare appropriate alternatives while still providing an authentic Dutch culinary experience.",
+      },
+      {
+        question: "How much food is included?",
+        answer:
+          "The tour includes multiple tastings that add up to a substantial meal. Come hungry! You'll sample Dutch cheeses, herring, stroopwafels, and other local specialties, plus a sit-down lunch or dinner depending on your tour time.",
+      },
+      {
+        question: "Will we be sitting or standing during tastings?",
+        answer:
+          "The tour is a mix of standing tastings at markets and shops, with a sit-down component during the cooking demonstration and final meal. We aim to provide a balanced experience with opportunities to rest throughout the tour.",
+      },
+      {
+        question: "Is alcohol served on the tour?",
+        answer:
+          "Yes, some tastings may include small samples of local Dutch beers or spirits for guests over 18 years old. Non-alcoholic alternatives are always available upon request.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour covers approximately 2-3 kilometers at a leisurely pace with frequent stops for tastings. We visit multiple neighborhoods with food stops typically no more than 10-15 minutes walking distance apart.",
+      },
+    ],
   },
   {
     title: "Amsterdam by Bike: City Cycling Adventure",
@@ -294,6 +409,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 24 hours before the tour starts. 50% refund for cancellations made 12-24 hours before the tour. No refund for cancellations less than 12 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Damrak 247, 1012 ZJ Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3749,
+        longitude: 4.8957,
+      },
+      instructions:
+        "Meet at the Yellow Bike rental shop on Damrak near Central Station. Look for your guide wearing a bright orange cycling vest with 'Amsterdam Bike Tours' on the back. Please arrive 15 minutes early to get fitted for your bike.",
+      contactNumber: "+31 20 620 6940",
+      contactEmail: "info@amsterdambiketours.com",
+    },
+    faqs: [
+      {
+        question: "Do I need to be an experienced cyclist?",
+        answer:
+          "No, you don't need to be an expert cyclist, but basic cycling skills are required. Amsterdam is very flat and bike-friendly with dedicated cycle paths. Our guides set an easy pace and provide safety instructions before departing.",
+      },
+      {
+        question: "What if it's raining?",
+        answer:
+          "Tours run in light rain (we provide ponchos), but may be rescheduled or refunded in case of heavy rain or unsafe weather conditions. Amsterdam locals cycle in all weather, and sometimes rainy tours offer a more authentic experience!",
+      },
+      {
+        question: "What size bikes do you have?",
+        answer:
+          "We have bikes suitable for all heights, from children to very tall adults. Please provide height information when booking so we can prepare appropriately sized bikes for everyone in your group.",
+      },
+      {
+        question: "Is it safe to cycle in Amsterdam?",
+        answer:
+          "Amsterdam is one of the world's most bike-friendly cities with extensive dedicated cycling infrastructure. Our routes prioritize cycle paths and quieter streets. Guides are professionally trained and will ensure your safety throughout the tour.",
+      },
+      {
+        question: "Can children join this tour?",
+        answer:
+          "Yes, children are welcome! We offer child seats for babies (1-3 years), tag-along bikes for younger children (4-7 years), and smaller bikes for older children. Please specify children's ages and heights when booking so we can prepare appropriate equipment.",
+      },
+    ],
   },
   {
     title: "Evening Canal Cruise with Wine & Cheese",
@@ -365,6 +518,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 48 hours before the tour starts. 50% refund for cancellations made 24-48 hours before the tour. No refund for cancellations less than 24 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Prins Hendrikkade 25, 1012 TM Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3778,
+        longitude: 4.9006,
+      },
+      instructions:
+        "Meet at the private boat dock behind the Amsterdam Centraal Station. Look for the elegant salon boat with 'Amsterdam Luxury Cruises' flag. Your captain will welcome you aboard. Please arrive 10 minutes before departure time.",
+      contactNumber: "+31 20 423 2777",
+      contactEmail: "reservations@amsterdamluxurycruises.com",
+    },
+    faqs: [
+      {
+        question: "What type of boat will we be on?",
+        answer:
+          "You'll cruise on a traditional salon boat, a beautifully restored vessel from the early 20th century with polished wood interiors, comfortable seating, and large windows. These intimate boats accommodate a maximum of 12 guests for a personalized experience.",
+      },
+      {
+        question: "What cheeses and wines are served?",
+        answer:
+          "We serve a selection of premium Dutch cheeses including aged Gouda, creamy Leiden, herb-infused varieties, and local specialties. These are paired with complementary wines from European vineyards, with an emphasis on selections that enhance the cheese flavors.",
+      },
+      {
+        question: "Is the boat covered in case of rain?",
+        answer:
+          "Yes, the salon boat is fully covered with large windows, making it comfortable in any weather. The boat is climate-controlled, so you'll be comfortable regardless of outside temperatures.",
+      },
+      {
+        question: "Will we see the major Amsterdam landmarks?",
+        answer:
+          "Absolutely! The cruise route passes many of Amsterdam's iconic sights including the Anne Frank House, Skinny Bridge, Seven Bridges, Amstel River, and 17th-century canal houses. Your guide will point out significant landmarks throughout the cruise.",
+      },
+      {
+        question: "Is the cruise suitable for children?",
+        answer:
+          "While children are welcome, this cruise is designed as an adult experience focused on wine and cheese tasting in a sophisticated atmosphere. Non-alcoholic beverages are available for children and non-drinking adults.",
+      },
+    ],
   },
   {
     title: "Windmills, Cheese & Clogs: Dutch Countryside Day Trip",
@@ -439,6 +630,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 72 hours before the tour starts. 50% refund for cancellations made 24-72 hours before the tour. No refund for cancellations less than 24 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Damrak 26, 1012 LG Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3736,
+        longitude: 4.8948,
+      },
+      instructions:
+        "Meet in front of the Amsterdam Tourist Information Center (I amsterdam Visitor Centre) on Damrak. Look for a guide holding a sign with 'Dutch Countryside Tour' written on it. Please arrive 15 minutes before departure time.",
+      contactNumber: "+31 20 217 0800",
+      contactEmail: "daytrips@hollandtours.com",
+    },
+    faqs: [
+      {
+        question: "How long do we spend at each location?",
+        answer:
+          "We spend approximately 1.5 hours at Zaanse Schans exploring the windmills, about 1 hour at the cheese farm, and 45 minutes at the clog workshop. The schedule allows enough time to enjoy each location without rushing, while still covering all highlights in a single day.",
+      },
+      {
+        question: "Will we go inside a windmill?",
+        answer:
+          "Yes, the tour includes entrance to one functioning windmill where you'll learn about its operation and historical significance. You'll see the internal mechanisms and understand how these ingenious machines have been vital to Dutch history.",
+      },
+      {
+        question: "Are there opportunities to buy cheese and other souvenirs?",
+        answer:
+          "Yes, you'll have opportunities to purchase authentic Dutch products including cheese, clogs, and crafts directly from producers. These make wonderful souvenirs, and many items can be vacuum-sealed for travel or shipped internationally.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "The tour involves moderate walking, approximately 3-4 kilometers throughout the day on mostly flat terrain. Some windmills have steep, narrow stairs to climb if you choose to enter the upper levels. The pace is leisurely with plenty of stops.",
+      },
+      {
+        question: "What should I bring for the day trip?",
+        answer:
+          "Bring a camera, comfortable walking shoes, and a light waterproof jacket as Dutch weather can change quickly. We recommend bringing some cash for small purchases, though credit cards are widely accepted. All entrance fees are covered in your tour price.",
+      },
+    ],
   },
   {
     title: "Red Light District: Culture & History Tour",
@@ -511,6 +740,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 24 hours before the tour starts. 50% refund for cancellations made 12-24 hours before the tour. No refund for cancellations less than 12 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Oude Kerk, Oudekerksplein 23, 1012 GX Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.3743,
+        longitude: 4.8982,
+      },
+      instructions:
+        "Meet at the front entrance of the Oude Kerk (Old Church). Your guide will be holding a red lantern symbol. This tour starts promptly, so please arrive 5-10 minutes early.",
+      contactNumber: "+31 20 421 1656",
+      contactEmail: "info@amsterdamhistoricaltours.com",
+    },
+    faqs: [
+      {
+        question: "Is it appropriate to take photos during this tour?",
+        answer:
+          "Photography is prohibited in areas with active sex workers as a matter of respect and privacy. Your guide will clearly indicate where photography is and isn't allowed. There are plenty of interesting architectural and historical features you can photograph.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Due to the mature content discussed and the active adult entertainment industry in the area, this tour is only appropriate for adults and older teenagers (16+) accompanied by a parent or guardian. We offer many alternative family-friendly tours of Amsterdam.",
+      },
+      {
+        question: "Will we see sex workers during this tour?",
+        answer:
+          "Yes, the tour passes through active areas of the Red Light District where sex workers may be visible in windows. The tour approaches this aspect of Amsterdam with respect and professionalism, focusing on cultural context, history, and social policy rather than sensationalism.",
+      },
+      {
+        question: "Is this area safe in the evening?",
+        answer:
+          "Yes, despite its reputation, the Red Light District is one of the most heavily policed and monitored areas in Amsterdam. Our evening tours are timed to show the district when it's active but not at its busiest. Your guide will ensure the group stays together in comfortable areas.",
+      },
+      {
+        question: "What makes this tour educational rather than exploitative?",
+        answer:
+          "Our guides are trained historians and sociologists who present the area's complex history and Amsterdam's unique approach to regulation. The tour discusses medieval history, architecture, the evolution of Dutch social policies, and ongoing debates about urban planning and rights of sex workers.",
+      },
+    ],
   },
   {
     title: "Artis Zoo & Botanical Gardens",
@@ -584,6 +851,44 @@ export const amsterdamTours: Tour[] = [
     ],
     cancellationPolicy:
       "Free cancellation up to 24 hours before the tour starts. 50% refund for cancellations made 12-24 hours before the tour. No refund for cancellations less than 12 hours before the tour or no-shows.",
+    meetingPoint: {
+      address: "Plantage Kerklaan 38-40, 1018 CZ Amsterdam, Netherlands",
+      coordinates: {
+        latitude: 52.366,
+        longitude: 4.9165,
+      },
+      instructions:
+        "Meet at the main entrance of Artis Royal Zoo. Your guide will be waiting by the ticket counters holding a sign with 'Artis Tour' written on it. Please arrive 15 minutes before the tour start time.",
+      contactNumber: "+31 20 523 3400",
+      contactEmail: "visits@artis.nl",
+    },
+    faqs: [
+      {
+        question: "What makes Artis different from other zoos?",
+        answer:
+          "Founded in 1838, Artis is one of the oldest zoos in mainland Europe with a unique blend of historical architecture, botanical gardens, and modern conservation facilities. Unlike many zoos, Artis is located right in the city center and integrates cultural heritage with natural history.",
+      },
+      {
+        question: "Are there indoor areas if it rains?",
+        answer:
+          "Yes, Artis features numerous indoor exhibits including the Butterfly Pavilion, Insectarium, Planetarium, Aquarium, and several animal houses. The tour can be adapted for rainy weather to maximize time in covered areas while still experiencing the highlights.",
+      },
+      {
+        question: "How long do people typically spend at Artis?",
+        answer:
+          "While our guided tour is 4 hours and covers the main highlights, many visitors choose to stay longer. Your ticket is valid for the full day, so you're welcome to continue exploring independently after the tour concludes.",
+      },
+      {
+        question: "Is the zoo accessible for strollers and wheelchairs?",
+        answer:
+          "Yes, Artis is largely accessible with paved paths throughout the park. Wheelchairs and mobility scooters can access most areas, and strollers are welcome. The historic nature of some buildings means a few exhibits have limited accessibility, but alternatives are always available.",
+      },
+      {
+        question: "Are there places to eat inside Artis?",
+        answer:
+          "Yes, Artis has several dining options including the historic Artis Café, de Plantage restaurant, and various kiosks throughout the park. Our tour schedule includes a break for lunch or refreshments (not included in tour price).",
+      },
+    ],
   },
 ];
 
