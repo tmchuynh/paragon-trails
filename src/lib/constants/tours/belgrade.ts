@@ -19,6 +19,18 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Main Entrance to Kalemegdan Fortress, Kalemegdan BB, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8234,
+        longitude: 20.4489,
+      },
+      instructions:
+        "Meet your guide at the main entrance to Kalemegdan Fortress, near the statue of The Victor (Pobednik). Your guide will be holding a white banner with 'Belgrade Underground' written in blue. Please arrive 15 minutes before your scheduled tour time wearing comfortable walking shoes.",
+      contactNumber: "+381 64 123 4567",
+      contactEmail: "fortress@paragontrails.com",
+    },
     faqs: [
       {
         question: "Are the underground tunnels accessible for everyone?",
@@ -65,6 +77,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Skadarlija, Skadarska Street, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8176,
+        longitude: 20.4655,
+      },
+      instructions:
+        "Meet your rakija expert at the entrance to Skadarlija street, Belgrade's historic bohemian quarter. Your guide will be standing next to the statue of Đura Jakšić, holding a traditional rakija glass. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+381 64 234 5678",
+      contactEmail: "rakija@paragontrails.com",
+    },
     faqs: [
       {
         question: "What exactly is rakija?",
@@ -101,6 +124,18 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Palace of Serbia (SIV Building), Bulevar Mihajla Pupina 2, 11070 New Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8281,
+        longitude: 20.4192,
+      },
+      instructions:
+        "Meet your architecture guide in front of the main entrance to the Palace of Serbia (formerly known as SIV building) in New Belgrade. Your guide will be holding an architectural blueprint roll and wearing glasses with red frames. Please arrive 15 minutes before your scheduled tour time.",
+      contactNumber: "+381 64 345 6789",
+      contactEmail: "yugoslav@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour politically biased?",
@@ -137,6 +172,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "romantic",
+    meetingPoint: {
+      address: "Port of Belgrade, Karađorđeva 2-4, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8171,
+        longitude: 20.4506,
+      },
+      instructions:
+        "Meet your cruise host at Dock 3 of the Belgrade Port, next to the 'Cruise Terminal' sign. Your host will be wearing a navy blue blazer with a Paragon Trails logo. Please arrive 20 minutes before your scheduled cruise departure for boarding procedures.",
+      contactNumber: "+381 64 456 7890",
+      contactEmail: "cruise@paragontrails.com",
+    },
     faqs: [
       {
         question: "What type of food is served during dinner?",
@@ -173,6 +219,18 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address:
+        "Republic Square, by the Statue of Prince Mihailo, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8163,
+        longitude: 20.46,
+      },
+      instructions:
+        "Meet your street art guide by the statue of Prince Mihailo on horseback in Republic Square. Your guide will be holding a spray paint can (empty/for display only) and wearing colorful sneakers. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+381 64 567 8901",
+      contactEmail: "streetart@paragontrails.com",
+    },
     faqs: [
       {
         question: "Will we meet any local artists?",
@@ -214,6 +272,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Nikola Tesla Museum, Krunska 51, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8038,
+        longitude: 20.4709,
+      },
+      instructions:
+        "Meet your scientific curator at the entrance to the Nikola Tesla Museum on Krunska Street. Your guide will be holding a Tesla coil model and wearing a museum badge. Please arrive 15 minutes before your scheduled tour time to complete special access procedures.",
+      contactNumber: "+381 64 678 9012",
+      contactEmail: "tesla@paragontrails.com",
+    },
     faqs: [
       {
         question: "What makes this different from a regular museum visit?",
@@ -255,6 +324,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Museum of Yugoslavia, Botićeva 6, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.7869,
+        longitude: 20.452,
+      },
+      instructions:
+        "Meet your Yugoslav history expert at the main entrance to the Museum of Yugoslavia (House of Flowers). Your guide will be holding a vintage Yugoslav flag and wearing a navy cap. Please arrive 15 minutes before your scheduled tour time.",
+      contactNumber: "+381 64 789 0123",
+      contactEmail: "yugoslavia@paragontrails.com",
+    },
     faqs: [
       {
         question: "What will we eat during the Yugoslav-era meal?",
@@ -296,6 +376,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Zeleni Venac Market, Jug Bogdanova, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8143,
+        longitude: 20.4556,
+      },
+      instructions:
+        "Meet your food guide at the main entrance to Zeleni Venac Market. Your guide will be holding a traditional woven market bag and wearing a chef's apron. Please arrive hungry and 10 minutes before your scheduled tour time.",
+      contactNumber: "+381 64 890 1234",
+      contactEmail: "food@paragontrails.com",
+    },
     faqs: [
       {
         question: "How many food tastings are included?",
@@ -337,6 +428,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address: "Hotel Moskva, Balkanska 1, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8127,
+        longitude: 20.4612,
+      },
+      instructions:
+        "Meet your nature guide in front of the iconic Hotel Moskva in central Belgrade for transportation to Avala Mountain. Your guide will be holding a small hiking backpack with the Paragon Trails logo. Please bring water, wear comfortable walking shoes, and dress appropriately for the weather.",
+      contactNumber: "+381 64 901 2345",
+      contactEmail: "avala@paragontrails.com",
+    },
     faqs: [
       {
         question: "How difficult is the hiking on this tour?",
@@ -378,6 +480,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Bajloni Market, Džordža Vašingtona bb, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8183,
+        longitude: 20.4688,
+      },
+      instructions:
+        "Meet your cooking host at the main entrance to Bajloni Market. Your host will be holding a shopping basket and wearing a traditional Serbian apron. Please arrive 10 minutes before your scheduled tour time, bringing your appetite and any dietary restrictions.",
+      contactNumber: "+381 64 012 3456",
+      contactEmail: "cooking@paragontrails.com",
+    },
     faqs: [
       {
         question: "What dishes will we learn to prepare?",
@@ -419,6 +532,18 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nightlife",
+    meetingPoint: {
+      address:
+        "Hotel Jugoslavija, Bulevar Nikole Tesle 3, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8283,
+        longitude: 20.4197,
+      },
+      instructions:
+        "Meet your nightlife guide in the lobby of the historic Hotel Jugoslavija. Your guide will be stylishly dressed and holding an illuminated sign reading 'Belgrade Nightlife'. Please dress according to club standards (smart casual or better) and bring ID as venues require it for entry.",
+      contactNumber: "+381 64 123 4567",
+      contactEmail: "nightlife@paragontrails.com",
+    },
     faqs: [
       {
         question: "What is the dress code for the clubs?",
@@ -460,6 +585,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Military Museum, Kalemegdan, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8226,
+        longitude: 20.4506,
+      },
+      instructions:
+        "Meet your military historian at the entrance to the Military Museum in Kalemegdan Fortress. Your guide will be wearing a dark green jacket with military insignia and holding a folder with historical maps. Please arrive 15 minutes before your scheduled tour time wearing sturdy walking shoes.",
+      contactNumber: "+381 64 234 5678",
+      contactEmail: "military@paragontrails.com",
+    },
     faqs: [
       {
         question: "How extensive are the underground facilities?",
@@ -501,6 +637,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "luxury",
+    meetingPoint: {
+      address: "Belgrade Port, Karađorđeva 2-4, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8171,
+        longitude: 20.45,
+      },
+      instructions:
+        "Meet your sommelier host at the VIP section of Belgrade Port, next to the 'Premium Cruises' sign. Your host will be holding a wine glass and wearing a navy blazer with a silver grape pin. Please arrive 20 minutes before scheduled departure for boarding procedures.",
+      contactNumber: "+381 64 345 6789",
+      contactEmail: "wine@paragontrails.com",
+    },
     faqs: [
       {
         question: "What wines will we taste?",
@@ -542,6 +689,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "spiritual",
+    meetingPoint: {
+      address: "Saint Sava Temple, Krušedolska 2a, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.7976,
+        longitude: 20.4685,
+      },
+      instructions:
+        "Meet your religious heritage guide at the main entrance to Saint Sava Temple, one of the world's largest Orthodox churches. Your guide will be holding an icon reproduction and wearing a dark suit. Please dress modestly with shoulders and knees covered as we'll be visiting active religious sites.",
+      contactNumber: "+381 64 456 7890",
+      contactEmail: "orthodox@paragontrails.com",
+    },
     faqs: [
       {
         question:
@@ -584,6 +742,17 @@ export const belgradeTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Skadarlija, Skadarska Street, 11000 Belgrade, Serbia",
+      coordinates: {
+        latitude: 44.8176,
+        longitude: 20.4655,
+      },
+      instructions:
+        "Meet your cultural host at the entrance arch to Skadarlija Street, Belgrade's bohemian quarter. Your host will be playing a small traditional instrument (frula) and wearing a traditional vest. Please arrive 15 minutes before your scheduled event time.",
+      contactNumber: "+381 64 567 8901",
+      contactEmail: "music@paragontrails.com",
+    },
     faqs: [
       {
         question: "Do I need to know how to dance?",

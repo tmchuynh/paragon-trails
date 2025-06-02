@@ -18,7 +18,27 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Berlin Wall Memorial, Bernauer Str. 111, 13355 Berlin, Germany",
+      coordinates: {
+        latitude: 52.5352,
+        longitude: 13.3889,
+      },
+      instructions:
+        "Meet your guide at the main entrance to the Berlin Wall Memorial Visitor Center on Bernauer Strasse. The guide will be holding a blue umbrella with 'Cold War Berlin' written on it. Please arrive 15 minutes before your tour start time.",
+      contactNumber: "+49 30 1234 5678",
+      contactEmail: "coldwar@paragontrails.com",
+    },
     faqs: [
       {
         question: "Are the underground bunkers accessible for everyone?",
@@ -34,6 +54,16 @@ export const berlinTours: Tour[] = [
         question: "What should I wear for the tour?",
         answer:
           "We recommend comfortable walking shoes and weather-appropriate clothing, as we will be outdoors for part of the tour. The bunker can be cool and damp, so a light jacket is advisable.",
+      },
+      {
+        question: "What specific bunkers will we visit?",
+        answer:
+          "The tour includes access to the Gesundbrunnen civilian bunker complex, which was designed to shelter thousands of Berlin residents during air raids and potential nuclear attacks. We also visit a recently declassified command bunker that was operational during the Cold War. These facilities feature original equipment, communication systems, and living quarters preserved from the era, providing a visceral understanding of Cold War tensions and survival preparations.",
+      },
+      {
+        question: "Will we see any sections of the Berlin Wall?",
+        answer:
+          "Yes, the tour includes multiple Wall experiences: the Berlin Wall Memorial with preserved sections of the complete border fortification system, including both inner and outer walls, guard towers, and the infamous 'death strip'; less-visited Wall remnants that show original graffiti; and underground escape tunnels that were dug beneath the Wall. These diverse perspectives provide a comprehensive understanding of how the barrier functioned and how it impacted daily life in the divided city.",
       },
     ],
   },
@@ -54,7 +84,27 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address: "Warschauer Straße U-Bahn Station, 10243 Berlin, Germany",
+      coordinates: {
+        latitude: 52.505,
+        longitude: 13.4485,
+      },
+      instructions:
+        "Meet your guide at the main exit of Warschauer Straße U-Bahn station, across from the East Side Gallery. Your guide will be wearing a black jacket with colorful street art pins and holding a 'Berlin Alternative Tours' sign. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+49 30 2345 6789",
+      contactEmail: "streetart@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour suitable for teenagers?",
@@ -70,6 +120,16 @@ export const berlinTours: Tour[] = [
         question: "What should I wear for this tour?",
         answer:
           "Comfortable walking shoes are recommended, as we will be exploring neighborhoods on foot. Dress casually and be prepared for variable weather, as we may spend time outdoors in urban settings.",
+      },
+      {
+        question: "Which neighborhoods will we explore?",
+        answer:
+          "The tour focuses on Kreuzberg and Friedrichshain, Berlin's epicenters of counterculture and alternative lifestyles. We'll explore RAW-Gelände (a repurposed railway repair yard turned cultural complex), SO36 (the punk heart of Kreuzberg), artist squats like Køpi, street art hotspots including Urban Spree, and community projects such as Prinzessinnengärten urban garden. These areas showcase Berlin's grassroots creativity, political activism, and unique approach to urban development and community spaces.",
+      },
+      {
+        question: "Will we meet any local artists or residents?",
+        answer:
+          "Yes, whenever possible, we arrange spontaneous interactions with local artists, musicians, and community organizers. Our guides have deep connections within Berlin's alternative scene and often know artists who are currently working on new pieces or projects in the areas we visit. These authentic encounters provide firsthand perspectives on Berlin's creative culture and the challenges facing artistic communities in a rapidly gentrifying city.",
       },
     ],
   },
@@ -90,7 +150,27 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Hackescher Markt, 10178 Berlin, Germany",
+      coordinates: {
+        latitude: 52.5225,
+        longitude: 13.4022,
+      },
+      instructions:
+        "Meet your culinary guide at the fountain in the center of Hackescher Markt. Your guide will be holding a red tote bag with 'Berlin Food Tour' written on it and will be waiting near the fountain. Please arrive hungry and 10 minutes before your scheduled tour time.",
+      contactNumber: "+49 30 3456 7890",
+      contactEmail: "food@paragontrails.com",
+    },
     faqs: [
       {
         question: "Are vegetarian options available?",
@@ -112,6 +192,16 @@ export const berlinTours: Tour[] = [
         answer:
           "Dress comfortably! We will be walking between venues, so wear comfortable shoes. Berlin's food scene is casual, so feel free to dress down.",
       },
+      {
+        question: "What is the history behind Berlin's food scene?",
+        answer:
+          "Berlin's culinary landscape reflects its complex history, from Prussian traditions to immigrant influences, divided-city adaptations, and post-reunification innovation. We discuss how currywurst was invented by a resourceful vendor using ingredients available after WWII, how Turkish immigrants transformed German street food with döner kebab, how East German cuisine developed under socialism, and how contemporary Berlin has emerged as a world-class dining destination. Each tasting comes with historical context that connects food to the city's broader story.",
+      },
+      {
+        question: "How much food is included? Should I eat before the tour?",
+        answer:
+          "The tour includes substantial tastings equivalent to a full meal spread throughout the experience. We recommend arriving hungry but not famished. You'll sample 8-10 different specialties ranging from street foods to fine dining bites, with careful pacing to ensure you can enjoy each offering. Portions are sized to provide a satisfying taste of each item while leaving room to try everything. Beverages including water, local craft beer, and wine pairings are also included.",
+      },
     ],
   },
   {
@@ -131,7 +221,27 @@ export const berlinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "nightlife",
+    meetingPoint: {
+      address: "Nikolaiviertel, Poststraße, 10178 Berlin, Germany",
+      coordinates: {
+        latitude: 52.5169,
+        longitude: 13.4073,
+      },
+      instructions:
+        "Meet your beer culture guide next to the fountain in Nikolaiviertel, Berlin's reconstructed historic center. Your guide will be holding a vintage beer stein and wearing a dark blue cap with a beer logo. Please arrive 10 minutes before your tour starts, and bring ID as we'll be visiting establishments that serve alcohol.",
+      contactNumber: "+49 30 4567 8901",
+      contactEmail: "beertour@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour suitable for non-drinkers?",
@@ -153,6 +263,16 @@ export const berlinTours: Tour[] = [
         answer:
           "Dress casually! Berlin's pub scene is relaxed, so comfortable clothing and shoes are recommended as we will be walking between venues.",
       },
+      {
+        question: "Which historic pubs and beer gardens will we visit?",
+        answer:
+          "The tour typically includes Berlin institutions such as Zur Letzten Instanz (the city's oldest restaurant dating from 1621), Brauhaus Lemke (a pioneering microbrewery in a historic S-Bahn railway arch), Prater Biergarten (Berlin's oldest beer garden established in 1837), and hidden neighborhood Kneipen (traditional corner pubs) with histories stretching back generations. Each establishment has been carefully selected for its historical significance, authentic atmosphere, and quality offerings.",
+      },
+      {
+        question: "What is the history of Berlin's beer culture?",
+        answer:
+          "Berlin has a rich brewing tradition dating back to the 13th century, once boasting hundreds of breweries. We explore how beer influenced the city's development, including the once-famous Berlin Weisse style (Napoleon's troops called it the 'Champagne of the North'). You'll learn how beer gardens emerged as democratic social spaces, how East and West German beer cultures diverged during division, and how craft brewing has revitalized Berlin's beer scene since reunification. The tour connects beer history with broader social and political developments.",
+      },
     ],
   },
   {
@@ -172,7 +292,27 @@ export const berlinTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "wellness",
+    meetingPoint: {
+      address: "Tiergarten, Straße des 17. Juni, 10785 Berlin, Germany",
+      coordinates: {
+        latitude: 52.5163,
+        longitude: 13.3777,
+      },
+      instructions:
+        "Meet your guide at the eastern entrance to Tiergarten park, near the Soviet War Memorial. Your guide will be holding a green folder with botanical images and wearing a Paragon Trails cap. Please wear comfortable walking shoes and weather-appropriate clothing, as we'll spend most of our time outdoors.",
+      contactNumber: "+49 30 5678 9012",
+      contactEmail: "gardens@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour suitable for children?",
@@ -188,6 +328,16 @@ export const berlinTours: Tour[] = [
         question: "Do I need to book in advance?",
         answer:
           "Yes, we recommend booking at least 24 hours in advance to secure your spot and allow us to prepare for any special requests.",
+      },
+      {
+        question: "What makes Berlin's green spaces unique?",
+        answer:
+          "Berlin is one of Europe's greenest capitals with over 2,500 public parks and gardens covering nearly one-third of the city. These spaces reflect Berlin's layered history - from baroque royal gardens to community-created parks on former death strips, and post-industrial wasteland transformations. Berlin's approach to urban wilderness is distinct, with many areas deliberately left wild to support biodiversity. The tour explores how Berliners have reclaimed spaces for community gardens and how green planning has shaped the reunified city's development.",
+      },
+      {
+        question: "What will we learn about the plants and wildlife?",
+        answer:
+          "Our guide provides insights into Berlin's urban ecology, identifying notable plant species and explaining how the city's unique conditions support surprising biodiversity. You'll learn about native and introduced species, seasonal highlights, and wildlife that has returned to the city over recent decades. The tour includes information on Berlin's innovative approaches to sustainable urban landscaping, climate adaptation through green planning, and community-led initiatives to increase urban biodiversity.",
       },
     ],
   },
