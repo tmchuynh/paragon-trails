@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const cartagenaTours: Tour[] = [
   {
     title: "Colonial City Walls & Hidden Fortresses",
@@ -16,7 +15,6 @@ export const cartagenaTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Historical", "Architecture", "UNESCO"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -85,7 +83,6 @@ export const cartagenaTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Food", "Cooking", "Market"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -155,7 +152,6 @@ export const cartagenaTours: Tour[] = [
     price: "$345",
     rating: 5.0,
     tags: ["Islands", "Yacht", "Snorkeling"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -224,7 +220,6 @@ export const cartagenaTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Cultural", "African Heritage", "UNESCO"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -293,7 +288,6 @@ export const cartagenaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Photography", "Sunset", "Architecture"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -362,7 +356,6 @@ export const cartagenaTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Literary", "Cultural", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -434,7 +427,6 @@ export const cartagenaTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -504,7 +496,6 @@ export const cartagenaTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Dance", "Nightlife", "Music"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -573,7 +564,6 @@ export const cartagenaTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Nature", "Eco-Tour", "Birdwatching"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -642,7 +632,6 @@ export const cartagenaTours: Tour[] = [
     price: "$90",
     rating: 4.6,
     tags: ["Fishing", "Cultural", "Culinary"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -711,7 +700,6 @@ export const cartagenaTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Cocktails", "Nightlife", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -766,5 +754,4 @@ export const cartagenaTours: Tour[] = [
     ],
   },
 ];
-
 export default cartagenaTours;

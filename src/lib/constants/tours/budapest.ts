@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const budapestTours: Tour[] = [
   {
     title: "Thermal Bath Experience & Spa Heritage",
@@ -16,7 +15,6 @@ export const budapestTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Thermal Baths", "Wellness", "History"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -65,7 +63,6 @@ export const budapestTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Underground", "History", "Caves"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -115,7 +112,6 @@ export const budapestTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -164,7 +160,6 @@ export const budapestTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Nightlife", "Street Art", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -213,7 +208,6 @@ export const budapestTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["History", "Architecture", "Views"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -282,7 +276,6 @@ export const budapestTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Wine", "Tasting", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -351,7 +344,6 @@ export const budapestTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Cruise", "Sightseeing", "Evening"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -420,7 +412,6 @@ export const budapestTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["History", "Communist Era", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -489,7 +480,6 @@ export const budapestTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Food", "Market", "Culinary"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -559,7 +549,6 @@ export const budapestTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Jewish Heritage", "Cultural", "Historical"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -629,7 +618,6 @@ export const budapestTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Folk", "Dance", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -699,7 +687,6 @@ export const budapestTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Art", "Village", "Day Trip"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -768,7 +755,6 @@ export const budapestTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Photography", "Walking Tour", "Creative"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -837,7 +823,6 @@ export const budapestTours: Tour[] = [
     price: "$135",
     rating: 4.7,
     tags: ["Day Trip", "Nature", "Lake"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -892,5 +877,4 @@ export const budapestTours: Tour[] = [
     ],
   },
 ];
-
 export default budapestTours;

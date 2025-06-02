@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const buenosAiresTours: Tour[] = [
   {
     title: "Tango Experience: Show & Dance Lesson",
@@ -16,7 +15,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Tango", "Dance", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -88,7 +86,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Architecture", "Art", "Local Culture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -169,7 +166,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Food", "Culinary", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -239,7 +235,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nightlife", "Tango", "Local Culture"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -310,7 +305,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$60",
     rating: 4.8,
     tags: ["History", "Culture", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -381,7 +375,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$100",
     rating: 4.9,
     tags: ["Nature", "Adventure", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -452,7 +445,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Art", "Culture", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -523,7 +515,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Nature", "Parks", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -593,7 +584,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Wine", "Tasting", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -663,7 +653,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Historical", "Political", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -733,7 +722,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$130",
     rating: 4.8,
     tags: ["Gaucho", "Rural", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -804,7 +792,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Nature", "Eco-Adventure", "Waterways"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -874,7 +861,6 @@ export const buenosAiresTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Architecture", "History", "Design"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -933,5 +919,4 @@ export const buenosAiresTours: Tour[] = [
     ],
   },
 ];
-
 export default buenosAiresTours;

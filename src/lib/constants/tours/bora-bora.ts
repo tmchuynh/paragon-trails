@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const boraBoraTours: Tour[] = [
   {
     title: "Luxury Lagoon Cruise & Snorkeling Adventure",
@@ -16,7 +15,6 @@ export const boraBoraTours: Tour[] = [
     price: "$195",
     rating: 5.0,
     tags: ["Snorkeling", "Luxury"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -85,7 +83,6 @@ export const boraBoraTours: Tour[] = [
     price: "$250",
     rating: 4.9,
     tags: ["Sunset", "Romantic", "Gourmet"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -154,7 +151,6 @@ export const boraBoraTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Culture", "History", "Local Experience"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -223,7 +219,6 @@ export const boraBoraTours: Tour[] = [
     price: "$180",
     rating: 4.9,
     tags: ["Island Hopping", "BBQ", "Adventure"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -292,7 +287,6 @@ export const boraBoraTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Nightlife", "Romantic", "Scenic"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -355,5 +349,4 @@ export const boraBoraTours: Tour[] = [
     ],
   },
 ];
-
 export default boraBoraTours;

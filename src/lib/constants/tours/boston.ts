@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const bostonTours: Tour[] = [
   {
     title: "Freedom Trail Historic Walking Tour",
@@ -17,7 +16,6 @@ export const bostonTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Revolutionary History", "Walking", "Historical Sites"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -93,7 +91,6 @@ export const bostonTours: Tour[] = [
     price: "$39",
     rating: 4.7,
     tags: ["University", "Education", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -165,7 +162,6 @@ export const bostonTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Scenic", "Relaxation", "Evening"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -236,7 +232,6 @@ export const bostonTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Culinary", "Italian", "Local"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -306,7 +301,6 @@ export const bostonTours: Tour[] = [
     price: "$30",
     rating: 4.6,
     tags: ["Historical", "Interactive", "Family"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -379,7 +373,6 @@ export const bostonTours: Tour[] = [
     price: "$35",
     rating: 4.9,
     tags: ["Sports", "Baseball", "Historical"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -456,7 +449,6 @@ export const bostonTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Day Trip", "Historical", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -528,7 +520,6 @@ export const bostonTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Craft Beer", "Brewery", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -601,7 +592,6 @@ export const bostonTours: Tour[] = [
     price: "$45",
     rating: 4.6,
     tags: ["Literary", "Historical", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -672,7 +662,6 @@ export const bostonTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Technology", "Innovation", "Education"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -728,5 +717,4 @@ export const bostonTours: Tour[] = [
     ],
   },
 ];
-
 export default bostonTours;
