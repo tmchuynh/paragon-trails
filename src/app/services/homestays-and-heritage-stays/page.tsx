@@ -364,7 +364,15 @@ export default function HomestayPage() {
           a travel experience that goes beyond the typical, a homestay is an
           excellent choice.
         </p>
-        <button>Explore Available Homestays</button>
+        <Button
+          onClick={() =>
+            router.push(
+              "/services/homestays-and-heritage-stays/homestay-destinations"
+            )
+          }
+        >
+          Explore Available Homestays
+        </Button>
       </section>
     </div>
   );
