@@ -10,14 +10,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import CartContext from "@/context/cartContext";
 import { vehicleSelectionGuide } from "@/lib/constants/services/transportation/vehicles";
 import { capitalize } from "@/lib/utils/format";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FaFilter } from "react-icons/fa";
+import { toast } from "sonner";
 
 export default function RentAVehicle() {
   const [showFilters, setShowFilters] = useState(false);
-  // Filter states
   const [passengerFilter, setPassengerFilter] = useState<number | null>(null);
   const [priceFilter, setPriceFilter] = useState<number | null>(null);
   const [selectedFeatures, setSelectedFeatures] = useState<string[]>([]);
@@ -25,6 +26,8 @@ export default function RentAVehicle() {
     string[]
   >([]);
   const [soundSystemFilter, setSoundSystemFilter] = useState<string>("");
+  const [addingToCartId, setAddingToCartId] = useState<string | null>(null);
+  const cartContext = useContext(CartContext);
 
   // Get all unique features, interior features, and sound systems
   const allFeatures = new Set<string>();
@@ -148,6 +151,40 @@ export default function RentAVehicle() {
     setSoundSystemFilter("");
     setSelectedFeatures([]);
     setSelectedInteriorFeatures([]);
+  };
+
+  // Handle adding a vehicle to cart
+  const handleAddToCart = (vehicle: any, category: string) => {
+    if (!cartContext) return;
+
+    // Set loading state for this specific vehicle
+    setAddingToCartId(vehicle.name);
+
+    // Create cart item with unique ID
+    const vehicleItem = {
+      id: `vehicle-${vehicle.name
+        .toLowerCase()
+        .replace(/\s/g, "-")}-${Math.random().toString(36).substr(2, 9)}`,
+      title: `${vehicle.name} (${category})`,
+      price: vehicle.pricePerDayUSD,
+      image: vehicle.image || "/images/default-vehicle.jpg", // Using a default image if none provided
+      duration: "1 day", // Default duration
+      category: category,
+      type: "vehicle",
+      details: {
+        passengers: vehicle.maxPassengers,
+        soundSystem: vehicle.soundSystem,
+        features: Object.entries(vehicle.features)
+          .filter(([_, value]) => value === true)
+          .map(([key, _]) => key),
+      },
+    };
+
+    cartContext.addToCart(vehicleItem);
+    toast.success(`${vehicle.name} added to your cart!`);
+
+    // Reset loading state
+    setAddingToCartId(null);
   };
 
   return (
@@ -470,6 +507,16 @@ export default function RentAVehicle() {
                       </div>
                     </div>
                   </div>
+
+                  <Button
+                    className="w-full"
+                    onClick={() => handleAddToCart(vehicle, category.category)}
+                    disabled={addingToCartId === vehicle.name}
+                  >
+                    {addingToCartId === vehicle.name
+                      ? "Adding..."
+                      : "Add to Cart"}
+                  </Button>
                 </div>
               ))}
             </div>
