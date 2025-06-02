@@ -5,6 +5,9 @@ export const amsterdamTours: Tour[] = [
     title: "Hidden Canals & Secret Gardens",
     description:
       "Explore Amsterdam beyond the tourist paths with a local historian, discovering hidden hofjes (courtyard gardens), secret canals, and architectural gems from the Golden Age that most visitors never see.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/hidden-canals.jpg",
       "/images/tours/amsterdam/secret-hofjes.jpg",
@@ -118,6 +121,9 @@ export const amsterdamTours: Tour[] = [
     title: "Dutch Masters & Rijksmuseum After Hours",
     description:
       "Experience the world-renowned Rijksmuseum without the crowds during a special after-hours visit, with an art historian guide illuminating the stories behind Rembrandt's Night Watch, Vermeer's masterpieces, and other Dutch Golden Age treasures.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/rijksmuseum-night-watch.jpg",
       "/images/tours/amsterdam/rijksmuseum-hall.jpg",
@@ -229,6 +235,9 @@ export const amsterdamTours: Tour[] = [
     title: "Amsterdam Culinary Journey",
     description:
       "Taste your way through Amsterdam's diverse food scene with a local chef as your guide. Sample Dutch classics like stroopwafels and herring alongside international influences that make Amsterdam's cuisine unique. Visit local markets, family-owned cafés, and specialty shops off the tourist track.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/food-market.jpg",
       "/images/tours/amsterdam/dutch-cuisine.jpg",
@@ -340,6 +349,9 @@ export const amsterdamTours: Tour[] = [
     title: "Amsterdam by Bike: City Cycling Adventure",
     description:
       "Experience Amsterdam like a local – on two wheels! This guided cycling tour takes you through picturesque neighborhoods, along scenic canals, and past iconic landmarks. Learn about Amsterdam's cycling culture and discover why this city is the cycling capital of the world.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/bike-canal.jpg",
       "/images/tours/amsterdam/cycling-group.jpg",
@@ -452,6 +464,9 @@ export const amsterdamTours: Tour[] = [
     title: "Evening Canal Cruise with Wine & Cheese",
     description:
       "Glide through Amsterdam's illuminated waterways on an intimate evening cruise aboard a traditional salon boat. Enjoy fine Dutch cheeses paired with selected wines as you pass under historic bridges and past magnificent 17th-century merchant houses glowing in the twilight.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/canal-night-cruise.jpg",
       "/images/tours/amsterdam/canal-boat-wine.jpg",
@@ -561,6 +576,9 @@ export const amsterdamTours: Tour[] = [
     title: "Windmills, Cheese & Clogs: Dutch Countryside Day Trip",
     description:
       "Escape the city for a day exploring the quintessential Dutch countryside. Visit the historic windmill village of Zaanse Schans, learn the art of cheese-making at a traditional farm, and watch wooden clogs being crafted by hand using centuries-old techniques.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/windmills-zaanse-schans.jpg",
       "/images/tours/amsterdam/cheese-farm.jpg",
@@ -673,6 +691,9 @@ export const amsterdamTours: Tour[] = [
     title: "Red Light District: Culture & History Tour",
     description:
       "Discover the fascinating history and cultural significance of Amsterdam's famous Red Light District with an informed local guide. Learn about the area's evolution from medieval times to today, the Dutch approach to social issues, and the lives of those who work in this unique neighborhood.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/red-light-canal.jpg",
       "/images/tours/amsterdam/old-church-square.jpg",
@@ -783,6 +804,9 @@ export const amsterdamTours: Tour[] = [
     title: "Artis Zoo & Botanical Gardens",
     description:
       "Explore one of the oldest zoos in Europe, Artis, which combines a traditional zoo experience with beautiful botanical gardens. Learn about conservation efforts and see a wide variety of animals in naturalistic habitats, all while enjoying the lush greenery of the gardens.",
+    city: "Amsterdam",
+    country: "Netherlands",
+    region: "North Holland",
     images: [
       "/images/tours/amsterdam/artis-zoo.jpg",
       "/images/tours/amsterdam/botanical-gardens.jpg",

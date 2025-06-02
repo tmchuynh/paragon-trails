@@ -5,6 +5,10 @@ export const atlantaTours: Tour[] = [
     title: "Civil Rights Legacy Tour",
     description:
       "Explore Atlanta's pivotal role in the Civil Rights Movement with visits to the Martin Luther King Jr. National Historical Park, Center for Civil and Human Rights, and historically significant locations guided by civil rights scholars.",
+    city: "Atlanta",
+    country: "USA",
+    state: "Georgia",
+    region: "Southeast",
     images: [
       "/images/tours/atlanta/mlk-center.jpg",
       "/images/tours/atlanta/civil-rights-center.jpg",
@@ -121,6 +125,10 @@ export const atlantaTours: Tour[] = [
     title: "Atlanta Film & TV Production Tour",
     description:
       "Go behind the scenes of Atlanta's booming film industry with exclusive access to production studios, filming locations from popular shows and movies, and meetings with industry professionals who bring Hollywood to the South.",
+    city: "Atlanta",
+    country: "USA",
+    state: "Georgia",
+    region: "Southeast",
     images: [
       "/images/tours/atlanta/film-studio.jpg",
       "/images/tours/atlanta/filming-location.jpg",
@@ -235,6 +243,10 @@ export const atlantaTours: Tour[] = [
     title: "Southern Food & Cocktail Experience",
     description:
       "Savor the diverse flavors of Atlanta's renowned culinary scene, from traditional Southern comfort food to innovative farm-to-table creations, paired with craft cocktails at award-winning establishments.",
+    city: "Atlanta",
+    country: "USA",
+    state: "Georgia",
+    region: "Southeast",
     images: [
       "/images/tours/atlanta/southern-cuisine.jpg",
       "/images/tours/atlanta/craft-cocktails.jpg",
@@ -348,6 +360,10 @@ export const atlantaTours: Tour[] = [
     title: "Atlanta BeltLine Art & Nature Walk",
     description:
       "Explore the Atlanta BeltLine, an innovative urban redevelopment project transforming former railway corridors into a network of public parks, multi-use trails and stunning public art installations.",
+    city: "Atlanta",
+    country: "USA",
+    state: "Georgia",
+    region: "Southeast",
     images: [
       "/images/tours/atlanta/beltline-art.jpg",
       "/images/tours/atlanta/beltline-trail.jpg",
@@ -460,6 +476,10 @@ export const atlantaTours: Tour[] = [
     title: "Atlanta Hip-Hop Heritage Experience",
     description:
       "Dive into Atlanta's influential hip-hop scene with visits to legendary studios, iconic neighborhoods, and venues that shaped the sound of Southern rap, guided by music industry insiders with personal connections to the scene.",
+    city: "Atlanta",
+    country: "USA",
+    state: "Georgia",
+    region: "Southeast",
     images: [
       "/images/tours/atlanta/recording-studio.jpg",
       "/images/tours/atlanta/hip-hop-mural.jpg",

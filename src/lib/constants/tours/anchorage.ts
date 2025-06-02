@@ -552,7 +552,7 @@ export const anchorageTours: Tour[] = [
       "/images/tours/anchorage/denali-vista.jpg",
       "/images/tours/anchorage/denali-wildlife.jpg",
     ],
-    duration: "12 hours",
+    duration: "11 hours",
     price: "$375",
     rating: 4.9,
     tags: ["Denali", "National Park", "Wildlife"],

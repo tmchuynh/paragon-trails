@@ -5,6 +5,10 @@ export const austinTours: Tour[] = [
     title: "Live Music Crawl & Backstage Access",
     description:
       "Experience Austin's legendary music scene with a local musician guide who provides VIP access to multiple venues, backstage introductions, and insider stories about the city's musical heritage.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/live-music-venue.jpg",
       "/images/tours/austin/backstage.jpg",
@@ -119,6 +123,10 @@ export const austinTours: Tour[] = [
     title: "BBQ & Brewery Experience",
     description:
       "Savor Austin's renowned BBQ scene with skip-the-line access at top smokehouses, followed by craft beer tastings at local breweries with an expert food and beverage guide.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/bbq-platter.jpg",
       "/images/tours/austin/craft-beer.jpg",
@@ -235,6 +243,10 @@ export const austinTours: Tour[] = [
     title: "Austin City Tour & History Walk",
     description:
       "Explore Austin's rich history and vibrant culture with a guided walking tour through downtown, visiting iconic landmarks, historic districts, and learning about the city's unique heritage.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/city-tour.jpg",
       "/images/tours/austin/history-walk.jpg",
@@ -346,6 +358,10 @@ export const austinTours: Tour[] = [
     title: "Lady Bird Lake Kayak & Nature Tour",
     description:
       "Paddle through the scenic waters of Lady Bird Lake with a guided kayak tour, exploring Austin's natural beauty, wildlife, and iconic skyline views while learning about the area's ecology and history.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/kayak-lady-bird.jpg",
       "/images/tours/austin/nature-tour.jpg",
@@ -458,6 +474,10 @@ export const austinTours: Tour[] = [
     title: "Texas Hill Country Wine & Scenic Tour",
     description:
       "Discover the beauty of Texas Hill Country with a guided tour of local wineries, including tastings of award-winning wines and scenic views of rolling hills and vineyards.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/wine-tasting.jpg",
       "/images/tours/austin/hill-country.jpg",
@@ -576,6 +596,10 @@ export const austinTours: Tour[] = [
     title: "Austin Street Art & Mural Tour",
     description:
       "Explore Austin's vibrant street art scene on this guided walking tour showcasing the city's most impressive murals, graffiti art, and public installations while learning about the artists and stories behind each piece.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/street-art-1.jpg",
       "/images/tours/austin/murals-2.jpg",
@@ -686,6 +710,10 @@ export const austinTours: Tour[] = [
     title: "Bat Watching Cruise & Sunset Tour",
     description:
       "Witness the spectacular natural phenomenon of 1.5 million Mexican free-tailed bats emerging from under the Congress Avenue Bridge at sunset aboard a comfortable boat with expert narration and perfect viewing position.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/bat-watching.jpg",
       "/images/tours/austin/lady-bird-sunset.jpg",
@@ -798,6 +826,10 @@ export const austinTours: Tour[] = [
     title: "Austin Food Truck Crawl",
     description:
       "Sample the best of Austin's renowned food truck scene with this guided culinary tour visiting 5-6 top-rated food trucks serving everything from authentic Texas BBQ to innovative fusion cuisine, with plenty of local stories and insider tips along the way.",
+    city: "Austin",
+    country: "USA",
+    state: "Texas",
+    region: "Central Texas",
     images: [
       "/images/tours/austin/food-trucks.jpg",
       "/images/tours/austin/street-food.jpg",

@@ -5,6 +5,9 @@ export const athensTours: Tour[] = [
     title: "Acropolis & Ancient Athens Private Experience",
     description:
       "Explore the cradle of Western civilization with an archaeology expert guiding you through the Acropolis and ancient sites, with early access before crowds arrive and exclusive entry to areas closed to regular visitors.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/acropolis-sunrise.jpg",
       "/images/tours/athens/parthenon-close.jpg",
@@ -118,6 +121,9 @@ export const athensTours: Tour[] = [
     title: "Athens Food Journey & Cooking Class",
     description:
       "Discover Greek culinary traditions with a market tour selecting fresh ingredients, followed by a cooking class in a rooftop kitchen with Acropolis views where you'll create authentic dishes under the guidance of a local chef.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/food-market.jpg",
       "/images/tours/athens/cooking-class.jpg",
@@ -228,6 +234,9 @@ export const athensTours: Tour[] = [
     title: "Cape Sounion Sunset & Temple of Poseidon",
     description:
       "Journey along the stunning Athens Riviera to Cape Sounion and witness a breathtaking sunset from the ancient Temple of Poseidon perched on the cliffs above the Aegean Sea. This romantic evening tour includes wine tasting and a gourmet dinner at a seaside taverna.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/sounion-sunset.jpg",
       "/images/tours/athens/poseidon-temple.jpg",
@@ -339,6 +348,9 @@ export const athensTours: Tour[] = [
     title: "Hidden Athens: Secret Neighborhoods & Local Life",
     description:
       "Discover the authentic Athens that tourists rarely see as you explore hidden neighborhoods, bustling local markets, street art scenes, and family-run workshops. Meet the real Athenians who keep ancient traditions alive while embracing modern Greek culture.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/local-market.jpg",
       "/images/tours/athens/street-art.jpg",
@@ -451,6 +463,9 @@ export const athensTours: Tour[] = [
     title: "Athens Photography Tour: Capturing Ancient & Modern",
     description:
       "Perfect your photography skills while capturing the unique juxtaposition of ancient ruins against modern Athens. Learn composition techniques and the best angles from a professional photographer at both iconic landmarks and hidden viewpoints.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/photography-acropolis.jpg",
       "/images/tours/athens/photography-street.jpg",
@@ -562,6 +577,9 @@ export const athensTours: Tour[] = [
     title: "Greek Wine Odyssey: Athens Tasting Experience",
     description:
       "Embark on a journey through Greece's ancient winemaking tradition with visits to three distinctive wine bars, sampling rare indigenous grape varieties and classic Greek meze pairings with guidance from a certified sommelier.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/wine-tasting.jpg",
       "/images/tours/athens/wine-cellar.jpg",
@@ -671,6 +689,9 @@ export const athensTours: Tour[] = [
     title: "Mythological Athens: Walking in the Footsteps of Gods",
     description:
       "Bring ancient Greek mythology to life as you explore the sites where gods and heroes once tread. This storytelling tour connects archaeological sites with the captivating myths and legends that have influenced world culture for millennia.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/mythology-tour.jpg",
       "/images/tours/athens/ancient-agora.jpg",
@@ -783,6 +804,9 @@ export const athensTours: Tour[] = [
     title: "Athens Adventure: Rock Climbing & Sea Kayaking",
     description:
       "Experience the natural side of Athens with morning rock climbing on the limestone crags of Hymettus Mountain, followed by afternoon sea kayaking along the scenic Athens Riviera with cave explorations and swimming breaks.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/rock-climbing.jpg",
       "/images/tours/athens/sea-kayaking.jpg",
@@ -895,6 +919,9 @@ export const athensTours: Tour[] = [
     title: "Family Mythology Quest: Athens Treasure Hunt",
     description:
       "Turn Athens into a playground of discovery with this interactive family treasure hunt. Follow clues through ancient sites and modern neighborhoods while solving puzzles based on Greek mythology and history.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/family-treasure-hunt.jpg",
       "/images/tours/athens/kids-activity.jpg",
@@ -1004,6 +1031,9 @@ export const athensTours: Tour[] = [
     title: "Luxury Athens: Private Yacht & Gourmet Experience",
     description:
       "Indulge in the ultimate Athens luxury experience with a private yacht cruise along the Athens Riviera, followed by a bespoke gourmet dinner at a Michelin-starred restaurant with panoramic Acropolis views.",
+    city: "Athens",
+    country: "Greece",
+    region: "Attica",
     images: [
       "/images/tours/athens/luxury-yacht.jpg",
       "/images/tours/athens/gourmet-dining.jpg",

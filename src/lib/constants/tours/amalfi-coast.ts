@@ -5,6 +5,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Positano & Path of the Gods Hike",
     description:
       "Experience the breathtaking beauty of the Amalfi Coast with a guided hike along the famous 'Path of the Gods' trail, offering spectacular panoramic views of the Mediterranean, followed by exploration of the picturesque cliffside village of Positano.",
+    city: "Positano",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1562966173-2a864c016b8f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW1hbGZpJTIwY29hc3QlMkZwYXRoJTIwb2YlMjBnb2RzfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1683574932064-21fafd50a67c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFtYWxmaSUyMGNvYXN0JTJGcGF0aCUyMG9mJTIwZ29kc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -119,6 +122,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Limoncello & Culinary Traditions",
     description:
       "Discover the secrets of Amalfi Coast cuisine with visits to family-run lemon groves, a hands-on cooking class featuring local specialties, and a limoncello making demonstration at a historic distillery in Ravello.",
+    city: "Ravello",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1710443165761-bcfdce7bded6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QW1hbGZpJTIwQ29hc3QlMjBjdWlzaW5lJTIwd2l0aCUyMHZpc2l0cyUyMHRvJTIwZmFtaWx5JTIwcnVuJTIwbGVtb24lMjBncm92ZXN8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1654803771411-f09348fb1645?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QW1hbGZpJTIwQ29hc3QlMjBjdWlzaW5lJTIwd2l0aCUyMHZpc2l0cyUyMHRvJTIwZmFtaWx5JTIwcnVuJTIwbGVtb24lMjBncm92ZXN8ZW58MHx8MHx8fDA%3D",
@@ -232,6 +238,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Private Amalfi Coast Yacht Experience",
     description:
       "Sail the stunning Amalfi coastline aboard a private luxury yacht, stopping to swim in hidden coves, visit sea caves including the famous Emerald Grotto, and enjoy a gourmet seafood lunch with local wine while anchored off a secluded beach.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1654991939562-17abe49e3687?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FpbCUyMHRoZSUyMHN0dW5uaW5nJTIwQW1hbGZpJTIwY29hc3RsaW5lJTIwYWJvYXJkJTIwYSUyMHByaXZhdGUlMjBsdXh1cnklMjB5YWNodHxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1627640408385-0c54a7410b7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U2FpbCUyMHRoZSUyMHN0dW5uaW5nJTIwQW1hbGZpJTIwY29hc3RsaW5lJTIwYWJvYXJkJTIwYSUyMHByaXZhdGUlMjBsdXh1cnklMjB5YWNodHxlbnwwfHwwfHx8MA%3D%3D",
@@ -346,6 +355,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Ravello's Historic Villas & Gardens",
     description:
       "Explore the elegant hill town of Ravello with exclusive access to its historic villas, magnificent gardens, and hidden corners that inspired composers and writers throughout history, accompanied by classical music performances in breathtaking settings.",
+    city: "Ravello",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1725908704851-f354d169eca5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RXhwbG9yZSUyMHRoZSUyMGVsZWdhbnQlMjBoaWxsJTIwdG93biUyMG9mJTIwUmF2ZWxsb3xlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1745521717940-efaeb3cbc8d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEV4cGxvcmUlMjB0aGUlMjBlbGVnYW50JTIwaGlsbCUyMHRvd24lMjBvZiUyMFJhdmVsbG98ZW58MHx8MHx8fDA%3D",
@@ -457,6 +469,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Amalfi Paper Making & Historic Center",
     description:
       "Discover the ancient art of paper making in Amalfi, once a major medieval maritime power, with a visit to a 13th-century paper mill still producing handcrafted paper, followed by exploration of the town's impressive Duomo and historic center.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1744995489083-7e048ac2db1e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGlzY292ZXIlMjB0aGUlMjBhbmNpZW50JTIwYXJ0JTIwb2YlMjBwYXBlciUyMG1ha2luZyUyMGluJTIwQW1hbGZpfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1703705632001-5791cfd494ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fERpc2NvdmVyJTIwdGhlJTIwYW5jaWVudCUyMGFydCUyMG9mJTIwcGFwZXIlMjBtYWtpbmclMjBpbiUyMEFtYWxmaXxlbnwwfHwwfHx8MA%3D%3D",
@@ -567,6 +582,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Hidden Villages & Local Life",
     description:
       "Venture beyond the tourist trail to the Amalfi Coast's hidden villages perched high in the mountains, meeting local families, visiting small-scale producers of cheese and wine, and experiencing authentic Italian daily life away from the crowds.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1711701024388-0bb8b6046c70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QW1hbGZpJTIwQ29hc3QncyUyMGhpZGRlbiUyMHZpbGxhZ2VzJTIwcGVyY2hlZCUyMGhpZ2glMjBpbiUyMHRoZSUyMG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1711701023364-4d29570d2814?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEFtYWxmaSUyMENvYXN0J3MlMjBoaWRkZW4lMjB2aWxsYWdlcyUyMHBlcmNoZWQlMjBoaWdoJTIwaW4lMjB0aGUlMjBtb3VudGFpbnN8ZW58MHx8MHx8fDA%3D",
@@ -677,6 +695,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Sunset Photography Cruise",
     description:
       "Capture the magical light of the Amalfi Coast during the golden hour with a photography-focused sunset cruise, guided by a professional photographer who will help you master techniques for shooting coastal landscapes, architecture, and the famous Mediterranean light.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://images.unsplash.com/photo-1700413739082-ced1f43acf09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FwdHVyZSUyMHRoZSUyMG1hZ2ljYWwlMjBsaWdodCUyMG9mJTIwdGhlJTIwQW1hbGZpJTIwQ29hc3QlMjBkdXJpbmclMjB0aGUlMjBnb2xkZW4lMjBob3VyfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1529914266944-527632c9ea58?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FwdHVyZSUyMHRoZSUyMG1hZ2ljYWwlMjBsaWdodCUyMG9mJTIwdGhlJTIwQW1hbGZpJTIwQ29hc3QlMjBkdXJpbmclMjB0aGUlMjBnb2xkZW4lMjBob3VyfGVufDB8fDB8fHww",
@@ -789,6 +810,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Ceramics of Vietri & Artisan Workshops",
     description:
       "Discover the colorful ceramic traditions that have made the Amalfi Coast famous for centuries. Visit historic workshops in Vietri sul Mare, meet master artisans, learn traditional hand-painting techniques, and create your own ceramic piece to take home.",
+    city: "Vietri sul Mare",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1679811675652-2302bf23c9f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjBjb2xvcmZ1bCUyMGNlcmFtaWMlMjB0cmFkaXRpb25zJTIwdGhhdCUyMGhhdmUlMjBtYWRlJTIwdGhlJTIwQW1hbGZpJTIwQ29hc3QlMjBmYW1vdXMlMjBmb3IlMjBjZW50dXJpZXN8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1649670904906-6015930738c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RGlzY292ZXIlMjB0aGUlMjBjb2xvcmZ1bCUyMGNlcmFtaWMlMjB0cmFkaXRpb25zJTIwdGhhdCUyMGhhdmUlMjBtYWRlJTIwdGhlJTIwQW1hbGZpJTIwQ29hc3QlMjBmYW1vdXMlMjBmb3IlMjBjZW50dXJpZXN8ZW58MHx8MHx8fDA%3D",
@@ -903,6 +927,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Pompeii & Herculaneum Archaeological Expedition",
     description:
       "Explore the remarkably preserved ancient Roman cities of Pompeii and Herculaneum with an archaeology expert. Walk through streets, homes, and public buildings frozen in time by Mount Vesuvius's eruption in 79 AD, gaining insights into daily Roman life.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1693256458375-f7822de0cdbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RXhwbG9yZSUyMHRoZSUyMHJlbWFya2FibHklMjBwcmVzZXJ2ZWQlMjBhbmNpZW50JTIwUm9tYW4lMjBjaXRpZXMlMjBvZiUyMFBvbXBlaWklMjBhbmQlMjBIZXJjdWxhbmV1bSUyMHdpdGglMjBhbiUyMGFyY2hhZW9sb2d5JTIwZXhwZXJ0fGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1656073257815-f11379117fb7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhwbG9yZSUyMHRoZSUyMHJlbWFya2FibHklMjBwcmVzZXJ2ZWQlMjBhbmNpZW50JTIwUm9tYW4lMjBjaXRpZXMlMjBvZiUyMFBvbXBlaWklMjBhbmQlMjBIZXJjdWxhbmV1bSUyMHdpdGglMjBhbiUyMGFyY2hhZW9sb2d5JTIwZXhwZXJ0fGVufDB8fDB8fHww",
@@ -1017,12 +1044,15 @@ export const amalfiCoastTours: Tour[] = [
     title: "Amalfi Coast Wine Tour & Vineyard Experience",
     description:
       "Discover the unique viticulture of the Amalfi Coast's vertical vineyards with visits to family-run wineries, tastings of local varietals like Falanghina and Costa d'Amalfi DOC wines, and a vineyard lunch featuring paired regional cuisine.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1694475516929-a6cea77cafbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlzY292ZXIlMjB0aGUlMjB1bmlxdWUlMjB2aXRpY3VsdHVyZSUyMG9mJTIwdGhlJTIwQW1hbGZpJTIwQ29hc3QncyUyMHZlcnRpY2FsJTIwdmluZXlhcmRzfGVufDB8fDB8fHww",
       "https://plus.unsplash.com/premium_photo-1663127459691-b49eae9c9048?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1565788185831-1756634385fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1565788185831-1756634385fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0JTIwZHVyaW5nJTIwdGhlJTIwZ29sZGVuJTIwaG91cnxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1710667407646-6002a9fb1aa0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1579385069688-38fed978de43?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1579385069688-38fed978de43?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0JTIwZHVyaW5nJTIwdGhlJTIwZ29sZGVuJTIwaG91cnxlbnwwfHwwfHx8MA%3D%3D",
       "https://plus.unsplash.com/premium_photo-1667051580508-d6ff0bdde642?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1741646557128-ce451cc48f59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
       "https://plus.unsplash.com/premium_photo-1689877572686-0274eeffccc3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwdml0aWN1bHR1cmUlMjBvZiUyMHRoZSUyMEFtYWxmaSUyMENvYXN0J3MlMjB2ZXJ0aWNhbCUyMHZpbmV5YXJkc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -1133,6 +1163,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Amalfi Coast Cooking Class & Farm Experience",
     description:
       "Spend a day at an organic farm in the hills above Positano, harvesting seasonal ingredients from the garden, learning traditional recipes from a local nonna, and enjoying your creations with paired local wines on a terrace overlooking the Mediterranean.",
+    city: "Positano",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1737073974848-49862966b994?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fFNwZW5kJTIwYSUyMGRheSUyMGF0JTIwYW4lMjBvcmdhbmljJTIwZmFybSUyMGluJTIwdGhlJTIwaGlsbHMlMjBhYm92ZSUyMFBvc2l0YW5vJTJDJTIwaGFydmVzdGluZyUyMHNlYXNvbmFsJTIwaW5ncmVkaWVudHMlMjBmcm9tJTIwdGhlJTIwZ2FyZGVufGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1668931003703-f406d63d61f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNwZW5kJTIwYSUyMGRheSUyMGF0JTIwYW4lMjBvcmdhbmljJTIwZmFybSUyMGluJTIwdGhlJTIwaGlsbHMlMjBhYm92ZSUyMFBvc2l0YW5vJTJDJTIwaGFydmVzdGluZyUyMHNlYXNvbmFsJTIwaW5ncmVkaWVudHMlMjBmcm9tJTIwdGhlJTIwZ2FyZGVufGVufDB8fDB8fHww",
@@ -1246,6 +1279,9 @@ export const amalfiCoastTours: Tour[] = [
     title: "Amalfi Coast Private Boat & Secret Beaches",
     description:
       "Escape the crowds aboard a private boat to discover hidden coves and secret beaches accessible only by water. Swim in crystal-clear grottos, snorkel around ancient Roman ruins, and enjoy a champagne picnic on a secluded slice of paradise.",
+    city: "Amalfi",
+    country: "Italy",
+    region: "Campania",
     images: [
       "https://plus.unsplash.com/premium_photo-1663011528178-8784c8f6d767?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3dpbSUyMGluJTIwY3J5c3RhbCUyMGNsZWFyJTIwZ3JvdHRvcyUyMEFtYWxmaSUyMENvYXN0JTIwUHJpdmF0ZSUyMEJvYXQlMjAlMjYlMjBTZWNyZXQlMjBCZWFjaGVzfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1602071117566-be314e93564b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3dpbSUyMGluJTIwY3J5c3RhbCUyMGNsZWFyJTIwZ3JvdHRvcyUyMEFtYWxmaSUyMENvYXN0JTIwUHJpdmF0ZSUyMEJvYXQlMjAlMjYlMjBTZWNyZXQlMjBCZWFjaGVzfGVufDB8fDB8fHww",

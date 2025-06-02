@@ -5,6 +5,9 @@ export const atlasMountainsTours: Tour[] = [
     title: "Berber Villages & High Atlas Trek",
     description:
       "Embark on an authentic trek through Morocco's High Atlas Mountains, staying in traditional Berber villages, sharing meals with local families, and exploring remote valleys and ancient paths known only to local guides.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
     images: [
       "/images/tours/atlas-mountains/berber-village.jpg",
       "/images/tours/atlas-mountains/mountain-trek.jpg",
@@ -122,6 +125,9 @@ export const atlasMountainsTours: Tour[] = [
     title: "Mount Toubkal Summit Expedition",
     description:
       "Challenge yourself to summit North Africa's highest peak guided by experienced mountain guides. This adventure includes professional equipment, high mountain refuges, and breathtaking panoramic views across Morocco and the Sahara.",
+    city: "Imlil",
+    country: "Morocco",
+    region: "Atlas Mountains",
     images: [
       "/images/tours/atlas-mountains/toubkal-summit.jpg",
       "/images/tours/atlas-mountains/high-atlas-view.jpg",
@@ -238,6 +244,9 @@ export const atlasMountainsTours: Tour[] = [
     title: "Atlas Mountains Photography Workshop",
     description:
       "Capture the dramatic landscapes, unique light, and authentic culture of the Atlas Mountains under the guidance of a National Geographic photographer. Visit photogenic locations at optimal times and learn advanced techniques.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
     images: [
       "/images/tours/atlas-mountains/photography-workshop.jpg",
       "/images/tours/atlas-mountains/mountain-light.jpg",
@@ -358,6 +367,9 @@ export const atlasMountainsTours: Tour[] = [
     title: "Atlas Mountains Luxury Kasbahs & Spas",
     description:
       "Indulge in Morocco's finest mountain retreats with stays at luxurious kasbahs and resorts featuring infinity pools overlooking dramatic valleys, hammam spa treatments, and gourmet Moroccan cuisine with French influences.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
     images: [
       "/images/tours/atlas-mountains/luxury-kasbah.jpg",
       "/images/tours/atlas-mountains/mountain-spa.jpg",
@@ -479,6 +491,9 @@ export const atlasMountainsTours: Tour[] = [
     title: "Atlas Mountains Cooking & Culinary Herbs",
     description:
       "Discover the unique flavors of Berber cuisine through hands-on cooking classes, visits to mountain herb gardens, and traditional bread baking in village clay ovens, all while learning about the medicinal properties of local ingredients.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Atlas Mountains",
     images: [
       "/images/tours/atlas-mountains/cooking-class.jpg",
       "/images/tours/atlas-mountains/herb-garden.jpg",
