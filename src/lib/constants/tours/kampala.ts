@@ -5,6 +5,9 @@ export const kampalaTours: Tour[] = [
     title: "Kampala Cultural Mosaic Walking Tour",
     description:
       "Explore Kampala's rich multicultural heritage on foot, visiting diverse places of worship including the Gaddafi National Mosque, Baha'i Temple, and Namirembe Cathedral. Learn how different religions peacefully coexist while contributing to Uganda's cultural fabric.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/gaddafi-mosque.jpg",
       "/images/tours/kampala/bahai-temple.jpg",
@@ -36,6 +39,9 @@ export const kampalaTours: Tour[] = [
     title: "Flavors of Uganda: Street Food & Market Adventure",
     description:
       "Discover Uganda's diverse culinary traditions through its vibrant street food scene. Sample delicacies like rolex (egg roll), matooke, fresh tropical fruits, and local coffee while exploring colorful markets and meeting the passionate vendors behind the food.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/street-food.jpg",
       "/images/tours/kampala/owino-market.jpg",
@@ -67,6 +73,9 @@ export const kampalaTours: Tour[] = [
     title: "Boda-Boda City Tour: Kampala by Motorcycle",
     description:
       "Experience Kampala like a local on the back of a boda-boda (motorcycle taxi), the city's most popular form of transportation. Zip through bustling streets, hidden neighborhoods, and scenic viewpoints with experienced drivers and knowledgeable guides.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/boda-boda.jpg",
       "/images/tours/kampala/city-overlook.jpg",
@@ -98,6 +107,9 @@ export const kampalaTours: Tour[] = [
     title: "Uganda Martyrs Trail & Religious Heritage",
     description:
       "Trace the powerful story of the Uganda Martyrs with visits to Namugongo Martyrs Shrine, Munyonyo Martyrs Shrine, and Rubaga Cathedral. Learn about these 19th-century Christian converts who died for their faith and their enduring impact on Ugandan society.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/namugongo-shrine.jpg",
       "/images/tours/kampala/rubaga-cathedral.jpg",
@@ -124,6 +136,9 @@ export const kampalaTours: Tour[] = [
     title: "Royal Kampala: Buganda Kingdom & Kasubi Tombs",
     description:
       "Delve into Uganda's most powerful traditional kingdom with visits to the Buganda Parliament (Lukiiko), Kabaka's Palace, and UNESCO-listed Kasubi Tombs. Learn about traditional governance systems that continue to shape modern Ugandan society.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/kasubi-tombs.jpg",
       "/images/tours/kampala/buganda-parliament.jpg",
@@ -185,6 +200,9 @@ export const kampalaTours: Tour[] = [
     title: "Crafts & Artisans: Ugandan Art Experience",
     description:
       "Discover Uganda's vibrant arts scene through visits to community craft workshops, artist studios, and social enterprise initiatives. Meet skilled artisans creating batik textiles, handwoven baskets, recycled paper beads, and contemporary art with cultural significance.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/craft-workshop.jpg",
       "/images/tours/kampala/basket-weaving.jpg",
@@ -217,6 +235,9 @@ export const kampalaTours: Tour[] = [
     title: "Kampala's Hidden Gems: Off-the-Beaten-Path Tour",
     description:
       "Explore lesser-known neighborhoods and attractions in Kampala, from vibrant local markets to scenic parks and community art projects. Experience the city's authentic daily life away from typical tourist spots.",
+    city: "Kampala",
+    country: "Uganda",
+    region: "Central Region",
     images: [
       "/images/tours/kampala/local-market.jpg",
       "/images/tours/kampala/community-art.jpg",

@@ -5,6 +5,10 @@ export const losAngelesTours: Tour[] = [
     title: "VIP Hollywood & Celebrity Homes Tour",
     description:
       "Get an insider's view of Hollywood, the Walk of Fame, and exclusive Beverly Hills neighborhoods where the stars live.",
+    city: "Los Angeles",
+    country: "United States",
+    state: "California",
+    region: "Southern California",
     images: [
       "/images/tours/los-angeles/hollywood-sign.jpg",
       "/images/tours/los-angeles/beverly-hills.jpg",
@@ -36,6 +40,10 @@ export const losAngelesTours: Tour[] = [
     title: "California Beach Culture & Surfing Lesson",
     description:
       "Experience the iconic beach lifestyle of Southern California with a private surfing lesson and tour of Venice Beach, Santa Monica, and Malibu.",
+    city: "Los Angeles",
+    country: "United States",
+    state: "California",
+    region: "Southern California",
     images: [
       "/images/tours/los-angeles/surfing-lesson.jpg",
       "/images/tours/los-angeles/venice-beach.jpg",
@@ -72,6 +80,10 @@ export const losAngelesTours: Tour[] = [
     title: "Los Angeles Art Walk & Gallery Tour",
     description:
       "Explore LA's vibrant art scene with a guided tour of the Arts District, featuring street art, contemporary galleries, and local artist studios.",
+    city: "Los Angeles",
+    country: "United States",
+    state: "California",
+    region: "Southern California",
     images: [
       "/images/tours/los-angeles/art-district.jpg",
       "/images/tours/los-angeles/street-art.jpg",

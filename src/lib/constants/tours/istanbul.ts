@@ -5,6 +5,9 @@ export const istanbulTours: Tour[] = [
     title: "Two Continents & Bosphorus Experience",
     description:
       "Journey through Istanbul's unique position straddling Europe and Asia with a private Bosphorus cruise, visiting landmarks on both continents and enjoying a traditional Turkish meal with spectacular strait views.",
+    city: "Istanbul",
+    country: "Turkey",
+    region: "Marmara Region",
     images: [
       "/images/tours/istanbul/bosphorus-cruise.jpg",
       "/images/tours/istanbul/asian-side.jpg",
@@ -41,6 +44,9 @@ export const istanbulTours: Tour[] = [
     title: "Archaeological Wonders of Istanbul",
     description:
       "Explore Istanbul's rich archaeological heritage with a guided tour of the ancient Hippodrome, the Basilica Cistern, and the stunning mosaics of Chora Church, led by an expert in Byzantine history.",
+    city: "Istanbul",
+    country: "Turkey",
+    region: "Marmara Region",
     images: [
       "/images/tours/istanbul/hippodrome.jpg",
       "/images/tours/istanbul/basilica-cistern.jpg",

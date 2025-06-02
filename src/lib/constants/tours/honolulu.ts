@@ -5,6 +5,10 @@ export const honoluluTours: Tour[] = [
     title: "Diamond Head Sunrise Hike & Breakfast",
     description:
       "Start your day with a guided sunrise hike up Diamond Head crater for breathtaking panoramic views of Waikiki and the Pacific Ocean, followed by a gourmet Hawaiian breakfast.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/diamond-head-sunrise.jpg",
       "/images/tours/honolulu/hawaiian-breakfast.jpg",
@@ -46,6 +50,10 @@ export const honoluluTours: Tour[] = [
     title: "Pearl Harbor & USS Arizona Memorial",
     description:
       "Experience a moving journey through history with a guided tour of Pearl Harbor, the USS Arizona Memorial, and other significant WWII sites with historical expert commentary.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/pearl-harbor.jpg",
       "/images/tours/honolulu/uss-arizona-memorial.jpg",
@@ -87,6 +95,10 @@ export const honoluluTours: Tour[] = [
     title: "Traditional Hawaiian Luau & Cultural Experience",
     description:
       "Immerse yourself in Hawaiian culture at an authentic luau featuring traditional ceremonies, cultural demonstrations, live music, hula dancing, and a lavish feast of Hawaiian specialties including kalua pork prepared in an underground imu oven.",
+    city: "Kapolei",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/luau-fire-dancers.jpg",
       "/images/tours/honolulu/hawaiian-feast.jpg",
@@ -128,6 +140,10 @@ export const honoluluTours: Tour[] = [
     title: "North Shore Oahu Adventure Tour",
     description:
       "Experience the legendary North Shore of Oahu with visits to famous surf spots, hidden beaches, charming towns, and tropical fruit stands. Watch surfers tackle massive waves (seasonally), spot sea turtles, and sample local specialties like shave ice and garlic shrimp.",
+    city: "Haleiwa",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/north-shore-surfing.jpg",
       "/images/tours/honolulu/turtle-beach.jpg",
@@ -169,6 +185,10 @@ export const honoluluTours: Tour[] = [
     title: "Hanauma Bay Snorkeling & Marine Conservation",
     description:
       "Discover the underwater paradise of Hanauma Bay Nature Preserve, a protected marine sanctuary teeming with colorful fish and coral reef formations. Includes professional snorkeling instruction, marine biology education, and transportation from Waikiki.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/hanauma-bay-aerial.jpg",
       "/images/tours/honolulu/coral-reef-snorkeling.jpg",
@@ -210,6 +230,10 @@ export const honoluluTours: Tour[] = [
     title: "Historic Honolulu & Iolani Palace Tour",
     description:
       "Explore Hawaii's royal heritage with an expert-guided tour of downtown Honolulu's historic district, featuring the only royal palace on US soil. Visit Iolani Palace, King Kamehameha Statue, Mission Houses, and other significant sites that tell the story of Hawaii's kingdom era.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/iolani-palace.jpg",
       "/images/tours/honolulu/kamehameha-statue.jpg",
@@ -251,6 +275,10 @@ export const honoluluTours: Tour[] = [
     title: "Farm-to-Table Hawaiian Cuisine & Cooking Class",
     description:
       "Discover Hawaii's diverse culinary traditions at a scenic farm with mountain views. Harvest fresh ingredients, learn traditional cooking methods, and prepare signature Hawaiian dishes under the guidance of a local chef before enjoying your creations at an open-air feast.",
+    city: "Waimanalo",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/farm-harvest.jpg",
       "/images/tours/honolulu/cooking-class.jpg",
@@ -292,6 +320,10 @@ export const honoluluTours: Tour[] = [
     title: "Oahu Photography Tour: Sunrise to Sunset",
     description:
       "Capture Hawaii's diverse beauty through your camera lens with guidance from a professional photographer. Visit scenic locations around the island during optimal lighting conditions, from dramatic sunrise at Lanikai to sunset at Ko Olina lagoons.",
+    city: "Kailua",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/photography-sunrise.jpg",
       "/images/tours/honolulu/photography-waterfall.jpg",
@@ -333,6 +365,10 @@ export const honoluluTours: Tour[] = [
     title: "Hawaiian Cultural Immersion & Volunteer Experience",
     description:
       "Connect deeply with Hawaiian culture through hands-on learning and giving back to the land. Join cultural practitioners at an ancient fishpond restoration project, learn traditional land stewardship practices, and participate in activities like lei making, hula, and traditional food preparation.",
+    city: "Kaneohe",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/fishpond-restoration.jpg",
       "/images/tours/honolulu/lei-making.jpg",
@@ -374,6 +410,10 @@ export const honoluluTours: Tour[] = [
     title: "Circle Island Adventure: Oahu Complete Tour",
     description:
       "Experience the ultimate Oahu overview with this comprehensive island tour visiting scenic lookouts, famous beaches, historical sites, and local towns. From Diamond Head to the North Shore, Haleiwa to Kualoa Ranch, this tour showcases the island's diverse landscapes and cultural highlights.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/circle-island-scenic.jpg",
       "/images/tours/honolulu/dole-plantation.jpg",
@@ -416,6 +456,10 @@ export const honoluluTours: Tour[] = [
     title: "Oahu Sunset Cruise & Stargazing",
     description:
       "End your day with a magical sunset cruise along Oahu's coastline, complete with live Hawaiian music, complimentary drinks, and stargazing under the clear island skies. Experience the beauty of the Pacific Ocean as the sun sets over the horizon.",
+    city: "Honolulu",
+    country: "United States",
+    state: "Hawaii",
+    region: "Oahu",
     images: [
       "/images/tours/honolulu/sunset-cruise.jpg",
       "/images/tours/honolulu/stargazing.jpg",

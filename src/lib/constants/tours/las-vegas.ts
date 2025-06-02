@@ -5,6 +5,10 @@ export const lasVegasTours: Tour[] = [
     title: "VIP Nightclub & Entertainment Tour",
     description:
       "Skip the lines and experience Las Vegas' legendary nightlife with VIP access to exclusive clubs, lounges, and entertainment venues.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/nightclub.jpg",
       "/images/tours/las-vegas/strip-night.jpg",
@@ -31,6 +35,10 @@ export const lasVegasTours: Tour[] = [
     title: "Grand Canyon Helicopter & Landing",
     description:
       "Fly from Las Vegas over the Hoover Dam and Lake Mead to the Grand Canyon for a champagne picnic on the canyon floor.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/helicopter.jpg",
       "/images/tours/las-vegas/grand-canyon-landing.jpg",
@@ -57,6 +65,10 @@ export const lasVegasTours: Tour[] = [
     title: "Culinary Tour: Celebrity Chef Restaurants",
     description:
       "Experience the gastronomic wonders of Las Vegas with exclusive dining at three world-renowned celebrity chef restaurants. Enjoy signature dishes, wine pairings, and behind-the-scenes kitchen tours with opportunities to meet the culinary teams behind these legendary establishments.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/celebrity-chef.jpg",
       "/images/tours/las-vegas/gourmet-dining.jpg",
@@ -88,6 +100,10 @@ export const lasVegasTours: Tour[] = [
     title: "Luxor Ancient Egypt VIP Museum Tour",
     description:
       "Delve into the secrets of ancient Egypt with an expert Egyptologist guiding you through the world-class Luxor Ancient Egypt Museum. This behind-the-scenes experience includes private access to rare artifacts not on public display and interactive examinations of authentic relics.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/egypt-artifacts.jpg",
       "/images/tours/las-vegas/luxor-museum.jpg",
@@ -119,6 +135,10 @@ export const lasVegasTours: Tour[] = [
     title: "Red Rock Canyon Hiking Adventure",
     description:
       "Escape the neon lights for the natural beauty of Red Rock Canyon National Conservation Area. Hike through spectacular sandstone formations, ancient petroglyphs, and desert landscapes with an experienced naturalist guide sharing insights about the geology, flora, and fauna of the Mojave Desert.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/red-rock-canyon.jpg",
       "/images/tours/las-vegas/desert-hiking.jpg",
@@ -150,6 +170,10 @@ export const lasVegasTours: Tour[] = [
     title: "Hidden Speakeasies & Prohibition History Tour",
     description:
       "Discover Las Vegas's secretive side as you explore exclusive speakeasy-style bars and lounges hidden throughout the city. Learn about prohibition-era history, organized crime's influence on early Vegas, and enjoy craft cocktails prepared by master mixologists at each location.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/speakeasy-bar.jpg",
       "/images/tours/las-vegas/craft-cocktail.jpg",
@@ -181,6 +205,10 @@ export const lasVegasTours: Tour[] = [
     title: "Vegas Strip Aerial Photography Helicopter Tour",
     description:
       "Capture breathtaking aerial photographs of the Las Vegas Strip with guidance from a professional photographer. This doors-off helicopter experience provides unobstructed views and expert advice on camera settings, composition, and techniques for spectacular night photography of the illuminated cityscape.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/aerial-strip-night.jpg",
       "/images/tours/las-vegas/photography-helicopter.jpg",
@@ -212,6 +240,10 @@ export const lasVegasTours: Tour[] = [
     title: "Grand Canyon West Rim & Skywalk Adventure",
     description:
       "Visit the spectacular Grand Canyon West Rim on Hualapai tribal lands, featuring the breathtaking glass Skywalk extending 70 feet over the canyon edge. Meet Native American guides, enjoy traditional performances, and discover perspectives on this natural wonder not available in the National Park.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/grand-canyon-skywalk.jpg",
       "/images/tours/las-vegas/hualapai-tribal-lands.jpg",
@@ -244,6 +276,10 @@ export const lasVegasTours: Tour[] = [
     title: "Behind-the-Scenes Las Vegas Show Production Tour",
     description:
       "Go backstage at one of Las Vegas's iconic production shows to discover the technical wizardry, artistic design, and complex choreography that creates the magic. Meet cast and crew members, learn about special effects, and gain insights into the massive operational effort behind world-class entertainment.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/backstage-tour.jpg",
       "/images/tours/las-vegas/production-tech.jpg",
@@ -275,6 +311,10 @@ export const lasVegasTours: Tour[] = [
     title: "Valley of Fire State Park Photography Expedition",
     description:
       "Capture the otherworldly beauty of Valley of Fire State Park with its vibrant red sandstone formations, ancient petroglyphs, and sweeping desert vistas. This photography-focused tour times your visit for optimal lighting conditions and provides expert guidance on composition and technique.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/valley-of-fire.jpg",
       "/images/tours/las-vegas/fire-wave.jpg",
@@ -306,6 +346,10 @@ export const lasVegasTours: Tour[] = [
     title: "Area 51 & Extraterrestrial Highway Mystery Tour",
     description:
       "Journey to the edges of the mysterious Area 51 military facility and explore the quirky attractions along Nevada's Extraterrestrial Highway. Visit the famous black mailbox, alien-themed establishments, and hear stories of UFO sightings from local residents in this offbeat adventure.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/area-51-sign.jpg",
       "/images/tours/las-vegas/et-highway.jpg",
@@ -337,6 +381,10 @@ export const lasVegasTours: Tour[] = [
     title: "Vegas Vintage Neon Sign Tour & Neon Museum After Dark",
     description:
       "Experience the glowing history of Las Vegas through its iconic neon signage. Tour the famous Neon Museum collection including the Neon Boneyard after dark when the restored signs are illuminated, and explore downtown's canopy of vintage neon with insights into the artists and technology behind these glowing masterpieces.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/neon-museum.jpg",
       "/images/tours/las-vegas/vintage-signs.jpg",
@@ -368,6 +416,10 @@ export const lasVegasTours: Tour[] = [
     title: "Las Vegas Wedding Chapel Vow Renewal Experience",
     description:
       "Rekindle the romance with a personalized vow renewal ceremony at an iconic Las Vegas wedding chapel. Choose from classic vintage Vegas, Elvis-officiated, elegant traditional, or quirky themed ceremonies, complete with professional photography and champagne celebration.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/vegas-chapel.jpg",
       "/images/tours/las-vegas/vow-renewal.jpg",
@@ -399,6 +451,10 @@ export const lasVegasTours: Tour[] = [
     title: "High-Roller Luxury Casino Experience",
     description:
       "Get the red carpet treatment with a casino host guiding you through the exclusive high-limit rooms and VIP experiences of Las Vegas's premier casinos. Learn insider gambling strategies, enjoy complimentary drinks and amenities, and experience the thrill of luxury gaming.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/high-limit-room.jpg",
       "/images/tours/las-vegas/casino-vip.jpg",
@@ -430,6 +486,10 @@ export const lasVegasTours: Tour[] = [
     title: "Hoover Dam Engineering Marvel Tour",
     description:
       "Explore the engineering wonder of Hoover Dam with exclusive access to areas not available on standard tours. Learn about the dam's construction, power generation systems, and historical significance from engineering experts, and enjoy spectacular views from restricted observation points.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/hoover-dam.jpg",
       "/images/tours/las-vegas/dam-interior.jpg",
@@ -461,6 +521,10 @@ export const lasVegasTours: Tour[] = [
     title: "Death Valley National Park Extreme Landscapes",
     description:
       "Journey through the surreal landscapes of Death Valley—the hottest, driest, and lowest national park in the USA. Explore multicolored badlands, vast salt flats, towering sand dunes, and unique geological formations with an expert naturalist guide explaining this extreme environment's fascinating features.",
+    city: "Las Vegas",
+    country: "United States",
+    state: "Nevada",
+    region: "Southwest",
     images: [
       "/images/tours/las-vegas/death-valley.jpg",
       "/images/tours/las-vegas/badwater-basin.jpg",

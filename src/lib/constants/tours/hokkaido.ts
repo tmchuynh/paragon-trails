@@ -5,6 +5,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Hokkaido Powder Skiing & Onsen Experience",
     description:
       "Experience Japan's legendary powder snow with guided skiing at premier resorts including Niseko and Rusutsu, followed by relaxing evenings in traditional hot spring onsen baths and authentic izakaya dining.",
+    city: "Niseko",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/powder-skiing.jpg",
       "/images/tours/hokkaido/onsen-bath.jpg",
@@ -41,6 +44,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Hokkaido Culinary Journey & Farm Experience",
     description:
       "Discover why Hokkaido is Japan's gourmet paradise with visits to dairy farms, wasabi fields, seafood markets, and whisky distilleries. Learn traditional cooking techniques and enjoy exclusive dining experiences featuring the island's renowned seafood and produce.",
+    city: "Sapporo",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/seafood-market.jpg",
       "/images/tours/hokkaido/farm-visit.jpg",
@@ -72,6 +78,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Wildlife & Nature Photography in Eastern Hokkaido",
     description:
       "Photograph Hokkaido's spectacular wildlife including red-crowned cranes, Steller's sea eagles, and Blakiston's fish owls with guidance from a professional wildlife photographer in pristine winter landscapes and volcanic national parks.",
+    city: "Kushiro",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/red-crowned-cranes.jpg",
       "/images/tours/hokkaido/sea-eagles.jpg",
@@ -114,6 +123,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Volcano Hiking & Hot Springs Tour",
     description:
       "Explore Hokkaido's dramatic volcanic landscapes with guided hikes through Shikotsu-Toya National Park, ascending active volcanoes, walking through ancient calderas, and relaxing in therapeutic hot springs fed by geothermal activity.",
+    city: "Noboribetsu",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/volcano-hiking.jpg",
       "/images/tours/hokkaido/crater-lake.jpg",
@@ -145,6 +157,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Hokkaido Winter Festivals & Ice Sculpture Tour",
     description:
       "Experience Hokkaido's world-famous winter festivals including the Sapporo Snow Festival with its massive ice sculptures, the ethereal Otaru Snow Light Path Festival, and participate in a hands-on ice sculpting workshop with master artists.",
+    city: "Sapporo",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/sapporo-snow-festival.jpg",
       "/images/tours/hokkaido/ice-sculpture-workshop.jpg",
@@ -176,6 +191,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Ainu Indigenous Culture Immersion",
     description:
       "Learn about Hokkaido's indigenous Ainu people through intimate cultural experiences, museum visits, craft workshops with master artisans, traditional performances, and forest walks highlighting traditional ecological knowledge and spiritual beliefs.",
+    city: "Shiraoi",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/ainu-village.jpg",
       "/images/tours/hokkaido/ainu-crafts.jpg",
@@ -197,7 +215,7 @@ export const hokkaidoTours: Tour[] = [
     isWellness: false,
     isCultural: true,
     isFree: false,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isFamilyFriendly: true,
     isPetFriendly: false,
@@ -301,51 +319,55 @@ export const hokkaidoTours: Tour[] = [
       "2026-03-15",
       "2026-04-01",
       "2026-04-15",
-      "2026-05-01",],
-      highlights: [
-        "Visit Ainu cultural museums and heritage sites",
-        "Participate in traditional craft workshops (wood carving, textile weaving)",
-        "Experience Ainu music and dance performances",
-        "Guided forest walks explaining traditional ecological knowledge",
-        "Enjoy meals featuring traditional Ainu cuisine",
-        "Engage with contemporary Ainu artisans and cultural practitioners",
-      ],
-      inclusions: [
-        "All meals featuring traditional Ainu cuisine",
-        "Accommodation in Ainu guesthouses or local hotels",
-        "All cultural activity fees (museums, workshops, performances)",
-        "Guided forest walks with Ainu naturalists",
-        "Transportation during the tour",
-      ],
-      exclusions: [
-        "International airfare to Hokkaido",
-        "Personal expenses (souvenirs, snacks)",
-        "Travel insurance (highly recommended)",
-        "Optional activities not listed in the itinerary",
-      ],
-      itinerary: [
-        "Day 1: Arrive in Hokkaido, transfer to Ainu village, welcome dinner with Ainu hosts",
-        "Day 2: Visit Ainu cultural museum, participate in wood carving workshop, evening Ainu music performance",
-        "Day 3: Guided forest walk with Ainu naturalist, textile weaving workshop, farewell dinner featuring traditional Ainu dishes",
-        "Day 4: Depart Hokkaido or extend your stay for additional cultural experiences",
-      ],
-      meetingPoint: {
-        address: "Ainu Cultural Center, Hokkaido, Japan",
-        coordinates: {
-          latitude: 43.06417,
-          longitude: 141.34694,
-        },
-        instructions:
-          "Meet your guide at the Ainu Cultural Center entrance at 9:00 AM on Day 1. Look for the guide holding a sign with your tour name.",
-        contactNumber: "+81-123-456-7890",
+      "2026-05-01",
+    ],
+    highlights: [
+      "Visit Ainu cultural museums and heritage sites",
+      "Participate in traditional craft workshops (wood carving, textile weaving)",
+      "Experience Ainu music and dance performances",
+      "Guided forest walks explaining traditional ecological knowledge",
+      "Enjoy meals featuring traditional Ainu cuisine",
+      "Engage with contemporary Ainu artisans and cultural practitioners",
+    ],
+    inclusions: [
+      "All meals featuring traditional Ainu cuisine",
+      "Accommodation in Ainu guesthouses or local hotels",
+      "All cultural activity fees (museums, workshops, performances)",
+      "Guided forest walks with Ainu naturalists",
+      "Transportation during the tour",
+    ],
+    exclusions: [
+      "International airfare to Hokkaido",
+      "Personal expenses (souvenirs, snacks)",
+      "Travel insurance (highly recommended)",
+      "Optional activities not listed in the itinerary",
+    ],
+    itinerary: [
+      "Day 1: Arrive in Hokkaido, transfer to Ainu village, welcome dinner with Ainu hosts",
+      "Day 2: Visit Ainu cultural museum, participate in wood carving workshop, evening Ainu music performance",
+      "Day 3: Guided forest walk with Ainu naturalist, textile weaving workshop, farewell dinner featuring traditional Ainu dishes",
+      "Day 4: Depart Hokkaido or extend your stay for additional cultural experiences",
+    ],
+    meetingPoint: {
+      address: "Ainu Cultural Center, Hokkaido, Japan",
+      coordinates: {
+        latitude: 43.06417,
+        longitude: 141.34694,
+      },
+      instructions:
+        "Meet your guide at the Ainu Cultural Center entrance at 9:00 AM on Day 1. Look for the guide holding a sign with your tour name.",
+      contactNumber: "+81-123-456-7890",
     },
     cancellationPolicy:
-    "Cancellations made more than 30 days before the tour start date will receive a full refund. Cancellations made between 15-30 days before the tour will incur a 50% cancellation fee. Cancellations made less than 15 days before the tour are non-refundable. We highly recommend purchasing travel insurance to cover any unforeseen circumstances.",
-    },
+      "Cancellations made more than 30 days before the tour start date will receive a full refund. Cancellations made between 15-30 days before the tour will incur a 50% cancellation fee. Cancellations made less than 15 days before the tour are non-refundable. We highly recommend purchasing travel insurance to cover any unforeseen circumstances.",
+  },
   {
     title: "Hokkaido Lavender Fields & Flower Farm Experience",
     description:
       "Visit Hokkaido during its spectacular summer bloom with exclusive access to Furano's lavender fields, flower farms, and renowned gardens. Join a photography workshop during 'magic hour' and create your own lavender products in a hands-on workshop.",
+    city: "Furano",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/lavender-fields.jpg",
       "/images/tours/hokkaido/flower-farms.jpg",
@@ -392,6 +414,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Hokkaido Coastal Wilderness Kayaking",
     description:
       "Paddle along Hokkaido's dramatic Shiretoko Peninsula, a UNESCO World Heritage site, observing brown bears, whales, and sea birds from stable sea kayaks with expert guides. Camp on secluded beaches and soak in natural hot springs accessible only by water.",
+    city: "Shiretoko",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/sea-kayaking.jpg",
       "/images/tours/hokkaido/coastal-camping.jpg",
@@ -428,6 +453,9 @@ export const hokkaidoTours: Tour[] = [
     title: "Hokkaido Snowshoeing & Winter Wildlife Tour",
     description:
       "Explore Hokkaido's winter wilderness on snowshoes, tracking wildlife like red foxes, deer, and owls with expert naturalist guides. Visit frozen lakes, ancient forests, and scenic viewpoints while learning about the region's unique ecology.",
+    city: "Akan",
+    country: "Japan",
+    region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/snowshoeing.jpg",
       "/images/tours/hokkaido/winter-wildlife.jpg",

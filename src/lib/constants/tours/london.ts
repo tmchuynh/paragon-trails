@@ -5,6 +5,9 @@ export const londonTours: Tour[] = [
     title: "Hidden London Underground & Wartime Secrets",
     description:
       "Explore abandoned tube stations, Churchill's secret bunkers, and hidden tunnels beneath London with exclusive access to sites normally closed to the public, guided by a historian specializing in London's wartime history.",
+    city: "London",
+    country: "United Kingdom",
+    region: "Greater London",
     images: [
       "/images/tours/london/abandoned-station.jpg",
       "/images/tours/london/churchill-war-rooms.jpg",
@@ -41,6 +44,9 @@ export const londonTours: Tour[] = [
     title: "Royal London & Changing of the Guard Experience",
     description:
       "Witness royal ceremonies from insider positions, tour the ceremonial heart of London, and learn about royal traditions from an expert with connections to royal institutions.",
+    city: "London",
+    country: "United Kingdom",
+    region: "Greater London",
     images: [
       "/images/tours/london/changing-guard.jpg",
       "/images/tours/london/buckingham-palace.jpg",
@@ -72,6 +78,9 @@ export const londonTours: Tour[] = [
     title: "London's Hidden Gardens & Secret Parks",
     description:
       "Discover London's lesser-known green spaces, from tranquil hidden gardens to historic parks, guided by a local horticulturist who shares the stories and flora of these peaceful retreats.",
+    city: "London",
+    country: "United Kingdom",
+    region: "Greater London",
     images: [
       "/images/tours/london/hidden-garden.jpg",
       "/images/tours/london/secret-park.jpg",

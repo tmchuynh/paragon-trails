@@ -5,6 +5,9 @@ export const madridTours: Tour[] = [
     title: "Madrid Art Walk: Prado, Reina Sofia & Thyssen",
     description:
       "Experience Madrid's Golden Triangle of Art with a passionate art historian, exploring masterpieces by Velázquez, Goya, El Greco, Picasso, and Dalí with skip-the-line access.",
+    city: "Madrid",
+    country: "Spain",
+    region: "Community of Madrid",
     images: [
       "/images/tours/madrid/prado-museum.jpg",
       "/images/tours/madrid/guernica.jpg",
@@ -36,6 +39,9 @@ export const madridTours: Tour[] = [
     title: "Madrid Tapas & Flamenco Evening",
     description:
       "Dive into Madrid's vibrant nightlife with a tapas crawl through historic taverns and hidden bars, followed by an authentic flamenco performance in an intimate tablao venue.",
+    city: "Madrid",
+    country: "Spain",
+    region: "Community of Madrid",
     images: [
       "/images/tours/madrid/tapas-tour.jpg",
       "/images/tours/madrid/flamenco-show.jpg",
@@ -72,6 +78,9 @@ export const madridTours: Tour[] = [
     title: "Madrid Historical Walk: Royal Palace & Almudena Cathedral",
     description:
       "Explore Madrid's rich history with a guided walk through the Royal Palace, Almudena Cathedral, and the historic Plaza Mayor, learning about the city's evolution from medieval times to the present.",
+    city: "Madrid",
+    country: "Spain",
+    region: "Community of Madrid",
     images: [
       "/images/tours/madrid/royal-palace.jpg",
       "/images/tours/madrid/almudena-cathedral.jpg",

@@ -5,6 +5,9 @@ export const lehTours: Tour[] = [
     title: "Monastery Circuit & Buddhist Heritage",
     description:
       "Explore Ladakh's magnificent 1000-year-old monasteries perched dramatically on hilltops. Witness morning prayers, interact with monks, and learn about Tibetan Buddhist traditions with a religious scholar guide who provides rare access to private temple rooms.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/thiksey-monastery.jpg",
       "/images/tours/leh/hemis-monastery.jpg",
@@ -36,6 +39,9 @@ export const lehTours: Tour[] = [
     title: "Nubra Valley Expedition & Bactrian Camels",
     description:
       "Journey over the world's highest motorable pass (Khardung La) to discover Nubra Valley's surreal landscapes. Ride double-humped Bactrian camels across sand dunes surrounded by snow-capped mountains and stay in a luxury desert camp.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/nubra-valley.jpg",
       "/images/tours/leh/bactrian-camels.jpg",
@@ -67,6 +73,9 @@ export const lehTours: Tour[] = [
     title: "Pangong Lake Photography Expedition",
     description:
       "Photograph one of the world's highest and most beautiful mountain lakes, famous for its ever-changing blue hues. Capture sunrise and sunset at prime locations with guidance from a professional landscape photographer.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/pangong-lake.jpg",
       "/images/tours/leh/pangong-sunrise.jpg",
@@ -98,6 +107,9 @@ export const lehTours: Tour[] = [
     title: "River Rafting Adventure on the Zanskar",
     description:
       "Tackle exhilarating rapids on the turquoise waters of the Zanskar River, surrounded by towering gorges and pristine wilderness. This world-class rafting expedition is led by internationally certified river guides and includes riverside camping.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/zanskar-rafting.jpg",
       "/images/tours/leh/river-camping.jpg",
@@ -129,6 +141,9 @@ export const lehTours: Tour[] = [
     title: "Himalayan Meditation Retreat with Buddhist Masters",
     description:
       "Find inner peace through guided meditation practices in ancient monasteries and remote mountain settings. Learn mindfulness techniques directly from Tibetan Buddhist masters who share centuries-old wisdom adapted for modern practitioners.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/meditation-retreat.jpg",
       "/images/tours/leh/buddhist-teaching.jpg",
@@ -160,6 +175,9 @@ export const lehTours: Tour[] = [
     title: "Royal Palaces of Ladakh & Noble Family Heritage",
     description:
       "Explore the fascinating royal history of Ladakh with exclusive access to historic palaces, including private quarters not open to the public. Meet descendants of noble families who share stories of the former Himalayan kingdom.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/stok-palace.jpg",
       "/images/tours/leh/royal-artifacts.jpg",
@@ -186,6 +204,9 @@ export const lehTours: Tour[] = [
     title: "Ladakh's Ancient Silk Road & Caravan Trails",
     description:
       "Trace the historic Silk Road routes through Ladakh, visiting ancient caravanserais, trading posts, and remote villages that once thrived on this legendary trade network connecting India, Tibet, and Central Asia.",
+    city: "Leh",
+    country: "India",
+    region: "Ladakh",
     images: [
       "/images/tours/leh/silk-road.jpg",
       "/images/tours/leh/caravanserai.jpg",

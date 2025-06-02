@@ -5,6 +5,9 @@ export const jamaicaTours: Tour[] = [
     title: "Blue Mountain Coffee & Plantation Experience",
     description:
       "Journey to the misty peaks of Jamaica's Blue Mountains to discover one of the world's most coveted coffees. Visit working plantations, meet local farmers, learn traditional harvesting methods, and participate in an expert-led cupping session.",
+    city: "Blue Mountains",
+    country: "Jamaica",
+    region: "Portland Parish",
     images: [
       "/images/tours/jamaica/blue-mountain-plantation.jpg",
       "/images/tours/jamaica/coffee-tasting.jpg",
@@ -46,6 +49,9 @@ export const jamaicaTours: Tour[] = [
     title: "Secret Waterfalls & Hidden Lagoons",
     description:
       "Escape the crowds and discover Jamaica's hidden waterfalls and natural swimming holes known only to locals. Trek through lush rainforest, slide down natural rock formations, and jump into pristine blue pools under the guidance of native Jamaican guides.",
+    city: "Ocho Rios",
+    country: "Jamaica",
+    region: "St. Ann Parish",
     images: [
       "/images/tours/jamaica/hidden-falls.jpg",
       "/images/tours/jamaica/natural-pool.jpg",
@@ -82,6 +88,9 @@ export const jamaicaTours: Tour[] = [
     title: "Rastafarian Cultural Immersion",
     description:
       "Gain authentic insight into Jamaica's Rastafarian heritage with a respectful visit to a Rastafari village. Learn about Nyabinghi traditions, natural living principles, Ital cooking techniques, and the global impact of Rastafari culture and philosophy.",
+    city: "Nine Mile",
+    country: "Jamaica",
+    region: "St. Ann Parish",
     images: [
       "/images/tours/jamaica/rastafarian-village.jpg",
       "/images/tours/jamaica/ital-cooking.jpg",
@@ -123,6 +132,9 @@ export const jamaicaTours: Tour[] = [
     title: "Reggae History & Music Studio Experience",
     description:
       "Trace the evolution of reggae music from its roots to global phenomenon with visits to iconic recording studios, museums, and the birthplace of Bob Marley. Meet working musicians and try your hand at creating reggae rhythms in a professional studio session.",
+    city: "Kingston",
+    country: "Jamaica",
+    region: "Kingston Parish",
     images: [
       "/images/tours/jamaica/tuff-gong-studio.jpg",
       "/images/tours/jamaica/reggae-museum.jpg",
@@ -159,6 +171,9 @@ export const jamaicaTours: Tour[] = [
     title: "Luminous Lagoon Night Bioluminescence Experience",
     description:
       "Witness the magical phenomenon of bioluminescence at Jamaica's Luminous Lagoon, one of the world's brightest bioluminescent bays. Cruise into the glowing waters after sunset and swim surrounded by millions of harmless dinoflagellates that illuminate with your movement.",
+    city: "Falmouth",
+    country: "Jamaica",
+    region: "Trelawny Parish",
     images: [
       "/images/tours/jamaica/luminous-lagoon.jpg",
       "/images/tours/jamaica/bioluminescence-swimming.jpg",
@@ -195,6 +210,9 @@ export const jamaicaTours: Tour[] = [
     title: "Jamaican Culinary Adventure & Cooking Class",
     description:
       "Discover the vibrant flavors of Jamaican cuisine through market visits, rum tastings, and hands-on cooking classes. Learn to prepare authentic jerk chicken, ackee and saltfish, festival bread, and rum punch under the guidance of a local chef.",
+    city: "Montego Bay",
+    country: "Jamaica",
+    region: "St. James Parish",
     images: [
       "/images/tours/jamaica/jerk-cooking.jpg",
       "/images/tours/jamaica/market-spices.jpg",
@@ -231,6 +249,9 @@ export const jamaicaTours: Tour[] = [
     title: "Historical Kingston & Bob Marley Museum Tour",
     description:
       "Explore the vibrant capital city of Kingston with a local guide, visiting significant historical sites, the National Gallery, and the Bob Marley Museum. Learn about Jamaica's rich cultural heritage and the legacy of reggae music.",
+    city: "Kingston",
+    country: "Jamaica",
+    region: "Kingston Parish",
     images: [
       "/images/tours/jamaica/kingston-national-gallery.jpg",
       "/images/tours/jamaica/bob-marley-museum.jpg",

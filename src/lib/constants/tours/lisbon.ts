@@ -5,6 +5,9 @@ export const lisbonTours: Tour[] = [
     title: "Fado Music Night & Alfama Exploration",
     description:
       "Experience Portugal's soulful fado music in an authentic setting after exploring the atmospheric Alfama district's maze of narrow streets, hidden courtyards, and stunning viewpoints.",
+    city: "Lisbon",
+    country: "Portugal",
+    region: "Lisbon Metropolitan Area",
     images: [
       "/images/tours/lisbon/fado-night.jpg",
       "/images/tours/lisbon/alfama-streets.jpg",
@@ -36,6 +39,9 @@ export const lisbonTours: Tour[] = [
     title: "Sintra Fairytale Palaces & Mystical Gardens",
     description:
       "Discover the magical town of Sintra, exploring colorful Pena Palace, mysterious Quinta da Regaleira gardens, and enjoying pastries from a historic bakery using royal recipes.",
+    city: "Sintra",
+    country: "Portugal",
+    region: "Lisbon Metropolitan Area",
     images: [
       "/images/tours/lisbon/pena-palace.jpg",
       "/images/tours/lisbon/quinta-regaleira.jpg",
@@ -67,6 +73,9 @@ export const lisbonTours: Tour[] = [
     title: "Lisbon Street Art & Culinary Tour",
     description:
       "Explore Lisbon's vibrant street art scene with a guided walking tour through the city's best murals, followed by a culinary experience sampling local delicacies at hidden food spots.",
+    city: "Lisbon",
+    country: "Portugal",
+    region: "Lisbon Metropolitan Area",
     images: [
       "/images/tours/lisbon/street-art.jpg",
       "/images/tours/lisbon/food-market.jpg",

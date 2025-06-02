@@ -5,6 +5,10 @@ export const juneauTours: Tour[] = [
     title: "Mendenhall Glacier Ice Cave Expedition",
     description:
       "Journey deep into the heart of Mendenhall Glacier to explore stunning ice caves with their ethereal blue chambers. This challenging guided trek crosses temperate rainforest and glacial terrain before descending into otherworldly ice formations carved by meltwater.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/ice-cave-blue.jpg",
       "/images/tours/juneau/glacier-trek.jpg",
@@ -36,6 +40,10 @@ export const juneauTours: Tour[] = [
     title: "Whale Watching & Wilderness Exploration",
     description:
       "Experience the majesty of humpback whales in their summer feeding grounds aboard our expedition vessel designed for optimal wildlife viewing. Journey into Stephen's Passage and Auke Bay where whales, orcas, sea lions, and bald eagles thrive in protected waters.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/humpback-breach.jpg",
       "/images/tours/juneau/orcas-pod.jpg",
@@ -67,6 +75,10 @@ export const juneauTours: Tour[] = [
     title: "Tlingit Cultural Heritage & Native Art",
     description:
       "Immerse yourself in Alaska's indigenous Tlingit culture through art, storytelling, and traditional practices. Visit a clan house, observe master carvers creating totem poles, participate in a drum ceremony, and create your own formline design under the guidance of Native artists.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/tlingit-carving.jpg",
       "/images/tours/juneau/clan-house.jpg",
@@ -98,6 +110,10 @@ export const juneauTours: Tour[] = [
     title: "Helicopter Glacier Dogsledding Adventure",
     description:
       "Combine the thrill of helicopter flightseeing with an authentic dogsledding experience high on the Juneau Icefield. Land on a remote glacier camp to meet professional mushers and their Alaskan huskies before driving your own dog team across ancient snow fields.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/helicopter-glacier.jpg",
       "/images/tours/juneau/dogsled-team.jpg",
@@ -129,6 +145,10 @@ export const juneauTours: Tour[] = [
     title: "Alaska Seafood Culinary Experience",
     description:
       "Discover why Alaska is world-renowned for its seafood with this immersive culinary journey. Visit local fishing boats, learn sustainable harvesting practices, participate in a chef-led cooking class, and enjoy a gourmet seafood feast featuring the day's freshest catch.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/salmon-cooking.jpg",
       "/images/tours/juneau/fishing-boats.jpg",
@@ -160,6 +180,10 @@ export const juneauTours: Tour[] = [
     title: "Flightseeing & Alpine Glacier Lake Landing",
     description:
       "Soar above Juneau's breathtaking wilderness in a floatplane, witnessing cascading waterfalls, mountain peaks, and vast glaciers before landing on a remote alpine lake surrounded by pristine wilderness accessible only by air.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/floatplane-glacier.jpg",
       "/images/tours/juneau/alpine-lake.jpg",
@@ -191,6 +215,10 @@ export const juneauTours: Tour[] = [
     title: "Juneau City & Glacier Gardens Tour",
     description:
       "Explore Juneau's rich history and stunning natural beauty with a guided city tour that includes visits to the Alaska State Capitol, historic downtown, and the breathtaking Glacier Gardens Rainforest Adventure featuring unique upside-down trees and lush botanical gardens.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/city-capitol.jpg",
       "/images/tours/juneau/glacier-gardens.jpg",
@@ -222,6 +250,10 @@ export const juneauTours: Tour[] = [
     title: "Juneau's Hidden Waterfalls & Rainforest Hike",
     description:
       "Discover Juneau's lush temperate rainforest and hidden waterfalls on this guided hiking adventure. Traverse scenic trails through towering trees, moss-covered rocks, and vibrant wildflowers while learning about the unique ecosystem that thrives in this coastal wilderness.",
+    city: "Juneau",
+    country: "United States",
+    state: "Alaska",
+    region: "Southeast Alaska",
     images: [
       "/images/tours/juneau/rainforest-waterfall.jpg",
       "/images/tours/juneau/hiking-trail.jpg",

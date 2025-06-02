@@ -5,6 +5,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Cultural Mosaic: Temples, Mosques & Traditions",
     description:
       "Experience Kuala Lumpur's remarkable religious harmony with visits to Batu Caves Hindu Temple, Masjid Jamek Mosque, Sri Mahamariamman Temple, and Thean Hou Chinese Temple, learning how Malaysia's diverse faiths peacefully coexist.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/batu-caves.jpg",
       "/images/tours/kuala-lumpur/thean-hou-temple.jpg",
@@ -36,6 +39,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Hidden Street Food & Night Markets Tour",
     description:
       "Dive into KL's legendary street food scene with an evening exploration of bustling night markets, hidden food courts, and local hawker centers. Sample over 12 authentic dishes while learning about the cultural influences that shape Malaysian cuisine.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/jalan-alor.jpg",
       "/images/tours/kuala-lumpur/street-food-satay.jpg",
@@ -67,6 +73,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "KL Architecture: Colonial to Contemporary",
     description:
       "Trace Kuala Lumpur's evolution through its architecture, from British colonial buildings around Merdeka Square to the iconic Petronas Twin Towers. Access exclusive viewpoints and private buildings normally closed to the public.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/colonial-architecture.jpg",
       "/images/tours/kuala-lumpur/petronas-towers.jpg",
@@ -93,6 +102,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Batik Art Workshop & Cultural Heritage",
     description:
       "Learn the ancient art of batik from master craftspeople in a hands-on workshop where you'll create your own batik piece to take home. Tour the Islamic Arts Museum and National Textile Museum to understand batik's cultural significance.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/batik-workshop.jpg",
       "/images/tours/kuala-lumpur/batik-art.jpg",
@@ -119,6 +131,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Fireflies & Kuala Selangor Sunset Adventure",
     description:
       "Journey from Kuala Lumpur to witness one of Malaysia's magical natural phenomena—thousands of synchronizing fireflies illuminating mangrove trees along the Selangor River at dusk. Includes seaside dinner and visit to historic Kuala Selangor Fort.",
+    city: "Kuala Selangor",
+    country: "Malaysia",
+    region: "Selangor",
     images: [
       "/images/tours/kuala-lumpur/fireflies.jpg",
       "/images/tours/kuala-lumpur/kuala-selangor-fort.jpg",
@@ -145,6 +160,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Birdwatching & Rainforest Discovery at FRIM",
     description:
       "Explore the Forest Research Institute Malaysia (FRIM) with expert naturalists to spot tropical birds, butterflies, and plant species. Experience the canopy walkway for unique rainforest perspectives just 30 minutes from downtown KL.",
+    city: "Kepong",
+    country: "Malaysia",
+    region: "Selangor",
     images: [
       "/images/tours/kuala-lumpur/frim-canopy-walk.jpg",
       "/images/tours/kuala-lumpur/tropical-birds.jpg",
@@ -176,6 +194,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Luxury Shopping & High Tea Experience",
     description:
       "Indulge in Kuala Lumpur's sophisticated side with VIP shopping experiences at designer boutiques and local luxury brands, followed by the legendary high tea tradition at the historic Colonial Café in The Majestic Hotel.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/pavilion-mall.jpg",
       "/images/tours/kuala-lumpur/high-tea.jpg",
@@ -207,6 +228,9 @@ export const kualaLumpurTours: Tour[] = [
     title: "Kuala Lumpur by Night: City Lights & Cultural Show",
     description:
       "Experience the vibrant nightlife of Kuala Lumpur with a guided evening tour that includes stunning city views from the KL Tower, a visit to the illuminated Petronas Towers, and a cultural performance showcasing traditional Malaysian music and dance.",
+    city: "Kuala Lumpur",
+    country: "Malaysia",
+    region: "Federal Territory",
     images: [
       "/images/tours/kuala-lumpur/kl-tower-night.jpg",
       "/images/tours/kuala-lumpur/petronas-towers-night.jpg",

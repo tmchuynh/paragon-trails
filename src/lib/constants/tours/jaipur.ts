@@ -5,6 +5,9 @@ export const jaipurTours: Tour[] = [
     title: "Royal Amber Fort & Palace Elegance",
     description:
       "Journey through Jaipur's royal heritage with a private tour of magnificent Amber Fort, followed by exclusive access to City Palace's royal apartments and a traditional Rajasthani dinner with folk performances.",
+    city: "Jaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/jaipur/amber-fort.jpg",
       "/images/tours/jaipur/city-palace.jpg",
@@ -36,6 +39,9 @@ export const jaipurTours: Tour[] = [
     title: "Artisan Workshops & Textile Heritage",
     description:
       "Discover the living crafts of Jaipur with exclusive access to master artisan workshops specializing in block printing, blue pottery, gemstone cutting, and traditional Rajasthani textile techniques passed down through generations.",
+    city: "Jaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/jaipur/block-printing.jpg",
       "/images/tours/jaipur/blue-pottery.jpg",
@@ -67,6 +73,9 @@ export const jaipurTours: Tour[] = [
     title: "Jaipur's Hidden Gems & Local Markets",
     description:
       "Explore Jaipur's vibrant local life with a guided tour of lesser-known neighborhoods, bustling markets, and hidden temples, experiencing the city's authentic culture away from the tourist crowds.",
+    city: "Jaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/jaipur/local-market.jpg",
       "/images/tours/jaipur/hideen-temple.jpg",
@@ -103,6 +112,9 @@ export const jaipurTours: Tour[] = [
     title: "Culinary Delights of Jaipur: Food & Culture Tour",
     description:
       "Savor the flavors of Jaipur with a guided food tour through the city's vibrant markets, traditional eateries, and hidden gems, tasting local specialties like Dal Baati Churma, Gatte ki Sabzi, and Rajasthani sweets.",
+    city: "Jaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/jaipur/food-market.jpg",
       "/images/tours/jaipur/dal-baati-churma.jpg",
