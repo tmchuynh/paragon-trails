@@ -5,6 +5,9 @@ export const zanzibarTours: Tour[] = [
     title: "Stone Town & Spice Plantation Journey",
     description:
       "Explore the UNESCO-listed Stone Town with its Arabic architecture and complex history, then visit aromatic spice plantations to discover why Zanzibar earned its name as the 'Spice Island'.",
+    city: "Zanzibar City",
+    country: "Tanzania",
+    region: "Zanzibar Island",
     images: [
       "/images/tours/zanzibar/stone-town.jpg",
       "/images/tours/zanzibar/spice-plantation.jpg",
@@ -12,12 +15,72 @@ export const zanzibarTours: Tour[] = [
     duration: "7 hours",
     price: "$85",
     rating: 4.8,
-    tags: ["Cultural", "Spices"],
-
+    tags: ["Cultural", "Spices", "Historical"],
+    meetingPoint: {
+      address: "Forodhani Gardens, Stone Town, Zanzibar City",
+      coordinates: {
+        latitude: -6.1596,
+        longitude: 39.1901,
+      },
+      instructions:
+        "Meet at the main entrance to Forodhani Gardens near the waterfront. Your guide will be holding a sign with 'Spice Island Tours' written on it.",
+      contactNumber: "+255 777 123 456",
+      contactEmail: "info@zanzibarsafaris.com",
+    },
+    highlights: [
+      "Explore the labyrinthine alleys of UNESCO World Heritage Site Stone Town",
+      "Visit the former Slave Market, Sultan's Palace, and historic Anglican Cathedral",
+      "Tour working spice plantations and learn about cultivation techniques",
+      "Sample fresh spices and tropical fruits directly from the source",
+      "Learn about traditional medicinal uses of various plants and spices",
+    ],
+    inclusions: [
+      "Professional English-speaking guide",
+      "Air-conditioned transportation between locations",
+      "Entrance fees to all historical sites",
+      "Traditional Swahili lunch at a local restaurant",
+      "Spice plantation tour with tastings",
+      "Bottled water throughout the day",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional $10)",
+      "Gratuities for guide and driver",
+      "Personal purchases and souvenirs",
+      "Alcoholic beverages",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Forodhani Gardens, Stone Town",
+      "9:15 AM - Walking tour of Stone Town historical sites",
+      "10:30 AM - Visit to House of Wonders and Palace Museum",
+      "11:30 AM - Exploration of narrow streets and local markets",
+      "12:30 PM - Traditional Swahili lunch at local restaurant",
+      "1:30 PM - Departure for spice plantation (30-minute drive)",
+      "2:00 PM - Guided tour of working spice plantation",
+      "3:30 PM - Spice tasting and demonstration",
+      "4:00 PM - Return journey to Stone Town",
+      "4:30 PM - Tour conclusion at Forodhani Gardens",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours before the tour. 50% refund if canceled within 24 hours. No refund for no-shows or same-day cancellations.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -35,22 +98,15 @@ export const zanzibarTours: Tour[] = [
         answer:
           "The tour involves approximately 2-3 miles (3-5 km) of walking in total, split between Stone Town's narrow streets and pathways through the spice plantation. In Stone Town, you'll navigate through winding alleyways with uneven surfaces, while the plantation portion involves gentle terrain with occasional steps. We maintain a comfortable pace with frequent stops for explanations and rest as needed.",
       },
-      {
-        question: "Will we have time for shopping in Stone Town?",
-        answer:
-          "Yes, we include dedicated time for shopping in Stone Town's markets and artisan shops. Your guide can direct you to reputable vendors for spices, Zanzibar doors, handcrafted jewelry, textiles, and other local specialties. We can help with price negotiations if needed, ensuring you get quality souvenirs at fair prices.",
-      },
-      {
-        question: "What should I wear on this tour?",
-        answer:
-          "Zanzibar is predominantly Muslim, so modest dress is appreciated, especially in Stone Town. We recommend lightweight, breathable clothing that covers shoulders and knees (both men and women). Comfortable walking shoes are essential for the cobblestone streets. For the spice plantation portion, closed-toe shoes are recommended as the ground may be uneven or muddy during rainy season. Don't forget sun protection including a hat and sunscreen.",
-      },
     ],
   },
   {
     title: "Blue Safari & Dolphin Spotting Adventure",
     description:
       "Sail traditional wooden dhows to pristine sandbanks and snorkeling spots teeming with marine life, with opportunities to spot wild dolphins in their natural habitat and feast on freshly caught seafood.",
+    city: "Kizimkazi",
+    country: "Tanzania",
+    region: "Zanzibar Island",
     images: [
       "/images/tours/zanzibar/dhow-sailing.jpg",
       "/images/tours/zanzibar/dolphins.jpg",
@@ -59,11 +115,71 @@ export const zanzibarTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Marine Life", "Snorkeling", "Dolphins"],
-
+    meetingPoint: {
+      address: "Kizimkazi Fishing Village, South Coast, Zanzibar",
+      coordinates: {
+        latitude: -6.4356,
+        longitude: 39.4677,
+      },
+      instructions:
+        "Meet at Kizimkazi Beach near the wooden jetty. Look for the dhow boat with blue trim and 'Blue Safari' flag. Hotel pickup is available from most Zanzibar locations.",
+      contactNumber: "+255 777 234 567",
+      contactEmail: "bookings@zanzibluesafari.com",
+    },
+    highlights: [
+      "Search for wild dolphins with a 85% spotting success rate",
+      "Sail on authentic wooden dhow boats with experienced local sailors",
+      "Snorkel at pristine coral reefs with abundant marine life",
+      "Visit uninhabited sandbanks that appear only during low tide",
+      "Enjoy a freshly prepared seafood barbecue lunch on a secluded beach",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off from most Zanzibar locations",
+      "Traditional dhow boat sailing experience",
+      "Professional snorkeling equipment with guidance",
+      "Seafood barbecue lunch and tropical fruits",
+      "Soft drinks and bottled water",
+      "Local marine guide and dolphin spotter",
+    ],
+    exclusions: [
+      "Marine park fees ($15 payable on arrival)",
+      "Alcoholic beverages (available for purchase)",
+      "Underwater camera rental",
+      "Gratuities for crew",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "7:00 AM - Hotel pickup begins",
+      "8:30 AM - Arrival at Kizimkazi, safety briefing",
+      "9:00 AM - Dolphin spotting excursion",
+      "10:30 AM - First snorkeling stop at coral reef",
+      "12:00 PM - Visit to pristine sandbank",
+      "1:30 PM - Seafood barbecue lunch on private beach",
+      "3:00 PM - Second snorkeling opportunity",
+      "4:30 PM - Return sailing with sunset views",
+      "5:30 PM - Return to shore and begin hotel drop-offs",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours before the experience. 50% refund if canceled 24-48 hours before. No refund for cancellations less than 24 hours before scheduled departure. Full refund offered if no dolphins are spotted during your trip.",
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -81,27 +197,15 @@ export const zanzibarTours: Tour[] = [
         answer:
           "We recommend bringing sunscreen (reef-safe preferred), a hat, sunglasses, towel, change of clothes, and a waterproof bag or case for electronics. Wear your swimwear under light clothing. Water shoes are helpful for the sandbank. Bring a light jacket or wrap as it can get breezy on the water, especially during the morning departure. We provide drinking water throughout the day, but you may want to bring additional beverages.",
       },
-      {
-        question: "Is lunch included in this tour?",
-        answer:
-          "Yes, a delicious seafood lunch is included, typically featuring grilled fish, lobster, calamari, and prawns (depending on the day's catch) accompanied by rice, tropical fruits, and vegetables. The lunch is prepared fresh on a portable grill set up on the sandbank. We can accommodate vegetarian options with advance notice, but please inform us of any dietary restrictions when booking.",
-      },
-      {
-        question: "Is snorkeling equipment provided?",
-        answer:
-          "Yes, we provide masks, snorkels, and fins in various sizes for all guests. Our equipment is cleaned and sanitized between tours. If you prefer to use your own equipment, you're welcome to bring it. We also provide basic instruction for beginners and identify the best spots based on current conditions and your snorkeling experience level.",
-      },
-      {
-        question: "How many people will be on the boat?",
-        answer:
-          "Our traditional dhow boats accommodate a maximum of 12 passengers to ensure everyone has enough space and receives personalized attention from our crew. For families or groups seeking more privacy, we offer private charter options at an additional cost. Each boat has shaded areas for sun protection and comfortable seating.",
-      },
     ],
   },
   {
     title: "Jozani Forest & Red Colobus Monkey Experience",
     description:
       "Venture into the lush Jozani Forest, home to the endemic red colobus monkeys, with a guided nature walk through mangroves and tropical flora, learning about Zanzibar's unique ecosystems and conservation efforts.",
+    city: "Jozani",
+    country: "Tanzania",
+    region: "Zanzibar Island",
     images: [
       "/images/tours/zanzibar/jozani-forest.jpg",
       "/images/tours/zanzibar/red-colobus.jpg",
@@ -109,94 +213,282 @@ export const zanzibarTours: Tour[] = [
     duration: "4 hours",
     price: "$70",
     rating: 4.7,
-    tags: ["Nature", "Conservation"],
-
+    tags: ["Nature", "Conservation", "Wildlife"],
+    meetingPoint: {
+      address: "Jozani-Chwaka Bay National Park Entrance, Zanzibar",
+      coordinates: {
+        latitude: -6.2559,
+        longitude: 39.4149,
+      },
+      instructions:
+        "Meet at the main entrance gate to Jozani Forest National Park. Our representative will be waiting with a 'Wildlife Conservation Tour' sign. Hotel pickup available from most locations.",
+      contactNumber: "+255 777 345 678",
+      contactEmail: "nature@zanzibarwildlife.com",
+    },
+    highlights: [
+      "Observe the rare and endemic Zanzibar red colobus monkeys in their natural habitat",
+      "Walk through ancient mangrove forests on elevated boardwalks",
+      "Learn about conservation efforts protecting Zanzibar's unique wildlife",
+      "Discover medicinal plants and their traditional uses from expert local guides",
+      "Support community-based conservation through your visit",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off from most Zanzibar locations",
+      "National park entrance fees",
+      "Professional naturalist guide",
+      "Guided forest walk and mangrove boardwalk tour",
+      "Bottled water",
+      "Contribution to conservation projects",
+    ],
+    exclusions: [
+      "Gratuities for guide",
+      "Lunch or snacks",
+      "Personal expenses",
+      "Professional photography equipment fee (if applicable)",
+    ],
+    itinerary: [
+      "8:00 AM - Hotel pickup begins",
+      "9:00 AM - Arrival at Jozani Forest entrance",
+      "9:15 AM - Introduction to the forest ecosystem and conservation efforts",
+      "9:30 AM - Guided walk through primary forest looking for red colobus monkeys",
+      "10:30 AM - Visit to the mangrove boardwalk ecosystem",
+      "11:15 AM - Butterfly garden and medicinal plant tour",
+      "12:00 PM - Return to park entrance and souvenir shopping opportunity",
+      "12:30 PM - Departure and hotel drop-offs",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours before the tour. 50% refund if canceled 12-24 hours before. No refund for cancellations less than 12 hours before scheduled tour.",
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "adventure",
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    tourCategoryId: "nature-wildlife",
     faqs: [
+      {
+        question: "How close will we get to the monkeys?",
+        answer:
+          "The Zanzibar red colobus monkeys are relatively accustomed to visitors, so it's often possible to observe them from just 5-10 meters away. However, as these are wild animals, we maintain respectful distances and follow park guidelines to ensure their wellbeing. Never attempt to touch or feed the monkeys.",
+      },
       {
         question: "What should I wear for the forest walk?",
         answer:
-          "We recommend lightweight, breathable clothing that covers your arms and legs to protect against insect bites. Sturdy walking shoes or hiking sandals are essential for navigating uneven terrain. A hat and sunscreen are also advisable as the forest can be sunny in open areas. Bring insect repellent to keep mosquitoes at bay.",
+          "Wear comfortable, lightweight clothing in neutral colors. Long pants are recommended to protect against insects, though shorts are acceptable. Closed walking shoes or hiking sandals are best for the forest trails. Don't forget a hat, sunscreen, and insect repellent.",
       },
       {
-        question: "Will we see other wildlife besides monkeys?",
+        question: "Will we see other wildlife besides the red colobus monkeys?",
         answer:
-          "Yes! Jozani Forest is home to diverse wildlife including bush babies, duikers, various bird species, and unique flora like mangroves and medicinal plants. Our guides are knowledgeable about the ecosystem and will point out interesting plants and animals along the way.",
-      },
-      {
-        question: "How long is the walk through Jozani Forest?",
-        answer:
-          "The guided walk lasts approximately 2 hours, covering around 2-3 km (1.2-1.9 miles) of well-maintained trails. The pace is relaxed with plenty of stops for wildlife viewing and explanations of the ecosystem. We can adjust the route based on your group's interests and mobility levels.",
-      },
-      {
-        question: "Is this tour suitable for young children?",
-        answer:
-          "Yes, this tour is family-friendly! Children enjoy spotting monkeys and other wildlife, and our guides engage them with fun facts about the animals and plants. However, please note that some trails may not be stroller-friendly due to roots and uneven terrain. We recommend bringing a child carrier or backpack for younger kids.",
-      },
-      {
-        question: "Are there any conservation fees for visiting Jozani Forest?",
-        answer:
-          "Yes, there is a small conservation fee that contributes to the protection of Jozani Forest and its wildlife. This fee is included in the tour price. It helps support ongoing conservation efforts, including habitat preservation and community education programs about the importance of protecting Zanzibar's unique ecosystems.",
-      },
-      {
-        question: "Can we take photos of the monkeys?",
-        answer:
-          "Yes, photography is allowed, but we ask that you respect the monkeys' space and avoid using flash. Our guides will help you find the best spots for photos while ensuring the monkeys are not disturbed. Please do not feed or attempt to touch the monkeys, as this can harm their natural behavior and health.",
+          "While the endangered Zanzibar red colobus monkeys are the star attraction, you might also spot Sykes' monkeys, bushbabies, duiker antelope, over 50 butterfly species, and numerous bird species including the Zanzibar flycatcher. The biodiversity of the forest is rich, and your guide will help point out various wildlife throughout the tour.",
       },
     ],
   },
   {
-    title: "Kizimkazi Dolphin & Snorkeling Safari",
+    title: "Prison Island & Giant Tortoise Sanctuary",
     description:
-      "Experience the thrill of swimming with wild dolphins in Kizimkazi, followed by snorkeling in vibrant coral reefs teeming with marine life, guided by local experts who prioritize responsible wildlife interactions.",
+      "Take a wooden boat to historic Prison Island to learn about its fascinating past and meet the colony of giant Aldabra tortoises, some over 150 years old, followed by snorkeling in crystal-clear waters.",
+    city: "Zanzibar City",
+    country: "Tanzania",
+    region: "Zanzibar Island",
     images: [
-      "/images/tours/zanzibar/kizimkazi-dolphins.jpg",
-      "/images/tours/zanzibar/snorkeling.jpg",
+      "/images/tours/zanzibar/prison-island.jpg",
+      "/images/tours/zanzibar/giant-tortoise.jpg",
     ],
     duration: "5 hours",
-    price: "$90",
-    rating: 4.9,
-    tags: ["Dolphins", "Snorkeling", "Marine Life"],
-
-    isHistorical: false,
+    price: "$65",
+    rating: 4.8,
+    tags: ["History", "Wildlife", "Island"],
+    meetingPoint: {
+      address: "Forodhani Gardens Boat Jetty, Stone Town, Zanzibar",
+      coordinates: {
+        latitude: -6.1592,
+        longitude: 39.1881,
+      },
+      instructions:
+        "Meet at the wooden boat jetty near Forodhani Gardens. Look for our representative with a 'Prison Island Tours' sign. The boat jetty is a 2-minute walk from the gardens.",
+      contactNumber: "+255 777 456 789",
+      contactEmail: "bookings@zanziislandtours.com",
+    },
+    highlights: [
+      "30-minute traditional wooden boat journey to Prison Island",
+      "Learn the island's history as a former quarantine station and prison",
+      "Meet and feed the giant Aldabra tortoises, some over 150 years old",
+      "Snorkel in the clear waters surrounding the island",
+      "Explore the historic prison building and its exhibits",
+    ],
+    inclusions: [
+      "Round-trip boat transportation from Stone Town",
+      "Professional English-speaking guide",
+      "Entrance fees to Prison Island and tortoise sanctuary",
+      "Snorkeling equipment (mask, snorkel, and fins)",
+      "Fresh tropical fruits and bottled water",
+      "Tortoise food for feeding experience",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional $10)",
+      "Lunch (available at the island restaurant for extra cost)",
+      "Underwater camera (available for rent)",
+      "Gratuities",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Forodhani Gardens Boat Jetty",
+      "9:15 AM - Safety briefing and boarding the boat",
+      "9:45 AM - Arrive at Prison Island",
+      "10:00 AM - Guided tour of the historic prison building",
+      "10:45 AM - Visit the giant tortoise sanctuary with feeding opportunity",
+      "11:30 AM - Free time for swimming and snorkeling",
+      "12:30 PM - Optional lunch at island restaurant (not included)",
+      "1:30 PM - Return boat journey to Stone Town",
+      "2:00 PM - Arrival at Stone Town jetty and tour conclusion",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours before the tour. 50% refund if canceled 12-24 hours before. No refund for cancellations less than 12 hours before the tour. Full refund if canceled due to dangerous sea conditions.",
+    isHistorical: true,
     isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "adventure",
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "cultural",
     faqs: [
       {
-        question: "How do you ensure responsible dolphin interactions?",
+        question: "Can I touch the giant tortoises?",
         answer:
-          "We follow strict guidelines to minimize disturbance to the dolphins. Our guides are trained in responsible wildlife viewing practices, including maintaining safe distances and limiting time spent near the dolphins. We never chase or harass them, allowing them to approach us naturally. This ensures a respectful and sustainable experience for both the dolphins and our guests.",
+          "Yes, under the supervision of your guide, you can gently touch the shells of the tortoises and feed them with the provided vegetables. However, we ask visitors not to touch their heads or legs, as this can stress them. These are protected animals, so all interaction must be respectful.",
       },
       {
-        question: "Do I need to know how to swim for this tour?",
+        question: "Is the boat journey rough?",
         answer:
-          "Basic swimming ability is recommended to fully enjoy the snorkeling portions of the tour. However, we provide life jackets for everyone regardless of swimming ability, and our crew members can assist those who are less confident in the water. Non-swimmers can still enjoy the boat journey and dolphin watching from the boat.",
+          "The journey to Prison Island takes approximately 30 minutes in a traditional wooden boat. The water is usually calm in the morning, but it can get choppy in the afternoon. Those prone to seasickness might want to take precautions. The boats have shade coverage and life jackets are provided for all passengers.",
       },
       {
-        question: "What should I bring for the boat trip?",
+        question: "How good is the snorkeling at Prison Island?",
         answer:
-          "We recommend bringing sunscreen (reef-safe preferred), a hat, sunglasses, towel, change of clothes, and a waterproof bag or case for electronics. Wear your swimwear under light clothing. Water shoes are helpful for the sandbank. Bring a light jacket or wrap as it can get breezy on the water, especially during the morning departure. We provide drinking water throughout the day, but you may want to bring additional beverages.",
+          "The waters around Prison Island offer good visibility and a variety of marine life including colorful reef fish, starfish, and occasional sea turtles. The coral reef is relatively healthy with areas of soft and hard corals. Snorkeling equipment is included, and your guide can provide basic instruction for beginners.",
+      },
+    ],
+  },
+  {
+    title: "Zanzibar Sunset Dhow Cruise with Seafood Dinner",
+    description:
+      "Sail on a traditional wooden dhow at sunset, cruising along Stone Town's historic waterfront while enjoying fresh grilled seafood, live Taarab music, and the breathtaking colors of an Indian Ocean sunset.",
+    city: "Zanzibar City",
+    country: "Tanzania",
+    region: "Zanzibar Island",
+    images: [
+      "/images/tours/zanzibar/sunset-dhow.jpg",
+      "/images/tours/zanzibar/seafood-dinner.jpg",
+    ],
+    duration: "3 hours",
+    price: "$85",
+    rating: 4.9,
+    tags: ["Romantic", "Sunset", "Seafood"],
+    meetingPoint: {
+      address: "Forodhani Gardens Boat Jetty, Stone Town, Zanzibar",
+      coordinates: {
+        latitude: -6.1592,
+        longitude: 39.1881,
+      },
+      instructions:
+        "Meet at the wooden boat jetty near Forodhani Gardens 30 minutes before sunset. Our staff will be wearing blue shirts with 'Sunset Cruise' printed on them.",
+      contactNumber: "+255 777 567 890",
+      contactEmail: "sunset@zanzibarcruises.com",
+    },
+    highlights: [
+      "Sail on a traditional hand-crafted wooden dhow with full sails",
+      "Witness the spectacular sunset over the Indian Ocean",
+      "Enjoy a freshly prepared seafood dinner grilled onboard",
+      "Listen to traditional Taarab music performed live",
+      "See Stone Town's historic waterfront from a unique perspective",
+    ],
+    inclusions: [
+      "2-hour sunset cruise on traditional dhow",
+      "Seafood dinner (vegetarian option available with advance notice)",
+      "Unlimited soft drinks and bottled water",
+      "Live Taarab musical performance",
+      "English-speaking crew",
+      "Life jackets and safety equipment",
+    ],
+    exclusions: [
+      "Alcoholic beverages (BYOB permitted with no corkage fee)",
+      "Hotel pickup and drop-off",
+      "Photos (though you're encouraged to bring your own camera)",
+      "Gratuities",
+    ],
+    itinerary: [
+      "5:30 PM - Meet at Forodhani Gardens Boat Jetty",
+      "5:45 PM - Welcome drink and boarding the dhow",
+      "6:00 PM - Set sail as the sun begins to lower",
+      "6:30 PM - Cruise along Stone Town's historic waterfront",
+      "7:00 PM - Witness sunset over the Indian Ocean",
+      "7:15 PM - Seafood dinner served with live music",
+      "8:00 PM - Continue sailing under the stars",
+      "8:30 PM - Return to the jetty",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours before cruise. 50% refund if canceled 12-24 hours before. No refund for cancellations less than 12 hours before departure. In case of dangerous weather, the cruise will be rescheduled or fully refunded.",
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    tourCategoryId: "romantic",
+    faqs: [
+      {
+        question: "What type of seafood is served on the cruise?",
+        answer:
+          "The dinner typically includes freshly caught and grilled fish, lobster (when in season), prawns, calamari, and octopus, served with coconut rice, chapati bread, and tropical fruits. Vegetarian options with local vegetables and tofu are available with advance notice.",
       },
       {
-        question: "Is lunch included in this tour?",
+        question: "Is this cruise suitable for people prone to seasickness?",
         answer:
-          "Yes, a light lunch is included, typically featuring sandwiches, fresh fruit, and refreshments. We can accommodate vegetarian options with advance notice, but please inform us of any dietary restrictions when booking.",
+          "The waters close to Stone Town are generally calm, especially during sunset hours. The dhows are stable vessels, but those very sensitive to motion might want to take preventive medication. The cruise stays relatively close to shore throughout the journey.",
       },
       {
-        question: "Is snorkeling equipment provided?",
+        question: "Is this a shared cruise or private experience?",
         answer:
-          "Yes, we provide masks, snorkels, and fins in various sizes for all guests. Our equipment is cleaned and sanitized between tours. If you prefer to use your own equipment, you're welcome to bring it. We also provide basic instruction for beginners and identify the best spots based on current conditions and your snorkeling experience level.",
-      },
-      {
-        question: "How many people will be on the boat?",
-        answer:
-          "Our boats accommodate a maximum of 10 passengers to ensure everyone has enough space and receives personalized attention from our crew. For families or groups seeking more privacy, we offer private charter options at an additional cost. Each boat has shaded areas for sun protection and comfortable seating.",
+          "This is typically a shared experience with a maximum of 12-15 passengers to ensure comfort and quality of service. Private charters for couples or groups can be arranged for an additional fee with advance reservation.",
       },
     ],
   },

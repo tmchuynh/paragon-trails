@@ -16,17 +16,83 @@ export const zagrebTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Walking Tour", "History", "Hidden Gems"],
-
+    meetingPoint: {
+      address: "Ban Jelačić Square, at the horseman statue, Zagreb",
+      coordinates: {
+        latitude: 45.8131,
+        longitude: 15.9753,
+      },
+      instructions:
+        "Meet by the horseman statue in the center of the square. Your guide will be holding a blue umbrella with 'Secret Zagreb' written on it.",
+      contactNumber: "+385 91 123 4567",
+      contactEmail: "tours@secretzagreb.com",
+    },
+    highlights: [
+      "Access private courtyards and hidden passages normally closed to the public",
+      "Discover the Stone Gate shrine and hear about its miraculous survival",
+      "Explore the mysterious tunnel system beneath Upper Town",
+      "Visit charming secret gardens and patios of historic buildings",
+    ],
+    inclusions: [
+      "Expert local guide with historical expertise",
+      "Special access to normally restricted areas",
+      "Small group experience (maximum 10 people)",
+      "Traditional Croatian pastry tasting",
+      "One Croatian coffee or homemade herbal tea",
+    ],
+    exclusions: [
+      "Funicular tickets (approximately €1 if needed)",
+      "Additional food and beverages",
+      "Gratuities",
+      "Hotel pickup and drop-off",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Ban Jelačić Square",
+      "10:15 AM - Walk or take funicular to Upper Town",
+      "10:30 AM - Explore hidden passages near St. Mark's Church",
+      "11:00 AM - Visit secret courtyards of noble families",
+      "11:30 AM - Stone Gate shrine and its legends",
+      "12:00 PM - Discover hidden garden cafes and coffee break",
+      "12:30 PM - Explore lesser-known viewpoints and fortifications",
+      "1:00 PM - Tour conclusion at Lotrščak Tower",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours in advance. 50% refund if canceled 12-24 hours in advance. No refund for cancellations less than 12 hours before the scheduled tour.",
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
         question: "How much walking is involved?",
         answer:
           "This tour covers approximately 3-4 kilometers at a leisurely pace, with several uphill sections and stairs in the Upper Town. While not strenuous, comfortable walking shoes are recommended. The route includes some cobblestone streets and narrow passages. We take frequent breaks at scenic viewpoints and interesting locations, and can adjust the pace based on group preferences.",
+      },
+      {
+        question: "Will we enter any buildings or museums?",
+        answer:
+          "This tour focuses primarily on outdoor spaces, hidden courtyards, and passageways. We may briefly enter certain buildings with public access, but no major museum visits are included. This allows us to discover more secret spots rather than spending time in major attractions.",
+      },
+      {
+        question: "Can I take photographs during the tour?",
+        answer:
+          "Photography is welcomed throughout most of the tour. When visiting private courtyards and gardens, we ask that you respect any specific restrictions mentioned by your guide. The unique vantage points on this tour offer excellent photo opportunities of Zagreb that most visitors never discover.",
       },
     ],
   },
@@ -45,17 +111,86 @@ export const zagrebTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cooking", "Food", "Cultural"],
-
+    meetingPoint: {
+      address: "Dolac Market, main entrance, Dolac 9, Zagreb",
+      coordinates: {
+        latitude: 45.8148,
+        longitude: 15.9762,
+      },
+      instructions:
+        "Meet at the main entrance to Dolac Market, near the statue of the market woman 'Kumica'. Your instructor will be holding a 'Croatian Cooking Class' sign.",
+      contactNumber: "+385 91 234 5678",
+      contactEmail: "cook@zagrebfood.hr",
+    },
+    highlights: [
+      "Shop for fresh ingredients at the historic Dolac farmers' market",
+      "Learn to prepare traditional strukli from a local culinary expert",
+      "Master the stretching technique for the perfect pastry dough",
+      "Create both savory and sweet variations of this Croatian specialty",
+    ],
+    inclusions: [
+      "Market tour with ingredient shopping",
+      "Hands-on cooking class with expert instruction",
+      "All ingredients and cooking equipment",
+      "Meal featuring your prepared dishes",
+      "Wine, water, and coffee with your meal",
+      "Recipe booklet to take home",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Additional food or beverages beyond what's mentioned",
+      "Gratuities",
+      "Personal cooking equipment",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Dolac Market entrance",
+      "9:15 AM - Guided market tour and ingredient shopping",
+      "10:00 AM - Walk to cooking school in nearby historic building",
+      "10:15 AM - Introduction to Croatian cuisine and strukli history",
+      "10:30 AM - Begin cooking workshop and dough preparation",
+      "11:30 AM - Prepare fillings and learn assembly techniques",
+      "12:30 PM - Baking time and preparation of accompanying dishes",
+      "1:00 PM - Enjoy the strukli and other Croatian specialties you've prepared",
+      "1:45 PM - Recipe sharing and culinary Q&A",
+      "2:00 PM - Class conclusion",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled class.",
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
     tourCategoryId: "culinary",
     faqs: [
       {
         question: "Will we make other Croatian dishes besides strukli?",
         answer:
           "While strukli is the star of our workshop given its significance in Zagreb's culinary heritage, the class also includes preparation of 2-3 additional dishes that complement it. Typically, we make a seasonal soup (such as zagorska juha in winter), a traditional salad with pumpkin oil dressing, and a simple dessert like fritule (Croatian doughnuts) or seasonal fruit strudel. You'll receive recipes for all dishes to take home.",
+      },
+      {
+        question: "Do I need cooking experience to participate?",
+        answer:
+          "No prior cooking experience is necessary. Our instructors break down the techniques into simple steps that even beginners can follow. Making strukli does involve some dough stretching techniques that require patience, but our instructors will guide you through the process step by step.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "With advance notice, we can accommodate vegetarian diets. Traditional strukli contains dairy (fresh cheese), but we can prepare vegetarian accompanying dishes. For other dietary restrictions such as gluten-free, vegan, or specific allergies, please contact us before booking to discuss possibilities.",
       },
     ],
   },
