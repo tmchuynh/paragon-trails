@@ -33,10 +33,11 @@ export default function PopularTours() {
 
   // Filter states
   const [showFilters, setShowFilters] = useState(false);
+  const [initialized, setInitialized] = useState(false);
   const [filters, setFilters] = useState({
     duration: "all",
     minPrice: 0,
-    maxPrice: 1500,
+    maxPrice: 0,
     rating: 0,
     tourCategoryId: "all",
   });
@@ -65,7 +66,13 @@ export default function PopularTours() {
         prices: { min: 0, max: 0 },
       };
 
-    let durations = [...new Set(allTours.map((tour) => tour.duration))];
+      let durations = [
+        ...new Set(
+          allTours
+            .filter((tour) => tour.duration) // Ensure only valid durations
+            .map((tour) => tour.duration)
+        ),
+      ];
     console.log("Durations before sorting:", durations);
     // Sort durations by time (assuming durations are in a format like "1 hour", "2 days", etc.)
     durations = sortDurations(durations);
@@ -98,32 +105,6 @@ export default function PopularTours() {
     };
   }, [allTours]);
 
-  // Apply filters to tours
-  const filteredTours = useMemo(() => {
-    return allTours.filter((tour) => {
-      // Duration filter
-      if (filters.duration !== "all" && tour.duration !== filters.duration)
-        return false;
-
-      // Price filter
-      const tourPrice = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
-      if (tourPrice < filters.minPrice || tourPrice > filters.maxPrice)
-        return false;
-
-      // Rating filter
-      if (filters.rating > 0 && tour.rating < filters.rating) return false;
-
-      // Category filter
-      if (
-        filters.tourCategoryId !== "all" &&
-        tour.tourCategoryId !== filters.tourCategoryId
-      )
-        return false;
-
-      return true;
-    });
-  }, [allTours, filters]);
-
   // Handle filter changes
   const handleFilterChange = (filterType: string, value: any) => {
     setFilters((prev) => ({ ...prev, [filterType]: value }));
@@ -139,7 +120,52 @@ export default function PopularTours() {
     });
   };
 
-  if (loading) {
+  useEffect(() => {
+    if (!initialized && filterOptions.prices.max > 0) {
+      setFilters({
+        duration: "all",
+        minPrice: filterOptions.prices.min,
+        maxPrice: filterOptions.prices.max,
+        rating: 0,
+        tourCategoryId: "all",
+      });
+      setInitialized(true);
+    }
+  }, [filterOptions, initialized]);
+
+  // Apply filters to tours
+  const filteredTours = useMemo(() => {
+    if (!filters) return [];
+  
+    return allTours.filter((tour) => {
+      // Duration filter
+      if (
+        filters.duration !== "all" &&
+        (!tour.duration || tour.duration !== filters.duration)
+      )
+        return false;
+  
+      // Price filter
+      const tourPrice = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
+      if (tourPrice < filters.minPrice || tourPrice > filters.maxPrice)
+        return false;
+  
+      // Rating filter
+      if (filters.rating > 0 && tour.rating < filters.rating) return false;
+  
+      // Category filter
+      if (
+        filters.tourCategoryId !== "all" &&
+        tour.tourCategoryId !== filters.tourCategoryId
+      )
+        return false;
+  
+      return true;
+    });
+  }, [allTours, filters]);
+  
+
+  if (loading || !filters) {
     return <Loading />;
   }
 
@@ -350,3 +376,4 @@ export default function PopularTours() {
     </div>
   );
 }
+
