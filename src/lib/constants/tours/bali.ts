@@ -489,7 +489,7 @@ export const baliTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: true,

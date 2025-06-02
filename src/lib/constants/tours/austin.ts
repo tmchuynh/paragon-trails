@@ -612,7 +612,7 @@ export const austinTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,

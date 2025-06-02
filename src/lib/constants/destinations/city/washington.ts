@@ -100,7 +100,7 @@ export const washingtonDcUnitedStates: Attraction[] = [
     rating: 4.9,
     tags: ["local", "political", "historical"],
     accessibilityFeatures: ["wheelchair accessible"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

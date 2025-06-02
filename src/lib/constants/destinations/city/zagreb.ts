@@ -166,7 +166,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.7,
     tags: ["historical", "art-and-music"],
     accessibilityFeatures: ["paved paths", "accessible main areas"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
@@ -254,7 +254,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.4,
     tags: ["art-and-music", "cultural", "local"],
     accessibilityFeatures: ["elevator access"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
@@ -284,7 +284,7 @@ export const zagrebCityOfZagrebCroatia: Attraction[] = [
     rating: 4.7,
     tags: ["park", "local", "wellness"],
     accessibilityFeatures: ["paved paths", "accessible restrooms"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
