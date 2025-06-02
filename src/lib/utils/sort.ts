@@ -210,6 +210,24 @@ export function alphabeticalSort(
     return ascending ? a.localeCompare(b) : b.localeCompare(a);
   });
 }
+
+/**
+ * Sorts an array of objects containing date strings based on their dates.
+ * 
+ * @param array - The array of objects containing date strings to sort.
+ * @param ascending - Determines the sort order. If true (default), sorts in ascending order (oldest first).
+ *                    If false, sorts in descending order (newest first).
+ * @returns A new sorted array without modifying the original array.
+ * 
+ * @example
+ * ```typescript
+ * // Sort blog posts by date (oldest first)
+ * const sortedPosts = sortByDate(posts);
+ * 
+ * // Sort blog posts by date (newest first)
+ * const newestFirstPosts = sortByDate(posts, false);
+ * ```
+ */
 export function sortByDate(
   array: { date: string }[],
   ascending: boolean = true
@@ -223,6 +241,23 @@ export function sortByDate(
   });
 }
 
+/**
+ * Sorts an array of objects containing price strings in ascending or descending order.
+ * 
+ * @param array - An array of objects, each containing a 'price' property with string value
+ * @param ascending - A boolean flag indicating sort direction (true for ascending, false for descending)
+ * @returns A new sorted array without modifying the original array
+ * 
+ * @example
+ * // Sort prices in ascending order
+ * sortByPrice([{ price: "$10.99" }, { price: "$5.99" }]);
+ * // Returns [{ price: "$5.99" }, { price: "$10.99" }]
+ * 
+ * @example
+ * // Sort prices in descending order
+ * sortByPrice([{ price: "$10.99" }, { price: "$5.99" }], false);
+ * // Returns [{ price: "$10.99" }, { price: "$5.99" }]
+ */
 export function sortByPrice(
   array: { price: string }[],
   ascending: boolean = true
@@ -234,6 +269,25 @@ export function sortByPrice(
   });
 }
 
+/**
+ * Sorts an array of string durations in ascending order.
+ * 
+ * This function converts string representations of time durations into minutes
+ * and then sorts them from shortest to longest.
+ * 
+ * Handles the following formats:
+ * - Minutes (e.g., "30 minutes", "45 minute")
+ * - Hours (e.g., "2 hours", "1 hour")
+ * - Days (e.g., "2 days", "1 day")
+ * - Special case "Full day" (interpreted as 8 hours)
+ * 
+ * @param arr - Array of string durations to be sorted
+ * @returns A new array with the durations sorted in ascending order
+ * 
+ * @example
+ * sortDurations(["2 hours", "30 minutes", "Full day"])
+ * // Returns: ["30 minutes", "2 hours", "Full day"]
+ */
 export function sortDurations(arr: string[]): string[] {
   const toMinutes = (str: string): number => {
     const lower = str.toLowerCase().trim();
