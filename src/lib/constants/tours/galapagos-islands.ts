@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const galapagosIslandsTours: Tour[] = [
   {
     title: "Darwin's Footsteps Wildlife Expedition",
@@ -16,13 +15,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$3,250",
     rating: 4.9,
     tags: ["Scientific", "Island Hopping"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address:
         "Charles Darwin Research Station, Puerto Ayora, Santa Cruz Island",
@@ -35,7 +32,6 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 6146",
       contactEmail: "darwin@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -44,7 +40,6 @@ export const galapagosIslandsTours: Tour[] = [
       "2024-02-09",
       "2024-02-23",
     ],
-
     highlights: [
       "Walk among giant tortoises in their natural highland habitat",
       "Observe unique behaviors of marine iguanas, the world's only sea-going lizards",
@@ -52,7 +47,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Snorkel with playful sea lions and tropical reef fish in crystal clear waters",
       "Visit multiple islands to compare species adaptations across different environments",
     ],
-
     inclusions: [
       "Expert naturalist guide with scientific background",
       "Inter-island boat transfers",
@@ -62,7 +56,6 @@ export const galapagosIslandsTours: Tour[] = [
       "National Park entrance fees ($100 value)",
       "Transit Control Card ($20 value)",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Alcoholic beverages",
@@ -70,43 +63,35 @@ export const galapagosIslandsTours: Tour[] = [
       "Personal expenses and gratuities",
       "Wetsuit rental ($10/day, recommended June-November)",
     ],
-
     itinerary: [
       "Day 1: 09:00 - Meet at Darwin Research Station for orientation",
       "Day 1: 10:30 - Visit giant tortoise breeding center",
       "Day 1: 13:00 - Lunch at local restaurant",
       "Day 1: 15:00 - Highland tortoise expedition",
       "Day 1: 19:00 - Welcome dinner and briefing",
-
       "Day 2: 07:30 - Breakfast at lodge",
       "Day 2: 08:30 - Boat to North Seymour Island",
       "Day 2: 10:00 - Guided walk among nesting seabirds",
       "Day 2: 12:30 - Snorkeling with sea lions",
       "Day 2: 16:00 - Return to Santa Cruz",
-
       "Day 3: 08:00 - Transfer to Isabela Island",
       "Day 3: 10:30 - Sierra Negra volcano hike",
       "Day 3: 14:00 - Visit to flamingo lagoon",
       "Day 3: 16:00 - Marine iguana colony observation",
-
       "Day 4: 07:30 - Snorkeling at Los Tuneles",
       "Day 4: 13:00 - Wildlife-spotting cruise",
       "Day 4: 15:00 - Tortoise Center visit",
-
       "Day 5: 08:00 - Transfer to Floreana Island",
       "Day 5: 10:30 - Post Office Bay historical site",
       "Day 5: 14:00 - Green Beach exploration",
-
       "Day 6: 07:30 - Transfer to San Cristobal",
       "Day 6: 10:30 - Kicker Rock snorkeling excursion",
       "Day 6: 15:00 - Sea lion colony visit",
-
       "Day 7: 08:00 - Interpretation Center visit",
       "Day 7: 10:00 - Frigate bird colony hike",
       "Day 7: 13:00 - Farewell lunch",
       "Day 7: 15:00 - Tour concludes with transfer to airport",
     ],
-
     faqs: [
       {
         question:
@@ -136,13 +121,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,450",
     rating: 4.8,
     tags: ["Snorkeling", "Marine Life", "Conservation"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address:
         "San Cristobal Dock, Puerto Baquerizo Moreno, San Cristobal Island",
@@ -155,7 +138,6 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 7155",
       contactEmail: "snorkeling@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-18",
       "2023-12-27",
@@ -164,7 +146,6 @@ export const galapagosIslandsTours: Tour[] = [
       "2024-02-12",
       "2024-02-26",
     ],
-
     highlights: [
       "Snorkel at Kicker Rock, one of the world's premier dive sites",
       "Swim alongside gentle sea turtles in their natural habitat",
@@ -172,7 +153,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Play with curious and playful sea lions underwater",
       "Observe unique marine iguanas feeding underwater on algae",
     ],
-
     inclusions: [
       "Marine biologist guide",
       "All snorkeling equipment (mask, snorkel, fins)",
@@ -184,7 +164,6 @@ export const galapagosIslandsTours: Tour[] = [
       "National Park entrance fees",
       "Water, tea, and coffee on boat excursions",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Dinners not specified in inclusions",
@@ -193,39 +172,33 @@ export const galapagosIslandsTours: Tour[] = [
       "Personal expenses and gratuities",
       "Optional SCUBA diving excursions",
     ],
-
     itinerary: [
       "Day 1: 09:00 - Meet at San Cristobal dock for orientation",
       "Day 1: 10:00 - Introductory snorkel at Playa Punta Carola",
       "Day 1: 13:00 - Welcome lunch at beachside restaurant",
       "Day 1: 15:00 - Snorkeling with sea lions at La Loberia",
       "Day 1: 19:00 - Welcome dinner and briefing",
-
       "Day 2: 08:00 - Breakfast at hotel",
       "Day 2: 09:00 - Full-day excursion to Kicker Rock",
       "Day 2: 10:30 - First snorkeling session at Kicker Rock",
       "Day 2: 12:30 - Lunch aboard boat",
       "Day 2: 14:00 - Second snorkeling session at Kicker Rock",
       "Day 2: 16:30 - Return to San Cristobal",
-
       "Day 3: 07:30 - Breakfast and check-out",
       "Day 3: 08:30 - Boat transfer to Santa Cruz Island",
       "Day 3: 11:30 - Snorkeling at Punta Estrada",
       "Day 3: 13:30 - Lunch in Puerto Ayora",
       "Day 3: 15:00 - Las Grietas snorkeling in crystal clear channels",
-
       "Day 4: 08:00 - Breakfast at hotel",
       "Day 4: 09:00 - Excursion to Isabela Island",
       "Day 4: 11:00 - Snorkeling at Los Tuneles with marine iguanas",
       "Day 4: 14:00 - Lunch aboard boat",
       "Day 4: 15:30 - Tintoreras islet shark channel snorkeling",
-
       "Day 5: 08:00 - Breakfast at hotel",
       "Day 5: 09:00 - Final snorkeling excursion to Tortuga Bay",
       "Day 5: 13:00 - Farewell lunch",
       "Day 5: 15:00 - Tour concludes with transfer to airport",
     ],
-
     faqs: [
       {
         question: "Do I need to be an experienced snorkeler?",
@@ -259,13 +232,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$4,195",
     rating: 4.9,
     tags: ["Photography", "Small Group"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
-
     meetingPoint: {
       address: "Seymour Airport Arrival Hall, Baltra Island",
       coordinates: {
@@ -277,9 +248,7 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 8164",
       contactEmail: "photography@paragontrails.com",
     },
-
     availableDates: ["2024-01-10", "2024-01-24", "2024-02-14", "2024-02-28"],
-
     highlights: [
       "Learn wildlife photography techniques from a National Geographic photographer",
       "Photograph giant tortoises in their natural highland habitat",
@@ -287,7 +256,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Master landscape photography at volcanic formations and pristine beaches",
       "Perfect your sunset and golden hour shooting techniques",
     ],
-
     inclusions: [
       "Professional National Geographic photographer as your instructor",
       "Daily photography workshops and field sessions",
@@ -299,7 +267,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Photography permit fees",
       "Digital portfolio of your best work",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Camera equipment (bring your own)",
@@ -308,50 +275,41 @@ export const galapagosIslandsTours: Tour[] = [
       "Personal expenses and gratuities",
       "Optional equipment rental (limited availability)",
     ],
-
     itinerary: [
       "Day 1: 12:00 - Airport pickup and transfer to Puerto Ayora",
       "Day 1: 15:00 - Equipment check and photography orientation",
       "Day 1: 17:00 - Golden hour shooting at harbor",
       "Day 1: 19:30 - Welcome dinner and presentation",
-
       "Day 2: 05:30 - Early morning light photography session",
       "Day 2: 08:30 - Breakfast followed by image review",
       "Day 2: 10:30 - Wildlife photography workshop at Darwin Station",
       "Day 2: 15:00 - Highland tortoise photography expedition",
       "Day 2: 18:00 - Sunset shooting techniques practice",
-
       "Day 3: 07:30 - Breakfast at lodge",
       "Day 3: 08:30 - Boat to North Seymour for seabird photography",
       "Day 3: 12:30 - Lunch aboard boat",
       "Day 3: 14:00 - Marine iguana colony shoot",
       "Day 3: 17:00 - Return to Santa Cruz",
       "Day 3: 20:00 - Evening critique session",
-
       "Day 4: 08:00 - Transfer to Isabela Island",
       "Day 4: 11:00 - Landscape photography at volcanic features",
       "Day 4: 15:00 - Macro photography workshop at wetlands",
       "Day 4: 18:00 - Beach sunset shoot",
-
       "Day 5: 06:00 - Sunrise shoot at beach",
       "Day 5: 09:00 - Flamingo photography at salt lakes",
       "Day 5: 14:00 - Sierra Negra volcano panorama shoot",
       "Day 5: 20:00 - Night sky photography workshop",
-
       "Day 6: 08:30 - Transfer to Floreana Island",
       "Day 6: 11:00 - Historic site photography",
       "Day 6: 15:00 - Beach and wildlife photography",
-
       "Day 7: 07:30 - Transfer to San Cristobal",
       "Day 7: 10:30 - Sea lion colony photoshoot",
       "Day 7: 15:00 - Final critique session and portfolio selection",
       "Day 7: 19:00 - Farewell dinner and slideshow of best work",
-
       "Day 8: 08:00 - Final tips and techniques session",
       "Day 8: 10:00 - Free shooting time",
       "Day 8: 14:00 - Tour concludes with airport transfer",
     ],
-
     faqs: [
       {
         question: "What photography equipment should I bring?",
@@ -380,13 +338,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,850",
     rating: 4.7,
     tags: ["Geology", "Volcanoes", "Hiking"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "off-the-beaten-path",
-
     meetingPoint: {
       address: "Puerto Villamil Dock, Isabela Island",
       coordinates: {
@@ -398,7 +354,6 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 9173",
       contactEmail: "volcanotour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-20",
       "2024-01-17",
@@ -406,7 +361,6 @@ export const galapagosIslandsTours: Tour[] = [
       "2024-02-14",
       "2024-02-28",
     ],
-
     highlights: [
       "Hike to the rim of Sierra Negra, one of the world's largest active calderas",
       "Walk across lunar-like lava fields formed by recent eruptions",
@@ -414,7 +368,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Visit Los Gemelos sinkholes formed by collapsed magma chambers",
       "Learn about the geological forces that continue to shape these islands",
     ],
-
     inclusions: [
       "Expert geologist guide",
       "All accommodations (5 nights in comfortable hotels)",
@@ -426,7 +379,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Hiking poles rental",
       "Safety equipment",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Dinners not specified in inclusions",
@@ -434,46 +386,39 @@ export const galapagosIslandsTours: Tour[] = [
       "Travel insurance (mandatory)",
       "Personal expenses and gratuities",
     ],
-
     itinerary: [
       "Day 1: 14:00 - Meet at Puerto Villamil dock",
       "Day 1: 14:30 - Orientation and geological introduction",
       "Day 1: 16:00 - Visit to Wall of Tears volcanic rock formation",
       "Day 1: 19:00 - Welcome dinner with presentation on Galapagos geology",
-
       "Day 2: 07:00 - Breakfast at hotel",
       "Day 2: 08:00 - Full-day hike to Sierra Negra volcano",
       "Day 2: 11:00 - Reach the caldera rim with panoramic views",
       "Day 2: 12:30 - Packed lunch at volcano",
       "Day 2: 13:30 - Continue to Chico Volcano to see recent lava flows",
       "Day 2: 17:00 - Return to Puerto Villamil",
-
       "Day 3: 08:00 - Breakfast at hotel",
       "Day 3: 09:00 - Boat tour to Los Tuneles lava formations",
       "Day 3: 12:00 - Lunch aboard boat",
       "Day 3: 14:00 - Snorkeling among underwater lava channels",
       "Day 3: 17:00 - Return with evening geology discussion",
-
       "Day 4: 07:30 - Breakfast and check-out",
       "Day 4: 08:30 - Transfer to Santa Cruz Island",
       "Day 4: 12:00 - Lunch in Puerto Ayora",
       "Day 4: 14:00 - Visit Los Gemelos sinkholes",
       "Day 4: 16:00 - Lava tunnel exploration",
       "Day 4: 19:00 - Mid-tour dinner with volcanic rock samples",
-
       "Day 5: 08:00 - Breakfast at hotel",
       "Day 5: 09:00 - Transfer to Bartolome Island",
       "Day 5: 11:00 - Hike among spatter cones and tuff formations",
       "Day 5: 13:00 - Lunch with view of Pinnacle Rock",
       "Day 5: 14:30 - Lecture on island formation processes",
       "Day 5: 16:30 - Return to Santa Cruz",
-
       "Day 6: 08:00 - Breakfast at hotel",
       "Day 6: 09:00 - Final geological site visits on Santa Cruz",
       "Day 6: 12:00 - Farewell lunch with summary presentation",
       "Day 6: 14:00 - Tour concludes with transfer to airport",
     ],
-
     faqs: [
       {
         question: "How physically demanding are the hikes?",
@@ -502,13 +447,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,995",
     rating: 4.9,
     tags: ["Family", "Educational", "Wildlife"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "local",
-
     meetingPoint: {
       address: "Finch Bay Eco Hotel, Puerto Ayora, Santa Cruz Island",
       coordinates: {
@@ -520,7 +463,6 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 5128",
       contactEmail: "familytour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-22",
       "2023-12-29",
@@ -529,7 +471,6 @@ export const galapagosIslandsTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Junior Naturalist program with certificates for children",
       "Kid-friendly wildlife scavenger hunts and nature activities",
@@ -537,7 +478,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Interactive touch pools and wildlife encounters",
       "Beach time for relaxation between adventures",
     ],
-
     inclusions: [
       "Family-specialized naturalist guide",
       "All accommodations in family-friendly rooms/suites",
@@ -548,7 +488,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Family photo package",
       "Evening babysitting service (one night)",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Alcoholic beverages",
@@ -556,33 +495,28 @@ export const galapagosIslandsTours: Tour[] = [
       "Personal expenses and gratuities",
       "Optional activities not listed in the itinerary",
     ],
-
     itinerary: [
       "Day 1: 15:00 - Meet at Finch Bay Hotel for welcome orientation",
       "Day 1: 15:30 - Junior Naturalist kit distribution and introduction",
       "Day 1: 16:30 - Beach exploration and wildlife introduction",
       "Day 1: 19:00 - Welcome dinner with interactive wildlife presentation",
-
       "Day 2: 08:00 - Breakfast at hotel",
       "Day 2: 09:00 - Visit to Tortoise Reserve with kid-friendly activities",
       "Day 2: 12:00 - Picnic lunch at reserve",
       "Day 2: 14:00 - Lava tunnel exploration with treasure hunt",
       "Day 2: 17:00 - Return to hotel with free time for swimming",
-
       "Day 3: 08:30 - Breakfast at hotel",
       "Day 3: 09:30 - Boat excursion to Santa Fe Island",
       "Day 3: 11:00 - Family snorkeling lesson in protected bay",
       "Day 3: 12:30 - Beach picnic lunch",
       "Day 3: 14:00 - Wildlife scavenger hunt on island trails",
       "Day 3: 16:30 - Return to Santa Cruz with sunset marine wildlife spotting",
-
       "Day 4: 08:00 - Breakfast at hotel",
       "Day 4: 09:00 - Charles Darwin Research Station visit with interactive exhibits",
       "Day 4: 12:00 - Lunch in Puerto Ayora",
       "Day 4: 14:00 - Kayaking in Tortuga Bay (age-appropriate boats)",
       "Day 4: 16:00 - Beach time and sand castle competition",
       "Day 4: 19:00 - Optional parents' dinner (with babysitting service)",
-
       "Day 5: 08:30 - Breakfast at hotel",
       "Day 5: 09:30 - Boat to South Plaza Island",
       "Day 5: 11:00 - Guided nature walk with wildlife spotting contests",
@@ -590,14 +524,12 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 5: 14:00 - Snorkeling with tropical fish",
       "Day 5: 17:00 - Return to hotel",
       "Day 5: 19:00 - Farewell dinner with Junior Naturalist certification ceremony",
-
       "Day 6: 08:00 - Breakfast at hotel",
       "Day 6: 09:00 - Final beach activity and souvenir shopping time",
       "Day 6: 11:30 - Photo sharing session and memories discussion",
       "Day 6: 13:00 - Farewell lunch",
       "Day 6: 14:30 - Tour concludes with airport transfer",
     ],
-
     faqs: [
       {
         question: "What ages is this tour appropriate for?",
@@ -626,13 +558,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$8,950",
     rating: 5.0,
     tags: ["Luxury", "Private Charter", "Exclusive"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "luxury",
-
     meetingPoint: {
       address: "Seymour Airport VIP Lounge, Baltra Island",
       coordinates: {
@@ -644,9 +574,7 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 6137",
       contactEmail: "luxurycharter@paragontrails.com",
     },
-
     availableDates: ["2024-01-08", "2024-01-22", "2024-02-05", "2024-02-19"],
-
     highlights: [
       "Exclusive use of luxury yacht with premium cabins",
       "Personalized itinerary tailored to your interests",
@@ -654,7 +582,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Gourmet dining prepared by private chef",
       "Access to visitor sites during optimal hours, avoiding crowds",
     ],
-
     inclusions: [
       "VIP airport transfers",
       "Exclusive use of luxury yacht (capacity 12 passengers)",
@@ -667,7 +594,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Kayaks and paddleboards",
       "National Park fees and permits",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Travel insurance (mandatory)",
@@ -675,7 +601,6 @@ export const galapagosIslandsTours: Tour[] = [
       "SCUBA diving (can be arranged at additional cost)",
       "Satellite phone usage fees",
     ],
-
     itinerary: [
       "Day 1: 12:00 - VIP welcome at Baltra Airport",
       "Day 1: 12:30 - Private transfer to yacht with champagne reception",
@@ -683,7 +608,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 1: 15:00 - First island visit with private guide",
       "Day 1: 18:00 - Sunset cocktails on deck",
       "Day 1: 19:30 - Welcome dinner prepared by private chef",
-
       "Day 2: 07:30 - Breakfast on deck",
       "Day 2: 09:00 - Morning excursion to North Seymour Island",
       "Day 2: 11:30 - Snorkeling or kayaking at private cove",
@@ -691,47 +615,40 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 2: 15:00 - Afternoon excursion with wildlife viewing",
       "Day 2: 18:00 - Evening cruise with whale and dolphin watching",
       "Day 2: 20:00 - Starlight dinner on upper deck",
-
       "Day 3: 07:00 - Optional sunrise yoga on deck",
       "Day 3: 08:00 - Breakfast followed by Bartolome Island visit",
       "Day 3: 11:00 - Snorkeling among tropical fish and penguins",
       "Day 3: 13:30 - Lunch with wine pairing",
       "Day 3: 16:00 - Evening excursion to Santiago Island",
-
       "Day 4: 08:00 - Breakfast followed by visit to Isabela Island",
       "Day 4: 10:30 - Private tour of Sierra Negra volcano",
       "Day 4: 13:00 - Gourmet picnic lunch at scenic viewpoint",
       "Day 4: 15:30 - Visit to Flamingo Lagoon by private transport",
       "Day 4: 19:00 - Chef's tasting dinner with Ecuadorian specialties",
-
       "Day 5: 08:00 - Breakfast on deck",
       "Day 5: 09:30 - Morning visit to Santa Cruz highlands",
       "Day 5: 12:00 - Giant tortoise reserve private access",
       "Day 5: 14:00 - Lunch at exclusive plantation estate",
       "Day 5: 16:00 - Afternoon at leisure with water activities",
       "Day 5: 19:30 - Seafood dinner under the stars",
-
       "Day 6: 07:30 - Breakfast aboard yacht",
       "Day 6: 09:00 - Excursion to Floreana Island historical sites",
       "Day 6: 12:00 - Beach lunch with champagne",
       "Day 6: 14:30 - Premium snorkeling at Champion Islet",
       "Day 6: 17:00 - Sunset cruise with cocktails",
       "Day 6: 20:00 - Formal dinner with wine pairings",
-
       "Day 7: 08:30 - Breakfast aboard yacht",
       "Day 7: 10:00 - Morning visit to Española Island",
       "Day 7: 12:30 - Private lunch setup on secluded beach",
       "Day 7: 15:00 - Wildlife photography at albatross colony",
       "Day 7: 18:00 - Captain's farewell reception",
       "Day 7: 19:30 - Gala dinner with Ecuadorian and international cuisine",
-
       "Day 8: 07:30 - Final breakfast aboard yacht",
       "Day 8: 09:00 - Last island visit to San Cristobal",
       "Day 8: 11:00 - Final wildlife viewing opportunity",
       "Day 8: 12:30 - Farewell lunch",
       "Day 8: 14:00 - VIP transfer to airport for departure",
     ],
-
     faqs: [
       {
         question: "How customizable is the yacht charter experience?",
@@ -760,13 +677,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$3,450",
     rating: 4.8,
     tags: ["Conservation", "Volunteering", "Educational"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "local",
-
     meetingPoint: {
       address:
         "Charles Darwin Research Station, Puerto Ayora, Santa Cruz Island",
@@ -779,9 +694,7 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 7149",
       contactEmail: "conservation@paragontrails.com",
     },
-
     availableDates: ["2024-01-15", "2024-02-12"],
-
     highlights: [
       "Work directly with conservation scientists on real research projects",
       "Participate in the giant tortoise breeding and repatriation program",
@@ -789,7 +702,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Collect vital field data on endangered species",
       "Receive official certificate of participation in Galapagos conservation",
     ],
-
     inclusions: [
       "Conservation scientist guides and instructors",
       "All research equipment and materials",
@@ -801,7 +713,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Conservation certificate",
       "National Park fees",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Personal research equipment",
@@ -809,68 +720,57 @@ export const galapagosIslandsTours: Tour[] = [
       "Internet access (limited availability)",
       "Personal expenses and gratuities",
     ],
-
     itinerary: [
       "Day 1: 14:00 - Meet at Darwin Research Station",
       "Day 1: 14:30 - Orientation and conservation briefing",
       "Day 1: 16:00 - Introduction to research facilities",
       "Day 1: 18:00 - Welcome dinner with research team",
-
       "Day 2: 07:00 - Breakfast at research station",
       "Day 2: 08:00 - Conservation training session",
       "Day 2: 10:00 - Tour of tortoise breeding center",
       "Day 2: 13:00 - Lunch at research station",
       "Day 2: 14:00 - First conservation activity: tortoise feeding and care",
       "Day 2: 18:00 - Dinner and conservation lecture",
-
       "Day 3: 06:30 - Breakfast at research station",
       "Day 3: 07:30 - Full day invasive plant removal in highlands",
       "Day 3: 12:30 - Packed lunch in the field",
       "Day 3: 16:00 - Return to station for data recording",
       "Day 3: 19:00 - Dinner and daily debrief",
-
       "Day 4: 07:00 - Breakfast at research station",
       "Day 4: 08:00 - Beach cleanup and microplastic survey",
       "Day 4: 13:00 - Lunch at research station",
       "Day 4: 14:30 - Marine conservation lecture",
       "Day 4: 16:00 - Free time for exploration",
-
       "Day 5: 06:30 - Breakfast at research station",
       "Day 5: 07:30 - Tortoise population monitoring excursion",
       "Day 5: 12:00 - Packed lunch in the field",
       "Day 5: 15:00 - Data collection and GPS mapping",
       "Day 5: 18:30 - Dinner and conservation film screening",
-
       "Day 6: 07:30 - Breakfast at research station",
       "Day 6: 08:30 - Day off with guided wildlife excursion",
       "Day 6: 12:30 - Picnic lunch",
       "Day 6: 14:00 - Snorkeling at Tortuga Bay",
       "Day 6: 19:00 - Group dinner in Puerto Ayora",
-
       "Day 7: 06:30 - Breakfast at research station",
       "Day 7: 07:30 - Mangrove restoration project",
       "Day 7: 12:00 - Lunch at field site",
       "Day 7: 14:00 - Afternoon conservation work continues",
       "Day 7: 18:30 - Dinner with guest speaker",
-
       "Day 8: 07:00 - Breakfast at research station",
       "Day 8: 08:00 - Native plant nursery work",
       "Day 8: 13:00 - Lunch at research station",
       "Day 8: 14:30 - Finch monitoring and data collection",
       "Day 8: 18:00 - Dinner and progress review",
-
       "Day 9: 07:30 - Breakfast at research station",
       "Day 9: 08:30 - Choice of conservation activities based on interest",
       "Day 9: 13:00 - Lunch at research station",
       "Day 9: 14:30 - Assist with educational program for local school",
       "Day 9: 18:30 - Farewell dinner and celebration",
-
       "Day 10: 08:00 - Breakfast at research station",
       "Day 10: 09:00 - Final conservation activity",
       "Day 10: 12:00 - Certificate ceremony and farewell lunch",
       "Day 10: 14:00 - Program concludes with optional airport transfer",
     ],
-
     faqs: [
       {
         question: "What type of conservation work will we be doing?",
@@ -899,13 +799,11 @@ export const galapagosIslandsTours: Tour[] = [
     price: "$2,200",
     rating: 4.9,
     tags: ["Birdwatching", "Nature"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "birdwatching",
-
     meetingPoint: {
       address: "Golden Bay Hotel Lobby, Puerto Baquerizo Moreno, San Cristobal",
       coordinates: {
@@ -917,9 +815,7 @@ export const galapagosIslandsTours: Tour[] = [
       contactNumber: "+593 5 252 8152",
       contactEmail: "birding@paragontrails.com",
     },
-
     availableDates: ["2023-12-18", "2024-01-22", "2024-02-19"],
-
     highlights: [
       "Observe all 13 species of Darwin's famous finches",
       "Witness the blue-footed booby's elaborate mating dance",
@@ -927,7 +823,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Spot the rare flightless cormorant in its natural habitat",
       "Learn about evolutionary adaptations in Galapagos birds",
     ],
-
     inclusions: [
       "Professional ornithologist guide",
       "High-quality binoculars and spotting scopes",
@@ -938,7 +833,6 @@ export const galapagosIslandsTours: Tour[] = [
       "National Park entrance fees",
       "Daily guided birding excursions",
     ],
-
     exclusions: [
       "Flights to/from Galapagos Islands",
       "Alcoholic beverages",
@@ -946,13 +840,11 @@ export const galapagosIslandsTours: Tour[] = [
       "Personal expenses and gratuities",
       "Professional camera equipment (bring your own)",
     ],
-
     itinerary: [
       "Day 1: 15:00 - Meet at Golden Bay Hotel",
       "Day 1: 15:30 - Introduction to Galapagos birdlife",
       "Day 1: 16:30 - Late afternoon birding at Frigate Bird Hill",
       "Day 1: 19:00 - Welcome dinner with trip briefing",
-
       "Day 2: 06:00 - Early morning birding near San Cristobal coast",
       "Day 2: 08:00 - Breakfast at hotel",
       "Day 2: 09:00 - Visit El Junco lagoon for highland species",
@@ -960,7 +852,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 2: 13:30 - Birding at Puerto Chino beach",
       "Day 2: 16:30 - Return to hotel with species checklist review",
       "Day 2: 19:00 - Dinner with discussion on Darwin's finches",
-
       "Day 3: 06:30 - Breakfast at hotel",
       "Day 3: 07:30 - Transfer to Santa Cruz Island",
       "Day 3: 10:30 - Birding at Los Gemelos highlands",
@@ -968,7 +859,6 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 3: 14:30 - Visit tortoise reserve with focus on local birds",
       "Day 3: 17:30 - Check-in at Santa Cruz hotel",
       "Day 3: 19:00 - Dinner with daily bird count",
-
       "Day 4: 05:30 - Early breakfast",
       "Day 4: 06:00 - Full-day excursion to Seymour Island (booby colony)",
       "Day 4: 09:30 - Intensive birding on Seymour Island",
@@ -976,14 +866,12 @@ export const galapagosIslandsTours: Tour[] = [
       "Day 4: 14:00 - Continue birding with focus on frigate birds",
       "Day 4: 17:00 - Return to Santa Cruz",
       "Day 4: 19:30 - Dinner with presentation on seabird adaptations",
-
       "Day 5: 06:00 - Final morning birding session at Academy Bay",
       "Day 5: 08:00 - Breakfast at hotel",
       "Day 5: 09:00 - Visit Darwin Research Station bird collections",
       "Day 5: 12:00 - Farewell lunch with final species checklist review",
       "Day 5: 14:00 - Tour concludes with airport transfer",
     ],
-
     faqs: [
       {
         question: "Do I need prior birdwatching experience?",
@@ -998,5 +886,4 @@ export const galapagosIslandsTours: Tour[] = [
     ],
   },
 ];
-
 export default galapagosIslandsTours;

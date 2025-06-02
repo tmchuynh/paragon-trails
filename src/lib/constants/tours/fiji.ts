@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const fijiTours: Tour[] = [
   {
     title: "Island Hopping Adventure: Yasawa Islands Exploration",
@@ -16,7 +15,6 @@ export const fijiTours: Tour[] = [
     price: "$1,250",
     rating: 4.9,
     tags: ["Islands", "Snorkeling", "Adventure"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -133,7 +131,6 @@ export const fijiTours: Tour[] = [
     price: "$550",
     rating: 4.8,
     tags: ["Cultural", "Village", "Homestay"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -245,7 +242,6 @@ export const fijiTours: Tour[] = [
     price: "$1,850",
     rating: 4.7,
     tags: ["Conservation", "Marine Life", "Educational"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -363,7 +359,6 @@ export const fijiTours: Tour[] = [
     price: "$5,950",
     rating: 5.0,
     tags: ["Luxury", "Private Island", "Exclusive"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -482,7 +477,6 @@ export const fijiTours: Tour[] = [
     price: "$1,450",
     rating: 4.7,
     tags: ["Adventure", "Watersports", "Action"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -588,5 +582,4 @@ export const fijiTours: Tour[] = [
     ],
   },
 ];
-
 export default fijiTours;

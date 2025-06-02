@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const edinburghTours: Tour[] = [
   {
     title: "Edinburgh Castle & Royal Mile Historical Tour",
@@ -16,13 +15,11 @@ export const edinburghTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Castle", "History", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "The Esplanade, Edinburgh Castle, Edinburgh EH1 2NG",
       coordinates: {
@@ -34,7 +31,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 1234",
       contactEmail: "castletour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-18",
@@ -48,7 +44,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Explore Edinburgh Castle with priority access and expert historical commentary",
       "See the Scottish Crown Jewels (the Honours of Scotland) and Stone of Destiny",
@@ -56,7 +51,6 @@ export const edinburghTours: Tour[] = [
       "Learn about Edinburgh's fascinating and sometimes dark history",
       "Finish with a whisky tasting in a historic cellar venue",
     ],
-
     inclusions: [
       "Professional historian guide",
       "Skip-the-line entrance to Edinburgh Castle",
@@ -64,14 +58,12 @@ export const edinburghTours: Tour[] = [
       "Whisky tasting experience with 3 premium single malts",
       "Small group size (maximum 12 participants)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond the included whisky tasting",
       "Gratuities (optional)",
       "Souvenir purchases",
     ],
-
     itinerary: [
       "10:00 - Meet at Edinburgh Castle Esplanade for introduction",
       "10:15 - Priority entrance to Edinburgh Castle",
@@ -84,7 +76,6 @@ export const edinburghTours: Tour[] = [
       "14:15 - Descend to historic whisky cellar venue",
       "14:30 - Guided whisky tasting experience with Scottish single malts",
     ],
-
     faqs: [
       {
         question: "Does this tour include admission to Edinburgh Castle?",
@@ -118,13 +109,11 @@ export const edinburghTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Literary", "Cultural", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "The Writers' Museum, Lady Stair's Close, Edinburgh EH1 2PA",
       coordinates: {
@@ -136,7 +125,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 2345",
       contactEmail: "literarytour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-20",
@@ -150,7 +138,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Discover locations that inspired classic and contemporary Scottish literature",
       "Visit the cafés where J.K. Rowling wrote early Harry Potter novels",
@@ -158,7 +145,6 @@ export const edinburghTours: Tour[] = [
       "Explore Makars' Court with its famous literary quotations",
       "Walk through the streets that inspired Robert Louis Stevenson's 'Dr. Jekyll and Mr. Hyde'",
     ],
-
     inclusions: [
       "Literary expert guide",
       "Entrance to The Writers' Museum",
@@ -167,14 +153,12 @@ export const edinburghTours: Tour[] = [
       "Small group size (maximum 12 participants)",
       "Discount voucher for a local bookstore",
     ],
-
     exclusions: [
       "Food and drinks",
       "Transportation to and from meeting point",
       "Gratuities (optional)",
       "Entry fees to venues not listed in inclusions",
     ],
-
     itinerary: [
       "10:00 - Meet at The Writers' Museum for introduction",
       "10:15 - Guided tour of the museum focusing on Burns, Scott and Stevenson",
@@ -185,7 +169,6 @@ export const edinburghTours: Tour[] = [
       "12:30 - Visit Greyfriars Kirkyard to see tombstones that inspired Harry Potter character names",
       "13:00 - Tour concludes with a Scottish poetry reading near the Scott Monument",
     ],
-
     faqs: [
       {
         question: "Do I need to be a Harry Potter expert to enjoy this tour?",
@@ -220,13 +203,11 @@ export const edinburghTours: Tour[] = [
     price: "$35",
     rating: 4.6,
     tags: ["Haunted", "Ghost Tour", "Underground"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "off-the-beaten-path",
-
     meetingPoint: {
       address: "Mercat Cross, High Street, Royal Mile, Edinburgh EH1 1RF",
       coordinates: {
@@ -238,7 +219,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 3456",
       contactEmail: "vaults@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -262,7 +242,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Access Edinburgh's restricted 18th-century underground vaults",
       "Hear authentic ghost stories and historical tales of murder and mystery",
@@ -270,7 +249,6 @@ export const edinburghTours: Tour[] = [
       "Learn about Edinburgh's body snatchers and medical history",
       "Visit one of the most haunted locations in Scotland",
     ],
-
     inclusions: [
       "Expert storyteller guide",
       "Access to restricted underground vaults",
@@ -278,14 +256,12 @@ export const edinburghTours: Tour[] = [
       "Historical commentary on Edinburgh's darker history",
       "Small group size for an intimate experience (maximum 15 participants)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Food and drinks",
       "Photos inside certain vault areas (some areas prohibit photography)",
       "Gratuities (optional)",
     ],
-
     itinerary: [
       "19:00 - Meet at Mercat Cross for introduction to Edinburgh's dark history",
       "19:15 - Walk down the Royal Mile with stories of public executions and historical crimes",
@@ -297,7 +273,6 @@ export const edinburghTours: Tour[] = [
       "20:45 - Final ghost stories and legends in the deepest chamber",
       "21:00 - Return to street level where tour concludes",
     ],
-
     faqs: [
       {
         question: "Is this tour scary?",
@@ -331,13 +306,11 @@ export const edinburghTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Whisky", "Tasting", "Scottish Culture"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address:
         "The Scotch Whisky Experience, 354 Castlehill, Edinburgh EH1 2NE",
@@ -350,7 +323,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 4567",
       contactEmail: "whisky@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -364,7 +336,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Guided tasting of five premium single malt whiskies from different Scottish regions",
       "Learn professional tasting techniques from a certified whisky expert",
@@ -372,7 +343,6 @@ export const edinburghTours: Tour[] = [
       "Experience food pairings that complement each whisky's unique characteristics",
       "View the world's largest collection of Scotch whisky",
     ],
-
     inclusions: [
       "Professional whisky expert guide",
       "Tasting of 5 premium single malt whiskies",
@@ -381,14 +351,12 @@ export const edinburghTours: Tour[] = [
       "Whisky tasting notes booklet",
       "Bottle of water and oatcakes to cleanse the palate",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food beyond the included pairings",
       "Full bottles of whisky (available for purchase)",
       "Gratuities (optional)",
     ],
-
     itinerary: [
       "18:00 - Meet at The Scotch Whisky Experience for welcome introduction",
       "18:15 - Brief overview of whisky history and production process",
@@ -400,7 +368,6 @@ export const edinburghTours: Tour[] = [
       "20:45 - Final whisky tasting: Special selection with artisan shortbread",
       "21:00 - Tour conclusion with recommendations for whisky bars to continue your evening",
     ],
-
     faqs: [
       {
         question: "How many whiskies will we taste?",
@@ -432,13 +399,11 @@ export const edinburghTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Highlands", "Scenery", "Day Trip"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Edinburgh Bus Station, Elder Street, Edinburgh EH1 3DX",
       coordinates: {
@@ -450,7 +415,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 5678",
       contactEmail: "highlands@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-19",
@@ -465,7 +429,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Travel through the stunning scenery of the Scottish Highlands",
       "Visit the historic battlefield of Culloden",
@@ -473,7 +436,6 @@ export const edinburghTours: Tour[] = [
       "Experience the dramatic landscape of Glencoe and hear its tragic history",
       "Photo stops at scenic viewpoints including Loch Lomond",
     ],
-
     inclusions: [
       "Transportation in luxury air-conditioned coach",
       "Professional driver and separate tour guide",
@@ -483,7 +445,6 @@ export const edinburghTours: Tour[] = [
       "Photo stops at key viewpoints",
       "Small group size (maximum 24 participants)",
     ],
-
     exclusions: [
       "Loch Ness boat cruise (available as add-on, £15 per person)",
       "Entrance to Urquhart Castle (optional, £12 per person)",
@@ -491,7 +452,6 @@ export const edinburghTours: Tour[] = [
       "Gratuities (optional)",
       "Hotel pickup and drop-off",
     ],
-
     itinerary: [
       "08:00 - Depart Edinburgh Bus Station in luxury coach",
       "09:30 - Coffee stop at Pitlochry with time to stretch legs",
@@ -504,7 +464,6 @@ export const edinburghTours: Tour[] = [
       "17:00 - Comfort break in Luss village on Loch Lomond shores",
       "19:00 - Arrive back in Edinburgh city center",
     ],
-
     faqs: [
       {
         question: "How long is the drive to the Highlands?",
@@ -535,13 +494,11 @@ export const edinburghTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Harry Potter", "Literary", "Walking Tour"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "The Elephant House, 21 George IV Bridge, Edinburgh EH1 1EN",
       coordinates: {
@@ -553,7 +510,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 6789",
       contactEmail: "potterlore@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-17",
@@ -577,7 +533,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Visit The Elephant House and Spoon cafés where J.K. Rowling wrote the early novels",
       "Explore Victoria Street, the inspiration for Diagon Alley",
@@ -585,7 +540,6 @@ export const edinburghTours: Tour[] = [
       "Learn about Edinburgh locations that inspired Hogwarts scenes",
       "Discover the connections between Scottish history and Harry Potter themes",
     ],
-
     inclusions: [
       "Potter-enthusiast guide in character costume",
       "Map of Potter-related Edinburgh locations",
@@ -593,7 +547,6 @@ export const edinburghTours: Tour[] = [
       "Chocolate 'wizard coin' for each participant",
       "Edinburgh-Hogwarts connection photo booklet",
     ],
-
     exclusions: [
       "Entry to cafés (optional stop after tour)",
       "Transportation to and from meeting point",
@@ -601,7 +554,6 @@ export const edinburghTours: Tour[] = [
       "Gratuities (optional)",
       "Hogwarts acceptance letter (sadly)",
     ],
-
     itinerary: [
       "10:00 - Meet outside The Elephant House for introduction to J.K. Rowling's Edinburgh",
       "10:15 - Visit Spoon café (formerly Nicolson's) where the first Potter novel was written",
@@ -612,7 +564,6 @@ export const edinburghTours: Tour[] = [
       "12:15 - Potter-themed quiz with prizes",
       "12:30 - Tour concludes with recommendations for Potter fans",
     ],
-
     faqs: [
       {
         question: "Do I need to be a Harry Potter expert to enjoy this tour?",
@@ -647,13 +598,11 @@ export const edinburghTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Food", "Culinary", "Scottish"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Edinburgh Farmers' Market, Castle Terrace, Edinburgh EH1 2EN",
       coordinates: {
@@ -665,7 +614,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 7890",
       contactEmail: "foodtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -679,7 +627,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Sample traditional Scottish dishes reimagined by local chefs",
       "Try award-winning Scottish seafood, cheese, and charcuterie",
@@ -687,7 +634,6 @@ export const edinburghTours: Tour[] = [
       "Visit specialty food shops and meet local producers",
       "Enjoy whisky and Scottish craft beer pairings with selected dishes",
     ],
-
     inclusions: [
       "Culinary expert guide",
       "Food tastings at 6 different establishments",
@@ -696,14 +642,12 @@ export const edinburghTours: Tour[] = [
       "Recipe booklet featuring Scottish classics",
       "Discount voucher for local food market",
     ],
-
     exclusions: [
       "Additional food and drinks beyond the tastings",
       "Transportation to and from meeting point",
       "Gratuities (optional)",
       "Personal shopping purchases",
     ],
-
     itinerary: [
       "11:00 - Meet at Edinburgh Farmers' Market for introduction and first tastings",
       "11:30 - Visit award-winning cheese shop with tasting and explanation",
@@ -714,7 +658,6 @@ export const edinburghTours: Tour[] = [
       "14:15 - Final stop at contemporary Scottish restaurant for innovative dessert",
       "14:30 - Tour concludes with recommendations for evening dining options",
     ],
-
     faqs: [
       {
         question: "Will we try haggis on this tour?",
@@ -745,13 +688,11 @@ export const edinburghTours: Tour[] = [
     price: "$30",
     rating: 4.6,
     tags: ["Ghost Tour", "Evening", "Spooky"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "nightlife",
-
     meetingPoint: {
       address: "Mercat Cross, High Street, Royal Mile, Edinburgh EH1 1RF",
       coordinates: {
@@ -763,7 +704,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 8901",
       contactEmail: "ghosttour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -789,7 +729,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Walk through Edinburgh's most haunted locations after dark",
       "Hear tales of infamous Edinburgh characters like Burke and Hare",
@@ -797,14 +736,12 @@ export const edinburghTours: Tour[] = [
       "Discover ghostly legends and documented supernatural occurrences",
       "Explore atmospheric closes (alleyways) and courtyards normally missed by visitors",
     ],
-
     inclusions: [
       "Professional storyteller guide in period costume",
       "Access to restricted closes normally closed to the public",
       "Spine-chilling tales mixing history and supernatural",
       "Small group size for intimate atmosphere (maximum 15 participants)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Food and drinks",
@@ -812,7 +749,6 @@ export const edinburghTours: Tour[] = [
       "Gratuities (optional)",
       "Guarantee of paranormal experiences (ghosts operate on their own schedule)",
     ],
-
     itinerary: [
       "20:00 - Meet at Mercat Cross for introduction to Edinburgh's dark history",
       "20:15 - Walk to former execution site with tales of public punishment",
@@ -824,7 +760,6 @@ export const edinburghTours: Tour[] = [
       "21:45 - Final ghost stories and legends at a notorious haunting site",
       "22:00 - Tour concludes near Royal Mile",
     ],
-
     faqs: [
       {
         question: "How scary is this tour?",
@@ -855,13 +790,11 @@ export const edinburghTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Royal", "Maritime", "Historical"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Ocean Terminal, Ocean Drive, Leith, Edinburgh EH6 6JJ",
       coordinates: {
@@ -873,7 +806,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 9012",
       contactEmail: "britannia@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -887,7 +819,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Guided tour of the Royal Yacht Britannia with royal anecdotes",
       "See the State Apartments where royalty entertained world leaders",
@@ -895,7 +826,6 @@ export const edinburghTours: Tour[] = [
       "Explore the gleaming Engine Room and crew's quarters",
       "Guided walk through Leith's revitalized waterfront with architecture commentary",
     ],
-
     inclusions: [
       "Priority entrance to Royal Yacht Britannia",
       "Expert guide with royal history knowledge",
@@ -904,14 +834,12 @@ export const edinburghTours: Tour[] = [
       "Tea or coffee at the Royal Deck Tea Room",
       "Waterfront architectural walking tour",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off (unless transport option selected)",
       "Additional food and beverages beyond included tea/coffee",
       "Gratuities (optional)",
       "Souvenir photographs (available for purchase onboard)",
     ],
-
     itinerary: [
       "10:00 - Meet at Ocean Terminal for introduction (or 09:30 at city center if transport option selected)",
       "10:15 - Priority boarding of Royal Yacht Britannia",
@@ -924,7 +852,6 @@ export const edinburghTours: Tour[] = [
       "13:30 - Explore Leith's maritime heritage sites",
       "14:00 - Tour concludes at The Shore area with restaurant recommendations",
     ],
-
     faqs: [
       {
         question: "What will we see on the Royal Yacht Britannia?",
@@ -955,13 +882,11 @@ export const edinburghTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Outlander", "Film Locations", "Day Trip"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Waverly Bridge Bus Stop, Edinburgh EH1 1BQ",
       coordinates: {
@@ -973,7 +898,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 0123",
       contactEmail: "outlander@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -987,7 +911,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Visit Doune Castle, which served as Castle Leoch in the series",
       "Explore Blackness Castle, used as Fort William's exterior",
@@ -995,7 +918,6 @@ export const edinburghTours: Tour[] = [
       "Discover the charming village of Culross that became Cranesmuir",
       "Learn behind-the-scenes stories and historical facts at each location",
     ],
-
     inclusions: [
       "Transportation in comfortable air-conditioned coach",
       "Professional driver and Outlander enthusiast guide",
@@ -1004,14 +926,12 @@ export const edinburghTours: Tour[] = [
       "Bottled water and Scottish shortbread",
       "Photo opportunities at key filming spots",
     ],
-
     exclusions: [
       "Lunch (stop made at location with food options)",
       "Gratuities (optional)",
       "Outlander merchandise (available for purchase at some locations)",
       "Hotel pickup and drop-off",
     ],
-
     itinerary: [
       "08:30 - Depart Edinburgh from Waverley Bridge",
       "09:30 - Arrive at Doune Castle (Castle Leoch) for guided tour",
@@ -1024,7 +944,6 @@ export const edinburghTours: Tour[] = [
       "17:30 - Return journey to Edinburgh",
       "18:30 - Arrive back in Edinburgh city center",
     ],
-
     faqs: [
       {
         question: "Do I need to have watched Outlander to enjoy this tour?",
@@ -1058,13 +977,11 @@ export const edinburghTours: Tour[] = [
     price: "$40",
     rating: 4.7,
     tags: ["Literary", "Pubs", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nightlife",
-
     meetingPoint: {
       address: "The Beehive Inn, 18 Grassmarket, Edinburgh EH1 2JU",
       coordinates: {
@@ -1076,7 +993,6 @@ export const edinburghTours: Tour[] = [
       contactNumber: "+44 131 555 1234",
       contactEmail: "litpubtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -1090,7 +1006,6 @@ export const edinburghTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Visit four historic Edinburgh pubs with literary connections",
       "Enjoy theatrical performances bringing famous Scottish writers to life",
@@ -1098,7 +1013,6 @@ export const edinburghTours: Tour[] = [
       "Hear amusing anecdotes about writers' lives, works and drinking habits",
       "Experience the contrast between Edinburgh's Old and New Towns",
     ],
-
     inclusions: [
       "Professional actor-guides in period costume",
       "Theatrical performances at each venue",
@@ -1106,14 +1020,12 @@ export const edinburghTours: Tour[] = [
       "Reserved areas in each pub",
       "Walking tour between venues",
     ],
-
     exclusions: [
       "Drinks (available for purchase at each pub)",
       "Food (available for purchase at some venues)",
       "Gratuities (optional)",
       "Hotel pickup and drop-off",
     ],
-
     itinerary: [
       "19:30 - Meet at The Beehive Inn for introduction and first performance",
       "19:45 - Learn about Robert Burns and Scottish literary traditions",
@@ -1125,7 +1037,6 @@ export const edinburghTours: Tour[] = [
       "21:50 - Literary quiz with small prize",
       "22:00 - Tour concludes with recommendations for further literary exploration",
     ],
-
     faqs: [
       {
         question: "Does this tour include drinks?",
@@ -1145,5 +1056,4 @@ export const edinburghTours: Tour[] = [
     ],
   },
 ];
-
 export default edinburghTours;

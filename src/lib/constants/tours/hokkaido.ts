@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const hokkaidoTours: Tour[] = [
   {
     title: "Sapporo Snow Festival & Winter Lights",
@@ -16,13 +15,11 @@ export const hokkaidoTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Winter", "Festival", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "festivals",
-
     meetingPoint: {
       address:
         "Sapporo TV Tower, Odori Park, Chuo Ward, Sapporo, Hokkaido 060-0042",
@@ -35,7 +32,6 @@ export const hokkaidoTours: Tour[] = [
       contactNumber: "+81 11-555-1234",
       contactEmail: "snowfestival@paragontrails.com",
     },
-
     availableDates: [
       "2024-02-01",
       "2024-02-02",
@@ -50,7 +46,6 @@ export const hokkaidoTours: Tour[] = [
       "2024-02-11",
       "2024-02-12",
     ],
-
     highlights: [
       "Experience special evening access to illuminated snow and ice sculptures",
       "Meet ice sculptors and learn about their techniques",
@@ -58,7 +53,6 @@ export const hokkaidoTours: Tour[] = [
       "Sample premium hot sake at traditional izakaya bars",
       "Receive insider tips on the best photo spots and viewing times",
     ],
-
     inclusions: [
       "Professional English-speaking guide",
       "Hot beverages throughout the tour",
@@ -68,7 +62,6 @@ export const hokkaidoTours: Tour[] = [
       "Commemorative Sapporo Snow Festival pin",
       "Post-tour izakaya recommendations",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and beverages beyond included tastings",
@@ -76,7 +69,6 @@ export const hokkaidoTours: Tour[] = [
       "Souvenir purchases",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "16:00 - Meet at Sapporo TV Tower entrance",
       "16:15 - Orientation and introduction to the Snow Festival history",
@@ -89,7 +81,6 @@ export const hokkaidoTours: Tour[] = [
       "20:45 - Final sake tasting and warm refreshments",
       "21:00 - Tour concludes with recommendations for late-night options",
     ],
-
     faqs: [
       {
         question: "When is the Sapporo Snow Festival held?",
@@ -123,13 +114,11 @@ export const hokkaidoTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Winter", "Night Tour", "Romantic"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "winter",
-
     meetingPoint: {
       address: "Otaru Station, 1-1-4 Inaho, Otaru, Hokkaido 047-0007",
       coordinates: {
@@ -141,7 +130,6 @@ export const hokkaidoTours: Tour[] = [
       contactNumber: "+81 11-555-2345",
       contactEmail: "otaru@paragontrails.com",
     },
-
     availableDates: [
       "2024-02-01",
       "2024-02-02",
@@ -156,7 +144,6 @@ export const hokkaidoTours: Tour[] = [
       "2024-02-11",
       "2024-02-12",
     ],
-
     highlights: [
       "Experience the magical atmosphere of hundreds of snow lanterns along Otaru Canal",
       "Create your own snow lantern to contribute to the festival",
@@ -164,7 +151,6 @@ export const hokkaidoTours: Tour[] = [
       "Observe glass artisans creating delicate snow-themed pieces",
       "Sample warming local sake and traditional winter treats",
     ],
-
     inclusions: [
       "Round-trip transportation from Sapporo (if option selected)",
       "Professional English-speaking guide",
@@ -174,7 +160,6 @@ export const hokkaidoTours: Tour[] = [
       "Glass studio demonstration",
       "Commemorative small glass ornament",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Dinner (optional add-on available)",
@@ -182,7 +167,6 @@ export const hokkaidoTours: Tour[] = [
       "Optional glass-making workshop (¥2,500 per person)",
       "Personal shopping purchases",
     ],
-
     itinerary: [
       "16:30 - Meet at Otaru Station (or depart from Sapporo if transportation option selected)",
       "16:45 - Orientation walk through historic Otaru district",
@@ -194,7 +178,6 @@ export const hokkaidoTours: Tour[] = [
       "20:15 - Warming sake and traditional snacks at canal-side shop",
       "20:45 - Return to Otaru Station (or transport to Sapporo if option selected)",
     ],
-
     faqs: [
       {
         question: "When is the Otaru Snow Light Path Festival?",
@@ -228,13 +211,11 @@ export const hokkaidoTours: Tour[] = [
     price: "$225",
     rating: 4.9,
     tags: ["Skiing", "Onsen", "Winter"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "winter",
-
     meetingPoint: {
       address:
         "Niseko Mountain Center, 204 Aza Yamada, Kutchan, Hokkaido 044-0081",
@@ -247,7 +228,6 @@ export const hokkaidoTours: Tour[] = [
       contactNumber: "+81 136-555-3456",
       contactEmail: "niseko@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -261,7 +241,6 @@ export const hokkaidoTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Experience Niseko's world-famous powder snow with expert guidance",
       "Access hidden ski runs and powder stashes unknown to most visitors",
@@ -269,7 +248,6 @@ export const hokkaidoTours: Tour[] = [
       "Enjoy premium sake tasting paired with seasonal mountain cuisine",
       "Receive professional skiing tips tailored to your ability level",
     ],
-
     inclusions: [
       "Professional ski guide/instructor (English-speaking)",
       "Full-day lift ticket for Niseko United resorts",
@@ -279,7 +257,6 @@ export const hokkaidoTours: Tour[] = [
       "Traditional Japanese lunch at mountain restaurant",
       "Photos of your ski experience (digital delivery)",
     ],
-
     exclusions: [
       "Ski/snowboard equipment rental (available as add-on)",
       "Transportation to/from Niseko",
@@ -287,7 +264,6 @@ export const hokkaidoTours: Tour[] = [
       "Optional travel insurance",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "08:00 - Meet at Niseko Mountain Center",
       "08:15 - Equipment fitting (if rental option selected)",
@@ -302,7 +278,6 @@ export const hokkaidoTours: Tour[] = [
       "18:00 - Premium sake tasting with light mountain cuisine",
       "19:00 - Tour concludes with return to Mountain Center",
     ],
-
     faqs: [
       {
         question: "What skiing ability level is required?",
@@ -336,13 +311,11 @@ export const hokkaidoTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Nature", "Wildlife", "UNESCO"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address:
         "Shiretoko Nature Center, 531 Iwaobetsu, Shari, Hokkaido 099-4356",
@@ -355,7 +328,6 @@ export const hokkaidoTours: Tour[] = [
       contactNumber: "+81 152-555-4567",
       contactEmail: "shiretoko@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -369,7 +341,6 @@ export const hokkaidoTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Explore the UNESCO World Heritage Shiretoko Peninsula with expert naturalist guides",
       "Opportunity to spot diverse wildlife including brown bears, deer, foxes and rare bird species",
@@ -377,7 +348,6 @@ export const hokkaidoTours: Tour[] = [
       "Witness seasonal drift ice formations (January-March) or lush summer forests",
       "Enjoy spectacular mountain-to-sea landscapes found nowhere else in Japan",
     ],
-
     inclusions: [
       "Professional naturalist guide with wildlife expertise",
       "Transportation within Shiretoko Peninsula",
@@ -387,7 +357,6 @@ export const hokkaidoTours: Tour[] = [
       "Hot drinks and trail snacks",
       "Wildlife guide booklet and checklist",
     ],
-
     exclusions: [
       "Transportation to/from Shiretoko",
       "Accommodation (overnight options available)",
@@ -396,7 +365,6 @@ export const hokkaidoTours: Tour[] = [
       "Personal travel insurance",
       "Souvenir purchases",
     ],
-
     itinerary: [
       "07:00 - Meet at Shiretoko Nature Center",
       "07:15 - Orientation and wildlife briefing",
@@ -410,7 +378,6 @@ export const hokkaidoTours: Tour[] = [
       "17:30 - Return to Nature Center with evening wildlife spotting en route",
       "18:00 - Tour concludes with summary and wildlife checklist review",
     ],
-
     faqs: [
       {
         question: "Will we definitely see bears and other wildlife?",
@@ -444,13 +411,11 @@ export const hokkaidoTours: Tour[] = [
     price: "$130",
     rating: 4.8,
     tags: ["Lavender", "Rural", "Photography"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nature",
-
     meetingPoint: {
       address: "Furano Station, 1 Asahimachi, Furano, Hokkaido 076-0022",
       coordinates: {
@@ -462,7 +427,6 @@ export const hokkaidoTours: Tour[] = [
       contactNumber: "+81 167-555-5678",
       contactEmail: "lavender@paragontrails.com",
     },
-
     availableDates: [
       "2024-06-15",
       "2024-06-22",
@@ -475,7 +439,6 @@ export const hokkaidoTours: Tour[] = [
       "2024-08-10",
       "2024-08-17",
     ],
-
     highlights: [
       "Visit multiple lavender farms including the famous Farm Tomita",
       "Photograph stunning landscapes of purple lavender fields against mountain backdrops",
@@ -483,7 +446,6 @@ export const hokkaidoTours: Tour[] = [
       "Participate in a lavender essential oil distillation workshop",
       "Enjoy farm-to-table cuisine featuring lavender-infused specialties",
     ],
-
     inclusions: [
       "Transportation between lavender fields and farms",
       "Professional English-speaking guide with botanical knowledge",
@@ -493,7 +455,6 @@ export const hokkaidoTours: Tour[] = [
       "Lavender soft-serve ice cream",
       "Take-home lavender products (oil and dried bouquet)",
     ],
-
     exclusions: [
       "Transportation to/from Furano",
       "Additional lavender products beyond included items",
@@ -501,7 +462,6 @@ export const hokkaidoTours: Tour[] = [
       "Professional photography services",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "09:30 - Meet at Furano Station",
       "10:00 - Arrive at Farm Tomita for guide through different lavender varieties",
@@ -515,7 +475,6 @@ export const hokkaidoTours: Tour[] = [
       "16:00 - Lavender soft-serve ice cream tasting",
       "16:30 - Return to Furano Station",
     ],
-
     faqs: [
       {
         question: "When is the best time to see the lavender in bloom?",
@@ -535,5 +494,4 @@ export const hokkaidoTours: Tour[] = [
     ],
   },
 ];
-
 export default hokkaidoTours;

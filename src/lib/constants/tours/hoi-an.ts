@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const hoiAnTours: Tour[] = [
   {
     title: "Ancient Town Walking & Lantern Making",
@@ -16,13 +15,11 @@ export const hoiAnTours: Tour[] = [
     price: "$40",
     rating: 4.9,
     tags: ["Cultural", "Craft", "UNESCO"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Hoi An Ancient Town Ticket Office, 47 Trần Phú Street, Hoi An",
       coordinates: {
@@ -34,7 +31,6 @@ export const hoiAnTours: Tour[] = [
       contactNumber: "+84 90 123 4567",
       contactEmail: "hoian@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -48,7 +44,6 @@ export const hoiAnTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Guided tour of Hoi An's UNESCO World Heritage Ancient Town",
       "Visit to an ancestral house preserved for over 200 years",
@@ -56,7 +51,6 @@ export const hoiAnTours: Tour[] = [
       "hands-on workshop creating your own traditional silk lantern",
       "Opportunity to release a floating candle lantern on the Thu Bon River",
     ],
-
     inclusions: [
       "Professional English-speaking guide",
       "Ancient Town entrance ticket and heritage sites admission",
@@ -66,14 +60,12 @@ export const hoiAnTours: Tour[] = [
       "Traditional Vietnamese tea during workshop",
       "Bottled water throughout tour",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and beverages",
       "Personal expenses and shopping",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "14:00 - Meet guide at Ancient Town Ticket Office",
       "14:15 - Guided walking tour of Hoi An Ancient Town",
@@ -86,7 +78,6 @@ export const hoiAnTours: Tour[] = [
       "18:30 - Walk to Thu Bon River to release floating candle lanterns",
       "19:00 - Tour concludes near riverfront restaurants",
     ],
-
     faqs: [
       {
         question: "Will I be able to take my handmade lantern home?",
@@ -120,13 +111,11 @@ export const hoiAnTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cycling", "Cooking", "Rural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Grasshopper Adventures, 441 Hai Bà Trưng, Hoi An",
       coordinates: {
@@ -138,7 +127,6 @@ export const hoiAnTours: Tour[] = [
       contactNumber: "+84 90 123 4568",
       contactEmail: "cooking@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -152,7 +140,6 @@ export const hoiAnTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Scenic bicycle ride through rice paddies and farming villages",
       "Visit to Tra Que organic vegetable village to harvest ingredients",
@@ -160,7 +147,6 @@ export const hoiAnTours: Tour[] = [
       "Hands-on cooking class with local chef preparing 4 Vietnamese dishes",
       "Feast on your own creations in a beautiful garden setting",
     ],
-
     inclusions: [
       "Professional English-speaking guide",
       "Quality mountain bike and helmet",
@@ -171,14 +157,12 @@ export const hoiAnTours: Tour[] = [
       "Recipe booklet to take home",
       "Bottled water and fresh tropical fruit refreshments",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Alcoholic beverages",
       "Personal expenses",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "08:30 - Meet at bike shop for fitting and safety briefing",
       "09:00 - Begin countryside bicycle tour through rice fields",
@@ -192,7 +176,6 @@ export const hoiAnTours: Tour[] = [
       "14:30 - Return bicycle ride through scenic route",
       "15:30 - Tour concludes at original meeting point",
     ],
-
     faqs: [
       {
         question: "How difficult is the bike ride?",
@@ -226,13 +209,11 @@ export const hoiAnTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Central Market, Trần Phú Street, Hoi An",
       coordinates: {
@@ -244,7 +225,6 @@ export const hoiAnTours: Tour[] = [
       contactNumber: "+84 90 123 4569",
       contactEmail: "streetfood@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -258,7 +238,6 @@ export const hoiAnTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Sample Hoi An's signature dish, cao lau, at a local favorite spot",
       "Try 'white rose' dumplings from the family that invented them",
@@ -266,7 +245,6 @@ export const hoiAnTours: Tour[] = [
       "Taste the 'best banh mi in Vietnam' made famous by Anthony Bourdain",
       "Experience authentic street food at venues few tourists discover",
     ],
-
     inclusions: [
       "Local food expert guide",
       "7-8 food tastings (sufficient for a full meal)",
@@ -275,14 +253,12 @@ export const hoiAnTours: Tour[] = [
       "Food map of Hoi An with recommendations",
       "Small group size (maximum 8 participants)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond included tastings",
       "Personal expenses",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "16:00 - Meet guide at Central Market entrance",
       "16:15 - Market tour with ingredient explanations and street snack tasting",
@@ -294,7 +270,6 @@ export const hoiAnTours: Tour[] = [
       "19:30 - Finish with traditional Vietnamese dessert and coffee",
       "20:00 - Tour concludes with additional dining recommendations",
     ],
-
     faqs: [
       {
         question: "What types of food will we try?",
@@ -328,13 +303,11 @@ export const hoiAnTours: Tour[] = [
     price: "$50",
     rating: 4.8,
     tags: ["Romantic", "Cultural", "Scenic"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Bach Dang Boat Dock, 10 Bach Dang Street, Hoi An",
       coordinates: {
@@ -346,7 +319,6 @@ export const hoiAnTours: Tour[] = [
       contactNumber: "+84 90 123 4570",
       contactEmail: "rivercruise@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -371,7 +343,6 @@ export const hoiAnTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Scenic boat cruise on the Thu Bon River at golden hour",
       "Live traditional Vietnamese music performance on board",
@@ -379,7 +350,6 @@ export const hoiAnTours: Tour[] = [
       "Opportunity to release floating lanterns for good fortune",
       "Spectacular sunset views over the river and coconut palm forests",
     ],
-
     inclusions: [
       "Traditional wooden boat cruise",
       "Live music performance",
@@ -388,14 +358,12 @@ export const hoiAnTours: Tour[] = [
       "One floating lantern per person",
       "English-speaking guide",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond those mentioned",
       "Personal expenses",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "16:30 - Meet at Bach Dang Boat Dock",
       "16:45 - Board traditional wooden boat and receive welcome drink",
@@ -407,7 +375,6 @@ export const hoiAnTours: Tour[] = [
       "18:45 - Return cruise with views of illuminated Ancient Town",
       "19:30 - Arrive back at dock and tour conclusion",
     ],
-
     faqs: [
       {
         question: "What should I bring on the cruise?",
@@ -427,5 +394,4 @@ export const hoiAnTours: Tour[] = [
     ],
   },
 ];
-
 export default hoiAnTours;

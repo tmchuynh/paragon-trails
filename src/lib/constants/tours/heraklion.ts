@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const heraklionTours: Tour[] = [
   {
     title: "Knossos Palace & Minoan Civilization",
@@ -16,13 +15,11 @@ export const heraklionTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Archaeology", "Ancient Civilization", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address:
         "Heraklion Archaeological Museum, 2 Xanthoudidou Street, Heraklion 71202",
@@ -35,7 +32,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4567",
       contactEmail: "knossos@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -49,7 +45,6 @@ export const heraklionTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Explore the legendary Palace of Knossos with an expert archaeologist guide",
       "Discover the sophisticated Minoan civilization that flourished 4,000 years ago",
@@ -57,7 +52,6 @@ export const heraklionTours: Tour[] = [
       "Learn about the myth of the Minotaur and the labyrinth",
       "Understand the controversies surrounding Arthur Evans' reconstruction work",
     ],
-
     inclusions: [
       "Professional archaeologist guide with advanced degree in Minoan studies",
       "Skip-the-line entrance tickets to Knossos Palace and Archaeological Museum",
@@ -66,14 +60,12 @@ export const heraklionTours: Tour[] = [
       "Bottled water throughout the tour",
       "Audio headsets to hear guide clearly",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Meals and beverages beyond water provided",
       "Personal expenses and souvenirs",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "09:00 - Meet at Heraklion Archaeological Museum",
       "09:15 - Guided tour of key Minoan exhibits at the museum",
@@ -85,7 +77,6 @@ export const heraklionTours: Tour[] = [
       "14:30 - Optional transfer back to Archaeological Museum or city center",
       "15:00 - Tour concludes",
     ],
-
     faqs: [
       {
         question: "What makes the Minoan civilization unique?",
@@ -119,13 +110,11 @@ export const heraklionTours: Tour[] = [
     price: "$135",
     rating: 4.8,
     tags: ["Wine", "Rural", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Lions Square (Eleftheriou Venizelou), Central Heraklion",
       coordinates: {
@@ -137,7 +126,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4568",
       contactEmail: "winetour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -151,7 +139,6 @@ export const heraklionTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Visit three distinctive wineries showcasing Crete's indigenous grape varieties",
       "Sample 12-15 different wines including rare local varieties like Vidiano and Liatiko",
@@ -159,7 +146,6 @@ export const heraklionTours: Tour[] = [
       "Enjoy farm-to-table lunch at a family taverna using locally-sourced ingredients",
       "Learn about Crete's 4,000-year winemaking tradition dating back to Minoan times",
     ],
-
     inclusions: [
       "Professional wine expert guide and driver",
       "Transportation in comfortable air-conditioned vehicle",
@@ -169,14 +155,12 @@ export const heraklionTours: Tour[] = [
       "Bottled water throughout the tour",
       "Wine appreciation guidebook and tasting notes",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional alcoholic beverages beyond included tastings",
       "Personal expenses and souvenirs",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "09:30 - Meet at Lions Square and depart Heraklion",
       "10:15 - First winery visit with tour of production facilities and vineyards",
@@ -190,7 +174,6 @@ export const heraklionTours: Tour[] = [
       "17:30 - Return journey to Heraklion",
       "18:30 - Drop-off at Lions Square",
     ],
-
     faqs: [
       {
         question: "What makes Cretan wines unique?",
@@ -225,13 +208,11 @@ export const heraklionTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "1866 Square, Central Market Entrance, Heraklion",
       coordinates: {
@@ -243,7 +224,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4569",
       contactEmail: "foodtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -257,7 +237,6 @@ export const heraklionTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Sample 8-10 authentic Cretan specialties from local vendors and eateries",
       "Explore the vibrant Central Market where locals shop for daily produce",
@@ -265,7 +244,6 @@ export const heraklionTours: Tour[] = [
       "Discover hidden food spots in Heraklion's charming old town",
       "Meet local food producers and learn their family recipes and techniques",
     ],
-
     inclusions: [
       "Food specialist guide with expert knowledge of Cretan cuisine",
       "8-10 food tastings (equivalent to a full meal)",
@@ -274,14 +252,12 @@ export const heraklionTours: Tour[] = [
       "Small-group experience (maximum 8 participants)",
       "Recipe booklet featuring dishes sampled on the tour",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond those included in tastings",
       "Personal purchases at markets",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "10:00 - Meet at Central Market entrance for introduction to Cretan cuisine",
       "10:15 - Explore the Central Market with tastings of local cheeses and olives",
@@ -293,7 +269,6 @@ export const heraklionTours: Tour[] = [
       "13:15 - Sweet treats including loukoumades (honey puffs) and galaktoboureko",
       "13:45 - Tour conclusion with recommendations for further culinary exploration",
     ],
-
     faqs: [
       {
         question: "How much food is included in this tour?",
@@ -327,13 +302,11 @@ export const heraklionTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Hiking", "Nature", "Adventure"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Heraklion Port, Gate 1, Heraklion",
       coordinates: {
@@ -345,7 +318,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4570",
       contactEmail: "samaria@paragontrails.com",
     },
-
     availableDates: [
       "2024-04-01",
       "2024-04-15",
@@ -367,7 +339,6 @@ export const heraklionTours: Tour[] = [
       "2024-10-14",
       "2024-10-21",
     ],
-
     highlights: [
       "Complete the legendary 16km trek through Europe's longest gorge",
       "Witness spectacular scenery with cliffs reaching 500m high",
@@ -375,7 +346,6 @@ export const heraklionTours: Tour[] = [
       "Pass through diverse ecosystems from pine forests to Mediterranean brush",
       "Finish your trek at the picturesque village of Agia Roumeli on the Libyan Sea",
     ],
-
     inclusions: [
       "Round-trip transportation from Heraklion (bus and ferry)",
       "Professional hiking guide",
@@ -385,7 +355,6 @@ export const heraklionTours: Tour[] = [
       "Ferry ticket from Agia Roumeli to Sougia",
       "Return bus transfer from Sougia to Heraklion",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Meals (lunch available for purchase in Agia Roumeli)",
@@ -393,7 +362,6 @@ export const heraklionTours: Tour[] = [
       "Personal hiking equipment (proper footwear, backpack, etc.)",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "06:00 - Meet at Heraklion Port for departure",
       "08:30 - Arrive at Xyloskalo (entrance of the gorge at 1,250m altitude)",
@@ -408,7 +376,6 @@ export const heraklionTours: Tour[] = [
       "18:30 - Bus departure from Sougia to Heraklion",
       "21:00 - Arrive back in Heraklion",
     ],
-
     faqs: [
       {
         question: "How difficult is the Samaria Gorge hike?",
@@ -442,13 +409,11 @@ export const heraklionTours: Tour[] = [
     price: "$120",
     rating: 4.6,
     tags: ["Boat Trip", "Snorkeling", "Nature"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-
     meetingPoint: {
       address: "Heraklion Marina, Harbor Gate 3, Heraklion",
       coordinates: {
@@ -460,7 +425,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4571",
       contactEmail: "diaisland@paragontrails.com",
     },
-
     availableDates: [
       "2024-04-15",
       "2024-04-22",
@@ -491,7 +455,6 @@ export const heraklionTours: Tour[] = [
       "2024-10-14",
       "2024-10-21",
     ],
-
     highlights: [
       "Sail to the protected island of Dia aboard a traditional wooden boat",
       "Snorkel in crystal-clear waters with exceptional visibility and marine life",
@@ -499,7 +462,6 @@ export const heraklionTours: Tour[] = [
       "Explore the remains of ancient Minoan port facilities",
       "Enjoy a freshly prepared seafood lunch with local wine on board",
     ],
-
     inclusions: [
       "Round-trip boat journey to Dia Island",
       "Professional captain and crew",
@@ -509,14 +471,12 @@ export const heraklionTours: Tour[] = [
       "Beach towels and water toys",
       "Information about Dia's history and ecosystem",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Premium alcoholic beverages",
       "Underwater camera (available for rent)",
       "Gratuities for captain and crew",
     ],
-
     itinerary: [
       "09:00 - Meet at Heraklion Marina for boarding",
       "09:15 - Safety briefing and departure toward Dia Island",
@@ -528,7 +488,6 @@ export const heraklionTours: Tour[] = [
       "15:00 - Begin return journey to Heraklion",
       "16:00 - Arrive back at Heraklion Marina",
     ],
-
     faqs: [
       {
         question: "What is special about Dia Island?",
@@ -562,13 +521,11 @@ export const heraklionTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Cooking", "Culinary", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Eleftheriou Venizelou Square, Archanes Village",
       coordinates: {
@@ -580,7 +537,6 @@ export const heraklionTours: Tour[] = [
       contactNumber: "+30 281 123 4572",
       contactEmail: "cooking@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-18",
       "2023-12-25",
@@ -594,7 +550,6 @@ export const heraklionTours: Tour[] = [
       "2024-02-19",
       "2024-02-26",
     ],
-
     highlights: [
       "Learn authentic Cretan cooking techniques from a local culinary expert",
       "Harvest ingredients from organic gardens (seasonal)",
@@ -602,7 +557,6 @@ export const heraklionTours: Tour[] = [
       "Discover the health secrets of the renowned Cretan diet",
       "Enjoy your creations with local wines at a traditional family table",
     ],
-
     inclusions: [
       "Professional local chef instructor",
       "All ingredients and cooking equipment",
@@ -611,13 +565,11 @@ export const heraklionTours: Tour[] = [
       "Full meal with wine and raki",
       "Transportation from Heraklion to Archanes village (if option selected)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off (unless transportation option selected)",
       "Additional alcoholic beverages beyond those included with meal",
       "Gratuities",
     ],
-
     itinerary: [
       "10:00 - Meet in Archanes village (or pickup from Heraklion if transportation option selected)",
       "10:15 - Introduction to Cretan cuisine and its health benefits",
@@ -628,7 +580,6 @@ export const heraklionTours: Tour[] = [
       "14:00 - Sit down to enjoy the complete meal you've prepared",
       "15:00 - Tour conclusion with recipes and cooking tips",
     ],
-
     faqs: [
       {
         question: "Do I need prior cooking experience?",
@@ -648,5 +599,4 @@ export const heraklionTours: Tour[] = [
     ],
   },
 ];
-
 export default heraklionTours;

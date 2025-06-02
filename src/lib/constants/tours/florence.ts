@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const florenceTours: Tour[] = [
   {
     title: "Renaissance Art & Architecture Masterpieces",
@@ -493,5 +492,4 @@ export const florenceTours: Tour[] = [
     },
   },
 ];
-
 export default florenceTours;

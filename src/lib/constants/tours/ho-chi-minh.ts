@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const hoChiMinhTours: Tour[] = [
   {
     title: "Cu Chi Tunnels & Vietnam War History",
@@ -16,13 +15,11 @@ export const hoChiMinhTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["History", "War", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Saigon Opera House, 7 Công Trường Lam Sơn, District 1, HCMC",
       coordinates: {
@@ -34,7 +31,6 @@ export const hoChiMinhTours: Tour[] = [
       contactNumber: "+84 28 1234 5678",
       contactEmail: "cuchi@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -48,7 +44,6 @@ export const hoChiMinhTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Explore the intricate Cu Chi Tunnel network used during the Vietnam War",
       "Learn about guerrilla warfare tactics and see booby traps up close",
@@ -56,7 +51,6 @@ export const hoChiMinhTours: Tour[] = [
       "Watch documentary film providing historical context",
       "Visit War Remnants Museum in Ho Chi Minh City",
     ],
-
     inclusions: [
       "Professional English-speaking historian guide",
       "Air-conditioned transportation to/from Cu Chi Tunnels",
@@ -65,7 +59,6 @@ export const hoChiMinhTours: Tour[] = [
       "Ammunition for shooting range (optional activity, extra cost)",
       "Sample of traditional tapioca eaten during wartime",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Lunch (available for purchase at local restaurant)",
@@ -73,7 +66,6 @@ export const hoChiMinhTours: Tour[] = [
       "Personal expenses and souvenirs",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "08:00 - Meet at Saigon Opera House",
       "08:15 - Departure for Cu Chi Tunnels (1.5 hour drive)",
@@ -87,7 +79,6 @@ export const hoChiMinhTours: Tour[] = [
       "14:30 - Visit War Remnants Museum",
       "15:30 - Tour concludes at War Remnants Museum",
     ],
-
     faqs: [
       {
         question: "Can we go inside the tunnels?",
@@ -121,13 +112,11 @@ export const hoChiMinhTours: Tour[] = [
     price: "$55",
     rating: 4.9,
     tags: ["Food", "Markets", "Local"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address:
         "Ben Thanh Market (front entrance), Le Loi Street, District 1, HCMC",
@@ -140,7 +129,6 @@ export const hoChiMinhTours: Tour[] = [
       contactNumber: "+84 28 1234 5679",
       contactEmail: "foodtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -154,7 +142,6 @@ export const hoChiMinhTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Sample 8-10 authentic Vietnamese dishes at local favorite spots",
       "Explore hidden alleyway eateries most tourists never find",
@@ -162,7 +149,6 @@ export const hoChiMinhTours: Tour[] = [
       "Learn about Vietnamese food culture and cooking techniques",
       "Experience Saigon's vibrant street life through its cuisine",
     ],
-
     inclusions: [
       "Local food expert guide",
       "8-10 food tastings (sufficient for a full meal)",
@@ -172,14 +158,12 @@ export const hoChiMinhTours: Tour[] = [
       "Small group size (maximum 8 participants)",
       "Food guide booklet with recommendations",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond included tastings",
       "Personal expenses",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "17:00 - Meet at Ben Thanh Market entrance",
       "17:15 - Market tour with ingredient explanations and first tasting",
@@ -191,7 +175,6 @@ export const hoChiMinhTours: Tour[] = [
       "20:30 - Final tasting of local street food specialty",
       "21:00 - Tour concludes with recommendations for continued exploration",
     ],
-
     faqs: [
       {
         question: "Is the food safe for foreigners?",
@@ -225,13 +208,11 @@ export const hoChiMinhTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Nature", "Culture", "Adventure"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "wellness",
-
     meetingPoint: {
       address: "Saigon Opera House, 7 Công Trường Lam Sơn, District 1, HCMC",
       coordinates: {
@@ -243,7 +224,6 @@ export const hoChiMinhTours: Tour[] = [
       contactNumber: "+84 28 1234 5680",
       contactEmail: "mekong@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -257,7 +237,6 @@ export const hoChiMinhTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Cruise along the mighty Mekong River and its narrow canals",
       "Visit traditional workshops producing coconut candy and honey products",
@@ -265,7 +244,6 @@ export const hoChiMinhTours: Tour[] = [
       "Experience travel by various boats including sampan rowing boats",
       "Learn about daily life in the fertile Mekong Delta region",
     ],
-
     inclusions: [
       "Professional English-speaking guide",
       "Air-conditioned transportation to/from the Mekong Delta",
@@ -275,7 +253,6 @@ export const hoChiMinhTours: Tour[] = [
       "Traditional Vietnamese lunch with Mekong specialties",
       "Bottled water throughout the day",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Alcoholic beverages",
@@ -283,7 +260,6 @@ export const hoChiMinhTours: Tour[] = [
       "Personal expenses and souvenirs",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "08:00 - Meet at Saigon Opera House",
       "08:15 - Departure for My Tho (2 hour drive)",
@@ -298,7 +274,6 @@ export const hoChiMinhTours: Tour[] = [
       "15:30 - Begin return journey to Ho Chi Minh City",
       "17:30 - Arrive back at Saigon Opera House",
     ],
-
     faqs: [
       {
         question: "What should I wear for the Mekong Delta tour?",
@@ -332,13 +307,11 @@ export const hoChiMinhTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Romantic", "Scenic", "Relaxation"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "romantic",
-
     meetingPoint: {
       address:
         "Saigon River Cruise Terminal, 5 Tôn Đức Thắng, District 1, HCMC",
@@ -351,7 +324,6 @@ export const hoChiMinhTours: Tour[] = [
       contactNumber: "+84 28 1234 5681",
       contactEmail: "rivercruise@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -376,7 +348,6 @@ export const hoChiMinhTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Scenic sunset views over the Saigon skyline from the river",
       "Pass by historic landmarks including Saigon Bridge and port areas",
@@ -384,7 +355,6 @@ export const hoChiMinhTours: Tour[] = [
       "Opportunity for stunning photography of the city at dusk",
       "Relaxing ambiance away from city crowds",
     ],
-
     inclusions: [
       "2-hour river cruise on comfortable boat",
       "Welcome drink (choice of wine, beer or soft drink)",
@@ -392,14 +362,12 @@ export const hoChiMinhTours: Tour[] = [
       "Live traditional music performance",
       "English-speaking guide providing commentary on sites passed",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and beverages beyond those mentioned",
       "Personal expenses",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "17:30 - Meet at Saigon River Cruise Terminal",
       "17:45 - Welcome aboard and safety briefing",
@@ -412,7 +380,6 @@ export const hoChiMinhTours: Tour[] = [
       "19:45 - Return journey with city lights view",
       "20:00 - Arrive at terminal and disembark",
     ],
-
     faqs: [
       {
         question: "Is dinner included in the cruise?",
@@ -432,5 +399,4 @@ export const hoChiMinhTours: Tour[] = [
     ],
   },
 ];
-
 export default hoChiMinhTours;

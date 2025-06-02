@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const fortKochiTours: Tour[] = [
   {
     title: "Colonial Heritage & Chinese Fishing Nets",
@@ -16,13 +15,11 @@ export const fortKochiTours: Tour[] = [
     price: "$45",
     rating: 4.8,
     tags: ["Historical", "Cultural", "Photography"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Santa Cruz Basilica, Fort Kochi",
       coordinates: {
@@ -34,7 +31,6 @@ export const fortKochiTours: Tour[] = [
       contactNumber: "+91 98765 43210",
       contactEmail: "fortkochiheritage@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-18",
@@ -48,7 +44,6 @@ export const fortKochiTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Visit the historic St. Francis Church, the oldest European church in India",
       "Explore Mattancherry Palace with its stunning murals and Dutch architecture",
@@ -56,7 +51,6 @@ export const fortKochiTours: Tour[] = [
       "Experience the iconic Chinese fishing nets at sunset",
       "Opportunity to help local fishermen operate the traditional fishing nets",
     ],
-
     inclusions: [
       "Professional English-speaking guide",
       "Entrance fees to all monuments",
@@ -65,14 +59,12 @@ export const fortKochiTours: Tour[] = [
       "Interactive demonstration with fishermen",
       "Photo opportunities at the Chinese fishing nets",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Personal expenses",
       "Tips and gratuities",
       "Additional food and drinks not specified",
     ],
-
     itinerary: [
       "14:00 - Meet at Santa Cruz Basilica for tour introduction",
       "14:15 - Visit St. Francis Church and learn about its Portuguese origins",
@@ -84,7 +76,6 @@ export const fortKochiTours: Tour[] = [
       "18:00 - Watch sunset over the Arabian Sea",
       "18:30 - Tour concludes at the fishing nets",
     ],
-
     faqs: [
       {
         question: "What makes the Chinese fishing nets unique?",
@@ -118,13 +109,11 @@ export const fortKochiTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Culinary", "Cooking", "Spices"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Kochi Spice Market, Market Road, Fort Kochi",
       coordinates: {
@@ -136,7 +125,6 @@ export const fortKochiTours: Tour[] = [
       contactNumber: "+91 98765 43211",
       contactEmail: "keralacuisine@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-14",
       "2023-12-21",
@@ -150,7 +138,6 @@ export const fortKochiTours: Tour[] = [
       "2024-02-15",
       "2024-02-22",
     ],
-
     highlights: [
       "Guided tour of Fort Kochi's historic spice markets",
       "Learn about Kerala's spice trade history and culinary influences",
@@ -158,7 +145,6 @@ export const fortKochiTours: Tour[] = [
       "Hands-on cooking class with a local family",
       "Prepare and enjoy an authentic multi-course Kerala meal",
     ],
-
     inclusions: [
       "Market tour with spice expert",
       "All cooking ingredients and materials",
@@ -167,14 +153,12 @@ export const fortKochiTours: Tour[] = [
       "Non-alcoholic beverages including fresh coconut water",
       "Spice samples to take home",
     ],
-
     exclusions: [
       "Transportation to and from the meeting point",
       "Alcoholic beverages",
       "Additional spice purchases beyond provided samples",
       "Personal cooking equipment",
     ],
-
     itinerary: [
       "10:00 - Meet at the spice market entrance for introductions",
       "10:15 - Guided tour of the spice market with tastings and explanations",
@@ -184,7 +168,6 @@ export const fortKochiTours: Tour[] = [
       "14:00 - Enjoy the meal you prepared with your hosts",
       "15:00 - Tour concludes with recipe sharing and spice samples",
     ],
-
     faqs: [
       {
         question: "What dishes will we learn to prepare?",
@@ -218,13 +201,11 @@ export const fortKochiTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["Arts", "Cultural", "Performance"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Kerala Kathakali Centre, KB Jacob Road, Fort Kochi",
       coordinates: {
@@ -236,7 +217,6 @@ export const fortKochiTours: Tour[] = [
       contactNumber: "+91 98765 43212",
       contactEmail: "kathakali@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -250,7 +230,6 @@ export const fortKochiTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Witness the elaborate makeup application process (takes up to 1.5 hours)",
       "Learn about the symbolism and meaning behind Kathakali facial expressions",
@@ -258,7 +237,6 @@ export const fortKochiTours: Tour[] = [
       "Enjoy a complete Kathakali performance with English narration",
       "Opportunity to meet performers after the show",
     ],
-
     inclusions: [
       "Reserved seating for makeup demonstration",
       "Premium seats for the performance",
@@ -267,14 +245,12 @@ export const fortKochiTours: Tour[] = [
       "Bottled water",
       "Post-show interaction with artists (subject to availability)",
     ],
-
     exclusions: [
       "Transportation to and from venue",
       "Professional photography (available at additional cost)",
       "Meals and additional beverages",
       "Personal souvenirs",
     ],
-
     itinerary: [
       "17:00 - Arrival at Kerala Kathakali Centre",
       "17:15 - Introduction to Kathakali history and significance",
@@ -284,7 +260,6 @@ export const fortKochiTours: Tour[] = [
       "19:00 - Main Kathakali performance begins",
       "20:00 - Performance concludes with opportunity to meet artists",
     ],
-
     faqs: [
       {
         question:
@@ -320,13 +295,11 @@ export const fortKochiTours: Tour[] = [
     price: "$40",
     rating: 4.8,
     tags: ["History", "Jewish Heritage", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Paradesi Synagogue entrance, Jew Town, Mattancherry, Fort Kochi",
@@ -339,7 +312,6 @@ export const fortKochiTours: Tour[] = [
       contactNumber: "+91 98765 43213",
       contactEmail: "jewishheritage@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -353,7 +325,6 @@ export const fortKochiTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Guided tour of the historic Paradesi Synagogue with its Belgian chandeliers and Chinese tiles",
       "Visit to the Jewish Cemetery dating back to the 18th century",
@@ -361,7 +332,6 @@ export const fortKochiTours: Tour[] = [
       "Learn about the 2000-year history of Jews in Kerala",
       "Meet remaining members of this ancient community (when available)",
     ],
-
     inclusions: [
       "Expert English-speaking guide specialized in Jewish history",
       "Entrance fees to all sites",
@@ -369,14 +339,12 @@ export const fortKochiTours: Tour[] = [
       "Bottled water",
       "Informational booklet on Kerala's Jewish heritage",
     ],
-
     exclusions: [
       "Transportation to and from meeting point",
       "Additional food and beverages",
       "Personal purchases in Jew Town shops",
       "Gratuities (recommended but optional)",
     ],
-
     itinerary: [
       "09:00 - Meet at Paradesi Synagogue entrance",
       "09:15 - Guided tour of the synagogue and its architectural elements",
@@ -387,7 +355,6 @@ export const fortKochiTours: Tour[] = [
       "12:15 - Continue exploration of Jewish heritage sites",
       "12:45 - Q&A session and concluding remarks at a historic viewpoint",
     ],
-
     faqs: [
       {
         question: "How old is the Jewish community in Kochi?",
@@ -407,5 +374,4 @@ export const fortKochiTours: Tour[] = [
     ],
   },
 ];
-
 export default fortKochiTours;

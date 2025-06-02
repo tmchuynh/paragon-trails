@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const helsinkiTours: Tour[] = [
   {
     title: "Finnish Sauna Journey & Ice Swimming",
@@ -16,7 +15,6 @@ export const helsinkiTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Sauna", "Wellness", "Traditional"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -122,7 +120,6 @@ export const helsinkiTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Design", "Architecture", "Shopping"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -156,7 +153,6 @@ export const helsinkiTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["History", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -195,7 +191,6 @@ export const helsinkiTours: Tour[] = [
     price: "$80",
     rating: 4.8,
     tags: ["Food", "Culture", "Local Cuisine"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -215,5 +210,4 @@ export const helsinkiTours: Tour[] = [
     ],
   },
 ];
-
 export default helsinkiTours;

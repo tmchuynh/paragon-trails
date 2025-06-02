@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const glasgowTours: Tour[] = [
   {
     title: "Glasgow Music Heritage & Secret Venues",
@@ -16,13 +15,11 @@ export const glasgowTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Music", "Nightlife", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "King Tut's Wah Wah Hut, 272a St Vincent Street, Glasgow G2 5RL",
       coordinates: {
@@ -34,7 +31,6 @@ export const glasgowTours: Tour[] = [
       contactNumber: "+44 141 555 1234",
       contactEmail: "musictrail@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -48,7 +44,6 @@ export const glasgowTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Visit legendary venues like Barrowland Ballroom and King Tut's where Oasis was discovered",
       "Explore hidden basement venues where local bands perform",
@@ -56,7 +51,6 @@ export const glasgowTours: Tour[] = [
       "Hear live acoustic performances by your musician guide",
       "Learn about Glasgow's influence on global music from punk to present day",
     ],
-
     inclusions: [
       "Professional musician guide",
       "Entry to all venues (subject to availability)",
@@ -65,7 +59,6 @@ export const glasgowTours: Tour[] = [
       "Glasgow music history booklet",
       "Drink at final venue",
     ],
-
     exclusions: [
       "Transportation to and from meeting point",
       "Additional food and drinks",
@@ -73,7 +66,6 @@ export const glasgowTours: Tour[] = [
       "Gratuities (optional)",
       "Personal expenses",
     ],
-
     itinerary: [
       "18:00 - Meet at King Tut's Wah Wah Hut for introduction to Glasgow's music scene",
       "18:30 - Visit to Barrowland Ballroom with stories of legendary performances",
@@ -84,7 +76,6 @@ export const glasgowTours: Tour[] = [
       "21:45 - Final drink and Q&A about Glasgow music at a local music venue",
       "22:00 - Tour concludes with recommendations for live music that night",
     ],
-
     faqs: [
       {
         question: "Will we hear live music during the tour?",
@@ -113,13 +104,11 @@ export const glasgowTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Architecture", "Design", "Art Nouveau"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "The Lighthouse, 11 Mitchell Lane, Glasgow G1 3NU",
       coordinates: {
@@ -131,7 +120,6 @@ export const glasgowTours: Tour[] = [
       contactNumber: "+44 141 555 2345",
       contactEmail: "mackintosh@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -145,7 +133,6 @@ export const glasgowTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Exclusive access to Mackintosh buildings including private areas",
       "Guided tour of the House for an Art Lover with design insights",
@@ -153,7 +140,6 @@ export const glasgowTours: Tour[] = [
       "Explore Mackintosh exhibits at The Lighthouse with panoramic city views",
       "See original Mackintosh furniture and design elements up close",
     ],
-
     inclusions: [
       "Expert architectural guide specialized in Mackintosh",
       "Entry to all Mackintosh buildings on the itinerary",
@@ -162,14 +148,12 @@ export const glasgowTours: Tour[] = [
       "Tea and scones at the Willow Tea Rooms",
       "Mackintosh design booklet to take home",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks",
       "Personal purchases at gift shops",
       "Gratuities (optional)",
     ],
-
     itinerary: [
       "10:00 - Meet at The Lighthouse for introduction to Mackintosh's work",
       "10:30 - Climb the Mackintosh Tower for Glasgow panorama",
@@ -181,7 +165,6 @@ export const glasgowTours: Tour[] = [
       "14:15 - Extensive tour of House for an Art Lover including private areas",
       "15:00 - Tour concludes at House for an Art Lover with time to explore gardens",
     ],
-
     faqs: [
       {
         question: "What makes Mackintosh's work so significant?",
@@ -210,13 +193,11 @@ export const glasgowTours: Tour[] = [
     price: "$50",
     rating: 4.7,
     tags: ["Art", "Culture", "Urban"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Gallery of Modern Art, Royal Exchange Square, Glasgow G1 3AH",
       coordinates: {
@@ -228,7 +209,6 @@ export const glasgowTours: Tour[] = [
       contactNumber: "+44 141 555 3456",
       contactEmail: "streetart@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -242,7 +222,6 @@ export const glasgowTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Explore the famous City Centre Mural Trail with insider knowledge",
       "Meet local street artists at work (when available)",
@@ -250,7 +229,6 @@ export const glasgowTours: Tour[] = [
       "Discover the stories and social messages behind major artworks",
       "Visit the Strathclyde University area with its concentration of urban art",
     ],
-
     inclusions: [
       "Local artist guide",
       "Street art map of Glasgow",
@@ -259,14 +237,12 @@ export const glasgowTours: Tour[] = [
       "Coffee or tea at a local street art café",
       "Discount coupon for local art supply store",
     ],
-
     exclusions: [
       "Transportation to and from meeting point",
       "Additional food and drinks",
       "Spray paint or materials for creating street art",
       "Gratuities (optional)",
     ],
-
     itinerary: [
       "14:00 - Meet at the Duke of Wellington statue for introduction to Glasgow's street art scene",
       "14:15 - Begin exploring the City Centre Mural Trail",
@@ -277,7 +253,6 @@ export const glasgowTours: Tour[] = [
       "16:45 - Discussion on street art techniques and preservation",
       "17:00 - Tour concludes with recommendations for further exploration",
     ],
-
     faqs: [
       {
         question: "Is this tour suitable for children?",
@@ -306,13 +281,11 @@ export const glasgowTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Food", "Culinary", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Buchanan Street Steps, Glasgow G1 2FF",
       coordinates: {
@@ -324,7 +297,6 @@ export const glasgowTours: Tour[] = [
       contactNumber: "+44 141 555 4567",
       contactEmail: "foodtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -338,7 +310,6 @@ export const glasgowTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Sample authentic Scottish cuisine from traditional to contemporary",
       "Visit local food markets and meet artisanal producers",
@@ -346,7 +317,6 @@ export const glasgowTours: Tour[] = [
       "Taste craft beers from Glasgow's thriving microbrewery scene",
       "Learn about the history of Scottish cuisine and its cultural significance",
     ],
-
     inclusions: [
       "Food tastings at 6-7 different establishments",
       "Three drink pairings (including craft beer)",
@@ -355,14 +325,12 @@ export const glasgowTours: Tour[] = [
       "Recipe cards for select Scottish dishes",
       "Discount vouchers for participating restaurants",
     ],
-
     exclusions: [
       "Transportation to and from meeting point",
       "Additional food and drinks beyond included tastings",
       "Gratuities (optional)",
       "Personal purchases",
     ],
-
     itinerary: [
       "12:00 - Meet at Buchanan Street Steps for introduction to Glasgow's food scene",
       "12:15 - Visit to traditional Scottish bakery for freshly baked treats",
@@ -373,7 +341,6 @@ export const glasgowTours: Tour[] = [
       "15:30 - Sweet treats at a specialty dessert café",
       "16:00 - Tour concludes with final food discussion and recommendations",
     ],
-
     faqs: [
       {
         question: "Are vegetarian or vegan options available?",
@@ -388,5 +355,4 @@ export const glasgowTours: Tour[] = [
     ],
   },
 ];
-
 export default glasgowTours;

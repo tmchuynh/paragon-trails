@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const fezTours: Tour[] = [
   {
     title: "Medieval Fez Medina Deep Dive",
@@ -16,13 +15,11 @@ export const fezTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Cultural", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Bab Boujloud (Blue Gate), Fez Medina",
       coordinates: {
@@ -34,7 +31,6 @@ export const fezTours: Tour[] = [
       contactNumber: "+212 612345678",
       contactEmail: "fezmedina@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -51,7 +47,6 @@ export const fezTours: Tour[] = [
       "2024-02-17",
       "2024-02-22",
     ],
-
     highlights: [
       "Explore the 9th-century Al-Qarawiyyin University, the world's oldest continuously operating educational institution",
       "Visit the iconic Chaouwara Tanneries where leather has been processed using medieval techniques for centuries",
@@ -59,7 +54,6 @@ export const fezTours: Tour[] = [
       "Experience authentic artisan workshops away from tourist routes",
       "Navigate the labyrinth of 9,500 streets and alleys with expert local knowledge",
     ],
-
     inclusions: [
       "Professional licensed guide specializing in Fez history",
       "Entrance fees to all monuments and historical sites",
@@ -68,14 +62,12 @@ export const fezTours: Tour[] = [
       "Bottled water throughout the tour",
       "Leather scent pouch for tannery visit",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Gratuities (recommended but at your discretion)",
       "Personal purchases from artisan workshops",
       "Additional food and beverages beyond those mentioned",
     ],
-
     itinerary: [
       "09:00 - Meet at Bab Boujloud (Blue Gate) for introduction",
       "09:15 - Walking tour through Talaa Kebira main street",
@@ -88,7 +80,6 @@ export const fezTours: Tour[] = [
       "15:00 - Explore the spice and textile markets with free time for shopping",
       "15:45 - Tour concludes with mint tea ceremony",
     ],
-
     faqs: [
       {
         question: "How difficult is navigating the medina?",
@@ -122,13 +113,11 @@ export const fezTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Cooking", "Food", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Café Clock, 7 Derb el Magana, Talaa Kbira, Fes Medina",
       coordinates: {
@@ -140,7 +129,6 @@ export const fezTours: Tour[] = [
       contactNumber: "+212 612345679",
       contactEmail: "fezcooking@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -157,7 +145,6 @@ export const fezTours: Tour[] = [
       "2024-02-18",
       "2024-02-23",
     ],
-
     highlights: [
       "Guided market tour with a local chef to select fresh, seasonal ingredients",
       "Learn the art of blending Moroccan spices and preserving lemons",
@@ -165,7 +152,6 @@ export const fezTours: Tour[] = [
       "Create delicate pastilla with layers of crisp pastry and savory filling",
       "Enjoy your prepared feast on a traditional riad terrace",
     ],
-
     inclusions: [
       "Market tour with ingredient selection guidance",
       "All cooking ingredients and equipment",
@@ -175,14 +161,12 @@ export const fezTours: Tour[] = [
       "Moroccan wine or non-alcoholic beverage options",
       "Mint tea and pastries",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional alcoholic beverages beyond those included",
       "Gratuities for chef and staff",
       "Personal cooking equipment to take home (available for purchase)",
     ],
-
     itinerary: [
       "10:00 - Meet at Café Clock for introductions and orientation",
       "10:15 - Guided tour of local markets to select ingredients",
@@ -194,7 +178,6 @@ export const fezTours: Tour[] = [
       "14:30 - Enjoy your prepared feast on the riad terrace with drinks",
       "15:30 - Recipe sharing and cooking tips, tour conclusion",
     ],
-
     faqs: [
       {
         question: "What dishes will we learn to cook?",
@@ -228,13 +211,11 @@ export const fezTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Crafts", "Artisans", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Artisanal Complex, Place Lalla Yeddouna, Fes Medina",
       coordinates: {
@@ -246,7 +227,6 @@ export const fezTours: Tour[] = [
       contactNumber: "+212 612345680",
       contactEmail: "fezartisans@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-14",
       "2023-12-19",
@@ -263,7 +243,6 @@ export const fezTours: Tour[] = [
       "2024-02-19",
       "2024-02-24",
     ],
-
     highlights: [
       "Meet master craftspeople with decades of experience in traditional arts",
       "Learn about zellige mosaic creation with hands-on tile chipping opportunity",
@@ -271,7 +250,6 @@ export const fezTours: Tour[] = [
       "Observe intricate wood carving techniques using cedar wood",
       "Experience textile weaving on traditional looms",
     ],
-
     inclusions: [
       "Expert craft guide with artisan connections",
       "All workshop entrance fees",
@@ -280,14 +258,12 @@ export const fezTours: Tour[] = [
       "Bottled water throughout the tour",
       "Traditional Moroccan tea and snack",
     ],
-
     exclusions: [
       "Transportation to and from meeting point",
       "Additional purchases from artisan workshops",
       "Lunch (optional stop available at local restaurant)",
       "Gratuities for artisans and guide",
     ],
-
     itinerary: [
       "14:00 - Meet at the Artisanal Complex for introductions",
       "14:15 - Visit zellige mosaic workshop with demonstration",
@@ -298,7 +274,6 @@ export const fezTours: Tour[] = [
       "17:45 - Tea break with artisans and Q&A session",
       "18:00 - Tour conclusion with souvenir presentation",
     ],
-
     faqs: [
       {
         question: "What can we expect from the artisan workshops?",
@@ -332,13 +307,11 @@ export const fezTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Nature", "Cultural", "Rural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Ibis Hotel Fez, Avenue des Almohades, Fez",
       coordinates: {
@@ -350,7 +323,6 @@ export const fezTours: Tour[] = [
       contactNumber: "+212 612345681",
       contactEmail: "atlastour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-20",
@@ -367,7 +339,6 @@ export const fezTours: Tour[] = [
       "2024-02-20",
       "2024-02-25",
     ],
-
     highlights: [
       "Explore the cedar forests of Ifrane National Park and spot Barbary macaques",
       "Visit the 'Switzerland of Morocco' - Ifrane with its Alpine architecture",
@@ -375,7 +346,6 @@ export const fezTours: Tour[] = [
       "Enjoy home-cooked traditional meal with local family",
       "Learn about rural Moroccan culture and agricultural practices",
     ],
-
     inclusions: [
       "Transportation in comfortable air-conditioned vehicle",
       "Professional driver and English-speaking guide",
@@ -385,14 +355,12 @@ export const fezTours: Tour[] = [
       "Bottled water throughout the day",
       "All entrance fees to natural sites",
     ],
-
     exclusions: [
       "Personal purchases and souvenirs",
       "Additional food and drinks beyond those mentioned",
       "Optional activities like donkey rides (available at extra cost)",
       "Gratuities for guide and driver",
     ],
-
     itinerary: [
       "08:00 - Departure from Fez in air-conditioned vehicle",
       "09:15 - Arrive in Ifrane (Morocco's 'Little Switzerland') for walking tour",
@@ -406,7 +374,6 @@ export const fezTours: Tour[] = [
       "16:00 - Begin return journey with scenic stops",
       "17:30 - Arrive back in Fez",
     ],
-
     faqs: [
       {
         question: "What should we wear for this tour?",
@@ -440,13 +407,11 @@ export const fezTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Evening", "Cultural", "Dining"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nightlife",
-
     meetingPoint: {
       address: "Palais Faraj Suites & Spa, Derb El Miter, Fez Medina",
       coordinates: {
@@ -458,7 +423,6 @@ export const fezTours: Tour[] = [
       contactNumber: "+212 612345682",
       contactEmail: "feznight@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -472,7 +436,6 @@ export const fezTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Experience Fez medina's enchanting atmosphere after dark",
       "See historic monuments beautifully illuminated at night",
@@ -480,7 +443,6 @@ export const fezTours: Tour[] = [
       "Listen to live traditional Andalusian music performance",
       "Panoramic night views from strategic viewpoints",
     ],
-
     inclusions: [
       "Evening guided walking tour of illuminated monuments",
       "Traditional Moroccan dinner with multiple courses",
@@ -489,14 +451,12 @@ export const fezTours: Tour[] = [
       "Return transportation to major hotels",
       "Professional English-speaking guide",
     ],
-
     exclusions: [
       "Alcoholic beverages (available for purchase)",
       "Gratuities for performers and restaurant staff",
       "Personal purchases and souvenirs",
       "Photography services (available at extra cost)",
     ],
-
     itinerary: [
       "19:00 - Meet at Palais Faraj for introductions",
       "19:15 - Evening walk to panoramic viewpoint to see Fez at sunset",
@@ -507,7 +467,6 @@ export const fezTours: Tour[] = [
       "22:30 - Mint tea and pastries served",
       "23:00 - Tour concludes with return transportation to main hotels",
     ],
-
     faqs: [
       {
         question: "What does the evening tour include?",
@@ -527,5 +486,4 @@ export const fezTours: Tour[] = [
     ],
   },
 ];
-
 export default fezTours;

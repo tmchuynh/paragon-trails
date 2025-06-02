@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const dubaiTours: Tour[] = [
   {
     title: "Desert Safari & Traditional Bedouin Experience",
@@ -16,7 +15,6 @@ export const dubaiTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Desert", "Adventure", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -152,7 +150,6 @@ export const dubaiTours: Tour[] = [
     price: "$120",
     rating: 4.7,
     tags: ["Architecture", "Modern", "Sightseeing"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -278,7 +275,6 @@ export const dubaiTours: Tour[] = [
     price: "$55",
     rating: 4.6,
     tags: ["Historical", "Cultural", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -402,7 +398,6 @@ export const dubaiTours: Tour[] = [
     price: "$180",
     rating: 4.9,
     tags: ["Luxury", "Cruise", "Sightseeing"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -530,7 +525,6 @@ export const dubaiTours: Tour[] = [
     price: "$90",
     rating: 4.9,
     tags: ["Food", "Cultural", "Local"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -653,7 +647,6 @@ export const dubaiTours: Tour[] = [
     price: "$250",
     rating: 4.8,
     tags: ["Aerial", "Photography", "Luxury"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -780,7 +773,6 @@ export const dubaiTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Conservation", "Education", "Nature"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -893,5 +885,4 @@ export const dubaiTours: Tour[] = [
     ],
   },
 ];
-
 export default dubaiTours;
