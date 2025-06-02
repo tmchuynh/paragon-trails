@@ -8,6 +8,7 @@ const imageHosts = [
   "rainn.org",
   "media.istockphoto.com",
   "cdn.pixabay.com",
+  "lh3.googleusercontent.com",
 ];
 
 const nextConfig: NextConfig = {
