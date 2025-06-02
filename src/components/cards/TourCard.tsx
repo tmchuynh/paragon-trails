@@ -7,7 +7,9 @@ import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useContext, useState } from "react";
 import { IoMdInformationCircle } from "react-icons/io";
+import { toast } from "sonner";
 
 import {
   Sheet,
@@ -17,6 +19,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import CartContext from "@/context/cartContext";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export default function TourCard({
@@ -31,6 +34,35 @@ export default function TourCard({
   country: string;
 }) {
   const router = useRouter();
+  const cartContext = useContext(CartContext);
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
+
+  const handleAddToCart = () => {
+    if (!cartContext) return;
+
+    setIsAddingToCart(true);
+
+    // Create unique ID using title and random number to ensure uniqueness
+    const tourItem = {
+      id: `${formatToSlug(tour.title)}-${Math.random()
+        .toString(36)
+        .substr(2, 9)}`,
+      title: tour.title,
+      price: parseFloat(tour.price.replace(/[^0-9.]/g, "")),
+      image: tour.images[0],
+      duration: tour.duration,
+      category: tour.tourCategoryId,
+      city,
+      country,
+      tourGuide:
+        tourGuides && tourGuides.length > 0 ? tourGuides[0].name : null,
+    };
+
+    cartContext.addToCart(tourItem);
+    toast.success(`${tour.title} added to cart!`);
+    setIsAddingToCart(false);
+  };
+
   return (
     <div className="bg-card shadow-lg hover:shadow-xl border border-border rounded-lg h-full transition-shadow overflow-hidden">
       <div className="flex flex-col justify-between h-full">
@@ -190,14 +222,11 @@ export default function TourCard({
                   </section>
                 </div>
                 <Button
-                  onClick={() =>
-                    router.push(
-                      "/book-your-trip-today?tour=" + formatToSlug(tour.title)
-                    )
-                  }
+                  onClick={handleAddToCart}
+                  disabled={isAddingToCart}
                   className="mx-auto mt-4 w-12/14"
                 >
-                  Add to Cart
+                  {isAddingToCart ? "Adding..." : "Add to Cart"}
                 </Button>
               </SheetContent>
             </Sheet>
