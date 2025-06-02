@@ -5,6 +5,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Surfing Lessons at Playa Zicatela",
     description:
       "Join a professional instructor for a thrilling surfing lesson at one of Mexico's most famous surf beaches, Playa Zicatela.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/surfing-lessons.jpg",
       "/images/tours/puerto-escondido/zicatela-beach.jpg",
@@ -36,6 +39,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Laguna de Manialtepec Bioluminescence Tour",
     description:
       "Experience the magical bioluminescence of Laguna de Manialtepec on a guided night kayak tour.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/bioluminescence-tour.jpg",
       "/images/tours/puerto-escondido/kayaking.jpg",
@@ -55,6 +61,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Cultural Tour of Puerto Escondido Markets",
     description:
       "Explore the vibrant local markets of Puerto Escondido with a local guide, tasting traditional foods and learning about local crafts.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/cultural-tour.jpg",
       "/images/tours/puerto-escondido/local-markets.jpg",
@@ -85,6 +94,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Whale Watching Tour",
     description:
       "Embark on an unforgettable whale watching tour to see humpback whales in their natural habitat during the migration season.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/whale-watching.jpg",
       "/images/tours/puerto-escondido/humpback-whale.jpg",
@@ -115,6 +127,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Yoga Retreat at Playa Carrizalillo",
     description:
       "Join a rejuvenating yoga retreat at the serene Playa Carrizalillo, perfect for relaxation and mindfulness.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/yoga-retreat.jpg",
       "/images/tours/puerto-escondido/carrizalillo-beach.jpg",
@@ -145,6 +160,9 @@ export const puertoEscondidoTours: Tour[] = [
     title: "Fishing Charter in Puerto Escondido",
     description:
       "Experience deep-sea fishing with a local captain, targeting species like marlin, tuna, and dorado in the Pacific waters.",
+    city: "Puerto Escondido",
+    country: "Mexico",
+    region: "Oaxaca",
     images: [
       "/images/tours/puerto-escondido/fishing-charter.jpg",
       "/images/tours/puerto-escondido/deep-sea-fishing.jpg",

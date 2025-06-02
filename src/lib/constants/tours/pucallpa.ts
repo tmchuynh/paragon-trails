@@ -5,6 +5,9 @@ export const pucallpaTours: Tour[] = [
     title: "Amazon River Cruise & Jungle Adventure",
     description:
       "Embark on a 3-day Amazon river cruise, exploring the lush rainforest, wildlife, and indigenous cultures with expert guides.",
+    city: "Pucallpa",
+    country: "Peru",
+    region: "Ucayali",
     images: [
       "/images/tours/pucallpa/amazon-cruise.jpg",
       "/images/tours/pucallpa/jungle-adventure.jpg",
@@ -72,6 +75,9 @@ export const pucallpaTours: Tour[] = [
     title: "Pucallpa City & Cultural Tour",
     description:
       "Discover the vibrant culture of Pucallpa with visits to local markets, museums, and traditional communities.",
+    city: "Pucallpa",
+    country: "Peru",
+    region: "Ucayali",
     images: [
       "/images/tours/pucallpa/cultural-tour.jpg",
       "/images/tours/pucallpa/local-markets.jpg",
@@ -138,6 +144,9 @@ export const pucallpaTours: Tour[] = [
     title: "Yarinacocha Lake & Wildlife Safari",
     description:
       "Experience the beauty of Yarinacocha Lake with a guided boat tour, spotting exotic wildlife and visiting local communities.",
+    city: "Pucallpa",
+    country: "Peru",
+    region: "Ucayali",
     images: [
       "/images/tours/pucallpa/yarinacocha-lake.jpg",
       "/images/tours/pucallpa/wildlife-safari.jpg",
@@ -204,6 +213,9 @@ export const pucallpaTours: Tour[] = [
     title: "Pucallpa Night Market & Street Food Tour",
     description:
       "Experience the vibrant nightlife of Pucallpa with a guided tour of the night market, tasting local street food and enjoying live music.",
+    city: "Pucallpa",
+    country: "Peru",
+    region: "Ucayali",
     images: [
       "/images/tours/pucallpa/night-market.jpg",
       "/images/tours/pucallpa/street-food.jpg",

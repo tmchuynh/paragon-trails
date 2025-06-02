@@ -2,66 +2,70 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const piraeusTours: Tour[] = [
   {
-    title: "Ancient Port of Athens Discovery",
+    title: "Ancient Port & Maritime History Tour",
     description:
-      "Explore the historic harbor of Piraeus that has served as Athens' maritime gateway for over 2,500 years, visiting archaeological sites, maritime museums, and learning about ancient naval technology.",
+      "Discover the rich maritime history of Piraeus, one of the oldest and most important ports in the Mediterranean, with a guided tour of its archaeological sites, maritime museum, and ancient harbor structures.",
+    city: "Piraeus",
+    country: "Greece",
+    region: "Attica",
     images: [
+      "/images/tours/piraeus/maritime-museum.jpg",
       "/images/tours/piraeus/ancient-harbor.jpg",
-      "/images/tours/piraeus/archaeological-museum.jpg",
     ],
     duration: "4 hours",
     price: "$65",
     rating: 4.7,
-    tags: ["History", "Maritime", "Archaeology"],
+    tags: ["Historical", "Maritime", "Archaeological"],
 
     isHistorical: true,
     isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
     tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "What archaeological sites will we visit?",
-        answer:
-          "The tour includes the ancient Zea Harbor with its ship sheds where the Athenian triremes were housed, the archaeological site of the Piraeus Theater, and the foundations of the ancient city walls built during the time of Themistocles.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Absolutely! This tour engages younger visitors with interactive elements like ancient shipbuilding models and stories of naval battles. The walking distances are moderate with plenty of stops.",
-      },
-    ],
   },
   {
-    title: "Seaside Culinary Journey & Fish Market",
+    title: "Island Hopping Day Trip: Hydra, Poros & Aegina",
     description:
-      "Experience the authentic flavors of Greece's largest port city with a visit to the bustling fish market, traditional tavernas, and waterfront eateries serving the freshest seafood prepared according to generations-old recipes.",
+      "Embark on a classic Greek island adventure aboard a comfortable cruise ship to visit three enchanting islands in the Saronic Gulf - cosmopolitan Hydra, pine-covered Poros, and historic Aegina.",
+    city: "Piraeus",
+    country: "Greece",
+    region: "Attica",
     images: [
-      "/images/tours/piraeus/fish-market.jpg",
-      "/images/tours/piraeus/seaside-taverna.jpg",
+      "/images/tours/piraeus/hydra-island.jpg",
+      "/images/tours/piraeus/aegina-temple.jpg",
     ],
-    duration: "5 hours",
-    price: "$85",
+    duration: "10 hours",
+    price: "$120",
+    rating: 4.9,
+    tags: ["Islands", "Cruise", "Swimming"],
+
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "adventure",
+  },
+  {
+    title: "Piraeus Food & Market Experience",
+    description:
+      "Explore the vibrant local markets of Piraeus with a culinary expert, sampling traditional Greek delicacies, meeting local vendors, and learning about the importance of fresh seafood in Greek cuisine.",
+    city: "Piraeus",
+    country: "Greece",
+    region: "Attica",
+    images: [
+      "/images/tours/piraeus/local-market.jpg",
+      "/images/tours/piraeus/greek-seafood.jpg",
+    ],
+    duration: "3 hours",
+    price: "$55",
     rating: 4.8,
     tags: ["Food", "Market", "Seafood"],
 
     isHistorical: false,
-    isRomantic: true,
+    isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What local dishes will we taste?",
-        answer:
-          "You'll sample traditional Greek seafood dishes like fresh grilled fish, octopus carpaccio, steamed mussels with ouzo, fish soup made from the day's catch, and various mezedes (small plates) that highlight local ingredients and cooking methods.",
-      },
-      {
-        question: "When is the best time to visit the fish market?",
-        answer:
-          "The Piraeus fish market is most active in the early morning hours (6-9 AM) when fishermen bring in their fresh catch and restaurant owners come to select the best seafood. Our tour visits during this lively period to experience the authentic atmosphere and negotiations.",
-      },
-    ],
   },
 ];
 

@@ -5,6 +5,9 @@ export const quitoTours: Tour[] = [
     title: "Historical Quito City Tour",
     description:
       "Explore the rich history and architecture of Quito, a UNESCO World Heritage site, with a guided tour of its colonial center.",
+    city: "Quito",
+    country: "Ecuador",
+    region: "Pichincha Province",
     images: [
       "/images/tours/quito/historical-quito.jpg",
       "/images/tours/quito/colonial-center.jpg",
@@ -31,6 +34,9 @@ export const quitoTours: Tour[] = [
     title: "Cotopaxi Volcano Day Trip",
     description:
       "Experience the breathtaking views of Cotopaxi Volcano with a guided hike and visit to the national park.",
+    city: "Quito",
+    country: "Ecuador",
+    region: "Pichincha Province",
     images: [
       "/images/tours/quito/cotopaxi-volcano.jpg",
       "/images/tours/quito/national-park.jpg",
@@ -50,6 +56,9 @@ export const quitoTours: Tour[] = [
     title: "Mitad del Mundo Tour",
     description:
       "Visit the famous Mitad del Mundo monument and learn about the equatorial line's significance in science and culture.",
+    city: "Quito",
+    country: "Ecuador",
+    region: "Pichincha Province",
     images: [
       "/images/tours/quito/mitad-del-mundo.jpg",
       "/images/tours/quito/equator-line.jpg",
@@ -66,3 +75,5 @@ export const quitoTours: Tour[] = [
     tourCategoryId: "cultural",
   },
 ];
+
+export default quitoTours;

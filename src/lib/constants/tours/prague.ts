@@ -102,7 +102,7 @@ export const pragueTours: Tour[] = [
       "/images/tours/prague/jewish-quarter.jpg",
       "/images/tours/prague/old-jewish-cemetery.jpg",
     ],
-    duration: "2.5 hours",
+    duration: "3 hours",
     price: "$50",
     rating: 4.9,
     tags: ["History", "Culture", "Jewish Heritage"],

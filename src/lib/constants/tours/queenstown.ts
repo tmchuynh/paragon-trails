@@ -5,6 +5,9 @@ export const queenstownTours: Tour[] = [
     title: "Milford Sound Day Trip",
     description:
       "Experience the breathtaking beauty of Milford Sound with a scenic cruise through fjords, waterfalls, and towering cliffs.",
+    city: "Queenstown",
+    country: "New Zealand",
+    region: "Otago",
     images: [
       "/images/tours/queenstown/milford-sound.jpg",
       "/images/tours/queenstown/fjord-cruise.jpg",
@@ -36,6 +39,9 @@ export const queenstownTours: Tour[] = [
     title: "Skydiving Over Queenstown",
     description:
       "Experience the thrill of freefalling over Queenstown's stunning landscapes with a tandem skydive.",
+    city: "Queenstown",
+    country: "New Zealand",
+    region: "Otago",
     images: [
       "/images/tours/queenstown/skydiving.jpg",
       "/images/tours/queenstown/aerial-view.jpg",
@@ -55,6 +61,9 @@ export const queenstownTours: Tour[] = [
     title: "Wine Tasting Tour in Gibbston Valley",
     description:
       "Explore the renowned wineries of Gibbston Valley with guided tastings and vineyard tours.",
+    city: "Queenstown",
+    country: "New Zealand",
+    region: "Otago",
     images: [
       "/images/tours/queenstown/wine-tasting.jpg",
       "/images/tours/queenstown/gibbston-valley.jpg",
@@ -86,6 +95,9 @@ export const queenstownTours: Tour[] = [
     title: "Queenstown Jet Boat Adventure",
     description:
       "Feel the adrenaline rush on a high-speed jet boat ride through the Shotover River canyons.",
+    city: "Queenstown",
+    country: "New Zealand",
+    region: "Otago",
     images: [
       "/images/tours/queenstown/jet-boat.jpg",
       "/images/tours/queenstown/shotover-river.jpg",
@@ -117,6 +129,9 @@ export const queenstownTours: Tour[] = [
     title: "Queenstown Scenic Gondola Ride",
     description:
       "Take a scenic gondola ride to Bob's Peak for panoramic views of Queenstown and Lake Wakatipu.",
+    city: "Queenstown",
+    country: "New Zealand",
+    region: "Otago",
     images: [
       "/images/tours/queenstown/gondola-ride.jpg",
       "/images/tours/queenstown/bobs-peak.jpg",
@@ -145,3 +160,5 @@ export const queenstownTours: Tour[] = [
     ],
   },
 ];
+
+export default queenstownTours;
