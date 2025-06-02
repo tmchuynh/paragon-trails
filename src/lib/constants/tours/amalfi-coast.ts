@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const amalfiCoastTours: Tour[] = [
   {
     title: "Positano & Path of the Gods Hike",
@@ -1396,5 +1395,4 @@ export const amalfiCoastTours: Tour[] = [
       "Full refund if canceled 7 days in advance. 50% refund if canceled 3-6 days in advance. No refund for cancellations less than 3 days before the scheduled activity.",
   },
 ];
-
 export default amalfiCoastTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const anchorageTours: Tour[] = [
   {
     title: "Wildlife & Glacier Flight Safari",
@@ -13,7 +12,6 @@ export const anchorageTours: Tour[] = [
     price: "$495",
     rating: 5.0,
     tags: ["Flightseeing", "Glacier"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -121,7 +119,6 @@ export const anchorageTours: Tour[] = [
     price: "$235",
     rating: 4.9,
     tags: ["Foraging", "Cooking", "Wilderness"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -230,7 +227,6 @@ export const anchorageTours: Tour[] = [
     price: "$275",
     rating: 4.8,
     tags: ["Northern Lights", "Photography", "Night Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -340,7 +336,6 @@ export const anchorageTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["History", "Walking Tour", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -448,7 +443,6 @@ export const anchorageTours: Tour[] = [
     price: "$325",
     rating: 4.9,
     tags: ["Dog Sledding", "Winter", "Adventure"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -556,7 +550,6 @@ export const anchorageTours: Tour[] = [
     price: "$375",
     rating: 4.9,
     tags: ["Denali", "National Park", "Wildlife"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -663,7 +656,6 @@ export const anchorageTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Indigenous Culture", "Art", "Education"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -774,7 +766,6 @@ export const anchorageTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Ice Fishing", "Winter", "Family Fun"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -878,7 +869,6 @@ export const anchorageTours: Tour[] = [
     price: "$895",
     rating: 5.0,
     tags: ["Luxury", "Spa", "Wilderness"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -971,5 +961,4 @@ export const anchorageTours: Tour[] = [
     ],
   },
 ];
-
 export default anchorageTours;

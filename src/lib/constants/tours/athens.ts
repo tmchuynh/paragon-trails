@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const athensTours: Tour[] = [
   {
     title: "Acropolis & Ancient Athens Private Experience",
@@ -16,7 +15,6 @@ export const athensTours: Tour[] = [
     price: "$155",
     rating: 4.9,
     tags: ["Ancient Greece", "Archaeology", "Early Access"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -132,7 +130,6 @@ export const athensTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Cooking", "Food", "Market"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -245,7 +242,6 @@ export const athensTours: Tour[] = [
     price: "$135",
     rating: 4.9,
     tags: ["Sunset", "Ancient Temple", "Seaside"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -359,7 +355,6 @@ export const athensTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Local Life", "Hidden Gems", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -474,7 +469,6 @@ export const athensTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Photography", "Landmarks", "Urban"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -588,7 +582,6 @@ export const athensTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Wine", "Tasting", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -700,7 +693,6 @@ export const athensTours: Tour[] = [
     price: "$70",
     rating: 4.8,
     tags: ["Mythology", "Storytelling", "Ancient Sites"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -815,7 +807,6 @@ export const athensTours: Tour[] = [
     price: "$175",
     rating: 4.7,
     tags: ["Adventure", "Climbing", "Kayaking"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -911,7 +902,6 @@ export const athensTours: Tour[] = [
       "5:00 PM: Return to Athens",
       "6:00 PM: Tour conclusion",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -930,7 +920,6 @@ export const athensTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Family", "Interactive", "Educational"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -1042,7 +1031,6 @@ export const athensTours: Tour[] = [
     price: "$895",
     rating: 5.0,
     tags: ["Luxury", "Yacht", "Gourmet"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -1141,5 +1129,4 @@ export const athensTours: Tour[] = [
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
-
 export default athensTours;
