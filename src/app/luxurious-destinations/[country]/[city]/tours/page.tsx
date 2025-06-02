@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { cityattractions } from "@/lib/constants/info/city";
+import { TourGuide } from "@/lib/interfaces/people/staff";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { findGuideBySpecialty, getTourData } from "@/lib/utils/get";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -421,7 +422,11 @@ export default function TourPage() {
             tour={tour}
             city={city}
             country={country}
-            tourGuides={tourGuides}
+            tourGuides={
+              tourGuides[tour.title]
+                ? [{ name: tourGuides[tour.title] } as TourGuide]
+                : []
+            }
           />
         ))}
       </div>
