@@ -18,6 +18,15 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
       "2024-03-15",
@@ -66,8 +75,18 @@ export const bandipurTours: Tour[] = [
       "2:30 PM: Afternoon safari focusing on elephant habitats",
       "5:30 PM: Exit park and return to accommodation",
     ],
-    meetingPoint:
-      "Main entrance of Bandipur National Park or your accommodation within 5km of the park",
+    meetingPoint: {
+      address:
+        "Bandipur National Park Main Entrance, Gundlupet, Karnataka, India",
+      coordinates: {
+        latitude: 11.6745,
+        longitude: 76.6335,
+      },
+      instructions:
+        "Meet your safari guide at the main entrance gate of Bandipur National Park. Look for a green jeep with 'Paragon Wildlife Expeditions' logo. Please arrive 30 minutes before the scheduled departure time for permit processing and safari briefing.",
+      contactNumber: "+91 94321 56789",
+      contactEmail: "safari@paragontrails.com",
+    },
     cancellationPolicy:
       "Full refund if canceled 7 days before the safari. 50% refund if canceled 3-7 days before. No refund for cancellations less than 72 hours prior to the safari or in case of no-show.",
     faqs: [
@@ -125,6 +144,15 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     availableDates: [
       "2024-04-10",
@@ -172,8 +200,18 @@ export const bandipurTours: Tour[] = [
       "3:30 PM: Optional participation in seasonal activities",
       "4:30 PM: Return to meeting point",
     ],
-    meetingPoint:
-      "BR Hills Forest Department Office or your accommodation in Bandipur/Masinagudi area",
+    meetingPoint: {
+      address:
+        "BR Hills Forest Department Office, Biligiriranga Hills, Karnataka, India",
+      coordinates: {
+        latitude: 11.9906,
+        longitude: 77.1454,
+      },
+      instructions:
+        "Meet your guide at the BR Hills Forest Department Office. Your guide will be wearing traditional Soliga attire and will hold a sign with 'Soliga Cultural Experience'. Please arrive 15 minutes before the scheduled departure time.",
+      contactNumber: "+91 94322 67890",
+      contactEmail: "cultural@paragontrails.com",
+    },
     cancellationPolicy:
       "Full refund if canceled 5 days before the experience. 50% refund if canceled 2-5 days before. No refund for cancellations less than 48 hours prior or in case of no-show.",
     faqs: [
@@ -226,6 +264,15 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
     tourCategoryId: "art-and-music",
     availableDates: [
       "2024-03-10",
@@ -285,8 +332,18 @@ export const bandipurTours: Tour[] = [
       "Afternoon at leisure or optional photo editing workshop",
       "Evening wildlife drive to apply new skills in the field",
     ],
-    meetingPoint:
-      "Main entrance of Bandipur National Park or your accommodation within 5km of the park",
+    meetingPoint: {
+      address:
+        "Jungle Lodges and Resorts, Bandipur Safari Lodge, Karnataka, India",
+      coordinates: {
+        latitude: 11.6467,
+        longitude: 76.6294,
+      },
+      instructions:
+        "Meet at the reception area of Jungle Lodges and Resorts Bandipur Safari Lodge. Your photography instructor will greet you with professional camera equipment. Please bring your own camera gear and arrive 15 minutes before the scheduled workshop start time.",
+      contactNumber: "+91 94323 78901",
+      contactEmail: "photography@paragontrails.com",
+    },
     cancellationPolicy:
       "Full refund if canceled 14 days before the workshop. 50% refund if canceled 7-14 days before. No refund for cancellations less than 7 days prior to the workshop or in case of no-show.",
     faqs: [
@@ -310,6 +367,11 @@ export const bandipurTours: Tour[] = [
         answer:
           "Wildlife photography often involves unpredictable weather. We will adapt our schedule to make the most of available light and conditions. Overcast days can actually provide excellent diffused lighting for wildlife shots. If heavy rains occur, we have alternative indoor sessions focused on editing and theory.",
       },
+      {
+        question: "Will we get to see and photograph wildlife?",
+        answer:
+          "While wildlife sightings can never be guaranteed, Bandipur has excellent biodiversity. We've designed our photography routes and timing to maximize wildlife viewing opportunities. Our experienced naturalist guides know the habits and preferred locations of various species. Even without major predators like tigers, you'll have abundant opportunities to photograph elephants, deer, primates, and over 200 bird species.",
+      },
     ],
   },
   {
@@ -329,6 +391,15 @@ export const bandipurTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
       "2024-03-12",
@@ -384,8 +455,18 @@ export const bandipurTours: Tour[] = [
       "10:00 AM: Continue bird watching and data collection",
       "12:00 PM: Return to starting point and end of tour",
     ],
-    meetingPoint:
-      "Main entrance of Bandipur National Park or your accommodation within 5km of the park",
+    meetingPoint: {
+      address:
+        "Bandipur Bird Conservation Center, Moolehole Road, Bandipur, Karnataka, India",
+      coordinates: {
+        latitude: 11.6372,
+        longitude: 76.6087,
+      },
+      instructions:
+        "Meet at the entrance of Bandipur Bird Conservation Center on Moolehole Road. Your ornithologist guide will welcome you with high-quality binoculars and bird identification guides. Please wear earth-toned clothing and arrive 15 minutes before the scheduled start time.",
+      contactNumber: "+91 94324 89012",
+      contactEmail: "birding@paragontrails.com",
+    },
     cancellationPolicy:
       "Full refund if canceled 7 days before the tour. 50% refund if canceled 3-7 days before. No refund for cancellations less than 72 hours prior to the tour or in case of no-show.",
     faqs: [
@@ -438,6 +519,15 @@ export const bandipurTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
       "2024-03-18",
@@ -492,8 +582,17 @@ export const bandipurTours: Tour[] = [
       "9:00 PM: Guided stargazing session",
       "10:00 PM: Return to accommodation",
     ],
-    meetingPoint:
-      "Main entrance of Bandipur National Park or your accommodation within 5km of the park",
+    meetingPoint: {
+      address: "Bandipur Safari Lodge, Karnataka, India",
+      coordinates: {
+        latitude: 11.6467,
+        longitude: 76.6294,
+      },
+      instructions:
+        "Meet at the outdoor lounge area of Bandipur Safari Lodge. Your guide will be waiting with astronomy equipment and safari gear. Please wear warm clothing for the evening and bring a light jacket. Arrive 15 minutes before the scheduled departure time.",
+      contactNumber: "+91 94325 90123",
+      contactEmail: "stargazing@paragontrails.com",
+    },
     cancellationPolicy:
       "Full refund if canceled 7 days before the safari. 50% refund if canceled 3-7 days before. No refund for cancellations less than 72 hours prior to the safari or in case of no-show.",
     faqs: [
@@ -516,6 +615,11 @@ export const bandipurTours: Tour[] = [
         question: "What if it rains during the safari?",
         answer:
           "Safaris operate rain or shine, as wildlife is often more active during light rain. We provide ponchos for light showers, but please dress appropriately for wet conditions. Heavy rains may lead to temporary road closures, in which case we will adjust the itinerary accordingly to ensure your safety and comfort.",
+      },
+      {
+        question: "Is stargazing guaranteed?",
+        answer:
+          "While we plan this tour around optimal stargazing conditions, visibility depends on weather patterns. If clouds obstruct viewing, we offer an extended cultural evening program with local storytelling and wildlife documentaries as an alternative. In case of heavy rain, we can reschedule the stargazing portion for another evening during your stay or provide a partial refund.",
       },
     ],
   },

@@ -18,6 +18,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
     tourCategoryId: "cultural",
     inclusions: [
       "Skip-the-line entry tickets to Sagrada Familia, Park Güell, and Casa Batlló",
@@ -571,6 +572,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -594,6 +596,64 @@ export const barcelonaTours: Tour[] = [
           "Yes, helmets are provided and recommended for all participants. They're required by our company policy for riders under 16, though local law only mandates helmets for children under 16. We also provide bike locks, baskets, and maps to ensure a comfortable and safe ride.",
       },
     ],
+    availableDates: [
+      "2024-04-03",
+      "2024-04-10",
+      "2024-04-17",
+      "2024-04-24",
+      "2024-05-01",
+      "2024-05-08",
+      "2024-05-15",
+      "2024-05-22",
+      "2024-06-05",
+      "2024-06-12",
+      "2024-06-19",
+      "2024-06-26",
+    ],
+    highlights: [
+      "Experience Barcelona's famous cycling culture with a local guide",
+      "Ride along scenic canals and through historic neighborhoods",
+      "Visit the beautiful beaches of Barceloneta",
+      "Explore the lush Ciutadella Park and its attractions",
+      "Discover hidden plazas and lesser-known city gems",
+    ],
+    inclusions: [
+      "Quality bike rental with basket",
+      "Helmet and safety equipment",
+      "Expert local cycling guide",
+      "Bottled water",
+      "Photo stops at scenic locations",
+      "Personalized recommendations for the rest of your stay",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and additional beverages",
+      "Entrance fees to attractions",
+      "Gratuities (optional)",
+      "Rain ponchos (available for purchase if needed)",
+    ],
+    itinerary: [
+      "10:00 AM: Meet at bike rental shop for fitting and safety briefing",
+      "10:30 AM: Begin cycling through Gothic Quarter and Born neighborhood",
+      "11:15 AM: Ride along the Port Vell harbor and waterfront",
+      "12:00 PM: Explore Barceloneta Beach and promenade",
+      "12:45 PM: Break for refreshments at beachside café (not included)",
+      "1:30 PM: Cycle through Ciutadella Park with photo stops",
+      "2:00 PM: Return through hidden alleys and charming plazas",
+      "2:30 PM: Tour conclusion at starting point",
+    ],
+    meetingPoint: {
+      address: "Carrer de la Princesa, 33, 08003 Barcelona, Spain",
+      coordinates: {
+        latitude: 41.3845,
+        longitude: 2.1798,
+      },
+      instructions:
+        "Meet at the Barcelona Bike Tours shop. Our guide will be waiting outside with the bikes. Please arrive 15 minutes before the tour starts to complete paperwork and bike fitting.",
+      contactNumber: "+34 932 156 722",
+    },
+    cancellationPolicy:
+      "Full refund if canceled at least 24 hours before the scheduled tour. 50% refund if canceled 12-24 hours in advance. No refund for cancellations less than 12 hours before the scheduled tour or in case of no-shows.",
   },
   {
     title: "Barcelona Street Art & Urban Culture Tour",
@@ -612,6 +672,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -635,6 +696,65 @@ export const barcelonaTours: Tour[] = [
           "Wear comfortable clothing that you don't mind getting a bit paint on, as we will be creating our own street art. Closed-toe shoes are recommended for safety while walking through urban areas. The tour takes place outdoors, so dress appropriately for the weather.",
       },
     ],
+    availableDates: [
+      "2024-04-04",
+      "2024-04-11",
+      "2024-04-18",
+      "2024-04-25",
+      "2024-05-02",
+      "2024-05-09",
+      "2024-05-16",
+      "2024-05-23",
+      "2024-06-06",
+      "2024-06-13",
+      "2024-06-20",
+      "2024-06-27",
+    ],
+    highlights: [
+      "Discover Barcelona's vibrant street art scene with a local artist guide",
+      "Explore the creative neighborhoods of El Raval, Poblenou, and Gràcia",
+      "Learn about techniques and cultural context behind urban art works",
+      "Create your own piece of street art to take home",
+      "Get insider knowledge on Barcelona's contemporary art movement",
+    ],
+    inclusions: [
+      "Professional artist guide",
+      "Street art workshop materials",
+      "Metro tickets during the tour",
+      "Your own artwork creation to take home",
+      "Small group experience (maximum 8 participants)",
+      "Bottled water",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Additional art supplies beyond those provided",
+      "Gratuities (optional)",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "10:00 AM: Meet your guide in El Raval neighborhood",
+      "10:15 AM: Introduction to Barcelona's urban art scene and history",
+      "10:45 AM: Walking tour of El Raval's significant murals and installations",
+      "11:30 AM: Metro journey to the Poblenou creative district",
+      "12:00 PM: Explore Poblenou's industrial spaces transformed by street art",
+      "1:00 PM: Hands-on workshop to create your own street art piece",
+      "2:00 PM: Metro to Gràcia neighborhood for more hidden art discoveries",
+      "2:30 PM: Explore community art projects in Gràcia",
+      "3:00 PM: Tour conclusion with recommendations for further exploration",
+    ],
+    meetingPoint: {
+      address: "Plaça dels Àngels, 1, 08001 Barcelona, Spain",
+      coordinates: {
+        latitude: 41.3829,
+        longitude: 2.1671,
+      },
+      instructions:
+        "Meet in front of the MACBA (Barcelona Museum of Contemporary Art) entrance. Look for the guide carrying a portfolio with street art samples. Please arrive 10 minutes before the tour starts.",
+      contactEmail: "streetart@barcelonatours.com",
+    },
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour or in case of no-shows.",
   },
 ];
 
