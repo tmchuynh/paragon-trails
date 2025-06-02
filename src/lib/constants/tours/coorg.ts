@@ -27,11 +27,24 @@ export const coorgTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Coffee", "Agriculture", "Tasting"],
-
     isHistorical: false,
     isRomantic: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -45,6 +58,44 @@ export const coorgTours: Tour[] = [
           "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
       },
     ],
+    highlights: [
+      "Guided tour of a working coffee plantation",
+      "Learn about coffee cultivation and processing",
+      "Professional cupping session to taste different coffee profiles",
+      "Opportunity to purchase fresh coffee beans",
+      "Stunning views of the Coorg hills and plantations",
+    ],
+    inclusions: [
+      "Guided plantation tour",
+      "Coffee tasting session",
+      "Light refreshments",
+      "Transportation from meeting point",
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional food and beverages",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at the designated meeting point",
+      "9:30 AM - Arrive at the coffee plantation",
+      "10:00 AM - Guided tour of the plantation, learning about coffee cultivation",
+      "11:00 AM - Participate in a professional cupping session",
+      "12:00 PM - Enjoy light refreshments while discussing coffee flavors",
+      "12:30 PM - Free time to explore the plantation and purchase coffee beans",
+      "1:00 PM - Depart back to the meeting point",
+    ],
+    meetingPoint: {
+      address: "Coffee Plantation, Madikeri, Coorg, Karnataka 571201, India",
+      coordinates: {
+        latitude: 12.4248,
+        longitude: 75.7312,
+      },
+      instructions:
+        "Meet at the main entrance of the coffee plantation. Look for the guide holding a sign with your tour name.",
+    },
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour. Cancellations made less than 24 hours in advance will incur a 50% charge. No-shows will be charged the full amount.",
   },
   {
     title: "Kodava Cultural Heritage & Traditional Homes",
@@ -74,8 +125,22 @@ export const coorgTours: Tour[] = [
 
     isHistorical: false,
     isRomantic: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -89,6 +154,44 @@ export const coorgTours: Tour[] = [
           "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
       },
     ],
+    highlights: [
+      "Guided tour of a working coffee plantation",
+      "Learn about coffee cultivation and processing",
+      "Professional cupping session to taste different coffee profiles",
+      "Opportunity to purchase fresh coffee beans",
+      "Stunning views of the Coorg hills and plantations",
+    ],
+    inclusions: [
+      "Guided plantation tour",
+      "Coffee tasting session",
+      "Light refreshments",
+      "Transportation from meeting point",
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional food and beverages",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at the designated meeting point",
+      "9:30 AM - Arrive at the coffee plantation",
+      "10:00 AM - Guided tour of the plantation, learning about coffee cultivation",
+      "11:00 AM - Participate in a professional cupping session",
+      "12:00 PM - Enjoy light refreshments while discussing coffee flavors",
+      "12:30 PM - Free time to explore the plantation and purchase coffee beans",
+      "1:00 PM - Depart back to the meeting point",
+    ],
+    meetingPoint: {
+      address: "Coffee Plantation, Madikeri, Coorg, Karnataka 571201, India",
+      coordinates: {
+        latitude: 12.4248,
+        longitude: 75.7312,
+      },
+      instructions:
+        "Meet at the main entrance of the coffee plantation. Look for the guide holding a sign with your tour name.",
+    },
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour. Cancellations made less than 24 hours in advance will incur a 50% charge. No-shows will be charged the full amount.",
   },
   {
     title: "Kodava Cultural Heritage & Traditional Homes",
@@ -118,8 +221,22 @@ export const coorgTours: Tour[] = [
 
     isHistorical: false,
     isRomantic: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -133,6 +250,44 @@ export const coorgTours: Tour[] = [
           "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
       },
     ],
+    highlights: [
+      "Guided tour of a working coffee plantation",
+      "Learn about coffee cultivation and processing",
+      "Professional cupping session to taste different coffee profiles",
+      "Opportunity to purchase fresh coffee beans",
+      "Stunning views of the Coorg hills and plantations",
+    ],
+    inclusions: [
+      "Guided plantation tour",
+      "Coffee tasting session",
+      "Light refreshments",
+      "Transportation from meeting point",
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional food and beverages",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at the designated meeting point",
+      "9:30 AM - Arrive at the coffee plantation",
+      "10:00 AM - Guided tour of the plantation, learning about coffee cultivation",
+      "11:00 AM - Participate in a professional cupping session",
+      "12:00 PM - Enjoy light refreshments while discussing coffee flavors",
+      "12:30 PM - Free time to explore the plantation and purchase coffee beans",
+      "1:00 PM - Depart back to the meeting point",
+    ],
+    meetingPoint: {
+      address: "Coffee Plantation, Madikeri, Coorg, Karnataka 571201, India",
+      coordinates: {
+        latitude: 12.4248,
+        longitude: 75.7312,
+      },
+      instructions:
+        "Meet at the main entrance of the coffee plantation. Look for the guide holding a sign with your tour name.",
+    },
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour. Cancellations made less than 24 hours in advance will incur a 50% charge. No-shows will be charged the full amount.",
   },
   {
     title: "Kodava Cultural Heritage & Traditional Homes",
@@ -162,8 +317,22 @@ export const coorgTours: Tour[] = [
 
     isHistorical: false,
     isRomantic: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isFree: false,
+    isPopular: false,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -177,6 +346,44 @@ export const coorgTours: Tour[] = [
           "Yes, you can purchase freshly roasted coffee beans directly from the plantation. We offer a selection of single-origin Coorg coffees, including Arabica and Robusta varieties, as well as specialty blends. Our guides can help you choose the best beans based on your taste preferences.",
       },
     ],
+    highlights: [
+      "Guided tour of a working coffee plantation",
+      "Learn about coffee cultivation and processing",
+      "Professional cupping session to taste different coffee profiles",
+      "Opportunity to purchase fresh coffee beans",
+      "Stunning views of the Coorg hills and plantations",
+    ],
+    inclusions: [
+      "Guided plantation tour",
+      "Coffee tasting session",
+      "Light refreshments",
+      "Transportation from meeting point",
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional food and beverages",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at the designated meeting point",
+      "9:30 AM - Arrive at the coffee plantation",
+      "10:00 AM - Guided tour of the plantation, learning about coffee cultivation",
+      "11:00 AM - Participate in a professional cupping session",
+      "12:00 PM - Enjoy light refreshments while discussing coffee flavors",
+      "12:30 PM - Free time to explore the plantation and purchase coffee beans",
+      "1:00 PM - Depart back to the meeting point",
+    ],
+    meetingPoint: {
+      address: "Coffee Plantation, Madikeri, Coorg, Karnataka 571201, India",
+      coordinates: {
+        latitude: 12.4248,
+        longitude: 75.7312,
+      },
+      instructions:
+        "Meet at the main entrance of the coffee plantation. Look for the guide holding a sign with your tour name.",
+    },
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour. Cancellations made less than 24 hours in advance will incur a 50% charge. No-shows will be charged the full amount.",
   },
   {
     title: "Kodava Cultural Heritage & Traditional Homes",
@@ -206,6 +413,13 @@ export const coorgTours: Tour[] = [
 
     isHistorical: false,
     isRomantic: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",

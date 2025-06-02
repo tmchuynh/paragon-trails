@@ -22,6 +22,69 @@ export const fortKochiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
+
+    meetingPoint: {
+      address: "Santa Cruz Basilica, Fort Kochi",
+      coordinates: {
+        latitude: 9.9659,
+        longitude: 76.2429,
+      },
+      instructions:
+        "Meet your guide in front of the main entrance of Santa Cruz Basilica. Guide will be holding a blue umbrella.",
+      contactNumber: "+91 98765 43210",
+      contactEmail: "fortkochiheritage@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-18",
+      "2023-12-22",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
+    ],
+
+    highlights: [
+      "Visit the historic St. Francis Church, the oldest European church in India",
+      "Explore Mattancherry Palace with its stunning murals and Dutch architecture",
+      "Walk through colonial streets lined with Portuguese and British buildings",
+      "Experience the iconic Chinese fishing nets at sunset",
+      "Opportunity to help local fishermen operate the traditional fishing nets",
+    ],
+
+    inclusions: [
+      "Professional English-speaking guide",
+      "Entrance fees to all monuments",
+      "Bottled water",
+      "Sunset refreshments",
+      "Interactive demonstration with fishermen",
+      "Photo opportunities at the Chinese fishing nets",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Personal expenses",
+      "Tips and gratuities",
+      "Additional food and drinks not specified",
+    ],
+
+    itinerary: [
+      "14:00 - Meet at Santa Cruz Basilica for tour introduction",
+      "14:15 - Visit St. Francis Church and learn about its Portuguese origins",
+      "15:00 - Explore Mattancherry Palace and Dutch historical influence",
+      "15:45 - Walk through Jew Town and discuss its historical significance",
+      "16:30 - Tea break at a heritage cafe",
+      "17:00 - Visit the Chinese fishing nets and learn about their history",
+      "17:30 - Participate in operating the fishing nets with local fishermen",
+      "18:00 - Watch sunset over the Arabian Sea",
+      "18:30 - Tour concludes at the fishing nets",
+    ],
+
     faqs: [
       {
         question: "What makes the Chinese fishing nets unique?",
@@ -61,6 +124,67 @@ export const fortKochiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
+
+    meetingPoint: {
+      address: "Kochi Spice Market, Market Road, Fort Kochi",
+      coordinates: {
+        latitude: 9.9675,
+        longitude: 76.2422,
+      },
+      instructions:
+        "Meet at the main entrance to the spice market. Look for our guide with a 'Kerala Cuisine' sign.",
+      contactNumber: "+91 98765 43211",
+      contactEmail: "keralacuisine@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-14",
+      "2023-12-21",
+      "2023-12-28",
+      "2024-01-04",
+      "2024-01-11",
+      "2024-01-18",
+      "2024-01-25",
+      "2024-02-01",
+      "2024-02-08",
+      "2024-02-15",
+      "2024-02-22",
+    ],
+
+    highlights: [
+      "Guided tour of Fort Kochi's historic spice markets",
+      "Learn about Kerala's spice trade history and culinary influences",
+      "Visit a traditional Kerala home kitchen",
+      "Hands-on cooking class with a local family",
+      "Prepare and enjoy an authentic multi-course Kerala meal",
+    ],
+
+    inclusions: [
+      "Market tour with spice expert",
+      "All cooking ingredients and materials",
+      "Recipe booklet to take home",
+      "Full traditional Kerala meal",
+      "Non-alcoholic beverages including fresh coconut water",
+      "Spice samples to take home",
+    ],
+
+    exclusions: [
+      "Transportation to and from the meeting point",
+      "Alcoholic beverages",
+      "Additional spice purchases beyond provided samples",
+      "Personal cooking equipment",
+    ],
+
+    itinerary: [
+      "10:00 - Meet at the spice market entrance for introductions",
+      "10:15 - Guided tour of the spice market with tastings and explanations",
+      "11:30 - Visit to traditional Kerala home for cooking class",
+      "12:00 - Introduction to Kerala cuisine and preparation techniques",
+      "12:30 - Hands-on cooking class (preparing 4-5 dishes)",
+      "14:00 - Enjoy the meal you prepared with your hosts",
+      "15:00 - Tour concludes with recipe sharing and spice samples",
+    ],
+
     faqs: [
       {
         question: "What dishes will we learn to prepare?",
@@ -100,6 +224,67 @@ export const fortKochiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address: "Kerala Kathakali Centre, KB Jacob Road, Fort Kochi",
+      coordinates: {
+        latitude: 9.9663,
+        longitude: 76.2421,
+      },
+      instructions:
+        "Arrive at the Kerala Kathakali Centre entrance 15 minutes before the scheduled time. Look for the colorful Kathakali facade.",
+      contactNumber: "+91 98765 43212",
+      contactEmail: "kathakali@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-23",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-13",
+      "2024-01-20",
+      "2024-01-27",
+      "2024-02-03",
+      "2024-02-10",
+      "2024-02-17",
+      "2024-02-24",
+    ],
+
+    highlights: [
+      "Witness the elaborate makeup application process (takes up to 1.5 hours)",
+      "Learn about the symbolism and meaning behind Kathakali facial expressions",
+      "Detailed explanation of mudras (hand gestures) and their meanings",
+      "Enjoy a complete Kathakali performance with English narration",
+      "Opportunity to meet performers after the show",
+    ],
+
+    inclusions: [
+      "Reserved seating for makeup demonstration",
+      "Premium seats for the performance",
+      "English program guide explaining the story",
+      "Pre-show explanation of Kathakali elements",
+      "Bottled water",
+      "Post-show interaction with artists (subject to availability)",
+    ],
+
+    exclusions: [
+      "Transportation to and from venue",
+      "Professional photography (available at additional cost)",
+      "Meals and additional beverages",
+      "Personal souvenirs",
+    ],
+
+    itinerary: [
+      "17:00 - Arrival at Kerala Kathakali Centre",
+      "17:15 - Introduction to Kathakali history and significance",
+      "17:30 - Witness the elaborate makeup application process",
+      "18:30 - Learn about costumes, gestures and expressions",
+      "18:45 - Demonstration of basic mudras (hand gestures)",
+      "19:00 - Main Kathakali performance begins",
+      "20:00 - Performance concludes with opportunity to meet artists",
+    ],
+
     faqs: [
       {
         question:
@@ -141,6 +326,68 @@ export const fortKochiTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
+
+    meetingPoint: {
+      address:
+        "Paradesi Synagogue entrance, Jew Town, Mattancherry, Fort Kochi",
+      coordinates: {
+        latitude: 9.9578,
+        longitude: 76.2592,
+      },
+      instructions:
+        "Meet at the entrance gate to the Paradesi Synagogue. Your guide will be wearing a blue cap with the Paragon Trails logo.",
+      contactNumber: "+91 98765 43213",
+      contactEmail: "jewishheritage@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-17",
+      "2023-12-24",
+      "2023-12-31",
+      "2024-01-07",
+      "2024-01-14",
+      "2024-01-21",
+      "2024-01-28",
+      "2024-02-04",
+      "2024-02-11",
+      "2024-02-18",
+      "2024-02-25",
+    ],
+
+    highlights: [
+      "Guided tour of the historic Paradesi Synagogue with its Belgian chandeliers and Chinese tiles",
+      "Visit to the Jewish Cemetery dating back to the 18th century",
+      "Walk through Jew Town's historic spice trading streets",
+      "Learn about the 2000-year history of Jews in Kerala",
+      "Meet remaining members of this ancient community (when available)",
+    ],
+
+    inclusions: [
+      "Expert English-speaking guide specialized in Jewish history",
+      "Entrance fees to all sites",
+      "Traditional Jewish-Keralan snack",
+      "Bottled water",
+      "Informational booklet on Kerala's Jewish heritage",
+    ],
+
+    exclusions: [
+      "Transportation to and from meeting point",
+      "Additional food and beverages",
+      "Personal purchases in Jew Town shops",
+      "Gratuities (recommended but optional)",
+    ],
+
+    itinerary: [
+      "09:00 - Meet at Paradesi Synagogue entrance",
+      "09:15 - Guided tour of the synagogue and its architectural elements",
+      "10:00 - Visit Jewish Cemetery with history of notable community members",
+      "10:45 - Walking tour through historic Jew Town streets",
+      "11:15 - Visit to spice shops once owned by Jewish merchants",
+      "11:45 - Traditional Jewish-Keralan snack break",
+      "12:15 - Continue exploration of Jewish heritage sites",
+      "12:45 - Q&A session and concluding remarks at a historic viewpoint",
+    ],
+
     faqs: [
       {
         question: "How old is the Jewish community in Kochi?",
