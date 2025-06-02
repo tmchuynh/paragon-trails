@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const parisTours: Tour[] = [
   {
     title: "Hidden Paris Walking Tour",
@@ -16,11 +15,68 @@ export const parisTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Walking", "Hidden Gems", "Historical"],
-
+    meetingPoint: {
+      address: "Les Deux Magots, 6 Place Saint-Germain des Prés, 75006 Paris",
+      coordinates: {
+        latitude: 48.8539,
+        longitude: 2.3335,
+      },
+      instructions:
+        "Meet your guide in front of the famous café Les Deux Magots. Look for someone holding a navy blue umbrella with 'Hidden Paris' written on it.",
+      contactNumber: "+33 1 42 85 19 31",
+      contactEmail: "bonjour@hiddenparis.fr",
+    },
+    highlights: [
+      "Explore the covered passages of the 2nd arrondissement with their glass roofs and boutiques",
+      "Discover hidden courtyards and gardens in the Marais neighborhood",
+      "Visit Île Saint-Louis' private mansions and secluded squares",
+      "Learn about the city's transformation during Haussmann's renovation",
+      "Experience authentic Paris neighborhoods where locals actually live",
+    ],
+    inclusions: [
+      "Expert local historian guide",
+      "Small group experience (maximum 8 people)",
+      "Access to normally closed courtyards and passages",
+      "Gourmet chocolate tasting at an artisanal chocolatier",
+      "Map of secret Paris locations to explore later",
+    ],
+    exclusions: [
+      "Metro tickets (you'll need 2 tickets for the tour)",
+      "Food and drinks beyond the included tasting",
+      "Gratuities",
+      "Hotel pickup and drop-off",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Les Deux Magots café",
+      "10:15 AM - Introduction to the hidden Paris concept and brief history",
+      "10:30 AM - Explore Saint-Germain's secret courtyards",
+      "11:15 AM - Take Metro to the covered passages of the 2nd arrondissement",
+      "11:45 AM - Tour of Passage des Panoramas, Passage Jouffroy, and Galerie Vivienne",
+      "12:30 PM - Walk through hidden gardens in the Marais",
+      "1:00 PM - Artisanal chocolate tasting in a local workshop",
+      "1:30 PM - Tour conclusion with recommendations for further exploration",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours before the tour. 50% refund if canceled 24-48 hours before. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "off-the-beaten-path",
     faqs: [
       {
@@ -32,6 +88,11 @@ export const parisTours: Tour[] = [
         question: "Is this tour suitable for children?",
         answer:
           "Yes, this tour is family-friendly! We keep the pace relaxed and our guide will share engaging stories that appeal to both adults and children. However, please note that some passages may not be stroller accessible.",
+      },
+      {
+        question: "What happens if it rains?",
+        answer:
+          "The tour operates in light rain as many sections are covered (especially the passages). We provide umbrellas if needed. In case of severe weather, we may modify the route to include more indoor locations or offer to reschedule.",
       },
     ],
   },
@@ -50,11 +111,68 @@ export const parisTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Art", "Museum", "Cultural"],
-
+    meetingPoint: {
+      address: "Arc de Triomphe du Carrousel, Place du Carrousel, 75001 Paris",
+      coordinates: {
+        latitude: 48.8606,
+        longitude: 2.3376,
+      },
+      instructions:
+        "Meet under the small arch (Arc de Triomphe du Carrousel) between the Louvre pyramid and the Tuileries Gardens. Your guide will be holding a red tablet with 'Louvre Tours' displayed.",
+      contactNumber: "+33 1 40 20 53 17",
+      contactEmail: "reservations@louvremasterpieces.com",
+    },
+    highlights: [
+      "Skip-the-line access to the Louvre, saving hours of waiting time",
+      "See the Mona Lisa with expert timing to avoid the worst crowds",
+      "Discover hidden masterpieces in the less-visited wings of the museum",
+      "Learn the fascinating stories and symbolism behind famous artworks",
+      "Visit the medieval foundations of the original Louvre fortress",
+    ],
+    inclusions: [
+      "Skip-the-line museum entrance ticket",
+      "Professional art historian guide",
+      "Small group tour (maximum 6 people) with audio headsets",
+      "Orientation tour of the museum layout",
+      "Detailed explanations of key masterpieces",
+    ],
+    exclusions: [
+      "Food and beverages",
+      "Hotel pickup and drop-off",
+      "Gratuities",
+      "Museum guide book (available for purchase)",
+    ],
+    itinerary: [
+      "9:15 AM - Meet at the Arc de Triomphe du Carrousel",
+      "9:30 AM - Skip-the-line entry and orientation introduction",
+      "10:00 AM - Visit to Greek antiquities including Venus de Milo",
+      "10:45 AM - Tour of Italian Renaissance paintings with strategic timing for Mona Lisa viewing",
+      "11:30 AM - Explore French masterpieces including Liberty Leading the People",
+      "12:15 PM - Visit to the medieval Louvre foundations and Egyptian collection",
+      "1:00 PM - Tour conclusion with recommendations for further exploration",
+      "1:30 PM - Option to remain in the museum independently until closing",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 72 hours before the tour. 50% refund if canceled 24-72 hours before. No refund for cancellations less than 24 hours before the tour. In case of museum closure, a full refund or alternative date will be offered.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -70,7 +188,7 @@ export const parisTours: Tour[] = [
       {
         question: "Do we skip the lines?",
         answer:
-          "Yes, this tour includes skip-the-line access, allowing you to bypass the long queues and maximize your time inside the museum.",
+          "Yes, this tour includes skip-the-line access, allowing you to bypass the long queues and maximize your time inside the museum. Please note that there may still be a brief security line that everyone must go through.",
       },
     ],
   },
@@ -89,11 +207,69 @@ export const parisTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Culinary", "Food", "Local Experience"],
-
+    meetingPoint: {
+      address: "Rue Cler, 75007 Paris (in front of La Fromagerie)",
+      coordinates: {
+        latitude: 48.8573,
+        longitude: 2.3071,
+      },
+      instructions:
+        "Meet in front of La Fromagerie cheese shop on Rue Cler. Your guide will be holding a small chalkboard with 'Paris Food Tour' written on it.",
+      contactNumber: "+33 1 45 51 43 27",
+      contactEmail: "tastings@parisfoodtours.fr",
+    },
+    highlights: [
+      "Visit a traditional French market to select fresh seasonal products",
+      "Sample artisanal cheeses with expert guidance on selection and tasting",
+      "Learn the art of choosing the perfect baguette from award-winning bakeries",
+      "Taste classic French pastries and chocolates with a culinary historian",
+      "Experience wine pairing with regional specialties in a local bistro",
+    ],
+    inclusions: [
+      "All food tastings at 6-7 different locations",
+      "Two glasses of wine with food pairings",
+      "Expert culinary guide",
+      "Small group experience (maximum 8 people)",
+      "Recipe booklet for selected French classics",
+      "Reusable tote bag for market purchases",
+    ],
+    exclusions: [
+      "Additional food and drinks beyond scheduled tastings",
+      "Transportation to and from the meeting point",
+      "Personal shopping expenses",
+      "Gratuities",
+    ],
+    itinerary: [
+      "10:00 AM - Meet on Rue Cler and introduction to French market culture",
+      "10:15 AM - Guided market tour with seasonal produce tasting",
+      "11:00 AM - Visit to artisanal fromagerie for cheese tasting and education",
+      "11:45 AM - Tour of award-winning boulangerie with bread sampling",
+      "12:30 PM - Pâtisserie stop for French pastry tasting",
+      "1:15 PM - Wine and charcuterie pairing at traditional bistro",
+      "2:30 PM - Chocolate tasting at master chocolatier's workshop",
+      "3:00 PM - Tour conclusion with culinary souvenir and recommendations",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours before the tour. 50% refund if canceled 24-48 hours before. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -107,9 +283,9 @@ export const parisTours: Tour[] = [
           "The tour covers approximately 3 km at a leisurely pace with plenty of stops for tastings. It's suitable for all fitness levels.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "Can dietary restrictions be accommodated?",
         answer:
-          "Yes, this tour is family-friendly and children will enjoy the interactive food experiences. We can also provide kid-friendly food options upon request.",
+          "Yes, with advance notice we can accommodate vegetarian, gluten-free, and most allergy-related dietary restrictions. Please let us know your needs when booking so we can prepare appropriate alternatives. Note that some locations may have limited substitution options.",
       },
     ],
   },
@@ -128,12 +304,85 @@ export const parisTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Art", "Museum", "History"],
-
+    meetingPoint: {
+      address: "Louvre Pyramid, 75001 Paris",
+      coordinates: {
+        latitude: 48.8606,
+        longitude: 2.3376,
+      },
+      instructions:
+        "Meet directly in front of the glass Louvre Pyramid. Your guide will be holding a sign with 'Skip-the-Line Louvre Tour' written on it.",
+      contactNumber: "+33 1 40 20 50 50",
+      contactEmail: "info@louvretours.com",
+    },
+    highlights: [
+      "Skip-the-line access to the Louvre, saving hours of waiting time",
+      "Expert navigation to all major masterpieces including the Mona Lisa",
+      "Learn the stories and symbolism behind the museum's iconic works",
+      "Small group format ensures personalized attention and questions answered",
+      "Overview of the museum's architecture from medieval fortress to modern pyramid",
+    ],
+    inclusions: [
+      "Skip-the-line entrance ticket",
+      "Professional art historian guide",
+      "Small group tour (maximum 8 participants)",
+      "Audio headsets for clear guide communication",
+      "Museum map with highlighted tour route",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and beverages",
+      "Gratuities",
+      "Additional time in museum after tour conclusion (though you may stay until closing)",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at the Louvre Pyramid",
+      "9:15 AM - Security check and skip-the-line entrance",
+      "9:30 AM - Visit to ancient Greek sculptures including Venus de Milo",
+      "10:15 AM - See Italian Renaissance masterpieces and Mona Lisa",
+      "11:00 AM - Explore French paintings and the Crown Jewels",
+      "11:45 AM - Brief coffee break (optional, not included)",
+      "12:00 PM - Tour conclusion with recommendations for continued exploration",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours in advance. 50% refund if canceled 12-24 hours in advance. No refund for cancellations less than 12 hours before the tour.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
     tourCategoryId: "art-and-music",
+    faqs: [
+      {
+        question: "Is this tour different from 'Louvre Masterpieces & Beyond'?",
+        answer:
+          "Yes, this tour is shorter (3 hours vs. 4 hours) and focuses primarily on the most famous works. The 'Masterpieces & Beyond' tour includes additional wings of the museum and lesser-known but significant artworks that most visitors miss.",
+      },
+      {
+        question: "Can I take photographs in the museum?",
+        answer:
+          "Photography without flash is permitted in most areas of the Louvre. However, some temporary exhibitions may restrict photography, and flash photography is prohibited throughout the museum to protect the artworks.",
+      },
+      {
+        question: "Is there a cloakroom for my belongings?",
+        answer:
+          "Yes, the Louvre has cloakrooms where you can check large bags, coats, and umbrellas. Please note that large backpacks and suitcases are not permitted in the museum galleries.",
+      },
+    ],
   },
   {
     title: "Seine River Dinner Cruise",
@@ -150,12 +399,87 @@ export const parisTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Romantic", "Dinner", "Cruise"],
-
-    isHistorical: false,
+    meetingPoint: {
+      address: "Port de la Conférence, Pont de l'Alma, Right Bank, 75008 Paris",
+      coordinates: {
+        latitude: 48.8637,
+        longitude: 2.301,
+      },
+      instructions:
+        "Meet at the boarding dock next to Pont de l'Alma on the Right Bank. Check in at the reception desk 30 minutes before departure.",
+      contactNumber: "+33 1 76 64 14 65",
+      contactEmail: "reservations@parisrivercruises.fr",
+    },
+    highlights: [
+      "Enjoy a gourmet 3-course dinner with fine French cuisine",
+      "Cruise past illuminated Parisian landmarks including the Eiffel Tower",
+      "Experience live music entertainment aboard the glass-enclosed vessel",
+      "See Paris from a unique perspective on the water",
+      "Capture stunning night photos of iconic monuments",
+    ],
+    inclusions: [
+      "2.5-hour Seine River cruise",
+      "3-course gourmet dinner with vegetarian options available",
+      "Welcome glass of champagne",
+      "Half bottle of wine per person (red or white)",
+      "Live music entertainment",
+      "Window table seating option (subject to availability)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional beverages beyond included wine and champagne",
+      "Professional photographs (available for purchase onboard)",
+      "Gratuities",
+    ],
+    itinerary: [
+      "7:30 PM - Check-in at the boarding dock",
+      "8:00 PM - Welcome aboard with glass of champagne",
+      "8:15 PM - Boat departs as first course is served",
+      "8:45 PM - Pass by Eiffel Tower, Notre Dame and other monuments with commentary",
+      "9:15 PM - Main course served while cruising",
+      "9:45 PM - Dessert service and coffee as you pass under beautiful bridges",
+      "10:15 PM - Return to dock with final views of illuminated Paris",
+      "10:30 PM - Disembarkation",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 72 hours before the cruise. 50% refund if canceled 24-72 hours before. No refund for cancellations less than 24 hours before scheduled cruise.",
+    isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "romantic",
+    faqs: [
+      {
+        question: "What is the dress code for the dinner cruise?",
+        answer:
+          "Smart casual attire is recommended. While formal wear is not required, most guests dress up for this romantic evening. We suggest avoiding jeans, sneakers, and very casual clothing.",
+      },
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, vegetarian, gluten-free, and most other dietary restrictions can be accommodated with advance notice (at least 48 hours before the cruise). Please inform us of any specific requirements when booking.",
+      },
+      {
+        question: "Is the boat heated/air-conditioned?",
+        answer:
+          "Yes, our vessels are climate-controlled for year-round comfort. The glass-enclosed design provides panoramic views while protecting you from the elements. In summer, there are also open-air sections for those who wish to enjoy the evening breeze.",
+      },
+    ],
   },
   {
     title: "Montmartre & Sacré-Cœur Walking Tour",
@@ -172,13 +496,86 @@ export const parisTours: Tour[] = [
     price: "$45",
     rating: 4.9,
     tags: ["Walking Tour", "Art", "Local Culture"],
-
+    meetingPoint: {
+      address: "Blanche Métro Station, 75018 Paris",
+      coordinates: {
+        latitude: 48.8834,
+        longitude: 2.3324,
+      },
+      instructions:
+        "Meet outside the Blanche metro station exit near the Moulin Rouge. Your guide will be wearing a red beret and holding a sign with 'Montmartre Tour'.",
+      contactNumber: "+33 1 88 32 75 67",
+      contactEmail: "bonjour@montmartrewalks.com",
+    },
+    highlights: [
+      "Visit the magnificent Sacré-Cœur Basilica with panoramic views of Paris",
+      "Explore Place du Tertre where artists paint portraits and landscapes",
+      "Discover the history of famous artists who lived in Montmartre including Picasso and Van Gogh",
+      "See filming locations from the movie 'Amélie'",
+      "Learn about the area's transformation from rural village to artistic haven",
+    ],
+    inclusions: [
+      "Professional local guide",
+      "Small group experience (maximum 10 people)",
+      "Interior visit to Sacré-Cœur Basilica",
+      "Map of Montmartre with points of interest",
+      "Funicular ticket to avoid climbing steep stairs",
+    ],
+    exclusions: [
+      "Food and beverages",
+      "Tips for street artists if you get your portrait drawn",
+      "Metro tickets (you'll need 1-2 tickets depending on your return journey)",
+      "Gratuities for guide",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Blanche metro station near Moulin Rouge",
+      "10:15 AM - Introduction to the history of Montmartre",
+      "10:30 AM - Visit the Wall of Love and vineyard of Montmartre",
+      "11:00 AM - Explore artists' studios and discuss famous residents",
+      "11:30 AM - See key locations from the film 'Amélie'",
+      "12:00 PM - Arrive at Place du Tertre to watch artists at work",
+      "12:30 PM - Visit Sacré-Cœur Basilica and enjoy panoramic views",
+      "1:00 PM - Tour conclusion with recommendations for lunch spots and museums",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours before the tour. 50% refund if canceled 12-24 hours before. No refund for cancellations less than 12 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "cultural",
+    faqs: [
+      {
+        question: "How much walking and stair climbing is involved?",
+        answer:
+          "This tour involves moderate walking (about 2.5 km) with some hills and cobblestone streets. We use the funicular to avoid the main staircase to Sacré-Cœur, but there are still some unavoidable steps in this hillside neighborhood. Comfortable walking shoes are strongly recommended.",
+      },
+      {
+        question: "Will we have time to get our portrait drawn by an artist?",
+        answer:
+          "The guided tour doesn't include time for sitting for a portrait, which typically takes 30-45 minutes. However, your guide will point out the best artists in Place du Tertre, and you're welcome to return after the tour concludes to have your portrait done.",
+      },
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, children enjoy the colorful atmosphere of Montmartre, the street performers, and the panoramic views. The history is presented in an engaging way suitable for all ages. Please note that strollers may be challenging on the cobblestone streets and stairs.",
+      },
+    ],
   },
 ];
-
 export default parisTours;

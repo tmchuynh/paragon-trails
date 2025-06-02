@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const pucallpaTours: Tour[] = [
   {
     title: "Amazon River Cruise & Jungle Adventure",
@@ -30,6 +29,21 @@ export const pucallpaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "adventure",
     faqs: [
       {
@@ -69,7 +83,7 @@ export const pucallpaTours: Tour[] = [
       "Day 3: Morning fishing and swimming, return to Pucallpa in the afternoon.",
     ],
     cancellationPolicy:
-      " Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
+      "Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
   },
   {
     title: "Pucallpa City & Cultural Tour",
@@ -100,6 +114,21 @@ export const pucallpaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: true,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -138,7 +167,7 @@ export const pucallpaTours: Tour[] = [
       "Evening: Return to the starting point.",
     ],
     cancellationPolicy:
-      " Free cancellation up to 24 hours before the tour. No refunds for cancellations within 24 hours.",
+      "Free cancellation up to 24 hours before the tour. No refunds for cancellations within 24 hours.",
   },
   {
     title: "Yarinacocha Lake & Wildlife Safari",
@@ -169,6 +198,21 @@ export const pucallpaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
     tourCategoryId: "nature",
     faqs: [
       {
@@ -207,7 +251,7 @@ export const pucallpaTours: Tour[] = [
       "Afternoon: Relax by the lake, swimming and enjoying refreshments before returning to Pucallpa.",
     ],
     cancellationPolicy:
-      " Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
+      "Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
   },
   {
     title: "Pucallpa Night Market & Street Food Tour",
@@ -234,10 +278,52 @@ export const pucallpaTours: Tour[] = [
         "Meet at the entrance of the Pucallpa Night Market. Look for our guide wearing a red shirt with 'Pucallpa Night Tours' printed on it.",
       contactNumber: "+51 987 654 321",
     },
+    highlights: [
+      "Tasting a variety of local street foods and delicacies",
+      "Exploration of the vibrant night market",
+      "Live music and cultural performances",
+      "Interaction with local vendors and craftspeople",
+    ],
+    inclusions: [
+      "Food tastings from 5-6 different vendors",
+      "Local guide with food expertise",
+      "One traditional Amazonian drink",
+      "Cultural insights and recommendations",
+    ],
+    exclusions: [
+      "Additional food beyond included tastings",
+      "Alcoholic beverages (available for purchase)",
+      "Souvenirs and crafts",
+      "Transportation to/from the meeting point",
+    ],
+    itinerary: [
+      "7:00 PM: Meet at the Pucallpa Night Market entrance",
+      "7:15 PM: Begin food tasting tour, visiting various street food vendors",
+      "8:30 PM: Enjoy live music and cultural performances",
+      "9:15 PM: Free time to explore the market",
+      "10:00 PM: Tour concludes at the market entrance",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour. No refunds for cancellations within 24 hours or no-shows.",
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "nightlife",
     faqs: [
       {
@@ -250,6 +336,13 @@ export const pucallpaTours: Tour[] = [
         answer:
           "Yes, our guides are familiar with the area and ensure your safety throughout the tour. We also recommend staying in well-lit areas and being aware of your surroundings.",
       },
+      {
+        question: "Are vegetarian options available?",
+        answer:
+          "Yes, we can accommodate vegetarian preferences. Please let us know in advance so we can arrange appropriate food tastings.",
+      },
     ],
+    availableDates: ["2024-05-04", "2024-05-11", "2024-05-18", "2024-05-25"],
   },
 ];
+export default pucallpaTours;
