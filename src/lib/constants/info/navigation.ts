@@ -35,26 +35,26 @@ export const navbarItems = [
         label: "Popular Destinations",
         href: "/luxurious-destinations/popular-destinations",
       },
-      {
-        label: "Seasonal Highlights",
-        href: "/luxurious-destinations/seasonal-highlights",
-      },
     ],
   },
   {
     label: "Tours",
     dropdown: [
       {
-        label: "Types of Tours",
+        label: "All Tours",
         href: "/tours",
+      },
+      {
+        label: "Popular Tours",
+        href: "/tours/popular-tours",
+      },
+      {
+        label: "Types of Tours",
+        href: "/tours/tour-categories",
       },
       {
         label: "Tour Guides",
         href: "/tours/tour-guides",
-      },
-      {
-        label: "Customize Your Tour",
-        href: "/tours/customize-your-tour",
       },
     ],
   },
@@ -111,5 +111,36 @@ export const navbarItems = [
   {
     label: "Book Now",
     href: "/book-your-trip-today",
+  },
+];
+
+export const dockNavigationMenu = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Tours",
+    href: "/tours",
+    activeIcon: "TourActiveIcon", // Replace with actual icon component
+    inactiveIcon: "TourInactiveIcon", // Replace with actual icon component
+  },
+  {
+    name: "Destinations",
+    href: "/luxurious-destinations",
+    activeIcon: "DestinationActiveIcon", // Replace with actual icon component
+    inactiveIcon: "DestinationInactiveIcon", // Replace with actual icon component
+  },
+  {
+    name: "Contact",
+    href: "/contact-information",
+    activeIcon: "ContactActiveIcon", // Replace with actual icon component
+    inactiveIcon: "ContactInactiveIcon", // Replace with actual icon component
+  },
+  {
+    name: "Services",
+    href: "/services",
+    activeIcon: "ServiceActiveIcon", // Replace with actual icon component
+    inactiveIcon: "ServiceInactiveIcon", // Replace with actual icon component
   },
 ];
