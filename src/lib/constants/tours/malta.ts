@@ -5,6 +5,9 @@ export const maltaTours: Tour[] = [
     title: "Ancient Malta: Temples & Medieval Cities",
     description:
       "Explore Malta's remarkable history spanning 7,000 years, from prehistoric megalithic temples to the medieval walled city of Mdina, with an archaeologist guide bringing ancient stories to life.",
+    city: "Valletta",
+    country: "Malta",
+    region: "Southeastern Region",
     images: [
       "/images/tours/malta/hagar-qim-temple.jpg",
       "/images/tours/malta/mdina.jpg",
@@ -36,6 +39,9 @@ export const maltaTours: Tour[] = [
     title: "Hidden Coves & Blue Lagoon Boat Tour",
     description:
       "Discover Malta's stunning coastline aboard a traditional luzzu fishing boat, visiting secluded swimming spots, sea caves, and the famous Blue Lagoon away from the tourist crowds.",
+    city: "Sliema",
+    country: "Malta",
+    region: "Northern Region",
     images: [
       "/images/tours/malta/blue-lagoon.jpg",
       "/images/tours/malta/sea-caves.jpg",
@@ -72,6 +78,9 @@ export const maltaTours: Tour[] = [
     title: "Valletta: History & Culture Walking Tour",
     description:
       "Experience the rich history of Malta's capital with a guided walking tour through Valletta's narrow streets, visiting St. John's Co-Cathedral, the Grand Master's Palace, and local artisan shops.",
+    city: "Valletta",
+    country: "Malta",
+    region: "Southeastern Region",
     images: [
       "/images/tours/malta/valletta-st-johns.jpg",
       "/images/tours/malta/grand-masters-palace.jpg",

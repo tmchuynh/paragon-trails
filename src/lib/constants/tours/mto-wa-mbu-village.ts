@@ -5,6 +5,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Cultural Mosaic: Tribes of Mto wa Mbu",
     description:
       "Discover the incredible cultural diversity of this unique village where over 120 tribes coexist harmoniously. Visit family homes from different ethnic groups, learn about traditional customs, and witness daily life activities with local community members as your hosts.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/tribal-homes.jpg",
       "/images/tours/mto-wa-mbu-village/cultural-activities.jpg",
@@ -36,6 +39,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Banana Plantation Tour & Local Brewing Experience",
     description:
       "Walk through lush banana plantations learning about the 30+ banana varieties grown locally, followed by participation in traditional banana beer brewing. Sample this unique beverage alongside other local specialties and take home brewing knowledge passed down through generations.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/banana-plantation.jpg",
       "/images/tours/mto-wa-mbu-village/banana-beer-brewing.jpg",
@@ -67,6 +73,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Village Cycling Safari & Wildlife Encounters",
     description:
       "Explore the village and surrounding landscapes by bicycle, riding through farms, forests, and along the edges of Lake Manyara National Park where wildlife often ventures outside park boundaries. Experience rural Tanzania at a perfect pace with plenty of stops for photos and interaction.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/cycling-tour.jpg",
       "/images/tours/mto-wa-mbu-village/village-wildlife.jpg",
@@ -98,6 +107,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Traditional Cooking Class & Family Meal",
     description:
       "Learn to prepare authentic Tanzanian dishes in a local home kitchen using fresh ingredients from the village market. Cook over an open fire just as local families do daily, then enjoy your creations with your host family while sharing stories and cultural exchange.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/cooking-class.jpg",
       "/images/tours/mto-wa-mbu-village/family-meal.jpg",
@@ -129,6 +141,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Maasai Traditions & Boma Visit",
     description:
       "Visit a nearby Maasai boma (village compound) where this iconic pastoralist tribe maintains traditional lifestyles while adapting to modern challenges. Learn about their unique culture, witness traditional ceremonies, and understand the complex relationship between conservation and indigenous ways of life.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/maasai-boma.jpg",
       "/images/tours/mto-wa-mbu-village/maasai-ceremonies.jpg",
@@ -161,6 +176,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Artisan Workshops & Craft Learning",
     description:
       "Engage with local artisans practicing traditional crafts including wood carving, beading, and basket weaving. Try your hand at these techniques with guidance from master craftspeople and create your own souvenir while supporting local creative enterprises.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/wood-carving.jpg",
       "/images/tours/mto-wa-mbu-village/basket-weaving.jpg",
@@ -192,6 +210,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Sunset Canoe Safari on Lake Manyara",
     description:
       "Paddle traditional wooden canoes on the edges of Lake Manyara as the sun sets behind the Great Rift Valley escarpment. Spot incredible birdlife, hippos, and other wildlife from a unique water perspective while learning about the lake's ecological importance.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/lake-canoe.jpg",
       "/images/tours/mto-wa-mbu-village/sunset-lake-manyara.jpg",
@@ -223,6 +244,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Community Development Projects & Local Impact",
     description:
       "Go beyond typical tourism by visiting community-led development initiatives including schools, sustainable agriculture projects, and women's cooperatives. Learn how responsible tourism directly benefits local communities and contributes to conservation efforts.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/community-project.jpg",
       "/images/tours/mto-wa-mbu-village/school-visit.jpg",
@@ -254,6 +278,9 @@ export const mtoWaMbuVillageTours: Tour[] = [
     title: "Cultural Festivals & Events",
     description:
       "Experience the vibrant cultural festivals of Mto wa Mbu, which celebrate the village's rich diversity through music, dance, and traditional ceremonies. Join in the festivities with local families and learn about the significance of these events in fostering community spirit.",
+    city: "Mto wa Mbu",
+    country: "Tanzania",
+    region: "Arusha Region",
     images: [
       "/images/tours/mto-wa-mbu-village/cultural-festival.jpg",
       "/images/tours/mto-wa-mbu-village/dance-performance.jpg",

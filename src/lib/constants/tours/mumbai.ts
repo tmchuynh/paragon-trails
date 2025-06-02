@@ -5,6 +5,9 @@ export const mumbaiTours: Tour[] = [
     title: "Dharavi: Beyond the Slum Experience",
     description:
       "Explore Asia's largest slum with local guides born and raised in the community to discover its thriving industries, vibrant culture, and entrepreneurial spirit that generates an annual turnover of over $1 billion.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/dharavi-industries.jpg",
       "/images/tours/mumbai/dharavi-community.jpg",
@@ -36,6 +39,9 @@ export const mumbaiTours: Tour[] = [
     title: "Bollywood Studio Tour & Dance Workshop",
     description:
       "Go behind the scenes at one of Mumbai's legendary film studios to witness movie magic in action, followed by a choreography session where you'll learn signature Bollywood dance moves from professional performers.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/bollywood-set.jpg",
       "/images/tours/mumbai/dance-workshop.jpg",
@@ -67,6 +73,9 @@ export const mumbaiTours: Tour[] = [
     title: "Mumbai Street Food Safari",
     description:
       "Embark on a culinary adventure through Mumbai's vibrant street food scene with a food expert who navigates the best hygienic vendors serving authentic local favorites from vada pav to pav bhaji, bhel puri, and more.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/street-food.jpg",
       "/images/tours/mumbai/chaat-stalls.jpg",
@@ -98,6 +107,9 @@ export const mumbaiTours: Tour[] = [
     title: "Dawn on the Arabian Sea: Fishing Village & Market",
     description:
       "Experience the authentic rhythms of Mumbai's fishing communities with a pre-dawn visit to Sassoon Docks where traditional Koli fishermen bring in the night's catch, followed by the lively wholesale fish auction and colorful retail market.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/sassoon-docks.jpg",
       "/images/tours/mumbai/fish-market.jpg",
@@ -124,6 +136,9 @@ export const mumbaiTours: Tour[] = [
     title: "Colonial Mumbai Heritage Walk",
     description:
       "Step back in time with a walking tour through Mumbai's historic Fort district, exploring stunning Gothic and Art Deco architecture, hidden colonial-era gems, and the stories behind the city's transformation from fishing village to global metropolis.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/colonial-architecture.jpg",
       "/images/tours/mumbai/gateway-india.jpg",
@@ -155,6 +170,9 @@ export const mumbaiTours: Tour[] = [
     title: "Mumbai by Night: Queens Necklace & Rooftop Cocktails",
     description:
       "Experience the dazzling transformation of Mumbai after dark with a scenic drive along Marine Drive's 'Queen's Necklace', followed by exclusive rooftop cocktails offering panoramic views of the illuminated cityscape.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/marines-drive-night.jpg",
       "/images/tours/mumbai/rooftop-bar.jpg",
@@ -186,6 +204,9 @@ export const mumbaiTours: Tour[] = [
     title: "Elephanta Caves Private Tour & Sunset Sailing",
     description:
       "Journey across Mumbai Harbor to the UNESCO-listed Elephanta Caves with an archaeology expert to explore ancient rock-cut temples, followed by a private sunset sailing experience along the coast with champagne and Indian canapés.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/elephanta-caves.jpg",
       "/images/tours/mumbai/harbor-sunset.jpg",
@@ -217,6 +238,9 @@ export const mumbaiTours: Tour[] = [
     title: "Mumbai's Secret Gardens & Hidden Oases",
     description:
       "Discover the surprising green sanctuaries tucked within Mumbai's urban jungle, from historic botanical gardens and exclusive members-only parks to rooftop urban farms and the world's largest inner-city tropical forest.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/hanging-gardens.jpg",
       "/images/tours/mumbai/urban-forest.jpg",
@@ -248,6 +272,9 @@ export const mumbaiTours: Tour[] = [
     title: "Mumbai's Art Deco Heritage Tour",
     description:
       "Explore the world's largest collection of Art Deco buildings outside Miami with an architecture expert, visiting iconic structures, hidden gems, and learning about the history and preservation of this unique architectural style.",
+    city: "Mumbai",
+    country: "India",
+    region: "Maharashtra",
     images: [
       "/images/tours/mumbai/art-deco-building.jpg",
       "/images/tours/mumbai/art-deco-interior.jpg",

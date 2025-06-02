@@ -5,6 +5,9 @@ export const materaTours: Tour[] = [
     title: "Sassi Cave Dwellings & Ancient Civilization",
     description:
       "Journey through 9,000 years of human history in Matera's UNESCO-listed cave dwellings with an archaeology expert who reveals the extraordinary story of the oldest continuously inhabited settlement in Italy.",
+    city: "Matera",
+    country: "Italy",
+    region: "Basilicata",
     images: [
       "/images/tours/matera/sassi-view.jpg",
       "/images/tours/matera/cave-church.jpg",
@@ -36,6 +39,9 @@ export const materaTours: Tour[] = [
     title: "Cucina Povera: Traditional Cooking in Ancient Caves",
     description:
       "Learn the secrets of Matera's 'peasant cuisine' with a hands-on cooking class inside a restored cave dwelling, mastering traditional recipes that have sustained generations using simple, high-quality local ingredients.",
+    city: "Matera",
+    country: "Italy",
+    region: "Basilicata",
     images: [
       "/images/tours/matera/cave-cooking.jpg",
       "/images/tours/matera/traditional-bread.jpg",
@@ -67,6 +73,9 @@ export const materaTours: Tour[] = [
     title: "Matera by Night: Illuminated Sassi Tour",
     description:
       "Experience the magical transformation of Matera's Sassi district as the sun sets, with a guided evening walk through the illuminated cave dwellings and churches, followed by a wine tasting in a historic grotto.",
+    city: "Matera",
+    country: "Italy",
+    region: "Basilicata",
     images: [
       "/images/tours/matera/sassi-night.jpg",
       "/images/tours/matera/wine-tasting.jpg",

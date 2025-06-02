@@ -5,6 +5,9 @@ export const mexicoCityTours: Tour[] = [
     title: "Teotihuacan Pyramids at Sunrise & Archaeologist Tour",
     description:
       "Experience the majestic ancient city of Teotihuacan without crowds during the magical morning light, with expert interpretation from an archaeologist specializing in Mesoamerican civilizations.",
+    city: "Mexico City",
+    country: "Mexico",
+    region: "Mexico City",
     images: [
       "/images/tours/mexico-city/teotihuacan-sunrise.jpg",
       "/images/tours/mexico-city/pyramid-sun.jpg",
@@ -41,6 +44,9 @@ export const mexicoCityTours: Tour[] = [
     title: "Mexico City Street Food & Market Adventure",
     description:
       "Taste your way through Mexico City's celebrated culinary scene, from bustling markets to street stands serving regional specialties, with insights into ingredients, techniques, and cultural significance.",
+    city: "Mexico City",
+    country: "Mexico",
+    region: "Mexico City",
     images: [
       "/images/tours/mexico-city/street-tacos.jpg",
       "/images/tours/mexico-city/mercado.jpg",
@@ -77,6 +83,9 @@ export const mexicoCityTours: Tour[] = [
     title: "Xochimilco Floating Gardens & Mariachi Experience",
     description:
       "Explore the UNESCO-listed Xochimilco canals on a traditional trajinera boat, enjoying a leisurely ride through the floating gardens while listening to live mariachi music and sampling local snacks.",
+    city: "Mexico City",
+    country: "Mexico",
+    region: "Mexico City",
     images: [
       "/images/tours/mexico-city/xochimilco-boat.jpg",
       "/images/tours/mexico-city/mariachi.jpg",

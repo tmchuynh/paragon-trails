@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const mauiTours: Tour[] = [
   {
     title: "Road to Hana Private Adventure",
@@ -13,7 +12,6 @@ export const mauiTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Scenic Drive", "Waterfalls", "Private Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -39,7 +37,6 @@ export const mauiTours: Tour[] = [
     price: "$195",
     rating: 4.8,
     tags: ["Sunrise", "Cycling", "National Park"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -65,7 +62,6 @@ export const mauiTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Hawaiian Culture", "Traditions", "Hands-on"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -91,7 +87,6 @@ export const mauiTours: Tour[] = [
     price: "$145",
     rating: 4.7,
     tags: ["Snorkeling", "Marine Life", "Boat Tour"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -122,7 +117,6 @@ export const mauiTours: Tour[] = [
     price: "$215",
     rating: 4.8,
     tags: ["Culinary", "Farms", "Cooking"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -153,7 +147,6 @@ export const mauiTours: Tour[] = [
     price: "$185",
     rating: 4.8,
     tags: ["Photography", "Landscapes", "Sunset"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -184,7 +177,6 @@ export const mauiTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Cultural", "Paddling", "Ocean"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -211,11 +203,10 @@ export const mauiTours: Tour[] = [
       "/images/tours/maui/helicopter-waterfalls.jpg",
       "/images/tours/maui/aerial-coastline.jpg",
     ],
-    duration: "90 minutes",
+    duration: "2 hours",
     price: "$395",
     rating: 5.0,
     tags: ["Helicopter", "Aerial", "Sightseeing"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -246,7 +237,6 @@ export const mauiTours: Tour[] = [
     price: "$99",
     rating: 4.9,
     tags: ["Whale Watching", "Marine Life", "Conservation"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -266,5 +256,4 @@ export const mauiTours: Tour[] = [
     ],
   },
 ];
-
 export default mauiTours;

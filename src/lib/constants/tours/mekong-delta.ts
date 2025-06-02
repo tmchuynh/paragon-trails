@@ -5,11 +5,14 @@ export const mekongDeltaTours: Tour[] = [
     title: "Floating Markets & Waterways Exploration",
     description:
       "Experience the authentic river life of the Mekong Delta by visiting vibrant floating markets where farmers trade produce from boat to boat. Navigate narrow canals, witness traditional commerce unchanged for centuries, and interact with welcoming local merchants.",
+    city: "Can Tho",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/cai-rang-market.jpg",
       "/images/tours/mekong-delta/boat-vendors.jpg",
     ],
-    duration: "Full day",
+    duration: "10 hours",
     price: "$75",
     rating: 4.8,
     tags: ["Markets", "River Life", "Cultural"],
@@ -36,6 +39,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Mekong Cuisine: Cooking Class & Orchard Tour",
     description:
       "Discover the distinctive flavors of Mekong Delta cuisine through a hands-on cooking class. Visit tropical fruit orchards, learn about unusual ingredients, and prepare regional specialties like caramelized fish in clay pot, rice paper rolls, and coconut candy.",
+    city: "Vinh Long",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/cooking-class.jpg",
       "/images/tours/mekong-delta/fruit-orchard.jpg",
@@ -67,6 +73,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Paddle Through Mangrove Forests & Hidden Canals",
     description:
       "Navigate the Mekong's less-visited waterways by sampan or kayak, gliding through tranquil water coconut forests and narrow canals that larger boats can't access. Spot diverse birds, monitor lizards, and traditional riverside homes while experiencing the delta's natural beauty.",
+    city: "Ben Tre",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/mangrove-kayaking.jpg",
       "/images/tours/mekong-delta/narrow-canals.jpg",
@@ -98,6 +107,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Bicycle Tour: Island Villages & Orchards",
     description:
       "Explore the peaceful back roads of Mekong Delta islands by bicycle, pedaling past rice fields, fruit orchards, and rural villages. Stop to interact with farmers, visit cottage industries, and enjoy fresh tropical fruits straight from the orchard.",
+    city: "Tra Vinh",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/cycling-rice-fields.jpg",
       "/images/tours/mekong-delta/village-cycling.jpg",
@@ -129,6 +141,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Mekong Delta Photography Expedition",
     description:
       "Capture the photogenic essence of the Mekong Delta with a professional photographer guiding you to optimal shooting locations and helping perfect your technique. Focus on floating markets at dawn, daily river life, and stunning sunset scenes over the waterways.",
+    city: "Can Tho",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/photography-workshop.jpg",
       "/images/tours/mekong-delta/river-sunset-photo.jpg",
@@ -160,6 +175,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Mekong River Sunset Cruise & Dinner",
     description:
       "Cruise the majestic waters of the Mekong at the most enchanting time of day, when the setting sun bathes the river in golden light. Enjoy a gourmet Vietnamese dinner aboard a traditional wooden boat while watching river life unfold along the banks.",
+    city: "Can Tho",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/sunset-cruise.jpg",
       "/images/tours/mekong-delta/river-dinner.jpg",
@@ -191,6 +209,9 @@ export const mekongDeltaTours: Tour[] = [
     title: "Traditional Crafts & Cottage Industries",
     description:
       "Discover the rich artisanal heritage of the Mekong Delta by visiting family workshops that produce coconut candy, rice paper, pottery, and woven mats using techniques passed down through generations. Try your hand at each craft with guidance from master artisans.",
+    city: "Ben Tre",
+    country: "Vietnam",
+    region: "Mekong Delta",
     images: [
       "/images/tours/mekong-delta/coconut-candy-making.jpg",
       "/images/tours/mekong-delta/traditional-crafts.jpg",

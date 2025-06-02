@@ -5,6 +5,9 @@ export const montrealTours: Tour[] = [
     title: "Underground City & Hidden Passages",
     description:
       "Explore Montreal's vast underground network with a local architect, discovering art installations, secret shortcuts, and architectural marvels while learning how this unique subterranean city developed.",
+    city: "Montreal",
+    country: "Canada",
+    region: "Quebec",
     images: [
       "/images/tours/montreal/underground-city.jpg",
       "/images/tours/montreal/underground-art.jpg",
@@ -36,6 +39,9 @@ export const montrealTours: Tour[] = [
     title: "Plateau Food & Mural Art Experience",
     description:
       "Discover Montreal's hippest neighborhood through its cuisine and street art, sampling local specialties while exploring colorful murals and learning about the artists who transformed this vibrant district.",
+    city: "Montreal",
+    country: "Canada",
+    region: "Quebec",
     images: [
       "/images/tours/montreal/plateau-mural.jpg",
       "/images/tours/montreal/montreal-bagels.jpg",
@@ -72,6 +78,9 @@ export const montrealTours: Tour[] = [
     title: "Montreal's Historic Neighborhoods Walking Tour",
     description:
       "Stroll through Montreal's historic districts with a local historian, visiting Old Montreal, the Latin Quarter, and Little Italy while learning about the city's rich cultural heritage and architectural evolution.",
+    city: "Montreal",
+    country: "Canada",
+    region: "Quebec",
     images: [
       "/images/tours/montreal/old-montreal.jpg",
       "/images/tours/montreal/latin-quarter.jpg",

@@ -5,6 +5,9 @@ export const melbourneTours: Tour[] = [
     title: "Hidden Laneways & Street Art Culture",
     description:
       "Discover Melbourne's famous laneway culture with a renowned street artist guiding you through colorful alleys, explaining techniques, artist stories, and the evolution of Melbourne's dynamic urban art scene. Includes a hands-on stencil art workshop.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/street-art.jpg",
       "/images/tours/melbourne/hidden-laneways.jpg",
@@ -36,11 +39,14 @@ export const melbourneTours: Tour[] = [
     title: "Great Ocean Road & Twelve Apostles Adventure",
     description:
       "Experience one of the world's most scenic coastal drives with a naturalist guide. Visit the iconic Twelve Apostles limestone formations, ancient rainforests, and pristine beaches while learning about unique wildlife and shipwreck history.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/twelve-apostles.jpg",
       "/images/tours/melbourne/great-ocean-road.jpg",
     ],
-    duration: "Full day",
+    duration: "10 hours",
     price: "$145",
     rating: 4.8,
     tags: ["Coastal Drive", "Natural Wonders", "Photography"],
@@ -67,6 +73,9 @@ export const melbourneTours: Tour[] = [
     title: "Melbourne Coffee Culture & Hidden Cafés",
     description:
       "Explore Melbourne's world-famous coffee scene with a professional barista. Visit specialty roasters, learn cupping techniques, discover secret cafés in unexpected locations, and understand what makes Melbourne's coffee culture unique globally.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/coffee-tasting.jpg",
       "/images/tours/melbourne/hidden-cafe.jpg",
@@ -98,6 +107,9 @@ export const melbourneTours: Tour[] = [
     title: "Yarra Valley Wine & Artisanal Food Journey",
     description:
       "Sample premium cool-climate wines at boutique vineyards in the scenic Yarra Valley. Meet winemakers, enjoy exclusive cellar door tastings, and indulge in a gourmet lunch featuring local produce paired perfectly with regional wines.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/yarra-valley-vineyard.jpg",
       "/images/tours/melbourne/wine-tasting.jpg",
@@ -129,6 +141,9 @@ export const melbourneTours: Tour[] = [
     title: "Australian Wildlife Encounter & Penguin Parade",
     description:
       "Get up close with iconic Australian wildlife at a conservation sanctuary before witnessing the famous Phillip Island penguin parade, where hundreds of little penguins return from the ocean to their burrows at sunset.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/koala-encounter.jpg",
       "/images/tours/melbourne/penguin-parade.jpg",
@@ -160,6 +175,9 @@ export const melbourneTours: Tour[] = [
     title: "Aboriginal Melbourne: Indigenous Cultural Heritage",
     description:
       "Explore Melbourne through the perspective of its first inhabitants with an Indigenous guide sharing Dreamtime stories, traditional uses of native plants, and the ongoing cultural significance of sites throughout the city and Royal Botanic Gardens.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/indigenous-culture.jpg",
       "/images/tours/melbourne/aboriginal-art.jpg",
@@ -191,6 +209,9 @@ export const melbourneTours: Tour[] = [
     title: "Melbourne Photography Masterclass",
     description:
       "Perfect your photography skills at Melbourne's most photogenic locations with guidance from a professional architectural and urban photographer. Learn techniques for capturing cityscapes, street scenes, and iconic buildings in the best light.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/photography-workshop.jpg",
       "/images/tours/melbourne/cityscape-photography.jpg",
@@ -222,6 +243,9 @@ export const melbourneTours: Tour[] = [
     title: "Melbourne Progressive Dining Experience",
     description:
       "Indulge in a moving feast across Melbourne's diverse culinary neighborhoods. Enjoy different courses at multiple acclaimed restaurants, from innovative modern Australian cuisine to authentic ethnic specialties, with expert food and wine pairings.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/fine-dining.jpg",
       "/images/tours/melbourne/food-tour.jpg",
@@ -253,6 +277,9 @@ export const melbourneTours: Tour[] = [
     title: "Melbourne's Historic Pubs & Craft Beer Tour",
     description:
       "Explore Melbourne's vibrant pub culture with a local guide, visiting historic pubs, hidden bars, and craft breweries. Sample a variety of local beers, learn about the city's brewing history, and enjoy traditional pub fare.",
+    city: "Melbourne",
+    country: "Australia",
+    region: "Victoria",
     images: [
       "/images/tours/melbourne/historic-pub.jpg",
       "/images/tours/melbourne/craft-beer.jpg",

@@ -5,6 +5,9 @@ export const marrakechTours: Tour[] = [
     title: "Medina Cultural Walking Tour",
     description:
       "Navigate the labyrinthine streets of Marrakech's ancient medina with a local guide, discovering hidden palaces, artisan workshops, and historic sites beyond the tourist path.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Marrakech-Safi",
     images: [
       "/images/tours/marrakech/medina-streets.jpg",
       "/images/tours/marrakech/artisan-workshop.jpg",
@@ -41,6 +44,9 @@ export const marrakechTours: Tour[] = [
     title: "Sahara Desert & Berber Experience",
     description:
       "Journey to the edge of the Sahara for camel trekking across golden dunes, dinner under the stars at a luxury desert camp, and cultural exchange with Berber nomads.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Marrakech-Safi",
     images: [
       "/images/tours/marrakech/sahara-camels.jpg",
       "/images/tours/marrakech/desert-camp.jpg",
@@ -77,6 +83,9 @@ export const marrakechTours: Tour[] = [
     title: "Atlas Mountains Hiking & Local Cuisine",
     description:
       "Hike through the stunning Atlas Mountains, visiting traditional Berber villages, and enjoy a home-cooked meal with a local family in their mountain home.",
+    city: "Marrakech",
+    country: "Morocco",
+    region: "Marrakech-Safi",
     images: [
       "/images/tours/marrakech/atlas-hiking.jpg",
       "/images/tours/marrakech/berber-cuisine.jpg",

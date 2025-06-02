@@ -5,6 +5,9 @@ export const naplesTours: Tour[] = [
     title: "Authentic Neapolitan Pizza Masterclass",
     description:
       "Learn the secrets of true Neapolitan pizza from a third-generation pizzaiolo in a historic center pizzeria, from dough preparation to wood-fired oven techniques.",
+    city: "Naples",
+    country: "Italy",
+    region: "Campania",
     images: [
       "/images/tours/naples/pizza-making.jpg",
       "/images/tours/naples/wood-fired-oven.jpg",
@@ -41,6 +44,9 @@ export const naplesTours: Tour[] = [
     title: "Pompeii & Vesuvius VIP Experience",
     description:
       "Explore the ancient ruins of Pompeii with an archaeologist, then journey up Mount Vesuvius for a private volcanic wine tasting at an exclusive estate on the volcano's slopes.",
+    city: "Naples",
+    country: "Italy",
+    region: "Campania",
     images: [
       "/images/tours/naples/pompeii-ruins.jpg",
       "/images/tours/naples/vesuvius-vineyard.jpg",
@@ -77,6 +83,9 @@ export const naplesTours: Tour[] = [
     title: "Capri Island Day Trip with Private Boat Tour",
     description:
       "Experience the stunning beauty of Capri with a private boat tour around the island, visiting the Blue Grotto, Faraglioni rocks, and hidden coves, followed by free time to explore the charming town of Anacapri.",
+    city: "Naples",
+    country: "Italy",
+    region: "Campania",
     images: [
       "/images/tours/naples/capri-boat.jpg",
       "/images/tours/naples/blue-grotto.jpg",

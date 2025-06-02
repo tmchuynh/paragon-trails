@@ -5,6 +5,9 @@ export const mostarTours: Tour[] = [
     title: "Stari Most: Bridge Diving Traditions & History",
     description:
       "Discover the fascinating history and traditions surrounding Mostar's iconic Ottoman bridge. Meet local divers from the centuries-old diving club, learn about the bridge's destruction and reconstruction, and witness the breathtaking 24-meter dive into the emerald waters below.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/stari-most-bridge.jpg",
       "/images/tours/mostar/bridge-diver.jpg",
@@ -36,6 +39,9 @@ export const mostarTours: Tour[] = [
     title: "War History & Reconciliation Walking Tour",
     description:
       "Gain deep insights into Bosnia's complex recent history through the eyes of local residents who lived through the 1990s conflict. Visit sites of significance including the former front line, restored buildings, and powerful memorials while hearing personal stories of war and peace.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/war-damage.jpg",
       "/images/tours/mostar/reconciliation-memorial.jpg",
@@ -67,6 +73,9 @@ export const mostarTours: Tour[] = [
     title: "Ottoman Crafts & Coppersmith Workshop",
     description:
       "Experience the living heritage of Mostar's traditional crafts with a hands-on workshop in a family-run coppersmith studio. Create your own decorated copper souvenir using centuries-old techniques while learning about Ottoman artistic traditions that have survived through generations.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/coppersmith-workshop.jpg",
       "/images/tours/mostar/copper-crafts.jpg",
@@ -98,6 +107,9 @@ export const mostarTours: Tour[] = [
     title: "Neretva River Rafting Adventure",
     description:
       "Navigate crystal-clear turquoise waters on an exciting rafting journey down the Neretva River. Encounter rapids, tranquil stretches, and dramatic canyons while experiencing Bosnia's stunning natural landscapes from a unique perspective.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/neretva-rafting.jpg",
       "/images/tours/mostar/river-canyon.jpg",
@@ -129,6 +141,9 @@ export const mostarTours: Tour[] = [
     title: "Herzegovina Wine Route & Village Lunch",
     description:
       "Discover Herzegovina's emerging wine scene with tastings at family-owned vineyards specializing in indigenous grape varieties. Visit stone cellars, meet winemakers, and enjoy a homestyle lunch in a traditional village home featuring local specialties paired with regional wines.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/wine-tasting.jpg",
       "/images/tours/mostar/village-lunch.jpg",
@@ -160,6 +175,9 @@ export const mostarTours: Tour[] = [
     title: "Mostar Photography Walk at Dawn",
     description:
       "Capture stunning images of Mostar's medieval architecture and dramatic landscapes in the magical morning light. A professional photographer guides you to prime shooting locations at optimal times, providing technical advice and historical context.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/dawn-photography.jpg",
       "/images/tours/mostar/bridge-sunrise.jpg",
@@ -191,6 +209,9 @@ export const mostarTours: Tour[] = [
     title: "Kravice Waterfalls & Natural Bosnia",
     description:
       "Escape to the breathtaking Kravice Waterfalls, a hidden natural wonder with cascades spanning 25 meters high and 120 meters across. Swim in crystal-clear emerald pools, enjoy a picnic lunch in this pristine setting, and explore surrounding villages and landscapes.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/kravice-waterfalls.jpg",
       "/images/tours/mostar/waterfall-swimming.jpg",
@@ -222,6 +243,9 @@ export const mostarTours: Tour[] = [
     title: "Blagaj Tekke & Buna River Springs",
     description:
       "Visit the serene Blagaj Tekke, a 16th-century Dervish monastery built into a cliff overlooking the Buna River springs. Learn about Sufi traditions, explore the tranquil grounds, and enjoy a riverside tea break in this spiritual oasis.",
+    city: "Mostar",
+    country: "Bosnia and Herzegovina",
+    region: "Herzegovina-Neretva Canton",
     images: [
       "/images/tours/mostar/blagaj-tekke.jpg",
       "/images/tours/mostar/buna-river.jpg",

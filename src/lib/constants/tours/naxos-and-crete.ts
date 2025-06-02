@@ -5,6 +5,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Island Hopping Adventure: Naxos to Crete",
     description:
       "Experience the best of the Greek islands with a multi-day journey from the marble splendors of Naxos to the ancient Minoan wonders of Crete, with guided exploration of hidden beaches, traditional villages, and archaeological treasures.",
+    city: "Multiple",
+    country: "Greece",
+    region: "South Aegean & Crete",
     images: [
       "/images/tours/naxos-and-crete/island-hopping.jpg",
       "/images/tours/naxos-and-crete/secluded-beach.jpg",
@@ -36,6 +39,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Ancient Knossos & Minoan Civilization",
     description:
       "Explore Europe's oldest civilization with an archaeologist guide at the palace of Knossos, legendary home of the Minotaur labyrinth, followed by the Heraklion Archaeological Museum housing the world's finest collection of Minoan artifacts.",
+    city: "Heraklion",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/naxos-and-crete/knossos-palace.jpg",
       "/images/tours/naxos-and-crete/minoan-artifacts.jpg",
@@ -67,6 +73,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Naxos Marble Villages & Artisan Traditions",
     description:
       "Journey into the mountainous interior of Naxos to discover villages built from the island's famed marble, meet traditional craftspeople in their workshops, and participate in hands-on demonstrations of ancient techniques still practiced today.",
+    city: "Naxos",
+    country: "Greece",
+    region: "South Aegean",
     images: [
       "/images/tours/naxos-and-crete/marble-village.jpg",
       "/images/tours/naxos-and-crete/artisan-workshop.jpg",
@@ -98,6 +107,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Cretan Culinary Journey & Cooking Workshop",
     description:
       "Discover why Cretan cuisine is considered the healthiest in the Mediterranean with visits to olive groves, cheese makers, and organic farms, culminating in a hands-on cooking class where you'll prepare traditional dishes using farm-fresh ingredients.",
+    city: "Rethymno",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/naxos-and-crete/cretan-cuisine.jpg",
       "/images/tours/naxos-and-crete/cooking-class.jpg",
@@ -129,6 +141,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Samaria Gorge Hiking Adventure",
     description:
       "Traverse Europe's longest gorge on this spectacular guided hike through Samaria National Park, experiencing dramatic landscapes, ancient forests, and rare wildlife before emerging at a pristine beach accessible only by foot or boat.",
+    city: "Chania",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/naxos-and-crete/samaria-gorge.jpg",
       "/images/tours/naxos-and-crete/gorge-hiking.jpg",
@@ -160,6 +175,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Naxos Sailing & Hidden Beaches",
     description:
       "Sail the crystal-clear waters surrounding Naxos aboard a traditional wooden caique boat to discover secluded beaches, pristine swimming coves, and spectacular coastal formations inaccessible by land.",
+    city: "Naxos",
+    country: "Greece",
+    region: "South Aegean",
     images: [
       "/images/tours/naxos-and-crete/sailing-tour.jpg",
       "/images/tours/naxos-and-crete/hidden-cove.jpg",
@@ -191,6 +209,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Zeus Cave & Lassithi Plateau 4x4 Expedition",
     description:
       "Journey into Crete's mythical mountains by 4x4 vehicle to explore the legendary birthplace of Zeus, traditional plateau villages frozen in time, and panoramic vistas across the island's spectacular interior landscape.",
+    city: "Lassithi",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/naxos-and-crete/zeus-cave.jpg",
       "/images/tours/naxos-and-crete/lassithi-plateau.jpg",
@@ -222,6 +243,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Portara Sunset Photography Workshop",
     description:
       "Capture the perfect sunset image of Naxos's iconic Portara (Temple of Apollo) during golden hour and blue hour, with expert guidance from a professional landscape photographer who knows the optimal angles, camera settings, and timing.",
+    city: "Naxos",
+    country: "Greece",
+    region: "South Aegean",
     images: [
       "/images/tours/naxos-and-crete/portara-sunset.jpg",
       "/images/tours/naxos-and-crete/photography-workshop.jpg",
@@ -253,6 +277,9 @@ export const naxosAndCreteTours: Tour[] = [
     title: "Crete Wine & Olive Oil Tasting Tour",
     description:
       "Indulge in the flavors of Crete with a guided tour of local wineries and olive oil farms, sampling award-winning wines and extra virgin olive oils while learning about traditional production methods and the island's rich agricultural heritage.",
+    city: "Heraklion",
+    country: "Greece",
+    region: "Crete",
     images: [
       "/images/tours/naxos-and-crete/wine-tasting.jpg",
       "/images/tours/naxos-and-crete/olive-oil-farm.jpg",

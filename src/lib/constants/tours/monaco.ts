@@ -5,6 +5,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Grand Prix VIP Experience",
     description:
       "Experience the legendary Monaco Grand Prix from exclusive VIP terraces overlooking the circuit's most exciting corners. Enjoy champagne reception, gourmet catering, and meet-and-greets with Formula 1 personalities while witnessing motorsport's most prestigious race.",
+    city: "Monte Carlo",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/grand-prix-vip.jpg",
       "/images/tours/monaco/f1-terrace-view.jpg",
@@ -41,6 +44,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Royal Palace & Old Town Private Tour",
     description:
       "Explore the fascinating history of Europe's oldest monarchy with private access to areas of the Prince's Palace normally closed to the public, followed by a guided walk through Monaco-Ville's medieval lanes and exclusive lunch at a palace-view restaurant.",
+    city: "Monaco-Ville",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/royal-palace.jpg",
       "/images/tours/monaco/monaco-ville.jpg",
@@ -77,6 +83,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Yacht Charter & Coastal Elegance",
     description:
       "Cruise the French Riviera aboard a private luxury yacht with champagne and gourmet canapés. Explore hidden coves, enjoy swimming in crystal waters, and experience Monaco's coastline as the privileged do - from the stunning vantage point of the sea.",
+    city: "Monaco",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/luxury-yacht.jpg",
       "/images/tours/monaco/coast-cruise.jpg",
@@ -113,6 +122,9 @@ export const monacoTours: Tour[] = [
     title: "Monte Carlo Casino & Belle Époque Heritage Tour",
     description:
       "Step into the glamorous world of Monte Carlo's legendary casino with a behind-the-scenes tour of its opulent Belle Époque architecture, famous gaming rooms, and rich history. Learn about famous gamblers, royal patrons, and the casino's role in Monaco's prosperity.",
+    city: "Monte Carlo",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/monte-carlo-casino.jpg",
       "/images/tours/monaco/belle-epoque-architecture.jpg",
@@ -149,6 +161,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Gastronomic Journey & Wine Tasting",
     description:
       "Indulge in Monaco's exceptional culinary scene with a progressive dining experience through Michelin-starred restaurants and private wine cellars, guided by a gourmet expert who shares insights into Mediterranean haute cuisine.",
+    city: "Monaco",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/michelin-cuisine.jpg",
       "/images/tours/monaco/wine-cellar.jpg",
@@ -185,6 +200,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco by Night: Glamour & Entertainment",
     description:
       "Experience Monaco's legendary nightlife with VIP access to exclusive clubs, lounges, and casino private rooms. Enjoy priority entry, premium services, and the vibrant atmosphere that attracts celebrities and jet-setters from around the world.",
+    city: "Monte Carlo",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/nightclub-vip.jpg",
       "/images/tours/monaco/casino-night.jpg",
@@ -221,6 +239,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Ocean Conservation & Oceanographic Museum",
     description:
       "Discover Prince Albert's environmental initiatives with a marine biologist guide at the historic Oceanographic Museum. Participate in a private marine conservation workshop and enjoy an exclusive behind-the-scenes tour of research facilities normally closed to visitors.",
+    city: "Monaco",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/oceanographic-museum.jpg",
       "/images/tours/monaco/marine-conservation.jpg",
@@ -252,6 +273,9 @@ export const monacoTours: Tour[] = [
     title: "Monaco Art & Culture: Galleries & Performance",
     description:
       "Explore Monaco's vibrant art scene with a private tour of contemporary galleries, artist studios, and exclusive access to cultural performances at the Grimaldi Forum. Meet local artists and learn about the principality's role in the global art world.",
+    city: "Monaco",
+    country: "Monaco",
+    region: "Monaco",
     images: [
       "/images/tours/monaco/art-galleries.jpg",
       "/images/tours/monaco/grimaldi-forum.jpg",

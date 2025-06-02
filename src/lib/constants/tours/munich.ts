@@ -5,6 +5,9 @@ export const munichTours: Tour[] = [
     title: "Beer & Brewery Heritage Tour",
     description:
       "Discover Munich's rich brewing history with visits to traditional beer halls, historic breweries, and the famous Hofbräuhaus. Learn about the 500-year-old Bavarian Purity Law while sampling distinctive beer styles.",
+    city: "Munich",
+    country: "Germany",
+    region: "Bavaria",
     images: [
       "/images/tours/munich/beer-hall.jpg",
       "/images/tours/munich/brewery-tour.jpg",
