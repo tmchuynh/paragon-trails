@@ -365,78 +365,58 @@ export default function DestinationDetailsPage() {
                   <div className="space-y-2">
                     <h3>Experience Type</h3>
                     <div className="space-y-1">
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="historical"
-                          checked={filters.isHistorical}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isHistorical", checked)
-                          }
-                        />
-                        <Label htmlFor="historical">Historical</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="adventure"
-                          checked={filters.isAdventure}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isAdventure", checked)
-                          }
-                        />
-                        <Label htmlFor="adventure">Adventure</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="romantic"
-                          checked={filters.isRomantic}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isRomantic", checked)
-                          }
-                        />
-                        <Label htmlFor="romantic">Romantic</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="luxury"
-                          checked={filters.isLuxury}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isLuxury", checked)
-                          }
-                        />
-                        <Label htmlFor="luxury">Luxury</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="indoor"
-                          checked={filters.isSpiritual}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isSpiritual", checked)
-                          }
-                        />
-                        <Label htmlFor="indoor">Spiritual</Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="offbeat"
-                          checked={filters.isOffTheBeatenPath}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isOffTheBeatenPath", checked)
-                          }
-                        />
-                        <Label htmlFor="offbeat">Off The Beaten Path</Label>
-                      </div>
-
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          id="local"
-                          checked={filters.isLocalExperience}
-                          onCheckedChange={(checked) =>
-                            handleFilterChange("isLocalExperience", checked)
-                          }
-                        />
-                        <Label htmlFor="local">Local Experience</Label>
-                      </div>
+                      {[
+                        {
+                          id: "historical",
+                          key: "isHistorical",
+                          label: "Historical",
+                        },
+                        {
+                          id: "adventure",
+                          key: "isAdventure",
+                          label: "Adventure",
+                        },
+                        {
+                          id: "romantic",
+                          key: "isRomantic",
+                          label: "Romantic",
+                        },
+                        { id: "luxury", key: "isLuxury", label: "Luxury" },
+                        {
+                          id: "spiritual",
+                          key: "isSpiritual",
+                          label: "Spiritual",
+                        },
+                        {
+                          id: "offbeat",
+                          key: "isOffTheBeatenPath",
+                          label: "Off The Beaten Path",
+                        },
+                        {
+                          id: "local",
+                          key: "isLocalExperience",
+                          label: "Local Experience",
+                        },
+                      ].map((item) => (
+                        <div
+                          key={item.id}
+                          className="flex items-center space-x-2"
+                        >
+                          <Checkbox
+                            id={item.id}
+                            checked={Boolean(
+                              filters[item.key as keyof typeof filters]
+                            )}
+                            onCheckedChange={(checked) =>
+                              handleFilterChange(
+                                item.key as keyof typeof filters,
+                                checked
+                              )
+                            }
+                          />
+                          <Label htmlFor={item.id}>{item.label}</Label>
+                        </div>
+                      ))}
                     </div>
                   </div>
 
