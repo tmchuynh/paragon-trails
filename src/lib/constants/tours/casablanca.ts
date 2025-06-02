@@ -74,73 +74,6 @@ export const casablancaTours: Tour[] = [
     ],
   },
   {
-    title: "Casablanca Cinematic History Walking Tour",
-    description:
-      "Journey through the cinematic legacy of Casablanca, visiting filming locations and historic spots that inspired the legendary film, while learning about Morocco's complex role during World War II and the colonial period.",
-    images: [
-      "/images/tours/casablanca/rick-cafe.jpg",
-      "/images/tours/casablanca/old-medina.jpg",
-    ],
-    duration: "3 hours",
-    price: "$65",
-    rating: 4.7,
-    tags: ["Film", "History", "Walking Tour"],
-
-    isHistorical: true,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "historical",
-    faqs: [
-      {
-        question: "Will we visit Rick's Café from the movie?",
-        answer:
-          "Yes, we visit Rick's Café, though it's important to note this is a recreation inspired by the film rather than an original filming location (the movie was actually filmed in Hollywood studios). The café was created in 2004 by an American diplomat to capture the ambiance of the film, complete with piano, curved arches, and period details. It's now a popular restaurant and bar where we'll stop for refreshments during our tour.",
-      },
-      {
-        question: "What other locations will we see?",
-        answer:
-          "The tour includes stops at several key locations related to the film and Casablanca's history, such as the old medina, Place Mohammed V, the Royal Palace, and the former Jewish quarter. We'll also discuss the city's role during WWII and its colonial past, providing context for the film's themes of love and sacrifice.",
-      },
-    ],
-  },
-  {
-    title: "Art Deco Architectural Heritage Tour",
-    description:
-      "Discover Casablanca's unique status as North Africa's Art Deco capital with an expert-led exploration of the city's stunning 1930s buildings, featuring private access to normally closed interiors and rooftop viewpoints.",
-    images: [
-      "/images/tours/casablanca/art-deco-buildings.jpg",
-      "/images/tours/casablanca/villa-interiors.jpg",
-    ],
-    duration: "4 hours",
-    price: "$75",
-    rating: 4.8,
-    tags: ["Architecture", "Art Deco", "Photography"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What makes Casablanca's Art Deco architecture unique?",
-        answer:
-          "Casablanca features a distinctive fusion of European Art Deco with traditional Moroccan elements known as 'Mauresque' architecture. During French colonial rule in the 1920s-30s, architects created buildings with classic Art Deco geometric patterns and streamlined forms, but incorporated local motifs like zellige tilework, carved stucco, and traditional Islamic patterns. This unique blend created one of the world's most distinctive architectural landscapes, which has fortunately been preserved in many neighborhoods.",
-      },
-      {
-        question: "Will we enter any buildings?",
-        answer:
-          "Yes, this tour includes exclusive access to several private residences and commercial buildings that showcase original Art Deco interiors, such as grand lobbies, staircases, and rooftop terraces. These locations are not typically open to the public, allowing you to experience the full beauty of this architectural style up close. Our guide will provide detailed explanations of the design elements and historical context of each building.",
-      },
-      {
-        question: "Is this tour suitable for photography enthusiasts?",
-        answer:
-          "Absolutely! This tour is perfect for photographers, as many of the buildings feature stunning details and unique perspectives. Our guide will point out the best angles and lighting conditions for capturing the intricate tilework, wrought iron balconies, and decorative motifs. We also allow time for you to take photos at each location, ensuring you can document the beauty of Casablanca's Art Deco heritage.",
-      },
-    ],
-  },
-  {
     title: "Coastal Paradise: Ain Diab Beach Day & Water Sports",
     description:
       "Escape the city bustle for a day of sun and sea at Casablanca's premier beach district, with optional water sports, beachfront lunch at an exclusive club, and guided exploration of the scenic Corniche area.",
@@ -306,78 +239,6 @@ export const casablancaTours: Tour[] = [
     ],
   },
   {
-    title: "Family Adventure: Moroccan Crafts & Culture for Kids",
-    description:
-      "An interactive family experience designed specifically for children and parents, featuring kid-friendly workshops in pottery making, Moroccan storytelling, traditional music, and a treasure hunt through safe areas of the old medina.",
-    images: [
-      "/images/tours/casablanca/kids-pottery.jpg",
-      "/images/tours/casablanca/family-activities.jpg",
-    ],
-    duration: "4 hours",
-    price: "$85",
-    rating: 4.9,
-    tags: ["Family", "Kids", "Interactive"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "local",
-    faqs: [
-      {
-        question: "What ages is this tour appropriate for?",
-        answer:
-          "This tour is specially designed for families with children ages 5-12, though older and younger siblings are always welcome. Activities are adaptable based on the ages of children in the group. Our guides are experienced educators who know how to engage children with Moroccan culture in age-appropriate, hands-on ways. Parents participate in all activities alongside their children, creating shared family memories.",
-      },
-      {
-        question: "What types of crafts will the kids make?",
-        answer:
-          "Children will have the opportunity to create their own pottery pieces using traditional techniques, learn basic Moroccan music rhythms with simple instruments, and participate in storytelling sessions featuring local legends. The tour also includes a fun treasure hunt through the medina where kids can search for hidden objects and learn about Moroccan culture in an engaging way. All materials are safe and suitable for children.",
-      },
-      {
-        question: "Is this tour suitable for children with special needs?",
-        answer:
-          "Yes, we strive to make our tours inclusive for all families. Please inform us in advance of any specific needs or accommodations required, and we will do our best to adapt activities accordingly. Our guides are trained to work with children of all abilities and ensure everyone has a positive experience.",
-      },
-    ],
-  },
-  {
-    title: "Sunset Desert Beach Dinner & Arabian Nights",
-    description:
-      "Experience a magical evening beginning with a sunset camel ride along the Atlantic shore, followed by an intimate Moroccan feast in a private beach tent adorned with lanterns, cushions, and carpets, accompanied by traditional music.",
-    images: [
-      "/images/tours/casablanca/beach-sunset.jpg",
-      "/images/tours/casablanca/romantic-dinner.jpg",
-    ],
-    duration: "6 hours",
-    price: "$185",
-    rating: 4.9,
-    tags: ["Romantic", "Dinner", "Sunset"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "romantic",
-    faqs: [
-      {
-        question: "Can you accommodate dietary restrictions?",
-        answer:
-          "Yes, we can modify the menu for vegetarians, vegans, gluten-free, and most other dietary needs. The standard feast includes a variety of traditional Moroccan specialties: multiple salads and mezze, tagine (slow-cooked stew with meat or vegetarian options), couscous with seasonal vegetables, fresh seafood, and pastries with honey and nuts for dessert. All dietary modifications maintain the authentic Moroccan flavors and presentation.",
-      },
-      {
-        question: "What is the camel ride like?",
-        answer:
-          "The sunset camel ride is a gentle, leisurely experience suitable for all ages. We provide comfortable saddles and safety instructions before setting off along the beach. The ride lasts about 30 minutes, allowing you to enjoy the stunning coastal views and take photos with the camels against the backdrop of the setting sun. Our guides ensure a safe and enjoyable experience for everyone.",
-      },
-      {
-        question: "What should I wear for the dinner?",
-        answer:
-          "Dress comfortably but elegantly for this special evening. Light layers are recommended as temperatures can drop after sunset. Many guests choose to wear traditional Moroccan attire (djellaba or kaftan) for an authentic experience, but smart casual clothing is also perfectly acceptable. We provide cushions and blankets for added comfort during dinner.",
-      },
-    ],
-  },
-  {
     title: "Luxury Casablanca: Private Tour & Fine Dining",
     description:
       "Indulge in the finest Casablanca has to offer with private chauffeur-driven exploration, exclusive access to luxury locations, rooftop champagne, and dinner at Morocco's most acclaimed restaurant with a customized tasting menu.",
@@ -410,68 +271,6 @@ export const casablancaTours: Tour[] = [
         question: "Is this tour suitable for special occasions?",
         answer:
           "Absolutely! This luxury experience is perfect for celebrating anniversaries, honeymoons, birthdays, or other special occasions. We can arrange additional surprises such as personalized gifts, floral arrangements, or special decorations upon request. Just let us know how we can make your experience unforgettable.",
-      },
-    ],
-  },
-  {
-    title: "Day Trip: Coastal Retreat to El Jadida & Azemmour",
-    description:
-      "Escape to the charming coastal towns near Casablanca, exploring the UNESCO-listed Portuguese fortress of El Jadida and the artist haven of Azemmour with its whitewashed medina, including a seafood lunch by the harbor.",
-    images: [
-      "/images/tours/casablanca/el-jadida-cistern.jpg",
-      "/images/tours/casablanca/azemmour-walls.jpg",
-    ],
-    duration: "9 hours",
-    price: "$125",
-    rating: 4.7,
-    tags: ["Day Trip", "Coastal", "UNESCO"],
-
-    isHistorical: true,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "What will we see in El Jadida?",
-        answer:
-          "El Jadida's highlight is the Portuguese Citadel, a UNESCO World Heritage site built in the early 16th century. We'll explore its massive star-shaped fortifications, walk along the ramparts with ocean views, and visit the atmospheric underground cistern with its forest of columns reflected in the shallow pool of water—a location featured in several films. We'll also see the unique fusion of Portuguese, Moroccan and Jewish architectural influences in the old city.",
-      },
-      {
-        question: "What about Azemmour?",
-        answer:
-          "Azemmour is known for its picturesque medina, whitewashed buildings, and vibrant street art scene. We'll stroll through its narrow alleys, visit local artisan workshops, and see the historic ramparts overlooking the Oum Er-Rbia River. The town has a relaxed, artistic vibe with many galleries and cafés. We also include a delicious seafood lunch at a local restaurant overlooking the harbor.",
-      },
-      {
-        question: "How do we get to El Jadida and Azemmour?",
-        answer:
-          "Transportation is provided in comfortable, air-conditioned vehicles with a professional driver. The drive from Casablanca to El Jadida takes about 1.5 hours, followed by a short 30-minute drive to Azemmour. We ensure a smooth and enjoyable journey with scenic coastal views along the way.",
-      },
-    ],
-  },
-  {
-    title: "Casablanca Jewish Heritage Tour",
-    description:
-      "Discover the rich history and cultural contributions of Morocco's Jewish community through visits to historic synagogues, the Jewish cemetery, Museum of Moroccan Judaism, and neighborhoods that once thrived with Jewish life.",
-    images: [
-      "/images/tours/casablanca/synagogue.jpg",
-      "/images/tours/casablanca/jewish-museum.jpg",
-    ],
-    duration: "6 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Jewish Heritage", "History", "Cultural"],
-
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What is the significance of Jewish heritage in Morocco?",
-        answer:
-          "Morocco once had the largest Jewish community in the Muslim world, with a presence dating back over 2,000 years. Unlike many other Arab countries, Morocco has officially preserved its Jewish heritage sites and maintains positive relationships with its Jewish diaspora. Casablanca is home to the only Jewish Museum in the Arab world and still has active synagogues serving the remaining Jewish population. Our tour explores this unique history of coexistence and cultural exchange between Muslim and Jewish Moroccans throughout centuries.",
       },
     ],
   },
@@ -528,7 +327,28 @@ export const casablancaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Twin Center, Boulevard Al Massira Al Khadra, Casablanca, Morocco",
+      coordinates: {
+        latitude: 33.5731,
+        longitude: -7.6326,
+      },
+      instructions:
+        "Meet your contemporary culture guide at the ground floor entrance to the Twin Center towers in the Maarif district. Your guide will be wearing casual modern attire and holding a tablet with digital art. We recommend taking the tram to reach this central location easily.",
+      contactNumber: "+212 631 40 51 62",
+      contactEmail: "contemporary@paragontrails.com",
+    },
     faqs: [
       {
         question: "How is this different from standard Casablanca tours?",
@@ -544,6 +364,217 @@ export const casablancaTours: Tour[] = [
         question: "Is this tour suitable for all ages?",
         answer:
           "Yes, this tour is designed to be engaging for all ages, with a focus on visual arts, architecture, and cultural discussions that appeal to both adults and children. Families are welcome, and we can adapt the content based on the interests of younger participants.",
+      },
+      {
+        question: "Will we meet local artists or designers?",
+        answer:
+          "When available, we arrange meetings with local artists, designers, or gallery owners who can share their perspectives on Casablanca's evolving creative scene. These encounters provide authentic insights into the challenges and opportunities facing Morocco's contemporary creators and how they're bridging traditional craftsmanship with modern innovation.",
+      },
+      {
+        question:
+          "Are there opportunities to purchase contemporary Moroccan art?",
+        answer:
+          "Yes, we visit galleries and concept stores where you can purchase works by emerging Moroccan artists and designers. From paintings and photography to fashion and home decor with a modern Moroccan aesthetic, there are options at various price points. Our guide can provide context about the artists and their work, helping you make informed purchases that support the local creative economy.",
+      },
+    ],
+  },
+  {
+    title: "Casablanca Stargazing Desert Retreat",
+    description:
+      "Escape the city lights for an unforgettable evening in the desert outside Casablanca. Experience traditional Moroccan hospitality in a luxury desert camp, enjoy dinner under the stars, and observe celestial wonders through professional telescopes with an astronomy expert.",
+    images: [
+      "/images/tours/casablanca/desert-camp.jpg",
+      "/images/tours/casablanca/stargazing.jpg",
+    ],
+    duration: "8 hours",
+    price: "$165",
+    rating: 4.9,
+    tags: ["Astronomy", "Desert", "Evening"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: true,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
+    tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address:
+        "Sofitel Casablanca Tour Blanche, Rue Sidi Belyout, Casablanca, Morocco",
+      coordinates: {
+        latitude: 33.5931,
+        longitude: -7.6186,
+      },
+      instructions:
+        "Meet in the lobby of the Sofitel Casablanca Tour Blanche hotel. Your guide will be holding a sign with 'Desert Stargazing Experience'. Please arrive 15 minutes before departure time. Transportation to the desert camp (approximately 1.5 hours) is provided in comfortable 4x4 vehicles.",
+      contactNumber: "+212 661 87 65 43",
+      contactEmail: "stargazing@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "What will we see through the telescopes?",
+        answer:
+          "Depending on the season and sky conditions, you might observe planets like Saturn with its rings, Jupiter and its moons, distant galaxies, nebulae, and star clusters. Our astronomy expert will help you identify constellations and explain the mythology and science behind them. We use professional-grade telescopes that reveal details invisible to the naked eye.",
+      },
+      {
+        question: "What should I wear for the desert evening?",
+        answer:
+          "Desert temperatures drop significantly at night, even in summer. We recommend wearing comfortable, layered clothing with closed shoes. During winter months (November-March), bring a warm jacket, hat, and gloves. We provide traditional Moroccan djellabas (warm robes) and blankets for additional comfort during stargazing sessions.",
+      },
+      {
+        question: "What's included in the dinner?",
+        answer:
+          "You'll enjoy an authentic Moroccan feast served in a beautifully decorated Bedouin-style tent. The meal typically includes traditional mezze starters, tagine (slow-cooked stew), couscous with seasonal vegetables, grilled meats, fresh bread, and Moroccan pastries for dessert. Mint tea and water are included, with other beverages available for purchase.",
+      },
+      {
+        question: "Is photography allowed during stargazing?",
+        answer:
+          "Yes, photography is encouraged! Our astronomy expert will provide tips for capturing the night sky with your camera. For best results, bring a camera with manual settings and a tripod. We also have a professional astrophotographer who takes high-quality images during the evening that you can purchase as souvenirs.",
+      },
+      {
+        question: "What if it's cloudy or the weather is bad?",
+        answer:
+          "If weather conditions make stargazing impossible, we offer two options: reschedule for another night during your stay, or proceed with the desert experience (dinner, music, and cultural activities) with an indoor astronomy presentation instead. If both options are unsuitable, we provide a partial refund for the astronomy portion of the experience.",
+      },
+    ],
+  },
+  {
+    title: "Moroccan Surfing Adventure",
+    description:
+      "Experience the Atlantic waves near Casablanca with a surfing lesson tailored to your skill level. Learn from professional instructors, enjoy beach relaxation time, and conclude with a traditional beach barbecue as the sun sets over the ocean.",
+    images: [
+      "/images/tours/casablanca/surfing.jpg",
+      "/images/tours/casablanca/beach-barbecue.jpg",
+    ],
+    duration: "6 hours",
+    price: "$90",
+    rating: 4.7,
+    tags: ["Surfing", "Beach", "Active"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "adventure",
+    meetingPoint: {
+      address: "Dar al Beida Surf Club, Ain Diab Beach, Casablanca, Morocco",
+      coordinates: {
+        latitude: 33.6013,
+        longitude: -7.6731,
+      },
+      instructions:
+        "Meet at the Dar al Beida Surf Club entrance on Ain Diab Beach. Look for instructors wearing blue rashguards with the surf club logo. Please arrive 15 minutes early to complete registration forms. Come wearing your swimwear under your clothes for quick changing.",
+      contactNumber: "+212 661 22 33 44",
+      contactEmail: "surfing@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "Do I need previous surfing experience?",
+        answer:
+          "No prior experience is needed! Our lessons are tailored to all skill levels, from complete beginners to advanced surfers looking to improve their technique. Beginners start with safety instructions and basic techniques on the beach before entering the water with close instructor supervision. More experienced surfers receive coaching to refine their skills and tackle more challenging waves.",
+      },
+      {
+        question: "What equipment is provided?",
+        answer:
+          "We provide all necessary equipment including surfboards appropriate for your height, weight, and skill level, wetsuits (the Atlantic can be cool even in summer), rash guards, and wax. You only need to bring your swimwear, towel, sunscreen, and a change of dry clothes for after your session.",
+      },
+      {
+        question: "Is this activity safe for children?",
+        answer:
+          "Yes, children aged 8 and above can participate. We maintain a strict instructor-to-student ratio (1:4 for adults, 1:2 for children) to ensure safety. Our instructors are trained in water rescue and first aid. For younger children or those not interested in surfing, we offer supervised beach activities while family members surf.",
+      },
+      {
+        question: "What are the wave conditions like near Casablanca?",
+        answer:
+          "Casablanca's beaches offer consistent waves suitable for all levels year-round. Morning sessions typically have cleaner conditions with gentler waves ideal for beginners, while afternoon sessions often feature stronger winds and waves better suited for intermediate surfers. Our instructors select the best spots based on daily conditions and your skill level.",
+      },
+      {
+        question: "What's included in the beach barbecue?",
+        answer:
+          "The post-surfing barbecue features freshly grilled fish, seafood, and meats prepared in Moroccan style with aromatic spices, served with salads, grilled vegetables, and fresh bread. Vegetarian options are available upon request. The meal is enjoyed at sunset on the beach, providing a perfect end to your surfing adventure. Soft drinks and mint tea are included.",
+      },
+    ],
+  },
+  {
+    title: "Moroccan Musical Heritage Experience",
+    description:
+      "Immerse yourself in Morocco's rich musical traditions with visits to instrument workshops, private performances of Andalusian classical music and Gnawa spiritual sounds, and participation in a percussion workshop to learn traditional rhythms.",
+    images: [
+      "/images/tours/casablanca/music-performance.jpg",
+      "/images/tours/casablanca/instrument-workshop.jpg",
+    ],
+    duration: "4 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Music", "Cultural", "Interactive"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    tourCategoryId: "art-and-music",
+    meetingPoint: {
+      address:
+        "Conservatoire de Musique, 18 Boulevard Rachidi, Casablanca, Morocco",
+      coordinates: {
+        latitude: 33.589,
+        longitude: -7.6203,
+      },
+      instructions:
+        "Meet at the entrance to the Casablanca Conservatory of Music on Boulevard Rachidi. Your guide will be holding a traditional Moroccan instrument (oud). Please arrive 10 minutes before the scheduled start time. The venue is easily accessible by taxi or tram.",
+      contactNumber: "+212 522 26 41 95",
+      contactEmail: "music@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "What musical traditions will we experience?",
+        answer:
+          "This tour explores several distinct Moroccan musical traditions including Andalusian classical music (brought to Morocco from Spain during the Moorish period), Gnawa (spiritual trance music with sub-Saharan African origins), Chaabi (popular folk music), and traditional Berber music. Each tradition has its own unique instruments, rhythms, scales, and cultural significance which your guide will explain in detail.",
+      },
+      {
+        question: "Do I need musical experience to enjoy this tour?",
+        answer:
+          "No musical experience is required. This tour is designed for music lovers of all backgrounds. The percussion workshop is accessible to beginners, and our professional musicians are skilled at teaching simple rhythms to participants with no prior experience. Those with musical backgrounds will also appreciate the technical aspects and complexity of the traditions presented.",
+      },
+      {
+        question: "What instruments will we see and learn about?",
+        answer:
+          "You'll discover a variety of traditional Moroccan instruments including the oud (lute), qanun (zither), rbab (fiddle), darbouka (ceramic drum), bendir (frame drum), and the distinctive metal castanets used in Gnawa music. At the instrument workshop, you'll observe master craftsmen creating these instruments using techniques passed down through generations.",
+      },
+      {
+        question: "Will there be opportunities to purchase instruments?",
+        answer:
+          "Yes, the instrument workshop we visit offers authentic, handcrafted instruments for sale at fair prices. These range from professional-quality ouds and drums to smaller, travel-friendly percussion instruments suitable as souvenirs. Our guide can provide advice on instrument quality and appropriate pricing, and the workshop can arrange international shipping for larger purchases.",
+      },
+      {
+        question: "What happens during the percussion workshop?",
+        answer:
+          "During the interactive workshop, professional percussionists will teach you fundamental Moroccan rhythms on traditional drums. You'll learn basic hand techniques, simple rhythmic patterns, and how these patterns combine in traditional music. The session concludes with a group performance where participants play together with professional musicians, creating an authentic Moroccan jam session.",
       },
     ],
   },
