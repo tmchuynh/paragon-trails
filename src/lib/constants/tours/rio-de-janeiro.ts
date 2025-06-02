@@ -9,7 +9,7 @@ export const rioDeJaneiroTours: Tour[] = [
       "/images/tours/rio-de-janeiro/helicopter-cristo.jpg",
       "/images/tours/rio-de-janeiro/aerial-view.jpg",
     ],
-    duration: "1.5 hours",
+    duration: "2 hours",
     price: "$395",
     rating: 5.0,
     tags: ["Helicopter", "Views", "Christ the Redeemer"],

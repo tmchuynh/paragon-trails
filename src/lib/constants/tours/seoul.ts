@@ -5,6 +5,9 @@ export const seoulTours: Tour[] = [
     title: "Korean Palace & Hanbok Experience",
     description:
       "Explore Seoul's magnificent royal palaces dressed in traditional Korean hanbok attire, learning about court customs and enjoying privileged photo opportunities in normally restricted palace areas.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/palace-hanbok.jpg",
       "/images/tours/seoul/gyeongbokgung.jpg",
@@ -47,6 +50,9 @@ export const seoulTours: Tour[] = [
     title: "Korean Street Food Night Tour",
     description:
       "Dive into Seoul's vibrant night markets and hidden food alleys with a local culinary expert, sampling everything from classic Korean street foods to trendy new creations in bustling Myeongdong and Gwangjang Market.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/street-food.jpg",
       "/images/tours/seoul/gwangjang-market.jpg",
@@ -89,6 +95,9 @@ export const seoulTours: Tour[] = [
     title: "Seoul's Hidden Temples & Nature Trails",
     description:
       "Discover Seoul's serene side with a guided hike through hidden nature trails leading to ancient Buddhist temples, enjoying breathtaking views and learning about the spiritual significance of these sacred sites.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/hidden-temple.jpg",
       "/images/tours/seoul/nature-trail.jpg",
@@ -137,6 +146,9 @@ export const seoulTours: Tour[] = [
     title: "DMZ & Joint Security Area Tour",
     description:
       "Visit one of the world's most heavily fortified borders with a guided tour to the Korean Demilitarized Zone (DMZ) and Joint Security Area (JSA), gaining insight into the ongoing division of the Korean peninsula and efforts toward peace.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/dmz-border.jpg",
       "/images/tours/seoul/joint-security-area.jpg",
@@ -179,6 +191,9 @@ export const seoulTours: Tour[] = [
     title: "K-Pop & Hallyu Cultural Experience",
     description:
       "Immerse yourself in Korea's global entertainment phenomenon with behind-the-scenes visits to K-pop recording studios, dance workshops with professional choreographers, and exploration of filming locations from famous Korean dramas.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/k-pop-studio.jpg",
       "/images/tours/seoul/drama-locations.jpg",
@@ -220,6 +235,9 @@ export const seoulTours: Tour[] = [
     title: "Traditional Korean Crafts Workshop",
     description:
       "Learn traditional Korean handicrafts from master artisans, choosing between pottery making, hanji paper crafting, or traditional natural dyeing techniques in a hands-on workshop that connects you with centuries of artistic heritage.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/pottery-workshop.jpg",
       "/images/tours/seoul/hanji-crafting.jpg",
@@ -262,6 +280,9 @@ export const seoulTours: Tour[] = [
     title: "Modern Seoul Architecture Tour",
     description:
       "Explore Seoul's remarkable architectural transformation with a professional architect guide, visiting award-winning contemporary buildings, sustainable urban design projects, and revitalized historical districts that showcase Korea's innovative approach to urban development.",
+    city: "Seoul",
+    country: "South Korea",
+    region: "Seoul Capital Area",
     images: [
       "/images/tours/seoul/dongdaemun-design-plaza.jpg",
       "/images/tours/seoul/seoullo-7017.jpg",

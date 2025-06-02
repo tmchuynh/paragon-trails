@@ -9,7 +9,7 @@ export const savannahTours: Tour[] = [
       "/images/tours/savannah/forsyth-park.jpg",
       "/images/tours/savannah/historic-homes.jpg",
     ],
-    duration: "2.5 hours",
+    duration: "3 hours",
     price: "$45",
     rating: 4.8,
     tags: ["History", "Architecture", "Gardens"],

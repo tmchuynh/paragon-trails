@@ -9,7 +9,7 @@ export const seattleTours: Tour[] = [
       "/images/tours/seattle/pike-place-market.jpg",
       "/images/tours/seattle/fish-throwing.jpg",
     ],
-    duration: "2.5 hours",
+    duration: "3 hours",
     price: "$69",
     rating: 4.9,
     tags: ["Food", "Market", "Local"],

@@ -5,6 +5,9 @@ export const romeTours: Tour[] = [
     title: "VIP Colosseum Underground & Roman Forum",
     description:
       "Gain special access to the Colosseum's underground chambers and arena floor, then explore the heart of ancient Rome with an expert archaeologist.",
+    city: "Rome",
+    country: "Italy",
+    region: "Lazio",
     images: [
       "/images/tours/rome/colosseum-underground.jpg",
       "/images/tours/rome/roman-forum.jpg",
@@ -31,6 +34,9 @@ export const romeTours: Tour[] = [
     title: "Vatican Museums & Sistine Chapel: Early Access",
     description:
       "Enter the Vatican Museums before the general public for a peaceful experience of Michelangelo's masterpiece and the incredible papal collections.",
+    city: "Vatican City",
+    country: "Vatican City",
+    region: "Rome Metropolitan Area",
     images: [
       "/images/tours/rome/sistine-chapel.jpg",
       "/images/tours/rome/st-peters-basilica.jpg",
@@ -57,6 +63,9 @@ export const romeTours: Tour[] = [
     title: "Trastevere Food & Wine Tour",
     description:
       "Explore the charming Trastevere neighborhood with a local foodie, tasting authentic Roman dishes and sampling fine wines at hidden gems.",
+    city: "Rome",
+    country: "Italy",
+    region: "Lazio",
     images: [
       "/images/tours/rome/trastevere-food.jpg",
       "/images/tours/rome/roman-pizza.jpg",

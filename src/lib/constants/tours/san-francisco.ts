@@ -5,6 +5,9 @@ export const sanFranciscoTours: Tour[] = [
     title: "Golden Gate Bridge Bike Tour",
     description:
       "Cycle across San Francisco's iconic Golden Gate Bridge with breathtaking views of the bay, Alcatraz, and the city skyline.",
+    city: "San Francisco",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-francisco/golden-gate-cycling.jpg",
       "/images/tours/san-francisco/sausalito-view.jpg",
@@ -31,6 +34,9 @@ export const sanFranciscoTours: Tour[] = [
     title: "Alcatraz & San Francisco Highlights",
     description:
       "Visit the infamous Alcatraz Island prison with audio tour, then explore San Francisco's diverse neighborhoods, including Chinatown, North Beach, and Haight-Ashbury.",
+    city: "San Francisco",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-francisco/alcatraz.jpg",
       "/images/tours/san-francisco/chinatown.jpg",
@@ -57,6 +63,9 @@ export const sanFranciscoTours: Tour[] = [
     title: "San Francisco Food Truck Tour",
     description:
       "Taste the best of San Francisco's food truck scene with a guided tour through the Mission District, sampling gourmet tacos, artisanal ice cream, and more.",
+    city: "San Francisco",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-francisco/food-truck.jpg",
       "/images/tours/san-francisco/mission-district.jpg",

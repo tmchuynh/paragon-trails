@@ -5,6 +5,9 @@ export const sanDiegoTours: Tour[] = [
     title: "Hidden Beaches & Coastal Treasures",
     description:
       "Discover San Diego's most scenic and secluded beaches with a local guide who knows exactly when and where to avoid crowds and find the perfect spots.",
+    city: "San Diego",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-diego/secret-beach.jpg",
       "/images/tours/san-diego/tide-pools.jpg",
@@ -31,6 +34,9 @@ export const sanDiegoTours: Tour[] = [
     title: "San Diego Zoo VIP Experience",
     description:
       "Go behind the scenes at the world-famous San Diego Zoo with exclusive early access, private animal encounters, and insights from a zoology expert.",
+    city: "San Diego",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-diego/zoo-pandas.jpg",
       "/images/tours/san-diego/animal-encounter.jpg",
@@ -57,6 +63,9 @@ export const sanDiegoTours: Tour[] = [
     title: "Craft Beer & Brewery Tour",
     description:
       "Explore San Diego's vibrant craft beer scene with a guided tour of three local breweries, including tastings of unique brews and behind-the-scenes insights into the brewing process.",
+    city: "San Diego",
+    country: "United States",
+    region: "California",
     images: [
       "/images/tours/san-diego/craft-beer.jpg",
       "/images/tours/san-diego/brewery-tour.jpg",
