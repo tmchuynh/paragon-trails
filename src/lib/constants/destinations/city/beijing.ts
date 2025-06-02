@@ -127,7 +127,7 @@ export const beijingBeijingMunicipalityChina: Attraction[] = [
     priceCategory: "expensive",
     priceRange: "$$$",
     timeOfDay: "all day",
-    isPopular: false,
+    isPopular: true,
 
     isHistorical: true,
     isIndoor: true,

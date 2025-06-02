@@ -77,7 +77,7 @@ export const ayutthayaCentralThailandThailand: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local", "aerial tour"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

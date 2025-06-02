@@ -77,7 +77,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "culinary", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
@@ -137,7 +137,7 @@ export const amsterdamNorthHollandNetherlands: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

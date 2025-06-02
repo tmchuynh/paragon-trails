@@ -78,7 +78,7 @@ export const atlasMountainsDraaTafilaletMorocco: Attraction[] = [
     timeOfDay: "all day",
     tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: true,

@@ -14,7 +14,7 @@ export const berlinBerlinGermany: Attraction[] = [
     priceRange: "free",
     timeOfDay: "all day",
     rating: 4.8,
-    tags: ["historical", "cultural", ],
+    tags: ["historical", "cultural"],
     accessibilityFeatures: ["wheelchair accessible"],
     isPopular: true,
 
@@ -79,7 +79,7 @@ export const berlinBerlinGermany: Attraction[] = [
     rating: 4.8,
     tags: ["luxury", "local"],
     accessibilityFeatures: ["wheelchair accessible", "private elevator"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

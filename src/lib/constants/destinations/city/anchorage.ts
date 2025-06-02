@@ -57,7 +57,7 @@ export const anchorageAkUnitedStates: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "adventure", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
