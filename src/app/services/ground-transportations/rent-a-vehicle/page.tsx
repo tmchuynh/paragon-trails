@@ -374,7 +374,7 @@ export default function RentAVehicle() {
       {filteredCategories.length > 0 ? (
         filteredCategories.map((category, categoryIndex) => (
           <section key={categoryIndex} className="mb-16">
-            <h2 className="mb-6 pb-2 border-border border-b">
+            <h2 className="mb-6 pb-2 border-b border-border">
               {category.category}
             </h2>
 
