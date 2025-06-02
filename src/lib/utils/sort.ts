@@ -201,3 +201,62 @@ export function groupAndSortByProperties<T>(
 export function uniqueArray(arr: string[]) {
   return Array.from(new Set(arr));
 }
+
+export function alphabeticalSort(
+  array: string[],
+  ascending: boolean = true
+): string[] {
+  return [...array].sort((a, b) => {
+    return ascending ? a.localeCompare(b) : b.localeCompare(a);
+  });
+}
+export function sortByDate(
+  array: { date: string }[],
+  ascending: boolean = true
+): { date: string }[] {
+  return [...array].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return ascending
+      ? dateA.getTime() - dateB.getTime()
+      : dateB.getTime() - dateA.getTime();
+  });
+}
+
+export function sortByPrice(
+  array: { price: string }[],
+  ascending: boolean = true
+): { price: string }[] {
+  return [...array].sort((a, b) => {
+    const priceA = parseFloat(a.price.replace(/[^0-9.-]+/g, ""));
+    const priceB = parseFloat(b.price.replace(/[^0-9.-]+/g, ""));
+    return ascending ? priceA - priceB : priceB - priceA;
+  });
+}
+
+export function sortDurations(arr: string[]): string[] {
+  const toMinutes = (str: string): number => {
+    const lower = str.toLowerCase().trim();
+
+    if (lower === "full day") return 8 * 60; // assuming full day = 8 hours
+
+    if (lower.includes("minute")) {
+      const match = parseFloat(lower);
+      return isNaN(match) ? 0 : match;
+    }
+
+    if (lower.includes("hour")) {
+      const match = parseFloat(lower);
+      return isNaN(match) ? 0 : match * 60;
+    }
+
+    if (lower.includes("day")) {
+      const match = parseFloat(lower);
+      return isNaN(match) ? 0 : match * 24 * 60;
+    }
+
+    return 0; // fallback
+  };
+
+  return arr.sort((a, b) => toMinutes(a) - toMinutes(b));
+}
