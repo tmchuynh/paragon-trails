@@ -1,9 +1,13 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+
 export const buenosAiresTours: Tour[] = [
   {
     title: "Tango Experience: Show & Dance Lesson",
     description:
       "Immerse yourself in Buenos Aires' passionate tango culture with a professional dance lesson followed by dinner and a spectacular show at an authentic milonga venue.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/tango-show.jpg",
       "/images/tours/buenos-aires/dance-lesson.jpg",
@@ -73,6 +77,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Hidden Buenos Aires: Architecture & Street Art",
     description:
       "Discover the city beyond the tourist trail, exploring unique architectural gems, vibrant street art neighborhoods, and local designer boutiques with insights from an urban culture specialist.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/street-art.jpg",
       "/images/tours/buenos-aires/hidden-architecture.jpg",
@@ -151,6 +158,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Culinary Journey: From Markets to Dining",
     description:
       "Experience the flavors of Argentina with a guided tour through local markets, tastings of traditional dishes, and a visit to a renowned parrilla (steakhouse) for an authentic asado dinner.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/market-tour.jpg",
       "/images/tours/buenos-aires/asado-dinner.jpg",
@@ -218,6 +228,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Nightlife: Bars & Tango Show",
     description:
       "Experience the vibrant nightlife of Buenos Aires with a guided tour of trendy bars, local craft cocktails, and a spectacular tango show at a historic venue.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/nightlife-bars.jpg",
       "/images/tours/buenos-aires/tango-show.jpg",
@@ -286,6 +299,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Historical Landmarks & Parks",
     description:
       "Explore the rich history of Buenos Aires with a guided tour of iconic landmarks, including Plaza de Mayo, Recoleta Cemetery, and the beautiful parks of Palermo.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/plaza-de-mayo.jpg",
       "/images/tours/buenos-aires/recoleta-cemetery.jpg",
@@ -354,6 +370,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires River Delta Adventure",
     description:
       "Escape the city with a guided boat tour through the scenic Tigre Delta, exploring its lush islands, local markets, and enjoying a riverside picnic.",
+    city: "Tigre",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/tigre-delta.jpg",
       "/images/tours/buenos-aires/river-picnic.jpg",
@@ -422,6 +441,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Art & Culture Tour",
     description:
       "Discover the vibrant art scene of Buenos Aires with a guided tour of contemporary galleries, street art murals, and cultural institutions, including a visit to the MALBA (Museum of Latin American Art).",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/art-gallery.jpg",
       "/images/tours/buenos-aires/malba.jpg",
@@ -490,6 +512,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Parks & Gardens Tour",
     description:
       "Explore the green spaces of Buenos Aires with a guided tour of its most beautiful parks and gardens, including the Bosques de Palermo, Japanese Garden, and Rosedal.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/palermo-parks.jpg",
       "/images/tours/buenos-aires/japanese-garden.jpg",
@@ -557,6 +582,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Argentine Wine Journey: Malbec & Beyond",
     description:
       "Discover Argentina's celebrated wines through an expert-led tasting journey featuring premium Malbecs and lesser-known regional varieties, complemented by artisanal cheeses and traditional empanadas in a historic Recoleta wine cellar.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/wine-tasting.jpg",
       "/images/tours/buenos-aires/wine-cellar.jpg",
@@ -624,6 +652,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Evita's Buenos Aires: Legacy & Mythology",
     description:
       "Trace the extraordinary life and enduring legacy of Eva Perón through the places that shaped her journey from provincial actress to Argentina's most influential and controversial First Lady, whose impact still resonates in contemporary politics.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/evita-museum.jpg",
       "/images/tours/buenos-aires/casa-rosada-balcony.jpg",
@@ -691,6 +722,9 @@ export const buenosAiresTours: Tour[] = [
     title: "San Antonio de Areco & Gaucho Traditions",
     description:
       "Experience authentic gaucho culture in Argentina's historic pampas town, watching traditional horsemanship demonstrations, visiting silversmiths crafting ornate mate gourds and belts, and enjoying an asado barbecue at a working estancia dating from 1750.",
+    city: "San Antonio de Areco",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/gaucho-demonstration.jpg",
       "/images/tours/buenos-aires/estancia-visit.jpg",
@@ -759,6 +793,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Tigre Delta Eco-Adventure",
     description:
       "Navigate the intricate waterways of the Tigre Delta by kayak and local boat, exploring this unique wetland ecosystem where island communities maintain traditions unchanged for centuries, with opportunities for birdwatching and visiting artisanal workshops.",
+    city: "Tigre",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/tigre-waterways.jpg",
       "/images/tours/buenos-aires/delta-island-life.jpg",
@@ -826,6 +863,9 @@ export const buenosAiresTours: Tour[] = [
     title: "Buenos Aires Architectural Heritage Tour",
     description:
       "Explore the city's extraordinary architectural legacy spanning French Belle Époque palaces, Art Deco masterpieces, brutalist landmarks, and cutting-edge contemporary designs that tell the story of Argentina's cultural aspirations and economic transformations.",
+    city: "Buenos Aires",
+    country: "Argentina",
+    region: "Buenos Aires Province",
     images: [
       "/images/tours/buenos-aires/architectural-landmarks.jpg",
       "/images/tours/buenos-aires/historic-interiors.jpg",

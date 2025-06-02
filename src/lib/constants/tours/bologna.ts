@@ -5,6 +5,9 @@ export const bolognaTours: Tour[] = [
     title: "Traditional Pasta Making with Nonna",
     description:
       "Join a genuine Italian grandmother in her home kitchen to learn the time-honored techniques of handmade pasta, from tortellini to tagliatelle, followed by a family-style meal with local wines.",
+    city: "Bologna",
+    country: "Italy",
+    region: "Emilia-Romagna",
     images: [
       "/images/tours/bologna/pasta-making.jpg",
       "/images/tours/bologna/tortellini-class.jpg",
@@ -71,6 +74,9 @@ export const bolognaTours: Tour[] = [
     title: "Bologna's Secret Porticoes & Towers",
     description:
       "Discover Bologna's architectural marvels with a local art historian, exploring medieval towers with private access and the UNESCO-listed portico network, including hidden sections closed to the public.",
+    city: "Bologna",
+    country: "Italy",
+    region: "Emilia-Romagna",
     images: [
       "/images/tours/bologna/asinelli-tower.jpg",
       "/images/tours/bologna/hidden-porticoes.jpg",
@@ -138,6 +144,9 @@ export const bolognaTours: Tour[] = [
     title: "Bologna Food & Wine Walking Tour",
     description:
       "Experience Bologna's culinary delights with a guided walking tour through the city's historic markets, sampling local cheeses, cured meats, and wines, ending with a traditional aperitivo at a hidden enoteca.",
+    city: "Bologna",
+    country: "Italy",
+    region: "Emilia-Romagna",
     images: [
       "/images/tours/bologna/food-market.jpg",
       "/images/tours/bologna/wine-tasting.jpg",
@@ -204,6 +213,9 @@ export const bolognaTours: Tour[] = [
     title: "Bologna's Hidden Canals & Secret Gardens",
     description:
       "Explore Bologna's lesser-known waterways and tranquil gardens with a local guide, visiting hidden canals that date back to the Middle Ages and serene green spaces tucked away from the bustling city center.",
+    city: "Bologna",
+    country: "Italy",
+    region: "Emilia-Romagna",
     images: [
       "/images/tours/bologna/canal.jpg",
       "/images/tours/bologna/garden.jpg",
@@ -270,6 +282,9 @@ export const bolognaTours: Tour[] = [
     title: "Bologna's Art & Culture Evening Tour",
     description:
       "Experience Bologna's vibrant art scene with an evening walking tour, visiting contemporary galleries, street art hotspots, and ending with a live performance at a local theater or music venue.",
+    city: "Bologna",
+    country: "Italy",
+    region: "Emilia-Romagna",
     images: [
       "/images/tours/bologna/art-gallery.jpg",
       "/images/tours/bologna/street-art.jpg",

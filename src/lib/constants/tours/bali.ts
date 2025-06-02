@@ -4,6 +4,9 @@ export const baliTours: Tour[] = [
     title: "Sacred Temples & Water Purification Ceremony",
     description:
       "Experience Bali's spiritual heart with visits to ancient temples including Tirta Empul and Uluwatu, culminating in a traditional water purification ceremony guided by a local Hindu priest.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/tirta-empul.jpg",
       "/images/tours/bali/uluwatu-temple.jpg",
@@ -121,6 +124,9 @@ export const baliTours: Tour[] = [
     title: "Ubud Art Villages & Jungle Swings",
     description:
       "Discover Bali's creative soul through visits to traditional craft villages specializing in woodcarving, batik, and silver, followed by an exhilarating jungle swing experience with rice terrace views.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/art-village.jpg",
       "/images/tours/bali/bali-swing.jpg",
@@ -236,6 +242,9 @@ export const baliTours: Tour[] = [
     title: "Bali Beaches & Sunset Dinner Cruise",
     description:
       "Relax on Bali's stunning beaches, followed by a luxurious sunset dinner cruise with live music and traditional Balinese dance performances.",
+    city: "Kuta",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/beach-relaxation.jpg",
       "/images/tours/bali/sunset-cruise.jpg",
@@ -347,6 +356,9 @@ export const baliTours: Tour[] = [
     title: "Mount Batur Sunrise Trek & Hot Springs",
     description:
       "Embark on an early morning trek to the summit of Mount Batur for breathtaking sunrise views, followed by a relaxing soak in natural hot springs overlooking the volcano.",
+    city: "Kintamani",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/mount-batur.jpg",
       "/images/tours/bali/hot-springs.jpg",
@@ -461,6 +473,9 @@ export const baliTours: Tour[] = [
     title: "Bali Cooking Class & Market Tour",
     description:
       "Immerse yourself in Balinese culture with a hands-on cooking class, starting with a guided tour of a local market to select fresh ingredients, followed by preparing traditional dishes.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/cooking-class.jpg",
       "/images/tours/bali/local-market.jpg",
@@ -572,6 +587,9 @@ export const baliTours: Tour[] = [
     title: "Uluwatu Temple & Kecak Fire Dance",
     description:
       "Experience the dramatic clifftop Uluwatu Temple at sunset, followed by the mesmerizing Kecak Fire Dance performance with 100 performers chanting in concentric circles while enacting scenes from the Ramayana epic.",
+    city: "Uluwatu",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/uluwatu-temple-sunset.jpg",
       "/images/tours/bali/kecak-fire-dance.jpg",
@@ -687,6 +705,9 @@ export const baliTours: Tour[] = [
     title: "Ubud Monkey Forest & Rice Terrace Trekking",
     description:
       "Immerse yourself in Bali's natural wonders with a visit to the sacred Monkey Forest Sanctuary followed by a guided trek through the UNESCO-listed rice terraces of Tegallalang, with stops at local coffee plantations and artisan villages.",
+    city: "Ubud",
+    country: "Indonesia",
+    region: "Bali",
     images: [
       "/images/tours/bali/monkey-forest.jpg",
       "/images/tours/bali/tegallalang-rice-terraces.jpg",

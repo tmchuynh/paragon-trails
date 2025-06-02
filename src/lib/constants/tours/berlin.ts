@@ -5,6 +5,9 @@ export const berlinTours: Tour[] = [
     title: "Berlin Cold War History & Underground Bunkers",
     description:
       "Explore Berlin's dramatic Cold War history with visits to the Berlin Wall, Checkpoint Charlie, and exclusive access to declassified underground bunkers and escape tunnels from the divided city era.",
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
     images: [
       "/images/tours/berlin/berlin-wall.jpg",
       "/images/tours/berlin/cold-war-bunker.jpg",
@@ -71,6 +74,9 @@ export const berlinTours: Tour[] = [
     title: "Berlin's Alternative Scene & Street Art",
     description:
       "Discover Berlin's world-famous counterculture with an insider tour of street art, urban gardens, artist squats, and underground clubs in the trendy neighborhoods of Kreuzberg and Friedrichshain.",
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
     images: [
       "/images/tours/berlin/street-art.jpg",
       "/images/tours/berlin/kreuzberg.jpg",
@@ -137,6 +143,9 @@ export const berlinTours: Tour[] = [
     title: "Berlin Food Tour: From Currywurst to Fine Dining",
     description:
       "Experience Berlin's diverse culinary scene with a guided food tour sampling iconic street foods like currywurst, local specialties, and fine dining at Michelin-starred restaurants.",
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
     images: [
       "/images/tours/berlin/currywurst.jpg",
       "/images/tours/berlin/fine-dining.jpg",
@@ -208,6 +217,9 @@ export const berlinTours: Tour[] = [
     title: "Berlin's Historic Pubs & Beer Gardens",
     description:
       "Explore Berlin's vibrant beer culture with a guided tour of historic pubs, traditional beer gardens, and local breweries, sampling a variety of German beers and learning about the city's brewing history.",
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
     images: [
       "/images/tours/berlin/historic-pub.jpg",
       "/images/tours/berlin/beer-garden.jpg",
@@ -279,6 +291,9 @@ export const berlinTours: Tour[] = [
     title: "Berlin's Hidden Gardens & Parks",
     description:
       "Discover Berlin's secret green spaces with a guided tour of hidden gardens, tranquil parks, and urban oases, including the historic Tiergarten and lesser-known botanical gems.",
+    city: "Berlin",
+    country: "Germany",
+    region: "Brandenburg",
     images: [
       "/images/tours/berlin/tiergarten.jpg",
       "/images/tours/berlin/hidden-garden.jpg",

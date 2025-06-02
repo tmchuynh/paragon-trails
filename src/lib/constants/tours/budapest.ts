@@ -5,6 +5,9 @@ export const budapestTours: Tour[] = [
     title: "Thermal Bath Experience & Spa Heritage",
     description:
       "Immerse yourself in Budapest's famous spa culture with an expert-guided tour of historic bath houses, culminating in a private thermal spa experience with treatments based on centuries-old Hungarian wellness traditions.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/szechenyi-baths.jpg",
       "/images/tours/budapest/gellert-spa.jpg",
@@ -51,6 +54,9 @@ export const budapestTours: Tour[] = [
     title: "Underground Budapest: Caves & Bunkers",
     description:
       "Discover Budapest's fascinating subterranean world with explorations of natural cave systems beneath Buda Castle, WWII bunkers, and the secret Hospital in the Rock, revealing hidden aspects of the city's geology and turbulent history.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/hospital-rock.jpg",
       "/images/tours/budapest/cave-system.jpg",
@@ -98,6 +104,9 @@ export const budapestTours: Tour[] = [
     title: "Budapest Culinary Delights: Market & Cooking Class",
     description:
       "Experience Budapest's vibrant food scene with a guided tour of the Great Market Hall, followed by a hands-on cooking class where you will learn to prepare traditional Hungarian dishes using fresh, local ingredients.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/great-market-hall.jpg",
       "/images/tours/budapest/cooking-class.jpg",
@@ -144,6 +153,9 @@ export const budapestTours: Tour[] = [
     title: "Budapest's Hidden Ruin Bars & Street Art",
     description:
       "Explore Budapest's unique ruin bars and vibrant street art scene with a local guide, visiting eclectic bars set in abandoned buildings and discovering the city's creative urban art in hidden alleys and courtyards.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/ruin-bar.jpg",
       "/images/tours/budapest/street-art.jpg",
@@ -190,6 +202,9 @@ export const budapestTours: Tour[] = [
     title: "Buda Castle & Fisherman's Bastion: History & Views",
     description:
       "Discover the rich history of Buda Castle and the stunning views from Fisherman's Bastion with a knowledgeable guide, exploring medieval architecture, royal history, and panoramic vistas of the Danube and Pest side.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/buda-castle.jpg",
       "/images/tours/budapest/fishermans-bastion.jpg",
@@ -256,6 +271,9 @@ export const budapestTours: Tour[] = [
     title: "Hungarian Wine Tasting Experience",
     description:
       "Discover Hungary's rich wine heritage with a guided tasting of premium wines from the country's major regions, including Tokaj's world-famous sweet wines and bold reds from Villány, paired with artisanal cheeses and charcuterie.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/wine-tasting.jpg",
       "/images/tours/budapest/wine-cellar.jpg",
@@ -322,6 +340,9 @@ export const budapestTours: Tour[] = [
     title: "Danube River Evening Cruise",
     description:
       "Experience Budapest's breathtaking illuminated skyline from the water with a scenic evening cruise along the Danube, passing the magnificent Parliament, Buda Castle, and Chain Bridge while enjoying a glass of Hungarian sparkling wine.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/parliament-night.jpg",
       "/images/tours/budapest/river-cruise.jpg",
@@ -388,6 +409,9 @@ export const budapestTours: Tour[] = [
     title: "Communist Era Budapest: History & Memorials",
     description:
       "Explore Budapest's Communist past with visits to Memorial Park, the House of Terror museum, and Soviet-era landmarks as your historian guide explains Hungary's complex relationship with its 20th-century history.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/memorial-park.jpg",
       "/images/tours/budapest/house-of-terror.jpg",
@@ -454,6 +478,9 @@ export const budapestTours: Tour[] = [
     title: "Central Market Hall & Hungarian Cuisine",
     description:
       "Discover Hungary's culinary traditions with a guided tour of Budapest's stunning Central Market Hall, sampling traditional delicacies, learning about paprika varieties, and enjoying a food tasting that showcases the best of Hungarian gastronomy.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/central-market.jpg",
       "/images/tours/budapest/hungarian-food.jpg",
@@ -521,6 +548,9 @@ export const budapestTours: Tour[] = [
     title: "Jewish Heritage & Synagogue Tour",
     description:
       "Discover Budapest's rich Jewish heritage with visits to Europe's largest synagogue, the moving Tree of Life Memorial, and the former Jewish Quarter, with insights into both historical events and the vibrant contemporary Jewish community.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/dohany-synagogue.jpg",
       "/images/tours/budapest/tree-of-life.jpg",
@@ -588,6 +618,9 @@ export const budapestTours: Tour[] = [
     title: "Hungarian Folk Dance & Music Show",
     description:
       "Experience the vibrant traditions of Hungarian folk culture with a spectacular performance of authentic dances and music from different regions of the country, featuring live orchestra, colorful costumes, and the chance to learn basic dance steps.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/folk-dance.jpg",
       "/images/tours/budapest/folk-music.jpg",
@@ -655,6 +688,9 @@ export const budapestTours: Tour[] = [
     title: "Szentendre Artists' Village Half-Day Trip",
     description:
       "Escape to the charming riverside town of Szentendre, known for its colorful Baroque architecture, cobblestone streets, and thriving artist community, with visits to galleries, museums, and a traditional marzipan workshop.",
+    city: "Szentendre",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/szentendre-streets.jpg",
       "/images/tours/budapest/szentendre-riverside.jpg",
@@ -721,6 +757,9 @@ export const budapestTours: Tour[] = [
     title: "Budapest Photography Tour",
     description:
       "Capture Budapest's most photogenic locations with guidance from a professional photographer who will help you find unique angles, master camera settings, and create memorable images of the city's iconic bridges, Parliament, and hidden corners.",
+    city: "Budapest",
+    country: "Hungary",
+    region: "Central Hungary",
     images: [
       "/images/tours/budapest/photography-parliament.jpg",
       "/images/tours/budapest/photography-bridges.jpg",
@@ -787,6 +826,9 @@ export const budapestTours: Tour[] = [
     title: "Lake Balaton Day Trip",
     description:
       "Escape the city to discover Central Europe's largest freshwater lake, with visits to the peninsula of Tihany with its Benedictine Abbey, a wine tasting in the volcanic Badacsony region, and leisure time in charming lakeside villages.",
+    city: "Tihany",
+    country: "Hungary",
+    region: "Transdanubia",
     images: [
       "/images/tours/budapest/lake-balaton.jpg",
       "/images/tours/budapest/tihany-abbey.jpg",

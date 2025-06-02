@@ -5,6 +5,9 @@ export const boraBoraTours: Tour[] = [
     title: "Luxury Lagoon Cruise & Snorkeling Adventure",
     description:
       "Sail the turquoise waters of Bora Bora's famous lagoon on a private boat, snorkeling with tropical fish, rays, and reef sharks in pristine coral gardens.",
+    city: "Bora Bora",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/bora-bora/lagoon-cruise.jpg",
       "/images/tours/bora-bora/snorkeling.jpg",
@@ -71,6 +74,9 @@ export const boraBoraTours: Tour[] = [
     title: "Mount Otemanu Sunset Champagne Experience",
     description:
       "Experience the magic of Bora Bora's iconic volcanic peak as the sun sets, with a private beach picnic featuring premium champagne and Polynesian delicacies.",
+    city: "Bora Bora",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/bora-bora/otemanu-sunset.jpg",
       "/images/tours/bora-bora/beach-picnic.jpg",
@@ -137,6 +143,9 @@ export const boraBoraTours: Tour[] = [
     title: "Bora Bora Cultural Village Tour",
     description:
       "Immerse yourself in the rich culture of Bora Bora with a guided tour of a traditional Polynesian village, including dance performances, craft demonstrations, and a taste of local cuisine.",
+    city: "Bora Bora",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/bora-bora/cultural-village.jpg",
       "/images/tours/bora-bora/polynesian-dance.jpg",
@@ -203,6 +212,9 @@ export const boraBoraTours: Tour[] = [
     title: "Bora Bora Island Hopping & Beach BBQ",
     description:
       "Explore the stunning islands surrounding Bora Bora on a private boat tour, stopping at secluded beaches for swimming and a beach BBQ featuring fresh seafood and tropical fruits.",
+    city: "Bora Bora",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/bora-bora/island-hopping.jpg",
       "/images/tours/bora-bora/beach-bbq.jpg",
@@ -269,6 +281,9 @@ export const boraBoraTours: Tour[] = [
     title: "Bora Bora Starry Night Lagoon Cruise",
     description:
       "Experience the magic of Bora Bora's night sky with a romantic lagoon cruise, stargazing under the clear Polynesian skies while enjoying cocktails and light snacks.",
+    city: "Bora Bora",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/bora-bora/starry-night.jpg",
       "/images/tours/bora-bora/lagoon-cruise-night.jpg",

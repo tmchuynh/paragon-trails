@@ -5,6 +5,10 @@ export const bostonTours: Tour[] = [
     title: "Freedom Trail Historic Walking Tour",
     description:
       "Follow the red-brick path through Boston's revolutionary history with an expert guide bringing the American Revolution to life at 16 historic sites.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/freedom-trail.jpg",
       "/images/tours/boston/paul-revere-house.jpg",
@@ -77,6 +81,10 @@ export const bostonTours: Tour[] = [
     title: "Harvard & Cambridge Academic Tour",
     description:
       "Explore America's oldest university campus guided by current Harvard students who share insider knowledge, traditions, and Harvard's fascinating history.",
+    city: "Cambridge",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/harvard-yard.jpg",
       "/images/tours/boston/widener-library.jpg",
@@ -145,6 +153,10 @@ export const bostonTours: Tour[] = [
     title: "Boston Harbor Sunset Cruise",
     description:
       "Experience the beauty of Boston's skyline at sunset with a relaxing cruise around the harbor, complete with live music and refreshments.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/harbor-cruise.jpg",
       "/images/tours/boston/sunset-view.jpg",
@@ -212,6 +224,10 @@ export const bostonTours: Tour[] = [
     title: "Boston's North End Culinary Walk",
     description:
       "Discover Boston's Italian heritage with a guided food tour through the North End, sampling authentic pastries, pasta, and local wines.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/north-end-pasta.jpg",
       "/images/tours/boston/italian-pastries.jpg",
@@ -278,6 +294,10 @@ export const bostonTours: Tour[] = [
     title: "Boston Tea Party Ships & Museum Experience",
     description:
       "Step back in time to the Boston Tea Party with an interactive experience that includes a reenactment, a tour of the ships, and a chance to throw tea overboard.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/tea-party-ship.jpg",
       "/images/tours/boston/reenactment.jpg",
@@ -347,6 +367,10 @@ export const bostonTours: Tour[] = [
     title: "Fenway Park: Behind the Scenes Tour",
     description:
       "Go behind the scenes at America's oldest and most beloved ballpark. This intimate tour gives you unprecedented access to the home of the Boston Red Sox, including the dugout, press box, and the iconic Green Monster.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/fenway-park.jpg",
       "/images/tours/boston/green-monster.jpg",
@@ -420,6 +444,10 @@ export const bostonTours: Tour[] = [
     title: "Salem Witch Trials & New England History Tour",
     description:
       "Journey to historic Salem for a day trip exploring the infamous Witch Trials of 1692, visiting key historical sites while expert guides separate fact from fiction about this dark chapter of colonial American history.",
+    city: "Salem",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/salem-witch-house.jpg",
       "/images/tours/boston/witch-trial-memorial.jpg",
@@ -488,6 +516,10 @@ export const bostonTours: Tour[] = [
     title: "Boston Craft Beer & Brewery Tour",
     description:
       "Sample Boston's thriving craft beer scene with an expert-guided tour of local breweries, experiencing the city's brewing renaissance while learning about beer production and tasting techniques.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/craft-brewery.jpg",
       "/images/tours/boston/beer-tasting.jpg",
@@ -557,6 +589,10 @@ export const bostonTours: Tour[] = [
     title: "Boston's Literary History: Authors & Architecture",
     description:
       "Walk in the footsteps of literary giants on this tour of Boston's rich literary heritage, visiting historic sites connected to Emerson, Thoreau, Alcott, Hawthorne and other luminaries of American literature.",
+    city: "Boston",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/literary-boston.jpg",
       "/images/tours/boston/authors-homes.jpg",
@@ -624,6 +660,10 @@ export const bostonTours: Tour[] = [
     title: "MIT & Innovation District Tech Tour",
     description:
       "Explore Boston's cutting-edge innovation ecosystem with guided visits to MIT's campus, Kendall Square startups, and the Seaport Innovation District, learning how this hub drives global technological advancement.",
+    city: "Cambridge",
+    country: "United States",
+    state: "Massachusetts",
+    region: "New England",
     images: [
       "/images/tours/boston/mit-campus.jpg",
       "/images/tours/boston/innovation-district.jpg",

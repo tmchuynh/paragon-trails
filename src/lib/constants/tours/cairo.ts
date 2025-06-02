@@ -5,6 +5,9 @@ export const cairoTours: Tour[] = [
     title: "Pyramids at Dawn & Private Archaeologist Tour",
     description:
       "Experience the majesty of the Pyramids of Giza without crowds during a special early access visit, accompanied by an Egyptologist who reveals the latest archaeological discoveries and ancient engineering secrets.",
+    city: "Cairo",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/pyramids-sunrise.jpg",
       "/images/tours/cairo/sphinx-morning.jpg",
@@ -72,6 +75,9 @@ export const cairoTours: Tour[] = [
     title: "Islamic Cairo & Khan el-Khalili Artisans",
     description:
       "Explore medieval Cairo's magnificent mosques and madrasas with an architectural historian, then discover traditional craftsmanship with private visits to workshops hidden in the historic Khan el-Khalili bazaar.",
+    city: "Cairo",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/al-azhar-mosque.jpg",
       "/images/tours/cairo/khan-bazaar.jpg",
@@ -139,6 +145,9 @@ export const cairoTours: Tour[] = [
     title: "Nile Sunset Cruise & Cultural Dinner Show",
     description:
       "Glide along the Nile at sunset aboard a traditional felucca or luxury yacht, followed by an authentic Egyptian dinner featuring live music, Tanoura whirling dervishes, and belly dancing performances.",
+    city: "Cairo",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/nile-sunset-cruise.jpg",
       "/images/tours/cairo/egyptian-performance.jpg",
@@ -205,6 +214,9 @@ export const cairoTours: Tour[] = [
     title: "Coptic Cairo & Medieval Churches",
     description:
       "Discover Egypt's Christian heritage in the ancient district of Coptic Cairo, visiting centuries-old churches, the Hanging Church, and Ben Ezra Synagogue where the Cairo Geniza documents were found.",
+    city: "Cairo",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/hanging-church.jpg",
       "/images/tours/cairo/coptic-museum.jpg",
@@ -272,6 +284,9 @@ export const cairoTours: Tour[] = [
     title: "Cairo Street Food & Local Culinary Adventure",
     description:
       "Sample authentic Egyptian flavors on this guided food crawl through downtown Cairo and local neighborhoods, tasting everything from traditional breakfast foods to beloved street snacks and desserts.",
+    city: "Cairo",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/street-food-market.jpg",
       "/images/tours/cairo/egyptian-desserts.jpg",
@@ -338,6 +353,9 @@ export const cairoTours: Tour[] = [
     title: "Saqqara & Memphis Day Excursion",
     description:
       "Journey to ancient Memphis, Egypt's first capital, and the necropolis of Saqqara to explore the Step Pyramid of Djoser—the world's oldest major stone structure—plus lesser-visited tombs with vibrant original artwork.",
+    city: "Saqqara",
+    country: "Egypt",
+    region: "Lower Egypt",
     images: [
       "/images/tours/cairo/step-pyramid-saqqara.jpg",
       "/images/tours/cairo/memphis-ruins.jpg",

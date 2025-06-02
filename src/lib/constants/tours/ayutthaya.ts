@@ -5,6 +5,9 @@ export const ayutthayaTours: Tour[] = [
     title: "Ayutthaya Ancient Capitals Private Tour",
     description:
       "Explore Thailand's ancient capital with an archaeology expert, visiting UNESCO World Heritage temples, royal palace ruins, and hidden shrines away from the tourist crowds, with insights into Siamese history and architecture.",
+    city: "Ayutthaya",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/ayutthaya/wat-mahathat.jpg",
       "/images/tours/ayutthaya/buddha-head.jpg",
@@ -119,6 +122,9 @@ export const ayutthayaTours: Tour[] = [
     title: "Ayutthaya by Bicycle & Longtail Boat",
     description:
       "Experience the ancient city from unique perspectives, cycling through historical parks and local neighborhoods, then cruising the rivers that encircle the old capital by traditional longtail boat to view temples from the water.",
+    city: "Ayutthaya",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/ayutthaya/cycling-ruins.jpg",
       "/images/tours/ayutthaya/river-view.jpg",
@@ -235,6 +241,9 @@ export const ayutthayaTours: Tour[] = [
     title: "Ayutthaya Sunset Photography Tour",
     description:
       "Capture the magical light of sunset over Ayutthaya's ancient temples with guidance from a professional photographer who knows the best angles and locations for spectacular shots as the stone ruins glow in the golden hour.",
+    city: "Ayutthaya",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/ayutthaya/temple-sunset.jpg",
       "/images/tours/ayutthaya/golden-buddha.jpg",
@@ -347,6 +356,9 @@ export const ayutthayaTours: Tour[] = [
     title: "Ayutthaya Floating Markets & Local Cuisine",
     description:
       "Discover the flavors of central Thailand with visits to authentic floating markets, tasting sessions of regional specialties, and a hands-on cooking class featuring royal Thai cuisine recipes that originated in ancient Ayutthaya.",
+    city: "Ayutthaya",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/ayutthaya/floating-market.jpg",
       "/images/tours/ayutthaya/thai-cooking.jpg",
@@ -462,6 +474,9 @@ export const ayutthayaTours: Tour[] = [
     title: "Elephant Sanctuary & Ayutthaya Heritage",
     description:
       "Combine cultural heritage with ethical wildlife experiences by visiting Ayutthaya's historical park and a nearby ethical elephant sanctuary where retired working elephants live in natural conditions with expert care.",
+    city: "Ayutthaya",
+    country: "Thailand",
+    region: "Central Thailand",
     images: [
       "/images/tours/ayutthaya/elephant-sanctuary.jpg",
       "/images/tours/ayutthaya/elephant-feeding.jpg",

@@ -4,6 +4,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Film Festival Experience",
     description:
       "Experience the glamour of the world's most prestigious film festival with red carpet access, film screenings, and insider knowledge about the festival's history and impact on global cinema.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/red-carpet.jpg",
       "/images/tours/cannes/film-festival.jpg",
@@ -70,6 +73,9 @@ export const cannesTours: Tour[] = [
     title: "French Riviera Coastal Cruise",
     description:
       "Sail the crystal waters of the Côte d'Azur aboard a luxury yacht, visiting secluded bays, seaside villages, and glamorous ports between Cannes and Saint-Tropez with champagne lunch included.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/yacht-cruise.jpg",
       "/images/tours/cannes/coastal-view.jpg",
@@ -135,6 +141,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Culinary Delights Tour",
     description:
       "Indulge in the flavors of the French Riviera with a guided food tour through Cannes, sampling local delicacies, visiting markets, and dining at renowned restaurants.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/culinary-tour.jpg",
       "/images/tours/cannes/local-market.jpg",
@@ -201,6 +210,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Art & Culture Walk",
     description:
       "Explore Cannes' rich artistic heritage with a guided walking tour of its galleries, museums, and historic sites, including the Palais des Festivals and the charming Le Suquet district.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/art-walk.jpg",
       "/images/tours/cannes/le-suquet.jpg",
@@ -268,6 +280,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Nightlife Experience",
     description:
       "Experience the vibrant nightlife of Cannes with a guided tour of its best bars, clubs, and lounges, including VIP access to exclusive venues.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/nightlife.jpg",
       "/images/tours/cannes/vip-club.jpg",
@@ -333,6 +348,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Luxury Shopping Tour",
     description:
       "Shop like a celebrity with a personal shopping experience in Cannes, visiting high-end boutiques, designer stores, and exclusive showrooms with a fashion expert.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/luxury-shopping.jpg",
       "/images/tours/cannes/designer-boutique.jpg",
@@ -400,6 +418,9 @@ export const cannesTours: Tour[] = [
     title: "Cannes Yacht Party",
     description:
       "Host an unforgettable yacht party in Cannes with a private luxury yacht, complete with catering, music, and stunning views of the French Riviera.",
+    city: "Cannes",
+    country: "France",
+    region: "French Riviera",
     images: [
       "/images/tours/cannes/yacht-party.jpg",
       "/images/tours/cannes/party-on-deck.jpg",
