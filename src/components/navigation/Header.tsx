@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { navbarItems } from "@/lib/constants/navigation";
+import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import {
   Bars3Icon,

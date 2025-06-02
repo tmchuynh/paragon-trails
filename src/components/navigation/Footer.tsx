@@ -1,4 +1,4 @@
-import { navbarItems } from "@/lib/constants/navigation";
+import { navbarItems } from "@/lib/constants/info/navigation";
 import Link from "next/link";
 
 export default function Footer() {
