@@ -82,7 +82,7 @@ export const blagajFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       rating: 4.9,
       tags: ["luxury", "local", "wellness"],
       accessibilityFeatures: ["elevator", "assistance available"],
-      isPopular: false,
+      isPopular: true,
 
       isFree: false,
       isPetFriendly: false,

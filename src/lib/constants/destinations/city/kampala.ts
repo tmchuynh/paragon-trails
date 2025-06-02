@@ -278,7 +278,7 @@ export const kampalaCentralUganda: Attraction[] = [
       "some accessible paths",
       "ramps in newer buildings",
     ],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,

@@ -141,7 +141,7 @@ export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "cruise", "local"],
     accessibilityFeatures: ["elevator access", "assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

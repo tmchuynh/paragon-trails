@@ -72,7 +72,7 @@ export const glasgowScotlandUnitedKingdom: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "whisky", "local"],
     accessibilityFeatures: ["wheelchair accessible"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

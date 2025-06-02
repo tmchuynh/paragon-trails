@@ -81,7 +81,7 @@ export const budapestCentralHungaryHungary: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "culinary", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

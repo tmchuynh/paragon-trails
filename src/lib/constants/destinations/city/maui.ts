@@ -263,7 +263,7 @@ export const mauiHiUnitedStates: Attraction[] = [
       "wheelchair accessible grounds",
       "accessible restrooms",
     ],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,

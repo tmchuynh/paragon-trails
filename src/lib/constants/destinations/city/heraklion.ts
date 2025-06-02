@@ -74,7 +74,7 @@ export const heraklionCreteGreece: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

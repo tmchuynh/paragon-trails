@@ -185,7 +185,7 @@ export const cartagenaBolivarColombia: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.5,
     tags: ["adventure", "local"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

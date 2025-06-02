@@ -73,7 +73,7 @@ export const honoluluHiUnitedStates: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local", "oceanfront"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

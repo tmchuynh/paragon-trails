@@ -78,7 +78,7 @@ export const bhaktapurBagmatiProvinceNepal: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
