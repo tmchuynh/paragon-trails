@@ -1,3 +1,5 @@
+import { Details, Flags } from "@/lib/types/types";
+
 export interface CityAttractions {
   subtitle?: string;
   isPopular?: boolean;
@@ -8,7 +10,7 @@ export interface CityAttractions {
   country: string;
 }
 
-export interface Attraction {
+export interface BaseAttraction {
   title: string;
   description: string;
   imageUrl: string;
@@ -22,23 +24,6 @@ export interface Attraction {
   rating: number;
   tags?: string[];
   accessibilityFeatures?: string[];
-  isPopular?: boolean;
-  isFamilyFriendly?: boolean;
-  isFree: boolean;
-  isPetFriendly?: boolean;
-  isWheelchairAccessible?: boolean;
-  isHistorical?: boolean;
-  isCultural?: boolean;
-  isCulinary?: boolean;
-  isSpiritual?: boolean;
-  isWellness?: boolean;
-  isArtOrMusic?: boolean;
-  isAdventure?: boolean;
-  isRomantic?: boolean;
-  isLuxury?: boolean;
-  isOffTheBeatenPath?: boolean;
-  isLocalExperience?: boolean;
-  isNightlife?: boolean;
-  isOutdoor?: boolean;
-  isIndoor?: boolean;
 }
+
+export type Attraction = BaseAttraction & Flags & Details;
