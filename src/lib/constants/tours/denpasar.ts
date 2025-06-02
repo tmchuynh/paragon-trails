@@ -177,7 +177,7 @@ export const denpasarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -415,7 +415,7 @@ export const denpasarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -530,7 +530,7 @@ export const denpasarTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -541,7 +541,8 @@ export const denpasarTours: Tour[] = [
     isArtOrMusic: false,
     tourCategoryId: "local",
     meetingPoint: {
-      address: "Tegallalang Rice Terrace, Jl. Raya Tegallalang, Gianyar, Bali, Indonesia",
+      address:
+        "Tegallalang Rice Terrace, Jl. Raya Tegallalang, Gianyar, Bali, Indonesia",
       coordinates: {
         latitude: -8.4312,
         longitude: 115.2768,

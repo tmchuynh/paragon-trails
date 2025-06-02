@@ -5,6 +5,9 @@ export const hoiAnTours: Tour[] = [
     title: "Ancient Town Walking & Lantern Making",
     description:
       "Explore Hoi An's UNESCO-listed Old Town with its centuries-old architecture, then learn to craft your own traditional Vietnamese lantern.",
+    city: "Hoi An",
+    country: "Vietnam",
+    region: "Quang Nam Province",
     images: [
       "/images/tours/hoi-an/ancient-town.jpg",
       "/images/tours/hoi-an/lantern-making.jpg",
@@ -41,6 +44,9 @@ export const hoiAnTours: Tour[] = [
     title: "Countryside Bicycle Tour & Cooking Class",
     description:
       "Cycle through picturesque rice paddies and vegetable villages, then learn to cook traditional Vietnamese dishes with fresh ingredients you helped harvest.",
+    city: "Hoi An",
+    country: "Vietnam",
+    region: "Quang Nam Province",
     images: [
       "/images/tours/hoi-an/countryside-cycling.jpg",
       "/images/tours/hoi-an/cooking-class.jpg",
@@ -77,6 +83,9 @@ export const hoiAnTours: Tour[] = [
     title: "Hoi An Street Food & Market Tour",
     description:
       "Discover the vibrant flavors of Hoi An with a guided street food tour, sampling local specialties like cao lau, banh mi, and fresh seafood at bustling markets and hidden eateries.",
+    city: "Hoi An",
+    country: "Vietnam",
+    region: "Quang Nam Province",
     images: [
       "/images/tours/hoi-an/street-food.jpg",
       "/images/tours/hoi-an/local-markets.jpg",
@@ -113,6 +122,9 @@ export const hoiAnTours: Tour[] = [
     title: "Sunset River Cruise & Traditional Music",
     description:
       "Experience the magic of Hoi An's riverside at sunset with a relaxing boat cruise, accompanied by live traditional Vietnamese music and local snacks.",
+    city: "Hoi An",
+    country: "Vietnam",
+    region: "Quang Nam Province",
     images: [
       "/images/tours/hoi-an/sunset-cruise.jpg",
       "/images/tours/hoi-an/traditional-music.jpg",

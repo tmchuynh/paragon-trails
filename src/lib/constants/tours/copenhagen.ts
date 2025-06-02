@@ -501,7 +501,7 @@ export const copenhagenTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
