@@ -18,7 +18,27 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Marriott Mena House, 6 Pyramids Road, Giza, Cairo, Egypt",
+      coordinates: {
+        latitude: 29.9891,
+        longitude: 31.1342,
+      },
+      instructions:
+        "Meet your Egyptologist guide in the lobby of the historic Marriott Mena House hotel. The guide will be holding a sign with your name and 'Dawn Pyramids Tour'. Please arrive 30 minutes before sunrise time (exact time will be confirmed the day before). Hotel pickup from central Cairo hotels is available for an additional fee.",
+      contactNumber: "+20 2 3377 3222",
+      contactEmail: "pyramids@paragontrails.com",
+    },
     faqs: [
       {
         question: "How early do we start this tour?",
@@ -41,6 +61,11 @@ export const cairoTours: Tour[] = [
         answer:
           "Yes, photography is permitted throughout most of the tour. There are some restrictions inside certain chambers of the pyramids. Your guide will advise when photography is not allowed. We also provide tips for capturing the best sunrise shots of the monuments.",
       },
+      {
+        question: "What should I wear for this desert excursion?",
+        answer:
+          "We recommend comfortable walking shoes, lightweight breathable clothing, a hat for sun protection, and sunglasses. Early mornings in the desert can be surprisingly cool, especially in winter months (November-February), so bringing a light jacket or sweater is advisable. Modest dress is appreciated when visiting sites.",
+      },
     ],
   },
   {
@@ -60,7 +85,28 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Al-Azhar Mosque main entrance, Al-Azhar Street, Islamic Cairo, Egypt",
+      coordinates: {
+        latitude: 30.0441,
+        longitude: 31.2618,
+      },
+      instructions:
+        "Meet your architectural historian guide at the main tourist entrance of Al-Azhar Mosque. Your guide will be holding a blue folder with Islamic architectural patterns. Please arrive 15 minutes before the scheduled start time, wearing modest clothing that covers shoulders and knees. Women should bring a scarf to cover their hair when entering mosques.",
+      contactNumber: "+20 2 2598 4781",
+      contactEmail: "islamic@paragontrails.com",
+    },
     faqs: [
       {
         question: "What should I wear when visiting mosques?",
@@ -82,6 +128,11 @@ export const cairoTours: Tour[] = [
         answer:
           "You'll visit traditional artisan workshops specializing in metalwork, woodworking with intricate inlay techniques, textile production, and calligraphy. These workshops often use techniques passed down through generations, and you'll have opportunities to meet master craftspeople and see them at work.",
       },
+      {
+        question: "Is this tour suitable for people with mobility issues?",
+        answer:
+          "This tour involves significant walking over uneven surfaces, stairs without handrails, and narrow passageways typical of medieval architecture. While we do our best to accommodate guests with mobility concerns, many historic sites in Islamic Cairo have limited accessibility features. Please contact us to discuss your specific needs before booking.",
+      },
     ],
   },
   {
@@ -101,7 +152,27 @@ export const cairoTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
     tourCategoryId: "local",
+    meetingPoint: {
+      address: "Nile Maxim Boat Dock, Corniche El Nil, Tahrir, Cairo, Egypt",
+      coordinates: {
+        latitude: 30.0429,
+        longitude: 31.2241,
+      },
+      instructions:
+        "Meet our representative at the entrance to the Nile Maxim Boat dock. The representative will be holding a sign with 'Nile Sunset Experience' written on it. Please arrive 20 minutes before departure time for boarding procedures. The boat will not wait for late arrivals.",
+      contactNumber: "+20 2 2578 1234",
+      contactEmail: "nile@paragontrails.com",
+    },
     faqs: [
       {
         question: "What type of boat will we be on?",
@@ -123,6 +194,11 @@ export const cairoTours: Tour[] = [
         answer:
           "Yes, the cruise passes by many Cairo landmarks including modern Cairo Tower, the historic Kasr El Nil Bridge, and various palaces along the riverbank. Your guide will point out important sites and share their historical significance throughout the cruise portion.",
       },
+      {
+        question: "What type of entertainment is included in the show?",
+        answer:
+          "The show features several traditional Egyptian performances including Tanoura whirling dervishes (a mesmerizing Sufi-inspired dance with colorful skirts), belly dancing by professional performers, folk music played on traditional instruments like the oud and tabla, and sometimes Nubian dance performances. Each act represents different aspects of Egyptian cultural heritage from various regions of the country.",
+      },
     ],
   },
   {
@@ -142,7 +218,27 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "spiritual",
+    meetingPoint: {
+      address: "Mar Girgis Metro Station, Old Cairo, Cairo, Egypt",
+      coordinates: {
+        latitude: 30.0064,
+        longitude: 31.2301,
+      },
+      instructions:
+        "Meet your guide outside the Mar Girgis Metro Station exit, which leads directly to the Coptic Cairo area. Your guide will be holding a sign with 'Coptic Heritage Tour' written on it. Please arrive 10 minutes before your scheduled tour time. Modest dress is required for church visits.",
+      contactNumber: "+20 2 2363 5712",
+      contactEmail: "coptic@paragontrails.com",
+    },
     faqs: [
       {
         question: "What is the significance of Coptic Cairo?",
@@ -165,6 +261,11 @@ export const cairoTours: Tour[] = [
         answer:
           "The Ben Ezra Synagogue housed the Cairo Geniza, a collection of over 300,000 Jewish manuscript fragments discovered in the late 19th century. These documents provided unprecedented insights into medieval Mediterranean society from the 9th to 19th centuries and revolutionized our understanding of Jewish history and the medieval Middle East.",
       },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "As we'll be visiting active religious sites, modest dress is required. Both men and women should wear clothing that covers shoulders and knees. Women are advised to bring a scarf to cover their hair in certain areas. Comfortable walking shoes are recommended as the tour involves walking on uneven surfaces and occasional stairs.",
+      },
     ],
   },
   {
@@ -184,7 +285,27 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Tahrir Square, Downtown Cairo, Egypt",
+      coordinates: {
+        latitude: 30.0444,
+        longitude: 31.2357,
+      },
+      instructions:
+        "Meet your culinary guide at the entrance to the Egyptian Museum in Tahrir Square. Your guide will be holding a red tote bag with 'Egyptian Food Tour' written on it. Please arrive hungry and 15 minutes before your scheduled tour time. Wear comfortable walking shoes and casual clothing.",
+      contactNumber: "+20 2 2575 6789",
+      contactEmail: "foodtour@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is the street food safe to eat?",
@@ -230,7 +351,28 @@ export const cairoTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Cairo Marriott Hotel, 16 Saray El Gezira St, Zamalek, Cairo, Egypt",
+      coordinates: {
+        latitude: 30.0571,
+        longitude: 31.224,
+      },
+      instructions:
+        "Meet your guide in the lobby of the Cairo Marriott Hotel. Your guide will be holding a sign with your name and 'Saqqara Tour'. Please arrive 15 minutes before your scheduled pickup time. We can arrange pickup from other central Cairo hotels with advance notice.",
+      contactNumber: "+20 2 2728 3000",
+      contactEmail: "saqqara@paragontrails.com",
+    },
     faqs: [
       {
         question: "How far is Saqqara from central Cairo?",

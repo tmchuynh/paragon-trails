@@ -17,7 +17,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Café de los Angelitos, Avenida Rivadavia 2100, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.6095,
+        longitude: -58.3928,
+      },
+      instructions:
+        "Meet your tango instructor at the entrance of Café de los Angelitos, a historic café with tango heritage. Your guide will be carrying a red rose. Please arrive 15 minutes before the scheduled start time.",
+      contactNumber: "+54 11 4952 1475",
+      contactEmail: "tango@paragontrails.com",
+    },
     faqs: [
       {
         question: "Do I need dance experience for the lesson?",
@@ -33,6 +54,18 @@ export const buenosAiresTours: Tour[] = [
         question: "Is dinner included in the price?",
         answer:
           "Yes, a three-course dinner with wine is included. The menu features traditional Argentine cuisine with options for vegetarians and those with dietary restrictions if requested in advance.",
+      },
+      {
+        question:
+          "How authentic is this tango experience compared to other tourist shows?",
+        answer:
+          "This experience offers genuine Buenos Aires tango rather than showy tourist performances. Your dance lesson is with instructors who regularly perform and compete, and the milonga venue we visit is frequented by local dancers. The show portion features traditional orchestration and dance styles that preserve authentic tango heritage while still being accessible to visitors.",
+      },
+      {
+        question:
+          "Will I be expected to dance with strangers during the milonga?",
+        answer:
+          "While a traditional milonga involves changing partners, our program is designed for guests' comfort levels. After your private lesson, you can choose to either watch the locals dance, practice with your own partner, or your instructor can facilitate introductions if you wish to experience traditional milonga etiquette with locals. There is absolutely no pressure to dance with anyone you don't want to.",
       },
     ],
   },
@@ -53,7 +86,27 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address: "Plaza Dorrego, San Telmo, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.6208,
+        longitude: -58.3702,
+      },
+      instructions:
+        "Meet your urban culture specialist at the center of Plaza Dorrego in San Telmo. Your guide will be wearing a blue beret and holding an architectural map of Buenos Aires. Please arrive 10 minutes before the scheduled start time.",
+      contactNumber: "+54 11 4123 5678",
+      contactEmail: "hiddenba@paragontrails.com",
+    },
     faqs: [
       {
         question: "Which neighborhoods do we visit?",
@@ -87,6 +140,11 @@ export const buenosAiresTours: Tour[] = [
         answer:
           "Each neighborhood we visit reveals a different chapter in Buenos Aires' complex social evolution. San Telmo's preserved colonial architecture tells the story of the city's wealthy families who abandoned the area after the 1871 yellow fever epidemic, leaving behind mansions later subdivided into conventillos (tenements) for Italian and Spanish immigrants. La Boca's distinctive corrugated metal houses painted in bright colors reflect its working-class maritime history and the creative adaptation of limited resources by Italian immigrants who used leftover paint from the shipyards. Palermo Soho's transformation from a working-class area to a creative district illustrates Argentina's economic cycles and gentrification patterns. Throughout the tour, we'll discuss how these urban landscapes embody the city's waves of immigration, economic booms and busts, and political transformations over two centuries.",
       },
+      {
+        question: "What is the historical significance of the places we visit?",
+        answer:
+          "The sites we visit are crucial for understanding Buenos Aires' development. Plaza Dorrego is the city's oldest plaza, founded in 1580, and reflects the colonial history. The San Telmo area showcases 19th-century European architectural influences, while Palermo Soho represents contemporary urban renewal. La Boca's Caminito Street is famous for its colorful houses and tango dancers, symbolizing Buenos Aires' cultural fusion. Our guide will provide historical context at each location, explaining its relevance to the city's social and political evolution.",
+      },
     ],
   },
   {
@@ -106,7 +164,27 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Mercado de San Telmo, Bolívar 950, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.62,
+        longitude: -58.3723,
+      },
+      instructions:
+        "Meet your culinary guide at the main entrance of Mercado de San Telmo on Bolívar Street. Your guide will be holding a shopping basket with a Paragon Trails logo. Please arrive hungry and 10 minutes before your scheduled tour time.",
+      contactNumber: "+54 11 4231 1111",
+      contactEmail: "food@paragontrails.com",
+    },
     faqs: [
       {
         question: "What types of food will we try?",
@@ -122,6 +200,17 @@ export const buenosAiresTours: Tour[] = [
         question: "Do we need to book in advance?",
         answer:
           "Yes, we recommend booking at least 24 hours in advance to ensure availability and allow us to customize the experience based on your dietary preferences.",
+      },
+      {
+        question: "How much walking is involved during the market tour?",
+        answer:
+          "The tour involves approximately 2-3 kilometers of leisurely walking between different markets, shops, and the final restaurant. We move at a comfortable pace with plenty of stops for tastings, and the terrain is flat and easily walkable. Comfortable shoes are recommended.",
+      },
+      {
+        question:
+          "What makes Argentine beef different from beef in other countries?",
+        answer:
+          "Argentine beef is world-renowned primarily because the cattle are predominantly grass-fed rather than grain-fed, resulting in leaner meat with distinct flavor. During the tour, you'll learn about the different cuts of meat (which differ from North American or European cuts) and the traditional slow-cooking methods that make Argentine asado unique. You'll also discover how gaucho culture influenced beef preparation techniques and why beef became such a central part of Argentine identity.",
       },
     ],
   },
@@ -142,7 +231,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
     tourCategoryId: "nightlife",
+    meetingPoint: {
+      address:
+        "Plaza Serrano (Plaza Cortázar), Palermo Soho, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.5882,
+        longitude: -58.4307,
+      },
+      instructions:
+        "Meet your nightlife guide at the center of Plaza Serrano (officially Plaza Cortázar) in Palermo Soho. Your guide will be holding an illuminated sign with 'BA Nightlife Tour'. Please arrive 15 minutes before your scheduled start time.",
+      contactNumber: "+54 11 4773 9999",
+      contactEmail: "nightlife@paragontrails.com",
+    },
     faqs: [
       {
         question: "What time does the tour start?",
@@ -158,6 +268,17 @@ export const buenosAiresTours: Tour[] = [
         question: "Are drinks included in the bar stops?",
         answer:
           "Drinks are not included in the tour price, but we will visit several bars where you can purchase craft cocktails and local wines.",
+      },
+      {
+        question: "How many venues will we visit during this tour?",
+        answer:
+          "The tour typically includes visits to 3-4 carefully selected venues, ranging from sophisticated speakeasy-style cocktail bars to authentic milongas (tango dance halls). Each location has been chosen to showcase different aspects of Buenos Aires nightlife, from traditional to contemporary.",
+      },
+      {
+        question:
+          "Is the tango show a touristy performance or an authentic experience?",
+        answer:
+          "We deliberately avoid the large-scale tourist tango shows in favor of more intimate, authentic venues where both tourists and locals gather. The performance features professional dancers but maintains the spontaneous, passionate nature of traditional tango rather than overly choreographed spectacles. Our guide provides cultural context to help you appreciate the subtle artistry and historical significance of the dance.",
       },
     ],
   },
@@ -178,7 +299,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Plaza de Mayo, in front of the Cabildo building, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.6084,
+        longitude: -58.3734,
+      },
+      instructions:
+        "Meet your historical guide in front of the white Cabildo building on Plaza de Mayo. Your guide will be holding a blue and white folder with historical images of Buenos Aires. Please arrive 10 minutes before the scheduled start time.",
+      contactNumber: "+54 11 4342 6789",
+      contactEmail: "history@paragontrails.com",
+    },
     faqs: [
       {
         question: "What historical sites will we visit?",
@@ -194,6 +336,17 @@ export const buenosAiresTours: Tour[] = [
         question: "Do I need to book in advance?",
         answer:
           "We recommend booking at least 24 hours in advance to ensure availability and allow us to tailor the experience to your interests.",
+      },
+      {
+        question: "How much walking does this tour involve?",
+        answer:
+          "The tour involves approximately 3-4 kilometers of walking at a moderate pace. We use comfortable transportation between distant sites, but comfortable walking shoes are recommended. The route is mostly flat with occasional steps, particularly in Recoleta Cemetery.",
+      },
+      {
+        question:
+          "Will we learn about Argentina's political history during the tour?",
+        answer:
+          "Yes, the tour provides thoughtful context about Argentina's complex political history, from independence through the Perón era and the military dictatorships to contemporary politics. Our guides present balanced historical perspectives that help visitors understand the social and political forces that shaped the city and nation, explaining how certain landmarks became symbols of different periods in Argentine history.",
       },
     ],
   },
@@ -214,7 +367,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
+    meetingPoint: {
+      address:
+        "Estación Fluvial de Tigre (Tigre River Station), Paseo Victorica 600, Tigre, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.4162,
+        longitude: -58.5784,
+      },
+      instructions:
+        "Meet your river guide at the main entrance of Tigre River Station. Your guide will be holding a sign with 'Delta Adventure' written on it. Please arrive 20 minutes before your scheduled boat departure. You can reach Tigre by taking the Mitre train line from Retiro Station in Buenos Aires (approximately 50 minutes).",
+      contactNumber: "+54 11 4749 8765",
+      contactEmail: "delta@paragontrails.com",
+    },
     faqs: [
       {
         question: "What should I wear for the boat tour?",
@@ -230,6 +404,17 @@ export const buenosAiresTours: Tour[] = [
         question: "Do we need to bring anything?",
         answer:
           "We recommend bringing a camera for photos, sunglasses, and any personal items you may need during the day.",
+      },
+      {
+        question: "How much of the delta will we explore?",
+        answer:
+          "Our boat tour covers approximately 30 kilometers of waterways through the most scenic sections of the delta. We navigate both main river channels and smaller, more secluded streams that showcase the diversity of this unique ecosystem and the lifestyle of its inhabitants.",
+      },
+      {
+        question:
+          "Will we have the opportunity to meet locals who live in the delta?",
+        answer:
+          "Yes, our tour includes stops at islands where you'll meet residents who have maintained the traditional delta lifestyle for generations. You'll learn about their unique adaptations to living in this water-based environment, including their transportation systems, home construction techniques elevated on stilts, and sustainable practices they've developed to live in harmony with the delta ecosystem.",
       },
     ],
   },
@@ -250,7 +435,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "MALBA (Museum of Latin American Art), Av. Presidente Figueroa Alcorta 3415, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.5795,
+        longitude: -58.4037,
+      },
+      instructions:
+        "Meet your art expert guide at the main entrance of MALBA. Your guide will be carrying an art catalog and wearing a Paragon Trails name badge. Please arrive 15 minutes before the scheduled start time.",
+      contactNumber: "+54 11 4808 6598",
+      contactEmail: "art@paragontrails.com",
+    },
     faqs: [
       {
         question: "What types of art will we see?",
@@ -266,6 +472,17 @@ export const buenosAiresTours: Tour[] = [
         question: "Do I need to book in advance?",
         answer:
           "We recommend booking at least 24 hours in advance to ensure availability and allow us to customize the experience based on your interests.",
+      },
+      {
+        question:
+          "Who are some of the notable Argentine artists we'll learn about?",
+        answer:
+          "The tour explores works by influential Argentine artists including Xul Solar (a mystical modernist and friend of Jorge Luis Borges), Marta Minujín (pioneer of performance and installation art), León Ferrari (conceptual artist known for political themes), Antonio Berni (social realist who depicted Argentina's working class), and contemporary figures like Nicolás García Uriburu and Guillermo Kuitca. We'll discuss how these artists responded to Argentina's complex political and social history through their work.",
+      },
+      {
+        question: "What makes Buenos Aires' street art scene unique?",
+        answer:
+          "Buenos Aires has one of the world's vibrant and legally permissive street art scenes. Unlike many cities where street art is criminalized, Buenos Aires only requires property owner permission, not government approval. This has led to large-scale, elaborate murals that often remain for years rather than being removed. We'll explore how the scene evolved from political expression during economic crises to internationally recognized art movement, and meet working artists when possible.",
       },
     ],
   },
@@ -286,7 +503,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "wellness",
+    meetingPoint: {
+      address:
+        "Entrance to Jardín Botánico Carlos Thays, Av. Santa Fe 3951, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.5823,
+        longitude: -58.4114,
+      },
+      instructions:
+        "Meet your garden guide at the main entrance of the Buenos Aires Botanical Garden on Av. Santa Fe. Your guide will be holding a small plant and wearing a green Paragon Trails hat. Please arrive 10 minutes before your scheduled tour time.",
+      contactNumber: "+54 11 4831 4534",
+      contactEmail: "gardens@paragontrails.com",
+    },
     faqs: [
       {
         question: "What should I wear for the parks tour?",
@@ -302,6 +540,16 @@ export const buenosAiresTours: Tour[] = [
         question: "Do I need to book in advance?",
         answer:
           "We recommend booking at least 24 hours in advance to ensure availability and allow us to tailor the experience to your interests.",
+      },
+      {
+        question: "What is the history behind Buenos Aires' park system?",
+        answer:
+          "Buenos Aires' extensive park system was largely designed by French landscape architect Carlos Thays in the late 19th century as part of the city's Europeanization project. During the tour, you'll learn how these green spaces were influenced by Parisian urban planning while incorporating native South American plant species. We'll discuss how the parks reflect the social and political aspirations of Argentina during its golden age and how their function has evolved over time.",
+      },
+      {
+        question: "What makes the Japanese Garden special?",
+        answer:
+          "The Buenos Aires Japanese Garden (Jardín Japonés) is one of the largest Japanese gardens outside Japan and was designed following authentic principles of Japanese landscape architecture. During our visit, you'll learn about its symbolic elements including the red bridge representing the transition from earth to paradise, the carefully positioned stones representing mountains, and the koi pond symbolizing the ocean. We'll also discuss the history of Japanese immigration to Argentina and how this community has maintained cultural traditions through this garden.",
       },
     ],
   },
@@ -322,7 +570,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address:
+        "Aldo's Vinoteca & Restorán, Arroyo 872, Recoleta, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.5954,
+        longitude: -58.3789,
+      },
+      instructions:
+        "Meet your sommelier guide at the entrance of Aldo's Vinoteca in Recoleta. Your guide will be holding a wine glass with the Paragon Trails logo. Please arrive 10 minutes before your scheduled tasting.",
+      contactNumber: "+54 11 4327 0154",
+      contactEmail: "wine@paragontrails.com",
+    },
     faqs: [
       {
         question: "What wines will we taste during the experience?",
@@ -368,7 +637,27 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Museo Evita, Lafinur 2988, Palermo, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.582,
+        longitude: -58.4065,
+      },
+      instructions:
+        "Meet your historical guide at the entrance of the Evita Museum in Palermo. Your guide will be holding a copy of 'Santa Evita' book and wearing a Paragon Trails badge. Please arrive 15 minutes before your scheduled tour time.",
+      contactNumber: "+54 11 4807 9433",
+      contactEmail: "evita@paragontrails.com",
+    },
     faqs: [
       {
         question: "Which significant Evita sites will we visit?",
@@ -415,7 +704,27 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Hotel Pulitzer, Maipú 907, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.5986,
+        longitude: -58.3771,
+      },
+      instructions:
+        "Meet your gaucho culture guide in the lobby of Hotel Pulitzer in downtown Buenos Aires. Your guide will be wearing traditional gaucho attire with a beret and scarf. Please arrive 15 minutes before the scheduled departure time. The drive to San Antonio de Areco takes approximately 1.5 hours.",
+      contactNumber: "+54 11 4316 0800",
+      contactEmail: "gaucho@paragontrails.com",
+    },
     faqs: [
       {
         question:
@@ -463,7 +772,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "wellness",
+    meetingPoint: {
+      address:
+        "Estación Fluvial de Tigre, Paseo Victorica 600, Tigre, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.4162,
+        longitude: -58.5784,
+      },
+      instructions:
+        "Meet your eco-guide at Tigre River Station's main dock area. Your guide will be holding binoculars and wearing a green vest with the Paragon Trails logo. Please arrive 20 minutes before departure time. You can reach Tigre by taking the Mitre train line from Retiro station in Buenos Aires (approximately 50 minutes).",
+      contactNumber: "+54 11 4749 8765",
+      contactEmail: "tigre@paragontrails.com",
+    },
     faqs: [
       {
         question: "What makes the Tigre Delta ecologically unique?",
@@ -509,7 +839,28 @@ export const buenosAiresTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Centro Cultural Kirchner (former Central Post Office), Sarmiento 151, Buenos Aires, Argentina",
+      coordinates: {
+        latitude: -34.6034,
+        longitude: -58.3694,
+      },
+      instructions:
+        "Meet your architectural historian guide at the main entrance of the Centro Cultural Kirchner (former Central Post Office building). Your guide will be carrying architectural drawings and wearing glasses. Please arrive 15 minutes before your scheduled tour time.",
+      contactNumber: "+54 11 4328 7654",
+      contactEmail: "architecture@paragontrails.com",
+    },
     faqs: [
       {
         question:
