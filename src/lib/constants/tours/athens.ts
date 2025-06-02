@@ -28,6 +28,17 @@ export const athensTours: Tour[] = [
     isLuxury: true,
     isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Hotel pickup included, Athens, Greece",
+      coordinates: {
+        latitude: 37.9715,
+        longitude: 23.7267,
+      },
+      instructions:
+        "Your archaeology expert guide will meet you directly at your hotel lobby in central Athens. Please be ready 5 minutes before your scheduled pickup time. Look for a guide holding a 'Paragon Trails Private Experience' sign with your name.",
+      contactNumber: "+30 21 0321 7890",
+      contactEmail: "athens@paragontrails.com",
+    },
     faqs: [
       {
         question: "How early do we need to start for the early access?",
@@ -43,6 +54,16 @@ export const athensTours: Tour[] = [
         question: "What should we wear for the Acropolis tour?",
         answer:
           "Comfortable walking shoes are essential as the Acropolis has uneven terrain and many steps. We recommend wearing light, breathable clothing suitable for warm weather, and a hat or sunglasses for sun protection. Please note that modest dress is required when visiting the sacred sites, so shoulders and knees should be covered.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "This tour involves approximately 3-4 kilometers of walking over 5 hours, including some steep inclines and uneven surfaces on the Acropolis. We maintain a moderate pace with frequent stops for explanations and rest. While challenging for those with significant mobility limitations, we can adjust the route for most fitness levels with advance notice.",
+      },
+      {
+        question: "Is this tour available year-round?",
+        answer:
+          "Yes, this tour operates year-round, although we adjust start times seasonally to optimize your experience. During summer (June-August), we start earlier (around 7:00 AM) to avoid midday heat and crowds. In winter months, we start slightly later while still ensuring early access. Archaeological sites occasionally modify opening hours or close for maintenance, in which case we'll suggest alternative arrangements.",
       },
     ],
     availableDates: [
@@ -120,6 +141,17 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Athens Central Market, Athinas Street, Athens 10551, Greece",
+      coordinates: {
+        latitude: 37.9804,
+        longitude: 23.7271,
+      },
+      instructions:
+        "Meet your chef guide at the main entrance of Athens Central Market on Athinas Street. The guide will be wearing a chef's apron with the Paragon Trails logo and holding a small basket of Greek ingredients. Please arrive 5-10 minutes early.",
+      contactNumber: "+30 21 0322 8901",
+      contactEmail: "food@paragontrails.com",
+    },
     faqs: [
       {
         question: "What will we cook in the class?",
@@ -135,6 +167,16 @@ export const athensTours: Tour[] = [
         question: "Is the cooking class suitable for children?",
         answer:
           "Yes, this class is family-friendly and children aged 8 and up are welcome to participate. We encourage families to cook together, and our chef will adapt the activities to ensure everyone can contribute safely. Younger children can join as observers or help with simpler tasks like mixing ingredients or decorating dishes.",
+      },
+      {
+        question: "What if I have food allergies or dietary restrictions?",
+        answer:
+          "We can accommodate most food allergies and dietary restrictions, including vegetarian, vegan, gluten-free, and dairy-free options. Please inform us at least 48 hours in advance so our chef can prepare alternative ingredients while still providing an authentic Greek culinary experience. The Central Market visit can also be tailored to focus on ingredients compatible with your dietary needs.",
+      },
+      {
+        question: "Will we receive recipes to take home?",
+        answer:
+          "Yes, you'll receive a beautifully designed recipe booklet with all the dishes prepared during the class, including chef's notes and tips for preparing them at home. The recipes are written with international measurements and suggest alternative ingredients that might be easier to find outside Greece. We also provide follow-up support via email if you have questions when recreating the dishes at home.",
       },
     ],
     availableDates: [
@@ -209,6 +251,18 @@ export const athensTours: Tour[] = [
     isLuxury: true,
     isArtOrMusic: false,
     tourCategoryId: "romantic",
+    meetingPoint: {
+      address:
+        "Your hotel in central Athens or Syntagma Square, Athens, Greece",
+      coordinates: {
+        latitude: 37.975,
+        longitude: 23.7354,
+      },
+      instructions:
+        "Your guide will pick you up from your hotel in central Athens. If you're staying outside the city center, please meet us at Syntagma Square near the fountain. The guide will be holding a sign reading 'Cape Sounion Sunset Tour'. Please be ready 5-10 minutes before your scheduled pickup time.",
+      contactNumber: "+30 21 0323 9012",
+      contactEmail: "sounion@paragontrails.com",
+    },
     faqs: [
       {
         question: "What time does the tour depart?",
@@ -229,6 +283,11 @@ export const athensTours: Tour[] = [
         question: "Is transportation included in the tour?",
         answer:
           "Yes, round-trip transportation from your hotel or a central meeting point in Athens is included. Our comfortable air-conditioned vehicle will take you along the scenic coastal road to Cape Sounion and back.",
+      },
+      {
+        question: "What makes the sunset at Cape Sounion special?",
+        answer:
+          "Cape Sounion offers one of the most spectacular sunset views in Greece. As the sun descends over the Aegean Sea, the ancient marble columns of the Temple of Poseidon take on a golden hue, creating a magical atmosphere that has inspired poets and artists for centuries. The cliffside location provides a panoramic 360° view of the sea and surrounding islands. On clear days, you can see up to 7 Aegean islands from this vantage point.",
       },
     ],
     availableDates: [
@@ -303,6 +362,18 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address:
+        "Monastiraki Square, near the metro station entrance, Athens 10555, Greece",
+      coordinates: {
+        latitude: 37.9761,
+        longitude: 23.7258,
+      },
+      instructions:
+        "Meet your local guide at Monastiraki Square near the metro station entrance. The guide will be holding a blue umbrella with 'Hidden Athens' written on it. Please arrive 5-10 minutes before the tour start time.",
+      contactNumber: "+30 21 0324 0123",
+      contactEmail: "hidden@paragontrails.com",
+    },
     faqs: [
       {
         question: "How much walking is involved?",
@@ -323,6 +394,11 @@ export const athensTours: Tour[] = [
         question: "Is this tour suitable for children?",
         answer:
           "Yes, this tour is family-friendly and suitable for children of all ages. We adapt the pace and content to keep younger participants engaged, including interactive elements like scavenger hunts or storytelling about local legends. Parents often find this a great way to introduce their kids to the culture and daily life of Athens.",
+      },
+      {
+        question: "Will we see any historical sites on this tour?",
+        answer:
+          "While this tour focuses on contemporary Athenian life and hidden neighborhoods, we naturally encounter historical elements throughout our walk. Athens has layers of history everywhere, so you'll see ancient ruins alongside street art, Byzantine churches next to modern cafés, and Ottoman-era buildings repurposed as trendy shops. Our guide contextualizes these historical elements while maintaining our focus on experiencing the authentic, living city beyond the main tourist attractions.",
       },
     ],
     availableDates: [
@@ -398,6 +474,18 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: true,
     tourCategoryId: "art-and-music",
+    meetingPoint: {
+      address:
+        "Plaka neighborhood, near Lysicrates Monument, Lysicrates Square, Athens 10558, Greece",
+      coordinates: {
+        latitude: 37.9695,
+        longitude: 23.7315,
+      },
+      instructions:
+        "Meet your photographer guide at Lysicrates Monument in Plaka. The guide will be carrying professional camera equipment and wearing a Paragon Trails photo vest. Please arrive 5-10 minutes early with your camera equipment ready.",
+      contactNumber: "+30 21 0325 1234",
+      contactEmail: "photo@paragontrails.com",
+    },
     faqs: [
       {
         question: "What kind of camera do I need?",
@@ -418,6 +506,11 @@ export const athensTours: Tour[] = [
         question: "What if it rains on the day of the tour?",
         answer:
           "Photography is still possible in light rain, and we can provide ponchos if needed. However, if the weather conditions are severe, we will contact you to reschedule or offer a full refund. Athens has a unique charm even in overcast weather, and our guide will suggest alternative indoor locations with interesting architecture and atmosphere.",
+      },
+      {
+        question: "Will we be able to photograph restricted areas?",
+        answer:
+          "Our photography tour includes special access to certain locations typically restricted to casual visitors. However, some archaeological sites have strict policies about tripod use, flash photography, or commercial photography. Your guide is knowledgeable about these regulations and will help you capture amazing images while respecting local rules. When applicable, we've arranged for special photography permits at select locations.",
       },
     ],
     availableDates: [
@@ -492,6 +585,17 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Heteroclito Wine Bar, Petraki 30, Athens 10563, Greece",
+      coordinates: {
+        latitude: 37.9762,
+        longitude: 23.7327,
+      },
+      instructions:
+        "Meet your sommelier guide at Heteroclito Wine Bar on Petraki Street. The sommelier will be seated at an outside table with wine tasting equipment. Please arrive 5 minutes early and bring your ID as proof of age.",
+      contactNumber: "+30 21 0326 2345",
+      contactEmail: "wine@paragontrails.com",
+    },
     faqs: [
       {
         question: "How many wines will we taste?",
@@ -512,6 +616,11 @@ export const athensTours: Tour[] = [
         question: "Can I purchase wine to take home?",
         answer:
           "Yes, each wine bar offers the option to purchase bottles of the wines you taste during the tour. Our sommelier can provide recommendations based on your preferences, and we can assist with shipping arrangements if needed.",
+      },
+      {
+        question: "What makes Greek wines unique?",
+        answer:
+          "Greece offers one of the world's most distinctive wine portfolios, with indigenous grape varieties found nowhere else. Varieties like Assyrtiko, Xinomavro, Agiorgitiko, and Moschofilero reflect Greece's diverse terroirs and 4,000+ years of winemaking history. During the tasting, you'll discover how Greek wines express their Mediterranean origins while showcasing modern winemaking techniques. Your sommelier will explain how ancient varieties are being rediscovered and revolutionizing the Greek wine scene.",
       },
     ],
     availableDates: [
@@ -585,6 +694,18 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "historical",
+    meetingPoint: {
+      address:
+        "Acropolis Metro Station, Makrigianni Street exit, Athens 11742, Greece",
+      coordinates: {
+        latitude: 37.9685,
+        longitude: 23.7288,
+      },
+      instructions:
+        "Meet your mythology expert guide outside the Acropolis Metro Station at the Makrigianni Street exit. The guide will be holding a scroll-like sign with 'Mythological Athens' written on it. Please arrive 5-10 minutes before the tour start time.",
+      contactNumber: "+30 21 0327 3456",
+      contactEmail: "mythology@paragontrails.com",
+    },
     faqs: [
       {
         question: "Is this tour appropriate for children?",
@@ -605,6 +726,11 @@ export const athensTours: Tour[] = [
         question: "Do we need to book in advance?",
         answer:
           "Yes, we recommend booking at least 24 hours in advance to secure your spot, especially during peak tourist seasons. This tour is very popular, and space is limited to ensure an intimate experience. If you have a larger group or specific date requests, please contact us directly to check availability.",
+      },
+      {
+        question: "How does this tour differ from standard historical tours?",
+        answer:
+          "Unlike conventional historical tours focusing solely on facts and archaeology, our Mythological Athens experience weaves together ancient myths, historical context, and archaeological evidence to create a multidimensional understanding of Greek culture. Our guides are trained in both archaeological facts and traditional storytelling techniques. Each site becomes a chapter in an epic narrative, helping you understand not just what the Greeks built, but how they thought, what they believed, and why these myths continue to influence Western culture today.",
       },
     ],
     availableDates: [
@@ -680,6 +806,17 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "adventure",
+    meetingPoint: {
+      address: "Syntagma Square, central Athens, Greece",
+      coordinates: {
+        latitude: 37.9755,
+        longitude: 23.7349,
+      },
+      instructions:
+        "Meet your adventure guide at Syntagma Square near the central fountain. The guide will be wearing adventure gear with the Paragon Trails logo and holding rock climbing equipment. Please arrive wearing comfortable athletic clothing and sturdy shoes.",
+      contactNumber: "+30 21 0328 4567",
+      contactEmail: "adventure@paragontrails.com",
+    },
     faqs: [
       {
         question: "Do I need prior experience with rock climbing or kayaking?",
@@ -700,6 +837,11 @@ export const athensTours: Tour[] = [
         question: "What is the age limit for this tour?",
         answer:
           "This tour is suitable for ages 10 and up. Children under 16 must be accompanied by an adult. We can adapt the activities to ensure a fun and safe experience for younger participants, including easier climbing routes and shorter kayaking distances if needed.",
+      },
+      {
+        question: "How physically demanding is this tour?",
+        answer:
+          "This adventure tour requires a moderate level of fitness but is designed for all experience levels. The rock climbing routes range from beginner (5.6-5.8) to intermediate (5.9-5.10) on the YDS scale, and our guides help you select appropriate challenges. The sea kayaking portion covers approximately 5km at a leisurely pace with breaks. Participants should be comfortable in the water and able to swim. If you have specific physical concerns, please contact us in advance so we can adapt activities accordingly.",
       },
     ],
     availableDates: [
@@ -776,6 +918,17 @@ export const athensTours: Tour[] = [
     isLuxury: false,
     isArtOrMusic: false,
     tourCategoryId: "local",
+    meetingPoint: {
+      address: "Zappeion Gardens, central entrance, Athens 10557, Greece",
+      coordinates: {
+        latitude: 37.9712,
+        longitude: 23.7369,
+      },
+      instructions:
+        "Meet your family guide at the central entrance to Zappeion Gardens. The guide will be holding colorful treasure maps and wearing a Paragon Trails cap. Please arrive 5-10 minutes early with comfortable walking shoes and water bottles.",
+      contactNumber: "+30 21 0329 5678",
+      contactEmail: "family@paragontrails.com",
+    },
     faqs: [
       {
         question: "What age group is this tour best suited for?",
@@ -796,6 +949,11 @@ export const athensTours: Tour[] = [
         question: "Is this tour available year-round?",
         answer:
           "Yes, the family treasure hunt operates year-round, although the specific route may vary slightly based on seasonal events or site accessibility. We can also customize the experience for special occasions like birthdays or family reunions with advance notice.",
+      },
+      {
+        question: "How educational is this treasure hunt?",
+        answer:
+          "Our treasure hunt balances education with entertainment, using gamification to teach children about Greek mythology and history. The puzzles and challenges are designed by educational experts to reinforce learning while keeping excitement high. Children absorb historical information, geographical orientation, problem-solving skills, and teamwork principles through interactive play. Parents often report that their children remember more details from our treasure hunt than from traditional museum visits.",
       },
     ],
     availableDates: [
@@ -869,6 +1027,17 @@ export const athensTours: Tour[] = [
     isLuxury: true,
     isArtOrMusic: false,
     tourCategoryId: "luxury",
+    meetingPoint: {
+      address: "Your luxury hotel in Athens, Greece",
+      coordinates: {
+        latitude: 37.9715,
+        longitude: 23.7267,
+      },
+      instructions:
+        "Your personal concierge will meet you at your hotel lobby. Luxury transportation will be arranged to take you to the Athens Riviera marina. Please have swimwear and a light jacket ready for the yacht experience. Your concierge will call your room 15 minutes prior to arrival.",
+      contactNumber: "+30 21 0330 6789",
+      contactEmail: "luxury@paragontrails.com",
+    },
     faqs: [
       {
         question: "Can the yacht itinerary be customized?",
@@ -889,6 +1058,11 @@ export const athensTours: Tour[] = [
         question: "Is the yacht suitable for special occasions?",
         answer:
           "Yes, this luxury experience is perfect for celebrating special occasions such as anniversaries, birthdays, or romantic getaways. We can arrange special touches like floral arrangements, personalized menus, or even a photographer to capture your memories. Please let us know in advance so we can make the necessary arrangements.",
+      },
+      {
+        question: "How private is this experience?",
+        answer:
+          "This luxury experience is completely private and exclusive to your party. The yacht is reserved solely for you and your guests, with a dedicated captain, crew, and personal chef. The Michelin-starred dining experience includes a private dining area with premium seating for optimal views. Our staff prioritizes discretion and personalized service throughout the experience, and we can arrange additional privacy measures upon request, such as security personnel or media exclusion zones.",
       },
     ],
     availableDates: [

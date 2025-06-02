@@ -18,6 +18,15 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
       "2024-04-05",
@@ -69,6 +78,45 @@ export const atlasMountainsTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
+    meetingPoint: {
+      address: "Marrakech Medina, Djemaa el-Fna Square, Marrakech, Morocco",
+      coordinates: {
+        latitude: 31.6258,
+        longitude: -7.9891,
+      },
+      instructions:
+        "Meet your guide at Café de France on Djemaa el-Fna Square, Marrakech. The guide will be wearing a blue cap with 'High Atlas Treks' embroidered on it. Please arrive 15 minutes before the scheduled departure time with all your trekking essentials packed.",
+      contactNumber: "+212 661-234567",
+      contactEmail: "trek@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "How physically demanding is this trek?",
+        answer:
+          "This trek is moderately challenging, with daily hikes of 4-6 hours covering 8-12 km (5-7 miles) with elevation changes of 300-600 meters (1,000-2,000 feet). Trails are mostly well-established but occasionally rocky or steep. While previous trekking experience is beneficial, anyone with reasonable fitness can participate. We maintain a comfortable pace with plenty of breaks and our mules carry the heavy gear, so you only need a daypack during hiking.",
+      },
+      {
+        question: "What are the sleeping arrangements in the villages?",
+        answer:
+          "Accommodations are in authentic guesthouses (gîtes) run by local families, offering a genuine glimpse into Berber life. Facilities are basic but clean, with shared rooms typically accommodating 4-6 people on mattresses or simple beds. Shared bathrooms provide basic washing facilities and sometimes hot water. In more remote villages, we may stay in family homes with traditional room arrangements. These authentic lodgings are a highlight for most trekkers, offering cultural immersion impossible in conventional accommodations.",
+      },
+      {
+        question: "What type of food is provided during the trek?",
+        answer:
+          "Meals feature delicious, freshly prepared Moroccan and Berber specialties. Breakfasts include bread, jam, eggs, and tea/coffee. Lunches are picnic-style with salads, bread, cheese, and seasonal fruits. Dinners are substantial, often featuring tagines (slow-cooked stews), couscous dishes with vegetables and meat, followed by fresh fruit. Vegetarian options are available with advance notice. All meals are prepared with locally sourced ingredients, offering a taste of authentic mountain cuisine.",
+      },
+      {
+        question: "What should I pack for the trek?",
+        answer:
+          "Essential items include sturdy hiking boots (well broken-in), layers of clothing for variable mountain temperatures, a waterproof jacket, sun protection (hat, sunglasses, sunscreen), personal medications, a headlamp, and a day pack. A sleeping bag is necessary (rated to at least 5°C/40°F). We provide a comprehensive packing list upon booking. A porter service for personal items is available for an additional fee if you prefer not to carry anything beyond daily essentials.",
+      },
+      {
+        question:
+          "What is the cultural etiquette for visiting Berber villages?",
+        answer:
+          "When visiting Berber communities, modest dress is essential - shoulders and knees should be covered. Ask permission before photographing people, especially women. Small gifts like tea, sugar, or school supplies for children are appreciated but not expected. Learning a few Berber or Arabic greetings enhances interactions. Your guide will help navigate cultural expectations and facilitate meaningful exchanges with villagers, ensuring a respectful experience that benefits local communities.",
+      },
+    ],
   },
   {
     title: "Mount Toubkal Summit Expedition",
@@ -87,6 +135,15 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
     availableDates: [
       "2024-04-10",
@@ -138,6 +195,44 @@ export const atlasMountainsTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 21 days in advance. 50% refund if canceled 14-21 days in advance. No refund for cancellations less than 14 days before the scheduled expedition.",
+    meetingPoint: {
+      address: "Imlil Village Center, High Atlas Mountains, Morocco",
+      coordinates: {
+        latitude: 31.1356,
+        longitude: -7.9195,
+      },
+      instructions:
+        "Meet your mountain guide at Café Imlil in the center of Imlil village. The guide will be wearing a red jacket with 'Toubkal Guides' embroidered on it. Please arrive with all your mountaineering equipment ready for immediate departure to the trailhead.",
+      contactNumber: "+212 662-345678",
+      contactEmail: "toubkal@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "How physically demanding is the Toubkal climb?",
+        answer:
+          "Summiting Mount Toubkal (4,167m) is challenging, requiring good cardiovascular fitness and some hiking experience. The ascent involves 1,400m elevation gain on day one and 960m on summit day, with some steep, rocky terrain. While technically not difficult (no climbing required), the altitude, uphill hiking, and sometimes adverse weather demand endurance and determination. We recommend training with uphill hikes, stair climbing, or cardio workouts for 4-6 weeks before your expedition.",
+      },
+      {
+        question: "What are the accommodations like at the mountain refuge?",
+        answer:
+          "The Toubkal Refuge is a basic mountain hostel offering dormitory-style rooms with bunk beds. Facilities are functional but rustic, with shared bathrooms, limited hot water, and simple communal dining areas. Sleeping quarters are mixed-gender and can accommodate 8-20 people per room. During peak seasons (April-October), the refuge can be crowded. For more comfort, we offer a premium option with a private guide and guaranteed smaller rooms (when available) for an additional fee.",
+      },
+      {
+        question: "What equipment do I need to bring?",
+        answer:
+          "Essential equipment includes sturdy hiking boots with ankle support, warm layers (thermal base layers, fleece, insulated jacket), waterproof/windproof outer layers, gloves, warm hat, sleeping bag rated for below freezing, headlamp with extra batteries, trekking poles, and sun protection. In winter (November-April), additional equipment such as crampons, ice axe, and warmer gear is required. We provide a detailed equipment list upon booking and can arrange rental of technical gear from Imlil if needed.",
+      },
+      {
+        question: "What happens if I cannot reach the summit?",
+        answer:
+          "Safety is our absolute priority. If a climber experiences altitude sickness, exhaustion, or other issues, our guides are trained to assess the situation and make appropriate decisions. In many cases, a participant can rest at the refuge while others continue, or descend with an assistant guide. There's no refund for not reaching the summit, but the experience of attempting Toubkal and enjoying the magnificent High Atlas is valuable regardless of summit success. Our summit success rate is approximately 85% in summer and 70% in winter.",
+      },
+      {
+        question: "When is the best time to climb Toubkal?",
+        answer:
+          "The optimal climbing seasons are late spring (May-June) and early autumn (September-October), when weather is relatively stable with mild temperatures and clear skies. Summer (July-August) offers snow-free trails but can be very hot at lower elevations. Winter climbs (December-March) are possible but require additional technical equipment and experience, with snowfall creating more challenging but dramatically beautiful conditions. Our expedition dates are carefully selected to optimize climbing conditions while avoiding extreme weather when possible.",
+      },
+    ],
   },
   {
     title: "Atlas Mountains Photography Workshop",
@@ -156,6 +251,15 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
     tourCategoryId: "art-and-music",
     availableDates: [
       "2024-03-15",
@@ -210,6 +314,45 @@ export const atlasMountainsTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 30 days in advance. 50% refund if canceled 15-30 days in advance. No refund for cancellations less than 15 days before the scheduled workshop.",
+    meetingPoint: {
+      address: "La Maison Arabe Hotel, Derb Assehbi, Marrakech 40000, Morocco",
+      coordinates: {
+        latitude: 31.6295,
+        longitude: -7.9928,
+      },
+      instructions:
+        "Meet in the lobby of La Maison Arabe Hotel in Marrakech. Your instructor will be waiting with professional camera equipment and a 'Photography Workshop' sign. Please bring all your camera gear and be ready for immediate departure to our first shooting location.",
+      contactNumber: "+212 663-456789",
+      contactEmail: "photo@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "What photography equipment should I bring?",
+        answer:
+          "We recommend bringing a DSLR or mirrorless camera with manual settings capability, tripod, wide-angle lens (16-35mm or similar), standard zoom lens (24-70mm or similar), telephoto lens (70-200mm recommended for landscapes and portraits), polarizing and ND filters, spare batteries, memory cards, cleaning kit, and a comfortable camera bag. While not required, a drone can capture spectacular aerial perspectives (subject to local regulations). If you're unsure about your equipment, contact us for personalized recommendations before the workshop.",
+      },
+      {
+        question: "What skill level is required for this photography workshop?",
+        answer:
+          "This workshop accommodates all skill levels from enthusiastic beginners to seasoned photographers. Our instructor provides personalized guidance based on your experience. Beginners will learn fundamental techniques like composition and exposure, while advanced photographers can focus on advanced lighting techniques, complex compositions, and developing a narrative photo series. The diverse locations challenge photographers of all levels to grow creatively while capturing Morocco's stunning landscapes and culture.",
+      },
+      {
+        question: "How will we travel between photography locations?",
+        answer:
+          "Transportation is provided in a comfortable 4WD vehicle with ample room for photography equipment. Our specialized photography vehicle features adjustable seats, extra space for gear, and large windows ideal for scouting locations. We limit workshop size to ensure everyone has window access and personal space. The vehicle is air-conditioned and stocked with drinks and snacks. Driver stops are flexible, allowing us to pull over whenever inspiring scenes appear during our journey through the Atlas Mountains.",
+      },
+      {
+        question:
+          "Will we photograph local people, and how is this handled ethically?",
+        answer:
+          "Portrait and cultural photography is a significant component of our workshop, conducted with the utmost respect for local communities. Our instructor and local guide facilitate appropriate interactions and secure permissions. We've established relationships with several Berber families who welcome our photographers. We practice and teach ethical photography principles, including asking permission, showing subjects their images, and sometimes providing printed photos on return visits. A portion of workshop fees supports the communities we photograph.",
+      },
+      {
+        question: "What post-processing instruction is included?",
+        answer:
+          "Evening editing sessions using Adobe Lightroom and Photoshop (trial versions can be installed if you don't own the software) help you transform your daily images. Our instructor provides personalized guidance on workflow efficiency, color correction, exposure blending, and creative techniques specific to landscape and cultural photography. These sessions include constructive group critiques to help refine your photographic vision. You'll receive recordings of key editing demonstrations and a digital workflow guide to reference after the workshop.",
+      },
+    ],
   },
   {
     title: "Atlas Mountains Luxury Kasbahs & Spas",
@@ -228,6 +371,15 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "luxury",
     availableDates: [
       "2024-04-01",
@@ -283,6 +435,45 @@ export const atlasMountainsTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 14 days in advance. 50% refund if canceled 7-14 days in advance. No refund for cancellations less than 7 days before the scheduled tour.",
+    meetingPoint: {
+      address:
+        "Royal Mansour Hotel, Rue Abou Abbas El Sebti, Marrakech 40000, Morocco",
+      coordinates: {
+        latitude: 31.624,
+        longitude: -7.9922,
+      },
+      instructions:
+        "Your private chauffeur will meet you in the lobby of your Marrakech accommodation. They will be holding a personalized greeting sign with your name. The luxury vehicle will be waiting to transport you to your first kasbah destination in the Atlas Mountains.",
+      contactNumber: "+212 664-567890",
+      contactEmail: "luxury@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "How luxurious are the kasbah accommodations?",
+        answer:
+          "Our selected kasbahs represent Morocco's finest mountain retreats, all 5-star properties with exceptional service. Accommodations feature spacious suites with private terraces, premium bedding, and authentic Moroccan design elements. Bathrooms include hammam-style fixtures, rainfall showers, and luxury amenities. Properties such as Kasbah Tamadot (owned by Richard Branson) and Kasbah Bab Ourika offer world-class amenities including infinity pools, award-winning spas, and gardens with panoramic mountain views. Each property maintains high international standards while honoring traditional Moroccan architecture and hospitality.",
+      },
+      {
+        question: "What spa treatments are included?",
+        answer:
+          "Your experience includes two signature spa treatments per person. Options typically feature traditional Moroccan therapies such as hammam purification rituals with black soap and rhassoul clay, argan oil massages, rose water facials, and Atlas herbs treatments. Each kasbah's spa offers unique specialties based on local ingredients and traditions. Additional treatments can be arranged at supplementary cost. Spa facilities include steam rooms, indoor/outdoor treatment areas, relaxation lounges with mountain views, and traditional hammams designed for ultimate relaxation and rejuvenation.",
+      },
+      {
+        question: "What level of privacy can we expect?",
+        answer:
+          "This luxury experience emphasizes privacy and exclusivity. Our selected kasbahs feature spacious grounds where suites and common areas are designed to provide intimate spaces. Private dining can be arranged in secluded locations such as rooftop terraces, garden pavilions, or in-suite. For ultimate privacy, we can arrange exclusive use of certain facilities during designated times. Your personal concierge ensures preferences are accommodated discreetly, and private transportation is always available. For public figures or those desiring complete seclusion, we can recommend specific properties with enhanced security and privacy features.",
+      },
+      {
+        question: "What cultural activities are included?",
+        answer:
+          "While relaxation is central to the experience, we include curated cultural activities to enrich your understanding of the region. These may include private tea ceremonies with Berber elders, exclusive demonstrations of traditional crafts like carpet weaving or pottery, guided heritage walks through ancient villages, and private musical performances featuring local instruments. Each activity is conducted at a leisurely pace and can be customized to your interests. Cultural excursions are led by expert local guides with deep knowledge of Berber history and traditions.",
+      },
+      {
+        question: "What is the quality of the cuisine?",
+        answer:
+          "Dining is a highlight of this experience, featuring gourmet Moroccan cuisine prepared by accomplished chefs, often trained in European culinary institutes. Meals incorporate organic produce from kasbah gardens, local ingredients from mountain villages, and international techniques. Each kasbah offers signature dishes that showcase regional specialties with sophisticated presentation. Dietary preferences and restrictions are accommodated with creative alternatives. Wine pairings feature Moroccan wines from the foothills of the Atlas Mountains as well as international selections. Private dining experiences in spectacular settings can be arranged upon request.",
+      },
+    ],
   },
   {
     title: "Atlas Mountains Cooking & Culinary Herbs",
@@ -301,6 +492,15 @@ export const atlasMountainsTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     availableDates: [
       "2024-03-20",
@@ -353,6 +553,44 @@ export const atlasMountainsTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 7 days in advance. 50% refund if canceled 3-7 days in advance. No refund for cancellations less than 3 days before the scheduled class.",
+    meetingPoint: {
+      address: "Café du Grand Balcon, Djemaa el-Fna Square, Marrakech, Morocco",
+      coordinates: {
+        latitude: 31.6257,
+        longitude: -7.9892,
+      },
+      instructions:
+        "Meet your culinary guide at Café du Grand Balcon on Djemaa el-Fna Square. The guide will be holding a small basket of Moroccan herbs and spices for identification. Please wear comfortable clothing suitable for cooking activities.",
+      contactNumber: "+212 665-678901",
+      contactEmail: "cooking@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "What dishes will we learn to prepare?",
+        answer:
+          "You'll master authentic Berber mountain cuisine including traditional tagines using seasonal vegetables and herbs, handmade couscous prepared the ancestral way, khobz bread baked in clay ovens, and mountain herb tea blends with medicinal properties. Unlike tourist cooking classes, we teach family recipes passed down through generations, focusing on techniques rarely shared with outsiders. Our mountain hosts demonstrate regional variations not found in cookbooks, such as the distinctive slow-cooking methods used at high altitudes and special preservation techniques for winter months.",
+      },
+      {
+        question: "Do I need cooking experience to participate?",
+        answer:
+          "No prior cooking experience is necessary. Our class is designed for all skill levels, with step-by-step instruction that beginners can follow easily while still offering insights that will interest experienced cooks. The teaching style is hands-on and demonstrative rather than technical, focusing on traditional methods that don't require advanced culinary skills. You'll learn through direct participation, with our chef and local cooks providing guidance throughout each preparation. The emphasis is on understanding flavors, techniques and cultural context rather than complex preparations.",
+      },
+      {
+        question: "What will we learn about mountain herbs and their uses?",
+        answer:
+          "The workshop includes extensive knowledge about Atlas Mountain herbs, many of which are endemic to this region. You'll learn to identify, harvest, and use herbs such as wild thyme, sage, mint varieties, wild lavender, and rare medicinal plants. Beyond cooking applications, we explore traditional medicinal uses and the Berber approach to plant-based wellness. Many of these herbs have been used for centuries for their health properties, and our local expert explains how to create remedies for common ailments. You'll create your own personalized herb blend to take home.",
+      },
+      {
+        question: "Where exactly is the cooking class held?",
+        answer:
+          "The cooking workshop takes place in an authentic Berber home in a small mountain village approximately 1.5 hours from Marrakech. The kitchen features traditional cooking facilities including clay ovens, charcoal braziers, and stone grinding tools that have been used for generations. The setting provides both stunning mountain views and an immersive cultural context that enhances the learning experience. Working in a traditional kitchen rather than a modern cooking school allows you to understand how geography and available resources shape cooking techniques.",
+      },
+      {
+        question: "Will I receive recipes to take home?",
+        answer:
+          "Yes, you'll receive a beautifully illustrated recipe booklet containing all the dishes prepared during the workshop, with both metric and imperial measurements. The recipes include chef's notes on techniques, ingredient substitutions for items difficult to find outside Morocco, and background information on the cultural significance of each dish. We also provide a small pouch of key spice blends and dried herbs from the mountains to help you recreate authentic flavors at home, along with information on sourcing similar ingredients in your home country.",
+      },
+    ],
   },
 ];
 

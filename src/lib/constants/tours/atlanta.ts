@@ -18,6 +18,15 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "historical",
     availableDates: [
       "2024-04-05",
@@ -68,6 +77,45 @@ export const atlantaTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address:
+        "Martin Luther King Jr. National Historical Park Visitor Center, 450 Auburn Ave NE, Atlanta, GA 30312",
+      coordinates: {
+        latitude: 33.7564,
+        longitude: -84.373,
+      },
+      instructions:
+        "Meet your guide in front of the Martin Luther King Jr. National Historical Park Visitor Center. Your guide will be holding a sign that says 'Civil Rights Legacy Tour'. Please arrive 15 minutes before the tour start time.",
+      contactNumber: "+1 404-555-7890",
+      contactEmail: "civilrights@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "Is photography allowed at all the sites we visit?",
+        answer:
+          "Photography is permitted in most areas we visit, but there are some restrictions inside certain historic buildings and museum exhibits. At Dr. King's birth home, flash photography is prohibited to preserve the historic furnishings. At the Center for Civil and Human Rights, photography is limited in certain exhibits out of respect for the sensitive content. Your guide will inform you about specific photography guidelines at each location.",
+      },
+      {
+        question: "How much walking is involved in this tour?",
+        answer:
+          "This tour involves moderate walking, approximately 2 miles (3.2 km) in total, spread throughout the day with plenty of stops. Most sites have accessible pathways, but some historic areas have uneven surfaces. We maintain a leisurely pace suitable for most fitness levels. If you have mobility concerns, please let us know when booking so we can adjust the route accordingly.",
+      },
+      {
+        question: "Is this tour appropriate for children?",
+        answer:
+          "Yes, we've designed this tour to be educational and engaging for visitors of all ages, including children. Our guides are skilled at adjusting their presentation to be age-appropriate while still conveying the significance of the Civil Rights Movement. For younger children (under 10), we incorporate more interactive elements and focus on themes of courage, fairness, and equality. The Center for Civil and Human Rights does contain some exhibits that may be intense for very young children.",
+      },
+      {
+        question: "Will we meet any veterans of the Civil Rights Movement?",
+        answer:
+          "On select tour dates, we arrange for participants to meet with individuals who participated in the Civil Rights Movement or have direct connections to its history. These special guests might include former freedom riders, participants in sit-ins, or relatives of key figures. These opportunities depend on availability and cannot be guaranteed for every tour. When such meetings are scheduled, we'll inform you in advance.",
+      },
+      {
+        question: "What's included in the lunch?",
+        answer:
+          "Lunch is provided at a historically significant restaurant with connections to the Civil Rights Movement. The meal typically includes Southern specialties such as fried chicken, collard greens, cornbread, and sweet tea, with vegetarian options available upon request. Please inform us of any dietary restrictions when booking so we can make appropriate arrangements.",
+      },
+    ],
   },
   {
     title: "Atlanta Film & TV Production Tour",
@@ -86,6 +134,15 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     availableDates: [
       "2024-04-07",
@@ -135,6 +192,44 @@ export const atlantaTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 72 hours in advance. 50% refund if canceled 48-72 hours in advance. No refund for cancellations less than 48 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Atlanta Movie Tours, 327 Nelson St SW, Atlanta, GA 30313",
+      coordinates: {
+        latitude: 33.7516,
+        longitude: -84.3984,
+      },
+      instructions:
+        "Meet your film industry guide at the Atlanta Movie Tours headquarters. Look for the building with film posters in the windows. Your guide will greet you in the lobby. Please arrive 15 minutes before the tour start time.",
+      contactNumber: "+1 404-555-8901",
+      contactEmail: "filmtour@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "Will we see any celebrities during the tour?",
+        answer:
+          "While we cannot guarantee celebrity sightings as production schedules are confidential and frequently change, Atlanta is one of the busiest film production cities in the world. Our guides are industry insiders who know where productions are happening, and occasionally our groups do encounter filming in progress or actors on set. However, the focus of our tour is on the filmmaking process, iconic locations, and behind-the-scenes insights rather than celebrity spotting.",
+      },
+      {
+        question: "Which movies and TV shows are featured on the tour?",
+        answer:
+          "Our tour covers locations from major productions filmed in Atlanta, including Marvel superhero films, The Walking Dead, Stranger Things, Hunger Games, and many others. The specific sites visited may vary based on current access and new additions. We regularly update our routes to include locations from the latest productions, ensuring even repeat visitors discover something new.",
+      },
+      {
+        question: "Is photography allowed during the studio tour?",
+        answer:
+          "Photography policies vary depending on which studios we visit and whether active filming is in progress. In general, photos are permitted in exterior studio areas but restricted on active soundstages or near current productions. Your guide will clearly explain photography rules at each location. Many sites do allow photos in designated areas, and we ensure ample photo opportunities throughout the tour.",
+      },
+      {
+        question: "Do we need to sign any confidentiality agreements?",
+        answer:
+          "Yes, when visiting active studios, participants are typically required to sign a brief non-disclosure agreement (NDA) to protect any productions currently filming. This is standard industry practice and helps maintain the security of upcoming releases. Your guide will provide and explain these forms at the appropriate time. The NDA generally restricts sharing specific details or photos of productions in progress.",
+      },
+      {
+        question: "What industry professionals might we meet?",
+        answer:
+          "Depending on availability, you may meet production designers, location scouts, special effects technicians, costume department staff, or other behind-the-scenes professionals. These meetings provide authentic insights into the filmmaking process from people actively working in Georgia's film industry. The specific professionals available vary for each tour based on production schedules and their availability.",
+      },
+    ],
   },
   {
     title: "Southern Food & Cocktail Experience",
@@ -153,6 +248,15 @@ export const atlantaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
     availableDates: [
       "2024-04-06",
@@ -201,6 +305,44 @@ export const atlantaTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Ponce City Market, 675 Ponce De Leon Ave NE, Atlanta, GA 30308",
+      coordinates: {
+        latitude: 33.7718,
+        longitude: -84.3665,
+      },
+      instructions:
+        "Meet your culinary guide at the Central Food Hall entrance of Ponce City Market. Your guide will be wearing a chef's coat with the Paragon Trails logo. Please arrive 10 minutes before the tour start time with a good appetite!",
+      contactNumber: "+1 404-555-9012",
+      contactEmail: "food@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "How much food is served on the tour?",
+        answer:
+          "The tour includes generous tastings at multiple locations that add up to more than a full meal. You'll sample approximately 8-10 different Southern specialties and 4-5 craft cocktails throughout the experience. We recommend coming hungry and eating a light breakfast or skipping lunch before an afternoon tour. Most guests find they don't need additional meals before or after our food tour.",
+      },
+      {
+        question: "Can you accommodate dietary restrictions?",
+        answer:
+          "Yes, we can accommodate most dietary needs including vegetarian, gluten-free, and most common allergies with advance notice. Please inform us of any dietary restrictions when booking (at least 48 hours in advance) so we can arrange appropriate alternatives while still providing an authentic Southern culinary experience. Due to the focus on traditional Southern cuisine, vegan options may be more limited but are still available.",
+      },
+      {
+        question: "How much alcohol is served on the tour?",
+        answer:
+          "The tour includes 4-5 craft cocktail tastings, each approximately one-third the size of a standard drink. This allows you to experience a variety of flavors without excessive alcohol consumption. Non-alcoholic alternatives are available for those who don't drink or prefer not to consume alcohol during the tour. All participants must be 21+ with valid ID to receive alcohol tastings.",
+      },
+      {
+        question: "Will we learn how to make the cocktails?",
+        answer:
+          "Yes, at one of our stops, a professional mixologist will demonstrate the techniques for crafting a signature Southern cocktail, explaining the ingredients, history, and methods involved. You'll have the opportunity to participate in creating your own version under expert guidance. We also provide recipe cards for all featured cocktails so you can recreate them at home.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "This tour covers approximately one mile of walking spread over 4 hours, with plenty of stops for food and drink. We maintain a leisurely pace suitable for most fitness levels. Most of the walking is indoors or on well-maintained sidewalks, making this tour accessible for most participants. We can accommodate those with mobility concerns with advance notice.",
+      },
+    ],
   },
   {
     title: "Atlanta BeltLine Art & Nature Walk",
@@ -219,6 +361,15 @@ export const atlantaTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "off-the-beaten-path",
     availableDates: [
       "2024-04-08",
@@ -265,6 +416,45 @@ export const atlantaTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address:
+        "Eastside Trail Entrance, 830 Willoughby Way NE, Atlanta, GA 30312",
+      coordinates: {
+        latitude: 33.7676,
+        longitude: -84.3645,
+      },
+      instructions:
+        "Meet your guide at the Eastside Trail entrance near Krog Street Market. Your guide will be holding a bright blue BeltLine Art & Nature Walk sign. Please arrive 10 minutes early wearing comfortable walking shoes and weather-appropriate clothing.",
+      contactNumber: "+1 404-555-0123",
+      contactEmail: "beltline@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "How long is the walking route?",
+        answer:
+          "The walking route covers approximately 2 miles (3.2 km) of the Atlanta BeltLine's Eastside Trail, conducted at a leisurely pace with frequent stops to view and discuss art installations and natural features. The terrain is primarily flat, paved paths suitable for all fitness levels. We take multiple breaks, including a refreshment stop at a local café around the midpoint of the tour.",
+      },
+      {
+        question: "What type of art will we see?",
+        answer:
+          "The BeltLine features a diverse collection of public art, including large-scale murals, interactive installations, sculptures, and temporary exhibits. The art changes regularly as new pieces are installed and seasonal exhibitions rotate. Our guides stay updated on the latest additions and provide context about the artists, many of whom are local to Atlanta, and the significance of their works within the community.",
+      },
+      {
+        question: "Is the tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and engaging for children, especially those interested in art and the outdoors. We incorporate interactive elements for younger participants, encouraging them to observe and respond to the artworks we encounter. The walking distance is manageable for children, with plenty of stops and opportunities to rest along the way.",
+      },
+      {
+        question: "What's the story behind the Atlanta BeltLine?",
+        answer:
+          "The Atlanta BeltLine is one of the largest urban redevelopment projects in the United States, transforming 22 miles of historic railway corridors into a network of parks, trails, and transit. Started in the early 2000s based on a thesis project by Georgia Tech student Ryan Gravel, the BeltLine has become a catalyst for economic development, connecting 45 neighborhoods while promoting sustainable transportation, public art, and green space. During the tour, we'll discuss its history, ongoing development, and impact on Atlanta's urban landscape.",
+      },
+      {
+        question: "What neighborhoods will we explore?",
+        answer:
+          "Our tour primarily explores the vibrant neighborhoods connected by the Eastside Trail, including Inman Park, the Old Fourth Ward, and Poncey-Highland. These historic areas have been revitalized in recent years, with the BeltLine serving as a catalyst for new developments, restaurants, and community spaces. Your guide will highlight the unique characteristics of each neighborhood and point out local landmarks and hidden gems along the way.",
+      },
+    ],
   },
   {
     title: "Atlanta Hip-Hop Heritage Experience",
@@ -283,6 +473,15 @@ export const atlantaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
     tourCategoryId: "cultural",
     availableDates: [
       "2024-04-09",
@@ -333,6 +532,44 @@ export const atlantaTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Hip-Hop Hall of Fame, 345 Peters St SW, Atlanta, GA 30313",
+      coordinates: {
+        latitude: 33.7467,
+        longitude: -84.3991,
+      },
+      instructions:
+        "Meet your guide at the entrance to the Hip-Hop Hall of Fame. Your guide will be wearing urban streetwear with a Paragon Trails badge. Please arrive 15 minutes before the tour start time.",
+      contactNumber: "+1 404-555-1234",
+      contactEmail: "hiphop@paragontrails.com",
+    },
+    faqs: [
+      {
+        question: "What makes Atlanta significant in hip-hop history?",
+        answer:
+          "Atlanta has been pivotal in shaping hip-hop since the 1990s, introducing distinctive sounds like 'Dirty South' and trap music that revolutionized the genre. Home to legendary artists including OutKast, T.I., Ludacris, Future, and Migos, Atlanta's influence extends beyond music to language, fashion, and culture. The city's music scene benefited from supportive radio stations, independent labels, and influential clubs that helped develop Atlanta's unique style and launch countless careers. Our tour explores this rich history and Atlanta's continuing importance in hip-hop evolution.",
+      },
+      {
+        question: "Will we visit active recording studios?",
+        answer:
+          "Yes, our tour includes visits to working recording studios such as Stankonia (OutKast's studio) and Patchwerk, where countless hit records have been created. Access to certain areas depends on whether recording sessions are in progress. Our industry connections often allow us behind-the-scenes access not available to the general public. We coordinate with studio management to ensure our visits don't disrupt active sessions while still providing an authentic look at where Atlanta's sound is created.",
+      },
+      {
+        question: "Is this tour appropriate for all ages?",
+        answer:
+          "This tour is most appropriate for adults and teens due to some mature content in the music and history discussed. While we keep the tour educational and informative, hip-hop culture sometimes includes themes and language that may not be suitable for young children. We recommend this experience for ages 13 and up, but parents can use their discretion. Please note that for visits to venues serving alcohol, all participants must be 21+ with valid ID.",
+      },
+      {
+        question: "What neighborhoods will we visit?",
+        answer:
+          "Our tour explores several Atlanta neighborhoods significant to hip-hop history, including East Point, College Park, and the historically important areas around the Atlanta University Center. These neighborhoods produced many influential artists and shaped the distinctive Atlanta sound. We'll discuss how these communities influenced the music and how hip-hop has in turn impacted these areas, from economic development to cultural identity.",
+      },
+      {
+        question: "What type of transportation is used during the tour?",
+        answer:
+          "We use a comfortable air-conditioned van to transport guests between locations, as the sites we visit are spread throughout different areas of Atlanta. The van is equipped with a professional sound system where we play relevant music and audio clips to enhance your understanding of Atlanta's hip-hop evolution while traveling between stops. All transportation during the scheduled tour is included in your ticket price.",
+      },
+    ],
   },
 ];
 
