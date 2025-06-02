@@ -17,6 +17,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export default function TourCard({
   tour,
@@ -25,7 +26,7 @@ export default function TourCard({
   country,
 }: {
   tour: Tour;
-  tourGuides: { [key: string]: string };
+  tourGuides?: TourGuide[];
   city: string;
   country: string;
 }) {
@@ -218,10 +219,14 @@ export default function TourCard({
                 <strong className="text-foreground">Duration:</strong>{" "}
                 {tour.duration}
               </h5>
-              <h5 className="text-tertiary">
-                <strong className="text-foreground">Guide:</strong>{" "}
-                {tourGuides[tour.title] || "Guide not assigned yet"}
-              </h5>
+              {tourGuides && tourGuides.length > 0 && (
+                <h5 className="text-tertiary">
+                  <strong className="text-foreground">Guide:</strong>{" "}
+                  {tourGuides.map((guides, index) => (
+                    <p key={index}>{guides.name}</p>
+                  )) || "Guide not assigned yet"}
+                </h5>
+              )}
             </div>
             <h2>{tour.price}</h2>
           </div>
@@ -232,8 +237,11 @@ export default function TourCard({
                 country: country,
                 tour: tour.title,
                 tourCategoryId: tour.tourCategoryId,
-                tourGuide: tourGuides[tour.title] || "Unknown Guide",
               });
+
+              if (tourGuides && tourGuides.length > 0) {
+                queryParams.append("tourGuide", tourGuides[0].name);
+              }
 
               router.push(
                 `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
