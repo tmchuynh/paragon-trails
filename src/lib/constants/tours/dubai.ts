@@ -2,326 +2,879 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const dubaiTours: Tour[] = [
   {
-    title: "Modern Dubai Architecture Tour",
+    title: "Desert Safari & Bedouin Experience",
     description:
-      "Explore Dubai's spectacular futuristic architecture with an architectural photographer, going beyond tourist spots to photograph unique perspectives of the Burj Khalifa, Dubai Frame, and other innovative structures.",
+      "Experience the magic of the Arabian desert with thrilling dune bashing in 4x4 vehicles, camel rides at sunset, and an authentic Bedouin camp dinner featuring traditional entertainment including belly dancing, tanoura shows, and stargazing.",
+    images: [
+      "/images/tours/dubai/desert-safari.jpg",
+      "/images/tours/dubai/dune-bashing.jpg",
+      "/images/tours/dubai/bedouin-camp.jpg",
+    ],
+    duration: "6 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Desert", "Adventure", "Cultural"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "adventure",
+    meetingPoint: {
+      address: "Your hotel or accommodation in Dubai",
+      coordinates: {
+        latitude: 25.2048,
+        longitude: 55.2708,
+      },
+      instructions:
+        "Our driver will pick you up from your hotel lobby. Please be ready 15 minutes before your scheduled pickup time and have your booking confirmation accessible.",
+      contactNumber: "+971 4 123 4567",
+      contactEmail: "bookings@dubaideserttours.com",
+    },
+    availableDates: [
+      "2024-04-01",
+      "2024-04-02",
+      "2024-04-03",
+      "2024-04-04",
+      "2024-04-05",
+      "2024-04-08",
+      "2024-04-09",
+      "2024-04-10",
+      "2024-04-11",
+      "2024-04-12",
+      "2024-04-15",
+      "2024-04-16",
+      "2024-04-17",
+      "2024-04-18",
+      "2024-04-19",
+      "2024-04-22",
+      "2024-04-23",
+      "2024-04-24",
+      "2024-04-25",
+      "2024-04-26",
+      "2024-04-29",
+      "2024-04-30",
+      "2024-05-01",
+      "2024-05-02",
+      "2024-05-03",
+    ],
+    highlights: [
+      "Exhilarating dune bashing experience in 4x4 vehicles",
+      "Camel riding in the desert at sunset",
+      "Sand boarding on the desert dunes",
+      "BBQ dinner with Arabian and international cuisines",
+      "Live entertainment including belly dancing and tanoura show",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off",
+      "4x4 desert safari with experienced driver",
+      "Camel ride experience",
+      "Sand boarding equipment",
+      "BBQ dinner buffet with vegetarian options",
+      "Unlimited soft drinks, water, tea, and coffee",
+      "Live entertainment",
+      "Henna painting",
+      "Shisha (hookah) smoking facilities",
+    ],
+    exclusions: [
+      "Alcoholic beverages (available for purchase)",
+      "Professional photo packages (available for purchase)",
+      "Quad biking (available as an add-on)",
+      "Personal expenses",
+      "Gratuities",
+    ],
+    itinerary: [
+      "3:00 PM - 3:30 PM: Hotel pickup in air-conditioned vehicle",
+      "4:00 PM: Arrive at desert conservation area",
+      "4:15 PM: Thrilling dune bashing experience",
+      "5:30 PM: Stop for sunset photos and sand boarding",
+      "6:00 PM: Camel ride experience",
+      "6:30 PM: Arrive at Bedouin camp",
+      "6:45 PM: Welcome drinks, henna painting, Arabic costume photo opportunities",
+      "7:30 PM: BBQ dinner buffet served",
+      "8:00 PM: Live entertainment including belly dancing and tanoura show",
+      "9:00 PM: Departure from camp",
+      "9:30 PM: Return to hotel",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour starts. 50% charge for cancellations less than 24 hours before tour time. No refund for no-shows or cancellations within 4 hours of tour start time.",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "This tour is suitable for children aged 4 and above. However, the dune bashing portion may not be recommended for pregnant women, elderly persons, or those with back or neck problems. Families with very young children, elderly members, or individuals with medical concerns should inform us in advance so we can adjust the driving style accordingly or offer alternatives.",
+      },
+      {
+        question: "What should I wear for this desert safari?",
+        answer:
+          "We recommend comfortable, casual clothing. For women, while Dubai is relatively liberal, the desert camps are in more traditional areas, so modest clothing (knees and shoulders covered) is advisable. Bring a light jacket as desert temperatures drop in the evening. Wear closed shoes if you plan to participate in activities like sand boarding. Sunglasses and a scarf to protect from sand are also useful.",
+      },
+      {
+        question: "Is the food halal?",
+        answer:
+          "Yes, all food served during the tour is certified halal. The BBQ dinner buffet includes a variety of Arabian and international dishes, with vegetarian and vegan options available. Please inform us in advance if you have any specific dietary requirements or allergies.",
+      },
+      {
+        question: "How intense is the dune bashing?",
+        answer:
+          "The dune bashing experience lasts about 30-45 minutes and involves driving up and down sand dunes at varying speeds. Our professional drivers adjust the intensity based on passenger comfort, so please communicate with your driver if you prefer a milder experience. Those who don't wish to participate in dune bashing can be taken directly to the camp by an alternate vehicle with advance notice.",
+      },
+      {
+        question: "Are there bathroom facilities in the desert?",
+        answer:
+          "The Bedouin camp is equipped with proper bathroom facilities including western-style toilets and handwashing stations. There are separate facilities for men and women. During the dune bashing portion of the tour, bathroom access is limited, so we recommend using facilities before departing for the desert.",
+      },
+    ],
+  },
+  {
+    title: "Modern Dubai Architectural Tour",
+    description:
+      "Explore Dubai's futuristic skyline and architectural marvels with an expert guide. Visit the iconic Burj Khalifa, Dubai Frame, and Museum of the Future while learning about the vision and engineering behind Dubai's transformation from desert to global metropolis.",
     images: [
       "/images/tours/dubai/burj-khalifa.jpg",
-      "/images/tours/dubai/dubai-architecture.jpg",
+      "/images/tours/dubai/dubai-frame.jpg",
+      "/images/tours/dubai/museum-future.jpg",
     ],
     duration: "5 hours",
-    price: "$150",
-    rating: 4.8,
-    tags: ["Architecture", "Photography", "Modern"],
+    price: "$120",
+    rating: 4.9,
+    tags: ["Architecture", "Modern", "Sightseeing"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
     tourCategoryId: "cultural",
+    meetingPoint: {
+      address:
+        "Dubai Mall Main Entrance, Financial Center Road, Downtown Dubai",
+      coordinates: {
+        latitude: 25.1972,
+        longitude: 55.2744,
+      },
+      instructions:
+        "Meet your guide at the Dubai Mall Grand Entrance near The Waterfall. Look for a guide holding a sign with 'Architectural Tour' written on it. Please arrive 15 minutes before the scheduled tour time.",
+      contactNumber: "+971 4 234 5678",
+      contactEmail: "architecture@dubaitours.com",
+    },
+    availableDates: [
+      "2024-04-02",
+      "2024-04-04",
+      "2024-04-09",
+      "2024-04-11",
+      "2024-04-16",
+      "2024-04-18",
+      "2024-04-23",
+      "2024-04-25",
+      "2024-04-30",
+      "2024-05-02",
+      "2024-05-07",
+      "2024-05-09",
+      "2024-05-14",
+      "2024-05-16",
+      "2024-05-21",
+      "2024-05-23",
+      "2024-05-28",
+      "2024-05-30",
+      "2024-06-04",
+      "2024-06-06",
+    ],
+    highlights: [
+      "Fast-track entry to Burj Khalifa's 'At The Top' observation deck",
+      "Guided visit to the innovative Museum of the Future",
+      "Experience the Dubai Frame with views of old and new Dubai",
+      "Learn about sustainable architecture at sustainable city projects",
+      "Discover the engineering secrets behind Dubai's iconic structures",
+    ],
+    inclusions: [
+      "Expert architecture guide",
+      "Entry tickets to Burj Khalifa (124th & 125th floors)",
+      "Museum of the Future admission",
+      "Dubai Frame tickets",
+      "Air-conditioned transportation between sites",
+      "Bottled water",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and additional beverages",
+      "Higher floor access at Burj Khalifa (levels 148+)",
+      "Personal expenses",
+      "Gratuities",
+    ],
+    itinerary: [
+      "9:00 AM: Meet guide at Dubai Mall entrance",
+      "9:15 AM: Introduction to Dubai's architectural vision and journey",
+      "9:30 AM: Visit Burj Khalifa and ascend to observation decks",
+      "10:45 AM: Depart for Museum of the Future",
+      "11:15 AM: Guided tour of Museum of the Future",
+      "12:30 PM: Transfer to Dubai Frame",
+      "1:00 PM: Experience the Dubai Frame with views of old and new Dubai",
+      "2:00 PM: Tour conclusion with recommendations for further architectural sites to visit",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 48 hours before the tour starts. 50% charge for cancellations 24-48 hours before tour time. No refund for cancellations less than 24 hours before the scheduled tour.",
     faqs: [
       {
-        question: "Do I need professional camera equipment?",
+        question: "How much walking is involved in this tour?",
         answer:
-          "While professional equipment is not required, a camera that allows manual settings will help you get the most out of the photography guidance. Smartphone users are welcome and will receive specific tips for mobile photography. Tripods are recommended for evening tours, and we can provide tripods upon request.",
+          "This tour involves approximately 3-4 kilometers (2-2.5 miles) of walking throughout the day, mostly on flat surfaces inside buildings with air conditioning. There will be opportunities to sit and rest at each location. Comfortable walking shoes are recommended. All sites are wheelchair accessible.",
       },
       {
-        question: "Will we go inside the Burj Khalifa?",
+        question: "What makes Dubai's architecture unique?",
         answer:
-          "This tour focuses on exterior architectural photography from strategic vantage points. Entry to observation decks is not included, but we can arrange tickets as an add-on if requested in advance. Our guide will show you unique perspectives that most tourists miss.",
+          "Dubai's architecture represents a remarkable fusion of ultra-modern innovation with traditional Islamic design elements. The tour explores how Dubai has purposefully created iconic landmarks as part of its global branding strategy, while integrating smart city technologies and addressing the challenges of building in a desert climate. You'll learn how these structures are not just visually striking but also incorporate sophisticated engineering solutions for sustainability in one of Earth's harshest environments.",
       },
       {
-        question: "How much walking is involved?",
+        question: "Will we have time to take photos?",
         answer:
-          "The tour includes moderate walking between photo locations with opportunities to rest. Transportation is provided between major sites. Comfortable shoes and weather-appropriate clothing are recommended.",
-      },
-    ],
-  },
-  {
-    title: "Desert Safari & Bedouin Experience",
-    description:
-      "Venture beyond the city for an authentic desert experience including dune bashing in vintage Land Rovers, falconry demonstrations, traditional Bedouin hospitality with local cuisine, and stargazing away from city lights.",
-    images: [
-      "/images/tours/dubai/desert-safari.jpg",
-      "/images/tours/dubai/bedouin-camp.jpg",
-    ],
-    duration: "7 hours",
-    price: "$195",
-    rating: 4.9,
-    tags: ["Desert", "Adventure", "Cultural"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Is dune bashing safe?",
-        answer:
-          "Yes, our experienced drivers are specially trained for desert terrain and use well-maintained vehicles equipped with safety features. The activity can be quite thrilling with some steep ascents and descents over dunes. Those with back problems, heart conditions, or who are pregnant should skip this portion of the tour.",
+          "Yes, ample time is allocated at each location specifically for photography. Your guide will point out the best angles and perspectives for capturing each architectural marvel. The tour timing is designed to provide good lighting conditions for photography. At Burj Khalifa, you can stay longer on the observation deck after the guided portion if you wish to take more photos or simply enjoy the view.",
       },
       {
-        question: "What should I wear for the desert?",
+        question: "Is this tour suitable for architecture professionals?",
         answer:
-          "Wear loose, comfortable clothing and bring a light jacket or sweater as desert temperatures drop significantly after sunset. Sandals are suitable, but closed shoes are recommended for walking in sand. Don't forget sunglasses, sunscreen, and a camera!",
+          "Absolutely. While accessible to those with casual interest in architecture, our guides have backgrounds in architecture, engineering, or urban planning and can engage with technical questions. For professionals, we can emphasize structural engineering aspects, sustainability features, and urban development contexts. Please let your guide know your specific interests at the beginning of the tour.",
       },
       {
-        question: "Is food provided during the tour?",
+        question: "What is the Museum of the Future, and why is it included?",
         answer:
-          "Yes, a traditional Bedouin dinner is included featuring grilled meats, fresh salads, Arabic bread, hummus, and desserts. Vegetarian options are available with advance notice. Water, soft drinks, Arabic coffee, and tea are complimentary.",
+          "The Museum of the Future is one of Dubai's newest architectural icons, featuring a stunning torus design covered in Arabic calligraphy. Opened in 2022, its unique structure represents Dubai's vision of the future in both form and function. Inside, it showcases future technologies and innovations. We include it on this tour not only for its remarkable exterior design but also because it embodies Dubai's forward-thinking approach to architecture as a statement of cultural and technological aspirations.",
       },
     ],
   },
   {
     title: "Old Dubai Cultural Walking Tour",
     description:
-      "Step back in time to discover Dubai's origins through the historic Al Fahidi district, Dubai Creek, traditional souks, and cultural museums with a local guide sharing insights into Emirati heritage and traditions.",
+      "Discover the authentic heart of Dubai in the historic Al Fahidi district, navigating narrow sikkas (alleyways), visiting the Dubai Museum in Al Fahidi Fort, exploring colorful souks, and crossing Dubai Creek in traditional abra boats to experience the city's trading heritage.",
     images: [
-      "/images/tours/dubai/al-fahidi-district.jpg",
-      "/images/tours/dubai/dubai-creek.jpg",
+      "/images/tours/dubai/al-fahidi.jpg",
+      "/images/tours/dubai/dubai-museum.jpg",
+      "/images/tours/dubai/abra-crossing.jpg",
     ],
     duration: "4 hours",
-    price: "$85",
+    price: "$65",
     rating: 4.7,
-    tags: ["Cultural", "Historical", "Walking"],
+    tags: ["Historical", "Cultural", "Walking"],
 
     isHistorical: true,
     isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "historical",
+    meetingPoint: {
+      address: "Al Fahidi Historical Neighbourhood, Dubai",
+      coordinates: {
+        latitude: 25.2635,
+        longitude: 55.2972,
+      },
+      instructions:
+        "Meet your guide at the main entrance to the Sheikh Mohammed Centre for Cultural Understanding (SMCCU) in Al Fahidi Historical Neighborhood. Look for a guide wearing a traditional Emirati kandoora with a tour badge. Please arrive 10 minutes before the scheduled tour time.",
+      contactNumber: "+971 4 345 6789",
+      contactEmail: "heritage@dubaiculturaltours.com",
+    },
+    availableDates: [
+      "2024-04-01",
+      "2024-04-03",
+      "2024-04-05",
+      "2024-04-08",
+      "2024-04-10",
+      "2024-04-12",
+      "2024-04-15",
+      "2024-04-17",
+      "2024-04-19",
+      "2024-04-22",
+      "2024-04-24",
+      "2024-04-26",
+      "2024-04-29",
+      "2024-05-01",
+      "2024-05-03",
+      "2024-05-06",
+      "2024-05-08",
+      "2024-05-10",
+      "2024-05-13",
+      "2024-05-15",
+    ],
+    highlights: [
+      "Explore the maze-like alleyways of Al Fahidi Historical Neighborhood",
+      "Visit Dubai Museum housed in the 18th-century Al Fahidi Fort",
+      "Experience a traditional abra boat crossing on Dubai Creek",
+      "Discover the aromatic Spice Souk and glittering Gold Souk",
+      "Learn about Bedouin heritage and Dubai's transformation from fishing village to global city",
+    ],
+    inclusions: [
+      "Expert cultural guide",
+      "Dubai Museum entrance fee",
+      "Traditional Arabic coffee and dates",
+      "Abra boat crossing",
+      "Bottled water",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Food and additional beverages",
+      "Purchases at the souks",
+      "Gratuities",
+    ],
+    itinerary: [
+      "9:00 AM: Meet guide at Al Fahidi Historical Neighborhood",
+      "9:15 AM: Walking tour through Al Fahidi's traditional architecture and narrow sikkas",
+      "10:00 AM: Visit the Dubai Museum in Al Fahidi Fort",
+      "11:00 AM: Experience traditional Arabic coffee and dates at a local café",
+      "11:30 AM: Cross Dubai Creek on a traditional abra water taxi",
+      "11:45 AM: Explore the Spice Souk with time to browse exotic spices, herbs, and incense",
+      "12:30 PM: Visit the famous Gold Souk",
+      "1:00 PM: Tour conclusion at the Gold Souk (guide can direct you to local restaurants or back to Dubai Metro)",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour starts. 50% charge for cancellations less than 24 hours before tour time. No refund for no-shows or cancellations within 4 hours of tour start time.",
+    faqs: [
+      {
+        question: "What should I wear for this walking tour?",
+        answer:
+          "Dubai is a conservative city, especially in the older districts we'll be visiting. We recommend modest clothing that covers shoulders and knees for both men and women. Loose, lightweight fabrics are best for comfort in Dubai's warm climate. Comfortable walking shoes are essential as we'll cover approximately 3-4 kilometers on sometimes uneven surfaces. Don't forget a hat and sunglasses for sun protection.",
+      },
+      {
+        question: "Is haggling expected in the souks?",
+        answer:
+          "Yes, friendly negotiation is a traditional part of the souk experience, especially in the Gold Souk. Your guide will explain local bargaining customs and can offer tips on reasonable starting points for negotiations. As a general rule, vendors usually start at prices 30-50% higher than what they expect to receive. Remember to maintain a friendly, respectful attitude throughout the bargaining process.",
+      },
+      {
+        question: "Will there be opportunities to purchase items in the souks?",
+        answer:
+          "Yes, you'll have free time in both the Spice and Gold Souks to browse and shop if you wish. The Spice Souk offers authentic spices, teas, incense, and traditional remedies at better prices than tourist areas. The Gold Souk is known for competitive gold prices sold by weight plus craftsmanship costs. Both accept major credit cards, though cash (UAE Dirhams) may secure better deals. Your guide can help authenticate genuine items and recommend reputable vendors.",
+      },
+      {
+        question: "How does Dubai's history compare to other Gulf states?",
+        answer:
+          "Dubai's development path differs significantly from its neighbors. While it shares Bedouin heritage and pearl diving history with other Gulf states, Dubai's mercantile tradition and open trade policies distinguish it historically. The tour explores how Dubai's strategic decision in the early 20th century to position itself as a trade hub—offering low customs duties and welcoming merchants from India, Iran and across the Arab world—laid the foundation for its current global status. You'll learn how this commercial DNA influenced Dubai's development differently from oil-dependent neighbors, creating a unique urban and social environment.",
+      },
+      {
+        question:
+          "What is the significance of Dubai Creek to the city's development?",
+        answer:
+          "Dubai Creek (Khor Dubai) is the historical heart of the city and the reason for Dubai's existence. During our abra crossing, your guide will explain how this natural inlet determined Dubai's development as a trading port and created the division between Deira and Bur Dubai districts. You'll learn how the creek served as Dubai's main commercial artery before modern ports were developed, how traditional dhow boats still actively trade goods to Iran, India, and Africa, and how the creek's dredging in the early 20th century—a visionary but financially risky decision—established Dubai's reputation for ambitious infrastructure projects that continues today.",
+      },
+    ],
+  },
+  {
+    title: "Dubai Marina Luxury Yacht Cruise",
+    description:
+      "Sail in style aboard a luxury yacht through Dubai Marina and along the stunning coastline, taking in magnificent views of iconic landmarks like Atlantis The Palm, Burj Al Arab, and the futuristic Dubai skyline while enjoying premium beverages and gourmet canapés.",
+    images: [
+      "/images/tours/dubai/dubai-yacht.jpg",
+      "/images/tours/dubai/dubai-marina-view.jpg",
+      "/images/tours/dubai/palm-jumeirah-yacht.jpg",
+    ],
+    duration: "3 hours",
+    price: "$195",
+    rating: 4.8,
+    tags: ["Luxury", "Yacht", "Sightseeing"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
+    tourCategoryId: "luxury",
+    meetingPoint: {
+      address: "Dubai Marina Yacht Club, Marina Promenade, Dubai Marina",
+      coordinates: {
+        latitude: 25.0766,
+        longitude: 55.1331,
+      },
+      instructions:
+        "Meet at the Dubai Marina Yacht Club main jetty. Look for the Paragon Trails branded yacht. Please arrive 20 minutes before departure for check-in procedures and safety briefing. Bring your booking confirmation and a valid ID.",
+      contactNumber: "+971 4 456 7890",
+      contactEmail: "yachts@dubailuxurytours.com",
+    },
+    availableDates: [
+      "2024-04-01",
+      "2024-04-03",
+      "2024-04-05",
+      "2024-04-07",
+      "2024-04-09",
+      "2024-04-11",
+      "2024-04-13",
+      "2024-04-15",
+      "2024-04-17",
+      "2024-04-19",
+      "2024-04-21",
+      "2024-04-23",
+      "2024-04-25",
+      "2024-04-27",
+      "2024-04-29",
+      "2024-05-01",
+      "2024-05-03",
+      "2024-05-05",
+      "2024-05-07",
+      "2024-05-09",
+    ],
+    highlights: [
+      "Cruise aboard a 55-foot luxury yacht with premium amenities",
+      "Spectacular views of Dubai's iconic skyline and landmarks",
+      "Sail around Palm Jumeirah with views of Atlantis resort",
+      "Pass by the magnificent Burj Al Arab 'seven-star' hotel",
+      "Enjoy refreshing beverages and gourmet canapés on board",
+    ],
+    inclusions: [
+      "3-hour luxury yacht cruise",
+      "Professional captain and crew",
+      "Selection of soft drinks, water, and juices",
+      "Gourmet canapés and light refreshments",
+      "Use of yacht facilities (indoor lounge, upper deck)",
+      "Bluetooth speaker system for your personal music",
+      "Towels for swimming (during daytime cruises)",
+      "On-board restroom facilities",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Alcoholic beverages (available for purchase)",
+      "Souvenir photos (available for purchase)",
+      "Gratuities",
+    ],
+    itinerary: [
+      "4:30 PM: Check-in at Dubai Marina Yacht Club",
+      "4:45 PM: Boarding and safety briefing",
+      "5:00 PM: Departure from Dubai Marina",
+      "5:30 PM: Cruise along Jumeirah Beach Residence coastline",
+      "6:00 PM: Circle Palm Jumeirah with views of Atlantis The Palm",
+      "6:30 PM: Pass by Burj Al Arab and Jumeirah Beach Hotel",
+      "7:00 PM: Return cruising with sunset views of Dubai Marina skyline",
+      "7:45 PM: Arrive back at Dubai Marina Yacht Club",
+      "8:00 PM: Disembarkation",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 72 hours before departure. 50% charge for cancellations 24-72 hours before departure. No refund for cancellations less than 24 hours before the scheduled cruise.",
+    faqs: [
+      {
+        question: "Is this a shared or private yacht cruise?",
+        answer:
+          "This is a shared yacht experience limited to a maximum of 12 guests to ensure comfort and personalized service. If you prefer a completely private experience, we offer private yacht charters at additional cost. The yacht features multiple areas including an indoor air-conditioned cabin, main deck, and upper sun deck, allowing guests to find their own space.",
+      },
+      {
+        question: "What should I bring for the yacht cruise?",
+        answer:
+          "We recommend bringing sunglasses, camera, light jacket (for evening cruises), and sunscreen. For sunset cruises, the temperature can drop once the sun sets, so a light layer is advisable. All guests must bring valid ID. For daytime cruises, swimwear and a towel if you wish to swim (during scheduled swimming stops). The yacht provides all refreshments, so no need to bring food or drinks.",
+      },
+      {
+        question: "Can I play my own music during the cruise?",
+        answer:
+          "Yes, the yacht is equipped with a Bluetooth sound system that allows guests to connect their own devices and play their preferred music. However, as this is a shared experience, music selection should be appropriate and volume kept at a reasonable level out of courtesy to other guests. The crew reserves the right to control the music if necessary.",
+      },
+      {
+        question: "Is swimming allowed during the cruise?",
+        answer:
+          "Swimming stops are included during daytime cruises if weather and sea conditions permit, typically near Palm Jumeirah. For sunset and evening cruises, swimming is not included in the itinerary due to limited daylight. All swimming activities are supervised by our crew and subject to maritime regulations and safety considerations.",
+      },
+      {
+        question: "What happens in case of bad weather?",
+        answer:
+          "Your safety is our priority. In case of severe weather conditions or rough seas that would make the cruise unsafe or uncomfortable, we will contact you to reschedule or provide a full refund. For light rain or moderate winds, the cruise typically proceeds as the yacht has covered areas. The captain makes the final decision regarding weather-related cancellations based on maritime safety regulations.",
+      },
+    ],
+  },
+  {
+    title: "Dubai Culinary Secrets & Ethnic Flavors",
+    description:
+      "Embark on a gastronomic journey through Dubai's diverse culinary landscape, from traditional Emirati cuisine to Indian, Persian, and Levantine influences that have shaped the city's unique food culture, with tastings at hidden local gems and bustling food streets.",
+    images: [
+      "/images/tours/dubai/emirati-cuisine.jpg",
+      "/images/tours/dubai/street-food-dubai.jpg",
+      "/images/tours/dubai/arabic-coffee.jpg",
+    ],
+    duration: "4 hours",
+    price: "$90",
+    rating: 4.9,
+    tags: ["Food", "Cultural", "Local"],
+
+    isHistorical: false,
+    isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "historical",
+    isPopular: false,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Al Fahidi Metro Station, Exit 2, Bur Dubai",
+      coordinates: {
+        latitude: 25.2527,
+        longitude: 55.293,
+      },
+      instructions:
+        "Meet your guide outside Exit 2 of Al Fahidi Metro Station. The guide will be holding a sign with 'Dubai Food Tour' written on it and wearing a chef's cap. Please arrive 10 minutes before the scheduled tour time.",
+      contactNumber: "+971 4 567 8901",
+      contactEmail: "taste@dubaifoodtours.com",
+    },
+    availableDates: [
+      "2024-04-02",
+      "2024-04-05",
+      "2024-04-09",
+      "2024-04-12",
+      "2024-04-16",
+      "2024-04-19",
+      "2024-04-23",
+      "2024-04-26",
+      "2024-04-30",
+      "2024-05-03",
+      "2024-05-07",
+      "2024-05-10",
+      "2024-05-14",
+      "2024-05-17",
+      "2024-05-21",
+      "2024-05-24",
+      "2024-05-28",
+      "2024-05-31",
+      "2024-06-04",
+      "2024-06-07",
+    ],
+    highlights: [
+      "Taste authentic Emirati dishes rarely found in tourist restaurants",
+      "Explore Dubai's diverse cultural influences through its cuisine",
+      "Visit bustling food markets and street food districts",
+      "Learn about Arabic coffee traditions and spice blending",
+      "Discover hidden local eateries known only to residents",
+    ],
+    inclusions: [
+      "Food tastings at 6-7 different locations (equivalent to a full meal)",
+      "Expert culinary guide",
+      "All food and non-alcoholic beverages during tastings",
+      "Traditional Arabic coffee and date experience",
+      "Spice market tour with samples",
+      "Recipe collection of featured dishes",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and beverages beyond the included tastings",
+      "Personal shopping at markets",
+      "Gratuities",
+    ],
+    itinerary: [
+      "4:00 PM: Meet guide at Al Fahidi Metro Station",
+      "4:15 PM: Introduction to Emirati cuisine at a traditional restaurant with machboos and luqaimat tastings",
+      "5:00 PM: Visit to a heritage house for Arabic coffee, dates, and bread making demonstration",
+      "5:45 PM: Explore an Indian-influenced district with chaat and karak chai tastings",
+      "6:30 PM: Visit to the spice souk with tasting and explanation of spice blends",
+      "7:00 PM: Sample Persian-influenced seafood dishes at a local restaurant",
+      "7:30 PM: Levantine street food experience with shawarma, falafel, and knafeh",
+      "8:00 PM: Tour conclusion with dessert and recommendations for further culinary exploration",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 48 hours before the tour starts. 50% charge for cancellations 24-48 hours before tour time. No refund for cancellations less than 24 hours before the scheduled tour.",
     faqs: [
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with advance notice. Vegetarian, vegan, halal, and gluten-free options are available at most stops. Please inform us of any allergies or restrictions when booking so our guide can arrange alternatives. Due to the nature of some traditional dishes, certain stops may offer modified options for those with specific dietary needs.",
+      },
+      {
+        question: "How much food is included in the tour?",
+        answer:
+          "The tour includes 6-7 substantial food tastings that combined equal more than a full meal. Most guests find themselves pleasantly satisfied by the end of the tour. We recommend having a light or no lunch if you're joining our evening tour. Portions are generous, and you're welcome to take any leftovers with you, though most guests finish everything because it's delicious!",
+      },
       {
         question: "How much walking is involved?",
         answer:
-          "This is primarily a walking tour covering approximately 3-4 kilometers at a leisurely pace with frequent stops. Comfortable walking shoes are recommended. The terrain is mostly flat, though some areas have uneven surfaces or steps.",
+          "The tour covers approximately 2.5 kilometers (1.5 miles) at a leisurely pace with frequent stops for food tastings. We walk through some narrow streets and markets that may have uneven surfaces. Comfortable walking shoes are recommended. The tour is designed to be accessible to most fitness levels with plenty of opportunities to sit during tastings.",
+      },
+      {
+        question: "What makes Dubai's cuisine unique?",
+        answer:
+          "Dubai's cuisine represents a fascinating crossroads of culinary traditions—traditional Bedouin and seafaring Emirati dishes form the foundation, but centuries of trade have incorporated influences from India, Persia, Lebanon, and East Africa. Your guide will explain how this port city developed its unique fusion cuisine long before 'fusion' became a culinary trend, and how modern Dubai continues this tradition by hosting world-class chefs while preserving traditional recipes. The tour specifically highlights dishes that demonstrate this cultural blending and evolution.",
+      },
+      {
+        question:
+          "Will we visit tourist restaurants or authentic local places?",
+        answer:
+          "Our tour exclusively features authentic establishments frequented by locals rather than tourist-oriented restaurants. Many of the eateries we visit are family-owned businesses that have operated for generations, located in residential neighborhoods away from hotel districts. Some stops are truly hidden gems with no English signage that would be impossible to find without local knowledge. This authentic approach gives you insight into how Dubai residents actually eat and socialize around food.",
+      },
+    ],
+  },
+  {
+    title: "Dubai Helicopter Spectacular",
+    description:
+      "Soar above Dubai's spectacular skyline and iconic landmarks in a state-of-the-art helicopter, capturing breathtaking aerial views of Burj Khalifa, Palm Jumeirah, The World Islands, and Burj Al Arab that few visitors ever experience.",
+    images: [
+      "/images/tours/dubai/helicopter-view.jpg",
+      "/images/tours/dubai/palm-aerial.jpg",
+      "/images/tours/dubai/dubai-aerial-view.jpg",
+    ],
+    duration: "25 minutes",
+    price: "$250",
+    rating: 4.8,
+    tags: ["Aerial", "Photography", "Luxury"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
+    tourCategoryId: "luxury",
+    meetingPoint: {
+      address: "Atlantis Helipad, Palm Jumeirah, Dubai",
+      coordinates: {
+        latitude: 25.1304,
+        longitude: 55.1171,
+      },
+      instructions:
+        "Meet at the Atlantis Helipad reception area located at the Atlantis, The Palm resort. Proceed to the East Tower and follow signs for 'Helicopter Tours.' Please arrive 45 minutes before your scheduled flight time for safety briefing and check-in procedures. Bring your passport or UAE ID for security requirements.",
+      contactNumber: "+971 4 678 9012",
+      contactEmail: "flights@dubaihelicopters.com",
+    },
+    availableDates: [
+      "2024-04-01",
+      "2024-04-02",
+      "2024-04-03",
+      "2024-04-04",
+      "2024-04-05",
+      "2024-04-08",
+      "2024-04-09",
+      "2024-04-10",
+      "2024-04-11",
+      "2024-04-12",
+      "2024-04-15",
+      "2024-04-16",
+      "2024-04-17",
+      "2024-04-18",
+      "2024-04-19",
+      "2024-04-22",
+      "2024-04-23",
+      "2024-04-24",
+      "2024-04-25",
+      "2024-04-26",
+    ],
+    highlights: [
+      "Spectacular aerial views of Dubai's iconic landmarks",
+      "Fly over the Palm Jumeirah and see its unique palm shape from above",
+      "Marvel at the world's tallest building, Burj Khalifa, from a unique perspective",
+      "See the artificial archipelago of The World Islands",
+      "Capture incredible photos of Dubai's futuristic skyline",
+    ],
+    inclusions: [
+      "25-minute helicopter flight",
+      "Professional pilot with live commentary",
+      "Safety briefing and equipment",
+      "Bottled water",
+      "Digital photo at helipad before departure",
+      "Certificate of flight experience",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "In-flight professional photography (available for purchase)",
+      "Flight video recording (available for purchase)",
+      "Gratuities",
+    ],
+    itinerary: [
+      "Arrive 45 minutes before scheduled departure",
+      "Check-in and security procedures",
+      "Safety briefing and helicopter orientation",
+      "Board helicopter and departure from Atlantis helipad",
+      "Fly over Palm Jumeirah for aerial views of the palm-shaped island",
+      "Continue to Burj Al Arab and Jumeirah Beach coastline",
+      "See The World Islands archipelago from above",
+      "Fly past Dubai Marina and JBR waterfront",
+      "View Downtown Dubai and the iconic Burj Khalifa",
+      "Return to Atlantis helipad",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 72 hours before scheduled flight. 50% charge for cancellations 48-72 hours before flight time. No refund for cancellations less than 48 hours before the scheduled flight. Flights may be rescheduled subject to weather conditions and availability.",
+    faqs: [
+      {
+        question: "Is there a weight restriction for passengers?",
+        answer:
+          "Yes, for safety reasons there is a weight restriction of 120 kg (265 lbs) per passenger. Additionally, all passengers are weighed at check-in as the helicopter requires balanced weight distribution. If your group's combined weight exceeds the helicopter's limitations, you may be asked to split into different flight groups. Please provide accurate weight information when booking to avoid issues on the day of your flight.",
+      },
+      {
+        question: "What should I bring for the helicopter tour?",
+        answer:
+          "Please bring a valid photo ID (passport or UAE ID) for security check-in. We recommend wearing comfortable clothing and non-reflective clothing for better photographs (avoid white or very bright colors). Secure footwear is required (no flip-flops). Cameras and smartphones are allowed, but must have wrist straps. Large bags, selfie sticks, and loose items cannot be taken aboard for safety reasons. Lockers are provided for your belongings.",
+      },
+      {
+        question: "Is the helicopter air-conditioned?",
+        answer:
+          "Yes, all our helicopters are modern and feature climate-controlled cabins maintained at a comfortable temperature. The Bell 505 and Airbus helicopters used for this tour are equipped with the latest comfort features and panoramic windows specially designed for sightseeing. Each passenger has a window seat and noise-canceling headsets with two-way communication to hear the pilot's commentary and ask questions.",
+      },
+      {
+        question: "What is the best time of day for this flight?",
+        answer:
+          "Each time of day offers a different perspective. Morning flights provide the clearest visibility and vibrant colors ideal for photography. Afternoon flights offer good lighting with some shadow definition that enhances the architectural details. Sunset flights (premium priced) create dramatic golden lighting and the opportunity to see Dubai transition from day to night with buildings beginning to illuminate. Our most popular time slots are early morning (8-10am) and the golden hour before sunset.",
+      },
+      {
+        question: "Can I request a specific flight route?",
+        answer:
+          "The standard itinerary covers Dubai's major landmarks as outlined. However, flight paths are ultimately determined by air traffic control, weather conditions, and safety regulations. Minor variations may occur. For private charters (booking the entire helicopter), some customization of the route is possible with advance request, subject to aviation authority approval. Please contact us directly if you have specific aerial photography needs or landmarks of particular interest.",
+      },
+    ],
+  },
+  {
+    title: "Dubai Desert Conservation Experience",
+    description:
+      "Explore Dubai's desert ecosystem with conservation experts in the Dubai Desert Conservation Reserve. Track native wildlife like Arabian oryx and gazelles, learn about desert ecology and sustainability efforts, and experience traditional desert activities with a focus on environmental education.",
+    images: [
+      "/images/tours/dubai/desert-conservation.jpg",
+      "/images/tours/dubai/arabian-oryx.jpg",
+      "/images/tours/dubai/desert-ecology.jpg",
+    ],
+    duration: "7 hours",
+    price: "$145",
+    rating: 4.9,
+    tags: ["Conservation", "Education", "Nature"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    isPopular: false,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "off-the-beaten-path",
+    meetingPoint: {
+      address: "Your hotel or accommodation in Dubai",
+      coordinates: {
+        latitude: 25.2048,
+        longitude: 55.2708,
+      },
+      instructions:
+        "Our wildlife guide will pick you up from your accommodation in a specialized conservation vehicle. Please be ready in your hotel lobby 10 minutes before your scheduled pickup time. Wear neutral-colored clothing (beige, khaki) for the best wildlife viewing experience.",
+      contactNumber: "+971 4 789 0123",
+      contactEmail: "conservation@dubaidesertreserve.com",
+    },
+    availableDates: [
+      "2024-04-02",
+      "2024-04-05",
+      "2024-04-09",
+      "2024-04-12",
+      "2024-04-16",
+      "2024-04-19",
+      "2024-04-23",
+      "2024-04-26",
+      "2024-04-30",
+      "2024-05-03",
+      "2024-05-07",
+      "2024-05-10",
+      "2024-05-14",
+      "2024-05-17",
+      "2024-05-21",
+      "2024-05-24",
+      "2024-05-28",
+      "2024-05-31",
+      "2024-10-01",
+      "2024-10-04",
+    ],
+    highlights: [
+      "Visit the Dubai Desert Conservation Reserve with expert naturalist guides",
+      "Observe Arabian oryx, gazelles, and desert fauna in their natural habitat",
+      "Learn about desert ecosystem conservation and sustainability initiatives",
+      "Participate in a desert plant restoration activity",
+      "Experience traditional desert activities with environmental education focus",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off in conservation vehicle",
+      "Expert conservation guide with research background",
+      "Wildlife spotting drives in protected areas",
+      "Conservation center visit with educational presentation",
+      "Sustainable breakfast and lunch featuring local ingredients",
+      "Field guides and wildlife checklist",
+      "Reusable water bottle with filtered water refills",
+    ],
+    exclusions: [
+      "Professional photography packages (available for purchase)",
+      "Specialty equipment rental (binoculars provided)",
+      "Personal expenses",
+      "Gratuities",
+    ],
+    itinerary: [
+      "6:30 AM: Hotel pickup in specialized conservation vehicle",
+      "7:15 AM: Arrival at Dubai Desert Conservation Reserve",
+      "7:30 AM: Morning wildlife drive focusing on Arabian oryx and gazelles",
+      "9:00 AM: Sustainable breakfast at desert field station",
+      "10:00 AM: Visit to conservation center with expert presentation",
+      "11:00 AM: Participation in desert plant restoration project",
+      "12:30 PM: Traditional lunch with locally-sourced ingredients",
+      "1:30 PM: Afternoon wildlife drive with focus on bird species and desert adaptations",
+      "3:00 PM: Return journey to Dubai",
+      "4:00 PM: Hotel drop-off",
+    ],
+    cancellationPolicy:
+      "Free cancellation up to 72 hours before the tour starts. 50% charge for cancellations 48-72 hours before tour time. No refund for cancellations less than 48 hours before the scheduled tour.",
+    faqs: [
+      {
+        question: "What makes this different from regular desert safaris?",
+        answer:
+          "Unlike standard tourist desert safaris, this conservation experience focuses on wildlife education and environmental protection. Our vehicles practice low-impact driving techniques, we visit restricted conservation areas not accessible to regular tours, and your guides are qualified field researchers rather than tourist operators. There's no dune bashing, entertainment shows, or large group experiences. Instead, you'll participate in actual conservation activities, learn scientific monitoring techniques, and contribute to habitat restoration projects. A portion of your fee directly supports the Dubai Desert Conservation Reserve's research initiatives.",
+      },
+      {
+        question: "What wildlife might we see?",
+        answer:
+          "The Dubai Desert Conservation Reserve is home to over 60 plant and animal species including the Arabian oryx (once extinct in the wild), Arabian gazelle, sand gazelle, desert monitors, Ethiopian hedgehogs, and various reptiles. Bird species include cream-colored coursers, hoopoe larks, and pharaoh eagle owls. Wildlife sightings vary by season and cannot be guaranteed, but our expert guides know the best locations and times for observation. Morning drives typically yield the most mammal sightings as animals are more active in cooler temperatures.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly and provides children with an engaging introduction to local culture and history. We can adapt the content to keep younger participants interested with stories and interactive elements.",
+          "This tour is educational and engaging for children aged 7 and above who have an interest in wildlife and nature. We provide special children's field guides and activity sheets to enhance their learning experience. The tour involves periods of quiet observation and educational components that may not be suitable for very young children. For families with younger children, we recommend our specialized Family Eco-Safari that includes more interactive elements designed for younger participants.",
       },
       {
-        question: "What museums will we visit?",
+        question: "What should I wear and bring?",
         answer:
-          "We typically visit the Dubai Museum in Al Fahidi Fort and a traditional house museum showcasing local architecture and lifestyles. All entrance fees are included in the tour price.",
-      },
-    ],
-  },
-  {
-    title: "Dubai Culinary Tour: Emirati Flavors & Fusion",
-    description:
-      "Sample Dubai's diverse culinary landscape from traditional Emirati dishes to innovative fusion cuisine with a food expert guiding you through local neighborhoods, hidden gems, and explaining the cultural significance of Middle Eastern cuisine.",
-    images: [
-      "/images/tours/dubai/emirati-cuisine.jpg",
-      "/images/tours/dubai/spice-souk.jpg",
-    ],
-    duration: "5 hours",
-    price: "$135",
-    rating: 4.8,
-    tags: ["Food", "Culture", "Local Experience"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "How many food tastings are included?",
-        answer:
-          "The tour includes 7-8 different food tastings ranging from street food to higher-end establishments. Portions are generous and amount to a substantial meal by the end of the tour. Come hungry!",
+          "Wear comfortable, neutral-colored clothing (beige, khaki, or other earth tones) which is better for wildlife viewing. Avoid bright colors or white. Closed shoes are essential. Bring sun protection including a wide-brimmed hat, sunglasses, and sunscreen. A light jacket may be necessary during winter months for morning activities. We provide reusable water bottles, field guides, and binoculars. Cameras with zoom lenses are recommended for wildlife photography, but phone cameras also work well for landscape shots.",
       },
       {
-        question: "Can dietary restrictions be accommodated?",
+        question: "How does this tour support conservation?",
         answer:
-          "Yes, we can accommodate vegetarian, halal, and most dietary restrictions with advance notice. Please inform us of any allergies or dietary needs when booking so we can arrange suitable alternatives.",
-      },
-      {
-        question: "Will we visit the spice and gold souks?",
-        answer:
-          "Yes, the tour includes visits to both the Spice Souk and nearby Gold Souk. You'll have time to explore these traditional markets with guidance on shopping etiquette and tips for finding quality products at fair prices.",
-      },
-    ],
-  },
-  {
-    title: "Dubai Luxury Yacht Cruise",
-    description:
-      "Sail along Dubai's stunning coastline aboard a private luxury yacht, taking in breathtaking views of iconic landmarks like Palm Jumeirah, Burj Al Arab, and the city skyline while enjoying premium refreshments and personalized service.",
-    images: [
-      "/images/tours/dubai/luxury-yacht.jpg",
-      "/images/tours/dubai/dubai-marina.jpg",
-    ],
-    duration: "4 hours",
-    price: "$450",
-    rating: 4.9,
-    tags: ["Luxury", "Yacht", "Scenic"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "How many people does the yacht accommodate?",
-        answer:
-          "This private charter accommodates up to 10 guests comfortably. The yacht features indoor and outdoor seating areas, a premium sound system, and dedicated crew to ensure your experience is perfect.",
-      },
-      {
-        question: "What refreshments are provided?",
-        answer:
-          "The cruise includes soft drinks, water, premium juices, and a selection of gourmet snacks and fresh fruits. Alcoholic beverages are not included but can be arranged upon request for an additional fee (subject to licensing regulations).",
-      },
-      {
-        question: "Can we customize the sailing route?",
-        answer:
-          "Yes, the captain can customize the sailing route based on your preferences while ensuring you see the major landmarks. Popular routes include Dubai Marina, Palm Jumeirah, Burj Al Arab, and Bluewaters Island.",
-      },
-    ],
-  },
-  {
-    title: "Abu Dhabi Day Trip: Sheikh Zayed Grand Mosque & Louvre",
-    description:
-      "Explore the highlights of Abu Dhabi on this full-day excursion from Dubai, visiting the magnificent Sheikh Zayed Grand Mosque, culturally significant Louvre Abu Dhabi, and enjoying panoramic views of the city's striking skyline.",
-    images: [
-      "/images/tours/dubai/sheikh-zayed-mosque.jpg",
-      "/images/tours/dubai/louvre-abu-dhabi.jpg",
-    ],
-    duration: "9 hours",
-    price: "$180",
-    rating: 4.8,
-    tags: ["Abu Dhabi", "Architecture", "Culture"],
-
-    isHistorical: true,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "What is the dress code for visiting the Grand Mosque?",
-        answer:
-          "The Sheikh Zayed Grand Mosque requires modest dress. Women must wear loose, long clothing covering arms, legs and head (abayas with hoods are provided free of charge). Men must wear long trousers and a shirt that covers shoulders. No transparent clothing, visible tattoos, or intimate behavior is permitted out of respect for local culture.",
-      },
-      {
-        question: "Is lunch included in this tour?",
-        answer:
-          "Yes, a midday meal is included at a select restaurant featuring international and local cuisine. Please inform us of any dietary restrictions when booking.",
-      },
-      {
-        question: "How long does it take to reach Abu Dhabi from Dubai?",
-        answer:
-          "The journey from Dubai to Abu Dhabi takes approximately 1.5 hours each way in our comfortable, air-conditioned vehicle. We use the time to provide interesting information about the UAE and its development.",
-      },
-    ],
-  },
-  {
-    title: "Dubai Shopping Experience: From Souks to Luxury Malls",
-    description:
-      "Discover Dubai's reputation as a shopping paradise with a guided tour from traditional gold and spice souks to ultra-modern luxury malls, with personalized shopping guidance and insights into finding the best values.",
-    images: [
-      "/images/tours/dubai/gold-souk.jpg",
-      "/images/tours/dubai/dubai-mall.jpg",
-    ],
-    duration: "6 hours",
-    price: "$110",
-    rating: 4.6,
-    tags: ["Shopping", "Luxury", "Markets"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "Will I get good prices with this tour?",
-        answer:
-          "Our guide provides valuable assistance with negotiation in traditional souks and information about tax-free shopping benefits. While we don't guarantee specific discounts, clients typically report better prices and more confident shopping experiences with our expert guidance on fair pricing and authentic merchandise.",
-      },
-      {
-        question: "Is transportation included between shopping venues?",
-        answer:
-          "Yes, comfortable air-conditioned transportation is provided between different shopping destinations. The tour is designed to maximize shopping time with efficient transfers.",
-      },
-      {
-        question: "What unique items should I look for in Dubai?",
-        answer:
-          "Your guide will highlight distinctive shopping opportunities including gold jewelry (often at competitive prices), authentic Arabian perfumes, spices, handcrafted items, luxury brands (sometimes with regional-exclusive designs), and electronics. We can focus on specific items you're interested in purchasing.",
-      },
-    ],
-  },
-  {
-    title: "Dubai at Dawn: Hot Air Balloon Desert Adventure",
-    description:
-      "Witness the magical transformation of the desert at sunrise from a hot air balloon, floating serenely over golden sand dunes while spotting desert wildlife such as gazelles and camels, followed by a gourmet breakfast at a Bedouin-inspired camp.",
-    images: [
-      "/images/tours/dubai/hot-air-balloon.jpg",
-      "/images/tours/dubai/desert-sunrise.jpg",
-    ],
-    duration: "6 hours",
-    price: "$295",
-    rating: 4.9,
-    tags: ["Hot Air Balloon", "Sunrise", "Desert"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Is hot air ballooning safe?",
-        answer:
-          "Yes, our hot air balloon rides are operated by experienced pilots certified to international standards with thousands of flight hours. The balloons undergo rigorous safety checks, and the activity is regulated by aviation authorities. Safety briefings are provided before the flight.",
-      },
-      {
-        question: "What time does the tour start?",
-        answer:
-          "Pickup from your Dubai hotel is very early, typically between 3:30-4:30am depending on the season and your hotel location. The early start is necessary to reach the desert launch site before sunrise. Many guests tell us the spectacular experience is well worth the early wake-up call!",
-      },
-      {
-        question: "What should I wear for the hot air balloon ride?",
-        answer:
-          "Dress in comfortable clothing suitable for desert conditions. Early mornings can be cool, so we recommend layers that can be removed as the temperature rises. Flat, closed-toe shoes are required. Don't forget sunglasses and sunscreen for after sunrise.",
-      },
-    ],
-  },
-  {
-    title: "Burj Khalifa VIP Access & Fine Dining",
-    description:
-      "Skip all lines with VIP access to the exclusive Burj Khalifa SKY level on the 148th floor, the highest outdoor observation deck in the world, followed by a gourmet dinner at the prestigious Armani restaurant with perfect views of the Dubai Fountain show.",
-    images: [
-      "/images/tours/dubai/burj-khalifa-sky.jpg",
-      "/images/tours/dubai/armani-dining.jpg",
-    ],
-    duration: "5 hours",
-    price: "$385",
-    rating: 5.0,
-    tags: ["Luxury", "VIP", "Fine Dining"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "luxury",
-    faqs: [
-      {
-        question: "How is this different from regular Burj Khalifa tickets?",
-        answer:
-          "This exclusive experience provides access to the premium SKY level (148th floor), which is significantly higher than the standard observation decks and limited to fewer visitors. You'll enjoy private elevator access, personalized welcome, refreshments in the SKY lounge, and zero waiting time with our VIP privileges.",
-      },
-      {
-        question: "What is included in the dining experience?",
-        answer:
-          "The dining experience includes a 3-course gourmet meal at Armani Ristorante, featuring signature Italian cuisine with Japanese or Mediterranean influences depending on your preference. A glass of premium champagne is included, with additional beverages available for purchase. The restaurant offers perfect views of the Dubai Fountain shows.",
-      },
-      {
-        question: "Is there a dress code?",
-        answer:
-          "Yes, smart elegant attire is required for this experience. For men, collared shirts, trousers and closed shoes are required (no shorts or sportswear). Women should dress in smart attire. The Armani restaurant has a sophisticated atmosphere befitting its luxury setting.",
+          "Twenty percent of your tour fee goes directly to the Dubai Desert Conservation Reserve's research and habitat restoration programs. The tour itself follows strict eco-tourism guidelines including stay-on-track policies, minimum wildlife viewing distances, and zero waste practices. The restoration activity you'll participate in contributes to actual conservation projects such as native plant reintroduction or habitat improvement. Our guides are involved in ongoing research projects and monitoring programs, and they share current conservation science rather than scripted information.",
       },
     ],
   },
