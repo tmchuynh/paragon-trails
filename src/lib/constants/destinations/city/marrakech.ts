@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const marrakechMarrakechSafiMorocco: Attraction[] = [
+export const marrakechMarrakechsafiMorocco: Attraction[] = [
   {
     title: "Jemaa el-Fnaa",
     description:

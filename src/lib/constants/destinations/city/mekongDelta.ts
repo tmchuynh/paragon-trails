@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const mekongDeltaSouthernVietnamVietnam: Attraction[] = [
+export const mekongDeltaMekongDeltaVietnam: Attraction[] = [
   {
     title: "Mekong River",
     description:

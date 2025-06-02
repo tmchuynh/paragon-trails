@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const osloEasternNorwayNorway: Attraction[] = [
+export const osloOsloNorway: Attraction[] = [
   {
     title: "Vigeland Park",
     description:

@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
+export const mtoWaMbuVillageArushaRegionTanzania: Attraction[] = [
   {
     title: "Mto wa Mbu Cultural Village",
     description:

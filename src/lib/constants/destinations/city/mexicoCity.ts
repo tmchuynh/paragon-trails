@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const mexicoCityCdmxMexico: Attraction[] = [
+export const mexicoCityMexicoCityMexico: Attraction[] = [
   {
     title: "Zócalo",
     description:

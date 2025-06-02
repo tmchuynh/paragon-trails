@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const hokkaidoHokkaidoJapan: Attraction[] = [
+export const hokkaidoHokkaidoPrefectureJapan: Attraction[] = [
   {
     title: "Furano Flower Fields",
     description:

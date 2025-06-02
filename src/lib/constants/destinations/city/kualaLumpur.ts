@@ -1,6 +1,6 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const kualaLumpurSelangorMalaysia: Attraction[] = [
+export const kualaLumpurFederalTerritoryOfKualaLumpurMalaysia: Attraction[] = [
   {
     title: "Petronas Twin Towers",
     description:
