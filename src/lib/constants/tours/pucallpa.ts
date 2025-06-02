@@ -13,7 +13,16 @@ export const pucallpaTours: Tour[] = [
     price: "$299",
     rating: 4.8,
     tags: ["Adventure", "Nature", "Wildlife"],
-
+    meetingPoint: {
+      address: "Pucallpa Port, Av. Centenario 123, Pucallpa, Peru",
+      coordinates: {
+        latitude: -8.3809,
+        longitude: -74.5541,
+      },
+      instructions:
+        "Meet at the main entrance of Pucallpa Port. Look for our representative holding a sign with 'Amazon River Cruise' on it.",
+      contactNumber: "+51 987 654 321",
+    },
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -56,7 +65,6 @@ export const pucallpaTours: Tour[] = [
       "Day 2: Full day of jungle exploration, wildlife spotting, and cultural visits to indigenous communities.",
       "Day 3: Morning fishing and swimming, return to Pucallpa in the afternoon.",
     ],
-    meetingPoint: " Pucallpa Port, main dock",
     cancellationPolicy:
       " Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
   },
@@ -72,7 +80,16 @@ export const pucallpaTours: Tour[] = [
     price: "$49",
     rating: 4.5,
     tags: ["Cultural", "Local", "Historical"],
-
+    meetingPoint: {
+      address: "Pucallpa Central Plaza, Av. Centenario 456, Pucallpa, Peru",
+      coordinates: {
+        latitude: -8.3809,
+        longitude: -74.5541,
+      },
+      instructions:
+        "Meet at the central fountain in Pucallpa Central Plaza. Look for our guide wearing a blue shirt with 'Pucallpa Tours' printed on it.",
+      contactNumber: "+51 987 654 321",
+    },
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -114,7 +131,6 @@ export const pucallpaTours: Tour[] = [
       "Afternoon: Explore Pucallpa's local markets, museums, and historical sites. Enjoy a traditional lunch.",
       "Evening: Return to the starting point.",
     ],
-    meetingPoint: " Main square of Pucallpa, near the statue of the founder",
     cancellationPolicy:
       " Free cancellation up to 24 hours before the tour. No refunds for cancellations within 24 hours.",
   },
@@ -130,7 +146,16 @@ export const pucallpaTours: Tour[] = [
     price: "$59",
     rating: 4.6,
     tags: ["Nature", "Wildlife", "Adventure"],
-
+    meetingPoint: {
+      address: "Yarinacocha Lake Dock, Av. Yarinacocha 789, Pucallpa, Peru",
+      coordinates: {
+        latitude: -8.3809,
+        longitude: -74.5541,
+      },
+      instructions:
+        "Meet at the Yarinacocha Lake Dock. Look for our guide wearing a green vest with 'Yarinacocha Tours' printed on it.",
+      contactNumber: "+51 987 654 321",
+    },
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -172,7 +197,6 @@ export const pucallpaTours: Tour[] = [
       "Midday: Wildlife spotting and visit to a local fishing community.",
       "Afternoon: Relax by the lake, swimming and enjoying refreshments before returning to Pucallpa.",
     ],
-    meetingPoint: " Yarinacocha Port, main dock",
     cancellationPolicy:
       " Free cancellation up to 48 hours before the tour. After that, a 50% cancellation fee applies.",
   },
@@ -188,7 +212,16 @@ export const pucallpaTours: Tour[] = [
     price: "$35",
     rating: 4.7,
     tags: ["Food", "Cultural", "Nightlife"],
-
+    meetingPoint: {
+      address: "Pucallpa Night Market, Av. Amazonas 123, Pucallpa, Peru",
+      coordinates: {
+        latitude: -8.3809,
+        longitude: -74.5541,
+      },
+      instructions:
+        "Meet at the entrance of the Pucallpa Night Market. Look for our guide wearing a red shirt with 'Pucallpa Night Tours' printed on it.",
+      contactNumber: "+51 987 654 321",
+    },
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
