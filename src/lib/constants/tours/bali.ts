@@ -105,6 +105,17 @@ export const baliTours: Tour[] = [
 
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your guide will meet you at the lobby or reception area of your accommodation in Bali. They will be holding a sign with your name and 'Sacred Temples Tour'. Please be ready 5-10 minutes before your scheduled pickup time.",
+      contactNumber: "+62 361 123456",
+      contactEmail: "bookings@balitemples.com",
+    },
   },
   {
     title: "Ubud Art Villages & Jungle Swings",
@@ -209,6 +220,17 @@ export const baliTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your guide will meet you at the lobby of your accommodation. Look for a guide holding a sign with 'Ubud Art & Swing Tour' written on it. Please be ready 5 minutes before your scheduled pickup time.",
+      contactNumber: "+62 361 234567",
+      contactEmail: "tours@ubudartexperience.com",
+    },
   },
   {
     title: "Bali Beaches & Sunset Dinner Cruise",
@@ -258,6 +280,11 @@ export const baliTours: Tour[] = [
         answer:
           "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
       },
+      {
+        question: "What beaches will we visit?",
+        answer:
+          "The tour typically includes visits to Nusa Dua or Jimbaran beach areas, known for their clean white sand and clear waters. Depending on current conditions and group preferences, your guide may suggest alternatives such as Sanur or Tanjung Benoa. Each beach offers different atmospheres and amenities, which your guide will explain.",
+      },
     ],
     availableDates: [
       "2024-04-10",
@@ -304,6 +331,17 @@ export const baliTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your guide will meet you at the lobby or reception of your accommodation. They will be holding a sign with 'Sunset Cruise Tour'. Please be ready 10 minutes before your scheduled pickup time and bring swimwear, sunscreen, and a light jacket for the evening cruise.",
+      contactNumber: "+62 361 345678",
+      contactEmail: "reservations@balisunsetcruises.com",
+    },
   },
   {
     title: "Mount Batur Sunrise Trek & Hot Springs",
@@ -352,6 +390,11 @@ export const baliTours: Tour[] = [
         question: "What is the cancellation policy for this tour?",
         answer:
           "Cancellations made at least 24 hours in advance will receive a full refund. Cancellations within 24 hours are non-refundable.",
+      },
+      {
+        question: "Will it be cold at the summit?",
+        answer:
+          "Yes, temperatures at the summit before sunrise typically range from 10-15°C (50-59°F), which feels quite cool in a tropical climate. We recommend wearing layers that you can remove as the day warms up. A light jacket, long pants, and a hat are recommended. We provide a small blanket at the summit viewpoint for added comfort while waiting for the sunrise.",
       },
     ],
     availableDates: [
@@ -402,6 +445,17 @@ export const baliTours: Tour[] = [
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your trekking guide will pick you up from your accommodation in the very early morning. They will be holding a sign with 'Mt. Batur Trek' written on it. Please be ready and waiting in the lobby at the designated pickup time. A light jacket and headlamp will be provided for the pre-dawn hike.",
+      contactNumber: "+62 361 456789",
+      contactEmail: "trekking@balimountainadventures.com",
+    },
   },
   {
     title: "Bali Cooking Class & Market Tour",
@@ -499,6 +553,249 @@ export const baliTours: Tour[] = [
       "10:00 AM: Cooking class with hands-on instruction",
       "12:30 PM: Enjoy the meal you prepared for lunch",
       "1:30 PM: Return to hotel",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your cooking instructor will meet you at the lobby of your accommodation. They will be holding a sign with 'Bali Cooking Class'. Please be ready 5-10 minutes before your scheduled pickup time. Come hungry, as you'll be sampling foods at the market before the cooking class.",
+      contactNumber: "+62 361 567890",
+      contactEmail: "classes@baliculinaryexperience.com",
+    },
+  },
+  {
+    title: "Uluwatu Temple & Kecak Fire Dance",
+    description:
+      "Experience the dramatic clifftop Uluwatu Temple at sunset, followed by the mesmerizing Kecak Fire Dance performance with 100 performers chanting in concentric circles while enacting scenes from the Ramayana epic.",
+    images: [
+      "/images/tours/bali/uluwatu-temple-sunset.jpg",
+      "/images/tours/bali/kecak-fire-dance.jpg",
+      "/images/tours/bali/uluwatu-cliff.jpg",
+    ],
+    duration: "5 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Cultural", "Sunset", "Performance"],
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    tourCategoryId: "cultural",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your guide will meet you at the lobby of your accommodation. They will be holding a sign with 'Uluwatu Sunset Tour'. Please be ready 15 minutes before your scheduled pickup time and bring a light jacket for the evening performance.",
+      contactNumber: "+62 361 678901",
+      contactEmail: "reservations@balisunsetculture.com",
+    },
+    faqs: [
+      {
+        question: "What is the Kecak Fire Dance?",
+        answer:
+          "The Kecak Fire Dance is a mesmerizing Balinese performance where a circle of 100+ men create a polyrhythmic sound by chanting 'cak' while moving their arms and upper bodies in a coordinated fashion. The performance tells the story of the Ramayana epic, particularly focusing on Prince Rama's battle with the evil Ravana. The 'fire' element comes when Hanuman sets Ravana's palace aflame during a climactic scene.",
+      },
+      {
+        question: "What should I wear for the temple visit?",
+        answer:
+          "As with all temple visits in Bali, respectful dress is required. Both men and women must wear a sarong and temple sash (which are provided at the entrance or by your guide). Shoulders should be covered. Comfortable walking shoes are recommended as there are many steps to navigate around the temple complex.",
+      },
+      {
+        question: "Are there monkeys at Uluwatu Temple?",
+        answer:
+          "Yes, the temple is home to a large population of macaque monkeys. While they can be entertaining to watch, they are known for being bold and occasionally snatching visitors' belongings, particularly shiny items, glasses, or food. Your guide will provide safety tips for interacting with them. We recommend leaving valuable items secured or on the tour bus.",
+      },
+      {
+        question:
+          "What time does the performance start and how long does it last?",
+        answer:
+          "The Kecak Fire Dance performance begins just before sunset, typically around 6:00 PM. The performance lasts approximately one hour. The timing is arranged to capitalize on the dramatic golden lighting at sunset, with the finale occurring as darkness falls, creating a magical atmosphere.",
+      },
+      {
+        question: "Will we have good seats for the dance performance?",
+        answer:
+          "Yes, we arrange for premium seating in the amphitheater with excellent views of both the dancers and the sunset over the ocean. Our guides arrive early to secure these seats. The outdoor amphitheater is arranged in a semi-circle with tiered seating, ensuring good visibility from all positions.",
+      },
+    ],
+    availableDates: [
+      "2024-04-11",
+      "2024-04-25",
+      "2024-05-09",
+      "2024-05-23",
+      "2024-06-06",
+      "2024-06-20",
+      "2024-07-04",
+      "2024-07-18",
+      "2024-08-01",
+      "2024-08-15",
+      "2024-09-05",
+      "2024-09-19",
+      "2024-10-03",
+    ],
+    highlights: [
+      "Visit the stunning clifftop Uluwatu Temple with panoramic ocean views",
+      "Watch the famous Kecak Fire Dance with over 100 performers at sunset",
+      "Learn about the Hindu epic Ramayana depicted in the dance",
+      "Experience one of Bali's most dramatic temple settings",
+      "Enjoy convenient hotel pickup and drop-off service",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off",
+      "Air-conditioned vehicle",
+      "Professional English-speaking guide",
+      "Entrance fees to Uluwatu Temple",
+      "Kecak Dance performance ticket",
+      "Sarong and sash rental for temple visit",
+      "Bottled water",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Food and beverages not specified",
+      "Travel insurance",
+    ],
+    itinerary: [
+      "3:30 PM: Hotel pickup",
+      "4:30 PM: Arrive at Uluwatu Temple",
+      "4:45 PM: Guided temple tour with sunset views",
+      "5:45 PM: Take seats for the Kecak Fire Dance performance",
+      "6:00 PM: Watch the Kecak Fire Dance as the sun sets",
+      "7:15 PM: Return journey to your hotel",
+      "8:30 PM: Arrive back at your accommodation",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
+  },
+  {
+    title: "Ubud Monkey Forest & Rice Terrace Trekking",
+    description:
+      "Immerse yourself in Bali's natural wonders with a visit to the sacred Monkey Forest Sanctuary followed by a guided trek through the UNESCO-listed rice terraces of Tegallalang, with stops at local coffee plantations and artisan villages.",
+    images: [
+      "/images/tours/bali/monkey-forest.jpg",
+      "/images/tours/bali/tegallalang-rice-terraces.jpg",
+      "/images/tours/bali/coffee-plantation.jpg",
+    ],
+    duration: "8 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["Nature", "Hiking", "Wildlife"],
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    tourCategoryId: "adventure",
+    meetingPoint: {
+      address: "Your accommodation in Bali",
+      coordinates: {
+        latitude: -8.5195,
+        longitude: 115.2611,
+      },
+      instructions:
+        "Your guide will meet you at the lobby of your accommodation. Look for a guide holding a sign with 'Ubud Nature Tour'. Please be ready 5 minutes before your scheduled pickup time and wear comfortable walking shoes and clothing for the rice terrace trek.",
+      contactNumber: "+62 361 789012",
+      contactEmail: "bookings@baliadventuretours.com",
+    },
+    faqs: [
+      {
+        question: "Is it safe to visit the Monkey Forest?",
+        answer:
+          "Yes, the Sacred Monkey Forest is generally safe to visit with proper guidance. Our experienced guides will advise you on appropriate behavior around the monkeys. Avoid bringing food or displaying anything that might attract their attention. Don't make direct eye contact or touch the monkeys. Follow these guidelines and the forest visit will be a fascinating and safe experience.",
+      },
+      {
+        question: "How difficult is the rice terrace trek?",
+        answer:
+          "The trek through Tegallalang Rice Terraces is moderate in difficulty with some steep and narrow paths. We cover approximately 3-4 kilometers at a leisurely pace with many stops for photos and rest. The trek can be adapted based on your fitness level and conditions. Good walking shoes with traction are strongly recommended as paths can be muddy or slippery.",
+      },
+      {
+        question: "What should I bring for this tour?",
+        answer:
+          "We recommend bringing sunscreen, insect repellent, a hat, light rain jacket, comfortable walking shoes, and a small backpack for personal items. A camera is a must for the spectacular scenery. Bring small denominations of local currency for potential purchases from local farmers or artisans along the trek route.",
+      },
+      {
+        question: "Will we see farmers working in the rice fields?",
+        answer:
+          "Yes, depending on the season, you will likely see local farmers tending to their rice fields using traditional methods that have remained unchanged for centuries. Your guide will explain the complex Subak irrigation system, a UNESCO-recognized cultural landscape that demonstrates Bali's cooperative water management philosophy.",
+      },
+      {
+        question: "What type of coffee will we taste at the plantation?",
+        answer:
+          "At the coffee plantation, you'll taste a variety of Balinese coffees including the famous Luwak coffee (optional, additional fee applies), which is one of the world's most expensive coffees with a unique production process. You'll also sample herbal teas, cocoa, and other locally grown beverages. The plantation demonstrates traditional roasting and processing methods.",
+      },
+    ],
+    availableDates: [
+      "2024-04-13",
+      "2024-04-27",
+      "2024-05-11",
+      "2024-05-25",
+      "2024-06-08",
+      "2024-06-22",
+      "2024-07-06",
+      "2024-07-20",
+      "2024-08-03",
+      "2024-08-17",
+      "2024-09-07",
+      "2024-09-21",
+      "2024-10-05",
+    ],
+    highlights: [
+      "Visit the Sacred Monkey Forest Sanctuary home to over 700 Balinese macaques",
+      "Trek through the stunning UNESCO-listed Tegallalang Rice Terraces",
+      "Learn about traditional Balinese farming techniques and the Subak irrigation system",
+      "Experience a coffee plantation tour with tasting of various coffees and teas",
+      "Visit local artisan villages specializing in wood carving, painting, and silverwork",
+    ],
+    inclusions: [
+      "Hotel pickup and drop-off",
+      "Professional English-speaking guide",
+      "Entrance fees to all attractions",
+      "Coffee and tea tasting",
+      "Bottled water and snacks",
+      "Traditional Balinese lunch",
+      "Support for local farmers through path maintenance fees",
+    ],
+    exclusions: [
+      "Gratuities (optional)",
+      "Personal expenses and souvenirs",
+      "Additional food and beverages not specified",
+      "Luwak coffee tasting (available for additional fee)",
+      "Travel insurance",
+    ],
+    itinerary: [
+      "08:00 AM: Hotel pickup",
+      "09:15 AM: Arrive at Sacred Monkey Forest Sanctuary",
+      "10:30 AM: Visit a traditional Balinese art village",
+      "11:30 AM: Coffee plantation tour and tasting",
+      "12:30 PM: Lunch at a local restaurant overlooking rice fields",
+      "01:30 PM: Trek through Tegallalang Rice Terraces",
+      "03:30 PM: Visit local artisans and craft shopping opportunity",
+      "04:30 PM: Return journey to your hotel",
+      "05:30 PM: Arrive back at your accommodation",
     ],
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
