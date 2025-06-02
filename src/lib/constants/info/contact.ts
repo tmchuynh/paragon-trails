@@ -29,15 +29,6 @@ export const contactDepartments = [
       "Our Concierge Services team delivers personalized, in-destination support for all active travelers. Whether you're looking for last-minute dinner reservations, guided local experiences, language assistance, or help navigating cultural customs, this department ensures your journey runs smoothly. They also handle urgent requests while traveling, such as schedule changes, coordinating meetups, or dealing with service disruptions. For guests seeking white-glove service throughout their trip, our concierge team is here to assist.",
   },
   {
-    department: "Custom Tour Arrangements",
-    phone: "+1 (310) 477–8865",
-    email: "tours@paragontrails.com",
-    hours: "Mon–Fri, 9:00 AM – 6:00 PM PT",
-    short: "Design a custom trip or request a tailored tour experience.",
-    description:
-      "Our Custom Tour team specializes in crafting tailor-made experiences for individuals, families, and groups. Whether you're interested in heritage explorations, culinary trails, wellness retreats, or immersive cultural experiences, our travel designers collaborate with you to create a unique journey. We work with trusted local partners to ensure every detail aligns with your goals and values. Ideal for travelers who want something entirely their own—from themed multi-day excursions to exclusive private access and VIP opportunities.",
-  },
-  {
     department: "Billing & Payments",
     phone: "+1 (310) 477–8830",
     email: "billing@paragontrails.com",
@@ -46,25 +37,6 @@ export const contactDepartments = [
       "For invoices, refunds, installment plans, or transaction questions.",
     description:
       "Our Billing & Payments department handles everything related to your financial transactions with Paragon Trails. Contact us for invoice breakdowns, payment disputes, credit card updates, refund processing, installment plan coordination, or receipt requests. We also help with financial documentation needed for insurance or tax purposes. Whether you’re making a new payment or resolving an existing issue, we’ll ensure it’s handled promptly and securely.",
-  },
-  {
-    department: "Corporate Partnerships & Events",
-    phone: "+1 (310) 477–8840",
-    email: "partnerships@paragontrails.com",
-    hours: "Mon–Fri, 9:00 AM – 5:00 PM PT",
-    short:
-      "Arrange business travel, retreats, co-branded events, or sponsorships.",
-    description:
-      "This department manages all corporate-level relationships and event services. Whether you're a business arranging team retreats, a nonprofit seeking travel coordination for conferences, or a brand exploring collaboration opportunities, we provide bespoke solutions. Services include enterprise group bookings, co-branded travel initiatives, incentive travel planning, and logistics for international events. We also facilitate industry sponsorships and B2B hospitality experiences.",
-  },
-  {
-    department: "Media & Public Relations",
-    phone: "+1 (310) 477–8850",
-    email: "media@paragontrails.com",
-    hours: "Mon–Fri, 9:00 AM – 6:00 PM PT",
-    short: "Contact us for press kits, interviews, or media-related requests.",
-    description:
-      "Media outlets, journalists, and influencers can contact this department for press kits, interview coordination, editorial requests, and partnership proposals. We facilitate access to brand assets, spokespersons, and approved content for editorial coverage. If you’re creating a feature, travel guide, or branded content partnership, reach out to our Media & PR team to start the process. We also manage reputation management and external communications.",
   },
   {
     department: "Emergency Travel Support",
