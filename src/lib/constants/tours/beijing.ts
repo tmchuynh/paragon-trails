@@ -228,7 +228,7 @@ export const beijingTours: Tour[] = [
     rating: 4.7,
     tags: ["Photography", "Full Day", "All Levels"],
 
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -297,7 +297,7 @@ export const beijingTours: Tour[] = [
     rating: 4.8,
     tags: ["Tai Chi", "Morning", "Spiritual"],
 
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -366,7 +366,7 @@ export const beijingTours: Tour[] = [
     rating: 4.6,
     tags: ["Architecture", "Olympic", "Design"],
 
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: false,
@@ -506,7 +506,7 @@ export const beijingTours: Tour[] = [
     rating: 4.7,
     tags: ["Night Tour", "Entertainment", "Food"],
 
-    isPopular: false,
+    isPopular: true,
     isAdventure: false,
     isCultural: true,
     isCulinary: true,
@@ -576,7 +576,7 @@ export const beijingTours: Tour[] = [
     rating: 4.9,
     tags: ["Luxury", "Helicopter", "Exclusive"],
 
-    isPopular: false,
+    isPopular: true,
     isAdventure: true,
     isCultural: true,
     isCulinary: true,

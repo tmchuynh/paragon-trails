@@ -696,7 +696,7 @@ export const barcelonaTours: Tour[] = [
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    isPopular: false,
+    isPopular: true,
     tourCategoryId: "cultural",
     faqs: [
       {
