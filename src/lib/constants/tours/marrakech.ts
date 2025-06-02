@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const marrakechTours: Tour[] = [
   {
     title: "Medina Cultural Walking Tour",
@@ -16,13 +15,11 @@ export const marrakechTours: Tour[] = [
     price: "$55",
     rating: 4.8,
     tags: ["Cultural", "Walking", "Artisans"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Café de France, Jemaa el-Fna, Marrakech 40000, Morocco",
       coordinates: {
@@ -34,7 +31,6 @@ export const marrakechTours: Tour[] = [
       contactNumber: "+212 524-123-456",
       contactEmail: "marrakech@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -76,7 +72,6 @@ export const marrakechTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Visit hidden artisan workshops where traditional crafts are still practiced using centuries-old techniques",
       "Explore the rarely-visited northern medina away from typical tourist routes",
@@ -84,7 +79,6 @@ export const marrakechTours: Tour[] = [
       "Learn about daily Moroccan life while wandering through residential neighborhoods",
       "Meet local craftspeople and hear their stories through your guide's translation",
     ],
-
     inclusions: [
       "Professional local guide with insider knowledge of the medina",
       "Entrance fees to historical sites and workshops",
@@ -93,7 +87,6 @@ export const marrakechTours: Tour[] = [
       "Small group size (maximum 8 participants)",
       "Cultural guidebook with medina map",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Food and additional beverages beyond included tea",
@@ -101,7 +94,6 @@ export const marrakechTours: Tour[] = [
       "Personal purchases at markets and workshops",
       "Professional photography (personal photos are permitted)",
     ],
-
     itinerary: [
       "09:00 - Meet at Café de France for introductions and brief history of Marrakech",
       "09:15 - Begin walk through Jemaa el-Fna and into the souks",
@@ -113,7 +105,6 @@ export const marrakechTours: Tour[] = [
       "12:45 - Mint tea break at authentic local café with panoramic terrace views",
       "13:15 - Tour concludes with orientation and recommendations for further exploration",
     ],
-
     faqs: [
       {
         question: "Will there be aggressive vendors in the souks?",
@@ -132,7 +123,6 @@ export const marrakechTours: Tour[] = [
       },
     ],
   },
-
   // Continue with the second tour
   {
     title: "Sahara Desert & Berber Experience",
@@ -149,13 +139,11 @@ export const marrakechTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Desert", "Adventure", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "La Mamounia Hotel, Avenue Bab Jdid, Marrakech 40040, Morocco",
       coordinates: {
@@ -167,7 +155,6 @@ export const marrakechTours: Tour[] = [
       contactNumber: "+212 524-123-457",
       contactEmail: "sahara@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -181,7 +168,6 @@ export const marrakechTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Travel through the stunning Atlas Mountains with photo stops at panoramic viewpoints",
       "Ride traditional camels across golden Sahara dunes led by experienced Berber guides",
@@ -189,7 +175,6 @@ export const marrakechTours: Tour[] = [
       "Enjoy authentic Berber cuisine under the stars with traditional music and storytelling",
       "Experience the magical desert sunrise from a private dune viewpoint",
     ],
-
     inclusions: [
       "Round-trip transportation in comfortable 4x4 vehicle",
       "Professional English-speaking guide throughout journey",
@@ -199,7 +184,6 @@ export const marrakechTours: Tour[] = [
       "Evening entertainment including Berber music and astronomy",
       "Bottled water throughout journey",
     ],
-
     exclusions: [
       "Alcoholic beverages (available for purchase)",
       "Gratuities for guides, drivers and camp staff",
@@ -207,7 +191,6 @@ export const marrakechTours: Tour[] = [
       "Optional activities such as quad biking or sandboarding",
       "Specialized photography equipment (bring your own)",
     ],
-
     itinerary: [
       "Day 1: 07:00 - Departure from Marrakech in 4x4 vehicle",
       "Day 1: 09:30 - Coffee break at panoramic Atlas Mountains viewpoint",
@@ -219,7 +202,6 @@ export const marrakechTours: Tour[] = [
       "Day 1: 18:00 - Arrive at luxury desert camp and settle into accommodations",
       "Day 1: 19:30 - Traditional Moroccan dinner under the stars",
       "Day 1: 21:00 - Berber music and stargazing with astronomy guide",
-
       "Day 2: 05:30 - Optional sunrise viewing from private dune",
       "Day 2: 07:00 - Breakfast at camp",
       "Day 2: 08:30 - Morning desert activities or relaxation time",
@@ -228,7 +210,6 @@ export const marrakechTours: Tour[] = [
       "Day 2: 13:30 - Begin return journey to Marrakech via different scenic route",
       "Day 2: 18:00 - Arrive back in Marrakech",
     ],
-
     faqs: [
       {
         question: "How comfortable is the desert accommodation?",
@@ -247,7 +228,6 @@ export const marrakechTours: Tour[] = [
       },
     ],
   },
-
   // Complete properties for the third tour
   {
     title: "Atlas Mountains Hiking & Local Cuisine",
@@ -264,13 +244,11 @@ export const marrakechTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Nature", "Hiking", "Culinary"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "wellness",
-
     meetingPoint: {
       address:
         "Hôtel de la Menara, Avenue Mohammed VI, Marrakech 40000, Morocco",
@@ -283,7 +261,6 @@ export const marrakechTours: Tour[] = [
       contactNumber: "+212 524-123-458",
       contactEmail: "atlasmountains@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -325,7 +302,6 @@ export const marrakechTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Hike through spectacular mountain landscapes with views of North Africa's highest peaks",
       "Visit traditional Berber villages unchanged for centuries",
@@ -333,7 +309,6 @@ export const marrakechTours: Tour[] = [
       "Share a home-cooked meal with a local family in their authentic mountain home",
       "Experience a traditional Berber tea ceremony with mountain herbs",
     ],
-
     inclusions: [
       "Round-trip transportation from Marrakech",
       "Professional mountain guide fluent in English",
@@ -342,7 +317,6 @@ export const marrakechTours: Tour[] = [
       "Bottled water throughout the day",
       "Small group size (maximum 8 participants)",
     ],
-
     exclusions: [
       "Hiking equipment (walking poles available for rent)",
       "Gratuities for guide and host family",
@@ -350,7 +324,6 @@ export const marrakechTours: Tour[] = [
       "Additional food and beverages beyond included meals",
       "Optional mule rides for those who prefer not to hike certain sections",
     ],
-
     itinerary: [
       "08:30 - Pickup from meeting point in Marrakech",
       "09:45 - Arrive at starting point in Imlil village (5,700 ft elevation)",
@@ -366,7 +339,6 @@ export const marrakechTours: Tour[] = [
       "16:30 - Return to transport for drive back to Marrakech",
       "17:30 - Arrive back in Marrakech",
     ],
-
     faqs: [
       {
         question: "What level of fitness is required for the hike?",
@@ -386,5 +358,4 @@ export const marrakechTours: Tour[] = [
     ],
   },
 ];
-
 export default marrakechTours;

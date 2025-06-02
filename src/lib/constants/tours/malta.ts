@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const maltaTours: Tour[] = [
   {
     title: "Valletta: Knights & Fortifications Tour",
@@ -16,13 +15,11 @@ export const maltaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["History", "Architecture", "Military"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "City Gate Entrance, Valletta, Malta",
       coordinates: {
@@ -34,7 +31,6 @@ export const maltaTours: Tour[] = [
       contactNumber: "+356 2123 4567",
       contactEmail: "valletta@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -74,7 +70,6 @@ export const maltaTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Explore Europe's most complete Renaissance fortified city with military expertise",
       "Visit the stunning St. John's Co-Cathedral with Caravaggio masterpieces",
@@ -82,7 +77,6 @@ export const maltaTours: Tour[] = [
       "Learn about the Great Siege of 1565 that shaped European history",
       "Enjoy spectacular harbor views from exclusive vantage points",
     ],
-
     inclusions: [
       "Professional military historian guide",
       "Skip-the-line entrance to St. John's Co-Cathedral",
@@ -91,7 +85,6 @@ export const maltaTours: Tour[] = [
       "Audio headsets to clearly hear the guide",
       "Map of Valletta's historical sites",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Food and beverages",
@@ -99,7 +92,6 @@ export const maltaTours: Tour[] = [
       "Entrance to additional museums or attractions not specified",
       "Transportation outside the walking tour route",
     ],
-
     itinerary: [
       "10:00 - Meet at City Gate for introduction to Valletta and the Knights of St. John",
       "10:15 - Walk along Republic Street with commentary on city planning and defenses",
@@ -110,7 +102,6 @@ export const maltaTours: Tour[] = [
       "12:45 - Discover hidden defensive tunnels and specialized fortifications",
       "13:00 - Tour concludes at Grand Master's Palace with recommendations",
     ],
-
     faqs: [
       {
         question: "How much walking is involved?",
@@ -144,13 +135,11 @@ export const maltaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Nature", "Archaeology", "UNESCO"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Blue Grotto Viewpoint, Triq il-Qrendi, Qrendi, Malta",
       coordinates: {
@@ -162,7 +151,6 @@ export const maltaTours: Tour[] = [
       contactNumber: "+356 2123 4568",
       contactEmail: "bluegrotto@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -203,7 +191,6 @@ export const maltaTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Take a traditional boat ride through the magnificent Blue Grotto sea caves",
       "Experience the stunning azure waters and unique rock formations",
@@ -211,7 +198,6 @@ export const maltaTours: Tour[] = [
       "Learn about prehistoric Malta and the mysterious temple builders",
       "Enjoy spectacular coastal views along the southern cliffs of Malta",
     ],
-
     inclusions: [
       "Professional guide with archaeological expertise",
       "Blue Grotto boat trip (weather permitting)",
@@ -220,7 +206,6 @@ export const maltaTours: Tour[] = [
       "Informative booklet about Malta's megalithic temples",
       "Bottled water",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Lunch (time allocated for optional meal at local restaurant)",
@@ -228,7 +213,6 @@ export const maltaTours: Tour[] = [
       "Gratuities",
       "Optional activities not specified in the itinerary",
     ],
-
     itinerary: [
       "09:30 - Meet at Blue Grotto viewpoint for introduction",
       "09:45 - Board traditional luzzu boats for Blue Grotto cave exploration",
@@ -240,7 +224,6 @@ export const maltaTours: Tour[] = [
       "13:30 - Optional lunch at local restaurant (not included)",
       "14:30 - Tour concludes with transfer back to meeting point",
     ],
-
     faqs: [
       {
         question:
@@ -262,5 +245,4 @@ export const maltaTours: Tour[] = [
   },
   // Additional tours would be added here following the same pattern
 ];
-
 export default maltaTours;

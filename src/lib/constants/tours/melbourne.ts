@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const melbourneTours: Tour[] = [
   {
     title: "Hidden Laneways & Street Art Culture",
@@ -16,7 +15,6 @@ export const melbourneTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Street Art", "Culture", "Workshop"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +48,6 @@ export const melbourneTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Coastal Drive", "Natural Wonders", "Photography"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -84,7 +81,6 @@ export const melbourneTours: Tour[] = [
     price: "$65",
     rating: 4.7,
     tags: ["Coffee", "Food", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -118,7 +114,6 @@ export const melbourneTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Wine", "Gourmet", "Scenic"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -152,7 +147,6 @@ export const melbourneTours: Tour[] = [
     price: "$165",
     rating: 4.8,
     tags: ["Penguins", "Conservation"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -186,7 +180,6 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Indigenous", "Cultural", "Historical"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -220,7 +213,6 @@ export const melbourneTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Photography", "Architecture", "Skills"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -254,7 +246,6 @@ export const melbourneTours: Tour[] = [
     price: "$225",
     rating: 4.8,
     tags: ["Gourmet", "Dining", "Wine"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -288,7 +279,6 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.6,
     tags: ["Beer", "Pubs", "Local Experience"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -322,32 +312,61 @@ export const melbourneTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Nature", "Coastal", "Wildlife"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "nature",
-    
     meetingPoint: {
       address: "Your accommodation in Melbourne CBD (hotel pickup included)",
       coordinates: {
         latitude: -37.8136,
         longitude: 144.9631,
       },
-      instructions: "We'll pick you up from the lobby of your Melbourne CBD accommodation between 7:00-7:30am. Your guide will contact you the day before to confirm exact pickup time.",
+      instructions:
+        "We'll pick you up from the lobby of your Melbourne CBD accommodation between 7:00-7:30am. Your guide will contact you the day before to confirm exact pickup time.",
       contactNumber: "+61 3 9123 4569",
       contactEmail: "oceanroad@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", "2023-12-27", "2023-12-29",
-      "2024-01-02", "2024-01-04", "2024-01-06", "2024-01-08", "2024-01-10", "2024-01-12", "2024-01-14", 
-      "2024-01-16", "2024-01-18", "2024-01-20", "2024-01-22", "2024-01-24", "2024-01-26", "2024-01-28", "2024-01-30",
-      "2024-02-01", "2024-02-03", "2024-02-05", "2024-02-07", "2024-02-09", "2024-02-11", "2024-02-13", 
-      "2024-02-15", "2024-02-17", "2024-02-19", "2024-02-21", "2024-02-23", "2024-02-25", "2024-02-27", "2024-02-29",
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-27",
+      "2023-12-29",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
     ],
-    
     highlights: [
       "Private luxury vehicle allowing flexibility and comfort throughout the journey",
       "Visit the iconic Twelve Apostles limestone stacks at optimal times to avoid crowds",
@@ -355,7 +374,6 @@ export const melbourneTours: Tour[] = [
       "Spot wild koalas, kangaroos and native birds in their natural habitats",
       "Explore pristine beaches and dramatic coastal landscapes with personalized commentary",
     ],
-    
     inclusions: [
       "Private guide/driver with extensive local knowledge",
       "Luxury vehicle transportation (Mercedes or similar)",
@@ -366,14 +384,12 @@ export const melbourneTours: Tour[] = [
       "Bottled water and snacks throughout the day",
       "Binoculars for wildlife spotting",
     ],
-    
     exclusions: [
       "Helicopter tours over the Twelve Apostles (can be arranged for additional fee)",
       "Alcoholic beverages",
       "Personal expenses and souvenirs",
       "Gratuities (optional)",
     ],
-    
     itinerary: [
       "07:00 - Hotel pickup from your Melbourne accommodation",
       "08:30 - Morning tea stop at charming coastal town with ocean views",
@@ -388,26 +404,24 @@ export const melbourneTours: Tour[] = [
       "16:45 - Begin return journey to Melbourne via inland route",
       "19:00 - Arrive back at your Melbourne accommodation",
     ],
-    
     faqs: [
       {
         question: "How long is the drive to the Twelve Apostles?",
         answer:
-          "The drive from Melbourne to the Twelve Apostles is approximately 4 hours along the scenic coastal route. However, we take a full day (approximately 12 hours round trip) to make numerous stops for sightseeing, wildlife spotting, short walks, and meals. Our return journey utilizes a faster inland route, taking about 3 hours."
+          "The drive from Melbourne to the Twelve Apostles is approximately 4 hours along the scenic coastal route. However, we take a full day (approximately 12 hours round trip) to make numerous stops for sightseeing, wildlife spotting, short walks, and meals. Our return journey utilizes a faster inland route, taking about 3 hours.",
       },
       {
         question: "What wildlife might we see?",
         answer:
-          "The Great Ocean Road region is home to abundant wildlife. We frequently spot koalas in the wild at specific locations along the route, especially near Kennett River. You may also see kangaroos in grassy areas during the afternoon, various native birds including kookaburras and cockatoos, and during certain seasons, migrating whales (May to October) can be spotted from coastal viewpoints."
+          "The Great Ocean Road region is home to abundant wildlife. We frequently spot koalas in the wild at specific locations along the route, especially near Kennett River. You may also see kangaroos in grassy areas during the afternoon, various native birds including kookaburras and cockatoos, and during certain seasons, migrating whales (May to October) can be spotted from coastal viewpoints.",
       },
       {
         question: "What happens in poor weather?",
         answer:
-          "The Great Ocean Road is spectacular in all weather conditions, with misty or stormy days often providing dramatic atmospherics at the coastal formations. We adjust the itinerary based on conditions, potentially spending more time in the rainforest areas during rain or focusing on inland wildlife during extreme winds. The tour operates rain or shine, but your guide will optimize the experience based on conditions."
+          "The Great Ocean Road is spectacular in all weather conditions, with misty or stormy days often providing dramatic atmospherics at the coastal formations. We adjust the itinerary based on conditions, potentially spending more time in the rainforest areas during rain or focusing on inland wildlife during extreme winds. The tour operates rain or shine, but your guide will optimize the experience based on conditions.",
       },
     ],
   },
-  
   {
     title: "Melbourne Foodie Discovery Walking Tour",
     description:
@@ -423,32 +437,60 @@ export const melbourneTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Walking Tour", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    
     meetingPoint: {
-      address: "Federation Square, corner of Swanston & Flinders Streets, Melbourne",
+      address:
+        "Federation Square, corner of Swanston & Flinders Streets, Melbourne",
       coordinates: {
         latitude: -37.8182,
-        longitude: 144.9690,
+        longitude: 144.969,
       },
-      instructions: "Meet at the Melbourne Visitor Hub in Federation Square. Your guide will be holding a sign with 'Melbourne Food Tour' written on it.",
+      instructions:
+        "Meet at the Melbourne Visitor Hub in Federation Square. Your guide will be holding a sign with 'Melbourne Food Tour' written on it.",
       contactNumber: "+61 3 9123 4570",
       contactEmail: "melbfood@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-16", "2023-12-18", "2023-12-20", "2023-12-22", "2023-12-28", "2023-12-30",
-      "2024-01-03", "2024-01-05", "2024-01-07", "2024-01-09", "2024-01-11", "2024-01-13", "2024-01-15", 
-      "2024-01-17", "2024-01-19", "2024-01-21", "2024-01-23", "2024-01-25", "2024-01-27", "2024-01-29", "2024-01-31",
-      "2024-02-02", "2024-02-04", "2024-02-06", "2024-02-08", "2024-02-10", "2024-02-12", "2024-02-14", 
-      "2024-02-16", "2024-02-18", "2024-02-20", "2024-02-22", "2024-02-24", "2024-02-26", "2024-02-28",
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
     ],
-    
     highlights: [
       "Sample a diverse range of Melbourne's multicultural cuisines in 6-8 tastings",
       "Explore hidden laneway cafés and eateries known only to locals",
@@ -456,7 +498,6 @@ export const melbourneTours: Tour[] = [
       "Visit specialty food shops and meet passionate local producers",
       "Discover the influence of Italian, Greek, Chinese and other cultures on Melbourne's food",
     ],
-    
     inclusions: [
       "Local foodie guide with expert knowledge",
       "6-8 food tastings (equivalent to a full meal)",
@@ -465,14 +506,12 @@ export const melbourneTours: Tour[] = [
       "Special discounts at select food specialty shops",
       "Small group size (maximum 8 participants)",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and beverages beyond included tastings",
       "Personal shopping expenses",
       "Gratuities (optional)",
     ],
-    
     itinerary: [
       "10:00 - Meet at Federation Square for introductions",
       "10:15 - Visit historic Degraves Street for coffee and pastry tasting",
@@ -484,26 +523,24 @@ export const melbourneTours: Tour[] = [
       "13:15 - Final stop for dessert featuring local ingredients",
       "13:30 - Tour conclusion with additional recommendations",
     ],
-    
     faqs: [
       {
         question: "How much food is included?",
         answer:
-          "The tour includes 6-8 substantial tastings that together constitute a full meal. Come hungry! We sample a diverse range of foods reflecting Melbourne's multicultural food scene, from Italian and Asian influences to unique Australian specialties. Portions at each stop are generous enough to share the experience without leaving you too full to continue."
+          "The tour includes 6-8 substantial tastings that together constitute a full meal. Come hungry! We sample a diverse range of foods reflecting Melbourne's multicultural food scene, from Italian and Asian influences to unique Australian specialties. Portions at each stop are generous enough to share the experience without leaving you too full to continue.",
       },
       {
         question: "Can dietary restrictions be accommodated?",
         answer:
-          "Yes, we can accommodate vegetarian, vegan, gluten-free, and most other dietary restrictions with advance notice. Please inform us of any dietary requirements at least 48 hours before your tour so we can arrange appropriate alternatives. Melbourne's diverse food scene means we can usually find excellent options for all dietary needs."
+          "Yes, we can accommodate vegetarian, vegan, gluten-free, and most other dietary restrictions with advance notice. Please inform us of any dietary requirements at least 48 hours before your tour so we can arrange appropriate alternatives. Melbourne's diverse food scene means we can usually find excellent options for all dietary needs.",
       },
       {
         question: "How much walking is involved?",
         answer:
-          "The tour covers approximately 2.5 km (1.5 miles) at a leisurely pace with frequent stops. Melbourne's central area is flat and easily walkable, though some laneways have cobblestones. We walk between venues which are typically 5-10 minutes apart, with plenty of opportunities to rest during tastings."
+          "The tour covers approximately 2.5 km (1.5 miles) at a leisurely pace with frequent stops. Melbourne's central area is flat and easily walkable, though some laneways have cobblestones. We walk between venues which are typically 5-10 minutes apart, with plenty of opportunities to rest during tastings.",
       },
     ],
   },
-  
   {
     title: "Yarra Valley Wine Experience",
     description:
@@ -519,32 +556,58 @@ export const melbourneTours: Tour[] = [
     price: "$175",
     rating: 4.9,
     tags: ["Wine", "Gourmet", "Countryside"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "culinary",
-    
     meetingPoint: {
-      address: "Federation Square, corner of Swanston & Flinders Streets, Melbourne",
+      address:
+        "Federation Square, corner of Swanston & Flinders Streets, Melbourne",
       coordinates: {
         latitude: -37.8182,
-        longitude: 144.9690,
+        longitude: 144.969,
       },
-      instructions: "Meet at the St Paul's Cathedral side of Federation Square. Your guide will be waiting next to a Mercedes van with 'Yarra Valley Wine Tours' signage.",
+      instructions:
+        "Meet at the St Paul's Cathedral side of Federation Square. Your guide will be waiting next to a Mercedes van with 'Yarra Valley Wine Tours' signage.",
       contactNumber: "+61 3 9123 4571",
       contactEmail: "yarrawine@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-24", "2023-12-26", "2023-12-28", "2023-12-31",
-      "2024-01-02", "2024-01-04", "2024-01-07", "2024-01-09", "2024-01-11", "2024-01-14", "2024-01-16", 
-      "2024-01-18", "2024-01-21", "2024-01-23", "2024-01-25", "2024-01-28", "2024-01-30",
-      "2024-02-01", "2024-02-04", "2024-02-06", "2024-02-08", "2024-02-11", "2024-02-13", 
-      "2024-02-15", "2024-02-18", "2024-02-20", "2024-02-22", "2024-02-25", "2024-02-27", "2024-02-29",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-31",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
     ],
-    
     highlights: [
       "Visit 4 premium wineries showcasing the region's renowned cool-climate wines",
       "Enjoy private behind-the-scenes winery tour with barrel room tasting",
@@ -552,7 +615,6 @@ export const melbourneTours: Tour[] = [
       "Indulge in a two-course lunch at a vineyard restaurant with wine pairing",
       "Meet winemakers and cellar door staff for expert insights",
     ],
-    
     inclusions: [
       "Transportation in luxury Mercedes vehicle",
       "Professional wine-educated guide",
@@ -563,14 +625,12 @@ export const melbourneTours: Tour[] = [
       "Bottled water throughout the day",
       "Yarra Valley wine map and tasting notes",
     ],
-    
     exclusions: [
       "Additional wine purchases beyond included tastings",
       "Additional food beyond included lunch",
       "Gratuities (optional)",
       "Hotel pickup and drop-off (central meeting point only)",
     ],
-    
     itinerary: [
       "09:00 - Depart Melbourne from Federation Square",
       "10:00 - Arrive at first boutique winery for tasting focusing on sparkling wines",
@@ -581,25 +641,23 @@ export const melbourneTours: Tour[] = [
       "16:45 - Begin return journey to Melbourne",
       "17:45 - Arrive back at Federation Square",
     ],
-    
     faqs: [
       {
         question: "What types of wine will we taste?",
         answer:
-          "The Yarra Valley is renowned for cool-climate varieties, particularly Chardonnay, Pinot Noir, and sparkling wines made in the traditional method. You'll also sample Cabernet Sauvignon, Shiraz, and sometimes unique varieties like Nebbiolo or Arneis. Each winery offers 4-5 wines for tasting, selected to showcase their distinctive styles and the region's diverse terroir. Both established classics and experimental new wines are included."
+          "The Yarra Valley is renowned for cool-climate varieties, particularly Chardonnay, Pinot Noir, and sparkling wines made in the traditional method. You'll also sample Cabernet Sauvignon, Shiraz, and sometimes unique varieties like Nebbiolo or Arneis. Each winery offers 4-5 wines for tasting, selected to showcase their distinctive styles and the region's diverse terroir. Both established classics and experimental new wines are included.",
       },
       {
         question: "Do I need wine knowledge to enjoy this tour?",
         answer:
-          "Not at all! This tour is designed for everyone from curious beginners to experienced wine enthusiasts. Our guides explain wine fundamentals and tasting techniques in an approachable way while providing deeper insights for those with more experience. The relaxed atmosphere encourages questions, and wineries are selected for their welcoming approach to visitors of all knowledge levels."
+          "Not at all! This tour is designed for everyone from curious beginners to experienced wine enthusiasts. Our guides explain wine fundamentals and tasting techniques in an approachable way while providing deeper insights for those with more experience. The relaxed atmosphere encourages questions, and wineries are selected for their welcoming approach to visitors of all knowledge levels.",
       },
       {
         question: "Is there a dress code for the wineries?",
         answer:
-          "Smart casual attire is appropriate for the wineries and included lunch. While there's no strict dress code, we recommend comfortable clothing and avoiding very casual items like flip-flops or beachwear. A light layer is useful as cellar areas can be cool even on warm days. Most importantly, wear comfortable shoes as there may be short walks through vineyards or on gravel paths."
+          "Smart casual attire is appropriate for the wineries and included lunch. While there's no strict dress code, we recommend comfortable clothing and avoiding very casual items like flip-flops or beachwear. A light layer is useful as cellar areas can be cool even on warm days. Most importantly, wear comfortable shoes as there may be short walks through vineyards or on gravel paths.",
       },
     ],
   },
 ];
-
 export default melbourneTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const losAngelesTours: Tour[] = [
   {
     title: "Hollywood Behind-the-Scenes & Celebrity Homes",
@@ -17,13 +16,11 @@ export const losAngelesTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Hollywood", "Celebrity", "Film Industry"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "TCL Chinese Theatre, 6925 Hollywood Blvd, Los Angeles, CA 90028",
@@ -36,7 +33,6 @@ export const losAngelesTours: Tour[] = [
       contactNumber: "+1 323-555-1234",
       contactEmail: "hollywood@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -76,7 +72,6 @@ export const losAngelesTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Special access to a working film or television studio (subject to production schedule)",
       "Drive through exclusive Beverly Hills and Bel Air neighborhoods with celebrity home viewings",
@@ -84,7 +79,6 @@ export const losAngelesTours: Tour[] = [
       "Photo opportunity with the Hollywood Sign from an exclusive vantage point",
       "Walk of Fame exploration with insider stories about the stars and ceremonies",
     ],
-
     inclusions: [
       "Transportation in air-conditioned vehicle with WiFi",
       "Professional guide with entertainment industry experience",
@@ -93,7 +87,6 @@ export const losAngelesTours: Tour[] = [
       "Hollywood history guidebook",
       "Souvenir Hollywood map with celebrity home locations",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Meals and additional beverages",
@@ -101,7 +94,6 @@ export const losAngelesTours: Tour[] = [
       "Studio tour admission (if not included in the day's itinerary)",
       "Entry to additional attractions",
     ],
-
     itinerary: [
       "10:00 - Meet at TCL Chinese Theatre for introduction",
       "10:15 - Walk of Fame exploration with Hollywood history",
@@ -114,7 +106,6 @@ export const losAngelesTours: Tour[] = [
       "14:45 - Behind-the-scenes studio experience or iconic film locations",
       "15:30 - Return to original meeting point with time for questions",
     ],
-
     faqs: [
       {
         question: "Will we actually see celebrities during the tour?",
@@ -149,13 +140,11 @@ export const losAngelesTours: Tour[] = [
     price: "$65",
     rating: 4.6,
     tags: ["Beach", "Culture", "Outdoor"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nature",
-
     meetingPoint: {
       address:
         "Venice Beach Boardwalk, 1800 Ocean Front Walk, Venice, CA 90291",
@@ -168,7 +157,6 @@ export const losAngelesTours: Tour[] = [
       contactNumber: "+1 310-555-2345",
       contactEmail: "beachtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -209,7 +197,6 @@ export const losAngelesTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Stroll Venice Beach's famous Boardwalk with its eclectic street performers and vendors",
       "Explore the picturesque Venice Canals inspired by their Italian namesake",
@@ -217,7 +204,6 @@ export const losAngelesTours: Tour[] = [
       "Ride along the beach bike path between Venice and Santa Monica",
       "Enjoy free time on the historic Santa Monica Pier with its iconic Ferris wheel",
     ],
-
     inclusions: [
       "Professional local guide with knowledge of beach culture and history",
       "Bicycle rental for beach path ride (or electric scooter if preferred)",
@@ -226,7 +212,6 @@ export const losAngelesTours: Tour[] = [
       "Santa Monica Pier Ferris wheel ticket",
       "Photography service at scenic viewpoints",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Meals and additional beverages",
@@ -234,7 +219,6 @@ export const losAngelesTours: Tour[] = [
       "Additional attraction tickets beyond included Ferris wheel",
       "Personal shopping expenses",
     ],
-
     itinerary: [
       "10:00 - Meet at Venice Beach Boardwalk for introduction",
       "10:15 - Guided walk through Venice Boardwalk with street performance viewing",
@@ -247,7 +231,6 @@ export const losAngelesTours: Tour[] = [
       "13:30 - Optional group photo at Pacific Park sign",
       "13:45 - Bicycle/scooter return and tour conclusion with recommendations",
     ],
-
     faqs: [
       {
         question: "Do I need to know how to ride a bicycle?",
@@ -268,5 +251,4 @@ export const losAngelesTours: Tour[] = [
   },
   // Additional tours would follow this pattern
 ];
-
 export default losAngelesTours;

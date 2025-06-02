@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const kampalaTours: Tour[] = [
   {
     title: "Kampala Cultural Mosaic Walking Tour",
@@ -16,11 +15,46 @@ export const kampalaTours: Tour[] = [
     price: "$65",
     rating: 4.8,
     tags: ["Cultural", "Religious", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isAdventure: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    meetingPoint: {
+      address: "Kampala City Centre, near the Uganda Museum",
+      coordinates: {
+        latitude: 0.347596,
+        longitude: 32.58252,
+      },
+      instructions:
+        "Meet your guide at the entrance of the Uganda Museum. Look for a guide holding a sign that says 'Kampala Cultural Mosaic'.",
+      contactNumber: "+256 700 123456",
+    },
+    inclusions: [
+      "Expert local guide",
+      "Visits to Gaddafi National Mosque, Baha'i Temple, Namirembe Cathedral, and other key sites",
+      "Cultural insights and stories about religious coexistence",
+      "Bottled water",
+      "Light snacks at a local café",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Lunch (can be arranged at an additional cost)",
+      "Personal expenses (souvenirs, etc.)",
+    ],
     tourCategoryId: "cultural",
     faqs: [
       {
@@ -50,11 +84,47 @@ export const kampalaTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["Food", "Markets", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isAdventure: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    meetingPoint: {
+      address: "Owino Market, near the main entrance",
+      coordinates: {
+        latitude: 0.315555,
+        longitude: 32.581111,
+      },
+      instructions:
+        "Meet your guide at the main entrance of Owino Market. Look for a guide holding a sign that says 'Flavors of Uganda'.",
+      contactNumber: "+256 700 654321",
+    },
+    inclusions: [
+      "Expert local food guide",
+      "Street food samples from various vendors",
+      "Visit to Owino Market and other local markets",
+      "Cultural insights into Ugandan food traditions",
+      "Bottled water",
+      "Hand sanitizer",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Additional food or drinks beyond samples",
+      "Personal expenses (souvenirs, etc.)",
+    ],
     tourCategoryId: "culinary",
     faqs: [
       {
@@ -84,12 +154,48 @@ export const kampalaTours: Tour[] = [
     price: "$40",
     rating: 4.6,
     tags: ["Adventure", "City Tour", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
-    tourCategoryId: "off-the-beaten-path",
+    isCulinary: false,
+    isSpiritual: false,
+    isAdventure: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    meetingPoint: {
+      address: "Kampala City Centre, near the Old Taxi Park",
+      coordinates: {
+        latitude: 0.315555,
+        longitude: 32.581111,
+      },
+      instructions:
+        "Meet your guide at the entrance of the Old Taxi Park. Look for a guide holding a sign that says 'Boda-Boda City Tour'.",
+      contactNumber: "+256 700 789012",
+    },
+    inclusions: [
+      "Experienced boda-boda driver and guide",
+      "High-quality helmets and safety gear",
+      "Visit to key city landmarks and hidden gems",
+      "Scenic viewpoints and photo opportunities",
+      "Bottled water",
+      "Insurance coverage during the ride",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Personal expenses (souvenirs, etc.)",
+      "Tips for drivers (optional but appreciated)",
+    ],
+    tourCategoryId: "adventure",
     faqs: [
       {
         question: "Is riding a boda-boda safe?",
@@ -118,11 +224,45 @@ export const kampalaTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Religious", "Historical", "Pilgrimage"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
+    isLocalExperience: true,
+    isCulinary: false,
+    isSpiritual: true,
+    isAdventure: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    meetingPoint: {
+      address: "Namugongo Martyrs Shrine, near Kampala",
+      coordinates: {
+        latitude: 0.35,
+        longitude: 32.6,
+      },
+      instructions:
+        "Meet your guide at the main entrance of Namugongo Martyrs Shrine. Look for a guide holding a sign that says 'Uganda Martyrs Trail'.",
+      contactNumber: "+256 700 345678",
+    },
+    inclusions: [
+      "Expert local guide",
+      "Visits to Namugongo Martyrs Shrine, Munyonyo Martyrs Shrine, and Rubaga Cathedral",
+      "Cultural insights into the Uganda Martyrs' story",
+      "Bottled water",
+      "Light lunch at a local restaurant",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Personal expenses (souvenirs, etc.)",
+    ],
     tourCategoryId: "spiritual",
     faqs: [
       {
@@ -147,12 +287,57 @@ export const kampalaTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Cultural", "Historical"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "historical",
+    isCulinary: false,
+    isSpiritual: false,
+    isAdventure: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    meetingPoint: {
+      address: "Kasubi Tombs, near Kampala",
+      coordinates: {
+        latitude: 0.35,
+        longitude: 32.6,
+      },
+      instructions:
+        "Meet your guide at the main entrance of the Kasubi Tombs. Look for a guide holding a sign that says 'Royal Kampala Tour'.",
+      contactNumber: "+256 700 456789",
+    },
+    inclusions: [
+      "Expert local guide with knowledge of Buganda history",
+      "Visits to Buganda Parliament, Kabaka's Palace, and Kasubi Tombs",
+      "Cultural insights into Buganda traditions and governance",
+      "Bottled water",
+      "Light refreshments at a local café",
+    ],
+    exclusions: [
+      "Transportation to/from the meeting point",
+      "Personal expenses (souvenirs, etc.)",
+    ],
+    meeetingPoint: {
+      address: "Kasubi Tombs, near Kampala",
+      coordinates: {
+        latitude: 0.35,
+        longitude: 32.6,
+      },
+      instructions:
+        "Meet your guide at the main entrance of the Kasubi Tombs. Look for a guide holding a sign that says 'Royal Kampala Tour'.",
+      contactNumber: "+256 700 456789",
+    },
+    cancellationPolicy:
+      "Free cancellation up to 24 hours before the tour starts. Cancellations made less than 24 hours in advance will incur a 50% charge.",
     faqs: [
       {
         question: "What is the significance of the Kasubi Tombs?",
@@ -211,7 +396,6 @@ export const kampalaTours: Tour[] = [
     price: "$50",
     rating: 4.9,
     tags: ["Crafts", "Art", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -246,7 +430,6 @@ export const kampalaTours: Tour[] = [
     price: "$55",
     rating: 4.7,
     tags: ["Off the Beaten Path", "Local Culture", "Hidden Gems"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -271,5 +454,4 @@ export const kampalaTours: Tour[] = [
     ],
   },
 ];
-
 export default kampalaTours;

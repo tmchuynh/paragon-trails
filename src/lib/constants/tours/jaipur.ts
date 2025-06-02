@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const jaipurTours: Tour[] = [
   {
     title: "Royal Amber Fort & Palace Elegance",
@@ -16,13 +15,11 @@ export const jaipurTours: Tour[] = [
     price: "$165",
     rating: 4.9,
     tags: ["Royal", "Palaces", "Heritage"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Trident Hotel, Amber Fort Road, Jaipur 302002",
       coordinates: {
@@ -34,7 +31,6 @@ export const jaipurTours: Tour[] = [
       contactNumber: "+91 98765 43210",
       contactEmail: "jaipur@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -48,7 +44,6 @@ export const jaipurTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Jeep ride up to the magnificent hilltop Amber Fort complex",
       "Guided tour of Amber Fort's mirrored halls and artistic courtyards",
@@ -56,7 +51,6 @@ export const jaipurTours: Tour[] = [
       "Photo opportunity at the iconic Hawa Mahal (Palace of Winds)",
       "Traditional Rajasthani dinner with folk music and dance performances",
     ],
-
     inclusions: [
       "Professional English-speaking guide with royal heritage expertise",
       "All monument entrance fees",
@@ -66,7 +60,6 @@ export const jaipurTours: Tour[] = [
       "Gourmet dinner with folk performance",
       "Private air-conditioned vehicle with professional driver",
     ],
-
     exclusions: [
       "Camera fees at certain monuments",
       "Alcoholic beverages",
@@ -74,7 +67,6 @@ export const jaipurTours: Tour[] = [
       "Tips and gratuities",
       "Anything not mentioned in inclusions",
     ],
-
     itinerary: [
       "09:00 - Meet guide at hotel and transfer to Amber Fort",
       "09:45 - Jeep ride up to Amber Fort",
@@ -87,7 +79,6 @@ export const jaipurTours: Tour[] = [
       "19:00 - Traditional dinner with folk performances",
       "21:00 - Return to hotel",
     ],
-
     faqs: [
       {
         question: "Is the elephant ride to Amber Fort ethical?",
@@ -116,13 +107,11 @@ export const jaipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Crafts", "Textiles", "Artisans"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Anokhi Museum of Hand Printing, Kheri Gate, Amber, Jaipur 302028",
@@ -135,7 +124,6 @@ export const jaipurTours: Tour[] = [
       contactNumber: "+91 98765 43211",
       contactEmail: "artisans@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -149,7 +137,6 @@ export const jaipurTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Visit traditional block printing workshop with hands-on printing experience",
       "Meet master blue pottery artisans and try your hand at this ancient craft",
@@ -157,7 +144,6 @@ export const jaipurTours: Tour[] = [
       "Learn about natural dyeing processes using regional plants and minerals",
       "Take home your own handcrafted souvenirs from each workshop",
     ],
-
     inclusions: [
       "Craft specialist guide",
       "All workshop materials and tools",
@@ -167,14 +153,12 @@ export const jaipurTours: Tour[] = [
       "Light vegetarian lunch at an artisan's home",
       "Bottled water and refreshments",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional purchases beyond the included craft activities",
       "Tips and gratuities",
       "Personal expenses",
     ],
-
     itinerary: [
       "09:00 - Meet at Anokhi Museum for introduction to textile traditions",
       "09:45 - Transfer to block printing workshop in Sanganer",
@@ -187,7 +171,6 @@ export const jaipurTours: Tour[] = [
       "16:30 - Learn basic jewelry making techniques",
       "17:00 - Tour concludes with certificate of participation",
     ],
-
     faqs: [
       {
         question: "Can we try some of the crafts ourselves?",
@@ -216,13 +199,11 @@ export const jaipurTours: Tour[] = [
     price: "$60",
     rating: 4.7,
     tags: ["Local Culture", "Markets", "Hidden Gems"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-
     meetingPoint: {
       address: "Hawa Mahal Road, near Windview Café, Jaipur 302002",
       coordinates: {
@@ -234,7 +215,6 @@ export const jaipurTours: Tour[] = [
       contactNumber: "+91 98765 43212",
       contactEmail: "hiddenjaipur@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-24",
@@ -248,7 +228,6 @@ export const jaipurTours: Tour[] = [
       "2024-02-18",
       "2024-02-25",
     ],
-
     highlights: [
       "Explore winding lanes of old Jaipur rarely visited by tourists",
       "Visit hidden neighborhood temples with local significance",
@@ -256,7 +235,6 @@ export const jaipurTours: Tour[] = [
       "Meet local artisans working from home workshops",
       "Experience traditional chai preparation at a family-run tea stall",
     ],
-
     inclusions: [
       "Local expert guide",
       "Chai and snacks at local tea shop",
@@ -265,14 +243,12 @@ export const jaipurTours: Tour[] = [
       "Blessing ceremony at neighborhood temple",
       "Bottled water",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Personal purchases at markets",
       "Tips and gratuities",
       "Additional food beyond included tastings",
     ],
-
     itinerary: [
       "15:00 - Meet guide at Windview Café and orientation walk",
       "15:15 - Explore hidden lanes of Chandi Chowk neighborhood",
@@ -284,7 +260,6 @@ export const jaipurTours: Tour[] = [
       "18:30 - Street food sampling at residents' favorite stalls",
       "19:00 - Tour concludes with recommendations for dinner",
     ],
-
     faqs: [
       {
         question: "Will we visit any tourist attractions?",
@@ -318,13 +293,11 @@ export const jaipurTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Food", "Culture", "Local Cuisine"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Laxmi Misthan Bhandar (LMB), Johari Bazaar, Jaipur 302003",
       coordinates: {
@@ -336,7 +309,6 @@ export const jaipurTours: Tour[] = [
       contactNumber: "+91 98765 43214",
       contactEmail: "jaipurfood@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-18",
@@ -351,7 +323,6 @@ export const jaipurTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Sample authentic Dal Baati Churma, Rajasthan's signature dish",
       "Taste royal recipes once served in the maharaja's palace",
@@ -359,7 +330,6 @@ export const jaipurTours: Tour[] = [
       "Learn about the influences of Rajput, Mughal, and local cultures on Jaipur cuisine",
       "Visit both famous establishments and hidden family-run eateries",
     ],
-
     inclusions: [
       "Culinary expert guide",
       "8-10 food tastings (enough for a full meal)",
@@ -369,14 +339,12 @@ export const jaipurTours: Tour[] = [
       "Bottled water",
       "Food guide booklet with recipes and recommendations",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Alcoholic beverages",
       "Personal purchases beyond included tastings",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "16:00 - Meet at LMB for introduction and first sweet tasting",
       "16:30 - Walk through Johari Bazaar to traditional lassi shop",
@@ -387,7 +355,6 @@ export const jaipurTours: Tour[] = [
       "20:00 - Conclude with ceremonial pan and digestif at historic venue",
       "21:00 - Tour ends with recommendations for dinner or drinks",
     ],
-
     faqs: [
       {
         question: "Will we try street food during the tour?",
@@ -407,5 +374,4 @@ export const jaipurTours: Tour[] = [
     ],
   },
 ];
-
 export default jaipurTours;

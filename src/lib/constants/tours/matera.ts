@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const materaTours: Tour[] = [
   {
     title: "Sassi Cave Dwellings & Ancient Civilization",
@@ -16,13 +15,11 @@ export const materaTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["History", "Architecture"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Piazza Vittorio Veneto, Matera 75100, Italy",
       coordinates: {
@@ -34,7 +31,6 @@ export const materaTours: Tour[] = [
       contactNumber: "+39 0835 123456",
       contactEmail: "matera@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -66,7 +62,6 @@ export const materaTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Explore authentic cave dwellings that were inhabited until the 1950s, now restored with period furnishings",
       "Visit ancient rupestrian churches with Byzantine frescoes not typically open to the public",
@@ -74,7 +69,6 @@ export const materaTours: Tour[] = [
       "Discover why Matera was once known as 'Italy's shame' before becoming a UNESCO World Heritage site",
       "Compare modern cave renovations with historical dwellings for a complete picture of Sassi evolution",
     ],
-
     inclusions: [
       "Professional archaeologist guide with expertise in Matera's history",
       "Entrance fees to all cave dwellings and rupestrian churches",
@@ -83,7 +77,6 @@ export const materaTours: Tour[] = [
       "Bottled water",
       "Historical guidebook with maps and information",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Lunch or additional food beyond included snack",
@@ -91,7 +84,6 @@ export const materaTours: Tour[] = [
       "Personal expenses",
       "Museum entrance fees not specified in inclusions",
     ],
-
     itinerary: [
       "09:00 - Meet at Piazza Vittorio Veneto for introduction to Matera's history",
       "09:15 - Descend into the Sassi districts with overview from panoramic viewpoint",
@@ -103,7 +95,6 @@ export const materaTours: Tour[] = [
       "13:00 - Explore modern renovated cave complex now used as hotel/restaurant",
       "13:30 - Tour conclusion at Piazza del Sedile with recommendations",
     ],
-
     faqs: [
       {
         question: "How much walking and climbing is involved?",
@@ -117,7 +108,6 @@ export const materaTours: Tour[] = [
       },
     ],
   },
-
   // Continuing with the second tour
   {
     title: "Cucina Povera: Traditional Cooking in Ancient Caves",
@@ -134,13 +124,11 @@ export const materaTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Cooking", "Culinary", "Local"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Via Bruno Buozzi 97, Matera 75100, Italy",
       coordinates: {
@@ -152,7 +140,6 @@ export const materaTours: Tour[] = [
       contactNumber: "+39 0835 123457",
       contactEmail: "materacooking@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-18",
       "2023-12-19",
@@ -184,7 +171,6 @@ export const materaTours: Tour[] = [
       "2024-02-27",
       "2024-02-28",
     ],
-
     highlights: [
       "Cook in an authentic 300-year-old cave kitchen using traditional methods",
       "Learn to make Matera's UNESCO-recognized bread using heritage wheat varieties",
@@ -192,7 +178,6 @@ export const materaTours: Tour[] = [
       "Discover how locals preserved food in cave environments without refrigeration",
       "Enjoy the fruits of your labor with a communal meal in a candlelit cave dining room",
     ],
-
     inclusions: [
       "Hands-on cooking class with expert local chef",
       "All ingredients and cooking materials",
@@ -201,14 +186,12 @@ export const materaTours: Tour[] = [
       "Complimentary cooking apron",
       "Welcome prosecco and appetizers",
     ],
-
     exclusions: [
       "Transportation to and from cooking school",
       "Additional alcoholic beverages beyond included wine",
       "Gratuities for chef and staff (optional)",
       "Cooking equipment to take home (available for purchase)",
     ],
-
     itinerary: [
       "10:00 - Welcome reception with prosecco and local appetizers",
       "10:30 - Introduction to Materan cuisine and its history",
@@ -220,7 +203,6 @@ export const materaTours: Tour[] = [
       "14:30 - Set table in cave dining room for communal meal",
       "15:00 - Enjoy the meal you've prepared with paired local wines",
     ],
-
     faqs: [
       {
         question: "What dishes will we learn to make?",
@@ -234,7 +216,6 @@ export const materaTours: Tour[] = [
       },
     ],
   },
-
   // Adding properties for the third tour
   {
     title: "Matera by Night: Illuminated Sassi Tour",
@@ -251,13 +232,11 @@ export const materaTours: Tour[] = [
     price: "$70",
     rating: 4.7,
     tags: ["Night Tour", "Photography", "Wine"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Belvedere di Piazza Giovanni Pascoli, Matera 75100, Italy",
       coordinates: {
@@ -269,7 +248,6 @@ export const materaTours: Tour[] = [
       contactNumber: "+39 0835 123458",
       contactEmail: "materanight@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -294,7 +272,6 @@ export const materaTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Witness the breathtaking illumination of the Sassi districts at twilight",
       "Learn photography techniques to capture Matera's magical night atmosphere",
@@ -302,7 +279,6 @@ export const materaTours: Tour[] = [
       "Visit a candlelit rupestrian church with remarkable acoustics",
       "Enjoy premium Basilicata wines in an atmospheric cave wine bar",
     ],
-
     inclusions: [
       "Professional guide specializing in Matera's history and photography",
       "Wine tasting featuring 3 premium local wines with regional appetizers",
@@ -310,14 +286,12 @@ export const materaTours: Tour[] = [
       "Entry to special evening-only cave viewpoint",
       "Night photography guide booklet",
     ],
-
     exclusions: [
       "Professional photography equipment (bring your own)",
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond included tasting",
       "Gratuities (optional)",
     ],
-
     itinerary: [
       "19:30 - Meet at Piazza Pascoli for twilight views and photography tips",
       "19:45 - Begin guided walk through illuminated Sassi Caveoso district",
@@ -327,7 +301,6 @@ export const materaTours: Tour[] = [
       "21:45 - Wine tasting in historic cave wine bar with local appetizers",
       "22:30 - Tour concludes with final night photography session at panoramic viewpoint",
     ],
-
     faqs: [
       {
         question: "What should I wear for the evening tour?",
@@ -342,5 +315,4 @@ export const materaTours: Tour[] = [
     ],
   },
 ];
-
 export default materaTours;

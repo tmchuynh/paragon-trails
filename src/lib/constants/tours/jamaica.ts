@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const jamaicaTours: Tour[] = [
   {
     title: "Blue Mountain Coffee & Plantation Experience",
@@ -16,7 +15,6 @@ export const jamaicaTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Coffee", "Mountains", "Cultural"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -44,7 +42,6 @@ export const jamaicaTours: Tour[] = [
           "Yes, this tour is family-friendly. Children will enjoy learning about coffee production and tasting the delicious brews. However, please note that the plantation's terrain may not be stroller-friendly, so younger children may need to be carried.",
       },
     ],
-    
   },
   {
     title: "Secret Waterfalls & Hidden Lagoons",
@@ -61,7 +58,6 @@ export const jamaicaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Waterfalls", "Swimming", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -100,7 +96,6 @@ export const jamaicaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cultural", "Spiritual", "Educational"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -144,7 +139,6 @@ export const jamaicaTours: Tour[] = [
     price: "$110",
     rating: 4.9,
     tags: ["Music", "Reggae", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -183,7 +177,6 @@ export const jamaicaTours: Tour[] = [
     price: "$89",
     rating: 4.8,
     tags: ["Natural Wonder", "Night Tour", "Swimming"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -222,7 +215,6 @@ export const jamaicaTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Cooking", "Food", "Rum"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -261,7 +253,6 @@ export const jamaicaTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["History", "Culture", "Reggae"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -286,5 +277,4 @@ export const jamaicaTours: Tour[] = [
     ],
   },
 ];
-
 export default jamaicaTours;

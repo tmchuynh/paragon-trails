@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const kualaLumpurTours: Tour[] = [
   {
     title: "Cultural Mosaic: Temples, Mosques & Traditions",
@@ -16,7 +15,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$75",
     rating: 4.8,
     tags: ["Cultural", "Religious", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -50,7 +48,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Food", "Night Markets", "Local Cuisine"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -84,7 +81,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$90",
     rating: 4.7,
     tags: ["Architecture", "History", "Photography"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -113,7 +109,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Art", "Craft", "Culture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -142,7 +137,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$95",
     rating: 4.7,
     tags: ["Nature", "Sunset"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -171,7 +165,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$70",
     rating: 4.6,
     tags: ["Nature", "Birdwatching", "Rainforest"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -205,7 +198,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$150",
     rating: 4.8,
     tags: ["Luxury", "Shopping", "High Tea"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -239,7 +231,6 @@ export const kualaLumpurTours: Tour[] = [
     price: "$80",
     rating: 4.7,
     tags: ["Nightlife", "Cultural", "City Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -259,5 +250,4 @@ export const kualaLumpurTours: Tour[] = [
     ],
   },
 ];
-
 export default kualaLumpurTours;

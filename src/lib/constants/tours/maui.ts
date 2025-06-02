@@ -21,7 +21,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-
     meetingPoint: {
       address:
         "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
@@ -34,7 +33,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0175",
       contactEmail: "roadtohana@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -68,7 +66,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Travel the famous 64-mile Road to Hana with over 600 hairpin turns and 50+ one-lane bridges",
       "Swim at exclusive waterfall pools known only to locals",
@@ -76,7 +73,6 @@ export const mauiTours: Tour[] = [
       "Explore lava tubes and bamboo forests at your own pace",
       "Enjoy a gourmet picnic lunch featuring local Hawaiian ingredients",
     ],
-
     inclusions: [
       "Private luxury vehicle with experienced local guide",
       "Gourmet picnic lunch and snacks featuring local Hawaiian ingredients",
@@ -86,7 +82,6 @@ export const mauiTours: Tour[] = [
       "Professional photography at key scenic points",
       "WiFi and charging ports in vehicle",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Alcoholic beverages",
@@ -94,7 +89,6 @@ export const mauiTours: Tour[] = [
       "Entrance fees to private gardens or attractions (if any)",
       "Travel insurance",
     ],
-
     itinerary: [
       "07:00 - Pickup at your accommodation or airport",
       "07:30 - Begin journey toward Hana with breakfast stop for famous banana bread",
@@ -109,7 +103,6 @@ export const mauiTours: Tour[] = [
       "17:30 - Optional stop at local farm for tropical fruit tasting",
       "19:00 - Return to your accommodation or airport",
     ],
-
     faqs: [
       {
         question: "Will we have time to swim at any waterfalls?",
@@ -149,7 +142,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Haleakalā Bike Company, 810 Haiku Rd, Haiku, HI 96708",
       coordinates: {
@@ -161,7 +153,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0176",
       contactEmail: "haleakalaadventure@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -198,7 +189,6 @@ export const mauiTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Witness the spectacular sunrise from 10,023 feet elevation at Haleakalā crater",
       "Experience the surreal landscape often described as 'like being on Mars'",
@@ -206,7 +196,6 @@ export const mauiTours: Tour[] = [
       "Stop at stunning viewpoints overlooking Maui's central valley and neighboring islands",
       "Learn about Hawaiian cultural significance and the unique silversword plants found nowhere else on Earth",
     ],
-
     inclusions: [
       "Pre-dawn transportation to Haleakalā summit in comfortable van",
       "National Park entrance fees",
@@ -217,7 +206,6 @@ export const mauiTours: Tour[] = [
       "Light breakfast after sunrise viewing",
       "Souvenir water bottle",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
@@ -225,7 +213,6 @@ export const mauiTours: Tour[] = [
       "Travel insurance",
       "Additional food beyond included light breakfast",
     ],
-
     itinerary: [
       "02:45 - Meet at bike company headquarters for check-in",
       "03:00 - Van departure to Haleakalā National Park",
@@ -240,7 +227,6 @@ export const mauiTours: Tour[] = [
       "11:30 - Continue downhill through pineapple country",
       "12:15 - Complete bike ride at headquarters",
     ],
-
     faqs: [
       {
         question: "How difficult is the bike ride down the volcano?",
@@ -276,7 +262,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Maui Cultural Lands, 4050 Makena Alanui, Kihei, HI 96753",
       coordinates: {
@@ -288,7 +273,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0177",
       contactEmail: "culturalimmersion@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -325,7 +309,6 @@ export const mauiTours: Tour[] = [
       "2024-02-25",
       "2024-02-27",
     ],
-
     highlights: [
       "Learn to make a traditional Hawaiian lei from fresh flowers and plants",
       "Experience the art of hula dancing and its cultural significance",
@@ -333,7 +316,6 @@ export const mauiTours: Tour[] = [
       "Participate in the preparation and cooking of an imu feast",
       "Enjoy a delicious meal featuring locally sourced ingredients",
     ],
-
     inclusions: [
       "All materials for lei making, hula, and games",
       "Traditional Hawaiian lunch with vegetarian and gluten-free options",
@@ -341,14 +323,12 @@ export const mauiTours: Tour[] = [
       "Cultural practitioner fees",
       "Transportation from central meeting point to cultural site",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Transportation from your accommodation (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "09:00 - Pickup from central Kihei location",
       "09:30 - Arrive at Maui Cultural Lands and welcome ceremony",
@@ -359,7 +339,6 @@ export const mauiTours: Tour[] = [
       "14:00 - Guided tour of the cultural site and its significance",
       "15:00 - Return to Kihei",
     ],
-
     faqs: [
       {
         question: "Is this authentic Hawaiian culture or a tourist show?",
@@ -395,7 +374,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Maalaea Harbor, 300 Maalaea Rd, Wailuku, HI 96793",
       coordinates: {
@@ -407,7 +385,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0178",
       contactEmail: "molokinisnorkel@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -441,7 +418,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Snorkel in the crystal-clear waters of Molokini Crater, a marine sanctuary",
       "See a variety of tropical fish, sea turtles, and vibrant coral reefs",
@@ -449,7 +425,6 @@ export const mauiTours: Tour[] = [
       "Learn about Maui's marine ecosystem from expert naturalist guides",
       "Small group size for a personalized experience",
     ],
-
     inclusions: [
       "Snorkeling gear: mask, snorkel, fins, and flotation devices",
       "Wet suits or rash guards for added warmth and protection",
@@ -458,14 +433,12 @@ export const mauiTours: Tour[] = [
       "Professional guide with marine biology expertise",
       "Transportation from central locations in Maui to the harbor",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "07:00 - Check-in at Maalaea Harbor",
       "07:30 - Depart for Molokini Crater",
@@ -477,7 +450,6 @@ export const mauiTours: Tour[] = [
       "13:00 - Return to Maalaea Harbor",
       "13:30 - Arrive at harbor, tour concludes",
     ],
-
     faqs: [
       {
         question: "Do I need to be a strong swimmer to enjoy this tour?",
@@ -513,7 +485,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address:
         "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
@@ -526,7 +497,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0179",
       contactEmail: "culinarytours@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -563,7 +533,6 @@ export const mauiTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Visit local farms and learn about sustainable Hawaiian agriculture",
       "Taste fresh tropical fruits, farm-fresh eggs, and locally made goat cheese",
@@ -571,7 +540,6 @@ export const mauiTours: Tour[] = [
       "Enjoy a farm-to-table meal featuring organic and locally sourced ingredients",
       "Learn to prepare traditional Hawaiian dishes with a modern twist",
     ],
-
     inclusions: [
       "All ingredients and materials for cooking class",
       "Farm visits and tastings as per itinerary",
@@ -580,14 +548,12 @@ export const mauiTours: Tour[] = [
       "Professional chef and guide fees",
       "Transportation from central locations in Maui to the farms",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "08:30 - Pickup from central location in Maui",
       "09:00 - Arrive at first farm, tour and tasting",
@@ -597,7 +563,6 @@ export const mauiTours: Tour[] = [
       "13:30 - Enjoy the meal you prepared, farm-to-table style",
       "14:30 - Return to Maui",
     ],
-
     faqs: [
       {
         question: "What dishes will we learn to prepare?",
@@ -633,7 +598,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
-
     meetingPoint: {
       address:
         "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
@@ -646,7 +610,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0180",
       contactEmail: "photographyworkshop@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -680,7 +643,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Learn photography tips and techniques from a professional photographer",
       "Capture stunning landscapes, waterfalls, and coastal views",
@@ -688,7 +650,6 @@ export const mauiTours: Tour[] = [
       "Post-processing tutorial to enhance your photos",
       "Enjoy a beautiful sunset at a scenic location",
     ],
-
     inclusions: [
       "Photography instruction and guidance from a pro photographer",
       "Transportation from central locations in Maui to photo sites",
@@ -697,14 +658,12 @@ export const mauiTours: Tour[] = [
       "Light refreshments and snacks",
       "Post-workshop photo review and editing session",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "14:00 - Meet at Kahului Airport and depart for photography locations",
       "14:30 - Arrive at first location: waterfall and rainforest area",
@@ -713,7 +672,6 @@ export const mauiTours: Tour[] = [
       "18:00 - Sunset photography session",
       "19:00 - Return to Kahului",
     ],
-
     faqs: [
       {
         question: "What locations will we photograph?",
@@ -749,7 +707,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Maliko Bay, 1000 Hana Hwy, Haiku, HI 96708",
       coordinates: {
@@ -761,7 +718,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0181",
       contactEmail: "outriggerexperience@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -795,7 +751,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Learn traditional Hawaiian navigation and paddling techniques",
       "Experience the beauty of Maui's coastline from the water",
@@ -803,28 +758,24 @@ export const mauiTours: Tour[] = [
       "Spot marine life such as sea turtles, dolphins, and seasonal whales",
       "Enjoy a cultural exchange with your Hawaiian guide",
     ],
-
     inclusions: [
       "All paddling and safety equipment",
       "Light refreshments and snacks",
       "Professional guide with expertise in Hawaiian culture and marine life",
       "Transportation from central locations in Maui to the canoe launch site",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "07:30 - Check-in at Maliko Bay",
       "08:00 - Safety briefing and paddling instruction",
       "08:30 - Begin outrigger canoe experience",
       "10:00 - Return to shore and conclude tour",
     ],
-
     faqs: [
       {
         question: "Do we actually get to paddle the canoe?",
@@ -860,7 +811,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "luxury",
-
     meetingPoint: {
       address:
         "Kahului Airport (OGG) Main Terminal, 1 Kahului Airport Rd, Kahului, HI 96732",
@@ -873,7 +823,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0182",
       contactEmail: "helicoptertours@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -907,7 +856,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Fly over the stunning landscapes of Maui, including Haleakalā National Park",
       "See hidden waterfalls and lush valleys only accessible by air",
@@ -915,28 +863,24 @@ export const mauiTours: Tour[] = [
       "Learn about Maui's geology and history from your pilot-guide",
       "Capture breathtaking aerial photos of Maui's coastline and interior",
     ],
-
     inclusions: [
       "Helicopter tour with experienced pilot-guide",
       "Noise-canceling headsets for each passenger",
       "Beverages and light snacks",
       "Transportation from central locations in Maui to the helicopter base",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "08:00 - Check-in at helicopter base near Kahului Airport",
       "08:30 - Safety briefing and tour orientation",
       "09:00 - Depart on helicopter tour of Maui",
       "11:00 - Return from helicopter tour, debrief and photo viewing",
     ],
-
     faqs: [
       {
         question: "Is seating assigned on the helicopter?",
@@ -972,7 +916,6 @@ export const mauiTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Maalaea Harbor, 300 Maalaea Rd, Wailuku, HI 96793",
       coordinates: {
@@ -984,7 +927,6 @@ export const mauiTours: Tour[] = [
       contactNumber: "+1 808-555-0183",
       contactEmail: "whalewatching@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -1018,7 +960,6 @@ export const mauiTours: Tour[] = [
       "2024-02-24",
       "2024-02-25",
     ],
-
     highlights: [
       "Learn about humpback whale behavior and migration from a marine biologist",
       "See whales breaching, tail slapping, and spouting water",
@@ -1026,21 +967,18 @@ export const mauiTours: Tour[] = [
       "Small group size for a personalized experience",
       "Contribute to marine conservation efforts through your participation",
     ],
-
     inclusions: [
       "Whale watching cruise with marine biologist guide",
       "Continental breakfast and gourmet lunch",
       "Beverages including water, juice, and soda",
       "Transportation from central locations in Maui to the harbor",
     ],
-
     exclusions: [
       "Gratuities for guide (recommended but at your discretion)",
       "Hotel pickup and drop-off (can be arranged for additional fee)",
       "Photos (available for purchase)",
       "Travel insurance",
     ],
-
     itinerary: [
       "07:00 - Check-in at Maalaea Harbor",
       "07:30 - Depart for whale watching area",
@@ -1049,7 +987,6 @@ export const mauiTours: Tour[] = [
       "10:30 - Return to Maalaea Harbor",
       "11:00 - Arrive at harbor, tour concludes",
     ],
-
     faqs: [
       {
         question: "When is the best time for whale watching in Maui?",

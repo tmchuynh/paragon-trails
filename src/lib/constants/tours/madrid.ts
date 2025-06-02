@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const madridTours: Tour[] = [
   {
     title: "Madrid Art Walk: Prado, Reina Sofía & Thyssen",
@@ -16,13 +15,11 @@ export const madridTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Art", "Museums", "Culture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Prado Museum, Calle Ruiz de Alarcón 23, Main Entrance, Madrid 28014",
@@ -35,7 +32,6 @@ export const madridTours: Tour[] = [
       contactNumber: "+34 91 123 4567",
       contactEmail: "madridart@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -75,7 +71,6 @@ export const madridTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Skip-the-line access to all three world-class museums",
       "Expert analysis of masterpieces like 'Las Meninas', 'Guernica', and 'The Garden of Earthly Delights'",
@@ -83,7 +78,6 @@ export const madridTours: Tour[] = [
       "Chronological journey through Spanish and European art history",
       "Small group size ensuring personal attention and ability to ask questions",
     ],
-
     inclusions: [
       "Professional art historian guide",
       "Skip-the-line entrance tickets to all three museums",
@@ -92,7 +86,6 @@ export const madridTours: Tour[] = [
       "Walking tour between museums through Madrid's literary quarter",
       "Coffee break between museums (includes one beverage and pastry)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Lunch (time allocated for optional meal)",
@@ -100,7 +93,6 @@ export const madridTours: Tour[] = [
       "Gratuities",
       "Museum guidebooks and souvenirs",
     ],
-
     itinerary: [
       "09:30 - Meet at Prado Museum for introduction and context",
       "09:45 - Skip-the-line entry to Prado Museum",
@@ -114,7 +106,6 @@ export const madridTours: Tour[] = [
       "15:15 - Tour of Thyssen's highlights from medieval to contemporary art",
       "16:30 - Tour conclusion with recommendations for further exploration",
     ],
-
     faqs: [
       {
         question:
@@ -149,13 +140,11 @@ export const madridTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Wine", "Tapas"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Plaza Mayor, Central Statue, Madrid 28012",
       coordinates: {
@@ -167,7 +156,6 @@ export const madridTours: Tour[] = [
       contactNumber: "+34 91 123 4568",
       contactEmail: "madridtapas@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -208,7 +196,6 @@ export const madridTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Visit 5 distinctive tapas establishments from traditional to modern",
       "Sample 10-12 different Spanish tapas representing regional specialties",
@@ -216,7 +203,6 @@ export const madridTours: Tour[] = [
       "Learn about Madrid's food culture and tapeo (tapas-hopping) tradition",
       "Discover hidden family-run establishments away from tourist routes",
     ],
-
     inclusions: [
       "Expert local foodie guide",
       "10-12 tapas tastings across multiple venues (equivalent to a full meal)",
@@ -226,14 +212,12 @@ export const madridTours: Tour[] = [
       "Food and wine pairing guide",
       "All food and drink included in price",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food or drinks beyond the included tastings",
       "Gratuities",
       "Personal shopping",
     ],
-
     itinerary: [
       "19:00 - Meet in Plaza Mayor for introduction to Spanish tapas culture",
       "19:15 - Visit first traditional tavern for classic Madrid tapas",
@@ -244,7 +228,6 @@ export const madridTours: Tour[] = [
       "22:15 - Final stop for traditional Spanish dessert and digestif",
       "23:00 - Tour concludes with recommendations for continuing your evening",
     ],
-
     faqs: [
       {
         question: "Can dietary restrictions be accommodated?",
@@ -265,5 +248,4 @@ export const madridTours: Tour[] = [
   },
   // Additional tours would follow the same pattern
 ];
-
 export default madridTours;

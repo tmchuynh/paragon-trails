@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const lehTours: Tour[] = [
   {
     title: "Monastery Circuit & Buddhist Heritage",
@@ -16,30 +15,35 @@ export const lehTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Buddhism", "Monasteries", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "spiritual",
-    
     meetingPoint: {
       address: "Shanti Stupa Main Entrance, Leh 194101, India",
       coordinates: {
         latitude: 34.1536,
         longitude: 77.5855,
       },
-      instructions: "Meet at the main entrance gate of Shanti Stupa. Your guide will be holding a sign with 'Monastery Tour' written on it.",
+      instructions:
+        "Meet at the main entrance gate of Shanti Stupa. Your guide will be holding a sign with 'Monastery Tour' written on it.",
       contactNumber: "+91 1982 252101",
       contactEmail: "monasteries@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-22", "2023-12-29", 
-      "2024-01-05", "2024-01-12", "2024-01-19", "2024-01-26",
-      "2024-02-02", "2024-02-09", "2024-02-16", "2024-02-23",
+      "2023-12-15",
+      "2023-12-22",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
     ],
-    
     highlights: [
       "Witness morning prayer ceremonies with chanting monks and traditional instruments",
       "Visit Thiksey Monastery, known as 'Mini-Potala' for its resemblance to Tibet's iconic palace",
@@ -47,7 +51,6 @@ export const lehTours: Tour[] = [
       "Gain special access to Alchi Monastery's 11th-century murals not available to regular visitors",
       "Meet and interact with Buddhist monks and learn about their daily lives",
     ],
-    
     inclusions: [
       "Professional religious scholar guide",
       "Private transportation between monasteries in comfortable vehicle",
@@ -57,7 +60,6 @@ export const lehTours: Tour[] = [
       "Morning tea with monks at one monastery",
       "Oxygen supplementation (if needed at high altitudes)",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off",
       "Personal offerings at monasteries (optional)",
@@ -65,7 +67,6 @@ export const lehTours: Tour[] = [
       "Gratuities for guide and driver",
       "Additional food and beverages beyond included meals",
     ],
-    
     itinerary: [
       "06:30 - Meet at Shanti Stupa for introduction and orientation",
       "07:00 - Drive to Thiksey Monastery for morning prayer ceremony",
@@ -80,7 +81,6 @@ export const lehTours: Tour[] = [
       "16:00 - Tea with resident monks and Q&A session about Buddhist philosophy",
       "17:00 - Return to Leh with photo stops at scenic viewpoints",
     ],
-    
     faqs: [
       {
         question: "What should I wear for monastery visits?",
@@ -109,30 +109,35 @@ export const lehTours: Tour[] = [
     price: "$275",
     rating: 4.8,
     tags: ["Adventure", "Desert", "Wildlife"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    
     meetingPoint: {
       address: "Leh Main Market, Hotel Grand Dragon Entrance, Leh 194101",
       coordinates: {
         latitude: 34.1642,
         longitude: 77.5848,
       },
-      instructions: "Meet at the entrance of Hotel Grand Dragon in Leh Main Market. Look for our expedition vehicle with 'Nubra Valley Expedition' sign.",
+      instructions:
+        "Meet at the entrance of Hotel Grand Dragon in Leh Main Market. Look for our expedition vehicle with 'Nubra Valley Expedition' sign.",
       contactNumber: "+91 1982 252102",
       contactEmail: "nubra@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-16", "2023-12-23", "2023-12-30", 
-      "2024-01-06", "2024-01-13", "2024-01-20", "2024-01-27",
-      "2024-02-03", "2024-02-10", "2024-02-17", "2024-02-24",
+      "2023-12-16",
+      "2023-12-23",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-13",
+      "2024-01-20",
+      "2024-01-27",
+      "2024-02-03",
+      "2024-02-10",
+      "2024-02-17",
+      "2024-02-24",
     ],
-    
     highlights: [
       "Cross Khardung La Pass (18,380 ft), the world's highest motorable road",
       "Ride rare double-humped Bactrian camels across the Hunder sand dunes",
@@ -140,7 +145,6 @@ export const lehTours: Tour[] = [
       "Stay in luxury desert camp with traditional Ladakhi hospitality",
       "Visit the ancient Diskit Monastery with its 32m tall Maitreya Buddha statue",
     ],
-    
     inclusions: [
       "Professional adventure guide with high-altitude expertise",
       "Private 4x4 transportation throughout the expedition",
@@ -150,7 +154,6 @@ export const lehTours: Tour[] = [
       "Bactrian camel safari with local handlers",
       "Oxygen supplementation and first aid kit",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off in Leh",
       "Personal riding equipment and specialized clothing",
@@ -158,7 +161,6 @@ export const lehTours: Tour[] = [
       "Photography fees at certain monuments",
       "Gratuities for guides, drivers and camp staff",
     ],
-    
     itinerary: [
       "Day 1: 07:00 - Meet at Leh Main Market for departure briefing",
       "Day 1: 07:30 - Begin journey to Khardung La Pass with acclimatization stops",
@@ -169,7 +171,6 @@ export const lehTours: Tour[] = [
       "Day 1: 16:00 - Arrive at Hunder sand dunes for Bactrian camel safari",
       "Day 1: 17:30 - Check in at luxury desert camp with traditional welcome",
       "Day 1: 19:00 - Authentic Ladakhi dinner with cultural performance",
-      
       "Day 2: 05:30 - Optional sunrise photography at sand dunes",
       "Day 2: 07:30 - Breakfast at camp with valley views",
       "Day 2: 08:30 - Morning exploration of Hunder village",
@@ -179,7 +180,6 @@ export const lehTours: Tour[] = [
       "Day 2: 15:00 - Cross Khardung La Pass with views of Karakoram Range",
       "Day 2: 17:30 - Return to Leh with expedition debriefing",
     ],
-    
     faqs: [
       {
         question: "How do we handle the high altitude on this trip?",
@@ -208,30 +208,35 @@ export const lehTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Lake", "Landscapes"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "art-and-music",
-    
     meetingPoint: {
       address: "Leh Market Square, Near Central Clock Tower, Leh 194101",
       coordinates: {
         latitude: 34.1635,
         longitude: 77.5841,
       },
-      instructions: "Meet at the Leh Clock Tower in the main market. Your photography guide will be carrying professional camera equipment and a Paragon Trails sign.",
+      instructions:
+        "Meet at the Leh Clock Tower in the main market. Your photography guide will be carrying professional camera equipment and a Paragon Trails sign.",
       contactNumber: "+91 1982 252103",
       contactEmail: "pangong@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-17", "2023-12-24", "2023-12-31", 
-      "2024-01-07", "2024-01-14", "2024-01-21", "2024-01-28",
-      "2024-02-04", "2024-02-11", "2024-02-18", "2024-02-25",
+      "2023-12-17",
+      "2023-12-24",
+      "2023-12-31",
+      "2024-01-07",
+      "2024-01-14",
+      "2024-01-21",
+      "2024-01-28",
+      "2024-02-04",
+      "2024-02-11",
+      "2024-02-18",
+      "2024-02-25",
     ],
-    
     highlights: [
       "Photograph the ever-changing blues of Pangong Lake at optimal light conditions",
       "Learn specialized high-altitude photography techniques from a pro photographer",
@@ -239,7 +244,6 @@ export const lehTours: Tour[] = [
       "Stay in lakeside accommodations for sunrise and sunset shots",
       "Photograph unique Himalayan wildlife including marmots and Brahminy ducks",
     ],
-    
     inclusions: [
       "Professional photography guide with Ladakh expertise",
       "Private 4x4 vehicle transportation throughout expedition",
@@ -249,7 +253,6 @@ export const lehTours: Tour[] = [
       "Photography accessories including filters and tripods if needed",
       "Digital post-processing session",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off in Leh",
       "Personal camera equipment (bring your own)",
@@ -257,7 +260,6 @@ export const lehTours: Tour[] = [
       "Alcoholic beverages",
       "Gratuities for guide and driver",
     ],
-    
     itinerary: [
       "Day 1: 05:00 - Meet at Leh Clock Tower for early departure",
       "Day 1: 05:15 - Departure for Pangong Lake via Chang La Pass",
@@ -271,7 +273,6 @@ export const lehTours: Tour[] = [
       "Day 1: 17:00 - Evening photography session capturing changing light on lake",
       "Day 1: 19:00 - Dinner and night photography briefing",
       "Day 1: 20:30 - Optional night sky photography session (weather permitting)",
-      
       "Day 2: 05:00 - Pre-dawn positioning for sunrise photography",
       "Day 2: 05:45 - Capture sunrise over Pangong Lake",
       "Day 2: 07:30 - Breakfast at camp while reviewing morning shots",
@@ -282,7 +283,6 @@ export const lehTours: Tour[] = [
       "Day 2: 17:30 - Return to Leh with final photo stops at sunset",
       "Day 2: 19:00 - Photography review session in Leh",
     ],
-    
     faqs: [
       {
         question: "What camera equipment should I bring?",
@@ -311,30 +311,35 @@ export const lehTours: Tour[] = [
     price: "$225",
     rating: 4.7,
     tags: ["Rafting", "Adventure", "Camping"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    
     meetingPoint: {
       address: "Rafting Base Camp, Phey Village, 15km from Leh",
       coordinates: {
         latitude: 34.1413,
         longitude: 77.6655,
       },
-      instructions: "Meet at the Rafting Base Camp in Phey Village. Transport from Leh can be arranged for additional fee. Look for the blue rafting tents and equipment area.",
+      instructions:
+        "Meet at the Rafting Base Camp in Phey Village. Transport from Leh can be arranged for additional fee. Look for the blue rafting tents and equipment area.",
       contactNumber: "+91 1982 252104",
       contactEmail: "rafting@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-16", "2023-12-23", "2023-12-30", 
-      "2024-01-06", "2024-01-13", "2024-01-20", "2024-01-27",
-      "2024-02-03", "2024-02-10", "2024-02-17", "2024-02-24",
+      "2023-12-16",
+      "2023-12-23",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-13",
+      "2024-01-20",
+      "2024-01-27",
+      "2024-02-03",
+      "2024-02-10",
+      "2024-02-17",
+      "2024-02-24",
     ],
-    
     highlights: [
       "Navigate Class III-IV rapids on the pristine Zanskar River",
       "Raft through spectacular deep gorges with 1000-foot walls",
@@ -342,7 +347,6 @@ export const lehTours: Tour[] = [
       "Spot rare wildlife including blue sheep and golden eagles",
       "Experience traditional riverside cooking and camping",
     ],
-    
     inclusions: [
       "Professional internationally certified rafting guides",
       "All rafting and safety equipment (rafts, paddles, helmets, life jackets)",
@@ -352,7 +356,6 @@ export const lehTours: Tour[] = [
       "Comprehensive safety briefing and basic paddling instruction",
       "First aid supplies and emergency communication device",
     ],
-    
     exclusions: [
       "Transportation to/from rafting base camp (can be arranged)",
       "Personal clothing and toiletries",
@@ -361,7 +364,6 @@ export const lehTours: Tour[] = [
       "Gratuities for guides",
       "Personal travel insurance",
     ],
-    
     itinerary: [
       "Day 1: 08:30 - Meet at Phey Rafting Base Camp for registration",
       "Day 1: 09:00 - Safety briefing and introduction to rafting equipment",
@@ -374,7 +376,6 @@ export const lehTours: Tour[] = [
       "Day 1: 17:30 - Arrive at riverside camp and set up tents",
       "Day 1: 19:00 - Traditional dinner prepared over campfire",
       "Day 1: 20:00 - Stargazing and stories around the campfire",
-      
       "Day 2: 07:00 - Breakfast at camp with riverside views",
       "Day 2: 08:30 - Break camp and prepare for day's rafting",
       "Day 2: 09:00 - Navigate the most challenging section with Class III-IV rapids",
@@ -385,7 +386,6 @@ export const lehTours: Tour[] = [
       "Day 2: 16:30 - Return to base camp with equipment",
       "Day 2: 17:30 - Certificate ceremony and expedition conclusion",
     ],
-    
     faqs: [
       {
         question: "Do I need previous rafting experience?",
@@ -414,30 +414,36 @@ export const lehTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Meditation", "Spiritual", "Wellness"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "spiritual",
-    
     meetingPoint: {
-      address: "Mahabodhi International Meditation Centre, Devachan, Leh 194104",
+      address:
+        "Mahabodhi International Meditation Centre, Devachan, Leh 194104",
       coordinates: {
         latitude: 34.1528,
         longitude: 77.5659,
       },
-      instructions: "Meet at the main entrance gate of the Mahabodhi Meditation Centre. Look for the welcome desk with the retreat sign.",
+      instructions:
+        "Meet at the main entrance gate of the Mahabodhi Meditation Centre. Look for the welcome desk with the retreat sign.",
       contactNumber: "+91 1982 252105",
       contactEmail: "meditation@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-22", "2023-12-29", 
-      "2024-01-05", "2024-01-12", "2024-01-19", "2024-01-26",
-      "2024-02-02", "2024-02-09", "2024-02-16", "2024-02-23",
+      "2023-12-15",
+      "2023-12-22",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
     ],
-    
     highlights: [
       "Learn authentic meditation techniques from Tibetan Buddhist masters",
       "Practice in serene monastery settings with panoramic Himalayan views",
@@ -445,7 +451,6 @@ export const lehTours: Tour[] = [
       "Experience traditional Buddhist rituals and ceremonies",
       "Connect with like-minded practitioners in a supportive environment",
     ],
-    
     inclusions: [
       "Expert meditation instructors and Buddhist scholars",
       "All meditation sessions and workshops",
@@ -455,7 +460,6 @@ export const lehTours: Tour[] = [
       "Meditation cushions and materials",
       "Certificate of completion",
     ],
-    
     exclusions: [
       "Transportation to/from retreat center",
       "Personal items and toiletries",
@@ -463,7 +467,6 @@ export const lehTours: Tour[] = [
       "Optional private sessions with masters (available at extra cost)",
       "Gratuities for retreat staff and teachers",
     ],
-    
     itinerary: [
       "Day 1: 09:00 - Arrival and welcome at meditation center",
       "Day 1: 09:30 - Orientation and introduction to retreat program",
@@ -475,7 +478,6 @@ export const lehTours: Tour[] = [
       "Day 1: 18:00 - Return to center for evening meal",
       "Day 1: 19:30 - Gentle yoga session for meditation preparation",
       "Day 1: 21:00 - Evening meditation and day closure",
-      
       "Day 2: 06:00 - Morning sunrise meditation session",
       "Day 2: 07:30 - Light breakfast and tea",
       "Day 2: 09:00 - Advanced meditation techniques workshop",
@@ -485,7 +487,6 @@ export const lehTours: Tour[] = [
       "Day 2: 16:00 - Sound healing session with Tibetan singing bowls",
       "Day 2: 18:00 - Evening meal at center",
       "Day 2: 19:30 - Special teaching by visiting Buddhist master",
-      
       "Day 3: 05:30 - Pre-dawn meditation with mantra practice",
       "Day 3: 07:00 - Light breakfast and personal reflection time",
       "Day 3: 08:30 - Final meditation instruction session",
@@ -493,7 +494,6 @@ export const lehTours: Tour[] = [
       "Day 3: 12:00 - Closing circle and certificate presentation",
       "Day 3: 13:00 - Farewell lunch and departure",
     ],
-    
     faqs: [
       {
         question: "Is this retreat suitable for meditation beginners?",
@@ -522,30 +522,35 @@ export const lehTours: Tour[] = [
     price: "$125",
     rating: 4.7,
     tags: ["Royal History", "Heritage", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "historical",
-    
     meetingPoint: {
       address: "Leh Palace Main Entrance, Leh 194101",
       coordinates: {
         latitude: 34.1664,
         longitude: 77.5832,
       },
-      instructions: "Meet at the main entrance of Leh Palace. Your guide will be wearing traditional Ladakhi royal attire and holding a scroll with the royal insignia.",
+      instructions:
+        "Meet at the main entrance of Leh Palace. Your guide will be wearing traditional Ladakhi royal attire and holding a scroll with the royal insignia.",
       contactNumber: "+91 1982 252106",
       contactEmail: "royalheritage@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-18", "2023-12-25", 
-      "2024-01-01", "2024-01-08", "2024-01-15", "2024-01-22", "2024-01-29",
-      "2024-02-05", "2024-02-12", "2024-02-19", "2024-02-26",
+      "2023-12-18",
+      "2023-12-25",
+      "2024-01-01",
+      "2024-01-08",
+      "2024-01-15",
+      "2024-01-22",
+      "2024-01-29",
+      "2024-02-05",
+      "2024-02-12",
+      "2024-02-19",
+      "2024-02-26",
     ],
-    
     highlights: [
       "Private tour of Stok Palace including royal quarters not open to the public",
       "Visit the royal treasury with crown jewels and ancient artifacts",
@@ -553,7 +558,6 @@ export const lehTours: Tour[] = [
       "Explore Leh Palace with its magnificent 9-story architecture",
       "View rare royal thangkas, weapons, and historical documents",
     ],
-    
     inclusions: [
       "Expert royal historian guide",
       "Private transportation between palaces",
@@ -563,14 +567,12 @@ export const lehTours: Tour[] = [
       "Royal heritage guidebook",
       "Permission for photography in restricted areas",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off",
       "Special ceremonies or performances (available on request)",
       "Personal purchases of royal handicrafts or souvenirs",
       "Gratuities for guide and royal staff",
     ],
-    
     itinerary: [
       "09:00 - Meet at Leh Palace for introduction to Ladakh's royal history",
       "09:30 - Guided tour of Leh Palace's nine stories",
@@ -585,7 +587,6 @@ export const lehTours: Tour[] = [
       "17:00 - View special exhibition of royal artifacts",
       "17:30 - Return to Leh with farewell at Leh Palace viewpoint",
     ],
-    
     faqs: [
       {
         question: "What royal sites will we visit?",
@@ -609,30 +610,35 @@ export const lehTours: Tour[] = [
     price: "$110",
     rating: 4.8,
     tags: ["Silk Road", "History", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "historical",
-    
     meetingPoint: {
       address: "Central Asian Museum, Main Bazaar Road, Leh 194101",
       coordinates: {
         latitude: 34.1647,
         longitude: 77.5845,
       },
-      instructions: "Meet outside the Central Asian Museum in Leh Main Bazaar. Your guide will be dressed as a traditional caravan trader with historical trade items.",
+      instructions:
+        "Meet outside the Central Asian Museum in Leh Main Bazaar. Your guide will be dressed as a traditional caravan trader with historical trade items.",
       contactNumber: "+91 1982 252107",
       contactEmail: "silkroad@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-19", "2023-12-26", 
-      "2024-01-02", "2024-01-09", "2024-01-16", "2024-01-23", "2024-01-30",
-      "2024-02-06", "2024-02-13", "2024-02-20", "2024-02-27",
+      "2023-12-19",
+      "2023-12-26",
+      "2024-01-02",
+      "2024-01-09",
+      "2024-01-16",
+      "2024-01-23",
+      "2024-01-30",
+      "2024-02-06",
+      "2024-02-13",
+      "2024-02-20",
+      "2024-02-27",
     ],
-    
     highlights: [
       "Walk historic caravan routes used by Silk Road traders for centuries",
       "Visit the Central Asian Museum with its collection of ancient trade artifacts",
@@ -640,7 +646,6 @@ export const lehTours: Tour[] = [
       "Meet families who maintain traditional crafts influenced by Silk Road trade",
       "Learn about the exchange of ideas, religions, and technologies along trade routes",
     ],
-    
     inclusions: [
       "Expert historian guide specialized in Silk Road history",
       "Transportation to remote trade route sites",
@@ -650,14 +655,12 @@ export const lehTours: Tour[] = [
       "Tea ceremony with Central Asian spices",
       "Small handicraft demonstration",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off",
       "Specialty craft purchases and souvenirs",
       "Personal expenses during village visits",
       "Gratuities for guide and local craftspeople",
     ],
-    
     itinerary: [
       "09:00 - Meet at Central Asian Museum for introduction to Silk Road history",
       "09:30 - Guided tour of the museum's trade artifacts and historical maps",
@@ -671,7 +674,6 @@ export const lehTours: Tour[] = [
       "16:15 - Demonstration of traditional navigation and caravan organization",
       "17:00 - Return to Leh with final discussion at historic trading point",
     ],
-    
     faqs: [
       {
         question: "What historical sites will we see?",
@@ -686,5 +688,4 @@ export const lehTours: Tour[] = [
     ],
   },
 ];
-
 export default lehTours;

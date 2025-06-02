@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const honoluluTours: Tour[] = [
   {
     title: "Pearl Harbor Historic Sites Tour",
@@ -16,13 +15,11 @@ export const honoluluTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Historical", "Pearl Harbor", "World War II"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Aloha Landing Hotel, 1777 Ala Moana Blvd, Honolulu, HI 96815",
       coordinates: {
@@ -34,7 +31,6 @@ export const honoluluTours: Tour[] = [
       contactNumber: "+1 808-555-1234",
       contactEmail: "pearlharbor@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -58,7 +54,6 @@ export const honoluluTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Visit the solemn USS Arizona Memorial with guaranteed tickets",
       "Tour the legendary USS Missouri Battleship where WWII officially ended",
@@ -66,7 +61,6 @@ export const honoluluTours: Tour[] = [
       "Learn from expert guides with deep knowledge of Pacific War history",
       "See the USS Oklahoma Memorial and USS Bowfin Submarine",
     ],
-
     inclusions: [
       "Round-trip transportation from Waikiki hotels",
       "Skip-the-line reserved tickets to USS Arizona Memorial",
@@ -76,7 +70,6 @@ export const honoluluTours: Tour[] = [
       "Bottled water on air-conditioned vehicle",
       "Small-group experience (maximum 14 guests)",
     ],
-
     exclusions: [
       "Food and beverages (available for purchase at visitor center)",
       "Optional audio guides at certain sites ($7-10 if desired)",
@@ -84,7 +77,6 @@ export const honoluluTours: Tour[] = [
       "Souvenirs and personal expenses",
       "USS Bowfin Submarine tickets (optional add-on)",
     ],
-
     itinerary: [
       "07:30 - Hotel pickup from Waikiki hotels",
       "08:15 - Arrive at Pearl Harbor Visitor Center for orientation",
@@ -99,7 +91,6 @@ export const honoluluTours: Tour[] = [
       "14:30 - Return transfer to Waikiki hotels",
       "15:00 - Tour concludes with hotel drop-off",
     ],
-
     faqs: [
       {
         question: "Is a photo ID required for this tour?",
@@ -134,13 +125,11 @@ export const honoluluTours: Tour[] = [
     price: "$65",
     rating: 4.9,
     tags: ["Hiking", "Sunrise", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address:
         "Diamond Head State Monument, Diamond Head Road, Honolulu, HI 96815",
@@ -153,7 +142,6 @@ export const honoluluTours: Tour[] = [
       contactNumber: "+1 808-555-2345",
       contactEmail: "diamondhead@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-16",
@@ -179,7 +167,6 @@ export const honoluluTours: Tour[] = [
       "2024-02-23",
       "2024-02-24",
     ],
-
     highlights: [
       "Experience the magic of sunrise from one of Hawaii's most iconic landmarks",
       "Hike the 0.8-mile trail to the 760-foot summit with an expert guide",
@@ -187,7 +174,6 @@ export const honoluluTours: Tour[] = [
       "Identify native Hawaiian plants and birds along the trail",
       "Enjoy spectacular 360° views of Waikiki Beach, the Pacific Ocean, and Honolulu",
     ],
-
     inclusions: [
       "Early morning hotel pickup from Waikiki hotels",
       "Diamond Head State Monument entrance fee",
@@ -197,7 +183,6 @@ export const honoluluTours: Tour[] = [
       "Souvenir digital photos of your experience",
       "Return transportation to hotels after hike",
     ],
-
     exclusions: [
       "Hiking poles (available to rent for $5)",
       "Additional food beyond breakfast provided",
@@ -205,7 +190,6 @@ export const honoluluTours: Tour[] = [
       "Specialized photography equipment",
       "Personal hiking gear",
     ],
-
     itinerary: [
       "05:00 - Waikiki hotel pickup (time varies by season)",
       "05:30 - Arrival at Diamond Head State Monument",
@@ -219,7 +203,6 @@ export const honoluluTours: Tour[] = [
       "08:45 - Return transportation to Waikiki hotels",
       "09:00 - Tour concludes with hotel drop-off",
     ],
-
     faqs: [
       {
         question: "How difficult is the Diamond Head hike?",
@@ -253,13 +236,11 @@ export const honoluluTours: Tour[] = [
     price: "$135",
     rating: 4.7,
     tags: ["Beach", "Coastal", "Rural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "beach",
-
     meetingPoint: {
       address:
         "Waikiki Beach Marriott Resort, 2552 Kalākaua Ave, Honolulu, HI 96815",
@@ -272,7 +253,6 @@ export const honoluluTours: Tour[] = [
       contactNumber: "+1 808-555-3456",
       contactEmail: "northshore@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-18",
@@ -287,7 +267,6 @@ export const honoluluTours: Tour[] = [
       "2024-02-15",
       "2024-02-22",
     ],
-
     highlights: [
       "Visit legendary surf spots including Pipeline, Sunset Beach, and Waimea Bay",
       "Explore historic Haleiwa Town with its galleries, shops, and eateries",
@@ -295,7 +274,6 @@ export const honoluluTours: Tour[] = [
       "Sample authentic Hawaiian shave ice at Matsumoto's",
       "Optional snorkeling at Shark's Cove (summer months only)",
     ],
-
     inclusions: [
       "Round-trip transportation from Waikiki hotels",
       "Professional local guide with North Shore expertise",
@@ -305,7 +283,6 @@ export const honoluluTours: Tour[] = [
       "Bottled water and local snacks",
       "Beach amenities including towels and mats",
     ],
-
     exclusions: [
       "Additional food and beverages beyond those mentioned",
       "Optional activities like surf lessons or paddleboarding",
@@ -313,7 +290,6 @@ export const honoluluTours: Tour[] = [
       "Personal souvenirs and shopping purchases",
       "Waterproof camera (available for rent - $20)",
     ],
-
     itinerary: [
       "08:00 - Pickup from Waikiki hotels",
       "09:00 - Scenic drive to North Shore with coastal views",
@@ -329,7 +305,6 @@ export const honoluluTours: Tour[] = [
       "16:30 - Stop at Dole Plantation (optional)",
       "17:30 - Return to Waikiki hotels",
     ],
-
     faqs: [
       {
         question: "Will we definitely see sea turtles?",
@@ -363,13 +338,11 @@ export const honoluluTours: Tour[] = [
     price: "$155",
     rating: 4.9,
     tags: ["Cultural", "Luau", "Immersive"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Hawaii Cultural Center, 2563 Kuakini Street, Honolulu, HI 96819",
@@ -382,7 +355,6 @@ export const honoluluTours: Tour[] = [
       contactNumber: "+1 808-555-4567",
       contactEmail: "culturaltour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -396,7 +368,6 @@ export const honoluluTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Participate in hands-on workshops for lei making, hula dancing, and ukulele",
       "Learn about Hawaiian history and cultural practices from Native Hawaiian cultural practitioners",
@@ -404,7 +375,6 @@ export const honoluluTours: Tour[] = [
       "Experience a traditional Hawaiian luau feast with local families",
       "Witness the ceremonial unearthing of kalua pig from an underground imu oven",
     ],
-
     inclusions: [
       "Hotel pickup and drop-off from Waikiki area",
       "Materials for all cultural workshops and activities",
@@ -414,7 +384,6 @@ export const honoluluTours: Tour[] = [
       "Cultural guide booklet about Hawaiian traditions",
       "Small group experience (maximum 16 participants)",
     ],
-
     exclusions: [
       "Alcoholic beverages (available for purchase)",
       "Additional crafts beyond the included workshops",
@@ -422,7 +391,6 @@ export const honoluluTours: Tour[] = [
       "Gratuities for cultural practitioners and staff",
       "Transportation outside of scheduled pickup areas",
     ],
-
     itinerary: [
       "15:00 - Pickup from Waikiki hotels",
       "15:30 - Arrival at Hawaii Cultural Center with traditional welcome",
@@ -437,7 +405,6 @@ export const honoluluTours: Tour[] = [
       "20:15 - Ukulele mini-lesson and group sing-along",
       "21:00 - Return transportation to Waikiki hotels",
     ],
-
     faqs: [
       {
         question: "How is this luau different from others in Waikiki?",
@@ -457,5 +424,4 @@ export const honoluluTours: Tour[] = [
     ],
   },
 ];
-
 export default honoluluTours;

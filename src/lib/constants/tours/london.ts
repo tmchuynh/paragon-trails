@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const londonTours: Tour[] = [
   {
     title: "Hidden London Underground & Wartime Secrets",
@@ -130,7 +129,7 @@ export const londonTours: Tour[] = [
       instructions:
         "Meet outside Green Park Station, near the entrance to the park. Your guide will be holding a sign with 'Royal London Tour' written on it.",
       contactNumber: "+44 20 7946 0958",
-    } 
+    },
   },
   {
     title: "London's Hidden Gardens & Secret Parks",
@@ -192,7 +191,7 @@ export const londonTours: Tour[] = [
     meetingPoint: {
       address: "Barbican Conservatory, Silk Street, London",
       coordinates: {
-        latitude: 51.5200,
+        latitude: 51.52,
         longitude: -0.0922,
       },
       instructions:
@@ -364,8 +363,7 @@ export const londonTours: Tour[] = [
     faqs: [
       {
         question: "Is this tour suitable for non-drinkers?",
-        answer:
-          "Yes, non-alcoholic options are available at all venues.",
+        answer: "Yes, non-alcoholic options are available at all venues.",
       },
       {
         question: "What should I wear?",
@@ -401,7 +399,6 @@ export const londonTours: Tour[] = [
         "Meet outside the first historic pub in Covent Garden. Your guide will be holding a sign with 'Historic Pubs Tour' written on it.",
       contactNumber: "+44 20 7946 0958",
     },
-  }
+  },
 ];
-
 export default londonTours;

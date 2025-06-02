@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const lasVegasTours: Tour[] = [
   {
     title: "VIP Nightclub & Entertainment Tour",
@@ -17,30 +16,47 @@ export const lasVegasTours: Tour[] = [
     price: "$149",
     rating: 4.7,
     tags: ["Nightlife", "VIP", "Entertainment"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "luxury",
-    
     meetingPoint: {
-      address: "Aria Hotel and Casino, Main Lobby, 3730 S Las Vegas Blvd, Las Vegas, NV 89158",
+      address:
+        "Aria Hotel and Casino, Main Lobby, 3730 S Las Vegas Blvd, Las Vegas, NV 89158",
       coordinates: {
         latitude: 36.1072,
         longitude: -115.1728,
       },
-      instructions: "Meet in the main lobby of Aria Resort, near the front desk. Your VIP host will be holding an illuminated sign with 'Paragon VIP' displayed.",
+      instructions:
+        "Meet in the main lobby of Aria Resort, near the front desk. Your VIP host will be holding an illuminated sign with 'Paragon VIP' displayed.",
       contactNumber: "+1 702-555-0100",
       contactEmail: "vegasvip@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-22", "2023-12-23", "2023-12-29", "2023-12-30", 
-      "2024-01-05", "2024-01-06", "2024-01-12", "2024-01-13", "2024-01-19", "2024-01-20", "2024-01-26", "2024-01-27",
-      "2024-02-02", "2024-02-03", "2024-02-09", "2024-02-10", "2024-02-16", "2024-02-17", "2024-02-23", "2024-02-24",
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-29",
+      "2023-12-30",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-23",
+      "2024-02-24",
     ],
-    
     highlights: [
       "Experience priority entry at three of Las Vegas' most exclusive nightclubs",
       "Enjoy complimentary welcome drinks at each venue",
@@ -48,7 +64,6 @@ export const lasVegasTours: Tour[] = [
       "Travel between venues in luxury transportation with complimentary champagne",
       "Benefit from personal introductions to club managers and staff",
     ],
-    
     inclusions: [
       "VIP host and nightlife expert throughout the evening",
       "Skip-the-line entry to all venues (minimum 3 premium clubs/lounges)",
@@ -58,7 +73,6 @@ export const lasVegasTours: Tour[] = [
       "Professional photos at one venue",
       "Complimentary champagne in transportation",
     ],
-    
     exclusions: [
       "Additional drinks beyond welcome cocktails",
       "Food at venues (available for purchase)",
@@ -66,7 +80,6 @@ export const lasVegasTours: Tour[] = [
       "Gratuities for host and drivers (recommended)",
       "Personal expenses and purchases",
     ],
-    
     itinerary: [
       "21:30 - Meet VIP host at Aria Hotel lobby for tour introduction",
       "22:00 - Priority entry to first exclusive nightclub with welcome cocktails",
@@ -77,7 +90,6 @@ export const lasVegasTours: Tour[] = [
       "01:00 - Access to exclusive VIP area with bottle service (optional add-on)",
       "02:30 - Tour concludes (option to remain at final venue)",
     ],
-    
     faqs: [
       {
         question: "Is there a dress code?",
@@ -102,32 +114,62 @@ export const lasVegasTours: Tour[] = [
     price: "$399",
     rating: 4.9,
     tags: ["Helicopter", "Grand Canyon", "Adventure"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    
     meetingPoint: {
-      address: "Las Vegas Helicopter Terminal, 5596 Paradise Rd, Las Vegas, NV 89119",
+      address:
+        "Las Vegas Helicopter Terminal, 5596 Paradise Rd, Las Vegas, NV 89119",
       coordinates: {
         latitude: 36.1161,
         longitude: -115.1532,
       },
-      instructions: "Check in at the Las Vegas Helicopter Terminal. Complimentary shuttle service is available from most Strip and Downtown hotels (must be arranged 24 hours in advance).",
+      instructions:
+        "Check in at the Las Vegas Helicopter Terminal. Complimentary shuttle service is available from most Strip and Downtown hotels (must be arranged 24 hours in advance).",
       contactNumber: "+1 702-555-0200",
       contactEmail: "helicopter@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", 
-      "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-08", "2024-01-09", "2024-01-10",
-      "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-15", "2024-01-16", "2024-01-17",
-      "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-22", "2024-01-23", "2024-01-24",
-      "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-29", "2024-01-30", "2024-01-31",
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-08",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-15",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-22",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-29",
+      "2024-01-30",
+      "2024-01-31",
     ],
-    
     highlights: [
       "Soar over the majestic Hoover Dam and Lake Mead in a state-of-the-art helicopter",
       "Fly through the Grand Canyon with spectacular aerial views",
@@ -135,7 +177,6 @@ export const lasVegasTours: Tour[] = [
       "Enjoy a champagne picnic lunch with Grand Canyon vistas",
       "Experience aerial views of the Las Vegas Strip on return flight",
     ],
-    
     inclusions: [
       "Round-trip helicopter flight in ECO-Star helicopter with panoramic windows",
       "Experienced pilot with live narration through noise-canceling headsets",
@@ -145,7 +186,6 @@ export const lasVegasTours: Tour[] = [
       "All taxes and fees",
       "Souvenir photo",
     ],
-    
     exclusions: [
       "Gratuities for pilot and ground staff (recommended)",
       "Hotel pickup and drop-off (unless arranged in advance)",
@@ -153,7 +193,6 @@ export const lasVegasTours: Tour[] = [
       "Personal expenses",
       "Optional extended canyon landing time (available for additional fee)",
     ],
-    
     itinerary: [
       "07:30 - Check-in at helicopter terminal (afternoon departures also available)",
       "08:00 - Safety briefing and helicopter orientation",
@@ -168,7 +207,6 @@ export const lasVegasTours: Tour[] = [
       "11:15 - Fly over Las Vegas Strip with iconic views",
       "11:30 - Return to helicopter terminal",
     ],
-    
     faqs: [
       {
         question: "Are there weight restrictions for the helicopter?",
@@ -193,30 +231,47 @@ export const lasVegasTours: Tour[] = [
     price: "$295",
     rating: 4.8,
     tags: ["Culinary", "Fine Dining", "Luxury"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "culinary",
-    
     meetingPoint: {
-      address: "The Venetian Resort, Grand Canal Shoppes Entrance, 3355 S Las Vegas Blvd, Las Vegas, NV 89109",
+      address:
+        "The Venetian Resort, Grand Canal Shoppes Entrance, 3355 S Las Vegas Blvd, Las Vegas, NV 89109",
       coordinates: {
-        latitude: 36.1220,
+        latitude: 36.122,
         longitude: -115.1696,
       },
-      instructions: "Meet at the indoor gondola boarding area inside the Grand Canal Shoppes at The Venetian. Your culinary guide will be holding a sign with a gold fork and knife logo.",
+      instructions:
+        "Meet at the indoor gondola boarding area inside the Grand Canal Shoppes at The Venetian. Your culinary guide will be holding a sign with a gold fork and knife logo.",
       contactNumber: "+1 702-555-0300",
       contactEmail: "culinarytour@paragontrails.com",
     },
-    
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-22", "2023-12-23", "2023-12-29", "2023-12-30", 
-      "2024-01-05", "2024-01-06", "2024-01-12", "2024-01-13", "2024-01-19", "2024-01-20", "2024-01-26", "2024-01-27",
-      "2024-02-02", "2024-02-03", "2024-02-09", "2024-02-10", "2024-02-16", "2024-02-17", "2024-02-23", "2024-02-24",
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-29",
+      "2023-12-30",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-23",
+      "2024-02-24",
     ],
-    
     highlights: [
       "Experience signature dishes at three different celebrity chef restaurants",
       "Enjoy behind-the-scenes kitchen tours not available to regular diners",
@@ -224,7 +279,6 @@ export const lasVegasTours: Tour[] = [
       "Learn about each chef's culinary philosophy and techniques",
       "Receive VIP treatment with premium seating and personalized service",
     ],
-    
     inclusions: [
       "Professional culinary guide with insider knowledge",
       "Reserved seating at all restaurants",
@@ -234,14 +288,12 @@ export const lasVegasTours: Tour[] = [
       "Signed cookbook from one featured chef",
       "Transportation between venues in luxury vehicle",
     ],
-    
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional alcoholic beverages beyond included pairings",
       "Gratuities for restaurant staff and guide (recommended)",
       "Personal purchases and souvenirs",
     ],
-    
     itinerary: [
       "17:00 - Meet at The Venetian for tour introduction and first restaurant",
       "17:15 - First restaurant experience with appetizer courses and kitchen tour",
@@ -252,7 +304,6 @@ export const lasVegasTours: Tour[] = [
       "21:30 - Culinary Q&A session with executive pastry chef (subject to availability)",
       "22:00 - Tour concludes with cookbook signing and farewell",
     ],
-    
     faqs: [
       {
         question: "Can dietary restrictions be accommodated?",
@@ -282,7 +333,6 @@ export const lasVegasTours: Tour[] = [
     price: "$89",
     rating: 4.6,
     tags: ["Museum", "History", "Educational"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -317,7 +367,6 @@ export const lasVegasTours: Tour[] = [
     price: "$125",
     rating: 4.9,
     tags: ["Hiking", "Nature", "Desert"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -352,7 +401,6 @@ export const lasVegasTours: Tour[] = [
     price: "$129",
     rating: 4.8,
     tags: ["Nightlife", "History", "Cocktails"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -387,7 +435,6 @@ export const lasVegasTours: Tour[] = [
     price: "$349",
     rating: 4.9,
     tags: ["Photography", "Aerial", "Nighttime"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -422,7 +469,6 @@ export const lasVegasTours: Tour[] = [
     price: "$325",
     rating: 4.8,
     tags: ["Grand Canyon", "Native American", "Scenic"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -458,7 +504,6 @@ export const lasVegasTours: Tour[] = [
     price: "$155",
     rating: 4.7,
     tags: ["Entertainment", "Backstage", "Production"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -493,7 +538,6 @@ export const lasVegasTours: Tour[] = [
     price: "$185",
     rating: 4.9,
     tags: ["Photography", "Nature", "Landscapes"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -528,7 +572,6 @@ export const lasVegasTours: Tour[] = [
     price: "$179",
     rating: 4.5,
     tags: ["Unusual", "Area 51", "Off the Grid"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -563,7 +606,6 @@ export const lasVegasTours: Tour[] = [
     price: "$119",
     rating: 4.7,
     tags: ["Neon", "Art", "History"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -598,7 +640,6 @@ export const lasVegasTours: Tour[] = [
     price: "$499",
     rating: 5.0,
     tags: ["Romance", "Wedding", "Celebration"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -633,7 +674,6 @@ export const lasVegasTours: Tour[] = [
     price: "$250",
     rating: 4.6,
     tags: ["Casino", "Gambling", "Luxury"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -668,7 +708,6 @@ export const lasVegasTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Engineering", "History", "Architecture"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -703,7 +742,6 @@ export const lasVegasTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["National Park", "Desert", "Geology"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -723,5 +761,4 @@ export const lasVegasTours: Tour[] = [
     ],
   },
 ];
-
 export default lasVegasTours;

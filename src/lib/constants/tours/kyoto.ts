@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const kyotoTours: Tour[] = [
   {
     title: "Fushimi Inari After Hours & Geisha District",
@@ -16,13 +15,11 @@ export const kyotoTours: Tour[] = [
     price: "$120",
     rating: 5.0,
     tags: ["Shrines", "Cultural", "Evening"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Fushimi Inari Shrine Main Gate, 68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto 612-0882",
@@ -35,7 +32,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4567",
       contactEmail: "kyoto@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -76,7 +72,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Walk through thousands of vermilion torii gates at magical twilight hours",
       "Climb to sacred viewing points seldom visited by tourists",
@@ -84,7 +79,6 @@ export const kyotoTours: Tour[] = [
       "Stroll through Gion's preserved wooden machiya townhouses at dusk",
       "Discover hidden geisha teahouses and learn about authentic geisha culture",
     ],
-
     inclusions: [
       "Professional English-speaking cultural guide",
       "Public transportation between Fushimi Inari and Gion",
@@ -93,7 +87,6 @@ export const kyotoTours: Tour[] = [
       "Geisha district etiquette guide",
       "Evening tea ceremony observation (when available)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Dinner (optional recommendations provided)",
@@ -101,7 +94,6 @@ export const kyotoTours: Tour[] = [
       "Gratuities (not customary in Japan)",
       "Professional photography of geisha (if encountered)",
     ],
-
     itinerary: [
       "16:00 - Meet at Fushimi Inari main gate for shrine introduction",
       "16:15 - Begin ascent through the vermilion torii gate corridors",
@@ -114,7 +106,6 @@ export const kyotoTours: Tour[] = [
       "20:00 - Continue exploration of geisha districts of Pontocho and Miyagawacho",
       "20:30 - Tour concludes at Gion Corner with recommendations for dinner",
     ],
-
     faqs: [
       {
         question: "Will we see geisha during the tour?",
@@ -143,13 +134,11 @@ export const kyotoTours: Tour[] = [
     price: "$95",
     rating: 4.9,
     tags: ["Cultural", "Zen", "Traditional"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "spiritual",
-
     meetingPoint: {
       address:
         "Camellia Tea Ceremony House, 358-5 Masuyacho, Higashiyama Ward, Kyoto 605-0826",
@@ -162,7 +151,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4568",
       contactEmail: "teaceremony@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -203,7 +191,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-27",
       "2024-02-29",
     ],
-
     highlights: [
       "Participate in an authentic Japanese tea ceremony with a certified tea master",
       "Learn the proper rituals and symbolic meanings of each tea ceremony movement",
@@ -211,7 +198,6 @@ export const kyotoTours: Tour[] = [
       "Explore meticulously designed Zen rock and moss gardens",
       "Discover the philosophical principles behind Japanese garden design",
     ],
-
     inclusions: [
       "Traditional tea ceremony experience with tea and Japanese sweets",
       "Tea ceremony guidebook with illustrated instructions",
@@ -220,7 +206,6 @@ export const kyotoTours: Tour[] = [
       "Guided meditation session at a Zen temple",
       "Transportation between tea house and gardens",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and beverages",
@@ -228,7 +213,6 @@ export const kyotoTours: Tour[] = [
       "Optional kimono rental for ceremony (available at additional cost)",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "09:00 - Meet at Camellia Tea House for introduction",
       "09:15 - Change into traditional tabi socks and prepare for ceremony",
@@ -241,7 +225,6 @@ export const kyotoTours: Tour[] = [
       "12:30 - Contemplative free time in the garden",
       "12:45 - Tour conclusion with final thoughts on Zen philosophy",
     ],
-
     faqs: [
       {
         question: "Do I need to sit on the floor during the tea ceremony?",
@@ -270,13 +253,11 @@ export const kyotoTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Food", "Culinary", "Markets"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Nishiki Market Entrance, Nakagyo Ward, Kyoto 604-8054",
       coordinates: {
@@ -288,7 +269,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4569",
       contactEmail: "foodtour@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-17",
@@ -320,7 +300,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-25",
       "2024-02-27",
     ],
-
     highlights: [
       "Explore the 400-year-old Nishiki Market, known as 'Kyoto's Kitchen'",
       "Sample local delicacies from specialty food vendors with centuries of history",
@@ -328,7 +307,6 @@ export const kyotoTours: Tour[] = [
       "Discover hidden street food stalls favored by locals",
       "Visit a traditional Japanese confectionery shop to sample wagashi sweets",
     ],
-
     inclusions: [
       "Food-specialist guide with deep knowledge of Kyoto cuisine",
       "Multiple food tastings (equivalent to a full meal)",
@@ -337,7 +315,6 @@ export const kyotoTours: Tour[] = [
       "Small group size (maximum 8 participants)",
       "Detailed food map with recommendations for further exploration",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond included tastings",
@@ -345,7 +322,6 @@ export const kyotoTours: Tour[] = [
       "Gratuities (not customary in Japan)",
       "Transportation during tour (all locations within walking distance)",
     ],
-
     itinerary: [
       "10:00 - Meet at Nishiki Market entrance for introduction to Kyoto cuisine",
       "10:15 - Guided exploration of Nishiki Market with tastings at selected stalls",
@@ -356,7 +332,6 @@ export const kyotoTours: Tour[] = [
       "13:00 - Visit sake shop for explanation of sake production and tasting",
       "13:30 - Tour concludes with final savory tasting and recommendations",
     ],
-
     faqs: [
       {
         question: "How much food is included in this tour?",
@@ -385,13 +360,11 @@ export const kyotoTours: Tour[] = [
     price: "$105",
     rating: 4.7,
     tags: ["Nature", "Wildlife", "Photography"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "nature",
-
     meetingPoint: {
       address: "Arashiyama Station, Saga-Arashiyama, Ukyo Ward, Kyoto 616-0000",
       coordinates: {
@@ -403,7 +376,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4570",
       contactEmail: "arashiyama@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -434,7 +406,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Experience the magical Arashiyama Bamboo Grove in early morning light before crowds arrive",
       "Visit Iwatayama Monkey Park to observe Japanese macaques in natural habitat",
@@ -442,7 +413,6 @@ export const kyotoTours: Tour[] = [
       "Enjoy a traditional yudofu (tofu) lunch at a riverside restaurant",
       "Discover the hidden Gioji Temple with its moss garden and bamboo backdrop",
     ],
-
     inclusions: [
       "Professional English-speaking nature guide",
       "Early access timing to avoid bamboo grove crowds",
@@ -452,7 +422,6 @@ export const kyotoTours: Tour[] = [
       "Small-group experience (maximum 8 participants)",
       "Photography tips for bamboo grove shots",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Train fare to/from Arashiyama (approx. 240 yen each way from central Kyoto)",
@@ -460,7 +429,6 @@ export const kyotoTours: Tour[] = [
       "Optional activities such as river boat ride",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "07:30 - Meet at Saga-Arashiyama Station",
       "07:45 - Walk to Bamboo Grove for early morning photography",
@@ -473,7 +441,6 @@ export const kyotoTours: Tour[] = [
       "13:30 - Free time for shopping in Arashiyama traditional streets",
       "14:30 - Tour concludes at original meeting point",
     ],
-
     faqs: [
       {
         question: "How difficult is the hike to the monkey park?",
@@ -502,13 +469,11 @@ export const kyotoTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Samurai", "Martial Arts", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address:
         "Kyoto Samurai & Ninja Museum, 761-2 Minamiseihan-cho, Karasuma-dori, Kyoto 600-8015",
@@ -521,7 +486,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4571",
       contactEmail: "samurai@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-17",
       "2023-12-19",
@@ -556,7 +520,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-25",
       "2024-02-28",
     ],
-
     highlights: [
       "Learn authentic samurai sword techniques from trained martial artists",
       "Practice ninja stealth movements, star throwing, and blowgun skills",
@@ -564,7 +527,6 @@ export const kyotoTours: Tour[] = [
       "Discover the historical context and philosophy behind these warrior traditions",
       "Take home professional photos of your experience in full costume",
     ],
-
     inclusions: [
       "Professional martial arts instructors",
       "All equipment including training swords and ninja tools",
@@ -574,7 +536,6 @@ export const kyotoTours: Tour[] = [
       "Traditional Japanese tea ceremony to conclude",
       "Samurai and ninja history guidebook",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional costume rentals beyond included options",
@@ -582,7 +543,6 @@ export const kyotoTours: Tour[] = [
       "Personal souvenirs from museum shop",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "13:00 - Welcome and introduction to samurai and ninja history",
       "13:15 - Museum tour with explanation of authentic artifacts",
@@ -595,7 +555,6 @@ export const kyotoTours: Tour[] = [
       "15:45 - Traditional Japanese tea ceremony experience",
       "16:00 - Tour conclusion with presentation of digital photos",
     ],
-
     faqs: [
       {
         question: "Do I need martial arts experience for this activity?",
@@ -624,13 +583,11 @@ export const kyotoTours: Tour[] = [
     price: "$75",
     rating: 4.9,
     tags: ["Cycling", "Temples", "Active"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address:
         "Kyoto Cycling Tour Project, 751-1 Higashi Oji-dori, Kyoto 605-0846",
@@ -643,7 +600,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4572",
       contactEmail: "cycling@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-18",
@@ -677,7 +633,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Visit the stunning Kinkaku-ji (Golden Pavilion), one of Japan's most iconic temples",
       "Experience the meditative Ryoan-ji rock garden, a masterpiece of Zen design",
@@ -685,7 +640,6 @@ export const kyotoTours: Tour[] = [
       "Cycle along the picturesque Kamogawa River on dedicated bike paths",
       "Discover lesser-known temples with fewer tourists and authentic atmosphere",
     ],
-
     inclusions: [
       "High-quality bicycle rental (including helmet)",
       "English-speaking local cycling guide",
@@ -695,7 +649,6 @@ export const kyotoTours: Tour[] = [
       "Cultural guidebook with temple history",
       "Small group size (maximum 8 riders)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Lunch (stop at local restaurant, pay directly)",
@@ -703,7 +656,6 @@ export const kyotoTours: Tour[] = [
       "Personal accident insurance (optional)",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "08:30 - Meet at bicycle shop for fitting and safety briefing",
       "09:00 - Begin cycling through scenic Kyoto neighborhoods",
@@ -716,7 +668,6 @@ export const kyotoTours: Tour[] = [
       "14:30 - Visit final temple with special garden access",
       "15:00 - Return to bicycle shop via scenic route",
     ],
-
     faqs: [
       {
         question: "How difficult is the cycling route?",
@@ -745,13 +696,11 @@ export const kyotoTours: Tour[] = [
     price: "$140",
     rating: 4.8,
     tags: ["Food", "Nightlife", "Sake"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Kawaramachi Station, Exit 5, Kyoto 600-8001",
       coordinates: {
@@ -763,7 +712,6 @@ export const kyotoTours: Tour[] = [
       contactNumber: "+81 75-123-4573",
       contactEmail: "nightfood@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-18",
@@ -798,7 +746,6 @@ export const kyotoTours: Tour[] = [
       "2024-02-26",
       "2024-02-28",
     ],
-
     highlights: [
       "Experience authentic izakaya dining at local favorites not in guidebooks",
       "Taste premium sake with expert guidance on varieties and brewing methods",
@@ -806,7 +753,6 @@ export const kyotoTours: Tour[] = [
       "Explore Pontocho Alley and Kiyamachi Street's hidden food establishments",
       "Meet local chefs and sake brewers for insider perspectives",
     ],
-
     inclusions: [
       "Food tastings at 4-5 different establishments (equivalent to full dinner)",
       "Premium sake tasting flight (3 varieties)",
@@ -815,14 +761,12 @@ export const kyotoTours: Tour[] = [
       "All food and sake establishment cover charges",
       "Small group size (maximum 8 participants)",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Additional food and drinks beyond those included",
       "Transportation during tour (all locations within walking distance)",
       "Gratuities (not customary in Japan)",
     ],
-
     itinerary: [
       "17:30 - Meet at Kawaramachi Station for introductions",
       "17:45 - Walk to first venue: traditional street food stall for quick bites",
@@ -833,7 +777,6 @@ export const kyotoTours: Tour[] = [
       "21:15 - Final stop for dessert and nightcap",
       "21:30 - Tour concludes with recommendations for continuation",
     ],
-
     faqs: [
       {
         question: "How much food is included?",
@@ -848,5 +791,4 @@ export const kyotoTours: Tour[] = [
     ],
   },
 ];
-
 export default kyotoTours;

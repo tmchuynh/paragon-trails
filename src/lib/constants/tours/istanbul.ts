@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const istanbulTours: Tour[] = [
   {
     title: "Two Continents & Bosphorus Experience",
@@ -16,13 +15,11 @@ export const istanbulTours: Tour[] = [
     price: "$145",
     rating: 4.9,
     tags: ["Bosphorus", "Two Continents", "Scenic"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "cultural",
-
     meetingPoint: {
       address: "Kabataş Ferry Terminal, Beyoğlu, Istanbul",
       coordinates: {
@@ -34,7 +31,6 @@ export const istanbulTours: Tour[] = [
       contactNumber: "+90 532 123 4567",
       contactEmail: "istanbul@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-15",
       "2023-12-22",
@@ -48,7 +44,6 @@ export const istanbulTours: Tour[] = [
       "2024-02-16",
       "2024-02-23",
     ],
-
     highlights: [
       "Cruise the Bosphorus Strait on a private boat between Europe and Asia",
       "Visit the Asian side of Istanbul at Üsküdar with its authentic local atmosphere",
@@ -56,7 +51,6 @@ export const istanbulTours: Tour[] = [
       "Pass under the iconic Bosphorus bridges connecting two continents",
       "Enjoy traditional Turkish cuisine at a scenic waterfront restaurant",
     ],
-
     inclusions: [
       "Professional licensed guide",
       "Private boat cruise on the Bosphorus (2 hours)",
@@ -65,14 +59,12 @@ export const istanbulTours: Tour[] = [
       "Entrance fees to included attractions",
       "Bottled water throughout the tour",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Alcoholic beverages (available for purchase)",
       "Personal expenses and shopping",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "10:00 - Meet guide at Kabataş Ferry Terminal",
       "10:15 - Board private boat for Bosphorus cruise",
@@ -86,7 +78,6 @@ export const istanbulTours: Tour[] = [
       "15:30 - Return cruise with views of Bosphorus Strait at different angle",
       "16:00 - Tour concludes at Kabataş Terminal",
     ],
-
     faqs: [
       {
         question: "Will we stop on the Asian side?",
@@ -120,13 +111,11 @@ export const istanbulTours: Tour[] = [
     price: "$120",
     rating: 4.8,
     tags: ["Archaeological", "Byzantine", "Historical"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "archaeology",
-
     meetingPoint: {
       address: "Sultanahmet Square, in front of the German Fountain, Istanbul",
       coordinates: {
@@ -138,7 +127,6 @@ export const istanbulTours: Tour[] = [
       contactNumber: "+90 532 123 4568",
       contactEmail: "archaeology@paragontrails.com",
     },
-
     availableDates: [
       "2023-12-16",
       "2023-12-23",
@@ -152,7 +140,6 @@ export const istanbulTours: Tour[] = [
       "2024-02-17",
       "2024-02-24",
     ],
-
     highlights: [
       "Explore the ancient Hippodrome with its Egyptian Obelisk and Serpent Column",
       "Discover the mysterious underground Basilica Cistern with its Medusa heads",
@@ -160,7 +147,6 @@ export const istanbulTours: Tour[] = [
       "Learn about Constantinople's rich archaeological heritage",
       "Visit the Great Palace Mosaic Museum showcasing Byzantine palace floors",
     ],
-
     inclusions: [
       "Byzantine history expert guide",
       "All entrance fees to archaeological sites",
@@ -169,14 +155,12 @@ export const istanbulTours: Tour[] = [
       "Archaeological guidebook with historical timelines",
       "Bottled water throughout the tour",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Meals and beverages",
       "Personal expenses and shopping",
       "Tips and gratuities",
     ],
-
     itinerary: [
       "09:00 - Meet at Sultanahmet Square/German Fountain",
       "09:15 - Tour of the ancient Hippodrome monuments",
@@ -187,7 +171,6 @@ export const istanbulTours: Tour[] = [
       "13:15 - Guided tour of the magnificent Byzantine mosaics and frescoes at Chora Church",
       "14:30 - Tour concludes with Byzantine era historical summary",
     ],
-
     faqs: [
       {
         question: "What archaeological sites will we visit?",
@@ -212,5 +195,4 @@ export const istanbulTours: Tour[] = [
     ],
   },
 ];
-
 export default istanbulTours;

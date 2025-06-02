@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const juneauTours: Tour[] = [
   {
     title: "Mendenhall Glacier & Whale Watching Adventure",
@@ -17,13 +16,11 @@ export const juneauTours: Tour[] = [
     price: "$189",
     rating: 4.9,
     tags: ["Wildlife", "Glacier", "Boat Tour"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Marine Park Plaza, 237 S Franklin St, Juneau, AK 99801",
       coordinates: {
@@ -35,7 +32,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-1234",
       contactEmail: "glacier@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-15",
       "2024-05-17",
@@ -100,7 +96,6 @@ export const juneauTours: Tour[] = [
       "2024-09-12",
       "2024-09-14",
     ],
-
     highlights: [
       "Witness the awe-inspiring Mendenhall Glacier with expert naturalist commentary",
       "Explore the glacier's visitor center with interactive exhibits on glacier formation",
@@ -108,7 +103,6 @@ export const juneauTours: Tour[] = [
       "3-hour whale watching cruise with guaranteed whale sightings",
       "Observe humpback whales, orcas, sea lions, and bald eagles in their natural habitat",
     ],
-
     inclusions: [
       "Round-trip transportation from downtown Juneau",
       "Professional naturalist guide with expertise in glaciology and marine biology",
@@ -119,7 +113,6 @@ export const juneauTours: Tour[] = [
       "Binoculars for wildlife viewing",
       "Rain gear if needed",
     ],
-
     exclusions: [
       "Meals beyond the provided snacks",
       "Gratuities for guides and boat crew",
@@ -127,7 +120,6 @@ export const juneauTours: Tour[] = [
       "Personal expenses and souvenirs",
       "Optional activities beyond the scheduled itinerary",
     ],
-
     itinerary: [
       "09:00 - Meet at Marine Park Plaza in downtown Juneau",
       "09:15 - Depart via comfortable coach to Mendenhall Glacier",
@@ -143,7 +135,6 @@ export const juneauTours: Tour[] = [
       "16:15 - Transportation back to downtown Juneau",
       "16:45 - Tour concludes at Marine Park Plaza",
     ],
-
     faqs: [
       {
         question: "When is the best time to see whales in Juneau?",
@@ -178,13 +169,11 @@ export const juneauTours: Tour[] = [
     price: "$329",
     rating: 4.8,
     tags: ["Scenic Flight", "Wilderness Lodge", "Culinary"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "luxury",
-
     meetingPoint: {
       address: "Wings Airways Terminal, 2 Marine Way, Juneau, AK 99801",
       coordinates: {
@@ -196,7 +185,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-2345",
       contactEmail: "flight@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-16",
       "2024-05-18",
@@ -261,7 +249,6 @@ export const juneauTours: Tour[] = [
       "2024-09-13",
       "2024-09-15",
     ],
-
     highlights: [
       "Scenic floatplane flight over the Juneau Icefield, five glaciers, and spectacular wilderness",
       "Experience the awe-inspiring blue ice of Taku Glacier, the deepest and thickest alpine glacier in the world",
@@ -269,7 +256,6 @@ export const juneauTours: Tour[] = [
       "Enjoy a freshly prepared wild Alaska salmon feast cooked over alder wood fire",
       "Guided nature walk to learn about local flora, fauna and the area's gold mining history",
     ],
-
     inclusions: [
       "Round-trip floatplane flight with guaranteed window seat",
       "Professional narration from pilot during flight",
@@ -280,7 +266,6 @@ export const juneauTours: Tour[] = [
       "Opportunity to see black bears (often attracted by the salmon aroma)",
       "All landing fees and taxes",
     ],
-
     exclusions: [
       "Transportation to/from floatplane terminal",
       "Gratuities for staff and pilots",
@@ -288,7 +273,6 @@ export const juneauTours: Tour[] = [
       "Souvenir purchases",
       "Special dietary meals (beyond vegetarian option)",
     ],
-
     itinerary: [
       "Departure options: 11:00, 13:30, or 16:00 (select one when booking)",
       "00:00 - Check-in at Wings Airways Terminal (30 minutes before departure)",
@@ -305,7 +289,6 @@ export const juneauTours: Tour[] = [
       "03:25 - Departure from Taku Lodge",
       "03:45 - Arrive back in Juneau Harbor",
     ],
-
     faqs: [
       {
         question: "Is the floatplane ride safe and comfortable?",
@@ -340,13 +323,11 @@ export const juneauTours: Tour[] = [
     price: "$459",
     rating: 4.9,
     tags: ["Helicopter", "Adventure", "Ice Trekking"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Juneau Helicopter Tours, 1650 Maplesden Way, Juneau, AK 99801",
       coordinates: {
@@ -358,7 +339,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-3456",
       contactEmail: "helicopter@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-15",
       "2024-05-20",
@@ -386,7 +366,6 @@ export const juneauTours: Tour[] = [
       "2024-09-07",
       "2024-09-12",
     ],
-
     highlights: [
       "Breathtaking helicopter flight over the 1,500-square-mile Juneau Icefield",
       "Land directly on a remote glacier inaccessible by any other means",
@@ -394,7 +373,6 @@ export const juneauTours: Tour[] = [
       "Explore ice caves, moulins, and brilliant blue pools (features vary by season)",
       "Learn about glacier formation, movement, and the impacts of climate change",
     ],
-
     inclusions: [
       "Round-trip helicopter flight with glacier landing",
       "Professional pilot with informative commentary",
@@ -405,7 +383,6 @@ export const juneauTours: Tour[] = [
       "Bottled water and energy snacks",
       "Commemorative glacier pin",
     ],
-
     exclusions: [
       "Transportation to/from helicopter base (shuttle available upon request)",
       "Gratuities for pilots and guides",
@@ -413,7 +390,6 @@ export const juneauTours: Tour[] = [
       "Professional photography (available for purchase)",
       "Meals",
     ],
-
     itinerary: [
       "08:00 - Check-in at helicopter base (or 07:30 pickup from downtown hotels)",
       "08:15 - Safety briefing and glacier equipment fitting",
@@ -429,7 +405,6 @@ export const juneauTours: Tour[] = [
       "12:30 - Arrive at helicopter base and return equipment",
       "12:45 - Tour concludes (downtown hotel drop-off available)",
     ],
-
     faqs: [
       {
         question: "Do I need previous ice trekking experience?",
@@ -464,13 +439,11 @@ export const juneauTours: Tour[] = [
     price: "$89",
     rating: 4.7,
     tags: ["Rainforest", "Brewery", "Hiking"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-
     meetingPoint: {
       address: "Mount Roberts Tramway, 490 S Franklin St, Juneau, AK 99801",
       coordinates: {
@@ -482,7 +455,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-4567",
       contactEmail: "brewery@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-17",
       "2024-05-19",
@@ -546,7 +518,6 @@ export const juneauTours: Tour[] = [
       "2024-09-12",
       "2024-09-14",
     ],
-
     highlights: [
       "Guided nature hike through the northern section of the Tongass National Forest, America's largest national forest",
       "Learn about the unique ecology of the temperate rainforest ecosystem",
@@ -554,7 +525,6 @@ export const juneauTours: Tour[] = [
       "Behind-the-scenes tour of Alaskan Brewing Company's production facility",
       "Guided tasting of 6 different award-winning Alaskan craft beers",
     ],
-
     inclusions: [
       "Professional naturalist guide",
       "Transportation between all locations",
@@ -565,7 +535,6 @@ export const juneauTours: Tour[] = [
       "Souvenir tasting glass",
       "Light snacks during beer tasting",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off",
       "Gratuities for guides",
@@ -573,7 +542,6 @@ export const juneauTours: Tour[] = [
       "Beer purchases beyond included tastings",
       "Rain boots (waterproof hiking shoes recommended)",
     ],
-
     itinerary: [
       "12:00 - Meet in downtown Juneau for tour introduction",
       "12:15 - Transportation to Tongass National Forest trailhead",
@@ -588,7 +556,6 @@ export const juneauTours: Tour[] = [
       "16:15 - Transportation back to downtown Juneau",
       "16:30 - Tour concludes at original meeting point",
     ],
-
     faqs: [
       {
         question: "How strenuous is the rainforest hike?",
@@ -623,13 +590,11 @@ export const juneauTours: Tour[] = [
     price: "$79",
     rating: 4.6,
     tags: ["Historical", "Gold Mining", "Cultural"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-
     meetingPoint: {
       address: "Last Chance Mining Museum, 1001 Basin Rd, Juneau, AK 99801",
       coordinates: {
@@ -641,7 +606,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-5678",
       contactEmail: "goldmining@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-16",
       "2024-05-18",
@@ -705,7 +669,6 @@ export const juneauTours: Tour[] = [
       "2024-09-12",
       "2024-09-14",
     ],
-
     highlights: [
       "Tour the historic AJ Mine that produced over $80 million in gold",
       "Learn gold panning techniques from expert miners and try your luck finding real gold",
@@ -713,7 +676,6 @@ export const juneauTours: Tour[] = [
       "Explore the remarkably preserved mining district of Juneau",
       "Visit the Last Chance Mining Museum with its historic mining equipment and exhibits",
     ],
-
     inclusions: [
       "Professional guide with mining history expertise",
       "Gold panning equipment and instruction",
@@ -723,7 +685,6 @@ export const juneauTours: Tour[] = [
       "Walking tour of historic mining district",
       "Optional downtown shuttle service",
     ],
-
     exclusions: [
       "Hotel pickup and drop-off (unless using optional shuttle)",
       "Meals and beverages",
@@ -731,7 +692,6 @@ export const juneauTours: Tour[] = [
       "Gold beyond what you find during the scheduled panning time",
       "Gratuities for guides",
     ],
-
     itinerary: [
       "13:00 - Meet at Last Chance Mining Museum (or downtown pickup if arranged)",
       "13:15 - Introduction to Juneau's gold rush history",
@@ -744,7 +704,6 @@ export const juneauTours: Tour[] = [
       "16:00 - Return to museum for final gold weighing and collection",
       "16:15 - Tour conclusion with return shuttle to downtown if needed",
     ],
-
     faqs: [
       {
         question: "Will I really find gold?",
@@ -779,13 +738,11 @@ export const juneauTours: Tour[] = [
     price: "$199",
     rating: 4.9,
     tags: ["Fjord", "Glaciers", "Wildlife"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-
     meetingPoint: {
       address: "Juneau Small Boat Harbor, 1600 Harbor Way, Juneau, AK 99801",
       coordinates: {
@@ -797,7 +754,6 @@ export const juneauTours: Tour[] = [
       contactNumber: "+1 907-555-6789",
       contactEmail: "tracyarm@paragontrails.com",
     },
-
     availableDates: [
       "2024-05-15",
       "2024-05-18",
@@ -842,7 +798,6 @@ export const juneauTours: Tour[] = [
       "2024-09-12",
       "2024-09-15",
     ],
-
     highlights: [
       "Journey 45 miles into the Tracy Arm Fjord with towering 3,000-foot cliffs",
       "Navigate among blue icebergs calved from the active Sawyer Glaciers",
@@ -850,7 +805,6 @@ export const juneauTours: Tour[] = [
       "Spot diverse wildlife including harbor seals, bears, mountain goats, and eagles",
       "Experience some of Alaska's most beautiful waterfalls cascading into the fjord",
     ],
-
     inclusions: [
       "Full-day cruise aboard comfortable catamaran vessel",
       "Naturalist guide with extensive knowledge of glaciology and wildlife",
@@ -862,7 +816,6 @@ export const juneauTours: Tour[] = [
       "Open deck space for photography",
       "Captain's narrative throughout the journey",
     ],
-
     exclusions: [
       "Transportation to/from boat harbor",
       "Additional food beyond included items",
@@ -870,7 +823,6 @@ export const juneauTours: Tour[] = [
       "Rain gear (available for rental)",
       "Gratuities for crew",
     ],
-
     itinerary: [
       "07:30 - Check-in at Juneau Small Boat Harbor",
       "08:00 - Departure from Juneau aboard catamaran vessel",
@@ -888,7 +840,6 @@ export const juneauTours: Tour[] = [
       "17:30 - Additional wildlife viewing opportunities",
       "18:00 - Return to Juneau Harbor",
     ],
-
     faqs: [
       {
         question: "How close will we get to the glaciers?",
@@ -908,5 +859,4 @@ export const juneauTours: Tour[] = [
     ],
   },
 ];
-
 export default juneauTours;
