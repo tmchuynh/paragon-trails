@@ -5,6 +5,9 @@ export const stockholmTours: Tour[] = [
     title: "Stockholm Archipelago Sailing Adventure",
     description:
       "Cruise through Stockholm's stunning archipelago of 30,000 islands aboard a classic sailing yacht, stopping at secluded islands for swimming, nature walks, and a traditional Swedish lunch.",
+    city: "Stockholm",
+    country: "Sweden",
+    region: "Stockholm County",
     images: [
       "/images/tours/stockholm/archipelago-sailing.jpg",
       "/images/tours/stockholm/island-lunch.jpg",
@@ -31,6 +34,9 @@ export const stockholmTours: Tour[] = [
     title: "Nordic Food Walk & Cooking Class",
     description:
       "Explore Stockholm's food scene with visits to specialty shops and the historic Östermalms food hall, then join a professional chef to prepare your own Swedish feast using fresh, seasonal ingredients.",
+    city: "Stockholm",
+    country: "Sweden",
+    region: "Stockholm County",
     images: [
       "/images/tours/stockholm/food-market.jpg",
       "/images/tours/stockholm/cooking-class.jpg",
@@ -57,6 +63,9 @@ export const stockholmTours: Tour[] = [
     title: "Stockholm Historical Walk: Gamla Stan & Royal Palace",
     description:
       "Discover the rich history of Stockholm with a guided walk through the cobblestone streets of Gamla Stan, visiting the Royal Palace, Storkyrkan Cathedral, and learning about the city's medieval past.",
+    city: "Stockholm",
+    country: "Sweden",
+    region: "Stockholm County",
     images: [
       "/images/tours/stockholm/gamla-stan.jpg",
       "/images/tours/stockholm/royal-palace.jpg",

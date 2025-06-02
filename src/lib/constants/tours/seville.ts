@@ -5,6 +5,9 @@ export const sevilleTours: Tour[] = [
     title: "Seville Historical City Tour",
     description:
       "Discover the rich history and stunning architecture of Seville with a guided tour through its iconic landmarks.",
+    city: "Seville",
+    country: "Spain",
+    region: "Andalusia",
     images: [
       "/images/tours/seville/historical-city.jpg",
       "/images/tours/seville/alcazar.jpg",
@@ -31,6 +34,9 @@ export const sevilleTours: Tour[] = [
     title: "Flamenco Show and Dinner Experience",
     description:
       "Enjoy an authentic Flamenco show while savoring traditional Andalusian cuisine in a local restaurant.",
+    city: "Seville",
+    country: "Spain",
+    region: "Andalusia",
     images: [
       "/images/tours/seville/flamenco-show.jpg",
       "/images/tours/seville/dinner-experience.jpg",
@@ -50,6 +56,9 @@ export const sevilleTours: Tour[] = [
     title: "Seville Bike Tour",
     description:
       "Explore the beautiful city of Seville on a guided bike tour, visiting parks, plazas, and hidden gems.",
+    city: "Seville",
+    country: "Spain",
+    region: "Andalusia",
     images: [
       "/images/tours/seville/bike-tour.jpg",
       "/images/tours/seville/parks.jpg",
@@ -66,3 +75,5 @@ export const sevilleTours: Tour[] = [
     tourCategoryId: "adventure",
   },
 ];
+
+export default sevilleTours;

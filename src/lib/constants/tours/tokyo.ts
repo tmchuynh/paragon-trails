@@ -5,6 +5,9 @@ export const tokyoTours: Tour[] = [
     title: "Tokyo After Dark: Izakaya & Hidden Bars",
     description:
       "Experience Tokyo's legendary nightlife with a local expert who guides you through traditional izakaya pubs, secret speakeasies, and vibrant entertainment districts not found in guidebooks.",
+    city: "Tokyo",
+    country: "Japan",
+    region: "Kanto",
     images: [
       "/images/tours/tokyo/golden-gai.jpg",
       "/images/tours/tokyo/hidden-izakaya.jpg",
@@ -31,6 +34,9 @@ export const tokyoTours: Tour[] = [
     title: "Tokyo Technology & Innovation Tour",
     description:
       "Explore cutting-edge Japan with visits to technology showrooms, concept stores, and electronics districts. Experience the latest innovations from robots to virtual reality alongside a tech industry insider.",
+    city: "Tokyo",
+    country: "Japan",
+    region: "Kanto",
     images: [
       "/images/tours/tokyo/robot-restaurant.jpg",
       "/images/tours/tokyo/akihabara.jpg",
@@ -57,6 +63,9 @@ export const tokyoTours: Tour[] = [
     title: "Tokyo Street Food & Market Tour",
     description:
       "Discover Tokyo's vibrant street food scene with a local guide, sampling everything from classic yakitori to trendy fusion dishes at bustling markets and hidden stalls.",
+    city: "Tokyo",
+    country: "Japan",
+    region: "Kanto",
     images: [
       "/images/tours/tokyo/street-food.jpg",
       "/images/tours/tokyo/tsukiji-market.jpg",
@@ -88,6 +97,9 @@ export const tokyoTours: Tour[] = [
     title: "Japanese Tea Ceremony Experience",
     description:
       "Immerse yourself in the serene world of Japanese tea culture with a traditional tea ceremony led by a certified tea master, learning about the history, rituals, and artistry behind this ancient practice.",
+    city: "Tokyo",
+    country: "Japan",
+    region: "Kanto",
     images: [
       "/images/tours/tokyo/tea-ceremony.jpg",
       "/images/tours/tokyo/tea-house.jpg",

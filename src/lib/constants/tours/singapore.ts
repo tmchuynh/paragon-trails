@@ -5,6 +5,9 @@ export const singaporeTours: Tour[] = [
     title: "Singapore Heritage Districts & Hawker Cuisine",
     description:
       "Explore Singapore's diverse cultural heritage through its distinct ethnic neighborhoods, with insider access to temples, shophouses, and markets, culminating in a curated hawker center feast showcasing the best of local cuisine.",
+    city: "Singapore",
+    country: "Singapore",
+    region: "Southeast Asia",
     images: [
       "/images/tours/singapore/chinatown-temple.jpg",
       "/images/tours/singapore/hawker-center.jpg",
@@ -31,6 +34,9 @@ export const singaporeTours: Tour[] = [
     title: "Gardens by the Bay After Dark & Marina Bay Spectacle",
     description:
       "Experience Singapore's futuristic side with VIP access to the Supertree Grove light show, the Cloud Forest conservatory after hours, and a private cocktail experience overlooking the Marina Bay laser spectacle.",
+    city: "Singapore",
+    country: "Singapore",
+    region: "Southeast Asia",
     images: [
       "/images/tours/singapore/supertree-grove-night.jpg",
       "/images/tours/singapore/marina-bay-lights.jpg",
@@ -57,6 +63,9 @@ export const singaporeTours: Tour[] = [
     title: "Singapore's Hidden Nature Trails & Wildlife Encounters",
     description:
       "Discover Singapore's lush green spaces and diverse wildlife with a guided hike through lesser-known nature reserves, visiting hidden waterfalls, mangroves, and spotting native species in their natural habitats.",
+    city: "Singapore",
+    country: "Singapore",
+    region: "Southeast Asia",
     images: [
       "/images/tours/singapore/nature-trail.jpg",
       "/images/tours/singapore/wildlife-encounter.jpg",

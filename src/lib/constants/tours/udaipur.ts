@@ -5,6 +5,9 @@ export const udaipurTours: Tour[] = [
     title: "Royal Lakeside Palace Experience",
     description:
       "Experience the grandeur of Udaipur's royal heritage with private access to palace quarters normally closed to visitors, followed by a sunset boat cruise on Lake Pichola with champagne and traditional music.",
+    city: "Udaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/udaipur/city-palace.jpg",
       "/images/tours/udaipur/lake-pichola-sunset.jpg",
@@ -32,6 +35,9 @@ export const udaipurTours: Tour[] = [
     title: "Rural Villages & Artisan Crafts",
     description:
       "Venture beyond the city to traditional villages where generations of artisans practice ancient crafts including miniature painting, pottery, and textile weaving using techniques unchanged for centuries.",
+    city: "Udaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/udaipur/miniature-painting.jpg",
       "/images/tours/udaipur/village-craft.jpg",
@@ -59,6 +65,9 @@ export const udaipurTours: Tour[] = [
     title: "Udaipur Culinary Heritage Tour",
     description:
       "Savor the flavors of Udaipur with a guided culinary journey through local markets, cooking classes in traditional havelis, and tastings of royal recipes passed down through generations.",
+    city: "Udaipur",
+    country: "India",
+    region: "Rajasthan",
     images: [
       "/images/tours/udaipur/culinary-tour.jpg",
       "/images/tours/udaipur/cooking-class.jpg",

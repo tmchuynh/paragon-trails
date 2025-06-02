@@ -158,7 +158,7 @@ export const shirakawagoTours: Tour[] = [
       "/images/tours/shirakawa-go/village-overview.jpg",
       "/images/tours/shirakawa-go/takayama-old-town.jpg",
     ],
-    duration: "Full day",
+    duration: "10 hours",
     price: "$135",
     rating: 4.8,
     tags: ["Day Trip", "Cultural"],

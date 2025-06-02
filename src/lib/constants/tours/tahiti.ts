@@ -5,6 +5,9 @@ export const tahitiTours: Tour[] = [
     title: "Sacred Tahitian Waterfall Adventure",
     description:
       "Journey into Tahiti's lush interior with a local guide to discover hidden waterfalls, ancient ceremonial sites, and natural swimming pools while learning about indigenous Polynesian traditions.",
+    city: "Papeete",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/tahiti/sacred-waterfall.jpg",
       "/images/tours/tahiti/jungle-trek.jpg",
@@ -31,6 +34,9 @@ export const tahitiTours: Tour[] = [
     title: "Tahitian Black Pearl & Cultural Experience",
     description:
       "Visit a family-owned black pearl farm to learn about these prized gems, then participate in traditional crafts including pareo (sarong) dying and flower crown making with native Polynesian artisans.",
+    city: "Papeete",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/tahiti/black-pearl-farm.jpg",
       "/images/tours/tahiti/flower-crown-making.jpg",
@@ -57,6 +63,9 @@ export const tahitiTours: Tour[] = [
     title: "Tahiti Sunset Lagoon Cruise",
     description:
       "Relax on a traditional outrigger canoe as you glide through Tahiti's tranquil lagoons, enjoying stunning sunset views, local snacks, and the chance to spot dolphins and sea turtles.",
+    city: "Papeete",
+    country: "French Polynesia",
+    region: "Society Islands",
     images: [
       "/images/tours/tahiti/sunset-cruise.jpg",
       "/images/tours/tahiti/outrigger-canoe.jpg",

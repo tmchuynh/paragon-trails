@@ -9,7 +9,7 @@ export const sydneyTours: Tour[] = [
       "/images/tours/sydney/opera-house-backstage.jpg",
       "/images/tours/sydney/opera-house-view.jpg",
     ],
-    duration: "2.5 hours",
+    duration: "3 hours",
     price: "$165",
     rating: 4.9,
     tags: ["Architecture", "Performing Arts", "VIP Access"],

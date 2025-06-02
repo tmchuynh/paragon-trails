@@ -5,6 +5,9 @@ export const shanghaiTours: Tour[] = [
     title: "Shanghai Contrasts: Old Town & Futuristic Pudong",
     description:
       "Experience Shanghai's fascinating blend of ancient and ultramodern with a tour of historic Yu Garden and Old Town, followed by the futuristic skyline of Pudong with VIP observation deck access.",
+    city: "Shanghai",
+    country: "China",
+    region: "Eastern China",
     images: [
       "/images/tours/shanghai/old-town.jpg",
       "/images/tours/shanghai/pudong-skyline.jpg",
@@ -31,6 +34,9 @@ export const shanghaiTours: Tour[] = [
     title: "Shanghai Culinary Journey & Private Cooking Class",
     description:
       "Discover Shanghai's diverse food scene from street food to haute cuisine, followed by a private cooking class with a renowned chef to master signature Shanghainese dishes.",
+    city: "Shanghai",
+    country: "China",
+    region: "Eastern China",
     images: [
       "/images/tours/shanghai/street-food.jpg",
       "/images/tours/shanghai/cooking-class.jpg",
@@ -57,6 +63,9 @@ export const shanghaiTours: Tour[] = [
     title: "Shanghai Art & Culture: M50 Creative Park Tour",
     description:
       "Explore Shanghai's vibrant contemporary art scene at M50 Creative Park, visiting artist studios, galleries, and exhibitions with a local art curator who provides insights into the city's creative evolution.",
+    city: "Shanghai",
+    country: "China",
+    region: "Eastern China",
     images: [
       "/images/tours/shanghai/m50-creative-park.jpg",
       "/images/tours/shanghai/contemporary-art.jpg",
@@ -88,6 +97,9 @@ export const shanghaiTours: Tour[] = [
     title: "Shanghai Night Lights: Huangpu River Cruise",
     description:
       "Experience the magic of Shanghai at night with a scenic Huangpu River cruise, taking in the illuminated skyline and historic Bund while enjoying live music and local snacks on board.",
+    city: "Shanghai",
+    country: "China",
+    region: "Eastern China",
     images: [
       "/images/tours/shanghai/huangpu-river-cruise.jpg",
       "/images/tours/shanghai/bund-night.jpg",

@@ -5,6 +5,9 @@ export const thessalonikiTours: Tour[] = [
     title: "Byzantine Heritage & Hidden Treasures",
     description:
       "Explore Thessaloniki's remarkable Byzantine churches, ancient ruins, and hidden historical gems with an expert archaeologist guide who brings the city's 2,300-year history to life.",
+    city: "Thessaloniki",
+    country: "Greece",
+    region: "Central Macedonia",
     images: [
       "/images/tours/thessaloniki/rotunda.jpg",
       "/images/tours/thessaloniki/byzantine-church.jpg",
@@ -31,6 +34,9 @@ export const thessalonikiTours: Tour[] = [
     title: "Thessaloniki Food Journey",
     description:
       "Taste your way through Greece's culinary capital with visits to traditional markets, bakeries, and tavernas while learning about the city's multicultural influences on its distinctive cuisine.",
+    city: "Thessaloniki",
+    country: "Greece",
+    region: "Central Macedonia",
     images: [
       "/images/tours/thessaloniki/food-market.jpg",
       "/images/tours/thessaloniki/greek-meze.jpg",
@@ -57,6 +63,9 @@ export const thessalonikiTours: Tour[] = [
     title: "Thessaloniki Street Art & Urban Culture",
     description:
       "Discover Thessaloniki's vibrant street art scene with a local artist, exploring murals, graffiti, and urban installations that reflect the city's contemporary culture and social movements.",
+    city: "Thessaloniki",
+    country: "Greece",
+    region: "Central Macedonia",
     images: [
       "/images/tours/thessaloniki/street-art.jpg",
       "/images/tours/thessaloniki/urban-culture.jpg",

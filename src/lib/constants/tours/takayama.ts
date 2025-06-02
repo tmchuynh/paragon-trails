@@ -5,6 +5,9 @@ export const takayamaTours: Tour[] = [
     title: "Traditional Carpentry & Old Town Heritage",
     description:
       "Explore Takayama's perfectly preserved Edo-period streets with a local historian, visiting master carpenter workshops that built Japan's most important temples, followed by exclusive access to historic merchants' homes not open to the public.",
+    city: "Takayama",
+    country: "Japan",
+    region: "Gifu Prefecture",
     images: [
       "/images/tours/takayama/old-town.jpg",
       "/images/tours/takayama/carpenter-workshop.jpg",
@@ -31,6 +34,9 @@ export const takayamaTours: Tour[] = [
     title: "Sake Brewery Tour & Tasting Experience",
     description:
       "Discover the art of premium sake production with exclusive access to centuries-old breweries, guided tastings of rare varieties not available elsewhere, and traditional izakaya dinner featuring Hida beef prepared in multiple ways.",
+    city: "Takayama",
+    country: "Japan",
+    region: "Gifu Prefecture",
     images: [
       "/images/tours/takayama/sake-brewery.jpg",
       "/images/tours/takayama/sake-tasting.jpg",
@@ -57,6 +63,9 @@ export const takayamaTours: Tour[] = [
     title: "Hida Folk Village & Traditional Crafts",
     description:
       "Experience rural Japan at the Hida Folk Village, an open-air museum showcasing traditional thatched-roof farmhouses, followed by hands-on workshops in pottery and indigo dyeing with local artisans.",
+    city: "Takayama",
+    country: "Japan",
+    region: "Gifu Prefecture",
     images: [
       "/images/tours/takayama/hida-folk-village.jpg",
       "/images/tours/takayama/indigo-dyeing.jpg",

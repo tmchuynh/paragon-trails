@@ -5,6 +5,9 @@ export const vancouverTours: Tour[] = [
     title: "Capilano Suspension Bridge & Temperate Rainforest",
     description:
       "Experience Vancouver's stunning natural surroundings with a guided tour of Capilano Suspension Bridge Park, ancient temperate rainforest trails, and the breathtaking Cliffwalk overlooking the canyon.",
+    city: "North Vancouver",
+    country: "Canada",
+    region: "British Columbia",
     images: [
       "/images/tours/vancouver/capilano-bridge.jpg",
       "/images/tours/vancouver/rainforest-trail.jpg",
@@ -31,6 +34,9 @@ export const vancouverTours: Tour[] = [
     title: "Indigenous Culture & Stanley Park Exploration",
     description:
       "Discover Vancouver's Stanley Park through Indigenous perspectives with a First Nations guide who shares traditional knowledge about native plants, totem poles, and cultural stories about this ancient land.",
+    city: "Vancouver",
+    country: "Canada",
+    region: "British Columbia",
     images: [
       "/images/tours/vancouver/totem-poles.jpg",
       "/images/tours/vancouver/stanley-park.jpg",
@@ -57,6 +63,9 @@ export const vancouverTours: Tour[] = [
     title: "Gastown & Granville Island Food Tour",
     description:
       "Savor Vancouver's culinary scene with a guided food tour through historic Gastown and vibrant Granville Island, sampling local delicacies, craft beers, and artisanal treats while learning about the city's food culture.",
+    city: "Vancouver",
+    country: "Canada",
+    region: "British Columbia",
     images: [
       "/images/tours/vancouver/gastown-food.jpg",
       "/images/tours/vancouver/granville-island.jpg",

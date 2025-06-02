@@ -5,6 +5,9 @@ export const tuscanyTours: Tour[] = [
     title: "Chianti Wine Region Villa Experience",
     description:
       "Spend a day in the rolling hills of Chianti visiting family-owned vineyards, learning about wine production, and enjoying tastings paired with Tuscan cuisine in a historic villa setting.",
+    city: "Chianti",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/tuscany/chianti-vineyard.jpg",
       "/images/tours/tuscany/wine-tasting.jpg",
@@ -31,6 +34,9 @@ export const tuscanyTours: Tour[] = [
     title: "Medieval Hill Towns of Tuscany",
     description:
       "Explore the enchanting walled towns of San Gimignano, Monteriggioni, and Volterra with their preserved medieval architecture, artisan workshops, and spectacular countryside views.",
+    city: "San Gimignano",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/tuscany/san-gimignano.jpg",
       "/images/tours/tuscany/medieval-streets.jpg",
@@ -57,6 +63,9 @@ export const tuscanyTours: Tour[] = [
     title: "Tuscan Cooking Class & Market Tour",
     description:
       "Join a local chef for a hands-on cooking class in a rustic farmhouse, starting with a visit to the local market to select fresh ingredients before preparing traditional Tuscan dishes.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/tuscany/cooking-class.jpg",
       "/images/tours/tuscany/market-tour.jpg",
@@ -88,6 +97,9 @@ export const tuscanyTours: Tour[] = [
     title: "Florence Art & Architecture Walking Tour",
     description:
       "Discover Florence's artistic heritage with a guided walking tour of the city's most iconic landmarks, including the Duomo, Uffizi Gallery, and Ponte Vecchio, while learning about the Renaissance masters.",
+    city: "Florence",
+    country: "Italy",
+    region: "Tuscany",
     images: [
       "/images/tours/tuscany/florence-duomo.jpg",
       "/images/tours/tuscany/uffizi-gallery.jpg",

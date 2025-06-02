@@ -5,6 +5,9 @@ export const veniceTours: Tour[] = [
     title: "Secret Venice & Exclusive Basilica Access",
     description:
       "Explore the hidden side of Venice with a private evening opening of St. Mark's Basilica, followed by a journey through secret passageways, lesser-known canals, and hidden campos where locals still live authentic Venetian lives.",
+    city: "Venice",
+    country: "Italy",
+    region: "Veneto",
     images: [
       "/images/tours/venice/basilica-night.jpg",
       "/images/tours/venice/hidden-canals.jpg",
@@ -31,6 +34,9 @@ export const veniceTours: Tour[] = [
     title: "Murano Glass Masters & Private Workshop",
     description:
       "Discover the ancient art of Venetian glassmaking with an exclusive visit to master craftsmen workshops on Murano island, culminating in a hands-on private glass-blowing lesson where you'll create your own artistic souvenir.",
+    city: "Murano",
+    country: "Italy",
+    region: "Veneto",
     images: [
       "/images/tours/venice/murano-glassblowing.jpg",
       "/images/tours/venice/glass-workshop.jpg",
@@ -57,6 +63,9 @@ export const veniceTours: Tour[] = [
     title: "Venetian Culinary Secrets: Market & Cooking Class",
     description:
       "Immerse yourself in Venetian culinary traditions with a guided market tour through the Rialto Market, followed by a private cooking class in a historic palazzo where you'll learn to prepare classic Venetian dishes using fresh local ingredients.",
+    city: "Venice",
+    country: "Italy",
+    region: "Veneto",
     images: [
       "/images/tours/venice/culinary-market.jpg",
       "/images/tours/venice/cooking-class.jpg",
@@ -93,6 +102,9 @@ export const veniceTours: Tour[] = [
     title: "Venice Artisans & Hidden Galleries Tour",
     description:
       "Explore Venice's vibrant art scene with a guided tour of hidden galleries, artisan workshops, and local studios, meeting contemporary artists and craftsmen who keep the city's artistic traditions alive while discovering their unique creations.",
+    city: "Venice",
+    country: "Italy",
+    region: "Veneto",
     images: [
       "/images/tours/venice/artisans-workshop.jpg",
       "/images/tours/venice/contemporary-gallery.jpg",
