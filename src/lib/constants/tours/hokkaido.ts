@@ -2,489 +2,535 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const hokkaidoTours: Tour[] = [
   {
-    title: "Hokkaido Powder Skiing & Onsen Experience",
+    title: "Sapporo Snow Festival & Winter Lights",
     description:
-      "Experience Japan's legendary powder snow with guided skiing at premier resorts including Niseko and Rusutsu, followed by relaxing evenings in traditional hot spring onsen baths and authentic izakaya dining.",
-    city: "Niseko",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/powder-skiing.jpg",
-      "/images/tours/hokkaido/onsen-bath.jpg",
-    ],
-    duration: "7 days",
-    price: "$2,950",
-    rating: 4.9,
-    tags: ["Skiing", "Winter", "Onsen"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "What skill level of skiing is required?",
-        answer:
-          "This tour accommodates intermediate to advanced skiers who are comfortable on blue and black runs. Our guides will separate the group based on abilities to ensure everyone has an optimal experience. Beginners can be accommodated with private lessons (additional fee) but would not be able to participate in the off-piste powder skiing portions of the tour. Niseko's international ski school is excellent for improving skills before joining the main group activities.",
-      },
-      {
-        question: "What should I pack for the tour?",
-        answer:
-          "We provide a detailed packing list upon booking, but generally, you should bring warm winter clothing suitable for skiing (layers, waterproof jacket/pants, gloves, goggles), swimwear for onsen visits, and comfortable evening attire for dining out. Ski equipment can be rented locally or brought from home; we recommend renting to avoid excess baggage fees. Don't forget your camera to capture the stunning winter landscapes!",
-      },
-      {
-        question: "Are meals included in the tour price?",
-        answer:
-          "Yes, the tour includes daily breakfast, several group dinners at local izakayas, and one special kaiseki dinner. Lunches are generally not included to allow flexibility for skiing days, but our guides can recommend great local options. Dietary restrictions can be accommodated with advance notice.",
-      },
-    ],
-  },
-  {
-    title: "Hokkaido Culinary Journey & Farm Experience",
-    description:
-      "Discover why Hokkaido is Japan's gourmet paradise with visits to dairy farms, wasabi fields, seafood markets, and whisky distilleries. Learn traditional cooking techniques and enjoy exclusive dining experiences featuring the island's renowned seafood and produce.",
+      "Experience Japan's spectacular Sapporo Snow Festival with VIP access to ice sculpture competitions, exclusive evening viewings of illuminated snow masterpieces, and warm sake tastings at hidden izakaya bars.",
     city: "Sapporo",
     country: "Japan",
     region: "Hokkaido",
     images: [
-      "/images/tours/hokkaido/seafood-market.jpg",
-      "/images/tours/hokkaido/farm-visit.jpg",
+      "/images/tours/hokkaido/snow-festival.jpg",
+      "/images/tours/hokkaido/ice-sculptures.jpg",
     ],
-    duration: "5 days",
-    price: "$1,895",
-    rating: 4.8,
-    tags: ["Food", "Agriculture", "Cooking"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What makes Hokkaido cuisine unique in Japan?",
-        answer:
-          "Hokkaido's cuisine is distinctly different from the rest of Japan due to its northern climate, vast farmland, and surrounding seas. The region produces 70% of Japan's dairy (rare in traditional Japanese cuisine), exceptional seafood (especially crab, sea urchin, and salmon), and unique crops like corn and potatoes. You'll experience Genghis Khan (grilled lamb), soup curry, fresh dairy desserts, and the freshest sushi—all specialties rarely found with the same quality elsewhere in Japan. Hokkaido's brewing and distilling traditions also produce distinctive sake, beer, and internationally acclaimed whisky.",
-      },
-      {
-        question: "Do I need prior cooking experience for the workshops?",
-        answer:
-          "No prior cooking experience is necessary! Our workshops are designed for all skill levels, from complete beginners to experienced cooks. We focus on traditional techniques and local ingredients, with hands-on guidance from professional chefs. The goal is to have fun while learning about Hokkaido's culinary heritage, so come ready to enjoy the process!",
-      },
-    ],
-  },
-  {
-    title: "Wildlife & Nature Photography in Eastern Hokkaido",
-    description:
-      "Photograph Hokkaido's spectacular wildlife including red-crowned cranes, Steller's sea eagles, and Blakiston's fish owls with guidance from a professional wildlife photographer in pristine winter landscapes and volcanic national parks.",
-    city: "Kushiro",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/red-crowned-cranes.jpg",
-      "/images/tours/hokkaido/sea-eagles.jpg",
-    ],
-    duration: "6 days",
-    price: "$2,750",
+    duration: "5 hours",
+    price: "$120",
     rating: 4.9,
-    tags: ["Photography", "Winter"],
-
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "art-and-music",
-    faqs: [
-      {
-        question: "What photography equipment should I bring?",
-        answer:
-          "For wildlife photography, we recommend a DSLR or mirrorless camera with telephoto lenses (minimum 300mm, ideally 500-600mm for birds). A sturdy tripod is essential, as is a backup camera body if possible. For landscape work, wide-angle lenses (16-35mm range) and neutral density filters are useful. Winter conditions require extra batteries (cold depletes them quickly), weather protection for gear, and appropriate gloves that allow camera operation. We provide detailed equipment lists upon booking and offer limited lens rental with advance reservation.",
-      },
-      {
-        question:
-          "What is the best time of year for wildlife photography in Hokkaido?",
-        answer:
-          "The best time for wildlife photography in Hokkaido is winter (December to March) when snow covers the landscape, creating stunning contrasts with wildlife. This period is ideal for photographing red-crowned cranes, Steller's sea eagles, and other migratory birds. Spring (April to June) offers opportunities to capture bears emerging from hibernation and the blooming of wildflowers. Each season has unique photographic opportunities, so we tailor our itineraries based on your interests and the wildlife activity during your visit.",
-      },
-      {
-        question: "Do I need prior photography experience for this tour?",
-        answer:
-          "While basic photography knowledge is helpful, this tour is designed for all skill levels. Our guide provides daily workshops covering composition, lighting, and wildlife behavior to help you improve your skills. We focus on practical field techniques rather than technical jargon, so whether you're a beginner or advanced photographer, you'll gain valuable insights and have the opportunity to capture stunning images.",
-      },
-      {
-        question: "Are meals included during the photography tour?",
-        answer:
-          "Yes, all meals are included during the tour. We provide hearty breakfasts, packed lunches for field days, and dinners featuring local cuisine. Dietary restrictions can be accommodated with advance notice. The focus is on nutritious meals that provide energy for long days in the field while enjoying Hokkaido's culinary specialties.",
-      },
-    ],
-  },
-  {
-    title: "Volcano Hiking & Hot Springs Tour",
-    description:
-      "Explore Hokkaido's dramatic volcanic landscapes with guided hikes through Shikotsu-Toya National Park, ascending active volcanoes, walking through ancient calderas, and relaxing in therapeutic hot springs fed by geothermal activity.",
-    city: "Noboribetsu",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/volcano-hiking.jpg",
-      "/images/tours/hokkaido/crater-lake.jpg",
-    ],
-    duration: "4 days",
-    price: "$1,250",
-    rating: 4.7,
-    tags: ["Hiking", "Volcanoes", "Hot Springs"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "How difficult are the hikes?",
-        answer:
-          "The tour includes moderate hiking with daily treks ranging from 5-10km (3-6 miles) with elevation gains of 300-600m (980-1970ft). Trails are generally well-maintained but sometimes steep or rocky. A reasonable level of fitness is required, but we maintain a comfortable pace with frequent stops for photography and geological explanation. The most challenging hike is Mt. Tarumae (approximately 5 hours round-trip), but alternative activities can be arranged for those who prefer a less strenuous option.",
-      },
-      {
-        question: "What should I pack for the hikes?",
-        answer:
-          "We provide a detailed packing list upon booking, but generally, you should bring sturdy hiking boots, moisture-wicking clothing, a waterproof jacket, a hat, and sunscreen. Trekking poles are recommended for steeper sections. We also suggest bringing a refillable water bottle (we provide water purification tablets) and snacks for the trail. A small daypack is useful for carrying personal items during hikes.",
-      },
-    ],
-  },
-  {
-    title: "Hokkaido Winter Festivals & Ice Sculpture Tour",
-    description:
-      "Experience Hokkaido's world-famous winter festivals including the Sapporo Snow Festival with its massive ice sculptures, the ethereal Otaru Snow Light Path Festival, and participate in a hands-on ice sculpting workshop with master artists.",
-    city: "Sapporo",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/sapporo-snow-festival.jpg",
-      "/images/tours/hokkaido/ice-sculpture-workshop.jpg",
-    ],
-    duration: "5 days",
-    price: "$1,950",
-    rating: 4.8,
-    tags: ["Winter Festivals", "Cultural", "Art"],
+    tags: ["Winter", "Festival", "Cultural"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "cultural",
+    tourCategoryId: "festivals",
+
+    meetingPoint: {
+      address:
+        "Sapporo TV Tower, Odori Park, Chuo Ward, Sapporo, Hokkaido 060-0042",
+      coordinates: {
+        latitude: 43.0587,
+        longitude: 141.3521,
+      },
+      instructions:
+        "Meet in front of the TV Tower main entrance. Your guide will be holding a red 'Snow Festival Tour' sign.",
+      contactNumber: "+81 11-555-1234",
+      contactEmail: "snowfestival@paragontrails.com",
+    },
+
+    availableDates: [
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-05",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-12",
+    ],
+
+    highlights: [
+      "Experience special evening access to illuminated snow and ice sculptures",
+      "Meet ice sculptors and learn about their techniques",
+      "Enjoy priority viewing of the international ice sculpture competition",
+      "Sample premium hot sake at traditional izakaya bars",
+      "Receive insider tips on the best photo spots and viewing times",
+    ],
+
+    inclusions: [
+      "Professional English-speaking guide",
+      "Hot beverages throughout the tour",
+      "VIP access to designated festival areas",
+      "Three premium sake tastings with light snacks",
+      "Hand warmers and blankets for comfort",
+      "Commemorative Sapporo Snow Festival pin",
+      "Post-tour izakaya recommendations",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and beverages beyond included tastings",
+      "Optional ice slide activities (¥500 per person)",
+      "Souvenir purchases",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "16:00 - Meet at Sapporo TV Tower entrance",
+      "16:15 - Orientation and introduction to the Snow Festival history",
+      "16:30 - Visit main snow sculpture site at Odori Park",
+      "17:00 - Special access to international competition area",
+      "17:45 - Meet ice sculptors and learn about techniques (when available)",
+      "18:30 - Experience the spectacular evening illumination show",
+      "19:15 - First sake tasting at local izakaya",
+      "20:00 - Visit Susukino Ice World with illuminated ice sculptures",
+      "20:45 - Final sake tasting and warm refreshments",
+      "21:00 - Tour concludes with recommendations for late-night options",
+    ],
+
     faqs: [
       {
-        question: "When exactly do these festivals take place?",
+        question: "When is the Sapporo Snow Festival held?",
         answer:
-          "The main festivals occur in early to mid-February each year, with the Sapporo Snow Festival typically running for one week in the first half of February. The exact dates vary slightly each year and are usually announced in autumn. Our tour is carefully timed to include the peak days of the major festivals while avoiding the most crowded weekends. This tour only operates during the festival period in February, and we recommend booking at least 6 months in advance due to high demand for accommodations during this popular season.",
+          "The Sapporo Snow Festival (Sapporo Yuki Matsuri) is typically held during the first two weeks of February each year. The main festival sites are Odori Park, Susukino, and Tsudome. Our tour focuses on the Odori Park and Susukino sites, which feature the most spectacular sculptures and evening illuminations.",
       },
       {
-        question: "What should I wear for the winter festivals?",
+        question: "How cold does it get during the festival?",
         answer:
-          "Dress warmly in layers, including thermal base layers, insulated jackets, waterproof pants, and good winter boots. Hats, gloves, and scarves are essential to protect against the cold. We recommend bringing hand warmers and a small backpack for carrying personal items. The festivals are outdoors, so be prepared for cold temperatures and potential snow. We provide a detailed packing list upon booking to ensure you have everything needed for comfort during the events.",
-      },
-    ],
-  },
-  {
-    title: "Ainu Indigenous Culture Immersion",
-    description:
-      "Learn about Hokkaido's indigenous Ainu people through intimate cultural experiences, museum visits, craft workshops with master artisans, traditional performances, and forest walks highlighting traditional ecological knowledge and spiritual beliefs.",
-    city: "Shiraoi",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/ainu-village.jpg",
-      "/images/tours/hokkaido/ainu-crafts.jpg",
-    ],
-    duration: "3 days",
-    price: "$1,150",
-    rating: 4.6,
-    tags: ["Indigenous", "Cultural", "Crafts"],
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    isCulinary: true,
-    isSpiritual: true,
-    isArtOrMusic: true,
-    isLuxury: false,
-    isAdventure: false,
-    isNightlife: false,
-    isWellness: false,
-    isCultural: true,
-    isFree: false,
-    isPopular: true,
-    isAdventure: false,
-    isFamilyFriendly: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-    isOutdoor: true,
-    isIndoor: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "Who are the Ainu people?",
-        answer:
-          "The Ainu are the indigenous people of Hokkaido, northern Japan, and parts of Russia with a distinct language, religion, and cultural traditions different from mainstream Japanese culture. They traditionally lived by hunting, fishing, and gathering, with deep spiritual connections to nature. After centuries of discrimination and forced assimilation policies, the Japanese government only officially recognized the Ainu as indigenous people in 2019. Today, there is a revitalization of Ainu language, arts, and cultural practices, though there are fewer than 20,000 people who identify as Ainu. This tour provides respectful insight into their heritage while supporting contemporary Ainu cultural practitioners.",
-      },
-      {
-        question:
-          "What types of activities are included in the cultural immersion?",
-        answer:
-          "The tour includes visits to Ainu cultural museums, traditional craft workshops (such as wood carving and textile weaving), performances of Ainu music and dance, guided forest walks explaining traditional ecological knowledge, and opportunities to interact with Ainu artisans. We also include meals featuring traditional Ainu cuisine. The focus is on respectful engagement with Ainu culture, providing a deeper understanding of their history and contemporary practices.",
+          "February temperatures in Sapporo typically range from -1°C to -7°C (30°F to 19°F), with evening temperatures often dropping lower. We provide hand warmers, but guests should dress in proper winter attire including warm boots, insulated coat, hat, gloves, and scarf.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, this tour is family-friendly and suitable for children. The activities are designed to be engaging and educational for all ages, with opportunities for hands-on participation in crafts and performances. Children will enjoy learning about Ainu stories, music, and traditional ways of life in a respectful and interactive environment. We encourage families to participate together in the cultural experiences.",
-      },
-      {
-        question: "How does this tour support Ainu communities?",
-        answer:
-          "A portion of the tour fees goes directly to supporting Ainu cultural organizations and artisans. We prioritize working with Ainu guides and businesses to ensure that the experiences are authentic and benefit the community. By participating in this tour, you are helping to preserve and promote Ainu culture while providing economic support to contemporary Ainu practitioners.",
-      },
-      {
-        question:
-          "What is the best time to visit for Ainu cultural experiences?",
-        answer:
-          "The best time for this tour is during the summer months (June to September) when the weather is mild, and many Ainu festivals and events take place. However, we can arrange private tours year-round based on demand. Winter tours focus more on indoor cultural experiences due to cold weather, while summer allows for outdoor activities like forest walks and traditional fishing.",
-      },
-      {
-        question: "Are there any language barriers?",
-        answer:
-          "While many Ainu people speak Japanese, some may also speak Ainu language. Our guides are fluent in both English and Japanese, and we ensure that all cultural experiences are accessible to non-Japanese speakers. We also provide translation for any Ainu language components to enhance understanding of their cultural significance.",
-      },
-      {
-        question: "What should I wear for the cultural immersion activities?",
-        answer:
-          "Dress comfortably and respectfully, with layers suitable for the season. Outdoor activities may require sturdy shoes for walking in natural areas. We recommend avoiding overly casual attire (like beachwear) to show respect for Ainu traditions. If participating in craft workshops, we suggest wearing clothes that can get a bit messy.",
-      },
-      {
-        question: "Can I take photos during the cultural experiences?",
-        answer:
-          "Photography is generally allowed, but we ask that you respect any specific requests from Ainu guides or artisans regarding when and where photos can be taken. Some cultural practices may be private or sacred, so we will inform you in advance if photography is restricted in certain contexts. Always ask permission before photographing individuals.",
-      },
-      {
-        question: "Is this tour accessible for people with mobility issues?",
-        answer:
-          "We strive to make our tours as accessible as possible, but some activities (like forest walks) may not be suitable for those with significant mobility challenges. Please contact us in advance to discuss any specific accessibility needs, and we will do our best to accommodate them. Some cultural experiences can be adapted for wheelchair users or those with limited mobility.",
+          "This evening tour is designed primarily for adults due to the sake tastings and evening schedule. We offer a separate family-friendly daytime tour that includes interactive activities for children. Please inquire about our 'Family Snow Festival Adventure' if traveling with children under 18.",
       },
     ],
-    availableDates: [
-      "2024-06-01",
-      "2024-06-15",
-      "2024-07-01",
-      "2024-07-15",
-      "2024-08-01",
-      "2024-08-15",
-      "2024-09-01",
-      "2024-09-15",
-      "2024-10-01",
-      "2024-10-15",
-      "2024-11-01",
-      "2024-11-15",
-      "2024-12-01",
-      "2024-12-15",
-      "2025-01-01",
-      "2025-01-15",
-      "2025-02-01",
-      "2025-02-15",
-      "2025-03-01",
-      "2025-03-15",
-      "2025-04-01",
-      "2025-04-15",
-      "2025-05-01",
-      "2025-05-15",
-      "2025-06-01",
-      "2025-06-15",
-      "2025-07-01",
-      "2025-07-15",
-      "2025-08-01",
-      "2025-08-15",
-      "2025-09-01",
-      "2025-09-15",
-      "2025-10-01",
-      "2025-10-15",
-      "2025-11-01",
-      "2025-11-15",
-      "2025-12-01",
-      "2025-12-15",
-      "2026-01-01",
-      "2026-01-15",
-      "2026-02-01",
-      "2026-02-15",
-      "2026-03-01",
-      "2026-03-15",
-      "2026-04-01",
-      "2026-04-15",
-      "2026-05-01",
-    ],
-    highlights: [
-      "Visit Ainu cultural museums and heritage sites",
-      "Participate in traditional craft workshops (wood carving, textile weaving)",
-      "Experience Ainu music and dance performances",
-      "Guided forest walks explaining traditional ecological knowledge",
-      "Enjoy meals featuring traditional Ainu cuisine",
-      "Engage with contemporary Ainu artisans and cultural practitioners",
-    ],
-    inclusions: [
-      "All meals featuring traditional Ainu cuisine",
-      "Accommodation in Ainu guesthouses or local hotels",
-      "All cultural activity fees (museums, workshops, performances)",
-      "Guided forest walks with Ainu naturalists",
-      "Transportation during the tour",
-    ],
-    exclusions: [
-      "International airfare to Hokkaido",
-      "Personal expenses (souvenirs, snacks)",
-      "Travel insurance (highly recommended)",
-      "Optional activities not listed in the itinerary",
-    ],
-    itinerary: [
-      "Day 1: Arrive in Hokkaido, transfer to Ainu village, welcome dinner with Ainu hosts",
-      "Day 2: Visit Ainu cultural museum, participate in wood carving workshop, evening Ainu music performance",
-      "Day 3: Guided forest walk with Ainu naturalist, textile weaving workshop, farewell dinner featuring traditional Ainu dishes",
-      "Day 4: Depart Hokkaido or extend your stay for additional cultural experiences",
-    ],
-    meetingPoint: {
-      address: "Ainu Cultural Center, Hokkaido, Japan",
-      coordinates: {
-        latitude: 43.06417,
-        longitude: 141.34694,
-      },
-      instructions:
-        "Meet your guide at the Ainu Cultural Center entrance at 9:00 AM on Day 1. Look for the guide holding a sign with your tour name.",
-      contactNumber: "+81-123-456-7890",
-    },
-    cancellationPolicy:
-      "Cancellations made more than 30 days before the tour start date will receive a full refund. Cancellations made between 15-30 days before the tour will incur a 50% cancellation fee. Cancellations made less than 15 days before the tour are non-refundable. We highly recommend purchasing travel insurance to cover any unforeseen circumstances.",
   },
   {
-    title: "Hokkaido Lavender Fields & Flower Farm Experience",
+    title: "Otaru Ice & Snow Path: Winter Night Lights",
     description:
-      "Visit Hokkaido during its spectacular summer bloom with exclusive access to Furano's lavender fields, flower farms, and renowned gardens. Join a photography workshop during 'magic hour' and create your own lavender products in a hands-on workshop.",
+      "Experience the magical winter illuminations along Otaru's historic canal, with its path lined by hundreds of handcrafted snow lanterns casting a warm glow on snow sculptures, followed by a visit to artisanal glass workshops.",
+    city: "Otaru",
+    country: "Japan",
+    region: "Hokkaido",
+    images: [
+      "/images/tours/hokkaido/otaru-canal.jpg",
+      "/images/tours/hokkaido/snow-lanterns.jpg",
+    ],
+    duration: "4 hours",
+    price: "$90",
+    rating: 4.8,
+    tags: ["Winter", "Night Tour", "Romantic"],
+
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "winter",
+
+    meetingPoint: {
+      address: "Otaru Station, 1-1-4 Inaho, Otaru, Hokkaido 047-0007",
+      coordinates: {
+        latitude: 43.1975,
+        longitude: 141.0042,
+      },
+      instructions:
+        "Meet inside Otaru Station near the ticket gates. Your guide will be holding a blue lantern with 'Otaru Night Tour' written on it.",
+      contactNumber: "+81 11-555-2345",
+      contactEmail: "otaru@paragontrails.com",
+    },
+
+    availableDates: [
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-05",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-12",
+    ],
+
+    highlights: [
+      "Experience the magical atmosphere of hundreds of snow lanterns along Otaru Canal",
+      "Create your own snow lantern to contribute to the festival",
+      "Visit the historic Otaru Music Box Museum illuminated for winter evenings",
+      "Observe glass artisans creating delicate snow-themed pieces",
+      "Sample warming local sake and traditional winter treats",
+    ],
+
+    inclusions: [
+      "Round-trip transportation from Sapporo (if option selected)",
+      "Professional English-speaking guide",
+      "Snow lantern making materials and guidance",
+      "Hot drinks and traditional winter snacks",
+      "Entrance to special illumination areas",
+      "Glass studio demonstration",
+      "Commemorative small glass ornament",
+    ],
+
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Dinner (optional add-on available)",
+      "Additional food and beverages beyond included items",
+      "Optional glass-making workshop (¥2,500 per person)",
+      "Personal shopping purchases",
+    ],
+
+    itinerary: [
+      "16:30 - Meet at Otaru Station (or depart from Sapporo if transportation option selected)",
+      "16:45 - Orientation walk through historic Otaru district",
+      "17:15 - Visit to glass workshop with artisan demonstration",
+      "18:00 - Snow lantern making activity with local festival volunteers",
+      "18:45 - Place your lantern along the canal path",
+      "19:15 - Experience the full canal illumination at peak viewing time",
+      "19:45 - Visit Otaru Music Box Museum with special winter exhibits",
+      "20:15 - Warming sake and traditional snacks at canal-side shop",
+      "20:45 - Return to Otaru Station (or transport to Sapporo if option selected)",
+    ],
+
+    faqs: [
+      {
+        question: "When is the Otaru Snow Light Path Festival?",
+        answer:
+          "The Otaru Snow Light Path Festival (Otaru Yuki Akari no Michi) is held annually for about 10 days in early February, coinciding with the Sapporo Snow Festival. The specific dates vary slightly each year, but the event typically runs from February 1-11.",
+      },
+      {
+        question: "Can we really make our own snow lantern?",
+        answer:
+          "Yes! Under guidance from local festival volunteers, you'll learn how to create your own snow lantern using traditional methods. Your creation will then become part of the festival display along the canal, with a small marker noting your contribution if desired.",
+      },
+      {
+        question: "Is transportation from Sapporo included?",
+        answer:
+          "Transportation is available as an add-on option. Otaru is approximately 40 minutes from Sapporo by train. You can choose to meet us directly in Otaru or select the transportation option which includes round-trip train tickets and guidance from Sapporo.",
+      },
+    ],
+  },
+  {
+    title: "Niseko Powder Skiing & Mountain Onsen",
+    description:
+      "Experience Japan's legendary powder snow with a guided skiing adventure at Niseko United resort, followed by relaxation in a traditional Japanese onsen with mountain views and sake tasting.",
+    city: "Niseko",
+    country: "Japan",
+    region: "Hokkaido",
+    images: [
+      "/images/tours/hokkaido/niseko-skiing.jpg",
+      "/images/tours/hokkaido/mountain-onsen.jpg",
+    ],
+    duration: "Full day",
+    price: "$225",
+    rating: 4.9,
+    tags: ["Skiing", "Onsen", "Winter"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "winter",
+
+    meetingPoint: {
+      address:
+        "Niseko Mountain Center, 204 Aza Yamada, Kutchan, Hokkaido 044-0081",
+      coordinates: {
+        latitude: 42.8651,
+        longitude: 140.7009,
+      },
+      instructions:
+        "Meet at the Niseko Mountain Center main lobby near the fireplace. Your guide will be wearing a red instructor jacket with 'Paragon Trails' logo.",
+      contactNumber: "+81 136-555-3456",
+      contactEmail: "niseko@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-15",
+      "2023-12-22",
+      "2023-12-29",
+      "2024-01-05",
+      "2024-01-12",
+      "2024-01-19",
+      "2024-01-26",
+      "2024-02-02",
+      "2024-02-09",
+      "2024-02-16",
+      "2024-02-23",
+    ],
+
+    highlights: [
+      "Experience Niseko's world-famous powder snow with expert guidance",
+      "Access hidden ski runs and powder stashes unknown to most visitors",
+      "Relax in an authentic Japanese onsen (hot spring) with mountain views",
+      "Enjoy premium sake tasting paired with seasonal mountain cuisine",
+      "Receive professional skiing tips tailored to your ability level",
+    ],
+
+    inclusions: [
+      "Professional ski guide/instructor (English-speaking)",
+      "Full-day lift ticket for Niseko United resorts",
+      "Transportation between ski areas if needed",
+      "Onsen entry fee and towel rental",
+      "Premium sake tasting (3 varieties)",
+      "Traditional Japanese lunch at mountain restaurant",
+      "Photos of your ski experience (digital delivery)",
+    ],
+
+    exclusions: [
+      "Ski/snowboard equipment rental (available as add-on)",
+      "Transportation to/from Niseko",
+      "Additional food and beverages beyond included items",
+      "Optional travel insurance",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "08:00 - Meet at Niseko Mountain Center",
+      "08:15 - Equipment fitting (if rental option selected)",
+      "08:45 - Orientation and safety briefing",
+      "09:00 - Morning ski session focusing on technique and terrain familiarity",
+      "10:30 - Coffee break and skill assessment",
+      "11:00 - Guided powder runs tailored to your ability level",
+      "13:00 - Traditional Japanese lunch at mountain restaurant",
+      "14:00 - Afternoon ski session exploring hidden powder stashes",
+      "16:00 - End ski portion of the day",
+      "16:30 - Visit traditional Japanese onsen for relaxation",
+      "18:00 - Premium sake tasting with light mountain cuisine",
+      "19:00 - Tour concludes with return to Mountain Center",
+    ],
+
+    faqs: [
+      {
+        question: "What skiing ability level is required?",
+        answer:
+          "This tour can accommodate intermediate to advanced skiers or snowboarders (comfortable on blue/red runs and with some off-piste experience). We customize the day based on your skill level and can split groups by ability. For beginners, we recommend our separate 'Niseko First Tracks' program with dedicated instruction.",
+      },
+      {
+        question: "What should I know about onsen etiquette?",
+        answer:
+          "Traditional Japanese onsens require bathing nude and are typically gender-separated. You'll need to thoroughly wash before entering the mineral baths. Tattoos are traditionally prohibited in many onsens, but our selected facility is foreigner-friendly. Your guide will explain all customs before arrival to ensure comfort with the experience.",
+      },
+      {
+        question: "Can I rent ski equipment through this tour?",
+        answer:
+          "Yes, we offer premium ski/snowboard equipment rental as an optional add-on. Please provide your height, weight, shoe size, and skiing ability level when booking so we can have appropriate equipment ready. Our rental equipment includes high-quality powder skis specially designed for Niseko's snow conditions.",
+      },
+    ],
+  },
+  {
+    title: "Shiretoko Peninsula Wildlife & Nature",
+    description:
+      "Explore UNESCO-listed Shiretoko Peninsula, one of Japan's last true wilderness areas, with guided nature walks, wildlife spotting opportunities including Blakiston's fish owl and brown bears, and seasonal drift ice explorations.",
+    city: "Utoro",
+    country: "Japan",
+    region: "Hokkaido",
+    images: [
+      "/images/tours/hokkaido/shiretoko-peninsula.jpg",
+      "/images/tours/hokkaido/hokkaido-wildlife.jpg",
+    ],
+    duration: "10 hours",
+    price: "$195",
+    rating: 4.7,
+    tags: ["Nature", "Wildlife", "UNESCO"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "adventure",
+
+    meetingPoint: {
+      address:
+        "Shiretoko Nature Center, 531 Iwaobetsu, Shari, Hokkaido 099-4356",
+      coordinates: {
+        latitude: 44.1254,
+        longitude: 145.3131,
+      },
+      instructions:
+        "Meet at the entrance of Shiretoko Nature Center. Your naturalist guide will be waiting with a 'Wildlife Tour' sign and binoculars.",
+      contactNumber: "+81 152-555-4567",
+      contactEmail: "shiretoko@paragontrails.com",
+    },
+
+    availableDates: [
+      "2023-12-16",
+      "2023-12-23",
+      "2023-12-30",
+      "2024-01-06",
+      "2024-01-13",
+      "2024-01-20",
+      "2024-01-27",
+      "2024-02-03",
+      "2024-02-10",
+      "2024-02-17",
+      "2024-02-24",
+    ],
+
+    highlights: [
+      "Explore the UNESCO World Heritage Shiretoko Peninsula with expert naturalist guides",
+      "Opportunity to spot diverse wildlife including brown bears, deer, foxes and rare bird species",
+      "Visit the dramatic Kamuiwakka Hot Falls where hot spring water cascades down cliffs",
+      "Witness seasonal drift ice formations (January-March) or lush summer forests",
+      "Enjoy spectacular mountain-to-sea landscapes found nowhere else in Japan",
+    ],
+
+    inclusions: [
+      "Professional naturalist guide with wildlife expertise",
+      "Transportation within Shiretoko Peninsula",
+      "High-quality binoculars and spotting scopes",
+      "Traditional bento lunch featuring local Hokkaido specialties",
+      "National park entry fees",
+      "Hot drinks and trail snacks",
+      "Wildlife guide booklet and checklist",
+    ],
+
+    exclusions: [
+      "Transportation to/from Shiretoko",
+      "Accommodation (overnight options available)",
+      "Optional drift ice walk equipment rental (¥3,000 in winter)",
+      "Additional meals beyond included lunch",
+      "Personal travel insurance",
+      "Souvenir purchases",
+    ],
+
+    itinerary: [
+      "07:00 - Meet at Shiretoko Nature Center",
+      "07:15 - Orientation and wildlife briefing",
+      "07:30 - Early morning wildlife spotting at prime locations",
+      "09:00 - Guided nature walk through old-growth forest",
+      "10:30 - Visit to Kamuiwakka Hot Falls (seasonal)",
+      "12:00 - Traditional bento lunch at scenic viewpoint",
+      "13:30 - Five Lakes walking tour with wildlife interpretation",
+      "15:00 - Winter: Drift ice observation or Summer: Waterfall hike",
+      "16:30 - Visit to Rausu coast for sea bird watching",
+      "17:30 - Return to Nature Center with evening wildlife spotting en route",
+      "18:00 - Tour concludes with summary and wildlife checklist review",
+    ],
+
+    faqs: [
+      {
+        question: "Will we definitely see bears and other wildlife?",
+        answer:
+          "Wildlife sightings depend on season, weather, and luck - they can never be guaranteed. Brown bears are most commonly seen from spring to autumn, with summer offering highest probability. Your expert guide will maximize wildlife viewing opportunities based on recent sightings and behavior patterns. Even without large mammal sightings, the tour offers numerous bird species, smaller mammals, and spectacular untouched landscapes.",
+      },
+      {
+        question: "What is the best season to visit Shiretoko?",
+        answer:
+          "Each season offers distinct experiences: Winter (Dec-Mar) features dramatic drift ice formations and snow-covered landscapes. Spring (Apr-Jun) brings wildlife activity and waterfalls. Summer (Jul-Sep) offers lush forests and peak bear viewing. Autumn (Oct-Nov) showcases spectacular fall colors. This tour operates year-round with seasonal adjustments to maximize each period's unique natural phenomena.",
+      },
+      {
+        question: "How physically demanding is this tour?",
+        answer:
+          "This tour involves moderate walking on varied terrain (3-5 miles total) with some elevation changes. Trails can be snowy, muddy, or uneven depending on season. Winter tours require additional stamina due to cold conditions. Participants should be comfortable walking for periods of 1-2 hours, though the pace is unhurried to accommodate wildlife observation.",
+      },
+    ],
+  },
+  {
+    title: "Furano Lavender Fields & Farm Experience",
+    description:
+      "Immerse yourself in Hokkaido's picture-perfect lavender fields with a tour of Furano's most scenic farms, workshops on lavender cultivation and essential oil distillation, followed by lavender-infused cuisine and craft experiences.",
     city: "Furano",
     country: "Japan",
     region: "Hokkaido",
     images: [
       "/images/tours/hokkaido/lavender-fields.jpg",
-      "/images/tours/hokkaido/flower-farms.jpg",
+      "/images/tours/hokkaido/farm-tomita.jpg",
     ],
-    duration: "4 days",
-    price: "$1,450",
-    rating: 4.9,
-    tags: ["Flowers", "Photography", "Summer"],
+    duration: "7 hours",
+    price: "$130",
+    rating: 4.8,
+    tags: ["Lavender", "Rural", "Photography"],
 
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "When is the best time to see the lavender fields?",
-        answer:
-          "The lavender in Furano typically blooms from late June to early August, with peak bloom usually occurring in mid-July. This can vary slightly depending on weather conditions each year. Our tours are scheduled during the optimal viewing periods, and we monitor bloom conditions closely before your visit. The tour also includes visits to flower farms with different blooming schedules, ensuring spectacular floral displays throughout the summer season. Each month offers different flowers: lupins and tulips in June, lavender in July, and sunflowers and dahlias in August.",
-      },
-      {
-        question: "What should I wear for the flower farm visits?",
-        answer:
-          "Dress comfortably for warm summer weather, with breathable clothing and sturdy shoes suitable for walking on uneven terrain. A wide-brimmed hat and sunscreen are recommended to protect against sun exposure. We also suggest bringing a refillable water bottle to stay hydrated during outdoor activities. If you plan to participate in the photography workshop, consider bringing a camera or smartphone with good photo capabilities.",
-      },
-      {
-        question: "Can I purchase lavender products during the tour?",
-        answer:
-          "Yes, we visit local shops where you can purchase high-quality lavender products such as essential oils, soaps, dried lavender bundles, and culinary items like lavender honey. The hands-on workshop also allows you to create your own lavender sachets or infused oils to take home as unique souvenirs.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and suitable for children. The flower farms are safe and engaging for kids, with opportunities to learn about plants and nature. The photography workshop can be adapted for all ages, and children will enjoy the hands-on activities like making lavender sachets. We encourage families to participate together in the outdoor experiences.",
-      },
-      {
-        question: "What photography skills will the workshop cover?",
-        answer:
-          "The photography workshop focuses on capturing the beauty of the lavender fields and surrounding landscapes during 'magic hour' (the hour before sunset). Topics include composition, lighting techniques, and using natural elements to enhance your photos. Our guide provides practical tips for both smartphone and DSLR users, ensuring everyone can improve their photography skills regardless of experience level. The goal is to help you capture stunning images while enjoying the serene beauty of Hokkaido's summer blooms.",
-      },
-    ],
-  },
-  {
-    title: "Hokkaido Coastal Wilderness Kayaking",
-    description:
-      "Paddle along Hokkaido's dramatic Shiretoko Peninsula, a UNESCO World Heritage site, observing brown bears, whales, and sea birds from stable sea kayaks with expert guides. Camp on secluded beaches and soak in natural hot springs accessible only by water.",
-    city: "Shiretoko",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/sea-kayaking.jpg",
-      "/images/tours/hokkaido/coastal-camping.jpg",
-    ],
-    duration: "5 days",
-    price: "$1,850",
-    rating: 4.7,
-    tags: ["Kayaking", "Camping"],
+    tourCategoryId: "nature",
 
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
-    faqs: [
-      {
-        question: "Do I need previous kayaking experience?",
-        answer:
-          "No prior kayaking experience is necessary, though a moderate fitness level and comfort around water are required. We use stable, two-person sea kayaks and provide comprehensive instruction before departure. The paddling distances are manageable (typically 3-5 hours per day) with plenty of breaks. Our route stays relatively close to shore in protected waters, though sea conditions can change. For those with limited outdoor experience, we offer an optional pre-trip training day for additional comfort and skill building.",
+    meetingPoint: {
+      address: "Furano Station, 1 Asahimachi, Furano, Hokkaido 076-0022",
+      coordinates: {
+        latitude: 43.3427,
+        longitude: 142.3908,
       },
-      {
-        question: "What should I pack for the kayaking tour?",
-        answer:
-          "We provide a detailed packing list upon booking, but generally, you should bring quick-drying clothing suitable for kayaking (swimsuit, moisture-wicking layers), waterproof jacket and pants, sturdy sandals or water shoes, and a hat. We also recommend a refillable water bottle, sunscreen, and personal toiletries. Camping gear (tents, sleeping bags) is provided, but you may want to bring your own sleeping pad for extra comfort. A small dry bag for personal items is useful to keep things organized while on the water.",
-      },
-      {
-        question: "Are meals included during the kayaking tour?",
-        answer:
-          "Yes, all meals are included during the tour. We provide hearty breakfasts, packed lunches for kayaking days, and dinners cooked over campfires or portable stoves. Our guides prepare fresh ingredients sourced from local markets whenever possible. Dietary restrictions can be accommodated with advance notice. The focus is on nutritious meals that provide energy for outdoor activities while enjoying the natural surroundings.",
-      },
-    ],
-  },
-  {
-    title: "Hokkaido Snowshoeing & Winter Wildlife Tour",
-    description:
-      "Explore Hokkaido's winter wilderness on snowshoes, tracking wildlife like red foxes, deer, and owls with expert naturalist guides. Visit frozen lakes, ancient forests, and scenic viewpoints while learning about the region's unique ecology.",
-    city: "Akan",
-    country: "Japan",
-    region: "Hokkaido",
-    images: [
-      "/images/tours/hokkaido/snowshoeing.jpg",
-      "/images/tours/hokkaido/winter-wildlife.jpg",
-    ],
-    duration: "4 days",
-    price: "$1,350",
-    rating: 4.8,
-    tags: ["Snowshoeing", "Winter"],
+      instructions:
+        "Meet inside Furano Station near the tourist information desk. Your guide will be holding a lavender-colored sign with 'Lavender Tour' written on it.",
+      contactNumber: "+81 167-555-5678",
+      contactEmail: "lavender@paragontrails.com",
+    },
 
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: false,
-    tourCategoryId: "adventure",
+    availableDates: [
+      "2024-06-15",
+      "2024-06-22",
+      "2024-06-29",
+      "2024-07-06",
+      "2024-07-13",
+      "2024-07-20",
+      "2024-07-27",
+      "2024-08-03",
+      "2024-08-10",
+      "2024-08-17",
+    ],
+
+    highlights: [
+      "Visit multiple lavender farms including the famous Farm Tomita",
+      "Photograph stunning landscapes of purple lavender fields against mountain backdrops",
+      "Learn traditional Japanese lavender cultivation and harvesting techniques",
+      "Participate in a lavender essential oil distillation workshop",
+      "Enjoy farm-to-table cuisine featuring lavender-infused specialties",
+    ],
+
+    inclusions: [
+      "Transportation between lavender fields and farms",
+      "Professional English-speaking guide with botanical knowledge",
+      "Lavender essential oil distillation workshop",
+      "Farm-to-table lunch with lavender cuisine",
+      "Lavender craft activity (sachet making)",
+      "Lavender soft-serve ice cream",
+      "Take-home lavender products (oil and dried bouquet)",
+    ],
+
+    exclusions: [
+      "Transportation to/from Furano",
+      "Additional lavender products beyond included items",
+      "Optional activities at select farms (¥500-1,000)",
+      "Professional photography services",
+      "Gratuities (not customary in Japan)",
+    ],
+
+    itinerary: [
+      "09:30 - Meet at Furano Station",
+      "10:00 - Arrive at Farm Tomita for guide through different lavender varieties",
+      "10:45 - Free time for photography at iconic Hokkaido lavender field views",
+      "11:30 - Transfer to traditional lavender farm",
+      "12:00 - Participate in lavender harvesting (seasonal)",
+      "12:45 - Lavender essential oil distillation workshop",
+      "13:30 - Farm-to-table lunch with lavender-infused dishes",
+      "14:30 - Visit to Flower Land Kamifurano for panoramic views",
+      "15:30 - Lavender craft activity (sachet making)",
+      "16:00 - Lavender soft-serve ice cream tasting",
+      "16:30 - Return to Furano Station",
+    ],
+
     faqs: [
       {
-        question: "Do I need prior snowshoeing experience?",
+        question: "When is the best time to see the lavender in bloom?",
         answer:
-          "No prior snowshoeing experience is necessary! Our guides provide comprehensive instruction on using snowshoes and adjusting your technique for different terrain. The trails are designed for all skill levels, from beginners to experienced outdoor enthusiasts. A moderate fitness level is required, as we cover approximately 5-10km (3-6 miles) per day at a relaxed pace with plenty of breaks for wildlife observation and photography.",
+          "The lavender blooming season in Furano is relatively short, typically from late June to early August, with peak bloom usually occurring in mid-July. The exact timing varies slightly each year depending on weather conditions. Different varieties have staggered blooming periods, so some lavender can be seen throughout the summer season.",
       },
       {
-        question: "What should I wear for the snowshoeing tour?",
+        question: "Is this tour only worthwhile during lavender season?",
         answer:
-          "Dress in layers suitable for cold weather, including thermal base layers, insulated jackets, waterproof pants, and warm gloves. Sturdy waterproof boots are essential for comfort while snowshoeing. We recommend wearing a hat and bringing sunglasses to protect against glare from the snow. A small backpack for personal items (water bottle, snacks) is useful during hikes.",
+          "This specific tour is designed around the lavender bloom and operates only during late June to August when lavender is visible. During other seasons, we offer alternative Furano experiences showcasing seasonal highlights: spring tulips, autumn foliage, or winter snow landscapes with different itineraries and activities.",
       },
       {
-        question: "Are meals included during the tour?",
+        question: "How much walking is involved?",
         answer:
-          "Yes, all meals are included during the tour. We provide hearty breakfasts, packed lunches for snowshoeing days, and dinners featuring local cuisine. Dietary restrictions can be accommodated with advance notice. The focus is on nutritious meals that provide energy for outdoor activities while enjoying Hokkaido's winter landscapes.",
+          "This tour involves light to moderate walking over generally flat terrain. You'll walk approximately 2-3 miles throughout the day, divided between different farm locations. Paths are well-maintained but may include some uneven ground through fields. The pace is leisurely with plenty of stops for photos and activities.",
       },
     ],
   },
