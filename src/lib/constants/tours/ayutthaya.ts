@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const ayutthayaTours: Tour[] = [
   {
     title: "Ayutthaya Ancient Capitals Private Tour",
@@ -16,7 +15,6 @@ export const ayutthayaTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["Temples", "History"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -133,7 +131,6 @@ export const ayutthayaTours: Tour[] = [
     price: "$85",
     rating: 4.7,
     tags: ["Cycling", "Boat Tour", "Active"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -252,7 +249,6 @@ export const ayutthayaTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Photography", "Sunset", "Temples"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -367,7 +363,6 @@ export const ayutthayaTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Food", "Markets", "Cooking"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -485,7 +480,6 @@ export const ayutthayaTours: Tour[] = [
     price: "$145",
     rating: 4.8,
     tags: ["Elephants", "Conservation"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -587,5 +581,4 @@ export const ayutthayaTours: Tour[] = [
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
-
 export default ayutthayaTours;

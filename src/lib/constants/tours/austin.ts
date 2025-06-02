@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const austinTours: Tour[] = [
   {
     title: "Live Music Crawl & Backstage Access",
@@ -17,7 +16,6 @@ export const austinTours: Tour[] = [
     price: "$79",
     rating: 4.8,
     tags: ["Music", "Nightlife", "Cultural"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -115,7 +113,6 @@ export const austinTours: Tour[] = [
       "10:30 PM: Final venue featuring headlining act",
       "11:00 PM: Tour conclusion (you're welcome to stay at the final venue)",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -135,7 +132,6 @@ export const austinTours: Tour[] = [
     price: "$115",
     rating: 4.9,
     tags: ["Food", "BBQ", "Beer"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -235,7 +231,6 @@ export const austinTours: Tour[] = [
       "05:30 PM: Final brewery with extended tasting and optional dinner",
       "07:00 PM: Tour conclusion",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -255,7 +250,6 @@ export const austinTours: Tour[] = [
     price: "$45",
     rating: 4.7,
     tags: ["History", "Culture", "Walking Tour"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
@@ -350,7 +344,6 @@ export const austinTours: Tour[] = [
       "11:45 AM: Walk through historic Sixth Street",
       "12:30 PM: Tour conclusion at a local restaurant or shop",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -370,7 +363,6 @@ export const austinTours: Tour[] = [
     price: "$55",
     rating: 4.6,
     tags: ["Nature", "Kayaking", "Outdoor"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -466,7 +458,6 @@ export const austinTours: Tour[] = [
       "11:30 AM: Return to the launch site and shuttle back",
       "11:45 AM: Tour conclusion at the meeting point",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -486,7 +477,6 @@ export const austinTours: Tour[] = [
     price: "$99",
     rating: 4.8,
     tags: ["Wine", "Scenic", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -588,7 +578,6 @@ export const austinTours: Tour[] = [
       "06:00 PM: Arrive back in Austin",
       "06:15 PM: Tour conclusion at the meeting point",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
@@ -940,5 +929,4 @@ export const austinTours: Tour[] = [
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
-
 export default austinTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const atlasMountainsTours: Tour[] = [
   {
     title: "Berber Villages & High Atlas Trek",
@@ -16,7 +15,6 @@ export const atlasMountainsTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Trekking", "Cultural", "Villages"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -136,7 +134,6 @@ export const atlasMountainsTours: Tour[] = [
     price: "$225",
     rating: 4.8,
     tags: ["Mountaineering", "Summit", "Challenge"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -255,7 +252,6 @@ export const atlasMountainsTours: Tour[] = [
     price: "$895",
     rating: 4.9,
     tags: ["Photography", "Landscapes", "Workshop"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -378,7 +374,6 @@ export const atlasMountainsTours: Tour[] = [
     price: "$1,495",
     rating: 5.0,
     tags: ["Luxury", "Relaxation", "Gourmet"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -502,7 +497,6 @@ export const atlasMountainsTours: Tour[] = [
     price: "$195",
     rating: 4.7,
     tags: ["Cooking", "Herbs", "Traditional"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -608,5 +602,4 @@ export const atlasMountainsTours: Tour[] = [
     ],
   },
 ];
-
 export default atlasMountainsTours;

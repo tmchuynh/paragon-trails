@@ -15,7 +15,6 @@ export const baliTours: Tour[] = [
     price: "$120",
     rating: 4.9,
     tags: ["Spiritual", "Temples", "Cultural"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -105,7 +104,6 @@ export const baliTours: Tour[] = [
       "5:30 PM: Watch Kecak Fire Dance performance (if available)",
       "7:00 PM: Return to hotel",
     ],
-
     cancellationPolicy:
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
     meetingPoint: {
@@ -135,7 +133,6 @@ export const baliTours: Tour[] = [
     price: "$95",
     rating: 4.8,
     tags: ["Art", "Crafts", "Adventure"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -253,7 +250,6 @@ export const baliTours: Tour[] = [
     price: "$110",
     rating: 4.7,
     tags: ["Beaches", "Cruise", "Sunset"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -367,7 +363,6 @@ export const baliTours: Tour[] = [
     price: "$130",
     rating: 4.9,
     tags: ["Adventure", "Hiking", "Nature"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -484,7 +479,6 @@ export const baliTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Culinary", "Cooking Class", "Local Experience"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -822,5 +816,4 @@ export const baliTours: Tour[] = [
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
-
 export default baliTours;

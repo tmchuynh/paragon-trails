@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const bangkokTours: Tour[] = [
   {
     title: "Hidden Canals & Local Life Experience",
@@ -16,7 +15,6 @@ export const bangkokTours: Tour[] = [
     price: "$85",
     rating: 4.9,
     tags: ["Canals", "Local Life", "Off-the-beaten-path"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: true,
@@ -134,7 +132,6 @@ export const bangkokTours: Tour[] = [
     price: "$115",
     rating: 4.8,
     tags: ["Nightlife", "Street Food", "Rooftops"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -251,7 +248,6 @@ export const bangkokTours: Tour[] = [
     price: "$70",
     rating: 4.9,
     tags: ["Cultural", "Historical", "Temples"],
-
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -367,7 +363,6 @@ export const bangkokTours: Tour[] = [
     price: "$90",
     rating: 4.8,
     tags: ["Markets", "Crafts", "Local Experience"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -469,5 +464,4 @@ export const bangkokTours: Tour[] = [
       "Full refund if canceled at least 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
   },
 ];
-
 export default bangkokTours;

@@ -1,5 +1,4 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-
 export const bandipurTours: Tour[] = [
   {
     title: "Wildlife Safari: Tiger & Elephant Expedition",
@@ -17,7 +16,6 @@ export const bandipurTours: Tour[] = [
     price: "$195",
     rating: 4.9,
     tags: ["Safari", "Tigers", "Wildlife Photography"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -147,7 +145,6 @@ export const bandipurTours: Tour[] = [
     price: "$85",
     rating: 4.8,
     tags: ["Indigenous", "Cultural", "Conservation"],
-
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -271,7 +268,6 @@ export const bandipurTours: Tour[] = [
     price: "$295",
     rating: 4.9,
     tags: ["Photography", "Workshop"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -402,7 +398,6 @@ export const bandipurTours: Tour[] = [
     price: "$75",
     rating: 4.7,
     tags: ["Birding", "Nature", "Endemic Species"],
-
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
@@ -534,7 +529,6 @@ export const bandipurTours: Tour[] = [
     price: "$125",
     rating: 4.8,
     tags: ["Sunset", "Safari", "Astronomy"],
-
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
@@ -644,5 +638,4 @@ export const bandipurTours: Tour[] = [
     ],
   },
 ];
-
 export default bandipurTours;
