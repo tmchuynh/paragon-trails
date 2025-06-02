@@ -14,6 +14,11 @@ export const coorgTours: Tour[] = [
       "https://images.unsplash.com/photo-1515694590185-73647ba02c10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEltbWVyc2UlMjB5b3Vyc2VsZiUyMGluJTIwdGhlJTIwd29ybGQlMjBvZiUyMHByZW1pdW0lMjBjb2ZmZWUlMjBwcm9kdWN0aW9uJTIwd2l0aCUyMGElMjBndWlkZWQlMjB0b3VyJTIwdGhyb3VnaCUyMGx1c2glMjBDb29yZyUyMHBsYW50YXRpb25zfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1626533456260-3e59f83ad244?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEltbWVyc2UlMjB5b3Vyc2VsZiUyMGluJTIwdGhlJTIwd29ybGQlMjBvZiUyMHByZW1pdW0lMjBjb2ZmZWUlMjBwcm9kdWN0aW9uJTIwd2l0aCUyMGElMjBndWlkZWQlMjB0b3VyJTIwdGhyb3VnaCUyMGx1c2glMjBDb29yZyUyMHBsYW50YXRpb25zfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1722962814447-9cedc99f9e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fEltbWVyc2UlMjB5b3Vyc2VsZiUyMGluJTIwdGhlJTIwd29ybGQlMjBvZiUyMHByZW1pdW0lMjBjb2ZmZWUlMjBwcm9kdWN0aW9uJTIwd2l0aCUyMGElMjBndWlkZWQlMjB0b3VyJTIwdGhyb3VnaCUyMGx1c2glMjBDb29yZyUyMHBsYW50YXRpb25zfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1592172891881-952cbbd0a605?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1652355045956-41665ecf16fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1691411181533-7b083a728831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718737640604-029a7e048adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1677147254205-cd4aae5c6eb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fERpc2NvdmVyJTIwdGhlJTIwdW5pcXVlJTIwY3VsdHVyZSUyMG9mJTIwQ29vcmcncyUyMGluZGlnZW5vdXMlMjBLb2RhdmElMjBwZW9wbGUlMjB3aXRoJTIwdmlzaXRzJTIwdG8lMjB0cmFkaXRpb25hbCUyMGFpbm1hbmVzfGVufDB8fDB8fHww",
     ],
     duration: "4 hours",
     price: "$65",
@@ -156,11 +161,8 @@ export const coorgTours: Tour[] = [
     description:
       "Explore aromatic spice gardens nestled in the misty hills of Coorg, learning about pepper, cardamom, and vanilla cultivation before joining a hands-on cooking class featuring traditional Kodava cuisine with freshly harvested ingredients.",
     images: [
-      "https://images.unsplash.com/photo-1732076756935-8ec15e83136c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RXhwbG9yZSUyMGFyb21hdGljJTIwc3BpY2UlMjBnYXJkZW5zJTIwbmVzdGxlZCUyMGluJTIwdGhlJTIwbWlzdHklMjBoaWxscyUyMG9mJTIwQ29vcmd8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1724258637968-519a4626e998?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RXhwbG9yZSUyMGFyb21hdGljJTIwc3BpY2UlMjBnYXJkZW5zJTIwbmVzdGxlZCUyMGluJTIwdGhlJTIwbWlzdHklMjBoaWxscyUyMG9mJTIwQ29vcmd8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1571123612222-0e0232c5c1c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEV4cGxvcmUlMjBhcm9tYXRpYyUyMHNwaWNlJTIwZ2FyZGVucyUyMG5lc3RsZWQlMjBpbiUyMHRoZSUyMG1pc3R5JTIwaGlsbHMlMjBvZiUyMENvb3JnfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1702240703973-fb4c64ccb38f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEV4cGxvcmUlMjBhcm9tYXRpYyUyMHNwaWNlJTIwZ2FyZGVucyUyMG5lc3RsZWQlMjBpbiUyMHRoZSUyMG1pc3R5JTIwaGlsbHMlMjBvZiUyMENvb3JnfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1467509551246-0adcfe3be57e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEV4cGxvcmUlMjBhcm9tYXRpYyUyMHNwaWNlJTIwZ2FyZGVucyUyMG5lc3RsZWQlMjBpbiUyMHRoZSUyMG1pc3R5JTIwaGlsbHMlMjBvZiUyMENvb3JnfGVufDB8fDB8fHww",
+      "/images/tours/coorg/spice-plantation.jpg",
+      "/images/tours/coorg/cooking-class.jpg",
     ],
     duration: "5 hours",
     price: "$70",
@@ -171,96 +173,194 @@ export const coorgTours: Tour[] = [
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isPopular: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "culinary",
+    meetingPoint: {
+      address: "Kalathooru Estate, Madikeri, Coorg 571201, India",
+      coordinates: {
+        latitude: 12.4155,
+        longitude: 75.7389
+      },
+      instructions: "Meet at the entrance of Kalathooru Spice Estate. Look for our guide holding a sign with 'Spice & Cooking Tour'. Please arrive 15 minutes before the scheduled start time.",
+      contactNumber: "+91 94484 32109",
+      contactEmail: "spices@paragontrails.com"
+    },
+    availableDates: [
+      "2024-04-09", "2024-04-23",
+      "2024-05-07", "2024-05-21",
+      "2024-06-04", "2024-06-18",
+      "2024-10-08", "2024-10-22",
+      "2024-11-05", "2024-11-19",
+      "2024-12-03", "2024-12-17"
+    ],
+    highlights: [
+      "Tour a working spice plantation with expert guides",
+      "Learn about sustainable spice cultivation methods",
+      "Participate in a hands-on cooking class using fresh spices",
+      "Prepare and enjoy authentic Kodava cuisine",
+      "Take home recipe cards and a sample of plantation spices"
+    ],
+    inclusions: [
+      "Guided plantation tour",
+      "Cooking class with all ingredients",
+      "Full meal of prepared dishes",
+      "Spice samples to take home",
+      "Recipe cards for all dishes prepared"
+    ],
+    exclusions: [
+      "Transportation to/from spice plantation",
+      "Alcoholic beverages",
+      "Additional spice purchases",
+      "Gratuities"
+    ],
+    itinerary: [
+      "09:00 AM - Meet guide at plantation entrance",
+      "09:15 AM - Guided tour of spice gardens with harvesting demonstration",
+      "10:30 AM - Spice processing and preparation workshop",
+      "11:15 AM - Begin cooking class with plantation chef",
+      "12:45 PM - Enjoy the prepared meal together",
+      "01:30 PM - Spice market shopping opportunity",
+      "02:00 PM - Tour conclusion with spice samples"
+    ],
+    cancellationPolicy: "Full refund if canceled 48 hours before the scheduled tour. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before tour start time.",
     faqs: [
       {
-        question: "What dishes will we learn to cook?",
-        answer:
-          "You'll learn to prepare authentic Kodava specialties including 'Pandi Curry' (spicy pork curry with Kachampuli, a local souring agent), 'Kadambuttu' (rice dumplings), 'Bamboo Shoot Curry' (seasonal), and 'Akki Roti' (rice flatbread). Vegetarian options are available featuring local ingredients like bamboo shoots, jackfruit, and wild mushrooms. The cooking session takes place in a traditional Kodava kitchen using wood-fired stoves and traditional utensils, though techniques will be adapted for you to recreate these dishes at home.",
+        question: "Do I need cooking experience to enjoy this workshop?",
+        answer: "Not at all! Our cooking workshop is designed for all skill levels, from beginners to experienced cooks. The chef will guide you through each step, and you'll work in small groups to create traditional dishes. Everyone participates and learns at their own pace in a relaxed, supportive environment."
       },
       {
-        question: "Can we take home the spices we harvest?",
-        answer:
-          "Yes, you can purchase fresh spices harvested during the tour. We offer a selection of high-quality Coorg spices including black pepper, cardamom, cinnamon, and vanilla beans. Our guides will help you choose the best spices based on your cooking preferences and provide tips on how to use them in your own dishes.",
+        question: "What spices will we see growing at the plantation?",
+        answer: "Coorg's climate is ideal for growing various spices including black pepper (the king of spices), cardamom, cinnamon, vanilla, nutmeg, cloves, and turmeric. Depending on the season, you'll see different stages of growth and harvest. The plantation also grows coffee and exotic fruits that are used in local cuisine."
       },
-    ],
+      {
+        question: "What dishes will we prepare in the cooking class?",
+        answer: "You'll learn to prepare 3-4 traditional Kodava (Coorg) dishes which may include Pandi Curry (pork curry with Coorg spices), Kadambuttu (rice dumplings), Bamboo Shoot Curry, and Akki Roti (rice flatbread). The menu varies seasonally based on available fresh ingredients from the plantation and local markets."
+      },
+      {
+        question: "Is this tour suitable for vegetarians?",
+        answer: "Yes, the tour can be fully vegetarian if requested. Kodava cuisine includes many delicious vegetarian dishes featuring local produce, bamboo shoots, and forest honey. Please inform us of dietary preferences when booking so the cooking class menu can be adjusted accordingly."
+      },
+      {
+        question: "What makes Coorg spices unique?",
+        answer: "Coorg spices are renowned for their exceptional quality due to the region's unique microclimate, elevation (between 3,000-5,500 feet), and rich volcanic soil. The traditional cultivation methods used in Coorg's small plantations focus on sustainable, organic practices that preserve the natural flavor and essential oils of each spice. During the tour, you'll learn how to identify premium spices and understand the difference they make in authentic cooking."
+      }
+    ]
   },
   {
-    title: "Abbey Falls & Raja's Seat Sunset Tour",
+    title: "Coorg Wildlife Safari & Bird Watching",
     description:
-      "Experience the natural beauty of Coorg with a visit to the cascading Abbey Falls hidden in coffee plantations, followed by sunset at Raja's Seat garden with panoramic views of mist-covered valleys and Western Ghats mountains.",
+      "Explore the biodiversity of Coorg's Nagarhole National Park, home to tigers, elephants, and over 270 bird species, with expert naturalists guiding you through jungle trails and waterways in this Western Ghats sanctuary.",
     images: [
-      "https://images.unsplash.com/photo-1723482484421-62b2155688e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RXhwZXJpZW5jZSUyMHRoZSUyMG5hdHVyYWwlMjBiZWF1dHklMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjB2aXNpdCUyMHRvJTIwdGhlJTIwY2FzY2FkaW5nJTIwQWJiZXklMjBGYWxscyUyMGhpZGRlbiUyMGluJTIwY29mZmVlJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1706041092541-fd664c20041f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhwZXJpZW5jZSUyMHRoZSUyMG5hdHVyYWwlMjBiZWF1dHklMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjB2aXNpdCUyMHRvJTIwdGhlJTIwY2FzY2FkaW5nJTIwQWJiZXklMjBGYWxscyUyMGhpZGRlbiUyMGluJTIwY29mZmVlJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1706041092554-83704d1c6ddd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RXhwZXJpZW5jZSUyMHRoZSUyMG5hdHVyYWwlMjBiZWF1dHklMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjB2aXNpdCUyMHRvJTIwdGhlJTIwY2FzY2FkaW5nJTIwQWJiZXklMjBGYWxscyUyMGhpZGRlbiUyMGluJTIwY29mZmVlJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1696933032372-95ec136d8f9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RXhwZXJpZW5jZSUyMHRoZSUyMG5hdHVyYWwlMjBiZWF1dHklMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjB2aXNpdCUyMHRvJTIwdGhlJTIwY2FzY2FkaW5nJTIwQWJiZXklMjBGYWxscyUyMGhpZGRlbiUyMGluJTIwY29mZmVlJTIwcGxhbnRhdGlvbnN8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1676734455860-4e7677af7a64?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEV4cGVyaWVuY2UlMjB0aGUlMjBuYXR1cmFsJTIwYmVhdXR5JTIwb2YlMjBDb29yZyUyMHdpdGglMjBhJTIwdmlzaXQlMjB0byUyMHRoZSUyMGNhc2NhZGluZyUyMEFiYmV5JTIwRmFsbHMlMjBoaWRkZW4lMjBpbiUyMGNvZmZlZSUyMHBsYW50YXRpb25zfGVufDB8fDB8fHww",
+      "/images/tours/coorg/wildlife-safari.jpg",
+      "/images/tours/coorg/bird-watching.jpg",
     ],
-    duration: "4 hours",
-    price: "$45",
-    rating: 4.7,
-    tags: ["Waterfall", "Sunset", "Scenery"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "When is the best time to visit Abbey Falls?",
-        answer:
-          "Abbey Falls is most spectacular during and immediately after the monsoon season (July-October) when water volume is at its peak. However, this is also when the paths can be slippery and leeches may be present in the surrounding forest. The post-monsoon period (October-December) offers a good balance of water flow and comfortable visiting conditions. During the summer months (March-May), the waterfall has less volume but is still beautiful and the surroundings are more easily navigable.",
-      },
-      {
-        question: "Is Raja's Seat suitable for children?",
-        answer:
-          "Yes, Raja's Seat is family-friendly with paved paths and gardens that are easy to navigate. The sunset views are particularly enchanting for children, and the garden has plenty of space for them to run around. However, please supervise young children near the edges of the viewing platforms as there are steep drops in some areas.",
-      },
-    ],
-  },
-  {
-    title: "Nagarhole National Park Wildlife Safari",
-    description:
-      "Embark on an exciting jeep safari through Nagarhole National Park, home to tigers, leopards, elephants and over 250 bird species, with naturalist guides expertly tracking wildlife through diverse habitats from deciduous forests to serene waterways.",
-    images: [
-      "https://plus.unsplash.com/premium_photo-1698072483523-e422f0618c9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RW1iYXJrJTIwb24lMjBhbiUyMGV4Y2l0aW5nJTIwamVlcCUyMHNhZmFyaSUyMHRocm91Z2glMjBOYWdhcmhvbGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1671549126474-2cad34b4c208?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RW1iYXJrJTIwb24lMjBhbiUyMGV4Y2l0aW5nJTIwamVlcCUyMHNhZmFyaSUyMHRocm91Z2glMjBOYWdhcmhvbGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1703609645513-9c7b5a965add?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RW1iYXJrJTIwb24lMjBhbiUyMGV4Y2l0aW5nJTIwamVlcCUyMHNhZmFyaSUyMHRocm91Z2glMjBOYWdhcmhvbGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1722571635843-6b687cdfa06e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RW1iYXJrJTIwb24lMjBhbiUyMGV4Y2l0aW5nJTIwamVlcCUyMHNhZmFyaSUyMHRocm91Z2glMjBOYWdhcmhvbGUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1730086162507-81940d41e300?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEVtYmFyayUyMG9uJTIwYW4lMjBleGNpdGluZyUyMGplZXAlMjBzYWZhcmklMjB0aHJvdWdoJTIwTmFnYXJob2xlJTIwTmF0aW9uYWwlMjBQYXJrfGVufDB8fDB8fHww",
-    ],
-    duration: "6 hours",
+    duration: "8 hours",
     price: "$95",
-    rating: 4.9,
-    tags: ["Safari", "Tiger"],
+    rating: 4.7,
+    tags: ["Wildlife", "Safari", "Nature"],
 
     isHistorical: false,
     isRomantic: false,
     isOffTheBeatenPath: true,
     isLocalExperience: false,
+    isPopular: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
     tourCategoryId: "adventure",
+    meetingPoint: {
+      address: "Nagarhole National Park Entrance, Hunsur Road, Coorg, Karnataka, India",
+      coordinates: {
+        latitude: 12.0223,
+        longitude: 76.1433
+      },
+      instructions: "Meet at the main entrance gate of Nagarhole National Park (Kabini side). Our guide will be waiting with a 'Paragon Wildlife Safari' sign. Please arrive 30 minutes before the safari departure as there are park registration formalities to complete.",
+      contactNumber: "+91 94822 65437",
+      contactEmail: "wildlife@paragontrails.com"
+    },
+    availableDates: [
+      "2024-04-04", "2024-04-11", "2024-04-18", "2024-04-25",
+      "2024-05-02", "2024-05-09", "2024-05-16", "2024-05-23", "2024-05-30",
+      "2024-10-03", "2024-10-10", "2024-10-17", "2024-10-24", "2024-10-31",
+      "2024-11-07", "2024-11-14", "2024-11-21", "2024-11-28"
+    ],
+    highlights: [
+      "Jeep safari through diverse habitats within Nagarhole National Park",
+      "Expert naturalist guide with extensive knowledge of local wildlife",
+      "Boat safari on the Kabini River to observe waterside wildlife",
+      "Bird watching opportunities with over 270 species",
+      "Chance to spot tigers, elephants, leopards, and other native wildlife"
+    ],
+    inclusions: [
+      "Park entry fees and permits",
+      "Morning and evening safari drives",
+      "Boat safari on the Kabini River",
+      "Professional naturalist guide",
+      "Picnic lunch in designated forest areas",
+      "Use of spotting scopes and binoculars"
+    ],
+    exclusions: [
+      "Transportation to/from Nagarhole National Park",
+      "Camera fees (payable directly to the park)",
+      "Alcoholic beverages",
+      "Gratuities",
+      "Optional activities not mentioned"
+    ],
+    itinerary: [
+      "06:00 AM - Meet guide at park entrance",
+      "06:30 AM - Morning jeep safari through the forest",
+      "09:30 AM - Breakfast at park canteen",
+      "10:30 AM - Guided nature walk in buffer zone",
+      "12:30 PM - Picnic lunch in designated area",
+      "02:30 PM - Boat safari on Kabini River",
+      "04:00 PM - Evening jeep safari in different zone",
+      "06:30 PM - Tour conclusion and departure"
+    ],
+    cancellationPolicy: "Full refund if canceled 72 hours before the scheduled tour. 50% refund if canceled 24-72 hours in advance. No refund for cancellations less than 24 hours before tour start time due to park reservation policies.",
     faqs: [
       {
-        question: "What wildlife might we see?",
-        answer:
-          "Nagarhole (also known as Rajiv Gandhi National Park) is home to a rich diversity of wildlife including Bengal tigers, Indian leopards, wild elephants, gaur (Indian bison), sambar and spotted deer, wild dogs, and numerous bird species. While sightings of specific animals cannot be guaranteed, our experienced naturalist guides know the territory well and track recent wildlife movements to maximize your chances of memorable encounters. The park has one of the highest tiger densities in India, though these elusive cats require patience and some luck to spot.",
+        question: "What are the chances of seeing tigers?",
+        answer: "While Nagarhole has a healthy tiger population, sightings are never guaranteed as these are wild animals in their natural habitat. During peak season (October-May), tiger sighting probability is around 30-40% over a two-safari period. However, you're almost certain to see elephants, deer, gaur (Indian bison), langurs, macaques, and numerous bird species on every safari."
       },
       {
-        question: "What should we wear for the safari?",
-        answer:
-          "Dress in neutral, earth-toned clothing to blend into the natural surroundings and avoid startling wildlife. Lightweight, breathable fabrics are best for comfort in the warm climate. Sturdy closed-toe shoes are recommended for getting in and out of the jeep. A hat, sunglasses, and sunscreen are advisable for sun protection during the safari. We also recommend bringing a light jacket or shawl as it can get chilly in the early morning or late afternoon.",
+        question: "What's the best time to visit for wildlife viewing?",
+        answer: "The park is typically open from October to May, with the best wildlife viewing between February and May when water becomes scarce and animals concentrate around remaining water sources. October-December offers lush green landscapes after the monsoon and good bird watching opportunities. The park is closed during monsoon season (approximately June to September)."
       },
-    ],
+      {
+        question: "What should I wear and bring for the safari?",
+        answer: "Wear earth-toned clothing (greens, browns, khakis) to blend with the environment. Avoid bright colors and strong perfumes. Bring sun protection including hat and sunscreen, insect repellent, a light jacket for early morning safaris, and a water bottle. Camera equipment should include a zoom lens (at least 300mm recommended) and extra batteries."
+      },
+      {
+        question: "Is this safari suitable for children?",
+        answer: "The safari is suitable for children aged 6 and above who can maintain reasonable quiet during wildlife watching. The jeeps are comfortable but the rides can be bumpy. Children often enjoy spotting animals and the excitement of the safari experience, though parents should be prepared for early morning starts."
+      },
+      {
+        question: "How much walking is involved in this tour?",
+        answer: "The jeep and boat safaris involve minimal walking. The optional guided nature walk in the buffer zone covers approximately 2 km on relatively flat terrain. This walk can be skipped if preferred, with more time spent on jeep safari instead. All activities are conducted at a leisurely pace with wildlife observation being the priority."
+      }
+    ]
   },
   {
     title: "Coorg Heritage Walk & Local Market Tour",
     description:
       "Explore the rich history and vibrant culture of Coorg with a guided walking tour through the town's heritage sites, ancient temples, and bustling local markets, sampling traditional snacks and learning about local crafts.",
     images: [
-      "https://images.unsplash.com/photo-1633511822866-6cd346889348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUlMjB0b3duJ3MlMjBoZXJpdGFnZSUyMHNpdGVzJTIwQ29vcmclMjBIZXJpdGFnZSUyMFdhbGslMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1729729353581-521650a2ac17?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUlMjB0b3duJ3MlMjBoZXJpdGFnZSUyMHNpdGVzJTIwQ29vcmclMjBIZXJpdGFnZSUyMFdhbGslMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1664399395503-6b1f087f3a3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUlMjB0b3duJ3MlMjBoZXJpdGFnZSUyMHNpdGVzJTIwQ29vcmclMjBIZXJpdGFnZSUyMFdhbGslMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1633511822866-6cd346889348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUyMHRvd24ncyUyIGhlcml0YWdlJTIwc2l0ZXMlMjBDb29yZyUyIEhlcml0YWdlJTIwV2Fsa3MlMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1729729353581-521650a2ac17?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUyMHRvd24ncyUyIGhlcml0YWdlJTIwc2l0ZXMlMjBDb29yZyUyIEhlcml0YWdlJTIwV2Fsa3MlMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1664399395503-6b1f087f3a3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RXhwbG9yZSUyMHRoZSUyMHJpY2glMjBoaXN0b3J5JTIwYW5kJTIwdmlicmFudCUyMGN1bHR1cmUlMjBvZiUyMENvb3JnJTIwd2l0aCUyMGElMjBndWlkZWQlMjB3YWxraW5nJTIwdG91ciUyMHRocm91Z2glMjB0aGUyMHRvd24ncyUyIGhlcml0YWdlJTIwc2l0ZXMlMjBDb29yZyUyIEhlcml0YWdlJTIwV2Fsa3MlMjAlMjYlMjBMb2NhbCUyME1hcmtldCUyMFRvdXJ8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1677462331590-ea3febc0b8b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEV4cGxvcmUlMjB0aGUlMjByaWNoJTIwaGlzdG9yeSUyMGFuZCUyMHZpYnJhbnQlMjBjdWx0dXJlJTIwb2YlMjBDb29yZyUyMHdpdGglMjBhJTIwZ3VpZGVkJTIwd2Fsa2luZyUyMHRvdXIlMjB0aHJvdWdoJTIwdGhlJTIwdG93bidzJTIwaGVyaXRhZ2UlMjBzaXRlcyUyMENvb3JnJTIwSGVyaXRhZ2UlMjBXYWxrJTIwJTI2JTIwTG9jYWwlMjBNYXJrZXQlMjBUb3VyfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1589735740737-3e5c46ecb6c8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEV4cGxvcmUlMjB0aGUlMjByaWNoJTIwaGlzdG9yeSUyMGFuZCUyMHZpYnJhbnQlMjBjdWx0dXJlJTIwb2YlMjBDb29yZyUyMHdpdGglMjBhJTIwZ3VpZGVkJTIwd2Fsa2luZyUyMHRvdXIlMjB0aHJvdWdoJTIwdGhlJTIwdG93bidzJTIwaGVyaXRhZ2UlMjBzaXRlcyUyMENvb3JnJTIwSGVyaXRhZ2UlMjBXYWxrJTIwJTI2JTIwTG9jYWwlMjBNYXJrZXQlMjBUb3VyfGVufDB8fDB8fHww",
     ],
