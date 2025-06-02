@@ -250,24 +250,50 @@ export default function TourPage() {
           </div>
 
           {/* Gallery */}
-          <div className="relative mb-6 rounded-lg overflow-hidden aspect-[16/9]">
-            {tour.images && tour.images.length > 0 && (
-              <Image
-                src={tour.images[0]}
-                alt={tour.title}
-                fill
-                className="object-cover"
-              />
-            )}
+          <div className="flex md:flex-row flex-col justify-center items-center gap-2 md:gap-4 my-2 md:my-3 border w-full h-fit md:h-1/3">
+            <div className="relative rounded-lg w-full md:w-1/2 md:h-full aspect-video md:aspect-auto">
+              {tour.images && tour.images.length > 0 && (
+                <Image
+                  src={tour.images[0]}
+                  alt={tour.title}
+                  fill
+                  quality={100}
+                  className="rounded-2xl w-full h-full object-cover object-center"
+                  priority
+                />
+              )}
+            </div>
+            <div className="flex flex-col gap-2 w-full md:w-1/2 h-full">
+              <div className="relative rounded-lg w-full overflow-hidden aspect-video md:aspect-square">
+                {tour.images && tour.images.length > 1 && (
+                  <Image
+                    src={tour.images[1]}
+                    alt={`${tour.title} - image 2`}
+                    fill
+                    className="object-cover"
+                  />
+                )}
+              </div>
+              <div className="relative rounded-lg overflow-hidden aspect-video md:aspect-square">
+                {tour.images && tour.images.length > 2 && (
+                  <Image
+                    src={tour.images[2]}
+                    alt={`${tour.title} - image 3`}
+                    fill
+                    className="object-cover"
+                  />
+                )}
+              </div>
+            </div>
           </div>
 
           {/* More images */}
           {tour.images && tour.images.length > 1 && (
-            <div className="gap-2 grid grid-cols-4 mb-6">
-              {tour.images.slice(1).map((image, index) => (
+            <div className="gap-2 grid md:grid-cols-2 mb-6">
+              {tour.images.slice(3).map((image, index) => (
                 <div
                   key={index}
-                  className="relative rounded-lg overflow-hidden aspect-square"
+                  className="relative rounded-lg overflow-hidden aspect-video"
                 >
                   <Image
                     src={image}
@@ -335,116 +361,109 @@ export default function TourPage() {
             </div>
           </section>
 
-          <div className="shadow-lg p-6 border border-border rounded-lg">
-            <h2 className="mb-2 font-bold text-2xl">Book This Tour</h2>
-            <div className="mb-6">
-              <p className="font-bold text-3xl">
-                {tour.price}{" "}
-                <span className="font-normal text-sm">per person</span>
-              </p>
-            </div>
-
-            {/* Date picker */}
-            <div className="mb-6">
-              <label className="block mb-2">Select Date</label>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant={"outline"}
-                    className={cn(
-                      "w-full justify-start text-left font-normal",
-                      { "text-muted-foreground": !date }
-                    )}
+          <div className="shadow-lg border border-border rounded-lg">
+            <h2 className="px-6 pt-6 pb-2 border-tertiary border-b-2">
+              Book This Tour
+            </h2>
+            <div className="p-6">
+              {" "}
+              <div className="mb-6">
+                <p className="font-bold text-3xl">
+                  {tour.price}{" "}
+                  <span className="font-normal text-sm">per person</span>
+                </p>
+              </div>
+              {/* Date picker */}
+              <div className="mb-6">
+                <label className="block mb-2">Select Date</label>
+                <Popover>
+                  <PopoverTrigger asChild>
+                    <Button
+                      variant={"outline"}
+                      className={cn(
+                        "w-full justify-start text-left font-normal",
+                        { "text-muted-foreground": !date }
+                      )}
+                    >
+                      <CalendarIcon className="mr-2 w-4 h-4" />
+                      {date ? format(date, "PPP") : "Select date"}
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="p-0 w-auto" align="start">
+                    <Calendar
+                      mode="single"
+                      selected={date}
+                      onSelect={setDate}
+                      disabled={(date: Date) => date < new Date()}
+                      initialFocus
+                    />
+                  </PopoverContent>
+                </Popover>
+              </div>
+              {/* Number of participants */}
+              <div className="mb-6">
+                <label className="block mb-2">Participants</label>
+                <div className="flex items-center border rounded-md">
+                  <button
+                    className="px-3 py-2 text-lg"
+                    onClick={() =>
+                      setParticipants((prev) => Math.max(1, prev - 1))
+                    }
                   >
-                    <CalendarIcon className="mr-2 w-4 h-4" />
-                    {date ? format(date, "PPP") : "Select date"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="p-0 w-auto" align="start">
-                  <Calendar
-                    mode="single"
-                    selected={date}
-                    onSelect={setDate}
-                    disabled={(date: Date) => date < new Date()}
-                    initialFocus
-                  />
-                </PopoverContent>
-              </Popover>
+                    −
+                  </button>
+                  <span className="flex-1 text-center">{participants}</span>
+                  <button
+                    className="px-3 py-2 text-lg"
+                    onClick={() =>
+                      setParticipants((prev) => Math.min(prev + 1, 10))
+                    }
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+              {/* Total */}
+              <div className="mb-6 py-4 border-t border-b">
+                <div className="flex justify-between mb-2">
+                  <span>Price per person</span>
+                  <span>{tour.price}</span>
+                </div>
+                <div className="flex justify-between mb-2">
+                  <span>Participants</span>
+                  <span>x{participants}</span>
+                </div>
+                <div className="flex justify-between font-bold">
+                  <span>Total</span>
+                  <span>${totalPrice.toFixed(2)}</span>
+                </div>
+              </div>
+              <Button
+                onClick={() =>
+                  router.push(
+                    `/book-your-trip-today?${new URLSearchParams({
+                      city: formatToSlug(city),
+                      tourName: formatToSlug(tour.title),
+                      tourGuide: formatToSlug(tourGuide),
+                      tourCategoryId: formatToSlug(tourCategoryId),
+                    }).toString()}&date=${
+                      date ? format(date, "yyyy-MM-dd") : ""
+                    }&participants=${participants}`
+                  )
+                }
+                className="w-full"
+              >
+                Add to Cart
+              </Button>
             </div>
-
-            {/* Number of participants */}
-            <div className="mb-6">
-              <label className="block mb-2">Participants</label>
-              <div className="flex items-center border rounded-md">
-                <button
-                  className="px-3 py-2 text-lg"
-                  onClick={() =>
-                    setParticipants((prev) => Math.max(1, prev - 1))
-                  }
-                >
-                  −
-                </button>
-                <span className="flex-1 text-center">{participants}</span>
-                <button
-                  className="px-3 py-2 text-lg"
-                  onClick={() =>
-                    setParticipants((prev) => Math.min(prev + 1, 10))
-                  }
-                >
-                  +
-                </button>
-              </div>
-            </div>
-
-            {/* Total */}
-            <div className="mb-6 py-4 border-t border-b">
-              <div className="flex justify-between mb-2">
-                <span>Price per person</span>
-                <span>{tour.price}</span>
-              </div>
-              <div className="flex justify-between mb-2">
-                <span>Participants</span>
-                <span>x{participants}</span>
-              </div>
-              <div className="flex justify-between font-bold">
-                <span>Total</span>
-                <span>${totalPrice.toFixed(2)}</span>
-              </div>
-            </div>
-
-            <Button
-              onClick={() =>
-                router.push(
-                  `/book-your-trip-today?${new URLSearchParams({
-                    city: formatToSlug(city),
-                    tourName: formatToSlug(tour.title),
-                    tourGuide: formatToSlug(tourGuide),
-                    tourCategoryId: formatToSlug(tourCategoryId),
-                  }).toString()}&date=${
-                    date ? format(date, "yyyy-MM-dd") : ""
-                  }&participants=${participants}`
-                )
-              }
-            >
-              Add to Cart
-            </Button>
           </div>
-
-          <Button
-            onClick={() =>
-              router.push(`/book-your-trip-today?${queryParams.toString()}`)
-            }
-            className="w-full"
-          >
-            Book Now
-          </Button>
         </section>
       </section>
 
       <section>
         <h2>Similar Tours</h2>
         {cityInfo && (
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mx-auto w-11/12 md:w-full">
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mx-auto w-full">
             {groupAndSortByProperties(filteredTours, "price")
               .slice(0, 2)
               .map((tour, index) => {
