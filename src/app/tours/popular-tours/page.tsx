@@ -17,13 +17,9 @@ import { cityattractions } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { capitalize, formatNumberToCurrency } from "@/lib/utils/format";
 import { getAllTours } from "@/lib/utils/get";
-import {
-  featuredArray,
-  groupAndSortByProperties,
-  sortDurations,
-} from "@/lib/utils/sort";
+import { groupAndSortByProperties, sortDurations } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
 export default function PopularTours() {
@@ -48,7 +44,7 @@ export default function PopularTours() {
         const data = await getAllTours();
         setAllTours(data);
       } catch (error) {
-        console.error("Failed to load affirmation cards:", error);
+        console.error("Failed to load tours:", error);
       } finally {
         setLoading(false);
       }
@@ -66,29 +62,24 @@ export default function PopularTours() {
         prices: { min: 0, max: 0 },
       };
 
-      let durations = [
-        ...new Set(
-          allTours
-            .filter((tour) => tour.duration) // Ensure only valid durations
-            .map((tour) => tour.duration)
-        ),
-      ];
-    console.log("Durations before sorting:", durations);
+    let durations = [
+      ...new Set(
+        allTours
+          .filter((tour) => tour.duration) // Ensure only valid durations
+          .map((tour) => tour.duration)
+      ),
+    ];
+
     // Sort durations by time (assuming durations are in a format like "1 hour", "2 days", etc.)
     durations = sortDurations(durations);
+
     const categories = [
       ...new Set(
         groupAndSortByProperties(allTours, "tourCategoryId").map(
           (tour) => tour.tourCategoryId
         )
       ),
-    ];
-    console.log("Categories:", categories);
-    // Ensure categories are sorted alphabetically
-    categories.sort((a, b) => a.localeCompare(b));
-    console.log("Sorted Categories:", categories);
-    const allTags = new Set<string>();
-    allTours.forEach((tour) => tour.tags?.forEach((tag) => allTags.add(tag)));
+    ].sort((a, b) => a.localeCompare(b)); // Ensure categories are sorted alphabetically
 
     const prices = allTours.map((tour) => {
       const priceValue = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
@@ -106,11 +97,11 @@ export default function PopularTours() {
   }, [allTours]);
 
   // Handle filter changes
-  const handleFilterChange = (filterType: string, value: any) => {
+  const handleFilterChange = useCallback((filterType: string, value: any) => {
     setFilters((prev) => ({ ...prev, [filterType]: value }));
-  };
+  }, []);
 
-  const resetFilters = () => {
+  const resetFilters = useCallback(() => {
     setFilters({
       duration: "all",
       minPrice: filterOptions.prices.min,
@@ -118,7 +109,7 @@ export default function PopularTours() {
       rating: 0,
       tourCategoryId: "all",
     });
-  };
+  }, [filterOptions.prices.min, filterOptions.prices.max]);
 
   useEffect(() => {
     if (!initialized && filterOptions.prices.max > 0) {
@@ -136,7 +127,7 @@ export default function PopularTours() {
   // Apply filters to tours
   const filteredTours = useMemo(() => {
     if (!filters) return [];
-  
+
     return allTours.filter((tour) => {
       // Duration filter
       if (
@@ -144,36 +135,55 @@ export default function PopularTours() {
         (!tour.duration || tour.duration !== filters.duration)
       )
         return false;
-  
+
       // Price filter
       const tourPrice = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
       if (tourPrice < filters.minPrice || tourPrice > filters.maxPrice)
         return false;
-  
+
       // Rating filter
       if (filters.rating > 0 && tour.rating < filters.rating) return false;
-  
+
       // Category filter
       if (
         filters.tourCategoryId !== "all" &&
         tour.tourCategoryId !== filters.tourCategoryId
       )
         return false;
-  
+
       return true;
     });
   }, [allTours, filters]);
-  
+
+  // Memoize city info lookup for tour cards
+  const tourCityMap = useMemo(() => {
+    const map = new Map();
+
+    filteredTours.forEach((tour) => {
+      if (!tour || !tour.city || !tour.country || !tour.region) return;
+
+      const key = `${tour.city}-${tour.country}-${tour.region}`;
+
+      if (!map.has(key)) {
+        const cityInfo = cityattractions.find(
+          (attraction) =>
+            attraction.city.toLowerCase() === tour.city?.toLowerCase() ||
+            attraction.country.toLowerCase() === tour.country?.toLowerCase() ||
+            attraction.region.toLowerCase() === tour.region?.toLowerCase()
+        );
+        map.set(key, cityInfo);
+      }
+    });
+
+    return map;
+  }, [filteredTours]);
 
   if (loading || !filters) {
     return <Loading />;
   }
 
-  const popularTours = featuredArray(allTours);
-
-  console.log("Popular Tours Data:", allTours);
-  console.log("Filtered Tours Data:", filteredTours);
-  console.log("Popular Tours", popularTours);
+  // Toggle filter visibility
+  const toggleFilters = () => setShowFilters(!showFilters);
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -191,7 +201,7 @@ export default function PopularTours() {
         <div className="flex justify-between items-center mb-4">
           <h2>Filter Tours</h2>
           <Button
-            onClick={() => setShowFilters(!showFilters)}
+            onClick={toggleFilters}
             variant="icon"
             size={"sm"}
             className="flex items-center gap-2"
@@ -328,45 +338,21 @@ export default function PopularTours() {
         {allTours && (
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
             {filteredTours.map((tour, index) => {
-              if (!tour) {
-                console.warn(`Tour data is missing for index: ${index}`);
-                return null; // Skip rendering this tour if data is missing
-              }
-              if (!tour.city || !tour.country || !tour.region) {
-                console.warn(
-                  `Tour is missing city, country, or region: ${tour.title}`
-                );
-                return null; // Skip rendering this tour if city, country, or region is missing
-              }
-              const cityInfo = cityattractions.find((attraction) => {
-                if (
-                  attraction.city.toLowerCase() === tour.city?.toLowerCase()
-                ) {
-                  return attraction;
-                }
-                if (
-                  attraction.country.toLowerCase() ===
-                  tour.country?.toLowerCase()
-                ) {
-                  return attraction;
-                }
-                if (
-                  attraction.region.toLowerCase() === tour.region?.toLowerCase()
-                ) {
-                  return attraction;
-                }
+              if (!tour || !tour.city || !tour.country || !tour.region) {
                 return null;
-              });
-              if (!cityInfo) {
-                console.warn(
-                  `City information not found for tour: ${tour.title}`
-                );
-                return null; // Skip rendering this tour if city info is not found
               }
+
+              const key = `${tour.city}-${tour.country}-${tour.region}`;
+              const cityInfo = tourCityMap.get(key);
+
+              if (!cityInfo) {
+                return null;
+              }
+
               return (
                 <TourCard
                   tour={tour}
-                  key={index}
+                  key={tour.title || index}
                   city={cityInfo.city || "Not specified"}
                   country={cityInfo.country || "Not specified"}
                 />
