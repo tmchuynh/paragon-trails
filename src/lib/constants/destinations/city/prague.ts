@@ -144,7 +144,7 @@ export const praguePragueCzechRepublic: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local", "cultural"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

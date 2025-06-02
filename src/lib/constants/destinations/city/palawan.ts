@@ -100,7 +100,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     timeOfDay: "all day",
     rating: 4.9,
     tags: ["adventure"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
@@ -126,7 +126,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     timeOfDay: "all day",
     rating: 4.7,
     tags: ["island hopping", "adventure", "off the beaten path"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
@@ -212,7 +212,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.3,
     tags: ["historical", "cultural"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
@@ -241,7 +241,7 @@ export const palawanMimaropaPhilippines: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.0,
     tags: ["local", "cultural"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: false,

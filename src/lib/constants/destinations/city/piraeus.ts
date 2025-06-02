@@ -194,7 +194,7 @@ export const piraeusAtticaGreece: Attraction[] = [
     priceRange: "$$$",
     priceCategory: "expensive",
     timeOfDay: "evening",
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isWheelchairAccessible: true,

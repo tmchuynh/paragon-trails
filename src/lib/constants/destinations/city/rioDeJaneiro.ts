@@ -101,7 +101,7 @@ export const rioDeJaneiroSoutheastBrazilBrazil: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "romantic", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

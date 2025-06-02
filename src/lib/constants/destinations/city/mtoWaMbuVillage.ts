@@ -96,7 +96,7 @@ export const mtoWaMbuVillageManyaraRegionTanzania: Attraction[] = [
     rating: 5.0,
     tags: ["luxury", "safari", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

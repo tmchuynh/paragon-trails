@@ -59,7 +59,7 @@ export const mostarFederationOfBosniaAndHerzegovinaBosniaAndHerzegovina: Attract
       rating: 4.9,
       tags: ["luxury", "historical", "local"],
       accessibilityFeatures: ["limited accessibility"],
-      isPopular: false,
+      isPopular: true,
 
       isFree: false,
       isPetFriendly: false,

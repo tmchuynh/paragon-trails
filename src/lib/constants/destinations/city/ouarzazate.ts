@@ -100,7 +100,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.7,
     tags: ["cultural", "spiritual", "wellness"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
@@ -185,7 +185,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.2,
     tags: ["historical"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: true,
@@ -211,7 +211,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     timeOfDay: "daytime",
     rating: 4.6,
     tags: ["wellness", "historical"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
@@ -264,7 +264,7 @@ export const ouarzazateDraaTafilaletMorocco: Attraction[] = [
     rating: 4.0,
     tags: ["romantic"],
     accessibilityFeatures: ["paved viewing areas"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,

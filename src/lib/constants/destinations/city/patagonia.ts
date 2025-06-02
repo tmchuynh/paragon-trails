@@ -277,7 +277,7 @@ export const patagoniaSouthernChileAndArgentinaChileArgentina: Attraction[] = [
       "some accessible viewpoints",
       "accessible visitor center",
     ],
-    isPopular: false,
+    isPopular: true,
 
     isFree: true,
     isPetFriendly: true,
