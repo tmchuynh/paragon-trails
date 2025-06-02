@@ -78,6 +78,25 @@ export const formatDuration = (duration: string): string => {
   return `${weeks} weeks ${days} days`;
 };
 
+/**
+ * Formats a number to a currency string.
+ *
+ * This function takes a number and formats it as a currency string in USD,
+ * with optional minimum and maximum fraction digits.
+ *
+ * @param value - The number to format
+ * @param min - Optional minimum number of fraction digits (default is 0)
+ * @param max - Optional maximum number of fraction digits (default is 0)
+ * @returns The formatted currency string
+ *
+ * @example
+ * // Returns "$1,234.56"
+ * formatNumberToCurrency(1234.56)
+ *
+ * @example
+ * // Returns "$1,234.00"
+ * formatNumberToCurrency(1234, 2, 2)
+ */
 export function formatNumberToCurrency(
   value: number,
   min?: number,
@@ -127,6 +146,23 @@ export function formatKebabToCamelCase(str: string): string {
     .join("");
 }
 
+/**
+ * Converts a string to a URL-friendly slug format.
+ *
+ * This function takes a string and converts it to a slug format suitable for URLs.
+ * It removes special characters, replaces spaces with hyphens, and converts the string to lowercase.
+ *
+ * @param str - The string to convert to a slug
+ * @returns The slugified version of the string
+ *
+ * @example
+ * // Returns "hello-world"
+ * formatToSlug("Hello World!")
+ *
+ * @example
+ * // Returns "this-is-a-test"
+ * formatToSlug("This is a test.")
+ */
 export function formatToSlug(str: string): string {
   return str
     .toLowerCase()
@@ -134,6 +170,24 @@ export function formatToSlug(str: string): string {
     .replace(/^-|-$/g, "");
 }
 
+
+/**
+ * Converts a kebab-case string to title case.
+ *
+ * This function takes a kebab-case formatted string (words separated by hyphens)
+ * and converts it to title case (each word capitalized, separated by spaces).
+ *
+ * @param str - The kebab-case string to convert
+ * @returns The converted title case string
+ *
+ * @example
+ * // Returns "Hello World"
+ * formatKebebToTitleCase("hello-world")
+ *
+ * @example
+ * // Returns "Test Case Example"
+ * formatKebebToTitleCase("test-case-example")
+ */
 export function formatKebebToTitleCase(str: string): string {
   return str
     .split("-")
@@ -171,6 +225,20 @@ export const formatLanguages = (languages: string[]) => {
   return `${otherLanguages}, and ${lastLanguage}`;
 };
 
+/**
+ * Converts a title string to camelCase format.
+ * 
+ * @param title - The string to convert to camelCase
+ * @returns The camelCase formatted string
+ * 
+ * @example
+ * // returns "helloWorld"
+ * formatTitleToCamelCase("Hello World");
+ * 
+ * @example
+ * // returns "thisIsATest"
+ * formatTitleToCamelCase("This Is A Test");
+ */
 export function formatTitleToCamelCase(title: string): string {
   return title
     .split(" ")
@@ -181,6 +249,36 @@ export function formatTitleToCamelCase(title: string): string {
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     })
     .join("");
+}
+
+/**
+ * Converts a camelCase string to a title case string.
+ *
+ * This function takes a camelCase formatted string and converts it to a title case string,
+ * where each word is capitalized and separated by spaces.
+ *
+ * @param camelCase - The camelCase string to convert
+ * @returns The converted title case string
+ *
+ * @example
+ * // Returns "Hello World"
+ * formatCamelCaseToTitle("helloWorld")
+ *
+ * @example
+ * // Returns "Test Case Example"
+ * formatCamelCaseToTitle("testCaseExample")
+ */
+export function formatCamelCaseToTitle(camelCase: string): string {
+  // Add space before capital letters and convert to lowercase
+  const withSpaces = camelCase.replace(/([A-Z])/g, " $1").toLowerCase();
+
+  // Capitalize the first letter of each word
+  return withSpaces
+    .split(" ")
+    .map((word) => word.trim())
+    .filter((word) => word.length > 0)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
 /**
