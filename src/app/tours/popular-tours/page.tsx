@@ -327,7 +327,7 @@ export default function PopularTours() {
         <h2>Featured Tours</h2>
         {allTours && (
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
-            {popularTours.map((tour, index) => {
+            {filteredTours.map((tour, index) => {
               if (!tour) {
                 console.warn(`Tour data is missing for index: ${index}`);
                 return null; // Skip rendering this tour if data is missing
