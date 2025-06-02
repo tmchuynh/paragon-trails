@@ -223,7 +223,7 @@ export async function findGuideBySpecialty(
       country: "",
       state: "",
       region: "",
-      isPopular: false,
+      isPopular: true,
       bio: "A knowledgeable local expert in this destination",
       description: "",
       quote: "",
