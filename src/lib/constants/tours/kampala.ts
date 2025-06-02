@@ -279,6 +279,7 @@ export const kampalaTours: Tour[] = [
     city: "Kampala",
     country: "Uganda",
     region: "Central Region",
+    tourCategoryId: "historical",
     images: [
       "/images/tours/kampala/kasubi-tombs.jpg",
       "/images/tours/kampala/buganda-parliament.jpg",
@@ -326,16 +327,6 @@ export const kampalaTours: Tour[] = [
       "Transportation to/from the meeting point",
       "Personal expenses (souvenirs, etc.)",
     ],
-    meeetingPoint: {
-      address: "Kasubi Tombs, near Kampala",
-      coordinates: {
-        latitude: 0.35,
-        longitude: 32.6,
-      },
-      instructions:
-        "Meet your guide at the main entrance of the Kasubi Tombs. Look for a guide holding a sign that says 'Royal Kampala Tour'.",
-      contactNumber: "+256 700 456789",
-    },
     cancellationPolicy:
       "Free cancellation up to 24 hours before the tour starts. Cancellations made less than 24 hours in advance will incur a 50% charge.",
     faqs: [

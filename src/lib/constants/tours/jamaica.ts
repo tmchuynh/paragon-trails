@@ -1,280 +1,498 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+
 export const jamaicaTours: Tour[] = [
   {
-    title: "Blue Mountain Coffee & Plantation Experience",
+    title: "Bob Marley Legacy & Reggae Culture Tour",
     description:
-      "Journey to the misty peaks of Jamaica's Blue Mountains to discover one of the world's most coveted coffees. Visit working plantations, meet local farmers, learn traditional harvesting methods, and participate in an expert-led cupping session.",
-    city: "Blue Mountains",
-    country: "Jamaica",
-    region: "Portland Parish",
-    images: [
-      "/images/tours/jamaica/blue-mountain-plantation.jpg",
-      "/images/tours/jamaica/coffee-tasting.jpg",
-    ],
-    duration: "7 hours",
-    price: "$125",
-    rating: 4.9,
-    tags: ["Coffee", "Mountains", "Cultural"],
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "Is there a lot of walking on this tour?",
-        answer:
-          "The tour includes moderate walking through plantation grounds with some uphill sections on uneven terrain. We spend approximately 1-2 hours walking through the coffee farms, with plenty of rest stops. Comfortable walking shoes are recommended, but the pace is leisurely and suitable for most fitness levels.",
-      },
-      {
-        question: "Can I purchase Blue Mountain coffee on-site?",
-        answer:
-          "Yes, you can buy freshly roasted Blue Mountain coffee beans directly from the plantation. We also offer a selection of local artisanal products, including coffee-infused snacks and souvenirs.",
-      },
-      {
-        question: "What should I wear for the plantation tour?",
-        answer:
-          "Dress comfortably for warm weather, with sturdy shoes suitable for walking on uneven terrain. A hat and sunscreen are recommended, as well as a light jacket for cooler mountain temperatures.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly. Children will enjoy learning about coffee production and tasting the delicious brews. However, please note that the plantation's terrain may not be stroller-friendly, so younger children may need to be carried.",
-      },
-    ],
-  },
-  {
-    title: "Secret Waterfalls & Hidden Lagoons",
-    description:
-      "Escape the crowds and discover Jamaica's hidden waterfalls and natural swimming holes known only to locals. Trek through lush rainforest, slide down natural rock formations, and jump into pristine blue pools under the guidance of native Jamaican guides.",
-    city: "Ocho Rios",
-    country: "Jamaica",
-    region: "St. Ann Parish",
-    images: [
-      "/images/tours/jamaica/hidden-falls.jpg",
-      "/images/tours/jamaica/natural-pool.jpg",
-    ],
-    duration: "6 hours",
-    price: "$95",
-    rating: 4.8,
-    tags: ["Waterfalls", "Swimming", "Nature"],
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "Do I need to know how to swim?",
-        answer:
-          "Basic swimming ability is recommended for fully enjoying the natural pools, but it's not required for the entire tour. Non-swimmers can still enjoy the beautiful hikes, smaller wading pools, and scenic viewpoints. Our guides are trained in water safety and can provide additional assistance to less confident swimmers.",
-      },
-      {
-        question: "What should I bring for the waterfall tour?",
-        answer:
-          "Please wear comfortable, moisture-wicking clothing suitable for hiking. Bring a swimsuit, towel, water shoes or sandals with straps, sunscreen, and insect repellent. A waterproof bag for your belongings is also recommended.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and suitable for children of all ages. However, parental supervision is required near deeper pools and waterfalls. We can adjust the itinerary to accommodate younger children or those who prefer less strenuous activities.",
-      },
-    ],
-  },
-  {
-    title: "Rastafarian Cultural Immersion",
-    description:
-      "Gain authentic insight into Jamaica's Rastafarian heritage with a respectful visit to a Rastafari village. Learn about Nyabinghi traditions, natural living principles, Ital cooking techniques, and the global impact of Rastafari culture and philosophy.",
-    city: "Nine Mile",
-    country: "Jamaica",
-    region: "St. Ann Parish",
-    images: [
-      "/images/tours/jamaica/rastafarian-village.jpg",
-      "/images/tours/jamaica/ital-cooking.jpg",
-    ],
-    duration: "5 hours",
-    price: "$85",
-    rating: 4.7,
-    tags: ["Cultural", "Spiritual", "Educational"],
-    isHistorical: true,
-    isRomantic: false,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "Is this an authentic experience or staged for tourists?",
-        answer:
-          "This is a genuine cultural exchange, not a performance. We've developed this tour in partnership with Rastafarian elders to create respectful cultural bridges. You'll visit actual Rastafarian communities and interact with people living the Rastafarian way of life. Questions are welcomed, but visitors are asked to approach with an open mind and respect for the community's customs and beliefs.",
-      },
-      {
-        question: "What should I wear for the village visit?",
-        answer:
-          "Dress modestly and respectfully, covering shoulders and knees. Comfortable walking shoes are recommended as we will be touring the village on foot. Avoid wearing clothing with offensive graphics or slogans.",
-      },
-      {
-        question: "Can I take photos during the tour?",
-        answer:
-          "Photography is allowed, but please ask permission before taking pictures of individuals, especially children. Some community members may prefer not to be photographed. We encourage you to focus on the experience and interactions rather than just capturing images.",
-      },
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and suitable for children. The Rastafarian community welcomes visitors of all ages, and children will enjoy learning about different cultures and traditions. However, parents should supervise their children closely during the visit to ensure respect for the community's customs.",
-      },
-    ],
-  },
-  {
-    title: "Reggae History & Music Studio Experience",
-    description:
-      "Trace the evolution of reggae music from its roots to global phenomenon with visits to iconic recording studios, museums, and the birthplace of Bob Marley. Meet working musicians and try your hand at creating reggae rhythms in a professional studio session.",
+      "Immerse yourself in the life and legacy of reggae icon Bob Marley with a guided tour of his birthplace, recording studio, and final resting place, while learning about Jamaica's influential musical heritage from expert cultural guides.",
     city: "Kingston",
     country: "Jamaica",
-    region: "Kingston Parish",
+    region: "Surrey County",
     images: [
-      "/images/tours/jamaica/tuff-gong-studio.jpg",
-      "/images/tours/jamaica/reggae-museum.jpg",
+      "/images/tours/jamaica/bob-marley-museum.jpg",
+      "/images/tours/jamaica/trench-town-culture-yard.jpg",
     ],
-    duration: "6 hours",
-    price: "$110",
+    duration: "7 hours",
+    price: "$135",
     rating: 4.9,
-    tags: ["Music", "Reggae", "Cultural"],
+    tags: ["Music", "Cultural", "Historical"],
+    meetingPoint: {
+      address: "56 Hope Road, Kingston 6, Jamaica",
+      coordinates: {
+        latitude: 18.0179,
+        longitude: -76.7796,
+      },
+      instructions:
+        "Meet at the entrance to the Bob Marley Museum (his former home). Look for your guide holding a green, yellow, and red 'Reggae Culture Tour' sign.",
+      contactNumber: "+1 876-630-1588",
+      contactEmail: "bookings@jamaicamusictrails.com",
+    },
+    highlights: [
+      "Tour Bob Marley's former home, now a museum preserving his personal artifacts",
+      "Visit Trench Town Culture Yard where Marley learned to play music",
+      "See the famous Tuff Gong Recording Studio where iconic albums were created",
+      "Experience live reggae music performances and workshops",
+      "Visit Nine Mile in St. Ann Parish, Marley's birthplace and final resting place",
+    ],
+    inclusions: [
+      "Professional cultural guide with expertise in reggae history",
+      "All entrance fees to museums and cultural sites",
+      "Transportation between locations in air-conditioned vehicle",
+      "Traditional Jamaican lunch at a local restaurant",
+      "Live music demonstration and workshop",
+      "Bottled water and refreshments throughout the day",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Optional gratuities for guide and driver",
+      "Personal purchases and souvenirs",
+      "Alcoholic beverages beyond included welcome drink",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Bob Marley Museum for tour introduction",
+      "9:15 AM - Guided tour of Bob Marley Museum (his former home)",
+      "10:45 AM - Visit Tuff Gong International Recording Studio",
+      "12:00 PM - Traditional Jamaican lunch at local restaurant",
+      "1:30 PM - Travel to Trench Town Culture Yard (original home of The Wailers)",
+      "2:30 PM - Reggae music workshop and live demonstration",
+      "3:30 PM - Travel to Nine Mile village in St. Ann Parish",
+      "4:30 PM - Tour of Bob Marley's birthplace and mausoleum",
+      "6:00 PM - Return to Kingston with drop-off at original meeting point",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before the scheduled tour.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "Will we meet famous reggae artists?",
+        question: "Is photography allowed at the Bob Marley Museum?",
         answer:
-          "While we can't guarantee specific artist encounters as their schedules vary, our tour often coincides with working musicians in the studio. Our guide has long-standing relationships in the reggae community, and spontaneous meetings with notable artists do occur. Regardless, you'll interact with talented session musicians who have played on countless reggae recordings and can share insider stories about the industry.",
+          "Photography is permitted in most areas of the Bob Marley Museum and other sites on the tour. However, flash photography is prohibited inside the museum to protect artifacts. There are specific rooms where all photography is restricted, which your guide will clearly indicate. Professional photography equipment may require special permission.",
       },
       {
-        question: "Can I record my own reggae track?",
+        question: "Is this tour suitable for children?",
         answer:
-          "Yes, the tour includes a hands-on recording session where you can create your own reggae rhythm with professional musicians. No musical experience is required, and our studio engineers will guide you through the process. You'll leave with a digital copy of your recording as a unique souvenir.",
+          "Yes, this tour is family-friendly and educational for children, particularly those with an interest in music. Some content about Bob Marley's life may require parental guidance. We recommend the tour for children aged 8 and older, but younger children are welcome at parents' discretion.",
       },
       {
-        question: "What should I wear for the music studio tour?",
+        question: "How much driving is involved in this tour?",
         answer:
-          "Dress comfortably for a creative environment. Casual clothing is fine, but avoid overly noisy accessories like jangly jewelry that might interfere with recording. Closed-toe shoes are recommended for safety in the studio.",
+          "The tour involves approximately 3 hours of total driving time between locations. The longest stretch is the drive to Nine Mile in St. Ann Parish, which takes about 1.5 hours each way from Kingston. We use comfortable, air-conditioned vehicles and make brief stops during longer drives.",
       },
     ],
   },
   {
-    title: "Luminous Lagoon Night Bioluminescence Experience",
+    title: "Blue Hole & Secret Falls Adventure",
     description:
-      "Witness the magical phenomenon of bioluminescence at Jamaica's Luminous Lagoon, one of the world's brightest bioluminescent bays. Cruise into the glowing waters after sunset and swim surrounded by millions of harmless dinoflagellates that illuminate with your movement.",
+      "Discover Jamaica's hidden natural wonders with a guided adventure to the Blue Hole and Secret Falls, swimming in azure waters, cliff jumping, and exploring lush rainforest trails away from the tourist crowds.",
+    city: "Ocho Rios",
+    country: "Jamaica",
+    region: "Middlesex County",
+    images: [
+      "/images/tours/jamaica/blue-hole.jpg",
+      "/images/tours/jamaica/secret-falls.jpg",
+    ],
+    duration: "5 hours",
+    price: "$85",
+    rating: 4.8,
+    tags: ["Swimming", "Adventure", "Nature"],
+    meetingPoint: {
+      address: "White River Crossing, Ocho Rios, Jamaica",
+      coordinates: {
+        latitude: 18.4097,
+        longitude: -76.9446,
+      },
+      instructions:
+        "Meet at the Blue Hole Welcome Center near White River Crossing. Look for your guide wearing a blue 'Jamaica Adventure Tours' shirt.",
+      contactNumber: "+1 876-455-3098",
+      contactEmail: "bluehole@jamaicaadventures.com",
+    },
+    highlights: [
+      "Swim in the stunning azure waters of the Blue Hole cenote",
+      "Cliff jump from multiple heights (optional) into deep natural pools",
+      "Hike through lush tropical rainforest to hidden waterfalls",
+      "Swing on Tarzan ropes over crystal clear water",
+      "Experience a natural massage under the Secret Falls",
+    ],
+    inclusions: [
+      "Professional local guide",
+      "Safety equipment including water shoes and life jackets",
+      "Entrance fees to Blue Hole and Secret Falls",
+      "Fresh tropical fruit refreshments",
+      "Round-trip transportation from Ocho Rios cruise port or select hotels",
+      "Digital photos of your experience (shared via download link)",
+    ],
+    exclusions: [
+      "Gratuities for guides",
+      "Personal towels (available for rent)",
+      "Waterproof phone cases (available for purchase)",
+      "Lunch (available for purchase at nearby restaurants)",
+    ],
+    itinerary: [
+      "9:00 AM - Pickup from Ocho Rios hotels or cruise port",
+      "9:30 AM - Arrival at Blue Hole, safety briefing and orientation",
+      "9:45 AM - Blue Hole swimming and cliff jumping activities",
+      "10:45 AM - Guided rainforest hike to Secret Falls",
+      "11:15 AM - Secret Falls exploration and natural water massages",
+      "12:00 PM - Fresh fruit break and relaxation time",
+      "12:30 PM - Return hike through alternative scenic route",
+      "1:15 PM - Final swim at Blue Hole's lower pools",
+      "1:45 PM - Return transportation to Ocho Rios",
+      "2:00 PM - Arrive back at original pickup location",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours in advance. 50% refund if canceled within 24 hours. No refund for no-shows. Weather-related cancellations qualify for full refund or rescheduling.",
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    isAdventure: true,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    tourCategoryId: "adventure",
+    faqs: [
+      {
+        question: "Do I need to be a strong swimmer to participate?",
+        answer:
+          "You don't need to be a strong swimmer to enjoy this tour, as life jackets are provided and our guides are trained in water safety. The Blue Hole has areas of varying depths, including shallow sections where you can wade rather than swim. Cliff jumping is entirely optional, and many guests enjoy the experience without participating in the higher jumps.",
+      },
+      {
+        question: "What should I wear and bring?",
+        answer:
+          "Wear your swimsuit under comfortable clothing, and bring a towel and change of clothes. Water shoes are provided, but you can bring your own if preferred. We recommend wearing quick-dry clothing and bringing sunscreen, insect repellent, a waterproof camera (or waterproof phone case), and some cash for optional purchases or gratuities.",
+      },
+      {
+        question: "How difficult is the hiking portion of this tour?",
+        answer:
+          "The hiking is moderate in difficulty, covering approximately 1.5 kilometers (1 mile) round-trip on uneven terrain with some inclines and potentially slippery surfaces. Our guides provide assistance on challenging sections. We recommend this tour for people with reasonable mobility who can walk unassisted for at least 30 minutes at a time.",
+      },
+    ],
+  },
+  {
+    title: "Authentic Jamaican Cooking Class & Market Tour",
+    description:
+      "Master traditional Jamaican cuisine with a hands-on cooking class preceded by a vibrant local market tour, learning family recipes and cooking techniques from a local chef in their home kitchen.",
+    city: "Montego Bay",
+    country: "Jamaica",
+    region: "Cornwall County",
+    images: [
+      "/images/tours/jamaica/cooking-class.jpg",
+      "/images/tours/jamaica/market-tour.jpg",
+    ],
+    duration: "5 hours",
+    price: "$120",
+    rating: 4.9,
+    tags: ["Cooking", "Cultural", "Food"],
+    meetingPoint: {
+      address: "Charles Gordon Market, Howard Cooke Blvd, Montego Bay",
+      coordinates: {
+        latitude: 18.4762,
+        longitude: -77.9257,
+      },
+      instructions:
+        "Meet at the main entrance to Charles Gordon Market. Your chef/guide will be holding a wooden spoon with a red ribbon.",
+      contactNumber: "+1 876-894-6310",
+      contactEmail: "taste@jamaicancookingclass.com",
+    },
+    highlights: [
+      "Tour a bustling Jamaican market with a chef who explains local ingredients",
+      "Learn to prepare 4-5 traditional Jamaican dishes including jerk chicken",
+      "Master the art of blending Jamaican spices and seasonings",
+      "Cook in an authentic Jamaican home kitchen with local techniques",
+      "Enjoy your creations with a rum punch in a scenic garden setting",
+    ],
+    inclusions: [
+      "Market tour with local chef guide",
+      "All ingredients and cooking materials",
+      "Hands-on cooking instruction",
+      "Full meal of prepared dishes",
+      "Recipes to take home",
+      "Two beverages (rum punch, fruit juice, or beer)",
+      "Round-trip transportation from select Montego Bay hotels",
+    ],
+    exclusions: [
+      "Additional alcoholic beverages beyond the included drinks",
+      "Market purchases for personal use",
+      "Gratuities",
+    ],
+    itinerary: [
+      "9:00 AM - Hotel pickup and transfer to local market",
+      "9:30 AM - Guided tour of Charles Gordon Market with ingredient shopping",
+      "10:30 AM - Transfer to chef's home in a local neighborhood",
+      "11:00 AM - Introduction to Jamaican cooking techniques and spices",
+      "11:30 AM - Begin hands-on cooking class preparing multiple dishes",
+      "1:00 PM - Finish cooking and set table in garden dining area",
+      "1:30 PM - Enjoy the meal you've prepared with drinks and conversation",
+      "2:30 PM - Recipe sharing and cooking tips discussion",
+      "3:00 PM - Return transport to your hotel",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before scheduled class.",
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "What dishes will we learn to cook?",
+        answer:
+          "Our cooking class typically includes 4-5 traditional Jamaican dishes. The menu often features authentic jerk chicken or pork, rice and peas, ackee and saltfish (Jamaica's national dish), callaloo, festival (sweet fried dumplings), and plantains. Vegetarian options are available with advance notice. All recipes are provided to take home so you can recreate the dishes.",
+      },
+      {
+        question: "Do I need cooking experience to participate?",
+        answer:
+          "No prior cooking experience is necessary! Our classes are designed for all skill levels, from beginners to experienced home cooks. Our chef provides step-by-step guidance in a relaxed, friendly atmosphere. The focus is on learning, having fun, and experiencing authentic Jamaican culture through food.",
+      },
+      {
+        question: "Is the market portion of the tour safe?",
+        answer:
+          "Yes, the market tour is conducted in groups with a local guide who knows the area well. Charles Gordon Market is a working local market where Jamaicans shop daily. While it's authentic and bustling, our guides ensure you stay in safe areas and can help with any interactions or purchases you wish to make.",
+      },
+    ],
+  },
+  {
+    title: "Bamboo Rafting on the Martha Brae River",
+    description:
+      "Float down the serene Martha Brae River on a traditional bamboo raft piloted by an expert local guide, enjoying the lush tropical scenery, learning about Jamaica's flora and fauna, and stopping for a refreshing river swim.",
     city: "Falmouth",
     country: "Jamaica",
     region: "Trelawny Parish",
     images: [
-      "/images/tours/jamaica/luminous-lagoon.jpg",
-      "/images/tours/jamaica/bioluminescence-swimming.jpg",
+      "/images/tours/jamaica/bamboo-rafting.jpg",
+      "/images/tours/jamaica/martha-brae-river.jpg",
     ],
     duration: "3 hours",
-    price: "$89",
+    price: "$90",
     rating: 4.8,
-    tags: ["Natural Wonder", "Night Tour", "Swimming"],
+    tags: ["Rafting", "Nature", "Relaxation"],
+    meetingPoint: {
+      address: "Martha Brae Rafting Village, Falmouth, Jamaica",
+      coordinates: {
+        latitude: 18.4944,
+        longitude: -77.6528,
+      },
+      instructions:
+        "Meet at the reception area of Martha Brae Rafting Village. Transportation from major hotels and the cruise port is available.",
+      contactNumber: "+1 876-610-0818",
+      contactEmail: "rafting@marthabrae.com",
+    },
+    highlights: [
+      "Float down 3 miles of the scenic Martha Brae River on a handcrafted bamboo raft",
+      "Learn about Jamaica's natural history from expert river guides",
+      "Stop for swimming in pristine river pools",
+      "See exotic birds, butterflies, and tropical plants in their natural habitat",
+      "Visit the Herb Garden to learn about traditional medicinal plants",
+    ],
+    inclusions: [
+      "30-foot bamboo raft with experienced raft captain",
+      "Welcome fruit punch or rum punch",
+      "Round-trip transportation from select hotels and cruise ports",
+      "Life jackets and safety equipment",
+      "Guided commentary on local nature and history",
+    ],
+    exclusions: [
+      "Additional beverages beyond welcome drink",
+      "Photos (professional photographer available for purchase)",
+      "Gratuities for raft captain",
+      "Souvenirs from gift shop",
+    ],
+    itinerary: [
+      "10:00 AM - Hotel or cruise port pickup (if selected)",
+      "10:30 AM - Arrival at Martha Brae Rafting Village",
+      "10:45 AM - Welcome drink and safety briefing",
+      "11:00 AM - Board your private bamboo raft with captain",
+      "11:15 AM - Begin gentle float down Martha Brae River",
+      "11:45 AM - Stop for optional swimming in river",
+      "12:15 PM - Continue rafting with nature interpretation",
+      "12:45 PM - Visit riverside Herb Garden (optional)",
+      "1:15 PM - Complete rafting journey at landing area",
+      "1:30 PM - Return to departure point with time for gift shop",
+      "2:00 PM - Return transportation to hotels/cruise port",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours in advance. 50% refund if canceled within 24 hours. No refund for no-shows. Full refund or rescheduling offered for weather cancellations.",
     isHistorical: false,
     isRomantic: true,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "off-the-beaten-path",
-    faqs: [
-      {
-        question: "When is the best time to see the bioluminescence?",
-        answer:
-          "The bioluminescent organisms are visible year-round, but they appear brightest on darker nights with minimal moonlight. The phenomenon is also somewhat weather-dependent. Our tour operator monitors conditions daily and will advise if visibility might be compromised. Swimming in the lagoon is optional but highly recommended for the full experience of seeing the water glow around you.",
-      },
-      {
-        question: "What should I bring for the lagoon tour?",
-        answer:
-          "Bring a swimsuit, towel, and a change of clothes. Water shoes are recommended for comfort while walking on the dock. We also suggest bringing a waterproof bag for your belongings. Insect repellent is advisable, as mosquitoes can be present in the area.",
-      },
-      {
-        question: "Is swimming safe in the lagoon?",
-        answer:
-          "Yes, swimming in the lagoon is safe and part of the experience. The water is calm and shallow, with a sandy bottom. Our guides will provide safety instructions before swimming, and life jackets are available if needed.",
-      },
-    ],
-  },
-  {
-    title: "Jamaican Culinary Adventure & Cooking Class",
-    description:
-      "Discover the vibrant flavors of Jamaican cuisine through market visits, rum tastings, and hands-on cooking classes. Learn to prepare authentic jerk chicken, ackee and saltfish, festival bread, and rum punch under the guidance of a local chef.",
-    city: "Montego Bay",
-    country: "Jamaica",
-    region: "St. James Parish",
-    images: [
-      "/images/tours/jamaica/jerk-cooking.jpg",
-      "/images/tours/jamaica/market-spices.jpg",
-    ],
-    duration: "7 hours",
-    price: "$145",
-    rating: 4.9,
-    tags: ["Cooking", "Food", "Rum"],
-    isHistorical: false,
-    isRomantic: false,
-    isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "culinary",
+    isAdventure: false,
+    isCultural: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: true,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: false,
+    tourCategoryId: "nature-wildlife",
     faqs: [
       {
-        question: "Can you accommodate dietary restrictions?",
+        question: "Is bamboo rafting safe?",
         answer:
-          "Yes, we can adapt recipes for vegetarian, vegan, gluten-free, and most other dietary needs with advance notice. Jamaican cuisine naturally includes many plant-based dishes influenced by Rastafarian Ital cooking traditions, so there are excellent options for non-meat eaters. Please inform us of any allergies or restrictions when booking so we can prepare appropriate alternatives.",
+          "Yes, bamboo rafting on the Martha Brae River is very safe. The river is gentle with no rapids, and each raft is piloted by an experienced captain. Life jackets are provided for all participants, though the water is generally only 3-4 feet deep. Our raft captains are excellent swimmers and trained in water safety.",
       },
       {
-        question: "What should I wear for the cooking class?",
+        question: "Will I get wet on this tour?",
         answer:
-          "Wear comfortable clothing suitable for cooking, such as an apron and closed-toe shoes. Long hair should be tied back, and we recommend wearing clothes that can get a little messy. We provide all necessary cooking equipment and ingredients.",
+          "You might get slightly splashed during the journey, but you generally won't get soaked unless you choose to swim during the designated swimming stop. The bamboo rafts sit above the water level, keeping passengers dry. We recommend bringing swimwear if you want to enjoy the swimming opportunity, and perhaps a light towel.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "Can children participate in this tour?",
         answer:
-          "Yes, this tour is family-friendly and children will enjoy participating in the cooking class. We can adjust recipes to be simpler for younger chefs, and our chef is experienced in working with kids in the kitchen. Parental supervision is required for children under 12.",
+          "Absolutely! This tour is perfect for families with children of all ages. The gentle nature of the river and slow pace of the rafting make it suitable even for young children. Life jackets in all sizes, including for infants and children, are provided. Many children especially enjoy the swimming stop and spotting wildlife along the riverbanks.",
       },
     ],
   },
   {
-    title: "Historical Kingston & Bob Marley Museum Tour",
+    title: "Jamaican Rum Tour & Tasting Experience",
     description:
-      "Explore the vibrant capital city of Kingston with a local guide, visiting significant historical sites, the National Gallery, and the Bob Marley Museum. Learn about Jamaica's rich cultural heritage and the legacy of reggae music.",
+      "Discover Jamaica's rum heritage with a tour of historic distilleries, learning about production processes from sugarcane to bottle, and enjoying guided tastings of premium aged rums with a master blender.",
     city: "Kingston",
     country: "Jamaica",
-    region: "Kingston Parish",
+    region: "Surrey County",
     images: [
-      "/images/tours/jamaica/kingston-national-gallery.jpg",
-      "/images/tours/jamaica/bob-marley-museum.jpg",
+      "/images/tours/jamaica/rum-distillery.jpg",
+      "/images/tours/jamaica/rum-tasting.jpg",
     ],
-    duration: "5 hours",
-    price: "$99",
-    rating: 4.8,
-    tags: ["History", "Culture", "Reggae"],
+    duration: "6 hours",
+    price: "$140",
+    rating: 4.7,
+    tags: ["Rum", "Tasting", "Historical"],
+    meetingPoint: {
+      address: "Devon House, 26 Hope Road, Kingston, Jamaica",
+      coordinates: {
+        latitude: 18.0179,
+        longitude: -76.7792,
+      },
+      instructions:
+        "Meet in front of the main entrance to Devon House. Look for your guide holding a sign with 'Rum Heritage Tour' written on it.",
+      contactNumber: "+1 876-927-4108",
+      contactEmail: "rum@jamaicaspiritours.com",
+    },
+    highlights: [
+      "Tour authentic Jamaican rum distilleries with centuries of history",
+      "Learn about traditional and modern rum production methods",
+      "Enjoy guided tastings of multiple premium and rare rums",
+      "Discover the cultural significance of rum in Jamaican history",
+      "Meet master blenders and rum experts",
+    ],
+    inclusions: [
+      "Transportation between distilleries in air-conditioned vehicle",
+      "Expert rum guide with spirits background",
+      "Entrance fees to all distilleries",
+      "Guided tastings of 8-10 different rums",
+      "Gourmet Jamaican lunch with rum pairings",
+      "Souvenir tasting glass",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for additional fee)",
+      "Additional bottles of rum (available for purchase)",
+      "Gratuities",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Devon House for tour introduction",
+      "10:15 AM - Depart for first historic distillery",
+      "11:00 AM - Guided tour of traditional rum production facilities",
+      "12:00 PM - First rum tasting session with expert commentary",
+      "1:00 PM - Jamaican lunch with rum cocktail pairings",
+      "2:15 PM - Travel to second distillery",
+      "2:45 PM - Tour modern rum production facilities",
+      "3:30 PM - Premium rum tasting with master blender",
+      "4:30 PM - Return journey to Kingston",
+      "5:00 PM - Tour conclusion at Devon House with final recommendations",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours in advance. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "historical",
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "culinary",
     faqs: [
       {
-        question: "Will we visit Bob Marley's childhood home?",
+        question: "Do I need to be a rum expert to enjoy this tour?",
         answer:
-          "Yes, the tour includes a visit to Bob Marley's childhood home in Trench Town, where you can see where he grew up and learn about his early influences. The museum features personal artifacts, photographs, and memorabilia that tell the story of his life and career.",
+          "Not at all! This tour is designed for everyone from rum novices to connoisseurs. Our guides explain rum production and tasting in accessible terms, and the experience is focused on enjoyment rather than expertise. You'll learn about distinguishing flavor profiles and production techniques in a relaxed, unpretentious environment.",
       },
       {
-        question: "What should I wear for the Kingston tour?",
+        question: "How much rum do we actually taste?",
         answer:
-          "Dress comfortably for a city tour, with sturdy walking shoes. Lightweight clothing is recommended due to the warm climate. A hat and sunscreen are also advisable.",
+          "The tour includes tastings of 8-10 different rums in total, served in tasting portions (approximately 15ml each). This allows you to experience a variety of styles without overindulging. Water and food are provided throughout the experience to balance the tastings. Non-alcoholic alternatives are available upon request.",
       },
       {
-        question: "Is this tour suitable for children?",
+        question: "Can I purchase bottles of rum during the tour?",
         answer:
-          "Yes, this tour is family-friendly and suitable for children. The guide will share engaging stories about Jamaica's history and culture that are accessible to all ages.",
+          "Yes, both distilleries have retail shops where you can purchase bottles, including special editions and distillery exclusives not available elsewhere. Duty-free purchases can be arranged for international visitors with proper documentation. We can also assist with shipping arrangements for larger purchases.",
       },
     ],
   },
 ];
+
 export default jamaicaTours;

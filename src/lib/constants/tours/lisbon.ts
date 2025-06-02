@@ -1,258 +1,491 @@
 import { Tour } from "@/lib/interfaces/services/tours";
+
 export const lisbonTours: Tour[] = [
   {
-    title: "Fado Music Night & Alfama Exploration",
+    title: "Alfama District & Fado Experience",
     description:
-      "Experience Portugal's soulful fado music in an authentic setting after exploring the atmospheric Alfama district's maze of narrow streets, hidden courtyards, and stunning viewpoints.",
+      "Explore Lisbon's oldest and most atmospheric neighborhood, followed by an authentic Fado music performance paired with traditional Portuguese cuisine.",
     city: "Lisbon",
     country: "Portugal",
-    region: "Lisbon Metropolitan Area",
+    region: "Lisbon Region",
     images: [
-      "https://images.unsplash.com/photo-1587560699334-4b8b3f3f3f3f", // Alfama streets
-      "https://media.istockphoto.com/photos/fado-performance-in-lisbon-picture-id1234567890", // Fado performance
+      "/images/tours/lisbon/alfama-streets.jpg",
+      "/images/tours/lisbon/fado-performance.jpg",
     ],
     duration: "4 hours",
     price: "$85",
-    rating: 4.9,
-    tags: ["Music", "Cultural", "Evening"],
+    rating: 4.8,
+    tags: ["Historical", "Cultural", "Music"],
+    meetingPoint: {
+      address: "Praça do Comércio, 1100-148 Lisboa",
+      coordinates: {
+        latitude: 38.7076,
+        longitude: -9.1366,
+      },
+      instructions:
+        "Meet at the center of Praça do Comércio by the equestrian statue. Your guide will be holding a blue 'Lisbon Experiences' flag.",
+      contactNumber: "+351 21 123 4567",
+      contactEmail: "bookings@lisbonexperiences.pt",
+    },
+    highlights: [
+      "Guided walking tour through the historic Alfama quarter with its winding streets and hidden viewpoints",
+      "Visit to São Jorge Castle for panoramic views of the city and Tagus River",
+      "Authentic Fado music performance in a traditional venue",
+      "Taste Portuguese cuisine during a dinner paired with local wines",
+      "Learn about the history and cultural significance of Fado music from locals",
+    ],
+    inclusions: [
+      "Professional local guide",
+      "São Jorge Castle entrance fee",
+      "Dinner with wine at a traditional Fado house",
+      "Live Fado music performance",
+      "Small group experience (maximum 12 people)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and drinks beyond included dinner",
+      "Gratuities",
+      "Souvenir photos",
+      "Public transportation tickets",
+    ],
+    itinerary: [
+      "5:00 PM - Meet at Praça do Comércio",
+      "5:15 PM - Begin walking tour through Alfama's narrow streets",
+      "6:00 PM - Visit São Jorge Castle and viewpoints",
+      "7:00 PM - Continue exploring Alfama's hidden corners and historic sites",
+      "8:00 PM - Arrive at traditional Fado house",
+      "8:15 PM - Dinner service begins with wine pairing",
+      "9:00 PM - Live Fado performance",
+      "10:00 PM - Tour concludes (you may stay longer at the venue if desired)",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: true,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
     tourCategoryId: "cultural",
-    itinerary: [
-      "18:00 - Meet at Praça do Comércio and begin walking tour of Alfama",
-      "18:30 - Visit Miradouro de Santa Luzia for panoramic views",
-      "19:00 - Explore Alfama's narrow streets and historic sites",
-      "19:30 - Enjoy traditional Portuguese dinner at a local restaurant",
-      "21:00 - Attend live Fado performance in an authentic Fado house",
-      "22:00 - Tour concludes at the Fado venue",
-    ],
     faqs: [
       {
-        question: "Does the tour include dinner?",
+        question: "What is Fado music?",
         answer:
-          "Yes, the tour includes a traditional Portuguese dinner with wine during the Fado performance.",
+          "Fado is a traditional Portuguese music genre characterized by mournful tunes and lyrics, often about the sea or the life of the poor. It's recognized by UNESCO as part of the Intangible Cultural Heritage of Humanity. Performances typically feature a solo singer accompanied by classical and Portuguese guitars in an intimate setting.",
       },
       {
-        question: "Is the Fado performance suitable for children?",
+        question: "Is there a dress code for the Fado house?",
         answer:
-          "While Fado music is deeply emotional and may not hold children's attention, the atmosphere is family-friendly. We recommend this tour for children aged 10 and up who can appreciate cultural experiences.",
+          "While there's no strict dress code, smart casual attire is recommended. Fado performances are respected cultural events, so beachwear, shorts, or very casual clothing is generally not appropriate for evening performances.",
+      },
+      {
+        question: "How much walking is involved in the Alfama tour?",
+        answer:
+          "The walking tour covers approximately 2 kilometers (1.2 miles) through Alfama's hilly streets with cobblestones and some steps. The neighborhood is built on a steep hill, so expect uphill sections. Comfortable walking shoes are essential. This tour is not recommended for those with mobility issues.",
       },
     ],
   },
   {
-    title: "Sintra Fairytale Palaces & Mystical Gardens",
+    title: "Sintra, Cascais & Cabo da Roca Day Trip",
     description:
-      "Discover the magical town of Sintra, exploring colorful Pena Palace, mysterious Quinta da Regaleira gardens, and enjoying pastries from a historic bakery using royal recipes.",
-    city: "Sintra",
+      "Journey to the fairytale palaces of Sintra, visit continental Europe's westernmost point at Cabo da Roca, and enjoy the charming coastal town of Cascais on this full-day excursion from Lisbon.",
+    city: "Lisbon",
     country: "Portugal",
-    region: "Lisbon Metropolitan Area",
+    region: "Lisbon Region",
     images: [
-      "https://cdn.pixabay.com/photo/2017/08/30/07/52/pena-palace-2690179_1280.jpg", // Pena Palace
-      "https://images.unsplash.com/photo-1590490357750-0c9f4f4f4f4f", // Quinta da Regaleira
+      "/images/tours/lisbon/pena-palace.jpg",
+      "/images/tours/lisbon/cascais-coast.jpg",
     ],
     duration: "8 hours",
-    price: "$120",
-    rating: 4.8,
-    tags: ["Palaces", "Gardens", "UNESCO"],
+    price: "$95",
+    rating: 4.9,
+    tags: ["Day Trip", "UNESCO", "Coastal"],
+    meetingPoint: {
+      address: "Rossio Square, Praça Dom Pedro IV, Lisbon",
+      coordinates: {
+        latitude: 38.7142,
+        longitude: -9.1393,
+      },
+      instructions:
+        "Meet at the base of the King Pedro IV statue in the center of Rossio Square. Your guide will be holding a yellow 'Portugal Explorer' sign.",
+      contactNumber: "+351 21 987 6543",
+      contactEmail: "tours@portugalexplorer.pt",
+    },
+    highlights: [
+      "Visit the colorful Pena Palace, a UNESCO World Heritage site",
+      "Explore the historic center of Sintra with its unique architecture",
+      "Stand at Cabo da Roca, the westernmost point of continental Europe",
+      "Enjoy free time in the elegant coastal resort town of Cascais",
+      "Scenic drive along the Atlantic coastline with spectacular views",
+    ],
+    inclusions: [
+      "Transportation in air-conditioned minivan",
+      "Professional guide (English and Portuguese speaking)",
+      "Entrance fees to Pena Palace and Park",
+      "Free time in Sintra and Cascais",
+      "Visit to Cabo da Roca viewpoint",
+      "Certificate from Cabo da Roca (westernmost point of Europe)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Lunch (time will be provided for lunch in Sintra)",
+      "Entrance fees to additional attractions",
+      "Gratuities",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "9:00 AM - Depart from Rossio Square, Lisbon",
+      "10:00 AM - Arrive in Sintra, visit Pena Palace and Park",
+      "12:00 PM - Free time in Sintra historical center for lunch and exploration",
+      "1:30 PM - Departure for Cabo da Roca",
+      "2:00 PM - Photo stop at Cabo da Roca, westernmost point of Europe",
+      "2:45 PM - Scenic coastal drive to Cascais",
+      "3:15 PM - Free time to explore Cascais",
+      "4:30 PM - Return journey to Lisbon",
+      "5:30 PM - Arrival in Lisbon city center",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: true,
     isRomantic: true,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "historical",
-    itinerary: [
-      "08:00 - Depart from Lisbon towards Sintra",
-      "09:00 - Visit Pena Palace and its gardens",
-      "11:00 - Explore the historic center of Sintra",
-      "12:00 - Enjoy lunch at a local restaurant (not included)",
-      "13:30 - Tour Quinta da Regaleira and its mystical gardens",
-      "15:30 - Free time to explore or shop for local crafts",
-      "16:30 - Return to Lisbon",
-    ],
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "day-trip",
     faqs: [
       {
-        question: "How far is Sintra from Lisbon?",
+        question: "Is lunch included in the tour?",
         answer:
-          "Sintra is located about 30km (18 miles) from Lisbon. Our comfortable private transportation takes approximately 40 minutes each way, depending on traffic conditions.",
+          "Lunch is not included in the tour price, but we allow free time in Sintra where you can choose from many dining options ranging from casual cafés to traditional Portuguese restaurants. Your guide will provide recommendations suited to your preferences and budget.",
       },
       {
-        question: "What should I wear for the tour?",
+        question: "Is there much walking involved?",
         answer:
-          "We recommend comfortable walking shoes and weather-appropriate clothing, as we will be exploring both indoor and outdoor sites. Sintra's microclimate can be cooler than Lisbon, so a light jacket is advisable.",
+          "This tour involves moderate walking, particularly in Sintra and Pena Palace. The palace is situated on a hill and has various levels and staircases. In total, you might walk approximately 3-4 kilometers throughout the day at a leisurely pace. Comfortable walking shoes are recommended.",
+      },
+      {
+        question: "What should I wear for this tour?",
+        answer:
+          "We recommend wearing layers as the weather at Cabo da Roca can be windy and cooler than Lisbon, even in summer. Comfortable walking shoes are essential for the cobblestone streets of Sintra and palace grounds. Sunscreen, sunglasses, and a hat are advisable as many locations are exposed to the sun.",
       },
     ],
   },
   {
-    title: "Lisbon Street Art & Culinary Tour",
+    title: "Portuguese Gastronomy & Wine Experience",
     description:
-      "Explore Lisbon's vibrant street art scene with a guided walking tour through the city's best murals, followed by a culinary experience sampling local delicacies at hidden food spots.",
+      "Discover Portuguese cuisine through a guided food tour visiting traditional eateries, markets, and wine bars, sampling local delicacies and wines from different regions.",
     city: "Lisbon",
     country: "Portugal",
-    region: "Lisbon Metropolitan Area",
+    region: "Lisbon Region",
     images: [
-      "https://img.freepik.com/free-photo/colorful-street-art-lisbon_1234-5678.jpg", // Street art
-      "https://lh3.googleusercontent.com/proxy/abcdefg1234567", // Local food market
+      "/images/tours/lisbon/food-tasting.jpg",
+      "/images/tours/lisbon/wine-cellar.jpg",
     ],
-    duration: "5 hours",
+    duration: "4 hours",
     price: "$75",
     rating: 4.7,
-    tags: ["Art", "Food", "Walking Tour"],
+    tags: ["Food", "Wine", "Cultural"],
+    meetingPoint: {
+      address: "Time Out Market, Av. 24 de Julho 49, 1200-479 Lisboa",
+      coordinates: {
+        latitude: 38.707,
+        longitude: -9.1454,
+      },
+      instructions:
+        "Meet at the main entrance of Time Out Market (Mercado da Ribeira). Your guide will be wearing a burgundy vest with 'Portuguese Food Tours' logo.",
+      contactNumber: "+351 21 765 4321",
+      contactEmail: "taste@portuguesefoodtours.pt",
+    },
+    highlights: [
+      "Sample 10-12 Portuguese specialties from various regions",
+      "Taste premium Portuguese wines from different wine regions",
+      "Visit Lisbon's famous food market and traditional family-run establishments",
+      "Learn about Portuguese culinary traditions and wine production",
+      "Experience a private port wine tasting session with cheese pairing",
+    ],
+    inclusions: [
+      "Professional food and wine guide",
+      "All food tastings (equivalent to a full meal)",
+      "6 wine tastings including Port wine",
+      "Visit to Time Out Market and traditional eateries",
+      "Small group experience (maximum 10 people)",
+      "Recipe booklet with Portuguese classics",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Additional food and beverages beyond included tastings",
+      "Gratuities",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "10:00 AM - Meet at Time Out Market main entrance",
+      "10:15 AM - Market tour and first tastings of Portuguese specialties",
+      "11:00 AM - Visit to traditional pastry shop for Portuguese sweets",
+      "11:30 AM - Walk through Chiado district with historical context",
+      "12:00 PM - Visit to traditional tavern for savory tastings and wine",
+      "12:45 PM - Ginjinha (cherry liqueur) tasting at historic establishment",
+      "1:15 PM - Final stop at wine bar for premium Portuguese wine tasting with cheese",
+      "2:00 PM - Tour conclusion with recommendations for dinner venues",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: false,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: false,
+    isIndoor: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Can dietary restrictions be accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions including vegetarian, gluten-free, and seafood allergies with advance notice. Please inform us at booking of any requirements. Due to the nature of Portuguese cuisine, some tours are more challenging for strict vegan diets, but we'll do our best to provide alternatives.",
+      },
+      {
+        question: "How much food is included?",
+        answer:
+          "The tour includes 10-12 food tastings that together constitute a substantial meal. You won't need to plan for lunch before or after. Portions are generous and represent a diverse range of Portuguese specialties from savory to sweet.",
+      },
+      {
+        question: "Is the wine tasting suitable for non-drinkers?",
+        answer:
+          "While wine tasting is a significant component of this tour, we offer non-alcoholic alternatives including traditional Portuguese beverages like lemonade, tea, and coffee. The food portion of the tour remains identical for all participants regardless of alcohol consumption.",
+      },
+    ],
+  },
+  {
+    title: "Belém & Maritime Discoveries Half-Day Tour",
+    description:
+      "Explore the historic Belém district, home to UNESCO World Heritage monuments that celebrate Portugal's Age of Discovery and maritime heritage.",
+    city: "Lisbon",
+    country: "Portugal",
+    region: "Lisbon Region",
+    images: [
+      "/images/tours/lisbon/belem-tower.jpg",
+      "/images/tours/lisbon/jeronimos-monastery.jpg",
+    ],
+    duration: "4 hours",
+    price: "$55",
+    rating: 4.6,
+    tags: ["Historical", "UNESCO", "Architecture"],
+    meetingPoint: {
+      address: "Praça do Império, 1400-206 Lisboa",
+      coordinates: {
+        latitude: 38.6973,
+        longitude: -9.2063,
+      },
+      instructions:
+        "Meet in front of Jerónimos Monastery main entrance. Your guide will be holding a white 'Lisbon History Tours' sign.",
+      contactNumber: "+351 21 543 2109",
+      contactEmail: "history@lisbontours.pt",
+    },
+    highlights: [
+      "Visit the magnificent Jerónimos Monastery, a masterpiece of Manueline architecture",
+      "Explore the iconic Belém Tower, a symbol of Portugal's Age of Discovery",
+      "See the impressive Monument to the Discoveries (Padrão dos Descobrimentos)",
+      "Sample the famous 'Pastéis de Belém' custard tarts from the original bakery",
+      "Learn about Portugal's maritime history and global exploration",
+    ],
+    inclusions: [
+      "Professional historian guide",
+      "Entrance tickets to Jerónimos Monastery",
+      "Entrance tickets to Belém Tower",
+      "One original Pastéis de Belém custard tart per person",
+      "Small group experience (maximum 12 people)",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off",
+      "Public transportation tickets (if needed)",
+      "Additional food and beverages beyond included pastry",
+      "Gratuities",
+      "Entry to optional museums",
+    ],
+    itinerary: [
+      "9:00 AM - Meet at Jerónimos Monastery entrance",
+      "9:15 AM - Guided tour of Jerónimos Monastery interior and cloisters",
+      "10:30 AM - Walk through Belém gardens to Monument to the Discoveries",
+      "11:00 AM - Visit to Belém Tower with guided explanation",
+      "11:45 AM - Visit to original 'Pastéis de Belém' bakery for custard tart tasting",
+      "12:15 PM - Walk along the Tagus River with views of the April 25th Bridge",
+      "12:45 PM - Tour conclusion with recommendations for lunch options",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 24 hours in advance. 50% refund if canceled 12-24 hours before tour. No refund for cancellations less than 12 hours before scheduled tour.",
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    isAdventure: false,
+    isCultural: true,
+    isCulinary: true,
+    isSpiritual: true,
+    isNightlife: false,
+    isWellness: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isFamilyFriendly: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: true,
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "How do we travel between the different monuments in Belém?",
+        answer:
+          "All sites on this tour are within comfortable walking distance of each other. The total walking distance is approximately 2 kilometers (1.2 miles) at a leisurely pace with frequent stops for explanations and photos. The terrain is flat and easily walkable.",
+      },
+      {
+        question: "What is special about the Pastéis de Belém custard tarts?",
+        answer:
+          "Pastéis de Belém are the original version of the famous Portuguese custard tarts (pastéis de nata), made with a secret recipe from the early 19th century that originated with monks from Jerónimos Monastery. The bakery we visit has been making them since 1837 using the original recipe, and many consider them superior to other versions found throughout Portugal.",
+      },
+      {
+        question: "Is photography allowed inside the monuments?",
+        answer:
+          "Photography without flash is permitted in most areas of Jerónimos Monastery and Belém Tower. There are some specific sections where photography is restricted, which your guide will clearly indicate. Professional photography equipment may require special permission.",
+      },
+    ],
+  },
+  {
+    title: "Lisbon by Night: Dinner & Panoramic Views",
+    description:
+      "Experience Lisbon's enchanting nighttime ambiance with a scenic evening tour featuring panoramic viewpoints, traditional dinner with live music, and a drive through illuminated historic districts.",
+    city: "Lisbon",
+    country: "Portugal",
+    region: "Lisbon Region",
+    images: [
+      "/images/tours/lisbon/night-panorama.jpg",
+      "/images/tours/lisbon/evening-dining.jpg",
+    ],
+    duration: "4 hours",
+    price: "$90",
+    rating: 4.7,
+    tags: ["Evening", "Scenic", "Dining"],
+    meetingPoint: {
+      address: "Restauradores Square, 1250-096 Lisboa",
+      coordinates: {
+        latitude: 38.7169,
+        longitude: -9.1424,
+      },
+      instructions:
+        "Meet at Restauradores Square by the obelisk monument. Your guide will be waiting with a sign reading 'Lisbon by Night'.",
+      contactNumber: "+351 21 876 5432",
+      contactEmail: "evenings@lisbontours.pt",
+    },
+    highlights: [
+      "Panoramic night views from the best miradouros (viewpoints) in Lisbon",
+      "Traditional Portuguese dinner with Fado music entertainment",
+      "Evening drive through illuminated historic districts",
+      "Visit to São Jorge Castle viewpoint after regular closing hours",
+      "Photo opportunities of Lisbon's beautiful night skyline",
+    ],
+    inclusions: [
+      "Transportation in comfortable vehicle",
+      "Professional guide",
+      "Traditional Portuguese dinner with drinks (wine, beer, soft drinks)",
+      "Live Fado music during dinner",
+      "Visit to exclusive nighttime viewpoints",
+    ],
+    exclusions: [
+      "Hotel pickup and drop-off (available for €10 supplement)",
+      "Additional food and beverages beyond included dinner",
+      "Gratuities",
+      "Personal expenses",
+    ],
+    itinerary: [
+      "7:30 PM - Meet at Restauradores Square",
+      "7:45 PM - Drive to first scenic viewpoint at Senhora do Monte",
+      "8:15 PM - Visit São Jorge Castle area for night views",
+      "8:45 PM - Drive through illuminated Alfama district",
+      "9:15 PM - Arrive at traditional restaurant for dinner",
+      "9:30 PM - Portuguese dinner with Fado music performance",
+      "11:00 PM - Drive to final panoramic viewpoint",
+      "11:30 PM - Tour conclusion with optional drop-off",
+    ],
+    cancellationPolicy:
+      "Full refund if canceled 48 hours in advance. 50% refund if canceled 24-48 hours before tour. No refund for cancellations less than 24 hours before scheduled tour.",
     isHistorical: false,
     isRomantic: true,
-    isOffTheBeatenPath: true,
+    isOffTheBeatenPath: false,
     isLocalExperience: true,
-    tourCategoryId: "culinary",
-    itinerary: [
-      "10:00 - Meet at Praça Martim Moniz and begin walking tour",
-      "10:30 - Visit iconic street art murals in Bairro Alto",
-      "11:30 - Explore hidden alleys with unique graffiti",
-      "12:30 - Stop at a local eatery for traditional Portuguese snacks",
-      "13:30 - Continue to Cais do Sodré for more street art",
-      "14:30 - Conclude tour with dessert at a famous pastry shop",
-    ],
-    faqs: [
-      {
-        question: "Is this tour suitable for children?",
-        answer:
-          "Yes, this tour is family-friendly and designed to engage visitors of all ages with interactive art experiences and delicious food tastings.",
-      },
-      {
-        question: "What should I wear for the walk?",
-        answer:
-          "Wear comfortable walking shoes and dress for the weather. We recommend bringing a water bottle and sunscreen.",
-      },
-      {
-        question: "Do we visit any indoor galleries?",
-        answer:
-          "Yes, we will visit a few indoor galleries showcasing local artists' work, along with outdoor murals throughout the city.",
-      },
-    ],
-  },
-  {
-    title: "Sunset Sailing Cruise on the Tagus River",
-    description:
-      "Set sail along the Tagus River for a magical evening aboard a luxury yacht. Watch the sunset behind Lisbon’s skyline while enjoying a glass of wine and local snacks, with live commentary about the monuments you pass.",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Lisbon Metropolitan Area",
-    images: [
-      "https://images.unsplash.com/photo-1608315398886-9e2b1e7517fc", // Sunset sailboat
-      "https://cdn.pixabay.com/photo/2017/01/20/00/30/lisbon-1992025_1280.jpg", // Tagus River from water
-    ],
-    duration: "2 hours",
-    price: "$55",
-    rating: 4.9,
-    tags: ["Sunset", "Luxury", "Cruise"],
-    isRomantic: true,
-    isLuxury: true,
-    isOutdoor: true,
-    isPopular: true,
-    isLocalExperience: true,
-    isFamilyFriendly: true,
-    tourCategoryId: "luxury",
-    itinerary: [
-      "18:00 - Boarding at Doca do Bom Sucesso marina",
-      "18:15 - Sail past Belém Tower and the Discoveries Monument",
-      "18:45 - Watch the sunset from the 25 de Abril Bridge viewpoint",
-      "19:15 - Enjoy drinks and Portuguese snacks on board",
-      "20:00 - Return to the marina and disembark",
-    ],
-    faqs: [
-      {
-        question: "Are drinks and snacks included?",
-        answer:
-          "Yes, each guest receives a complimentary glass of wine and a selection of traditional snacks during the cruise.",
-      },
-      {
-        question: "Is the yacht suitable for children?",
-        answer:
-          "Yes, families are welcome. The crew ensures a safe and enjoyable experience for all ages.",
-      },
-    ],
-  },
-  {
-    title: "Belém Monuments & Pastéis de Nata Tour",
-    description:
-      "Discover the history-rich neighborhood of Belém. Visit Jerónimos Monastery, Belém Tower, and the Discoveries Monument. End the tour with a tasting of freshly baked Pastéis de Nata at the legendary Pastéis de Belém bakery.",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Lisbon Metropolitan Area",
-    images: [
-      "https://media.istockphoto.com/photos/belem-tower-lisbon-picture-id1156927121", // Belém Tower
-      "https://img.freepik.com/free-photo/traditional-portuguese-custard-tarts_53876-104225.jpg", // Pastéis de Nata
-    ],
-    duration: "3.5 hours",
-    price: "$65",
-    rating: 4.8,
-    tags: ["History", "Food", "Monuments"],
-    isHistorical: true,
+    isAdventure: false,
+    isCultural: true,
     isCulinary: true,
-    isOutdoor: true,
+    isSpiritual: false,
+    isNightlife: true,
+    isWellness: false,
+    isLuxury: true,
+    isArtOrMusic: true,
+    isFree: false,
     isPopular: true,
-    isFamilyFriendly: true,
-    tourCategoryId: "historical",
-    itinerary: [
-      "09:00 - Meet at Praça do Império and begin with Jerónimos Monastery",
-      "10:00 - Walk to the Discoveries Monument with guided commentary",
-      "10:45 - Visit Belém Tower and surrounding gardens",
-      "11:30 - Stop at Pastéis de Belém for a tasting session",
-      "12:30 - Tour concludes at the bakery",
-    ],
-    faqs: [
-      {
-        question: "Are entrance tickets included?",
-        answer:
-          "Yes, entrance to Jerónimos Monastery and Belém Tower are included in the tour price.",
-      },
-      {
-        question: "Can I buy extra Pastéis de Nata?",
-        answer:
-          "Absolutely. The bakery offers boxes for takeaway and has gluten-free and vegan options upon request.",
-      },
-    ],
-  },
-  {
-    title: "Lisbon Tram 28 Experience with Historical Guide",
-    description:
-      "Ride the iconic Tram 28 through Lisbon’s most picturesque neighborhoods. Along the way, your expert guide will explain the history of Graça, Alfama, Baixa, and Estrela. Enjoy photo stops and local stories along this moving tour.",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Lisbon Metropolitan Area",
-    images: [
-      "https://images.unsplash.com/photo-1565808225684-7982e9d82070", // Tram 28
-      "https://lh3.googleusercontent.com/p/AF1QipMsdjQnBdDKPa3-AKVDmdHE3clbWwZxE5hYck5G=w1080-h608-p-no-v0", // Alfama view from tram
-    ],
-    duration: "2.5 hours",
-    price: "$45",
-    rating: 4.6,
-    tags: ["Tram", "History", "Scenic"],
-    isHistorical: true,
-    isLocalExperience: true,
-    isFamilyFriendly: true,
+    isFamilyFriendly: false,
+    isPetFriendly: false,
     isWheelchairAccessible: false,
-    isPopular: true,
-    tourCategoryId: "cultural",
-    itinerary: [
-      "10:00 - Board Tram 28 at Martim Moniz with private guide",
-      "10:20 - Pass through Graça with commentary and photo stop",
-      "10:45 - Ride through Alfama and learn about Moorish history",
-      "11:15 - Stop near Baixa-Chiado for a short walking tour",
-      "11:45 - Continue to Estrela Basilica with exterior visit",
-      "12:30 - Tour ends near Campo de Ourique",
-    ],
+    isOutdoor: true,
+    isIndoor: true,
+    tourCategoryId: "nightlife",
     faqs: [
       {
-        question: "Is the tram ride private?",
+        question: "Is this tour appropriate for children?",
         answer:
-          "No, this tour uses public Tram 28. However, your group will be guided by a private licensed guide throughout.",
+          "While children are welcome, this evening tour runs relatively late and includes a traditional dinner with Fado music that requires quiet attentiveness. It is generally more suitable for adults and older children who can appreciate the cultural experience. For families with young children, we recommend our daytime tours.",
       },
       {
-        question: "Is the tram wheelchair accessible?",
+        question: "What type of food is served at dinner?",
         answer:
-          "Unfortunately, the historical Tram 28 is not wheelchair accessible due to narrow steps and limited space.",
+          "The dinner features traditional Portuguese cuisine such as bacalhau (codfish), grilled meats, and regional specialties. The meal typically includes starter, main course, dessert, and beverages (wine, beer, soft drinks). Vegetarian options are available with advance notice.",
+      },
+      {
+        question: "How much walking is involved?",
+        answer:
+          "This tour involves minimal walking as transportation is provided between locations. At each viewpoint, you'll walk short distances (100-200 meters) to reach the best observation spots. The most significant walking is around the São Jorge Castle area, which involves some steps and inclines.",
       },
     ],
   },
 ];
+
 export default lisbonTours;
