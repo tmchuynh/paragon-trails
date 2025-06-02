@@ -692,229 +692,110 @@ export default function DestinationDetailsPage() {
                     )}
                     <TooltipProvider>
                       <div className="flex flex-wrap gap-x-3 mt-2">
-                        {attraction.isFamilyFriendly && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/family-friendly.svg"
-                                alt="Family Friendly Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Family Friendly</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isPetFriendly && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/pet-friendly.svg"
-                                alt="Pet Friendly Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Pet Friendly</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isWheelchairAccessible && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/wheelchair.svg"
-                                alt="Wheelchair Accessible Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Wheelchair Accessible</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isPopular && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/popular.svg"
-                                alt="Popular Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Popular</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isFree && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/free.svg"
-                                alt="Free Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Free Entry</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isLuxury && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/luxury.svg"
-                                alt="Luxury Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Luxury Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isHistorical && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/historical.svg"
-                                alt="Historical Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Historical Significance</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isAdventure && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/adventure.svg"
-                                alt="Adventure Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Adventure Activities</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isRomantic && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/romantic.svg"
-                                alt="Romantic Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Romantic Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isOutdoor && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/outdoor.svg"
-                                alt="Outdoor Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Outdoor Activities</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isIndoor && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/indoor.svg"
-                                alt="Indoor Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Indoor Activities</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isOffTheBeatenPath && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/off-the-beaten-path.svg"
-                                alt="Off The Beaten Path Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Off The Beaten Path</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isLocalExperience && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/local-experience.svg"
-                                alt="Local Experience Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Local Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-                        {attraction.isNightlife && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Image
-                                src="/icons/nightlife.svg"
-                                alt="Nightlife Icon"
-                                width={40}
-                                height={40}
-                                className="inline-block"
-                              />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p>Nightlife Experience</p>
-                            </TooltipContent>
-                          </Tooltip>
+                        {[
+                          {
+                            property: "isFamilyFriendly",
+                            icon: "/icons/family-friendly.svg",
+                            alt: "Family Friendly Icon",
+                            tooltip: "Family Friendly",
+                          },
+                          {
+                            property: "isPetFriendly",
+                            icon: "/icons/pet-friendly.svg",
+                            alt: "Pet Friendly Icon",
+                            tooltip: "Pet Friendly",
+                          },
+                          {
+                            property: "isWheelchairAccessible",
+                            icon: "/icons/wheelchair.svg",
+                            alt: "Wheelchair Accessible Icon",
+                            tooltip: "Wheelchair Accessible",
+                          },
+                          {
+                            property: "isPopular",
+                            icon: "/icons/popular.svg",
+                            alt: "Popular Icon",
+                            tooltip: "Popular",
+                          },
+                          {
+                            property: "isFree",
+                            icon: "/icons/free.svg",
+                            alt: "Free Icon",
+                            tooltip: "Free Entry",
+                          },
+                          {
+                            property: "isLuxury",
+                            icon: "/icons/luxury.svg",
+                            alt: "Luxury Icon",
+                            tooltip: "Luxury Experience",
+                          },
+                          {
+                            property: "isHistorical",
+                            icon: "/icons/historical.svg",
+                            alt: "Historical Icon",
+                            tooltip: "Historical Significance",
+                          },
+                          {
+                            property: "isAdventure",
+                            icon: "/icons/adventure.svg",
+                            alt: "Adventure Icon",
+                            tooltip: "Adventure Activities",
+                          },
+                          {
+                            property: "isRomantic",
+                            icon: "/icons/romantic.svg",
+                            alt: "Romantic Icon",
+                            tooltip: "Romantic Experience",
+                          },
+                          {
+                            property: "isOutdoor",
+                            icon: "/icons/outdoor.svg",
+                            alt: "Outdoor Icon",
+                            tooltip: "Outdoor Activities",
+                          },
+                          {
+                            property: "isIndoor",
+                            icon: "/icons/indoor.svg",
+                            alt: "Indoor Icon",
+                            tooltip: "Indoor Activities",
+                          },
+                          {
+                            property: "isOffTheBeatenPath",
+                            icon: "/icons/off-the-beaten-path.svg",
+                            alt: "Off The Beaten Path Icon",
+                            tooltip: "Off The Beaten Path",
+                          },
+                          {
+                            property: "isLocalExperience",
+                            icon: "/icons/local-experience.svg",
+                            alt: "Local Experience Icon",
+                            tooltip: "Local Experience",
+                          },
+                          {
+                            property: "isNightlife",
+                            icon: "/icons/nightlife.svg",
+                            alt: "Nightlife Icon",
+                            tooltip: "Nightlife Experience",
+                          },
+                        ].map((feature, index) =>
+                          attraction[
+                            feature.property as keyof typeof attraction
+                          ] ? (
+                            <Tooltip key={index}>
+                              <TooltipTrigger asChild>
+                                <Image
+                                  src={feature.icon}
+                                  alt={feature.alt}
+                                  width={40}
+                                  height={40}
+                                  className="inline-block"
+                                />
+                              </TooltipTrigger>
+                              <TooltipContent>
+                                <p>{feature.tooltip}</p>
+                              </TooltipContent>
+                            </Tooltip>
+                          ) : null
                         )}
                       </div>
                     </TooltipProvider>
