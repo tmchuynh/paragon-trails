@@ -124,7 +124,7 @@ export const tokyoKantoJapan: Attraction[] = [
     rating: 4.9,
     tags: ["cultural", "local", "traditional"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

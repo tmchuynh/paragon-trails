@@ -80,7 +80,7 @@ export const romeLazioItaly: Attraction[] = [
     rating: 4.9,
     tags: ["local", "cultural", "art-and-music"],
     accessibilityFeatures: ["wheelchair accessible", "private access"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

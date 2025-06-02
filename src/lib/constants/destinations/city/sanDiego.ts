@@ -141,7 +141,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     priceCategory: "free",
     timeOfDay: "all day",
     rating: 4.7,
-    tags: [ "nightlife", "cultural"],
+    tags: ["nightlife", "cultural"],
     accessibilityFeatures: ["limited accessibility"],
     isPopular: true,
 
@@ -164,7 +164,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,
@@ -187,7 +187,7 @@ export const sanDiegoCaUnitedStates: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "wellness", "local"],
     accessibilityFeatures: ["wheelchair accessible", "personalized service"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

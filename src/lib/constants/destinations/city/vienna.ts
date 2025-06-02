@@ -126,7 +126,7 @@ export const viennaViennaAustria: Attraction[] = [
     rating: 4.9,
     tags: ["art-and-music", "local", "luxury"],
     accessibilityFeatures: ["wheelchair accessible"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

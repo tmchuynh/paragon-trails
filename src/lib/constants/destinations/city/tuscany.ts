@@ -126,7 +126,7 @@ export const tuscanyTuscanyItaly: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "castle", "local"],
     accessibilityFeatures: ["limited accessibility"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

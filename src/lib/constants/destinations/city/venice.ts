@@ -124,7 +124,7 @@ export const veniceVenetoItaly: Attraction[] = [
     rating: 4.9,
     tags: ["local", "cultural", "basilica"],
     accessibilityFeatures: ["wheelchair accessible"],
-    isPopular: false,
+    isPopular: true,
 
     isFree: false,
     isPetFriendly: false,

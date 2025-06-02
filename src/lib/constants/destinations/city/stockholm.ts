@@ -181,7 +181,7 @@ export const stockholmStockholmCountySweden: Attraction[] = [
     rating: 4.9,
     tags: ["luxury", "local", "adventure"],
     accessibilityFeatures: ["assistance available"],
-    isPopular: false,
+    isPopular: true,
     isFamilyFriendly: false,
     isFree: false,
     isPetFriendly: false,
