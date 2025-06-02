@@ -17,16 +17,17 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { cityattractions } from "@/lib/constants/info/city";
-import { Tour } from "@/lib/interfaces/services/tours";
+import { TourGuide } from "@/lib/interfaces/people/staff";
+import { Tour } from "@/lib/interfaces/services/tours"; // Added TourGuide
 import { cn } from "@/lib/utils";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import {
   findGuideBySpecialty,
   getAllTours,
+  getRandomDatesFromNextWeek,
   getTourData,
   getToursByCategory,
-  getRandomDatesFromNextWeek,
 } from "@/lib/utils/get";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { format } from "date-fns";
@@ -48,7 +49,7 @@ export default function TourPage() {
   const tourCategoryId = searchParams.get("tourCategoryId") || "";
   const [filteredTours, setFilteredTours] = useState<Tour[]>([]);
   const [allTours, setAllTours] = useState<Tour[]>([]);
-  const [tourGuides, setTourGuides] = useState<{ [key: string]: string }>({});
+  const [tourGuides, setTourGuides] = useState<TourGuide[]>([]); // Changed type
 
   const cityInfo = cityattractions.find(
     (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
@@ -105,7 +106,7 @@ export default function TourPage() {
 
   let availableDates: string[];
 
-  if (tour.availableDates && tour.availableDates.length > 0) {
+  if (tour?.availableDates && tour.availableDates.length > 0) {
     availableDates = tour.availableDates.map((date) =>
       format(new Date(date), "yyyy-MM-dd")
     );
@@ -495,25 +496,46 @@ export default function TourPage() {
   );
 
   async function fetchTourGuides() {
-    const tourGuidesData = await getTourData(decodeURIComponent(city));
-    const guidePromises = tourGuidesData.map(async (tour: Tour) => {
+    const tourDataForCity = await getTourData(decodeURIComponent(city));
+    const guidePromises = tourDataForCity.map(async (t: Tour) => {
       try {
         const guide = await findGuideBySpecialty(
           decodeURIComponent(city).toLowerCase(),
-          tour.tourCategoryId
+          t.tourCategoryId
         );
-        return { tourTitle: tour.title, guideName: guide.name };
+        // Assuming findGuideBySpecialty returns a TourGuide object
+        // and TourGuide interface includes at least { name: string, tourCategoryId?: string } or similar
+        return guide as TourGuide;
       } catch (error) {
-        console.error(`Failed to load guide for ${tour.title}:`, error);
-        return { tourTitle: tour.title, guideName: "Local Expert" };
+        console.error(
+          `Failed to load guide for tour category ${t.tourCategoryId} in city ${city}:`,
+          error
+        );
+        // Provide a fallback TourGuide object that matches the expected structure
+        // This structure depends on your TourGuide interface definition
+        return {
+          name: "Unknown Guide",
+          city: decodeURIComponent(city),
+          country: "Unknown Country",
+          state: "Unknown State",
+          region: "Unknown Region",
+          isPopular: false,
+          bio: "No bio available",
+          description: "No description available",
+          quote: "No quote available",
+          profileImage: "/images/guides/default-avatar.jpg", // Fallback image
+          specialties: [],
+          languages: [],
+          experienceYears: 0,
+        } as TourGuide; // Adjust this fallback as needed
       }
     });
 
-    const guides = await Promise.all(guidePromises);
-    const guidesMap = guides.reduce((acc, { tourTitle, guideName }) => {
-      acc[tourTitle] = guideName;
-      return acc;
-    }, {} as { [key: string]: string });
-    setTourGuides(guidesMap);
+    const fetchedGuidesArray: (TourGuide | null)[] = await Promise.all(
+      guidePromises
+    );
+    setTourGuides(
+      fetchedGuidesArray.filter((guide) => guide !== null) as TourGuide[]
+    );
   }
 }
