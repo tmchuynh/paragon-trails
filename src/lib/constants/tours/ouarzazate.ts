@@ -5,6 +5,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Ait Benhaddou & UNESCO Heritage Experience",
     description:
       "Explore the magnificent fortified village of Ait Benhaddou with privileged access to areas normally closed to visitors, guided by a local resident whose family has lived in the ksar for generations, followed by a traditional Berber lunch in a family home.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/ait-benhaddou.jpg",
       "/images/tours/ouarzazate/kasbah-interior.jpg",
@@ -36,6 +39,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Morocco Film Studios Behind the Scenes",
     description:
       "Discover why Ouarzazate is known as 'Africa's Hollywood' with exclusive access to Atlas Studios and CLA Studios where blockbusters from Gladiator to Game of Thrones have been filmed, including active sets and the craftspeople who create movie magic.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/atlas-studios.jpg",
       "/images/tours/ouarzazate/film-sets.jpg",
@@ -62,6 +68,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Draa Valley Oasis & Ancient Kasbahs",
     description:
       "Journey through the spectacular Draa Valley with its endless palm groves, hidden oases, and centuries-old kasbahs. Visit traditional villages, meet local families, and witness time-honored agricultural practices that sustain life in this desert environment.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/draa-valley.jpg",
       "/images/tours/ouarzazate/palm-oasis.jpg",
@@ -88,6 +97,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Sahara Desert Expedition & Overnight Camping",
     description:
       "Experience the magic of the Sahara with a journey into golden dunes, camel trekking at sunset, traditional music around the campfire, and a night in a luxury desert camp under countless stars, culminating in a spectacular sunrise over the dunes.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/sahara-sunset.jpg",
       "/images/tours/ouarzazate/desert-camp.jpg",
@@ -114,6 +126,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Moroccan Astronomy Experience & Star Photography",
     description:
       "Witness the incredible night skies of the Moroccan desert with an astronomy expert and astrophotographer. Learn to identify constellations, observe celestial objects through a professional telescope, and capture stunning star images with specialized photography techniques.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/night-sky.jpg",
       "/images/tours/ouarzazate/astronomy.jpg",
@@ -140,6 +155,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Berber Carpet Weaving Workshop",
     description:
       "Learn the ancient art of traditional Berber carpet making from master artisans. Try your hand at wool carding, natural dyeing, and simple weaving techniques while discovering the symbolic language of patterns and colors that tell stories of tribal heritage.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/carpet-weaving.jpg",
       "/images/tours/ouarzazate/berber-artisans.jpg",
@@ -166,6 +184,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Photography Tour: Doors & Kasbahs of Ouarzazate",
     description:
       "Capture the unique architectural beauty of southern Morocco with a photography tour focused on the ornate doors, weathered kasbahs, and magical light that has drawn photographers and filmmakers to this region for decades.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/kasbah-doors.jpg",
       "/images/tours/ouarzazate/architectural-details.jpg",
@@ -192,6 +213,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Fint Oasis Hidden Paradise & Tea Ceremony",
     description:
       "Discover one of Morocco's most beautiful yet least visited oases, a lush green paradise of palm groves and clear streams surrounded by stark mountains, followed by a traditional tea ceremony with a local family in their mud-brick home.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/fint-oasis.jpg",
       "/images/tours/ouarzazate/berber-tea.jpg",
@@ -218,6 +242,9 @@ export const ouarzazateTours: Tour[] = [
     title: "Ouarzazate Culinary Tour: From Market to Table",
     description:
       "Experience the flavors of southern Morocco with a guided tour of Ouarzazate's bustling souks, followed by a hands-on cooking class where you'll prepare traditional dishes like tagine and couscous using fresh local ingredients.",
+    city: "Ouarzazate",
+    country: "Morocco",
+    region: "Drâa-Tafilalet",
     images: [
       "/images/tours/ouarzazate/market-tour.jpg",
       "/images/tours/ouarzazate/cooking-class.jpg",

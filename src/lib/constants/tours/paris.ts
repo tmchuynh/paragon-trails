@@ -5,6 +5,9 @@ export const parisTours: Tour[] = [
     title: "Hidden Paris Walking Tour",
     description:
       "Discover the secret passages, charming courtyards, and lesser-known neighborhoods of Paris with a local historian who reveals the city beyond the tourist attractions.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
     images: [
       "/images/tours/paris/hidden-passages.jpg",
       "/images/tours/paris/secret-gardens.jpg",
@@ -36,6 +39,9 @@ export const parisTours: Tour[] = [
     title: "Louvre Masterpieces & Beyond",
     description:
       "Experience the world's most famous museum with an art historian guide who brings masterpieces to life. Includes skip-the-line access and visits to hidden galleries most tourists never see.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
     images: [
       "/images/tours/paris/louvre-mona-lisa.jpg",
       "/images/tours/paris/louvre-venus.jpg",
@@ -72,6 +78,9 @@ export const parisTours: Tour[] = [
     title: "Parisian Culinary Delights Tour",
     description:
       "Savor the flavors of Paris with a guided food tour through local markets, bakeries, and bistros, sampling traditional French cuisine and learning about the city's culinary heritage.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
     images: [
       "/images/tours/paris/culinary-tour.jpg",
       "/images/tours/paris/local-bakery.jpg",
@@ -103,6 +112,72 @@ export const parisTours: Tour[] = [
           "Yes, this tour is family-friendly and children will enjoy the interactive food experiences. We can also provide kid-friendly food options upon request.",
       },
     ],
+  },
+  {
+    title: "Skip-the-Line Louvre Museum Tour",
+    description:
+      "Explore the world's most visited museum with an expert art historian, bypassing the long lines to discover masterpieces like the Mona Lisa, Venus de Milo, and Winged Victory.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
+    images: [
+      "/images/tours/paris/louvre-tour.jpg",
+      "/images/tours/paris/mona-lisa.jpg",
+    ],
+    duration: "3 hours",
+    price: "$65",
+    rating: 4.8,
+    tags: ["Art", "Museum", "History"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourCategoryId: "art-and-music",
+  },
+  {
+    title: "Seine River Dinner Cruise",
+    description:
+      "Enjoy a romantic evening cruising along the Seine River with a gourmet dinner, fine wine, and live music while passing illuminated monuments like the Eiffel Tower, Notre Dame, and the Louvre.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
+    images: [
+      "/images/tours/paris/seine-cruise.jpg",
+      "/images/tours/paris/paris-night.jpg",
+    ],
+    duration: "2.5 hours",
+    price: "$95",
+    rating: 4.7,
+    tags: ["Romantic", "Dinner", "Cruise"],
+
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourCategoryId: "romantic",
+  },
+  {
+    title: "Montmartre & Sacré-Cœur Walking Tour",
+    description:
+      "Discover the bohemian charm of Montmartre on a guided walking tour through the artists' quarter, visiting the white-domed Sacré-Cœur Basilica, Place du Tertre, and locations from the film 'Amélie'.",
+    city: "Paris",
+    country: "France",
+    region: "Île-de-France",
+    images: [
+      "/images/tours/paris/montmartre.jpg",
+      "/images/tours/paris/sacre-coeur.jpg",
+    ],
+    duration: "3 hours",
+    price: "$45",
+    rating: 4.9,
+    tags: ["Walking Tour", "Art", "Local Culture"],
+
+    isHistorical: true,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "cultural",
   },
 ];
 

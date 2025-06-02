@@ -5,6 +5,9 @@ export const palawanTours: Tour[] = [
     title: "El Nido Island Hopping & Secret Lagoons",
     description:
       "Discover the breathtaking limestone islands of Bacuit Bay on a private boat tour to El Nido's most spectacular lagoons, hidden beaches, and snorkeling sites, with a gourmet lunch prepared by your personal chef on a secluded white sand beach.",
+    city: "El Nido",
+    country: "Philippines",
+    region: "Palawan",
     images: [
       "/images/tours/palawan/el-nido-islands.jpg",
       "/images/tours/palawan/hidden-lagoon.jpg",
@@ -37,6 +40,9 @@ export const palawanTours: Tour[] = [
     title: "Underground River Private Expedition",
     description:
       "Explore the UNESCO World Heritage Puerto Princesa Underground River with VIP access before public hours and extended exploration into restricted cave sections with specialized guides and equipment not available to standard tours.",
+    city: "Puerto Princesa",
+    country: "Philippines",
+    region: "Palawan",
     images: [
       "/images/tours/palawan/underground-river.jpg",
       "/images/tours/palawan/cave-formations.jpg",
@@ -278,6 +284,70 @@ export const palawanTours: Tour[] = [
           "We recommend wearing comfortable clothing suitable for outdoor activities, sturdy walking shoes, a hat, sunglasses, and sunscreen. Bring a refillable water bottle to stay hydrated. A camera with a zoom lens is highly recommended for capturing wildlife photos. Binoculars are also useful for birdwatching. We provide all necessary equipment for tracking and observing wildlife.",
       },
     ],
+  },
+  {
+    title: "Underground River Adventure",
+    description:
+      "Explore the UNESCO World Heritage Puerto Princesa Subterranean River, one of the world's longest underground rivers, with a guided boat tour through dramatic limestone caves filled with unique formations.",
+    city: "Puerto Princesa",
+    country: "Philippines",
+    region: "Palawan",
+    images: [
+      "/images/tours/palawan/underground-river.jpg",
+      "/images/tours/palawan/cave-formations.jpg",
+    ],
+    duration: "6 hours",
+    price: "$70",
+    rating: 4.8,
+    tags: ["UNESCO", "Natural Wonder", "Adventure"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: false,
+    tourCategoryId: "adventure",
+  },
+  {
+    title: "El Nido Island Hopping: Lagoons & Beaches",
+    description:
+      "Experience the breathtaking beauty of El Nido with a boat tour to secret lagoons, hidden beaches, and snorkeling spots among limestone karsts, including the famous Big and Small Lagoons.",
+    city: "El Nido",
+    country: "Philippines",
+    region: "Palawan",
+    images: [
+      "/images/tours/palawan/el-nido-lagoon.jpg",
+      "/images/tours/palawan/hidden-beach.jpg",
+    ],
+    duration: "7 hours",
+    price: "$35",
+    rating: 4.9,
+    tags: ["Island Hopping", "Snorkeling", "Beaches"],
+    isHistorical: false,
+    isRomantic: true,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "nature-experience",
+  },
+  {
+    title: "Coron Shipwreck Diving Safari",
+    description:
+      "Dive among World War II Japanese shipwrecks in the crystal-clear waters of Coron Bay, exploring these underwater time capsules that now serve as artificial reefs teeming with marine life.",
+    city: "Coron",
+    country: "Philippines",
+    region: "Palawan",
+    images: [
+      "/images/tours/palawan/shipwreck-diving.jpg",
+      "/images/tours/palawan/underwater-reefs.jpg",
+    ],
+    duration: "8 hours",
+    price: "$120",
+    rating: 4.7,
+    tags: ["Diving", "Shipwrecks", "Marine Life"],
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: false,
+    tourCategoryId: "adventure",
   },
 ];
 

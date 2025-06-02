@@ -2,114 +2,68 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const palermoTours: Tour[] = [
   {
-    title: "Palermo Street Food Tour",
+    title: "Palermo Street Food Safari",
     description:
-      "Experience the vibrant street food scene of Palermo with a local guide, tasting traditional dishes and exploring bustling markets.",
+      "Taste your way through Sicily's vibrant capital on a guided tour of Palermo's historic markets and street food stalls, sampling authentic specialties like arancini, panelle, and the infamous spleen sandwich.",
+    city: "Palermo",
+    country: "Italy",
+    region: "Sicily",
     images: [
       "/images/tours/palermo/street-food.jpg",
       "/images/tours/palermo/markets.jpg",
     ],
     duration: "3 hours",
-    price: "$45",
+    price: "$55",
     rating: 4.8,
-    tags: ["Food", "Local", "Cultural"],
-
+    tags: ["Food", "Markets", "Cultural"],
     isHistorical: false,
     isRomantic: false,
-    isOffTheBeatenPath: true,
+    isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    faqs: [
-      {
-        question: "What types of food will we try?",
-        answer:
-          "You'll sample a variety of local specialties including arancini, panelle, and cannoli.",
-      },
-      {
-        question: "Is this tour suitable for vegetarians?",
-        answer:
-          "Yes, vegetarian options are available. Please inform us of any dietary restrictions in advance.",
-      },
-    ],
   },
   {
-    title: "Historical Walking Tour of Palermo",
+    title: "Norman-Arab Architecture Tour",
     description:
-      "Discover the rich history of Palermo on a guided walking tour through its ancient streets and iconic landmarks.",
+      "Discover Palermo's unique architectural heritage with visits to UNESCO-listed Norman-Arab sites including the stunning Palatine Chapel, Palermo Cathedral, and the magnificent Monreale Cathedral with its golden mosaics.",
+    city: "Palermo",
+    country: "Italy",
+    region: "Sicily",
     images: [
-      "/images/tours/palermo/historical-walking.jpg",
-      "/images/tours/palermo/cathedral.jpg",
+      "/images/tours/palermo/palatine-chapel.jpg",
+      "/images/tours/palermo/monreale-cathedral.jpg",
     ],
-    duration: "2.5 hours",
-    price: "$30",
-    rating: 4.7,
-    tags: ["History", "Culture", "Sightseeing"],
-
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.9,
+    tags: ["Architecture", "UNESCO", "History"],
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
     isLocalExperience: false,
-    tourCategoryId: "cultural",
+    tourCategoryId: "historical",
   },
   {
-    title: "Palermo Nightlife Experience",
+    title: "Sicilian Cooking Class in Historic Palace",
     description:
-      "Explore the vibrant nightlife of Palermo with a local guide, visiting popular bars and clubs for an unforgettable evening.",
+      "Learn traditional Sicilian recipes in a hands-on cooking class held in a historic noble palace, preparing dishes like pasta alla Norma and cassata under the guidance of a local chef before enjoying your creations in the palace courtyard.",
+    city: "Palermo",
+    country: "Italy",
+    region: "Sicily",
     images: [
-      "/images/tours/palermo/nightlife.jpg",
-      "/images/tours/palermo/bars.jpg",
+      "/images/tours/palermo/cooking-class.jpg",
+      "/images/tours/palermo/historic-palace.jpg",
     ],
     duration: "4 hours",
-    price: "$60",
-    rating: 4.9,
-    tags: ["Nightlife", "Entertainment", "Local"],
-
-    isHistorical: false,
-    isRomantic: true,
-    isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "nightlife",
-    faqs: [
-      {
-        question: "What types of venues will we visit?",
-        answer:
-          "We'll visit a mix of traditional bars, modern clubs, and hidden gems known only to locals.",
-      },
-      {
-        question: "Is there a dress code for the nightlife tour?",
-        answer:
-          "While there is no strict dress code, smart casual attire is recommended for most venues. Some clubs may have specific requirements, so it's best to check in advance.",
-      },
-    ],
-  },
-  {
-    title: "Cultural Day Tour to Monreale",
-    description:
-      "Take a day trip to the nearby town of Monreale to visit its stunning cathedral and enjoy panoramic views of Palermo.",
-    images: [
-      "/images/tours/palermo/monreale-cathedral.jpg",
-      "/images/tours/palermo/panorama.jpg",
-    ],
-    duration: "6 hours",
-    price: "$75",
-    rating: 4.8,
-    tags: ["Culture", "History", "Sightseeing"],
+    price: "$95",
+    rating: 4.7,
+    tags: ["Cooking", "Food", "Historical"],
     isHistorical: true,
     isRomantic: false,
     isOffTheBeatenPath: false,
-    isLocalExperience: false,
-    tourCategoryId: "cultural",
-    faqs: [
-      {
-        question: "How do we get to Monreale?",
-        answer:
-          "The tour includes round-trip transportation from Palermo to Monreale. We will travel by comfortable air-conditioned bus.",
-      },
-      {
-        question: "What should I wear for the cathedral visit?",
-        answer:
-          "Visitors to the Monreale Cathedral are required to dress modestly. Shoulders and knees must be covered, so please wear appropriate clothing.",
-      },
-    ],
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
   },
 ];
+
+export default palermoTours;

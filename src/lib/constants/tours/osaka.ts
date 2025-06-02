@@ -2,17 +2,20 @@ import { Tour } from "@/lib/interfaces/services/tours";
 
 export const osakaTours: Tour[] = [
   {
-    title: "Osaka Street Food & Local Eats Tour",
+    title: "Osaka Street Food & Dotonbori Night Tour",
     description:
-      "Discover why Osaka is called 'Japan's Kitchen' with a walking food tour through Dotonbori and local markets, sampling regional specialties like takoyaki, okonomiyaki, and kushi-katsu.",
+      "Explore Osaka's vibrant food scene with a guided evening tour through the neon-lit Dotonbori district, tasting local specialties like takoyaki, okonomiyaki, and kushikatsu.",
+    city: "Osaka",
+    country: "Japan",
+    region: "Kansai",
     images: [
-      "/images/tours/osaka/dotonbori-food.jpg",
-      "/images/tours/osaka/takoyaki-making.jpg",
+      "/images/tours/osaka/dotonbori-night.jpg",
+      "/images/tours/osaka/street-food.jpg",
     ],
     duration: "4 hours",
-    price: "$95",
+    price: "$85",
     rating: 4.9,
-    tags: ["Food", "Street Food", "Local Cuisine"],
+    tags: ["Food", "Nightlife", "Local Culture"],
 
     isHistorical: false,
     isRomantic: false,
@@ -33,17 +36,20 @@ export const osakaTours: Tour[] = [
     ],
   },
   {
-    title: "Osaka Castle & Samurai Legacy",
+    title: "Osaka Castle & Traditional Gardens",
     description:
-      "Explore the magnificent Osaka Castle with a historian specializing in feudal Japan, learn about samurai traditions, and participate in a traditional Japanese sword demonstration.",
+      "Discover the history and beauty of Osaka Castle, explore its extensive grounds and museum, then visit the nearby traditional Japanese gardens with a knowledgeable local guide.",
+    city: "Osaka",
+    country: "Japan",
+    region: "Kansai",
     images: [
       "/images/tours/osaka/osaka-castle.jpg",
-      "/images/tours/osaka/samurai-demonstration.jpg",
+      "/images/tours/osaka/japanese-garden.jpg",
     ],
-    duration: "4 hours",
-    price: "$85",
-    rating: 4.8,
-    tags: ["Castle", "Samurai", "History"],
+    duration: "5 hours",
+    price: "$75",
+    rating: 4.7,
+    tags: ["History", "Culture", "Gardens"],
 
     isHistorical: true,
     isRomantic: false,
@@ -64,33 +70,36 @@ export const osakaTours: Tour[] = [
     ],
   },
   {
-    title: "Namba Nightlife & Izakaya Experience",
+    title: "Modern Osaka: Architecture & Innovation",
     description:
-      "Experience Osaka's vibrant nightlife with a guided tour of Namba's izakayas, sampling local drinks and dishes while learning about the city's after-dark culture.",
+      "Experience contemporary Osaka with visits to architectural marvels like Abeno Harukas, Umeda Sky Building, and innovative public spaces showcasing Japan's cutting-edge design.",
+    city: "Osaka",
+    country: "Japan",
+    region: "Kansai",
     images: [
-      "/images/tours/osaka/namba-nightlife.jpg",
-      "/images/tours/osaka/izakaya.jpg",
+      "/images/tours/osaka/umeda-sky-building.jpg",
+      "/images/tours/osaka/abeno-harukas.jpg",
     ],
-    duration: "3 hours",
-    price: "$70",
-    rating: 4.7,
-    tags: ["Nightlife", "Izakaya", "Local Culture"],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.6,
+    tags: ["Architecture", "Modern Japan", "Photography"],
 
     isHistorical: false,
-    isRomantic: true,
+    isRomantic: false,
     isOffTheBeatenPath: true,
-    isLocalExperience: true,
-    tourCategoryId: "nightlife",
+    isLocalExperience: false,
+    tourCategoryId: "architecture",
     faqs: [
       {
-        question: "Is this tour suitable for solo travelers?",
+        question: "Are entrance fees to sites included?",
         answer:
-          "Absolutely! Many solo travelers join our izakaya tours and find it a great way to meet people and experience local culture.",
+          "Yes, all entrance fees to the sites mentioned in the itinerary are included in the tour price.",
       },
       {
-        question: "What should I wear for the nightlife tour?",
+        question: "What is the best time to take this tour?",
         answer:
-          "Dress casually but comfortably. Osaka's nightlife is relaxed, so feel free to wear what you would normally wear out in the evening.",
+          "The tour is great year-round, but for the best photography lighting, consider an afternoon tour that concludes at sunset.",
       },
     ],
   },

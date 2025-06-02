@@ -5,6 +5,9 @@ export const osloTours: Tour[] = [
     title: "Oslo Fjord & Islands Cruise",
     description:
       "Glide through the stunning Oslo Fjord on a private sailing tour, exploring hidden islands, secluded beaches, and enjoying fresh Norwegian seafood prepared by an onboard chef.",
+    city: "Oslo",
+    country: "Norway",
+    region: "Eastern Norway",
     images: [
       "/images/tours/oslo/oslo-fjord.jpg",
       "/images/tours/oslo/islands-cruise.jpg",
@@ -41,6 +44,9 @@ export const osloTours: Tour[] = [
     title: "Viking History & Folk Museum Tour",
     description:
       "Step back in time to explore Norway's Viking heritage with an expert historian guiding you through the Viking Ship Museum and the open-air Norwegian Folk Museum.",
+    city: "Oslo",
+    country: "Norway",
+    region: "Eastern Norway",
     images: [
       "/images/tours/oslo/viking-ship.jpg",
       "/images/tours/oslo/folk-museum.jpg",
@@ -77,6 +83,9 @@ export const osloTours: Tour[] = [
     title: "Oslo Culinary Experience",
     description:
       "Taste your way through Oslo's vibrant food scene with a guided tour of local markets, artisanal shops, and hidden gems, sampling traditional Norwegian dishes and modern cuisine.",
+    city: "Oslo",
+    country: "Norway",
+    region: "Eastern Norway",
     images: [
       "/images/tours/oslo/culinary-tour.jpg",
       "/images/tours/oslo/local-markets.jpg",

@@ -5,6 +5,9 @@ export const newYorkTours: Tour[] = [
     title: "Hidden New York: Secret Spaces & Underground Art",
     description:
       "Discover the city beneath the city with exclusive access to secret subway stations, abandoned tunnels, and underground art installations rarely seen by tourists or even locals.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
     images: [
       "/images/tours/new-york/city-hall-station.jpg",
       "/images/tours/new-york/underground-art.jpg",
@@ -36,6 +39,9 @@ export const newYorkTours: Tour[] = [
     title: "Hidden Gems of Brooklyn",
     description:
       "Discover the artistic neighborhoods and culinary delights of Brooklyn that most tourists never see.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
     images: [
       "/images/tours/nyc/brooklyn-bridge.jpg",
       "/images/tours/nyc/williamsburg.jpg",
@@ -67,6 +73,9 @@ export const newYorkTours: Tour[] = [
     title: "NYC Highlights Walking Tour",
     description:
       "Explore the iconic landmarks of Manhattan including Times Square, Central Park, and Fifth Avenue with a knowledgeable local guide.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
     images: [
       "/images/tours/nyc/times-square.jpg",
       "/images/tours/nyc/central-park.jpg",
@@ -97,6 +106,9 @@ export const newYorkTours: Tour[] = [
     title: "Manhattan Skyline Helicopter & VIP Observation Deck",
     description:
       "Experience New York from extraordinary perspectives with a private helicopter tour over Manhattan landmarks, followed by champagne at exclusive top-floor observation decks with zero waiting time.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
     images: [
       "/images/tours/new-york/helicopter-view.jpg",
       "/images/tours/new-york/edge-observation.jpg",
@@ -128,6 +140,9 @@ export const newYorkTours: Tour[] = [
     title: "Culinary Tour of Queens: Global Flavors",
     description:
       "Embark on a culinary journey through Queens, sampling authentic dishes from around the world in one of NYC's most diverse boroughs.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
     images: [
       "/images/tours/nyc/queens-food.jpg",
       "/images/tours/nyc/queens-markets.jpg",
@@ -152,6 +167,108 @@ export const newYorkTours: Tour[] = [
         question: "What types of cuisine will we sample?",
         answer:
           "The tour includes a variety of cuisines reflecting Queens' diversity, such as Indian, Colombian, Greek, and more. Each stop features a unique dish representative of that culture.",
+      },
+    ],
+  },
+  {
+    title: "Hidden Gems of New York Walking Tour",
+    description:
+      "Explore New York beyond the typical tourist spots with a local guide who will show you secret gardens, historic speakeasies, underground art, and neighborhood treasures few visitors ever discover.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
+    images: [
+      "/images/tours/new-york/hidden-garden.jpg",
+      "/images/tours/new-york/speakeasy.jpg",
+    ],
+    duration: "4 hours",
+    price: "$65",
+    rating: 4.9,
+    tags: ["Off the Beaten Path", "Local Experience", "Walking"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "off-the-beaten-path",
+    faqs: [
+      {
+        question: "Is this tour physically demanding?",
+        answer:
+          "The tour involves moderate walking (about 2 miles total) and may include some uneven surfaces. We will pace ourselves to ensure a comfortable experience for all participants.",
+      },
+      {
+        question: "Are there any age restrictions for this tour?",
+        answer:
+          "This tour is suitable for ages 12 and up. Participants under 18 must be accompanied by an adult. The tour includes visits to locations that may not be suitable for very young children.",
+      },
+    ],
+  },
+  {
+    title: "New York Architecture & Skyline Tour",
+    description:
+      "Discover the iconic skyscrapers and architectural masterpieces that define New York's famous skyline with expert commentary on their history, design, and cultural significance.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
+    images: [
+      "/images/tours/new-york/skyline-view.jpg",
+      "/images/tours/new-york/art-deco-buildings.jpg",
+    ],
+    duration: "3 hours",
+    price: "$55",
+    rating: 4.7,
+    tags: ["Architecture", "Photography", "History"],
+
+    isHistorical: true,
+    isRomantic: false,
+    isOffTheBeatenPath: false,
+    isLocalExperience: true,
+    tourCategoryId: "historical",
+    faqs: [
+      {
+        question: "Is this tour suitable for children?",
+        answer:
+          "Yes, this tour is family-friendly and provides a great opportunity for children to learn about architecture and history in an engaging way.",
+      },
+      {
+        question: "What will we see on this tour?",
+        answer:
+          "The tour includes views of famous skyscrapers, historic buildings, and architectural landmarks. You'll learn about the stories and designs behind New York's most iconic structures.",
+      },
+    ],
+  },
+  {
+    title: "Culinary Journey Through NYC's Ethnic Neighborhoods",
+    description:
+      "Experience New York's cultural diversity through its food with tastings in Chinatown, Little Italy, Lower East Side, and other vibrant neighborhoods showcasing the immigrant heritage of the city.",
+    city: "New York",
+    country: "United States",
+    region: "New York State",
+    images: [
+      "/images/tours/new-york/chinatown-food.jpg",
+      "/images/tours/new-york/little-italy.jpg",
+    ],
+    duration: "5 hours",
+    price: "$95",
+    rating: 4.8,
+    tags: ["Food", "Cultural", "Local Experience"],
+
+    isHistorical: false,
+    isRomantic: false,
+    isOffTheBeatenPath: true,
+    isLocalExperience: true,
+    tourCategoryId: "culinary",
+    faqs: [
+      {
+        question: "Are dietary restrictions accommodated?",
+        answer:
+          "Yes, we can accommodate most dietary restrictions with advance notice. Please inform us of any allergies or preferences when booking.",
+      },
+      {
+        question: "What types of cuisine will we sample?",
+        answer:
+          "The tour includes a variety of cuisines reflecting the diversity of NYC's ethnic neighborhoods, such as Chinese, Italian, Jewish, and more. Each stop features a dish that represents the cultural heritage of the area.",
       },
     ],
   },
