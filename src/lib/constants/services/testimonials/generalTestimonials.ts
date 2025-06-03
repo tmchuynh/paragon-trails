@@ -133,4 +133,52 @@ export const generalTestimonials: Testimonial[] = [
     author: "Alexandra V.",
     title: "Education Foundation Director, Boston",
   },
+  {
+    quote:
+      "The safari experience Paragon arranged in Tanzania exceeded all expectations. Our guide's expertise in tracking wildlife led us to witness the Great Migration up close, while the luxury tented camp provided unexpected comforts in the wilderness.",
+    author: "Geoffrey H.",
+    title: "Conservation Advocate, Melbourne",
+  },
+  {
+    quote:
+      "As someone who's visited over 80 countries, I rarely find travel companies that surprise me. Paragon's underwater expedition in Raja Ampat included marine biologists who revealed secrets of coral ecosystems I'd never encountered in my decades of diving.",
+    author: "Amara L.",
+    title: "Marine Conservation Photographer, Bahamas",
+  },
+  {
+    quote:
+      "Our honeymoon needed to be perfect, and Paragon delivered beyond our dreams. Their private island experience in the Maldives balanced romance with adventure—from candlelit dinners on deserted beaches to midnight phosphorescent kayaking.",
+    author: "Miguel & Sofia R.",
+    title: "Newlyweds, Barcelona",
+  },
+  {
+    quote:
+      "Securing front-row seats at Monaco Grand Prix seemed impossible until Paragon stepped in. Not only did they arrange premium viewing, but also exclusive driver meet-and-greets and garage tours that delighted my Formula 1-obsessed teenagers.",
+    author: "Daniel K.",
+    title: "Investment Banker, Hong Kong",
+  },
+  {
+    quote:
+      "Their culinary journey through Japan's hidden restaurants was a masterclass in gastronomic exploration. From wasabi farms to sake breweries to three-Michelin-star counters, every experience was curated with insider knowledge.",
+    author: "Vivienne C.",
+    title: "Food Critic, San Sebastian",
+  },
+  {
+    quote:
+      "As a solo female traveler exploring Morocco, safety and authentic experiences were equally important to me. Paragon's female guide provided cultural insights I'd never have accessed alone while ensuring I felt secure throughout my journey.",
+    author: "Nadia P.",
+    title: "Travel Writer, Quebec",
+  },
+  {
+    quote:
+      "When my medical conference in Switzerland concluded early, Paragon rearranged my itinerary within hours to include alpine retreats I hadn't considered. Their flexibility transformed a routine business trip into a rejuvenating escape.",
+    author: "Dr. Thomas B.",
+    title: "Neurosurgeon, Chicago",
+  },
+  {
+    quote:
+      "Our multi-generational journey to trace our ancestral roots in Eastern Europe was handled with remarkable sensitivity and historical insight. Paragon's research team even located distant relatives we didn't know existed.",
+    author: "Hannah M.",
+    title: "Genealogist, Jerusalem",
+  },
 ];
