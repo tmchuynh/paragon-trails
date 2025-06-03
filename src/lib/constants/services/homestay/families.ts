@@ -414,4 +414,78 @@ export const homestayHeritageLocations: HomestayLocation[] = [
       },
     ],
   },
+  {
+    city: "Fort Kochi",
+    country: "India",
+    description:
+      "Discover the rich tapestry of Kerala's coastal heritage in traditional tharavads (ancestral homes) that reflect the region's unique blend of Indian, Portuguese, Dutch, and British influences. These beautifully restored wooden houses feature intricate carvings, spacious courtyards, and lush gardens that create a tranquil retreat amidst the vibrant streets of Fort Kochi. Guests can immerse themselves in local culture through guided tours of historic sites, cooking classes that highlight Kerala's diverse cuisine, and yoga sessions that draw on ancient Ayurvedic traditions. Each homestay offers a glimpse into the harmonious coexistence of different cultures that has shaped Fort Kochi's architectural and cultural landscape.",
+    hosts: [],
+  },
+  {
+    city: "Coorg",
+    country: "India",
+    description:
+      "Experience the serene beauty of the Western Ghats in traditional homestays that showcase the region's lush coffee plantations and rich biodiversity. These charming cottages and bungalows, often built from local stone and wood, offer a peaceful retreat surrounded by rolling hills and verdant forests. Guests can engage in guided nature walks, coffee plantation tours, and cooking classes that highlight Coorgi cuisine, known for its unique flavors and use of local ingredients. Each homestay provides an authentic glimpse into the simple yet fulfilling lifestyle of Coorg's coffee-growing communities.",
+    hosts: [],
+  },
+  {
+    city: "Jaipur",
+    country: "India",
+    description:
+      "Step into the royal heritage of Rajasthan in traditional havelis (mansions) that reflect the grandeur of Jaipur's architectural legacy. These beautifully restored homes feature intricate frescoes, ornate jharokhas (balconies), and spacious courtyards that create a regal atmosphere amidst the bustling city. Guests can immerse themselves in local culture through guided tours of historic forts and palaces, cooking classes that highlight Rajasthani cuisine, and evening performances of traditional music and dance. Each homestay offers a glimpse into the opulent lifestyle of Jaipur's erstwhile royals while honoring the city's rich cultural heritage.",
+    hosts: [],
+  },
+  {
+    city: "Leh",
+    country: "India",
+    description:
+      "Experience the breathtaking landscapes of Ladakh in traditional homestays that reflect the region's unique blend of Tibetan and Indian cultures. These charming mud-brick houses, often adorned with colorful prayer flags and intricate woodwork, offer a peaceful retreat amidst the stunning mountains and valleys. Guests can engage in guided treks, visits to ancient monasteries, and cooking classes that highlight Ladakhi cuisine, known for its hearty flavors and use of local ingredients. Each homestay provides an authentic glimpse into the simple yet fulfilling lifestyle of Ladakh's nomadic communities.",
+    hosts: [],
+  },
+  {
+    city: "Takayama",
+    country: "Japan",
+    description:
+      "Experience the charm of Japan's mountainous Hida region in traditional gassho-zukuri farmhouses that reflect the area's rich cultural heritage. These beautifully preserved wooden houses, with their steep thatched roofs designed to withstand heavy snowfall, offer a serene retreat amidst the stunning landscapes of Takayama. Guests can immerse themselves in local culture through guided tours of historic villages, hands-on workshops in traditional crafts, and cooking classes that highlight Hida's unique cuisine. Each homestay provides a glimpse into the harmonious coexistence of nature and tradition that defines this picturesque region.",
+    hosts: [],
+  },
+  {
+    city: "Shirakawa-go",
+    country: "Japan",
+    description:
+      "This UNESCO World Heritage village is famous for its distinctive gassho-zukuri farmhouses with steep thatched roofs designed to withstand heavy snowfall. Nestled in a remote mountain valley, Shirakawa-go offers a glimpse into traditional rural Japanese life that has remained largely unchanged for centuries.",
+    hosts: [],
+  },
+
+  // Missing Italian locations
+  {
+    city: "Matera",
+    country: "Italy",
+    description:
+      "Famous for its ancient cave dwellings carved into the mountainside, Matera is a UNESCO World Heritage site that offers a unique glimpse into prehistoric human settlements. The city's Sassi district, with its rock-cut churches and houses, provides an extraordinary journey through history.",
+    hosts: [],
+  },
+  {
+    city: "Amalfi Coast",
+    country: "Italy",
+    description:
+      "Renowned for its stunning coastal scenery, the Amalfi Coast is a picturesque stretch of coastline dotted with charming villages, lemon groves, and vineyards. This Mediterranean paradise offers a blend of relaxation, history, and gastronomy, making it a sought-after destination.",
+    hosts: [],
+  },
+
+  // Additional Vietnamese locations
+  {
+    city: "Sapa",
+    country: "Vietnam",
+    description:
+      "Located in the northern mountains, Sapa is famous for its terraced rice fields, ethnic diversity, and stunning mountain scenery. The town serves as a gateway for trekking to remote villages, offering a unique opportunity to experience the rich cultural traditions of the indigenous tribes.",
+    hosts: [],
+  },
+  {
+    city: "Mekong Delta",
+    country: "Vietnam",
+    description:
+      "The Mekong Delta is a water-world of floating markets, Khmer pagodas, and lush greenery. This region offers a unique insight into the traditional riverine lifestyle of Vietnam, with opportunities to explore by boat, visit local farms, and experience the vibrant culture.",
+    hosts: [],
+  },
 ];
