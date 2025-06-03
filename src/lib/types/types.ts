@@ -80,3 +80,18 @@ export type Details = {
   rating: number;
   faqs?: FAQs[];
 };
+
+
+export type Location = {
+  city: string;
+  country: string;
+  region?: string;
+  state?: string;
+  isPopular?: boolean;
+  subtitle?: string;
+  quote?: string;
+  timezone?: string;
+  timezoneAbbreviation?: string;
+  description?: string;
+  culturalHighlights?: string[];
+};
