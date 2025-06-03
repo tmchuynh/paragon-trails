@@ -103,4 +103,29 @@ export const generalFAQs = [
     answer:
       "Yes, all homestay and heritage stay hosts undergo an extensive vetting process. This includes background and reference checks, property inspections, guest policy reviews, and ongoing quality assessments to maintain high standards of hospitality and safety. We ensure that every host can provide an authentic yet secure experience for our guests.",
   },
+  {
+    question: "Do you accommodate special occasions or celebrations?",
+    answer:
+      "Yes, we offer full planning and coordination for special occasions such as anniversaries, proposals, birthdays, and milestone events. Our Concierge Services team can arrange everything from custom decor and entertainment to gourmet meals and exclusive venues, ensuring a memorable and personalized celebration.",
+  },
+  {
+    question: "Can I earn loyalty rewards or referral bonuses?",
+    answer:
+      "Paragon Trails offers a premium loyalty and referral program for repeat clients and those who refer new travelers. Members may receive benefits such as complimentary upgrades, service discounts, and exclusive access to limited-time offerings. Contact our Client Relations team for enrollment and benefit details.",
+  },
+  {
+    question: "What languages do your staff and guides speak?",
+    answer:
+      "We work with a multilingual team and local partners who speak a wide range of languages to ensure smooth communication and culturally immersive experiences. When booking, clients can request specific language preferences for guides, drivers, and concierges to enhance their comfort and engagement.",
+  },
+  {
+    question: "Do you provide travel insurance options?",
+    answer:
+      "While Paragon Trails does not sell travel insurance directly, we strongly recommend all clients obtain comprehensive coverage for medical, trip interruption, and emergency evacuation. Our team can assist by referring trusted providers and guiding you through policy selection based on your itinerary.",
+  },
+  {
+    question: "Can I preview properties or vehicles before booking?",
+    answer:
+      "Yes, upon request we can provide detailed media, specifications, and in some cases virtual tours or live previews of homestays, yachts, jets, and luxury vehicles. This ensures clients are fully informed and confident in their selections before finalizing any reservations.",
+  },
 ];
