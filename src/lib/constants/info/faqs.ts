@@ -128,4 +128,42 @@ export const generalFAQs = [
     answer:
       "Yes, upon request we can provide detailed media, specifications, and in some cases virtual tours or live previews of homestays, yachts, jets, and luxury vehicles. This ensures clients are fully informed and confident in their selections before finalizing any reservations.",
   },
+  {
+    question: "Do you offer services for group travel or corporate events?",
+    answer:
+      "Absolutely. Our Corporate & Group Travel department specializes in arranging seamless experiences for business retreats, team-building events, family reunions, and other group occasions. We coordinate accommodations, transportation, meeting facilities, and activities that accommodate your specific group size and objectives, with dedicated support throughout the planning process.",
+  },
+  {
+    question:
+      "How does Paragon Trails approach sustainable and eco-friendly travel?",
+    answer:
+      "We're committed to responsible luxury travel through our Sustainable Travel Initiative. This includes partnerships with eco-conscious providers, carbon offset programs for flights and transportation, support for local conservation efforts, and promoting responsible tourism practices. Our team can help design itineraries that minimize environmental impact while maintaining exceptional quality.",
+  },
+  {
+    question: "What local experiences do you offer for cultural immersion?",
+    answer:
+      "We curate authentic cultural experiences tailored to each destination, including private cooking classes with renowned local chefs, guided historical tours with expert historians, exclusive access to cultural ceremonies, artisan workshops, and meaningful interactions with local communities. These experiences provide deeper connection to the destinations while supporting local economies.",
+  },
+  {
+    question: "Are your services suitable for families with children?",
+    answer:
+      "Yes, we specialize in family-friendly luxury travel with accommodations and activities suitable for all ages. Our Family Travel experts can arrange child-appropriate itineraries, babysitting services, special meal requirements, and engaging educational experiences. We ensure both parents and children enjoy a comfortable, memorable journey tailored to multigenerational needs.",
+  },
+  {
+    question:
+      "How do you handle luggage transfers between different modes of transportation?",
+    answer:
+      "Our seamless luggage management service ensures your belongings are securely transported throughout your journey. Professional staff handle all transfers between vehicles, aircraft, accommodations, and yachts, allowing you to move effortlessly between destinations without the burden of managing your luggage. We also offer luggage tracking and secure storage options when needed.",
+  },
+  {
+    question:
+      "Can you accommodate specific dietary requirements or food preferences?",
+    answer:
+      "We take dietary needs very seriously. Whether you have allergies, religious dietary restrictions, or personal preferences, our Concierge team communicates these requirements to all relevant service providers. From in-flight catering to homestay hosts and restaurant reservations, we ensure your nutritional needs are met with the highest quality dining experiences.",
+  },
+  {
+    question: "What connectivity options are available during travel?",
+    answer:
+      "Staying connected is essential for many travelers. Our transportation options include reliable Wi-Fi where technically feasible, including on private aircraft and yachts. For international travel, we can arrange portable Wi-Fi devices or local SIM cards, and our homestays are selected with connectivity in mind. We also respect clients who wish to disconnect, offering the flexibility to unplug when desired.",
+  },
 ];
