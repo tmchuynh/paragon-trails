@@ -1,3 +1,16 @@
+import { TourCategory } from "@/lib/interfaces/services/tours";
+import {
+  FaGem,
+  FaHeart,
+  FaLandmark,
+  FaLeaf,
+  FaMountain,
+  FaPalette,
+  FaPray,
+  FaSpa,
+  FaUtensils,
+} from "react-icons/fa";
+
 export const tourCategories: TourCategory[] = [
   {
     id: "adventure",
