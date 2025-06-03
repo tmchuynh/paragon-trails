@@ -99,6 +99,36 @@ export const aviationPersonnel: StaffCategory[] = [
         specialTraining: ["Emergency Medical Flights", "Tourist Flight Safety"],
         availability: "On-call",
       },
+      {
+        name: "Captain Victor Hernandez",
+        certifications: [
+          "FAA ATP",
+          "Type Rated: Dassault Falcon 8X",
+          "Instrument Rated",
+        ],
+        languages: ["English", "Spanish", "Portuguese"],
+        experienceYears: 16,
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
+        specialTraining: [
+          "Polar Route Navigation",
+          "Desert Operations",
+          "High Altitude Operations",
+        ],
+        availability: "Full-time",
+      },
+      {
+        name: "First Officer Naomi Watkins",
+        certifications: [
+          "FAA Commercial Pilot License",
+          "Type Rated: Cessna Citation Longitude",
+          "Instrument Rated",
+        ],
+        languages: ["English", "Japanese"],
+        experienceYears: 9,
+        qualifiedAircraft: ["Midsize Jets", "Light Private Jets"],
+        specialTraining: ["Oceanic Procedures", "Advanced Weather Navigation"],
+        availability: "Full-time",
+      },
     ],
   },
   {
@@ -162,6 +192,31 @@ export const aviationPersonnel: StaffCategory[] = [
         specialTraining: ["Passenger Comfort", "Safety Compliance"],
         availability: "Part-time",
       },
+      {
+        name: "Flight Attendant Jasmine Patel",
+        certifications: ["Cabin Safety", "Advanced First Aid", "CPR"],
+        languages: ["English", "Hindi", "Arabic"],
+        experienceYears: 8,
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
+        specialTraining: [
+          "International Etiquette",
+          "Cultural Protocol",
+          "Fine Wine Service",
+        ],
+        availability: "Full-time",
+      },
+      {
+        name: "Flight Attendant Thomas Laurent",
+        certifications: ["Emergency Procedures", "First Aid", "Food Safety"],
+        languages: ["English", "French", "German"],
+        experienceYears: 9,
+        qualifiedAircraft: ["Heavy Jets", "Light Private Jets"],
+        specialTraining: [
+          "Fine Dining Service",
+          "High-profile Client Management",
+        ],
+        availability: "Full-time",
+      },
     ],
   },
   {
@@ -212,6 +267,31 @@ export const aviationPersonnel: StaffCategory[] = [
         qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
         availability: "On-demand",
       },
+      {
+        name: "Chef Hiroshi Tanaka",
+        certifications: ["Master Chef", "Sushi Specialist", "Food Safety"],
+        specialties: ["Japanese Cuisine", "Sushi & Sashimi", "Asian Fusion"],
+        languages: ["English", "Japanese"],
+        experienceYears: 15,
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
+        availability: "On-demand",
+      },
+      {
+        name: "Chef Isabella Romano",
+        certifications: [
+          "Culinary Institute Graduate",
+          "Wine Pairing Specialist",
+        ],
+        specialties: [
+          "Italian Cuisine",
+          "Molecular Gastronomy",
+          "Low-Altitude Adapted Recipes",
+        ],
+        languages: ["English", "Italian", "Spanish"],
+        experienceYears: 12,
+        qualifiedAircraft: ["Heavy Jets", "Midsize Jets"],
+        availability: "Full-time",
+      },
     ],
   },
   {
@@ -257,6 +337,30 @@ export const aviationPersonnel: StaffCategory[] = [
         responsibilities: ["Aircraft Refueling", "Fuel Quality Control"],
         availability: "Full-time",
       },
+      {
+        name: "VIP Handler Cameron Williams",
+        certifications: ["VIP Ground Operations", "Security Procedures"],
+        languages: ["English", "Arabic"],
+        experienceYears: 11,
+        responsibilities: [
+          "High-profile Client Management",
+          "Discrete Transportation",
+          "Expedited Customs",
+        ],
+        availability: "Full-time",
+      },
+      {
+        name: "Baggage Specialist Diana Lopez",
+        certifications: ["Secure Baggage Handling", "Inventory Management"],
+        languages: ["English", "Spanish"],
+        experienceYears: 7,
+        responsibilities: [
+          "Secure Luggage Transfer",
+          "Fine Art & Valuables Handling",
+          "Lost Luggage Resolution",
+        ],
+        availability: "Full-time",
+      },
     ],
   },
   {
@@ -283,6 +387,18 @@ export const aviationPersonnel: StaffCategory[] = [
         specialTraining: ["Systems Monitoring", "Fuel Management"],
         availability: "Part-time",
       },
+      {
+        name: "Flight Engineer Omar Al-Farsi",
+        certifications: [
+          "FAA Flight Engineer Certificate",
+          "Avionics Specialist",
+        ],
+        languages: ["English", "Arabic", "French"],
+        experienceYears: 14,
+        qualifiedAircraft: ["Heavy Jets"],
+        specialTraining: ["Advanced Troubleshooting", "Hot Weather Operations"],
+        availability: "Full-time",
+      },
     ],
   },
   {
@@ -305,6 +421,18 @@ export const aviationPersonnel: StaffCategory[] = [
         languages: ["English", "Spanish"],
         experienceYears: 12,
         responsibilities: ["Incident Investigations", "Regulatory Compliance"],
+        availability: "Full-time",
+      },
+      {
+        name: "Safety Officer David Chen",
+        certifications: ["International Safety Standards", "IASA Compliance"],
+        languages: ["English", "Mandarin", "Cantonese"],
+        experienceYears: 15,
+        responsibilities: [
+          "Safety Audits",
+          "Crew Training",
+          "International Compliance",
+        ],
         availability: "Full-time",
       },
     ],
@@ -334,6 +462,116 @@ export const aviationPersonnel: StaffCategory[] = [
           "Dining Reservations",
         ],
         availability: "Part-time",
+      },
+      {
+        name: "Executive Concierge Isabelle Dubois",
+        certifications: ["Luxury Services", "High-end Client Relations"],
+        languages: ["English", "French", "Italian", "Russian"],
+        experienceYears: 10,
+        responsibilities: [
+          "Private Events Coordination",
+          "Exclusive Access Arrangements",
+          "Personalized Itineraries",
+        ],
+        availability: "Full-time",
+      },
+    ],
+  },
+  {
+    category: "Aircraft Technicians",
+    profiles: [
+      {
+        name: "Lead Technician Miguel Ortiz",
+        certifications: ["A&P License", "Avionics Specialist", "FAA Part 145"],
+        languages: ["English", "Spanish"],
+        experienceYears: 18,
+        specialties: ["Gulfstream Airframes", "Pratt & Whitney Engines"],
+        availability: "Full-time",
+      },
+      {
+        name: "Avionics Specialist Emily Zhang",
+        certifications: [
+          "FAA Certified Avionics Technician",
+          "Electronics Engineering",
+        ],
+        languages: ["English", "Mandarin"],
+        experienceYears: 12,
+        specialties: [
+          "Navigation Systems",
+          "Communication Equipment",
+          "Entertainment Systems",
+        ],
+        availability: "Full-time",
+      },
+    ],
+  },
+  {
+    category: "Dispatchers",
+    profiles: [
+      {
+        name: "Chief Dispatcher Nathan Taylor",
+        certifications: [
+          "FAA Aircraft Dispatcher License",
+          "Flight Planning Specialist",
+        ],
+        languages: ["English"],
+        experienceYears: 14,
+        responsibilities: [
+          "Route Planning",
+          "Weather Monitoring",
+          "Operational Control",
+        ],
+        availability: "Full-time",
+      },
+      {
+        name: "International Dispatcher Anika Sharma",
+        certifications: [
+          "ICAO Flight Operations Officer",
+          "International Flight Planning",
+        ],
+        languages: ["English", "Hindi", "Arabic"],
+        experienceYears: 9,
+        responsibilities: [
+          "Transoceanic Flight Planning",
+          "Overflight Permissions",
+          "Landing Rights",
+        ],
+        availability: "Full-time",
+      },
+    ],
+  },
+  {
+    category: "Medical Staff",
+    profiles: [
+      {
+        name: "Flight Physician Dr. Richard Evans",
+        certifications: [
+          "Board Certified Emergency Medicine",
+          "Aviation Medicine",
+        ],
+        languages: ["English", "German"],
+        experienceYears: 15,
+        specialties: [
+          "In-flight Medical Emergencies",
+          "Remote Medical Consultation",
+        ],
+        availability: "On-call",
+      },
+      {
+        name: "Flight Nurse Samantha Wright",
+        certifications: [
+          "RN",
+          "Flight Nurse Certification",
+          "Advanced Cardiac Life Support",
+        ],
+        languages: ["English", "Spanish"],
+        experienceYears: 10,
+        specialties: [
+          "Critical Care",
+          "Emergency Response",
+          "Altitude Physiology",
+        ],
+        availability: "On-call",
       },
     ],
   },
