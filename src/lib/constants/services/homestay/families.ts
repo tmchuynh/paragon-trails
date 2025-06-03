@@ -419,73 +419,490 @@ export const homestayHeritageLocations: HomestayLocation[] = [
     country: "India",
     description:
       "Discover the rich tapestry of Kerala's coastal heritage in traditional tharavads (ancestral homes) that reflect the region's unique blend of Indian, Portuguese, Dutch, and British influences. These beautifully restored wooden houses feature intricate carvings, spacious courtyards, and lush gardens that create a tranquil retreat amidst the vibrant streets of Fort Kochi. Guests can immerse themselves in local culture through guided tours of historic sites, cooking classes that highlight Kerala's diverse cuisine, and yoga sessions that draw on ancient Ayurvedic traditions. Each homestay offers a glimpse into the harmonious coexistence of different cultures that has shaped Fort Kochi's architectural and cultural landscape.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Menon Family",
+        languages: ["Malayalam", "English"],
+        background:
+          "The Menon family represents the living heritage of Kerala's multicultural history, occupying a 300-year-old tharavad (ancestral home) that has witnessed Portuguese, Dutch, and British colonial eras. Their sprawling wooden mansion features traditional Kerala architecture with sloped terracotta roofs, expansive verandahs, and an inner courtyard filled with medicinal plants documented in ancient Ayurvedic texts. Family patriarch Thomas Menon, a retired history professor, has published extensively on Kerala's spice trade history and leads walking tours highlighting Fort Kochi's architectural evolution through various colonial periods. His wife Sarah, a classically-trained Carnatic musician, hosts evening performances featuring traditional Kerala instruments rarely heard outside temple settings. Their home contains a remarkable private library of historical documents including rare 17th-century maps showing early Dutch trading routes and journals from their merchant ancestors. Morning yoga sessions are conducted in their garden pavilion following traditions established by Sarah's grandfather, who studied under renowned yoga masters in the 1920s.",
+        maxGuests: 4,
+        curfew: "10:30 PM",
+        guestPolicy:
+          "Families welcome. Quiet observation of household routines appreciated.",
+        houseRules: [
+          "No smoking on premises.",
+          "Shoes must be removed before entering main living areas.",
+          "Photography permitted except during prayer times.",
+        ],
+      },
+      {
+        name: "Jacob & Anita D'Souza",
+        languages: ["Malayalam", "English", "Portuguese"],
+        background:
+          "Jacob and Anita D'Souza embody Fort Kochi's distinctive Indo-Portuguese heritage through their meticulously preserved 19th-century home that showcases the region's unique architectural fusion. Their residence features Portuguese-style tile roofing, traditional Kerala wooden interiors, and a garden filled with spice plants that connect to both their family history and the region's trading importance. Jacob, descended from one of Fort Kochi's oldest Christian families, maintains detailed genealogical records tracing his ancestry to early Portuguese settlers, while also practicing traditional fishing methods passed down through generations. Anita has mastered Kerala's distinctive coastal cuisine that blends Portuguese techniques with Indian flavors and spices, offering cooking workshops that explore this unique culinary evolution. Their home contains an impressive collection of religious artifacts including antique rosaries and rare Syrian Christian manuscripts. Evening discussions often focus on Kerala's religious pluralism and the peaceful coexistence of different faith traditions that characterizes the region's cultural identity.",
+        maxGuests: 3,
+        curfew: "10:00 PM",
+        guestPolicy:
+          "History enthusiasts welcome. At least basic English required.",
+        houseRules: [
+          "Religious items must not be touched without permission.",
+          "Meals are served at fixed times.",
+          "Quiet hours from 10:00 PM to 7:00 AM.",
+        ],
+      },
+    ],
   },
   {
     city: "Coorg",
     country: "India",
     description:
       "Experience the serene beauty of the Western Ghats in traditional homestays that showcase the region's lush coffee plantations and rich biodiversity. These charming cottages and bungalows, often built from local stone and wood, offer a peaceful retreat surrounded by rolling hills and verdant forests. Guests can engage in guided nature walks, coffee plantation tours, and cooking classes that highlight Coorgi cuisine, known for its unique flavors and use of local ingredients. Each homestay provides an authentic glimpse into the simple yet fulfilling lifestyle of Coorg's coffee-growing communities.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Ponnappa Family",
+        languages: ["Kodava", "Kannada", "English"],
+        background:
+          "The Ponnappa family represents the proud heritage of Coorg's indigenous Kodava community, maintaining traditions that blend martial ancestry with agricultural expertise. Their estate has produced award-winning coffee for five generations, with current patriarch Biddanda Ponnappa implementing innovative sustainable growing practices while preserving traditional processing methods. Their colonial-era bungalow, built in 1926 and surrounded by 30 acres of coffee, pepper, and cardamom cultivation, features traditional Kodava architectural elements including carved wooden pillars and a central courtyard designed for community gatherings. Family matriarch Bollera Ponnappa is renowned for her mastery of Kodava cuisine, particularly pandi curry (pork with local spices) and bamboo shoot specialties prepared according to seasonal harvest traditions. The family maintains a small museum of Kodava cultural artifacts including traditional silver jewelry, ceremonial knives, and ancestral weapons that reflect their community's martial heritage. Evening gatherings often feature demonstrations of Kodava folk dances and stories of the region's unique cultural practices, including their community's special relationship with weapons and distinctive wedding traditions.",
+        maxGuests: 6,
+        curfew: "9:30 PM",
+        guestPolicy: "Nature lovers welcome. Minimum stay 2 nights.",
+        houseRules: [
+          "Guests must join at least one plantation tour.",
+          "No outside food allowed due to wildlife concerns.",
+          "All hikes must be accompanied by family guide.",
+        ],
+      },
+      {
+        name: "Kaveri & Rohan Thimmaiah",
+        languages: ["Kodava", "English", "Hindi"],
+        background:
+          "Kaveri and Rohan Thimmaiah bridge traditional Kodava heritage with contemporary ecological initiatives on their third-generation coffee estate. Holding advanced degrees in sustainable agriculture and forestry conservation, the couple has transformed their 45-acre property into a model of biodiversity, cultivating rare coffee varieties while restoring native plant species throughout their land. Their lovingly maintained ancestral house combines traditional Coorgi elements with thoughtful eco-friendly modifications, powered entirely by micro-hydro and solar systems they designed. Kaveri, a trained wildlife biologist, leads dawn birdwatching walks identifying over 160 species documented on their property, while Rohan conducts educational tours explaining their integration of traditional coffee growing wisdom with modern organic certification standards. Evening meals feature ingredients sourced entirely from their farm or neighboring properties, with dishes that showcase Coorg's unique flavors while explaining the ecological and cultural significance behind each preparation. Their forest restoration project has created wildlife corridors connecting fragmented habitats, with camera traps occasionally capturing rare species including the endangered Malabar civet and lion-tailed macaque.",
+        maxGuests: 4,
+        curfew: "10:00 PM",
+        guestPolicy:
+          "Environmentally conscious travelers preferred. No smoking anywhere on property.",
+        houseRules: [
+          "Water conservation required (mountain region).",
+          "Electronic devices discouraged in natural areas.",
+          "All waste must be properly sorted according to house guidelines.",
+        ],
+      },
+    ],
   },
   {
     city: "Jaipur",
     country: "India",
     description:
       "Step into the royal heritage of Rajasthan in traditional havelis (mansions) that reflect the grandeur of Jaipur's architectural legacy. These beautifully restored homes feature intricate frescoes, ornate jharokhas (balconies), and spacious courtyards that create a regal atmosphere amidst the bustling city. Guests can immerse themselves in local culture through guided tours of historic forts and palaces, cooking classes that highlight Rajasthani cuisine, and evening performances of traditional music and dance. Each homestay offers a glimpse into the opulent lifestyle of Jaipur's erstwhile royals while honoring the city's rich cultural heritage.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Kanota Family",
+        languages: ["Hindi", "English"],
+        background:
+          "The Kanota family maintains direct lineage to one of Jaipur's noble houses that served as military commanders for the Maharajas through multiple generations. Their meticulously preserved haveli near the old city walls features architecture representing three distinct periods of Jaipur's development, with sections dating to the early 18th century when the Pink City was first established. The home showcases museum-quality collections of ceremonial weapons, royal correspondence documents, and vintage photographs chronicling Jaipur's transformation from feudal state to tourist destination. Family patriarch Thakur Singh Kanota, formerly a cultural advisor to Rajasthan's state government, leads historical discussions on Rajputana's complex political alliances and the integration of princely states into modern India. His wife Padmini, trained in classical miniature painting, maintains a workshop where she produces works using natural mineral and plant pigments following techniques unchanged since the Mughal era. Their courtyard hosts evening puppet performances and folk music recitals that preserve disappearing entertainment traditions once common throughout Rajasthan.",
+        maxGuests: 5,
+        curfew: "11:00 PM",
+        guestPolicy:
+          "Heritage enthusiasts welcome. Formal dress requested for dinner.",
+        houseRules: [
+          "Historical artifacts must not be touched without permission.",
+          "Photography restrictions in certain rooms.",
+          "Guests must remove shoes in living quarters.",
+        ],
+      },
+      {
+        name: "Arjun & Leela Sharma",
+        languages: ["Hindi", "English", "French"],
+        background:
+          "Arjun and Leela Sharma represent Jaipur's evolution as both a center of traditional craftsmanship and emerging contemporary design. Their renovated merchant's haveli in Jaipur's artisan district combines restored 19th-century architecture with thoughtfully integrated modern elements, serving as both family home and showcase for their design collaborations with local artisans. Arjun, whose family has practiced traditional block printing for seven generations, now works with international designers while maintaining workshops that preserve historical techniques including natural indigo dyeing and hand-carved wooden blocks. Leela, formally educated in textile conservation, has documented Rajasthani textile traditions in a published photographic archive while developing sustainable partnerships with rural women's weaving cooperatives. Their home features rotating exhibitions of both traditional and contemporary Rajasthani crafts, with rooms showcasing different techniques including bandhani tie-dye, gota embroidery, and blue pottery. Morning heritage walks introduce guests to family-owned workshops in the surrounding neighborhood, while afternoon demonstrations explain the steps involved in various traditional crafting processes.",
+        maxGuests: 3,
+        curfew: "10:00 PM",
+        guestPolicy: "Design enthusiasts welcome. Photography encouraged.",
+        houseRules: [
+          "Workshop tours by appointment only.",
+          "Quiet hours after 9:30 PM (residential neighborhood).",
+          "Dining room textiles must be protected from staining.",
+        ],
+      },
+    ],
   },
   {
     city: "Leh",
     country: "India",
     description:
       "Experience the breathtaking landscapes of Ladakh in traditional homestays that reflect the region's unique blend of Tibetan and Indian cultures. These charming mud-brick houses, often adorned with colorful prayer flags and intricate woodwork, offer a peaceful retreat amidst the stunning mountains and valleys. Guests can engage in guided treks, visits to ancient monasteries, and cooking classes that highlight Ladakhi cuisine, known for its hearty flavors and use of local ingredients. Each homestay provides an authentic glimpse into the simple yet fulfilling lifestyle of Ladakh's nomadic communities.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Namgyal Family",
+        languages: ["Ladakhi", "Hindi", "English"],
+        background:
+          "The Namgyal family embodies Ladakh's resilient mountain culture through their traditional home constructed using ancient Tibetan architectural principles adapted to the region's extreme climate conditions. Their three-story mud-brick dwelling, featuring flat roofs for drying barley and apricots, has been continuously inhabited by family members for over 150 years. Household head Tashi Namgyal, recognized as a cultural knowledge keeper, has spent decades documenting oral histories from remote Ladakhi villages while serving as a consultant for regional conservation initiatives. His wife Dolma maintains traditions of Ladakhi textile production, utilizing portable backstrap looms to weave patterns distinctive to their valley using wool from their own pashmina goats. The family's Buddhist devotion is evident in their home's prayer room containing religious artifacts passed down through generations, including 19th-century thangka paintings and ritual objects blessed by notable lamas. Their agricultural practices incorporate ancient water management systems critical to desert farming, with terraced fields irrigated by glacial meltwater through stone channels established centuries ago. Evening discussions often focus on Ladakh's changing way of life due to climate change, modernization, and increasing tourism.",
+        maxGuests: 4,
+        curfew: "9:00 PM",
+        guestPolicy:
+          "Adventurous travelers welcome. Must be acclimated to high altitude.",
+        houseRules: [
+          "No shoes inside the house.",
+          "Religious objects must not be touched.",
+          "Water conservation required (desert region).",
+        ],
+      },
+      {
+        name: "Stanzin & Yangdol",
+        languages: ["Ladakhi", "English", "Hindi"],
+        background:
+          "Stanzin and Yangdol represent the thoughtful integration of traditional Ladakhi wisdom with contemporary sustainable living practices. Their solar-powered home combines traditional mud-brick construction with innovative passive solar design elements that harness the region's abundant sunshine to maintain comfortable temperatures despite Ladakh's extreme climate variations. Stanzin, having worked with international conservation organizations, has extensive knowledge of the region's fragile high-altitude ecosystems and leads trekking excursions to rarely visited valleys where ancient petroglyphs and ice stupas (artificial glaciers) demonstrate the long human history in this challenging landscape. Yangdol has mastered traditional Ladakhi cuisine adapted to the short growing season, incorporating ancient preservation techniques for wild plants and cultivated crops including barley, buckwheat, and high-altitude vegetables from their greenhouse. Their home features traditional Ladakhi furnishings including low tables and seating cushions arranged around a central bukhari (wood stove), with walls decorated with local thangka art and photographs documenting seasonal festivals at nearby monasteries. Both are committed educators regarding Ladakhi culture and environmental sustainability, having established programs that teach local children traditional ecological knowledge alongside modern conservation principles.",
+        maxGuests: 3,
+        curfew: "9:30 PM",
+        guestPolicy:
+          "Environmentally conscious travelers preferred. Minimum stay 3 nights recommended for altitude adjustment.",
+        houseRules: [
+          "Morning meditation optional but silence requested during practice.",
+          "All trash must be packed out when trekking.",
+          "Extra fee for hot water usage (scarce resource).",
+        ],
+      },
+    ],
   },
   {
     city: "Takayama",
     country: "Japan",
     description:
       "Experience the charm of Japan's mountainous Hida region in traditional gassho-zukuri farmhouses that reflect the area's rich cultural heritage. These beautifully preserved wooden houses, with their steep thatched roofs designed to withstand heavy snowfall, offer a serene retreat amidst the stunning landscapes of Takayama. Guests can immerse themselves in local culture through guided tours of historic villages, hands-on workshops in traditional crafts, and cooking classes that highlight Hida's unique cuisine. Each homestay provides a glimpse into the harmonious coexistence of nature and tradition that defines this picturesque region.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Tanaka Family",
+        languages: ["Japanese", "English"],
+        background:
+          "The Tanaka family has maintained their traditional machiya townhouse in Takayama's historic district for seven generations, preserving architectural features that date back to the Edo period when the city prospered as a center of skilled carpentry and woodworking. Their narrow wooden home with distinctive latticed windows showcases the region's exceptional craftsmanship in every detail, from precisely joined wooden beams constructed without nails to hand-carved transom panels depicting local flora and fauna. Family patriarch Kenji Tanaka continues the family tradition of wood craftsmanship, creating lacquerware using techniques he learned from his grandfather, with detailed boxes and trays featuring natural pigments applied in multiple layers to achieve distinctive depth and luster. His wife Miyuki is a master of Hida cuisine, specializing in preservation methods developed for the region's harsh winter months, including fermented vegetables, mountain herbs, and hodgos (preserved rice cakes) prepared according to seasonal traditions. Their home workshop contains woodworking tools dating back 150 years, while their kitchen features antique equipment for traditional techniques like making koji (rice malt) for home-brewed sake and miso. Evening gatherings often include demonstrations of local folk crafts and discussions about the challenges of maintaining traditional architectural features while meeting modern living requirements.",
+        maxGuests: 3,
+        curfew: "9:00 PM",
+        guestPolicy:
+          "Craft enthusiasts welcome. Quiet appreciation of traditional architecture expected.",
+        houseRules: [
+          "Shoes must be removed in entryway.",
+          "No smoking inside historic wooden structure.",
+          "Photography of family artifacts requires permission.",
+        ],
+      },
+      {
+        name: "Hiroshi & Akiko Yamamoto",
+        languages: ["Japanese", "English"],
+        background:
+          "Hiroshi and Akiko Yamamoto represent the living heritage of Takayama's rural traditions, maintaining a restored farmhouse that has been in their family since the Meiji period. Located on the outskirts of town with views of the Japanese Alps, their spacious wooden home features the distinctive architectural elements of the Hida region, including exposed beams, irori (sunken hearth), and tatami rooms arranged around a central living space. Hiroshi continues the regional tradition of Hida carpentry, having trained under certified master craftsmen to learn joinery techniques designated as an Intangible Cultural Property by the Japanese government. His workshop produces traditional furnishings using timber harvested through sustainable forest management practices established by his ancestors. Akiko preserves the agricultural traditions of the mountain region, maintaining heirloom vegetable varieties and practicing traditional food preservation methods essential for the area's long winters. Their storehouse contains antique farming implements and household items that document rural life across different historical eras, while their garden cultivates medicinal herbs according to knowledge passed down through Akiko's family line. Seasonal activities include foraging for mountain vegetables in spring, viewing fireflies along their property's stream in summer, mushroom collecting in autumn, and demonstrations of traditional crafts around the irori hearth during winter months.",
+        maxGuests: 4,
+        curfew: "9:30 PM",
+        guestPolicy:
+          "Nature enthusiasts welcome. Appreciation for rural Japanese lifestyle required.",
+        houseRules: [
+          "Indoor slippers must not be worn on tatami floors.",
+          "Participation in household routines appreciated.",
+          "Bathing follows traditional Japanese customs (instructions provided).",
+        ],
+      },
+    ],
   },
   {
     city: "Shirakawa-go",
     country: "Japan",
     description:
       "This UNESCO World Heritage village is famous for its distinctive gassho-zukuri farmhouses with steep thatched roofs designed to withstand heavy snowfall. Nestled in a remote mountain valley, Shirakawa-go offers a glimpse into traditional rural Japanese life that has remained largely unchanged for centuries.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Ogimachi Family",
+        languages: ["Japanese", "Basic English"],
+        background:
+          "The Ogimachi family has maintained their distinctive gassho-zukuri farmhouse for over ten generations, preserving one of Shirakawa-go's oldest continuously inhabited structures dating to the mid-Edo period. Their impressive thatched roof home, constructed without nails using traditional joinery techniques, features multiple levels designed for silkworm cultivation—an industry that historically supported mountain communities before modern transportation connected the region to urban centers. Family patriarch Takashi Ogimachi leads the village's thatching preservation committee, coordinating the community yui cooperative system where families help each other replace roofs in the traditional manner—a massive undertaking requiring specialized knowledge of materials and techniques. His wife Fumiko maintains the household's extensive collection of agricultural implements, textiles, and daily objects that document rural life through different historical periods, each with stories connecting to specific family members and village events. Their home's irori hearth remains the central gathering place where meals are prepared using traditional methods, with sunken firepit cooking techniques specific to mountain communities. The family maintains detailed records of seasonal observances, agricultural cycles, and weather patterns dating back over a century, providing valuable documentation of climate patterns in the remote alpine region. Winter discussions around the hearth often include explanation of how gassho architecture evolved specifically to handle the region's extraordinary snowfall, with demonstrations of traditional crafts that occupied families during isolated winter months.",
+        maxGuests: 5,
+        curfew: "9:00 PM",
+        guestPolicy:
+          "Cultural heritage enthusiasts welcome. Must be comfortable with traditional facilities.",
+        houseRules: [
+          "Removal of shoes is mandatory.",
+          "Photography of family treasures requires permission.",
+          "Participation in evening chores appreciated during busy farming seasons.",
+        ],
+      },
+      {
+        name: "Yumiko Saito",
+        languages: ["Japanese", "English"],
+        background:
+          "Yumiko Saito brings exceptional depth of knowledge to Shirakawa-go's cultural heritage, having dedicated her career to documenting and preserving the unique traditions of this remote mountain community. After completing studies in cultural anthropology and architectural preservation, she returned to her ancestral village to inhabit and restore her grandmother's gassho-zukuri farmhouse, which dates to the late 18th century. Her home now serves as both residence and living museum, with each room showcasing different aspects of traditional mountain life, from silk cultivation equipment in the upper levels to snow survival tools and ceremonial items on the main floor. Yumiko has extensively documented the village's seasonal traditions, recording oral histories from elderly residents and creating a digital archive of disappearing customs, recipes, folk songs, and agricultural practices. Her research into natural building materials has supported authentic restoration efforts throughout the village, identifying traditional sources for thatch, timber, and natural pigments. Throughout the year, she demonstrates seasonal activities including wild plant foraging, indigo dyeing, traditional food preservation methods, and winter craft production. Evening discussions often focus on the challenges of maintaining authentic cultural practices while accommodating tourism and modern lifestyles, with Yumiko sharing insights from her involvement with UNESCO heritage management plans for the region.",
+        maxGuests: 3,
+        curfew: "9:30 PM",
+        guestPolicy:
+          "Respectful cultural learners welcome. Photography for personal use permitted.",
+        houseRules: [
+          "Traditional bedding on tatami must be handled carefully.",
+          "Heating primarily from irori hearth - dress appropriately in cold seasons.",
+          "Assistance with morning chores appreciated during your stay.",
+        ],
+      },
+    ],
   },
-
-  // Missing Italian locations
   {
     city: "Matera",
     country: "Italy",
     description:
       "Famous for its ancient cave dwellings carved into the mountainside, Matera is a UNESCO World Heritage site that offers a unique glimpse into prehistoric human settlements. The city's Sassi district, with its rock-cut churches and houses, provides an extraordinary journey through history.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Marino Family",
+        languages: ["Italian", "English"],
+        background:
+          "The Marino family embodies Matera's remarkable journey from poverty to cultural renaissance, with their sassi cave dwelling representing nine generations of continuous habitation despite the area's complex social history. Their multi-level home, partially carved into the calcarenite rock and partially constructed with stone façades, features architectural elements spanning centuries of development, from ancient cisterns for rainwater collection to 18th-century decorative stonework and sensitive modern adaptations. Family patriarch Antonio Marino, a stonemason trained in traditional building techniques, participated in Matera's UNESCO-recognized restoration efforts, developing specialized methods for preserving the unique properties of the local stone. His wife Lucia maintains comprehensive knowledge of traditional Lucanian cuisine, incorporating ancient grain varieties grown on family land and wild herbs gathered according to seasonal knowledge passed through generations. Their home includes access to interconnected underground chambers that once served as olive oil presses, grain storage, and workshops, now carefully preserved as examples of historical land use. Evening discussions often focus on Matera's dramatic transformation from the 'national shame' of Italy in the 1950s when residents were forcibly relocated from cave dwellings, to its cultural rehabilitation and ultimate recognition as a European Capital of Culture.",
+        maxGuests: 4,
+        curfew: "11:00 PM",
+        guestPolicy:
+          "History enthusiasts welcome. Must be comfortable with cave environment and stairs.",
+        houseRules: [
+          "Water conservation required (historically scarce resource).",
+          "No touching of ancient plasterwork or wall niches.",
+          "Caution required on authentic stone staircases.",
+        ],
+      },
+      {
+        name: "Gabriella & Paolo Conte",
+        languages: ["Italian", "English", "French"],
+        background:
+          "Gabriella and Paolo Conte represent the artistic renaissance of Matera's ancient districts, having transformed their inherited sassi dwelling into both home and cultural workshop space. Their multi-level cave house showcases the remarkable fusion of prehistoric living structures with thoughtfully integrated contemporary design elements that respect the historical integrity of the space. Gabriella, formally trained in art conservation, specializes in documenting and preserving the Byzantine frescoes found in Matera's rock churches, while Paolo combines traditional ceramics techniques with contemporary artistic expression. Their home studio displays artifacts discovered during renovation, including ancient grain storage vessels and medieval tools that connect directly to the site's historical usage. The couple hosts regular cultural salons featuring local musicians performing traditional Lucanian folk music with instruments specific to the Basilicata region. Their rooftop terrace, offering panoramic views across the dramatic landscape of the Sassi, serves as a gathering place for discussions about sustainable tourism and cultural preservation. Evening conversations often explore Matera's unique position as one of the world's oldest continuously inhabited settlements, examining how contemporary life can respectfully coexist with archaeological preservation.",
+        maxGuests: 3,
+        curfew: "10:30 PM",
+        guestPolicy:
+          "Artists and cultural enthusiasts welcome. Photography permitted except where specified.",
+        houseRules: [
+          "Studio areas accessible only when hosts are present.",
+          "Care required with natural limestone surfaces (no acidic products).",
+          "Heating limitations in winter - appropriate clothing advised.",
+        ],
+      },
+    ],
   },
   {
     city: "Amalfi Coast",
     country: "Italy",
     description:
       "Renowned for its stunning coastal scenery, the Amalfi Coast is a picturesque stretch of coastline dotted with charming villages, lemon groves, and vineyards. This Mediterranean paradise offers a blend of relaxation, history, and gastronomy, making it a sought-after destination.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Esposito Family",
+        languages: ["Italian", "English"],
+        background:
+          "The Esposito family embodies the agricultural heritage of the Amalfi Coast through their centuries-old lemon grove terraced into the steep Mediterranean hillside above Positano. Their traditional stone farmhouse, built by their ancestors in the 18th century, features characteristic barrel-vaulted ceilings, hand-painted ceramic tiles, and panoramic views of the Tyrrhenian Sea from multiple levels. Family patriarch Roberto Esposito maintains lemon cultivation practices established over generations, growing the distinctive sfusato amalfitano variety using traditional pergola systems that protect the fruit while maximizing the limited growing space on the vertical terrain. His wife Maria preserves culinary traditions centered around the region's famous lemons, producing limoncello according to closely guarded family recipes and creating seasonal dishes that showcase the coast's agricultural and maritime bounty. Their property includes ancient stone paths that once formed part of the Republic of Amalfi's communication network, with sections dating to medieval times when the region was a powerful maritime trading power. Evening gatherings on their terrace feature discussions about the historical development of the region's distinctive terraced agriculture, the engineering challenges of building in such dramatic topography, and the family's ongoing efforts to maintain traditional farming practices despite development pressures from tourism.",
+        maxGuests: 6,
+        curfew: "11:00 PM",
+        guestPolicy:
+          "Families welcome. Appreciation for agricultural setting required.",
+        houseRules: [
+          "Care required on historic stone stairways.",
+          "Children must be supervised on terraces.",
+          "Respect quiet hours in late afternoon (traditional riposo).",
+        ],
+      },
+      {
+        name: "Giulia & Marco Romano",
+        languages: ["Italian", "English", "German"],
+        background:
+          "Giulia and Marco Romano represent the sophisticated maritime heritage of the Amalfi Coast through their lovingly restored captain's house in the heart of Amalfi town. Their multi-story home, dating to the 16th century when Amalfi was an important naval power, features distinctive architectural elements including a Moorish-influenced courtyard, vaulted chambers once used for storing trading goods, and decorative elements that reflect the town's historical connections with the Byzantine and Arab worlds. Marco, having studied naval history extensively, maintains a private collection of maritime artifacts, maps, and navigational instruments that document the region's seafaring importance throughout different historical periods. Giulia, whose family has produced handmade paper in Amalfi since the 17th century, continues this ancient craft using traditional methods in their workshop, where cotton fibers are transformed into the distinctive paper once used for official documents throughout the Mediterranean. Their home's terraced garden grows rare botanical specimens introduced to the region through historical trading contacts, including Middle Eastern and North African varieties adapted to the microclimate. Evening conversations often focus on the technological innovations of the ancient Maritime Republic of Amalfi, its commercial codes that influenced modern maritime law, and the cultural exchanges facilitated through centuries of Mediterranean trade networks.",
+        maxGuests: 4,
+        curfew: "10:30 PM",
+        guestPolicy:
+          "History enthusiasts welcome. Evening discussions optional but enriching.",
+        houseRules: [
+          "Paper workshop visits by appointment only.",
+          "Historic furnishings require gentle treatment.",
+          "No swimming gear or wet clothing in main house areas.",
+        ],
+      },
+    ],
   },
-
-  // Additional Vietnamese locations
   {
     city: "Sapa",
     country: "Vietnam",
     description:
       "Located in the northern mountains, Sapa is famous for its terraced rice fields, ethnic diversity, and stunning mountain scenery. The town serves as a gateway for trekking to remote villages, offering a unique opportunity to experience the rich cultural traditions of the indigenous tribes.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The H'mong Family",
+        languages: ["H'mong", "Vietnamese", "Basic English"],
+        background:
+          "The H'mong family represents one of Vietnam's most distinctive ethnic minority cultures, maintaining traditions that have remained largely unchanged for centuries despite the region's complex political history. Their traditional stilt house in a remote village outside Sapa proper combines traditional building methods with carefully integrated modern comforts, featuring hand-hewn wooden beams, bamboo walls, and a communal main room where family activities center around the hearth. Family matriarch Mai is a master indigo dyer and embroiderer, creating the H'mong people's distinctive textiles using plant materials harvested from surrounding mountains and techniques passed down through generations of women. Her husband Vang maintains extensive knowledge of local agriculture, cultivating terraced rice fields using methods adapted to the steep mountain terrain through centuries of environmental knowledge. Their home displays family heirlooms including silver jewelry that represents both spiritual protection and family wealth according to H'mong traditions. Daily activities include tending to crops, livestock, and traditional handicrafts, with seasonal variations tied to agricultural cycles and cultural observances. Evening discussions around the fire often include demonstrations of musical instruments specific to H'mong culture and explanations of the symbolic significance of textile patterns that contain encoded cultural information about clan identity and spiritual beliefs.",
+        maxGuests: 4,
+        curfew: "9:00 PM",
+        guestPolicy:
+          "Adventurous travelers welcome. Basic accommodations in authentic setting.",
+        houseRules: [
+          "Shoes removed inside the home.",
+          "Photography of certain spiritual items not permitted.",
+          "Participation in daily chores appreciated.",
+        ],
+      },
+      {
+        name: "Lien & Dao",
+        languages: ["Vietnamese", "English", "Red Dao language"],
+        background:
+          "Lien and Dao belong to the Red Dao ethnic group, known for their distinctive red headdresses and complex embroidery traditions unique to their cultural heritage. Their traditional home in a small village near Sapa combines authentic architectural elements with thoughtful modifications that allow them to host cultural exchange programs while maintaining their traditional lifestyle. Lien is renowned throughout the region for her expertise in Red Dao herbal medicine, cultivating healing plants in their garden and preparing traditional remedies including the medicinal herbal baths for which their community is famous. Her husband Dao leads trekking excursions to remote areas not typically visited by tourists, sharing deep knowledge of mountain ecosystems and foraging traditions accumulated through generations of living in harmony with the highland environment. Their home features traditional paper decorations believed to carry spiritual significance and protection, creating a vibrant atmosphere that reflects Red Dao aesthetic preferences. Both are committed to cultural preservation while adapting to modernization, having established a community cooperative that helps local artisans market traditional crafts at fair prices. Evening activities often include demonstrations of Red Dao wedding ceremonies, traditional music performances on handmade instruments, and storytelling sessions that transmit oral histories and folk tales central to their cultural identity.",
+        maxGuests: 3,
+        curfew: "9:30 PM",
+        guestPolicy:
+          "Cultural respect essential. Herbal bath experience included with two-night stays.",
+        houseRules: [
+          "Modest dress required when visiting community spaces.",
+          "Special dietary requirements must be communicated in advance (remote location).",
+          "Respectful observation of spiritual practices requested if ceremonies occur during stay.",
+        ],
+      },
+    ],
   },
   {
     city: "Mekong Delta",
     country: "Vietnam",
     description:
       "The Mekong Delta is a water-world of floating markets, Khmer pagodas, and lush greenery. This region offers a unique insight into the traditional riverine lifestyle of Vietnam, with opportunities to explore by boat, visit local farms, and experience the vibrant culture.",
-    hosts: [],
+    hosts: [
+      {
+        name: "The Nguyen Family",
+        languages: ["Vietnamese", "English"],
+        background:
+          "The Nguyen family embodies the distinctive riverine lifestyle of the Mekong Delta region, where water has shaped cultural practices for centuries. Their traditional stilt house, positioned directly over a canal tributary of the Mekong River, represents the adaptive architecture developed for life in this flood-prone ecosystem. Family patriarch Minh Nguyen maintains extensive knowledge of traditional fishing methods adapted to different seasons and water conditions, using equipment he constructs by hand according to techniques passed down through generations. His wife Linh preserves culinary traditions specific to the Delta region, incorporating abundant local ingredients including elephant ear fish, water hyacinth, and river prawns prepared according to recipes distinctive to their community. Their home features a large central gathering space built from local bamboo and water palm, naturally ventilated to provide comfort in the tropical climate without modern air conditioning. The family maintains a productive floating garden attached to their property, demonstrating the innovative agricultural adaptations developed in response to the region's seasonal flooding cycles. Early morning activities include visits to authentic floating markets where the family trades their specialist produce, while afternoon boat excursions reveal hidden waterways accessible only to local knowledge. Evening discussions often focus on the environmental challenges facing the Delta region, including saltwater intrusion affecting traditional agriculture and the impacts of upstream development on the Mekong's complex ecosystem.",
+        maxGuests: 5,
+        curfew: "10:00 PM",
+        guestPolicy:
+          "Water-confident travelers preferred. Authentic riverine experience provided.",
+        houseRules: [
+          "Life jackets must be worn during boat excursions.",
+          "Mosquito nets must be used properly.",
+          "Conservation of electricity required (limited solar power).",
+        ],
+      },
+      {
+        name: "Phuong Tran",
+        languages: ["Vietnamese", "English", "French"],
+        background:
+          "Phuong Tran offers a unique perspective on the Mekong Delta's evolving cultural identity through her family's heritage in fruit cultivation spanning five generations. Her traditional wooden home, surrounded by thriving orchards producing over fifteen varieties of tropical fruits, exemplifies the region's distinctive architectural style with its open-sided living areas that maximize natural ventilation in the humid climate. Having studied agricultural biodiversity at university before returning to continue her family's orchard tradition, Phuong combines scientific understanding with traditional ecological knowledge to maintain heirloom fruit varieties increasingly rare in an era of commercial standardization. Her guided orchard tours explain the complex intercropping systems developed over centuries that maintain soil fertility naturally while supporting diverse wildlife populations. The home's riverside location provides direct access to water transportation networks that remain essential to the region's commerce and social connections, with the family's small boat serving for both daily market visits and explorations of nearby canal communities. Evening activities often include demonstrations of traditional Delta crafts such as coconut candy making, fruit carving techniques, and the preparation of seasonal preserves that extend the availability of orchard harvests throughout the year. Morning excursions with Phuong reveal the fascinating early activities at authentic floating markets where wholesale fruit trading begins before dawn, providing insights into commercial networks that connect the region's small-scale producers.",
+        maxGuests: 3,
+        curfew: "9:30 PM",
+        guestPolicy:
+          "Nature enthusiasts welcome. Light sleepers should bring earplugs (early morning boats).",
+        houseRules: [
+          "Orchard spaces accessible only with host guidance.",
+          "All waste must be properly sorted for regional recycling system.",
+          "Swimming permitted only in designated safe areas.",
+        ],
+      },
+    ],
+  },
+  {
+    city: "Hồ Chí Minh",
+    country: "Vietnam",
+    description:
+      "Hồ Chí Minh City, formerly known as Saigon, is a bustling metropolis that blends modern skyscrapers with colonial-era architecture. The city offers a vibrant mix of cultures, cuisines, and historical sites, making it a dynamic destination for travelers seeking both history and contemporary urban experiences.",
+    hosts: [
+      {
+        name: "The Pham Family",
+        languages: ["Vietnamese", "English", "French"],
+        background:
+          "The Pham family represents the beautiful fusion of Vietnamese tradition and French colonial influence through their meticulously preserved heritage home in District 3. Their elegant villa, built in the 1920s during the height of French Indochina, combines European architectural elements with adaptations to the tropical climate, featuring high ceilings, ornate ironwork, and a central courtyard garden filled with native plants and antique ceramics. Family patriarch Professor Tuan Pham, a retired historian specializing in Vietnamese-French relations, has converted part of their home into a small museum featuring photographs, documents, and artifacts that chronicle Saigon's transformation across different political eras. His wife Mai, trained in both French and Vietnamese culinary traditions, offers cooking workshops that explore the fusion cuisine that emerged from colonial cultural exchanges, explaining how European techniques merged with local ingredients to create distinctive Saigonese flavors. Their home contains an impressive collection of vintage photographs documenting the city's architectural evolution, while their library houses rare books and personal journals from family members who witnessed pivotal moments in the country's complex 20th-century history. Evening conversations on their veranda often feature discussions about urban preservation challenges in rapidly developing Ho Chi Minh City and the efforts to maintain connections to Vietnamese heritage while embracing modernization.",
+        maxGuests: 4,
+        curfew: "11:00 PM",
+        guestPolicy:
+          "History enthusiasts welcome. French language practice available.",
+        houseRules: [
+          "Air conditioning limited to evening hours (heritage conservation).",
+          "No smoking in historic wooden structures.",
+          "Library materials must be handled with provided gloves.",
+        ],
+      },
+      {
+        name: "Thanh & Huong Le",
+        languages: ["Vietnamese", "English"],
+        background:
+          "Thanh and Huong Le offer a unique window into contemporary Vietnamese urban culture through their stylishly renovated apartment in a historic 1960s building near Ben Thanh Market. Their home thoughtfully combines mid-century architectural elements with modern design sensibilities, showcasing how young professionals are reinterpreting Vietnamese aesthetics for contemporary urban living. Thanh, a photojournalist whose work has been featured in international publications, maintains an extensive visual archive documenting Ho Chi Minh City's rapid transformation and the preservation of traditional lifestyles within the modern metropolis. Huong, a food writer and culinary researcher, has extensively documented the city's street food traditions, mapping disappearing vendors and recording recipes at risk of being lost to urbanization. Their morning market tours reveal layers of history through food stalls that have operated for generations, while their connections with local vendors provide access to authentic cooking techniques rarely demonstrated to visitors. The couple's evening gatherings often feature discussions about contemporary Vietnamese art, cinema, and literature, drawing from their extensive network in the city's creative communities. Their home serves as a gallery for rotating exhibitions of work by emerging local artists, providing context about how young Vietnamese creators are expressing identity through various media while navigating connections to tradition in a rapidly globalizing environment.",
+        maxGuests: 2,
+        curfew: "Flexible",
+        guestPolicy:
+          "Urban explorers welcome. Photography enthusiasts especially appreciated.",
+        houseRules: [
+          "Building security protocols must be followed exactly.",
+          "Market tours require early morning departure (5:30 AM).",
+          "Shoes removed in apartment (slippers provided).",
+        ],
+      },
+    ],
+  },
+  {
+    city: "Đà Nẵng",
+    country: "Vietnam",
+    description:
+      "Đà Nẵng is a coastal city known for its beautiful beaches, modern infrastructure, and proximity to ancient cultural sites. The city offers a blend of relaxation and exploration, with opportunities to visit nearby UNESCO World Heritage sites like Hoi An and My Son.",
+    hosts: [
+      {
+        name: "The Tran Family",
+        languages: ["Vietnamese", "English"],
+        background:
+          "The Tran family maintains strong connections to both Da Nang's fishing traditions and its emerging contemporary identity through their beachfront home that has witnessed the city's remarkable transformation. Their property, located in a traditional fishing neighborhood that has largely maintained its character despite nearby development, features architecture that blends traditional Vietnamese coastal design with thoughtful modern additions. Family patriarch Hieu Tran represents the third generation of fishermen in their family, maintaining intimate knowledge of seasonal fishing patterns, traditional boat construction techniques, and sustainable harvesting practices increasingly rare as industrial fishing dominates the industry. His wife Cam has developed deep expertise in the distinctive central Vietnamese cuisine that differentiates itself from northern and southern traditions through specific spice combinations and preparation methods particular to the coastal region. Their home overlooks the South China Sea with views of the fishing fleet, while their indoor spaces feature family heirlooms including navigational instruments, fishing implements, and ceramics recovered from shipwrecks that document the region's maritime trade history. Dawn excursions with Hieu provide rare opportunities to witness the traditional fish auction process when boats return with their catch, while afternoon cooking sessions with Cam demonstrate the preparation of seafood dishes specific to Da Nang's culinary heritage.",
+        maxGuests: 5,
+        curfew: "10:30 PM",
+        guestPolicy:
+          "Beach lovers welcome. Early risers especially appreciate dawn fishing activities.",
+        houseRules: [
+          "Beach shoes must be thoroughly rinsed before entering house.",
+          "Seafood allergies must be disclosed before booking.",
+          "Quiet hours observed during afternoon rest period (1:00-3:00 PM).",
+        ],
+      },
+      {
+        name: "Minh & Linh Hoang",
+        languages: ["Vietnamese", "English", "Korean"],
+        background:
+          "Minh and Linh Hoang represent Da Nang's dynamic evolution as a center for both traditional Vietnamese culture and contemporary international influences. Their modernized home in the Son Tra district combines traditional Vietnamese architectural principles with contemporary design, featuring indoor-outdoor living spaces oriented to capture sea breezes and maximize views of both ocean and mountains. Minh, having worked internationally in cultural tourism development before returning to his hometown, offers specialized tours that connect Da Nang's present development with its historical significance across different eras, from ancient Champa civilization through French colonial period to its pivotal role during the American War and current renaissance. Linh, formally trained in Vietnamese traditional medicine, maintains a garden of medicinal plants and offers workshops on wellness practices that integrate traditional health concepts with contemporary applications. Their home showcases collections of Champa stone carvings legally acquired through family connections before current antiquities laws, alongside contemporary artwork from central Vietnamese artists addressing themes of tradition and modernization. Evening discussions often focus on sustainable tourism development and the challenges of balancing economic opportunities with cultural and environmental preservation in rapidly developing coastal regions. Their extensive connections throughout the city provide guests with insider experiences including visits to traditional craftspeople maintaining disappearing arts and meetings with community leaders working on innovative approaches to urban planning challenges.",
+        maxGuests: 3,
+        curfew: "11:00 PM",
+        guestPolicy:
+          "Culturally curious travelers welcome. Some tours require advance reservation.",
+        houseRules: [
+          "Meditation space available for guest use following orientation.",
+          "Recycling and composting systems must be strictly followed.",
+          "Air conditioning used judiciously (sustainable practices).",
+        ],
+      },
+    ],
+  },
+  {
+    city: "Nha Trang",
+    country: "Vietnam",
+    description:
+      "Nha Trang is a coastal city famous for its stunning beaches, vibrant nightlife, and rich cultural heritage. The city offers a mix of relaxation and adventure, with opportunities for water sports, exploring ancient temples, and enjoying the local cuisine.",
+    hosts: [
+      {
+        name: "The Dinh Family",
+        languages: ["Vietnamese", "English", "Russian"],
+        background:
+          "The Dinh family maintains deep connections to Nha Trang's maritime heritage through their beachfront property that has remained in family hands despite intense development pressure along the coast. Their traditional wooden home, elevated on stilts as protection against seasonal storms, combines architectural elements from Vietnamese coastal traditions with influences from the Cham civilization that once dominated the region. Family patriarch Vinh Dinh continues the fishing traditions established by his ancestors, specializing in sustainable near-shore techniques increasingly rare as industrial fishing transforms the region's maritime economy. His wife Hoa has developed extensive knowledge of seaweed cultivation and preparation, maintaining traditional practices for harvesting different varieties according to lunar cycles and preparing them using methods specific to central coastal communities. Their home features collections of maritime artifacts including ceramic pieces recovered from the numerous shipwrecks that document the region's important position along historical trade routes. Morning activities often include visits to the authentic local fish market where the family sells their specialized catch directly to local restaurants and families, providing insights into commercial networks that support traditional fishing livelihoods. Evening discussions on their seaside veranda often focus on marine conservation challenges and the cultural significance of traditional fishing knowledge in an era of climate change and dwindling ocean resources.",
+        maxGuests: 4,
+        curfew: "10:00 PM",
+        guestPolicy: "Ocean enthusiasts welcome. Swimming ability recommended.",
+        houseRules: [
+          "Sea equipment must be rinsed with fresh water after use.",
+          "Sustainable seafood practices observed - no consumption of endangered species.",
+          "Beach access through designated paths only (dune conservation).",
+        ],
+      },
+      {
+        name: "Lan & Tung Nguyen",
+        languages: ["Vietnamese", "English", "French"],
+        background:
+          "Lan and Tung Nguyen represent the sophisticated integration of Vietnamese coastal traditions with international influences that characterizes Nha Trang's unique cultural position. Their home, located in a quiet neighborhood away from the tourist center, features architecture that blends colonial-era influences with traditional Vietnamese design principles adapted for the coastal climate. Lan, having studied marine biology before establishing a local conservation organization, offers specialized ecological tours that explore the region's diverse coastal ecosystems, from coral reefs to mangrove forests increasingly threatened by development and climate change. Tung maintains deep knowledge of the region's Cham cultural heritage, leading visits to lesser-known archaeological sites and explaining the historical significance of artifacts displayed in their carefully curated home collection. Their garden showcases native coastal plants traditionally used for both culinary and medicinal purposes, with evening workshops demonstrating how these local ingredients are incorporated into distinctive regional dishes rarely found in tourist establishments. The couple has extensively documented local folklore associated with the sea, including traditional navigational knowledge, weather prediction methods, and ceremonies once performed by fishing communities to ensure safe voyages and abundant harvests. Morning activities often include visits to nearby temples where fishermen still make offerings before dangerous journeys, while afternoon excursions reveal hidden beaches and coves accessible only with local knowledge.",
+        maxGuests: 3,
+        curfew: "10:30 PM",
+        guestPolicy:
+          "Environmentally conscious travelers preferred. Knowledge-sharing appreciated.",
+        houseRules: [
+          "Coral and marine specimens must not be collected or disturbed.",
+          "Reef-safe sunscreen required for snorkeling excursions.",
+          "Local temple visits require modest dress (shoulders and knees covered).",
+        ],
+      },
+    ],
   },
 ];
