@@ -49,4 +49,88 @@ export const generalTestimonials: Testimonial[] = [
     author: "Robert J.",
     title: "Retired Teacher, Vermont",
   },
+  {
+    quote:
+      "From bespoke itinerary design to seamless ground transfers, Paragon Trails delivers excellence at every stage. Their concierge service arranged everything—from local wine tastings to private art tours—with such ease and elegance.",
+    author: "Clara V.",
+    title: "Art Collector, Paris",
+  },
+  {
+    quote:
+      "Booking a private yacht charter with Paragon was the highlight of our anniversary trip. The crew went above and beyond with curated meals and sunset sailing routes that felt straight out of a movie.",
+    author: "Liam & Ava D.",
+    title: "Entrepreneurs, Cape Town",
+  },
+  {
+    quote:
+      "I needed a discreet yet luxurious travel option for a high-profile business delegation, and Paragon Trails delivered flawlessly. The privacy, professionalism, and punctuality were unmatched.",
+    author: "Marcus W.",
+    title: "Corporate Strategist, London",
+  },
+  {
+    quote:
+      "My teenage daughter and I joined a mother-daughter wellness retreat organized by Paragon, and it was life-changing. Daily yoga, mindful hikes, and honest conversations by the fire brought us closer than ever.",
+    author: "Elena G.",
+    title: "Mental Health Advocate, Toronto",
+  },
+  {
+    quote:
+      "I joined one of Paragon’s cultural immersion tours in northern India, and the depth of experience blew me away. It wasn’t just sightseeing—it was participating in life as it’s lived, with grace and respect.",
+    author: "Tariq A.",
+    title: "Documentary Filmmaker, Dubai",
+  },
+  {
+    quote:
+      "The luxury train journey arranged through Paragon Trails was the definition of slow travel in style. With gourmet meals, panoramic views, and insightful narration, it was an experience I never wanted to end.",
+    author: "Natalie F.",
+    title: "Luxury Rail Enthusiast, Edinburgh",
+  },
+  {
+    quote:
+      "Paragon’s private aviation team managed our multi-country itinerary with precision. Flights were smooth, customs processes expedited, and we arrived at every destination refreshed and stress-free.",
+    author: "Jonathan P.",
+    title: "Private Equity Partner, Singapore",
+  },
+  {
+    quote:
+      "Their team was instrumental in planning our destination vow renewal in Patagonia. Logistics, permits, even the floral arrangements—they handled everything so we could simply enjoy the moment.",
+    author: "Camille R.",
+    title: "Event Designer, Los Angeles",
+  },
+  {
+    quote:
+      "As a wine connoisseur, I've experienced many vineyard tours, but Paragon's private access to family-owned estates in Burgundy was unparalleled. Their sommelier guide's knowledge transformed good tastings into extraordinary education.",
+    author: "Philippe M.",
+    title: "Wine Collector, Bordeaux",
+  },
+  {
+    quote:
+      "The Arctic expedition Paragon arranged was the perfect balance of adventure and comfort. Watching the Northern Lights from a heated glass igloo after dog sledding through pristine wilderness defined luxury exploration.",
+    author: "Isabella J.",
+    title: "Adventure Philanthropist, Stockholm",
+  },
+  {
+    quote:
+      "For our family reunion spanning four generations, Paragon curated activities suitable for everyone from my 80-year-old father to my 4-year-old nephew. Their ability to please such diverse needs simultaneously was remarkable.",
+    author: "Hiroshi T.",
+    title: "Family Office Director, Tokyo",
+  },
+  {
+    quote:
+      "During my sabbatical, I wanted meaningful immersion in sustainable practices worldwide. Paragon connected me with eco-pioneers on three continents, creating a journey that was both restorative and purpose-driven.",
+    author: "Oliver K.",
+    title: "Sustainability Executive, Amsterdam",
+  },
+  {
+    quote:
+      "When our original plans fell through due to unexpected weather, Paragon's team reconfigured our entire itinerary overnight. The replacement experiences were even more impressive than what we'd originally planned.",
+    author: "Maria & Samuel B.",
+    title: "Property Developers, Sydney",
+  },
+  {
+    quote:
+      "Their exclusive access to closed historical sites in Rome gave our children an education no classroom could provide. The private after-hours tour of the Vatican will remain our family's most treasured memory.",
+    author: "Alexandra V.",
+    title: "Education Foundation Director, Boston",
+  },
 ];

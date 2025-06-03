@@ -57,4 +57,74 @@ export const homestayTestimonials: Testimonial[] = [
     title: "Documentary Filmmaker, Los Angeles",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
   },
+  {
+    quote:
+      "I stayed with the Dlamini family near the Drakensberg Mountains, and every moment felt deeply rooted in Zulu tradition. We shared meals, music, and evenings under vast African skies. It was both grounding and inspiring.",
+    author: "Julian Carter",
+    title: "Wildlife Conservationist, London",
+    image: "https://images.unsplash.com/photo-1504198266285-165a08e08c07",
+  },
+  {
+    quote:
+      "The Patel homestay in Gujarat was a sensory journey—aromatic spices, colorful festivals, and warm laughter in the courtyard each evening. They even taught me to wear a sari with pride.",
+    author: "Mei Tanaka",
+    title: "Fashion Journalist, Tokyo",
+    image: "https://images.unsplash.com/photo-1520975918318-7d91e6fc8343",
+  },
+  {
+    quote:
+      "Waking up in a wooden cabin with the Östberg family in Swedish Lapland, surrounded by snow and silence, was like entering a fairytale. Reindeer herding and fika breaks made this a winter I'll cherish forever.",
+    author: "Ella Price",
+    title: "Photographer, Seattle",
+    image: "https://images.unsplash.com/photo-1549924231-f129b911e442",
+  },
+  {
+    quote:
+      "My week with the Navarro family in the Chilean Lake District was unforgettable. From kayaking together at sunrise to tasting homemade sopaipillas by the fire, they showed me the soul of Patagonia.",
+    author: "Andrés Torres",
+    title: "Ecotourism Guide, Santiago",
+    image: "https://images.unsplash.com/photo-1519821172141-b5d8b1b7a6c6",
+  },
+  {
+    quote:
+      "Time slowed down with the Kwan family in the rice terraces of northern Vietnam. We prepared pho together, learned folk songs, and watched the mist roll over the hills every morning. It was pure harmony.",
+    author: "Leila Haddad",
+    title: "Mindfulness Coach, Dubai",
+    image: "https://images.unsplash.com/photo-1499696012192-32a6b430b9b4",
+  },
+  {
+    quote:
+      "Staying with the Ioannou family on their olive grove in Crete connected me to centuries of Mediterranean tradition. We harvested olives by day and shared ouzo and stories by night under a canopy of stars.",
+    author: "Marcus Blackwood",
+    title: "Culinary Historian, Melbourne",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+  },
+  {
+    quote:
+      "The O'Sullivan homestay in rural Ireland wasn't just accommodation—it was immersion in Celtic traditions. From Sean's storytelling by the peat fire to learning traditional bread making from Mary, every day was authentic.",
+    author: "Zara Washington",
+    title: "Heritage Consultant, Chicago",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956",
+  },
+  {
+    quote:
+      "In the Riad of the Bensouda family in Fez, time seemed to stand still. The morning calls to prayer, the intricate tilework, and Fatima's secret family recipes created a sensory tapestry I'll never forget.",
+    author: "Hiroshi Yamamoto",
+    title: "Architectural Photographer, Kyoto",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+  },
+  {
+    quote:
+      "The week I spent with the Torres family in their Amazon basin home changed my perspective on conservation. We fished sustainably, harvested rainforest fruits, and discussed indigenous wisdom that modern science is only beginning to understand.",
+    author: "Emma Reeves",
+    title: "Environmental Journalist, Berlin",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+  },
+  {
+    quote:
+      "Elena's stone cottage in rural Georgia (the country) introduced me to polyphonic singing, generations-old winemaking methods, and the most generous hospitality I've ever experienced. Her family's supra feast remains unmatched.",
+    author: "Daniel Kim",
+    title: "Ethnomusicologist, Seoul",
+    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
+  },
 ];
