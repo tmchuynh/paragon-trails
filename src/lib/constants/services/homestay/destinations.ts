@@ -1,4 +1,6 @@
-export const homestaysAndHeritageStays = [
+import { HomestayDestination } from "@/lib/interfaces/people/homestay";
+
+export const homestaysAndHeritageStays: HomestayDestination[] = [
   {
     country: "India",
     locations: [
@@ -15,6 +17,7 @@ export const homestaysAndHeritageStays = [
           "Traditional Rajasthani hospitality",
           "Cultural performances",
         ],
+        country: "India",
       },
       {
         city: "Fort Kochi",
@@ -29,6 +32,7 @@ export const homestaysAndHeritageStays = [
           "Historic port town vibe",
           "Chinese fishing nets",
         ],
+        country: "India",
       },
       {
         city: "Coorg",
@@ -43,6 +47,7 @@ export const homestaysAndHeritageStays = [
           "Spice trails",
           "Traditional Coorgi meals",
         ],
+        country: "India",
       },
       {
         city: "Jaipur",
@@ -58,6 +63,7 @@ export const homestaysAndHeritageStays = [
           "Local crafts",
           "Royal history",
         ],
+        country: "India",
       },
       {
         city: "Leh",
@@ -72,6 +78,7 @@ export const homestaysAndHeritageStays = [
           "Buddhist traditions",
           "Stunning landscapes",
         ],
+        country: "India",
       },
     ],
   },
@@ -92,6 +99,7 @@ export const homestaysAndHeritageStays = [
           "Hida beef cuisine",
           "Traditional festivals",
         ],
+        country: "Japan",
       },
       {
         city: "Kyoto",
@@ -106,6 +114,7 @@ export const homestaysAndHeritageStays = [
           "Traditional tea ceremonies",
           "Historic streets",
         ],
+        country: "Japan",
       },
       {
         city: "Shirakawa-go",
@@ -122,6 +131,7 @@ export const homestaysAndHeritageStays = [
           "Traditional crafts",
           "Local festivals",
         ],
+        country: "Japan",
       },
     ],
   },
@@ -143,6 +153,7 @@ export const homestaysAndHeritageStays = [
           "Rural landscapes",
           "Local festivals",
         ],
+        country: "Italy",
       },
       {
         city: "Matera",
@@ -158,6 +169,7 @@ export const homestaysAndHeritageStays = [
           "Local crafts",
           "Historic churches",
         ],
+        country: "Italy",
       },
       {
         city: "Amalfi Coast",
@@ -172,6 +184,7 @@ export const homestaysAndHeritageStays = [
           "Generational homes",
           "Mediterranean cuisine",
         ],
+        country: "Italy",
       },
     ],
   },
@@ -192,6 +205,7 @@ export const homestaysAndHeritageStays = [
           "Handwoven textiles",
           "Local markets",
         ],
+        country: "Vietnam",
       },
       {
         city: "Mekong Delta",
@@ -207,6 +221,7 @@ export const homestaysAndHeritageStays = [
           "Fishing traditions",
           "Boat tours",
         ],
+        country: "Vietnam",
       },
       {
         city: "Hội An",
@@ -221,6 +236,7 @@ export const homestaysAndHeritageStays = [
           "Vietnamese cooking",
           "Tailoring traditions",
         ],
+        country: "Vietnam",
       },
     ],
   },
@@ -240,6 +256,7 @@ export const homestaysAndHeritageStays = [
           "Medina lifestyle",
           "Moroccan cuisine",
         ],
+        country: "Morocco",
       },
       {
         city: "Chefchaouen",
@@ -253,6 +270,7 @@ export const homestaysAndHeritageStays = [
           "Andalusian influence",
           "Mountain scenery",
         ],
+        country: "Morocco",
       },
       {
         city: "Atlas Mountains",
@@ -266,6 +284,7 @@ export const homestaysAndHeritageStays = [
           "Mudbrick houses",
           "Traditional music",
         ],
+        country: "Morocco",
       },
     ],
   },
@@ -284,6 +303,7 @@ export const homestaysAndHeritageStays = [
           "Weaving traditions",
           "Inca heritage",
         ],
+        country: "Peru",
       },
       {
         city: "Puno",
@@ -297,6 +317,7 @@ export const homestaysAndHeritageStays = [
           "Uros and Taquile tribes",
           "Floating islands",
         ],
+        country: "Peru",
       },
     ],
   },
@@ -315,6 +336,7 @@ export const homestaysAndHeritageStays = [
           "Mountain views",
           "Car-free town",
         ],
+        country: "Nepal",
       },
       {
         city: "Bhaktapur",
@@ -324,6 +346,7 @@ export const homestaysAndHeritageStays = [
         description:
           "Bhaktapur is a medieval city that showcases the best-preserved examples of traditional Nepalese art and architecture. The city's rich history is reflected in its ancient temples, palaces, and squares, offering visitors a unique cultural experience.",
         culturalHighlights: ["UNESCO city", "Brick lanes", "Temple culture"],
+        country: "Nepal",
       },
       {
         city: "Panauti",
@@ -337,6 +360,7 @@ export const homestaysAndHeritageStays = [
           "Cultural immersion",
           "Organic meals",
         ],
+        country: "Nepal",
       },
     ],
   },
@@ -355,6 +379,7 @@ export const homestaysAndHeritageStays = [
           "UNESCO heritage",
           "Svan culture",
         ],
+        country: "Georgia",
       },
     ],
   },
@@ -373,6 +398,7 @@ export const homestaysAndHeritageStays = [
           "Historic canals",
           "Thai traditional homes",
         ],
+        country: "Thailand",
       },
     ],
   },
@@ -391,6 +417,7 @@ export const homestaysAndHeritageStays = [
           "Cycladic design",
           "Olive oil making",
         ],
+        country: "Greece",
       },
     ],
   },
@@ -409,6 +436,7 @@ export const homestaysAndHeritageStays = [
           "Tribal customs",
           "Craft workshops",
         ],
+        country: "Tanzania",
       },
     ],
   },
@@ -423,6 +451,7 @@ export const homestaysAndHeritageStays = [
         description:
           "Mostar is famous for its iconic Stari Most (Old Bridge) and its well-preserved Ottoman architecture. The town's historic center, with its narrow cobblestone streets and traditional bazaars, offers a glimpse into the rich cultural heritage of the region.",
         culturalHighlights: ["Stari Most bridge", "Handcrafts", "Café culture"],
+        country: "Bosnia and Herzegovina",
       },
       {
         city: "Blagaj",
@@ -432,6 +461,7 @@ export const homestaysAndHeritageStays = [
         description:
           "Blagaj is a small town known for its stunning natural setting at the source of the Buna River and its well-preserved Ottoman architecture. The town offers a peaceful retreat with opportunities to explore the nearby river, caves, and historic sites.",
         culturalHighlights: ["Sufi monastery", "River views", "Ottoman legacy"],
+        country: "Bosnia and Herzegovina",
       },
     ],
   },
@@ -451,6 +481,7 @@ export const homestaysAndHeritageStays = [
           "Local markets",
           "War history museums",
         ],
+        country: "Vietnam",
       },
       {
         city: "Đà Nẵng",
@@ -465,6 +496,7 @@ export const homestaysAndHeritageStays = [
           "Cultural festivals",
           "Marble Mountains",
         ],
+        country: "Vietnam",
       },
       {
         city: "Nha Trang",
@@ -479,6 +511,7 @@ export const homestaysAndHeritageStays = [
           "Diving and snorkeling",
           "Cham culture",
         ],
+        country: "Vietnam",
       },
     ],
   },
