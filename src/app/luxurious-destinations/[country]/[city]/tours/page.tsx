@@ -203,12 +203,20 @@ export default function TourPage() {
 
   if (tours.length === 0) {
     return (
-      <div className="flex flex-col justify-center items-center p-8 min-h-screen">
-        <h1 className="mb-4 font-bold text-3xl">No Tours Available</h1>
-        <p className="max-w-2xl text-center text-lg">
-          We're currently developing tour options for {city}. Please check back
-          soon or contact us for custom tour arrangements.
-        </p>
+      <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
+        <header>
+          <h1>
+            No Tours Available in{" "}
+            {city
+              ? decodeURIComponent(Array.isArray(city) ? city[0] : city)
+              : ""}
+            : {cityInfo?.subtitle}
+          </h1>
+          <p>
+            We're currently developing tour options for {city}. Please check
+            back soon or contact us for custom tour arrangements.
+          </p>
+        </header>
         <ContactDepartmentCard department="Custom Tour Arrangements" />
       </div>
     );
