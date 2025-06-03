@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { cityattractions } from "@/lib/constants/info/city";
 import { generalTestimonials } from "@/lib/constants/services/testimonials/generalTestimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function HomePage() {
@@ -72,12 +73,16 @@ export default function HomePage() {
           </div>
           <div className="mt-12 md:mt-0 md:w-1/2">
             <div className="relative shadow-2xl rounded-lg w-full h-64 md:h-96 overflow-hidden">
-              {/* Replace with actual trail image */}
               <div className="absolute inset-0 bg-gradient-to-br from-transparent to-green-900/30" />
               <div className="w-full h-full">
-                {/* Placeholder for image */}
                 <div className="flex justify-center items-center h-full">
-                  Trail Image
+                  <Image
+                    src="https://media.istockphoto.com/id/2155498743/photo/traveler-holding-orange-suitcase-on-city-street.jpg?s=612x612&w=0&k=20&c=3mAFVgvG_-8m4uF8_6ce180vnhnIoycqjwWk2qWAFVs="
+                    alt="Hero Trail Image"
+                    className="w-full h-full object-cover"
+                    width={800}
+                    height={600}
+                  />
                 </div>
               </div>
             </div>
@@ -86,28 +91,26 @@ export default function HomePage() {
       </div>
 
       {/* Features Section */}
-      <section>
-        <div>
-          <div className="mb-16 text-center">
-            <h2>Why Choose Paragon Trails</h2>
-            <p>
-              We combine expert knowledge with passion for nature to create
-              unforgettable experiences.
-            </p>
-          </div>
+      <section className="my-7">
+        <header className="text-center">
+          <h2>Why Choose Paragon Trails</h2>
+          <h5>
+            We combine expert knowledge with passion for nature to create
+            unforgettable experiences.
+          </h5>
+        </header>
 
-          <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
-            {trailFeatures.map((feature, index) => (
-              <div
-                key={index}
-                className="shadow-lg hover:shadow-xl p-6 rounded-lg transition-shadow"
-              >
-                <div className="mb-4 text-4xl">{feature.icon}</div>
-                <h3>{feature.title}</h3>
-                <p className="">{feature.description}</p>
-              </div>
-            ))}
-          </div>
+        <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
+          {trailFeatures.map((feature, index) => (
+            <div
+              key={index}
+              className="shadow-lg hover:shadow-xl p-6 rounded-lg transition-shadow"
+            >
+              <div className="mb-4 text-4xl">{feature.icon}</div>
+              <h3>{feature.title}</h3>
+              <p className="">{feature.description}</p>
+            </div>
+          ))}
         </div>
       </section>
 
