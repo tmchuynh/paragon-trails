@@ -1,3 +1,5 @@
+import { Location } from "@lib/types/types";
+
 export interface Host {
   name: string;
   background: string;
@@ -9,9 +11,21 @@ export interface Host {
   houseRules: string[];
 }
 
-export interface HomestayLocation {
-  city: string;
-  country: string;
-  description: string;
+export interface HomestayHostLocations extends Location {
   hosts: Host[];
+}
+
+export interface homestayDestination extends Location {
+  locations: homestayDestination[];
+  stayType: string;
+}
+
+export interface HomestayLocation extends Location {
+  stayType: string;
+  culturalHighlights: string[];
+}
+
+export interface HomestayDestination {
+  country: string;
+  locations: HomestayLocation[];
 }
