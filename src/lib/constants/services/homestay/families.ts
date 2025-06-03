@@ -1,6 +1,6 @@
-import { HomestayLocation } from "@/lib/interfaces/people/homestay";
+import { HomestayHostLocations } from "@/lib/interfaces/people/homestay";
 
-export const homestayHeritageLocations: HomestayLocation[] = [
+export const homestayHeritageLocations: HomestayHostLocations[] = [
   {
     city: "Kyoto",
     country: "Japan",
