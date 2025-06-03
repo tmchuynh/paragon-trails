@@ -7,7 +7,7 @@ export const contactDepartments = [
     short:
       "For general questions, company info, or if you're unsure where to start.",
     description:
-      "Our General Inquiries team is your starting point for all questions related to Paragon Trails. Whether you're learning about our destinations, travel packages, or company policies, we're here to assist with broad information needs. This department is ideal for first-time travelers looking to understand our offerings, for customers seeking clarification about our process, or for anyone in the early stages of planning a trip. We can direct your request to the appropriate team if your question requires more specific expertise. If you're unsure where to start, start here.",
+      "The General Inquiries team serves as your gateway to Paragon Trails, addressing all initial questions about our offerings. We provide comprehensive information on destinations, packages, and company policies to help you navigate your options. This department is particularly valuable for newcomers exploring our services, customers seeking clarity on our processes, or anyone in the early planning stages. We'll connect you with specialized departments as needed. Whenever you're uncertain where to begin, we're your ideal first point of contact.",
   },
   {
     department: "Reservations & Booking",
@@ -16,7 +16,7 @@ export const contactDepartments = [
     hours: "Mon–Fri, 8:00 AM – 7:00 PM PT",
     short: "Help with booking, itinerary changes, payments, or cancellations.",
     description:
-      "This department manages every aspect of your travel booking process—from initial reservation and itinerary building to changes, cancellations, and confirmations. Whether you're securing a single experience or booking a multi-stop itinerary, our team provides step-by-step assistance. We also help with payment plans, booking confirmations, and special requests related to your reservations. If you're having trouble with your online booking or need advice on availability and travel dates, this is the department to contact.",
+      "Our Reservations & Booking team oversees every element of your travel arrangement process—from crafting initial itineraries to handling modifications, confirmations, and cancellations. We provide comprehensive guidance whether you're securing a single experience or orchestrating a multi-destination journey. Our specialists assist with flexible payment options, booking verifications, and accommodating special reservation requirements. Facing challenges with online bookings or needing advice on travel dates and availability? This department stands ready to ensure your booking experience proceeds seamlessly.",
   },
   {
     department: "Concierge Services",
@@ -26,7 +26,7 @@ export const contactDepartments = [
     short:
       "For in-trip assistance, local bookings, and personalized travel support.",
     description:
-      "Our Concierge Services team delivers personalized, in-destination support for all active travelers. Whether you're looking for last-minute dinner reservations, guided local experiences, language assistance, or help navigating cultural customs, this department ensures your journey runs smoothly. They also handle urgent requests while traveling, such as schedule changes, coordinating meetups, or dealing with service disruptions. For guests seeking white-glove service throughout their trip, our concierge team is here to assist.",
+      "The Concierge Services department delivers bespoke, on-location support throughout your journey. We excel at arranging impromptu dining reservations, curating authentic local experiences, facilitating language assistance, and guiding you through cultural protocols. Our team expertly manages time-sensitive travel adjustments, including schedule modifications, coordination of meetups, and resolution of service interruptions. For travelers seeking attentive, premium support from departure to return, our dedicated concierge professionals ensure your experience is nothing short of exceptional.",
   },
   {
     department: "Billing & Payments",
@@ -36,7 +36,7 @@ export const contactDepartments = [
     short:
       "For invoices, refunds, installment plans, or transaction questions.",
     description:
-      "Our Billing & Payments department handles everything related to your financial transactions with Paragon Trails. Contact us for invoice breakdowns, payment disputes, credit card updates, refund processing, installment plan coordination, or receipt requests. We also help with financial documentation needed for insurance or tax purposes. Whether you’re making a new payment or resolving an existing issue, we’ll ensure it’s handled promptly and securely.",
+      "The Billing & Payments department oversees all financial transactions with Paragon Trails. Reach out for detailed invoice explanations, payment dispute resolution, credit card information updates, refund processing, installment plan arrangements, or receipt requests. We also provide financial documentation for insurance claims or tax purposes. Whether initiating new payments or addressing existing financial matters, our team ensures efficient and secure handling of all your transaction needs.",
   },
   {
     department: "Emergency Travel Support",
@@ -46,7 +46,7 @@ export const contactDepartments = [
     short:
       "For urgent travel issues including medical, flight, or safety emergencies.",
     description:
-      "Available around the clock, this department provides urgent assistance for travelers experiencing real-time issues. From missed flights and medical crises to geopolitical incidents or natural disasters, our safety team coordinates immediate interventions and travel solutions. We can reroute itineraries, liaise with emergency contacts, coordinate with embassies, and assist in securing alternate transport or shelter. Always keep this contact information with you during travel—it is your lifeline in times of need.",
+      "Our Emergency Travel Support team operates continuously to provide critical assistance during travel disruptions. From flight cancellations and health emergencies to geopolitical situations or environmental events, our specialists coordinate immediate interventions and alternative travel arrangements. We facilitate itinerary adjustments, communicate with emergency contacts, collaborate with diplomatic services, and secure alternative transportation or accommodations. Keep these contact details accessible throughout your journey—they provide essential support when unexpected situations arise.",
   },
   {
     department: "Transportation Services & Rentals",
@@ -56,7 +56,7 @@ export const contactDepartments = [
     short:
       "Manage ground transport, luxury vehicles, and real-time travel logistics.",
     description:
-      "This unified department manages all ground transport logistics including scheduled pickups, private transfers, on-demand vehicle upgrades, and luxury rentals. Whether you need a chauffeured car, airport shuttle, regional transfer, or chartered luxury vehicle, our transportation team ensures seamless mobility throughout your journey. We also arrange yachts, private jet charters, and customized transportation experiences. For real-time changes or upgrades during travel, the transportation concierge team is available 24/7.",
+      "Our Transportation Services department coordinates all aspects of ground mobility including pre-arranged pickups, exclusive transfers, spontaneous vehicle upgrades, and premium rentals. We arrange everything from executive car services and airport shuttles to regional transfers and luxury vehicle charters. Additionally, we facilitate yacht bookings, private aviation services, and tailored transportation experiences. For immediate changes or enhancements during your journey, our transportation specialists remain available around the clock.",
   },
   {
     department: "Insurance, Claims & Post-Trip Support",
@@ -66,7 +66,7 @@ export const contactDepartments = [
     short:
       "Handle travel insurance, file claims, or report lost items after a trip.",
     description:
-      "This department manages all aspects of travel insurance, claims filing, and post-travel assistance. We help travelers prepare documentation for reimbursement, support active claims with third-party insurers, and handle lost property reports. In addition, we assist with any unresolved service concerns and welcome your feedback following your journey. Whether you're missing a bag, seeking a refund, or following up on a previous issue, this is your go-to department for resolution.",
+      "This specialized department handles all aspects of travel protection, claims submission, and post-journey assistance. We guide travelers through documentation requirements for reimbursements, provide support for active claims with insurance providers, and process lost property notifications. We also address any lingering service concerns and welcome constructive feedback following your travels. Whether tracking missing luggage, pursuing compensation, or following up on previously reported issues, our team is dedicated to achieving satisfactory resolutions.",
   },
   {
     department: "Legal & Privacy Inquiries",
@@ -75,7 +75,7 @@ export const contactDepartments = [
     hours: "Mon–Fri, 9:00 AM – 5:00 PM PT",
     short: "Request legal documents or ask about data privacy and compliance.",
     description:
-      "For legal, regulatory, or privacy-related matters, contact our Legal & Compliance department. We address topics such as data privacy requests, terms of service, liability, traveler waivers, and contract reviews. This department also handles official correspondence, subpoenas, and regulatory compliance. If you are a legal professional or need documentation related to legal claims, please direct your inquiry here.",
+      "The Legal & Privacy department manages all juridical, regulatory, and confidentiality matters. We address inquiries regarding data protection policies, service agreements, liability concerns, traveler release forms, and contract evaluations. This team also handles formal correspondence, legal notices, and compliance requirements. Legal professionals seeking documentation or individuals requiring information about legal provisions should direct their inquiries to this specialized department.",
   },
   {
     department: "Accessibility & Special Accommodations",
@@ -85,7 +85,7 @@ export const contactDepartments = [
     short:
       "Request accessible travel support or specialized trip arrangements.",
     description:
-      "Dedicated to ensuring an inclusive and accessible travel experience for all, this department supports guests with physical, sensory, cognitive, or medical needs. We assist in arranging mobility equipment, accessible lodging, dietary accommodations, service animal coordination, and itinerary adjustments. Let us know your specific needs in advance, and we will work with our partners to provide safe, comfortable, and empowering travel solutions.",
+      "Committed to creating universal travel experiences, our Accessibility team supports guests with diverse physical, sensory, cognitive, or medical requirements. We coordinate mobility equipment provision, barrier-free accommodations, specialized dietary arrangements, service animal logistics, and customized itinerary adjustments. By communicating your specific requirements in advance, we collaborate with our partners to develop safe, comfortable, and empowering travel solutions tailored to your individual needs.",
   },
   {
     department: "Homestay Inquiries",
@@ -94,6 +94,6 @@ export const contactDepartments = [
     hours: "Mon–Fri, 10:00 AM – 6:00 PM PT",
     short: "Ask about homestay options or cultural lodging arrangements.",
     description:
-      "Our Homestay team connects travelers with vetted local families and heritage properties for immersive cultural stays. We provide recommendations based on your interests, dietary preferences, language needs, and travel goals. Whether you're seeking an educational exchange, community-based tourism, or a traditional homestay with local hosts, we curate personalized options and ensure proper arrangements for safety and comfort.",
+      "Our Homestay specialists facilitate connections between travelers and thoroughly screened local families and heritage properties for authentic cultural immersion. We offer personalized recommendations based on your cultural interests, food preferences, language abilities, and travel objectives. Whether seeking educational exchanges, community-based tourism experiences, or traditional family stays with local hosts, we carefully curate options that ensure both meaningful cultural engagement and appropriate comfort and safety standards.",
   },
 ];
