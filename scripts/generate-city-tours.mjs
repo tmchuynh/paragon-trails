@@ -1,3 +1,34 @@
+/**
+ * City Tours Generator Script
+ * ==========================
+ *
+ * This script generates realistic tour offerings for city destinations in the Paragon Trails application.
+ * It creates detailed tour information with properties like title, description, pricing,
+ * duration, scheduling, included items, requirements, and policies for each city.
+ *
+ * Features:
+ * - Generates 3-7 tours per city by default
+ * - Creates appropriate folder structure in src/lib/constants/tours
+ * - Links tours to existing tour guides when available
+ * - Includes diverse tour types, themes, and schedules
+ * - Generates realistic pricing, group sizes, and language offerings
+ * - Creates comprehensive inclusion/exclusion lists and requirements
+ *
+ * Usage: node scripts/generate-city-tours.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r             Rewrite existing files instead of skipping them
+ *   --append N, -a N          Append N new tours to existing files
+ *   --city C, -c C            Process only cities matching the search term
+ *   --guide-count X, -g X     Specify how many guides to attempt to link per city (default: 3)
+ *
+ * Examples:
+ *   node scripts/generate-city-tours.mjs --rewrite
+ *   node scripts/generate-city-tours.mjs --append 3
+ *   node scripts/generate-city-tours.mjs --city "Paris" --guide-count 5
+ *   node scripts/generate-city-tours.mjs --city "Hong Kong" --append 3
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -8,19 +39,6 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-city-tours.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new tours to existing files
-// node scripts/generate-city-tours.mjs --append 5
-
-// City Filter: Use --city C or -c C to process only specific cities
-// node scripts/generate-city-tours.mjs --city "Tokyo" --append 3
-
-// Guide Flag: Use --guide-count X or -g X to specify how many guides to attempt to link per city
-// node scripts/generate-city-tours.mjs --guide-count 3
 
 const cities = getCityFiles();
 
@@ -716,13 +734,39 @@ async function generateAllCityTourFiles() {
 
   // Filter by city name if specified
   if (options.cityFilter) {
-    const filterLower = options.cityFilter.toLowerCase();
+    const filterLower = options.cityFilter
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+
+    // More flexible matching - strip non-alphanumeric characters for comparison
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, "")
+        .includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
       console.log(`No cities found matching: ${options.cityFilter}`);
+      console.log("\nAvailable cities (showing up to 10):");
+
+      // Show possible matches to help the user
+      const possibleMatches = cities
+        .filter((city) =>
+          city
+            .toLowerCase()
+            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join(""))
+        )
+        .slice(0, 10);
+
+      if (possibleMatches.length > 0) {
+        console.log("Did you mean one of these?");
+        possibleMatches.forEach((city) => console.log(`- "${city}"`));
+      } else {
+        // Show some random cities to help the user understand the format
+        console.log("Some available cities (examples):");
+        cities.slice(0, 10).forEach((city) => console.log(`- "${city}"`));
+      }
       return;
     }
 
@@ -747,7 +791,7 @@ generateAllCityTourFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-city-tours.mjs [options]
+Usage: node scripts/generate-city-tours.mjs [options]
 
 Options:
   --rewrite, -r             Rewrite existing files instead of skipping them
@@ -756,7 +800,7 @@ Options:
   --guide-count X, -g X     Specify how many guides to attempt to link per city (default: 3)
 
 Examples:
-  node generate-city-tours.mjs --rewrite
-  node generate-city-tours.mjs --append 3
-  node generate-city-tours.mjs --city "Paris" --guide-count 5
+  node scripts/generate-city-tours.mjs --rewrite
+  node scripts/generate-city-tours.mjs --append 3
+  node scripts/generate-city-tours.mjs --city "Paris" --guide-count 5
 `);
