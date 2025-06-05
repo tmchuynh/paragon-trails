@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
-import { getCityFiles } from "./utils/file-utils.mjs";
+import { getCityFiles, getRandomEmail } from "./utils/file-utils.mjs";
 import {
   formatKebabToCamelCase,
   removeAccents,
@@ -95,6 +95,51 @@ const hotelNames = [
   "Luxury Collection",
   "Waldorf Astoria",
 ];
+
+// Street names for address generation
+const streetNames = [
+  "Main Street",
+  "High Street",
+  "Park Avenue",
+  "Ocean Drive",
+  "Sunset Boulevard",
+  "Marina Way",
+  "Bay Street",
+  "Broadway",
+  "Royal Road",
+  "Grand Boulevard",
+  "Palm Drive",
+  "Beach Road",
+  "Harbor View",
+  "Waterfront Avenue",
+  "Market Street",
+  "Plaza Road",
+  "Central Avenue",
+  "Luxury Lane",
+  "Paradise Road",
+  "Elite Street",
+];
+
+// Street suffixes for different regions
+const streetSuffixes = {
+  "United States": ["St", "Ave", "Blvd", "Dr", "Ln", "Way", "Rd"],
+  "United Kingdom": [
+    "Street",
+    "Road",
+    "Avenue",
+    "Lane",
+    "Drive",
+    "Place",
+    "Way",
+  ],
+  France: ["Rue", "Avenue", "Boulevard", "Allée", "Place", "Quai"],
+  Spain: ["Calle", "Avenida", "Paseo", "Plaza", "Camino", "Carrera"],
+  Germany: ["Straße", "Allee", "Platz", "Gasse", "Weg", "Ring"],
+  Italy: ["Via", "Corso", "Piazza", "Viale", "Largo", "Strada"],
+  Japan: ["Dori", "Street", "Avenue", "Boulevard"],
+  China: ["Road", "Street", "Avenue", "Boulevard"],
+  default: ["St", "Ave", "Blvd", "Rd", "Street", "Road", "Avenue"],
+};
 
 const accommodationTypes = [
   "Hotel",
@@ -190,12 +235,6 @@ function getRandomPhone() {
   return phone;
 }
 
-// Generate a random email
-function getRandomEmail(hotelName, city) {
-  const cleanHotelName = hotelName.toLowerCase().replace(/\s+/g, "");
-  const cleanCity = city.toLowerCase().replace(/-/g, "");
-  return `info@${cleanHotelName}${cleanCity}.com`;
-}
 
 // Generate random subset of array elements
 function getRandomSubset(array, minItems, maxItems) {
@@ -205,12 +244,40 @@ function getRandomSubset(array, minItems, maxItems) {
   return shuffled.slice(0, numItems);
 }
 
+// Generate a random address based on the city and country
+function generateAddress(city, country) {
+  // Get appropriate street suffix for the country
+  const suffixes = streetSuffixes[country] || streetSuffixes["default"];
+  const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+
+  // Generate random building number
+  const buildingNumber = Math.floor(Math.random() * 300) + 1;
+
+  // Select random street name
+  const streetName =
+    streetNames[Math.floor(Math.random() * streetNames.length)];
+
+  // For some countries, building number comes after street name
+  if (["Japan", "China", "South Korea"].includes(country)) {
+    return `${streetName} ${suffix} ${buildingNumber}`;
+  }
+
+  // For most countries, building number comes first
+  return `${buildingNumber} ${streetName} ${suffix}`;
+}
+
 // Generate a hotel with all required properties
 function generateHotel(city, index) {
-  const hotelName = `${hotelNames[Math.floor(Math.random() * hotelNames.length)]} ${city}`;
+  const hotelName = `${hotelNames[Math.floor(Math.random() * hotelNames.length)]}`;
   const rating = Math.floor(Math.random() * 2) + 3; // 3-5 stars
   const accommodationType =
     accommodationTypes[Math.floor(Math.random() * accommodationTypes.length)];
+
+  // Get country for this city
+  const country = cityCountryMap[city] || "";
+
+  // Generate address
+  const address = generateAddress(city, country);
 
   // Random amenities (5-10)
   const hotelAmenities = getRandomSubset(amenityTypes, 5, 10);
@@ -229,7 +296,7 @@ function generateHotel(city, index) {
 
   const currency = getCurrencyForCity(city);
 
-  const contactEmail = getRandomEmail(hotelName, city);
+  const contactEmail = getRandomEmail(hotelName);
   const contactPhone = getRandomPhone();
 
   const cancellationPolicy =
@@ -244,6 +311,7 @@ function generateHotel(city, index) {
   return {
     id: `hotel-${city}-${index}`,
     name: hotelName,
+    address,
     rating,
     accommodationType,
     amenities: hotelAmenities,
