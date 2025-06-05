@@ -24,7 +24,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         .split("/")
         .filter(Boolean)
         .map((segment) => decodeURIComponent(segment)),
-    [pathname]
+    [pathname],
   );
 
   // Detect if this is a 404 page based on known structure
@@ -36,10 +36,10 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         index === pathSegments.length - 1 && isNotFoundPage
           ? "Not Found"
           : segment.length === 2
-          ? segment.toUpperCase()
-          : capitalize(segment)
+            ? segment.toUpperCase()
+            : capitalize(segment),
       ),
-    [pathSegments, isNotFoundPage]
+    [pathSegments, isNotFoundPage],
   );
 
   const breadcrumbItems = useMemo(() => {
@@ -51,7 +51,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       href: string,
       segment: string,
       index: number,
-      isLast: boolean
+      isLast: boolean,
     ) => {
       const r = generateRandomString(5);
 
@@ -69,7 +69,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       items.push(
         <BreadcrumbItem key="dots" className="-mx-1">
           <span className="rounded-md">...</span>
-        </BreadcrumbItem>
+        </BreadcrumbItem>,
       );
 
       const currentHref = `/${pathSegments.join("/")}`;
@@ -81,11 +81,11 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           className="ml-1 text-primary"
         >
           <PiPaperPlaneRightLight />
-        </BreadcrumbSeparator>
+        </BreadcrumbSeparator>,
       );
 
       items.push(
-        renderItem(currentHref, currentSegment, pathSegments.length - 1, true)
+        renderItem(currentHref, currentSegment, pathSegments.length - 1, true),
       );
     } else if (isMediumScreen && !isSmallScreen) {
       items.push(
@@ -96,7 +96,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           >
             Home
           </BreadcrumbLink>
-        </BreadcrumbItem>
+        </BreadcrumbItem>,
       );
 
       if (pathSegments.length > 2) {
@@ -106,7 +106,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         items.push(
           <BreadcrumbSeparator key="sep-2" className="ml-1 text-primary">
             <PiPaperPlaneRightLight />
-          </BreadcrumbSeparator>
+          </BreadcrumbSeparator>,
         );
 
         items.push(renderItem(href, segment, 1, false));
@@ -117,11 +117,11 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         items.push(
           <BreadcrumbSeparator key="sep-last" className="ml-1 text-primary">
             <PiPaperPlaneRightLight />
-          </BreadcrumbSeparator>
+          </BreadcrumbSeparator>,
         );
 
         items.push(
-          renderItem(href, lastSegment, pathSegments.length - 1, true)
+          renderItem(href, lastSegment, pathSegments.length - 1, true),
         );
       }
 
@@ -131,11 +131,11 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         items.push(
           <BreadcrumbSeparator key="sep-1" className="ml-1 text-primary">
             <PiPaperPlaneRightLight />
-          </BreadcrumbSeparator>
+          </BreadcrumbSeparator>,
         );
 
         items.push(
-          renderItem(href, lastSegment, pathSegments.length - 1, true)
+          renderItem(href, lastSegment, pathSegments.length - 1, true),
         );
       }
     } else {
@@ -147,7 +147,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           >
             Home
           </BreadcrumbLink>
-        </BreadcrumbItem>
+        </BreadcrumbItem>,
       );
 
       pathSegments.forEach((_, index) => {
@@ -160,11 +160,11 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
             className="mx-4 text-primary"
           >
             <PiPaperPlaneRightLight />
-          </BreadcrumbSeparator>
+          </BreadcrumbSeparator>,
         );
 
         items.push(
-          renderItem(href, segment, index, index === pathSegments.length - 1)
+          renderItem(href, segment, index, index === pathSegments.length - 1),
         );
       });
     }

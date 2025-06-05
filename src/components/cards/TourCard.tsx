@@ -274,8 +274,8 @@ export default function TourCard({
 
               router.push(
                 `/luxurious-destinations/${country}/${city}/tours/${formatToSlug(
-                  tour.title
-                )}?${queryParams.toString()}`
+                  tour.title,
+                )}?${queryParams.toString()}`,
               );
             }}
           >

@@ -80,7 +80,7 @@ export default function Header() {
               >
                 {item.label}
               </a>
-            )
+            ),
           )}
           <ThemeToggle />
         </div>
@@ -145,7 +145,7 @@ export default function Header() {
                     >
                       {item.label}
                     </a>
-                  )
+                  ),
                 )}
               </div>
             </div>

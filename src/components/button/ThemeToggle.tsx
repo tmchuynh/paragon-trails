@@ -61,7 +61,7 @@ export const ThemeToggle = (): JSX.Element | null => {
         )}
       </Toggle>
     ),
-    [currentTheme, toggleTheme]
+    [currentTheme, toggleTheme],
   );
 
   return (

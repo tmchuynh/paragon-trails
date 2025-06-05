@@ -48,7 +48,7 @@ export default function BackdropButton({
             variant === "link",
         },
         { "hover:shadow-lg": variant !== "outline" && variant !== "link" },
-        className
+        className,
       )}
     >
       {children}

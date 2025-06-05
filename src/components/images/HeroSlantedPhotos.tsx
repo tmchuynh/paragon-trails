@@ -18,7 +18,7 @@ export default function HeroSlantedPhotos({ images }: { images: string[] }) {
             key={image}
             className={clsx(
               "relative flex-none rounded-xl sm:rounded-2xl w-44 sm:w-72 overflow-hidden aspect-9/10",
-              rotations[imageIndex % rotations.length]
+              rotations[imageIndex % rotations.length],
             )}
           >
             <Image

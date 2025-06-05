@@ -63,7 +63,7 @@ const BackToTop = (): JSX.Element => {
             "fixed bottom-4 right-4 bg-primary hover:bg-accent transition duration-300 ease-in-out rounded-full shadow-lg",
             {
               "bg-secondary text-secondary-foreground": theme == "dark",
-            }
+            },
           )}
           aria-label="Back to top"
         >

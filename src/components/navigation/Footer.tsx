@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   const additionalLinks = navbarItems.filter(
-    (item) => !item.dropdown && item.label !== "Home"
+    (item) => !item.dropdown && item.label !== "Home",
   );
 
   return (

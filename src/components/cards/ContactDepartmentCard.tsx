@@ -12,7 +12,7 @@ export default function ContactDepartmentCard({
 }) {
   const router = useRouter();
   const contact = contactDepartments.find(
-    (dept) => dept.department.toLowerCase() === department.toLowerCase()
+    (dept) => dept.department.toLowerCase() === department.toLowerCase(),
   );
 
   if (!contact) {
