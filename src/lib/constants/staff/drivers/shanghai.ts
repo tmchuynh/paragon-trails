@@ -3,315 +3,300 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const shanghaichinaasiaPacificDrivers: Driver[] = [
   {
     id: "driver-shanghai-1",
-    name: "Eugene West",
-    licenseNumber: "F2Y145",
-    licenseExpiry: "2030-11-21",
-    experienceYears: 7,
-    languagesSpoken: ["Thai", "Korean", "Tagalog"],
+    name: "Jane Foster",
+    licenseNumber: "Y2M863",
+    licenseExpiry: "2026-02-16",
+    experienceYears: 16,
+    languagesSpoken: ["Urdu", "Japanese", "Vietnamese"],
     available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          },
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00",
+          },
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "10:00",
           },
-          {
-            from: "14:00",
-            to: "17:00"
-          }
         ],
       },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00"
-          },
-          {
-            from: "08:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "20:00"
-          },
-          {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00"
-          },
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00"
-          }
-        ],
-      }
     ],
-    ratings: 3.9,
-    phone: "+31 388-476-1030",
-    email: "eugene.west@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/shanghai/eugene-west.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers", "Event Transportation"],
-    vehicleTypesCertified: ["SUV", "Limousine"],
+    ratings: 4.9,
+    phone: "+396 986-799-2460",
+    email: "jane.foster@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/shanghai/jane-foster.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Airport Transfers",
+      "Corporate Chauffeur",
+    ],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Electric Vehicle",
+      "Convertible",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-shanghai-2",
-    name: "Henry Collins",
-    licenseNumber: "O2L254",
-    licenseExpiry: "2029-02-17",
-    experienceYears: 5,
-    languagesSpoken: ["Indonesian", "Vietnamese", "Thai", "Korean"],
+    name: "Gerald Keller",
+    licenseNumber: "B9U062",
+    licenseExpiry: "2029-11-08",
+    experienceYears: 11,
+    languagesSpoken: ["Korean", "Malay", "Thai", "Tagalog"],
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00"
-          },
-          {
-            from: "14:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00"
-          },
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00"
+            from: "13:00",
+            to: "16:00",
           },
-          {
-            from: "02:00",
-            to: "05:00"
-          }
         ],
       },
       {
         day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
-          },
-          {
-            from: "14:00",
-            to: "16:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+13 484-818-1450",
-    email: "henry.collins@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/shanghai/henry-collins.jpg",
-    specialties: ["Night Shift", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Limousine", "Luxury SUV", "Sports Car", "Sedan"],
-  },
-  {
-    id: "driver-shanghai-3",
-    name: "George Gonzalez",
-    licenseNumber: "Q9F426",
-    licenseExpiry: "2029-04-12",
-    experienceYears: 8,
-    languagesSpoken: ["Bengali", "Urdu", "Japanese"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00"
-          },
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+606 688-231-3072",
-    email: "george.gonzalez@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/shanghai/george-gonzalez.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Luxury SUV", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-shanghai-4",
-    name: "Timothy Dunn",
-    licenseNumber: "M7V756",
-    licenseExpiry: "2027-12-26",
-    experienceYears: 19,
-    languagesSpoken: ["Chinese", "Malay", "Indonesian", "Hindi"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00"
-          },
-          {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "08:00",
+          },
+          {
+            from: "03:00",
+            to: "07:00",
+          },
         ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+649 718-457-5410",
-    email: "timothy.dunn@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/shanghai/timothy-dunn.jpg",
-    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["SUV", "Van", "Electric Vehicle"],
-  },
-  {
-    id: "driver-shanghai-5",
-    name: "Ibrahim Rossi",
-    licenseNumber: "R4N906",
-    licenseExpiry: "2030-12-08",
-    experienceYears: 9,
-    languagesSpoken: ["Urdu", "Thai", "Chinese"],
-    available: [
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00"
+            from: "02:00",
+            to: "06:00",
           },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
+            from: "21:00",
+            to: "24:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.7,
+    phone: "+603 494-184-2220",
+    email: "gerald.keller@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/shanghai/gerald-keller.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-shanghai-3",
+    name: "Luis Moore",
+    licenseNumber: "V2C990",
+    licenseExpiry: "2027-03-22",
+    experienceYears: 7,
+    languagesSpoken: ["Bengali", "Malay", "Japanese", "Korean"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00",
+          },
+          {
+            from: "05:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.7,
+    phone: "+437 460-813-2094",
+    email: "luis.moore@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/shanghai/luis-moore.jpg",
+    specialties: ["Airport Transfers", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-shanghai-4",
+    name: "Ella Holloway",
+    licenseNumber: "R1V674",
+    licenseExpiry: "2026-11-02",
+    experienceYears: 5,
+    languagesSpoken: ["Hindi", "Japanese", "Urdu"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "08:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+255 782-952-6402",
+    email: "ella.holloway@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/shanghai/ella-holloway.jpg",
+    specialties: ["Long-Distance Driving", "Airport Transfers"],
+    vehicleTypesCertified: ["SUV"],
+  },
+  {
+    id: "driver-shanghai-5",
+    name: "Samantha Mitchell",
+    licenseNumber: "K4K658",
+    licenseExpiry: "2026-04-03",
+    experienceYears: 3,
+    languagesSpoken: ["Korean", "Japanese", "Vietnamese"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00"
-          }
+            from: "00:00",
+            to: "05:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.9,
-    phone: "+127 173-848-8003",
-    email: "ibrahim.rossi@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/shanghai/ibrahim-rossi.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Luxury SUV", "SUV", "Convertible", "Sedan"],
-  }
+    ratings: 4.6,
+    phone: "+263 538-464-6071",
+    email: "samantha.mitchell@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/shanghai/samantha-mitchell.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Convertible", "Motorcoach", "Sedan"],
+  },
 ];

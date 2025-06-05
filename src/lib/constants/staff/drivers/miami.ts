@@ -3,32 +3,216 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const miamiunitedStatescaribbeanDrivers: Driver[] = [
   {
     id: "driver-miami-1",
-    name: "Peter Watson",
-    licenseNumber: "B7X700",
-    licenseExpiry: "2026-11-21",
-    experienceYears: 5,
-    languagesSpoken: ["English", "Aymara", "Guarani"],
+    name: "John Moore",
+    licenseNumber: "C3J329",
+    licenseExpiry: "2028-06-27",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Spanish", "Aymara"],
     available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+        ],
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "02:00",
-            to: "05:00"
-          }
+            from: "10:00",
+            to: "13:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.4,
+    phone: "+216 704-553-4253",
+    email: "john.moore@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/john-moore.jpg",
+    specialties: [
+      "Night Shift",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+      "Corporate Chauffeur",
+    ],
+    vehicleTypesCertified: [
+      "SUV",
+      "Limousine",
+      "Electric Vehicle",
+      "Sports Car",
+    ],
+  },
+  {
+    id: "driver-miami-2",
+    name: "Sebastian Keller",
+    licenseNumber: "J2R190",
+    licenseExpiry: "2029-04-28",
+    experienceYears: 16,
+    languagesSpoken: ["English", "French", "Haitian", "Aymara"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "03:00",
-            to: "08:00"
+            from: "16:00",
+            to: "18:00",
           },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+45 513-160-3676",
+    email: "sebastian.keller@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/miami/sebastian-keller.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Night Shift",
+      "Security Detail",
+      "VIP Transport",
+    ],
+    vehicleTypesCertified: ["Sedan", "Van", "Electric Vehicle"],
+  },
+  {
+    id: "driver-miami-3",
+    name: "David Taylor",
+    licenseNumber: "G5L577",
+    licenseExpiry: "2028-01-02",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Aymara", "Haitian"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "05:00",
+            to: "10:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "21:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+468 650-719-2434",
+    email: "david.taylor@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/david-taylor.jpg",
+    specialties: [
+      "Corporate Chauffeur",
+      "VIP Transport",
+      "Airport Transfers",
+      "Event Transportation",
+    ],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-miami-4",
+    name: "Jerry Suzuki",
+    licenseNumber: "X0E730",
+    licenseExpiry: "2027-07-10",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Spanish", "Quechua"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+          {
+            from: "09:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+          {
+            from: "21:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          },
         ],
       },
       {
@@ -36,54 +220,50 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
         ],
-      }
+      },
     ],
-    ratings: 4.8,
-    phone: "+811 927-260-4776",
-    email: "peter.watson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/miami/peter-watson.jpg",
-    specialties: ["Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
+    ratings: 4,
+    phone: "+110 584-295-4189",
+    email: "jerry.suzuki@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/jerry-suzuki.jpg",
+    specialties: ["Event Transportation", "Security Detail", "VIP Transport"],
+    vehicleTypesCertified: ["Convertible", "Sedan"],
   },
   {
-    id: "driver-miami-2",
-    name: "Aaliyah Holloway",
-    licenseNumber: "H8W957",
-    licenseExpiry: "2029-09-15",
-    experienceYears: 10,
-    languagesSpoken: ["English", "French", "Aymara", "Guarani"],
+    id: "driver-miami-5",
+    name: "Andrew Wells",
+    licenseNumber: "T5G753",
+    licenseExpiry: "2029-04-24",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Aymara", "Haitian", "Guarani"],
     available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          },
+          {
+            from: "17:00",
+            to: "21:00",
+          },
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "02:00",
-            to: "05:00"
+            from: "13:00",
+            to: "15:00",
           },
           {
-            from: "07:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00"
+            from: "05:00",
+            to: "10:00",
           },
-          {
-            from: "15:00",
-            to: "18:00"
-          }
         ],
       },
       {
@@ -91,42 +271,129 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "14:00",
+          },
+          {
+            from: "10:00",
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.4,
-    phone: "+322 895-482-2038",
-    email: "aaliyah.holloway@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/miami/aaliyah-holloway.jpg",
-    specialties: ["VIP Transport", "Security Detail"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Motorcoach"],
+    ratings: 3.7,
+    phone: "+820 162-256-3567",
+    email: "andrew.wells@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/andrew-wells.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach"],
   },
   {
-    id: "driver-miami-3",
-    name: "Ahmed Edwards",
-    licenseNumber: "J8K842",
-    licenseExpiry: "2029-01-28",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Aymara", "Haitian"],
+    id: "driver-miami-6",
+    name: "Susan Suzuki",
+    licenseNumber: "L5U273",
+    licenseExpiry: "2030-07-22",
+    experienceYears: 9,
+    languagesSpoken: ["English", "French", "Spanish"],
     available: [
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00"
-          }
+            from: "01:00",
+            to: "06:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "19:00",
-            to: "21:00"
-          }
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.8,
+    phone: "+535 164-870-8854",
+    email: "susan.suzuki@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/susan-suzuki.jpg",
+    specialties: ["Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "Sedan",
+      "Luxury SUV",
+      "Van",
+      "Limousine",
+    ],
+  },
+  {
+    id: "driver-miami-7",
+    name: "Robert Stewart",
+    licenseNumber: "P0A463",
+    licenseExpiry: "2030-01-02",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Guarani", "Quechua", "Aymara"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00",
+          },
+          {
+            from: "20:00",
+            to: "24:00",
+          },
         ],
       },
       {
@@ -134,149 +401,137 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
+          {
+            from: "03:00",
+            to: "07:00",
+          },
         ],
       },
+    ],
+    ratings: 4.7,
+    phone: "+545 569-982-8355",
+    email: "robert.stewart@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/miami/robert-stewart.jpg",
+    specialties: [
+      "Event Transportation",
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: [
+      "Convertible",
+      "SUV",
+      "Electric Vehicle",
+      "Sports Car",
+    ],
+  },
+  {
+    id: "driver-miami-8",
+    name: "Evelyn Singh",
+    licenseNumber: "M7L745",
+    licenseExpiry: "2026-05-21",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Guarani", "Portuguese"],
+    available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.9,
-    phone: "+273 445-629-8455",
-    email: "ahmed.edwards@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/miami/ahmed-edwards.jpg",
-    specialties: ["Airport Transfers", "VIP Transport"],
-    vehicleTypesCertified: ["Convertible", "Electric Vehicle", "Limousine"],
-  },
-  {
-    id: "driver-miami-4",
-    name: "Mohamed Hall",
-    licenseNumber: "I2H768",
-    licenseExpiry: "2027-06-03",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Guarani", "French"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00"
+            from: "17:00",
+            to: "21:00",
           },
-          {
-            from: "03:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "05:00"
-          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00"
+            from: "04:00",
+            to: "09:00",
           },
-          {
-            from: "10:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4,
-    phone: "+106 405-960-8747",
-    email: "mohamed.hall@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/miami/mohamed-hall.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Motorcoach", "Sports Car", "Sedan", "SUV", "Luxury SUV"],
-  },
-  {
-    id: "driver-miami-5",
-    name: "Scott West",
-    licenseNumber: "Z1O092",
-    licenseExpiry: "2030-06-09",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Quechua", "Aymara"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "15:00",
           },
-          {
-            from: "18:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          },
-          {
-            from: "12:00",
-            to: "17:00"
-          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00"
+            from: "18:00",
+            to: "23:00",
           },
           {
-            from: "21:00",
-            to: "24:00"
-          }
+            from: "02:00",
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.3,
-    phone: "+860 850-607-5489",
-    email: "scott.west@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/miami/scott-west.jpg",
-    specialties: ["Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Van", "Luxury SUV", "Sports Car"],
-  }
+    ratings: 4.4,
+    phone: "+87 698-176-9491",
+    email: "evelyn.singh@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/evelyn-singh.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+      "Night Shift",
+    ],
+    vehicleTypesCertified: ["Sports Car", "Sedan", "Van", "Convertible"],
+  },
+  {
+    id: "driver-miami-9",
+    name: "Harry Keller",
+    licenseNumber: "Y5N128",
+    licenseExpiry: "2029-08-09",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Spanish", "French", "Portuguese"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "06:00",
+          },
+          {
+            from: "03:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "10:00",
+          },
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.6,
+    phone: "+439 385-305-7396",
+    email: "harry.keller@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/miami/harry-keller.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Van", "Sedan"],
+  },
 ];

@@ -3,354 +3,384 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
   {
     id: "driver-glacier-bay-1",
-    name: "Harper Morales",
-    licenseNumber: "U3D689",
-    licenseExpiry: "2029-10-21",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Japanese", "Arabic"],
+    name: "Sarah Maxwell",
+    licenseNumber: "H5S820",
+    licenseExpiry: "2026-08-01",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Japanese", "French", "Italian"],
     available: [
       {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "16:00",
           },
-          {
-            from: "07:00",
-            to: "12:00"
-          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "19:00",
-            to: "23:00"
-          }
+            from: "14:00",
+            to: "18:00",
+          },
         ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+383 499-367-1196",
-    email: "harper.morales@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/harper-morales.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["SUV", "Motorcoach", "Convertible"],
-  },
-  {
-    id: "driver-glacier-bay-2",
-    name: "Aaron Douglas",
-    licenseNumber: "Y3B714",
-    licenseExpiry: "2026-02-04",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Chinese", "Russian"],
-    available: [
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00"
-          }
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "18:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
             from: "13:00",
-            to: "15:00"
+            to: "16:00",
           },
-          {
-            from: "08:00",
-            to: "13:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4,
-    phone: "+529 543-869-2786",
-    email: "aaron.douglas@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/aaron-douglas.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Night Shift"],
-    vehicleTypesCertified: ["Van", "Sports Car"],
-  },
-  {
-    id: "driver-glacier-bay-3",
-    name: "Juan Jackson",
-    licenseNumber: "N7Y113",
-    licenseExpiry: "2029-07-11",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Russian", "Portuguese"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
-          },
-          {
-            from: "14:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
           {
             from: "11:00",
-            to: "13:00"
+            to: "15:00",
           },
-          {
-            from: "09:00",
-            to: "13:00"
-          }
         ],
       },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
-          },
-          {
-            from: "00:00",
-            to: "03:00"
-          }
-        ],
-      }
     ],
-    ratings: 4.5,
-    phone: "+878 119-376-5018",
-    email: "juan.jackson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/juan-jackson.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "Sports Car", "Convertible"],
+    ratings: 4.6,
+    phone: "+300 585-565-8951",
+    email: "sarah.maxwell@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/sarah-maxwell.jpg",
+    specialties: [
+      "Corporate Chauffeur",
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: ["Convertible", "Sports Car", "Luxury SUV"],
   },
   {
-    id: "driver-glacier-bay-4",
-    name: "Stephanie Spencer",
-    licenseNumber: "J3J630",
-    licenseExpiry: "2027-08-09",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Italian", "Japanese", "Spanish"],
+    id: "driver-glacier-bay-2",
+    name: "Olivia Cooper",
+    licenseNumber: "D3I266",
+    licenseExpiry: "2028-04-08",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Japanese", "Italian"],
     available: [
       {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
+            from: "08:00",
+            to: "12:00",
           },
-          {
-            from: "08:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00"
-          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00"
+            from: "04:00",
+            to: "07:00",
           },
           {
-            from: "19:00",
-            to: "24:00"
-          }
+            from: "18:00",
+            to: "20:00",
+          },
         ],
-      }
-    ],
-    ratings: 4.1,
-    phone: "+665 511-196-2339",
-    email: "stephanie.spencer@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/stephanie-spencer.jpg",
-    specialties: ["Airport Transfers", "Security Detail"],
-    vehicleTypesCertified: ["Van", "Luxury SUV", "Limousine", "Sedan"],
-  },
-  {
-    id: "driver-glacier-bay-5",
-    name: "Walter Ivanov",
-    licenseNumber: "X0P018",
-    licenseExpiry: "2026-12-07",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Italian", "Chinese"],
-    available: [
+      },
       {
         day: "Saturday",
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "05:00",
           },
           {
-            from: "02:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
+            from: "13:00",
+            to: "15:00",
           },
-          {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          },
-          {
-            from: "06:00",
-            to: "10:00"
-          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00"
+            from: "13:00",
+            to: "15:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+585 701-887-2607",
+    email: "olivia.cooper@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/olivia-cooper.jpg",
+    specialties: ["Airport Transfers", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-glacier-bay-3",
+    name: "Harry da Costa",
+    licenseNumber: "S2G680",
+    licenseExpiry: "2026-06-11",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Japanese", "Chinese", "French"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
-    ],
-    ratings: 3.8,
-    phone: "+51 887-311-4368",
-    email: "walter.ivanov@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/walter-ivanov.jpg",
-    specialties: ["Event Transportation", "Luxury Car Specialist", "Corporate Chauffeur", "Night Shift"],
-    vehicleTypesCertified: ["Luxury SUV"],
-  },
-  {
-    id: "driver-glacier-bay-6",
-    name: "Kinsley Foster",
-    licenseNumber: "G9U900",
-    licenseExpiry: "2027-11-28",
-    experienceYears: 14,
-    languagesSpoken: ["English", "German", "Italian", "Chinese"],
-    available: [
+      },
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "07:00",
-            to: "09:00"
-          }
+            from: "19:00",
+            to: "23:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+44 546-634-2829",
+    email: "harry.da@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/harry-da.jpg",
+    specialties: ["Corporate Chauffeur", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Van", "Limousine", "SUV", "Convertible"],
+  },
+  {
+    id: "driver-glacier-bay-4",
+    name: "Lerato Day",
+    licenseNumber: "B3J324",
+    licenseExpiry: "2030-03-25",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Spanish", "Japanese"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00",
+          },
+          {
+            from: "16:00",
+            to: "18:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.2,
+    phone: "+231 769-278-4982",
+    email: "lerato.day@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/lerato-day.jpg",
+    specialties: [
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+      "Airport Transfers",
+    ],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "Motorcoach", "SUV"],
+  },
+  {
+    id: "driver-glacier-bay-5",
+    name: "Harold Smith",
+    licenseNumber: "Z1U033",
+    licenseExpiry: "2026-11-14",
+    experienceYears: 19,
+    languagesSpoken: ["English", "French", "Japanese", "Portuguese"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "07:00",
-            to: "10:00"
-          }
+            from: "02:00",
+            to: "07:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "16:00",
+            to: "20:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+26 959-829-9655",
+    email: "harold.smith@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/harold-smith.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-glacier-bay-6",
+    name: "Christopher Bennett",
+    licenseNumber: "W8H649",
+    licenseExpiry: "2029-12-21",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Italian", "Russian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+          {
+            from: "06:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00",
+          },
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "06:00",
-            to: "10:00"
-          }
+            from: "07:00",
+            to: "09:00",
+          },
+          {
+            from: "17:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.6,
+    phone: "+139 899-838-1016",
+    email: "christopher.bennett@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/christopher-bennett.jpg",
+    specialties: ["Night Shift", "Airport Transfers", "Event Transportation"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-glacier-bay-7",
+    name: "Valentina Garcia",
+    licenseNumber: "V1I492",
+    licenseExpiry: "2027-08-13",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Spanish", "Italian"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00",
+          },
         ],
       },
       {
@@ -358,16 +388,39 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.2,
-    phone: "+488 320-328-2789",
-    email: "kinsley.foster@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/glacier-bay/kinsley-foster.jpg",
-    specialties: ["Security Detail", "Event Transportation"],
-    vehicleTypesCertified: ["Luxury SUV", "SUV", "Sports Car", "Van"],
-  }
+    ratings: 3.8,
+    phone: "+151 745-770-8403",
+    email: "valentina.garcia@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/glacier-bay/valentina-garcia.jpg",
+    specialties: ["Event Transportation", "Airport Transfers", "VIP Transport"],
+    vehicleTypesCertified: ["Limousine", "Sedan", "Sports Car"],
+  },
 ];

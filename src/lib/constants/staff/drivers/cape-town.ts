@@ -3,83 +3,80 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const capeTownsouthAfricaafricaDrivers: Driver[] = [
   {
     id: "driver-cape-town-1",
-    name: "Chen Knight",
-    licenseNumber: "T8M781",
-    licenseExpiry: "2028-11-25",
-    experienceYears: 20,
-    languagesSpoken: ["Swahili", "Fulah", "Zulu", "Amharic"],
+    name: "Amy Carpenter",
+    licenseNumber: "B7Q188",
+    licenseExpiry: "2026-11-11",
+    experienceYears: 3,
+    languagesSpoken: ["Ganda", "Swahili", "Igbo"],
     available: [
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00"
-          },
-          {
-            from: "01:00",
-            to: "03:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "05:00"
+            from: "13:00",
+            to: "17:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
-    ],
-    ratings: 3.7,
-    phone: "+320 634-611-6378",
-    email: "chen.knight@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/chen-knight.jpg",
-    specialties: ["VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Motorcoach", "Sedan"],
-  },
-  {
-    id: "driver-cape-town-2",
-    name: "Tyler Jackson",
-    licenseNumber: "D4U066",
-    licenseExpiry: "2028-06-28",
-    experienceYears: 7,
-    languagesSpoken: ["Fulah", "Yoruba", "Arabic", "Southern Sotho"],
-    available: [
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00",
+          },
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00"
+            from: "09:00",
+            to: "14:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.3,
+    phone: "+757 877-412-8082",
+    email: "amy.carpenter@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/amy-carpenter.jpg",
+    specialties: ["VIP Transport", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Electric Vehicle"],
+  },
+  {
+    id: "driver-cape-town-2",
+    name: "Liam Ellis",
+    licenseNumber: "O9Y570",
+    licenseExpiry: "2026-05-25",
+    experienceYears: 11,
+    languagesSpoken: ["Zulu", "Hausa", "Amharic"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00",
           },
           {
-            from: "16:00",
-            to: "19:00"
-          }
+            from: "18:00",
+            to: "20:00",
+          },
         ],
       },
       {
@@ -87,299 +84,408 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "06:00",
           },
-          {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4,
-    phone: "+878 996-900-6713",
-    email: "tyler.jackson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/tyler-jackson.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Sedan", "SUV"],
-  },
-  {
-    id: "driver-cape-town-3",
-    name: "Patrick Johnson",
-    licenseNumber: "V7Y975",
-    licenseExpiry: "2027-03-25",
-    experienceYears: 9,
-    languagesSpoken: ["Amharic", "Swahili", "Hausa"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00"
+            to: "19:00",
           },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4,
-    phone: "+609 888-360-4612",
-    email: "patrick.johnson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/patrick-johnson.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Luxury SUV", "Limousine"],
-  },
-  {
-    id: "driver-cape-town-4",
-    name: "Helen Reed",
-    licenseNumber: "U6M118",
-    licenseExpiry: "2030-01-17",
-    experienceYears: 2,
-    languagesSpoken: ["Ganda", "Southern Sotho", "Swahili", "Arabic"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          },
-          {
-            from: "00:00",
-            to: "03:00"
-          }
         ],
       },
       {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "12:00",
           },
-          {
-            from: "07:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.5,
-    phone: "+463 705-134-2599",
-    email: "helen.reed@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/helen-reed.jpg",
-    specialties: ["Long-Distance Driving", "Night Shift", "Event Transportation", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["SUV", "Limousine", "Convertible", "Luxury SUV"],
-  },
-  {
-    id: "driver-cape-town-5",
-    name: "Ellie Maxwell",
-    licenseNumber: "F0R886",
-    licenseExpiry: "2026-07-26",
-    experienceYears: 17,
-    languagesSpoken: ["Igbo", "Hausa", "Fulah"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "04:00"
+            to: "22:00",
           },
-          {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 5,
-    phone: "+572 158-724-9311",
-    email: "ellie.maxwell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/ellie-maxwell.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Sports Car", "SUV", "Electric Vehicle", "Motorcoach"],
-  },
-  {
-    id: "driver-cape-town-6",
-    name: "Robert Johnson",
-    licenseNumber: "Q7O195",
-    licenseExpiry: "2030-08-16",
-    experienceYears: 14,
-    languagesSpoken: ["Xhosa", "Amharic", "Hausa", "Igbo"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00"
-          },
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.8,
-    phone: "+665 656-780-6627",
-    email: "robert.johnson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/robert-johnson.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["SUV"],
-  },
-  {
-    id: "driver-cape-town-7",
-    name: "Joseph Anderson",
-    licenseNumber: "T0Z031",
-    licenseExpiry: "2030-09-21",
-    experienceYears: 18,
-    languagesSpoken: ["Xhosa", "Ganda", "Igbo", "Fulah"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00"
+            from: "17:00",
+            to: "22:00",
           },
           {
-            from: "02:00",
-            to: "04:00"
-          }
+            from: "21:00",
+            to: "24:00",
+          },
         ],
       },
+    ],
+    ratings: 3.5,
+    phone: "+424 551-431-3200",
+    email: "liam.ellis@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/liam-ellis.jpg",
+    specialties: ["Night Shift", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "SUV"],
+  },
+  {
+    id: "driver-cape-town-3",
+    name: "Jesse Hudson",
+    licenseNumber: "J2F860",
+    licenseExpiry: "2027-10-28",
+    experienceYears: 19,
+    languagesSpoken: ["Swahili", "Ganda", "Hausa"],
+    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00"
-          }
+            from: "16:00",
+            to: "18:00",
+          },
+          {
+            from: "20:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.5,
+    phone: "+569 522-593-9112",
+    email: "jesse.hudson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/jesse-hudson.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["SUV", "Convertible", "Electric Vehicle"],
+  },
+  {
+    id: "driver-cape-town-4",
+    name: "Rebecca Davis",
+    licenseNumber: "K6E823",
+    licenseExpiry: "2028-07-28",
+    experienceYears: 14,
+    languagesSpoken: ["Zulu", "Fulah", "Swahili", "Yoruba"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "16:00",
-            to: "19:00"
+            from: "19:00",
+            to: "22:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "06:00",
+            to: "10:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "19:00",
+            to: "21:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.2,
+    phone: "+339 756-733-9586",
+    email: "rebecca.davis@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/rebecca-davis.jpg",
+    specialties: [
+      "Event Transportation",
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+    ],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "Luxury SUV",
+      "Electric Vehicle",
+      "Limousine",
+    ],
+  },
+  {
+    id: "driver-cape-town-5",
+    name: "Amy Reed",
+    licenseNumber: "H6X750",
+    licenseExpiry: "2028-11-23",
+    experienceYears: 11,
+    languagesSpoken: ["Amharic", "Yoruba", "Hausa", "Arabic"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00",
+          },
+          {
+            from: "07:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.9,
+    phone: "+493 315-423-9714",
+    email: "amy.reed@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/cape-town/amy-reed.jpg",
+    specialties: ["Corporate Chauffeur", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Sedan", "SUV"],
+  },
+  {
+    id: "driver-cape-town-6",
+    name: "Sofia Nakamura",
+    licenseNumber: "K2E981",
+    licenseExpiry: "2026-06-02",
+    experienceYears: 19,
+    languagesSpoken: ["Yoruba", "Igbo", "Southern Sotho", "Swahili"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "20:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "23:00",
+          },
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "18:00",
-            to: "23:00"
-          }
+            from: "04:00",
+            to: "06:00",
+          },
+          {
+            from: "00:00",
+            to: "02:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+        ],
+      },
     ],
-    ratings: 3.7,
-    phone: "+741 295-527-3967",
-    email: "joseph.anderson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cape-town/joseph-anderson.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Convertible"],
-  }
+    ratings: 4,
+    phone: "+518 205-364-3550",
+    email: "sofia.nakamura@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/sofia-nakamura.jpg",
+    specialties: [
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+      "Security Detail",
+      "Event Transportation",
+    ],
+    vehicleTypesCertified: ["Luxury SUV", "Van", "Electric Vehicle"],
+  },
+  {
+    id: "driver-cape-town-7",
+    name: "Caroline Holloway",
+    licenseNumber: "U0O064",
+    licenseExpiry: "2029-06-17",
+    experienceYears: 17,
+    languagesSpoken: ["Arabic", "Zulu", "Ganda", "Southern Sotho"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.7,
+    phone: "+21 613-794-7723",
+    email: "caroline.holloway@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/caroline-holloway.jpg",
+    specialties: ["Event Transportation", "Night Shift", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-cape-town-8",
+    name: "Maya Anderson",
+    licenseNumber: "X6V624",
+    licenseExpiry: "2029-12-12",
+    experienceYears: 10,
+    languagesSpoken: ["Hausa", "Fulah", "Yoruba"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "22:00",
+          },
+          {
+            from: "19:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.8,
+    phone: "+432 139-393-9721",
+    email: "maya.anderson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/cape-town/maya-anderson.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
+  },
 ];

@@ -3,23 +3,19 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const victoriacanadaalaskaDrivers: Driver[] = [
   {
     id: "driver-victoria-1",
-    name: "Javier Dunn",
-    licenseNumber: "X1O942",
-    licenseExpiry: "2026-06-08",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Chinese", "Arabic", "Italian"],
+    name: "Ahmed Morgan",
+    licenseNumber: "I9K850",
+    licenseExpiry: "2026-06-21",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Chinese", "Spanish"],
     available: [
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "03:00",
-            to: "07:00"
+            from: "20:00",
+            to: "23:00",
           },
-          {
-            from: "11:00",
-            to: "16:00"
-          }
         ],
       },
       {
@@ -27,517 +23,359 @@ export const victoriacanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "23:00",
           },
-          {
-            from: "01:00",
-            to: "03:00"
-          }
         ],
       },
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
-          },
           {
             from: "03:00",
-            to: "08:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+759 245-484-7059",
-    email: "javier.dunn@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/javier-dunn.jpg",
-    specialties: ["Night Shift", "Corporate Chauffeur", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Motorcoach", "Van"],
-  },
-  {
-    id: "driver-victoria-2",
-    name: "Gerald Müller",
-    licenseNumber: "F8N004",
-    licenseExpiry: "2029-05-05",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Chinese", "French"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4,
-    phone: "+643 631-778-4730",
-    email: "gerald.müller@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/gerald-müller.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-victoria-3",
-    name: "Cynthia Chen",
-    licenseNumber: "C1C923",
-    licenseExpiry: "2026-12-26",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Spanish", "Chinese"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "20:00"
-          },
-          {
-            from: "18:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00"
-          },
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.5,
-    phone: "+352 344-817-1353",
-    email: "cynthia.chen@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/cynthia-chen.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Sedan", "Convertible", "Luxury SUV"],
-  },
-  {
-    id: "driver-victoria-4",
-    name: "Amina Chambers",
-    licenseNumber: "R8D018",
-    licenseExpiry: "2030-03-11",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Chinese", "Italian", "Spanish"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          },
-          {
-            from: "18:00",
-            to: "20:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.9,
-    phone: "+108 548-390-9791",
-    email: "amina.chambers@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/amina-chambers.jpg",
-    specialties: ["Corporate Chauffeur", "Security Detail", "Event Transportation", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Van", "Electric Vehicle", "SUV", "Sedan"],
-  },
-  {
-    id: "driver-victoria-5",
-    name: "Daniel Bennett",
-    licenseNumber: "S8Z332",
-    licenseExpiry: "2026-12-15",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Spanish", "Arabic"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00"
+            to: "07:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
+            to: "21:00",
           },
-          {
-            from: "10:00",
-            to: "13:00"
-          }
         ],
       },
       {
-        day: "Monday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00"
-          }
+            from: "13:00",
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.4,
-    phone: "+445 171-404-5773",
-    email: "daniel.bennett@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/daniel-bennett.jpg",
-    specialties: ["Night Shift"],
+    ratings: 3.7,
+    phone: "+826 427-940-4749",
+    email: "ahmed.morgan@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/ahmed-morgan.jpg",
+    specialties: ["Event Transportation", "Security Detail"],
     vehicleTypesCertified: ["Sedan"],
   },
   {
-    id: "driver-victoria-6",
-    name: "Eugene Murray",
-    licenseNumber: "E4U772",
-    licenseExpiry: "2029-07-02",
-    experienceYears: 15,
-    languagesSpoken: ["English", "French", "German"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00"
-          },
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00"
-          },
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
-          },
-          {
-            from: "01:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.5,
-    phone: "+246 327-627-7112",
-    email: "eugene.murray@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/eugene-murray.jpg",
-    specialties: ["VIP Transport", "Tour Guide Driver"],
-    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Sedan"],
-  },
-  {
-    id: "driver-victoria-7",
-    name: "Stephanie Nakamura",
-    licenseNumber: "H5Q346",
-    licenseExpiry: "2027-06-11",
+    id: "driver-victoria-2",
+    name: "Zachary Miller",
+    licenseNumber: "N6T107",
+    licenseExpiry: "2029-02-10",
     experienceYears: 17,
-    languagesSpoken: ["English", "Japanese", "Chinese", "Russian"],
+    languagesSpoken: ["English", "Chinese", "French"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          },
-          {
-            from: "07:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
-          },
-          {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "04:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+727 793-186-4926",
-    email: "stephanie.nakamura@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/stephanie-nakamura.jpg",
-    specialties: ["Tour Guide Driver", "Security Detail"],
-    vehicleTypesCertified: ["Sedan", "Convertible", "Electric Vehicle"],
-  },
-  {
-    id: "driver-victoria-8",
-    name: "Sophia Marshall",
-    licenseNumber: "S5U337",
-    licenseExpiry: "2028-03-11",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Spanish", "Arabic", "French"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00"
-          },
-          {
-            from: "15:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          },
-          {
-            from: "02:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+634 663-909-5711",
-    email: "sophia.marshall@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/sophia-marshall.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Sedan", "Electric Vehicle"],
-  },
-  {
-    id: "driver-victoria-9",
-    name: "Noah Gonzalez",
-    licenseNumber: "G8X230",
-    licenseExpiry: "2027-08-02",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Spanish", "Portuguese"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00"
-          },
-          {
-            from: "14:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00"
+            from: "01:00",
+            to: "05:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "04:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+707 844-698-3383",
+    email: "zachary.miller@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/zachary-miller.jpg",
+    specialties: [
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+      "Event Transportation",
+    ],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Limousine"],
+  },
+  {
+    id: "driver-victoria-3",
+    name: "Samuel West",
+    licenseNumber: "P4A673",
+    licenseExpiry: "2029-01-13",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Spanish", "Russian", "French"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00",
+          },
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.1,
+    phone: "+141 313-358-8626",
+    email: "samuel.west@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/samuel-west.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-victoria-4",
+    name: "Barbara Hudson",
+    licenseNumber: "D5L110",
+    licenseExpiry: "2028-05-01",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Arabic", "Japanese"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "04:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          },
+          {
+            from: "21:00",
+            to: "23:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.1,
+    phone: "+669 624-474-4577",
+    email: "barbara.hudson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/barbara-hudson.jpg",
+    specialties: ["Tour Guide Driver", "Airport Transfers"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-victoria-5",
+    name: "Amelia Jansen",
+    licenseNumber: "Z4F659",
+    licenseExpiry: "2028-08-27",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Russian", "Portuguese"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          },
+          {
+            from: "07:00",
+            to: "11:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.7,
+    phone: "+35 791-102-5446",
+    email: "amelia.jansen@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/amelia-jansen.jpg",
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "VIP Transport",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: [
+      "Convertible",
+      "Limousine",
+      "Electric Vehicle",
+      "Sports Car",
+    ],
+  },
+  {
+    id: "driver-victoria-6",
+    name: "Gerald Jackson",
+    licenseNumber: "X2K251",
+    licenseExpiry: "2030-04-11",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Japanese", "French"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00",
+          },
+          {
+            from: "19:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "21:00",
-            to: "23:00"
-          }
+            from: "11:00",
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 3.9,
-    phone: "+121 209-411-8253",
-    email: "noah.gonzalez@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/victoria/noah-gonzalez.jpg",
-    specialties: ["Event Transportation", "Night Shift", "Tour Guide Driver", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["SUV", "Electric Vehicle"],
-  }
+    ratings: 4.4,
+    phone: "+81 395-779-9948",
+    email: "gerald.jackson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/victoria/gerald-jackson.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: [
+      "Luxury SUV",
+      "Sports Car",
+      "Motorcoach",
+      "Convertible",
+    ],
+  },
 ];

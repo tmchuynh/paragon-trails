@@ -3,512 +3,496 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const seattleunitedStatesalaskaDrivers: Driver[] = [
   {
     id: "driver-seattle-1",
-    name: "Aria Collins",
-    licenseNumber: "D8W698",
-    licenseExpiry: "2027-05-06",
-    experienceYears: 1,
-    languagesSpoken: ["English", "German", "Japanese", "Spanish"],
+    name: "Ethan Ellis",
+    licenseNumber: "H7B759",
+    licenseExpiry: "2027-09-10",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Spanish", "Arabic"],
     available: [
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
-            from: "19:00",
-            to: "22:00"
-          }
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          },
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "05:00",
-            to: "09:00"
-          }
+            from: "15:00",
+            to: "17:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "00:00",
-            to: "04:00"
+            from: "12:00",
+            to: "14:00",
           },
           {
-            from: "12:00",
-            to: "17:00"
-          }
+            from: "13:00",
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4,
-    phone: "+691 445-928-1873",
-    email: "aria.collins@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/aria-collins.jpg",
-    specialties: ["Long-Distance Driving", "Event Transportation", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible", "Limousine"],
+    ratings: 4.8,
+    phone: "+10 410-136-6768",
+    email: "ethan.ellis@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/ethan-ellis.jpg",
+    specialties: ["Corporate Chauffeur", "VIP Transport", "Security Detail"],
+    vehicleTypesCertified: ["Motorcoach", "SUV", "Luxury SUV", "Van"],
   },
   {
     id: "driver-seattle-2",
-    name: "Jennifer Griffin",
-    licenseNumber: "Q7Y755",
-    licenseExpiry: "2026-10-25",
-    experienceYears: 7,
-    languagesSpoken: ["English", "Arabic", "Portuguese"],
+    name: "Wei Parker",
+    licenseNumber: "G3L369",
+    licenseExpiry: "2026-03-02",
+    experienceYears: 19,
+    languagesSpoken: ["English", "German", "Japanese"],
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          },
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
-          },
-          {
-            from: "03:00",
-            to: "07:00"
-          }
-        ],
-      },
       {
         day: "Saturday",
         availableHours: [
           {
+            from: "02:00",
+            to: "07:00",
+          },
+          {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
-        day: "Sunday",
+        day: "Friday",
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "05:00",
+          },
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.3,
-    phone: "+248 134-884-9587",
-    email: "jennifer.griffin@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/jennifer-griffin.jpg",
-    specialties: ["Airport Transfers", "Night Shift"],
-    vehicleTypesCertified: ["SUV", "Sports Car"],
+    ratings: 3.9,
+    phone: "+503 272-752-2770",
+    email: "wei.parker@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/seattle/wei-parker.jpg",
+    specialties: ["Security Detail", "VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "Sedan"],
   },
   {
     id: "driver-seattle-3",
-    name: "Amelia Hamilton",
-    licenseNumber: "R2S651",
-    licenseExpiry: "2027-12-08",
-    experienceYears: 14,
-    languagesSpoken: ["English", "Chinese", "Japanese"],
+    name: "Ethan Reeves",
+    licenseNumber: "V2K963",
+    licenseExpiry: "2026-09-28",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Italian", "Chinese"],
     available: [
       {
-        day: "Monday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "01:00",
-            to: "06:00"
-          }
+            from: "19:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "16:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
+            from: "21:00",
+            to: "24:00",
           },
-          {
-            from: "00:00",
-            to: "03:00"
-          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "18:00",
-            to: "22:00"
+            from: "12:00",
+            to: "17:00",
           },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
         ],
-      }
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.8,
-    phone: "+7 730-414-4825",
-    email: "amelia.hamilton@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/amelia-hamilton.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Convertible", "Sports Car"],
+    ratings: 4.7,
+    phone: "+796 536-631-1722",
+    email: "ethan.reeves@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/ethan-reeves.jpg",
+    specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Van", "Limousine", "Sports Car", "SUV"],
   },
   {
     id: "driver-seattle-4",
-    name: "Gabriel Day",
-    licenseNumber: "P6Q442",
-    licenseExpiry: "2029-07-20",
-    experienceYears: 17,
-    languagesSpoken: ["English", "German", "Chinese"],
+    name: "Charlotte Parker",
+    licenseNumber: "D9L524",
+    licenseExpiry: "2029-06-13",
+    experienceYears: 18,
+    languagesSpoken: ["English", "German", "Spanish"],
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "17:00",
-            to: "21:00"
-          }
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "21:00",
+            to: "24:00",
+          },
         ],
       },
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
           {
-            from: "07:00",
-            to: "11:00"
-          }
+            from: "00:00",
+            to: "02:00",
+          },
+          {
+            from: "01:00",
+            to: "05:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "07:00",
+            to: "10:00",
+          },
+        ],
+      },
     ],
-    ratings: 3.9,
-    phone: "+523 359-868-3511",
-    email: "gabriel.day@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/gabriel-day.jpg",
-    specialties: ["Long-Distance Driving", "VIP Transport"],
-    vehicleTypesCertified: ["Sedan", "Sports Car", "SUV"],
+    ratings: 4.8,
+    phone: "+621 967-537-1711",
+    email: "charlotte.parker@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/charlotte-parker.jpg",
+    specialties: ["Luxury Car Specialist", "Night Shift"],
+    vehicleTypesCertified: ["Van"],
   },
   {
     id: "driver-seattle-5",
-    name: "Nicholas Mitchell",
-    licenseNumber: "W3E646",
-    licenseExpiry: "2028-03-07",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Spanish", "Chinese"],
+    name: "Hannah Rossi",
+    licenseNumber: "M6X650",
+    licenseExpiry: "2026-03-15",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Arabic", "Chinese", "Russian"],
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00"
-          },
-          {
-            from: "06:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "06:00"
-          }
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "17:00",
-            to: "22:00"
-          },
-          {
-            from: "16:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "21:00"
-          },
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+634 863-537-9792",
-    email: "nicholas.mitchell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/nicholas-mitchell.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers", "Long-Distance Driving", "Night Shift"],
-    vehicleTypesCertified: ["Van", "Sedan", "Convertible", "SUV", "Motorcoach"],
-  },
-  {
-    id: "driver-seattle-6",
-    name: "Nora Wilson",
-    licenseNumber: "N3X530",
-    licenseExpiry: "2026-12-01",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Portuguese", "Russian"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00"
-          },
-          {
-            from: "17:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "03:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.7,
-    phone: "+810 601-699-7286",
-    email: "nora.wilson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/nora-wilson.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Electric Vehicle"],
-  },
-  {
-    id: "driver-seattle-7",
-    name: "Lily Hudson",
-    licenseNumber: "A0P424",
-    licenseExpiry: "2029-05-18",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Russian", "Italian"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
+            to: "06:00",
           },
           {
-            from: "04:00",
-            to: "06:00"
-          }
+            from: "19:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Tuesday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "20:00"
-          },
-          {
-            from: "11:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          },
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+743 656-645-3071",
-    email: "lily.hudson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/lily-hudson.jpg",
-    specialties: ["Night Shift", "Long-Distance Driving", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van", "Limousine"],
-  },
-  {
-    id: "driver-seattle-8",
-    name: "William Foster",
-    licenseNumber: "B2Y038",
-    licenseExpiry: "2027-11-28",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Russian", "Spanish", "French"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "24:00",
           },
           {
-            from: "16:00",
-            to: "21:00"
-          }
+            from: "18:00",
+            to: "23:00",
+          },
         ],
       },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+882 908-569-3707",
-    email: "william.foster@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/william-foster.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Motorcoach", "Luxury SUV"],
-  },
-  {
-    id: "driver-seattle-9",
-    name: "Elijah Payne",
-    licenseNumber: "E1W210",
-    licenseExpiry: "2028-09-20",
-    experienceYears: 12,
-    languagesSpoken: ["English", "Spanish", "Italian", "French"],
-    available: [
       {
         day: "Wednesday",
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
+    ],
+    ratings: 4.7,
+    phone: "+301 809-267-4063",
+    email: "hannah.rossi@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/hannah-rossi.jpg",
+    specialties: [
+      "Event Transportation",
+      "Corporate Chauffeur",
+      "VIP Transport",
+    ],
+    vehicleTypesCertified: ["Sports Car", "Luxury SUV"],
+  },
+  {
+    id: "driver-seattle-6",
+    name: "Eleanor Douglas",
+    licenseNumber: "Q2D904",
+    licenseExpiry: "2029-07-18",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Russian", "Spanish", "Chinese"],
+    available: [
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00"
-          }
+            from: "18:00",
+            to: "22:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "05:00",
-            to: "09:00"
+            from: "08:00",
+            to: "12:00",
           },
           {
-            from: "11:00",
-            to: "16:00"
-          }
+            from: "05:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
+            from: "00:00",
+            to: "03:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.9,
+    phone: "+288 393-416-9651",
+    email: "eleanor.douglas@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/eleanor-douglas.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-seattle-7",
+    name: "Elijah Knight",
+    licenseNumber: "G8I763",
+    licenseExpiry: "2030-05-28",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Chinese", "Russian"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
             from: "06:00",
-            to: "11:00"
+            to: "10:00",
           },
           {
-            from: "03:00",
-            to: "07:00"
-          }
+            from: "19:00",
+            to: "21:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.8,
-    phone: "+272 620-281-6511",
-    email: "elijah.payne@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/seattle/elijah-payne.jpg",
-    specialties: ["Night Shift", "Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Limousine", "Sedan", "Convertible", "Electric Vehicle"],
-  }
+    ratings: 4.2,
+    phone: "+151 122-768-7992",
+    email: "elijah.knight@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/elijah-knight.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Convertible", "Electric Vehicle", "SUV"],
+  },
+  {
+    id: "driver-seattle-8",
+    name: "Fatima Ali",
+    licenseNumber: "X0L908",
+    licenseExpiry: "2027-09-27",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Arabic", "French"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "07:00",
+          },
+          {
+            from: "19:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "22:00",
+          },
+          {
+            from: "02:00",
+            to: "04:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00",
+          },
+          {
+            from: "16:00",
+            to: "18:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.8,
+    phone: "+173 100-763-6637",
+    email: "fatima.ali@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/seattle/fatima-ali.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Electric Vehicle"],
+  },
+  {
+    id: "driver-seattle-9",
+    name: "Bobby Johnson",
+    licenseNumber: "K7S502",
+    licenseExpiry: "2028-03-14",
+    experienceYears: 19,
+    languagesSpoken: ["English", "French", "Chinese"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "05:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+379 492-343-9958",
+    email: "bobby.johnson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/seattle/bobby-johnson.jpg",
+    specialties: ["VIP Transport", "Airport Transfers"],
+    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Limousine"],
+  },
 ];

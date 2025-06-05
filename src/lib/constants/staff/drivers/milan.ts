@@ -3,541 +3,404 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const milanitalymediterraneanDrivers: Driver[] = [
   {
     id: "driver-milan-1",
-    name: "Richard Dunn",
-    licenseNumber: "Y4K043",
-    licenseExpiry: "2028-05-20",
-    experienceYears: 12,
-    languagesSpoken: ["English", "Portuguese", "French", "Norwegian"],
+    name: "Daniel Porter",
+    licenseNumber: "F4I733",
+    licenseExpiry: "2030-03-06",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Italian", "French"],
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00"
-          },
-          {
-            from: "08:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "21:00"
-          },
-          {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+46 827-843-9546",
-    email: "richard.dunn@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/richard-dunn.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["SUV", "Luxury SUV", "Limousine", "Motorcoach"],
-  },
-  {
-    id: "driver-milan-2",
-    name: "Linda Day",
-    licenseNumber: "T6E304",
-    licenseExpiry: "2030-01-05",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Czech", "Greek", "Dutch"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          },
-          {
-            from: "04:00",
-            to: "07:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+464 452-779-3066",
-    email: "linda.day@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/linda-day.jpg",
-    specialties: ["Luxury Car Specialist", "Night Shift", "Airport Transfers", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Luxury SUV"],
-  },
-  {
-    id: "driver-milan-3",
-    name: "Katherine Russell",
-    licenseNumber: "V2T067",
-    licenseExpiry: "2030-10-03",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Russian", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          },
-          {
-            from: "14:00",
-            to: "17:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
+            to: "10:00",
           },
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00"
-          },
-          {
-            from: "15:00",
-            to: "20:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+228 931-943-5328",
-    email: "katherine.russell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/katherine-russell.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "SUV", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-milan-4",
-    name: "Priya Holloway",
-    licenseNumber: "Y1N616",
-    licenseExpiry: "2030-07-15",
-    experienceYears: 19,
-    languagesSpoken: ["English", "Greek", "French"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00"
-          },
-          {
-            from: "15:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "06:00"
-          },
-          {
-            from: "07:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+62 115-310-3004",
-    email: "priya.holloway@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/priya-holloway.jpg",
-    specialties: ["Event Transportation", "Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "Van"],
-  },
-  {
-    id: "driver-milan-5",
-    name: "Johnny Nash",
-    licenseNumber: "R2G187",
-    licenseExpiry: "2027-07-04",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Czech", "Polish"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
           {
             from: "10:00",
-            to: "12:00"
+            to: "12:00",
           },
-          {
-            from: "14:00",
-            to: "18:00"
-          }
-        ],
-      }
-    ],
-    ratings: 5,
-    phone: "+605 529-129-9644",
-    email: "johnny.nash@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/johnny-nash.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Van", "Convertible"],
-  },
-  {
-    id: "driver-milan-6",
-    name: "Alexa Hawkins",
-    licenseNumber: "W1Q754",
-    licenseExpiry: "2026-12-24",
-    experienceYears: 5,
-    languagesSpoken: ["English", "Finnish", "Polish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00"
-          },
-          {
-            from: "05:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00"
-          }
         ],
       },
       {
         day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00"
-          },
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 5,
-    phone: "+578 699-850-8925",
-    email: "alexa.hawkins@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/alexa-hawkins.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Motorcoach", "Luxury SUV", "Sports Car", "Sedan"],
-  },
-  {
-    id: "driver-milan-7",
-    name: "Aiden Harper",
-    licenseNumber: "D7W131",
-    licenseExpiry: "2026-03-16",
-    experienceYears: 5,
-    languagesSpoken: ["English", "Dutch", "Italian"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
+            to: "19:00",
           },
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00"
-          },
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+15 802-835-6844",
-    email: "aiden.harper@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/aiden-harper.jpg",
-    specialties: ["VIP Transport", "Airport Transfers", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Motorcoach"],
-  },
-  {
-    id: "driver-milan-8",
-    name: "Omar Stewart",
-    licenseNumber: "X2E007",
-    licenseExpiry: "2030-12-08",
-    experienceYears: 18,
-    languagesSpoken: ["English", "Norwegian", "Finnish"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00"
-          },
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          },
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
           {
             from: "01:00",
-            to: "05:00"
+            to: "03:00",
           },
-          {
-            from: "16:00",
-            to: "18:00"
-          }
         ],
       },
       {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+845 481-440-4072",
-    email: "omar.stewart@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/omar-stewart.jpg",
-    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "Security Detail"],
-    vehicleTypesCertified: ["Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-milan-9",
-    name: "Oliver Wang",
-    licenseNumber: "J0T905",
-    licenseExpiry: "2026-11-07",
-    experienceYears: 18,
-    languagesSpoken: ["English", "Finnish", "German"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00"
-          },
-          {
-            from: "11:00",
-            to: "14:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
+        day: "Friday",
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "03:00",
           },
           {
-            from: "11:00",
-            to: "14:00"
-          }
+            from: "15:00",
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 3.5,
-    phone: "+505 195-944-8094",
-    email: "oliver.wang@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/milan/oliver-wang.jpg",
-    specialties: ["Airport Transfers", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Van", "Luxury SUV", "Convertible"],
-  }
+    ratings: 4.7,
+    phone: "+611 335-550-4550",
+    email: "daniel.porter@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/milan/daniel-porter.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-milan-2",
+    name: "Chloe Jackson",
+    licenseNumber: "D7I639",
+    licenseExpiry: "2026-08-15",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Dutch", "German"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+          {
+            from: "16:00",
+            to: "19:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "22:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+893 531-218-8703",
+    email: "chloe.jackson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/milan/chloe-jackson.jpg",
+    specialties: ["Airport Transfers", "VIP Transport"],
+    vehicleTypesCertified: ["Convertible", "Sports Car"],
+  },
+  {
+    id: "driver-milan-3",
+    name: "Mark Wells",
+    licenseNumber: "E6N600",
+    licenseExpiry: "2029-07-12",
+    experienceYears: 3,
+    languagesSpoken: ["English", "French", "Russian"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00",
+          },
+          {
+            from: "16:00",
+            to: "21:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.5,
+    phone: "+363 363-877-3609",
+    email: "mark.wells@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/milan/mark-wells.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: ["Motorcoach", "Sedan", "Limousine", "Van"],
+  },
+  {
+    id: "driver-milan-4",
+    name: "Eleanor Rodriguez",
+    licenseNumber: "L6K616",
+    licenseExpiry: "2027-10-16",
+    experienceYears: 14,
+    languagesSpoken: ["English", "German", "Finnish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+735 854-786-3696",
+    email: "eleanor.rodriguez@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/milan/eleanor-rodriguez.jpg",
+    specialties: ["Airport Transfers", "Security Detail"],
+    vehicleTypesCertified: ["Convertible", "Limousine"],
+  },
+  {
+    id: "driver-milan-5",
+    name: "Amina Harper",
+    licenseNumber: "K0U809",
+    licenseExpiry: "2030-12-23",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Finnish", "Czech"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "23:00",
+          },
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "23:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.7,
+    phone: "+756 772-573-3314",
+    email: "amina.harper@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/milan/amina-harper.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift"],
+    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Limousine"],
+  },
+  {
+    id: "driver-milan-6",
+    name: "Amy Warren",
+    licenseNumber: "E1S508",
+    licenseExpiry: "2026-10-19",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Swedish", "Russian", "Portuguese"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "02:00",
+            to: "05:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00",
+          },
+          {
+            from: "04:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "22:00",
+          },
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+463 287-583-8576",
+    email: "amy.warren@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/milan/amy-warren.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+      "Security Detail",
+    ],
+    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle"],
+  },
+  {
+    id: "driver-milan-7",
+    name: "Javier Martin",
+    licenseNumber: "U4K868",
+    licenseExpiry: "2028-11-24",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Greek", "German"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "04:00",
+          },
+          {
+            from: "06:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "21:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.9,
+    phone: "+881 107-572-7489",
+    email: "javier.martin@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/milan/javier-martin.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Luxury SUV", "Limousine", "Convertible"],
+  },
 ];

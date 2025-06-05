@@ -3,199 +3,236 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const veniceitalymediterraneanDrivers: Driver[] = [
   {
     id: "driver-venice-1",
-    name: "Mia Morales",
-    licenseNumber: "P4J349",
-    licenseExpiry: "2027-11-23",
-    experienceYears: 1,
-    languagesSpoken: ["English", "Danish", "Dutch"],
+    name: "Thabo Holloway",
+    licenseNumber: "C9Z176",
+    licenseExpiry: "2027-06-28",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Dutch", "Spanish"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00"
-          },
-          {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
+            from: "10:00",
+            to: "13:00",
           },
           {
-            from: "03:00",
-            to: "07:00"
-          }
+            from: "19:00",
+            to: "22:00",
+          },
         ],
       },
       {
-        day: "Monday",
+        day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00"
-          }
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "16:00",
+            to: "20:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "16:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+        ],
+      },
     ],
-    ratings: 3.8,
-    phone: "+287 392-223-7943",
-    email: "mia.morales@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/mia-morales.jpg",
-    specialties: ["Event Transportation", "Corporate Chauffeur", "VIP Transport"],
-    vehicleTypesCertified: ["Convertible", "SUV", "Van", "Luxury SUV"],
+    ratings: 4.1,
+    phone: "+7 477-939-9738",
+    email: "thabo.holloway@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/thabo-holloway.jpg",
+    specialties: ["Long-Distance Driving", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Motorcoach"],
   },
   {
     id: "driver-venice-2",
-    name: "Maria Miller",
-    licenseNumber: "H0U967",
-    licenseExpiry: "2027-10-23",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Czech", "Italian"],
+    name: "Alexa West",
+    licenseNumber: "U5H857",
+    licenseExpiry: "2028-11-07",
+    experienceYears: 19,
+    languagesSpoken: ["English", "German", "French"],
     available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          },
+          {
+            from: "20:00",
+            to: "24:00",
+          },
+        ],
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00"
-          }
+            from: "01:00",
+            to: "03:00",
+          },
+          {
+            from: "21:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+          {
+            from: "07:00",
+            to: "12:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00"
-          }
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "18:00",
+            to: "21:00",
+          },
         ],
       },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          }
-        ],
-      }
     ],
-    ratings: 4.6,
-    phone: "+279 548-630-7178",
-    email: "maria.miller@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/maria-miller.jpg",
-    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Motorcoach", "Sedan"],
+    ratings: 3.8,
+    phone: "+578 173-567-5334",
+    email: "alexa.west@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/venice/alexa-west.jpg",
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "VIP Transport",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: ["Electric Vehicle"],
   },
   {
     id: "driver-venice-3",
-    name: "Antonio Gardner",
-    licenseNumber: "D0H774",
-    licenseExpiry: "2028-03-20",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Czech", "Dutch"],
+    name: "Linda Gardner",
+    licenseNumber: "E5U346",
+    licenseExpiry: "2030-04-24",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Greek", "Swedish"],
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00"
-          },
-          {
-            from: "01:00",
-            to: "03:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "17:00",
           },
           {
-            from: "01:00",
-            to: "04:00"
-          }
+            from: "20:00",
+            to: "23:00",
+          },
         ],
       },
       {
-        day: "Monday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00"
+            from: "10:00",
+            to: "15:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
           },
           {
-            from: "09:00",
-            to: "11:00"
-          }
+            from: "18:00",
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
-    phone: "+567 248-509-3710",
-    email: "antonio.gardner@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/antonio-gardner.jpg",
-    specialties: ["Event Transportation", "Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Convertible", "Van"],
+    phone: "+372 879-773-5685",
+    email: "linda.gardner@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/linda-gardner.jpg",
+    specialties: ["Event Transportation", "Airport Transfers"],
+    vehicleTypesCertified: [
+      "Limousine",
+      "Sports Car",
+      "SUV",
+      "Electric Vehicle",
+    ],
   },
   {
     id: "driver-venice-4",
-    name: "Scott Henderson",
-    licenseNumber: "T4V380",
-    licenseExpiry: "2026-01-04",
-    experienceYears: 9,
-    languagesSpoken: ["English", "Spanish", "Polish"],
+    name: "Wayne Coleman",
+    licenseNumber: "A2B664",
+    licenseExpiry: "2030-05-27",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Finnish", "Greek", "French"],
     available: [
       {
-        day: "Wednesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "21:00"
+            from: "06:00",
+            to: "08:00",
           },
-          {
-            from: "10:00",
-            to: "14:00"
-          }
         ],
       },
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "16:00",
-            to: "18:00"
-          }
+            from: "15:00",
+            to: "18:00",
+          },
         ],
       },
       {
@@ -203,269 +240,209 @@ export const veniceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
+            to: "21:00",
           },
           {
-            from: "20:00",
-            to: "24:00"
-          }
+            from: "04:00",
+            to: "09:00",
+          },
         ],
       },
       {
-        day: "Monday",
+        day: "Thursday",
         availableHours: [
+          {
+            from: "16:00",
+            to: "18:00",
+          },
           {
             from: "00:00",
-            to: "05:00"
+            to: "03:00",
           },
-          {
-            from: "06:00",
-            to: "10:00"
-          }
         ],
-      }
+      },
     ],
-    ratings: 4.2,
-    phone: "+764 829-548-9387",
-    email: "scott.henderson@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/scott-henderson.jpg",
-    specialties: ["Corporate Chauffeur", "Night Shift"],
-    vehicleTypesCertified: ["Luxury SUV", "Convertible"],
+    ratings: 5,
+    phone: "+98 847-915-5991",
+    email: "wayne.coleman@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/wayne-coleman.jpg",
+    specialties: ["Tour Guide Driver", "Security Detail", "Night Shift"],
+    vehicleTypesCertified: ["Luxury SUV"],
   },
   {
     id: "driver-venice-5",
-    name: "Mason Morgan",
-    licenseNumber: "G1N154",
-    licenseExpiry: "2030-11-25",
-    experienceYears: 7,
-    languagesSpoken: ["English", "Finnish", "Swedish"],
+    name: "Philip Campbell",
+    licenseNumber: "M4S446",
+    licenseExpiry: "2030-07-09",
+    experienceYears: 19,
+    languagesSpoken: ["English", "German", "Dutch"],
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00"
-          },
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          },
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          },
-          {
-            from: "03:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          },
           {
             from: "09:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+257 560-471-2723",
-    email: "mason.morgan@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/mason-morgan.jpg",
-    specialties: ["Night Shift", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van", "Motorcoach", "Limousine", "Sedan"],
-  },
-  {
-    id: "driver-venice-6",
-    name: "Emma Wang",
-    licenseNumber: "V4W261",
-    licenseExpiry: "2030-08-19",
-    experienceYears: 5,
-    languagesSpoken: ["English", "Swedish", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.7,
-    phone: "+413 159-969-7122",
-    email: "emma.wang@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/emma-wang.jpg",
-    specialties: ["Tour Guide Driver", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible"],
-  },
-  {
-    id: "driver-venice-7",
-    name: "Layla Campbell",
-    licenseNumber: "O8N539",
-    licenseExpiry: "2028-04-16",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Portuguese", "Dutch"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00"
+            to: "13:00",
           },
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.9,
-    phone: "+597 628-783-9719",
-    email: "layla.campbell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/layla-campbell.jpg",
-    specialties: ["Luxury Car Specialist", "Tour Guide Driver", "Event Transportation", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible", "Sedan", "Van", "Sports Car"],
-  },
-  {
-    id: "driver-venice-8",
-    name: "Fatima Knight",
-    licenseNumber: "B4Q208",
-    licenseExpiry: "2028-01-06",
-    experienceYears: 6,
-    languagesSpoken: ["English", "Italian", "French", "Russian"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          },
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "21:00"
-          },
-          {
-            from: "00:00",
-            to: "04:00"
-          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "18:00"
-          }
+            from: "20:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "04:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4,
+    phone: "+107 250-342-8351",
+    email: "philip.campbell@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/philip-campbell.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Van", "Limousine", "Motorcoach"],
+  },
+  {
+    id: "driver-venice-6",
+    name: "Sarah Henderson",
+    licenseNumber: "B5K202",
+    licenseExpiry: "2029-11-22",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Russian", "Portuguese"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "21:00",
+          },
+          {
+            from: "18:00",
+            to: "22:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.6,
+    phone: "+640 984-889-6092",
+    email: "sarah.henderson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/sarah-henderson.jpg",
+    specialties: [
+      "VIP Transport",
+      "Long-Distance Driving",
+      "Airport Transfers",
+      "Corporate Chauffeur",
+    ],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "Convertible"],
+  },
+  {
+    id: "driver-venice-7",
+    name: "Jordan Ellis",
+    licenseNumber: "E6W103",
+    licenseExpiry: "2027-11-25",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Dutch", "German"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "02:00",
+            to: "06:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00"
-          }
+            from: "18:00",
+            to: "23:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "05:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.1,
-    phone: "+635 988-313-1648",
-    email: "fatima.knight@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/venice/fatima-knight.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Van", "Luxury SUV"],
-  }
+    ratings: 4,
+    phone: "+515 444-282-9029",
+    email: "jordan.ellis@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/venice/jordan-ellis.jpg",
+    specialties: ["Security Detail", "Night Shift", "Event Transportation"],
+    vehicleTypesCertified: ["Sedan"],
+  },
 ];

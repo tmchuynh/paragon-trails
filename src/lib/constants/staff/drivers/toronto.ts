@@ -3,28 +3,148 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const torontocanadaeastCoastCanadaDrivers: Driver[] = [
   {
     id: "driver-toronto-1",
-    name: "Ahmed Gonzalez",
-    licenseNumber: "T5K987",
-    licenseExpiry: "2030-07-12",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Spanish", "Aymara"],
+    name: "Joan Nash",
+    licenseNumber: "S8K460",
+    licenseExpiry: "2030-11-04",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Haitian", "French", "Portuguese"],
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00"
-          }
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "06:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00",
+          },
+          {
+            from: "19:00",
+            to: "21:00",
+          },
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00"
-          }
+            from: "05:00",
+            to: "07:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.6,
+    phone: "+359 112-393-1192",
+    email: "joan.nash@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/toronto/joan-nash.jpg",
+    specialties: ["Corporate Chauffeur"],
+    vehicleTypesCertified: ["Limousine", "Convertible", "Van", "SUV"],
+  },
+  {
+    id: "driver-toronto-2",
+    name: "Ethan Lawson",
+    licenseNumber: "O8U020",
+    licenseExpiry: "2028-06-25",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Portuguese", "Haitian", "Aymara"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.5,
+    phone: "+93 593-311-4272",
+    email: "ethan.lawson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/toronto/ethan-lawson.jpg",
+    specialties: [
+      "Event Transportation",
+      "Luxury Car Specialist",
+      "Airport Transfers",
+    ],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-toronto-3",
+    name: "Sebastian Dixon",
+    licenseNumber: "V1M110",
+    licenseExpiry: "2028-08-15",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Aymara", "French", "Haitian"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "21:00",
+          },
+          {
+            from: "08:00",
+            to: "10:00",
+          },
         ],
       },
       {
@@ -32,251 +152,214 @@ export const torontocanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "07:00",
+          },
+        ],
+      },
     ],
-    ratings: 4.7,
-    phone: "+112 329-505-7217",
-    email: "ahmed.gonzalez@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/toronto/ahmed-gonzalez.jpg",
-    specialties: ["VIP Transport", "Corporate Chauffeur", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach"],
+    ratings: 4.8,
+    phone: "+881 185-778-8607",
+    email: "sebastian.dixon@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/toronto/sebastian-dixon.jpg",
+    specialties: [
+      "Long-Distance Driving",
+      "Airport Transfers",
+      "Corporate Chauffeur",
+      "VIP Transport",
+    ],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach", "Van"],
   },
   {
-    id: "driver-toronto-2",
-    name: "Samantha Lopez",
-    licenseNumber: "U1G419",
-    licenseExpiry: "2028-08-15",
-    experienceYears: 11,
-    languagesSpoken: ["English", "French", "Aymara", "Spanish"],
+    id: "driver-toronto-4",
+    name: "Ralph Graves",
+    licenseNumber: "B6M199",
+    licenseExpiry: "2028-05-25",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Aymara", "Spanish"],
     available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00",
+          },
+          {
+            from: "00:00",
+            to: "04:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "09:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "05:00",
+          },
+          {
+            from: "07:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00",
+          },
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+        ],
+      },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "03:00",
-            to: "07:00"
+            from: "08:00",
+            to: "12:00",
           },
           {
-            from: "12:00",
-            to: "16:00"
-          }
+            from: "19:00",
+            to: "21:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.8,
+    phone: "+422 935-809-7638",
+    email: "ralph.graves@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/toronto/ralph-graves.jpg",
+    specialties: ["Airport Transfers", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach", "Limousine", "Sedan"],
+  },
+  {
+    id: "driver-toronto-5",
+    name: "Angela Jackson",
+    licenseNumber: "H8D959",
+    licenseExpiry: "2030-05-07",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Aymara", "French"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "06:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "12:00"
+            from: "12:00",
+            to: "16:00",
           },
-          {
-            from: "20:00",
-            to: "24:00"
-          }
         ],
       },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00"
-          }
-        ],
-      }
     ],
-    ratings: 4.1,
-    phone: "+434 482-148-7853",
-    email: "samantha.lopez@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/toronto/samantha-lopez.jpg",
-    specialties: ["Luxury Car Specialist", "VIP Transport"],
-    vehicleTypesCertified: ["Limousine", "Van", "Electric Vehicle"],
+    ratings: 4,
+    phone: "+608 320-368-7546",
+    email: "angela.jackson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/toronto/angela-jackson.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sports Car"],
   },
   {
-    id: "driver-toronto-3",
-    name: "Amy Suzuki",
-    licenseNumber: "B5Q062",
-    licenseExpiry: "2027-04-22",
-    experienceYears: 2,
-    languagesSpoken: ["English", "French", "Portuguese"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00"
-          },
-          {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00"
-          },
-          {
-            from: "20:00",
-            to: "22:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+654 359-708-6291",
-    email: "amy.suzuki@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/toronto/amy-suzuki.jpg",
-    specialties: ["Tour Guide Driver", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-toronto-4",
-    name: "Sofia Gardner",
-    licenseNumber: "X6Q613",
-    licenseExpiry: "2029-05-28",
-    experienceYears: 19,
-    languagesSpoken: ["English", "Guarani", "Haitian"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "23:00"
-          },
-          {
-            from: "07:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00"
-          },
-          {
-            from: "06:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          },
-          {
-            from: "15:00",
-            to: "18:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+454 102-570-7814",
-    email: "sofia.gardner@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/toronto/sofia-gardner.jpg",
-    specialties: ["Tour Guide Driver", "Security Detail", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Convertible", "Sedan"],
-  },
-  {
-    id: "driver-toronto-5",
-    name: "Matthew Baker",
-    licenseNumber: "B3J041",
-    licenseExpiry: "2028-11-03",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Portuguese", "Haitian"],
+    id: "driver-toronto-6",
+    name: "Ava Maxwell",
+    licenseNumber: "V4S827",
+    licenseExpiry: "2026-10-19",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Portuguese", "French", "Quechua"],
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "03:00",
-            to: "08:00"
+            from: "21:00",
+            to: "24:00",
           },
-          {
-            from: "18:00",
-            to: "22:00"
-          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00"
+            from: "15:00",
+            to: "19:00",
           },
-          {
-            from: "09:00",
-            to: "12:00"
-          }
         ],
       },
       {
-        day: "Friday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "00:00",
-            to: "04:00"
-          }
+            from: "20:00",
+            to: "24:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.7,
-    phone: "+201 420-491-8424",
-    email: "matthew.baker@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/toronto/matthew-baker.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Van", "Sedan"],
-  }
+    ratings: 3.7,
+    phone: "+746 392-569-8015",
+    email: "ava.maxwell@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/toronto/ava-maxwell.jpg",
+    specialties: ["Night Shift", "Corporate Chauffeur", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Limousine"],
+  },
 ];

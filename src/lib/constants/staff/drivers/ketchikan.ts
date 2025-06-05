@@ -3,515 +3,422 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
   {
     id: "driver-ketchikan-1",
-    name: "Hassan Jones",
-    licenseNumber: "Y1N452",
-    licenseExpiry: "2026-08-11",
-    experienceYears: 12,
-    languagesSpoken: ["English", "Portuguese", "Italian"],
+    name: "Kevin Parker",
+    licenseNumber: "C5T499",
+    licenseExpiry: "2027-09-22",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Spanish", "Russian"],
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.1,
+    phone: "+497 367-486-9091",
+    email: "kevin.parker@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/kevin-parker.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving", "Night Shift"],
+    vehicleTypesCertified: ["Limousine", "Sports Car"],
+  },
+  {
+    id: "driver-ketchikan-2",
+    name: "Caroline Williams",
+    licenseNumber: "T2A725",
+    licenseExpiry: "2029-07-10",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Russian", "Portuguese", "Italian"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+          {
+            from: "06:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "10:00",
+            to: "13:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.6,
+    phone: "+534 637-972-9578",
+    email: "caroline.williams@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/caroline-williams.jpg",
+    specialties: ["Tour Guide Driver", "VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Limousine", "Sedan"],
+  },
+  {
+    id: "driver-ketchikan-3",
+    name: "Jordan White",
+    licenseNumber: "V8Y729",
+    licenseExpiry: "2027-01-18",
+    experienceYears: 17,
+    languagesSpoken: ["English", "French", "Chinese"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+          {
+            from: "03:00",
+            to: "07:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.8,
+    phone: "+377 931-753-1500",
+    email: "jordan.white@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/jordan-white.jpg",
+    specialties: ["Corporate Chauffeur", "Security Detail"],
+    vehicleTypesCertified: [
+      "Luxury SUV",
+      "Sports Car",
+      "Limousine",
+      "Convertible",
+    ],
+  },
+  {
+    id: "driver-ketchikan-4",
+    name: "Jessica Coleman",
+    licenseNumber: "L9M791",
+    licenseExpiry: "2026-06-28",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Spanish", "Russian", "Italian"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00",
+          },
+        ],
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+426 984-310-4199",
-    email: "hassan.jones@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/hassan-jones.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Sports Car", "Sedan"],
-  },
-  {
-    id: "driver-ketchikan-2",
-    name: "Mateo Dubois",
-    licenseNumber: "N1X092",
-    licenseExpiry: "2028-10-27",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Japanese", "Portuguese", "Italian"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00"
-          }
+            from: "12:00",
+            to: "14:00",
+          },
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+659 339-862-2382",
-    email: "mateo.dubois@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/mateo-dubois.jpg",
-    specialties: ["Event Transportation", "Security Detail"],
-    vehicleTypesCertified: ["SUV", "Sports Car"],
-  },
-  {
-    id: "driver-ketchikan-3",
-    name: "Terry Dunn",
-    licenseNumber: "B2S947",
-    licenseExpiry: "2028-05-27",
-    experienceYears: 14,
-    languagesSpoken: ["English", "Portuguese", "Arabic"],
-    available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00"
+            from: "11:00",
+            to: "14:00",
           },
           {
-            from: "05:00",
-            to: "09:00"
-          }
+            from: "17:00",
+            to: "21:00",
+          },
         ],
       },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          },
-          {
-            from: "18:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          },
-          {
-            from: "03:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00"
-          },
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      }
     ],
-    ratings: 4.2,
-    phone: "+339 210-532-2860",
-    email: "terry.dunn@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/terry-dunn.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Limousine", "Electric Vehicle", "Sports Car"],
-  },
-  {
-    id: "driver-ketchikan-4",
-    name: "Sophia Wood",
-    licenseNumber: "C8T533",
-    licenseExpiry: "2026-02-11",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Russian", "German"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          },
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+391 271-344-3189",
-    email: "sophia.wood@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/sophia-wood.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Van", "Electric Vehicle", "Limousine", "SUV", "Motorcoach"],
+    ratings: 4.4,
+    phone: "+78 607-341-1714",
+    email: "jessica.coleman@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/jessica-coleman.jpg",
+    specialties: ["Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV", "Sedan"],
   },
   {
     id: "driver-ketchikan-5",
-    name: "Julie Rodriguez",
-    licenseNumber: "L2O937",
-    licenseExpiry: "2030-02-10",
-    experienceYears: 4,
-    languagesSpoken: ["English", "Spanish", "Arabic"],
+    name: "Andrew Wilson",
+    licenseNumber: "R2Z460",
+    licenseExpiry: "2028-10-20",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Spanish", "German", "Italian"],
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          },
-          {
-            from: "04:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          },
-          {
-            from: "00:00",
-            to: "02:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.8,
-    phone: "+573 820-502-1405",
-    email: "julie.rodriguez@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/julie-rodriguez.jpg",
-    specialties: ["Corporate Chauffeur", "Security Detail", "VIP Transport", "Airport Transfers"],
-    vehicleTypesCertified: ["Limousine", "Convertible", "Van"],
-  },
-  {
-    id: "driver-ketchikan-6",
-    name: "Donna Fletcher",
-    licenseNumber: "P3O144",
-    licenseExpiry: "2028-02-03",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Russian", "Italian", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          },
-          {
-            from: "02:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00"
-          },
-          {
-            from: "02:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.8,
-    phone: "+879 718-569-2052",
-    email: "donna.fletcher@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/donna-fletcher.jpg",
-    specialties: ["Tour Guide Driver", "Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "SUV", "Limousine", "Motorcoach", "Van"],
-  },
-  {
-    id: "driver-ketchikan-7",
-    name: "Justin Hunter",
-    licenseNumber: "U1H245",
-    licenseExpiry: "2026-08-24",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Italian", "Arabic"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "01:00",
+            to: "03:00",
+          },
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "19:00",
-            to: "24:00"
+            from: "07:00",
+            to: "11:00",
           },
           {
-            from: "03:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.5,
-    phone: "+600 178-802-6290",
-    email: "justin.hunter@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/justin-hunter.jpg",
-    specialties: ["Luxury Car Specialist", "Long-Distance Driving", "Night Shift"],
-    vehicleTypesCertified: ["Convertible", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-ketchikan-8",
-    name: "Adeline Parker",
-    licenseNumber: "O4Q742",
-    licenseExpiry: "2027-04-28",
-    experienceYears: 12,
-    languagesSpoken: ["English", "Spanish", "French"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          }
+            from: "05:00",
+            to: "09:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "01:00",
-            to: "03:00"
-          }
+            from: "11:00",
+            to: "13:00",
+          },
         ],
       },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00"
-          }
-        ],
-      },
+    ],
+    ratings: 4.4,
+    phone: "+842 637-410-5273",
+    email: "andrew.wilson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/andrew-wilson.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur", "Night Shift"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-ketchikan-6",
+    name: "Jonathan White",
+    licenseNumber: "J6K591",
+    licenseExpiry: "2027-09-04",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Japanese", "Spanish"],
+    available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "02:00",
-            to: "04:00"
-          }
+            from: "03:00",
+            to: "06:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00"
+            from: "15:00",
+            to: "18:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.9,
-    phone: "+128 959-456-9646",
-    email: "adeline.parker@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/adeline-parker.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["SUV", "Sedan", "Convertible"],
-  },
-  {
-    id: "driver-ketchikan-9",
-    name: "Patricia West",
-    licenseNumber: "G7W848",
-    licenseExpiry: "2028-01-01",
-    experienceYears: 1,
-    languagesSpoken: ["English", "German", "Chinese", "Italian"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00"
+            to: "04:00",
           },
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00"
+            from: "20:00",
+            to: "23:00",
           },
-          {
-            from: "14:00",
-            to: "16:00"
-          }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.2,
+    phone: "+794 998-696-1235",
+    email: "jonathan.white@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/jonathan-white.jpg",
+    specialties: ["Airport Transfers", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-ketchikan-7",
+    name: "Mason Thomas",
+    licenseNumber: "L6W062",
+    licenseExpiry: "2026-02-15",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Spanish", "French"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "07:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "13:00",
+          },
+          {
+            from: "17:00",
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.2,
-    phone: "+611 320-845-1971",
-    email: "patricia.west@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ketchikan/patricia-west.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Van", "Sedan"],
-  }
+    ratings: 4.8,
+    phone: "+712 866-437-2948",
+    email: "mason.thomas@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/ketchikan/mason-thomas.jpg",
+    specialties: [
+      "Tour Guide Driver",
+      "Airport Transfers",
+      "Night Shift",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: ["Sedan", "SUV", "Motorcoach"],
+  },
 ];

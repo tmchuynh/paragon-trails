@@ -3,284 +3,433 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const barcelonaspainmediterraneanDrivers: Driver[] = [
   {
     id: "driver-barcelona-1",
-    name: "Gabriella Wright",
-    licenseNumber: "P9Y317",
-    licenseExpiry: "2026-10-24",
-    experienceYears: 1,
-    languagesSpoken: ["English", "Portuguese", "French"],
+    name: "Juan King",
+    licenseNumber: "G7V350",
+    licenseExpiry: "2027-05-12",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Greek", "Spanish"],
     available: [
       {
-        day: "Thursday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00"
+            from: "15:00",
+            to: "19:00",
           },
-          {
-            from: "18:00",
-            to: "20:00"
-          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00"
-          }
+            from: "08:00",
+            to: "12:00",
+          },
         ],
       },
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00"
-          }
+            from: "18:00",
+            to: "22:00",
+          },
+          {
+            from: "00:00",
+            to: "02:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00",
+          },
+        ],
+      },
+    ],
+    ratings: 3.8,
+    phone: "+458 898-513-3472",
+    email: "juan.king@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/juan-king.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-barcelona-2",
+    name: "Kennedy Foster",
+    licenseNumber: "E9O411",
+    licenseExpiry: "2030-01-27",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Swedish", "Danish", "Dutch"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+          {
+            from: "07:00",
+            to: "12:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "21:00",
+          },
+          {
+            from: "18:00",
+            to: "23:00",
+          },
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "01:00",
+            to: "06:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.5,
+    phone: "+308 329-580-8840",
+    email: "kennedy.foster@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/kennedy-foster.jpg",
+    specialties: ["Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Motorcoach", "Luxury SUV", "Limousine"],
+  },
+  {
+    id: "driver-barcelona-3",
+    name: "Khalid Patel",
+    licenseNumber: "I2A058",
+    licenseExpiry: "2029-06-09",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Spanish", "Russian"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "07:00",
-            to: "11:00"
+            from: "02:00",
+            to: "06:00",
           },
-          {
-            from: "20:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.8,
-    phone: "+301 961-533-8493",
-    email: "gabriella.wright@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/barcelona/gabriella-wright.jpg",
-    specialties: ["Night Shift", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
-  },
-  {
-    id: "driver-barcelona-2",
-    name: "Jonathan Mitchell",
-    licenseNumber: "L7J747",
-    licenseExpiry: "2028-03-02",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Italian", "Norwegian", "Spanish"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          },
-          {
-            from: "11:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "23:00"
-          },
-          {
-            from: "07:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+627 902-446-2013",
-    email: "jonathan.mitchell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/barcelona/jonathan-mitchell.jpg",
-    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Motorcoach", "Limousine", "Sedan", "Electric Vehicle"],
-  },
-  {
-    id: "driver-barcelona-3",
-    name: "Blake Williams",
-    licenseNumber: "U0A240",
-    licenseExpiry: "2028-03-05",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Danish", "Norwegian"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00"
-          },
-          {
-            from: "09:00",
-            to: "14:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "03:00"
-          },
-          {
-            from: "19:00",
-            to: "22:00"
-          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.7,
-    phone: "+176 689-311-7030",
-    email: "blake.williams@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/barcelona/blake-williams.jpg",
-    specialties: ["VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Luxury SUV"],
-  },
-  {
-    id: "driver-barcelona-4",
-    name: "Jeffrey Price",
-    licenseNumber: "E1V534",
-    licenseExpiry: "2028-08-25",
-    experienceYears: 6,
-    languagesSpoken: ["English", "Russian", "Spanish"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          },
-          {
-            from: "03:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+108 800-842-2917",
-    email: "jeffrey.price@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/barcelona/jeffrey-price.jpg",
-    specialties: ["Corporate Chauffeur", "Night Shift"],
-    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-barcelona-5",
-    name: "Antonio Maxwell",
-    licenseNumber: "T5Q936",
-    licenseExpiry: "2030-03-13",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Czech", "German", "Spanish"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
+            from: "08:00",
+            to: "13:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "02:00",
-            to: "04:00"
+            from: "06:00",
+            to: "08:00",
           },
+        ],
+      },
+    ],
+    ratings: 3.8,
+    phone: "+406 336-958-7133",
+    email: "khalid.patel@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/khalid-patel.jpg",
+    specialties: ["Night Shift", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
+  },
+  {
+    id: "driver-barcelona-4",
+    name: "Evelyn Wang",
+    licenseNumber: "F4H425",
+    licenseExpiry: "2026-10-08",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Danish", "German"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "21:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "10:00",
+          },
+          {
+            from: "07:00",
+            to: "10:00",
+          },
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "06:00",
-            to: "11:00"
-          }
+            from: "03:00",
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
-    ratings: 4.6,
-    phone: "+658 786-910-6958",
-    email: "antonio.maxwell@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/barcelona/antonio-maxwell.jpg",
-    specialties: ["Luxury Car Specialist", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Motorcoach", "Van"],
-  }
+    ratings: 3.8,
+    phone: "+763 311-856-1740",
+    email: "evelyn.wang@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/evelyn-wang.jpg",
+    specialties: ["VIP Transport", "Airport Transfers"],
+    vehicleTypesCertified: ["Sedan", "Convertible", "Motorcoach"],
+  },
+  {
+    id: "driver-barcelona-5",
+    name: "Santiago Ellis",
+    licenseNumber: "Y7E069",
+    licenseExpiry: "2027-06-21",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Dutch", "Danish"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00",
+          },
+          {
+            from: "21:00",
+            to: "24:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "03:00",
+            to: "06:00",
+          },
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.1,
+    phone: "+833 696-715-1822",
+    email: "santiago.ellis@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/santiago-ellis.jpg",
+    specialties: [
+      "Airport Transfers",
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+      "Night Shift",
+    ],
+    vehicleTypesCertified: ["Luxury SUV", "Van"],
+  },
+  {
+    id: "driver-barcelona-6",
+    name: "Alexa Anderson",
+    licenseNumber: "H3T123",
+    licenseExpiry: "2030-08-28",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Greek", "Czech", "Spanish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00",
+          },
+          {
+            from: "16:00",
+            to: "20:00",
+          },
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+        ],
+      },
+    ],
+    ratings: 4.4,
+    phone: "+686 538-972-3164",
+    email: "alexa.anderson@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/alexa-anderson.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Van", "Limousine", "Motorcoach"],
+  },
+  {
+    id: "driver-barcelona-7",
+    name: "Janet Singh",
+    licenseNumber: "N3W095",
+    licenseExpiry: "2027-07-01",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Portuguese", "Norwegian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "06:00",
+          },
+          {
+            from: "04:00",
+            to: "08:00",
+          },
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+          {
+            from: "17:00",
+            to: "22:00",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00",
+          },
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "01:00",
+            to: "04:00",
+          },
+        ],
+      },
+    ],
+    ratings: 5,
+    phone: "+378 694-802-6339",
+    email: "janet.singh@paragontrailsdrivers.com",
+    photoUrl:
+      "https://paragon-trails-driver-images.com/barcelona/janet-singh.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift", "VIP Transport"],
+    vehicleTypesCertified: ["Luxury SUV", "Limousine"],
+  },
 ];
