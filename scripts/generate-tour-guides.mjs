@@ -26,6 +26,7 @@
  *   node scripts/generate-tour-guides.mjs --rewrite
  *   node scripts/generate-tour-guides.mjs --append 3
  *   node scripts/generate-tour-guides.mjs --city "Paris" --append 2
+ *   node scripts/generate-tour-guides.mjs --city "Hong Kong" --append 9
  */
 
 import * as fs from "fs";
@@ -38,6 +39,10 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  createObjectParser,
+  extractObjectsFromFile,
+} from "./utils/parse-utils.mjs";
 
 const cities = getCityFiles();
 
@@ -183,7 +188,7 @@ const lastNames = [
   "Hill",
   "Flores",
   "Green",
-  "Adams",
+  "AdAMS",
   "Nelson",
   "Baker",
   "Hall",
@@ -549,54 +554,57 @@ async function fileExists(filePath) {
 
 // Extract existing tour guides from a file
 async function extractExistingTourGuides(filePath) {
+  // Create a tour guide template with default values for required properties
+  const tourGuideTemplate = {
+    id: "",
+    name: "",
+    city: "",
+    country: "",
+    state: "",
+    region: "",
+    isPopular: false,
+    bio: "",
+    regionsCovered: [],
+    tourTypes: [],
+    maxGroupSize: 0,
+    licenseNumber: "",
+    phoneNumber: "",
+    contactEmail: "",
+    available: [],
+    isCertified: false,
+    description: "",
+    rating: 0,
+    reviewsCount: 0,
+    quote: "",
+    profileImage: "",
+    languages: [],
+    experienceYears: 0,
+    certifications: [],
+    specialties: [],
+    specialTraining: [],
+  };
+
   try {
-    // Read file content
-    const content = await readFile(filePath, "utf-8");
-
-    // Extract the array part using a simple regex approach
-    const match = content.match(
-      /export const \w+: TourGuide\[\] = \[([\s\S]*?)\];/
+    // Use the shared utility with a tour guide-specific parser
+    const guideParser = createObjectParser(tourGuideTemplate);
+    const guides = await extractObjectsFromFile(
+      filePath,
+      "TourGuide",
+      guideParser
     );
-    if (!match || !match[1]) return [];
 
-    // Parse the array items
-    const itemsText = match[1].trim();
-    if (!itemsText) return [];
-
-    // Split by object boundaries and parse each tour guide
-    const items = [];
-    let bracketCount = 0;
-    let currentItem = "";
-
-    for (let i = 0; i < itemsText.length; i++) {
-      const char = itemsText[i];
-
-      if (char === "{") bracketCount++;
-      if (char === "}") bracketCount--;
-
-      currentItem += char;
-
-      if (bracketCount === 0 && currentItem.trim()) {
-        // We've found a complete object
-        try {
-          // Convert the text to an actual object (this is a simplified approach)
-          const cleanedItem = currentItem.replace(/,\s*$/, ""); // Remove trailing comma
-
-          // Use Function constructor to evaluate the object expression safely
-          // This is a simplified approach and may not handle all edge cases
-          const obj = new Function(`return ${cleanedItem}`)();
-          items.push(obj);
-          currentItem = "";
-        } catch (e) {
-          console.warn("Failed to parse tour guide:", e);
-          currentItem = "";
-        }
-      }
+    // Add validation to prevent errors with null/empty guides array
+    if (!guides || !Array.isArray(guides) || guides.length === 0) {
+      console.warn(
+        `Could not parse existing guides in ${filePath}, will create fresh data`
+      );
+      return [];
     }
 
-    return items;
+    // Filter out invalid guides
+    return guides.filter((guide) => guide && guide.id && guide.name);
   } catch (e) {
-    console.error("Error extracting tour guides:", e);
+    console.error(`Error extracting tour guides from ${filePath}:`, e);
     return [];
   }
 }
@@ -637,6 +645,9 @@ async function generateCityGuideFile(city) {
     } else if (options.append) {
       console.log(`Appending ${options.append} guides to: ${filePath}`);
       guides = await extractExistingTourGuides(filePath);
+      console.log(
+        `Found ${guides.length} valid existing guides in ${filePath}`
+      );
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
@@ -651,18 +662,22 @@ async function generateCityGuideFile(city) {
     .fill(0)
     .map((_, index) => generateTourGuide(city, guides.length + index));
 
-  // Combine existing and new guides
-  guides = guides.concat(newGuides);
+  // Combine existing and new guides - filter out any invalid objects
+  guides = [...guides, ...newGuides].filter(
+    (guide) => guide && typeof guide === "object"
+  );
 
   // Create file content with proper formatting
   let content = `import { TourGuide } from "@/lib/interfaces/people/staff";\n\n`;
   content += `export const ${variableName}: TourGuide[] = [\n`;
 
   guides.forEach((guide, index) => {
+    if (!guide) return; // Skip null/undefined guides
+
     content += `  {\n`;
     for (const [key, value] of Object.entries(guide)) {
       if (typeof value === "string") {
-        content += `    ${key}: "${value}",\n`;
+        content += `    ${key}: "${value.replace(/"/g, '\\"')}",\n`;
       } else if (Array.isArray(value)) {
         if (value.length > 0 && typeof value[0] === "object") {
           // Handle weeklyAvailability array of objects
@@ -690,7 +705,10 @@ async function generateCityGuideFile(city) {
         } else {
           // Handle regular string arrays
           content += `    ${key}: [${value
-            .map((item) => `"${item}"`)
+            .map(
+              (item) =>
+                `"${typeof item === "string" ? item.replace(/"/g, '\\"') : item}"`
+            )
             .join(", ")}],\n`;
         }
       } else if (typeof value === "number" || typeof value === "boolean") {
@@ -711,7 +729,7 @@ async function generateCityGuideFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${guides.length} guides`
   );
 }
 
@@ -721,13 +739,20 @@ async function generateAllCityGuideFiles() {
 
   // Filter by city name if specified
   if (options.cityFilter) {
-    const filterLower = options.cityFilter.toLowerCase();
-    citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
-    );
+    // More flexible city filtering, normalize and remove spacing/special characters for comparison
+    const filterNormalized = options.cityFilter
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+
+    citiesToProcess = cities.filter((city) => {
+      const cityNormalized = city.toLowerCase().replace(/[^a-z0-9]/g, "");
+      return cityNormalized.includes(filterNormalized);
+    });
 
     if (citiesToProcess.length === 0) {
       console.log(`No cities found matching: ${options.cityFilter}`);
+      console.log("\nAvailable cities (showing up to 10):");
+      cities.slice(0, 10).forEach((city) => console.log(`- "${city}"`));
       return;
     }
 
