@@ -11,7 +11,12 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Olivia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Urban Legends, Wildlife, Nightlife, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: ["Market Tour", "Luxury Tour", "Religious Tour", "Romantic Tour"],
+    tourTypes: [
+      "Market Tour",
+      "Luxury Tour",
+      "Religious Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-6874-PAR",
     phoneNumber: "+1-264-859-6388",
@@ -23,7 +28,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +41,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -49,19 +54,24 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Urban Legends, Wildlife, Nightlife, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Urban Legends, Wildlife, Nightlife, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 59,
     quote: "My goal is to help you fall in love with paris just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
     languages: ["Polish", "Russian"],
     experienceYears: 8,
-    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Local History Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Street Food", "Urban Legends", "Wildlife", "Nightlife"],
     specialTraining: ["Public Speaking"],
   },
@@ -87,7 +97,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -100,7 +110,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -109,20 +119,30 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of paris and France. Specializing in Family Activities, Nightlife, Hidden Gems, Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of paris and France. Specializing in Family Activities, Nightlife, Hidden Gems, Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 58,
-    quote: "The best way to discover paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
     languages: ["Hebrew", "Russian", "Danish"],
     experienceYears: 14,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide"],
-    specialties: ["Family Activities", "Nightlife", "Hidden Gems", "Local Markets"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+    ],
+    specialties: [
+      "Family Activities",
+      "Nightlife",
+      "Hidden Gems",
+      "Local Markets",
+    ],
     specialTraining: ["Local Transit Systems"],
   },
   {
@@ -135,7 +155,13 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of paris and France. Specializing in Religious Sites, Local Craftsmanship, Cultural Etiquette, Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Asia Pacific"],
-    tourTypes: ["Festival Tour", "Helicopter Tour", "Relocation Tour", "Craft Workshop", "Wildlife Safari"],
+    tourTypes: [
+      "Festival Tour",
+      "Helicopter Tour",
+      "Relocation Tour",
+      "Craft Workshop",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-2187-PAR",
     phoneNumber: "+1-394-700-6185",
@@ -147,7 +173,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +182,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -169,7 +195,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -182,20 +208,29 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of paris and France. Specializing in Religious Sites, Local Craftsmanship, Cultural Etiquette, Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of paris and France. Specializing in Religious Sites, Local Craftsmanship, Cultural Etiquette, Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 57,
     quote: "Every corner of paris tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
     languages: ["Korean"],
     experienceYears: 3,
-    certifications: ["Cultural Heritage Specialist", "Language Proficiency Certification"],
-    specialties: ["Religious Sites", "Local Craftsmanship", "Cultural Etiquette", "Wine Tasting"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Religious Sites",
+      "Local Craftsmanship",
+      "Cultural Etiquette",
+      "Wine Tasting",
+    ],
     specialTraining: ["Local Transit Systems"],
   },
   {
@@ -224,7 +259,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -237,7 +272,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -250,19 +285,24 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of paris and France. Specializing in Film Locations, Sustainable Tourism, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of paris and France. Specializing in Film Locations, Sustainable Tourism, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 23,
-    quote: "The best way to discover paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     languages: ["Dutch"],
     experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Licensed City Guide"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Licensed City Guide",
+    ],
     specialties: ["Film Locations", "Sustainable Tourism"],
     specialTraining: [],
   },
@@ -292,7 +332,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -305,7 +345,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -318,20 +358,30 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of paris and France. Specializing in Music Scene, Family Activities, Architecture, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of paris and France. Specializing in Music Scene, Family Activities, Architecture, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 52,
-    quote: "The best way to discover paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
     languages: ["Spanish"],
     experienceYears: 11,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
-    specialties: ["Music Scene", "Family Activities", "Architecture", "Nightlife"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Eco-Tourism Guide",
+    ],
+    specialties: [
+      "Music Scene",
+      "Family Activities",
+      "Architecture",
+      "Nightlife",
+    ],
     specialTraining: ["Local Flora & Fauna", "Art History"],
   },
   {
@@ -360,7 +410,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -373,7 +423,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -382,20 +432,26 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 29,
-    quote: "The best way to discover paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
     languages: ["Portuguese", "Swedish", "Bulgarian"],
     experienceYears: 15,
-    certifications: ["Language Proficiency Certification", "Heritage Interpretation Certificate", "Food Safety Certification"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Heritage Interpretation Certificate",
+      "Food Safety Certification",
+    ],
     specialties: ["Street Food"],
     specialTraining: ["Marine Biology", "Accessibility Services"],
-  }
+  },
 ];

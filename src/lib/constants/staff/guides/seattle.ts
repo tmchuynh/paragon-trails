@@ -11,7 +11,12 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Scarlett is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Photography Spots, Wine Tasting, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Accessible Tour", "Helicopter Tour", "Cruise Excursion", "Self-Guided Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Helicopter Tour",
+      "Cruise Excursion",
+      "Self-Guided Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-2717-SEA",
     phoneNumber: "+1-599-673-3032",
@@ -27,7 +32,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +45,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +54,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -58,7 +63,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -67,15 +72,17 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Photography Spots, Wine Tasting, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Photography Spots, Wine Tasting, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 64,
-    quote: "The best way to discover seattle is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover seattle is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
     languages: ["Greek", "Hebrew"],
     experienceYears: 13,
@@ -109,7 +116,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -122,19 +129,23 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Local Markets, Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Local Markets, Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 36,
     quote: "Every corner of seattle tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
     languages: ["French", "Dutch", "Czech"],
     experienceYears: 4,
-    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Wilderness First Responder",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Local Markets", "Street Food", "Photography Spots"],
     specialTraining: ["Local Transit Systems", "Emergency Response"],
   },
@@ -160,7 +171,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +184,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -186,7 +197,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -195,20 +206,27 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Hidden Gems, Art Galleries, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Hidden Gems, Art Galleries, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 7,
-    quote: "The best way to discover seattle is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover seattle is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
     languages: ["Thai"],
     experienceYears: 13,
     certifications: ["Sustainable Tourism Certificate", "CPR & First Aid"],
-    specialties: ["Sustainable Tourism", "Public Transportation Navigation", "Hidden Gems", "Art Galleries"],
+    specialties: [
+      "Sustainable Tourism",
+      "Public Transportation Navigation",
+      "Hidden Gems",
+      "Art Galleries",
+    ],
     specialTraining: ["Regional Cuisine", "Art History"],
   },
   {
@@ -237,7 +255,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -250,7 +268,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -263,19 +281,23 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in LGBTQ+ History, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in LGBTQ+ History, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 26,
     quote: "In seattle, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
     languages: ["Japanese", "Swahili", "Russian"],
     experienceYears: 4,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+    ],
     specialties: ["LGBTQ+ History", "Nightlife"],
     specialTraining: ["Public Speaking", "Cultural Sensitivity"],
   },
@@ -301,7 +323,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -314,7 +336,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -327,7 +349,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -340,20 +362,25 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Hidden Gems, Urban Legends, Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of seattle and United States. Specializing in Hidden Gems, Urban Legends, Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 36,
     quote: "Every corner of seattle tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
     languages: ["Mandarin"],
     experienceYears: 6,
-    certifications: ["CPR & First Aid", "Wilderness First Responder", "Local History Certification"],
+    certifications: [
+      "CPR & First Aid",
+      "Wilderness First Responder",
+      "Local History Certification",
+    ],
     specialties: ["Hidden Gems", "Urban Legends", "Parks & Gardens"],
     specialTraining: [],
-  }
+  },
 ];

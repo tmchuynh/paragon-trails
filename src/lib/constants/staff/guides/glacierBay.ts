@@ -23,7 +23,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -32,20 +32,31 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Parks & Gardens, Music Scene, Hidden Gems, Historical Landmarks, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Parks & Gardens, Music Scene, Hidden Gems, Historical Landmarks, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 95,
-    quote: "glacier-bay isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "glacier-bay isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["Croatian"],
     experienceYears: 10,
-    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate", "Food Safety Certification"],
-    specialties: ["Parks & Gardens", "Music Scene", "Hidden Gems", "Historical Landmarks"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Adventure Tourism Safety Certificate",
+      "Food Safety Certification",
+    ],
+    specialties: [
+      "Parks & Gardens",
+      "Music Scene",
+      "Hidden Gems",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Public Speaking", "Accessibility Services"],
   },
   {
@@ -70,7 +81,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -79,7 +90,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -92,7 +103,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -105,19 +116,24 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Nightlife, Urban Legends, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Nightlife, Urban Legends, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 88,
     quote: "In glacier-bay, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
     languages: ["Swahili", "Hungarian"],
     experienceYears: 10,
-    certifications: ["Licensed City Guide", "Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Professional Tour Guide Association",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Nightlife", "Urban Legends"],
     specialTraining: ["Mountain Survival", "Public Speaking"],
   },
@@ -143,7 +159,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +172,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -165,15 +181,17 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Wildlife, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Wildlife, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 52,
-    quote: "The best way to discover glacier-bay is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover glacier-bay is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
     languages: ["Polish", "Greek", "Portuguese"],
     experienceYears: 7,
@@ -203,7 +221,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -216,7 +234,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -229,7 +247,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -242,12 +260,13 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Cultural Etiquette, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of glacier-bay and United States. Specializing in Cultural Etiquette, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 86,
     quote: "In glacier-bay, we don't just see the sights - we make memories.",
@@ -257,5 +276,5 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification"],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Art History", "Archaeological Conservation"],
-  }
+  },
 ];

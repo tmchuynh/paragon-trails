@@ -11,7 +11,13 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Logan is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Local Cuisine, LGBTQ+ History, Music Scene, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Cultural Tour", "Photography Tour", "LGBTQ+ Friendly Tour", "Cruise Excursion", "Group Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Photography Tour",
+      "LGBTQ+ Friendly Tour",
+      "Cruise Excursion",
+      "Group Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-6109-JUN",
     phoneNumber: "+1-647-427-1276",
@@ -27,7 +33,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +46,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -53,20 +59,29 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Local Cuisine, LGBTQ+ History, Music Scene, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Local Cuisine, LGBTQ+ History, Music Scene, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 53,
     quote: "In juneau, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
     languages: ["Spanish", "Bulgarian", "Czech"],
     experienceYears: 2,
-    certifications: ["Local History Certification", "Urban Navigation Specialist"],
-    specialties: ["Film Locations", "Local Cuisine", "LGBTQ+ History", "Music Scene"],
+    certifications: [
+      "Local History Certification",
+      "Urban Navigation Specialist",
+    ],
+    specialties: [
+      "Film Locations",
+      "Local Cuisine",
+      "LGBTQ+ History",
+      "Music Scene",
+    ],
     specialTraining: [],
   },
   {
@@ -79,7 +94,12 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Noah is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Cultural Etiquette, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Relocation Tour", "Cruise Excursion", "Bike Tour", "Audio Tour"],
+    tourTypes: [
+      "Relocation Tour",
+      "Cruise Excursion",
+      "Bike Tour",
+      "Audio Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-8388-JUN",
     phoneNumber: "+1-813-559-1883",
@@ -95,7 +115,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -108,7 +128,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -117,19 +137,25 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Cultural Etiquette, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Cultural Etiquette, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 59,
-    quote: "The best way to discover juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Indonesian"],
     experienceYears: 6,
-    certifications: ["Licensed City Guide", "CPR & First Aid", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "CPR & First Aid",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Urban Planning", "Accessibility Services"],
   },
@@ -143,7 +169,12 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sofia is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Cultural Etiquette, Street Food, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Shopping Tour", "LGBTQ+ Friendly Tour", "Underground Tour", "Boat Tour"],
+    tourTypes: [
+      "Shopping Tour",
+      "LGBTQ+ Friendly Tour",
+      "Underground Tour",
+      "Boat Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-7272-JUN",
     phoneNumber: "+1-447-124-1152",
@@ -159,7 +190,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -172,7 +203,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -185,19 +216,24 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Cultural Etiquette, Street Food, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Film Locations, Cultural Etiquette, Street Food, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 14,
     quote: "My goal is to help you fall in love with juneau just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
     languages: ["Mandarin", "Cantonese", "Dutch"],
     experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate", "Food Safety Certification", "Licensed City Guide"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Food Safety Certification",
+      "Licensed City Guide",
+    ],
     specialties: ["Film Locations", "Cultural Etiquette", "Street Food"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -227,7 +263,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -240,7 +276,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -249,7 +285,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -262,19 +298,24 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Indigenous Culture, Local Markets, Music Scene, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Indigenous Culture, Local Markets, Music Scene, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 77,
     quote: "In juneau, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
     languages: ["Swahili", "Finnish", "Polish"],
     experienceYears: 9,
-    certifications: ["Wilderness First Responder", "CPR & First Aid", "Urban Navigation Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "CPR & First Aid",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Indigenous Culture", "Local Markets", "Music Scene"],
     specialTraining: ["Local Transit Systems"],
   },
@@ -288,7 +329,12 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Hidden Gems, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Caribbean"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Cooking Class", "Festival Tour", "Architecture Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Cooking Class",
+      "Festival Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-4239-JUN",
     phoneNumber: "+1-951-967-7456",
@@ -300,7 +346,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -313,7 +359,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -322,7 +368,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -331,12 +377,13 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Hidden Gems, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of juneau and United States. Specializing in Hidden Gems, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 21,
     quote: "My goal is to help you fall in love with juneau just as I have.",
@@ -346,5 +393,5 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     certifications: ["Licensed City Guide", "Food Safety Certification"],
     specialties: ["Hidden Gems"],
     specialTraining: ["Accessibility Services"],
-  }
+  },
 ];

@@ -11,7 +11,12 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Benjamin is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Indigenous Culture, Architecture, Art Galleries, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "East Coast Canada"],
-    tourTypes: ["Brewery Tour", "Adventure Tour", "Helicopter Tour", "Walking Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Adventure Tour",
+      "Helicopter Tour",
+      "Walking Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-2936-KYO",
     phoneNumber: "+1-209-683-5479",
@@ -27,7 +32,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +41,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -45,12 +50,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Indigenous Culture, Architecture, Art Galleries, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Indigenous Culture, Architecture, Art Galleries, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 91,
     quote: "Every corner of kyoto tells a story, let me share them with you.",
@@ -83,7 +89,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +102,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -105,19 +111,25 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Music Scene, Local Cuisine, Street Food, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Music Scene, Local Cuisine, Street Food, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 64,
-    quote: "kyoto isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "kyoto isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
     languages: ["Tagalog"],
     experienceYears: 11,
-    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification", "Food Safety Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Music Scene", "Local Cuisine", "Street Food"],
     specialTraining: ["Urban Planning"],
   },
@@ -131,7 +143,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Nightlife, Art Galleries, Parks & Gardens, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Audio Tour", "Self-Guided Tour", "Off-Road Tour", "Street Art Tour", "Cooking Class"],
+    tourTypes: [
+      "Audio Tour",
+      "Self-Guided Tour",
+      "Off-Road Tour",
+      "Street Art Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-3185-KYO",
     phoneNumber: "+1-614-442-6530",
@@ -143,7 +161,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +174,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -169,7 +187,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +196,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -187,20 +205,29 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Nightlife, Art Galleries, Parks & Gardens, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Nightlife, Art Galleries, Parks & Gardens, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 89,
     quote: "My goal is to help you fall in love with kyoto just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
     languages: ["Arabic", "Hebrew", "Norwegian"],
     experienceYears: 8,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder"],
-    specialties: ["Nightlife", "Art Galleries", "Parks & Gardens", "Hidden Gems"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Nightlife",
+      "Art Galleries",
+      "Parks & Gardens",
+      "Hidden Gems",
+    ],
     specialTraining: ["Archaeological Conservation", "Desert Navigation"],
   },
   {
@@ -225,7 +252,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -234,7 +261,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -243,20 +270,29 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Sustainable Tourism, Indigenous Culture, Local Craftsmanship, Wildlife, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Sustainable Tourism, Indigenous Culture, Local Craftsmanship, Wildlife, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 42,
     quote: "In kyoto, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Korean"],
     experienceYears: 16,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
-    specialties: ["Sustainable Tourism", "Indigenous Culture", "Local Craftsmanship", "Wildlife"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Eco-Tourism Guide",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Indigenous Culture",
+      "Local Craftsmanship",
+      "Wildlife",
+    ],
     specialTraining: ["Regional Geology"],
   },
   {
@@ -269,7 +305,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "James is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Cultural Etiquette, Parks & Gardens, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Shopping Tour", "Boat Tour", "Romantic Tour", "Festival Tour", "Cooking Class"],
+    tourTypes: [
+      "Shopping Tour",
+      "Boat Tour",
+      "Romantic Tour",
+      "Festival Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-3649-KYO",
     phoneNumber: "+1-579-285-1453",
@@ -281,7 +323,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -294,7 +336,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -303,12 +345,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Cultural Etiquette, Parks & Gardens, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Cultural Etiquette, Parks & Gardens, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 12,
     quote: "My goal is to help you fall in love with kyoto just as I have.",
@@ -329,7 +372,12 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Olivia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Adventure Sports, Wine Tasting, Indigenous Culture, Parks & Gardens, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Adventure Tour", "Relocation Tour", "Cooking Class", "Photography Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Relocation Tour",
+      "Cooking Class",
+      "Photography Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-7704-KYO",
     phoneNumber: "+1-580-849-5573",
@@ -341,7 +389,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -350,12 +398,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Adventure Sports, Wine Tasting, Indigenous Culture, Parks & Gardens, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Adventure Sports, Wine Tasting, Indigenous Culture, Parks & Gardens, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 38,
     quote: "In kyoto, we don't just see the sights - we make memories.",
@@ -363,7 +412,12 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     languages: ["Tagalog", "Swedish", "Indonesian"],
     experienceYears: 3,
     certifications: ["Wilderness First Responder"],
-    specialties: ["Adventure Sports", "Wine Tasting", "Indigenous Culture", "Parks & Gardens"],
+    specialties: [
+      "Adventure Sports",
+      "Wine Tasting",
+      "Indigenous Culture",
+      "Parks & Gardens",
+    ],
     specialTraining: [],
   },
   {
@@ -392,7 +446,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -405,7 +459,7 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -414,12 +468,13 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Public Transportation Navigation, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of kyoto and Japan. Specializing in Public Transportation Navigation, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 17,
     quote: "Every corner of kyoto tells a story, let me share them with you.",
@@ -429,5 +484,5 @@ export const kyotojapanasiaPacificGuides: TourGuide[] = [
     certifications: ["Wilderness First Responder"],
     specialties: ["Public Transportation Navigation"],
     specialTraining: ["Mountain Survival"],
-  }
+  },
 ];

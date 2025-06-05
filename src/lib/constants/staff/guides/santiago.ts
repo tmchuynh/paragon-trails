@@ -23,7 +23,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +32,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -41,7 +41,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -54,19 +54,25 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Film Locations, Hidden Gems, Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Film Locations, Hidden Gems, Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 79,
-    quote: "Every corner of santiago tells a story, let me share them with you.",
+    quote:
+      "Every corner of santiago tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Russian"],
     experienceYears: 9,
-    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador", "Cultural Heritage Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Regional Tourism Ambassador",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Film Locations", "Hidden Gems", "Museums"],
     specialTraining: [],
   },
@@ -80,7 +86,13 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Penelope is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Family-Friendly Tour", "LGBTQ+ Friendly Tour", "Relocation Tour", "Adventure Tour", "Wine Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "LGBTQ+ Friendly Tour",
+      "Relocation Tour",
+      "Adventure Tour",
+      "Wine Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-1034-SAN",
     phoneNumber: "+1-945-390-9761",
@@ -96,7 +108,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +117,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -114,7 +126,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -127,12 +139,13 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 7,
     quote: "In santiago, we don't just see the sights - we make memories.",
@@ -153,7 +166,12 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jacob is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Photography Spots, Street Food, Film Locations, Religious Sites, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Adventure Tour", "Ghost Tour", "Eco Tour", "Architecture Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Ghost Tour",
+      "Eco Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-7617-SAN",
     phoneNumber: "+1-779-591-4616",
@@ -165,7 +183,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +196,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -187,20 +205,27 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Photography Spots, Street Food, Film Locations, Religious Sites, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Photography Spots, Street Food, Film Locations, Religious Sites, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 78,
-    quote: "santiago isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "santiago isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
     languages: ["Spanish"],
     experienceYears: 10,
     certifications: ["CPR & First Aid", "Professional Tour Guide Association"],
-    specialties: ["Photography Spots", "Street Food", "Film Locations", "Religious Sites"],
+    specialties: [
+      "Photography Spots",
+      "Street Food",
+      "Film Locations",
+      "Religious Sites",
+    ],
     specialTraining: [],
   },
   {
@@ -225,7 +250,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -238,7 +263,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -251,19 +276,23 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Museums, Art Galleries, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Museums, Art Galleries, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 48,
     quote: "In santiago, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
     languages: ["Russian"],
     experienceYears: 9,
-    certifications: ["Local History Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Local History Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Museums", "Art Galleries"],
     specialTraining: ["Historical Research Methods", "Desert Navigation"],
   },
@@ -277,7 +306,13 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Alaska"],
-    tourTypes: ["Walking Tour", "Boat Tour", "Religious Tour", "Cruise Excursion", "Luxury Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Boat Tour",
+      "Religious Tour",
+      "Cruise Excursion",
+      "Luxury Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-6377-SAN",
     phoneNumber: "+1-790-526-6056",
@@ -293,7 +328,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -306,7 +341,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -315,15 +350,17 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 59,
-    quote: "Every corner of santiago tells a story, let me share them with you.",
+    quote:
+      "Every corner of santiago tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
     languages: ["Russian"],
     experienceYears: 2,
@@ -357,7 +394,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -366,7 +403,7 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -379,20 +416,25 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 35,
-    quote: "The best way to discover santiago is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover santiago is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["English", "Bulgarian"],
     experienceYears: 6,
-    certifications: ["Sustainable Tourism Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Music Scene"],
     specialTraining: ["Regional Geology", "Conflict Resolution"],
-  }
+  },
 ];

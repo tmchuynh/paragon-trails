@@ -11,7 +11,12 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "William is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Indigenous Culture, Film Locations, Photography Spots, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "Mediterranean"],
-    tourTypes: ["Brewery Tour", "Cooking Class", "Eco Tour", "Photography Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Cooking Class",
+      "Eco Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-8985-MIL",
     phoneNumber: "+1-395-173-6777",
@@ -23,7 +28,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +41,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +50,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -58,12 +63,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Indigenous Culture, Film Locations, Photography Spots, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Indigenous Culture, Film Locations, Photography Spots, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 75,
     quote: "My goal is to help you fall in love with milan just as I have.",
@@ -96,7 +102,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -105,12 +111,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Public Transportation Navigation, Religious Sites, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Public Transportation Navigation, Religious Sites, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 54,
     quote: "My goal is to help you fall in love with milan just as I have.",
@@ -147,7 +154,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +163,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -165,19 +172,23 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Family Activities, Adventure Sports, Street Food, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Family Activities, Adventure Sports, Street Food, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 30,
     quote: "Every corner of milan tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Italian", "Hebrew"],
     experienceYears: 16,
-    certifications: ["Language Proficiency Certification", "Certified International Tour Manager"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Family Activities", "Adventure Sports", "Street Food"],
     specialTraining: [],
   },
@@ -203,7 +214,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -216,7 +227,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -229,7 +240,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -238,12 +249,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Sustainable Tourism, Religious Sites, Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Sustainable Tourism, Religious Sites, Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 20,
     quote: "In milan, we don't just see the sights - we make memories.",
@@ -264,7 +276,12 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Aiden is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Music Scene, Hidden Gems, Sustainable Tourism, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "South America"],
-    tourTypes: ["Eco Tour", "Shopping Tour", "Helicopter Tour", "Accessible Tour"],
+    tourTypes: [
+      "Eco Tour",
+      "Shopping Tour",
+      "Helicopter Tour",
+      "Accessible Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-6517-MIL",
     phoneNumber: "+1-210-369-5699",
@@ -276,7 +293,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -285,7 +302,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -294,12 +311,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Music Scene, Hidden Gems, Sustainable Tourism, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of milan and Italy. Specializing in Music Scene, Hidden Gems, Sustainable Tourism, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 29,
     quote: "In milan, we don't just see the sights - we make memories.",
@@ -309,5 +327,5 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide"],
     specialties: ["Music Scene", "Hidden Gems", "Sustainable Tourism"],
     specialTraining: ["Cultural Sensitivity"],
-  }
+  },
 ];

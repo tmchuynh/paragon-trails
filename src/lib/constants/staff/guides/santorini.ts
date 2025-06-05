@@ -23,7 +23,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -54,20 +54,27 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Local Markets, Photography Spots, Historical Landmarks, Public Transportation Navigation, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Local Markets, Photography Spots, Historical Landmarks, Public Transportation Navigation, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 98,
-    quote: "Every corner of santorini tells a story, let me share them with you.",
+    quote:
+      "Every corner of santorini tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Finnish", "Polish", "Portuguese"],
     experienceYears: 5,
     certifications: ["CPR & First Aid"],
-    specialties: ["Local Markets", "Photography Spots", "Historical Landmarks", "Public Transportation Navigation"],
+    specialties: [
+      "Local Markets",
+      "Photography Spots",
+      "Historical Landmarks",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Marine Biology", "Regional Cuisine"],
   },
   {
@@ -92,7 +99,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +112,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -114,7 +121,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -127,20 +134,30 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Indigenous Culture, Public Transportation Navigation, Museums, Religious Sites, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Indigenous Culture, Public Transportation Navigation, Museums, Religious Sites, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 100,
-    quote: "Every corner of santorini tells a story, let me share them with you.",
+    quote:
+      "Every corner of santorini tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
     languages: ["Indonesian", "Hindi"],
     experienceYears: 8,
-    certifications: ["Cultural Heritage Specialist", "Language Proficiency Certification"],
-    specialties: ["Indigenous Culture", "Public Transportation Navigation", "Museums", "Religious Sites"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Public Transportation Navigation",
+      "Museums",
+      "Religious Sites",
+    ],
     specialTraining: ["Local Flora & Fauna", "Mountain Survival"],
   },
   {
@@ -153,7 +170,12 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Architecture, LGBTQ+ History, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Shopping Tour", "Romantic Tour", "Walking Tour", "Craft Workshop"],
+    tourTypes: [
+      "Shopping Tour",
+      "Romantic Tour",
+      "Walking Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-6296-SAN",
     phoneNumber: "+1-572-819-8714",
@@ -169,7 +191,7 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -178,12 +200,13 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Architecture, LGBTQ+ History, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of santorini and Greece. Specializing in Architecture, LGBTQ+ History, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 104,
     quote: "In santorini, we don't just see the sights - we make memories.",
@@ -193,5 +216,5 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
     certifications: ["Urban Navigation Specialist"],
     specialties: ["Architecture", "LGBTQ+ History", "Local Markets"],
     specialTraining: ["Wine Education"],
-  }
+  },
 ];

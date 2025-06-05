@@ -11,7 +11,12 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Emma is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Indigenous Culture, Photography Spots, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Mediterranean"],
-    tourTypes: ["Ghost Tour", "Food Tour", "LGBTQ+ Friendly Tour", "Craft Workshop"],
+    tourTypes: [
+      "Ghost Tour",
+      "Food Tour",
+      "LGBTQ+ Friendly Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-5410-AUC",
     phoneNumber: "+1-317-365-8711",
@@ -23,7 +28,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +37,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -41,20 +46,30 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Indigenous Culture, Photography Spots, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Indigenous Culture, Photography Spots, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 34,
-    quote: "The best way to discover auckland is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover auckland is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
     languages: ["Malay", "Tagalog"],
     experienceYears: 7,
-    certifications: ["CPR & First Aid", "Eco-Tourism Guide", "Professional Tour Guide Association"],
-    specialties: ["Indigenous Culture", "Photography Spots", "Public Transportation Navigation"],
+    certifications: [
+      "CPR & First Aid",
+      "Eco-Tourism Guide",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Photography Spots",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Regional Cuisine", "Photography"],
   },
   {
@@ -79,7 +94,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -92,7 +107,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +120,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -118,12 +133,13 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Urban Legends, Nightlife, Local Craftsmanship, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Urban Legends, Nightlife, Local Craftsmanship, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 50,
     quote: "In auckland, we don't just see the sights - we make memories.",
@@ -160,7 +176,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +189,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -182,7 +198,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -191,20 +207,30 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Photography Spots, Cultural Etiquette, Sustainable Tourism, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Photography Spots, Cultural Etiquette, Sustainable Tourism, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 75,
-    quote: "Every corner of auckland tells a story, let me share them with you.",
+    quote:
+      "Every corner of auckland tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
     languages: ["Czech", "Tagalog"],
     experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate", "Language Proficiency Certification"],
-    specialties: ["Photography Spots", "Cultural Etiquette", "Sustainable Tourism"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Adventure Tourism Safety Certificate",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Photography Spots",
+      "Cultural Etiquette",
+      "Sustainable Tourism",
+    ],
     specialTraining: ["Emergency Response"],
   },
   {
@@ -217,7 +243,12 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Amelia is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Music Scene, Art Galleries, LGBTQ+ History, Nightlife, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Cultural Tour", "Romantic Tour", "Photography Tour", "Festival Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Romantic Tour",
+      "Photography Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-3197-AUC",
     phoneNumber: "+1-797-113-7276",
@@ -233,7 +264,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -246,7 +277,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -255,7 +286,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -268,20 +299,30 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Music Scene, Art Galleries, LGBTQ+ History, Nightlife, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Music Scene, Art Galleries, LGBTQ+ History, Nightlife, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 34,
     quote: "My goal is to help you fall in love with auckland just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
     languages: ["Tagalog"],
     experienceYears: 2,
-    certifications: ["Certified International Tour Manager", "Licensed City Guide", "Wilderness First Responder"],
-    specialties: ["Music Scene", "Art Galleries", "LGBTQ+ History", "Nightlife"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Licensed City Guide",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Music Scene",
+      "Art Galleries",
+      "LGBTQ+ History",
+      "Nightlife",
+    ],
     specialTraining: ["Accessibility Services"],
   },
   {
@@ -294,7 +335,13 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Elijah is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Religious Sites, Sustainable Tourism, Adventure Sports, Family Activities, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "East Coast USA"],
-    tourTypes: ["Family-Friendly Tour", "Audio Tour", "Religious Tour", "Farm Visit", "Adventure Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Audio Tour",
+      "Religious Tour",
+      "Farm Visit",
+      "Adventure Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-6720-AUC",
     phoneNumber: "+1-938-282-2835",
@@ -310,7 +357,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -319,7 +366,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -328,7 +375,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -341,20 +388,27 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Religious Sites, Sustainable Tourism, Adventure Sports, Family Activities, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of auckland and New Zealand. Specializing in Religious Sites, Sustainable Tourism, Adventure Sports, Family Activities, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 36,
-    quote: "auckland isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "auckland isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
     languages: ["Portuguese", "Arabic", "Italian"],
     experienceYears: 7,
     certifications: ["Food Safety Certification"],
-    specialties: ["Religious Sites", "Sustainable Tourism", "Adventure Sports", "Family Activities"],
+    specialties: [
+      "Religious Sites",
+      "Sustainable Tourism",
+      "Adventure Sports",
+      "Family Activities",
+    ],
     specialTraining: ["Urban Planning"],
-  }
+  },
 ];

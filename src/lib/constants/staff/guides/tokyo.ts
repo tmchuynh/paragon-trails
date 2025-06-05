@@ -23,7 +23,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -32,19 +32,25 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Local Markets, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Local Markets, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 35,
-    quote: "tokyo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "tokyo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Bulgarian"],
     experienceYears: 11,
-    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification", "Food Safety Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Local Markets"],
     specialTraining: ["Photography", "Religious Studies"],
   },
@@ -58,7 +64,12 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Layla is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Wildlife, Hidden Gems, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Self-Guided Tour", "Ghost Tour", "Scenic Tour", "Photography Tour"],
+    tourTypes: [
+      "Self-Guided Tour",
+      "Ghost Tour",
+      "Scenic Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-5944-TOK",
     phoneNumber: "+1-516-172-3913",
@@ -70,7 +81,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -79,7 +90,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -88,7 +99,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -97,12 +108,13 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Wildlife, Hidden Gems, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Wildlife, Hidden Gems, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 41,
     quote: "My goal is to help you fall in love with tokyo just as I have.",
@@ -139,7 +151,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +160,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -157,7 +169,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -166,20 +178,25 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Sustainable Tourism, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of tokyo and Japan. Specializing in Sustainable Tourism, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 46,
     quote: "In tokyo, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
     languages: ["Turkish"],
     experienceYears: 5,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Cultural Heritage Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Sustainable Tourism"],
     specialTraining: ["Local Transit Systems"],
-  }
+  },
 ];

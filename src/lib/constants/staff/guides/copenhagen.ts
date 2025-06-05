@@ -11,7 +11,13 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Adventure Sports, Museums, Local Craftsmanship, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Craft Workshop", "Helicopter Tour", "Underground Tour", "Cruise Excursion", "Boat Tour"],
+    tourTypes: [
+      "Craft Workshop",
+      "Helicopter Tour",
+      "Underground Tour",
+      "Cruise Excursion",
+      "Boat Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-9882-COP",
     phoneNumber: "+1-505-573-2588",
@@ -27,7 +33,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +46,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -53,7 +59,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -66,15 +72,17 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Adventure Sports, Museums, Local Craftsmanship, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Adventure Sports, Museums, Local Craftsmanship, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 51,
-    quote: "copenhagen isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "copenhagen isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     languages: ["Swedish", "Tagalog"],
     experienceYears: 9,
@@ -92,7 +100,12 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mason is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Indigenous Culture, Street Food, Local Markets, Art Galleries, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Private Tour", "Self-Guided Tour", "Helicopter Tour", "Boat Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Self-Guided Tour",
+      "Helicopter Tour",
+      "Boat Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-1419-COP",
     phoneNumber: "+1-462-641-5274",
@@ -104,7 +117,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -113,20 +126,30 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Indigenous Culture, Street Food, Local Markets, Art Galleries, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Indigenous Culture, Street Food, Local Markets, Art Galleries, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 91,
     quote: "In copenhagen, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
     languages: ["Korean"],
     experienceYears: 14,
-    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Wilderness First Responder"],
-    specialties: ["Indigenous Culture", "Street Food", "Local Markets", "Art Galleries"],
+    certifications: [
+      "CPR & First Aid",
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Street Food",
+      "Local Markets",
+      "Art Galleries",
+    ],
     specialTraining: [],
   },
   {
@@ -151,7 +174,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -164,7 +187,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +196,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -182,19 +205,24 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Museums, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Museums, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 60,
-    quote: "copenhagen isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "copenhagen isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
     languages: ["Indonesian"],
     experienceYears: 5,
-    certifications: ["Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Food Safety Certification",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Museums"],
     specialTraining: [],
   },
@@ -220,7 +248,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -229,20 +257,26 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Public Transportation Navigation, Art Galleries, Photography Spots, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of copenhagen and Denmark. Specializing in Public Transportation Navigation, Art Galleries, Photography Spots, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 58,
-    quote: "My goal is to help you fall in love with copenhagen just as I have.",
+    quote:
+      "My goal is to help you fall in love with copenhagen just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
     languages: ["Vietnamese", "Russian"],
     experienceYears: 13,
     certifications: ["Licensed City Guide", "Eco-Tourism Guide"],
-    specialties: ["Public Transportation Navigation", "Art Galleries", "Photography Spots"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Art Galleries",
+      "Photography Spots",
+    ],
     specialTraining: ["Archaeological Conservation", "Group Management"],
-  }
+  },
 ];

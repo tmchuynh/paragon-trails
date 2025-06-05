@@ -27,7 +27,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -45,20 +45,26 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Public Transportation Navigation, Museums, Architecture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Public Transportation Navigation, Museums, Architecture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 5,
-    quote: "berlin isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "berlin isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
     languages: ["Indonesian", "Japanese"],
     experienceYears: 3,
     certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Public Transportation Navigation", "Museums", "Architecture"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Museums",
+      "Architecture",
+    ],
     specialTraining: [],
   },
   {
@@ -83,7 +89,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -92,7 +98,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +111,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -118,7 +124,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -131,19 +137,24 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Wine Tasting, Art Galleries, Local Craftsmanship, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Wine Tasting, Art Galleries, Local Craftsmanship, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 92,
     quote: "In berlin, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
     languages: ["Russian"],
     experienceYears: 9,
-    certifications: ["Urban Navigation Specialist", "CPR & First Aid", "Wilderness First Responder"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "CPR & First Aid",
+      "Wilderness First Responder",
+    ],
     specialties: ["Wine Tasting", "Art Galleries", "Local Craftsmanship"],
     specialTraining: [],
   },
@@ -169,7 +180,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +189,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -191,12 +202,13 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Adventure Sports, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Adventure Sports, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 92,
     quote: "Every corner of berlin tells a story, let me share them with you.",
@@ -217,7 +229,13 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mason is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Art Galleries, Adventure Sports, Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Off-Road Tour", "Relocation Tour", "Farm Visit", "Self-Guided Tour", "Underground Tour"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Relocation Tour",
+      "Farm Visit",
+      "Self-Guided Tour",
+      "Underground Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-5161-BER",
     phoneNumber: "+1-783-127-3738",
@@ -229,7 +247,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -242,7 +260,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +269,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -260,12 +278,13 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Art Galleries, Adventure Sports, Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Art Galleries, Adventure Sports, Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 23,
     quote: "In berlin, we don't just see the sights - we make memories.",
@@ -286,7 +305,13 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Sustainable Tourism, Local Cuisine, Indigenous Culture, Film Locations, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cruise Excursion", "Cooking Class", "Religious Tour", "Walking Tour", "Underground Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Cooking Class",
+      "Religious Tour",
+      "Walking Tour",
+      "Underground Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-5006-BER",
     phoneNumber: "+1-898-932-7620",
@@ -298,7 +323,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -311,7 +336,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -324,20 +349,29 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Sustainable Tourism, Local Cuisine, Indigenous Culture, Film Locations, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of berlin and Germany. Specializing in Sustainable Tourism, Local Cuisine, Indigenous Culture, Film Locations, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 83,
     quote: "In berlin, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
     languages: ["German", "Korean"],
     experienceYears: 14,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
-    specialties: ["Sustainable Tourism", "Local Cuisine", "Indigenous Culture", "Film Locations"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Eco-Tourism Guide",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Local Cuisine",
+      "Indigenous Culture",
+      "Film Locations",
+    ],
     specialTraining: ["Urban Planning"],
-  }
+  },
 ];

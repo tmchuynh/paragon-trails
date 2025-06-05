@@ -23,7 +23,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -62,7 +62,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -75,20 +75,27 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Hidden Gems, Religious Sites, Cultural Etiquette, Wildlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Hidden Gems, Religious Sites, Cultural Etiquette, Wildlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 7,
-    quote: "new-orleans isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "new-orleans isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
     languages: ["Vietnamese"],
     experienceYears: 12,
     certifications: ["CPR & First Aid", "Professional Tour Guide Association"],
-    specialties: ["Hidden Gems", "Religious Sites", "Cultural Etiquette", "Wildlife"],
+    specialties: [
+      "Hidden Gems",
+      "Religious Sites",
+      "Cultural Etiquette",
+      "Wildlife",
+    ],
     specialTraining: [],
   },
   {
@@ -117,7 +124,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -126,7 +133,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -135,7 +142,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -144,7 +151,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -153,19 +160,24 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Street Food, Film Locations, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Street Food, Film Locations, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 79,
-    quote: "Every corner of new-orleans tells a story, let me share them with you.",
+    quote:
+      "Every corner of new-orleans tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
     languages: ["Dutch", "Japanese", "Polish"],
     experienceYears: 7,
-    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Street Food", "Film Locations"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -191,7 +203,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -200,7 +212,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -213,7 +225,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -226,20 +238,27 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Nightlife, Local Cuisine, Indigenous Culture, Historical Landmarks, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Nightlife, Local Cuisine, Indigenous Culture, Historical Landmarks, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 16,
-    quote: "Every corner of new-orleans tells a story, let me share them with you.",
+    quote:
+      "Every corner of new-orleans tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
     languages: ["Romanian"],
     experienceYears: 2,
     certifications: ["CPR & First Aid", "Wilderness First Responder"],
-    specialties: ["Nightlife", "Local Cuisine", "Indigenous Culture", "Historical Landmarks"],
+    specialties: [
+      "Nightlife",
+      "Local Cuisine",
+      "Indigenous Culture",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Regional Geology"],
   },
   {
@@ -252,7 +271,12 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Logan is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Sustainable Tourism, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Family-Friendly Tour", "Farm Visit", "Accessible Tour", "Relocation Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Farm Visit",
+      "Accessible Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-2262-NEW",
     phoneNumber: "+1-402-131-9492",
@@ -268,7 +292,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -277,7 +301,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -290,20 +314,26 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Sustainable Tourism, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of new-orleans and United States. Specializing in Sustainable Tourism, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 43,
-    quote: "Every corner of new-orleans tells a story, let me share them with you.",
+    quote:
+      "Every corner of new-orleans tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
     languages: ["Hebrew", "Vietnamese", "Japanese"],
     experienceYears: 7,
-    certifications: ["Cultural Heritage Specialist", "Licensed City Guide", "Wilderness First Responder"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Licensed City Guide",
+      "Wilderness First Responder",
+    ],
     specialties: ["Sustainable Tourism"],
     specialTraining: ["Accessibility Services"],
-  }
+  },
 ];

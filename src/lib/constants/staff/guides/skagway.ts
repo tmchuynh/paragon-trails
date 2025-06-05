@@ -11,7 +11,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Penelope is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Nightlife, Urban Legends, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Accessible Tour", "Ghost Tour", "Shopping Tour", "Festival Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Ghost Tour",
+      "Shopping Tour",
+      "Festival Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-4830-SKA",
     phoneNumber: "+1-890-306-1699",
@@ -23,7 +29,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +38,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -41,12 +47,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Nightlife, Urban Legends, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Nightlife, Urban Legends, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 48,
     quote: "In skagway, we don't just see the sights - we make memories.",
@@ -79,7 +86,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -88,7 +95,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -101,20 +108,30 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Sustainable Tourism, Local Markets, LGBTQ+ History, Cultural Etiquette, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Sustainable Tourism, Local Markets, LGBTQ+ History, Cultural Etiquette, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 68,
-    quote: "The best way to discover skagway is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover skagway is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Portuguese", "Cantonese"],
     experienceYears: 6,
-    certifications: ["Certified International Tour Manager", "Eco-Tourism Guide"],
-    specialties: ["Sustainable Tourism", "Local Markets", "LGBTQ+ History", "Cultural Etiquette"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Eco-Tourism Guide",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Local Markets",
+      "LGBTQ+ History",
+      "Cultural Etiquette",
+    ],
     specialTraining: ["Art History", "Urban Planning"],
   },
   {
@@ -127,7 +144,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Music Scene, Urban Legends, Parks & Gardens, Photography Spots, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "East Coast Canada"],
-    tourTypes: ["Scenic Tour", "Religious Tour", "Family-Friendly Tour", "Architecture Tour", "Craft Workshop"],
+    tourTypes: [
+      "Scenic Tour",
+      "Religious Tour",
+      "Family-Friendly Tour",
+      "Architecture Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-9819-SKA",
     phoneNumber: "+1-298-637-5279",
@@ -143,7 +166,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -152,7 +175,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -165,7 +188,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -174,20 +197,29 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Music Scene, Urban Legends, Parks & Gardens, Photography Spots, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Music Scene, Urban Legends, Parks & Gardens, Photography Spots, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 26,
     quote: "In skagway, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
     languages: ["Romanian", "Hebrew", "Croatian"],
     experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification"],
-    specialties: ["Music Scene", "Urban Legends", "Parks & Gardens", "Photography Spots"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Music Scene",
+      "Urban Legends",
+      "Parks & Gardens",
+      "Photography Spots",
+    ],
     specialTraining: ["Wine Education", "Public Speaking"],
   },
   {
@@ -216,7 +248,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -229,7 +261,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -242,7 +274,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -251,15 +283,17 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Local Cuisine, Photography Spots, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Local Cuisine, Photography Spots, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 103,
-    quote: "The best way to discover skagway is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover skagway is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Romanian", "Swahili"],
     experienceYears: 8,
@@ -293,7 +327,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -306,7 +340,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -315,12 +349,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Photography Spots, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Photography Spots, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 93,
     quote: "In skagway, we don't just see the sights - we make memories.",
@@ -341,7 +376,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Museums, Architecture, Nightlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Historical Tour", "Wildlife Safari", "Ghost Tour", "Craft Workshop", "Museum Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Wildlife Safari",
+      "Ghost Tour",
+      "Craft Workshop",
+      "Museum Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-1501-SKA",
     phoneNumber: "+1-366-541-3090",
@@ -357,7 +398,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -366,7 +407,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -379,7 +420,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -388,19 +429,23 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Museums, Architecture, Nightlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Museums, Architecture, Nightlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 62,
     quote: "In skagway, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
     languages: ["Swedish", "Swahili"],
     experienceYears: 2,
-    certifications: ["Urban Navigation Specialist", "Food Safety Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Food Safety Certification",
+    ],
     specialties: ["Museums", "Architecture", "Nightlife"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -414,7 +459,13 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Chloe is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Urban Legends, Art Galleries, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Walking Tour", "Romantic Tour", "Cultural Tour", "Photography Tour", "Nature Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Romantic Tour",
+      "Cultural Tour",
+      "Photography Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-3327-SKA",
     phoneNumber: "+1-387-648-2323",
@@ -430,7 +481,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -439,7 +490,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -452,7 +503,7 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -461,20 +512,25 @@ export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Urban Legends, Art Galleries, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of skagway and United States. Specializing in Urban Legends, Art Galleries, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 90,
     quote: "My goal is to help you fall in love with skagway just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
     languages: ["Danish"],
     experienceYears: 14,
-    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Urban Navigation Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["Urban Legends", "Art Galleries"],
     specialTraining: [],
-  }
+  },
 ];

@@ -23,7 +23,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -58,19 +58,24 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 10,
-    quote: "The best way to discover miami is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover miami is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
     languages: ["Japanese"],
     experienceYears: 3,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
+    certifications: [
+      "Food Safety Certification",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Wine Tasting"],
     specialTraining: [],
   },
@@ -84,7 +89,12 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Grace is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Craftsmanship, Indigenous Culture, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Historical Tour", "Street Art Tour", "Farm Visit"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Historical Tour",
+      "Street Art Tour",
+      "Farm Visit",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-7039-MIA",
     phoneNumber: "+1-166-527-2262",
@@ -100,7 +110,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -113,7 +123,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -122,7 +132,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -135,19 +145,24 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Craftsmanship, Indigenous Culture, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Craftsmanship, Indigenous Culture, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 102,
-    quote: "miami isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "miami isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Hindi", "Hungarian", "Cantonese"],
     experienceYears: 12,
-    certifications: ["Professional Tour Guide Association", "Wilderness First Responder"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Wilderness First Responder",
+    ],
     specialties: ["Local Craftsmanship", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -173,7 +188,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -186,7 +201,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -195,7 +210,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -208,20 +223,29 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Sustainable Tourism, Photography Spots, Religious Sites, Local Craftsmanship, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Sustainable Tourism, Photography Spots, Religious Sites, Local Craftsmanship, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 5,
     quote: "In miami, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
     languages: ["Swedish"],
     experienceYears: 14,
-    certifications: ["Professional Tour Guide Association", "Adventure Tourism Safety Certificate"],
-    specialties: ["Sustainable Tourism", "Photography Spots", "Religious Sites", "Local Craftsmanship"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Adventure Tourism Safety Certificate",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Photography Spots",
+      "Religious Sites",
+      "Local Craftsmanship",
+    ],
     specialTraining: [],
   },
   {
@@ -250,7 +274,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -259,7 +283,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -272,12 +296,13 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Public Transportation Navigation, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Public Transportation Navigation, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 50,
     quote: "My goal is to help you fall in love with miami just as I have.",
@@ -314,7 +339,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -327,7 +352,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -340,7 +365,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -353,19 +378,23 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Street Food, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Street Food, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 30,
     quote: "Every corner of miami tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
     languages: ["Japanese", "Italian"],
     experienceYears: 14,
-    certifications: ["Food Safety Certification", "Urban Navigation Specialist"],
+    certifications: [
+      "Food Safety Certification",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Street Food"],
     specialTraining: ["Wine Education"],
   },
@@ -379,7 +408,13 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Riley is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Cuisine, Parks & Gardens, Religious Sites, Public Transportation Navigation, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: ["Festival Tour", "Photography Tour", "Eco Tour", "Cruise Excursion", "Brewery Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Photography Tour",
+      "Eco Tour",
+      "Cruise Excursion",
+      "Brewery Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-8188-MIA",
     phoneNumber: "+1-149-935-4629",
@@ -395,7 +430,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -408,7 +443,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -421,20 +456,30 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Cuisine, Parks & Gardens, Religious Sites, Public Transportation Navigation, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of miami and United States. Specializing in Local Cuisine, Parks & Gardens, Religious Sites, Public Transportation Navigation, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 23,
-    quote: "The best way to discover miami is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover miami is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
     languages: ["Greek", "Malay"],
     experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager"],
-    specialties: ["Local Cuisine", "Parks & Gardens", "Religious Sites", "Public Transportation Navigation"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Certified International Tour Manager",
+    ],
+    specialties: [
+      "Local Cuisine",
+      "Parks & Gardens",
+      "Religious Sites",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Local Transit Systems"],
-  }
+  },
 ];

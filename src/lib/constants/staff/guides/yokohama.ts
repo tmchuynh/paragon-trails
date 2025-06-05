@@ -23,7 +23,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -32,19 +32,24 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Hidden Gems, Museums, Local Cuisine, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Hidden Gems, Museums, Local Cuisine, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 47,
-    quote: "The best way to discover yokohama is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover yokohama is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
     languages: ["Arabic"],
     experienceYears: 8,
-    certifications: ["Certified International Tour Manager", "Wilderness First Responder"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Wilderness First Responder",
+    ],
     specialties: ["Hidden Gems", "Museums", "Local Cuisine"],
     specialTraining: [],
   },
@@ -58,7 +63,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "David is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Wine Tasting, David provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Middle East"],
-    tourTypes: ["Group Tour", "Brewery Tour", "Walking Tour", "Festival Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Group Tour",
+      "Brewery Tour",
+      "Walking Tour",
+      "Festival Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-4207-YOK",
     phoneNumber: "+1-251-539-4407",
@@ -74,7 +85,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -87,7 +98,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +107,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -105,15 +116,17 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Wine Tasting, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Wine Tasting, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 29,
-    quote: "The best way to discover yokohama is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover yokohama is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
     languages: ["Japanese", "French"],
     experienceYears: 14,
@@ -131,7 +144,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Logan is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Public Transportation Navigation, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Wildlife Safari", "Group Tour", "Brewery Tour", "Luxury Tour", "Architecture Tour"],
+    tourTypes: [
+      "Wildlife Safari",
+      "Group Tour",
+      "Brewery Tour",
+      "Luxury Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-5362-YOK",
     phoneNumber: "+1-706-814-4819",
@@ -147,7 +166,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -160,7 +179,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -173,12 +192,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Public Transportation Navigation, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Public Transportation Navigation, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 97,
     quote: "My goal is to help you fall in love with yokohama just as I have.",
@@ -215,7 +235,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -228,7 +248,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -237,7 +257,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -250,19 +270,24 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Music Scene, Film Locations, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Music Scene, Film Locations, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 99,
-    quote: "yokohama isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "yokohama isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
     languages: ["Serbian"],
     experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Music Scene", "Film Locations"],
     specialTraining: ["Local Flora & Fauna"],
   },
@@ -292,7 +317,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -305,7 +330,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -318,19 +343,24 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Street Food, Wildlife, Parks & Gardens, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Street Food, Wildlife, Parks & Gardens, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 60,
-    quote: "Every corner of yokohama tells a story, let me share them with you.",
+    quote:
+      "Every corner of yokohama tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
     languages: ["Italian", "Cantonese", "Finnish"],
     experienceYears: 11,
-    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Street Food", "Wildlife", "Parks & Gardens", "Music Scene"],
     specialTraining: ["Public Speaking"],
   },
@@ -344,7 +374,12 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Cultural Etiquette, Wine Tasting, Sustainable Tourism, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "East Coast Canada"],
-    tourTypes: ["Eco Tour", "Architecture Tour", "Family-Friendly Tour", "Shopping Tour"],
+    tourTypes: [
+      "Eco Tour",
+      "Architecture Tour",
+      "Family-Friendly Tour",
+      "Shopping Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-2759-YOK",
     phoneNumber: "+1-611-560-8981",
@@ -356,7 +391,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -369,7 +404,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -382,7 +417,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -391,20 +426,25 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Cultural Etiquette, Wine Tasting, Sustainable Tourism, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of yokohama and Japan. Specializing in Cultural Etiquette, Wine Tasting, Sustainable Tourism, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 101,
-    quote: "The best way to discover yokohama is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover yokohama is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Japanese", "Greek", "Swahili"],
     experienceYears: 2,
-    certifications: ["Food Safety Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Food Safety Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Cultural Etiquette", "Wine Tasting", "Sustainable Tourism"],
     specialTraining: ["Accessibility Services"],
-  }
+  },
 ];

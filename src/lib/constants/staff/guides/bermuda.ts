@@ -11,7 +11,13 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Amelia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Hidden Gems, Architecture, Historical Landmarks, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "South America"],
-    tourTypes: ["Market Tour", "Ghost Tour", "Romantic Tour", "Brewery Tour", "Nature Tour"],
+    tourTypes: [
+      "Market Tour",
+      "Ghost Tour",
+      "Romantic Tour",
+      "Brewery Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-3744-BER",
     phoneNumber: "+1-277-613-4699",
@@ -23,7 +29,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +38,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -45,19 +51,23 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Hidden Gems, Architecture, Historical Landmarks, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Hidden Gems, Architecture, Historical Landmarks, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 20,
     quote: "My goal is to help you fall in love with bermuda just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Tagalog"],
     experienceYears: 12,
-    certifications: ["Local History Certification", "Professional Tour Guide Association"],
+    certifications: [
+      "Local History Certification",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Hidden Gems", "Architecture", "Historical Landmarks"],
     specialTraining: ["Group Management"],
   },
@@ -83,7 +93,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +106,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -105,19 +115,24 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in LGBTQ+ History, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in LGBTQ+ History, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 50,
     quote: "My goal is to help you fall in love with bermuda just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     languages: ["Italian", "Czech"],
     experienceYears: 9,
-    certifications: ["CPR & First Aid", "Professional Tour Guide Association", "Language Proficiency Certification"],
+    certifications: [
+      "CPR & First Aid",
+      "Professional Tour Guide Association",
+      "Language Proficiency Certification",
+    ],
     specialties: ["LGBTQ+ History"],
     specialTraining: ["Regional Geology"],
   },
@@ -143,7 +158,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -152,7 +167,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -165,7 +180,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +193,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -191,12 +206,13 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Wildlife, Urban Legends, Museums, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Wildlife, Urban Legends, Museums, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 79,
     quote: "Every corner of bermuda tells a story, let me share them with you.",
@@ -233,7 +249,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -246,7 +262,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -259,20 +275,30 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Parks & Gardens, Family Activities, Adventure Sports, Local Markets, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Parks & Gardens, Family Activities, Adventure Sports, Local Markets, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 30,
-    quote: "bermuda isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "bermuda isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
     languages: ["Polish"],
     experienceYears: 5,
-    certifications: ["Regional Tourism Ambassador", "Sustainable Tourism Certificate"],
-    specialties: ["Parks & Gardens", "Family Activities", "Adventure Sports", "Local Markets"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Parks & Gardens",
+      "Family Activities",
+      "Adventure Sports",
+      "Local Markets",
+    ],
     specialTraining: ["Accessibility Services"],
   },
   {
@@ -301,7 +327,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -314,7 +340,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -323,7 +349,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -332,15 +358,17 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Public Transportation Navigation, Adventure Sports, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Public Transportation Navigation, Adventure Sports, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 25,
-    quote: "bermuda isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "bermuda isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
     languages: ["Hindi", "Arabic", "Mandarin"],
     experienceYears: 7,
@@ -374,7 +402,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +411,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -392,7 +420,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -405,7 +433,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -414,19 +442,23 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Parks & Gardens, Wine Tasting, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Parks & Gardens, Wine Tasting, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 93,
     quote: "Every corner of bermuda tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Croatian"],
     experienceYears: 9,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Parks & Gardens", "Wine Tasting"],
     specialTraining: [],
   },
@@ -440,7 +472,13 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Sustainable Tourism, Museums, Art Galleries, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "West Coast USA"],
-    tourTypes: ["Accessible Tour", "Group Tour", "Underground Tour", "Photography Tour", "Audio Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Group Tour",
+      "Underground Tour",
+      "Photography Tour",
+      "Audio Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-5273-BER",
     phoneNumber: "+1-671-289-1734",
@@ -452,7 +490,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -461,7 +499,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -474,20 +512,30 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Sustainable Tourism, Museums, Art Galleries, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of bermuda and Bermuda. Specializing in Sustainable Tourism, Museums, Art Galleries, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 98,
     quote: "In bermuda, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Korean", "Swahili"],
     experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate", "Wilderness First Responder", "Food Safety Certification"],
-    specialties: ["Sustainable Tourism", "Museums", "Art Galleries", "Family Activities"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Wilderness First Responder",
+      "Food Safety Certification",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Museums",
+      "Art Galleries",
+      "Family Activities",
+    ],
     specialTraining: [],
-  }
+  },
 ];

@@ -11,7 +11,13 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sofia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Urban Legends, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "East Coast Canada"],
-    tourTypes: ["Brewery Tour", "Food Tour", "Luxury Tour", "Religious Tour", "Ghost Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Food Tour",
+      "Luxury Tour",
+      "Religious Tour",
+      "Ghost Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-4666-PHI",
     phoneNumber: "+1-528-461-5239",
@@ -23,7 +29,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -32,19 +38,25 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Urban Legends, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Urban Legends, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 82,
-    quote: "Every corner of philipsburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of philipsburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
     languages: ["Arabic", "Mandarin", "Hebrew"],
     experienceYears: 9,
-    certifications: ["Wilderness First Responder", "Regional Tourism Ambassador", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Wilderness First Responder",
+      "Regional Tourism Ambassador",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Urban Legends", "Hidden Gems"],
     specialTraining: ["Group Management"],
   },
@@ -58,7 +70,13 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Family Activities, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "East Coast USA"],
-    tourTypes: ["Festival Tour", "Wine Tour", "Boat Tour", "Group Tour", "Historical Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Wine Tour",
+      "Boat Tour",
+      "Group Tour",
+      "Historical Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3978-PHI",
     phoneNumber: "+1-977-555-8720",
@@ -74,7 +92,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -87,7 +105,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +114,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -109,12 +127,13 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Family Activities, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Family Activities, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 34,
     quote: "In philipsburg, we don't just see the sights - we make memories.",
@@ -151,7 +170,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -160,7 +179,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -169,19 +188,24 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 56,
-    quote: "Every corner of philipsburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of philipsburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
     languages: ["Bulgarian"],
     experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate", "Wilderness First Responder"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Wilderness First Responder",
+    ],
     specialties: ["Nightlife"],
     specialTraining: ["Accessibility Services", "Wine Education"],
   },
@@ -211,7 +235,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -220,7 +244,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -229,7 +253,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -238,7 +262,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +275,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -264,20 +288,29 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Public Transportation Navigation, Wildlife, Local Markets, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Public Transportation Navigation, Wildlife, Local Markets, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 33,
-    quote: "My goal is to help you fall in love with philipsburg just as I have.",
+    quote:
+      "My goal is to help you fall in love with philipsburg just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     languages: ["Italian", "Spanish", "Malay"],
     experienceYears: 3,
-    certifications: ["Certified International Tour Manager", "Professional Tour Guide Association"],
-    specialties: ["Public Transportation Navigation", "Wildlife", "Local Markets"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Wildlife",
+      "Local Markets",
+    ],
     specialTraining: ["Public Speaking", "Archaeological Conservation"],
   },
   {
@@ -290,7 +323,12 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Zoe is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Religious Sites, Local Cuisine, Photography Spots, Street Food, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Luxury Tour", "Architecture Tour", "Private Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Luxury Tour",
+      "Architecture Tour",
+      "Private Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-4816-PHI",
     phoneNumber: "+1-261-886-2303",
@@ -306,7 +344,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -319,7 +357,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -328,7 +366,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -341,20 +379,27 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Religious Sites, Local Cuisine, Photography Spots, Street Food, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Religious Sites, Local Cuisine, Photography Spots, Street Food, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 102,
-    quote: "Every corner of philipsburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of philipsburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Dutch", "Hungarian", "Arabic"],
     experienceYears: 9,
     certifications: ["Eco-Tourism Guide"],
-    specialties: ["Religious Sites", "Local Cuisine", "Photography Spots", "Street Food"],
+    specialties: [
+      "Religious Sites",
+      "Local Cuisine",
+      "Photography Spots",
+      "Street Food",
+    ],
     specialTraining: ["Marine Biology", "Regional Geology"],
   },
   {
@@ -367,7 +412,12 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Daniel is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Photography Spots, Public Transportation Navigation, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Cultural Tour", "Street Art Tour", "Romantic Tour", "Festival Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Street Art Tour",
+      "Romantic Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-3522-PHI",
     phoneNumber: "+1-793-764-4494",
@@ -383,7 +433,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -396,7 +446,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -405,19 +455,24 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Photography Spots, Public Transportation Navigation, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Photography Spots, Public Transportation Navigation, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 97,
-    quote: "My goal is to help you fall in love with philipsburg just as I have.",
+    quote:
+      "My goal is to help you fall in love with philipsburg just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Serbian"],
     experienceYears: 8,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Photography Spots", "Public Transportation Navigation"],
     specialTraining: ["Desert Navigation"],
   },
@@ -431,7 +486,12 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Noah is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Wildlife, Historical Landmarks, Nightlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Relocation Tour", "Photography Tour", "Festival Tour", "Private Tour"],
+    tourTypes: [
+      "Relocation Tour",
+      "Photography Tour",
+      "Festival Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-7769-PHI",
     phoneNumber: "+1-591-662-7601",
@@ -443,7 +503,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -452,7 +512,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -461,7 +521,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -470,19 +530,23 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Wildlife, Historical Landmarks, Nightlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Wildlife, Historical Landmarks, Nightlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 27,
     quote: "In philipsburg, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
     languages: ["Japanese"],
     experienceYears: 13,
-    certifications: ["Local History Certification", "Urban Navigation Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Wildlife", "Historical Landmarks", "Nightlife"],
     specialTraining: [],
   },
@@ -496,7 +560,12 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Music Scene, Nightlife, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "East Coast USA"],
-    tourTypes: ["Ghost Tour", "Scenic Tour", "Architecture Tour", "Cooking Class"],
+    tourTypes: [
+      "Ghost Tour",
+      "Scenic Tour",
+      "Architecture Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-9908-PHI",
     phoneNumber: "+1-792-350-3464",
@@ -512,7 +581,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -525,20 +594,25 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Music Scene, Nightlife, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of philipsburg and Sint Maarten. Specializing in Music Scene, Nightlife, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 20,
-    quote: "philipsburg isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "philipsburg isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Czech"],
     experienceYears: 14,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Music Scene", "Nightlife", "Family Activities"],
     specialTraining: ["Archaeological Conservation", "Photography"],
-  }
+  },
 ];

@@ -27,7 +27,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +40,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -53,7 +53,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -66,15 +66,17 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Historical Landmarks, Parks & Gardens, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Historical Landmarks, Parks & Gardens, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 64,
-    quote: "Every corner of george-town tells a story, let me share them with you.",
+    quote:
+      "Every corner of george-town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Cantonese", "Danish", "Dutch"],
     experienceYears: 15,
@@ -108,7 +110,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -117,7 +119,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -126,19 +128,24 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Sustainable Tourism, Architecture, Art Galleries, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Sustainable Tourism, Architecture, Art Galleries, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 40,
-    quote: "The best way to discover george-town is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover george-town is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
     languages: ["Romanian"],
     experienceYears: 4,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Sustainable Tourism", "Architecture", "Art Galleries"],
     specialTraining: ["Local Transit Systems"],
   },
@@ -152,7 +159,13 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Adventure Sports, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "Caribbean"],
-    tourTypes: ["Boat Tour", "Market Tour", "Relocation Tour", "Cultural Tour", "Helicopter Tour"],
+    tourTypes: [
+      "Boat Tour",
+      "Market Tour",
+      "Relocation Tour",
+      "Cultural Tour",
+      "Helicopter Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-2592-GEO",
     phoneNumber: "+1-466-908-4340",
@@ -168,7 +181,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -181,7 +194,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -190,7 +203,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -199,19 +212,25 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Adventure Sports, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Adventure Sports, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 84,
-    quote: "The best way to discover george-town is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover george-town is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     languages: ["Mandarin"],
     experienceYears: 6,
-    certifications: ["Adventure Tourism Safety Certificate", "Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Cultural Heritage Specialist",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Archaeological Conservation", "Accessibility Services"],
   },
@@ -237,7 +256,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -246,7 +265,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -255,7 +274,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -264,19 +283,24 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Film Locations, Music Scene, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Film Locations, Music Scene, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 36,
-    quote: "The best way to discover george-town is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover george-town is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
     languages: ["Turkish", "Cantonese", "Norwegian"],
     experienceYears: 6,
-    certifications: ["Local History Certification", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Local History Certification",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Film Locations", "Music Scene"],
     specialTraining: ["Urban Planning", "Desert Navigation"],
   },
@@ -302,7 +326,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -311,7 +335,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -320,7 +344,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -329,20 +353,25 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 18,
-    quote: "Every corner of george-town tells a story, let me share them with you.",
+    quote:
+      "Every corner of george-town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
     languages: ["Hungarian"],
     experienceYears: 3,
-    certifications: ["Wilderness First Responder", "Certified International Tour Manager"],
+    certifications: [
+      "Wilderness First Responder",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Architecture"],
     specialTraining: ["Local Flora & Fauna", "Regional Cuisine"],
-  }
+  },
 ];

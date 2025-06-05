@@ -27,7 +27,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +40,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -49,15 +49,17 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Wine Tasting, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Wine Tasting, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 33,
-    quote: "The best way to discover hong-kong is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover hong-kong is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["English", "Croatian", "Romanian"],
     experienceYears: 5,
@@ -75,7 +77,12 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Street Food, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Photography Tour", "Walking Tour", "Wildlife Safari", "Religious Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Walking Tour",
+      "Wildlife Safari",
+      "Religious Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-4141-HON",
     phoneNumber: "+1-703-889-7466",
@@ -87,7 +94,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +103,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -109,19 +116,24 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Street Food, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Street Food, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 41,
-    quote: "The best way to discover hong-kong is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover hong-kong is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Malay", "Japanese", "Thai"],
     experienceYears: 16,
-    certifications: ["Certified International Tour Manager", "Eco-Tourism Guide"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Street Food"],
     specialTraining: ["Urban Planning"],
   },
@@ -135,7 +147,13 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Charlotte is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Architecture, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Food Tour", "Accessible Tour", "Religious Tour", "Architecture Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Accessible Tour",
+      "Religious Tour",
+      "Architecture Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-1981-HON",
     phoneNumber: "+1-262-669-8608",
@@ -147,7 +165,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +174,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -165,7 +183,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +196,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -187,7 +205,7 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -196,20 +214,26 @@ export const hongKongchinaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Architecture, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of hong-kong and China. Specializing in Architecture, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 52,
-    quote: "The best way to discover hong-kong is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover hong-kong is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
     languages: ["Finnish", "Norwegian"],
     experienceYears: 13,
-    certifications: ["CPR & First Aid", "Certified International Tour Manager", "Regional Tourism Ambassador"],
+    certifications: [
+      "CPR & First Aid",
+      "Certified International Tour Manager",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Architecture"],
     specialTraining: ["Group Management", "Wine Education"],
-  }
+  },
 ];

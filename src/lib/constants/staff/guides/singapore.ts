@@ -27,7 +27,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +40,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -49,20 +49,28 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Public Transportation Navigation, Local Craftsmanship, Historical Landmarks, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Public Transportation Navigation, Local Craftsmanship, Historical Landmarks, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 87,
     quote: "My goal is to help you fall in love with singapore just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Greek"],
     experienceYears: 11,
-    certifications: ["Sustainable Tourism Certificate", "Urban Navigation Specialist"],
-    specialties: ["Public Transportation Navigation", "Local Craftsmanship", "Historical Landmarks"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Urban Navigation Specialist",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Local Craftsmanship",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Wine Education"],
   },
   {
@@ -87,7 +95,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +104,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +117,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -122,19 +130,25 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Historical Landmarks, Nightlife, Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Historical Landmarks, Nightlife, Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 65,
-    quote: "Every corner of singapore tells a story, let me share them with you.",
+    quote:
+      "Every corner of singapore tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
     languages: ["Romanian", "Czech", "Polish"],
     experienceYears: 15,
-    certifications: ["Eco-Tourism Guide", "Wilderness First Responder", "Language Proficiency Certification"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Wilderness First Responder",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Historical Landmarks", "Nightlife", "Hidden Gems"],
     specialTraining: ["Accessibility Services", "Photography"],
   },
@@ -148,7 +162,13 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Wildlife, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "Asia Pacific"],
-    tourTypes: ["Accessible Tour", "Craft Workshop", "Underground Tour", "Group Tour", "Shopping Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Craft Workshop",
+      "Underground Tour",
+      "Group Tour",
+      "Shopping Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-5741-SIN",
     phoneNumber: "+1-541-192-9543",
@@ -160,7 +180,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -169,15 +189,17 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Wildlife, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Wildlife, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 19,
-    quote: "The best way to discover singapore is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover singapore is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
     languages: ["Hindi", "Turkish", "Spanish"],
     experienceYears: 12,
@@ -207,7 +229,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -216,7 +238,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -229,20 +251,27 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Hidden Gems, Museums, Family Activities, Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Hidden Gems, Museums, Family Activities, Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 67,
-    quote: "singapore isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "singapore isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Arabic", "Spanish"],
     experienceYears: 6,
     certifications: ["CPR & First Aid", "Heritage Interpretation Certificate"],
-    specialties: ["Hidden Gems", "Museums", "Family Activities", "Historical Landmarks"],
+    specialties: [
+      "Hidden Gems",
+      "Museums",
+      "Family Activities",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Local Transit Systems", "Conflict Resolution"],
   },
   {
@@ -267,7 +296,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -276,7 +305,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -289,7 +318,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -302,7 +331,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -315,19 +344,24 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Local Markets, Local Cuisine, Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Local Markets, Local Cuisine, Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 52,
     quote: "In singapore, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["Portuguese"],
     experienceYears: 10,
-    certifications: ["Local History Certification", "Food Safety Certification", "Wilderness First Responder"],
+    certifications: [
+      "Local History Certification",
+      "Food Safety Certification",
+      "Wilderness First Responder",
+    ],
     specialties: ["Local Markets", "Local Cuisine", "Urban Legends"],
     specialTraining: ["Regional Geology", "Archaeological Conservation"],
   },
@@ -341,7 +375,13 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Madison is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Photography Spots, Religious Sites, Indigenous Culture, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Boat Tour", "Brewery Tour", "Private Tour", "Eco Tour", "Wine Tour"],
+    tourTypes: [
+      "Boat Tour",
+      "Brewery Tour",
+      "Private Tour",
+      "Eco Tour",
+      "Wine Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-1953-SIN",
     phoneNumber: "+1-805-663-9593",
@@ -353,7 +393,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -366,7 +406,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -375,20 +415,31 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Photography Spots, Religious Sites, Indigenous Culture, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of singapore and Singapore. Specializing in Photography Spots, Religious Sites, Indigenous Culture, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 95,
-    quote: "singapore isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "singapore isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
     languages: ["English", "Dutch", "Hungarian"],
     experienceYears: 12,
-    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association", "Wilderness First Responder"],
-    specialties: ["Photography Spots", "Religious Sites", "Indigenous Culture", "Urban Legends"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Photography Spots",
+      "Religious Sites",
+      "Indigenous Culture",
+      "Urban Legends",
+    ],
     specialTraining: [],
-  }
+  },
 ];

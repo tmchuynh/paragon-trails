@@ -11,7 +11,12 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Scarlett is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Adventure Sports, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Alaska"],
-    tourTypes: ["Religious Tour", "Luxury Tour", "LGBTQ+ Friendly Tour", "Eco Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "Luxury Tour",
+      "LGBTQ+ Friendly Tour",
+      "Eco Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-5637-RIO",
     phoneNumber: "+1-532-807-2980",
@@ -27,7 +32,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +41,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +54,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -62,19 +67,24 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Adventure Sports, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Adventure Sports, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 75,
-    quote: "rio-de-janeiro isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "rio-de-janeiro isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
     languages: ["Czech", "Greek"],
     experienceYears: 9,
-    certifications: ["Heritage Interpretation Certificate", "Eco-Tourism Guide"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Local Transit Systems", "Wine Education"],
   },
@@ -88,7 +98,12 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jackson is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Family Activities, Architecture, Public Transportation Navigation, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Craft Workshop", "Luxury Tour", "Bike Tour", "Photography Tour"],
+    tourTypes: [
+      "Craft Workshop",
+      "Luxury Tour",
+      "Bike Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-8355-RIO",
     phoneNumber: "+1-568-915-7384",
@@ -100,7 +115,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -113,7 +128,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -126,20 +141,26 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Family Activities, Architecture, Public Transportation Navigation, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Family Activities, Architecture, Public Transportation Navigation, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 68,
-    quote: "Every corner of rio-de-janeiro tells a story, let me share them with you.",
+    quote:
+      "Every corner of rio-de-janeiro tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
     languages: ["Arabic", "Russian"],
     experienceYears: 10,
     certifications: ["CPR & First Aid", "Wilderness First Responder"],
-    specialties: ["Family Activities", "Architecture", "Public Transportation Navigation"],
+    specialties: [
+      "Family Activities",
+      "Architecture",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Desert Navigation"],
   },
   {
@@ -152,7 +173,13 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Layla is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Wine Tasting, Wildlife, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "East Coast USA"],
-    tourTypes: ["Off-Road Tour", "Eco Tour", "Religious Tour", "Museum Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Eco Tour",
+      "Religious Tour",
+      "Museum Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-5423-RIO",
     phoneNumber: "+1-388-412-5653",
@@ -164,7 +191,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +200,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -182,7 +209,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -191,7 +218,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -204,19 +231,25 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Wine Tasting, Wildlife, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Wine Tasting, Wildlife, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 84,
-    quote: "In rio-de-janeiro, we don't just see the sights - we make memories.",
+    quote:
+      "In rio-de-janeiro, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Romanian"],
     experienceYears: 3,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Wine Tasting", "Wildlife", "Street Food", "LGBTQ+ History"],
     specialTraining: [],
   },
@@ -246,7 +279,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -259,7 +292,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -268,20 +301,22 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Museums, Music Scene, Architecture, Wine Tasting, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of rio-de-janeiro and Brazil. Specializing in Museums, Music Scene, Architecture, Wine Tasting, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 81,
-    quote: "My goal is to help you fall in love with rio-de-janeiro just as I have.",
+    quote:
+      "My goal is to help you fall in love with rio-de-janeiro just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
     languages: ["Portuguese", "Serbian"],
     experienceYears: 8,
     certifications: ["Cultural Heritage Specialist"],
     specialties: ["Museums", "Music Scene", "Architecture", "Wine Tasting"],
     specialTraining: ["Group Management"],
-  }
+  },
 ];

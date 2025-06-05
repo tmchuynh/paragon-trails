@@ -23,7 +23,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -54,12 +54,13 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 101,
     quote: "My goal is to help you fall in love with dubrovnik just as I have.",
@@ -92,7 +93,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +106,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -114,15 +115,17 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 13,
-    quote: "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
     languages: ["Mandarin", "Japanese"],
     experienceYears: 8,
@@ -152,7 +155,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -161,7 +164,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -174,7 +177,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -187,20 +190,30 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Indigenous Culture, Photography Spots, Urban Legends, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Indigenous Culture, Photography Spots, Urban Legends, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 30,
-    quote: "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
     languages: ["Japanese"],
     experienceYears: 14,
-    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
-    specialties: ["Public Transportation Navigation", "Indigenous Culture", "Photography Spots", "Urban Legends"],
+    certifications: [
+      "Wilderness First Responder",
+      "Cultural Heritage Specialist",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Indigenous Culture",
+      "Photography Spots",
+      "Urban Legends",
+    ],
     specialTraining: ["Local Flora & Fauna", "Religious Studies"],
   },
   {
@@ -213,7 +226,12 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Historical Landmarks, Cultural Etiquette, Hidden Gems, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Boat Tour", "Historical Tour", "Photography Tour", "Audio Tour"],
+    tourTypes: [
+      "Boat Tour",
+      "Historical Tour",
+      "Photography Tour",
+      "Audio Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-4553-DUB",
     phoneNumber: "+1-937-439-7868",
@@ -229,7 +247,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -242,7 +260,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -255,7 +273,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -264,20 +282,29 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Historical Landmarks, Cultural Etiquette, Hidden Gems, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Historical Landmarks, Cultural Etiquette, Hidden Gems, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 63,
     quote: "In dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
     languages: ["Norwegian"],
     experienceYears: 4,
-    certifications: ["Sustainable Tourism Certificate", "Heritage Interpretation Certificate"],
-    specialties: ["Historical Landmarks", "Cultural Etiquette", "Hidden Gems", "Local Markets"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Historical Landmarks",
+      "Cultural Etiquette",
+      "Hidden Gems",
+      "Local Markets",
+    ],
     specialTraining: ["Photography"],
   },
   {
@@ -290,7 +317,13 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Logan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Markets, Nightlife, Architecture, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Wine Tour", "Underground Tour", "Romantic Tour", "Self-Guided Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Wine Tour",
+      "Underground Tour",
+      "Romantic Tour",
+      "Self-Guided Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-4460-DUB",
     phoneNumber: "+1-454-757-7425",
@@ -302,7 +335,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -315,7 +348,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -328,7 +361,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -337,20 +370,30 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Markets, Nightlife, Architecture, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Markets, Nightlife, Architecture, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 86,
-    quote: "Every corner of dubrovnik tells a story, let me share them with you.",
+    quote:
+      "Every corner of dubrovnik tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Hebrew", "English", "Russian"],
     experienceYears: 14,
-    certifications: ["Wilderness First Responder", "Urban Navigation Specialist"],
-    specialties: ["Local Markets", "Nightlife", "Architecture", "Local Cuisine"],
+    certifications: [
+      "Wilderness First Responder",
+      "Urban Navigation Specialist",
+    ],
+    specialties: [
+      "Local Markets",
+      "Nightlife",
+      "Architecture",
+      "Local Cuisine",
+    ],
     specialTraining: ["Marine Biology"],
   },
   {
@@ -363,7 +406,13 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Madison is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Local Markets, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Ghost Tour", "Architecture Tour", "Historical Tour", "Wildlife Safari", "Food Tour"],
+    tourTypes: [
+      "Ghost Tour",
+      "Architecture Tour",
+      "Historical Tour",
+      "Wildlife Safari",
+      "Food Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-8925-DUB",
     phoneNumber: "+1-510-536-1283",
@@ -379,7 +428,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -388,7 +437,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -397,7 +446,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -410,20 +459,29 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Local Markets, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Local Markets, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 76,
     quote: "My goal is to help you fall in love with dubrovnik just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
     languages: ["English", "Indonesian"],
     experienceYears: 15,
-    certifications: ["Sustainable Tourism Certificate", "Language Proficiency Certification", "Adventure Tourism Safety Certificate"],
-    specialties: ["Public Transportation Navigation", "Local Markets", "Urban Legends"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Language Proficiency Certification",
+      "Adventure Tourism Safety Certificate",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Local Markets",
+      "Urban Legends",
+    ],
     specialTraining: ["Group Management"],
   },
   {
@@ -448,7 +506,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -461,7 +519,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -470,7 +528,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -479,20 +537,25 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Craftsmanship, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Craftsmanship, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 85,
-    quote: "Every corner of dubrovnik tells a story, let me share them with you.",
+    quote:
+      "Every corner of dubrovnik tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
     languages: ["Tagalog"],
     experienceYears: 7,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Local Craftsmanship", "Hidden Gems"],
     specialTraining: [],
-  }
+  },
 ];

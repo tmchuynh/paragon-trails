@@ -11,7 +11,12 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mason is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Museum Tour", "Cruise Excursion", "Helicopter Tour", "Photography Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Cruise Excursion",
+      "Helicopter Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-6210-ATH",
     phoneNumber: "+1-558-669-8974",
@@ -27,7 +32,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +41,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -45,15 +50,17 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 55,
-    quote: "The best way to discover athens is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover athens is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
     languages: ["Spanish", "Japanese", "Arabic"],
     experienceYears: 5,
@@ -87,7 +94,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +103,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -105,19 +112,24 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Sustainable Tourism, Family Activities, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Sustainable Tourism, Family Activities, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 30,
     quote: "Every corner of athens tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
     languages: ["Dutch", "Swedish"],
     experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Adventure Tourism Safety Certificate", "Eco-Tourism Guide"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Adventure Tourism Safety Certificate",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Sustainable Tourism", "Family Activities"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -147,7 +159,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -160,7 +172,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -169,12 +181,13 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Family Activities, Local Markets, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Family Activities, Local Markets, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 98,
     quote: "Every corner of athens tells a story, let me share them with you.",
@@ -207,7 +220,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -220,7 +233,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -233,19 +246,23 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 66,
     quote: "My goal is to help you fall in love with athens just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
     languages: ["Hebrew", "Bulgarian"],
     experienceYears: 13,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Urban Legends"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -271,7 +288,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -280,7 +297,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -293,20 +310,22 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Museums, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Museums, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 55,
-    quote: "The best way to discover athens is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover athens is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
     languages: ["Polish", "Japanese"],
     experienceYears: 5,
     certifications: ["Professional Tour Guide Association"],
     specialties: ["Historical Landmarks", "Museums"],
     specialTraining: ["Local Transit Systems", "Emergency Response"],
-  }
+  },
 ];

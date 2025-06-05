@@ -11,7 +11,12 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Music Scene, Religious Sites, Parks & Gardens, Family Activities, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Historical Tour", "Photography Tour", "Bike Tour", "Craft Workshop"],
+    tourTypes: [
+      "Historical Tour",
+      "Photography Tour",
+      "Bike Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-9063-MON",
     phoneNumber: "+1-564-857-4427",
@@ -23,7 +28,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +37,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -45,12 +50,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Music Scene, Religious Sites, Parks & Gardens, Family Activities, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Music Scene, Religious Sites, Parks & Gardens, Family Activities, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 69,
     quote: "My goal is to help you fall in love with montreal just as I have.",
@@ -58,7 +64,12 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     languages: ["Croatian", "Polish"],
     experienceYears: 16,
     certifications: ["Eco-Tourism Guide", "CPR & First Aid"],
-    specialties: ["Music Scene", "Religious Sites", "Parks & Gardens", "Family Activities"],
+    specialties: [
+      "Music Scene",
+      "Religious Sites",
+      "Parks & Gardens",
+      "Family Activities",
+    ],
     specialTraining: ["Cultural Sensitivity", "Urban Planning"],
   },
   {
@@ -87,7 +98,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +107,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +116,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -114,20 +125,29 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Local Markets, Family Activities, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Local Markets, Family Activities, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 37,
     quote: "My goal is to help you fall in love with montreal just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
     languages: ["Swedish"],
     experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association", "Certified International Tour Manager"],
-    specialties: ["Local Markets", "Family Activities", "Public Transportation Navigation"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+      "Certified International Tour Manager",
+    ],
+    specialties: [
+      "Local Markets",
+      "Family Activities",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Regional Cuisine"],
   },
   {
@@ -140,7 +160,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Matthew is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Hidden Gems, Nightlife, Music Scene, Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "West Coast USA"],
-    tourTypes: ["Wine Tour", "Luxury Tour", "Cultural Tour", "Farm Visit", "Cooking Class"],
+    tourTypes: [
+      "Wine Tour",
+      "Luxury Tour",
+      "Cultural Tour",
+      "Farm Visit",
+      "Cooking Class",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-1235-MON",
     phoneNumber: "+1-514-826-6445",
@@ -152,7 +178,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -165,7 +191,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -178,20 +204,30 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Hidden Gems, Nightlife, Music Scene, Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Hidden Gems, Nightlife, Music Scene, Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 81,
     quote: "My goal is to help you fall in love with montreal just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
     languages: ["Romanian", "Bulgarian", "Serbian"],
     experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide", "Wilderness First Responder"],
-    specialties: ["Hidden Gems", "Nightlife", "Music Scene", "Sustainable Tourism"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Hidden Gems",
+      "Nightlife",
+      "Music Scene",
+      "Sustainable Tourism",
+    ],
     specialTraining: [],
   },
   {
@@ -204,7 +240,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Film Locations, Hidden Gems, Music Scene, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Historical Tour", "Wildlife Safari", "Walking Tour", "Romantic Tour", "Architecture Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Wildlife Safari",
+      "Walking Tour",
+      "Romantic Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-3285-MON",
     phoneNumber: "+1-797-366-9016",
@@ -220,7 +262,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -233,7 +275,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -246,12 +288,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Film Locations, Hidden Gems, Music Scene, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Film Locations, Hidden Gems, Music Scene, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 99,
     quote: "My goal is to help you fall in love with montreal just as I have.",
@@ -259,7 +302,12 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     languages: ["English", "Serbian", "Croatian"],
     experienceYears: 11,
     certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Film Locations", "Hidden Gems", "Music Scene", "Religious Sites"],
+    specialties: [
+      "Film Locations",
+      "Hidden Gems",
+      "Music Scene",
+      "Religious Sites",
+    ],
     specialTraining: ["Historical Research Methods", "Regional Cuisine"],
   },
   {
@@ -288,7 +336,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -301,7 +349,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -310,19 +358,23 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 28,
     quote: "My goal is to help you fall in love with montreal just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
     languages: ["Finnish"],
     experienceYears: 11,
-    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Historical Landmarks"],
     specialTraining: ["Urban Planning", "Desert Navigation"],
   },
@@ -352,7 +404,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -361,15 +413,17 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Nightlife, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Nightlife, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 28,
-    quote: "montreal isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "montreal isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
     languages: ["Swahili", "Vietnamese", "Turkish"],
     experienceYears: 8,
@@ -387,7 +441,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Aiden is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Urban Legends, Public Transportation Navigation, Architecture, Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: ["Historical Tour", "Walking Tour", "Religious Tour", "Festival Tour", "Architecture Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Walking Tour",
+      "Religious Tour",
+      "Festival Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-1172-MON",
     phoneNumber: "+1-520-630-9620",
@@ -399,7 +459,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -408,7 +468,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -421,7 +481,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -430,7 +490,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -439,20 +499,30 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Urban Legends, Public Transportation Navigation, Architecture, Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Urban Legends, Public Transportation Navigation, Architecture, Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 100,
     quote: "My goal is to help you fall in love with montreal just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
     languages: ["Vietnamese"],
     experienceYears: 16,
-    certifications: ["Wilderness First Responder", "Heritage Interpretation Certificate", "Certified International Tour Manager"],
-    specialties: ["Urban Legends", "Public Transportation Navigation", "Architecture", "Wine Tasting"],
+    certifications: [
+      "Wilderness First Responder",
+      "Heritage Interpretation Certificate",
+      "Certified International Tour Manager",
+    ],
+    specialties: [
+      "Urban Legends",
+      "Public Transportation Navigation",
+      "Architecture",
+      "Wine Tasting",
+    ],
     specialTraining: ["Wine Education"],
-  }
+  },
 ];

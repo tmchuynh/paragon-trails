@@ -27,7 +27,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -45,15 +45,17 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Historical Landmarks, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Historical Landmarks, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 74,
-    quote: "The best way to discover ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     languages: ["French", "Serbian"],
     experienceYears: 3,
@@ -87,7 +89,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -96,7 +98,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -109,12 +111,13 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Local Markets, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Local Markets, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 77,
     quote: "In ketchikan, we don't just see the sights - we make memories.",
@@ -147,7 +150,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -156,7 +159,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -165,19 +168,25 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Wildlife, Sustainable Tourism, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Wildlife, Sustainable Tourism, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 32,
-    quote: "The best way to discover ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
     languages: ["Italian"],
     experienceYears: 9,
-    certifications: ["Local History Certification", "Sustainable Tourism Certificate", "Professional Tour Guide Association"],
+    certifications: [
+      "Local History Certification",
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Wildlife", "Sustainable Tourism"],
     specialTraining: ["Mountain Survival"],
   },
@@ -203,7 +212,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +221,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -221,7 +230,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -230,7 +239,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -239,15 +248,17 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Parks & Gardens, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Parks & Gardens, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 7,
-    quote: "The best way to discover ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
     languages: ["Turkish", "Hebrew", "French"],
     experienceYears: 10,
@@ -277,7 +288,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -286,7 +297,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -299,7 +310,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -308,12 +319,13 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Architecture, Local Cuisine, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Architecture, Local Cuisine, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 82,
     quote: "In ketchikan, we don't just see the sights - we make memories.",
@@ -350,7 +362,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -363,7 +375,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -376,7 +388,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -389,20 +401,22 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of ketchikan and United States. Specializing in Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 19,
-    quote: "ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "ketchikan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Arabic"],
     experienceYears: 16,
     certifications: ["Licensed City Guide"],
     specialties: ["Local Markets"],
     specialTraining: [],
-  }
+  },
 ];

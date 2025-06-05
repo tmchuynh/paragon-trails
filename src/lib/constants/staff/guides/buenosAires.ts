@@ -27,7 +27,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -58,12 +58,13 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Indigenous Culture, Music Scene, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Indigenous Culture, Music Scene, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 93,
     quote: "In buenos-aires, we don't just see the sights - we make memories.",
@@ -84,7 +85,13 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "David is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Family-Friendly Tour", "Photography Tour", "Street Art Tour", "Underground Tour", "Museum Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Photography Tour",
+      "Street Art Tour",
+      "Underground Tour",
+      "Museum Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-4274-BUE",
     phoneNumber: "+1-702-989-3670",
@@ -96,7 +103,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +116,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -118,15 +125,17 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 17,
-    quote: "Every corner of buenos-aires tells a story, let me share them with you.",
+    quote:
+      "Every corner of buenos-aires tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
     languages: ["Norwegian", "Malay", "Swahili"],
     experienceYears: 3,
@@ -144,7 +153,12 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ava is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Architecture, LGBTQ+ History, Public Transportation Navigation, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Museum Tour", "Brewery Tour", "Relocation Tour", "Private Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Brewery Tour",
+      "Relocation Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-3785-BUE",
     phoneNumber: "+1-790-219-4663",
@@ -160,7 +174,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -169,7 +183,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +192,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -187,7 +201,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -200,20 +214,30 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Architecture, LGBTQ+ History, Public Transportation Navigation, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Architecture, LGBTQ+ History, Public Transportation Navigation, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 20,
-    quote: "Every corner of buenos-aires tells a story, let me share them with you.",
+    quote:
+      "Every corner of buenos-aires tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
     languages: ["Portuguese", "Malay"],
     experienceYears: 6,
-    certifications: ["Local History Certification", "CPR & First Aid", "Cultural Heritage Specialist"],
-    specialties: ["Architecture", "LGBTQ+ History", "Public Transportation Navigation"],
+    certifications: [
+      "Local History Certification",
+      "CPR & First Aid",
+      "Cultural Heritage Specialist",
+    ],
+    specialties: [
+      "Architecture",
+      "LGBTQ+ History",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Photography", "Historical Research Methods"],
   },
   {
@@ -238,7 +262,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -251,15 +275,17 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 65,
-    quote: "Every corner of buenos-aires tells a story, let me share them with you.",
+    quote:
+      "Every corner of buenos-aires tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
     languages: ["Serbian", "Romanian"],
     experienceYears: 8,
@@ -293,7 +319,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -306,7 +332,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -315,19 +341,23 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Parks & Gardens, Street Food, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Parks & Gardens, Street Food, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 17,
     quote: "In buenos-aires, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
     languages: ["Serbian", "Spanish"],
     experienceYears: 13,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+    ],
     specialties: ["Parks & Gardens", "Street Food"],
     specialTraining: ["Photography", "Accessibility Services"],
   },
@@ -357,7 +387,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -366,7 +396,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -375,7 +405,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -388,7 +418,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -401,19 +431,24 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Sustainable Tourism, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Sustainable Tourism, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 71,
-    quote: "My goal is to help you fall in love with buenos-aires just as I have.",
+    quote:
+      "My goal is to help you fall in love with buenos-aires just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["Dutch"],
     experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Sustainable Tourism"],
     specialTraining: [],
   },
@@ -439,7 +474,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -452,7 +487,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -465,7 +500,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -474,20 +509,26 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Hidden Gems, Architecture, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of buenos-aires and Argentina. Specializing in Hidden Gems, Architecture, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 87,
-    quote: "The best way to discover buenos-aires is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover buenos-aires is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
     languages: ["Hindi"],
     experienceYears: 13,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager", "CPR & First Aid"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Certified International Tour Manager",
+      "CPR & First Aid",
+    ],
     specialties: ["Hidden Gems", "Architecture", "Photography Spots"],
     specialTraining: ["Accessibility Services"],
-  }
+  },
 ];

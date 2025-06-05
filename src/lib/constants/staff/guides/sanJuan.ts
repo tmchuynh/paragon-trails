@@ -11,7 +11,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Olivia is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Historical Landmarks, Indigenous Culture, Architecture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Food Tour", "Romantic Tour", "Ghost Tour", "Festival Tour", "Historical Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Romantic Tour",
+      "Ghost Tour",
+      "Festival Tour",
+      "Historical Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-5986-SAN",
     phoneNumber: "+1-266-200-7639",
@@ -23,7 +29,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +38,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -45,19 +51,23 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Historical Landmarks, Indigenous Culture, Architecture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Historical Landmarks, Indigenous Culture, Architecture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 41,
     quote: "In san-juan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
     languages: ["Korean"],
     experienceYears: 7,
-    certifications: ["Food Safety Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Food Safety Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Historical Landmarks", "Indigenous Culture", "Architecture"],
     specialTraining: [],
   },
@@ -71,7 +81,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Zoe is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Cultural Etiquette, Nightlife, Film Locations, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Walking Tour", "Adventure Tour", "Craft Workshop", "LGBTQ+ Friendly Tour", "Group Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Adventure Tour",
+      "Craft Workshop",
+      "LGBTQ+ Friendly Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-9587-SAN",
     phoneNumber: "+1-282-302-7563",
@@ -87,7 +103,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -100,7 +116,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +125,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -118,15 +134,17 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Cultural Etiquette, Nightlife, Film Locations, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Cultural Etiquette, Nightlife, Film Locations, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 39,
-    quote: "The best way to discover san-juan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover san-juan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
     languages: ["Vietnamese", "German"],
     experienceYears: 14,
@@ -144,7 +162,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Carter is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Music Scene, Hidden Gems, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["Adventure Tour", "Shopping Tour", "Photography Tour", "Self-Guided Tour", "Luxury Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Shopping Tour",
+      "Photography Tour",
+      "Self-Guided Tour",
+      "Luxury Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-7215-SAN",
     phoneNumber: "+1-119-440-5317",
@@ -156,7 +180,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -169,7 +193,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -182,7 +206,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -195,15 +219,17 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Music Scene, Hidden Gems, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Music Scene, Hidden Gems, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 23,
-    quote: "Every corner of san-juan tells a story, let me share them with you.",
+    quote:
+      "Every corner of san-juan tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
     languages: ["Finnish", "French", "Tagalog"],
     experienceYears: 4,
@@ -233,7 +259,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -242,15 +268,17 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 79,
-    quote: "Every corner of san-juan tells a story, let me share them with you.",
+    quote:
+      "Every corner of san-juan tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
     languages: ["Danish", "Italian", "Bulgarian"],
     experienceYears: 6,
@@ -284,7 +312,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -293,7 +321,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -302,19 +330,24 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Parks & Gardens, Wildlife, Street Food, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Parks & Gardens, Wildlife, Street Food, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 8,
     quote: "In san-juan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
     languages: ["Mandarin", "Norwegian", "German"],
     experienceYears: 12,
-    certifications: ["Professional Tour Guide Association", "CPR & First Aid", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "CPR & First Aid",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Parks & Gardens", "Wildlife", "Street Food"],
     specialTraining: [],
   },
@@ -344,7 +377,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -353,7 +386,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -366,20 +399,30 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Indigenous Culture, Religious Sites, Nightlife, Architecture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Indigenous Culture, Religious Sites, Nightlife, Architecture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 57,
-    quote: "san-juan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "san-juan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
     languages: ["Thai"],
     experienceYears: 15,
-    certifications: ["Local History Certification", "Sustainable Tourism Certificate"],
-    specialties: ["Indigenous Culture", "Religious Sites", "Nightlife", "Architecture"],
+    certifications: [
+      "Local History Certification",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Religious Sites",
+      "Nightlife",
+      "Architecture",
+    ],
     specialTraining: ["Photography"],
   },
   {
@@ -404,7 +447,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -417,7 +460,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -430,7 +473,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -439,7 +482,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -448,12 +491,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Sustainable Tourism, Wine Tasting, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of san-juan and Puerto Rico. Specializing in Sustainable Tourism, Wine Tasting, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 7,
     quote: "In san-juan, we don't just see the sights - we make memories.",
@@ -463,5 +507,5 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
     specialties: ["Sustainable Tourism", "Wine Tasting"],
     specialTraining: ["Urban Planning"],
-  }
+  },
 ];

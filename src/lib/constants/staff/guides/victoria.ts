@@ -11,7 +11,12 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Indigenous Culture, Nightlife, Wildlife, Music Scene, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "West Coast USA"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Off-Road Tour", "Cultural Tour", "Scenic Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Off-Road Tour",
+      "Cultural Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-9866-VIC",
     phoneNumber: "+1-154-165-1929",
@@ -27,7 +32,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +45,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -49,19 +54,25 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Indigenous Culture, Nightlife, Wildlife, Music Scene, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Indigenous Culture, Nightlife, Wildlife, Music Scene, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 21,
-    quote: "Every corner of victoria tells a story, let me share them with you.",
+    quote:
+      "Every corner of victoria tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Indonesian"],
     experienceYears: 15,
-    certifications: ["Food Safety Certification", "Licensed City Guide", "Certified International Tour Manager"],
+    certifications: [
+      "Food Safety Certification",
+      "Licensed City Guide",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Indigenous Culture", "Nightlife", "Wildlife", "Music Scene"],
     specialTraining: ["Public Speaking", "Group Management"],
   },
@@ -75,7 +86,12 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Zoe is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Museums, Parks & Gardens, Wildlife, Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: ["Adventure Tour", "Wildlife Safari", "Underground Tour", "Religious Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Wildlife Safari",
+      "Underground Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-9462-VIC",
     phoneNumber: "+1-974-886-8438",
@@ -87,7 +103,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -100,19 +116,24 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Museums, Parks & Gardens, Wildlife, Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Museums, Parks & Gardens, Wildlife, Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 97,
-    quote: "Every corner of victoria tells a story, let me share them with you.",
+    quote:
+      "Every corner of victoria tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["Greek", "Cantonese"],
     experienceYears: 16,
-    certifications: ["Cultural Heritage Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["Museums", "Parks & Gardens", "Wildlife", "Wine Tasting"],
     specialTraining: [],
   },
@@ -138,7 +159,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -147,7 +168,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -156,15 +177,17 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Indigenous Culture, Museums, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Indigenous Culture, Museums, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 79,
-    quote: "victoria isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "victoria isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["German", "Dutch", "Vietnamese"],
     experienceYears: 14,
@@ -194,7 +217,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -203,7 +226,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -216,15 +239,17 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Cultural Etiquette, Photography Spots, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Cultural Etiquette, Photography Spots, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 8,
-    quote: "Every corner of victoria tells a story, let me share them with you.",
+    quote:
+      "Every corner of victoria tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Italian", "French"],
     experienceYears: 16,
@@ -242,7 +267,12 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Religious Sites, Local Markets, Adventure Sports, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Luxury Tour", "Ghost Tour", "Photography Tour", "Festival Tour"],
+    tourTypes: [
+      "Luxury Tour",
+      "Ghost Tour",
+      "Photography Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-5647-VIC",
     phoneNumber: "+1-332-796-2292",
@@ -254,7 +284,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -267,19 +297,24 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Religious Sites, Local Markets, Adventure Sports, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Religious Sites, Local Markets, Adventure Sports, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 103,
-    quote: "victoria isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "victoria isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
     languages: ["English"],
     experienceYears: 8,
-    certifications: ["Heritage Interpretation Certificate", "Urban Navigation Specialist"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Religious Sites", "Local Markets", "Adventure Sports"],
     specialTraining: ["Cultural Sensitivity", "Marine Biology"],
   },
@@ -293,7 +328,12 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emily is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Wildlife, Art Galleries, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Family-Friendly Tour", "Religious Tour", "Market Tour", "Relocation Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Religious Tour",
+      "Market Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-3610-VIC",
     phoneNumber: "+1-360-144-1409",
@@ -309,7 +349,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -318,7 +358,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -327,19 +367,25 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Wildlife, Art Galleries, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Wildlife, Art Galleries, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 24,
-    quote: "The best way to discover victoria is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover victoria is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
     languages: ["Indonesian", "Mandarin", "Hindi"],
     experienceYears: 4,
-    certifications: ["Wilderness First Responder", "Licensed City Guide", "Food Safety Certification"],
+    certifications: [
+      "Wilderness First Responder",
+      "Licensed City Guide",
+      "Food Safety Certification",
+    ],
     specialties: ["Wildlife", "Art Galleries", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -369,7 +415,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -378,7 +424,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -387,7 +433,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -400,7 +446,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -409,15 +455,17 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Film Locations, Local Craftsmanship, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Film Locations, Local Craftsmanship, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 44,
-    quote: "The best way to discover victoria is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover victoria is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
     languages: ["Arabic", "Turkish", "Swedish"],
     experienceYears: 4,
@@ -447,7 +495,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -456,7 +504,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -465,7 +513,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -478,7 +526,7 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -491,20 +539,26 @@ export const victoriacanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Parks & Gardens, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of victoria and Canada. Specializing in Parks & Gardens, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 34,
-    quote: "victoria isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "victoria isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Swedish", "Vietnamese", "Arabic"],
     experienceYears: 10,
-    certifications: ["CPR & First Aid", "Professional Tour Guide Association", "Certified International Tour Manager"],
+    certifications: [
+      "CPR & First Aid",
+      "Professional Tour Guide Association",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Parks & Gardens"],
     specialTraining: ["Conflict Resolution", "Regional Cuisine"],
-  }
+  },
 ];

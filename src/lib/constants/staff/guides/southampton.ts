@@ -23,7 +23,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -62,7 +62,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -71,15 +71,17 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Film Locations, Sustainable Tourism, Adventure Sports, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Film Locations, Sustainable Tourism, Adventure Sports, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 65,
-    quote: "southampton isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "southampton isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
     languages: ["Swedish", "Serbian", "Arabic"],
     experienceYears: 9,
@@ -113,7 +115,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -122,7 +124,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -135,19 +137,24 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Museums, Hidden Gems, Art Galleries, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Museums, Hidden Gems, Art Galleries, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 37,
-    quote: "Every corner of southampton tells a story, let me share them with you.",
+    quote:
+      "Every corner of southampton tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Spanish"],
     experienceYears: 13,
-    certifications: ["Wilderness First Responder", "Urban Navigation Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Museums", "Hidden Gems", "Art Galleries"],
     specialTraining: [],
   },
@@ -177,7 +184,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -190,7 +197,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -203,7 +210,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -216,12 +223,13 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Indigenous Culture, Street Food, Religious Sites, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Indigenous Culture, Street Food, Religious Sites, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 57,
     quote: "In southampton, we don't just see the sights - we make memories.",
@@ -258,7 +266,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -271,20 +279,30 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Nightlife, Film Locations, Religious Sites, Wine Tasting, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Nightlife, Film Locations, Religious Sites, Wine Tasting, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 6,
-    quote: "southampton isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "southampton isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
     languages: ["Norwegian", "Turkish", "French"],
     experienceYears: 14,
-    certifications: ["Local History Certification", "Sustainable Tourism Certificate"],
-    specialties: ["Nightlife", "Film Locations", "Religious Sites", "Wine Tasting"],
+    certifications: [
+      "Local History Certification",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Nightlife",
+      "Film Locations",
+      "Religious Sites",
+      "Wine Tasting",
+    ],
     specialTraining: ["Historical Research Methods"],
   },
   {
@@ -297,7 +315,13 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Daniel is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Indigenous Culture, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Bike Tour", "Eco Tour", "Craft Workshop", "Wine Tour", "Architecture Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Eco Tour",
+      "Craft Workshop",
+      "Wine Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-6352-SOU",
     phoneNumber: "+1-996-119-2601",
@@ -309,7 +333,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -322,7 +346,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -331,7 +355,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -340,7 +364,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -353,15 +377,17 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Indigenous Culture, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Indigenous Culture, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 33,
-    quote: "southampton isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "southampton isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
     languages: ["Greek", "Thai", "Spanish"],
     experienceYears: 6,
@@ -391,7 +417,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -404,7 +430,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -413,7 +439,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -426,20 +452,25 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Family Activities, Parks & Gardens, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of southampton and United Kingdom. Specializing in Family Activities, Parks & Gardens, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 62,
-    quote: "southampton isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "southampton isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Czech", "Cantonese", "Croatian"],
     experienceYears: 7,
-    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Family Activities", "Parks & Gardens", "Nightlife"],
     specialTraining: ["Marine Biology"],
-  }
+  },
 ];

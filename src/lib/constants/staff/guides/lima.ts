@@ -23,7 +23,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -54,7 +54,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -63,7 +63,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -72,15 +72,17 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Religious Sites, Sustainable Tourism, Architecture, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Religious Sites, Sustainable Tourism, Architecture, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 33,
-    quote: "The best way to discover lima is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover lima is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
     languages: ["Polish"],
     experienceYears: 16,
@@ -114,7 +116,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -127,7 +129,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -136,7 +138,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -149,7 +151,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -162,19 +164,24 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Museums, Public Transportation Navigation, Hidden Gems, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Museums, Public Transportation Navigation, Hidden Gems, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 48,
     quote: "My goal is to help you fall in love with lima just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["Vietnamese"],
     experienceYears: 15,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Museums", "Public Transportation Navigation", "Hidden Gems"],
     specialTraining: ["Accessibility Services"],
   },
@@ -200,7 +207,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -213,7 +220,7 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -222,12 +229,13 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Photography Spots, Art Galleries, LGBTQ+ History, Music Scene, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of lima and Peru. Specializing in Photography Spots, Art Galleries, LGBTQ+ History, Music Scene, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 48,
     quote: "In lima, we don't just see the sights - we make memories.",
@@ -235,7 +243,12 @@ export const limaperusouthAmericaGuides: TourGuide[] = [
     languages: ["Russian", "Spanish"],
     experienceYears: 16,
     certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Photography Spots", "Art Galleries", "LGBTQ+ History", "Music Scene"],
+    specialties: [
+      "Photography Spots",
+      "Art Galleries",
+      "LGBTQ+ History",
+      "Music Scene",
+    ],
     specialTraining: ["Mountain Survival"],
-  }
+  },
 ];

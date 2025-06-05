@@ -23,7 +23,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -36,15 +36,17 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Art Galleries, Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Art Galleries, Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 60,
-    quote: "The best way to discover melbourne is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover melbourne is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
     languages: ["Norwegian"],
     experienceYears: 11,
@@ -78,7 +80,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -87,7 +89,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -100,19 +102,25 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Architecture, Parks & Gardens, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Architecture, Parks & Gardens, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 5,
-    quote: "melbourne isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "melbourne isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
     languages: ["Russian", "French", "Serbian"],
     experienceYears: 3,
-    certifications: ["Food Safety Certification", "Adventure Tourism Safety Certificate", "CPR & First Aid"],
+    certifications: [
+      "Food Safety Certification",
+      "Adventure Tourism Safety Certificate",
+      "CPR & First Aid",
+    ],
     specialties: ["Architecture", "Parks & Gardens"],
     specialTraining: ["Mountain Survival", "Historical Research Methods"],
   },
@@ -138,7 +146,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -147,7 +155,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -160,7 +168,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -169,7 +177,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -182,12 +190,13 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in LGBTQ+ History, Sustainable Tourism, Religious Sites, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in LGBTQ+ History, Sustainable Tourism, Religious Sites, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 89,
     quote: "My goal is to help you fall in love with melbourne just as I have.",
@@ -208,7 +217,13 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Noah is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Markets, Urban Legends, Architecture, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Architecture Tour", "Underground Tour", "Wine Tour", "Ghost Tour", "Romantic Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "Underground Tour",
+      "Wine Tour",
+      "Ghost Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-1428-MEL",
     phoneNumber: "+1-111-721-7569",
@@ -224,7 +239,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -233,7 +248,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -242,15 +257,17 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Markets, Urban Legends, Architecture, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Markets, Urban Legends, Architecture, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 12,
-    quote: "melbourne isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "melbourne isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
     languages: ["Malay"],
     experienceYears: 6,
@@ -268,7 +285,12 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Henry is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Wine Tasting, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Craft Workshop", "Boat Tour", "Cruise Excursion", "Private Tour"],
+    tourTypes: [
+      "Craft Workshop",
+      "Boat Tour",
+      "Cruise Excursion",
+      "Private Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-5934-MEL",
     phoneNumber: "+1-877-420-2574",
@@ -280,7 +302,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -289,7 +311,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -302,7 +324,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -315,7 +337,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -328,19 +350,24 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Wine Tasting, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Wine Tasting, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 97,
-    quote: "Every corner of melbourne tells a story, let me share them with you.",
+    quote:
+      "Every corner of melbourne tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
     languages: ["Portuguese", "English", "Hindi"],
     experienceYears: 4,
-    certifications: ["Food Safety Certification", "Certified International Tour Manager"],
+    certifications: [
+      "Food Safety Certification",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Wine Tasting"],
     specialTraining: ["Marine Biology"],
   },
@@ -354,7 +381,12 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Emma is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Farm Visit", "Photography Tour", "Eco Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Farm Visit",
+      "Photography Tour",
+      "Eco Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-4939-MEL",
     phoneNumber: "+1-481-595-7519",
@@ -366,7 +398,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -375,7 +407,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -384,7 +416,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -397,7 +429,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -410,19 +442,24 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 7,
     quote: "My goal is to help you fall in love with melbourne just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Finnish", "Czech"],
     experienceYears: 9,
-    certifications: ["Urban Navigation Specialist", "Licensed City Guide", "Language Proficiency Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Licensed City Guide",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Local Craftsmanship"],
     specialTraining: ["Regional Cuisine"],
   },
@@ -436,7 +473,13 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Joseph is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Street Food, Adventure Sports, Family Activities, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Self-Guided Tour", "Eco Tour", "Photography Tour", "Brewery Tour", "Wildlife Safari"],
+    tourTypes: [
+      "Self-Guided Tour",
+      "Eco Tour",
+      "Photography Tour",
+      "Brewery Tour",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-3775-MEL",
     phoneNumber: "+1-994-964-8896",
@@ -448,7 +491,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -461,20 +504,24 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Street Food, Adventure Sports, Family Activities, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of melbourne and Australia. Specializing in Street Food, Adventure Sports, Family Activities, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 12,
     quote: "In melbourne, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
     languages: ["Dutch"],
     experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Street Food", "Adventure Sports", "Family Activities"],
     specialTraining: ["Local Transit Systems"],
-  }
+  },
 ];

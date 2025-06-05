@@ -23,7 +23,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -32,7 +32,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -41,7 +41,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -50,15 +50,17 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 67,
-    quote: "Every corner of montevideo tells a story, let me share them with you.",
+    quote:
+      "Every corner of montevideo tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
     languages: ["Croatian", "Russian", "Arabic"],
     experienceYears: 4,
@@ -92,7 +94,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -101,7 +103,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -114,7 +116,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -123,19 +125,24 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Adventure Sports, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Adventure Sports, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 63,
-    quote: "My goal is to help you fall in love with montevideo just as I have.",
+    quote:
+      "My goal is to help you fall in love with montevideo just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Polish"],
     experienceYears: 5,
-    certifications: ["Professional Tour Guide Association", "Wilderness First Responder"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Wilderness First Responder",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: [],
   },
@@ -161,7 +168,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -170,7 +177,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -183,19 +190,25 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Photography Spots, Adventure Sports, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Photography Spots, Adventure Sports, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 96,
-    quote: "Every corner of montevideo tells a story, let me share them with you.",
+    quote:
+      "Every corner of montevideo tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
     languages: ["Norwegian", "Dutch", "Italian"],
     experienceYears: 3,
-    certifications: ["Language Proficiency Certification", "Licensed City Guide", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Licensed City Guide",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Photography Spots", "Adventure Sports"],
     specialTraining: ["Art History", "Marine Biology"],
   },
@@ -209,7 +222,13 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Carter is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Street Food, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Middle East"],
-    tourTypes: ["Market Tour", "Shopping Tour", "Relocation Tour", "Nature Tour", "Farm Visit"],
+    tourTypes: [
+      "Market Tour",
+      "Shopping Tour",
+      "Relocation Tour",
+      "Nature Tour",
+      "Farm Visit",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-8565-MON",
     phoneNumber: "+1-455-568-2764",
@@ -225,7 +244,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -238,7 +257,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +270,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -260,19 +279,25 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Street Food, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Street Food, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 14,
-    quote: "Every corner of montevideo tells a story, let me share them with you.",
+    quote:
+      "Every corner of montevideo tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
     languages: ["Japanese", "Hungarian"],
     experienceYears: 8,
-    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador", "Wilderness First Responder"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Regional Tourism Ambassador",
+      "Wilderness First Responder",
+    ],
     specialties: ["Street Food"],
     specialTraining: ["Accessibility Services"],
   },
@@ -298,7 +323,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -307,7 +332,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -316,7 +341,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -329,7 +354,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -342,12 +367,13 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Wildlife, Urban Legends, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Wildlife, Urban Legends, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 35,
     quote: "In montevideo, we don't just see the sights - we make memories.",
@@ -380,7 +406,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -393,7 +419,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -406,12 +432,13 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 85,
     quote: "In montevideo, we don't just see the sights - we make memories.",
@@ -444,7 +471,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -453,7 +480,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -462,7 +489,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -471,20 +498,31 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Family Activities, Urban Legends, Art Galleries, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Family Activities, Urban Legends, Art Galleries, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 38,
-    quote: "My goal is to help you fall in love with montevideo just as I have.",
+    quote:
+      "My goal is to help you fall in love with montevideo just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
     languages: ["Indonesian", "Finnish", "Turkish"],
     experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Wilderness First Responder", "Local History Certification"],
-    specialties: ["Family Activities", "Urban Legends", "Art Galleries", "Photography Spots"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Wilderness First Responder",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Family Activities",
+      "Urban Legends",
+      "Art Galleries",
+      "Photography Spots",
+    ],
     specialTraining: [],
   },
   {
@@ -509,7 +547,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -522,7 +560,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -535,7 +573,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -548,20 +586,22 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Sustainable Tourism, Indigenous Culture, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of montevideo and Uruguay. Specializing in Sustainable Tourism, Indigenous Culture, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 38,
-    quote: "Every corner of montevideo tells a story, let me share them with you.",
+    quote:
+      "Every corner of montevideo tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
     languages: ["Polish", "Tagalog"],
     experienceYears: 6,
     certifications: ["CPR & First Aid"],
     specialties: ["Sustainable Tourism", "Indigenous Culture"],
     specialTraining: ["Archaeological Conservation", "Religious Studies"],
-  }
+  },
 ];

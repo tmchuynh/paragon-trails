@@ -23,7 +23,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -62,7 +62,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -71,15 +71,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Parks & Gardens, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Parks & Gardens, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 69,
-    quote: "Every corner of san-francisco tells a story, let me share them with you.",
+    quote:
+      "Every corner of san-francisco tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
     languages: ["Serbian", "Hebrew", "Cantonese"],
     experienceYears: 2,
@@ -113,7 +115,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -122,7 +124,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -135,19 +137,25 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Street Food, Adventure Sports, Indigenous Culture, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Street Food, Adventure Sports, Indigenous Culture, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 44,
-    quote: "My goal is to help you fall in love with san-francisco just as I have.",
+    quote:
+      "My goal is to help you fall in love with san-francisco just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Hebrew"],
     experienceYears: 8,
-    certifications: ["Language Proficiency Certification", "Certified International Tour Manager", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Certified International Tour Manager",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Street Food", "Adventure Sports", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -177,7 +185,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -190,7 +198,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -199,7 +207,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -212,15 +220,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Architecture, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Architecture, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 19,
-    quote: "The best way to discover san-francisco is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover san-francisco is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
     languages: ["French"],
     experienceYears: 12,
@@ -238,7 +248,12 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Caribbean"],
-    tourTypes: ["Festival Tour", "Street Art Tour", "Religious Tour", "Market Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Street Art Tour",
+      "Religious Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-1932-SAN",
     phoneNumber: "+1-431-827-9045",
@@ -250,7 +265,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -259,12 +274,13 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 5,
     quote: "In san-francisco, we don't just see the sights - we make memories.",
@@ -301,7 +317,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -314,7 +330,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -323,7 +339,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -336,19 +352,25 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Urban Legends, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Urban Legends, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 14,
-    quote: "My goal is to help you fall in love with san-francisco just as I have.",
+    quote:
+      "My goal is to help you fall in love with san-francisco just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
     languages: ["Vietnamese"],
     experienceYears: 12,
-    certifications: ["Wilderness First Responder", "Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Wilderness First Responder",
+      "Food Safety Certification",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Urban Legends", "Sustainable Tourism"],
     specialTraining: ["Emergency Response"],
   },
@@ -374,7 +396,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +405,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -392,15 +414,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Cultural Etiquette, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Cultural Etiquette, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 79,
-    quote: "The best way to discover san-francisco is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover san-francisco is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
     languages: ["Portuguese", "Polish", "Japanese"],
     experienceYears: 12,
@@ -430,7 +454,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -443,7 +467,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -456,7 +480,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -465,15 +489,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Art Galleries, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Art Galleries, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 23,
-    quote: "The best way to discover san-francisco is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover san-francisco is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
     languages: ["Dutch", "Korean"],
     experienceYears: 7,
@@ -503,7 +529,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -512,7 +538,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -521,20 +547,26 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Religious Sites, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of san-francisco and United States. Specializing in Religious Sites, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 33,
-    quote: "Every corner of san-francisco tells a story, let me share them with you.",
+    quote:
+      "Every corner of san-francisco tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Mandarin", "Romanian"],
     experienceYears: 6,
-    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate", "Food Safety Certification"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Adventure Tourism Safety Certificate",
+      "Food Safety Certification",
+    ],
     specialties: ["Religious Sites", "Hidden Gems"],
     specialTraining: ["Religious Studies"],
-  }
+  },
 ];

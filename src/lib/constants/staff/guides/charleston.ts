@@ -27,7 +27,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -36,15 +36,17 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 26,
-    quote: "The best way to discover charleston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover charleston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
     languages: ["Bulgarian"],
     experienceYears: 5,
@@ -62,7 +64,13 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Henry is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Architecture, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Religious Tour", "LGBTQ+ Friendly Tour", "Cruise Excursion", "Craft Workshop", "Group Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "LGBTQ+ Friendly Tour",
+      "Cruise Excursion",
+      "Craft Workshop",
+      "Group Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-5848-CHA",
     phoneNumber: "+1-621-827-2588",
@@ -78,7 +86,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -91,7 +99,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -100,7 +108,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -113,15 +121,17 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Architecture, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Architecture, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 94,
-    quote: "charleston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "charleston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
     languages: ["Turkish", "Norwegian", "Hindi"],
     experienceYears: 4,
@@ -155,7 +165,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -164,7 +174,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -177,7 +187,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -190,19 +200,24 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Parks & Gardens, Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Parks & Gardens, Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 15,
-    quote: "Every corner of charleston tells a story, let me share them with you.",
+    quote:
+      "Every corner of charleston tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
     languages: ["Malay"],
     experienceYears: 12,
-    certifications: ["Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Food Safety Certification",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Parks & Gardens", "Photography Spots"],
     specialTraining: ["Photography", "Mountain Survival"],
   },
@@ -216,7 +231,13 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Urban Legends, Museums, Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Scenic Tour", "Market Tour", "Cultural Tour", "Luxury Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Scenic Tour",
+      "Market Tour",
+      "Cultural Tour",
+      "Luxury Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-2792-CHA",
     phoneNumber: "+1-280-546-8969",
@@ -232,7 +253,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -245,7 +266,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +279,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -267,7 +288,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -280,20 +301,31 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Urban Legends, Museums, Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Urban Legends, Museums, Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 35,
-    quote: "The best way to discover charleston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover charleston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
     languages: ["Dutch", "Turkish", "Malay"],
     experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager", "Local History Certification"],
-    specialties: ["Urban Legends", "Museums", "Cultural Etiquette", "Architecture"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Certified International Tour Manager",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Urban Legends",
+      "Museums",
+      "Cultural Etiquette",
+      "Architecture",
+    ],
     specialTraining: [],
   },
   {
@@ -306,7 +338,12 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Grace is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Street Food, Local Markets, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Ghost Tour", "Photography Tour", "Craft Workshop", "Luxury Tour"],
+    tourTypes: [
+      "Ghost Tour",
+      "Photography Tour",
+      "Craft Workshop",
+      "Luxury Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-4370-CHA",
     phoneNumber: "+1-326-976-9864",
@@ -318,7 +355,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -327,7 +364,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -336,19 +373,24 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Street Food, Local Markets, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Street Food, Local Markets, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 51,
     quote: "In charleston, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
     languages: ["Korean", "Croatian", "Bulgarian"],
     experienceYears: 4,
-    certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador", "Wilderness First Responder"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Regional Tourism Ambassador",
+      "Wilderness First Responder",
+    ],
     specialties: ["Street Food", "Local Markets"],
     specialTraining: [],
   },
@@ -362,7 +404,12 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emily is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Indigenous Culture, Adventure Sports, LGBTQ+ History, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cultural Tour", "Festival Tour", "Nature Tour", "Craft Workshop"],
+    tourTypes: [
+      "Cultural Tour",
+      "Festival Tour",
+      "Nature Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-7247-CHA",
     phoneNumber: "+1-632-851-5613",
@@ -374,7 +421,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +430,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -396,7 +443,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -405,20 +452,25 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Indigenous Culture, Adventure Sports, LGBTQ+ History, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of charleston and United States. Specializing in Indigenous Culture, Adventure Sports, LGBTQ+ History, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 30,
-    quote: "The best way to discover charleston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover charleston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
     languages: ["Indonesian", "Bulgarian", "Swedish"],
     experienceYears: 7,
-    certifications: ["Urban Navigation Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["Indigenous Culture", "Adventure Sports", "LGBTQ+ History"],
     specialTraining: ["Cultural Sensitivity", "Urban Planning"],
-  }
+  },
 ];

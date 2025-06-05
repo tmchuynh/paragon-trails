@@ -27,7 +27,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -49,12 +49,13 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Sustainable Tourism, Historical Landmarks, Wine Tasting, Architecture, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Sustainable Tourism, Historical Landmarks, Wine Tasting, Architecture, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 60,
     quote: "Every corner of cozumel tells a story, let me share them with you.",
@@ -62,7 +63,12 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
     languages: ["Hungarian", "Swedish", "Thai"],
     experienceYears: 14,
     certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Sustainable Tourism", "Historical Landmarks", "Wine Tasting", "Architecture"],
+    specialties: [
+      "Sustainable Tourism",
+      "Historical Landmarks",
+      "Wine Tasting",
+      "Architecture",
+    ],
     specialTraining: ["Mountain Survival"],
   },
   {
@@ -87,7 +93,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -96,15 +102,17 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 102,
-    quote: "The best way to discover cozumel is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover cozumel is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
     languages: ["Malay", "Dutch"],
     experienceYears: 7,
@@ -134,7 +142,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -143,7 +151,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -152,19 +160,25 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 43,
-    quote: "cozumel isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "cozumel isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
     languages: ["Czech"],
     experienceYears: 14,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Mountain Survival"],
   },
@@ -194,7 +208,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -203,7 +217,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -216,19 +230,25 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Religious Sites, Adventure Sports, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Religious Sites, Adventure Sports, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 56,
-    quote: "The best way to discover cozumel is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover cozumel is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
     languages: ["Greek", "Romanian"],
     experienceYears: 11,
-    certifications: ["Wilderness First Responder", "Local History Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Local History Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Religious Sites", "Adventure Sports"],
     specialTraining: [],
   },
@@ -258,7 +278,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -271,7 +291,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -284,15 +304,17 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Urban Legends, Film Locations, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Urban Legends, Film Locations, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 36,
-    quote: "cozumel isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "cozumel isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
     languages: ["Russian", "Greek", "English"],
     experienceYears: 9,
@@ -322,7 +344,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -331,7 +353,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -344,7 +366,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -353,7 +375,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -362,7 +384,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -371,12 +393,13 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Film Locations, Street Food, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Film Locations, Street Food, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 39,
     quote: "My goal is to help you fall in love with cozumel just as I have.",
@@ -409,7 +432,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -422,7 +445,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -431,7 +454,7 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -444,20 +467,29 @@ export const cozumelmexicocaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Indigenous Culture, Local Craftsmanship, Museums, Hidden Gems, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of cozumel and Mexico. Specializing in Indigenous Culture, Local Craftsmanship, Museums, Hidden Gems, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 41,
     quote: "Every corner of cozumel tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
     languages: ["Serbian", "Swedish"],
     experienceYears: 11,
-    certifications: ["Professional Tour Guide Association", "Local History Certification"],
-    specialties: ["Indigenous Culture", "Local Craftsmanship", "Museums", "Hidden Gems"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Local Craftsmanship",
+      "Museums",
+      "Hidden Gems",
+    ],
     specialTraining: [],
-  }
+  },
 ];

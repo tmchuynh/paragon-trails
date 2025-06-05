@@ -27,7 +27,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -58,20 +58,27 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in Film Locations, LGBTQ+ History, Sustainable Tourism, Adventure Sports, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in Film Locations, LGBTQ+ History, Sustainable Tourism, Adventure Sports, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 102,
-    quote: "malta isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "malta isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
     languages: ["Mandarin"],
     experienceYears: 13,
     certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Film Locations", "LGBTQ+ History", "Sustainable Tourism", "Adventure Sports"],
+    specialties: [
+      "Film Locations",
+      "LGBTQ+ History",
+      "Sustainable Tourism",
+      "Adventure Sports",
+    ],
     specialTraining: ["Archaeological Conservation", "Emergency Response"],
   },
   {
@@ -96,7 +103,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -105,7 +112,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -118,19 +125,23 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in Photography Spots, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in Photography Spots, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 73,
     quote: "Every corner of malta tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
     languages: ["Polish", "Swahili"],
     experienceYears: 14,
-    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: ["Local Transit Systems"],
   },
@@ -144,7 +155,12 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in LGBTQ+ History, Street Food, Local Markets, Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Walking Tour", "Relocation Tour", "Photography Tour", "Private Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Relocation Tour",
+      "Photography Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-9655-MAL",
     phoneNumber: "+1-739-332-1378",
@@ -160,7 +176,7 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -173,12 +189,13 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in LGBTQ+ History, Street Food, Local Markets, Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of malta and Malta. Specializing in LGBTQ+ History, Street Food, Local Markets, Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 28,
     quote: "In malta, we don't just see the sights - we make memories.",
@@ -186,7 +203,12 @@ export const maltamaltamediterraneanGuides: TourGuide[] = [
     languages: ["Japanese", "Hebrew"],
     experienceYears: 11,
     certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["LGBTQ+ History", "Street Food", "Local Markets", "Hidden Gems"],
+    specialties: [
+      "LGBTQ+ History",
+      "Street Food",
+      "Local Markets",
+      "Hidden Gems",
+    ],
     specialTraining: ["Art History", "Urban Planning"],
-  }
+  },
 ];

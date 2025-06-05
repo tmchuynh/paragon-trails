@@ -23,7 +23,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -62,12 +62,13 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Museums, Parks & Gardens, Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Museums, Parks & Gardens, Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 50,
     quote: "In kiel, we don't just see the sights - we make memories.",
@@ -88,7 +89,12 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Matthew is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Adventure Sports, Film Locations, Family Activities, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Middle East"],
-    tourTypes: ["Helicopter Tour", "Family-Friendly Tour", "Food Tour", "Cooking Class"],
+    tourTypes: [
+      "Helicopter Tour",
+      "Family-Friendly Tour",
+      "Food Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-9240-KIE",
     phoneNumber: "+1-245-529-9784",
@@ -100,7 +106,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +115,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -122,12 +128,13 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Adventure Sports, Film Locations, Family Activities, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Adventure Sports, Film Locations, Family Activities, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 66,
     quote: "My goal is to help you fall in love with kiel just as I have.",
@@ -148,7 +155,12 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sofia is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Cultural Etiquette, Art Galleries, Public Transportation Navigation, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Museum Tour", "Farm Visit", "Photography Tour", "Architecture Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Farm Visit",
+      "Photography Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-3383-KIE",
     phoneNumber: "+1-549-426-8966",
@@ -160,7 +172,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +185,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -186,20 +198,28 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Cultural Etiquette, Art Galleries, Public Transportation Navigation, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Cultural Etiquette, Art Galleries, Public Transportation Navigation, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 18,
     quote: "Every corner of kiel tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
     languages: ["Swahili", "Italian", "Bulgarian"],
     experienceYears: 16,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
-    specialties: ["Cultural Etiquette", "Art Galleries", "Public Transportation Navigation"],
+    certifications: [
+      "Food Safety Certification",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Cultural Etiquette",
+      "Art Galleries",
+      "Public Transportation Navigation",
+    ],
     specialTraining: [],
   },
   {
@@ -228,7 +248,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -237,7 +257,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -250,7 +270,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -259,7 +279,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -272,12 +292,13 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Historical Landmarks, Hidden Gems, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Historical Landmarks, Hidden Gems, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 98,
     quote: "Every corner of kiel tells a story, let me share them with you.",
@@ -298,7 +319,13 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Owen is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Family Activities, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Scenic Tour", "Cooking Class", "Helicopter Tour", "Family-Friendly Tour", "Architecture Tour"],
+    tourTypes: [
+      "Scenic Tour",
+      "Cooking Class",
+      "Helicopter Tour",
+      "Family-Friendly Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-8383-KIE",
     phoneNumber: "+1-605-483-2912",
@@ -310,7 +337,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -323,7 +350,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -332,19 +359,23 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Family Activities, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Family Activities, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 49,
     quote: "In kiel, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
     languages: ["Mandarin", "Thai", "Turkish"],
     experienceYears: 13,
-    certifications: ["Adventure Tourism Safety Certificate", "Urban Navigation Specialist"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Family Activities", "Adventure Sports"],
     specialTraining: ["Local Flora & Fauna"],
   },
@@ -374,7 +405,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +414,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -396,7 +427,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -409,19 +440,24 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Local Markets, Photography Spots, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Local Markets, Photography Spots, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 98,
     quote: "My goal is to help you fall in love with kiel just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Malay"],
     experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide", "Language Proficiency Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Eco-Tourism Guide",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Local Markets", "Photography Spots"],
     specialTraining: ["Photography"],
   },
@@ -451,7 +487,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -460,7 +496,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -473,20 +509,25 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Local Craftsmanship, Music Scene, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of kiel and Germany. Specializing in Local Craftsmanship, Music Scene, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 38,
     quote: "Every corner of kiel tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
     languages: ["Spanish"],
     experienceYears: 15,
-    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Certified International Tour Manager"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Urban Navigation Specialist",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Local Craftsmanship", "Music Scene", "Urban Legends"],
     specialTraining: [],
-  }
+  },
 ];

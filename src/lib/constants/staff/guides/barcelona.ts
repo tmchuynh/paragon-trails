@@ -11,7 +11,13 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Cultural Etiquette, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Adventure Tour", "Self-Guided Tour", "LGBTQ+ Friendly Tour", "Cooking Class", "Festival Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Self-Guided Tour",
+      "LGBTQ+ Friendly Tour",
+      "Cooking Class",
+      "Festival Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-2623-BAR",
     phoneNumber: "+1-336-220-7687",
@@ -27,7 +33,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +42,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +51,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -58,12 +64,13 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Cultural Etiquette, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Cultural Etiquette, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 89,
     quote: "In barcelona, we don't just see the sights - we make memories.",
@@ -84,7 +91,13 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Aiden is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Historical Landmarks, Cultural Etiquette, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Farm Visit", "Romantic Tour", "Ghost Tour", "Helicopter Tour", "Off-Road Tour"],
+    tourTypes: [
+      "Farm Visit",
+      "Romantic Tour",
+      "Ghost Tour",
+      "Helicopter Tour",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-6528-BAR",
     phoneNumber: "+1-200-451-7981",
@@ -100,7 +113,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -113,7 +126,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -126,7 +139,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -139,19 +152,24 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Historical Landmarks, Cultural Etiquette, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Historical Landmarks, Cultural Etiquette, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 29,
-    quote: "The best way to discover barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
     languages: ["Romanian"],
     experienceYears: 8,
-    certifications: ["Language Proficiency Certification", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Historical Landmarks", "Cultural Etiquette"],
     specialTraining: [],
   },
@@ -165,7 +183,13 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ava is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Museums, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Shopping Tour", "Architecture Tour", "Boat Tour", "Brewery Tour", "Cooking Class"],
+    tourTypes: [
+      "Shopping Tour",
+      "Architecture Tour",
+      "Boat Tour",
+      "Brewery Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-9144-BAR",
     phoneNumber: "+1-507-883-3076",
@@ -181,7 +205,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -194,7 +218,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -207,19 +231,25 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Museums, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Museums, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 94,
-    quote: "barcelona isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "barcelona isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
     languages: ["Arabic", "English", "Spanish"],
     experienceYears: 12,
-    certifications: ["Food Safety Certification", "Local History Certification", "Certified International Tour Manager"],
+    certifications: [
+      "Food Safety Certification",
+      "Local History Certification",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Museums"],
     specialTraining: ["Emergency Response"],
   },
@@ -233,7 +263,12 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Local Markets, Photography Spots, Adventure Sports, Parks & Gardens, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "West Coast USA"],
-    tourTypes: ["Architecture Tour", "Relocation Tour", "Market Tour", "Luxury Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "Relocation Tour",
+      "Market Tour",
+      "Luxury Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-4192-BAR",
     phoneNumber: "+1-898-656-7873",
@@ -245,7 +280,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -254,7 +289,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -267,7 +302,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -280,7 +315,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -293,7 +328,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -302,20 +337,27 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Local Markets, Photography Spots, Adventure Sports, Parks & Gardens, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Local Markets, Photography Spots, Adventure Sports, Parks & Gardens, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 70,
-    quote: "barcelona isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "barcelona isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
     languages: ["Hebrew"],
     experienceYears: 9,
     certifications: ["Licensed City Guide"],
-    specialties: ["Local Markets", "Photography Spots", "Adventure Sports", "Parks & Gardens"],
+    specialties: [
+      "Local Markets",
+      "Photography Spots",
+      "Adventure Sports",
+      "Parks & Gardens",
+    ],
     specialTraining: ["Cultural Sensitivity", "Marine Biology"],
   },
   {
@@ -344,7 +386,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -357,7 +399,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -370,7 +412,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +425,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -396,15 +438,17 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Street Food, Architecture, Adventure Sports, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Street Food, Architecture, Adventure Sports, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 63,
-    quote: "The best way to discover barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
     languages: ["Cantonese", "French", "Mandarin"],
     experienceYears: 8,
@@ -438,7 +482,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -451,7 +495,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -460,19 +504,25 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Nightlife, Photography Spots, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Nightlife, Photography Spots, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 39,
-    quote: "The best way to discover barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
     languages: ["Danish"],
     experienceYears: 7,
-    certifications: ["Regional Tourism Ambassador", "Cultural Heritage Specialist", "Local History Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Cultural Heritage Specialist",
+      "Local History Certification",
+    ],
     specialties: ["Nightlife", "Photography Spots"],
     specialTraining: [],
   },
@@ -502,7 +552,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -511,7 +561,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -524,20 +574,25 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Art Galleries, Street Food, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of barcelona and Spain. Specializing in Art Galleries, Street Food, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 95,
-    quote: "The best way to discover barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
     languages: ["German"],
     experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Art Galleries", "Street Food"],
     specialTraining: ["Wine Education", "Cultural Sensitivity"],
-  }
+  },
 ];

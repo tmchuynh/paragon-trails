@@ -23,7 +23,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -45,19 +45,24 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Wildlife, Sustainable Tourism, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Wildlife, Sustainable Tourism, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 13,
-    quote: "Every corner of helsinki tells a story, let me share them with you.",
+    quote:
+      "Every corner of helsinki tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
     languages: ["Spanish", "Bulgarian"],
     experienceYears: 13,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Wildlife", "Sustainable Tourism"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -83,7 +88,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -92,7 +97,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -105,12 +110,13 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Film Locations, Urban Legends, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Film Locations, Urban Legends, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 55,
     quote: "My goal is to help you fall in love with helsinki just as I have.",
@@ -131,7 +137,12 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Local Markets, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Asia Pacific"],
-    tourTypes: ["Festival Tour", "Architecture Tour", "Adventure Tour", "Accessible Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Architecture Tour",
+      "Adventure Tour",
+      "Accessible Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-2858-HEL",
     phoneNumber: "+1-307-973-5741",
@@ -143,7 +154,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -152,20 +163,22 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Local Markets, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of helsinki and Finland. Specializing in Local Markets, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 56,
-    quote: "The best way to discover helsinki is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover helsinki is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
     languages: ["Japanese", "Malay", "Cantonese"],
     experienceYears: 13,
     certifications: ["Urban Navigation Specialist", "CPR & First Aid"],
     specialties: ["Local Markets"],
     specialTraining: ["Desert Navigation"],
-  }
+  },
 ];

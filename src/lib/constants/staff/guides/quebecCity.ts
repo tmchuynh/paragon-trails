@@ -11,7 +11,13 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Michael is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Religious Sites, Indigenous Culture, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Luxury Tour", "Museum Tour", "Family-Friendly Tour", "Eco Tour", "Group Tour"],
+    tourTypes: [
+      "Luxury Tour",
+      "Museum Tour",
+      "Family-Friendly Tour",
+      "Eco Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-2747-QUE",
     phoneNumber: "+1-563-187-3698",
@@ -27,7 +33,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +46,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -53,7 +59,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -66,15 +72,17 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Religious Sites, Indigenous Culture, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Religious Sites, Indigenous Culture, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 9,
-    quote: "The best way to discover quebec-city is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover quebec-city is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Portuguese"],
     experienceYears: 12,
@@ -108,7 +116,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -121,7 +129,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -134,7 +142,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -147,19 +155,25 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Music Scene, Art Galleries, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Music Scene, Art Galleries, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 75,
-    quote: "quebec-city isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "quebec-city isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
     languages: ["French"],
     experienceYears: 10,
-    certifications: ["Local History Certification", "Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Local History Certification",
+      "Professional Tour Guide Association",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Music Scene", "Art Galleries"],
     specialTraining: ["Regional Cuisine"],
   },
@@ -173,7 +187,13 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Music Scene, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "Middle East"],
-    tourTypes: ["Luxury Tour", "Wildlife Safari", "Food Tour", "Self-Guided Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Luxury Tour",
+      "Wildlife Safari",
+      "Food Tour",
+      "Self-Guided Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-8163-QUE",
     phoneNumber: "+1-443-794-8821",
@@ -185,7 +205,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -198,7 +218,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -207,12 +227,13 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Music Scene, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Music Scene, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 30,
     quote: "In quebec-city, we don't just see the sights - we make memories.",
@@ -249,7 +270,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -262,7 +283,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -271,7 +292,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -280,7 +301,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -293,15 +314,17 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Photography Spots, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Photography Spots, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 20,
-    quote: "Every corner of quebec-city tells a story, let me share them with you.",
+    quote:
+      "Every corner of quebec-city tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
     languages: ["Romanian", "Malay"],
     experienceYears: 4,
@@ -319,7 +342,13 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Alexander is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Nightlife, Hidden Gems, Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Northern Europe"],
-    tourTypes: ["Cruise Excursion", "Festival Tour", "Accessible Tour", "Off-Road Tour", "Bike Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Festival Tour",
+      "Accessible Tour",
+      "Off-Road Tour",
+      "Bike Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-3795-QUE",
     phoneNumber: "+1-979-644-4652",
@@ -331,7 +360,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -340,7 +369,7 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -349,20 +378,22 @@ export const quebecCitycanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Nightlife, Hidden Gems, Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of quebec-city and Canada. Specializing in Nightlife, Hidden Gems, Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 68,
-    quote: "Every corner of quebec-city tells a story, let me share them with you.",
+    quote:
+      "Every corner of quebec-city tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Czech", "Vietnamese"],
     experienceYears: 15,
     certifications: ["Eco-Tourism Guide", "Regional Tourism Ambassador"],
     specialties: ["Nightlife", "Hidden Gems", "Architecture"],
     specialTraining: [],
-  }
+  },
 ];

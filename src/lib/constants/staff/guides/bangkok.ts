@@ -27,7 +27,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -58,7 +58,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -67,12 +67,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Museums, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Museums, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 65,
     quote: "Every corner of bangkok tells a story, let me share them with you.",
@@ -105,7 +106,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -114,7 +115,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -123,12 +124,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Architecture, Art Galleries, Public Transportation Navigation, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Architecture, Art Galleries, Public Transportation Navigation, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 68,
     quote: "Every corner of bangkok tells a story, let me share them with you.",
@@ -136,7 +138,12 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     languages: ["Romanian"],
     experienceYears: 3,
     certifications: ["CPR & First Aid", "Licensed City Guide"],
-    specialties: ["Architecture", "Art Galleries", "Public Transportation Navigation", "Film Locations"],
+    specialties: [
+      "Architecture",
+      "Art Galleries",
+      "Public Transportation Navigation",
+      "Film Locations",
+    ],
     specialTraining: [],
   },
   {
@@ -165,7 +172,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +185,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -191,7 +198,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -200,19 +207,23 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 14,
     quote: "Every corner of bangkok tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
     languages: ["French", "Korean", "Bulgarian"],
     experienceYears: 5,
-    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: [],
   },
@@ -238,7 +249,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +262,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -260,19 +271,23 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Local Craftsmanship, Hidden Gems, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Local Craftsmanship, Hidden Gems, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 17,
     quote: "Every corner of bangkok tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
     languages: ["Hebrew"],
     experienceYears: 4,
-    certifications: ["Language Proficiency Certification", "Food Safety Certification"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Local Craftsmanship", "Hidden Gems"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -286,7 +301,12 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Indigenous Culture, Parks & Gardens, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Alaska"],
-    tourTypes: ["Brewery Tour", "Photography Tour", "Scenic Tour", "Cooking Class"],
+    tourTypes: [
+      "Brewery Tour",
+      "Photography Tour",
+      "Scenic Tour",
+      "Cooking Class",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-8430-BAN",
     phoneNumber: "+1-168-543-6841",
@@ -302,7 +322,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -315,7 +335,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -324,7 +344,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -333,12 +353,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Indigenous Culture, Parks & Gardens, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Indigenous Culture, Parks & Gardens, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 88,
     quote: "My goal is to help you fall in love with bangkok just as I have.",
@@ -375,7 +396,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -384,7 +405,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -393,7 +414,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -402,20 +423,30 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Hidden Gems, Family Activities, Street Food, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Hidden Gems, Family Activities, Street Food, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 22,
     quote: "In bangkok, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Czech"],
     experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate", "Local History Certification"],
-    specialties: ["Hidden Gems", "Family Activities", "Street Food", "Wildlife"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Heritage Interpretation Certificate",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Hidden Gems",
+      "Family Activities",
+      "Street Food",
+      "Wildlife",
+    ],
     specialTraining: ["Regional Cuisine", "Group Management"],
   },
   {
@@ -428,7 +459,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Architecture Tour", "Boat Tour", "Helicopter Tour", "Walking Tour", "Nature Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "Boat Tour",
+      "Helicopter Tour",
+      "Walking Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-2977-BAN",
     phoneNumber: "+1-122-539-8382",
@@ -440,7 +477,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -453,20 +490,26 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of bangkok and Thailand. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 20,
-    quote: "bangkok isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "bangkok isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
     languages: ["Japanese", "Danish", "Polish"],
     experienceYears: 13,
-    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association", "Food Safety Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+      "Food Safety Certification",
+    ],
     specialties: ["Museums"],
     specialTraining: ["Archaeological Conservation", "Wine Education"],
-  }
+  },
 ];

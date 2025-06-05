@@ -27,7 +27,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -40,20 +40,27 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Local Cuisine, Sustainable Tourism, Historical Landmarks, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Local Cuisine, Sustainable Tourism, Historical Landmarks, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 12,
-    quote: "The best way to discover tampa is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover tampa is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
     languages: ["Indonesian"],
     experienceYears: 6,
     certifications: ["Licensed City Guide", "Cultural Heritage Specialist"],
-    specialties: ["Local Cuisine", "Sustainable Tourism", "Historical Landmarks", "Local Craftsmanship"],
+    specialties: [
+      "Local Cuisine",
+      "Sustainable Tourism",
+      "Historical Landmarks",
+      "Local Craftsmanship",
+    ],
     specialTraining: ["Public Speaking"],
   },
   {
@@ -82,7 +89,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -91,7 +98,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -104,7 +111,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -117,20 +124,29 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Art Galleries, Urban Legends, Film Locations, Family Activities, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Art Galleries, Urban Legends, Film Locations, Family Activities, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 90,
     quote: "My goal is to help you fall in love with tampa just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
     languages: ["Spanish"],
     experienceYears: 15,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder"],
-    specialties: ["Art Galleries", "Urban Legends", "Film Locations", "Family Activities"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Art Galleries",
+      "Urban Legends",
+      "Film Locations",
+      "Family Activities",
+    ],
     specialTraining: ["Emergency Response"],
   },
   {
@@ -159,7 +175,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -168,7 +184,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -177,7 +193,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -186,12 +202,13 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 20,
     quote: "My goal is to help you fall in love with tampa just as I have.",
@@ -212,7 +229,12 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Owen is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Wildlife, Family Activities, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Wildlife Safari", "Historical Tour", "Group Tour", "Scenic Tour"],
+    tourTypes: [
+      "Wildlife Safari",
+      "Historical Tour",
+      "Group Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-1653-TAM",
     phoneNumber: "+1-283-729-8998",
@@ -224,7 +246,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -233,7 +255,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -242,7 +264,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -255,7 +277,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -268,7 +290,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -277,19 +299,24 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Wildlife, Family Activities, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Wildlife, Family Activities, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 94,
     quote: "In tampa, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
     languages: ["Serbian", "Norwegian", "Turkish"],
     experienceYears: 2,
-    certifications: ["Adventure Tourism Safety Certificate", "Urban Navigation Specialist", "CPR & First Aid"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Urban Navigation Specialist",
+      "CPR & First Aid",
+    ],
     specialties: ["Wildlife", "Family Activities"],
     specialTraining: ["Regional Geology", "Urban Planning"],
   },
@@ -319,7 +346,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -328,12 +355,13 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Wine Tasting, Photography Spots, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Wine Tasting, Photography Spots, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 62,
     quote: "My goal is to help you fall in love with tampa just as I have.",
@@ -370,7 +398,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -383,7 +411,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -396,7 +424,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -405,20 +433,29 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Cultural Etiquette, Wildlife, Public Transportation Navigation, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of tampa and United States. Specializing in Cultural Etiquette, Wildlife, Public Transportation Navigation, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 33,
     quote: "In tampa, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
     languages: ["Swahili", "Russian", "Spanish"],
     experienceYears: 2,
-    certifications: ["Regional Tourism Ambassador", "Adventure Tourism Safety Certificate"],
-    specialties: ["Cultural Etiquette", "Wildlife", "Public Transportation Navigation", "Family Activities"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Adventure Tourism Safety Certificate",
+    ],
+    specialties: [
+      "Cultural Etiquette",
+      "Wildlife",
+      "Public Transportation Navigation",
+      "Family Activities",
+    ],
     specialTraining: [],
-  }
+  },
 ];

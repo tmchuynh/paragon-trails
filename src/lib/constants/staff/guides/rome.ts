@@ -27,7 +27,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -45,15 +45,17 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 104,
-    quote: "The best way to discover rome is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover rome is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Indonesian", "Bulgarian"],
     experienceYears: 16,
@@ -71,7 +73,13 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Logan is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Architecture, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["Wine Tour", "Museum Tour", "Romantic Tour", "Craft Workshop", "Bike Tour"],
+    tourTypes: [
+      "Wine Tour",
+      "Museum Tour",
+      "Romantic Tour",
+      "Craft Workshop",
+      "Bike Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-3121-ROM",
     phoneNumber: "+1-438-550-4048",
@@ -87,7 +95,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -100,7 +108,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +117,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -118,12 +126,13 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Architecture, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Architecture, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 90,
     quote: "In rome, we don't just see the sights - we make memories.",
@@ -156,7 +165,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -165,7 +174,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -174,7 +183,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -187,7 +196,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -196,20 +205,25 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Museums, Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of rome and Italy. Specializing in Museums, Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 45,
-    quote: "The best way to discover rome is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover rome is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
     languages: ["Croatian"],
     experienceYears: 11,
-    certifications: ["Urban Navigation Specialist", "Language Proficiency Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Museums", "Local Cuisine"],
     specialTraining: [],
-  }
+  },
 ];

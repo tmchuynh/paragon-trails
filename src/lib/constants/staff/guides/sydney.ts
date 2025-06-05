@@ -27,7 +27,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -58,7 +58,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -67,20 +67,30 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Urban Legends, Local Cuisine, Local Markets, Music Scene, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Urban Legends, Local Cuisine, Local Markets, Music Scene, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 22,
     quote: "In sydney, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
     languages: ["Finnish", "English"],
     experienceYears: 12,
-    certifications: ["Wilderness First Responder", "Licensed City Guide", "CPR & First Aid"],
-    specialties: ["Urban Legends", "Local Cuisine", "Local Markets", "Music Scene"],
+    certifications: [
+      "Wilderness First Responder",
+      "Licensed City Guide",
+      "CPR & First Aid",
+    ],
+    specialties: [
+      "Urban Legends",
+      "Local Cuisine",
+      "Local Markets",
+      "Music Scene",
+    ],
     specialTraining: ["Art History"],
   },
   {
@@ -105,7 +115,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -114,7 +124,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -127,12 +137,13 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Urban Legends, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Urban Legends, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 40,
     quote: "In sydney, we don't just see the sights - we make memories.",
@@ -153,7 +164,12 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mason is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Audio Tour", "LGBTQ+ Friendly Tour", "Underground Tour", "Food Tour"],
+    tourTypes: [
+      "Audio Tour",
+      "LGBTQ+ Friendly Tour",
+      "Underground Tour",
+      "Food Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-8918-SYD",
     phoneNumber: "+1-851-352-9592",
@@ -169,7 +185,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +194,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -187,7 +203,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -196,19 +212,25 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 85,
-    quote: "sydney isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "sydney isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
     languages: ["Croatian", "Cantonese", "Finnish"],
     experienceYears: 3,
-    certifications: ["Cultural Heritage Specialist", "Eco-Tourism Guide", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Eco-Tourism Guide",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Public Transportation Navigation"],
     specialTraining: ["Photography"],
   },
@@ -222,7 +244,13 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sophia is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Film Locations, Art Galleries, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Religious Tour", "Farm Visit", "Audio Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Religious Tour",
+      "Farm Visit",
+      "Audio Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-3970-SYD",
     phoneNumber: "+1-388-612-4356",
@@ -238,7 +266,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -247,7 +275,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -260,7 +288,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -269,7 +297,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -278,19 +306,24 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Film Locations, Art Galleries, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Film Locations, Art Galleries, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 28,
-    quote: "The best way to discover sydney is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover sydney is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["Swahili", "Malay", "Russian"],
     experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Film Locations", "Art Galleries"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -320,7 +353,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -333,7 +366,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -346,12 +379,13 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of sydney and Australia. Specializing in Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 53,
     quote: "My goal is to help you fall in love with sydney just as I have.",
@@ -361,5 +395,5 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification"],
     specialties: ["Local Cuisine"],
     specialTraining: ["Wine Education", "Cultural Sensitivity"],
-  }
+  },
 ];

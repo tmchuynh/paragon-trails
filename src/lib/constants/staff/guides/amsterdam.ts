@@ -27,7 +27,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -62,20 +62,29 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Public Transportation Navigation, Street Food, Photography Spots, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Public Transportation Navigation, Street Food, Photography Spots, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 64,
-    quote: "Every corner of amsterdam tells a story, let me share them with you.",
+    quote:
+      "Every corner of amsterdam tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Bulgarian"],
     experienceYears: 4,
-    certifications: ["Licensed City Guide", "Professional Tour Guide Association"],
-    specialties: ["Public Transportation Navigation", "Street Food", "Photography Spots"],
+    certifications: [
+      "Licensed City Guide",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Street Food",
+      "Photography Spots",
+    ],
     specialTraining: ["Historical Research Methods"],
   },
   {
@@ -104,7 +113,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -117,7 +126,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -130,15 +139,17 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Wine Tasting, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Wine Tasting, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 35,
-    quote: "Every corner of amsterdam tells a story, let me share them with you.",
+    quote:
+      "Every corner of amsterdam tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
     languages: ["Mandarin", "Russian", "Danish"],
     experienceYears: 13,
@@ -172,7 +183,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -181,7 +192,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -194,7 +205,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -207,12 +218,13 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Local Craftsmanship, LGBTQ+ History, Public Transportation Navigation, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Local Craftsmanship, LGBTQ+ History, Public Transportation Navigation, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 54,
     quote: "My goal is to help you fall in love with amsterdam just as I have.",
@@ -220,7 +232,11 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
     languages: ["Vietnamese", "Russian", "Japanese"],
     experienceYears: 12,
     certifications: ["Licensed City Guide", "Sustainable Tourism Certificate"],
-    specialties: ["Local Craftsmanship", "LGBTQ+ History", "Public Transportation Navigation"],
+    specialties: [
+      "Local Craftsmanship",
+      "LGBTQ+ History",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Accessibility Services"],
   },
   {
@@ -249,7 +265,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +274,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -267,15 +283,17 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 40,
-    quote: "Every corner of amsterdam tells a story, let me share them with you.",
+    quote:
+      "Every corner of amsterdam tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     languages: ["Hungarian", "Indonesian"],
     experienceYears: 6,
@@ -293,7 +311,13 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Scenic Tour", "Accessible Tour", "Underground Tour", "Eco Tour", "Group Tour"],
+    tourTypes: [
+      "Scenic Tour",
+      "Accessible Tour",
+      "Underground Tour",
+      "Eco Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-2617-AMS",
     phoneNumber: "+1-551-581-8391",
@@ -309,7 +333,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -322,7 +346,7 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -335,20 +359,22 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of amsterdam and Netherlands. Specializing in Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 53,
-    quote: "amsterdam isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "amsterdam isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     languages: ["Mandarin"],
     experienceYears: 11,
     certifications: ["Professional Tour Guide Association"],
     specialties: ["Historical Landmarks"],
     specialTraining: ["Cultural Sensitivity"],
-  }
+  },
 ];

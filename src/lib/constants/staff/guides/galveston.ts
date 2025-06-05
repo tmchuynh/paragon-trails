@@ -11,7 +11,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Riley is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Film Locations, Parks & Gardens, Local Craftsmanship, Cultural Etiquette, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Caribbean"],
-    tourTypes: ["Shopping Tour", "Relocation Tour", "Museum Tour", "Nature Tour"],
+    tourTypes: [
+      "Shopping Tour",
+      "Relocation Tour",
+      "Museum Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-5231-GAL",
     phoneNumber: "+1-257-118-9968",
@@ -23,7 +28,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -36,12 +41,13 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Film Locations, Parks & Gardens, Local Craftsmanship, Cultural Etiquette, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Film Locations, Parks & Gardens, Local Craftsmanship, Cultural Etiquette, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 84,
     quote: "My goal is to help you fall in love with galveston just as I have.",
@@ -49,7 +55,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     languages: ["Cantonese", "Hindi", "Romanian"],
     experienceYears: 3,
     certifications: ["Professional Tour Guide Association"],
-    specialties: ["Film Locations", "Parks & Gardens", "Local Craftsmanship", "Cultural Etiquette"],
+    specialties: [
+      "Film Locations",
+      "Parks & Gardens",
+      "Local Craftsmanship",
+      "Cultural Etiquette",
+    ],
     specialTraining: [],
   },
   {
@@ -74,7 +85,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -83,7 +94,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -92,15 +103,17 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 53,
-    quote: "Every corner of galveston tells a story, let me share them with you.",
+    quote:
+      "Every corner of galveston tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Croatian", "Vietnamese"],
     experienceYears: 11,
@@ -130,7 +143,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -139,7 +152,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -152,7 +165,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -161,20 +174,25 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Wine Tasting, Local Cuisine, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of galveston and United States. Specializing in Wine Tasting, Local Cuisine, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 28,
     quote: "My goal is to help you fall in love with galveston just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Hindi", "Hebrew", "Norwegian"],
     experienceYears: 2,
-    certifications: ["Local History Certification", "Regional Tourism Ambassador", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Local History Certification",
+      "Regional Tourism Ambassador",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Wine Tasting", "Local Cuisine"],
     specialTraining: [],
-  }
+  },
 ];

@@ -23,7 +23,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -49,19 +49,25 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in Cultural Etiquette, Museums, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in Cultural Etiquette, Museums, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 14,
-    quote: "ho-chi-minh-city isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "ho-chi-minh-city isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
     languages: ["Swedish"],
     experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador", "Licensed City Guide", "Professional Tour Guide Association"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Licensed City Guide",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Cultural Etiquette", "Museums"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -91,7 +97,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -104,7 +110,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -113,20 +119,30 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in LGBTQ+ History, Nightlife, Religious Sites, Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in LGBTQ+ History, Nightlife, Religious Sites, Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 11,
-    quote: "ho-chi-minh-city isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "ho-chi-minh-city isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
     languages: ["Portuguese", "Spanish"],
     experienceYears: 10,
-    certifications: ["Heritage Interpretation Certificate", "Wilderness First Responder"],
-    specialties: ["LGBTQ+ History", "Nightlife", "Religious Sites", "Parks & Gardens"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "LGBTQ+ History",
+      "Nightlife",
+      "Religious Sites",
+      "Parks & Gardens",
+    ],
     specialTraining: [],
   },
   {
@@ -151,7 +167,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -164,7 +180,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -173,7 +189,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -182,7 +198,7 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -195,20 +211,26 @@ export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in Religious Sites, Parks & Gardens, Indigenous Culture, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of ho-chi-minh-city and Vietnam. Specializing in Religious Sites, Parks & Gardens, Indigenous Culture, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 52,
-    quote: "Every corner of ho-chi-minh-city tells a story, let me share them with you.",
+    quote:
+      "Every corner of ho-chi-minh-city tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
     languages: ["Russian", "Romanian"],
     experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "Urban Navigation Specialist", "Local History Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Urban Navigation Specialist",
+      "Local History Certification",
+    ],
     specialties: ["Religious Sites", "Parks & Gardens", "Indigenous Culture"],
     specialTraining: ["Cultural Sensitivity"],
-  }
+  },
 ];

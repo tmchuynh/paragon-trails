@@ -27,7 +27,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -49,15 +49,17 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Indigenous Culture, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Indigenous Culture, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 6,
-    quote: "venice isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "venice isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
     languages: ["Spanish", "Swedish"],
     experienceYears: 13,
@@ -91,7 +93,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -100,7 +102,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -113,19 +115,23 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Local Cuisine, LGBTQ+ History, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Local Cuisine, LGBTQ+ History, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 57,
     quote: "Every corner of venice tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
     languages: ["Malay", "English", "Portuguese"],
     experienceYears: 10,
-    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Local Cuisine", "LGBTQ+ History"],
     specialTraining: [],
   },
@@ -139,7 +145,13 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Aria is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Wine Tasting, Cultural Etiquette, Music Scene, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Family-Friendly Tour", "Festival Tour", "Craft Workshop", "Adventure Tour", "Luxury Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Festival Tour",
+      "Craft Workshop",
+      "Adventure Tour",
+      "Luxury Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-6088-VEN",
     phoneNumber: "+1-890-353-7117",
@@ -151,7 +163,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -164,7 +176,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -177,7 +189,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -190,19 +202,24 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Wine Tasting, Cultural Etiquette, Music Scene, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Wine Tasting, Cultural Etiquette, Music Scene, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 21,
     quote: "My goal is to help you fall in love with venice just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Serbian", "Malay"],
     experienceYears: 6,
-    certifications: ["Licensed City Guide", "Eco-Tourism Guide", "Language Proficiency Certification"],
+    certifications: [
+      "Licensed City Guide",
+      "Eco-Tourism Guide",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Wine Tasting", "Cultural Etiquette", "Music Scene"],
     specialTraining: ["Religious Studies", "Regional Cuisine"],
   },
@@ -216,7 +233,12 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Urban Legends, Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Cruise Excursion", "Private Tour", "Wine Tour", "Craft Workshop"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Private Tour",
+      "Wine Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-5693-VEN",
     phoneNumber: "+1-994-289-7944",
@@ -228,7 +250,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -241,7 +263,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -254,7 +276,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -263,19 +285,24 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Urban Legends, Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Urban Legends, Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 44,
-    quote: "The best way to discover venice is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover venice is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
     languages: ["Hebrew", "Swedish"],
     experienceYears: 2,
-    certifications: ["Language Proficiency Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Urban Legends", "Sustainable Tourism"],
     specialTraining: ["Cultural Sensitivity", "Religious Studies"],
   },
@@ -305,7 +332,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -314,7 +341,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -327,7 +354,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -336,7 +363,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -349,12 +376,13 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Nightlife, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Nightlife, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 44,
     quote: "In venice, we don't just see the sights - we make memories.",
@@ -391,7 +419,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -400,7 +428,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -409,7 +437,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -418,20 +446,27 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Adventure Sports, Cultural Etiquette, Religious Sites, Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Adventure Sports, Cultural Etiquette, Religious Sites, Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 103,
-    quote: "venice isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "venice isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
     languages: ["Arabic", "Spanish"],
     experienceYears: 7,
     certifications: ["Licensed City Guide", "Eco-Tourism Guide"],
-    specialties: ["Adventure Sports", "Cultural Etiquette", "Religious Sites", "Indigenous Culture"],
+    specialties: [
+      "Adventure Sports",
+      "Cultural Etiquette",
+      "Religious Sites",
+      "Indigenous Culture",
+    ],
     specialTraining: ["Desert Navigation", "Cultural Sensitivity"],
   },
   {
@@ -444,7 +479,13 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Alexander is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Public Transportation Navigation, Music Scene, Family Activities, Film Locations, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "South America"],
-    tourTypes: ["Wildlife Safari", "Museum Tour", "Family-Friendly Tour", "Ghost Tour", "Photography Tour"],
+    tourTypes: [
+      "Wildlife Safari",
+      "Museum Tour",
+      "Family-Friendly Tour",
+      "Ghost Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-4306-VEN",
     phoneNumber: "+1-535-810-1383",
@@ -460,7 +501,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -473,20 +514,30 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Public Transportation Navigation, Music Scene, Family Activities, Film Locations, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Public Transportation Navigation, Music Scene, Family Activities, Film Locations, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 13,
-    quote: "venice isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "venice isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
     languages: ["Cantonese"],
     experienceYears: 9,
-    certifications: ["Adventure Tourism Safety Certificate", "Food Safety Certification"],
-    specialties: ["Public Transportation Navigation", "Music Scene", "Family Activities", "Film Locations"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Food Safety Certification",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Music Scene",
+      "Family Activities",
+      "Film Locations",
+    ],
     specialTraining: ["Emergency Response"],
   },
   {
@@ -511,7 +562,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -520,7 +571,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -533,7 +584,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -546,20 +597,24 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of venice and Italy. Specializing in Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 16,
     quote: "My goal is to help you fall in love with venice just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
     languages: ["Bulgarian"],
     experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Wine Tasting"],
     specialTraining: [],
-  }
+  },
 ];

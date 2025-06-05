@@ -27,7 +27,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +40,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -49,7 +49,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -58,20 +58,30 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Art Galleries, Historical Landmarks, Parks & Gardens, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Art Galleries, Historical Landmarks, Parks & Gardens, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 66,
-    quote: "The best way to discover mykonos is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover mykonos is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
     languages: ["Bulgarian"],
     experienceYears: 7,
-    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
-    specialties: ["Art Galleries", "Historical Landmarks", "Parks & Gardens", "Public Transportation Navigation"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
+    specialties: [
+      "Art Galleries",
+      "Historical Landmarks",
+      "Parks & Gardens",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Desert Navigation", "Archaeological Conservation"],
   },
   {
@@ -84,7 +94,12 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Penelope is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Architecture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "South America"],
-    tourTypes: ["Romantic Tour", "Self-Guided Tour", "Religious Tour", "Craft Workshop"],
+    tourTypes: [
+      "Romantic Tour",
+      "Self-Guided Tour",
+      "Religious Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-9215-MYK",
     phoneNumber: "+1-135-873-8862",
@@ -100,7 +115,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -109,7 +124,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -118,7 +133,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -127,12 +142,13 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Architecture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Architecture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 68,
     quote: "In mykonos, we don't just see the sights - we make memories.",
@@ -153,7 +169,12 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jacob is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Family Activities, Wildlife, Art Galleries, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Eco Tour", "Shopping Tour", "Museum Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Eco Tour",
+      "Shopping Tour",
+      "Museum Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-2161-MYK",
     phoneNumber: "+1-705-391-5193",
@@ -169,7 +190,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -178,7 +199,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -187,7 +208,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -200,15 +221,17 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Family Activities, Wildlife, Art Galleries, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Family Activities, Wildlife, Art Galleries, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 25,
-    quote: "mykonos isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "mykonos isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
     languages: ["Bulgarian", "Romanian", "Polish"],
     experienceYears: 14,
@@ -226,7 +249,13 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Market Tour", "Street Art Tour", "Walking Tour", "Audio Tour", "Food Tour"],
+    tourTypes: [
+      "Market Tour",
+      "Street Art Tour",
+      "Walking Tour",
+      "Audio Tour",
+      "Food Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-9075-MYK",
     phoneNumber: "+1-602-264-2468",
@@ -242,7 +271,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -251,19 +280,24 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 59,
-    quote: "The best way to discover mykonos is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover mykonos is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
     languages: ["Serbian", "Japanese"],
     experienceYears: 16,
-    certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Film Locations"],
     specialTraining: [],
   },
@@ -277,7 +311,12 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Nature Tour", "Scenic Tour", "Underground Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Scenic Tour",
+      "Underground Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-5608-MYK",
     phoneNumber: "+1-822-142-1751",
@@ -289,7 +328,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -302,7 +341,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -315,12 +354,13 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Sustainable Tourism, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 60,
     quote: "Every corner of mykonos tells a story, let me share them with you.",
@@ -341,7 +381,13 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Photography Spots, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Cruise Excursion", "Wildlife Safari", "Accessible Tour", "Ghost Tour", "Nature Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Wildlife Safari",
+      "Accessible Tour",
+      "Ghost Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-9008-MYK",
     phoneNumber: "+1-139-414-1934",
@@ -353,7 +399,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -362,7 +408,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -371,19 +417,24 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Photography Spots, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Photography Spots, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 30,
-    quote: "mykonos isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "mykonos isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Vietnamese"],
     experienceYears: 7,
-    certifications: ["Language Proficiency Certification", "Food Safety Certification"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: ["Religious Studies"],
   },
@@ -409,7 +460,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -422,7 +473,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -435,20 +486,26 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Photography Spots, Public Transportation Navigation, Cultural Etiquette, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Photography Spots, Public Transportation Navigation, Cultural Etiquette, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 21,
-    quote: "mykonos isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "mykonos isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
     languages: ["Tagalog", "Czech"],
     experienceYears: 4,
     certifications: ["Food Safety Certification"],
-    specialties: ["Photography Spots", "Public Transportation Navigation", "Cultural Etiquette"],
+    specialties: [
+      "Photography Spots",
+      "Public Transportation Navigation",
+      "Cultural Etiquette",
+    ],
     specialTraining: ["Marine Biology", "Local Transit Systems"],
   },
   {
@@ -473,7 +530,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -482,7 +539,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -495,20 +552,26 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Museums, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of mykonos and Greece. Specializing in Museums, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 40,
-    quote: "The best way to discover mykonos is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover mykonos is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Swedish", "Serbian"],
     experienceYears: 5,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Museums"],
     specialTraining: ["Photography", "Regional Cuisine"],
-  }
+  },
 ];

@@ -27,7 +27,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +40,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -53,7 +53,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -62,7 +62,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -71,19 +71,24 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 34,
     quote: "My goal is to help you fall in love with bali just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Cantonese"],
     experienceYears: 11,
-    certifications: ["Local History Certification", "Sustainable Tourism Certificate", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Local History Certification",
+      "Sustainable Tourism Certificate",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Parks & Gardens"],
     specialTraining: ["Religious Studies", "Emergency Response"],
   },
@@ -113,7 +118,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -126,7 +131,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -135,7 +140,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -144,19 +149,23 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Photography Spots, Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Photography Spots, Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 15,
     quote: "In bali, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
     languages: ["Mandarin", "Serbian", "Croatian"],
     experienceYears: 14,
-    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Photography Spots", "Indigenous Culture"],
     specialTraining: ["Cultural Sensitivity"],
   },
@@ -170,7 +179,13 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Historical Landmarks, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: ["Family-Friendly Tour", "Market Tour", "Wildlife Safari", "Shopping Tour", "Accessible Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Market Tour",
+      "Wildlife Safari",
+      "Shopping Tour",
+      "Accessible Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-4988-BAL",
     phoneNumber: "+1-189-943-2321",
@@ -186,7 +201,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -199,7 +214,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +227,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -225,20 +240,30 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Historical Landmarks, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Historical Landmarks, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 61,
-    quote: "bali isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "bali isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
     languages: ["Vietnamese", "Mandarin", "Portuguese"],
     experienceYears: 11,
-    certifications: ["Local History Certification", "Language Proficiency Certification", "Regional Tourism Ambassador"],
-    specialties: ["LGBTQ+ History", "Historical Landmarks", "Cultural Etiquette"],
+    certifications: [
+      "Local History Certification",
+      "Language Proficiency Certification",
+      "Regional Tourism Ambassador",
+    ],
+    specialties: [
+      "LGBTQ+ History",
+      "Historical Landmarks",
+      "Cultural Etiquette",
+    ],
     specialTraining: ["Public Speaking"],
   },
   {
@@ -251,7 +276,12 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Historical Landmarks, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Self-Guided Tour", "Festival Tour", "Relocation Tour", "Helicopter Tour"],
+    tourTypes: [
+      "Self-Guided Tour",
+      "Festival Tour",
+      "Relocation Tour",
+      "Helicopter Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-4980-BAL",
     phoneNumber: "+1-320-445-1671",
@@ -263,7 +293,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -272,7 +302,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -285,7 +315,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -298,15 +328,17 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Historical Landmarks, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Historical Landmarks, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 42,
-    quote: "The best way to discover bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
     languages: ["Romanian", "Vietnamese", "Hindi"],
     experienceYears: 7,
@@ -336,7 +368,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -349,7 +381,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -362,20 +394,29 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Family Activities, Religious Sites, Historical Landmarks, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Family Activities, Religious Sites, Historical Landmarks, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 43,
     quote: "Every corner of bali tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["Japanese", "Swedish"],
     experienceYears: 4,
-    certifications: ["Wilderness First Responder", "Heritage Interpretation Certificate", "Sustainable Tourism Certificate"],
-    specialties: ["Family Activities", "Religious Sites", "Historical Landmarks"],
+    certifications: [
+      "Wilderness First Responder",
+      "Heritage Interpretation Certificate",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Family Activities",
+      "Religious Sites",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Accessibility Services", "Local Transit Systems"],
   },
   {
@@ -400,7 +441,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -413,7 +454,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -426,7 +467,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -435,12 +476,13 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Film Locations, Architecture, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Film Locations, Architecture, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 55,
     quote: "My goal is to help you fall in love with bali just as I have.",
@@ -450,5 +492,5 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     certifications: ["Heritage Interpretation Certificate", "CPR & First Aid"],
     specialties: ["LGBTQ+ History", "Film Locations", "Architecture"],
     specialTraining: ["Public Speaking"],
-  }
+  },
 ];

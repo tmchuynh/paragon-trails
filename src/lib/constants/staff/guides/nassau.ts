@@ -11,7 +11,12 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Cultural Tour", "Helicopter Tour", "Luxury Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Cultural Tour",
+      "Helicopter Tour",
+      "Luxury Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-3941-NAS",
     phoneNumber: "+1-979-393-5607",
@@ -27,7 +32,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -40,7 +45,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -53,7 +58,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -66,15 +71,17 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 86,
-    quote: "The best way to discover nassau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover nassau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
     languages: ["Portuguese", "Finnish"],
     experienceYears: 2,
@@ -92,7 +99,12 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Historical Landmarks, Local Markets, Family Activities, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Family-Friendly Tour", "Craft Workshop", "Underground Tour", "Brewery Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Craft Workshop",
+      "Underground Tour",
+      "Brewery Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-7313-NAS",
     phoneNumber: "+1-985-665-4026",
@@ -104,7 +116,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -117,15 +129,17 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Historical Landmarks, Local Markets, Family Activities, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Historical Landmarks, Local Markets, Family Activities, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 8,
-    quote: "nassau isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "nassau isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Arabic"],
     experienceYears: 2,
@@ -155,7 +169,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -168,7 +182,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -177,7 +191,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -190,7 +204,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -203,12 +217,13 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Historical Landmarks, Art Galleries, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of nassau and Bahamas. Specializing in Historical Landmarks, Art Galleries, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 67,
     quote: "My goal is to help you fall in love with nassau just as I have.",
@@ -218,5 +233,5 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     certifications: ["Eco-Tourism Guide", "Cultural Heritage Specialist"],
     specialties: ["Historical Landmarks", "Art Galleries"],
     specialTraining: ["Group Management"],
-  }
+  },
 ];
