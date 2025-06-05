@@ -1623,3 +1623,5 @@ export const cityAttractions = {
     { name: "Swiss National Museum", address: "Museumstrasse 2, Zurich" },
   ],
 };
+
+export { cityAttractions as attractionAddresses };
