@@ -624,14 +624,7 @@ async function generateCityTourFile(city) {
 
   const variableName = `${formattedName}${formattedCountry}${formattedRegion}Tours`;
 
-  const destDir = path.join(
-    process.cwd(),
-    "src",
-    "lib",
-    "constants",
-    "tours",
-    "city"
-  );
+  const destDir = path.join(process.cwd(), "src", "lib", "constants", "tours");
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
   // Check if directory exists
