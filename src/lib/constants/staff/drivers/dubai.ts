@@ -3,18 +3,18 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
   {
     id: "driver-dubai-1",
-    name: "Steven Han",
-    licenseNumber: "T7A467",
-    licenseExpiry: "2028-09-16",
-    experienceYears: 14,
-    languagesSpoken: ["de"],
+    name: "Allison Jennings",
+    licenseNumber: "M5N456",
+    licenseExpiry: "2030-01-04",
+    experienceYears: 2,
+    languagesSpoken: ["Turkish", "Persian", "Hebrew"],
     available: [
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
-            from: "05:00",
-            to: "10:00"
+            from: "16:00",
+            to: "18:00"
           }
         ],
       },
@@ -22,17 +22,145 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "17:00",
-            to: "19:00"
+            from: "07:00",
+            to: "10:00"
+          },
+          {
+            from: "06:00",
+            to: "10:00"
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
             from: "15:00",
             to: "20:00"
+          },
+          {
+            from: "07:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00"
+          },
+          {
+            from: "08:00",
+            to: "11:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.6,
+    phone: "+125 897-713-1012",
+    email: "allison.jennings@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/allison-jennings.jpg",
+    specialties: ["Long-Distance Driving", "Luxury Car Specialist", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV", "Sports Car"],
+  },
+  {
+    id: "driver-dubai-2",
+    name: "Harper Hernandez",
+    licenseNumber: "Q0V648",
+    licenseExpiry: "2027-03-13",
+    experienceYears: 3,
+    languagesSpoken: ["Kurdish", "Persian", "Arabic"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+90 890-493-2058",
+    email: "harper.hernandez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/harper-hernandez.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Electric Vehicle"],
+  },
+  {
+    id: "driver-dubai-3",
+    name: "Aaliyah Cooper",
+    licenseNumber: "M2J871",
+    licenseExpiry: "2026-02-28",
+    experienceYears: 6,
+    languagesSpoken: ["Kurdish", "Arabic", "Persian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          },
+          {
+            from: "14:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
+          },
+          {
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "09:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "03:00"
           },
           {
             from: "08:00",
@@ -41,36 +169,62 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         ],
       },
       {
-        day: "Saturday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "00:00",
-            to: "02:00"
+            from: "13:00",
+            to: "16:00"
+          },
+          {
+            from: "06:00",
+            to: "11:00"
           }
         ],
       }
     ],
-    ratings: 4.5,
-    phone: "+601 139-680-2326",
-    email: "steven.han@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/steven-han.jpg",
-    specialties: ["Event Transportation", "VIP Transport"],
-    vehicleTypesCertified: ["Van", "Convertible"],
+    ratings: 3.7,
+    phone: "+530 159-697-8364",
+    email: "aaliyah.cooper@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/aaliyah-cooper.jpg",
+    specialties: ["Tour Guide Driver", "Long-Distance Driving", "Security Detail"],
+    vehicleTypesCertified: ["Convertible", "Van"],
   },
   {
-    id: "driver-dubai-2",
-    name: "Mariana Pham",
-    licenseNumber: "S6X368",
-    licenseExpiry: "2028-12-22",
-    experienceYears: 20,
-    languagesSpoken: ["fr", "de"],
+    id: "driver-dubai-4",
+    name: "Noah Brooks",
+    licenseNumber: "Z2H693",
+    licenseExpiry: "2028-03-05",
+    experienceYears: 17,
+    languagesSpoken: ["Turkish", "Kurdish", "Persian", "Hebrew"],
     available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          },
+          {
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "19:00",
-            to: "22:00"
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
           }
         ],
       },
@@ -78,12 +232,114 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
+            from: "07:00",
+            to: "10:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+171 832-935-4341",
+    email: "noah.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/noah-brooks.jpg",
+    specialties: ["Luxury Car Specialist", "Long-Distance Driving", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Van", "Sports Car", "SUV", "Electric Vehicle"],
+  },
+  {
+    id: "driver-dubai-5",
+    name: "Samuel Harris",
+    licenseNumber: "I4I268",
+    licenseExpiry: "2028-06-02",
+    experienceYears: 7,
+    languagesSpoken: ["Persian", "Arabic", "Turkish"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00"
+          },
+          {
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00",
             to: "14:00"
           },
           {
-            from: "16:00",
-            to: "20:00"
+            from: "10:00",
+            to: "13:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+41 102-843-7947",
+    email: "samuel.harris@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/samuel-harris.jpg",
+    specialties: ["Long-Distance Driving", "Security Detail"],
+    vehicleTypesCertified: ["Luxury SUV"],
+  },
+  {
+    id: "driver-dubai-6",
+    name: "Leah Baker",
+    licenseNumber: "T2D847",
+    licenseExpiry: "2030-03-21",
+    experienceYears: 11,
+    languagesSpoken: ["Persian", "Hebrew", "Kurdish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00"
+          },
+          {
+            from: "18:00",
+            to: "21:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00"
+          },
+          {
+            from: "10:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00"
+          },
+          {
+            from: "10:00",
+            to: "14:00"
           }
         ],
       },
@@ -91,467 +347,17 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "00:00",
-            to: "05:00"
-          },
-          {
-            from: "19:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+169 313-738-4267",
-    email: "mariana.pham@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/mariana-pham.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur", "Tour Guide Driver", "Night Shift"],
-    vehicleTypesCertified: ["SUV", "Motorcoach", "Sports Car"],
-  },
-  {
-    id: "driver-dubai-3",
-    name: "Mary Harris",
-    licenseNumber: "Q8L414",
-    licenseExpiry: "2026-02-17",
-    experienceYears: 15,
-    languagesSpoken: ["en", "hi"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          },
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+156 523-388-2959",
-    email: "mary.harris@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/mary-harris.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Limousine", "Motorcoach", "Luxury SUV"],
-  },
-  {
-    id: "driver-dubai-4",
-    name: "Aoi Hernandez",
-    licenseNumber: "D4H264",
-    licenseExpiry: "2030-05-19",
-    experienceYears: 18,
-    languagesSpoken: ["tr", "zh"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          },
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+761 308-775-9898",
-    email: "aoi.hernandez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/aoi-hernandez.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Sedan", "Van", "Convertible"],
-  },
-  {
-    id: "driver-dubai-5",
-    name: "Hui Cho",
-    licenseNumber: "W0W517",
-    licenseExpiry: "2026-03-08",
-    experienceYears: 10,
-    languagesSpoken: ["zh", "ru", "tr"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          },
-          {
-            from: "15:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          },
-          {
-            from: "14:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
+            from: "04:00",
             to: "09:00"
-          },
-          {
-            from: "15:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00"
-          },
-          {
-            from: "00:00",
-            to: "02:00"
           }
         ],
       }
     ],
-    ratings: 4.3,
-    phone: "+500 963-215-3919",
-    email: "hui.cho@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/hui-cho.jpg",
-    specialties: ["Night Shift", "Long-Distance Driving", "Airport Transfers"],
-    vehicleTypesCertified: ["Electric Vehicle", "Convertible", "Sports Car", "Motorcoach"],
-  },
-  {
-    id: "driver-dubai-6",
-    name: "Emily Thompson",
-    licenseNumber: "X8P128",
-    licenseExpiry: "2029-04-12",
-    experienceYears: 3,
-    languagesSpoken: ["pt"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
-          },
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00"
-          },
-          {
-            from: "07:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+62 391-840-3036",
-    email: "emily.thompson@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/emily-thompson.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Sports Car", "Limousine"],
-  },
-  {
-    id: "driver-dubai-7",
-    name: "Lucia Kim",
-    licenseNumber: "R6Z711",
-    licenseExpiry: "2029-04-11",
-    experienceYears: 14,
-    languagesSpoken: ["it"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00"
-          },
-          {
-            from: "18:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00"
-          },
-          {
-            from: "17:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+404 333-569-5786",
-    email: "lucia.kim@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/lucia-kim.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail"],
-    vehicleTypesCertified: ["Limousine", "Luxury SUV", "Convertible"],
-  },
-  {
-    id: "driver-dubai-8",
-    name: "Elizabeth Miller",
-    licenseNumber: "R0Q620",
-    licenseExpiry: "2030-06-21",
-    experienceYears: 11,
-    languagesSpoken: ["zh", "pt"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          },
-          {
-            from: "18:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
-          },
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00"
-          },
-          {
-            from: "16:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.7,
-    phone: "+566 300-175-7385",
-    email: "elizabeth.miller@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/elizabeth-miller.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Limousine", "Convertible"],
-  },
-  {
-    id: "driver-dubai-9",
-    name: "Matthew Suzuki",
-    licenseNumber: "N8S312",
-    licenseExpiry: "2026-11-01",
-    experienceYears: 19,
-    languagesSpoken: ["zh", "en"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00"
-          },
-          {
-            from: "14:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00"
-          },
-          {
-            from: "08:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          },
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+743 324-680-7649",
-    email: "matthew.suzuki@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/matthew-suzuki.jpg",
-    specialties: ["Long-Distance Driving", "VIP Transport", "Airport Transfers"],
-    vehicleTypesCertified: ["SUV"],
+    ratings: 4.9,
+    phone: "+222 906-658-9414",
+    email: "leah.baker@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/dubai/leah-baker.jpg",
+    specialties: ["Tour Guide Driver", "VIP Transport", "Long-Distance Driving", "Night Shift"],
+    vehicleTypesCertified: ["Motorcoach", "SUV", "Van"],
   }
 ];

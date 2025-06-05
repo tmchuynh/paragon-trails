@@ -3,382 +3,14 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const montevideouruguaysouthAmericaDrivers: Driver[] = [
   {
     id: "driver-montevideo-1",
-    name: "Lei Moore",
-    licenseNumber: "M4T761",
-    licenseExpiry: "2029-09-02",
-    experienceYears: 11,
-    languagesSpoken: ["ru"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00"
-          },
-          {
-            from: "06:00",
-            to: "10:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+741 278-215-6871",
-    email: "lei.moore@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/lei-moore.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Motorcoach", "Sedan", "Electric Vehicle", "Limousine"],
-  },
-  {
-    id: "driver-montevideo-2",
-    name: "Mei Sharma",
-    licenseNumber: "A4B292",
-    licenseExpiry: "2028-04-02",
-    experienceYears: 1,
-    languagesSpoken: ["es", "ko", "it"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00"
-          },
-          {
-            from: "19:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "03:00"
-          },
-          {
-            from: "01:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
-          },
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+839 530-218-9545",
-    email: "mei.sharma@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/mei-sharma.jpg",
-    specialties: ["Tour Guide Driver", "Event Transportation"],
-    vehicleTypesCertified: ["Limousine", "Electric Vehicle", "Sedan"],
-  },
-  {
-    id: "driver-montevideo-3",
-    name: "Hui Hoang",
-    licenseNumber: "I1G332",
-    licenseExpiry: "2029-10-24",
-    experienceYears: 7,
-    languagesSpoken: ["ru"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00"
-          },
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          },
-          {
-            from: "01:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00"
-          },
-          {
-            from: "03:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00"
-          },
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+739 921-175-9683",
-    email: "hui.hoang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/hui-hoang.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-montevideo-4",
-    name: "Yan Dang",
-    licenseNumber: "F4K570",
-    licenseExpiry: "2030-01-15",
+    name: "Adam Harris",
+    licenseNumber: "D3O544",
+    licenseExpiry: "2029-10-02",
     experienceYears: 13,
-    languagesSpoken: ["es", "pt"],
+    languagesSpoken: ["English", "Portuguese", "Haitian", "Aymara"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          },
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
-          },
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      },
       {
         day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+118 387-240-3255",
-    email: "yan.dang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/yan-dang.jpg",
-    specialties: ["Luxury Car Specialist", "VIP Transport", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "Sports Car"],
-  },
-  {
-    id: "driver-montevideo-5",
-    name: "Mariana Huynh",
-    licenseNumber: "Z2J799",
-    licenseExpiry: "2029-04-26",
-    experienceYears: 16,
-    languagesSpoken: ["es"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          },
-          {
-            from: "10:00",
-            to: "14:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00"
-          },
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
-          },
-          {
-            from: "09:00",
-            to: "14:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.5,
-    phone: "+590 541-889-5524",
-    email: "mariana.huynh@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/mariana-huynh.jpg",
-    specialties: ["Airport Transfers", "VIP Transport", "Night Shift"],
-    vehicleTypesCertified: ["Van", "SUV", "Luxury SUV", "Electric Vehicle"],
-  },
-  {
-    id: "driver-montevideo-6",
-    name: "Hong Hernandez",
-    licenseNumber: "J2V061",
-    licenseExpiry: "2026-09-18",
-    experienceYears: 2,
-    languagesSpoken: ["es", "ar"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
-          },
-          {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "09:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+298 714-473-6707",
-    email: "hong.hernandez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/hong-hernandez.jpg",
-    specialties: ["VIP Transport", "Corporate Chauffeur", "Security Detail"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Motorcoach"],
-  },
-  {
-    id: "driver-montevideo-7",
-    name: "Jun Johnson",
-    licenseNumber: "H1J226",
-    licenseExpiry: "2030-05-19",
-    experienceYears: 10,
-    languagesSpoken: ["ar", "ko", "es"],
-    available: [
-      {
-        day: "Wednesday",
         availableHours: [
           {
             from: "12:00",
@@ -387,15 +19,11 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00"
-          },
-          {
-            from: "03:00",
-            to: "07:00"
+            from: "05:00",
+            to: "08:00"
           }
         ],
       },
@@ -403,72 +31,226 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "18:00",
+            from: "03:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+594 712-545-5044",
+    email: "adam.harris@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/adam-harris.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Convertible", "SUV", "Sedan"],
+  },
+  {
+    id: "driver-montevideo-2",
+    name: "Samuel Lee",
+    licenseNumber: "G0H851",
+    licenseExpiry: "2026-01-08",
+    experienceYears: 12,
+    languagesSpoken: ["English", "French", "Portuguese"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
             to: "20:00"
           },
           {
-            from: "14:00",
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00"
+          },
+          {
+            from: "12:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "06:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.5,
+    phone: "+268 551-313-2812",
+    email: "samuel.lee@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/samuel-lee.jpg",
+    specialties: ["VIP Transport", "Corporate Chauffeur", "Long-Distance Driving", "Event Transportation"],
+    vehicleTypesCertified: ["Sports Car", "Motorcoach"],
+  },
+  {
+    id: "driver-montevideo-3",
+    name: "Ava Khan",
+    licenseNumber: "J4Z968",
+    licenseExpiry: "2029-06-25",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Haitian", "Spanish", "French"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
             to: "17:00"
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00"
+            from: "07:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00"
           },
+          {
+            from: "03:00",
+            to: "06:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.3,
+    phone: "+141 194-169-4178",
+    email: "ava.khan@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/ava-khan.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "Luxury SUV", "Sedan"],
+  },
+  {
+    id: "driver-montevideo-4",
+    name: "Hassan Lopez",
+    licenseNumber: "Y0U131",
+    licenseExpiry: "2026-12-10",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Guarani", "Aymara"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
           {
             from: "04:00",
             to: "09:00"
           }
         ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+854 986-579-8591",
-    email: "jun.johnson@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/jun-johnson.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Limousine"],
-  },
-  {
-    id: "driver-montevideo-8",
-    name: "Patricia Sato",
-    licenseNumber: "A3O850",
-    licenseExpiry: "2027-09-15",
-    experienceYears: 11,
-    languagesSpoken: ["ja", "es"],
-    available: [
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00"
+          },
+          {
+            from: "12:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          },
+          {
+            from: "21:00",
+            to: "23:00"
+          }
+        ],
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "18:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00"
+            from: "19:00",
+            to: "24:00"
           },
           {
-            from: "14:00",
-            to: "18:00"
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+208 136-606-2613",
+    email: "hassan.lopez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/hassan-lopez.jpg",
+    specialties: ["Tour Guide Driver", "Security Detail", "Airport Transfers"],
+    vehicleTypesCertified: ["Motorcoach", "Sports Car", "Van"],
+  },
+  {
+    id: "driver-montevideo-5",
+    name: "Mark Harris",
+    licenseNumber: "H0C164",
+    licenseExpiry: "2028-08-13",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Spanish", "Haitian", "Aymara"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "09:00",
+            to: "14:00"
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "17:00",
-            to: "21:00"
+            from: "12:00",
+            to: "16:00"
           }
         ],
       },
@@ -477,32 +259,36 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "12:00"
+          },
+          {
+            from: "07:00",
+            to: "12:00"
           }
         ],
       }
     ],
     ratings: 4.8,
-    phone: "+710 824-973-3113",
-    email: "patricia.sato@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/patricia-sato.jpg",
-    specialties: ["Event Transportation", "VIP Transport", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Limousine", "Van"],
+    phone: "+732 291-208-5535",
+    email: "mark.harris@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/mark-harris.jpg",
+    specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Motorcoach"],
   },
   {
-    id: "driver-montevideo-9",
-    name: "Yu Smith",
-    licenseNumber: "R3Y708",
-    licenseExpiry: "2028-02-07",
-    experienceYears: 13,
-    languagesSpoken: ["pt"],
+    id: "driver-montevideo-6",
+    name: "Amelia Ali",
+    licenseNumber: "D4F504",
+    licenseExpiry: "2029-11-02",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Portuguese", "Aymara"],
     available: [
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00"
+            from: "11:00",
+            to: "16:00"
           },
           {
             from: "08:00",
@@ -511,24 +297,71 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
         ],
       },
       {
-        day: "Sunday",
+        day: "Friday",
         availableHours: [
           {
-            from: "07:00",
-            to: "11:00"
+            from: "16:00",
+            to: "20:00"
           },
           {
-            from: "00:00",
-            to: "04:00"
+            from: "11:00",
+            to: "14:00"
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "01:00",
-            to: "04:00"
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00"
+          },
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 5,
+    phone: "+614 685-895-4020",
+    email: "amelia.ali@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/amelia-ali.jpg",
+    specialties: ["Security Detail", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Luxury SUV", "Convertible", "SUV"],
+  },
+  {
+    id: "driver-montevideo-7",
+    name: "Abigail Hayes",
+    licenseNumber: "U7Y395",
+    licenseExpiry: "2026-08-27",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Aymara", "Quechua", "Haitian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
           }
         ],
       },
@@ -536,8 +369,97 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
         day: "Wednesday",
         availableHours: [
           {
+            from: "06:00",
+            to: "09:00"
+          },
+          {
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00"
+          },
+          {
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+27 474-113-7322",
+    email: "abigail.hayes@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/abigail-hayes.jpg",
+    specialties: ["Event Transportation"],
+    vehicleTypesCertified: ["Electric Vehicle", "Convertible", "SUV", "Motorcoach", "Van"],
+  },
+  {
+    id: "driver-montevideo-8",
+    name: "Benjamin Dunn",
+    licenseNumber: "E5L970",
+    licenseExpiry: "2030-04-02",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Haitian", "Portuguese", "Spanish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          },
+          {
+            from: "18:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
             from: "03:00",
-            to: "07:00"
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+584 463-123-6205",
+    email: "benjamin.dunn@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/benjamin-dunn.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle"],
+  },
+  {
+    id: "driver-montevideo-9",
+    name: "Kennedy Smith",
+    licenseNumber: "O7X985",
+    licenseExpiry: "2028-05-26",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Haitian", "French"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00"
           }
         ],
       },
@@ -549,17 +471,39 @@ export const montevideouruguaysouthAmericaDrivers: Driver[] = [
             to: "14:00"
           },
           {
-            from: "16:00",
-            to: "21:00"
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          },
+          {
+            from: "06:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00"
           }
         ],
       }
     ],
-    ratings: 4.3,
-    phone: "+250 351-231-1873",
-    email: "yu.smith@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/montevideo/yu-smith.jpg",
-    specialties: ["Event Transportation", "VIP Transport", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible", "Van", "Electric Vehicle"],
+    ratings: 3.8,
+    phone: "+687 804-798-2402",
+    email: "kennedy.smith@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/montevideo/kennedy-smith.jpg",
+    specialties: ["Long-Distance Driving", "Event Transportation", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV", "Luxury SUV", "Limousine", "Convertible", "Motorcoach"],
   }
 ];

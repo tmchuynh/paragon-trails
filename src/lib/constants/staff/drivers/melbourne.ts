@@ -3,27 +3,31 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
   {
     id: "driver-melbourne-1",
-    name: "William Brown",
-    licenseNumber: "H4J999",
-    licenseExpiry: "2029-10-10",
-    experienceYears: 13,
-    languagesSpoken: ["ar"],
+    name: "Peter Harris",
+    licenseNumber: "N6G264",
+    licenseExpiry: "2026-11-28",
+    experienceYears: 19,
+    languagesSpoken: ["Malay", "Tagalog", "Korean", "Thai"],
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "12:00"
+            from: "08:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00"
+          },
+          {
+            from: "20:00",
+            to: "22:00"
           }
         ],
       },
@@ -31,46 +35,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.9,
-    phone: "+459 981-860-2073",
-    email: "william.brown@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/william-brown.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Limousine", "Electric Vehicle", "Sports Car"],
-  },
-  {
-    id: "driver-melbourne-2",
-    name: "Mei Thompson",
-    licenseNumber: "B8O941",
-    licenseExpiry: "2028-10-06",
-    experienceYears: 14,
-    languagesSpoken: ["en", "hi"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
+            from: "03:00",
+            to: "07:00"
           }
         ],
       },
@@ -78,161 +44,59 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+69 768-909-4901",
-    email: "mei.thompson@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/mei-thompson.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Electric Vehicle"],
-  },
-  {
-    id: "driver-melbourne-3",
-    name: "Yui Verma",
-    licenseNumber: "K8R854",
-    licenseExpiry: "2030-02-08",
-    experienceYears: 15,
-    languagesSpoken: ["hi"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "16:00",
+            from: "14:00",
             to: "18:00"
-          },
-          {
-            from: "15:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          },
-          {
-            from: "19:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          },
-          {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.9,
-    phone: "+443 344-863-5770",
-    email: "yui.verma@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/yui-verma.jpg",
-    specialties: ["Luxury Car Specialist", "VIP Transport", "Event Transportation", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Van"],
-  },
-  {
-    id: "driver-melbourne-4",
-    name: "Mark Huynh",
-    licenseNumber: "S3C956",
-    licenseExpiry: "2029-03-11",
-    experienceYears: 9,
-    languagesSpoken: ["es", "ja"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          },
-          {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00"
-          },
-          {
-            from: "10:00",
-            to: "13:00"
           }
         ],
       }
     ],
     ratings: 4.1,
-    phone: "+178 226-848-4474",
-    email: "mark.huynh@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/mark-huynh.jpg",
-    specialties: ["Luxury Car Specialist", "Event Transportation", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Motorcoach"],
+    phone: "+320 915-407-7550",
+    email: "peter.harris@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/peter-harris.jpg",
+    specialties: ["Night Shift", "VIP Transport", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach", "Van"],
   },
   {
-    id: "driver-melbourne-5",
-    name: "Isabella Tanaka",
-    licenseNumber: "T2K629",
-    licenseExpiry: "2030-08-14",
-    experienceYears: 10,
-    languagesSpoken: ["fr", "ko", "ja"],
+    id: "driver-melbourne-2",
+    name: "Aaliyah Stewart",
+    licenseNumber: "S8S673",
+    licenseExpiry: "2028-01-06",
+    experienceYears: 2,
+    languagesSpoken: ["Malay", "Chinese", "Urdu", "Tagalog"],
     available: [
       {
-        day: "Saturday",
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00"
+          },
+          {
+            from: "00:00",
+            to: "03:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "21:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          },
+          {
+            from: "02:00",
+            to: "05:00"
           }
         ],
       },
@@ -240,12 +104,50 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "09:00",
-            to: "12:00"
+            from: "01:00",
+            to: "03:00"
           },
           {
-            from: "11:00",
-            to: "14:00"
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.7,
+    phone: "+188 270-746-4044",
+    email: "aaliyah.stewart@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/aaliyah-stewart.jpg",
+    specialties: ["Event Transportation", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Convertible", "Limousine", "Luxury SUV"],
+  },
+  {
+    id: "driver-melbourne-3",
+    name: "Mateo Smith",
+    licenseNumber: "L3W822",
+    licenseExpiry: "2028-07-15",
+    experienceYears: 18,
+    languagesSpoken: ["Vietnamese", "Urdu", "Indonesian"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00"
+          },
+          {
+            from: "08:00",
+            to: "11:00"
           }
         ],
       },
@@ -253,20 +155,157 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "19:00",
-            to: "21:00"
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.5,
+    phone: "+886 878-186-6522",
+    email: "mateo.smith@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/mateo-smith.jpg",
+    specialties: ["Night Shift", "VIP Transport", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-melbourne-4",
+    name: "Russell Maxwell",
+    licenseNumber: "I6X690",
+    licenseExpiry: "2026-02-13",
+    experienceYears: 20,
+    languagesSpoken: ["Chinese", "Tagalog", "Thai"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00"
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.7,
+    phone: "+616 338-532-2958",
+    email: "russell.maxwell@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/russell-maxwell.jpg",
+    specialties: ["Security Detail", "Night Shift"],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "Luxury SUV"],
+  },
+  {
+    id: "driver-melbourne-5",
+    name: "Lucas Gonzalez",
+    licenseNumber: "Y5C014",
+    licenseExpiry: "2027-09-22",
+    experienceYears: 16,
+    languagesSpoken: ["Bengali", "Korean", "Indonesian"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "03:00"
           },
           {
-            from: "21:00",
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00"
+          },
+          {
+            from: "03:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "04:00"
+          },
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+850 193-221-6979",
+    email: "lucas.gonzalez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/lucas-gonzalez.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sports Car", "Limousine"],
+  },
+  {
+    id: "driver-melbourne-6",
+    name: "Evelyn Grant",
+    licenseNumber: "G7M464",
+    licenseExpiry: "2029-11-25",
+    experienceYears: 7,
+    languagesSpoken: ["Korean", "Bengali", "Malay"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "18:00",
             to: "23:00"
           }
         ],
@@ -275,58 +314,7 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "17:00",
-            to: "21:00"
-          },
-          {
-            from: "12:00",
-            to: "14:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+74 866-665-7938",
-    email: "isabella.tanaka@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/isabella-tanaka.jpg",
-    specialties: ["Long-Distance Driving", "Security Detail"],
-    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "Motorcoach"],
-  },
-  {
-    id: "driver-melbourne-6",
-    name: "Mia Sato",
-    licenseNumber: "V4G378",
-    licenseExpiry: "2028-10-10",
-    experienceYears: 9,
-    languagesSpoken: ["pt"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00"
-          },
-          {
-            from: "17:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
+            from: "06:00",
             to: "11:00"
           }
         ],
@@ -335,26 +323,73 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "05:00",
-            to: "08:00"
+            from: "16:00",
+            to: "20:00"
+          },
+          {
+            from: "06:00",
+            to: "11:00"
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
           {
-            from: "04:00",
-            to: "08:00"
+            from: "13:00",
+            to: "18:00"
           }
         ],
       }
     ],
-    ratings: 4.5,
-    phone: "+322 914-598-8422",
-    email: "mia.sato@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/melbourne/mia-sato.jpg",
-    specialties: ["Security Detail", "Night Shift"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Convertible", "Motorcoach"],
+    ratings: 4.8,
+    phone: "+157 925-734-4937",
+    email: "evelyn.grant@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/evelyn-grant.jpg",
+    specialties: ["Luxury Car Specialist", "Night Shift"],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-melbourne-7",
+    name: "James Maxwell",
+    licenseNumber: "Z5G673",
+    licenseExpiry: "2027-08-05",
+    experienceYears: 14,
+    languagesSpoken: ["Japanese", "Indonesian", "Korean", "Malay"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+758 261-562-2729",
+    email: "james.maxwell@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/melbourne/james-maxwell.jpg",
+    specialties: ["VIP Transport", "Event Transportation"],
+    vehicleTypesCertified: ["Limousine", "Motorcoach", "Convertible"],
   }
 ];

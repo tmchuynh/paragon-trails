@@ -3,92 +3,109 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const berlingermanynorthernEuropeDrivers: Driver[] = [
   {
     id: "driver-berlin-1",
-    name: "Kazuki Kang",
-    licenseNumber: "A7Y183",
-    licenseExpiry: "2029-01-19",
-    experienceYears: 9,
-    languagesSpoken: ["ko"],
+    name: "Walter Grant",
+    licenseNumber: "D0K328",
+    licenseExpiry: "2027-01-28",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Russian", "Swedish", "Portuguese"],
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
-          },
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
-          }
-        ],
-      },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "18:00",
-            to: "23:00"
-          },
-          {
-            from: "06:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+358 712-713-3244",
-    email: "kazuki.kang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/berlin/kazuki-kang.jpg",
-    specialties: ["Airport Transfers", "Security Detail", "Night Shift"],
-    vehicleTypesCertified: ["SUV", "Sports Car"],
-  },
-  {
-    id: "driver-berlin-2",
-    name: "Robert Kang",
-    licenseNumber: "V0J331",
-    licenseExpiry: "2027-05-19",
-    experienceYears: 13,
-    languagesSpoken: ["zh", "hi", "ja"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00"
+            from: "14:00",
+            to: "17:00"
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Friday",
         availableHours: [
           {
-            from: "04:00",
+            from: "06:00",
             to: "08:00"
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "10:00",
+            from: "03:00",
+            to: "07:00"
+          },
+          {
+            from: "14:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          },
+          {
+            from: "05:00",
+            to: "09:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+228 525-314-8401",
+    email: "walter.grant@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/berlin/walter-grant.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "SUV", "Convertible"],
+  },
+  {
+    id: "driver-berlin-2",
+    name: "Steven Kim",
+    licenseNumber: "L3B707",
+    licenseExpiry: "2027-06-08",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Greek", "Czech"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          },
+          {
+            from: "11:00",
             to: "14:00"
           }
         ],
       },
       {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00"
+          },
+          {
+            from: "17:00",
+            to: "19:00"
+          }
+        ],
+      },
+      {
         day: "Thursday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
         availableHours: [
           {
             from: "03:00",
@@ -97,42 +114,28 @@ export const berlingermanynorthernEuropeDrivers: Driver[] = [
         ],
       }
     ],
-    ratings: 4.1,
-    phone: "+782 308-805-1781",
-    email: "robert.kang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/berlin/robert-kang.jpg",
-    specialties: ["Luxury Car Specialist", "Long-Distance Driving", "Airport Transfers"],
-    vehicleTypesCertified: ["Van", "Sports Car", "Convertible"],
+    ratings: 4.5,
+    phone: "+330 623-370-4407",
+    email: "steven.kim@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/berlin/steven-kim.jpg",
+    specialties: ["Airport Transfers", "Tour Guide Driver", "Security Detail", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Motorcoach"],
   },
   {
     id: "driver-berlin-3",
-    name: "Matthew Sanchez",
-    licenseNumber: "C0U977",
-    licenseExpiry: "2027-05-15",
-    experienceYears: 11,
-    languagesSpoken: ["es", "fr"],
+    name: "Ariana Hall",
+    licenseNumber: "U7L318",
+    licenseExpiry: "2029-06-26",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Polish", "German", "Portuguese"],
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "09:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "07:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
+            from: "16:00",
+            to: "21:00"
+          },
           {
             from: "12:00",
             to: "15:00"
@@ -143,141 +146,167 @@ export const berlingermanynorthernEuropeDrivers: Driver[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "20:00",
-            to: "24:00"
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
           },
           {
-            from: "15:00",
-            to: "20:00"
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          },
+          {
+            from: "11:00",
+            to: "13:00"
           }
         ],
       }
     ],
-    ratings: 3.7,
-    phone: "+500 610-796-7385",
-    email: "matthew.sanchez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/berlin/matthew-sanchez.jpg",
-    specialties: ["Tour Guide Driver", "Night Shift", "Event Transportation", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Convertible", "Electric Vehicle"],
+    ratings: 4.9,
+    phone: "+363 537-970-1771",
+    email: "ariana.hall@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/berlin/ariana-hall.jpg",
+    specialties: ["Airport Transfers", "VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan", "Sports Car", "Luxury SUV"],
   },
   {
     id: "driver-berlin-4",
-    name: "Sofia Moore",
-    licenseNumber: "Q6F260",
-    licenseExpiry: "2027-08-16",
-    experienceYears: 19,
-    languagesSpoken: ["de"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "21:00"
-          },
-          {
-            from: "00:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00"
-          },
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+544 896-739-6216",
-    email: "sofia.moore@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/berlin/sofia-moore.jpg",
-    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "Airport Transfers", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Luxury SUV"],
-  },
-  {
-    id: "driver-berlin-5",
-    name: "Sakura Hoang",
-    licenseNumber: "J3G553",
-    licenseExpiry: "2030-12-01",
+    name: "Emma Lopez",
+    licenseNumber: "M5Q673",
+    licenseExpiry: "2026-08-19",
     experienceYears: 7,
-    languagesSpoken: ["ru", "tr", "ja"],
+    languagesSpoken: ["English", "Finnish", "Italian"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00"
-          },
-          {
-            from: "20:00",
-            to: "23:00"
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00"
+            from: "21:00",
+            to: "24:00"
           },
           {
-            from: "01:00",
+            from: "10:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "00:00",
             to: "03:00"
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "20:00",
-            to: "24:00"
+            from: "07:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00"
           }
         ],
       }
     ],
-    ratings: 3.9,
-    phone: "+700 299-603-2945",
-    email: "sakura.hoang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/berlin/sakura-hoang.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Electric Vehicle"],
+    ratings: 4.4,
+    phone: "+657 757-839-8128",
+    email: "emma.lopez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/berlin/emma-lopez.jpg",
+    specialties: ["Event Transportation", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["SUV", "Motorcoach", "Electric Vehicle", "Sports Car"],
+  },
+  {
+    id: "driver-berlin-5",
+    name: "Allison Dean",
+    licenseNumber: "A0E546",
+    licenseExpiry: "2029-04-19",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Danish", "Swedish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00"
+          },
+          {
+            from: "12:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00"
+          },
+          {
+            from: "05:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          },
+          {
+            from: "18:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00"
+          },
+          {
+            from: "00:00",
+            to: "05:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+548 792-203-5867",
+    email: "allison.dean@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/berlin/allison-dean.jpg",
+    specialties: ["Airport Transfers", "Luxury Car Specialist", "VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "SUV"],
   }
 ];

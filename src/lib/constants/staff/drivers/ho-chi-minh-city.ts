@@ -3,288 +3,22 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const hoChiMinhCityvietnamasiaPacificDrivers: Driver[] = [
   {
     id: "driver-ho-chi-minh-city-1",
-    name: "Victoria Williams",
-    licenseNumber: "P5O797",
-    licenseExpiry: "2028-03-08",
-    experienceYears: 12,
-    languagesSpoken: ["pt", "de"],
+    name: "Isabella Warren",
+    licenseNumber: "U6H023",
+    licenseExpiry: "2029-03-20",
+    experienceYears: 17,
+    languagesSpoken: ["Hindi", "Chinese", "Urdu"],
     available: [
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "05:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00"
+            from: "16:00",
+            to: "21:00"
           },
           {
             from: "02:00",
             to: "06:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.5,
-    phone: "+741 228-568-4643",
-    email: "victoria.williams@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/victoria-williams.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["SUV", "Motorcoach", "Luxury SUV", "Limousine"],
-  },
-  {
-    id: "driver-ho-chi-minh-city-2",
-    name: "Barbara Johnson",
-    licenseNumber: "O7L486",
-    licenseExpiry: "2026-06-26",
-    experienceYears: 5,
-    languagesSpoken: ["ko"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00"
-          },
-          {
-            from: "03:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "21:00"
-          },
-          {
-            from: "03:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00"
-          },
-          {
-            from: "03:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00"
-          },
-          {
-            from: "02:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+415 984-433-7891",
-    email: "barbara.johnson@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/barbara-johnson.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van"],
-  },
-  {
-    id: "driver-ho-chi-minh-city-3",
-    name: "Steven Lee",
-    licenseNumber: "B4F868",
-    licenseExpiry: "2028-05-23",
-    experienceYears: 3,
-    languagesSpoken: ["ru", "ar", "pt"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00"
-          },
-          {
-            from: "06:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+136 899-100-4555",
-    email: "steven.lee@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/steven-lee.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "Electric Vehicle"],
-  },
-  {
-    id: "driver-ho-chi-minh-city-4",
-    name: "Yu Thomas",
-    licenseNumber: "H9D032",
-    licenseExpiry: "2028-06-14",
-    experienceYears: 16,
-    languagesSpoken: ["tr", "hi", "fr"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00"
-          },
-          {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00"
-          },
-          {
-            from: "05:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+380 114-782-5253",
-    email: "yu.thomas@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/yu-thomas.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Sedan", "SUV", "Van"],
-  },
-  {
-    id: "driver-ho-chi-minh-city-5",
-    name: "Victoria Takahashi",
-    licenseNumber: "D3V427",
-    licenseExpiry: "2028-04-28",
-    experienceYears: 14,
-    languagesSpoken: ["zh"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00"
-          },
-          {
-            from: "18:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00"
-          },
-          {
-            from: "18:00",
-            to: "23:00"
           }
         ],
       },
@@ -296,50 +30,93 @@ export const hoChiMinhCityvietnamasiaPacificDrivers: Driver[] = [
             to: "16:00"
           },
           {
-            from: "04:00",
-            to: "08:00"
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "12:00"
           }
         ],
       }
     ],
-    ratings: 3.8,
-    phone: "+97 733-708-1844",
-    email: "victoria.takahashi@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/victoria-takahashi.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Convertible", "Van"],
+    ratings: 3.6,
+    phone: "+441 272-966-4114",
+    email: "isabella.warren@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/isabella-warren.jpg",
+    specialties: ["Airport Transfers", "Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible", "Electric Vehicle", "Luxury SUV", "SUV"],
   },
   {
-    id: "driver-ho-chi-minh-city-6",
-    name: "Mark Kang",
-    licenseNumber: "D5Q069",
-    licenseExpiry: "2026-11-23",
-    experienceYears: 8,
-    languagesSpoken: ["hi", "tr", "it"],
+    id: "driver-ho-chi-minh-city-2",
+    name: "Hiroshi Gonzalez",
+    licenseNumber: "G3J299",
+    licenseExpiry: "2027-02-14",
+    experienceYears: 16,
+    languagesSpoken: ["Indonesian", "Bengali", "Malay", "Japanese"],
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "17:00",
-            to: "22:00"
+            from: "15:00",
+            to: "18:00"
           },
           {
-            from: "03:00",
-            to: "05:00"
+            from: "08:00",
+            to: "10:00"
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00"
+            from: "10:00",
+            to: "13:00"
           },
           {
+            from: "08:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+150 872-129-7070",
+    email: "hiroshi.gonzalez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/hiroshi-gonzalez.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Electric Vehicle", "Sports Car", "Luxury SUV"],
+  },
+  {
+    id: "driver-ho-chi-minh-city-3",
+    name: "Fatima Wallace",
+    licenseNumber: "K8Y338",
+    licenseExpiry: "2029-01-11",
+    experienceYears: 6,
+    languagesSpoken: ["Malay", "Tagalog", "Korean"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
             from: "00:00",
-            to: "04:00"
+            to: "05:00"
           }
         ],
       },
@@ -348,20 +125,191 @@ export const hoChiMinhCityvietnamasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00"
           },
           {
-            from: "17:00",
-            to: "19:00"
+            from: "16:00",
+            to: "18:00"
           }
         ],
       }
     ],
-    ratings: 4.8,
-    phone: "+653 995-504-7468",
-    email: "mark.kang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/mark-kang.jpg",
+    ratings: 3.6,
+    phone: "+273 470-543-8783",
+    email: "fatima.wallace@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/fatima-wallace.jpg",
     specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-ho-chi-minh-city-4",
+    name: "Elena Keller",
+    licenseNumber: "E9M375",
+    licenseExpiry: "2026-10-02",
+    experienceYears: 7,
+    languagesSpoken: ["Korean", "Malay", "Japanese"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00"
+          },
+          {
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00"
+          },
+          {
+            from: "18:00",
+            to: "22:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.1,
+    phone: "+486 191-321-2356",
+    email: "elena.keller@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/elena-keller.jpg",
+    specialties: ["Event Transportation"],
     vehicleTypesCertified: ["Sports Car", "Limousine", "Electric Vehicle"],
+  },
+  {
+    id: "driver-ho-chi-minh-city-5",
+    name: "Amelia Wells",
+    licenseNumber: "Q9U873",
+    licenseExpiry: "2028-01-24",
+    experienceYears: 11,
+    languagesSpoken: ["Hindi", "Urdu", "Tagalog"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00"
+          },
+          {
+            from: "10:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.7,
+    phone: "+703 689-991-5462",
+    email: "amelia.wells@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/amelia-wells.jpg",
+    specialties: ["Event Transportation"],
+    vehicleTypesCertified: ["Convertible", "Electric Vehicle", "SUV"],
+  },
+  {
+    id: "driver-ho-chi-minh-city-6",
+    name: "Kennedy Hernandez",
+    licenseNumber: "R9F057",
+    licenseExpiry: "2028-11-14",
+    experienceYears: 2,
+    languagesSpoken: ["Indonesian", "Malay", "Vietnamese"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00"
+          },
+          {
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00"
+          },
+          {
+            from: "03:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00"
+          },
+          {
+            from: "08:00",
+            to: "13:00"
+          }
+        ],
+      }
+    ],
+    ratings: 5,
+    phone: "+889 860-762-7178",
+    email: "kennedy.hernandez@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/ho-chi-minh-city/kennedy-hernandez.jpg",
+    specialties: ["Luxury Car Specialist", "Security Detail"],
+    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle"],
   }
 ];

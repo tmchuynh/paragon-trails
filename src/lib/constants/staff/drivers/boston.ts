@@ -3,27 +3,22 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
   {
     id: "driver-boston-1",
-    name: "Mark Nguyen",
-    licenseNumber: "C7A586",
-    licenseExpiry: "2028-01-09",
-    experienceYears: 15,
-    languagesSpoken: ["fr", "tr", "ar"],
+    name: "Harper Khan",
+    licenseNumber: "M0V680",
+    licenseExpiry: "2029-05-11",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Spanish", "French"],
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00"
-          }
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00"
+            from: "07:00",
+            to: "11:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
           }
         ],
       },
@@ -31,42 +26,8 @@ export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "03:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+403 509-582-8356",
-    email: "mark.nguyen@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/mark-nguyen.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Limousine", "Van"],
-  },
-  {
-    id: "driver-boston-2",
-    name: "Hao Yamamoto",
-    licenseNumber: "Q4F579",
-    licenseExpiry: "2026-03-09",
-    experienceYears: 9,
-    languagesSpoken: ["ar"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
+            from: "15:00",
+            to: "20:00"
           }
         ],
       },
@@ -74,72 +35,8 @@ export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "05:00",
-            to: "10:00"
-          },
-          {
-            from: "03:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "10:00",
-            to: "15:00"
-          },
-          {
-            from: "04:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+558 771-875-5199",
-    email: "hao.yamamoto@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/hao-yamamoto.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "SUV"],
-  },
-  {
-    id: "driver-boston-3",
-    name: "Na Bui",
-    licenseNumber: "M1W276",
-    licenseExpiry: "2028-10-10",
-    experienceYears: 3,
-    languagesSpoken: ["en"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          },
-          {
-            from: "18:00",
-            to: "20:00"
+            to: "12:00"
           }
         ],
       },
@@ -147,72 +44,33 @@ export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "01:00",
-            to: "03:00"
-          },
-          {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          },
-          {
-            from: "16:00",
-            to: "21:00"
+            from: "00:00",
+            to: "02:00"
           }
         ],
       }
     ],
-    ratings: 4.2,
-    phone: "+733 247-541-9035",
-    email: "na.bui@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/na-bui.jpg",
-    specialties: ["Luxury Car Specialist", "Night Shift", "VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sedan"],
+    ratings: 4,
+    phone: "+481 637-382-5950",
+    email: "harper.khan@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/harper-khan.jpg",
+    specialties: ["Event Transportation", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Van"],
   },
   {
-    id: "driver-boston-4",
-    name: "Amelia Hernandez",
-    licenseNumber: "K0N141",
-    licenseExpiry: "2026-10-04",
-    experienceYears: 8,
-    languagesSpoken: ["ru", "ja"],
+    id: "driver-boston-2",
+    name: "Harold Palmer",
+    licenseNumber: "U7T362",
+    licenseExpiry: "2026-05-18",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Guarani", "Spanish"],
     available: [
       {
-        day: "Wednesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00"
-          },
-          {
-            from: "04:00",
-            to: "07:00"
+            from: "03:00",
+            to: "06:00"
           }
         ],
       },
@@ -220,31 +78,407 @@ export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "17:00",
+            from: "02:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "16:00",
             to: "19:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+417 136-115-1949",
+    email: "harold.palmer@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/harold-palmer.jpg",
+    specialties: ["Airport Transfers", "Security Detail", "VIP Transport", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Motorcoach", "Luxury SUV", "Limousine"],
+  },
+  {
+    id: "driver-boston-3",
+    name: "Logan Wright",
+    licenseNumber: "Q4W699",
+    licenseExpiry: "2026-08-02",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Guarani", "French", "Spanish"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "21:00"
           },
           {
-            from: "10:00",
+            from: "09:00",
             to: "13:00"
           }
         ],
       }
     ],
-    ratings: 3.9,
-    phone: "+705 731-870-6451",
-    email: "amelia.hernandez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/amelia-hernandez.jpg",
-    specialties: ["Long-Distance Driving", "Airport Transfers"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Convertible"],
+    ratings: 4.6,
+    phone: "+621 159-168-5122",
+    email: "logan.wright@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/logan-wright.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Luxury SUV", "Sedan", "Convertible"],
+  },
+  {
+    id: "driver-boston-4",
+    name: "Edward Day",
+    licenseNumber: "N7O634",
+    licenseExpiry: "2026-03-11",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Quechua", "Aymara"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00"
+          },
+          {
+            from: "17:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          },
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.7,
+    phone: "+891 769-376-6713",
+    email: "edward.day@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/edward-day.jpg",
+    specialties: ["Tour Guide Driver", "Airport Transfers", "Luxury Car Specialist", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Electric Vehicle"],
   },
   {
     id: "driver-boston-5",
-    name: "Jie Kang",
-    licenseNumber: "M1X528",
-    licenseExpiry: "2030-07-24",
-    experienceYears: 1,
-    languagesSpoken: ["hi"],
+    name: "Sofia Hunter",
+    licenseNumber: "Q9J489",
+    licenseExpiry: "2026-11-09",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Quechua", "Spanish", "Aymara"],
     available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "02:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00"
+          },
+          {
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+642 568-700-4310",
+    email: "sofia.hunter@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/sofia-hunter.jpg",
+    specialties: ["VIP Transport", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-boston-6",
+    name: "Jennifer Bennett",
+    licenseNumber: "Y0X303",
+    licenseExpiry: "2026-09-06",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Portuguese", "Quechua"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00"
+          },
+          {
+            from: "07:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00"
+          },
+          {
+            from: "06:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          },
+          {
+            from: "18:00",
+            to: "22:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+279 397-517-8647",
+    email: "jennifer.bennett@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/jennifer-bennett.jpg",
+    specialties: ["Long-Distance Driving", "Event Transportation", "Night Shift", "VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach"],
+  },
+  {
+    id: "driver-boston-7",
+    name: "Aiden Brooks",
+    licenseNumber: "D6L201",
+    licenseExpiry: "2028-04-24",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Haitian", "Spanish"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "06:00"
+          },
+          {
+            from: "13:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+327 456-917-5260",
+    email: "aiden.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/aiden-brooks.jpg",
+    specialties: ["VIP Transport", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible", "Luxury SUV", "Sports Car"],
+  },
+  {
+    id: "driver-boston-8",
+    name: "Randy Müller",
+    licenseNumber: "T3W823",
+    licenseExpiry: "2027-12-06",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Aymara", "Spanish"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00"
+          },
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "21:00"
+          },
+          {
+            from: "19:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          },
+          {
+            from: "02:00",
+            to: "05:00"
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
@@ -253,272 +487,17 @@ export const bostonunitedStateseastCoastUsaDrivers: Driver[] = [
             to: "14:00"
           },
           {
-            from: "19:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00"
-          },
-          {
-            from: "18:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
+            from: "00:00",
+            to: "04:00"
           }
         ],
       }
     ],
-    ratings: 3.7,
-    phone: "+377 265-255-1358",
-    email: "jie.kang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/jie-kang.jpg",
-    specialties: ["Security Detail", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Limousine", "Van"],
-  },
-  {
-    id: "driver-boston-6",
-    name: "Elizabeth Kumar",
-    licenseNumber: "X3B245",
-    licenseExpiry: "2030-04-12",
-    experienceYears: 1,
-    languagesSpoken: ["ar", "hi"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00"
-          },
-          {
-            from: "13:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+111 574-644-5009",
-    email: "elizabeth.kumar@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/elizabeth-kumar.jpg",
-    specialties: ["Tour Guide Driver", "Night Shift", "VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Luxury SUV", "Electric Vehicle", "Limousine"],
-  },
-  {
-    id: "driver-boston-7",
-    name: "Yui Martinez",
-    licenseNumber: "V6I941",
-    licenseExpiry: "2027-07-03",
-    experienceYears: 12,
-    languagesSpoken: ["ja", "pt", "fr"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00"
-          },
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+199 460-105-1751",
-    email: "yui.martinez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/yui-martinez.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Limousine"],
-  },
-  {
-    id: "driver-boston-8",
-    name: "James Zhang",
-    licenseNumber: "P8T624",
-    licenseExpiry: "2026-10-01",
-    experienceYears: 18,
-    languagesSpoken: ["hi", "fr"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+833 685-481-8790",
-    email: "james.zhang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/james-zhang.jpg",
-    specialties: ["VIP Transport", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-boston-9",
-    name: "Rin Hoang",
-    licenseNumber: "W1Q291",
-    licenseExpiry: "2029-02-20",
-    experienceYears: 1,
-    languagesSpoken: ["ru"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00"
-          },
-          {
-            from: "01:00",
-            to: "03:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00"
-          },
-          {
-            from: "10:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+647 451-915-9202",
-    email: "rin.hoang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/boston/rin-hoang.jpg",
-    specialties: ["Night Shift", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Van", "Luxury SUV", "SUV", "Sports Car"],
+    ratings: 5,
+    phone: "+843 919-269-1272",
+    email: "randy.müller@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/boston/randy-müller.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Van", "Convertible"],
   }
 ];

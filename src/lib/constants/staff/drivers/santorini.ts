@@ -3,22 +3,35 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const santorinigreecemediterraneanDrivers: Driver[] = [
   {
     id: "driver-santorini-1",
-    name: "Xia Sharma",
-    licenseNumber: "D8P926",
-    licenseExpiry: "2027-08-17",
-    experienceYears: 20,
-    languagesSpoken: ["pt"],
+    name: "Amina Carpenter",
+    licenseNumber: "G4T340",
+    licenseExpiry: "2029-11-23",
+    experienceYears: 16,
+    languagesSpoken: ["English", "German", "Dutch"],
     available: [
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00"
+            from: "19:00",
+            to: "22:00"
           },
           {
-            from: "11:00",
-            to: "15:00"
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "23:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
           }
         ],
       },
@@ -26,244 +39,157 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
             from: "12:00",
             to: "15:00"
           },
           {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.4,
-    phone: "+667 166-765-8878",
-    email: "xia.sharma@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/xia-sharma.jpg",
-    specialties: ["VIP Transport", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Sedan", "Limousine", "Convertible"],
-  },
-  {
-    id: "driver-santorini-2",
-    name: "Steven Tanaka",
-    licenseNumber: "P7Z999",
-    licenseExpiry: "2029-06-19",
-    experienceYears: 17,
-    languagesSpoken: ["it", "hi", "ja"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
+            from: "04:00",
             to: "08:00"
           }
         ],
       },
       {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 5,
-    phone: "+377 765-343-6830",
-    email: "steven.tanaka@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/steven-tanaka.jpg",
-    specialties: ["Security Detail", "Corporate Chauffeur", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Convertible", "SUV"],
-  },
-  {
-    id: "driver-santorini-3",
-    name: "Xin Gonzalez",
-    licenseNumber: "F2P177",
-    licenseExpiry: "2029-08-07",
-    experienceYears: 7,
-    languagesSpoken: ["de", "ar"],
-    available: [
-      {
         day: "Monday",
         availableHours: [
           {
-            from: "00:00",
+            from: "02:00",
             to: "04:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "02:00"
           },
           {
-            from: "20:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+359 192-852-2728",
-    email: "xin.gonzalez@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/xin-gonzalez.jpg",
-    specialties: ["Security Detail", "Corporate Chauffeur", "VIP Transport"],
-    vehicleTypesCertified: ["SUV", "Van", "Sedan"],
-  },
-  {
-    id: "driver-santorini-4",
-    name: "Sofia Park",
-    licenseNumber: "H8A490",
-    licenseExpiry: "2028-05-23",
-    experienceYears: 2,
-    languagesSpoken: ["es"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "02:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+746 802-690-3081",
-    email: "sofia.park@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/sofia-park.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van"],
-  },
-  {
-    id: "driver-santorini-5",
-    name: "Sofia Hoang",
-    licenseNumber: "Z9V885",
-    licenseExpiry: "2026-02-12",
-    experienceYears: 18,
-    languagesSpoken: ["pt", "hi", "ru"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00"
-          },
-          {
-            from: "10:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00"
+            to: "04:00"
           }
         ],
       }
     ],
     ratings: 4.7,
-    phone: "+50 283-675-9861",
-    email: "sofia.hoang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/sofia-hoang.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Luxury SUV"],
+    phone: "+796 363-594-3062",
+    email: "amina.carpenter@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/amina-carpenter.jpg",
+    specialties: ["Luxury Car Specialist", "Night Shift", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
   },
   {
-    id: "driver-santorini-6",
-    name: "Akira Shin",
-    licenseNumber: "S8K924",
-    licenseExpiry: "2030-01-13",
-    experienceYears: 8,
-    languagesSpoken: ["pt", "es"],
+    id: "driver-santorini-2",
+    name: "Bruce Foster",
+    licenseNumber: "G0P694",
+    licenseExpiry: "2027-05-25",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Swedish", "Czech", "Finnish"],
     available: [
       {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          },
+          {
+            from: "09:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
         day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00"
+          },
+          {
+            from: "02:00",
+            to: "07:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.7,
+    phone: "+578 469-559-7751",
+    email: "bruce.foster@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/bruce-foster.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan", "Limousine"],
+  },
+  {
+    id: "driver-santorini-3",
+    name: "Amina Gardner",
+    licenseNumber: "A3S608",
+    licenseExpiry: "2027-02-13",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Russian", "Greek"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00"
+          },
+          {
+            from: "00:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00"
+          },
+          {
+            from: "13:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.3,
+    phone: "+149 793-885-6053",
+    email: "amina.gardner@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/amina-gardner.jpg",
+    specialties: ["Event Transportation", "Night Shift", "VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["SUV", "Sedan", "Luxury SUV"],
+  },
+  {
+    id: "driver-santorini-4",
+    name: "Elizabeth Griffin",
+    licenseNumber: "X4C820",
+    licenseExpiry: "2029-10-08",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Italian", "Dutch", "Russian"],
+    available: [
+      {
+        day: "Saturday",
         availableHours: [
           {
             from: "05:00",
@@ -272,15 +198,41 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         ],
       },
       {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
         day: "Tuesday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00"
+            from: "01:00",
+            to: "03:00"
           },
           {
-            from: "15:00",
-            to: "19:00"
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          },
+          {
+            from: "11:00",
+            to: "16:00"
           }
         ],
       },
@@ -288,8 +240,37 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00"
+            from: "06:00",
+            to: "10:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.7,
+    phone: "+619 107-252-1334",
+    email: "elizabeth.griffin@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/elizabeth-griffin.jpg",
+    specialties: ["VIP Transport", "Tour Guide Driver", "Night Shift"],
+    vehicleTypesCertified: ["Convertible", "Luxury SUV", "Van", "Motorcoach"],
+  },
+  {
+    id: "driver-santorini-5",
+    name: "Amelia Coleman",
+    licenseNumber: "U4G626",
+    licenseExpiry: "2026-04-25",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Russian", "Czech", "Danish"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00"
           }
         ],
       },
@@ -297,50 +278,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "20:00",
-            to: "23:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.7,
-    phone: "+174 118-235-2124",
-    email: "akira.shin@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/akira-shin.jpg",
-    specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
-  },
-  {
-    id: "driver-santorini-7",
-    name: "Joseph Tanaka",
-    licenseNumber: "T7P257",
-    licenseExpiry: "2030-03-06",
-    experienceYears: 18,
-    languagesSpoken: ["ru", "en", "ar"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00"
-          },
-          {
             from: "01:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00"
+            to: "03:00"
           },
           {
             from: "11:00",
-            to: "15:00"
+            to: "16:00"
           }
         ],
       },
@@ -348,8 +291,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00"
+            from: "17:00",
+            to: "19:00"
           }
         ],
       },
@@ -357,17 +300,170 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         day: "Monday",
         availableHours: [
           {
+            from: "08:00",
+            to: "13:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+803 622-220-9182",
+    email: "amelia.coleman@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/amelia-coleman.jpg",
+    specialties: ["Event Transportation"],
+    vehicleTypesCertified: ["SUV", "Motorcoach", "Convertible"],
+  },
+  {
+    id: "driver-santorini-6",
+    name: "Liam Henderson",
+    licenseNumber: "B3S681",
+    licenseExpiry: "2027-11-25",
+    experienceYears: 7,
+    languagesSpoken: ["English", "German", "Finnish", "Italian"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00"
+          },
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.5,
+    phone: "+160 745-670-6396",
+    email: "liam.henderson@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/liam-henderson.jpg",
+    specialties: ["Event Transportation", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Luxury SUV", "Sedan", "Electric Vehicle"],
+  },
+  {
+    id: "driver-santorini-7",
+    name: "Aaliyah Curtis",
+    licenseNumber: "K6W743",
+    licenseExpiry: "2027-06-14",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Greek", "Swedish", "Polish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "20:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00"
+          },
+          {
             from: "14:00",
+            to: "17:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.3,
+    phone: "+532 847-487-7360",
+    email: "aaliyah.curtis@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/aaliyah-curtis.jpg",
+    specialties: ["Long-Distance Driving", "VIP Transport", "Luxury Car Specialist", "Airport Transfers"],
+    vehicleTypesCertified: ["Sports Car", "Electric Vehicle"],
+  },
+  {
+    id: "driver-santorini-8",
+    name: "Zola Morales",
+    licenseNumber: "S7E081",
+    licenseExpiry: "2027-07-18",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Italian", "Czech", "German"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00"
+          },
+          {
+            from: "00:00",
+            to: "04:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "04:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "22:00"
+          },
+          {
+            from: "16:00",
             to: "18:00"
           }
         ],
       }
     ],
-    ratings: 4.1,
-    phone: "+728 922-792-2907",
-    email: "joseph.tanaka@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/santorini/joseph-tanaka.jpg",
-    specialties: ["Night Shift", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Sedan", "Electric Vehicle", "Luxury SUV"],
+    ratings: 4.4,
+    phone: "+638 526-896-4755",
+    email: "zola.morales@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/santorini/zola-morales.jpg",
+    specialties: ["Event Transportation", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Motorcoach", "Luxury SUV"],
   }
 ];

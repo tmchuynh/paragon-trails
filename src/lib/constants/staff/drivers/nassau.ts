@@ -3,27 +3,18 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const nassaubahamascaribbeanDrivers: Driver[] = [
   {
     id: "driver-nassau-1",
-    name: "Yusuke Pham",
-    licenseNumber: "T5Q695",
-    licenseExpiry: "2027-06-24",
-    experienceYears: 18,
-    languagesSpoken: ["de"],
+    name: "Andrew Rossi",
+    licenseNumber: "B9D443",
+    licenseExpiry: "2030-05-05",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Portuguese", "Guarani"],
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "20:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00"
+            from: "04:00",
+            to: "08:00"
           }
         ],
       },
@@ -31,12 +22,97 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "15:00",
-            to: "20:00"
+            from: "19:00",
+            to: "21:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "21:00"
           },
           {
-            from: "00:00",
-            to: "03:00"
+            from: "06:00",
+            to: "09:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.1,
+    phone: "+101 456-885-2190",
+    email: "andrew.rossi@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/nassau/andrew-rossi.jpg",
+    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Van", "Convertible", "Motorcoach"],
+  },
+  {
+    id: "driver-nassau-2",
+    name: "Nicole Bennett",
+    licenseNumber: "E2U281",
+    licenseExpiry: "2027-06-08",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Quechua", "Spanish"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "04:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          },
+          {
+            from: "11:00",
+            to: "14:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+824 675-139-7393",
+    email: "nicole.bennett@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/nassau/nicole-bennett.jpg",
+    specialties: ["Luxury Car Specialist", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Luxury SUV", "Convertible", "Sedan"],
+  },
+  {
+    id: "driver-nassau-3",
+    name: "Zola Porter",
+    licenseNumber: "N2O100",
+    licenseExpiry: "2027-08-09",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Spanish", "Portuguese"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
           }
         ],
       },
@@ -44,8 +120,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "01:00",
-            to: "03:00"
+            from: "04:00",
+            to: "07:00"
           },
           {
             from: "21:00",
@@ -54,219 +130,15 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         ],
       },
       {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00"
-          },
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.5,
-    phone: "+538 186-163-8954",
-    email: "yusuke.pham@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/yusuke-pham.jpg",
-    specialties: ["VIP Transport", "Security Detail", "Corporate Chauffeur", "Airport Transfers"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Motorcoach", "Luxury SUV", "SUV"],
-  },
-  {
-    id: "driver-nassau-2",
-    name: "Yu Han",
-    licenseNumber: "N9N899",
-    licenseExpiry: "2030-03-04",
-    experienceYears: 4,
-    languagesSpoken: ["zh", "it", "hi"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00"
-          },
-          {
-            from: "19:00",
-            to: "22:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
-          },
-          {
-            from: "19:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00"
-          },
-          {
-            from: "04:00",
-            to: "06:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.1,
-    phone: "+637 579-588-9075",
-    email: "yu.han@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/yu-han.jpg",
-    specialties: ["Night Shift", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Limousine", "Van", "SUV"],
-  },
-  {
-    id: "driver-nassau-3",
-    name: "William Tanaka",
-    licenseNumber: "J4N200",
-    licenseExpiry: "2029-03-14",
-    experienceYears: 13,
-    languagesSpoken: ["ja", "it"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00"
-          },
-          {
-            from: "14:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00"
-          },
-          {
-            from: "02:00",
-            to: "05:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.9,
-    phone: "+57 960-166-4169",
-    email: "william.tanaka@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/william-tanaka.jpg",
-    specialties: ["Corporate Chauffeur", "VIP Transport", "Night Shift"],
-    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Luxury SUV"],
-  },
-  {
-    id: "driver-nassau-4",
-    name: "Jessica Yamamoto",
-    licenseNumber: "U7G599",
-    licenseExpiry: "2027-11-28",
-    experienceYears: 12,
-    languagesSpoken: ["pt"],
-    available: [
-      {
         day: "Thursday",
         availableHours: [
           {
-            from: "04:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
+            from: "18:00",
+            to: "20:00"
+          },
           {
-            from: "01:00",
+            from: "02:00",
             to: "06:00"
-          },
-          {
-            from: "08:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.1,
-    phone: "+264 751-221-7043",
-    email: "jessica.yamamoto@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/jessica-yamamoto.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Limousine"],
-  },
-  {
-    id: "driver-nassau-5",
-    name: "Hui Harris",
-    licenseNumber: "N3P817",
-    licenseExpiry: "2028-02-22",
-    experienceYears: 19,
-    languagesSpoken: ["ar", "ja"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00"
-          },
-          {
-            from: "07:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00"
-          },
-          {
-            from: "09:00",
-            to: "13:00"
           }
         ],
       },
@@ -274,12 +146,37 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "05:00",
-            to: "07:00"
+            from: "14:00",
+            to: "18:00"
           },
           {
-            from: "12:00",
-            to: "16:00"
+            from: "18:00",
+            to: "21:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.7,
+    phone: "+561 847-988-3990",
+    email: "zola.porter@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/nassau/zola-porter.jpg",
+    specialties: ["Tour Guide Driver", "Long-Distance Driving", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Convertible", "Sedan", "Motorcoach"],
+  },
+  {
+    id: "driver-nassau-4",
+    name: "Thandiwe Ali",
+    licenseNumber: "F7H919",
+    licenseExpiry: "2026-08-09",
+    experienceYears: 8,
+    languagesSpoken: ["English", "French", "Haitian"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00"
           }
         ],
       },
@@ -287,34 +184,9 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "03:00",
-            to: "05:00"
+            from: "16:00",
+            to: "18:00"
           },
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.3,
-    phone: "+359 971-801-5689",
-    email: "hui.harris@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/hui-harris.jpg",
-    specialties: ["VIP Transport", "Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "Motorcoach", "Luxury SUV"],
-  },
-  {
-    id: "driver-nassau-6",
-    name: "Ying Watanabe",
-    licenseNumber: "G9Y136",
-    licenseExpiry: "2029-10-20",
-    experienceYears: 10,
-    languagesSpoken: ["fr", "de"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
           {
             from: "00:00",
             to: "02:00"
@@ -322,126 +194,57 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         ],
       },
       {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+826 881-587-3654",
-    email: "ying.watanabe@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/ying-watanabe.jpg",
-    specialties: ["Tour Guide Driver", "Luxury Car Specialist", "Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Motorcoach"],
-  },
-  {
-    id: "driver-nassau-7",
-    name: "Susan Tanaka",
-    licenseNumber: "J4N950",
-    licenseExpiry: "2027-07-04",
-    experienceYears: 4,
-    languagesSpoken: ["hi", "zh", "it"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          },
-          {
-            from: "17:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00"
-          },
-          {
-            from: "06:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
         day: "Friday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00"
-          },
-          {
-            from: "10:00",
-            to: "12:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.6,
-    phone: "+627 651-905-4405",
-    email: "susan.tanaka@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/susan-tanaka.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Sedan"],
-  },
-  {
-    id: "driver-nassau-8",
-    name: "Emma Moore",
-    licenseNumber: "V7X199",
-    licenseExpiry: "2029-05-16",
-    experienceYears: 9,
-    languagesSpoken: ["tr"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00"
-          },
-          {
-            from: "11:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
         availableHours: [
           {
             from: "13:00",
             to: "16:00"
           },
           {
-            from: "07:00",
+            from: "08:00",
             to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00"
+          },
+          {
+            from: "11:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+220 312-490-1297",
+    email: "thandiwe.ali@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/nassau/thandiwe-ali.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Convertible"],
+  },
+  {
+    id: "driver-nassau-5",
+    name: "Elena Nguyen",
+    licenseNumber: "T7K640",
+    licenseExpiry: "2029-04-21",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Spanish", "Guarani", "Aymara"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          },
+          {
+            from: "13:00",
+            to: "17:00"
           }
         ],
       },
@@ -449,81 +252,47 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "01:00",
-            to: "04:00"
+            from: "10:00",
+            to: "12:00"
+          },
+          {
+            from: "03:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00"
+          },
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00"
           },
           {
             from: "17:00",
             to: "20:00"
           }
         ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          }
-        ],
       }
     ],
-    ratings: 4.7,
-    phone: "+46 189-926-1809",
-    email: "emma.moore@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/emma-moore.jpg",
-    specialties: ["VIP Transport", "Corporate Chauffeur", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Convertible", "Motorcoach"],
-  },
-  {
-    id: "driver-nassau-9",
-    name: "Joseph Thomas",
-    licenseNumber: "P6D866",
-    licenseExpiry: "2027-02-15",
-    experienceYears: 9,
-    languagesSpoken: ["ko", "ru"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00"
-          },
-          {
-            from: "09:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00"
-          },
-          {
-            from: "16:00",
-            to: "19:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.5,
-    phone: "+233 834-129-5260",
-    email: "joseph.thomas@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/nassau/joseph-thomas.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Sedan", "Luxury SUV", "Motorcoach"],
+    ratings: 3.9,
+    phone: "+116 912-433-1805",
+    email: "elena.nguyen@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/nassau/elena-nguyen.jpg",
+    specialties: ["Airport Transfers", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Electric Vehicle", "Convertible", "Sedan", "Van"],
   }
 ];

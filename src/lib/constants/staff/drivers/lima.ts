@@ -3,57 +3,31 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const limaperusouthAmericaDrivers: Driver[] = [
   {
     id: "driver-lima-1",
-    name: "Sakura Vo",
-    licenseNumber: "Z0D314",
-    licenseExpiry: "2030-07-14",
-    experienceYears: 17,
-    languagesSpoken: ["ar", "ru", "it"],
+    name: "Mohamed Carpenter",
+    licenseNumber: "Y0G352",
+    licenseExpiry: "2027-12-07",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Spanish", "Guarani"],
     available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          },
-          {
-            from: "16:00",
-            to: "19:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00"
-          },
-          {
-            from: "06:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
-          },
-          {
-            from: "06:00",
-            to: "08:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00"
+            to: "05:00"
           },
           {
             from: "17:00",
@@ -62,15 +36,199 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         ],
       },
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "09:00",
+            from: "05:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00"
+          },
+          {
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.1,
+    phone: "+262 626-990-1554",
+    email: "mohamed.carpenter@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/mohamed-carpenter.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Sedan", "SUV", "Sports Car"],
+  },
+  {
+    id: "driver-lima-2",
+    name: "Jerry Graves",
+    licenseNumber: "P9D408",
+    licenseExpiry: "2026-12-25",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Portuguese", "Spanish"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          },
+          {
+            from: "16:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00"
+          },
+          {
+            from: "14:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
             to: "14:00"
           },
           {
-            from: "09:00",
-            to: "14:00"
+            from: "02:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00"
+          },
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+453 975-682-9737",
+    email: "jerry.graves@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/jerry-graves.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Limousine", "Electric Vehicle", "SUV", "Luxury SUV"],
+  },
+  {
+    id: "driver-lima-3",
+    name: "Leah Carpenter",
+    licenseNumber: "F1A934",
+    licenseExpiry: "2027-11-02",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Guarani", "Spanish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          },
+          {
+            from: "20:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+588 498-878-8792",
+    email: "leah.carpenter@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/leah-carpenter.jpg",
+    specialties: ["Tour Guide Driver", "Corporate Chauffeur", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Convertible", "Sports Car", "Luxury SUV", "Sedan"],
+  },
+  {
+    id: "driver-lima-4",
+    name: "Thabo Jennings",
+    licenseNumber: "C6K058",
+    licenseExpiry: "2028-09-03",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Spanish", "Quechua"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "07:00"
+          },
+          {
+            from: "04:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
           }
         ],
       },
@@ -80,52 +238,57 @@ export const limaperusouthAmericaDrivers: Driver[] = [
           {
             from: "18:00",
             to: "22:00"
-          },
-          {
-            from: "16:00",
-            to: "19:00"
           }
         ],
       }
     ],
-    ratings: 3.6,
-    phone: "+291 986-956-2140",
-    email: "sakura.vo@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/sakura-vo.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van", "Luxury SUV"],
+    ratings: 4,
+    phone: "+662 969-102-9193",
+    email: "thabo.jennings@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/thabo-jennings.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach", "Sports Car"],
   },
   {
-    id: "driver-lima-2",
-    name: "Xia Hoang",
-    licenseNumber: "E6T791",
-    licenseExpiry: "2028-07-13",
-    experienceYears: 10,
-    languagesSpoken: ["ar", "it"],
+    id: "driver-lima-5",
+    name: "Alexander Wood",
+    licenseNumber: "B9M688",
+    licenseExpiry: "2030-08-05",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Aymara", "French"],
     available: [
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "03:00",
-            to: "06:00"
+            from: "18:00",
+            to: "23:00"
           },
           {
-            from: "11:00",
-            to: "13:00"
+            from: "14:00",
+            to: "18:00"
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "06:00",
-            to: "09:00"
+            from: "21:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "21:00"
           },
           {
-            from: "05:00",
-            to: "10:00"
+            from: "02:00",
+            to: "04:00"
           }
         ],
       },
@@ -133,46 +296,67 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "12:00"
+            from: "09:00",
+            to: "11:00"
+          },
+          {
+            from: "11:00",
+            to: "13:00"
           }
         ],
       }
     ],
-    ratings: 4.3,
-    phone: "+341 167-804-5889",
-    email: "xia.hoang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/xia-hoang.jpg",
+    ratings: 3.9,
+    phone: "+687 415-161-4332",
+    email: "alexander.wood@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/alexander-wood.jpg",
     specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Convertible", "Sports Car"],
+    vehicleTypesCertified: ["Convertible"],
   },
   {
-    id: "driver-lima-3",
-    name: "Hao Martin",
-    licenseNumber: "A0S867",
-    licenseExpiry: "2030-11-18",
-    experienceYears: 10,
-    languagesSpoken: ["ru", "ar", "ko"],
+    id: "driver-lima-6",
+    name: "Mark Holloway",
+    licenseNumber: "K1J047",
+    licenseExpiry: "2029-05-25",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Quechua", "Spanish"],
     available: [
       {
-        day: "Wednesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00"
+            from: "00:00",
+            to: "03:00"
           },
           {
-            from: "20:00",
-            to: "24:00"
+            from: "07:00",
+            to: "12:00"
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "05:00",
-            to: "07:00"
+            from: "20:00",
+            to: "24:00"
+          },
+          {
+            from: "07:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          },
+          {
+            from: "00:00",
+            to: "04:00"
           }
         ],
       },
@@ -181,225 +365,45 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.8,
-    phone: "+476 907-729-1218",
-    email: "hao.martin@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/hao-martin.jpg",
-    specialties: ["VIP Transport", "Airport Transfers", "Night Shift"],
-    vehicleTypesCertified: ["Sedan"],
-  },
-  {
-    id: "driver-lima-4",
-    name: "Mia Lee",
-    licenseNumber: "V1A093",
-    licenseExpiry: "2029-02-28",
-    experienceYears: 6,
-    languagesSpoken: ["hi", "pt", "ru"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
+            to: "10:00"
           }
         ],
       },
       {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.2,
-    phone: "+270 650-813-4536",
-    email: "mia.lee@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/mia-lee.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Motorcoach", "Limousine"],
-  },
-  {
-    id: "driver-lima-5",
-    name: "Kenji Huynh",
-    licenseNumber: "Z4M643",
-    licenseExpiry: "2026-06-04",
-    experienceYears: 9,
-    languagesSpoken: ["de", "pt"],
-    available: [
-      {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
             from: "02:00",
             to: "05:00"
           },
           {
-            from: "16:00",
-            to: "18:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00"
-          },
-          {
-            from: "08:00",
-            to: "13:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00"
+            from: "01:00",
+            to: "04:00"
           }
         ],
       }
     ],
-    ratings: 4.3,
-    phone: "+194 373-928-7811",
-    email: "kenji.huynh@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/kenji-huynh.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Convertible", "Van", "SUV"],
-  },
-  {
-    id: "driver-lima-6",
-    name: "Paul Zhang",
-    licenseNumber: "T2G286",
-    licenseExpiry: "2030-10-01",
-    experienceYears: 14,
-    languagesSpoken: ["en", "ko"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "20:00"
-          },
-          {
-            from: "16:00",
-            to: "21:00"
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "21:00"
-          },
-          {
-            from: "09:00",
-            to: "11:00"
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "09:00"
-          },
-          {
-            from: "21:00",
-            to: "24:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00"
-          }
-        ],
-      }
-    ],
-    ratings: 4.1,
-    phone: "+780 375-130-5403",
-    email: "paul.zhang@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/paul-zhang.jpg",
-    specialties: ["Event Transportation", "Corporate Chauffeur", "VIP Transport", "Airport Transfers"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Limousine"],
+    ratings: 4.9,
+    phone: "+780 623-766-3884",
+    email: "mark.holloway@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/mark-holloway.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Limousine", "SUV", "Sedan"],
   },
   {
     id: "driver-lima-7",
-    name: "Olivia Martin",
-    licenseNumber: "F7C434",
-    licenseExpiry: "2029-10-10",
-    experienceYears: 18,
-    languagesSpoken: ["es", "de", "ko"],
+    name: "Katherine Fletcher",
+    licenseNumber: "M1W640",
+    licenseExpiry: "2027-02-09",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Haitian", "Guarani", "Aymara"],
     available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "20:00",
-            to: "24:00"
-          },
-          {
-            from: "04:00",
-            to: "09:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00"
-          },
-          {
-            from: "15:00",
-            to: "17:00"
+            from: "01:00",
+            to: "06:00"
           }
         ],
       },
@@ -407,81 +411,43 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00"
+            from: "16:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
+          },
+          {
+            from: "17:00",
+            to: "19:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "02:00"
+          },
+          {
+            from: "20:00",
+            to: "23:00"
           }
         ],
       }
     ],
-    ratings: 4.1,
-    phone: "+388 331-512-8233",
-    email: "olivia.martin@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/olivia-martin.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["SUV"],
-  },
-  {
-    id: "driver-lima-8",
-    name: "Xia Sharma",
-    licenseNumber: "U7K065",
-    licenseExpiry: "2027-06-28",
-    experienceYears: 13,
-    languagesSpoken: ["ar", "zh", "it"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00"
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00"
-          },
-          {
-            from: "00:00",
-            to: "05:00"
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00"
-          },
-          {
-            from: "10:00",
-            to: "12:00"
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00"
-          },
-          {
-            from: "12:00",
-            to: "15:00"
-          }
-        ],
-      }
-    ],
-    ratings: 3.6,
-    phone: "+708 222-673-8398",
-    email: "xia.sharma@example.com",
-    photoUrl: "https://paragon-trails-driver-images.com/lima/xia-sharma.jpg",
-    specialties: ["Luxury Car Specialist", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Sedan"],
+    ratings: 3.9,
+    phone: "+896 457-949-2641",
+    email: "katherine.fletcher@paragontrailsdrivers.com",
+    photoUrl: "https://paragon-trails-driver-images.com/lima/katherine-fletcher.jpg",
+    specialties: ["Corporate Chauffeur", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "Sedan", "Convertible", "SUV"],
   }
 ];
