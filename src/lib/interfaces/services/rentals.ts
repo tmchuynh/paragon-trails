@@ -276,6 +276,22 @@ type AccommodationType =
   | "Hostel"
   | "Bed and Breakfast"
   | "Guesthouse"
+  | "Motel"
+  | "Serviced Apartment"
+  | "Family Resort"
+  | "Boutique Inn"
+  | "Boutique Resort"
+  | "Extended Stay Hotel"
+  | "Luxury Lodge"
+  | "Vacation Rental"
+  | "Glamping Resort"
+  | "Chalet"
+  | "Luxury Villa"
+  | "Luxury Hotel"
+  | "All-Inclusive Resort"
+  | "Spa Hotel"
+  | "Luxury Hotel"
+  | "Business Hotel"
   | "Eco-Lodge";
 
 type AmenityType =
@@ -288,6 +304,10 @@ type AmenityType =
   | "Bar"
   | "Room Service"
   | "Airport Shuttle"
+  | "Laundry Service"
+  | "24-Hour Front Desk"
+  | "Conference Room"
+  | "Non-Smoking Rooms"
   | "Pet Friendly"
   | "Business Center";
 
@@ -295,6 +315,18 @@ type AccessibilityFeature =
   | "Wheelchair Accessible"
   | "Elevator"
   | "Accessible Bathroom"
+  | "Braille Signage"
+  | "Accessible Parking"
+  | "Visual Alarm"
+  | "Hearing Loop"
+  | "Accessible Shower"
+  | "Grab Bars"
+  | "Lowered Light Switches"
+  | "Accessible Pathways"
+  | "Assistive Listening Devices"
+  | "Sign Language Interpretation"
+  | "Tactile Maps"
+  | "Large Print Materials"
   | "Visual Aids"
   | "Hearing Support";
 
@@ -309,7 +341,7 @@ export interface RoomOption {
   };
   bedType: RoomBedType;
   view?: RoomViewType;
-  amenities: AmenityType[];
+  amenities: RoomAmenities[];
   accessibilityFeatures?: AccessibilityFeature[];
   photos?: string[];
   pricePerNight: number;
@@ -327,3 +359,51 @@ type RoomViewType =
   | "Garden View"
   | "Mountain View"
   | "None";
+
+type RoomAmenities =
+  | "Free Wi-Fi"
+  | "Air Conditioning"
+  | "Television"
+  | "Mini Bar"
+  | "Coffee Maker"
+  | "Microwave"
+  | "Refrigerator"
+  | "Hair Dryer"
+  | "Ironing Facilities"
+  | "In-Room Safe"
+  | "Balcony"
+  | "Bathtub"
+  | "Shower"
+  | "Toiletries"
+  | "Desk"
+  | "Seating Area"
+  | "Soundproofing"
+  | "Daily Housekeeping"
+  | "Room Service"
+  | "Wake-Up Service"
+  | "Smoke Detector"
+  | "Heating"
+  | "Non-Smoking Room"
+  | "Pet Friendly"
+  | "Family Room"
+  | "Connecting Rooms"
+  | "Accessible Room"
+  | "Kitchenette"
+  | "Dining Table"
+  | "Blackout Curtains"
+  | "Complimentary Bottled Water"
+  | "Bathrobe"
+  | "Slippers"
+  | "Flat-Screen TV"
+  | "Streaming Services"
+  | "Bluetooth Speaker"
+  | "Desk Lamp"
+  | "Alarm Clock"
+  | "Luggage Rack"
+  | "Outdoor Furniture"
+  | "Fireplace"
+  | "Jacuzzi Tub"
+  | "Sauna"
+  | "Fitness Equipment"
+  | "Board Games"
+  | "Books";
