@@ -128,7 +128,7 @@ export interface LuxuryRentalCar {
   fuelType: "Petrol" | "Diesel" | "Electric" | "Hybrid";
   horsepower?: number;
   colorOptions: string[];
-  features: CarFeature[];
+  features: string[];
   rentalPricePerDay: number;
   currency: string;
   available: boolean;
@@ -154,31 +154,6 @@ type CarType =
   | "Electric"
   | "Hybrid"
   | "Limousine";
-
-type CarFeature =
-  | "Leather Seats"
-  | "GPS Navigation"
-  | "Sunroof"
-  | "Bluetooth"
-  | "Backup Camera"
-  | "Heated Seats"
-  | "All-Wheel Drive"
-  | "Blind Spot Monitoring"
-  | "Adaptive Cruise Control"
-  | "Parking Sensors"
-  | "Premium Sound System"
-  | "Keyless Entry"
-  | "Remote Start"
-  | "Wireless Charging"
-  | "Apple CarPlay"
-  | "Android Auto"
-  | "Electric Adjustable Seats"
-  | "Massage Seats"
-  | "Climate Control"
-  | "Night Vision"
-  | "Heads-Up Display"
-  | "Performance Tires"
-  | "Convertible Roof";
 
 export interface Motorcycle {
   id: string;
