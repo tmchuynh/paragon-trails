@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Riverside Manor
+export const riversideManorRooms: RoomOption[] = [
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Modern King Studio",
+    description: "A stretching king studio designed for heartwarming comfort, with where the city skyline meets the horizon and with a spacious seating area, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Streaming Services", "Connecting Rooms"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 154,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Tranquility Sofa Bed Suite",
+    description: "A prestigious sofa bed suite designed for generous comfort, with where you can watch the city wake up and with carefully selected furnishings, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Pet Friendly", "Luggage Rack", "Books"],
+    pricePerNight: 85,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Classic Twin Apartment",
+    description: "Enjoy a snug stay in our Classic-themed twin apartment, offering with a view of the garden's lush greenery, with a spacious seating area, and unique touches of created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Jacuzzi Tub", "Soundproofing"],
+    pricePerNight: 96,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Deluxe Twin Suite",
+    description: "Unwind in this restful twin suite where you can relax to the sound of the waves, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Streaming Services", "Sauna"],
+    pricePerNight: 117,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

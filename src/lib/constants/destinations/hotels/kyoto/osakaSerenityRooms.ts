@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Osaka Serenity
+export const osakaSerenityRooms: RoomOption[] = [
+  {
+    id: "hotel-kyoto-1-room-0",
+    name: "Fuji Queen Studio",
+    description: "Enjoy a elegant stay in our Fuji-themed queen studio, offering with a view of the garden's lush greenery, offering a unique blend of style and comfort, and unique touches of offering the perfect balance of Eastern serenity and Western comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Bluetooth Speaker", "Refrigerator", "Ironing Facilities", "Smoke Detector"],
+    pricePerNight: 127,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-kyoto-1-room-0",
+    name: "Classic Queen Penthouse",
+    description: "Indulge in the relaxing atmosphere of our queen penthouse, with spectacular where you can feel the ocean breeze, featuring traditional tatami elements, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Smoke Detector", "Jacuzzi Tub", "Outdoor Furniture"],
+    pricePerNight: 155,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-kyoto-1-room-0",
+    name: "Zen King Room",
+    description: "A avant-garde king room designed for inviting comfort, with with a backdrop of city parks and green spaces and with a spacious seating area, reflecting featuring traditional tatami elements.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Luggage Rack", "Seating Area", "Refrigerator"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 148,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-kyoto-1-room-0",
+    name: "Sakura King Loft",
+    description: "Discover the charm of this Sakura-themed king loft, complete with stylish ambiance, stunning with a private balcony overlooking the sea, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Fitness Equipment", "Flat-Screen TV", "Smoke Detector", "Connecting Rooms", "Luggage Rack"],
+    pricePerNight: 168,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

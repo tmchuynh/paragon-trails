@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-kiel-1-room-0",
+    name: "Luxury Sofa Bed Room",
+    description: "Luxury-themed sofa bed room with panoramic views of the surrounding mountains, featuring thoughtful design elements and with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "Mini Bar", "Board Games", "Luggage Rack", "Smoke Detector", "In-Room Safe"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 103,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-kiel-1-room-0",
+    name: "Executive Double Loft",
+    description: "Relax in our extensive exquisite double loft featuring where you can enjoy the ocean's beauty, along with including climate control for your comfort and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Pet Friendly", "Connecting Rooms", "Mini Bar", "Refrigerator", "Fireplace"],
+    pricePerNight: 132,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-kiel-1-room-0",
+    name: "Premium King Loft",
+    description: "Enjoy a retro stay in our Premium-themed king loft, offering with a view of the garden's seasonal changes, offering a unique blend of style and comfort, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Fitness Equipment", "Wake-Up Service", "Refrigerator", "Books", "Pet Friendly"],
+    pricePerNight: 153,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-kiel-1-room-0",
+    name: "Modern King Room",
+    description: "Experience our classic, generous king room with a private balcony overlooking the sea, with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Flat-Screen TV", "Accessible Room", "Sauna", "Fireplace", "Jacuzzi Tub"],
+    pricePerNight: 196,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

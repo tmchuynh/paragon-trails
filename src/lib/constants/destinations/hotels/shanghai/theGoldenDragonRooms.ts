@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Golden Dragon
+export const theGoldenDragonRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-5-room-4",
+    name: "Deluxe Single Penthouse",
+    description: "Discover the charm of this Deluxe-themed single penthouse, complete with pleasant ambiance, stunning with a view of the garden's tranquil pathways, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Accessible Room", "Fitness Equipment", "Blackout Curtains", "Balcony", "Wake-Up Service"],
+    pricePerNight: 144,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-shanghai-5-room-4",
+    name: "Premium Double Loft",
+    description: "A large-scale double retreat with a view of the garden's peaceful ambiance, blending imperial tradition with modern design.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Accessible Room", "Balcony"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 188,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-shanghai-5-room-4",
+    name: "Bamboo Double Villa",
+    description: "Indulge in the generous atmosphere of our double villa, with spectacular with a private balcony overlooking the sea, blending imperial tradition with modern design, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Board Games", "Smoke Detector", "Soundproofing", "Blackout Curtains"],
+    pricePerNight: 219,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-shanghai-5-room-4",
+    name: "Superior King Penthouse",
+    description: "Experience our elegant, plush king penthouse featuring a blend of modern and historic architecture, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Pet Friendly", "Wake-Up Service", "Soundproofing"],
+    pricePerNight: 283,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

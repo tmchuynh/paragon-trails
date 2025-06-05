@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-st-petersburg-1-room-0",
+    name: "Modern King Suite",
+    description: "Relax in our vintage refined king suite featuring where you can relax in a natural oasis, along with featuring a curated minibar selection and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Pet Friendly", "Fitness Equipment", "Soundproofing"],
+    pricePerNight: 223,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-st-petersburg-1-room-0",
+    name: "Premium Twin Studio",
+    description: "Our refined Premium-themed studio offers with a view of manicured lawns and gardens, comfortable comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Streaming Services", "Complimentary Bottled Water", "Ironing Facilities"],
+    pricePerNight: 130,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-st-petersburg-1-room-0",
+    name: "Serenity Sofa Bed Villa",
+    description: "Unwind in this soft sofa bed villa where you can escape to the mountains, with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Connecting Rooms", "Accessible Room", "Dining Table"],
+    pricePerNight: 134,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-st-petersburg-1-room-0",
+    name: "Modern Single Villa",
+    description: "Relax in our refreshing grandiose single villa featuring with panoramic views of the mountain landscape, along with complete with a well-appointed bathroom and created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Smoke Detector", "Blackout Curtains"],
+    pricePerNight: 130,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

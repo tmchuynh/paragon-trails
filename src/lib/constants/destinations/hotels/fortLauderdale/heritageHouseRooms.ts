@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Heritage House
+export const heritageHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-fort-lauderdale-2-room-1",
+    name: "Classic Sofa Bed Apartment",
+    description: "Our Classic-themed sofa bed apartment offers lavish luxury, panoramic where you can take in the fresh air, and with a luxurious soaking tub, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Kitchenette", "Seating Area"],
+    pricePerNight: 224,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-fort-lauderdale-2-room-1",
+    name: "Serenity Sofa Bed Studio",
+    description: "Step into a artistic sofa bed studio that combines Serenity-themed with breathtaking where you can enjoy the ocean's beauty, complemented by equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Pet Friendly", "Accessible Room", "Books", "Blackout Curtains"],
+    pricePerNight: 248,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-fort-lauderdale-2-room-1",
+    name: "Classic Twin Room",
+    description: "Our avant-garde Classic-themed room offers featuring uninterrupted ocean vistas, palatial comfort, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Pet Friendly", "Kitchenette", "Family Room", "Accessible Room"],
+    pricePerNight: 249,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-fort-lauderdale-2-room-1",
+    name: "Classic Twin Loft",
+    description: "Classic-themed twin loft overlooking spectacular mountain ranges, designed for ultimate comfort and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Fitness Equipment", "Fireplace"],
+    pricePerNight: 239,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

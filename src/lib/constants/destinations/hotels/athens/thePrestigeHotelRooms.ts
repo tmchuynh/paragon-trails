@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Prestige Hotel
+export const thePrestigeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-athens-3-room-2",
+    name: "Modern Double Loft",
+    description: "Relax in our ornate majestic double loft featuring with a window to the bustling city below, along with with a spacious seating area and decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Fireplace", "Smoke Detector", "Family Room", "Board Games", "Balcony"],
+    pricePerNight: 348,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-athens-3-room-2",
+    name: "Horizon Queen Room",
+    description: "This relaxing queen room promises with stunning views of the city skyline, enriched by Horizon-themed details and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Kitchenette", "Refrigerator", "Flat-Screen TV", "Dining Table"],
+    pricePerNight: 430,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-athens-3-room-2",
+    name: "Deluxe Single Villa",
+    description: "A tasteful single villa designed for ornate comfort, with overlooking spectacular mountain ranges and with a spacious work area, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Pet Friendly", "Soundproofing", "Sauna", "In-Room Safe", "Accessible Room", "Flat-Screen TV"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 315,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-athens-3-room-2",
+    name: "Premium Sofa Bed Studio",
+    description: "Our plush Premium-themed studio offers offering panoramic city vistas, tranquil comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Blackout Curtains", "Balcony", "Pet Friendly"],
+    pricePerNight: 324,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

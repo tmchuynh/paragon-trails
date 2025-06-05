@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Abbey Court
+export const theAbbeyCourtRooms: RoomOption[] = [
+  {
+    id: "hotel-london-1-room-0",
+    name: "Tudor Twin Room",
+    description: "Step into a wide-ranging twin room that combines Tudor-themed with breathtaking overlooking the sparkling ocean waves, complemented by featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Dining Table", "Family Room", "Sauna", "Seating Area", "In-Room Safe"],
+    pricePerNight: 218,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-london-1-room-0",
+    name: "Westminster Single Room",
+    description: "This eclectic single room promises where mountains paint the horizon, enriched by Westminster-themed details and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Seating Area", "Outdoor Furniture", "Ironing Facilities", "Refrigerator"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 197,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-london-1-room-0",
+    name: "Premium Sofa Bed Suite",
+    description: "Unwind in this prestigious sofa bed suite with a front-row seat to the city's heartbeat, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "Books", "Mini Bar"],
+    pricePerNight: 192,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-london-1-room-0",
+    name: "Executive Double Loft",
+    description: "Step into a restful double loft that combines Executive-themed with breathtaking with a view of the rugged mountain landscape, complemented by complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Connecting Rooms", "Kitchenette", "Soundproofing", "Family Room", "Smoke Detector"],
+    pricePerNight: 251,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

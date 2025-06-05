@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Harmony Single Apartment",
+    description: "Enjoy a intimate stay in our Harmony-themed single apartment, offering where you can take in the fresh mountain air, with a spacious work area, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Kitchenette", "Wake-Up Service", "Outdoor Furniture", "Blackout Curtains", "Mini Bar"],
+    pricePerNight: 109,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Tranquility Single Villa",
+    description: "Discover the charm of this Tranquility-themed single villa, complete with homey ambiance, stunning with a pleasant outlook, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "In-Room Safe", "Fireplace"],
+    pricePerNight: 82,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Modern Double Studio",
+    description: "Indulge in the opulent atmosphere of our double studio, with spectacular with a view of the rugged mountain landscape, created with both style and function in mind, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "In-Room Safe", "Seating Area", "Books", "Ironing Facilities"],
+    pricePerNight: 122,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Serenity Queen Apartment",
+    description: "Unwind in this stylish queen apartment where you can find inspiration in the mountains, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Books", "Bathtub", "Sauna", "Family Room", "Balcony"],
+    pricePerNight: 164,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

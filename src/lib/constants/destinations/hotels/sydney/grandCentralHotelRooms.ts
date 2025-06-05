@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-sydney-6-room-5",
+    name: "Oceanic Single Villa",
+    description: "Enjoy a luxurious stay in our Oceanic-themed single villa, offering where the city comes alive at dusk, with a private balcony or terrace, and unique touches of featuring airy, sun-drenched interiors.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Ironing Facilities", "Accessible Room"],
+    pricePerNight: 282,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-sydney-6-room-5",
+    name: "Outback Double Room",
+    description: "Our fashionable Outback-themed room offers with a view of the rugged mountain landscape, contemporary comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Family Room", "Wake-Up Service", "Refrigerator", "Soundproofing"],
+    pricePerNight: 416,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-sydney-6-room-5",
+    name: "Oceanic Queen Room",
+    description: "This eclectic queen room promises with a pleasant outlook, enriched by Oceanic-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Wake-Up Service", "Books", "Bathtub"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 407,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-sydney-6-room-5",
+    name: "Oceanic Twin Loft",
+    description: "Step into a avant-garde twin loft that combines Oceanic-themed with breathtaking with a pleasant outlook, complemented by equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Seating Area", "Books", "Accessible Room", "Jacuzzi Tub", "Smoke Detector"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 260,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];

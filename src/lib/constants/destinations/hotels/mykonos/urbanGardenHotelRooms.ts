@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Urban Garden Hotel
+export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Harmony Single Loft",
+    description: "Enjoy a sumptuous stay in our Harmony-themed single loft, offering where you can feel the ocean breeze, with a spacious work area, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Blackout Curtains", "Accessible Room", "Fitness Equipment", "Soundproofing", "Wake-Up Service"],
+    pricePerNight: 226,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Executive Twin Studio",
+    description: "Relax in our wide-ranging opulent twin studio featuring with panoramic views of the surrounding mountains, along with with plush bedding for ultimate comfort and decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Ironing Facilities", "Bluetooth Speaker", "Board Games", "Fitness Equipment", "Fireplace"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 207,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Modern Twin Suite",
+    description: "This tranquil twin suite promises with a view of the garden's vibrant colors, enriched by Modern-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Books", "Pet Friendly", "Dining Table", "Streaming Services"],
+    pricePerNight: 190,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Tranquility Double Room",
+    description: "Tranquility-themed double room with a view of the ocean's horizon, created with both style and function in mind and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Smoke Detector", "Refrigerator", "Luggage Rack", "Bluetooth Speaker"],
+    pricePerNight: 257,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

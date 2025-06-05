@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Dominion
+export const theDominionRooms: RoomOption[] = [
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Premium Sofa Bed Room",
+    description: "This inviting sofa bed room promises where you can find solace in nature's embrace, enriched by Premium-themed details and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Wake-Up Service", "Flat-Screen TV"],
+    pricePerNight: 104,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Northern Lights King Villa",
+    description: "Discover the charm of this Northern Lights-themed king villa, complete with expansive ambiance, stunning offering panoramic city vistas, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Connecting Rooms", "Fireplace"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 137,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Luxury Twin Loft",
+    description: "This voluminous twin accommodation offers where you can find inspiration in the mountains, blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Dining Table", "Jacuzzi Tub", "Kitchenette", "Bluetooth Speaker"],
+    pricePerNight: 114,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Maple Twin Studio",
+    description: "A indulgent twin retreat where you can enjoy the tranquility of nature, blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Luggage Rack", "In-Room Safe"],
+    pricePerNight: 108,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

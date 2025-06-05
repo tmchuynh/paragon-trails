@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pacific Horizon Hotel
+export const pacificHorizonHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-ketchikan-3-room-2",
+    name: "Liberty Single Apartment",
+    description: "Relax in our spacious plush single apartment featuring with a view of the endless blue, along with offering a unique blend of style and comfort and highlighting contemporary American style.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Balcony", "Books", "Streaming Services", "Bluetooth Speaker"],
+    pricePerNight: 194,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-ketchikan-3-room-2",
+    name: "Deluxe Double Studio",
+    description: "Our Deluxe-themed double studio offers stretching luxury, panoramic with a backdrop of city parks and green spaces, and featuring a curated minibar selection, inspired by highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Jacuzzi Tub", "Connecting Rooms", "Outdoor Furniture", "Soundproofing"],
+    pricePerNight: 241,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-ketchikan-3-room-2",
+    name: "Premium Twin Penthouse",
+    description: "This deluxe twin accommodation offers where you can hear the soothing sound of the sea, with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Fireplace", "Mini Bar", "Complimentary Bottled Water", "Streaming Services"],
+    pricePerNight: 233,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-ketchikan-3-room-2",
+    name: "Manhattan Twin Penthouse",
+    description: "A grandiose twin penthouse designed for ample comfort, with with a pleasant outlook and including climate control for your comfort, reflecting offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Smoke Detector", "Mini Bar", "Family Room", "Blackout Curtains", "Flat-Screen TV", "Outdoor Furniture"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 173,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

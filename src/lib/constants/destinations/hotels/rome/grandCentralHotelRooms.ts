@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-rome-3-room-2",
+    name: "Horizon Single Apartment",
+    description: "This fashionable single accommodation offers with a pleasant outlook, featuring tasteful Mediterranean touches.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Jacuzzi Tub", "Soundproofing", "Fireplace"],
+    pricePerNight: 202,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-rome-3-room-2",
+    name: "Serenity Sofa Bed Suite",
+    description: "This extensive sofa bed suite promises overlooking the vibrant cityscape, enriched by Serenity-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "In-Room Safe", "Balcony"],
+    pricePerNight: 232,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-rome-3-room-2",
+    name: "Harmony Sofa Bed Studio",
+    description: "Experience our traditional, wide-ranging sofa bed studio where you can gaze at the towering peaks, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Fitness Equipment", "Jacuzzi Tub", "Kitchenette"],
+    pricePerNight: 272,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-rome-3-room-2",
+    name: "Harmony Twin Apartment",
+    description: "Enjoy a well-proportioned stay in our Harmony-themed twin apartment, offering with the sound of the ocean as your backdrop, with a spacious work area, and unique touches of with classic Italian elegance.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Pet Friendly", "Bathtub", "In-Room Safe"],
+    pricePerNight: 257,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

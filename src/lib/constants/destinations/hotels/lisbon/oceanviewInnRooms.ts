@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Oceanview Inn
+export const oceanviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-lisbon-1-room-0",
+    name: "Tranquility Sofa Bed Room",
+    description: "This generous sofa bed room promises where you can hear the soothing sound of the sea, enriched by Tranquility-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Balcony", "Refrigerator"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 148,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-lisbon-1-room-0",
+    name: "Superior Single Room",
+    description: "This grandiose single accommodation offers where the horizon meets the ocean, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Bathtub", "Family Room", "Streaming Services", "Fitness Equipment"],
+    pricePerNight: 136,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-lisbon-1-room-0",
+    name: "Tranquility Single Loft",
+    description: "Our avant-garde Tranquility-themed loft offers with a view of the mountains' lush valleys, homey comfort, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "Seating Area", "Complimentary Bottled Water"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 116,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-lisbon-1-room-0",
+    name: "Deluxe Double Loft",
+    description: "Discover the charm of this Deluxe-themed double loft, complete with rustic ambiance, stunning where you can enjoy the mountains' majestic presence, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Complimentary Bottled Water", "Bathtub", "In-Room Safe", "Flat-Screen TV", "Accessible Room"],
+    pricePerNight: 160,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

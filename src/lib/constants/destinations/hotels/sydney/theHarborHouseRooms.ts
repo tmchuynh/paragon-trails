@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-sydney-4-room-3",
+    name: "Outback Queen Room",
+    description: "Outback-themed queen room where you can enjoy the city's energy, offering a relaxed yet sophisticated Australian vibe and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Jacuzzi Tub", "Mini Bar", "In-Room Safe", "Streaming Services"],
+    pricePerNight: 289,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-sydney-4-room-3",
+    name: "Oceanic Queen Villa",
+    description: "Step into a vintage queen villa that combines Oceanic-themed with breathtaking with a private balcony overlooking the sea, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Kitchenette", "Family Room"],
+    pricePerNight: 337,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-sydney-4-room-3",
+    name: "Koala Double Penthouse",
+    description: "This bohemian double accommodation offers with a view of the mountains' serene beauty, offering a relaxed yet sophisticated Australian vibe.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "In-Room Safe", "Family Room", "Bathtub", "Flat-Screen TV", "Kitchenette"],
+    pricePerNight: 245,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-sydney-4-room-3",
+    name: "Sunburnt Double Penthouse",
+    description: "Our Sunburnt-themed double penthouse offers sumptuous luxury, panoramic with stunning views of the city skyline, and with a spacious seating area, inspired by offering a relaxed yet sophisticated Australian vibe.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Balcony", "Flat-Screen TV", "Ironing Facilities"],
+    pricePerNight: 228,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

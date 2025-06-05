@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Riverside Manor
+export const riversideManorRooms: RoomOption[] = [
+  {
+    id: "hotel-tampa-6-room-5",
+    name: "Liberty Sofa Bed Apartment",
+    description: "Relax in our generous vast sofa bed apartment featuring where the city skyline meets the horizon, along with with plush bedding for ultimate comfort and offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Bluetooth Speaker", "Fireplace", "Balcony"],
+    pricePerNight: 133,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-tampa-6-room-5",
+    name: "Pioneer Sofa Bed Villa",
+    description: "Discover the charm of this Pioneer-themed sofa bed villa, complete with ornate ambiance, stunning featuring uninterrupted ocean vistas, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Complimentary Bottled Water", "Dining Table", "Streaming Services", "Outdoor Furniture", "Bathtub"],
+    pricePerNight: 177,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-tampa-6-room-5",
+    name: "Signature King Studio",
+    description: "Step into a broad king studio that combines Signature-themed with breathtaking where you can find inspiration in the mountains, complemented by with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Blackout Curtains", "Mini Bar", "In-Room Safe", "Books", "Dining Table"],
+    pricePerNight: 224,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-tampa-6-room-5",
+    name: "Golden Gate Twin Room",
+    description: "This soft twin accommodation offers where you can enjoy stunning sunsets over the water, offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Soundproofing", "Wake-Up Service", "Streaming Services", "Blackout Curtains"],
+    pricePerNight: 176,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

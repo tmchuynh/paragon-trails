@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Palms
+export const thePalmsRooms: RoomOption[] = [
+  {
+    id: "hotel-charleston-2-room-1",
+    name: "Heritage Twin Loft",
+    description: "This soothing twin loft promises showcasing the urban landscape, enriched by Heritage-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Dining Table", "Outdoor Furniture", "Ironing Facilities"],
+    pricePerNight: 289,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-charleston-2-room-1",
+    name: "Pioneer Twin Room",
+    description: "Indulge in the inviting atmosphere of our twin room, with spectacular with a view of the mountains' rugged terrain, featuring sleek urban design elements, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bluetooth Speaker", "Pet Friendly", "Refrigerator"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible"],
+    pricePerNight: 340,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-charleston-2-room-1",
+    name: "Golden Gate Single Studio",
+    description: "Golden Gate-themed studio with prestigious decor, where you can watch the city wake up, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Kitchenette", "Seating Area", "Soundproofing", "Wake-Up Service"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 295,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-charleston-2-room-1",
+    name: "Liberty Single Room",
+    description: "This commodious single accommodation offers with a view of the sandy beaches, with rustic and modern influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Dining Table", "Pet Friendly", "Fitness Equipment"],
+    pricePerNight: 343,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

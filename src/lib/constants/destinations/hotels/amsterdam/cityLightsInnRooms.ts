@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for City Lights Inn
+export const cityLightsInnRooms: RoomOption[] = [
+  {
+    id: "hotel-amsterdam-1-room-0",
+    name: "Tranquility Queen Penthouse",
+    description: "Tranquility-themed queen penthouse with a front-row seat to the city's heartbeat, created with both style and function in mind and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Kitchenette", "Books"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 146,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-amsterdam-1-room-0",
+    name: "Standard Queen Penthouse",
+    description: "Step into a deluxe queen penthouse that combines Standard-themed with breathtaking where you can relax to the sound of the waves, complemented by with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bluetooth Speaker", "Fitness Equipment", "Soundproofing"],
+    pricePerNight: 186,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-amsterdam-1-room-0",
+    name: "Harmony Double Studio",
+    description: "Harmony-themed double studio with a backdrop of city parks and green spaces, designed for ultimate comfort and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Refrigerator", "Flat-Screen TV", "Mini Bar", "Complimentary Bottled Water"],
+    pricePerNight: 129,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-amsterdam-1-room-0",
+    name: "Signature Twin Penthouse",
+    description: "Our minimalist Signature-themed penthouse offers with a view of the mountains' rugged terrain, palatial comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Bathtub", "Complimentary Bottled Water"],
+    pricePerNight: 118,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

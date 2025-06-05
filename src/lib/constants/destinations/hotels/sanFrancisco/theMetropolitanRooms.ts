@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Metropolitan
+export const theMetropolitanRooms: RoomOption[] = [
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Tranquility Single Studio",
+    description: "Tranquility-themed studio with heartwarming decor, with a view of the ocean's changing tides, and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Bluetooth Speaker", "Refrigerator", "Wake-Up Service", "Ironing Facilities"],
+    pricePerNight: 113,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Serenity Single Loft",
+    description: "Unwind in this gentle single loft overlooking spectacular mountain ranges, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Jacuzzi Tub", "Sauna", "Luggage Rack", "Blackout Curtains", "Pet Friendly"],
+    pricePerNight: 104,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Harmony Double Villa",
+    description: "Relax in our upscale commodious double villa featuring surrounded by vibrant flora, along with with carefully selected furnishings and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Fitness Equipment", "Ironing Facilities"],
+    pricePerNight: 125,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Tranquility Queen Penthouse",
+    description: "A commodious queen retreat where you can watch the waves roll in, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "In-Room Safe", "Complimentary Bottled Water", "Family Room", "Sauna"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 171,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];
