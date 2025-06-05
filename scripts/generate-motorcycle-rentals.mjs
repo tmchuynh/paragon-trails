@@ -3,6 +3,7 @@ import * as path from "path";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
+  formatCamelCaseToTitle,
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
@@ -344,9 +345,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleFeatures[
               Math.floor(Math.random() * motorcycleFeatures.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate random requirements
@@ -359,9 +360,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleRequirements[
               Math.floor(Math.random() * motorcycleRequirements.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Always include "Valid Motorcycle License" as a requirement
@@ -405,7 +406,7 @@ function generateMotorcycle(cityName, index) {
     rentalPricePerDay,
     currency, // Location-based currency
     available,
-    pickUpCity: cityName,
+    pickUpCity: `${formatCamelCaseToTitle(cityName)}`,
     pickUpCountry: country,
     pickUpLocation,
     // Only include drop-off properties if they're different from pick-up
@@ -448,7 +449,7 @@ async function extractExistingMotorcycles(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: Motorcycle\[\] = \[([\s\S]*?)\];/
+      /export const \w+: Motorcycle\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -504,7 +505,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "motorcycles"
+    "motorcycles",
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -524,7 +525,7 @@ async function generateCityFile(city) {
       motorcycles = await extractExistingMotorcycles(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -535,7 +536,7 @@ async function generateCityFile(city) {
   const newMotorcycles = Array(numNewMotorcycles)
     .fill(0)
     .map((_, index) =>
-      generateMotorcycle(city, motorcycles.length + index + 1)
+      generateMotorcycle(city, motorcycles.length + index + 1),
     );
 
   // Combine existing and new motorcycles
@@ -570,7 +571,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -582,7 +583,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -591,7 +592,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -608,7 +609,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("Motorcycle rental files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating motorcycle rental files:", error)
+    console.error("Error generating motorcycle rental files:", error),
   );
 
 // Print usage information

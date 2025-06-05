@@ -7,7 +7,11 @@ import {
   formatTitleToCamelCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
-import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  formatCamelCaseToTitle,
+} from "./utils/geo-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -179,9 +183,9 @@ function generateAttraction(cityName) {
       Array(numTags)
         .fill(0)
         .map(
-          () => possibleTags[Math.floor(Math.random() * possibleTags.length)]
-        )
-    )
+          () => possibleTags[Math.floor(Math.random() * possibleTags.length)],
+        ),
+    ),
   );
 
   // Generate accessibility features
@@ -194,14 +198,14 @@ function generateAttraction(cityName) {
           () =>
             accessibilityOptions[
               Math.floor(Math.random() * accessibilityOptions.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Set accessibility-dependent property
   const isWheelchairAccessible = accessibilityFeatures.some((f) =>
-    f.includes("wheelchair")
+    f.includes("wheelchair"),
   );
 
   // Generate random time of day
@@ -211,11 +215,11 @@ function generateAttraction(cityName) {
   // Generate attraction details
   const attractionType =
     attractionTypes[Math.floor(Math.random() * attractionTypes.length)];
-  const title = `${cityName} ${attractionType}`;
-  const description = `A beautiful ${attractionType.toLowerCase()} in ${cityName} offering visitors a unique cultural experience and stunning views.`;
+  const title = `${formatCamelCaseToTitle(cityName)} ${attractionType}`;
+  const description = `A beautiful ${attractionType.toLowerCase()} in ${formatCamelCaseToTitle(cityName)} offering visitors a unique cultural experience and stunning views.`;
   const location = `${
     Math.floor(Math.random() * 200) + 1
-  } Main Street, ${cityName}`;
+  } Main Street, ${formatCamelCaseToTitle(cityName)}`;
   const hours = ["9 AM - 5 PM", "10 AM - 6 PM", "Open 24 hours"][
     Math.floor(Math.random() * 3)
   ];
@@ -298,7 +302,7 @@ async function extractExistingAttractions(filePath) {
 
     // Extract the array part using a simple regex approach
     const match = content.match(
-      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/
+      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -362,7 +366,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "destinations",
-    "city"
+    "city",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -382,7 +386,7 @@ async function generateCityFile(city) {
       attractions = await extractExistingAttractions(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -423,7 +427,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -435,7 +439,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -444,7 +448,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -461,7 +465,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City attraction files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city attraction files:", error)
+    console.error("Error generating city attraction files:", error),
   );
 
 // Print usage information

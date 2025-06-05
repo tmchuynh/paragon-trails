@@ -663,7 +663,7 @@ async function generateCityTourFile(city) {
 
   // Create file content with proper formatting
   let content = `import { Tour } from "@/lib/interfaces/services/tours";\n\n`;
-  content += `export const ${variableName}: Tour[] = [\n`;
+  content += `export const ${variableName.replaceAll(".", "")}: Tour[] = [\n`;
 
   tours.forEach((tour, index) => {
     content += `  {\n`;

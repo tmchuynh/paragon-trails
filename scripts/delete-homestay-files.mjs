@@ -50,7 +50,7 @@ async function deleteFiles() {
       "lib",
       "constants",
       "destinations",
-      "homestay"
+      "homestay",
     );
 
     console.log(`Reading directory: ${homestayDir}`);
@@ -83,7 +83,7 @@ async function deleteFiles() {
     // Confirm deletion if not using --force
     if (!options.force) {
       const confirmed = await promptConfirmation(
-        `Are you sure you want to delete ${tsFiles.length} homestay files?`
+        `Are you sure you want to delete ${tsFiles.length} homestay files?`,
       );
 
       if (!confirmed) {

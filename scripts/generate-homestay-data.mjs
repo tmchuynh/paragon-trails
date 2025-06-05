@@ -8,6 +8,7 @@ import {
 } from "./utils/format-utils.mjs";
 import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
+import { getRandomName } from "./utils/name-utils.mjs";
 
 // To compile:
 // npx tsc -p scripts/tsconfig.json
@@ -59,92 +60,6 @@ function parseCommandLineArgs() {
 const options = parseCommandLineArgs();
 
 // Host data generation helpers
-const firstNames = [
-  "Liam",
-  "Olivia",
-  "Noah",
-  "Emma",
-  "Oliver",
-  "Ava",
-  "Elijah",
-  "Charlotte",
-  "William",
-  "Sophia",
-  "James",
-  "Amelia",
-  "Benjamin",
-  "Isabella",
-  "Lucas",
-  "Mia",
-  "Henry",
-  "Evelyn",
-  "Alexander",
-  "Harper",
-  "Sofia",
-  "Muhammad",
-  "Aisha",
-  "Wei",
-  "Yuki",
-  "Juan",
-  "Maria",
-  "Ahmed",
-  "Fatima",
-  "Carlos",
-  "Priya",
-  "Ibrahim",
-  "Elena",
-  "Hiroshi",
-  "Mei",
-  "Diego",
-  "Ana",
-  "Boris",
-  "Layla",
-  "Ravi",
-];
-
-const lastNames = [
-  "Smith",
-  "Johnson",
-  "Williams",
-  "Brown",
-  "Jones",
-  "Garcia",
-  "Miller",
-  "Davis",
-  "Rodriguez",
-  "Martinez",
-  "Hernandez",
-  "Lopez",
-  "Gonzalez",
-  "Wilson",
-  "Anderson",
-  "Thomas",
-  "Taylor",
-  "Moore",
-  "Jackson",
-  "Martin",
-  "Wang",
-  "Kim",
-  "Singh",
-  "Patel",
-  "Nakamura",
-  "Silva",
-  "Müller",
-  "Ivanov",
-  "Ali",
-  "Nguyen",
-  "Chen",
-  "Kowalski",
-  "Rossi",
-  "Khan",
-  "Suzuki",
-  "da Costa",
-  "Morales",
-  "Dubois",
-  "Jansen",
-  "Ibrahim",
-];
-
 const hostBackgrounds = [
   "Local chef specializing in traditional cuisines",
   "Former tour guide with extensive knowledge of local history",
@@ -320,9 +235,11 @@ if (!hostLanguages.includes("English")) {
 
 // Generate a host for a specific city
 function generateHost(city) {
-  const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
-  const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-  const name = `${firstName} ${lastName}`;
+  // Use the utility function instead of concatenating random first and last names
+  const name = getRandomName();
+
+  // Extract first and last name for email generation
+  const [firstName, lastName] = name.split(" ");
 
   const background =
     hostBackgrounds[Math.floor(Math.random() * hostBackgrounds.length)];

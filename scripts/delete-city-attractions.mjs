@@ -81,7 +81,7 @@ async function deleteAttractionFile(city) {
     "constants",
     "destinations",
     "city",
-    `${formattedName}.ts`
+    `${formattedName}.ts`,
   );
 
   // Check if file exists
@@ -108,7 +108,7 @@ async function deleteAttractionFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -118,14 +118,14 @@ async function deleteAttractionFiles() {
     }
 
     console.log(
-      `Found ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Found ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
   // Confirm deletion unless force flag is set
   if (!options.force) {
     console.log(
-      `This will delete attraction files for ${citiesToProcess.length} cities:`
+      `This will delete attraction files for ${citiesToProcess.length} cities:`,
     );
     console.log(citiesToProcess.join(", "));
 

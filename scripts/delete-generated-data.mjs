@@ -61,7 +61,7 @@ function parseCommandLineArgs() {
       } else {
         console.error(`Invalid type: ${typeArg}`);
         console.error(
-          `Valid types: ${Object.keys(entityTypePaths).join(", ")}, all`
+          `Valid types: ${Object.keys(entityTypePaths).join(", ")}, all`,
         );
         process.exit(1);
       }
@@ -71,7 +71,7 @@ function parseCommandLineArgs() {
   if (!options.type) {
     console.error("Error: --type option is required");
     console.error(
-      `Valid types: ${Object.keys(entityTypePaths).join(", ")}, all`
+      `Valid types: ${Object.keys(entityTypePaths).join(", ")}, all`,
     );
     process.exit(1);
   }
@@ -140,7 +140,7 @@ async function deleteEntityFile(city, entityType) {
     }
   } else {
     console.log(
-      `ℹ️ ${entityType} file for ${city} does not exist: ${filePath}`
+      `ℹ️ ${entityType} file for ${city} does not exist: ${filePath}`,
     );
     return false;
   }
@@ -156,7 +156,7 @@ async function deleteFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -166,14 +166,14 @@ async function deleteFiles() {
     }
 
     console.log(
-      `Found ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Found ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
   // Confirm deletion unless force flag is set
   if (!options.force) {
     console.log(
-      `This will delete ${entityTypes.join(", ")} files for ${citiesToProcess.length} cities:`
+      `This will delete ${entityTypes.join(", ")} files for ${citiesToProcess.length} cities:`,
     );
     console.log(citiesToProcess.join(", "));
 

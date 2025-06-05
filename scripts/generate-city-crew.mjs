@@ -8,6 +8,7 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import { getRandomName } from "./utils/name-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -125,38 +126,9 @@ const languages = [
 // Generate a random crew member
 function generateCrewMember(city, index) {
   const id = `crew-${city.toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
-  const names = [
-    "James Smith",
-    "Maria Garcia",
-    "Robert Johnson",
-    "Mohammed Ali",
-    "Sofia Rodriguez",
-    "Wei Chen",
-    "Aisha Khan",
-    "John Williams",
-    "Elena Petrov",
-    "Luis Gonzalez",
-    "Emma Brown",
-    "Hiroshi Tanaka",
-    "Fatima Hassan",
-    "Carlos Lopez",
-    "Olga Ivanova",
-    "David Kim",
-    "Priya Patel",
-    "Ahmed Hassan",
-    "Yuki Nakamura",
-    "Isabella Rossi",
-    "Daniel Müller",
-    "Ji-Young Kim",
-    "Antoine Dubois",
-    "Mei Lin",
-    "Sven Johansson",
-    "Pedro Santos",
-    "Rahul Sharma",
-    "Nadia Hussain",
-  ];
 
-  const name = names[Math.floor(Math.random() * names.length)];
+  const name = getRandomName();
+
   const role = crewRoles[Math.floor(Math.random() * crewRoles.length)];
   const experienceYears = Math.floor(Math.random() * 20) + 2; // 2-22 years of experience
 
@@ -332,7 +304,7 @@ async function generateCityFile(city) {
 
   // Create file content with proper formatting
   let content = `import { CrewMember } from "@/lib/interfaces/people/staff";\n\n`;
-  content += `export const ${variableName}: CrewMember[] = [\n`;
+  content += `export const ${variableName.replaceAll(".", "")}: CrewMember[] = [\n`;
 
   crewMembers.forEach((crewMember, index) => {
     content += `  {\n`;

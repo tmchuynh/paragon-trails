@@ -8,6 +8,8 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import { getRandomLanguages } from "./utils/language-utils.mjs";
+import { getRandomName } from "./utils/name-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -68,165 +70,6 @@ function parseCommandLineArgs() {
 const options = parseCommandLineArgs();
 
 // Driver data components
-const firstNames = [
-  "James",
-  "John",
-  "Robert",
-  "Michael",
-  "William",
-  "David",
-  "Richard",
-  "Joseph",
-  "Thomas",
-  "Mary",
-  "Patricia",
-  "Jennifer",
-  "Linda",
-  "Elizabeth",
-  "Barbara",
-  "Susan",
-  "Jessica",
-  "Sarah",
-  "Emma",
-  "Olivia",
-  "Sophia",
-  "Isabella",
-  "Ava",
-  "Mia",
-  "Emily",
-  "Charlotte",
-  "Amelia",
-  "Daniel",
-  "Matthew",
-  "Anthony",
-  "Mark",
-  "Donald",
-  "Steven",
-  "Paul",
-  "Andrew",
-  "Joshua",
-  "Sofia",
-  "Victoria",
-  "Camila",
-  "Valentina",
-  "Isabella",
-  "Valeria",
-  "Mariana",
-  "Lucia",
-  "Daniela",
-  "Hiroshi",
-  "Takashi",
-  "Kenji",
-  "Yuki",
-  "Haruki",
-  "Satoshi",
-  "Akira",
-  "Yusuke",
-  "Kazuki",
-  "Mei",
-  "Yui",
-  "Hana",
-  "Aoi",
-  "Rin",
-  "Sakura",
-  "Miku",
-  "Koharu",
-  "Yuna",
-  "Wei",
-  "Jie",
-  "Li",
-  "Xin",
-  "Hao",
-  "Ming",
-  "Tao",
-  "Jun",
-  "Lei",
-  "Yan",
-  "Hui",
-  "Na",
-  "Xia",
-  "Ying",
-  "Fang",
-  "Hong",
-  "Yu",
-  "Lin",
-];
-
-const lastNames = [
-  "Smith",
-  "Johnson",
-  "Williams",
-  "Jones",
-  "Brown",
-  "Davis",
-  "Miller",
-  "Wilson",
-  "Moore",
-  "Taylor",
-  "Anderson",
-  "Thomas",
-  "Jackson",
-  "White",
-  "Harris",
-  "Martin",
-  "Thompson",
-  "Garcia",
-  "Rodriguez",
-  "Martinez",
-  "Hernandez",
-  "Lopez",
-  "Gonzalez",
-  "Perez",
-  "Sanchez",
-  "Ramirez",
-  "Torres",
-  "Nguyen",
-  "Tran",
-  "Le",
-  "Pham",
-  "Hoang",
-  "Huynh",
-  "Vo",
-  "Dang",
-  "Bui",
-  "Kim",
-  "Lee",
-  "Park",
-  "Choi",
-  "Jung",
-  "Kang",
-  "Cho",
-  "Shin",
-  "Han",
-  "Tanaka",
-  "Suzuki",
-  "Sato",
-  "Watanabe",
-  "Takahashi",
-  "Kobayashi",
-  "Nakamura",
-  "Yamamoto",
-  "Ito",
-  "Wang",
-  "Li",
-  "Zhang",
-  "Liu",
-  "Chen",
-  "Yang",
-  "Huang",
-  "Zhao",
-  "Wu",
-  "Singh",
-  "Kumar",
-  "Das",
-  "Sharma",
-  "Verma",
-  "Patel",
-  "Sharma",
-  "Khan",
-  "Ahmed",
-];
-
 const languageCodes = [
   "en",
   "es",
@@ -361,24 +204,58 @@ function getRandomAvailability() {
 
 // Generate a driver with all required properties
 function generateDriver(cityName, index) {
-  const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
-  const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-  const name = `${firstName} ${lastName}`;
+  // Use the utility function instead of concatenating random first and last names
+  const name = getRandomName();
+
+  // Extract first name for email generation
+  const firstName = name.split(" ")[0];
+  const lastName = name.split(" ")[1];
+  const region = cityToRegionMap[cityName] || "";
+
+  let regionForLanguages;
+
+  // Map maritime regions to language regions
+  switch (region) {
+    case "Mediterranean":
+    case "Northern Europe":
+    case "Western Europe":
+      regionForLanguages = "europe";
+      break;
+
+    case "Asia Pacific":
+      regionForLanguages = "asia";
+      break;
+
+    case "Caribbean":
+    case "East Coast USA":
+    case "West Coast USA":
+    case "East Coast Canada":
+    case "South America":
+      regionForLanguages = "americas";
+      break;
+
+    case "Middle East":
+      regionForLanguages = "middleEast";
+      break;
+
+    case "Africa":
+      regionForLanguages = "africa";
+      break;
+
+    default:
+      regionForLanguages = "global";
+      break;
+  }
 
   // Generate random number of experience years (1-20)
   const experienceYears = Math.floor(Math.random() * 20) + 1;
 
-  // Generate random number of languages (1-3)
-  const numLanguages = Math.floor(Math.random() * 3) + 1;
-  const languages = Array.from(
-    new Set(
-      Array(numLanguages)
-        .fill(0)
-        .map(
-          () => languageCodes[Math.floor(Math.random() * languageCodes.length)]
-        )
-    )
+  const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
+  const selectedLanguages = getRandomLanguages(
+    languageCount,
+    regionForLanguages
   );
+  const languages = selectedLanguages.map((lang) => lang.name);
 
   // Generate random number of specialties (1-4)
   const numSpecialties = Math.floor(Math.random() * 4) + 1;

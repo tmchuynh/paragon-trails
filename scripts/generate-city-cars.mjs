@@ -3,6 +3,7 @@ import * as path from "path";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
+  formatCamelCaseToTitle,
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
@@ -540,7 +541,7 @@ function generateLuxuryRentalCar(city, index) {
     rentalPricePerDay,
     currency, // Now using location-based currency
     available,
-    pickUpCity: city,
+    pickUpCity: `${formatCamelCaseToTitle(city)}`,
     pickUpCountry: country,
     pickUpLocation,
     imageUrl,
