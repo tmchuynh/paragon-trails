@@ -1,22 +1,34 @@
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
-import { cities } from "../src/lib/constants/info/city";
-import { City } from "../src/lib/interfaces/general";
-import { formatTitleToCamelCase, removeAccents } from "../src/lib/utils/format";
+import { getCityFiles } from "./utils/file-utils.mjs";
+import {
+  formatKebabToCamelCase,
+  formatTitleToCamelCase,
+  removeAccents,
+} from "./utils/format-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node generate-city-attractions.js --rewrite
+// node scripts/generate-city-attractions.mjs --rewrite
 
 // Append Flag: Use --append N or -a N to add N new attractions to existing files
-// node generate-city-attractions.js --append 5
+// node scripts/generate-city-attractions.mjs --append 5
 
 // Price Range Flag: Use --price P or -p P to generate attractions with a specific price range
-// node generate-city-attractions.js --price "$$$"
+// node scripts/generate-city-attractions.mjs --price "$$$"
 
 // Bonus City Filter: Added a --city flag to process only specific cities
-// node generate-city-attractions.js --city "Tokyo" --append 3 --price "$$$$"
+// node scripts/generate-city-attractions.mjs --city "Tokyo" --append 3 --price "$$$$"
+
+const cities = getCityFiles();
+
+// Add check for empty cities array
+if (!cities || cities.length === 0) {
+  console.error("No cities found. Check the city-data.json file.");
+  process.exit(1);
+}
 
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
@@ -26,15 +38,8 @@ const mkdir = promisify(fs.mkdir);
 const access = promisify(fs.access);
 
 // Parse command line arguments
-interface CommandOptions {
-  rewrite: boolean;
-  append: number | null;
-  price: "$" | "$$" | "$$$" | "$$$$" | "free" | null;
-  cityFilter: string | null;
-}
-
-function parseCommandLineArgs(): CommandOptions {
-  const options: CommandOptions = {
+function parseCommandLineArgs() {
+  const options = {
     rewrite: false,
     append: null,
     price: null,
@@ -59,7 +64,7 @@ function parseCommandLineArgs(): CommandOptions {
     if ((arg === "--price" || arg === "-p") && i + 1 < args.length) {
       const value = args[++i];
       if (["$", "$$", "$$$", "$$$$", "free"].includes(value)) {
-        options.price = value as any;
+        options.price = value;
       }
     }
 
@@ -91,16 +96,27 @@ const attractionTypes = [
   "Zoo",
 ];
 
+// Replace possibleTags array with values from AttractionTags
 const possibleTags = [
-  "historical",
-  "cultural",
-  "romantic",
-  "adventure",
-  "culinary",
-  "art-and-music",
-  "spiritual",
-  "local",
-  "wellness",
+  "Landmark",
+  "Historical Site",
+  "Museum",
+  "Gallery",
+  "Park",
+  "Garden",
+  "Market",
+  "Cultural Center",
+  "Religious Site",
+  "Monument",
+  "Scenic Spot",
+  "City View",
+  "Shopping",
+  "Luxury",
+  "Romantic",
+  "Family Friendly",
+  "Free Entry",
+  "Hidden Gem",
+  "Iconic",
 ];
 
 const accessibilityOptions = [
@@ -112,16 +128,16 @@ const accessibilityOptions = [
 ];
 
 // Generate an attraction with all required properties
-function generateAttraction(cityName: string): any {
+function generateAttraction(cityName) {
   // Generate random price range and set dependent properties
-  const priceRanges = ["$", "$$", "$$$", "$$$$", "free"] as const;
+  const priceRanges = ["$", "$$", "$$$", "$$$$", "free"];
 
   // Use specified price range if provided, otherwise random
   const priceRange =
     options.price ||
     priceRanges[Math.floor(Math.random() * priceRanges.length)];
 
-  let priceCategory: "free" | "budget" | "moderate" | "expensive" | "luxury";
+  let priceCategory;
   switch (priceRange) {
     case "free":
       priceCategory = "free";
@@ -141,8 +157,8 @@ function generateAttraction(cityName: string): any {
   }
 
   // Set entry fee and category
-  let entryFee: string;
-  let entryFeeCategory: "free" | "budget" | "moderate" | "expensive" | "luxury";
+  let entryFee;
+  let entryFeeCategory;
 
   if (priceRange === "free" || Math.random() < 0.3) {
     entryFee = "Free";
@@ -160,7 +176,7 @@ function generateAttraction(cityName: string): any {
     else entryFeeCategory = "luxury";
   }
 
-  // Generate tags
+  // Generate tags from valid AttractionTags values
   const numTags = Math.floor(Math.random() * 3) + 1;
   const tags = Array.from(
     new Set(
@@ -187,13 +203,8 @@ function generateAttraction(cityName: string): any {
     )
   );
 
-  // Set accessibility-dependent property
-  const isWheelchairAccessible = accessibilityFeatures.some((f) =>
-    f.includes("wheelchair")
-  );
-
   // Generate random time of day
-  const timesOfDay = ["all day", "daytime", "evening", "night"] as const;
+  const timesOfDay = ["all day", "daytime", "evening", "night"];
   const timeOfDay = timesOfDay[Math.floor(Math.random() * timesOfDay.length)];
 
   // Generate attraction details
@@ -207,21 +218,29 @@ function generateAttraction(cityName: string): any {
   const hours = ["9 AM - 5 PM", "10 AM - 6 PM", "Open 24 hours"][
     Math.floor(Math.random() * 3)
   ];
+  const rating = parseFloat((4.2 + Math.random() * 0.8).toFixed(1));
 
-  // Set isFree dependent on priceRange
-  const isFree = priceRange === "free";
+  // Create flags that match the Flags interface
+  const flags = {
+    isHistorical: Math.random() < 0.4,
+    isRomantic: Math.random() < 0.3,
+    isAdventure: Math.random() < 0.25,
+    isCulinary: Math.random() < 0.2,
+    isSpiritual: Math.random() < 0.15,
+    isNightlife: Math.random() < 0.2,
+    isLuxury: priceCategory === "luxury",
+    isArtOrMusic: Math.random() < 0.3,
+    isFree: priceRange === "free",
+    isPopular: Math.random() < 0.5,
+    isPetFriendly: Math.random() < 0.5,
+    isWheelchairAccessible: accessibilityFeatures.some((f) =>
+      f.includes("wheelchair")
+    ),
+  };
 
-  // Generate other flag properties
-  const isHistorical = Math.random() < 0.4;
-  const isRomantic = Math.random() < 0.3;
-  const isLuxury = priceCategory === "luxury";
-  const isOffTheBeatenPath = Math.random() < 0.2;
-  const isLocalExperience = Math.random() < 0.4;
-  const isPetFriendly = Math.random() < 0.5;
-  const isOutdoor = Math.random() < 0.5;
-  const isIndoor = !isOutdoor;
-
+  // Create the attraction object matching the interface structure
   return {
+    // BaseAttraction properties
     title,
     description,
     imageUrl: `https://plus.unsplash.com/${cityName
@@ -236,44 +255,21 @@ function generateAttraction(cityName: string): any {
     priceRange,
     priceCategory,
     timeOfDay,
-    rating: parseFloat((4.2 + Math.random() * 0.8).toFixed(1)),
+    rating,
     tags,
     accessibilityFeatures,
-    isPopular: true,
 
-    isFree,
-    isPetFriendly,
-    isWheelchairAccessible,
-    isHistorical,
-    isRomantic,
-    isOffTheBeatenPath,
-    isLocalExperience,
-    isLuxury,
-    isOutdoor,
-    isIndoor,
-  };
-}
+    // Flags properties
+    ...flags,
 
-// Format city name for variable and file naming
-function formatCityName(city: City): {
-  fileName: string;
-  variableName: string;
-} {
-  const cityName = formatTitleToCamelCase(removeAccents(city.city));
-  const region = city.region ? city.region.replace(/\s+/g, "") : "";
-  const state = city.state ? removeAccents(city.state).toLowerCase() : "";
-  const country = removeAccents(city.country).replace(/\s+/g, "");
-
-  const variableName = `${cityName}${region || state}${country}`;
-
-  return {
-    fileName: cityName,
-    variableName,
+    // Details properties (already included in BaseAttraction)
+    // title and description are already set above
+    // rating is already set above
   };
 }
 
 // Check if directory exists, create if needed
-async function ensureDirectoryExists(dirPath: string): Promise<void> {
+async function ensureDirectoryExists(dirPath) {
   try {
     await access(dirPath);
   } catch {
@@ -283,7 +279,7 @@ async function ensureDirectoryExists(dirPath: string): Promise<void> {
 }
 
 // Check if file exists
-async function fileExists(filePath: string): Promise<boolean> {
+async function fileExists(filePath) {
   try {
     await access(filePath, fs.constants.F_OK);
     return true;
@@ -293,60 +289,70 @@ async function fileExists(filePath: string): Promise<boolean> {
 }
 
 // Extract existing attractions from a file
-async function extractExistingAttractions(filePath: string): Promise<any[]> {
+async function extractExistingAttractions(filePath) {
   try {
     // Read file content
-    const content = await readFile(filePath, 'utf-8');
-    
+    const content = await readFile(filePath, "utf-8");
+
     // Extract the array part using a simple regex approach
-    const match = content.match(/export const \w+: Attraction\[\] = \[([\s\S]*?)\];/);
+    const match = content.match(
+      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/
+    );
     if (!match || !match[1]) return [];
-    
+
     // Parse the array items
     const itemsText = match[1].trim();
     if (!itemsText) return [];
-    
+
     // Split by object boundaries and parse each attraction
     const items = [];
     let bracketCount = 0;
-    let currentItem = '';
-    
+    let currentItem = "";
+
     for (let i = 0; i < itemsText.length; i++) {
       const char = itemsText[i];
-      
-      if (char === '{') bracketCount++;
-      if (char === '}') bracketCount--;
-      
+
+      if (char === "{") bracketCount++;
+      if (char === "}") bracketCount--;
+
       currentItem += char;
-      
+
       if (bracketCount === 0 && currentItem.trim()) {
         // We've found a complete object
         try {
           // Convert the text to an actual object (this is a simplified approach)
-          const cleanedItem = currentItem.replace(/,\s*$/, ''); // Remove trailing comma
-          
+          const cleanedItem = currentItem.replace(/,\s*$/, ""); // Remove trailing comma
+
           // Use Function constructor to evaluate the object expression safely
           // This is a simplified approach and may not handle all edge cases
           const obj = new Function(`return ${cleanedItem}`)();
           items.push(obj);
-          currentItem = '';
+          currentItem = "";
         } catch (e) {
-          console.warn('Failed to parse attraction:', e);
-          currentItem = '';
+          console.warn("Failed to parse attraction:", e);
+          currentItem = "";
         }
       }
     }
-    
+
     return items;
   } catch (e) {
-    console.error('Error extracting attractions:', e);
+    console.error("Error extracting attractions:", e);
     return [];
   }
 }
 
 // Generate attractions and write to file
-async function generateCityFile(city: City): Promise<void> {
-  const { fileName, variableName } = formatCityName(city);
+async function generateCityFile(city) {
+  const countryName = cityCountryMap[city] || "";
+  const regionName = cityToRegionMap[city] || "";
+
+  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
+  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
+
+  const formattedName = formatKebabToCamelCase(removeAccents(city));
+
+  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Attractions`;
 
   const destDir = path.join(
     process.cwd(),
@@ -356,7 +362,7 @@ async function generateCityFile(city: City): Promise<void> {
     "destinations",
     "city"
   );
-  const filePath = path.join(destDir, `${fileName}.ts`);
+  const filePath = path.join(destDir, `${formattedName}.ts`);
 
   // Check if directory exists
   await ensureDirectoryExists(destDir);
@@ -365,7 +371,7 @@ async function generateCityFile(city: City): Promise<void> {
   const exists = await fileExists(filePath);
 
   // Handle existing file based on options
-  let attractions: any[] = [];
+  let attractions = [];
   if (exists) {
     if (options.rewrite) {
       console.log(`Rewriting existing file: ${filePath}`);
@@ -385,7 +391,7 @@ async function generateCityFile(city: City): Promise<void> {
     options.append || Math.floor(Math.random() * 10) + 9;
   const newAttractions = Array(numNewAttractions)
     .fill(0)
-    .map(() => generateAttraction(city.city));
+    .map(() => generateAttraction(city));
 
   // Combine existing and new attractions
   attractions = attractions.concat(newAttractions);
@@ -420,14 +426,14 @@ async function generateCityFile(city: City): Promise<void> {
 }
 
 // Main function to process all cities
-async function generateAllCityFiles(): Promise<void> {
+async function generateAllCityFiles() {
   let citiesToProcess = cities;
 
   // Filter by city name if specified
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -444,7 +450,7 @@ async function generateAllCityFiles(): Promise<void> {
     try {
       await generateCityFile(city);
     } catch (error) {
-      console.error(`Error generating file for ${city.city}:`, error);
+      console.error(`Error generating file for ${city}:`, error);
     }
   }
 }
@@ -458,7 +464,7 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-city-attractions.js [options]
+Usage: node generate-city-attractions.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -467,8 +473,8 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-city-attractions.js --rewrite
-  node generate-city-attractions.js --append 5
-  node generate-city-attractions.js --price "$$$"
-  node generate-city-attractions.js --city "Tokyo" --append 3
+  node generate-city-attractions.mjs --rewrite
+  node generate-city-attractions.mjs --append 5
+  node generate-city-attractions.mjs --price "$$$"
+  node generate-city-attractions.mjs --city "Tokyo" --append 3
 `);
