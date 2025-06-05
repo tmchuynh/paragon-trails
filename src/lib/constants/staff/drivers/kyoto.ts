@@ -3,225 +3,250 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const kyotojapanasiaPacificDrivers: Driver[] = [
   {
     id: "driver-kyoto-1",
-    name: "Barbara Hudson",
-    licenseNumber: "R0W197",
-    licenseExpiry: "2027-07-24",
-    experienceYears: 6,
-    languagesSpoken: ["Japanese", "Bengali", "Malay"],
+    name: "Juan Mitchell",
+    licenseNumber: "B2Q978",
+    licenseExpiry: "2027-11-26",
+    experienceYears: 14,
+    languagesSpoken: ["Tagalog", "Korean", "Japanese"],
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00",
-          },
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "05:00",
-            to: "09:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          },
+            from: "01:00",
+            to: "06:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          },
+            from: "11:00",
+            to: "15:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "09:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00"
+          },
+          {
+            from: "15:00",
+            to: "18:00"
+          }
+        ],
+      }
     ],
-    ratings: 3.5,
-    phone: "+725 411-879-9432",
-    email: "barbara.hudson@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/kyoto/barbara-hudson.jpg",
-    specialties: [
-      "Corporate Chauffeur",
-      "Long-Distance Driving",
-      "Security Detail",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "SUV"],
+    ratings: 4.3,
+    phone: "+12 139-584-3459",
+    email: "juan.mitchell@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/70.jpg",
+    specialties: ["Event Transportation", "Long-Distance Driving", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["SUV", "Motorcoach"],
   },
   {
     id: "driver-kyoto-2",
-    name: "Jason Porter",
-    licenseNumber: "X0E661",
-    licenseExpiry: "2029-10-21",
-    experienceYears: 4,
-    languagesSpoken: ["Hindi", "Tagalog", "Urdu"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.6,
-    phone: "+25 159-694-6867",
-    email: "jason.porter@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/kyoto/jason-porter.jpg",
-    specialties: [
-      "VIP Transport",
-      "Corporate Chauffeur",
-      "Long-Distance Driving",
-    ],
-    vehicleTypesCertified: ["Motorcoach", "SUV"],
-  },
-  {
-    id: "driver-kyoto-3",
-    name: "Aisha Dubois",
-    licenseNumber: "N6A749",
-    licenseExpiry: "2028-02-05",
-    experienceYears: 9,
-    languagesSpoken: ["Tagalog", "Urdu", "Malay", "Japanese"],
+    name: "Alexander da Costa",
+    licenseNumber: "Y4A531",
+    licenseExpiry: "2028-12-08",
+    experienceYears: 18,
+    languagesSpoken: ["Urdu", "Bengali", "Japanese", "Vietnamese"],
     available: [
       {
         day: "Friday",
         availableHours: [
           {
             from: "16:00",
-            to: "19:00",
+            to: "20:00"
           },
           {
-            from: "20:00",
-            to: "24:00",
-          },
+            from: "13:00",
+            to: "16:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00",
+            from: "07:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00"
           },
+          {
+            from: "09:00",
+            to: "13:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.9,
+    phone: "+306 377-124-4144",
+    email: "alexander.da@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/54.jpg",
+    specialties: ["Event Transportation", "Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-kyoto-3",
+    name: "Brian Crawford",
+    licenseNumber: "K0I277",
+    licenseExpiry: "2028-08-22",
+    experienceYears: 12,
+    languagesSpoken: ["Korean", "Malay", "Bengali", "Indonesian"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00"
+          },
+          {
+            from: "08:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "20:00"
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00",
+            from: "19:00",
+            to: "22:00"
           },
           {
-            from: "10:00",
-            to: "12:00",
-          },
+            from: "02:00",
+            to: "06:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.2,
-    phone: "+76 323-837-3100",
-    email: "aisha.dubois@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/kyoto/aisha-dubois.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Luxury SUV"],
+    ratings: 4,
+    phone: "+300 410-605-5516",
+    email: "brian.crawford@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/66.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Luxury SUV", "Van", "Electric Vehicle"],
   },
   {
     id: "driver-kyoto-4",
-    name: "Pamela Dean",
-    licenseNumber: "K8K339",
-    licenseExpiry: "2026-10-11",
-    experienceYears: 15,
-    languagesSpoken: ["Bengali", "Vietnamese", "Chinese", "Tagalog"],
+    name: "Jerry Moore",
+    licenseNumber: "G4X487",
+    licenseExpiry: "2029-04-25",
+    experienceYears: 11,
+    languagesSpoken: ["Bengali", "Korean", "Indonesian", "Japanese"],
     available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00"
+          },
+          {
+            from: "00:00",
+            to: "05:00"
+          }
+        ],
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
+            from: "12:00",
+            to: "15:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "01:00",
-            to: "05:00",
+            from: "02:00",
+            to: "06:00"
           },
+          {
+            from: "19:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+188 393-468-7421",
+    email: "jerry.moore@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/75.jpg",
+    specialties: ["Event Transportation", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Limousine", "Sedan"],
+  },
+  {
+    id: "driver-kyoto-5",
+    name: "Zoe Morales",
+    licenseNumber: "Z8G935",
+    licenseExpiry: "2029-07-05",
+    experienceYears: 17,
+    languagesSpoken: ["Japanese", "Tagalog", "Vietnamese"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00"
+          }
         ],
       },
       {
@@ -229,150 +254,261 @@ export const kyotojapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00",
-          },
-          {
-            from: "03:00",
-            to: "06:00",
-          },
+            to: "02:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+43 839-124-1721",
-    email: "pamela.dean@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/kyoto/pamela-dean.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-kyoto-5",
-    name: "Ariana Baker",
-    licenseNumber: "A0G656",
-    licenseExpiry: "2028-10-25",
-    experienceYears: 17,
-    languagesSpoken: ["Vietnamese", "Hindi", "Thai", "Indonesian"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
+            from: "05:00",
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "01:00",
-            to: "03:00",
-          },
+            from: "07:00",
+            to: "09:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "21:00",
-            to: "23:00",
+            from: "19:00",
+            to: "22:00"
           },
+          {
+            from: "15:00",
+            to: "20:00"
+          }
         ],
-      },
+      }
+    ],
+    ratings: 4.3,
+    phone: "+473 832-380-1046",
+    email: "zoe.morales@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/79.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach", "Limousine", "Sedan", "Luxury SUV"],
+  },
+  {
+    id: "driver-kyoto-6",
+    name: "Linda Palmer",
+    licenseNumber: "F9Q320",
+    licenseExpiry: "2027-09-14",
+    experienceYears: 5,
+    languagesSpoken: ["Chinese", "Indonesian", "Vietnamese"],
+    available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
+            from: "16:00",
+            to: "21:00"
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          },
+          {
+            from: "02:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          },
+          {
+            from: "12:00",
+            to: "17:00"
+          }
+        ],
+      }
     ],
     ratings: 4.8,
-    phone: "+582 137-424-3837",
-    email: "ariana.baker@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/kyoto/ariana-baker.jpg",
-    specialties: ["Luxury Car Specialist", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Motorcoach", "Sedan", "Sports Car", "Luxury SUV"],
+    phone: "+123 265-928-3114",
+    email: "linda.palmer@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/58.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Sports Car"],
   },
   {
-    id: "driver-kyoto-6",
-    name: "Aisha Gonzalez",
-    licenseNumber: "J5X813",
-    licenseExpiry: "2026-09-20",
-    experienceYears: 9,
-    languagesSpoken: ["Tagalog", "Malay", "Vietnamese"],
+    id: "driver-kyoto-7",
+    name: "Terry Curtis",
+    licenseNumber: "B9Z451",
+    licenseExpiry: "2029-01-27",
+    experienceYears: 19,
+    languagesSpoken: ["Tagalog", "Hindi", "Indonesian", "Bengali"],
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
             from: "03:00",
-            to: "07:00",
-          },
+            to: "05:00"
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Saturday",
         availableHours: [
           {
             from: "02:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
+            to: "06:00"
           },
           {
-            from: "08:00",
-            to: "12:00",
-          },
+            from: "10:00",
+            to: "15:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "02:00",
-            to: "05:00",
+            from: "13:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "06:00"
+          },
+          {
+            from: "06:00",
+            to: "09:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.4,
+    phone: "+251 438-264-7680",
+    email: "terry.curtis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/25.jpg",
+    specialties: ["Night Shift", "VIP Transport"],
+    vehicleTypesCertified: ["Limousine", "Convertible", "Sports Car", "Sedan"],
+  },
+  {
+    id: "driver-kyoto-8",
+    name: "Alan Maxwell",
+    licenseNumber: "V9D763",
+    licenseExpiry: "2029-02-19",
+    experienceYears: 8,
+    languagesSpoken: ["Korean", "Chinese", "Indonesian"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00"
+          },
+          {
+            from: "01:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00"
           },
           {
             from: "21:00",
-            to: "24:00",
-          },
+            to: "23:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.9,
-    phone: "+284 641-289-8754",
-    email: "aisha.gonzalez@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/kyoto/aisha-gonzalez.jpg",
-    specialties: ["Tour Guide Driver", "Security Detail"],
-    vehicleTypesCertified: ["Luxury SUV", "Sedan", "Sports Car", "Limousine"],
+    ratings: 4.8,
+    phone: "+851 324-719-5094",
+    email: "alan.maxwell@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/33.jpg",
+    specialties: ["Luxury Car Specialist", "Event Transportation", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Limousine", "Van", "Sedan"],
   },
+  {
+    id: "driver-kyoto-9",
+    name: "Kevin Garcia",
+    licenseNumber: "N5X924",
+    licenseExpiry: "2026-05-04",
+    experienceYears: 3,
+    languagesSpoken: ["Urdu", "Indonesian", "Vietnamese"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+416 382-903-2003",
+    email: "kevin.garcia@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/65.jpg",
+    specialties: ["Long-Distance Driving", "Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
+  }
 ];

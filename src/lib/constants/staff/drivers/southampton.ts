@@ -3,382 +3,353 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const southamptonunitedKingdomnorthernEuropeDrivers: Driver[] = [
   {
     id: "driver-southampton-1",
-    name: "Katherine Khan",
-    licenseNumber: "D1W259",
-    licenseExpiry: "2030-08-11",
-    experienceYears: 7,
-    languagesSpoken: ["English", "Portuguese", "Swedish", "Spanish"],
+    name: "Carl Young",
+    licenseNumber: "L7F716",
+    licenseExpiry: "2026-11-09",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Norwegian", "Greek"],
     available: [
       {
-        day: "Tuesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "00:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "19:00",
-            to: "23:00",
-          },
+            from: "07:00",
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00",
+            from: "08:00",
+            to: "13:00"
           },
+          {
+            from: "17:00",
+            to: "19:00"
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00"
+          }
+        ],
+      }
     ],
-    ratings: 3.6,
-    phone: "+800 781-448-2888",
-    email: "katherine.khan@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/katherine-khan.jpg",
-    specialties: [
-      "Night Shift",
-      "Long-Distance Driving",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Convertible", "Sedan"],
+    ratings: 4,
+    phone: "+215 903-806-1770",
+    email: "carl.young@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/6.jpg",
+    specialties: ["VIP Transport", "Airport Transfers", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle"],
   },
   {
     id: "driver-southampton-2",
-    name: "Katherine Nash",
-    licenseNumber: "B2U646",
-    licenseExpiry: "2029-01-26",
-    experienceYears: 14,
-    languagesSpoken: ["English", "Swedish", "Russian"],
+    name: "Olivia Holloway",
+    licenseNumber: "C4N432",
+    licenseExpiry: "2029-12-02",
+    experienceYears: 5,
+    languagesSpoken: ["English", "German", "Czech"],
     available: [
       {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00",
-          },
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
         day: "Monday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-          {
-            from: "00:00",
-            to: "03:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+554 472-118-8147",
-    email: "katherine.nash@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/katherine-nash.jpg",
-    specialties: ["Corporate Chauffeur", "Night Shift"],
-    vehicleTypesCertified: ["Sedan", "Motorcoach", "Luxury SUV", "Limousine"],
-  },
-  {
-    id: "driver-southampton-3",
-    name: "Carl Hunter",
-    licenseNumber: "R6Q177",
-    licenseExpiry: "2030-05-05",
-    experienceYears: 7,
-    languagesSpoken: ["English", "Italian", "Polish", "Russian"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
         availableHours: [
           {
             from: "05:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
-    ],
-    ratings: 5,
-    phone: "+593 748-577-3120",
-    email: "carl.hunter@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/carl-hunter.jpg",
-    specialties: [
-      "Event Transportation",
-      "Luxury Car Specialist",
-      "Corporate Chauffeur",
-      "Night Shift",
-    ],
-    vehicleTypesCertified: [
-      "SUV",
-      "Van",
-      "Luxury SUV",
-      "Limousine",
-      "Convertible",
-    ],
-  },
-  {
-    id: "driver-southampton-4",
-    name: "George Foster",
-    licenseNumber: "Y0A344",
-    licenseExpiry: "2027-07-03",
-    experienceYears: 15,
-    languagesSpoken: ["English", "German", "Spanish"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
+            to: "08:00"
           },
           {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "07:00",
+            to: "12:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "17:00",
-            to: "22:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "14:00",
+            to: "19:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00"
+          },
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00"
+          },
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.7,
+    phone: "+105 998-402-8524",
+    email: "olivia.holloway@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/86.jpg",
+    specialties: ["Luxury Car Specialist", "Corporate Chauffeur", "Night Shift"],
+    vehicleTypesCertified: ["Van", "Convertible", "Limousine"],
+  },
+  {
+    id: "driver-southampton-3",
+    name: "Maria Palmer",
+    licenseNumber: "I3I917",
+    licenseExpiry: "2030-11-28",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Portuguese", "Spanish"],
+    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00",
+            from: "07:00",
+            to: "10:00"
           },
+          {
+            from: "15:00",
+            to: "20:00"
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          },
+          {
+            from: "00:00",
+            to: "02:00"
+          }
+        ],
+      }
     ],
-    ratings: 3.6,
-    phone: "+402 437-112-8020",
-    email: "george.foster@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/george-foster.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Van", "Sedan"],
+    ratings: 4,
+    phone: "+797 113-847-4377",
+    email: "maria.palmer@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/88.jpg",
+    specialties: ["Security Detail", "Night Shift", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Limousine", "Luxury SUV", "Van"],
   },
   {
-    id: "driver-southampton-5",
-    name: "Roger Ali",
-    licenseNumber: "X3K546",
-    licenseExpiry: "2028-03-26",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Swedish", "Russian", "Finnish"],
+    id: "driver-southampton-4",
+    name: "Peter Rodriguez",
+    licenseNumber: "H2R616",
+    licenseExpiry: "2027-07-16",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Greek", "Polish", "Russian"],
     available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00"
+          },
+          {
+            from: "04:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00"
+          }
+        ],
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "06:00",
-            to: "11:00",
-          },
-          {
-            from: "00:00",
-            to: "02:00",
-          },
+            from: "05:00",
+            to: "09:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+839 525-632-4740",
+    email: "peter.rodriguez@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/48.jpg",
+    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "VIP Transport", "Airport Transfers"],
+    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "Van", "Motorcoach"],
+  },
+  {
+    id: "driver-southampton-5",
+    name: "Bella Graham",
+    licenseNumber: "P5P513",
+    licenseExpiry: "2026-05-19",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Portuguese", "Polish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00"
+          },
+          {
+            from: "06:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          },
+          {
+            from: "05:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.1,
+    phone: "+645 909-362-2953",
+    email: "bella.graham@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/40.jpg",
+    specialties: ["Long-Distance Driving", "Luxury Car Specialist", "VIP Transport"],
+    vehicleTypesCertified: ["SUV"],
+  },
+  {
+    id: "driver-southampton-6",
+    name: "Keith Brooks",
+    licenseNumber: "G7P271",
+    licenseExpiry: "2030-03-28",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Russian", "Polish"],
+    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "04:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+74 837-126-2537",
-    email: "roger.ali@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/roger-ali.jpg",
-    specialties: ["Night Shift", "Airport Transfers"],
-    vehicleTypesCertified: ["Luxury SUV", "Convertible", "Sports Car"],
-  },
-  {
-    id: "driver-southampton-6",
-    name: "Frank Reed",
-    licenseNumber: "J0L314",
-    licenseExpiry: "2029-07-06",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Spanish", "German"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
             from: "02:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
+            to: "05:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
+            from: "11:00",
+            to: "14:00"
           },
           {
-            from: "06:00",
-            to: "11:00",
-          },
+            from: "09:00",
+            to: "12:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          },
+          {
+            from: "17:00",
+            to: "20:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.6,
-    phone: "+279 799-163-4786",
-    email: "frank.reed@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/southampton/frank-reed.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Sedan"],
-  },
+    ratings: 3.9,
+    phone: "+514 931-615-7212",
+    email: "keith.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/42.jpg",
+    specialties: ["Night Shift", "Security Detail", "VIP Transport"],
+    vehicleTypesCertified: ["Sedan", "Luxury SUV", "Electric Vehicle", "SUV"],
+  }
 ];

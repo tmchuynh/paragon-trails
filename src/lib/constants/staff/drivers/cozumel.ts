@@ -3,318 +3,289 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const cozumelmexicocaribbeanDrivers: Driver[] = [
   {
     id: "driver-cozumel-1",
-    name: "Riley Wallace",
-    licenseNumber: "K2X287",
-    licenseExpiry: "2026-11-09",
+    name: "Omar Curtis",
+    licenseNumber: "K4O380",
+    licenseExpiry: "2026-01-14",
     experienceYears: 10,
-    languagesSpoken: ["English", "French", "Quechua"],
+    languagesSpoken: ["English", "French", "Portuguese"],
     available: [
       {
-        day: "Saturday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "10:00",
-            to: "12:00",
-          },
+            to: "12:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "00:00",
-            to: "05:00",
-          },
-          {
             from: "04:00",
-            to: "08:00",
-          },
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00",
-          },
+            from: "16:00",
+            to: "20:00"
+          }
         ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "07:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 4.4,
-    phone: "+279 689-956-9143",
-    email: "riley.wallace@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/cozumel/riley-wallace.jpg",
-    specialties: ["Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle"],
+    ratings: 4.3,
+    phone: "+542 369-948-2513",
+    email: "omar.curtis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
+    specialties: ["Corporate Chauffeur", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Convertible", "Luxury SUV", "Van"],
   },
   {
     id: "driver-cozumel-2",
-    name: "Maya Ali",
-    licenseNumber: "F2Q308",
-    licenseExpiry: "2027-03-02",
-    experienceYears: 4,
-    languagesSpoken: ["English", "Haitian", "Aymara", "Quechua"],
+    name: "Janet Hamilton",
+    licenseNumber: "I0T753",
+    licenseExpiry: "2028-04-11",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Haitian", "Spanish"],
     available: [
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
             from: "05:00",
-            to: "07:00",
-          },
-          {
-            from: "18:00",
-            to: "21:00",
-          },
+            to: "07:00"
+          }
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00",
-          },
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.8,
-    phone: "+741 939-158-2812",
-    email: "maya.ali@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/cozumel/maya-ali.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving", "VIP Transport"],
-    vehicleTypesCertified: ["Limousine"],
-  },
-  {
-    id: "driver-cozumel-3",
-    name: "Anthony Hawkins",
-    licenseNumber: "F3A591",
-    licenseExpiry: "2027-08-16",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Haitian", "Guarani"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.6,
-    phone: "+385 365-810-2326",
-    email: "anthony.hawkins@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/cozumel/anthony-hawkins.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "Limousine", "Luxury SUV"],
-  },
-  {
-    id: "driver-cozumel-4",
-    name: "Steven Ellis",
-    licenseNumber: "Q4B693",
-    licenseExpiry: "2027-07-17",
-    experienceYears: 18,
-    languagesSpoken: ["English", "French", "Quechua"],
-    available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "16:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
+            from: "13:00",
+            to: "17:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "20:00",
-            to: "24:00",
+            from: "17:00",
+            to: "19:00"
           },
           {
             from: "17:00",
-            to: "22:00",
-          },
+            to: "20:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00",
+            from: "05:00",
+            to: "09:00"
           },
+          {
+            from: "01:00",
+            to: "06:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 3.9,
-    phone: "+14 870-427-1010",
-    email: "steven.ellis@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/cozumel/steven-ellis.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Sedan", "SUV"],
+    ratings: 3.8,
+    phone: "+82 785-105-6110",
+    email: "janet.hamilton@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/47.jpg",
+    specialties: ["Security Detail", "Airport Transfers", "Night Shift", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Van"],
   },
   {
-    id: "driver-cozumel-5",
-    name: "Ariana Gardner",
-    licenseNumber: "J2G415",
-    licenseExpiry: "2026-12-21",
-    experienceYears: 11,
-    languagesSpoken: ["English", "Quechua", "Guarani", "Aymara"],
+    id: "driver-cozumel-3",
+    name: "Mia Dubois",
+    licenseNumber: "L3T045",
+    licenseExpiry: "2026-12-13",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Portuguese", "Guarani"],
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "21:00"
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "01:00",
-            to: "06:00",
-          },
+            from: "08:00",
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "12:00",
+            from: "06:00",
+            to: "11:00"
           },
+          {
+            from: "20:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00"
+          },
+          {
+            from: "15:00",
+            to: "17:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+108 424-570-2267",
+    email: "mia.dubois@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
+    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "Sports Car", "SUV"],
+  },
+  {
+    id: "driver-cozumel-4",
+    name: "Maya Wang",
+    licenseNumber: "A3Z310",
+    licenseExpiry: "2029-06-17",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Quechua", "Portuguese"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "20:00"
+          },
+          {
+            from: "17:00",
+            to: "22:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "06:00",
-            to: "09:00",
+            from: "20:00",
+            to: "24:00"
           },
+          {
+            from: "10:00",
+            to: "14:00"
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00",
+            from: "11:00",
+            to: "14:00"
           },
           {
-            from: "03:00",
-            to: "07:00",
-          },
+            from: "11:00",
+            to: "16:00"
+          }
         ],
-      },
+      }
+    ],
+    ratings: 4.8,
+    phone: "+500 749-227-7405",
+    email: "maya.wang@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/5.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-cozumel-5",
+    name: "Thomas Dean",
+    licenseNumber: "R6N538",
+    licenseExpiry: "2029-11-21",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Spanish", "Guarani"],
+    available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "20:00",
-            to: "24:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
+            from: "01:00",
+            to: "05:00"
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          },
+          {
+            from: "19:00",
+            to: "21:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "15:00",
+            to: "18:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.4,
-    phone: "+185 387-738-9723",
-    email: "ariana.gardner@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/cozumel/ariana-gardner.jpg",
-    specialties: [
-      "Luxury Car Specialist",
-      "Corporate Chauffeur",
-      "Long-Distance Driving",
-    ],
-    vehicleTypesCertified: ["Luxury SUV", "SUV"],
-  },
+    ratings: 4.3,
+    phone: "+889 764-555-6579",
+    email: "thomas.dean@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
+    specialties: ["Security Detail", "Night Shift"],
+    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Limousine", "Sedan"],
+  }
 ];

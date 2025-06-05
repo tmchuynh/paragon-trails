@@ -3,472 +3,398 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const mykonosgreecemediterraneanDrivers: Driver[] = [
   {
     id: "driver-mykonos-1",
-    name: "Diego Collins",
-    licenseNumber: "X6O751",
-    licenseExpiry: "2028-05-25",
+    name: "Kimberly Wilson",
+    licenseNumber: "F1X280",
+    licenseExpiry: "2029-08-25",
     experienceYears: 9,
-    languagesSpoken: ["English", "Russian", "Danish"],
+    languagesSpoken: ["English", "French", "Greek"],
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.8,
-    phone: "+884 471-607-3785",
-    email: "diego.collins@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/diego-collins.jpg",
-    specialties: [
-      "VIP Transport",
-      "Long-Distance Driving",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Motorcoach", "Van", "Luxury SUV", "Limousine"],
-  },
-  {
-    id: "driver-mykonos-2",
-    name: "Samantha Anderson",
-    licenseNumber: "E0D514",
-    licenseExpiry: "2028-06-17",
-    experienceYears: 9,
-    languagesSpoken: ["English", "Russian", "German"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+60 471-960-7485",
-    email: "samantha.anderson@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/samantha-anderson.jpg",
-    specialties: ["Luxury Car Specialist"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sports Car"],
-  },
-  {
-    id: "driver-mykonos-3",
-    name: "Avery Wells",
-    licenseNumber: "T0Y037",
-    licenseExpiry: "2029-03-21",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Spanish", "Polish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00",
-          },
-          {
-            from: "06:00",
-            to: "10:00",
-          },
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "13:00",
+            to: "15:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "16:00",
-            to: "21:00",
-          },
+            from: "17:00",
+            to: "21:00"
+          }
         ],
       },
-    ],
-    ratings: 3.7,
-    phone: "+170 114-406-1943",
-    email: "avery.wells@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/avery-wells.jpg",
-    specialties: ["Event Transportation", "VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle"],
-  },
-  {
-    id: "driver-mykonos-4",
-    name: "Austin Bennett",
-    licenseNumber: "G5J155",
-    licenseExpiry: "2026-10-17",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Greek", "Polish"],
-    available: [
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
           {
             from: "07:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+713 593-292-7278",
-    email: "austin.bennett@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/austin-bennett.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Van", "Sports Car", "SUV", "Motorcoach"],
-  },
-  {
-    id: "driver-mykonos-5",
-    name: "Michael Martinez",
-    licenseNumber: "I5W286",
-    licenseExpiry: "2026-11-13",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Finnish", "Dutch", "Danish"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.8,
-    phone: "+570 588-550-9788",
-    email: "michael.martinez@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/michael-martinez.jpg",
-    specialties: ["Airport Transfers", "VIP Transport"],
-    vehicleTypesCertified: ["SUV", "Convertible", "Motorcoach", "Luxury SUV"],
-  },
-  {
-    id: "driver-mykonos-6",
-    name: "Christopher Day",
-    licenseNumber: "L3K691",
-    licenseExpiry: "2027-06-15",
-    experienceYears: 9,
-    languagesSpoken: ["English", "Italian", "Finnish", "German"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
+            to: "10:00"
           },
           {
             from: "17:00",
-            to: "19:00",
-          },
+            to: "20:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.8,
+    phone: "+242 489-515-9208",
+    email: "kimberly.wilson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/4.jpg",
+    specialties: ["Security Detail", "Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Sports Car", "Van"],
+  },
+  {
+    id: "driver-mykonos-2",
+    name: "Carol Rossi",
+    licenseNumber: "I7M165",
+    licenseExpiry: "2029-06-05",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Polish", "Swedish", "Czech"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "11:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
+            from: "00:00",
+            to: "05:00"
           },
           {
-            from: "07:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "06:00",
-          },
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+645 689-782-9456",
-    email: "christopher.day@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/christopher-day.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Convertible", "Sports Car", "SUV"],
-  },
-  {
-    id: "driver-mykonos-7",
-    name: "Jack Gonzalez",
-    licenseNumber: "V2Q925",
-    licenseExpiry: "2028-12-06",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Italian", "Spanish"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "04:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "16:00",
+            to: "18:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "14:00",
+            to: "18:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.2,
-    phone: "+362 633-826-3883",
-    email: "jack.gonzalez@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/jack-gonzalez.jpg",
-    specialties: ["Tour Guide Driver", "Event Transportation"],
-    vehicleTypesCertified: ["Convertible"],
+    ratings: 3.7,
+    phone: "+791 259-832-6060",
+    email: "carol.rossi@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/57.jpg",
+    specialties: ["Airport Transfers", "VIP Transport", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Van", "Convertible", "Limousine"],
   },
   {
-    id: "driver-mykonos-8",
-    name: "Isabella Dean",
-    licenseNumber: "M0Q514",
-    licenseExpiry: "2030-11-13",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Greek", "Norwegian"],
+    id: "driver-mykonos-3",
+    name: "Evelyn Reed",
+    licenseNumber: "G2D092",
+    licenseExpiry: "2028-11-16",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Swedish", "Danish"],
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "04:00",
-            to: "09:00",
+            from: "17:00",
+            to: "22:00"
           },
           {
-            from: "20:00",
-            to: "22:00",
-          },
+            from: "19:00",
+            to: "21:00"
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "00:00",
-            to: "02:00",
+            from: "04:00",
+            to: "07:00"
           },
+          {
+            from: "07:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "07:00"
+          },
+          {
+            from: "01:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+391 342-213-2354",
+    email: "evelyn.reed@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
+    specialties: ["Event Transportation", "Luxury Car Specialist", "Airport Transfers"],
+    vehicleTypesCertified: ["Sedan", "Sports Car"],
+  },
+  {
+    id: "driver-mykonos-4",
+    name: "Elijah Reeves",
+    licenseNumber: "H1U023",
+    licenseExpiry: "2027-04-10",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Norwegian", "Spanish", "Italian"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "19:00",
-            to: "21:00",
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "04:00"
           },
+          {
+            from: "20:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "20:00"
+          },
+          {
+            from: "13:00",
+            to: "16:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.1,
+    phone: "+792 209-822-3778",
+    email: "elijah.reeves@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/67.jpg",
+    specialties: ["Tour Guide Driver", "Security Detail", "Luxury Car Specialist", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV", "Luxury SUV", "Sedan"],
+  },
+  {
+    id: "driver-mykonos-5",
+    name: "Zola Nash",
+    licenseNumber: "D8A611",
+    licenseExpiry: "2026-11-18",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Portuguese", "French"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00"
+          },
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "04:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+168 537-457-5200",
+    email: "zola.nash@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/44.jpg",
+    specialties: ["VIP Transport", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Van", "Luxury SUV", "SUV"],
+  },
+  {
+    id: "driver-mykonos-6",
+    name: "Ibrahim Dubois",
+    licenseNumber: "Z4F209",
+    licenseExpiry: "2030-01-18",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Swedish", "Dutch"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "09:00"
+          },
+          {
+            from: "09:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "08:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.2,
+    phone: "+785 417-579-1253",
+    email: "ibrahim.dubois@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/6.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-mykonos-7",
+    name: "Isabella Dean",
+    licenseNumber: "Q6N339",
+    licenseExpiry: "2030-02-10",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Dutch", "Czech", "Italian"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "03:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "20:00",
-            to: "22:00",
+            from: "09:00",
+            to: "11:00"
           },
           {
-            from: "02:00",
-            to: "04:00",
-          },
+            from: "08:00",
+            to: "13:00"
+          }
         ],
       },
       {
@@ -476,21 +402,71 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00",
+            to: "10:00"
           },
+          {
+            from: "14:00",
+            to: "19:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+574 978-869-5639",
+    email: "isabella.dean@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/20.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["SUV", "Motorcoach", "Sedan", "Sports Car"],
+  },
+  {
+    id: "driver-mykonos-8",
+    name: "Mateo Miller",
+    licenseNumber: "R8Z063",
+    licenseExpiry: "2029-05-15",
+    experienceYears: 7,
+    languagesSpoken: ["English", "French", "German", "Norwegian"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "05:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00"
+          },
+          {
+            from: "15:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "12:00"
+          },
+          {
+            from: "15:00",
+            to: "17:00"
+          }
+        ],
+      }
     ],
-    ratings: 3.9,
-    phone: "+555 521-773-1707",
-    email: "isabella.dean@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/mykonos/isabella-dean.jpg",
-    specialties: [
-      "Night Shift",
-      "Event Transportation",
-      "Long-Distance Driving",
-    ],
-    vehicleTypesCertified: ["Van", "Electric Vehicle"],
-  },
+    ratings: 4.9,
+    phone: "+141 264-580-9256",
+    email: "mateo.miller@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/85.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift", "Event Transportation"],
+    vehicleTypesCertified: ["SUV", "Sedan", "Luxury SUV"],
+  }
 ];

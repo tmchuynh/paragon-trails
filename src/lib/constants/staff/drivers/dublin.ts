@@ -3,144 +3,281 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const dublinirelandnorthernEuropeDrivers: Driver[] = [
   {
     id: "driver-dublin-1",
-    name: "Mia Brooks",
-    licenseNumber: "S4Z502",
-    licenseExpiry: "2027-08-04",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Norwegian", "Polish", "Danish"],
+    name: "Marcus Lopez",
+    licenseNumber: "V0F617",
+    licenseExpiry: "2026-03-06",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Czech", "Finnish", "Danish"],
     available: [
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "04:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "16:00",
-            to: "21:00",
-          },
+            from: "05:00",
+            to: "08:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "02:00",
-            to: "05:00",
-          },
+            from: "11:00",
+            to: "15:00"
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "06:00"
+          },
+          {
+            from: "19:00",
+            to: "24:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.1,
-    phone: "+667 579-791-8014",
-    email: "mia.brooks@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dublin/mia-brooks.jpg",
-    specialties: ["Luxury Car Specialist", "Night Shift"],
-    vehicleTypesCertified: ["Luxury SUV"],
+    ratings: 3.9,
+    phone: "+858 996-743-8690",
+    email: "marcus.lopez@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/63.jpg",
+    specialties: ["Event Transportation", "Tour Guide Driver", "Security Detail", "VIP Transport"],
+    vehicleTypesCertified: ["Luxury SUV", "Sports Car"],
   },
   {
     id: "driver-dublin-2",
-    name: "Michelle Khan",
-    licenseNumber: "J4U373",
-    licenseExpiry: "2027-01-07",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Norwegian", "Russian"],
+    name: "Leah Murray",
+    licenseNumber: "S7O636",
+    licenseExpiry: "2027-06-16",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Portuguese", "Russian", "Dutch"],
     available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          },
+          {
+            from: "15:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "05:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
+          },
+          {
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "03:00",
-            to: "08:00",
+            from: "09:00",
+            to: "14:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.7,
+    phone: "+157 829-643-9215",
+    email: "leah.murray@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/64.jpg",
+    specialties: ["Night Shift", "Long-Distance Driving", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Sedan"],
+  },
+  {
+    id: "driver-dublin-3",
+    name: "Muhammad Khan",
+    licenseNumber: "Y6Z977",
+    licenseExpiry: "2029-08-11",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Greek", "Italian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00"
           },
           {
-            from: "01:00",
-            to: "06:00",
+            from: "15:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "21:00"
           },
+          {
+            from: "07:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "07:00"
+          },
+          {
+            from: "18:00",
+            to: "23:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "19:00",
-            to: "23:00",
-          },
+            from: "03:00",
+            to: "05:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+303 191-993-4797",
+    email: "muhammad.khan@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/30.jpg",
+    specialties: ["Event Transportation", "Night Shift", "Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
+  },
+  {
+    id: "driver-dublin-4",
+    name: "Alexa Hayes",
+    licenseNumber: "F9T596",
+    licenseExpiry: "2027-01-08",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Czech", "German", "Dutch"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "18:00",
-            to: "22:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+648 707-387-9149",
-    email: "michelle.khan@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/dublin/michelle-khan.jpg",
-    specialties: ["Long-Distance Driving", "Security Detail", "Night Shift"],
-    vehicleTypesCertified: ["Limousine", "Convertible", "Sedan", "Motorcoach"],
-  },
-  {
-    id: "driver-dublin-3",
-    name: "Mary Taylor",
-    licenseNumber: "X3S201",
-    licenseExpiry: "2028-05-15",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Danish", "Spanish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00",
-          },
+            from: "01:00",
+            to: "03:00"
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00",
+            from: "20:00",
+            to: "22:00"
           },
           {
-            from: "02:00",
-            to: "06:00",
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+829 155-286-7028",
+    email: "alexa.hayes@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
+    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Sedan", "Electric Vehicle"],
+  },
+  {
+    id: "driver-dublin-5",
+    name: "Elena Montgomery",
+    licenseNumber: "K3J432",
+    licenseExpiry: "2030-07-01",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Italian", "Spanish"],
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "19:00"
           },
+          {
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "00:00",
+            to: "03:00"
+          },
+          {
+            from: "09:00",
+            to: "13:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "03:00",
-            to: "05:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          },
+            from: "02:00",
+            to: "05:00"
+          }
         ],
       },
       {
@@ -148,121 +285,16 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00",
-          },
+            to: "20:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 3.7,
-    phone: "+894 191-661-4021",
-    email: "mary.taylor@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dublin/mary-taylor.jpg",
-    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "VIP Transport"],
-    vehicleTypesCertified: ["Motorcoach"],
-  },
-  {
-    id: "driver-dublin-4",
-    name: "Aisha Keller",
-    licenseNumber: "X0B386",
-    licenseExpiry: "2027-04-18",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Russian", "Norwegian"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-          {
-            from: "04:00",
-            to: "08:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.5,
-    phone: "+750 382-178-5309",
-    email: "aisha.keller@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/dublin/aisha-keller.jpg",
-    specialties: ["Night Shift", "Airport Transfers"],
-    vehicleTypesCertified: ["Limousine", "SUV"],
-  },
-  {
-    id: "driver-dublin-5",
-    name: "Brenda Mason",
-    licenseNumber: "T0G078",
-    licenseExpiry: "2027-07-02",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Spanish", "Czech", "Italian"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+388 101-111-4783",
-    email: "brenda.mason@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/dublin/brenda-mason.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Luxury SUV", "Limousine", "Convertible", "Van"],
-  },
+    ratings: 4.1,
+    phone: "+844 256-802-5113",
+    email: "elena.montgomery@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/86.jpg",
+    specialties: ["Luxury Car Specialist", "Event Transportation", "Airport Transfers"],
+    vehicleTypesCertified: ["Motorcoach", "SUV"],
+  }
 ];

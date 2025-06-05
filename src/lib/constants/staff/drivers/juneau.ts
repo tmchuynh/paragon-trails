@@ -3,119 +3,101 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const juneauunitedStatesalaskaDrivers: Driver[] = [
   {
     id: "driver-juneau-1",
-    name: "Henry Jones",
-    licenseNumber: "V3Y648",
-    licenseExpiry: "2027-09-24",
-    experienceYears: 4,
-    languagesSpoken: ["English", "Arabic", "Japanese"],
+    name: "Aaron Edwards",
+    licenseNumber: "T0G509",
+    licenseExpiry: "2030-11-13",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Russian", "Arabic"],
     available: [
       {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "19:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "07:00",
-          },
+            to: "22:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00",
+            from: "19:00",
+            to: "23:00"
           },
           {
-            from: "00:00",
-            to: "02:00",
-          },
+            from: "08:00",
+            to: "12:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "05:00",
-            to: "10:00",
-          },
-          {
-            from: "02:00",
-            to: "07:00",
-          },
+            from: "09:00",
+            to: "12:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "08:00",
-            to: "10:00",
+            from: "12:00",
+            to: "14:00"
           },
+          {
+            from: "06:00",
+            to: "10:00"
+          }
         ],
       },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00"
+          },
+          {
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      }
     ],
-    ratings: 3.6,
-    phone: "+842 889-840-7488",
-    email: "henry.jones@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/juneau/henry-jones.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Limousine"],
+    ratings: 3.7,
+    phone: "+303 659-520-6912",
+    email: "aaron.edwards@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/75.jpg",
+    specialties: ["Airport Transfers", "Night Shift", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Luxury SUV"],
   },
   {
     id: "driver-juneau-2",
-    name: "Linda Lawson",
-    licenseNumber: "G6O380",
-    licenseExpiry: "2030-04-20",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Russian", "Chinese"],
+    name: "Ana Young",
+    licenseNumber: "F3P478",
+    licenseExpiry: "2028-02-14",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Japanese", "German"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00",
-          },
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "05:00",
-            to: "07:00",
-          },
-          {
-            from: "07:00",
-            to: "12:00",
-          },
+            from: "08:00",
+            to: "11:00"
+          }
         ],
       },
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00",
-          },
+            from: "14:00",
+            to: "16:00"
+          }
         ],
       },
       {
@@ -123,470 +105,376 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00",
+            to: "20:00"
           },
           {
-            from: "18:00",
-            to: "20:00",
-          },
+            from: "13:00",
+            to: "18:00"
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "20:00"
+          }
+        ],
+      }
     ],
     ratings: 5,
-    phone: "+522 372-891-4524",
-    email: "linda.lawson@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/linda-lawson.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Van", "Luxury SUV", "Motorcoach", "Convertible"],
+    phone: "+555 425-655-9602",
+    email: "ana.young@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/34.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Convertible"],
   },
   {
     id: "driver-juneau-3",
-    name: "Ali Young",
-    licenseNumber: "E1R028",
-    licenseExpiry: "2026-11-19",
-    experienceYears: 16,
-    languagesSpoken: ["English", "German", "Spanish"],
+    name: "Steven Williams",
+    licenseNumber: "E0C114",
+    licenseExpiry: "2030-08-25",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Chinese", "German"],
     available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "19:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "00:00",
-            to: "05:00",
-          },
+            from: "09:00",
+            to: "14:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "16:00",
-            to: "20:00",
+            from: "21:00",
+            to: "23:00"
           },
           {
-            from: "12:00",
-            to: "14:00",
-          },
+            from: "08:00",
+            to: "13:00"
+          }
         ],
       },
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "21:00",
-            to: "24:00",
+            from: "04:00",
+            to: "08:00"
           },
           {
-            from: "09:00",
-            to: "14:00",
-          },
+            from: "01:00",
+            to: "04:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.8,
-    phone: "+689 965-340-5415",
-    email: "ali.young@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/juneau/ali-young.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Convertible", "Luxury SUV"],
+    ratings: 4.6,
+    phone: "+223 109-541-3851",
+    email: "steven.williams@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/40.jpg",
+    specialties: ["Event Transportation"],
+    vehicleTypesCertified: ["Sports Car"],
   },
   {
     id: "driver-juneau-4",
-    name: "Samantha Lewis",
-    licenseNumber: "R0K077",
-    licenseExpiry: "2029-01-05",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Russian", "German"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "03:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-          {
-            from: "20:00",
-            to: "22:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.6,
-    phone: "+860 409-822-8433",
-    email: "samantha.lewis@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/samantha-lewis.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Motorcoach", "Convertible", "Sedan"],
-  },
-  {
-    id: "driver-juneau-5",
-    name: "Barbara Crawford",
-    licenseNumber: "W5M455",
-    licenseExpiry: "2028-05-21",
-    experienceYears: 20,
-    languagesSpoken: ["English", "French", "Japanese"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "05:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+323 724-292-3390",
-    email: "barbara.crawford@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/barbara-crawford.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Luxury SUV"],
-  },
-  {
-    id: "driver-juneau-6",
-    name: "Albert King",
-    licenseNumber: "N0X311",
-    licenseExpiry: "2026-10-24",
+    name: "Jerry Dubois",
+    licenseNumber: "O6C835",
+    licenseExpiry: "2029-03-06",
     experienceYears: 6,
-    languagesSpoken: ["English", "Arabic", "German"],
+    languagesSpoken: ["English", "Italian", "Japanese"],
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "16:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.9,
-    phone: "+608 660-559-4436",
-    email: "albert.king@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/juneau/albert-king.jpg",
-    specialties: [
-      "Luxury Car Specialist",
-      "Security Detail",
-      "Corporate Chauffeur",
-    ],
-    vehicleTypesCertified: ["Sports Car", "SUV", "Electric Vehicle"],
-  },
-  {
-    id: "driver-juneau-7",
-    name: "Sofia Martin",
-    licenseNumber: "U4I261",
-    licenseExpiry: "2027-09-09",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Russian", "French"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+571 514-775-2205",
-    email: "sofia.martin@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/sofia-martin.jpg",
-    specialties: [
-      "Luxury Car Specialist",
-      "VIP Transport",
-      "Night Shift",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Van", "Sedan"],
-  },
-  {
-    id: "driver-juneau-8",
-    name: "Nathan Harper",
-    licenseNumber: "J9D835",
-    licenseExpiry: "2029-11-23",
-    experienceYears: 13,
-    languagesSpoken: ["English", "French", "Arabic", "Spanish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
       {
         day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "03:00",
-            to: "07:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+444 932-442-9932",
-    email: "nathan.harper@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/nathan-harper.jpg",
-    specialties: ["Security Detail", "Airport Transfers", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Convertible", "Sports Car"],
-  },
-  {
-    id: "driver-juneau-9",
-    name: "Ellie Campbell",
-    licenseNumber: "B6S791",
-    licenseExpiry: "2028-07-05",
-    experienceYears: 1,
-    languagesSpoken: ["English", "Japanese", "Russian"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
         availableHours: [
           {
             from: "06:00",
-            to: "11:00",
-          },
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00",
-          },
-          {
-            from: "01:00",
-            to: "04:00",
-          },
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00",
+            from: "13:00",
+            to: "17:00"
           },
+          {
+            from: "17:00",
+            to: "22:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "05:00"
+          },
+          {
+            from: "09:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00"
+          },
+          {
+            from: "17:00",
+            to: "22:00"
+          }
+        ],
+      }
     ],
-    ratings: 5,
-    phone: "+709 628-176-5389",
-    email: "ellie.campbell@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/juneau/ellie-campbell.jpg",
-    specialties: [
-      "Security Detail",
-      "Tour Guide Driver",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Sedan", "SUV"],
+    ratings: 4.7,
+    phone: "+518 129-859-3214",
+    email: "jerry.dubois@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/27.jpg",
+    specialties: ["Corporate Chauffeur", "Event Transportation", "Night Shift", "Airport Transfers"],
+    vehicleTypesCertified: ["Convertible"],
   },
+  {
+    id: "driver-juneau-5",
+    name: "Kennedy Russell",
+    licenseNumber: "U0S516",
+    licenseExpiry: "2029-03-28",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Portuguese", "Italian"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00"
+          },
+          {
+            from: "18:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.3,
+    phone: "+459 546-843-5407",
+    email: "kennedy.russell@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/17.jpg",
+    specialties: ["Airport Transfers", "Security Detail"],
+    vehicleTypesCertified: ["Limousine", "Motorcoach", "Van"],
+  },
+  {
+    id: "driver-juneau-6",
+    name: "Layla Lewis",
+    licenseNumber: "C8B752",
+    licenseExpiry: "2028-07-08",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Arabic", "German", "French"],
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "21:00"
+          },
+          {
+            from: "11:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00"
+          },
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.5,
+    phone: "+737 562-455-6291",
+    email: "layla.lewis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/38.jpg",
+    specialties: ["Tour Guide Driver", "Security Detail", "Night Shift"],
+    vehicleTypesCertified: ["Sedan", "Sports Car", "Van"],
+  },
+  {
+    id: "driver-juneau-7",
+    name: "Lily Fisher",
+    licenseNumber: "H5U915",
+    licenseExpiry: "2028-06-03",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Chinese", "German"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "21:00"
+          },
+          {
+            from: "10:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          },
+          {
+            from: "04:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.7,
+    phone: "+545 979-313-5568",
+    email: "lily.fisher@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/78.jpg",
+    specialties: ["Long-Distance Driving", "Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Electric Vehicle"],
+  },
+  {
+    id: "driver-juneau-8",
+    name: "Lisa Baker",
+    licenseNumber: "B7M946",
+    licenseExpiry: "2030-03-28",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Arabic", "Japanese"],
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "22:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00"
+          },
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.8,
+    phone: "+780 498-131-1011",
+    email: "lisa.baker@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/76.jpg",
+    specialties: ["Tour Guide Driver", "Security Detail", "Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan", "Limousine"],
+  }
 ];

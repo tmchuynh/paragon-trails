@@ -3,114 +3,23 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const yokohamajapanasiaPacificDrivers: Driver[] = [
   {
     id: "driver-yokohama-1",
-    name: "Carl Wang",
-    licenseNumber: "R1U627",
-    licenseExpiry: "2028-10-02",
-    experienceYears: 5,
-    languagesSpoken: ["Tagalog", "Korean", "Malay"],
+    name: "Mia Jansen",
+    licenseNumber: "X0V684",
+    licenseExpiry: "2026-09-11",
+    experienceYears: 17,
+    languagesSpoken: ["Urdu", "Vietnamese", "Hindi"],
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
             from: "01:00",
-            to: "06:00",
+            to: "06:00"
           },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00",
-          },
-          {
-            from: "19:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+789 928-116-4779",
-    email: "carl.wang@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/yokohama/carl-wang.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Convertible"],
-  },
-  {
-    id: "driver-yokohama-2",
-    name: "Lawrence Garcia",
-    licenseNumber: "D5E532",
-    licenseExpiry: "2029-09-13",
-    experienceYears: 20,
-    languagesSpoken: ["Hindi", "Tagalog", "Chinese", "Urdu"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
           {
             from: "03:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00",
-          },
-          {
-            from: "02:00",
-            to: "05:00",
-          },
+            to: "06:00"
+          }
         ],
       },
       {
@@ -118,412 +27,308 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00",
+            to: "10:00"
           },
           {
-            from: "15:00",
-            to: "19:00",
-          },
+            from: "21:00",
+            to: "23:00"
+          }
         ],
       },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.5,
-    phone: "+658 359-957-7626",
-    email: "lawrence.garcia@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/lawrence-garcia.jpg",
-    specialties: ["Tour Guide Driver", "Event Transportation"],
-    vehicleTypesCertified: ["Electric Vehicle"],
+    ratings: 4.8,
+    phone: "+876 524-536-9656",
+    email: "mia.jansen@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/33.jpg",
+    specialties: ["Tour Guide Driver", "Event Transportation", "VIP Transport"],
+    vehicleTypesCertified: ["Sedan"],
   },
   {
-    id: "driver-yokohama-3",
-    name: "Brian Wright",
-    licenseNumber: "P1W339",
-    licenseExpiry: "2028-06-19",
-    experienceYears: 16,
-    languagesSpoken: ["Hindi", "Tagalog", "Thai"],
+    id: "driver-yokohama-2",
+    name: "Jennifer da Costa",
+    licenseNumber: "T4F895",
+    licenseExpiry: "2026-05-02",
+    experienceYears: 5,
+    languagesSpoken: ["Vietnamese", "Bengali", "Malay", "Korean"],
     available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00"
+          },
+          {
+            from: "08:00",
+            to: "11:00"
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "02:00",
-            to: "04:00",
-          },
-          {
-            from: "03:00",
-            to: "07:00",
-          },
+            from: "12:00",
+            to: "16:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
+            from: "03:00",
+            to: "07:00"
           },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
           {
             from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+562 656-908-7008",
-    email: "brian.wright@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/brian-wright.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Convertible"],
-  },
-  {
-    id: "driver-yokohama-4",
-    name: "Amelia Coleman",
-    licenseNumber: "P3R709",
-    licenseExpiry: "2029-02-19",
-    experienceYears: 11,
-    languagesSpoken: ["Malay", "Indonesian", "Tagalog", "Bengali"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "07:00",
-          },
+            to: "22:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
+            from: "14:00",
+            to: "19:00"
           },
           {
             from: "11:00",
-            to: "16:00",
-          },
+            to: "15:00"
+          }
         ],
-      },
+      }
+    ],
+    ratings: 4.2,
+    phone: "+179 374-141-3499",
+    email: "jennifer.da@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/31.jpg",
+    specialties: ["Event Transportation", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-yokohama-3",
+    name: "Maria Russell",
+    licenseNumber: "Y7N567",
+    licenseExpiry: "2028-01-12",
+    experienceYears: 9,
+    languagesSpoken: ["Bengali", "Vietnamese", "Indonesian", "Japanese"],
+    available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "10:00",
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
           },
+          {
+            from: "03:00",
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
+            from: "10:00",
+            to: "14:00"
           },
+          {
+            from: "17:00",
+            to: "20:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.4,
-    phone: "+754 496-999-5005",
-    email: "amelia.coleman@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/amelia-coleman.jpg",
-    specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Limousine", "Luxury SUV"],
+    ratings: 4.8,
+    phone: "+868 531-910-3459",
+    email: "maria.russell@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/31.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Electric Vehicle", "Sedan", "Convertible"],
   },
   {
-    id: "driver-yokohama-5",
-    name: "Emma Hunter",
-    licenseNumber: "K7C922",
-    licenseExpiry: "2027-06-08",
-    experienceYears: 9,
-    languagesSpoken: ["Tagalog", "Vietnamese", "Bengali"],
+    id: "driver-yokohama-4",
+    name: "Ashley Davis",
+    licenseNumber: "R8P514",
+    licenseExpiry: "2027-12-08",
+    experienceYears: 2,
+    languagesSpoken: ["Korean", "Vietnamese", "Urdu", "Malay"],
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "03:00",
-            to: "06:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "08:00",
+            to: "11:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "18:00",
-            to: "22:00",
-          },
+            from: "02:00",
+            to: "06:00"
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00"
+          },
+          {
+            from: "00:00",
+            to: "02:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.4,
+    phone: "+866 340-376-3319",
+    email: "ashley.davis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/33.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Sports Car", "Van"],
+  },
+  {
+    id: "driver-yokohama-5",
+    name: "Stephen Carpenter",
+    licenseNumber: "A2K453",
+    licenseExpiry: "2029-07-28",
+    experienceYears: 18,
+    languagesSpoken: ["Malay", "Tagalog", "Hindi"],
+    available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "17:00",
-            to: "22:00",
-          },
+            from: "21:00",
+            to: "24:00"
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "17:00",
+            to: "19:00"
+          }
+        ],
+      }
     ],
-    ratings: 4,
-    phone: "+726 974-259-6738",
-    email: "emma.hunter@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/emma-hunter.jpg",
-    specialties: ["Luxury Car Specialist"],
+    ratings: 4.2,
+    phone: "+169 621-328-8178",
+    email: "stephen.carpenter@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/53.jpg",
+    specialties: ["Airport Transfers"],
     vehicleTypesCertified: ["Motorcoach"],
   },
   {
     id: "driver-yokohama-6",
-    name: "Hassan Williams",
-    licenseNumber: "T0T892",
-    licenseExpiry: "2028-01-04",
-    experienceYears: 6,
-    languagesSpoken: ["Thai", "Malay", "Urdu"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+113 911-795-9746",
-    email: "hassan.williams@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/hassan-williams.jpg",
-    specialties: [
-      "Night Shift",
-      "Long-Distance Driving",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["SUV", "Van", "Motorcoach"],
-  },
-  {
-    id: "driver-yokohama-7",
-    name: "James Lee",
-    licenseNumber: "P7M764",
-    licenseExpiry: "2026-09-23",
-    experienceYears: 8,
-    languagesSpoken: ["Tagalog", "Korean", "Vietnamese"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "18:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+593 983-484-9586",
-    email: "james.lee@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/yokohama/james-lee.jpg",
-    specialties: ["Airport Transfers", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Van", "SUV", "Sedan"],
-  },
-  {
-    id: "driver-yokohama-8",
-    name: "Logan Silva",
-    licenseNumber: "P3A199",
-    licenseExpiry: "2028-09-08",
-    experienceYears: 17,
-    languagesSpoken: ["Chinese", "Tagalog", "Thai", "Vietnamese"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.6,
-    phone: "+812 325-831-7698",
-    email: "logan.silva@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/logan-silva.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Motorcoach", "Convertible"],
-  },
-  {
-    id: "driver-yokohama-9",
-    name: "Joseph Marshall",
-    licenseNumber: "D0F259",
-    licenseExpiry: "2028-01-11",
+    name: "Wei Reed",
+    licenseNumber: "E4J948",
+    licenseExpiry: "2030-08-01",
     experienceYears: 14,
-    languagesSpoken: ["Urdu", "Indonesian", "Chinese"],
+    languagesSpoken: ["Korean", "Vietnamese", "Indonesian"],
     available: [
       {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "03:00",
-            to: "06:00",
+            to: "07:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00"
           },
           {
-            from: "09:00",
-            to: "11:00",
-          },
+            from: "10:00",
+            to: "14:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00",
+            to: "04:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "05:00",
-            to: "09:00",
-          },
+            from: "21:00",
+            to: "24:00"
+          }
         ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "06:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 3.9,
-    phone: "+152 309-364-8364",
-    email: "joseph.marshall@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/yokohama/joseph-marshall.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van"],
-  },
+    ratings: 4.8,
+    phone: "+97 314-527-8508",
+    email: "wei.reed@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/19.jpg",
+    specialties: ["Security Detail", "Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible"],
+  }
 ];

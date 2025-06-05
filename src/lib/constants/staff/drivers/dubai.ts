@@ -3,363 +3,389 @@ import { Driver } from "@/lib/interfaces/people/staff";
 export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
   {
     id: "driver-dubai-1",
-    name: "Maria Jones",
-    licenseNumber: "Q1F733",
-    licenseExpiry: "2027-11-07",
-    experienceYears: 14,
-    languagesSpoken: ["Turkish", "Kurdish", "Hebrew"],
+    name: "Sarah Wright",
+    licenseNumber: "Z0C960",
+    licenseExpiry: "2028-06-18",
+    experienceYears: 18,
+    languagesSpoken: ["Turkish", "Persian", "Hebrew"],
     available: [
       {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
         day: "Wednesday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00",
-          },
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00",
-          },
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
         availableHours: [
           {
             from: "00:00",
-            to: "04:00",
+            to: "05:00"
           },
+          {
+            from: "05:00",
+            to: "07:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00",
+            from: "13:00",
+            to: "15:00"
           },
           {
-            from: "02:00",
-            to: "06:00",
-          },
+            from: "15:00",
+            to: "17:00"
+          }
         ],
       },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00"
+          },
+          {
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.6,
-    phone: "+880 902-551-1588",
-    email: "maria.jones@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/maria-jones.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van", "Convertible"],
+    ratings: 4.3,
+    phone: "+743 830-331-5926",
+    email: "sarah.wright@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/67.jpg",
+    specialties: ["Airport Transfers", "Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Sedan", "Limousine", "Van", "Sports Car"],
   },
   {
     id: "driver-dubai-2",
-    name: "Paul Hayes",
-    licenseNumber: "G4B270",
-    licenseExpiry: "2028-03-28",
-    experienceYears: 18,
-    languagesSpoken: ["Persian", "Kurdish", "Turkish", "Arabic"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-          {
-            from: "03:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    ratings: 5,
-    phone: "+117 990-171-8078",
-    email: "paul.hayes@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/paul-hayes.jpg",
-    specialties: [
-      "Airport Transfers",
-      "Event Transportation",
-      "Security Detail",
-    ],
-    vehicleTypesCertified: ["Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-dubai-3",
-    name: "Noah Graves",
-    licenseNumber: "R5X944",
-    licenseExpiry: "2027-03-16",
-    experienceYears: 17,
-    languagesSpoken: ["Arabic", "Kurdish", "Hebrew", "Turkish"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "21:00",
-          },
-          {
-            from: "04:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "02:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+728 363-280-7158",
-    email: "noah.graves@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/noah-graves.jpg",
-    specialties: [
-      "Corporate Chauffeur",
-      "Airport Transfers",
-      "Tour Guide Driver",
-      "Security Detail",
-    ],
-    vehicleTypesCertified: ["Sports Car", "Sedan"],
-  },
-  {
-    id: "driver-dubai-4",
-    name: "Liam Gonzalez",
-    licenseNumber: "P9V261",
-    licenseExpiry: "2028-09-23",
-    experienceYears: 16,
-    languagesSpoken: ["Turkish", "Arabic", "Kurdish", "Persian"],
+    name: "Alan Edwards",
+    licenseNumber: "E8R770",
+    licenseExpiry: "2030-10-21",
+    experienceYears: 12,
+    languagesSpoken: ["Hebrew", "Turkish", "Arabic", "Persian"],
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00",
+            from: "14:00",
+            to: "17:00"
           },
+          {
+            from: "17:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
+            from: "21:00",
+            to: "24:00"
           },
           {
-            from: "14:00",
-            to: "18:00",
-          },
+            from: "07:00",
+            to: "09:00"
+          }
         ],
       },
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00",
+            from: "20:00",
+            to: "23:00"
           },
           {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "16:00",
+            to: "19:00"
+          }
         ],
-      },
+      }
     ],
     ratings: 4.4,
-    phone: "+762 481-877-7452",
-    email: "liam.gonzalez@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/dubai/liam-gonzalez.jpg",
-    specialties: ["Tour Guide Driver", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Van", "Luxury SUV"],
+    phone: "+324 374-851-4273",
+    email: "alan.edwards@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/46.jpg",
+    specialties: ["Security Detail", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["SUV"],
   },
   {
-    id: "driver-dubai-5",
-    name: "Ali Davis",
-    licenseNumber: "K0E600",
-    licenseExpiry: "2030-01-28",
-    experienceYears: 7,
-    languagesSpoken: ["Kurdish", "Arabic", "Persian"],
+    id: "driver-dubai-3",
+    name: "Austin Jones",
+    licenseNumber: "V3O069",
+    licenseExpiry: "2027-01-03",
+    experienceYears: 19,
+    languagesSpoken: ["Arabic", "Kurdish", "Turkish"],
     available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "19:00",
-            to: "23:00",
+            from: "14:00",
+            to: "18:00"
           },
           {
-            from: "10:00",
-            to: "13:00",
-          },
+            from: "17:00",
+            to: "22:00"
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.8,
+    phone: "+86 792-230-8906",
+    email: "austin.jones@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/85.jpg",
+    specialties: ["Long-Distance Driving", "Airport Transfers", "Night Shift"],
+    vehicleTypesCertified: ["Van", "Convertible"],
+  },
+  {
+    id: "driver-dubai-4",
+    name: "Brooklyn Henderson",
+    licenseNumber: "N4Q437",
+    licenseExpiry: "2030-10-09",
+    experienceYears: 10,
+    languagesSpoken: ["Persian", "Turkish", "Arabic"],
+    available: [
       {
         day: "Thursday",
         availableHours: [
           {
+            from: "08:00",
+            to: "11:00"
+          },
+          {
             from: "20:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-        ],
-      },
-    ],
-    ratings: 5,
-    phone: "+627 267-806-8529",
-    email: "ali.davis@paragontrailsdrivers.com",
-    photoUrl: "https://paragon-trails-driver-images.com/dubai/ali-davis.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Van"],
-  },
-  {
-    id: "driver-dubai-6",
-    name: "Amina Rodriguez",
-    licenseNumber: "M4R804",
-    licenseExpiry: "2027-09-14",
-    experienceYears: 20,
-    languagesSpoken: ["Arabic", "Hebrew", "Kurdish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00",
-          },
+            to: "24:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "16:00",
-            to: "18:00",
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "08:00"
           },
           {
             from: "12:00",
-            to: "16:00",
-          },
+            to: "16:00"
+          }
+        ],
+      }
+    ],
+    ratings: 5,
+    phone: "+114 842-356-2451",
+    email: "brooklyn.henderson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/77.jpg",
+    specialties: ["Security Detail", "VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan", "Electric Vehicle"],
+  },
+  {
+    id: "driver-dubai-5",
+    name: "Nancy Smith",
+    licenseNumber: "I5N063",
+    licenseExpiry: "2028-05-10",
+    experienceYears: 9,
+    languagesSpoken: ["Persian", "Kurdish", "Hebrew"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "20:00"
+          }
         ],
       },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "04:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00"
+          },
+          {
+            from: "02:00",
+            to: "04:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.8,
-    phone: "+577 687-503-6939",
-    email: "amina.rodriguez@paragontrailsdrivers.com",
-    photoUrl:
-      "https://paragon-trails-driver-images.com/dubai/amina-rodriguez.jpg",
-    specialties: [
-      "Luxury Car Specialist",
-      "VIP Transport",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Convertible", "Sedan", "Electric Vehicle"],
+    ratings: 4.6,
+    phone: "+880 713-181-5012",
+    email: "nancy.smith@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/70.jpg",
+    specialties: ["Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["SUV", "Luxury SUV", "Sedan", "Limousine"],
   },
+  {
+    id: "driver-dubai-6",
+    name: "Diego Nguyen",
+    licenseNumber: "M4S829",
+    licenseExpiry: "2028-08-16",
+    experienceYears: 8,
+    languagesSpoken: ["Hebrew", "Persian", "Kurdish"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "08:00"
+          },
+          {
+            from: "05:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "09:00"
+          },
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+83 173-824-1448",
+    email: "diego.nguyen@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/58.jpg",
+    specialties: ["VIP Transport", "Security Detail", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Luxury SUV"],
+  }
 ];
