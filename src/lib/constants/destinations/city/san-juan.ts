@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const sanJuanAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-monument.jpg",
     location: "15 Main Street, San-juan",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful temple in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-temple.jpg",
     location: "75 Main Street, San-juan",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-monument.jpg",
     location: "81 Main Street, San-juan",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
     location: "36 Main Street, San-juan",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
     location: "94 Main Street, San-juan",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
     location: "57 Main Street, San-juan",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful castle in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-castle.jpg",
     location: "29 Main Street, San-juan",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const sanJuanAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in San Juan",
-    description: "A beautiful square in San-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in San-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/san-juan-square.jpg",
     location: "96 Main Street, San-juan",
     openingHours: "10 AM - 6 PM",
@@ -216,5 +224,5 @@ export const sanJuanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const fortLauderdaleAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful market in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-market.jpg",
     location: "100 Main Street, Fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-castle.jpg",
     location: "45 Main Street, Fort-lauderdale",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-castle.jpg",
     location: "61 Main Street, Fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful tower in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-tower.jpg",
     location: "91 Main Street, Fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful cathedral in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-cathedral.jpg",
     location: "152 Main Street, Fort-lauderdale",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful bridge in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-bridge.jpg",
     location: "31 Main Street, Fort-lauderdale",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const fortLauderdaleAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Fort Lauderdale",
-    description: "A beautiful palace in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/fort-lauderdale-palace.jpg",
     location: "27 Main Street, Fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -189,5 +196,5 @@ export const fortLauderdaleAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

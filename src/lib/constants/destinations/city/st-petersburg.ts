@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const stPetersburgAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful park in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-park.jpg",
     location: "172 Main Street, St-petersburg",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful cathedral in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-cathedral.jpg",
     location: "32 Main Street, St-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful garden in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-garden.jpg",
     location: "194 Main Street, St-petersburg",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful square in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-square.jpg",
     location: "53 Main Street, St-petersburg",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful palace in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-palace.jpg",
     location: "74 Main Street, St-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful castle in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-castle.jpg",
     location: "103 Main Street, St-petersburg",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful temple in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-temple.jpg",
     location: "103 Main Street, St-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Petersburg",
-    description: "A beautiful museum in St-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in St-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-petersburg-museum.jpg",
     location: "146 Main Street, St-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -216,5 +224,5 @@ export const stPetersburgAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

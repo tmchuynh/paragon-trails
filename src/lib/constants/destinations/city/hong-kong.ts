@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const hongKongAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Hong Kong",
-    description: "A beautiful park in Hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in Hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/hong-kong-park.jpg",
     location: "184 Main Street, Hong-kong",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const hongKongAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Hong Kong",
-    description: "A beautiful cathedral in Hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in Hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/hong-kong-cathedral.jpg",
     location: "147 Main Street, Hong-kong",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const hongKongAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Hong Kong",
-    description: "A beautiful tower in Hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/hong-kong-tower.jpg",
     location: "16 Main Street, Hong-kong",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const hongKongAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Hong Kong",
-    description: "A beautiful garden in Hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in Hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/hong-kong-garden.jpg",
     location: "63 Main Street, Hong-kong",
     openingHours: "9 AM - 5 PM",
@@ -108,5 +112,5 @@ export const hongKongAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

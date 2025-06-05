@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const hoChiMinhCityAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Ho Chi Minh City",
-    description: "A beautiful bridge in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/ho-chi-minh-city-bridge.jpg",
     location: "157 Main Street, Ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Ho Chi Minh City",
-    description: "A beautiful market in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/ho-chi-minh-city-market.jpg",
     location: "72 Main Street, Ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Ho Chi Minh City",
-    description: "A beautiful market in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/ho-chi-minh-city-market.jpg",
     location: "37 Main Street, Ho-chi-minh-city",
     openingHours: "10 AM - 6 PM",
@@ -81,5 +84,5 @@ export const hoChiMinhCityAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const washingtonDcAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-museum.jpg",
     location: "5 Main Street, Washington_dc",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful palace in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-palace.jpg",
     location: "99 Main Street, Washington_dc",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful castle in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-castle.jpg",
     location: "52 Main Street, Washington_dc",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful gallery in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-gallery.jpg",
     location: "92 Main Street, Washington_dc",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-museum.jpg",
     location: "150 Main Street, Washington_dc",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-museum.jpg",
     location: "89 Main Street, Washington_dc",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful palace in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-palace.jpg",
     location: "149 Main Street, Washington_dc",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful tower in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-tower.jpg",
     location: "55 Main Street, Washington_dc",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const washingtonDcAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Washington_dc",
-    description: "A beautiful castle in Washington_dc offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in Washington_dc offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/washington-dc-castle.jpg",
     location: "46 Main Street, Washington_dc",
     openingHours: "Open 24 hours",
@@ -243,5 +252,5 @@ export const washingtonDcAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

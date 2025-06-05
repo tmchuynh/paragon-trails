@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const capeTownAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful tower in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-tower.jpg",
     location: "185 Main Street, Cape-town",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const capeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful museum in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-museum.jpg",
     location: "39 Main Street, Cape-town",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const capeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful park in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-park.jpg",
     location: "144 Main Street, Cape-town",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const capeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful castle in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-castle.jpg",
     location: "44 Main Street, Cape-town",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const capeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful bridge in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-bridge.jpg",
     location: "36 Main Street, Cape-town",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const capeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Cape Town",
-    description: "A beautiful market in Cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/cape-town-market.jpg",
     location: "91 Main Street, Cape-town",
     openingHours: "Open 24 hours",
@@ -162,5 +168,5 @@ export const capeTownAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

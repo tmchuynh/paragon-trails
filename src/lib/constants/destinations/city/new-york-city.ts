@@ -30,7 +30,8 @@ export const newYorkCityAttractions: Attraction[] = [
   },
   {
     title: "Central Park",
-    description: "Large urban park with walking trails, lakes, and cultural sites.",
+    description:
+      "Large urban park with walking trails, lakes, and cultural sites.",
     imageUrl: "https://images.unsplash.com/photo-nyc-central-park",
     location: "Central Park, New York City",
     openingHours: "6:00 AM - 1:00 AM",
@@ -81,5 +82,5 @@ export const newYorkCityAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

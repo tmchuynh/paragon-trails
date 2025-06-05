@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const rioDeJaneiroAttractions: Attraction[] = [
   {
     title: "Christ the Redeemer",
-    description: "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
+    description:
+      "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
     imageUrl: "https://images.unsplash.com/photo-rio-christ-the-redeemer",
     location: "Parque Nacional da Tijuca, Rio de Janeiro",
     openingHours: "8:00 AM - 7:00 PM",
@@ -57,7 +58,8 @@ export const rioDeJaneiroAttractions: Attraction[] = [
   },
   {
     title: "Sugarloaf Mountain",
-    description: "Granite peak with cable car rides and panoramic views of the city.",
+    description:
+      "Granite peak with cable car rides and panoramic views of the city.",
     imageUrl: "https://images.unsplash.com/photo-rio-sugarloaf-mountain",
     location: "Urca, Rio de Janeiro",
     openingHours: "8:00 AM - 9:00 PM",
@@ -81,5 +83,5 @@ export const rioDeJaneiroAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

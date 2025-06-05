@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const zurichAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful monument in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-monument.jpg",
     location: "174 Main Street, Zurich",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful temple in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-temple.jpg",
     location: "185 Main Street, Zurich",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
     location: "26 Main Street, Zurich",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
     location: "148 Main Street, Zurich",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful gallery in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-gallery.jpg",
     location: "98 Main Street, Zurich",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful square in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-square.jpg",
     location: "32 Main Street, Zurich",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful park in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-park.jpg",
     location: "58 Main Street, Zurich",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const zurichAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Zurich",
-    description: "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
     location: "162 Main Street, Zurich",
     openingHours: "9 AM - 5 PM",
@@ -216,5 +224,5 @@ export const zurichAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

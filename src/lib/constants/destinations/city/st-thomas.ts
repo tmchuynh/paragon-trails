@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const stThomasAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in St Thomas",
-    description: "A beautiful square in St-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in St-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-thomas-square.jpg",
     location: "198 Main Street, St-thomas",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Thomas",
-    description: "A beautiful garden in St-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in St-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-thomas-garden.jpg",
     location: "37 Main Street, St-thomas",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in St Thomas",
-    description: "A beautiful park in St-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in St-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/st-thomas-park.jpg",
     location: "92 Main Street, St-thomas",
     openingHours: "Open 24 hours",
@@ -81,5 +84,5 @@ export const stThomasAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

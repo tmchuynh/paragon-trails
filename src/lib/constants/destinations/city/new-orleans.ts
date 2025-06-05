@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const newOrleansAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in New Orleans",
-    description: "A beautiful zoo in New-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in New-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/new-orleans-zoo.jpg",
     location: "43 Main Street, New-orleans",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const newOrleansAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in New Orleans",
-    description: "A beautiful cathedral in New-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in New-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/new-orleans-cathedral.jpg",
     location: "195 Main Street, New-orleans",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const newOrleansAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in New Orleans",
-    description: "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/new-orleans-market.jpg",
     location: "177 Main Street, New-orleans",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const newOrleansAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in New Orleans",
-    description: "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/new-orleans-market.jpg",
     location: "189 Main Street, New-orleans",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const newOrleansAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in New Orleans",
-    description: "A beautiful tower in New-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in New-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/new-orleans-tower.jpg",
     location: "126 Main Street, New-orleans",
     openingHours: "10 AM - 6 PM",
@@ -135,5 +140,5 @@ export const newOrleansAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

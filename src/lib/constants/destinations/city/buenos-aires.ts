@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const buenosAiresAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Buenos Aires",
-    description: "A beautiful temple in Buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in Buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/buenos-aires-temple.jpg",
     location: "8 Main Street, Buenos-aires",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const buenosAiresAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Buenos Aires",
-    description: "A beautiful tower in Buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in Buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/buenos-aires-tower.jpg",
     location: "181 Main Street, Buenos-aires",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const buenosAiresAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Buenos Aires",
-    description: "A beautiful zoo in Buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in Buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/buenos-aires-zoo.jpg",
     location: "53 Main Street, Buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -81,5 +84,5 @@ export const buenosAiresAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

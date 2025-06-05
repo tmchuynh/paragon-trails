@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const quebecCityAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Quebec City",
-    description: "A beautiful square in Quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in Quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/quebec-city-square.jpg",
     location: "182 Main Street, Quebec-city",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const quebecCityAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Quebec City",
-    description: "A beautiful cathedral in Quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in Quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/quebec-city-cathedral.jpg",
     location: "156 Main Street, Quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const quebecCityAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Quebec City",
-    description: "A beautiful market in Quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/quebec-city-market.jpg",
     location: "141 Main Street, Quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -81,5 +84,5 @@ export const quebecCityAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

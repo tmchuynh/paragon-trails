@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const georgeTownAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
     location: "78 Main Street, George-town",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
     location: "117 Main Street, George-town",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful cathedral in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-cathedral.jpg",
     location: "186 Main Street, George-town",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful monument in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-monument.jpg",
     location: "95 Main Street, George-town",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful tower in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-tower.jpg",
     location: "177 Main Street, George-town",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
     location: "93 Main Street, George-town",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-museum.jpg",
     location: "37 Main Street, George-town",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in George Town",
-    description: "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/george-town-museum.jpg",
     location: "98 Main Street, George-town",
     openingHours: "9 AM - 5 PM",
@@ -216,5 +224,5 @@ export const georgeTownAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

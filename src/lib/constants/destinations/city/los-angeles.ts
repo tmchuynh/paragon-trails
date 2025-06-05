@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const losAngelesAttractions: Attraction[] = [
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful museum in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-museum.jpg",
     location: "94 Main Street, Los-angeles",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful market in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-market.jpg",
     location: "70 Main Street, Los-angeles",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful square in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-square.jpg",
     location: "137 Main Street, Los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful market in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-market.jpg",
     location: "106 Main Street, Los-angeles",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful monument in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-monument.jpg",
     location: "61 Main Street, Los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful cathedral in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-cathedral.jpg",
     location: "3 Main Street, Los-angeles",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful park in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-park.jpg",
     location: "147 Main Street, Los-angeles",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const losAngelesAttractions: Attraction[] = [
   },
   {
     title: "Discover Top Attractions in Los Angeles",
-    description: "A beautiful zoo in Los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in Los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://images.unsplash.com/los-angeles-zoo.jpg",
     location: "96 Main Street, Los-angeles",
     openingHours: "10 AM - 6 PM",
@@ -216,5 +224,5 @@ export const losAngelesAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];
