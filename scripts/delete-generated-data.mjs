@@ -28,8 +28,10 @@ const entityTypePaths = {
   drivers: ["src", "lib", "constants", "staff", "drivers"],
   motorcycles: ["src", "lib", "constants", "rentals", "motorcycles"],
   cars: ["src", "lib", "constants", "rentals", "cars"],
-  hotels: ["src", "lib", "constants", "accommodations", "hotels"],
+  hotels: ["src", "lib", "constants", "destinations", "hotels"],
   tours: ["src", "lib", "constants", "tours"],
+  yachts: ["src", "lib", "constants", "rentals", "yachts"],
+  homestays: ["src", "lib", "constants", "destinations", "homestay"],
 };
 
 // Parse command line arguments
