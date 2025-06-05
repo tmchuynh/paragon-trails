@@ -25,7 +25,7 @@
  *   node scripts/generate-hotels.mjs --append 5
  *   node scripts/generate-hotels.mjs --append-default
  *   node scripts/generate-hotels.mjs --city "Tokyo"
- *   node scripts/generate-hotels.mjs --city "Tokyo" --append-default
+ *   node scripts/generate-hotels.mjs --city "Paris" --append-default
  */
 
 import * as fs from "fs";
@@ -393,9 +393,12 @@ async function extractExistingHotels(filePath) {
 
       if (bracketCount === 0 && currentItem.trim()) {
         try {
-          const cleanedItem = currentItem.replace(/,\s*$/, "");
-          const obj = new Function(`return ${cleanedItem}`)();
-          items.push(obj);
+          // Instead of using Function constructor (eval), manually parse
+          // the object using RegExp to extract key properties
+          const hotel = parseHotelObject(currentItem);
+          if (hotel) {
+            items.push(hotel);
+          }
           currentItem = "";
         } catch (e) {
           console.warn("Failed to parse hotel:", e);
@@ -409,6 +412,88 @@ async function extractExistingHotels(filePath) {
     console.error("Error extracting hotels:", e);
     return [];
   }
+}
+
+// Parse hotel object string using regex for key properties
+function parseHotelObject(objString) {
+  // Make sure it's a valid object string
+  if (!objString.trim().startsWith("{") || !objString.trim().endsWith("}")) {
+    return null;
+  }
+
+  // Create a hotel object with default values
+  const hotel = {
+    amenities: [],
+    contact: { contactEmail: "", contactPhone: "" },
+    policies: { cancellation: "", smoking: "" },
+  };
+
+  // Extract id
+  const idMatch = objString.match(/id:\s*"([^"]+)"/);
+  if (idMatch) hotel.id = idMatch[1];
+
+  // Extract name
+  const nameMatch = objString.match(/name:\s*"([^"]+)"/);
+  if (nameMatch) hotel.name = nameMatch[1];
+
+  // Extract address
+  const addressMatch = objString.match(/address:\s*"([^"]+)"/);
+  if (addressMatch) hotel.address = addressMatch[1];
+
+  // Extract rating as number
+  const ratingMatch = objString.match(/rating:\s*(\d+)/);
+  if (ratingMatch) hotel.rating = parseInt(ratingMatch[1], 10);
+
+  // Extract accommodationType
+  const typeMatch = objString.match(/accommodationType:\s*"([^"]+)"/);
+  if (typeMatch) hotel.accommodationType = typeMatch[1];
+
+  // Extract checkInTime
+  const checkInMatch = objString.match(/checkInTime:\s*"([^"]+)"/);
+  if (checkInMatch) hotel.checkInTime = checkInMatch[1];
+
+  // Extract checkOutTime
+  const checkOutMatch = objString.match(/checkOutTime:\s*"([^"]+)"/);
+  if (checkOutMatch) hotel.checkOutTime = checkOutMatch[1];
+
+  // Extract roomsAvailable
+  const roomsMatch = objString.match(/roomsAvailable:\s*(\d+)/);
+  if (roomsMatch) hotel.roomsAvailable = parseInt(roomsMatch[1], 10);
+
+  // Extract isPetFriendly
+  const petMatch = objString.match(/isPetFriendly:\s*(true|false)/);
+  if (petMatch) hotel.isPetFriendly = petMatch[1] === "true";
+
+  // Extract currency
+  const currencyMatch = objString.match(/currency:\s*"([^"]+)"/);
+  if (currencyMatch) hotel.currency = currencyMatch[1];
+
+  // Extract isPopular
+  const popularMatch = objString.match(/isPopular:\s*(true|false)/);
+  if (popularMatch) hotel.isPopular = popularMatch[1] === "true";
+
+  // Extract email from contact object
+  const emailMatch = objString.match(/contactEmail:\s*"([^"]+)"/);
+  if (emailMatch) hotel.contact.contactEmail = emailMatch[1];
+
+  // Extract phone from contact object
+  const phoneMatch = objString.match(/contactPhone:\s*"([^"]+)"/);
+  if (phoneMatch) hotel.contact.contactPhone = phoneMatch[1];
+
+  // Extract cancellation policy
+  const cancelMatch = objString.match(/cancellation:\s*"([^"]+)"/);
+  if (cancelMatch) hotel.policies.cancellation = cancelMatch[1];
+
+  // Extract smoking policy
+  const smokingMatch = objString.match(/smoking:\s*"([^"]+)"/);
+  if (smokingMatch) hotel.policies.smoking = smokingMatch[1];
+
+  // Return the hotel object if we have at least the essential properties
+  if (hotel.id && hotel.name) {
+    return hotel;
+  }
+
+  return null;
 }
 
 // Generate hotels and write to file
@@ -439,9 +524,17 @@ async function generateCityFile(city) {
   if (exists) {
     if (options.rewrite) {
       console.log(`Rewriting existing file: ${filePath}`);
-    } else if (options.append) {
+    } else if (options.append || options.appendDefault) {
       console.log(`Appending ${options.append} hotels to: ${filePath}`);
       hotels = await extractExistingHotels(filePath);
+
+      // Extra validation to prevent null/empty hotels array
+      if (!hotels || !Array.isArray(hotels)) {
+        console.warn(
+          `Could not parse existing hotels in ${filePath}, creating a new file instead`
+        );
+        hotels = [];
+      }
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
@@ -465,25 +558,28 @@ async function generateCityFile(city) {
 
   hotels.forEach((hotel, index) => {
     content += `  {\n`;
-    for (const [key, value] of Object.entries(hotel)) {
-      if (typeof value === "string") {
-        content += `    ${key}: "${value}",\n`;
-      } else if (Array.isArray(value)) {
-        if (value.length === 0) {
-          content += `    ${key}: [],\n`;
-        } else {
-          content += `    ${key}: [${value.map((item) => `"${item}"`).join(", ")}],\n`;
-        }
-      } else if (typeof value === "object" && value !== null) {
-        content += `    ${key}: {\n`;
-        for (const [nestedKey, nestedValue] of Object.entries(value)) {
-          if (nestedValue !== undefined) {
-            content += `      ${nestedKey}: "${nestedValue}",\n`;
+    // Add null check to prevent TypeError
+    if (hotel) {
+      for (const [key, value] of Object.entries(hotel)) {
+        if (typeof value === "string") {
+          content += `    ${key}: "${value}",\n`;
+        } else if (Array.isArray(value)) {
+          if (value.length === 0) {
+            content += `    ${key}: [],\n`;
+          } else {
+            content += `    ${key}: [${value.map((item) => `"${item}"`).join(", ")}],\n`;
           }
+        } else if (typeof value === "object" && value !== null) {
+          content += `    ${key}: {\n`;
+          for (const [nestedKey, nestedValue] of Object.entries(value)) {
+            if (nestedValue !== undefined) {
+              content += `      ${nestedKey}: "${nestedValue}",\n`;
+            }
+          }
+          content += `    },\n`;
+        } else if (value !== undefined) {
+          content += `    ${key}: ${value},\n`;
         }
-        content += `    },\n`;
-      } else if (value !== undefined) {
-        content += `    ${key}: ${value},\n`;
       }
     }
     content += `  }${index < hotels.length - 1 ? "," : ""}\n`;
