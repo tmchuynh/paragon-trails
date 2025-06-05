@@ -44,5 +44,5 @@ export const kielgermanynorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "nadia.hussain@paragontrails.com",
     contactPhone: "+1-936-273-6907",
-  }
+  },
 ];

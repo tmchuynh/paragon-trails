@@ -55,5 +55,5 @@ export const miamiunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "yuki.nakamura@paragontrails.com",
     contactPhone: "+1-168-030-3432",
-  }
+  },
 ];

@@ -33,5 +33,5 @@ export const southamptonunitedKingdomnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
     contactPhone: "+1-119-372-8000",
-  }
+  },
 ];

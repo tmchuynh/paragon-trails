@@ -28,10 +28,14 @@ export const galvestonunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Aisha Khan",
     role: "Navigator",
     experienceYears: 13,
-    certifications: ["Security Training", "Dive Master", "Environmental Awareness"],
+    certifications: [
+      "Security Training",
+      "Dive Master",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["English"],
     isAvailable: true,
     contactEmail: "aisha.khan@paragontrails.com",
     contactPhone: "+1-749-789-3138",
-  }
+  },
 ];

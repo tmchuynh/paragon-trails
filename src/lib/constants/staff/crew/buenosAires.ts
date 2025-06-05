@@ -6,7 +6,11 @@ export const buenosAiresargentinasouthAmericaCrew: CrewMember[] = [
     name: "Olga Ivanova",
     role: "Navigator",
     experienceYears: 8,
-    certifications: ["Security Training", "Dive Master", "Hospitality Training"],
+    certifications: [
+      "Security Training",
+      "Dive Master",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Portuguese", "Danish", "Hungarian"],
     isAvailable: false,
     contactEmail: "olga.ivanova@paragontrails.com",
@@ -39,7 +43,11 @@ export const buenosAiresargentinasouthAmericaCrew: CrewMember[] = [
     name: "Robert Johnson",
     role: "Navigator",
     experienceYears: 4,
-    certifications: ["Engineering License", "Security Training", "Navigation Certification"],
+    certifications: [
+      "Engineering License",
+      "Security Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Mandarin"],
     isAvailable: true,
     contactEmail: "robert.johnson@paragontrails.com",
@@ -66,5 +74,5 @@ export const buenosAiresargentinasouthAmericaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "james.smith@paragontrails.com",
     contactPhone: "+1-217-065-1451",
-  }
+  },
 ];

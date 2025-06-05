@@ -88,5 +88,5 @@ export const athensgreecemediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "rahul.sharma@paragontrails.com",
     contactPhone: "+1-570-393-3534",
-  }
+  },
 ];

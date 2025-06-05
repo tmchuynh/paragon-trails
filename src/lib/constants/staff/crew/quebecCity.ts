@@ -72,7 +72,11 @@ export const quebecCitycanadaeastCoastCanadaCrew: CrewMember[] = [
     name: "Maria Garcia",
     role: "Chef",
     experienceYears: 6,
-    certifications: ["Marine Radio Operator", "Dive Master", "Navigation Certification"],
+    certifications: [
+      "Marine Radio Operator",
+      "Dive Master",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Arabic", "Danish", "Korean"],
     isAvailable: false,
     contactEmail: "maria.garcia@paragontrails.com",
@@ -88,5 +92,5 @@ export const quebecCitycanadaeastCoastCanadaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
     contactPhone: "+1-815-189-7197",
-  }
+  },
 ];

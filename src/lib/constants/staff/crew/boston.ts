@@ -17,7 +17,11 @@ export const bostonunitedStateseastCoastUsaCrew: CrewMember[] = [
     name: "Emma Brown",
     role: "Purser",
     experienceYears: 17,
-    certifications: ["Fire Safety", "Security Training", "Environmental Awareness"],
+    certifications: [
+      "Fire Safety",
+      "Security Training",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Spanish", "Czech", "Hindi"],
     isAvailable: true,
     contactEmail: "emma.brown@paragontrails.com",
@@ -66,5 +70,5 @@ export const bostonunitedStateseastCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "rahul.sharma@paragontrails.com",
     contactPhone: "+1-469-500-3252",
-  }
+  },
 ];

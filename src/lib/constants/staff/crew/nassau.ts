@@ -33,5 +33,5 @@ export const nassaubahamascaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
     contactPhone: "+1-984-643-8196",
-  }
+  },
 ];

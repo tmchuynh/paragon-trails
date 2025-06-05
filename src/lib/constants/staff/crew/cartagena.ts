@@ -72,10 +72,14 @@ export const cartagenacolombiacaribbeanCrew: CrewMember[] = [
     name: "Isabella Rossi",
     role: "Dive Instructor",
     experienceYears: 19,
-    certifications: ["Marine Radio Operator", "Environmental Awareness", "First Aid"],
+    certifications: [
+      "Marine Radio Operator",
+      "Environmental Awareness",
+      "First Aid",
+    ],
     languagesSpoken: ["Portuguese", "Thai"],
     isAvailable: true,
     contactEmail: "isabella.rossi@paragontrails.com",
     contactPhone: "+1-017-286-6766",
-  }
+  },
 ];

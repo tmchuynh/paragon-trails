@@ -6,7 +6,11 @@ export const barcelonaspainmediterraneanCrew: CrewMember[] = [
     name: "Elena Petrov",
     role: "First Mate",
     experienceYears: 7,
-    certifications: ["Environmental Awareness", "Security Training", "Dive Master"],
+    certifications: [
+      "Environmental Awareness",
+      "Security Training",
+      "Dive Master",
+    ],
     languagesSpoken: ["Japanese"],
     isAvailable: true,
     contactEmail: "elena.petrov@paragontrails.com",
@@ -39,7 +43,11 @@ export const barcelonaspainmediterraneanCrew: CrewMember[] = [
     name: "Daniel Müller",
     role: "Chef",
     experienceYears: 2,
-    certifications: ["Hospitality Training", "Navigation Certification", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Navigation Certification",
+      "Dive Master",
+    ],
     languagesSpoken: ["Spanish"],
     isAvailable: true,
     contactEmail: "daniel.müller@paragontrails.com",
@@ -55,5 +63,5 @@ export const barcelonaspainmediterraneanCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "emma.brown@paragontrails.com",
     contactPhone: "+1-155-003-2697",
-  }
+  },
 ];

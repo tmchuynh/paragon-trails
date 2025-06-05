@@ -6,7 +6,11 @@ export const dublinirelandnorthernEuropeCrew: CrewMember[] = [
     name: "Fatima Hassan",
     role: "Captain",
     experienceYears: 17,
-    certifications: ["Hospitality Training", "Marine Radio Operator", "Security Training"],
+    certifications: [
+      "Hospitality Training",
+      "Marine Radio Operator",
+      "Security Training",
+    ],
     languagesSpoken: ["Finnish", "Greek", "Romanian"],
     isAvailable: true,
     contactEmail: "fatima.hassan@paragontrails.com",
@@ -39,7 +43,11 @@ export const dublinirelandnorthernEuropeCrew: CrewMember[] = [
     name: "Daniel Müller",
     role: "Captain",
     experienceYears: 5,
-    certifications: ["Dive Master", "Security Training", "Hospitality Training"],
+    certifications: [
+      "Dive Master",
+      "Security Training",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Vietnamese", "Czech"],
     isAvailable: true,
     contactEmail: "daniel.müller@paragontrails.com",
@@ -88,5 +96,5 @@ export const dublinirelandnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "maria.garcia@paragontrails.com",
     contactPhone: "+1-690-360-2217",
-  }
+  },
 ];

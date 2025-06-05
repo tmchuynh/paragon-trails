@@ -88,5 +88,5 @@ export const sitkaunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "david.kim@paragontrails.com",
     contactPhone: "+1-820-863-6705",
-  }
+  },
 ];

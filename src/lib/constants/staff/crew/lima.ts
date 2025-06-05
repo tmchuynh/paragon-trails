@@ -72,7 +72,11 @@ export const limaperusouthAmericaCrew: CrewMember[] = [
     name: "Rahul Sharma",
     role: "Engineer",
     experienceYears: 15,
-    certifications: ["Hospitality Training", "Security Training", "Navigation Certification"],
+    certifications: [
+      "Hospitality Training",
+      "Security Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Dutch", "Polish", "Arabic"],
     isAvailable: true,
     contactEmail: "rahul.sharma@paragontrails.com",
@@ -88,5 +92,5 @@ export const limaperusouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
     contactPhone: "+1-653-766-9933",
-  }
+  },
 ];

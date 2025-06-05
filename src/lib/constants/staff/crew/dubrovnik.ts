@@ -61,7 +61,11 @@ export const dubrovnikcroatiamediterraneanCrew: CrewMember[] = [
     name: "Wei Chen",
     role: "Captain",
     experienceYears: 5,
-    certifications: ["Hospitality Training", "Dive Master", "Marine Radio Operator"],
+    certifications: [
+      "Hospitality Training",
+      "Dive Master",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Vietnamese"],
     isAvailable: false,
     contactEmail: "wei.chen@paragontrails.com",
@@ -88,5 +92,5 @@ export const dubrovnikcroatiamediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
     contactPhone: "+1-981-626-8297",
-  }
+  },
 ];

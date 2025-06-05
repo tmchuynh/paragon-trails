@@ -44,5 +44,5 @@ export const georgeTowncaymanIslandscaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "robert.johnson@paragontrails.com",
     contactPhone: "+1-071-398-9308",
-  }
+  },
 ];

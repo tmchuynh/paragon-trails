@@ -33,5 +33,5 @@ export const newYorkCityunitedStateseastCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "fatima.hassan@paragontrails.com",
     contactPhone: "+1-934-701-2881",
-  }
+  },
 ];

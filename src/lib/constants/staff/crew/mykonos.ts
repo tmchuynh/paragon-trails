@@ -28,7 +28,11 @@ export const mykonosgreecemediterraneanCrew: CrewMember[] = [
     name: "James Smith",
     role: "Steward/Stewardess",
     experienceYears: 4,
-    certifications: ["Fire Safety", "Marine Radio Operator", "Navigation Certification"],
+    certifications: [
+      "Fire Safety",
+      "Marine Radio Operator",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Italian", "Danish"],
     isAvailable: false,
     contactEmail: "james.smith@paragontrails.com",
@@ -66,5 +70,5 @@ export const mykonosgreecemediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "yuki.nakamura@paragontrails.com",
     contactPhone: "+1-113-365-6748",
-  }
+  },
 ];

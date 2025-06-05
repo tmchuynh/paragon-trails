@@ -61,7 +61,11 @@ export const philipsburgsintMaartencaribbeanCrew: CrewMember[] = [
     name: "Wei Chen",
     role: "Captain",
     experienceYears: 14,
-    certifications: ["Security Training", "Fire Safety", "Navigation Certification"],
+    certifications: [
+      "Security Training",
+      "Fire Safety",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Danish"],
     isAvailable: true,
     contactEmail: "wei.chen@paragontrails.com",
@@ -88,5 +92,5 @@ export const philipsburgsintMaartencaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
     contactPhone: "+1-418-680-7732",
-  }
+  },
 ];

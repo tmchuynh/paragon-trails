@@ -77,5 +77,5 @@ export const torontocanadaeastCoastCanadaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "nadia.hussain@paragontrails.com",
     contactPhone: "+1-144-931-0584",
-  }
+  },
 ];

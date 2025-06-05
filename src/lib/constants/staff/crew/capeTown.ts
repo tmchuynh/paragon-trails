@@ -77,5 +77,5 @@ export const capeTownsouthAfricaafricaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "isabella.rossi@paragontrails.com",
     contactPhone: "+1-382-027-0082",
-  }
+  },
 ];

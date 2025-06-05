@@ -77,5 +77,5 @@ export const dubaiunitedArabEmiratesmiddleEastCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "carlos.lopez@paragontrails.com",
     contactPhone: "+1-476-640-7699",
-  }
+  },
 ];

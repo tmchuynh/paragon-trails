@@ -61,7 +61,11 @@ export const parisfrancenorthernEuropeCrew: CrewMember[] = [
     name: "Sofia Rodriguez",
     role: "Captain",
     experienceYears: 4,
-    certifications: ["Hospitality Training", "Navigation Certification", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Navigation Certification",
+      "Dive Master",
+    ],
     languagesSpoken: ["Italian", "Polish"],
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
@@ -77,5 +81,5 @@ export const parisfrancenorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "yuki.nakamura@paragontrails.com",
     contactPhone: "+1-143-974-4647",
-  }
+  },
 ];

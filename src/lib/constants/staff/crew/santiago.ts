@@ -66,5 +66,5 @@ export const santiagochilesouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "carlos.lopez@paragontrails.com",
     contactPhone: "+1-652-358-0926",
-  }
+  },
 ];

@@ -28,7 +28,11 @@ export const bermudabermudacaribbeanCrew: CrewMember[] = [
     name: "Ahmed Hassan",
     role: "Purser",
     experienceYears: 15,
-    certifications: ["Environmental Awareness", "Hospitality Training", "Navigation Certification"],
+    certifications: [
+      "Environmental Awareness",
+      "Hospitality Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Hindi"],
     isAvailable: false,
     contactEmail: "ahmed.hassan@paragontrails.com",
@@ -44,5 +48,5 @@ export const bermudabermudacaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
     contactPhone: "+1-915-365-1155",
-  }
+  },
 ];

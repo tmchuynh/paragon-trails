@@ -61,7 +61,11 @@ export const montevideouruguaysouthAmericaCrew: CrewMember[] = [
     name: "Antoine Dubois",
     role: "Host/Hostess",
     experienceYears: 9,
-    certifications: ["Engineering License", "Environmental Awareness", "Dive Master"],
+    certifications: [
+      "Engineering License",
+      "Environmental Awareness",
+      "Dive Master",
+    ],
     languagesSpoken: ["Hindi", "Danish", "Russian"],
     isAvailable: true,
     contactEmail: "antoine.dubois@paragontrails.com",
@@ -77,5 +81,5 @@ export const montevideouruguaysouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "daniel.müller@paragontrails.com",
     contactPhone: "+1-455-903-0633",
-  }
+  },
 ];

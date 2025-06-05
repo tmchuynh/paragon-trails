@@ -50,7 +50,11 @@ export const kyotojapanasiaPacificCrew: CrewMember[] = [
     name: "Pedro Santos",
     role: "Deckhand",
     experienceYears: 9,
-    certifications: ["First Aid", "Marine Radio Operator", "Hospitality Training"],
+    certifications: [
+      "First Aid",
+      "Marine Radio Operator",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Italian", "Thai", "Dutch"],
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
@@ -61,10 +65,14 @@ export const kyotojapanasiaPacificCrew: CrewMember[] = [
     name: "Daniel Müller",
     role: "Dive Instructor",
     experienceYears: 14,
-    certifications: ["Marine Radio Operator", "Environmental Awareness", "First Aid"],
+    certifications: [
+      "Marine Radio Operator",
+      "Environmental Awareness",
+      "First Aid",
+    ],
     languagesSpoken: ["Finnish"],
     isAvailable: true,
     contactEmail: "daniel.müller@paragontrails.com",
     contactPhone: "+1-667-155-9475",
-  }
+  },
 ];

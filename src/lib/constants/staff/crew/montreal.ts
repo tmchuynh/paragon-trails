@@ -61,7 +61,11 @@ export const montrealcanadaeastCoastCanadaCrew: CrewMember[] = [
     name: "Daniel Müller",
     role: "Navigator",
     experienceYears: 10,
-    certifications: ["Security Training", "Marine Radio Operator", "Dive Master"],
+    certifications: [
+      "Security Training",
+      "Marine Radio Operator",
+      "Dive Master",
+    ],
     languagesSpoken: ["German"],
     isAvailable: true,
     contactEmail: "daniel.müller@paragontrails.com",
@@ -88,5 +92,5 @@ export const montrealcanadaeastCoastCanadaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "sofia.rodriguez@paragontrails.com",
     contactPhone: "+1-028-155-9099",
-  }
+  },
 ];

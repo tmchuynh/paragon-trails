@@ -17,7 +17,11 @@ export const seattleunitedStatesalaskaCrew: CrewMember[] = [
     name: "John Williams",
     role: "Chef",
     experienceYears: 8,
-    certifications: ["Hospitality Training", "Environmental Awareness", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Environmental Awareness",
+      "Dive Master",
+    ],
     languagesSpoken: ["Czech"],
     isAvailable: true,
     contactEmail: "john.williams@paragontrails.com",
@@ -72,7 +76,11 @@ export const seattleunitedStatesalaskaCrew: CrewMember[] = [
     name: "Wei Chen",
     role: "Steward/Stewardess",
     experienceYears: 11,
-    certifications: ["Hospitality Training", "Engineering License", "Environmental Awareness"],
+    certifications: [
+      "Hospitality Training",
+      "Engineering License",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Danish"],
     isAvailable: true,
     contactEmail: "wei.chen@paragontrails.com",
@@ -88,5 +96,5 @@ export const seattleunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
     contactPhone: "+1-798-017-6784",
-  }
+  },
 ];

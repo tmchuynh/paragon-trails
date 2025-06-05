@@ -77,5 +77,5 @@ export const glacierBayunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "james.smith@paragontrails.com",
     contactPhone: "+1-173-526-7903",
-  }
+  },
 ];

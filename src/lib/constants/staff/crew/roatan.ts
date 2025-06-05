@@ -77,5 +77,5 @@ export const roatanhondurascaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "wei.chen@paragontrails.com",
     contactPhone: "+1-003-852-3919",
-  }
+  },
 ];

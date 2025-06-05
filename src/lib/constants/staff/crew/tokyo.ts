@@ -88,5 +88,5 @@ export const tokyojapanasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
     contactPhone: "+1-622-514-3536",
-  }
+  },
 ];

@@ -17,7 +17,11 @@ export const tampaunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Olga Ivanova",
     role: "Chef",
     experienceYears: 17,
-    certifications: ["Environmental Awareness", "First Aid", "Marine Radio Operator"],
+    certifications: [
+      "Environmental Awareness",
+      "First Aid",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Greek"],
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
@@ -83,10 +87,14 @@ export const tampaunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Pedro Santos",
     role: "First Mate",
     experienceYears: 21,
-    certifications: ["Engineering License", "Marine Radio Operator", "Hospitality Training"],
+    certifications: [
+      "Engineering License",
+      "Marine Radio Operator",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Portuguese", "German"],
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
     contactPhone: "+1-973-246-7138",
-  }
+  },
 ];

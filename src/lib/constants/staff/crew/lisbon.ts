@@ -50,7 +50,11 @@ export const lisbonportugalmediterraneanCrew: CrewMember[] = [
     name: "Hiroshi Tanaka",
     role: "Purser",
     experienceYears: 2,
-    certifications: ["Dive Master", "Navigation Certification", "Security Training"],
+    certifications: [
+      "Dive Master",
+      "Navigation Certification",
+      "Security Training",
+    ],
     languagesSpoken: ["Vietnamese"],
     isAvailable: false,
     contactEmail: "hiroshi.tanaka@paragontrails.com",
@@ -77,5 +81,5 @@ export const lisbonportugalmediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "carlos.lopez@paragontrails.com",
     contactPhone: "+1-589-784-7782",
-  }
+  },
 ];

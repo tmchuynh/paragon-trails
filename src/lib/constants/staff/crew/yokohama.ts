@@ -44,5 +44,5 @@ export const yokohamajapanasiaPacificCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "pedro.santos@paragontrails.com",
     contactPhone: "+1-140-619-2980",
-  }
+  },
 ];

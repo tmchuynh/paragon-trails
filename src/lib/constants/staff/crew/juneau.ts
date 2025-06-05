@@ -44,5 +44,5 @@ export const juneauunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aisha.khan@paragontrails.com",
     contactPhone: "+1-037-094-8679",
-  }
+  },
 ];

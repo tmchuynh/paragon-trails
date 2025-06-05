@@ -6,7 +6,11 @@ export const sydneyaustraliaasiaPacificCrew: CrewMember[] = [
     name: "Ji-Young Kim",
     role: "Captain",
     experienceYears: 14,
-    certifications: ["Dive Master", "Navigation Certification", "Hospitality Training"],
+    certifications: [
+      "Dive Master",
+      "Navigation Certification",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Vietnamese", "Hindi", "Swedish"],
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
@@ -17,7 +21,11 @@ export const sydneyaustraliaasiaPacificCrew: CrewMember[] = [
     name: "Rahul Sharma",
     role: "Navigator",
     experienceYears: 14,
-    certifications: ["Marine Radio Operator", "Hospitality Training", "Engineering License"],
+    certifications: [
+      "Marine Radio Operator",
+      "Hospitality Training",
+      "Engineering License",
+    ],
     languagesSpoken: ["Czech"],
     isAvailable: true,
     contactEmail: "rahul.sharma@paragontrails.com",
@@ -77,5 +85,5 @@ export const sydneyaustraliaasiaPacificCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "antoine.dubois@paragontrails.com",
     contactPhone: "+1-527-617-2521",
-  }
+  },
 ];

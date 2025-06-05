@@ -17,7 +17,11 @@ export const aucklandnewZealandasiaPacificCrew: CrewMember[] = [
     name: "Maria Garcia",
     role: "Steward/Stewardess",
     experienceYears: 2,
-    certifications: ["Navigation Certification", "Marine Radio Operator", "Engineering License"],
+    certifications: [
+      "Navigation Certification",
+      "Marine Radio Operator",
+      "Engineering License",
+    ],
     languagesSpoken: ["English", "Vietnamese"],
     isAvailable: true,
     contactEmail: "maria.garcia@paragontrails.com",
@@ -39,7 +43,11 @@ export const aucklandnewZealandasiaPacificCrew: CrewMember[] = [
     name: "Olga Ivanova",
     role: "Dive Instructor",
     experienceYears: 10,
-    certifications: ["Hospitality Training", "First Aid", "Engineering License"],
+    certifications: [
+      "Hospitality Training",
+      "First Aid",
+      "Engineering License",
+    ],
     languagesSpoken: ["Hungarian"],
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
@@ -50,10 +58,14 @@ export const aucklandnewZealandasiaPacificCrew: CrewMember[] = [
     name: "Fatima Hassan",
     role: "Steward/Stewardess",
     experienceYears: 11,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "Fire Safety"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Greek"],
     isAvailable: true,
     contactEmail: "fatima.hassan@paragontrails.com",
     contactPhone: "+1-298-203-6241",
-  }
+  },
 ];

@@ -50,10 +50,14 @@ export const santorinigreecemediterraneanCrew: CrewMember[] = [
     name: "John Williams",
     role: "Dive Instructor",
     experienceYears: 19,
-    certifications: ["Navigation Certification", "Security Training", "First Aid"],
+    certifications: [
+      "Navigation Certification",
+      "Security Training",
+      "First Aid",
+    ],
     languagesSpoken: ["Arabic", "Czech"],
     isAvailable: true,
     contactEmail: "john.williams@paragontrails.com",
     contactPhone: "+1-812-985-9858",
-  }
+  },
 ];

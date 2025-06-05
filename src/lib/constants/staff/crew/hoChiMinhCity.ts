@@ -44,5 +44,5 @@ export const hoChiMinhCityvietnamasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aisha.khan@paragontrails.com",
     contactPhone: "+1-140-351-5653",
-  }
+  },
 ];

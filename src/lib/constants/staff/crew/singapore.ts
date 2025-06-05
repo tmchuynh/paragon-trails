@@ -39,7 +39,11 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     name: "Yuki Nakamura",
     role: "Chef",
     experienceYears: 20,
-    certifications: ["Hospitality Training", "Environmental Awareness", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Environmental Awareness",
+      "Dive Master",
+    ],
     languagesSpoken: ["Finnish"],
     isAvailable: true,
     contactEmail: "yuki.nakamura@paragontrails.com",
@@ -61,7 +65,11 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     name: "Pedro Santos",
     role: "Navigator",
     experienceYears: 8,
-    certifications: ["Fire Safety", "Engineering License", "Marine Radio Operator"],
+    certifications: [
+      "Fire Safety",
+      "Engineering License",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Finnish"],
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
@@ -77,5 +85,5 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "carlos.lopez@paragontrails.com",
     contactPhone: "+1-718-114-0837",
-  }
+  },
 ];

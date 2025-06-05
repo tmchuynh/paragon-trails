@@ -28,7 +28,11 @@ export const sanFranciscounitedStateswestCoastUsaCrew: CrewMember[] = [
     name: "Emma Brown",
     role: "Navigator",
     experienceYears: 9,
-    certifications: ["Security Training", "Marine Radio Operator", "Navigation Certification"],
+    certifications: [
+      "Security Training",
+      "Marine Radio Operator",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Portuguese", "Dutch", "Russian"],
     isAvailable: true,
     contactEmail: "emma.brown@paragontrails.com",
@@ -55,5 +59,5 @@ export const sanFranciscounitedStateswestCoastUsaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "sven.johansson@paragontrails.com",
     contactPhone: "+1-714-307-5250",
-  }
+  },
 ];

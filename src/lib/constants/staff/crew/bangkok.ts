@@ -55,5 +55,5 @@ export const bangkokthailandasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "fatima.hassan@paragontrails.com",
     contactPhone: "+1-604-095-1532",
-  }
+  },
 ];

@@ -17,7 +17,11 @@ export const skagwayunitedStatesalaskaCrew: CrewMember[] = [
     name: "Carlos Lopez",
     role: "Purser",
     experienceYears: 16,
-    certifications: ["Engineering License", "Hospitality Training", "Fire Safety"],
+    certifications: [
+      "Engineering License",
+      "Hospitality Training",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Thai"],
     isAvailable: true,
     contactEmail: "carlos.lopez@paragontrails.com",
@@ -55,5 +59,5 @@ export const skagwayunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "luis.gonzalez@paragontrails.com",
     contactPhone: "+1-825-181-3120",
-  }
+  },
 ];

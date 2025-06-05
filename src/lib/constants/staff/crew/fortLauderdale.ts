@@ -50,7 +50,11 @@ export const fortLauderdaleunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Sofia Rodriguez",
     role: "Steward/Stewardess",
     experienceYears: 21,
-    certifications: ["Marine Radio Operator", "Environmental Awareness", "STCW"],
+    certifications: [
+      "Marine Radio Operator",
+      "Environmental Awareness",
+      "STCW",
+    ],
     languagesSpoken: ["Spanish", "Mandarin"],
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
@@ -66,5 +70,5 @@ export const fortLauderdaleunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aisha.khan@paragontrails.com",
     contactPhone: "+1-059-825-0446",
-  }
+  },
 ];

@@ -33,5 +33,5 @@ export const baliindonesiaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "nadia.hussain@paragontrails.com",
     contactPhone: "+1-688-328-2013",
-  }
+  },
 ];

@@ -55,5 +55,5 @@ export const sanJuanpuertoRicocaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ahmed.hassan@paragontrails.com",
     contactPhone: "+1-618-688-4904",
-  }
+  },
 ];

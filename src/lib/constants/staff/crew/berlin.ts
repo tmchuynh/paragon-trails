@@ -66,5 +66,5 @@ export const berlingermanynorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
     contactPhone: "+1-960-548-3489",
-  }
+  },
 ];

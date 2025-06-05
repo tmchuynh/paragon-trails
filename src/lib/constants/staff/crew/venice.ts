@@ -44,5 +44,5 @@ export const veniceitalymediterraneanCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "mei.lin@paragontrails.com",
     contactPhone: "+1-492-462-5695",
-  }
+  },
 ];

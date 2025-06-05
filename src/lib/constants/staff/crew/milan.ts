@@ -72,10 +72,14 @@ export const milanitalymediterraneanCrew: CrewMember[] = [
     name: "Ji-Young Kim",
     role: "Dive Instructor",
     experienceYears: 21,
-    certifications: ["STCW", "Hospitality Training", "Navigation Certification"],
+    certifications: [
+      "STCW",
+      "Hospitality Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Russian", "Vietnamese"],
     isAvailable: true,
     contactEmail: "ji-young.kim@paragontrails.com",
     contactPhone: "+1-964-322-2260",
-  }
+  },
 ];

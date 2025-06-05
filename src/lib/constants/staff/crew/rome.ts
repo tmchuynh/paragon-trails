@@ -66,5 +66,5 @@ export const romeitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "yuki.nakamura@paragontrails.com",
     contactPhone: "+1-550-427-0065",
-  }
+  },
 ];

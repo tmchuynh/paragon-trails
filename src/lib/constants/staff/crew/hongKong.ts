@@ -6,7 +6,11 @@ export const hongKongchinaasiaPacificCrew: CrewMember[] = [
     name: "Sven Johansson",
     role: "Chef",
     experienceYears: 9,
-    certifications: ["Security Training", "Marine Radio Operator", "Dive Master"],
+    certifications: [
+      "Security Training",
+      "Marine Radio Operator",
+      "Dive Master",
+    ],
     languagesSpoken: ["Hungarian", "German"],
     isAvailable: true,
     contactEmail: "sven.johansson@paragontrails.com",
@@ -55,5 +59,5 @@ export const hongKongchinaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "emma.brown@paragontrails.com",
     contactPhone: "+1-490-589-2697",
-  }
+  },
 ];

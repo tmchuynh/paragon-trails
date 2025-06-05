@@ -44,5 +44,5 @@ export const vancouvercanadaalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "rahul.sharma@paragontrails.com",
     contactPhone: "+1-174-550-0085",
-  }
+  },
 ];

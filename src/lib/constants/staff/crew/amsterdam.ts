@@ -17,7 +17,11 @@ export const amsterdamnetherlandsnorthernEuropeCrew: CrewMember[] = [
     name: "Priya Patel",
     role: "First Mate",
     experienceYears: 8,
-    certifications: ["Hospitality Training", "Environmental Awareness", "Engineering License"],
+    certifications: [
+      "Hospitality Training",
+      "Environmental Awareness",
+      "Engineering License",
+    ],
     languagesSpoken: ["Norwegian"],
     isAvailable: false,
     contactEmail: "priya.patel@paragontrails.com",
@@ -28,7 +32,11 @@ export const amsterdamnetherlandsnorthernEuropeCrew: CrewMember[] = [
     name: "Sofia Rodriguez",
     role: "Purser",
     experienceYears: 15,
-    certifications: ["Dive Master", "Navigation Certification", "Engineering License"],
+    certifications: [
+      "Dive Master",
+      "Navigation Certification",
+      "Engineering License",
+    ],
     languagesSpoken: ["Turkish", "Spanish", "Mandarin"],
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
@@ -66,5 +74,5 @@ export const amsterdamnetherlandsnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
     contactPhone: "+1-176-652-4844",
-  }
+  },
 ];

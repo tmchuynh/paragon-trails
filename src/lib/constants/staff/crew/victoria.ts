@@ -28,7 +28,11 @@ export const victoriacanadaalaskaCrew: CrewMember[] = [
     name: "David Kim",
     role: "Engineer",
     experienceYears: 5,
-    certifications: ["Environmental Awareness", "Marine Radio Operator", "Security Training"],
+    certifications: [
+      "Environmental Awareness",
+      "Marine Radio Operator",
+      "Security Training",
+    ],
     languagesSpoken: ["English", "Romanian", "Norwegian"],
     isAvailable: true,
     contactEmail: "david.kim@paragontrails.com",
@@ -66,5 +70,5 @@ export const victoriacanadaalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "elena.petrov@paragontrails.com",
     contactPhone: "+1-665-151-8716",
-  }
+  },
 ];

@@ -28,7 +28,11 @@ export const melbourneaustraliaasiaPacificCrew: CrewMember[] = [
     name: "Wei Chen",
     role: "Chef",
     experienceYears: 2,
-    certifications: ["STCW", "Navigation Certification", "Marine Radio Operator"],
+    certifications: [
+      "STCW",
+      "Navigation Certification",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["German"],
     isAvailable: true,
     contactEmail: "wei.chen@paragontrails.com",
@@ -88,5 +92,5 @@ export const melbourneaustraliaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "james.smith@paragontrails.com",
     contactPhone: "+1-252-022-5438",
-  }
+  },
 ];

@@ -77,5 +77,5 @@ export const ketchikanunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
     contactPhone: "+1-308-123-7163",
-  }
+  },
 ];

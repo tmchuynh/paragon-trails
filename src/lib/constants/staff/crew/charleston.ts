@@ -17,7 +17,11 @@ export const charlestonunitedStateseastCoastUsaCrew: CrewMember[] = [
     name: "Sofia Rodriguez",
     role: "Deckhand",
     experienceYears: 12,
-    certifications: ["Engineering License", "Hospitality Training", "First Aid"],
+    certifications: [
+      "Engineering License",
+      "Hospitality Training",
+      "First Aid",
+    ],
     languagesSpoken: ["Dutch", "French"],
     isAvailable: true,
     contactEmail: "sofia.rodriguez@paragontrails.com",
@@ -66,5 +70,5 @@ export const charlestonunitedStateseastCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "wei.chen@paragontrails.com",
     contactPhone: "+1-689-592-0394",
-  }
+  },
 ];

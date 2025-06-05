@@ -77,5 +77,5 @@ export const helsinkifinlandnorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "yuki.nakamura@paragontrails.com",
     contactPhone: "+1-736-165-6537",
-  }
+  },
 ];

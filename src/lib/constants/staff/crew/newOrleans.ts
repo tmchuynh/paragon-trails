@@ -28,7 +28,11 @@ export const newOrleansunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Hiroshi Tanaka",
     role: "Host/Hostess",
     experienceYears: 19,
-    certifications: ["Environmental Awareness", "First Aid", "Hospitality Training"],
+    certifications: [
+      "Environmental Awareness",
+      "First Aid",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Danish"],
     isAvailable: true,
     contactEmail: "hiroshi.tanaka@paragontrails.com",
@@ -50,7 +54,11 @@ export const newOrleansunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Sven Johansson",
     role: "Steward/Stewardess",
     experienceYears: 5,
-    certifications: ["Fire Safety", "Engineering License", "Navigation Certification"],
+    certifications: [
+      "Fire Safety",
+      "Engineering License",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["English", "Romanian", "Greek"],
     isAvailable: true,
     contactEmail: "sven.johansson@paragontrails.com",
@@ -77,5 +85,5 @@ export const newOrleansunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "mei.lin@paragontrails.com",
     contactPhone: "+1-290-239-7168",
-  }
+  },
 ];

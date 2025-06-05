@@ -77,5 +77,5 @@ export const londonunitedKingdomnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "antoine.dubois@paragontrails.com",
     contactPhone: "+1-859-118-6553",
-  }
+  },
 ];

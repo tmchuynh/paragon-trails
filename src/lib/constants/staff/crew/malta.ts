@@ -50,7 +50,11 @@ export const maltamaltamediterraneanCrew: CrewMember[] = [
     name: "Pedro Santos",
     role: "Host/Hostess",
     experienceYears: 16,
-    certifications: ["Environmental Awareness", "Marine Radio Operator", "Dive Master"],
+    certifications: [
+      "Environmental Awareness",
+      "Marine Radio Operator",
+      "Dive Master",
+    ],
     languagesSpoken: ["Hindi"],
     isAvailable: true,
     contactEmail: "pedro.santos@paragontrails.com",
@@ -66,5 +70,5 @@ export const maltamaltamediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "luis.gonzalez@paragontrails.com",
     contactPhone: "+1-477-137-1477",
-  }
+  },
 ];

@@ -66,5 +66,5 @@ export const shanghaichinaasiaPacificCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "sven.johansson@paragontrails.com",
     contactPhone: "+1-595-806-6232",
-  }
+  },
 ];

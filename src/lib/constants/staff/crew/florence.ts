@@ -77,5 +77,5 @@ export const florenceitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "nadia.hussain@paragontrails.com",
     contactPhone: "+1-368-333-8569",
-  }
+  },
 ];

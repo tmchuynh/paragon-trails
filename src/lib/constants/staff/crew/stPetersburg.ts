@@ -39,7 +39,11 @@ export const stPetersburgrussianorthernEuropeCrew: CrewMember[] = [
     name: "Sven Johansson",
     role: "Dive Instructor",
     experienceYears: 5,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "Fire Safety"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Finnish", "Hungarian", "Thai"],
     isAvailable: true,
     contactEmail: "sven.johansson@paragontrails.com",
@@ -55,5 +59,5 @@ export const stPetersburgrussianorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "hiroshi.tanaka@paragontrails.com",
     contactPhone: "+1-161-943-8949",
-  }
+  },
 ];

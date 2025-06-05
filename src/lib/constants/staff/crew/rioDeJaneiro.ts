@@ -44,5 +44,5 @@ export const rioDeJaneirobrazilsouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "james.smith@paragontrails.com",
     contactPhone: "+1-805-977-4251",
-  }
+  },
 ];

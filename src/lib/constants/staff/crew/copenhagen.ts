@@ -44,5 +44,5 @@ export const copenhagendenmarknorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "fatima.hassan@paragontrails.com",
     contactPhone: "+1-772-755-4507",
-  }
+  },
 ];

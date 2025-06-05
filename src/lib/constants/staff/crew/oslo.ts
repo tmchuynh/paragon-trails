@@ -50,7 +50,11 @@ export const oslonorwaynorthernEuropeCrew: CrewMember[] = [
     name: "Olga Ivanova",
     role: "Dive Instructor",
     experienceYears: 21,
-    certifications: ["Hospitality Training", "Marine Radio Operator", "Fire Safety"],
+    certifications: [
+      "Hospitality Training",
+      "Marine Radio Operator",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Korean", "Swedish", "Thai"],
     isAvailable: true,
     contactEmail: "olga.ivanova@paragontrails.com",
@@ -77,5 +81,5 @@ export const oslonorwaynorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "pedro.santos@paragontrails.com",
     contactPhone: "+1-343-630-8189",
-  }
+  },
 ];
