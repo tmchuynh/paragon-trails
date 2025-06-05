@@ -114,7 +114,7 @@ export default function TourGuides() {
         // Check if the selected specialty matches a category name from our official categories
         const matchesName = specialties.some((specialty) => {
           const category = Object.values(tourCategoryMap).find(
-            (cat) => cat.title.toLowerCase() === specialty.toLowerCase()
+            (cat) => cat.title.toLowerCase() === specialty.toLowerCase(),
           );
           return category && category.id === selectedSpecialty;
         });
@@ -142,14 +142,17 @@ export default function TourGuides() {
 
   // Group tour guides by country for better organization
   const guidesByCountry = useMemo(() => {
-    return sortedTourGuides.reduce((acc, guide) => {
-      const country = guide.country || "Global";
-      if (!acc[country]) {
-        acc[country] = [];
-      }
-      acc[country].push(guide);
-      return acc;
-    }, {} as Record<string, typeof tourGuides>);
+    return sortedTourGuides.reduce(
+      (acc, guide) => {
+        const country = guide.country || "Global";
+        if (!acc[country]) {
+          acc[country] = [];
+        }
+        acc[country].push(guide);
+        return acc;
+      },
+      {} as Record<string, typeof tourGuides>,
+    );
   }, [sortedTourGuides]);
 
   // Sort countries alphabetically
@@ -164,7 +167,7 @@ export default function TourGuides() {
       ...new Set(
         tourGuides
           .filter((guide) => guide.country === selectedCountry)
-          .map((guide) => guide.city)
+          .map((guide) => guide.city),
       ),
     ].sort();
   }, [selectedCountry, allCities]);
@@ -324,8 +327,8 @@ export default function TourGuides() {
                         !tourCategories.some(
                           (cat) =>
                             cat.title.toLowerCase() ===
-                              specialty.toLowerCase() || cat.id === specialty
-                        )
+                              specialty.toLowerCase() || cat.id === specialty,
+                        ),
                     )
                     .map((specialty) => (
                       <SelectItem key={specialty} value={specialty}>
@@ -357,7 +360,7 @@ export default function TourGuides() {
               {sortedCountries.map((country) => (
                 <Button
                   key={`toc-${formatToSlug(country)}-${generateRandomString(
-                    5
+                    5,
                   )}`}
                   variant="outline"
                   size="sm"
@@ -375,7 +378,7 @@ export default function TourGuides() {
             const sortedTourGuides = groupAndSortByProperties(
               guidesByCountry[country],
               "city",
-              "name"
+              "name",
             );
 
             return (
@@ -421,7 +424,7 @@ export default function TourGuides() {
                             {guide.specialties &&
                               guide.specialties.map((specialty, index) => {
                                 const officialCategory = tourCategories.find(
-                                  (cat) => cat.id === specialty
+                                  (cat) => cat.id === specialty,
                                 );
                                 const displayName = officialCategory
                                   ? officialCategory.title
@@ -452,7 +455,7 @@ export default function TourGuides() {
                             className="mt-5 w-full"
                             onClick={() =>
                               router.push(
-                                `/luxurious-destinations/${guide.country}/${guide.city}/tours?city=${guide.city}&country=${guide.country}`
+                                `/luxurious-destinations/${guide.country}/${guide.city}/tours?city=${guide.city}&country=${guide.country}`,
                               )
                             }
                           >

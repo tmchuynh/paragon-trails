@@ -13,7 +13,7 @@ export default function HomePage() {
   const sortedDestinations = groupAndSortByProperties(
     cities,
     "isPopular",
-    "city"
+    "city",
   );
 
   const trailFeatures = [

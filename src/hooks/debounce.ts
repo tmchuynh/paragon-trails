@@ -8,7 +8,7 @@
  */
 export const debounce = (
   func: (...args: any[]) => void,
-  wait: number
+  wait: number,
 ): ((...args: any[]) => void) => {
   let timeout: NodeJS.Timeout;
   return (...args: any[]) => {
