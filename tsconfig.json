@@ -10,6 +10,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "allowImportingTsExtensions": true,
     "jsx": "preserve",
@@ -34,6 +35,19 @@
       "@hooks/*": ["src/hooks/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "scripts/generateTestimonials.mjs",
+    "scripts/generateTestimonials.js",
+    "scripts/generateTestimonials.mts",
+    "src/lib/constants/info/restaruants.js",
+    "scripts/create-city-folders.mts"
+  ],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true
+  }
 }
