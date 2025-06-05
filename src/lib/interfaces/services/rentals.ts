@@ -1,3 +1,5 @@
+import { TourRegion } from "./tours";
+
 export interface Yacht {
   id: string;
   name: string;
@@ -55,7 +57,7 @@ export interface Yacht {
   accessibilityFeatures?: string[]; // optional, e.g., ["Wheelchair Ramp"]
 }
 
-export type CateringOption =
+type CateringOption =
   | "Full-Service Catering"
   | "Self-Catering"
   | "Chef Onboard"
@@ -68,7 +70,7 @@ export type CateringOption =
   | "Local Cuisine Packages"
   | "No Catering";
 
-export type YachtAmenity =
+type YachtAmenity =
   | "Jacuzzi"
   | "Wi-Fi"
   | "Air Conditioning"
@@ -87,7 +89,7 @@ export type YachtAmenity =
   | "Stabilizers"
   | "Tender Garage";
 
-export type YachtEntertainment =
+type YachtEntertainment =
   | "Satellite TV"
   | "Bluetooth Speakers"
   | "Surround Sound System"
@@ -100,7 +102,7 @@ export type YachtEntertainment =
   | "Karaoke System"
   | "DJ Equipment";
 
-export type YachtWaterToy =
+type YachtWaterToy =
   | "Jet Ski"
   | "Paddleboards"
   | "Snorkeling Gear"
@@ -145,7 +147,7 @@ export interface LuxuryRentalCar {
   depositAmount?: number;
 }
 
-export type CarType =
+type CarType =
   | "Sedan"
   | "SUV"
   | "Convertible"
@@ -155,7 +157,7 @@ export type CarType =
   | "Hybrid"
   | "Limousine";
 
-export type CarFeature =
+type CarFeature =
   | "Leather Seats"
   | "GPS Navigation"
   | "Sunroof"
@@ -207,7 +209,7 @@ export interface Motorcycle {
   location?: string;
 }
 
-export type MotorcycleType =
+type MotorcycleType =
   | "cruiser"
   | "touring"
   | "sport"
@@ -216,7 +218,7 @@ export type MotorcycleType =
   | "scooter"
   | "custom";
 
-export type MotorcycleFeature =
+type MotorcycleFeature =
   | "ABS"
   | "GPS Navigation"
   | "Bluetooth Audio"
@@ -231,7 +233,7 @@ export type MotorcycleFeature =
   | "Phone Mount"
   | "Backrest";
 
-export type MotorcycleRequirement =
+type MotorcycleRequirement =
   | "Valid Motorcycle License"
   | "Minimum Age 21"
   | "Security Deposit Required"
@@ -244,3 +246,101 @@ export type MotorcycleRequirement =
   | "Local Riding Permit"
   | "Two-Wheel Experience"
   | "International Driving Permit (for foreign renters)";
+
+export interface Hotel {
+  id: string;
+  name: string;
+  description: string;
+  location: {
+    city: string;
+    country: string;
+    address: string;
+    latitude: number;
+    longitude: number;
+    region: TourRegion;
+  };
+  rating: number; // e.g., 4.5 stars
+  stars: number; // 1-5 hotel star rating
+  accommodationType: AccommodationType; // e.g., "Hotel", "Boutique Hotel"
+  amenities: AmenityType[];
+  accessibilityFeatures?: AccessibilityFeature[];
+  photos: string[]; // image URLs
+  checkInTime: string; // e.g., "15:00"
+  checkOutTime: string; // e.g., "11:00"
+  roomsAvailable: number;
+  maxGuests: number;
+  isPetFriendly?: boolean;
+  isFamilyFriendly?: boolean;
+  currency: string; // e.g., "USD", "EUR"
+  contact: {
+    phone?: string;
+    email?: string;
+    website?: string;
+  };
+  policies: {
+    cancellation: string;
+    smoking: "Allowed" | "Not Allowed" | "Designated Areas";
+    noise?: string;
+  };
+  featured?: boolean;
+  tags?: string[]; // e.g., ["romantic", "eco-friendly", "sea view"]
+}
+
+type AccommodationType =
+  | "Hotel"
+  | "Resort"
+  | "Boutique Hotel"
+  | "Hostel"
+  | "Bed and Breakfast"
+  | "Guesthouse"
+  | "Eco-Lodge";
+
+type AmenityType =
+  | "Free Wi-Fi"
+  | "Swimming Pool"
+  | "Fitness Center"
+  | "Spa"
+  | "Parking"
+  | "Restaurant"
+  | "Bar"
+  | "Room Service"
+  | "Airport Shuttle"
+  | "Pet Friendly"
+  | "Business Center";
+
+type AccessibilityFeature =
+  | "Wheelchair Accessible"
+  | "Elevator"
+  | "Accessible Bathroom"
+  | "Visual Aids"
+  | "Hearing Support";
+
+export interface RoomOption {
+  id: string;
+  name: string; // e.g. "Deluxe Suite", "Standard Room"
+  description?: string;
+  occupancy: {
+    adults: number;
+    children?: number;
+    maxGuests: number;
+  };
+  bedType: RoomBedType;
+  view?: RoomViewType;
+  amenities: AmenityType[];
+  accessibilityFeatures?: AccessibilityFeature[];
+  photos?: string[];
+  pricePerNight: number;
+  currency: string; // e.g. "USD"
+  refundable: boolean;
+  breakfastIncluded?: boolean;
+  availableCount: number; // how many rooms of this type are available
+}
+
+type RoomBedType = "Single" | "Double" | "Queen" | "King" | "Twin" | "Sofa Bed";
+
+type RoomViewType =
+  | "City View"
+  | "Ocean View"
+  | "Garden View"
+  | "Mountain View"
+  | "None";
