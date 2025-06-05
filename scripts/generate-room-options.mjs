@@ -1,6 +1,8 @@
 import * as fs from "fs/promises";
 import * as path from "path";
 import { formatTitleToCamelCase } from "./utils/format-utils.mjs";
+import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { roomThemesByCountry } from "./utils/shared-hotel-data.mjs";
 
 /**
  * Room Options Generator Script
@@ -131,14 +133,31 @@ function generateRoomOptions(hotel, index) {
   const roomOptions = [];
   const basePricePerNight = calculateBasePrice(hotel);
 
+  // Extract city from hotel.id (format is hotel-{city}-{index})
+  const cityMatch = hotel.id.match(/hotel-([^-]+)-/);
+  const city = cityMatch ? cityMatch[1] : null;
+
+  // Get country for this city
+  const country = city ? cityCountryMap[city] || "" : "";
+
+  // Get country-specific room themes or use default
+  const roomThemes =
+    roomThemesByCountry[country] || roomThemesByCountry["default"];
+
   // Generate different combinations of room types
   for (const bedType of getRandomSubset(bedTypes, 1, 4)) {
     for (const viewType of getRandomSubset(viewTypes, 1, 2)) {
       // Skip some combinations to have a varied set of rooms
       if (Math.random() < 0.3) continue;
 
-      const prefix =
-        roomPrefixes[Math.floor(Math.random() * roomPrefixes.length)];
+      // Use country-specific room theme with 70% probability
+      let prefix;
+      if (Math.random() < 0.7 && roomThemes.length > 0) {
+        prefix = roomThemes[Math.floor(Math.random() * roomThemes.length)];
+      } else {
+        prefix = roomPrefixes[Math.floor(Math.random() * roomPrefixes.length)];
+      }
+
       const suffix =
         roomSuffixes[Math.floor(Math.random() * roomSuffixes.length)];
       const name = `${prefix} ${bedType} ${suffix}`;
@@ -171,10 +190,16 @@ function generateRoomOptions(hotel, index) {
             )
           : undefined;
 
+      // Create a more descriptive room description using the theme
+      const description =
+        Math.random() < 0.7 && prefix !== roomPrefixes[0]
+          ? `Experience our ${prefix}-themed ${bedType.toLowerCase()} ${suffix.toLowerCase()} with ${viewType.toLowerCase()} and elegant amenities.`
+          : `Comfortable ${viewType.toLowerCase()} ${bedType.toLowerCase()} accommodation with modern amenities.`;
+
       roomOptions.push({
         id: `${hotel.id}-room-${index}`,
         name,
-        description: `Comfortable ${viewType.toLowerCase()} ${bedType.toLowerCase()} accommodation with modern amenities.`,
+        description,
         occupancy: {
           adults: calculateAdults(bedType),
           children:
@@ -495,7 +520,7 @@ function parseHotelObject(objString) {
     policies: {},
   };
 
-  // Extract ID
+  // Extract ID with improved regex to handle any city name format
   const idMatch = objString.match(/id:\s*"([^"]+)"/);
   if (idMatch) hotel.id = idMatch[1];
 
