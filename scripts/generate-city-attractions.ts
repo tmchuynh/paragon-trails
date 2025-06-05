@@ -5,6 +5,19 @@ import { cities } from "../src/lib/constants/info/city";
 import { City } from "../src/lib/interfaces/general";
 import { formatTitleToCamelCase, removeAccents } from "../src/lib/utils/format";
 
+// Utility functions for file operations
+// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
+// node generate-city-attractions.js --rewrite
+
+// Append Flag: Use --append N or -a N to add N new attractions to existing files
+// node generate-city-attractions.js --append 5
+
+// Price Range Flag: Use --price P or -p P to generate attractions with a specific price range
+// node generate-city-attractions.js --price "$$$"
+
+// Bonus City Filter: Added a --city flag to process only specific cities
+// node generate-city-attractions.js --city "Tokyo" --append 3 --price "$$$$"
+
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 const writeFile = promisify(fs.writeFile);
