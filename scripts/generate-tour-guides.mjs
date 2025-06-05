@@ -1,0 +1,746 @@
+import * as fs from "fs";
+import * as path from "path";
+import { promisify } from "util";
+import { getCityFiles } from "./utils/file-utils.mjs";
+import {
+  formatKebabToCamelCase,
+  formatTitleToCamelCase,
+  removeAccents,
+} from "./utils/format-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+
+// Utility functions for file operations
+// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
+// node scripts/generate-tour-guides.mjs --rewrite
+
+// Append Flag: Use --append N or -a N to add N new tour guides to existing files
+// node scripts/generate-tour-guides.mjs --append 5
+
+// City Filter: Use --city C or -c C to process only specific cities
+// node scripts/generate-tour-guides.mjs --city "Tokyo" --append 3
+
+const cities = getCityFiles();
+
+// Add check for empty cities array
+if (!cities || cities.length === 0) {
+  console.error("No cities found. Check the city-data.json file.");
+  process.exit(1);
+}
+
+const readdir = promisify(fs.readdir);
+const stat = promisify(fs.stat);
+const writeFile = promisify(fs.writeFile);
+const readFile = promisify(fs.readFile);
+const mkdir = promisify(fs.mkdir);
+const access = promisify(fs.access);
+
+// Parse command line arguments
+function parseCommandLineArgs() {
+  const options = {
+    rewrite: false,
+    append: null,
+    cityFilter: null,
+  };
+
+  const args = process.argv.slice(2);
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+
+    if (arg === "--rewrite" || arg === "-r") {
+      options.rewrite = true;
+    }
+
+    if ((arg === "--append" || arg === "-a") && i + 1 < args.length) {
+      const value = parseInt(args[++i]);
+      if (!isNaN(value) && value > 0) {
+        options.append = value;
+      }
+    }
+
+    if ((arg === "--city" || arg === "-c") && i + 1 < args.length) {
+      options.cityFilter = args[++i];
+    }
+  }
+
+  return options;
+}
+
+const options = parseCommandLineArgs();
+
+// Arrays for random data generation
+const firstNames = [
+  "James",
+  "Emma",
+  "Liam",
+  "Olivia",
+  "Noah",
+  "Ava",
+  "William",
+  "Sophia",
+  "Benjamin",
+  "Isabella",
+  "Elijah",
+  "Charlotte",
+  "Lucas",
+  "Mia",
+  "Mason",
+  "Amelia",
+  "Logan",
+  "Harper",
+  "Alexander",
+  "Evelyn",
+  "Ethan",
+  "Abigail",
+  "Jacob",
+  "Emily",
+  "Michael",
+  "Sofia",
+  "Daniel",
+  "Ella",
+  "Henry",
+  "Madison",
+  "Jackson",
+  "Scarlett",
+  "Sebastian",
+  "Victoria",
+  "Aiden",
+  "Aria",
+  "Matthew",
+  "Grace",
+  "Samuel",
+  "Chloe",
+  "David",
+  "Lily",
+  "Joseph",
+  "Layla",
+  "Carter",
+  "Zoe",
+  "Owen",
+  "Penelope",
+  "Wyatt",
+  "Riley",
+];
+
+const lastNames = [
+  "Smith",
+  "Johnson",
+  "Williams",
+  "Brown",
+  "Jones",
+  "Garcia",
+  "Miller",
+  "Davis",
+  "Rodriguez",
+  "Martinez",
+  "Hernandez",
+  "Lopez",
+  "Gonzalez",
+  "Wilson",
+  "Anderson",
+  "Thomas",
+  "Taylor",
+  "Moore",
+  "Jackson",
+  "Martin",
+  "Lee",
+  "Perez",
+  "Thompson",
+  "White",
+  "Harris",
+  "Sanchez",
+  "Clark",
+  "Ramirez",
+  "Lewis",
+  "Robinson",
+  "Walker",
+  "Young",
+  "Allen",
+  "King",
+  "Wright",
+  "Scott",
+  "Torres",
+  "Nguyen",
+  "Hill",
+  "Flores",
+  "Green",
+  "Adams",
+  "Nelson",
+  "Baker",
+  "Hall",
+  "Rivera",
+  "Campbell",
+  "Mitchell",
+  "Carter",
+  "Roberts",
+];
+
+const certifications = [
+  "Professional Tour Guide Association",
+  "Certified International Tour Manager",
+  "Wilderness First Responder",
+  "Licensed City Guide",
+  "Cultural Heritage Specialist",
+  "Sustainable Tourism Certificate",
+  "Food Safety Certification",
+  "CPR & First Aid",
+  "Language Proficiency Certification",
+  "Local History Certification",
+  "Adventure Tourism Safety Certificate",
+  "Urban Navigation Specialist",
+  "Regional Tourism Ambassador",
+  "Heritage Interpretation Certificate",
+  "Eco-Tourism Guide",
+];
+
+const languages = [
+  "English",
+  "Spanish",
+  "French",
+  "German",
+  "Italian",
+  "Japanese",
+  "Mandarin",
+  "Cantonese",
+  "Korean",
+  "Russian",
+  "Portuguese",
+  "Arabic",
+  "Hindi",
+  "Dutch",
+  "Swedish",
+  "Norwegian",
+  "Danish",
+  "Finnish",
+  "Greek",
+  "Turkish",
+  "Polish",
+  "Czech",
+  "Hungarian",
+  "Thai",
+  "Vietnamese",
+  "Indonesian",
+  "Malay",
+  "Tagalog",
+  "Swahili",
+  "Hebrew",
+  "Croatian",
+  "Serbian",
+  "Bulgarian",
+  "Romanian",
+];
+
+const specialties = [
+  "Local Cuisine",
+  "Historical Landmarks",
+  "Architecture",
+  "Art Galleries",
+  "Hidden Gems",
+  "Nightlife",
+  "Photography Spots",
+  "Street Food",
+  "Urban Legends",
+  "Local Markets",
+  "Wildlife",
+  "Religious Sites",
+  "Museums",
+  "Parks & Gardens",
+  "Public Transportation Navigation",
+  "Cultural Etiquette",
+  "Family Activities",
+  "Adventure Sports",
+  "Local Craftsmanship",
+  "Music Scene",
+  "Wine Tasting",
+  "Film Locations",
+  "Sustainable Tourism",
+  "LGBTQ+ History",
+  "Indigenous Culture",
+];
+
+const specialTraining = [
+  "Emergency Response",
+  "Conflict Resolution",
+  "Group Management",
+  "Public Speaking",
+  "Cultural Sensitivity",
+  "Local Flora & Fauna",
+  "Regional Geology",
+  "Archaeological Conservation",
+  "Accessibility Services",
+  "Photography",
+  "Local Transit Systems",
+  "Regional Cuisine",
+  "Wine Education",
+  "Art History",
+  "Historical Research Methods",
+  "Religious Studies",
+  "Urban Planning",
+  "Marine Biology",
+  "Mountain Survival",
+  "Desert Navigation",
+];
+
+const tourRegions = [
+  "Asia Pacific",
+  "Northern Europe",
+  "Mediterranean",
+  "East Coast USA",
+  "South America",
+  "Africa",
+  "Caribbean",
+  "Middle East",
+  "West Coast USA",
+  "East Coast Canada",
+  "Alaska",
+];
+
+const tourTypes = [
+  "Walking Tour",
+  "Bike Tour",
+  "Boat Tour",
+  "Food Tour",
+  "Wine Tour",
+  "Brewery Tour",
+  "Cultural Tour",
+  "Historical Tour",
+  "Religious Tour",
+  "Museum Tour",
+  "Nature Tour",
+  "Wildlife Safari",
+  "Photography Tour",
+  "Architecture Tour",
+  "Underground Tour",
+  "Ghost Tour",
+  "Street Art Tour",
+  "Shopping Tour",
+  "Scenic Tour",
+  "Eco Tour",
+  "Adventure Tour",
+  "Off-Road Tour",
+  "Helicopter Tour",
+  "Luxury Tour",
+  "Private Tour",
+  "Group Tour",
+  "Self-Guided Tour",
+  "Audio Tour",
+  "Accessible Tour",
+  "Cruise Excursion",
+  "Festival Tour",
+  "Market Tour",
+  "Farm Visit",
+  "Craft Workshop",
+  "Cooking Class",
+  "Relocation Tour",
+  "LGBTQ+ Friendly Tour",
+  "Family-Friendly Tour",
+  "Romantic Tour",
+];
+
+const weekDays = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+
+// Generate a random tour guide
+function generateTourGuide(city, index) {
+  const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
+  const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+  const name = `${firstName} ${lastName}`;
+  const countryName = cityCountryMap[city] || "Unknown Country";
+  const regionName = cityToRegionMap[city] || "Unknown Region";
+  const id = `guide-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
+
+  // Generate random certifications
+  const numCertifications = Math.floor(Math.random() * 3) + 1;
+  const guideCertifications = Array.from(
+    new Set(
+      Array(numCertifications)
+        .fill(0)
+        .map(
+          () =>
+            certifications[Math.floor(Math.random() * certifications.length)]
+        )
+    )
+  );
+
+  // Generate random languages
+  const numLanguages = Math.floor(Math.random() * 3) + 1;
+  const guideLanguages = Array.from(
+    new Set(
+      Array(numLanguages)
+        .fill(0)
+        .map(() => languages[Math.floor(Math.random() * languages.length)])
+    )
+  );
+
+  // Generate random specialties
+  const numSpecialties = Math.floor(Math.random() * 4) + 1;
+  const guideSpecialties = Array.from(
+    new Set(
+      Array(numSpecialties)
+        .fill(0)
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
+    )
+  );
+
+  // Generate random special training
+  const numTraining = Math.floor(Math.random() * 3);
+  const guideTraining = Array.from(
+    new Set(
+      Array(numTraining)
+        .fill(0)
+        .map(
+          () =>
+            specialTraining[Math.floor(Math.random() * specialTraining.length)]
+        )
+    )
+  );
+
+  // Generate random tour regions covered
+  const numRegions = Math.floor(Math.random() * 2) + 1;
+  const regionsCovered = Array.from(
+    new Set(
+      Array(numRegions)
+        .fill(0)
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
+    )
+  );
+
+  // Generate random tour types
+  const numTypes = Math.floor(Math.random() * 4) + 2;
+  const guideTypes = Array.from(
+    new Set(
+      Array(numTypes)
+        .fill(0)
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
+    )
+  );
+
+  // Generate random weekly availability
+  const numAvailableDays = Math.floor(Math.random() * 4) + 3; // 3-6 days available
+  const availableDays = Array.from(
+    new Set(
+      Array(numAvailableDays)
+        .fill(0)
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
+    )
+  );
+
+  const available = availableDays.map((day) => {
+    // Generate 1-2 time slots for each day
+    const numSlots = Math.floor(Math.random() * 2) + 1;
+    const slots = [];
+
+    for (let i = 0; i < numSlots; i++) {
+      // Generate start time (8AM - 3PM)
+      const startHour = Math.floor(Math.random() * 8) + 8;
+      const startTime = `${startHour < 10 ? "0" + startHour : startHour}:00`;
+
+      // Generate duration (2-6 hours)
+      const duration = Math.floor(Math.random() * 5) + 2;
+      const endHour = startHour + duration;
+      const endTime = `${endHour < 10 ? "0" + endHour : endHour}:00`;
+
+      slots.push({ from: startTime, to: endTime });
+    }
+
+    return {
+      day,
+      availableHours: slots,
+    };
+  });
+
+  // Generate bio
+  const bio = `${firstName} is a passionate tour guide with extensive knowledge of ${city} and ${countryName}. Specializing in ${guideSpecialties.join(", ")}, ${firstName} provides authentic and engaging experiences for visitors of all backgrounds.`;
+
+  // Generate phone number
+  const phoneNumber = `+1-${Math.floor(100 + Math.random() * 900)}-${Math.floor(100 + Math.random() * 900)}-${Math.floor(1000 + Math.random() * 9000)}`;
+
+  // Generate email
+  const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}@paragontrails.com`;
+
+  // Generate license number
+  const licenseNumber = `LIC-${Math.floor(1000 + Math.random() * 9000)}-${city.substring(0, 3).toUpperCase()}`;
+
+  // Generate random quote
+  const quotes = [
+    `The best way to discover ${city} is with someone who lives and breathes its culture.`,
+    `Every corner of ${city} tells a story, let me share them with you.`,
+    `${city} isn't just a destination, it's an experience that stays with you forever.`,
+    `My goal is to help you fall in love with ${city} just as I have.`,
+    `In ${city}, we don't just see the sights - we make memories.`,
+  ];
+  const quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  return {
+    id,
+    name,
+    city,
+    country: countryName,
+    state: "",
+    region: regionName,
+    isPopular: Math.random() > 0.7, // 30% chance of being popular
+    bio,
+    regionsCovered,
+    tourTypes: guideTypes,
+    maxGroupSize: Math.floor(Math.random() * 15) + 5, // 5-20 people
+    licenseNumber,
+    phoneNumber,
+    contactEmail: email,
+    available,
+    isCertified: guideCertifications.length > 0,
+    description: bio, // Using bio as description for simplicity
+    rating: parseFloat((3.5 + Math.random() * 1.5).toFixed(1)), // 3.5-5.0 rating
+    reviewsCount: Math.floor(Math.random() * 100) + 5, // 5-105 reviews
+    quote,
+    profileImage: `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? "men" : "women"}/${Math.floor(Math.random() * 80)}.jpg`,
+    languages: guideLanguages,
+    experienceYears: Math.floor(Math.random() * 15) + 2, // 2-17 years experience
+    certifications: guideCertifications,
+    specialties: guideSpecialties,
+    specialTraining: guideTraining,
+  };
+}
+
+// Check if directory exists, create if needed
+async function ensureDirectoryExists(dirPath) {
+  try {
+    await access(dirPath);
+  } catch {
+    await mkdir(dirPath, { recursive: true });
+    console.log(`Created directory: ${dirPath}`);
+  }
+}
+
+// Check if file exists
+async function fileExists(filePath) {
+  try {
+    await access(filePath, fs.constants.F_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// Extract existing tour guides from a file
+async function extractExistingTourGuides(filePath) {
+  try {
+    // Read file content
+    const content = await readFile(filePath, "utf-8");
+
+    // Extract the array part using a simple regex approach
+    const match = content.match(
+      /export const \w+: TourGuide\[\] = \[([\s\S]*?)\];/
+    );
+    if (!match || !match[1]) return [];
+
+    // Parse the array items
+    const itemsText = match[1].trim();
+    if (!itemsText) return [];
+
+    // Split by object boundaries and parse each tour guide
+    const items = [];
+    let bracketCount = 0;
+    let currentItem = "";
+
+    for (let i = 0; i < itemsText.length; i++) {
+      const char = itemsText[i];
+
+      if (char === "{") bracketCount++;
+      if (char === "}") bracketCount--;
+
+      currentItem += char;
+
+      if (bracketCount === 0 && currentItem.trim()) {
+        // We've found a complete object
+        try {
+          // Convert the text to an actual object (this is a simplified approach)
+          const cleanedItem = currentItem.replace(/,\s*$/, ""); // Remove trailing comma
+
+          // Use Function constructor to evaluate the object expression safely
+          // This is a simplified approach and may not handle all edge cases
+          const obj = new Function(`return ${cleanedItem}`)();
+          items.push(obj);
+          currentItem = "";
+        } catch (e) {
+          console.warn("Failed to parse tour guide:", e);
+          currentItem = "";
+        }
+      }
+    }
+
+    return items;
+  } catch (e) {
+    console.error("Error extracting tour guides:", e);
+    return [];
+  }
+}
+
+// Generate tour guides and write to file
+async function generateCityGuideFile(city) {
+  const countryName = cityCountryMap[city] || "";
+  const regionName = cityToRegionMap[city] || "";
+
+  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
+  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
+
+  const formattedName = formatKebabToCamelCase(removeAccents(city));
+
+  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Guides`;
+
+  const destDir = path.join(
+    process.cwd(),
+    "src",
+    "lib",
+    "constants",
+    "staff",
+    "guides"
+  );
+  const filePath = path.join(destDir, `${formattedName}.ts`);
+
+  // Check if directory exists
+  await ensureDirectoryExists(destDir);
+
+  // Check if file exists
+  const exists = await fileExists(filePath);
+
+  // Handle existing file based on options
+  let guides = [];
+  if (exists) {
+    if (options.rewrite) {
+      console.log(`Rewriting existing file: ${filePath}`);
+    } else if (options.append) {
+      console.log(`Appending ${options.append} guides to: ${filePath}`);
+      guides = await extractExistingTourGuides(filePath);
+    } else {
+      console.log(
+        `File already exists (use --rewrite to replace): ${filePath}`
+      );
+      return;
+    }
+  }
+
+  // Generate tour guides
+  const numNewGuides = options.append || Math.floor(Math.random() * 6) + 3; // 3-8 guides
+  const newGuides = Array(numNewGuides)
+    .fill(0)
+    .map((_, index) => generateTourGuide(city, guides.length + index));
+
+  // Combine existing and new guides
+  guides = guides.concat(newGuides);
+
+  // Create file content with proper formatting
+  let content = `import { TourGuide } from "@/lib/interfaces/people/staff";\n\n`;
+  content += `export const ${variableName}: TourGuide[] = [\n`;
+
+  guides.forEach((guide, index) => {
+    content += `  {\n`;
+    for (const [key, value] of Object.entries(guide)) {
+      if (typeof value === "string") {
+        content += `    ${key}: "${value}",\n`;
+      } else if (Array.isArray(value)) {
+        if (value.length > 0 && typeof value[0] === "object") {
+          // Handle weeklyAvailability array of objects
+          content += `    ${key}: [\n`;
+          value.forEach((item, i) => {
+            content += `      {\n`;
+            for (const [subKey, subValue] of Object.entries(item)) {
+              if (Array.isArray(subValue)) {
+                content += `        ${subKey}: [\n`;
+                subValue.forEach((slot, j) => {
+                  content += `          {\n`;
+                  for (const [slotKey, slotValue] of Object.entries(slot)) {
+                    content += `            ${slotKey}: "${slotValue}",\n`;
+                  }
+                  content += `          }${j < subValue.length - 1 ? "," : ""}\n`;
+                });
+                content += `        ],\n`;
+              } else {
+                content += `        ${subKey}: "${subValue}",\n`;
+              }
+            }
+            content += `      }${i < value.length - 1 ? "," : ""}\n`;
+          });
+          content += `    ],\n`;
+        } else {
+          // Handle regular string arrays
+          content += `    ${key}: [${value
+            .map((item) => `"${item}"`)
+            .join(", ")}],\n`;
+        }
+      } else if (typeof value === "number" || typeof value === "boolean") {
+        content += `    ${key}: ${value},\n`;
+      } else if (value === null) {
+        content += `    ${key}: null,\n`;
+      } else if (value === undefined) {
+        // Skip undefined values
+      } else {
+        content += `    ${key}: ${JSON.stringify(value)},\n`;
+      }
+    }
+    content += `  }${index < guides.length - 1 ? "," : ""}\n`;
+  });
+
+  content += `];\n`;
+
+  // Write file
+  await writeFile(filePath, content);
+  console.log(
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+  );
+}
+
+// Main function to process all cities
+async function generateAllCityGuideFiles() {
+  let citiesToProcess = cities;
+
+  // Filter by city name if specified
+  if (options.cityFilter) {
+    const filterLower = options.cityFilter.toLowerCase();
+    citiesToProcess = cities.filter((city) =>
+      city.toLowerCase().includes(filterLower)
+    );
+
+    if (citiesToProcess.length === 0) {
+      console.log(`No cities found matching: ${options.cityFilter}`);
+      return;
+    }
+
+    console.log(
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+    );
+  }
+
+  for (const city of citiesToProcess) {
+    try {
+      await generateCityGuideFile(city);
+    } catch (error) {
+      console.error(`Error generating file for ${city}:`, error);
+    }
+  }
+}
+
+// Execute the script
+generateAllCityGuideFiles()
+  .then(() => console.log("Tour guide files generated successfully!"))
+  .catch((error) => console.error("Error generating tour guide files:", error));
+
+// Print usage information
+console.log(`
+Usage: node generate-tour-guides.mjs [options]
+
+Options:
+  --rewrite, -r       Rewrite existing files instead of skipping them
+  --append N, -a N    Append N new tour guides to existing files
+  --city C, -c C      Process only cities matching the search term
+
+Examples:
+  node generate-tour-guides.mjs --rewrite
+  node generate-tour-guides.mjs --append 3
+  node generate-tour-guides.mjs --city "Paris" --append 2
+`);
