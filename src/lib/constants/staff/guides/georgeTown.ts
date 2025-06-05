@@ -3,375 +3,387 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
   {
     id: "guide-george-town-1",
-    name: "Elijah Smith",
-    city: "george-town",
+    name: "Henry Ramirez",
+    city: "George Town",
+    country: "Cayman Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Henry is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Local Markets, Adventure Sports, Local Craftsmanship, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "West Coast USA"],
+    tourTypes: ["Eco Tour", "Cooking Class"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5723-GEO",
+    phoneNumber: "+1-861-334-5800",
+    contactEmail: "henry.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Local Markets, Adventure Sports, Local Craftsmanship, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 55,
+    quote: "George Town isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
+    languages: ["Vietnamese", "Russian"],
+    experienceYears: 3,
+    certifications: ["Cultural Heritage Specialist", "Food Safety Certification", "Local History Certification"],
+    specialties: ["Local Markets", "Adventure Sports", "Local Craftsmanship"],
+    specialTraining: ["Accessibility Services", "Art History"],
+  },
+  {
+    id: "guide-george-town-2",
+    name: "Wyatt Martin",
+    city: "George Town",
     country: "Cayman Islands",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Historical Landmarks, Parks & Gardens, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Northern Europe"],
-    tourTypes: ["Luxury Tour", "Market Tour", "Wine Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7012-GEO",
-    phoneNumber: "+1-148-285-5108",
-    contactEmail: "elijah.smith@paragontrails.com",
+    bio: "Wyatt is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Museums, LGBTQ+ History, Local Craftsmanship, Public Transportation Navigation, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Mediterranean"],
+    tourTypes: ["Accessible Tour", "Cruise Excursion", "Bike Tour", "Helicopter Tour", "Private Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-7387-GEO",
+    phoneNumber: "+1-636-792-2363",
+    contactEmail: "wyatt.martin@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wyatt is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Museums, LGBTQ+ History, Local Craftsmanship, Public Transportation Navigation, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 30,
+    quote: "Every corner of George Town tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["French", "Dutch"],
+    experienceYears: 10,
+    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide", "Food Safety Certification"],
+    specialties: ["Museums", "LGBTQ+ History", "Local Craftsmanship", "Public Transportation Navigation"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-george-town-3",
+    name: "Penelope Carter",
+    city: "George Town",
+    country: "Cayman Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Penelope is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wildlife, Wine Tasting, Local Craftsmanship, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Museum Tour", "Walking Tour", "Relocation Tour", "Cruise Excursion", "Market Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-8446-GEO",
+    phoneNumber: "+1-358-159-3779",
+    contactEmail: "penelope.carter@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
           },
           {
-            from: "13:00",
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Penelope is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wildlife, Wine Tasting, Local Craftsmanship, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 34,
+    quote: "George Town isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["Malay"],
+    experienceYears: 2,
+    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    specialties: ["Wildlife", "Wine Tasting", "Local Craftsmanship"],
+    specialTraining: ["Desert Navigation"],
+  },
+  {
+    id: "guide-george-town-4",
+    name: "Ella King",
+    city: "George Town",
+    country: "Cayman Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "East Coast USA"],
+    tourTypes: ["Walking Tour", "Group Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6015-GEO",
+    phoneNumber: "+1-305-773-3524",
+    contactEmail: "ella.king@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
             to: "17:00",
           },
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ella is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 98,
+    quote: "My goal is to help you fall in love with George Town just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
+    languages: ["Swahili", "Greek", "Spanish"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-george-town-5",
+    name: "Harper Carter",
+    city: "George Town",
+    country: "Cayman Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Harper is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Africa"],
+    tourTypes: ["Nature Tour", "Cultural Tour", "Audio Tour", "Cruise Excursion"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1192-GEO",
+    phoneNumber: "+1-146-899-2800",
+    contactEmail: "harper.carter@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Harper is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 55,
+    quote: "My goal is to help you fall in love with George Town just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    languages: ["Arabic", "German"],
+    experienceYears: 12,
+    certifications: ["Professional Tour Guide Association", "Certified International Tour Manager", "Regional Tourism Ambassador"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Mountain Survival", "Desert Navigation"],
+  },
+  {
+    id: "guide-george-town-6",
+    name: "Grace Williams",
+    city: "George Town",
+    country: "Cayman Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Grace is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wine Tasting, Sustainable Tourism, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Family-Friendly Tour", "Private Tour", "Boat Tour", "Relocation Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-8917-GEO",
+    phoneNumber: "+1-897-476-7988",
+    contactEmail: "grace.williams@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
             from: "08:00",
             to: "10:00",
           },
           {
             from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Historical Landmarks, Parks & Gardens, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 64,
-    quote:
-      "Every corner of george-town tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Cantonese", "Danish", "Dutch"],
-    experienceYears: 15,
-    certifications: ["Local History Certification"],
-    specialties: ["Historical Landmarks", "Parks & Gardens"],
-    specialTraining: ["Marine Biology"],
-  },
-  {
-    id: "guide-george-town-2",
-    name: "Liam Scott",
-    city: "george-town",
-    country: "Cayman Islands",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Liam is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Sustainable Tourism, Architecture, Art Galleries, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "East Coast Canada"],
-    tourTypes: ["Photography Tour", "Food Tour", "Group Tour", "Audio Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-3588-GEO",
-    phoneNumber: "+1-230-262-3890",
-    contactEmail: "liam.scott@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
             to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Liam is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Sustainable Tourism, Architecture, Art Galleries, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 40,
-    quote:
-      "The best way to discover george-town is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    languages: ["Romanian"],
-    experienceYears: 4,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: ["Sustainable Tourism", "Architecture", "Art Galleries"],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-george-town-3",
-    name: "Sophia Sanchez",
-    city: "george-town",
-    country: "Cayman Islands",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Sophia is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Adventure Sports, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Caribbean"],
-    tourTypes: [
-      "Boat Tour",
-      "Market Tour",
-      "Relocation Tour",
-      "Cultural Tour",
-      "Helicopter Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-2592-GEO",
-    phoneNumber: "+1-466-908-4340",
-    contactEmail: "sophia.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Sophia is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Adventure Sports, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 84,
-    quote:
-      "The best way to discover george-town is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Mandarin"],
-    experienceYears: 6,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Cultural Heritage Specialist",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Archaeological Conservation", "Accessibility Services"],
-  },
-  {
-    id: "guide-george-town-4",
-    name: "Jackson Adams",
-    city: "george-town",
-    country: "Cayman Islands",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Film Locations, Music Scene, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Northern Europe"],
-    tourTypes: ["Ghost Tour", "Photography Tour", "Cruise Excursion"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-5770-GEO",
-    phoneNumber: "+1-936-863-9142",
-    contactEmail: "jackson.adams@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Film Locations, Music Scene, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 36,
-    quote:
-      "The best way to discover george-town is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    languages: ["Turkish", "Cantonese", "Norwegian"],
-    experienceYears: 6,
-    certifications: [
-      "Local History Certification",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Film Locations", "Music Scene"],
-    specialTraining: ["Urban Planning", "Desert Navigation"],
-  },
-  {
-    id: "guide-george-town-5",
-    name: "Aria Rodriguez",
-    city: "george-town",
-    country: "Cayman Islands",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Aria is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Family-Friendly Tour", "Accessible Tour", "Nature Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-5974-GEO",
-    phoneNumber: "+1-790-324-2361",
-    contactEmail: "aria.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
+            from: "12:00",
+            to: "17:00",
           },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
           {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "08:00",
+            to: "12:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of george-town and Cayman Islands. Specializing in Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 18,
-    quote:
-      "Every corner of george-town tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Hungarian"],
-    experienceYears: 3,
-    certifications: [
-      "Wilderness First Responder",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["Architecture"],
-    specialTraining: ["Local Flora & Fauna", "Regional Cuisine"],
-  },
+    description: "Grace is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wine Tasting, Sustainable Tourism, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 26,
+    quote: "My goal is to help you fall in love with George Town just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+    languages: ["Arabic", "Indonesian", "Bulgarian"],
+    experienceYears: 7,
+    certifications: ["Heritage Interpretation Certificate", "Professional Tour Guide Association", "CPR & First Aid"],
+    specialties: ["Wine Tasting", "Sustainable Tourism"],
+    specialTraining: [],
+  }
 ];

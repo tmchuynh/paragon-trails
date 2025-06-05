@@ -3,364 +3,229 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const baliindonesiaasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-bali-1",
-    name: "Matthew Wright",
-    city: "bali",
+    name: "David Moore",
+    city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Asia Pacific",
-    isPopular: true,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Mediterranean"],
-    tourTypes: ["Group Tour", "Nature Tour", "Relocation Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2925-BAL",
-    phoneNumber: "+1-143-564-5777",
-    contactEmail: "matthew.wright@paragontrails.com",
+    isPopular: false,
+    bio: "David is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Northern Europe"],
+    tourTypes: ["Food Tour", "Farm Visit"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-6156-BAL",
+    phoneNumber: "+1-794-165-9756",
+    contactEmail: "david.moore@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
             from: "13:00",
-            to: "16:00",
+            to: "18:00",
           },
           {
             from: "14:00",
             to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 34,
-    quote: "My goal is to help you fall in love with bali just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 11,
-    certifications: [
-      "Local History Certification",
-      "Sustainable Tourism Certificate",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Parks & Gardens"],
-    specialTraining: ["Religious Studies", "Emergency Response"],
-  },
-  {
-    id: "guide-bali-2",
-    name: "Liam Baker",
-    city: "bali",
-    country: "Indonesia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Liam is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Photography Spots, Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Group Tour", "Festival Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8499-BAL",
-    phoneNumber: "+1-584-217-2976",
-    contactEmail: "liam.baker@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Liam is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Photography Spots, Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 15,
-    quote: "In bali, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    languages: ["Mandarin", "Serbian", "Croatian"],
-    experienceYears: 14,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Photography Spots", "Indigenous Culture"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-bali-3",
-    name: "Harper Roberts",
-    city: "bali",
-    country: "Indonesia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Historical Landmarks, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: [
-      "Family-Friendly Tour",
-      "Market Tour",
-      "Wildlife Safari",
-      "Shopping Tour",
-      "Accessible Tour",
-    ],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-4988-BAL",
-    phoneNumber: "+1-189-943-2321",
-    contactEmail: "harper.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          },
+            from: "15:00",
+            to: "18:00",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "08:00",
-            to: "14:00",
+            from: "10:00",
+            to: "13:00",
           },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "David is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 56,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+    languages: ["German", "Romanian", "French"],
+    experienceYears: 6,
+    certifications: ["Licensed City Guide", "Certified International Tour Manager"],
+    specialties: ["Local Cuisine"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-bali-2",
+    name: "Joseph Flores",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "South America"],
+    tourTypes: ["Walking Tour", "Private Tour", "Shopping Tour", "Off-Road Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-8940-BAL",
+    phoneNumber: "+1-600-198-5600",
+    contactEmail: "joseph.flores@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
           {
             from: "15:00",
             to: "20:00",
           },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
+            from: "09:00",
+            to: "11:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Historical Landmarks, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 61,
-    quote:
-      "bali isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    languages: ["Vietnamese", "Mandarin", "Portuguese"],
-    experienceYears: 11,
-    certifications: [
-      "Local History Certification",
-      "Language Proficiency Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: [
-      "LGBTQ+ History",
-      "Historical Landmarks",
-      "Cultural Etiquette",
-    ],
-    specialTraining: ["Public Speaking"],
+    description: "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 82,
+    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
+    languages: ["Japanese", "Swedish"],
+    experienceYears: 10,
+    certifications: ["Regional Tourism Ambassador", "Licensed City Guide"],
+    specialties: ["Local Markets", "Adventure Sports"],
+    specialTraining: ["Desert Navigation", "Cultural Sensitivity"],
   },
   {
-    id: "guide-bali-4",
-    name: "Harper Roberts",
-    city: "bali",
+    id: "guide-bali-3",
+    name: "Olivia Scott",
+    city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Historical Landmarks, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: [
-      "Self-Guided Tour",
-      "Festival Tour",
-      "Relocation Tour",
-      "Helicopter Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-4980-BAL",
-    phoneNumber: "+1-320-445-1671",
-    contactEmail: "harper.roberts@paragontrails.com",
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Food Tour", "Cruise Excursion", "Nature Tour", "Romantic Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-7186-BAL",
+    phoneNumber: "+1-567-510-1162",
+    contactEmail: "olivia.scott@paragontrails.com",
     available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "11:00",
-            to: "17:00",
-          },
+            from: "12:00",
+            to: "16:00",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00",
-          },
+            from: "14:00",
+            to: "16:00",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
+            from: "15:00",
+            to: "18:00",
           },
           {
-            from: "11:00",
-            to: "17:00",
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
           },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00",
+            from: "14:00",
+            to: "18:00",
           },
           {
             from: "12:00",
             to: "18:00",
-          },
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Historical Landmarks, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 42,
-    quote:
-      "The best way to discover bali is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
-    languages: ["Romanian", "Vietnamese", "Hindi"],
-    experienceYears: 7,
-    certifications: ["Local History Certification", "Licensed City Guide"],
-    specialties: ["Historical Landmarks"],
-    specialTraining: [],
+    description: "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 84,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Indonesian"],
+    experienceYears: 11,
+    certifications: ["Local History Certification"],
+    specialties: ["Photography Spots", "Parks & Gardens", "Street Food"],
+    specialTraining: ["Conflict Resolution", "Public Speaking"],
   },
   {
-    id: "guide-bali-5",
-    name: "Ava Brown",
-    city: "bali",
+    id: "guide-bali-4",
+    name: "Noah Brown",
+    city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Ava is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Family Activities, Religious Sites, Historical Landmarks, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Mediterranean"],
-    tourTypes: ["Group Tour", "Nature Tour", "Boat Tour", "Brewery Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5875-BAL",
-    phoneNumber: "+1-446-684-8567",
-    contactEmail: "ava.brown@paragontrails.com",
+    bio: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Northern Europe"],
+    tourTypes: ["Museum Tour", "Nature Tour", "Photography Tour", "Cultural Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-6688-BAL",
+    phoneNumber: "+1-244-529-6537",
+    contactEmail: "noah.brown@paragontrails.com",
     available: [
       {
         day: "Sunday",
@@ -368,129 +233,346 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Ava is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in Family Activities, Religious Sites, Historical Landmarks, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 43,
-    quote: "Every corner of bali tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    languages: ["Japanese", "Swedish"],
-    experienceYears: 4,
-    certifications: [
-      "Wilderness First Responder",
-      "Heritage Interpretation Certificate",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: [
-      "Family Activities",
-      "Religious Sites",
-      "Historical Landmarks",
-    ],
-    specialTraining: ["Accessibility Services", "Local Transit Systems"],
-  },
-  {
-    id: "guide-bali-6",
-    name: "Jackson Nelson",
-    city: "bali",
-    country: "Indonesia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Film Locations, Architecture, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Self-Guided Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-4169-BAL",
-    phoneNumber: "+1-813-585-6847",
-    contactEmail: "jackson.nelson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "15:00",
+            from: "13:00",
             to: "17:00",
           },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
+            from: "13:00",
+            to: "17:00",
           },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
         ],
       },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of bali and Indonesia. Specializing in LGBTQ+ History, Film Locations, Architecture, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 55,
-    quote: "My goal is to help you fall in love with bali just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    languages: ["Hindi"],
-    experienceYears: 6,
-    certifications: ["Heritage Interpretation Certificate", "CPR & First Aid"],
-    specialties: ["LGBTQ+ History", "Film Locations", "Architecture"],
-    specialTraining: ["Public Speaking"],
+    description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 33,
+    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+    languages: ["Arabic", "Spanish", "Polish"],
+    experienceYears: 11,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Art Galleries", "Wildlife", "Sustainable Tourism", "Local Cuisine"],
+    specialTraining: ["Religious Studies", "Photography"],
   },
+  {
+    id: "guide-bali-5",
+    name: "Noah Taylor",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Architecture Tour", "Cooking Class"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3076-BAL",
+    phoneNumber: "+1-967-857-3811",
+    contactEmail: "noah.taylor@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 17,
+    quote: "My goal is to help you fall in love with Bali just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+    languages: ["Spanish", "Turkish", "Danish"],
+    experienceYears: 16,
+    certifications: ["CPR & First Aid", "Licensed City Guide"],
+    specialties: ["Street Food", "Photography Spots"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-bali-6",
+    name: "Sophia Lewis",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Scenic Tour", "Cooking Class", "Cultural Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-9024-BAL",
+    phoneNumber: "+1-794-116-5644",
+    contactEmail: "sophia.lewis@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sophia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 40,
+    quote: "Every corner of Bali tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+    languages: ["Tagalog", "Finnish"],
+    experienceYears: 3,
+    certifications: ["Licensed City Guide", "Food Safety Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Film Locations"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bali-7",
+    name: "Victoria Hernandez",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Victoria is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Sustainable Tourism, Art Galleries, Adventure Sports, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Adventure Tour", "LGBTQ+ Friendly Tour", "Boat Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-6916-BAL",
+    phoneNumber: "+1-914-237-1677",
+    contactEmail: "victoria.hernandez@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Victoria is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Sustainable Tourism, Art Galleries, Adventure Sports, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 13,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+    languages: ["Greek", "Spanish", "Croatian"],
+    experienceYears: 2,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Sustainable Tourism", "Art Galleries", "Adventure Sports", "Family Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bali-8",
+    name: "Michael Allen",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Michael is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Cooking Class", "Historical Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-3671-BAL",
+    phoneNumber: "+1-169-982-3178",
+    contactEmail: "michael.allen@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Michael is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 39,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+    languages: ["Dutch", "Hindi", "Polish"],
+    experienceYears: 14,
+    certifications: ["Local History Certification", "Wilderness First Responder", "Cultural Heritage Specialist"],
+    specialties: ["Historical Landmarks", "Film Locations"],
+    specialTraining: [],
+  }
 ];

@@ -3,329 +3,263 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const athensgreecemediterraneanGuides: TourGuide[] = [
   {
     id: "guide-athens-1",
-    name: "Mason Thomas",
-    city: "athens",
+    name: "Noah Walker",
+    city: "Athens",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Mason is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: [
-      "Museum Tour",
-      "Cruise Excursion",
-      "Helicopter Tour",
-      "Photography Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6210-ATH",
-    phoneNumber: "+1-558-669-8974",
-    contactEmail: "mason.thomas@paragontrails.com",
+    bio: "Noah is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Adventure Sports, Sustainable Tourism, Historical Landmarks, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "East Coast Canada"],
+    tourTypes: ["Scenic Tour", "Architecture Tour", "Shopping Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9060-ATH",
+    phoneNumber: "+1-501-814-4702",
+    contactEmail: "noah.walker@paragontrails.com",
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00",
+            from: "09:00",
+            to: "14:00",
           },
           {
-            from: "15:00",
-            to: "17:00",
-          },
+            from: "09:00",
+            to: "15:00",
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
-          },
+            from: "09:00",
+            to: "12:00",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "08:00",
+            to: "12:00",
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Mason is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 55,
-    quote:
-      "The best way to discover athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    languages: ["Spanish", "Japanese", "Arabic"],
-    experienceYears: 5,
-    certifications: ["Urban Navigation Specialist", "CPR & First Aid"],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Wine Education", "Mountain Survival"],
+    description: "Noah is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Adventure Sports, Sustainable Tourism, Historical Landmarks, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 75,
+    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+    languages: ["Bulgarian"],
+    experienceYears: 3,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Hidden Gems", "Adventure Sports", "Sustainable Tourism", "Historical Landmarks"],
+    specialTraining: ["Art History"],
   },
   {
     id: "guide-athens-2",
-    name: "Alexander Flores",
-    city: "athens",
+    name: "Alexander Garcia",
+    city: "Athens",
     country: "Greece",
     state: "",
     region: "Mediterranean",
-    isPopular: false,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Sustainable Tourism, Family Activities, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Mediterranean"],
-    tourTypes: ["Boat Tour", "Cruise Excursion", "Romantic Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-3655-ATH",
-    phoneNumber: "+1-883-918-9286",
-    contactEmail: "alexander.flores@paragontrails.com",
+    isPopular: true,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, LGBTQ+ History, Sustainable Tourism, Local Cuisine, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Accessible Tour", "Nature Tour", "Bike Tour", "Ghost Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-2640-ATH",
+    phoneNumber: "+1-202-789-3515",
+    contactEmail: "alexander.garcia@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
         availableHours: [
           {
             from: "13:00",
             to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
           },
           {
             from: "10:00",
-            to: "13:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexander is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, LGBTQ+ History, Sustainable Tourism, Local Cuisine, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 54,
+    quote: "Athens isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
+    languages: ["Russian", "Tagalog"],
+    experienceYears: 12,
+    certifications: ["Sustainable Tourism Certificate", "Food Safety Certification", "Local History Certification"],
+    specialties: ["Wildlife", "LGBTQ+ History", "Sustainable Tourism", "Local Cuisine"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-athens-3",
+    name: "Scarlett Lewis",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Food Tour", "Wine Tour", "Brewery Tour", "Relocation Tour", "Craft Workshop"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-8033-ATH",
+    phoneNumber: "+1-951-768-6012",
+    contactEmail: "scarlett.lewis@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
           },
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Alexander is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Sustainable Tourism, Family Activities, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 30,
-    quote: "Every corner of athens tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    languages: ["Dutch", "Swedish"],
-    experienceYears: 13,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Adventure Tourism Safety Certificate",
-      "Eco-Tourism Guide",
-    ],
-    specialties: ["Sustainable Tourism", "Family Activities"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-athens-3",
-    name: "Mia Sanchez",
-    city: "athens",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Mia is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Family Activities, Local Markets, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Bike Tour", "Walking Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-9997-ATH",
-    phoneNumber: "+1-292-455-2172",
-    contactEmail: "mia.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
             from: "13:00",
-            to: "17:00",
+            to: "18:00",
           },
           {
             from: "13:00",
-            to: "19:00",
-          },
+            to: "18:00",
+          }
         ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Mia is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Family Activities, Local Markets, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 98,
-    quote: "Every corner of athens tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Cantonese", "Norwegian"],
-    experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist", "Eco-Tourism Guide"],
-    specialties: ["Family Activities", "Local Markets", "Religious Sites"],
-    specialTraining: ["Religious Studies"],
+    description: "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 47,
+    quote: "Every corner of Athens tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+    languages: ["Swedish", "Swahili", "Japanese"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide", "CPR & First Aid", "Food Safety Certification"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Marine Biology", "Religious Studies"],
   },
   {
     id: "guide-athens-4",
-    name: "Harper Walker",
-    city: "athens",
+    name: "Matthew Thomas",
+    city: "Athens",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Alaska"],
-    tourTypes: ["Brewery Tour", "Boat Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-3229-ATH",
-    phoneNumber: "+1-547-702-4731",
-    contactEmail: "harper.walker@paragontrails.com",
+    bio: "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Private Tour", "Adventure Tour", "Museum Tour", "Self-Guided Tour", "Cultural Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-9002-ATH",
+    phoneNumber: "+1-942-624-7941",
+    contactEmail: "matthew.thomas@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
+            from: "10:00",
+            to: "16:00",
           },
           {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "14:00",
+            to: "19:00",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
+            from: "15:00",
+            to: "18:00",
           },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 66,
-    quote: "My goal is to help you fall in love with athens just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-    languages: ["Hebrew", "Bulgarian"],
-    experienceYears: 13,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Urban Legends"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-athens-5",
-    name: "Michael Harris",
-    city: "athens",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Michael is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Museums, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Historical Tour", "Underground Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7250-ATH",
-    phoneNumber: "+1-547-949-7530",
-    contactEmail: "michael.harris@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
           {
             from: "15:00",
-            to: "20:00",
-          },
+            to: "21:00",
+          }
         ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Michael is a passionate tour guide with extensive knowledge of athens and Greece. Specializing in Historical Landmarks, Museums, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 55,
-    quote:
-      "The best way to discover athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    languages: ["Polish", "Japanese"],
-    experienceYears: 5,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Historical Landmarks", "Museums"],
-    specialTraining: ["Local Transit Systems", "Emergency Response"],
-  },
+    description: "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 70,
+    quote: "Every corner of Athens tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+    languages: ["Bulgarian", "Swahili"],
+    experienceYears: 8,
+    certifications: ["Language Proficiency Certification", "CPR & First Aid"],
+    specialties: ["Music Scene", "Wine Tasting"],
+    specialTraining: [],
+  }
 ];

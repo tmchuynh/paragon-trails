@@ -3,195 +3,283 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
   {
     id: "guide-montreal-1",
-    name: "Harper Lewis",
-    city: "montreal",
+    name: "Ethan Smith",
+    city: "Montreal",
     country: "Canada",
     state: "",
     region: "East Coast Canada",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Music Scene, Religious Sites, Parks & Gardens, Family Activities, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Historical Tour",
-      "Photography Tour",
-      "Bike Tour",
-      "Craft Workshop",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-9063-MON",
-    phoneNumber: "+1-564-857-4427",
-    contactEmail: "harper.lewis@paragontrails.com",
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Photography Spots, Adventure Sports, Music Scene, Sustainable Tourism, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Ghost Tour", "Wildlife Safari", "Cruise Excursion"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-9452-MON",
+    phoneNumber: "+1-643-490-3529",
+    contactEmail: "ethan.smith@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
-          },
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
             from: "15:00",
-            to: "17:00",
+            to: "20:00",
           },
+          {
+            from: "10:00",
+            to: "12:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Music Scene, Religious Sites, Parks & Gardens, Family Activities, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 69,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    languages: ["Croatian", "Polish"],
-    experienceYears: 16,
-    certifications: ["Eco-Tourism Guide", "CPR & First Aid"],
-    specialties: [
-      "Music Scene",
-      "Religious Sites",
-      "Parks & Gardens",
-      "Family Activities",
-    ],
-    specialTraining: ["Cultural Sensitivity", "Urban Planning"],
+    description: "Ethan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Photography Spots, Adventure Sports, Music Scene, Sustainable Tourism, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 30,
+    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+    languages: ["Hungarian", "Croatian", "Dutch"],
+    experienceYears: 9,
+    certifications: ["Local History Certification"],
+    specialties: ["Photography Spots", "Adventure Sports", "Music Scene", "Sustainable Tourism"],
+    specialTraining: ["Marine Biology", "Photography"],
   },
   {
     id: "guide-montreal-2",
-    name: "Emma Anderson",
-    city: "montreal",
+    name: "Riley Jackson",
+    city: "Montreal",
     country: "Canada",
     state: "",
     region: "East Coast Canada",
-    isPopular: true,
-    bio: "Emma is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Local Markets, Family Activities, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Family-Friendly Tour", "Cooking Class", "Private Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8736-MON",
-    phoneNumber: "+1-879-322-8143",
-    contactEmail: "emma.anderson@paragontrails.com",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Film Locations, Local Cuisine, Sustainable Tourism, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Audio Tour", "Scenic Tour", "Festival Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-6414-MON",
+    phoneNumber: "+1-839-913-2764",
+    contactEmail: "riley.jackson@paragontrails.com",
     available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Riley is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Film Locations, Local Cuisine, Sustainable Tourism, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 31,
+    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
+    languages: ["Serbian", "Norwegian", "Japanese"],
+    experienceYears: 2,
+    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification"],
+    specialties: ["Film Locations", "Local Cuisine", "Sustainable Tourism", "Historical Landmarks"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-montreal-3",
+    name: "Penelope Flores",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Penelope is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Adventure Sports, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "East Coast USA"],
+    tourTypes: ["Shopping Tour", "Romantic Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-9895-MON",
+    phoneNumber: "+1-900-306-2293",
+    contactEmail: "penelope.flores@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
           },
           {
             from: "08:00",
-            to: "12:00",
-          },
+            to: "14:00",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
+            from: "15:00",
+            to: "20:00",
           },
+          {
+            from: "11:00",
+            to: "13:00",
+          }
         ],
       },
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
+            from: "13:00",
             to: "18:00",
           },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
-          },
+            from: "15:00",
+            to: "18:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Local Markets, Family Activities, Public Transportation Navigation, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 37,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    languages: ["Swedish"],
-    experienceYears: 10,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Professional Tour Guide Association",
-      "Certified International Tour Manager",
-    ],
-    specialties: [
-      "Local Markets",
-      "Family Activities",
-      "Public Transportation Navigation",
-    ],
-    specialTraining: ["Regional Cuisine"],
+    description: "Penelope is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Adventure Sports, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 80,
+    quote: "My goal is to help you fall in love with Montreal just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+    languages: ["French"],
+    experienceYears: 5,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Adventure Sports"],
+    specialTraining: [],
   },
   {
-    id: "guide-montreal-3",
-    name: "Matthew Thomas",
-    city: "montreal",
+    id: "guide-montreal-4",
+    name: "Isabella Perez",
+    city: "Montreal",
     country: "Canada",
     state: "",
     region: "East Coast Canada",
     isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Hidden Gems, Nightlife, Music Scene, Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "West Coast USA"],
-    tourTypes: [
-      "Wine Tour",
-      "Luxury Tour",
-      "Cultural Tour",
-      "Farm Visit",
-      "Cooking Class",
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Brewery Tour", "Cooking Class", "Nature Tour", "Romantic Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-6739-MON",
+    phoneNumber: "+1-967-871-1824",
+    contactEmail: "isabella.perez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-1235-MON",
-    phoneNumber: "+1-514-826-6445",
-    contactEmail: "matthew.thomas@paragontrails.com",
+    isCertified: true,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 26,
+    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Polish"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid", "Food Safety Certification"],
+    specialties: ["Nightlife", "Museums", "Religious Sites"],
+    specialTraining: ["Accessibility Services", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-montreal-5",
+    name: "Carter Garcia",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Carter is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Museums, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Caribbean"],
+    tourTypes: ["Scenic Tour", "Helicopter Tour", "Museum Tour", "Group Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7176-MON",
+    phoneNumber: "+1-915-189-5660",
+    contactEmail: "carter.garcia@paragontrails.com",
     available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "12:00",
+            to: "14:00",
+          }
         ],
       },
       {
@@ -203,66 +291,55 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           },
           {
             from: "10:00",
-            to: "12:00",
-          },
+            to: "16:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Hidden Gems, Nightlife, Music Scene, Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 81,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
-    languages: ["Romanian", "Bulgarian", "Serbian"],
-    experienceYears: 13,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Licensed City Guide",
-      "Wilderness First Responder",
-    ],
-    specialties: [
-      "Hidden Gems",
-      "Nightlife",
-      "Music Scene",
-      "Sustainable Tourism",
-    ],
-    specialTraining: [],
+    description: "Carter is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Museums, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 11,
+    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+    languages: ["Romanian", "Czech"],
+    experienceYears: 10,
+    certifications: ["Sustainable Tourism Certificate", "CPR & First Aid", "Licensed City Guide"],
+    specialties: ["Museums"],
+    specialTraining: ["Mountain Survival", "Emergency Response"],
   },
   {
-    id: "guide-montreal-4",
-    name: "Harper Walker",
-    city: "montreal",
+    id: "guide-montreal-6",
+    name: "Alexander Nelson",
+    city: "Montreal",
     country: "Canada",
     state: "",
     region: "East Coast Canada",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Film Locations, Hidden Gems, Music Scene, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: [
-      "Historical Tour",
-      "Wildlife Safari",
-      "Walking Tour",
-      "Romantic Tour",
-      "Architecture Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-3285-MON",
-    phoneNumber: "+1-797-366-9016",
-    contactEmail: "harper.walker@paragontrails.com",
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Adventure Tour", "Scenic Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5068-MON",
+    phoneNumber: "+1-692-322-9328",
+    contactEmail: "alexander.nelson@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
           {
-            from: "12:00",
-            to: "18:00",
-          },
+            from: "09:00",
+            to: "11:00",
+          }
         ],
       },
       {
@@ -271,258 +348,170 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
           },
           {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "15:00",
+            to: "19:00",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00",
-            to: "12:00",
+            from: "14:00",
+            to: "16:00",
           },
           {
-            from: "08:00",
-            to: "12:00",
-          },
+            from: "12:00",
+            to: "14:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Film Locations, Hidden Gems, Music Scene, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 99,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
-    languages: ["English", "Serbian", "Croatian"],
-    experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: [
-      "Film Locations",
-      "Hidden Gems",
-      "Music Scene",
-      "Religious Sites",
-    ],
-    specialTraining: ["Historical Research Methods", "Regional Cuisine"],
+    description: "Alexander is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 77,
+    quote: "My goal is to help you fall in love with Montreal just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+    languages: ["Japanese", "Turkish", "Polish"],
+    experienceYears: 14,
+    certifications: ["Wilderness First Responder", "Eco-Tourism Guide"],
+    specialties: ["Family Activities", "Film Locations", "Historical Landmarks"],
+    specialTraining: [],
   },
   {
-    id: "guide-montreal-5",
-    name: "Michael Hall",
-    city: "montreal",
+    id: "guide-montreal-7",
+    name: "Samuel Sanchez",
+    city: "Montreal",
     country: "Canada",
     state: "",
     region: "East Coast Canada",
     isPopular: false,
-    bio: "Michael is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Family-Friendly Tour", "Nature Tour", "Boat Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-4660-MON",
-    phoneNumber: "+1-973-546-9686",
-    contactEmail: "michael.hall@paragontrails.com",
+    bio: "Samuel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Festival Tour", "Underground Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2088-MON",
+    phoneNumber: "+1-665-725-1394",
+    contactEmail: "samuel.sanchez@paragontrails.com",
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Michael is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 28,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    languages: ["Finnish"],
-    experienceYears: 11,
-    certifications: [
-      "Certified International Tour Manager",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Urban Planning", "Desert Navigation"],
-  },
-  {
-    id: "guide-montreal-6",
-    name: "Isabella Green",
-    city: "montreal",
-    country: "Canada",
-    state: "",
-    region: "East Coast Canada",
-    isPopular: true,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Nightlife, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Africa"],
-    tourTypes: ["Food Tour", "Cooking Class"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-6972-MON",
-    phoneNumber: "+1-590-897-3597",
-    contactEmail: "isabella.green@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
+            from: "10:00",
             to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Isabella is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Nightlife, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 28,
-    quote:
-      "montreal isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Swahili", "Vietnamese", "Turkish"],
-    experienceYears: 8,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Nightlife", "Hidden Gems"],
-    specialTraining: ["Art History", "Desert Navigation"],
-  },
-  {
-    id: "guide-montreal-7",
-    name: "Aiden Mitchell",
-    city: "montreal",
-    country: "Canada",
-    state: "",
-    region: "East Coast Canada",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Urban Legends, Public Transportation Navigation, Architecture, Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: [
-      "Historical Tour",
-      "Walking Tour",
-      "Religious Tour",
-      "Festival Tour",
-      "Architecture Tour",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1172-MON",
-    phoneNumber: "+1-520-630-9620",
-    contactEmail: "aiden.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00",
+            from: "12:00",
+            to: "15:00",
           },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of montreal and Canada. Specializing in Urban Legends, Public Transportation Navigation, Architecture, Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 100,
-    quote: "My goal is to help you fall in love with montreal just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 16,
-    certifications: [
-      "Wilderness First Responder",
-      "Heritage Interpretation Certificate",
-      "Certified International Tour Manager",
-    ],
-    specialties: [
-      "Urban Legends",
-      "Public Transportation Navigation",
-      "Architecture",
-      "Wine Tasting",
-    ],
-    specialTraining: ["Wine Education"],
+    description: "Samuel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 104,
+    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["Swedish"],
+    experienceYears: 10,
+    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
+    specialties: ["Family Activities"],
+    specialTraining: ["Urban Planning", "Art History"],
   },
+  {
+    id: "guide-montreal-8",
+    name: "Daniel Walker",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: true,
+    bio: "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Cooking Class", "Religious Tour", "Farm Visit", "Wildlife Safari"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-1039-MON",
+    phoneNumber: "+1-184-191-8995",
+    contactEmail: "daniel.walker@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 23,
+    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+    languages: ["Czech"],
+    experienceYears: 4,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Religious Sites", "Local Cuisine", "Local Craftsmanship", "Wine Tasting"],
+    specialTraining: [],
+  }
 ];

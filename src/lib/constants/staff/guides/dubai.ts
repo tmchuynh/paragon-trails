@@ -3,348 +3,276 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
   {
     id: "guide-dubai-1",
-    name: "Samuel Gonzalez",
-    city: "dubai",
+    name: "Jacob Thomas",
+    city: "Dubai",
     country: "United Arab Emirates",
     state: "",
     region: "Middle East",
     isPopular: false,
-    bio: "Samuel is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Adventure Sports, Hidden Gems, Wine Tasting, Local Craftsmanship, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Religious Tour", "Scenic Tour", "Helicopter Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2973-DUB",
-    phoneNumber: "+1-357-965-9204",
-    contactEmail: "samuel.gonzalez@paragontrails.com",
+    bio: "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Street Art Tour", "Family-Friendly Tour", "Adventure Tour", "Nature Tour", "Brewery Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2670-DUB",
+    phoneNumber: "+1-949-298-5435",
+    contactEmail: "jacob.thomas@paragontrails.com",
     available: [
       {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
             from: "10:00",
             to: "12:00",
           },
           {
-            from: "14:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
             to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Samuel is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Adventure Sports, Hidden Gems, Wine Tasting, Local Craftsmanship, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 103,
-    quote:
-      "The best way to discover dubai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    languages: ["Spanish", "Tagalog"],
-    experienceYears: 13,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: [
-      "Adventure Sports",
-      "Hidden Gems",
-      "Wine Tasting",
-      "Local Craftsmanship",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-dubai-2",
-    name: "Lucas Rivera",
-    city: "dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Sustainable Tourism, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: [
-      "Relocation Tour",
-      "Ghost Tour",
-      "Accessible Tour",
-      "Cooking Class",
-      "Street Art Tour",
-    ],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-3313-DUB",
-    phoneNumber: "+1-407-786-9432",
-    contactEmail: "lucas.rivera@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 42,
+    quote: "My goal is to help you fall in love with Dubai just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    languages: ["Malay", "Italian", "Greek"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder", "Regional Tourism Ambassador"],
+    specialties: ["Local Cuisine", "Local Markets", "Urban Legends", "Music Scene"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dubai-2",
+    name: "Chloe Clark",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    state: "",
+    region: "Middle East",
+    isPopular: false,
+    bio: "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "South America"],
+    tourTypes: ["Religious Tour", "Nature Tour", "Cultural Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-4125-DUB",
+    phoneNumber: "+1-496-298-2088",
+    contactEmail: "chloe.clark@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
           },
           {
             from: "11:00",
             to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 82,
+    quote: "Dubai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+    languages: ["Norwegian", "Swahili"],
+    experienceYears: 7,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Street Food", "Film Locations", "Hidden Gems", "Local Markets"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dubai-3",
+    name: "Aiden Sanchez",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    state: "",
+    region: "Middle East",
+    isPopular: false,
+    bio: "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Northern Europe"],
+    tourTypes: ["Architecture Tour", "Museum Tour", "Luxury Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2698-DUB",
+    phoneNumber: "+1-909-103-1676",
+    contactEmail: "aiden.sanchez@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
           },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
             from: "08:00",
             to: "13:00",
           },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Lucas is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Sustainable Tourism, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 12,
-    quote:
-      "The best way to discover dubai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-    languages: ["Vietnamese", "Swahili"],
-    experienceYears: 5,
-    certifications: ["Certified International Tour Manager", "CPR & First Aid"],
-    specialties: ["Sustainable Tourism", "Nightlife"],
-    specialTraining: ["Public Speaking", "Photography"],
-  },
-  {
-    id: "guide-dubai-3",
-    name: "Penelope White",
-    city: "dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Penelope is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Family Activities, Hidden Gems, LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Mediterranean"],
-    tourTypes: ["Off-Road Tour", "Shopping Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2979-DUB",
-    phoneNumber: "+1-636-572-9898",
-    contactEmail: "penelope.white@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
           {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
+            from: "13:00",
             to: "19:00",
-          },
+          }
         ],
       },
-    ],
-    isCertified: true,
-    description:
-      "Penelope is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Family Activities, Hidden Gems, LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 50,
-    quote:
-      "dubai isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    languages: ["Vietnamese", "Greek", "Finnish"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Family Activities", "Hidden Gems", "LGBTQ+ History"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-dubai-4",
-    name: "Layla Sanchez",
-    city: "dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Layla is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Street Food, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Audio Tour",
-      "LGBTQ+ Friendly Tour",
-      "Self-Guided Tour",
-      "Festival Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8463-DUB",
-    phoneNumber: "+1-138-545-3930",
-    contactEmail: "layla.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Street Food, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 10,
-    quote: "My goal is to help you fall in love with dubai just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Indonesian"],
-    experienceYears: 10,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Street Food"],
-    specialTraining: ["Regional Cuisine", "Local Transit Systems"],
-  },
-  {
-    id: "guide-dubai-5",
-    name: "Joseph Robinson",
-    city: "dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Indigenous Culture, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Group Tour", "Farm Visit", "Wine Tour", "Wildlife Safari"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-5068-DUB",
-    phoneNumber: "+1-838-546-5560",
-    contactEmail: "joseph.robinson@paragontrails.com",
-    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "14:00",
+            from: "11:00",
             to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00",
-          },
+            from: "14:00",
+            to: "17:00",
+          }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 56,
+    quote: "Dubai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+    languages: ["Czech", "Korean", "Japanese"],
+    experienceYears: 11,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Museums", "Family Activities", "Adventure Sports"],
+    specialTraining: ["Regional Geology", "Mountain Survival"],
+  },
+  {
+    id: "guide-dubai-4",
+    name: "Layla Roberts",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    state: "",
+    region: "Middle East",
+    isPopular: true,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Northern Europe"],
+    tourTypes: ["Religious Tour", "Underground Tour", "Museum Tour", "Off-Road Tour", "Nature Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-4651-DUB",
+    phoneNumber: "+1-899-588-1725",
+    contactEmail: "layla.roberts@paragontrails.com",
+    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
             from: "08:00",
-            to: "12:00",
-          },
+            to: "13:00",
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of dubai and United Arab Emirates. Specializing in Indigenous Culture, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 27,
-    quote:
-      "The best way to discover dubai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
-    languages: ["Mandarin", "Spanish"],
-    experienceYears: 4,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Indigenous Culture"],
-    specialTraining: ["Public Speaking"],
-  },
+    description: "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 89,
+    quote: "In Dubai, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+    languages: ["Arabic"],
+    experienceYears: 13,
+    certifications: ["Wilderness First Responder", "Eco-Tourism Guide", "Regional Tourism Ambassador"],
+    specialties: ["Hidden Gems", "Religious Sites"],
+    specialTraining: ["Emergency Response"],
+  }
 ];

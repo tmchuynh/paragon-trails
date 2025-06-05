@@ -3,36 +3,216 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const fortLauderdaleunitedStatescaribbeanGuides: TourGuide[] = [
   {
     id: "guide-fort-lauderdale-1",
-    name: "Matthew Martinez",
-    city: "fort-lauderdale",
+    name: "Elijah Martinez",
+    city: "Fort Lauderdale",
     country: "United States",
     state: "",
     region: "Caribbean",
-    isPopular: true,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Sustainable Tourism, Family Activities, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Romantic Tour",
-      "Boat Tour",
-      "Accessible Tour",
-      "Walking Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-1374-FOR",
-    phoneNumber: "+1-747-853-1942",
-    contactEmail: "matthew.martinez@paragontrails.com",
+    isPopular: false,
+    bio: "Elijah is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Photography Spots, Music Scene, Public Transportation Navigation, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "South America"],
+    tourTypes: ["Cooking Class", "Off-Road Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8201-FOR",
+    phoneNumber: "+1-630-494-3682",
+    contactEmail: "elijah.martinez@paragontrails.com",
     available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "10:00",
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elijah is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Photography Spots, Music Scene, Public Transportation Navigation, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 99,
+    quote: "The best way to discover Fort Lauderdale is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+    languages: ["Finnish", "Dutch"],
+    experienceYears: 8,
+    certifications: ["Eco-Tourism Guide", "Local History Certification", "Certified International Tour Manager"],
+    specialties: ["Photography Spots", "Music Scene", "Public Transportation Navigation"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-fort-lauderdale-2",
+    name: "Madison Green",
+    city: "Fort Lauderdale",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Madison is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Cultural Etiquette, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Cultural Tour", "Photography Tour", "Wine Tour", "Romantic Tour", "Off-Road Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5461-FOR",
+    phoneNumber: "+1-268-892-9340",
+    contactEmail: "madison.green@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
+          },
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Madison is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Cultural Etiquette, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 104,
+    quote: "Fort Lauderdale isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+    languages: ["English"],
+    experienceYears: 14,
+    certifications: ["Regional Tourism Ambassador", "Adventure Tourism Safety Certificate", "Professional Tour Guide Association"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-fort-lauderdale-3",
+    name: "Carter Walker",
+    city: "Fort Lauderdale",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Carter is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Wildlife, Film Locations, Adventure Sports, LGBTQ+ History, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Adventure Tour", "Accessible Tour", "Helicopter Tour", "Photography Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-4919-FOR",
+    phoneNumber: "+1-667-792-6635",
+    contactEmail: "carter.walker@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
           },
           {
             from: "08:00",
-            to: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
           },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          }
         ],
       },
       {
@@ -40,550 +220,214 @@ export const fortLauderdaleunitedStatescaribbeanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "15:00",
             to: "17:00",
           },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
           {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
+            from: "12:00",
+            to: "17:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Sustainable Tourism, Family Activities, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 56,
-    quote:
-      "The best way to discover fort-lauderdale is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    languages: ["Finnish"],
-    experienceYears: 15,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Sustainable Tourism", "Family Activities"],
+    description: "Carter is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Wildlife, Film Locations, Adventure Sports, LGBTQ+ History, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 16,
+    quote: "The best way to discover Fort Lauderdale is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+    languages: ["Japanese"],
+    experienceYears: 7,
+    certifications: ["Heritage Interpretation Certificate", "Sustainable Tourism Certificate"],
+    specialties: ["Wildlife", "Film Locations", "Adventure Sports", "LGBTQ+ History"],
     specialTraining: [],
   },
   {
-    id: "guide-fort-lauderdale-2",
-    name: "Emily Brown",
-    city: "fort-lauderdale",
+    id: "guide-fort-lauderdale-4",
+    name: "Aiden Anderson",
+    city: "Fort Lauderdale",
     country: "United States",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Emily is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Local Cuisine, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Helicopter Tour", "Eco Tour", "Historical Tour", "Food Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-2341-FOR",
-    phoneNumber: "+1-550-926-9575",
-    contactEmail: "emily.brown@paragontrails.com",
+    bio: "Aiden is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Parks & Gardens, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Off-Road Tour", "Museum Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-6047-FOR",
+    phoneNumber: "+1-727-994-2015",
+    contactEmail: "aiden.anderson@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
+        day: "Sunday",
         availableHours: [
           {
             from: "09:00",
             to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
+          }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "15:00",
-            to: "17:00",
+            to: "18:00",
           },
           {
             from: "14:00",
-            to: "17:00",
-          },
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aiden is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Parks & Gardens, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 8,
+    quote: "My goal is to help you fall in love with Fort Lauderdale just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Hindi", "Croatian", "Japanese"],
+    experienceYears: 7,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Parks & Gardens", "Art Galleries"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-fort-lauderdale-5",
+    name: "Benjamin Nelson",
+    city: "Fort Lauderdale",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Hidden Gems, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Food Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3599-FOR",
+    phoneNumber: "+1-832-204-8235",
+    contactEmail: "benjamin.nelson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
             from: "08:00",
             to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Hidden Gems, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 57,
+    quote: "Fort Lauderdale isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
+    languages: ["Danish", "Serbian", "Mandarin"],
+    experienceYears: 15,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Hidden Gems"],
+    specialTraining: ["Regional Geology", "Emergency Response"],
+  },
+  {
+    id: "guide-fort-lauderdale-6",
+    name: "Charlotte Walker",
+    city: "Fort Lauderdale",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Historical Landmarks, Music Scene, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Asia Pacific"],
+    tourTypes: ["Craft Workshop", "Farm Visit"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-8333-FOR",
+    phoneNumber: "+1-156-506-2637",
+    contactEmail: "charlotte.walker@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
           },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
         availableHours: [
           {
             from: "13:00",
             to: "19:00",
           },
           {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Emily is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Local Cuisine, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 98,
-    quote:
-      "Every corner of fort-lauderdale tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Spanish"],
-    experienceYears: 11,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Local Cuisine"],
-    specialTraining: ["Mountain Survival"],
-  },
-  {
-    id: "guide-fort-lauderdale-3",
-    name: "Logan Lee",
-    city: "fort-lauderdale",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Logan is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Cultural Etiquette, Street Food, Indigenous Culture, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast Canada"],
-    tourTypes: ["Food Tour", "LGBTQ+ Friendly Tour", "Wine Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-9166-FOR",
-    phoneNumber: "+1-710-878-9664",
-    contactEmail: "logan.lee@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
             from: "14:00",
             to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Cultural Etiquette, Street Food, Indigenous Culture, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 57,
-    quote:
-      "In fort-lauderdale, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Norwegian"],
-    experienceYears: 14,
-    certifications: [
-      "Food Safety Certification",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Cultural Etiquette", "Street Food", "Indigenous Culture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-fort-lauderdale-4",
-    name: "Sofia Miller",
-    city: "fort-lauderdale",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Public Transportation Navigation, Local Craftsmanship, Street Food, Film Locations, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: [
-      "Group Tour",
-      "Private Tour",
-      "Historical Tour",
-      "Accessible Tour",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-5368-FOR",
-    phoneNumber: "+1-903-325-7679",
-    contactEmail: "sofia.miller@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Public Transportation Navigation, Local Craftsmanship, Street Food, Film Locations, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 72,
-    quote:
-      "In fort-lauderdale, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
-    languages: ["German", "Hebrew"],
-    experienceYears: 9,
-    certifications: [
-      "Language Proficiency Certification",
-      "Sustainable Tourism Certificate",
-      "Eco-Tourism Guide",
-    ],
-    specialties: [
-      "Public Transportation Navigation",
-      "Local Craftsmanship",
-      "Street Food",
-      "Film Locations",
-    ],
-    specialTraining: ["Marine Biology"],
-  },
-  {
-    id: "guide-fort-lauderdale-5",
-    name: "Lucas Thompson",
-    city: "fort-lauderdale",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Religious Sites, Local Craftsmanship, Film Locations, Street Food, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Boat Tour", "Cooking Class"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5541-FOR",
-    phoneNumber: "+1-730-464-3685",
-    contactEmail: "lucas.thompson@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
             from: "12:00",
-            to: "18:00",
-          },
+            to: "17:00",
+          }
         ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Lucas is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Religious Sites, Local Craftsmanship, Film Locations, Street Food, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 87,
-    quote:
-      "Every corner of fort-lauderdale tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    languages: ["Hindi", "Hungarian", "Polish"],
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Fort Lauderdale and United States. Specializing in Historical Landmarks, Music Scene, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 77,
+    quote: "My goal is to help you fall in love with Fort Lauderdale just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+    languages: ["Arabic", "Korean", "English"],
     experienceYears: 3,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Adventure Tourism Safety Certificate",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: [
-      "Religious Sites",
-      "Local Craftsmanship",
-      "Film Locations",
-      "Street Food",
-    ],
-    specialTraining: ["Archaeological Conservation", "Marine Biology"],
-  },
-  {
-    id: "guide-fort-lauderdale-6",
-    name: "Michael Hernandez",
-    city: "fort-lauderdale",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Michael is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Local Markets, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Africa"],
-    tourTypes: ["Luxury Tour", "Wine Tour", "Bike Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-5247-FOR",
-    phoneNumber: "+1-176-342-9208",
-    contactEmail: "michael.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Michael is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Local Markets, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 57,
-    quote:
-      "fort-lauderdale isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
-    languages: ["Indonesian"],
-    experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Local Markets"],
-    specialTraining: ["Public Speaking", "Regional Cuisine"],
-  },
-  {
-    id: "guide-fort-lauderdale-7",
-    name: "Matthew Taylor",
-    city: "fort-lauderdale",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Parks & Gardens, Indigenous Culture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Africa"],
-    tourTypes: [
-      "Private Tour",
-      "Wildlife Safari",
-      "Historical Tour",
-      "Helicopter Tour",
-    ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-5443-FOR",
-    phoneNumber: "+1-826-181-9790",
-    contactEmail: "matthew.taylor@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of fort-lauderdale and United States. Specializing in Parks & Gardens, Indigenous Culture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 43,
-    quote:
-      "fort-lauderdale isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
-    languages: ["Portuguese", "Hebrew"],
-    experienceYears: 6,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Parks & Gardens", "Indigenous Culture"],
-    specialTraining: ["Religious Studies", "Marine Biology"],
-  },
+    certifications: ["Licensed City Guide", "Wilderness First Responder", "Adventure Tourism Safety Certificate"],
+    specialties: ["Historical Landmarks", "Music Scene", "Film Locations"],
+    specialTraining: ["Art History"],
+  }
 ];

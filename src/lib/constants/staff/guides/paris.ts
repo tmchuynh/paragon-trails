@@ -3,455 +3,366 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const parisfrancenorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-paris-1",
-    name: "Olivia Nelson",
-    city: "paris",
+    name: "Madison Anderson",
+    city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
     isPopular: true,
-    bio: "Olivia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Urban Legends, Wildlife, Nightlife, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: [
-      "Market Tour",
-      "Luxury Tour",
-      "Religious Tour",
-      "Romantic Tour",
-    ],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6874-PAR",
-    phoneNumber: "+1-264-859-6388",
-    contactEmail: "olivia.nelson@paragontrails.com",
+    bio: "Madison is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Photography Spots, Local Cuisine, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Asia Pacific"],
+    tourTypes: ["Self-Guided Tour", "Walking Tour", "Ghost Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-7130-PAR",
+    phoneNumber: "+1-706-653-5102",
+    contactEmail: "madison.anderson@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
             to: "13:00",
           },
+          {
+            from: "08:00",
+            to: "10:00",
+          }
         ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Olivia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Urban Legends, Wildlife, Nightlife, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 59,
-    quote: "My goal is to help you fall in love with paris just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
-    languages: ["Polish", "Russian"],
-    experienceYears: 8,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Local History Certification",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: ["Street Food", "Urban Legends", "Wildlife", "Nightlife"],
-    specialTraining: ["Public Speaking"],
+    description: "Madison is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Photography Spots, Local Cuisine, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 44,
+    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    languages: ["Malay", "Bulgarian"],
+    experienceYears: 9,
+    certifications: ["Urban Navigation Specialist", "Food Safety Certification", "Professional Tour Guide Association"],
+    specialties: ["Photography Spots", "Local Cuisine", "Wildlife"],
+    specialTraining: ["Local Transit Systems"],
   },
   {
     id: "guide-paris-2",
-    name: "Aria Adams",
-    city: "paris",
+    name: "Alexander Jones",
+    city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
-    isPopular: true,
-    bio: "Aria is a passionate tour guide with extensive knowledge of paris and France. Specializing in Family Activities, Nightlife, Hidden Gems, Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Romantic Tour", "Private Tour", "Eco Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1238-PAR",
-    phoneNumber: "+1-708-648-4059",
-    contactEmail: "aria.adams@paragontrails.com",
+    isPopular: false,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Boat Tour", "Craft Workshop", "Audio Tour", "Festival Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-3148-PAR",
+    phoneNumber: "+1-390-877-8889",
+    contactEmail: "alexander.jones@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
+            from: "14:00",
             to: "17:00",
           },
           {
-            from: "15:00",
-            to: "17:00",
-          },
+            from: "08:00",
+            to: "11:00",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
             from: "09:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of paris and France. Specializing in Family Activities, Nightlife, Hidden Gems, Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 58,
-    quote:
-      "The best way to discover paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    languages: ["Hebrew", "Russian", "Danish"],
-    experienceYears: 14,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Licensed City Guide",
-    ],
-    specialties: [
-      "Family Activities",
-      "Nightlife",
-      "Hidden Gems",
-      "Local Markets",
-    ],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-paris-3",
-    name: "Wyatt Jones",
-    city: "paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Wyatt is a passionate tour guide with extensive knowledge of paris and France. Specializing in Religious Sites, Local Craftsmanship, Cultural Etiquette, Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Asia Pacific"],
-    tourTypes: [
-      "Festival Tour",
-      "Helicopter Tour",
-      "Relocation Tour",
-      "Craft Workshop",
-      "Wildlife Safari",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2187-PAR",
-    phoneNumber: "+1-394-700-6185",
-    contactEmail: "wyatt.jones@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
             to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Wyatt is a passionate tour guide with extensive knowledge of paris and France. Specializing in Religious Sites, Local Craftsmanship, Cultural Etiquette, Wine Tasting, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 57,
-    quote: "Every corner of paris tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    languages: ["Korean"],
-    experienceYears: 3,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Language Proficiency Certification",
-    ],
-    specialties: [
-      "Religious Sites",
-      "Local Craftsmanship",
-      "Cultural Etiquette",
-      "Wine Tasting",
-    ],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-paris-4",
-    name: "Abigail Hernandez",
-    city: "paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of paris and France. Specializing in Film Locations, Sustainable Tourism, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Alaska"],
-    tourTypes: ["Craft Workshop", "Group Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1882-PAR",
-    phoneNumber: "+1-746-635-9761",
-    contactEmail: "abigail.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          },
+            from: "15:00",
+            to: "17:00",
+          }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "08:00",
+            to: "12:00",
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of paris and France. Specializing in Film Locations, Sustainable Tourism, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 23,
-    quote:
-      "The best way to discover paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    languages: ["Dutch"],
-    experienceYears: 15,
-    certifications: [
-      "Certified International Tour Manager",
-      "Licensed City Guide",
-    ],
-    specialties: ["Film Locations", "Sustainable Tourism"],
+    description: "Alexander is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 57,
+    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
+    languages: ["Hebrew", "French"],
+    experienceYears: 8,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Architecture"],
     specialTraining: [],
   },
   {
-    id: "guide-paris-5",
-    name: "James Taylor",
-    city: "paris",
+    id: "guide-paris-3",
+    name: "Sebastian Perez",
+    city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "James is a passionate tour guide with extensive knowledge of paris and France. Specializing in Music Scene, Family Activities, Architecture, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Cruise Excursion", "Underground Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2977-PAR",
-    phoneNumber: "+1-448-406-3435",
-    contactEmail: "james.taylor@paragontrails.com",
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Wine Tasting, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Africa"],
+    tourTypes: ["Self-Guided Tour", "Walking Tour", "Scenic Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-2867-PAR",
+    phoneNumber: "+1-484-646-2920",
+    contactEmail: "sebastian.perez@paragontrails.com",
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of paris and France. Specializing in Music Scene, Family Activities, Architecture, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 52,
-    quote:
-      "The best way to discover paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    languages: ["Spanish"],
-    experienceYears: 11,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Eco-Tourism Guide",
-    ],
-    specialties: [
-      "Music Scene",
-      "Family Activities",
-      "Architecture",
-      "Nightlife",
-    ],
-    specialTraining: ["Local Flora & Fauna", "Art History"],
-  },
-  {
-    id: "guide-paris-6",
-    name: "Amelia Smith",
-    city: "paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Amelia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Ghost Tour", "Shopping Tour", "Underground Tour", "Food Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-1914-PAR",
-    phoneNumber: "+1-601-943-8460",
-    contactEmail: "amelia.smith@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
           {
             from: "11:00",
             to: "13:00",
           },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "09:00",
+            to: "15:00",
+          }
         ],
       },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Amelia is a passionate tour guide with extensive knowledge of paris and France. Specializing in Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 29,
-    quote:
-      "The best way to discover paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    languages: ["Portuguese", "Swedish", "Bulgarian"],
-    experienceYears: 15,
-    certifications: [
-      "Language Proficiency Certification",
-      "Heritage Interpretation Certificate",
-      "Food Safety Certification",
-    ],
-    specialties: ["Street Food"],
-    specialTraining: ["Marine Biology", "Accessibility Services"],
+    description: "Sebastian is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Wine Tasting, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 13,
+    quote: "My goal is to help you fall in love with Paris just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Japanese", "Czech"],
+    experienceYears: 14,
+    certifications: ["Certified International Tour Manager", "Urban Navigation Specialist"],
+    specialties: ["Public Transportation Navigation", "Wine Tasting"],
+    specialTraining: ["Historical Research Methods"],
   },
+  {
+    id: "guide-paris-4",
+    name: "Charlotte Baker",
+    city: "Paris",
+    country: "France",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Architecture Tour", "LGBTQ+ Friendly Tour", "Street Art Tour", "Relocation Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3568-PAR",
+    phoneNumber: "+1-104-469-4462",
+    contactEmail: "charlotte.baker@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 25,
+    quote: "In Paris, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+    languages: ["Turkish", "Vietnamese", "Tagalog"],
+    experienceYears: 2,
+    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Wine Education"],
+  },
+  {
+    id: "guide-paris-5",
+    name: "Amelia Miller",
+    city: "Paris",
+    country: "France",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Amelia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Sustainable Tourism, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Off-Road Tour", "Scenic Tour", "Food Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4893-PAR",
+    phoneNumber: "+1-478-438-2361",
+    contactEmail: "amelia.miller@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amelia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Sustainable Tourism, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 62,
+    quote: "My goal is to help you fall in love with Paris just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+    languages: ["Spanish", "Polish", "Indonesian"],
+    experienceYears: 14,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Museums", "Sustainable Tourism", "Street Food"],
+    specialTraining: [],
+  }
 ];

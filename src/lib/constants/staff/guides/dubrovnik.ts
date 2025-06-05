@@ -3,559 +3,494 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
   {
     id: "guide-dubrovnik-1",
-    name: "James Nelson",
-    city: "dubrovnik",
+    name: "Henry Lee",
+    city: "Dubrovnik",
+    country: "Croatia",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Religious Sites, Urban Legends, Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "West Coast USA"],
+    tourTypes: ["Farm Visit", "Underground Tour", "Walking Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7710-DUB",
+    phoneNumber: "+1-555-289-9547",
+    contactEmail: "henry.lee@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          },
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Religious Sites, Urban Legends, Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 88,
+    quote: "In Dubrovnik, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Polish", "Portuguese"],
+    experienceYears: 9,
+    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    specialties: ["Religious Sites", "Urban Legends", "Hidden Gems"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dubrovnik-2",
+    name: "Benjamin Roberts",
+    city: "Dubrovnik",
     country: "Croatia",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "James is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "South America"],
-    tourTypes: ["Helicopter Tour", "Relocation Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-4516-DUB",
-    phoneNumber: "+1-809-567-3756",
-    contactEmail: "james.nelson@paragontrails.com",
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in LGBTQ+ History, Nightlife, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Boat Tour", "Private Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-2562-DUB",
+    phoneNumber: "+1-647-902-9598",
+    contactEmail: "benjamin.roberts@paragontrails.com",
     available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 101,
-    quote: "My goal is to help you fall in love with dubrovnik just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 14,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Architecture"],
-    specialTraining: ["Religious Studies", "Urban Planning"],
-  },
-  {
-    id: "guide-dubrovnik-2",
-    name: "Matthew Ramirez",
-    city: "dubrovnik",
-    country: "Croatia",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Architecture Tour", "Cultural Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-6970-DUB",
-    phoneNumber: "+1-399-515-8823",
-    contactEmail: "matthew.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
             to: "16:00",
           },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Sustainable Tourism, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 13,
-    quote:
-      "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    languages: ["Mandarin", "Japanese"],
-    experienceYears: 8,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Sustainable Tourism"],
-    specialTraining: ["Regional Geology", "Wine Education"],
-  },
-  {
-    id: "guide-dubrovnik-3",
-    name: "Chloe Walker",
-    city: "dubrovnik",
-    country: "Croatia",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Indigenous Culture, Photography Spots, Urban Legends, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Street Art Tour", "Museum Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9828-DUB",
-    phoneNumber: "+1-532-771-8843",
-    contactEmail: "chloe.walker@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
           {
             from: "15:00",
             to: "19:00",
-          },
+          }
         ],
       },
       {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
             from: "11:00",
             to: "16:00",
           },
           {
-            from: "12:00",
-            to: "16:00",
-          },
+            from: "15:00",
+            to: "19:00",
+          }
         ],
       },
-    ],
-    isCertified: true,
-    description:
-      "Chloe is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Indigenous Culture, Photography Spots, Urban Legends, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 30,
-    quote:
-      "dubrovnik isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    languages: ["Japanese"],
-    experienceYears: 14,
-    certifications: [
-      "Wilderness First Responder",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: [
-      "Public Transportation Navigation",
-      "Indigenous Culture",
-      "Photography Spots",
-      "Urban Legends",
-    ],
-    specialTraining: ["Local Flora & Fauna", "Religious Studies"],
-  },
-  {
-    id: "guide-dubrovnik-4",
-    name: "Ethan Perez",
-    city: "dubrovnik",
-    country: "Croatia",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Ethan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Historical Landmarks, Cultural Etiquette, Hidden Gems, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: [
-      "Boat Tour",
-      "Historical Tour",
-      "Photography Tour",
-      "Audio Tour",
-    ],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-4553-DUB",
-    phoneNumber: "+1-937-439-7868",
-    contactEmail: "ethan.perez@paragontrails.com",
-    available: [
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
           {
             from: "08:00",
             to: "12:00",
           },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
+            from: "14:00",
+            to: "17:00",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
+            from: "11:00",
             to: "14:00",
           },
           {
-            from: "13:00",
-            to: "16:00",
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in LGBTQ+ History, Nightlife, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 93,
+    quote: "In Dubrovnik, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 4,
+    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
+    specialties: ["LGBTQ+ History", "Nightlife"],
+    specialTraining: ["Public Speaking", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-dubrovnik-3",
+    name: "Mason Flores",
+    city: "Dubrovnik",
+    country: "Croatia",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Mason is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Music Scene, Local Markets, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Middle East"],
+    tourTypes: ["Craft Workshop", "Audio Tour", "Off-Road Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2993-DUB",
+    phoneNumber: "+1-743-888-7649",
+    contactEmail: "mason.flores@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
           },
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "11:00",
+            from: "09:00",
             to: "14:00",
           },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Ethan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Historical Landmarks, Cultural Etiquette, Hidden Gems, Local Markets, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 63,
-    quote: "In dubrovnik, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Norwegian"],
-    experienceYears: 4,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: [
-      "Historical Landmarks",
-      "Cultural Etiquette",
-      "Hidden Gems",
-      "Local Markets",
-    ],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-dubrovnik-5",
-    name: "Logan Rodriguez",
-    city: "dubrovnik",
-    country: "Croatia",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Markets, Nightlife, Architecture, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Wine Tour",
-      "Underground Tour",
-      "Romantic Tour",
-      "Self-Guided Tour",
-      "Cruise Excursion",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4460-DUB",
-    phoneNumber: "+1-454-757-7425",
-    contactEmail: "logan.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
           {
-            from: "13:00",
+            from: "14:00",
             to: "18:00",
-          },
+          }
         ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Markets, Nightlife, Architecture, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 86,
-    quote:
-      "Every corner of dubrovnik tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    languages: ["Hebrew", "English", "Russian"],
-    experienceYears: 14,
-    certifications: [
-      "Wilderness First Responder",
-      "Urban Navigation Specialist",
-    ],
-    specialties: [
-      "Local Markets",
-      "Nightlife",
-      "Architecture",
-      "Local Cuisine",
-    ],
-    specialTraining: ["Marine Biology"],
+    description: "Mason is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Music Scene, Local Markets, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 39,
+    quote: "Every corner of Dubrovnik tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
+    languages: ["Norwegian", "German"],
+    experienceYears: 2,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Music Scene", "Local Markets", "Photography Spots"],
+    specialTraining: [],
   },
   {
-    id: "guide-dubrovnik-6",
-    name: "Madison Davis",
-    city: "dubrovnik",
+    id: "guide-dubrovnik-4",
+    name: "Michael King",
+    city: "Dubrovnik",
     country: "Croatia",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Madison is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Local Markets, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Ghost Tour",
-      "Architecture Tour",
-      "Historical Tour",
-      "Wildlife Safari",
-      "Food Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8925-DUB",
-    phoneNumber: "+1-510-536-1283",
-    contactEmail: "madison.davis@paragontrails.com",
+    bio: "Michael is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Alaska"],
+    tourTypes: ["Romantic Tour", "Historical Tour", "Relocation Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5599-DUB",
+    phoneNumber: "+1-735-394-1528",
+    contactEmail: "michael.king@paragontrails.com",
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Madison is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Public Transportation Navigation, Local Markets, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 76,
-    quote: "My goal is to help you fall in love with dubrovnik just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    languages: ["English", "Indonesian"],
-    experienceYears: 15,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Language Proficiency Certification",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: [
-      "Public Transportation Navigation",
-      "Local Markets",
-      "Urban Legends",
-    ],
-    specialTraining: ["Group Management"],
-  },
-  {
-    id: "guide-dubrovnik-7",
-    name: "Sofia Hill",
-    city: "dubrovnik",
-    country: "Croatia",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Craftsmanship, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Off-Road Tour", "Adventure Tour", "Craft Workshop"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-4996-DUB",
-    phoneNumber: "+1-620-945-7315",
-    contactEmail: "sofia.hill@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
+            from: "11:00",
+            to: "14:00",
           },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+          {
+            from: "09:00",
+            to: "12:00",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of dubrovnik and Croatia. Specializing in Local Craftsmanship, Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 85,
-    quote:
-      "Every corner of dubrovnik tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    languages: ["Tagalog"],
-    experienceYears: 7,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Local Craftsmanship", "Hidden Gems"],
+    description: "Michael is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 40,
+    quote: "In Dubrovnik, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["German", "Malay", "Greek"],
+    experienceYears: 12,
+    certifications: ["Wilderness First Responder", "CPR & First Aid", "Local History Certification"],
+    specialties: ["Cultural Etiquette"],
     specialTraining: [],
   },
+  {
+    id: "guide-dubrovnik-5",
+    name: "Elijah Nguyen",
+    city: "Dubrovnik",
+    country: "Croatia",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Elijah is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Wildlife, Local Cuisine, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Northern Europe"],
+    tourTypes: ["Helicopter Tour", "Boat Tour", "Luxury Tour", "Wildlife Safari", "Craft Workshop"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9681-DUB",
+    phoneNumber: "+1-975-563-5176",
+    contactEmail: "elijah.nguyen@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elijah is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Wildlife, Local Cuisine, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 57,
+    quote: "My goal is to help you fall in love with Dubrovnik just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+    languages: ["Italian", "Hebrew", "Vietnamese"],
+    experienceYears: 7,
+    certifications: ["Cultural Heritage Specialist", "Licensed City Guide"],
+    specialties: ["Wildlife", "Local Cuisine", "Architecture"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-dubrovnik-6",
+    name: "Lucas Rodriguez",
+    city: "Dubrovnik",
+    country: "Croatia",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Lucas is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Film Locations, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Street Art Tour", "Cultural Tour", "Wildlife Safari", "Cruise Excursion", "Eco Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-5949-DUB",
+    phoneNumber: "+1-525-111-2110",
+    contactEmail: "lucas.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lucas is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Film Locations, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 69,
+    quote: "My goal is to help you fall in love with Dubrovnik just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 9,
+    certifications: ["Adventure Tourism Safety Certificate", "Licensed City Guide", "Professional Tour Guide Association"],
+    specialties: ["Cultural Etiquette", "Film Locations", "Sustainable Tourism"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-dubrovnik-7",
+    name: "Isabella Miller",
+    city: "Dubrovnik",
+    country: "Croatia",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Group Tour", "Craft Workshop"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-6614-DUB",
+    phoneNumber: "+1-440-148-4075",
+    contactEmail: "isabella.miller@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 14,
+    quote: "In Dubrovnik, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Polish", "Portuguese"],
+    experienceYears: 9,
+    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager", "Professional Tour Guide Association"],
+    specialties: ["Cultural Etiquette", "Art Galleries"],
+    specialTraining: ["Conflict Resolution"],
+  }
 ];

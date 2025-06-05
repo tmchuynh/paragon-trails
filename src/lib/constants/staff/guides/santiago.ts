@@ -3,36 +3,113 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const santiagochilesouthAmericaGuides: TourGuide[] = [
   {
     id: "guide-santiago-1",
-    name: "Layla Wright",
-    city: "santiago",
+    name: "Victoria Davis",
+    city: "Santiago",
     country: "Chile",
     state: "",
     region: "South America",
     isPopular: false,
-    bio: "Layla is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Film Locations, Hidden Gems, Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Farm Visit", "Boat Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-1495-SAN",
-    phoneNumber: "+1-569-244-1009",
-    contactEmail: "layla.wright@paragontrails.com",
+    bio: "Victoria is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Alaska"],
+    tourTypes: ["Private Tour", "LGBTQ+ Friendly Tour", "Ghost Tour", "Eco Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-8186-SAN",
+    phoneNumber: "+1-597-459-2540",
+    contactEmail: "victoria.davis@paragontrails.com",
     available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
+            from: "15:00",
+            to: "21:00",
           },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
           },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Victoria is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Hidden Gems, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 37,
+    quote: "My goal is to help you fall in love with Santiago just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["French", "Finnish"],
+    experienceYears: 16,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Indigenous Culture", "Hidden Gems"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santiago-2",
+    name: "Mason AdAMS",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Mason is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Urban Legends, Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "West Coast USA"],
+    tourTypes: ["Audio Tour", "Architecture Tour", "Cruise Excursion", "Group Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-2733-SAN",
+    phoneNumber: "+1-411-880-3129",
+    contactEmail: "mason.adams@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "10:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          }
         ],
       },
       {
@@ -40,8 +117,128 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "17:00",
+            to: "15:00",
           },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mason is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Urban Legends, Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 69,
+    quote: "The best way to discover Santiago is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+    languages: ["Thai", "Bulgarian"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Eco-Tourism Guide"],
+    specialties: ["Urban Legends", "Architecture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santiago-3",
+    name: "Samuel Miller",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "South America",
+    isPopular: true,
+    bio: "Samuel is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Architecture, Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Eco Tour", "Food Tour", "Cruise Excursion"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-4118-SAN",
+    phoneNumber: "+1-733-788-2386",
+    contactEmail: "samuel.miller@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Samuel is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Architecture, Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 101,
+    quote: "Santiago isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+    languages: ["Serbian", "German"],
+    experienceYears: 4,
+    certifications: ["Sustainable Tourism Certificate", "Regional Tourism Ambassador", "Local History Certification"],
+    specialties: ["Architecture", "Family Activities"],
+    specialTraining: ["Regional Geology", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-santiago-4",
+    name: "Sebastian Clark",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Family Activities, Street Food, Film Locations, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Eco Tour", "Wildlife Safari", "Wine Tour", "Underground Tour", "Shopping Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5661-SAN",
+    phoneNumber: "+1-679-247-2925",
+    contactEmail: "sebastian.clark@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
         ],
       },
       {
@@ -49,392 +246,21 @@ export const santiagochilesouthAmericaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
+            to: "14:00",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Film Locations, Hidden Gems, Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 79,
-    quote:
-      "Every corner of santiago tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    languages: ["Russian"],
-    experienceYears: 9,
-    certifications: [
-      "Certified International Tour Manager",
-      "Regional Tourism Ambassador",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: ["Film Locations", "Hidden Gems", "Museums"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santiago-2",
-    name: "Penelope Torres",
-    city: "santiago",
-    country: "Chile",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Penelope is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Family-Friendly Tour",
-      "LGBTQ+ Friendly Tour",
-      "Relocation Tour",
-      "Adventure Tour",
-      "Wine Tour",
-    ],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-1034-SAN",
-    phoneNumber: "+1-945-390-9761",
-    contactEmail: "penelope.torres@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Penelope is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in LGBTQ+ History, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 7,
-    quote: "In santiago, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Danish", "Dutch"],
+    description: "Sebastian is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Family Activities, Street Food, Film Locations, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 81,
+    quote: "My goal is to help you fall in love with Santiago just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+    languages: ["Hindi", "Russian"],
     experienceYears: 16,
-    certifications: ["Food Safety Certification", "Wilderness First Responder"],
-    specialties: ["LGBTQ+ History"],
-    specialTraining: ["Cultural Sensitivity", "Accessibility Services"],
-  },
-  {
-    id: "guide-santiago-3",
-    name: "Jacob Mitchell",
-    city: "santiago",
-    country: "Chile",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Photography Spots, Street Food, Film Locations, Religious Sites, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: [
-      "Adventure Tour",
-      "Ghost Tour",
-      "Eco Tour",
-      "Architecture Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-7617-SAN",
-    phoneNumber: "+1-779-591-4616",
-    contactEmail: "jacob.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Photography Spots, Street Food, Film Locations, Religious Sites, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 78,
-    quote:
-      "santiago isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
-    languages: ["Spanish"],
-    experienceYears: 10,
-    certifications: ["CPR & First Aid", "Professional Tour Guide Association"],
-    specialties: [
-      "Photography Spots",
-      "Street Food",
-      "Film Locations",
-      "Religious Sites",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santiago-4",
-    name: "Jackson Carter",
-    city: "santiago",
-    country: "Chile",
-    state: "",
-    region: "South America",
-    isPopular: true,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Museums, Art Galleries, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Religious Tour", "Helicopter Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-3953-SAN",
-    phoneNumber: "+1-619-832-9855",
-    contactEmail: "jackson.carter@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Museums, Art Galleries, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 48,
-    quote: "In santiago, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    languages: ["Russian"],
-    experienceYears: 9,
-    certifications: [
-      "Local History Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Museums", "Art Galleries"],
-    specialTraining: ["Historical Research Methods", "Desert Navigation"],
-  },
-  {
-    id: "guide-santiago-5",
-    name: "Sebastian Harris",
-    city: "santiago",
-    country: "Chile",
-    state: "",
-    region: "South America",
-    isPopular: true,
-    bio: "Sebastian is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Alaska"],
-    tourTypes: [
-      "Walking Tour",
-      "Boat Tour",
-      "Religious Tour",
-      "Cruise Excursion",
-      "Luxury Tour",
-    ],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6377-SAN",
-    phoneNumber: "+1-790-526-6056",
-    contactEmail: "sebastian.harris@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Sebastian is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Adventure Sports, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 59,
-    quote:
-      "Every corner of santiago tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    languages: ["Russian"],
-    experienceYears: 2,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Adventure Sports"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santiago-6",
-    name: "Henry Taylor",
-    city: "santiago",
-    country: "Chile",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Romantic Tour", "Relocation Tour", "Underground Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-4638-SAN",
-    phoneNumber: "+1-780-313-2769",
-    contactEmail: "henry.taylor@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Henry is a passionate tour guide with extensive knowledge of santiago and Chile. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 35,
-    quote:
-      "The best way to discover santiago is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    languages: ["English", "Bulgarian"],
-    experienceYears: 6,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Music Scene"],
-    specialTraining: ["Regional Geology", "Conflict Resolution"],
-  },
+    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
+    specialties: ["Family Activities", "Street Food", "Film Locations", "Wildlife"],
+    specialTraining: ["Emergency Response"],
+  }
 ];
