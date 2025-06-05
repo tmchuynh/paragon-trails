@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for True North Hotel
+export const trueNorthHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-vancouver-2-room-1",
+    name: "Aurora King Suite",
+    description: "This calming king accommodation offers overlooking spectacular mountain ranges, featuring warm wood and stone accents.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Dining Table", "Blackout Curtains"],
+    pricePerNight: 195,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-vancouver-2-room-1",
+    name: "Maple King Studio",
+    description: "Experience our modern, sophisticated king studio where you can enjoy the serenity of a garden retreat, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Fitness Equipment", "Seating Area", "Flat-Screen TV", "Fireplace", "Books"],
+    pricePerNight: 181,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

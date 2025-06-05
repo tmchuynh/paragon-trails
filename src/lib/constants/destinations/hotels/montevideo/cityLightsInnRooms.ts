@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for City Lights Inn
+export const cityLightsInnRooms: RoomOption[] = [
+  {
+    id: "hotel-montevideo-1-room-0",
+    name: "Montevideo King Room",
+    description: "Experience our eclectic, heartwarming king room with a pleasant outlook, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Complimentary Bottled Water", "Outdoor Furniture", "Luggage Rack", "Kitchenette", "Flat-Screen TV"],
+    pricePerNight: 285,
+    currency: "UYU",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-montevideo-1-room-0",
+    name: "Charrúa King Villa",
+    description: "Enjoy a pleasant stay in our Charrúa-themed king villa, offering where you can enjoy the serenity of mountain life, featuring a curated minibar selection, and unique touches of offering a cozy yet elegant atmosphere.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Fireplace", "Kitchenette", "Outdoor Furniture", "Streaming Services"],
+    pricePerNight: 382,
+    currency: "UYU",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

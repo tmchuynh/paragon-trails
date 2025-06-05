@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-cartagena-1-room-0",
+    name: "Superior King Loft",
+    description: "Step into a classic king loft that combines Superior-themed with breathtaking where city lights twinkle at night, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Complimentary Bottled Water", "Dining Table", "Luggage Rack", "Refrigerator", "Balcony"],
+    pricePerNight: 350,
+    currency: "COP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-cartagena-1-room-0",
+    name: "Coffee King Apartment",
+    description: "Experience our regal, inviting king apartment with a view of the ocean's changing tides, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Soundproofing", "Jacuzzi Tub", "Complimentary Bottled Water"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 469,
+    currency: "COP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

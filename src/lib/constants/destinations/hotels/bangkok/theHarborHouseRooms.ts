@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-bangkok-6-room-5",
+    name: "Signature King Room",
+    description: "Signature-themed room with roomy decor, with a pleasant outlook, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Dining Table", "Connecting Rooms", "Kitchenette", "Soundproofing"],
+    pricePerNight: 302,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-bangkok-6-room-5",
+    name: "Siam King Penthouse",
+    description: "Experience our roomy, welcoming king penthouse with a view of the mountains' breathtaking sunsets, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "In-Room Safe", "Pet Friendly"],
+    pricePerNight: 378,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

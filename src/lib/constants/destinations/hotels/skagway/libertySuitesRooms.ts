@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Liberty Suites
+export const libertySuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-5-room-4",
+    name: "Deluxe King Villa",
+    description: "Deluxe-themed villa with compact decor, with a private balcony overlooking the sea, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "In-Room Safe", "Soundproofing", "Flat-Screen TV"],
+    pricePerNight: 333,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-skagway-5-room-4",
+    name: "Colonial King Penthouse",
+    description: "This gentle king penthouse promises offering a peaceful garden outlook, enriched by Colonial-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Outdoor Furniture", "Fitness Equipment", "Refrigerator"],
+    pricePerNight: 325,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

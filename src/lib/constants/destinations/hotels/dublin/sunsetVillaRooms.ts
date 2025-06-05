@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-dublin-3-room-2",
+    name: "Superior King Studio",
+    description: "Our commodious Superior-themed studio offers where you can escape to the mountains, intimate comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Fitness Equipment", "Mini Bar"],
+    pricePerNight: 213,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-dublin-3-room-2",
+    name: "Modern King Room",
+    description: "Unwind in this modern king room where you can relax to the sound of the waves, with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Complimentary Bottled Water", "Outdoor Furniture"],
+    pricePerNight: 232,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

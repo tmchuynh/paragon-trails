@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Eagle Crest Hotel
+export const eagleCrestHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-tampa-1-room-0",
+    name: "Manhattan King Suite",
+    description: "This glamorous king accommodation offers where the city skyline meets the horizon, offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Balcony", "Refrigerator", "Outdoor Furniture", "Seating Area"],
+    pricePerNight: 160,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-tampa-1-room-0",
+    name: "Colonial King Villa",
+    description: "Unwind in this glamorous king villa where the mountains touch the sky, with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Sauna", "Wake-Up Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 166,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

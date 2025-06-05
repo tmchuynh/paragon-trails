@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Skyline Suites
+export const skylineSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-venice-3-room-2",
+    name: "Classic King Villa",
+    description: "A gentle king retreat with a backdrop of city parks and green spaces, offering a touch of la dolce vita.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "Dining Table", "Seating Area", "In-Room Safe"],
+    pricePerNight: 277,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-venice-3-room-2",
+    name: "Classic King Suite",
+    description: "Classic-themed king suite with a view of the mountains' changing seasons, offering a touch of la dolce vita and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Bathtub", "Pet Friendly", "Jacuzzi Tub", "Soundproofing", "Connecting Rooms"],
+    pricePerNight: 354,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

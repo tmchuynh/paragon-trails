@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sakura Palace
+export const sakuraPalaceRooms: RoomOption[] = [
+  {
+    id: "hotel-tokyo-2-room-1",
+    name: "Lotus Queen Room",
+    description: "This retro queen accommodation offers with panoramic views of the mountain landscape, featuring traditional tatami elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Flat-Screen TV", "Dining Table", "Books", "Bathtub", "Luggage Rack"],
+    pricePerNight: 232,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-tokyo-2-room-1",
+    name: "Sakura Twin Suite",
+    description: "Unwind in this retro twin suite with a view of snow-capped peaks, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Seating Area", "Outdoor Furniture", "Smoke Detector", "Fireplace"],
+    pricePerNight: 175,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-tokyo-2-room-1",
+    name: "Lotus Sofa Bed Penthouse",
+    description: "This comfortable sofa bed penthouse promises where mountains paint the horizon, enriched by Lotus-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Bluetooth Speaker", "Luggage Rack"],
+    pricePerNight: 199,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-tokyo-2-room-1",
+    name: "Imperial King Loft",
+    description: "Experience our serene, upscale king loft where the mountains touch the sky, with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Pet Friendly", "Sauna", "Refrigerator", "Flat-Screen TV", "Family Room"],
+    pricePerNight: 310,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

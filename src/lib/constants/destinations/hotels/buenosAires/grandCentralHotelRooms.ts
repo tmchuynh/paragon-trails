@@ -1,0 +1,38 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-buenos-aires-6-room-5",
+    name: "Modern King Apartment",
+    description: "Modern-themed apartment with compact decor, with a pleasant outlook, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "In-Room Safe", "Books", "Board Games", "Streaming Services", "Wake-Up Service"],
+    pricePerNight: 417,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-buenos-aires-6-room-5",
+    name: "Horizon King Apartment",
+    description: "Discover the charm of this Horizon-themed king apartment, complete with grandiose ambiance, stunning where you can escape to the mountains, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Jacuzzi Tub", "Kitchenette", "Accessible Room", "Pet Friendly", "In-Room Safe", "Wake-Up Service"],
+    pricePerNight: 495,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

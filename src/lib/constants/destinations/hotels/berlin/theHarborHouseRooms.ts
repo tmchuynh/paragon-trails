@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-berlin-3-room-2",
+    name: "Tranquility King Penthouse",
+    description: "Our Tranquility-themed king penthouse offers futuristic luxury, panoramic with panoramic views of the mountain landscape, and with a private balcony or terrace, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Books", "Balcony", "Flat-Screen TV", "Soundproofing", "Bluetooth Speaker"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 351,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-berlin-3-room-2",
+    name: "Modern King Villa",
+    description: "This palatial king villa promises where you can enjoy the beauty of nature, enriched by Modern-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Wake-Up Service", "Pet Friendly", "Bluetooth Speaker", "Dining Table", "Mini Bar"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 297,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

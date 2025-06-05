@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Oceanview Inn
+export const oceanviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Signature King Apartment",
+    description: "Our voluminous Signature-themed apartment offers with a view of colorful flower beds, majestic comfort, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Accessible Room", "Complimentary Bottled Water"],
+    pricePerNight: 347,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-george-town-5-room-4",
+    name: "Serenity King Room",
+    description: "This ornate king accommodation offers where you can find inspiration in the mountains, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Board Games", "Luggage Rack", "Flat-Screen TV"],
+    pricePerNight: 327,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

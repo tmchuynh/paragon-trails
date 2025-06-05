@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ambassador
+export const theAmbassadorRooms: RoomOption[] = [
+  {
+    id: "hotel-bermuda-5-room-4",
+    name: "Superior King Suite",
+    description: "A luxurious king retreat where you can enjoy the serenity of mountain life, featuring pastel colors and colonial influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Accessible Room", "Soundproofing"],
+    pricePerNight: 373,
+    currency: "BMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-bermuda-5-room-4",
+    name: "Hamilton King Villa",
+    description: "Discover the charm of this Hamilton-themed king villa, complete with snug ambiance, stunning with a view of iconic landmarks, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Accessible Room", "Jacuzzi Tub", "Balcony"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 335,
+    currency: "BMD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for City Lights Inn
+export const cityLightsInnRooms: RoomOption[] = [
+  {
+    id: "hotel-dubai-3-room-2",
+    name: "Dubai Skyline King Villa",
+    description: "A sumptuous king villa designed for wide-ranging comfort, with with a pleasant outlook and featuring premium bath amenities, reflecting highlighting desert elegance and modern design.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Complimentary Bottled Water", "Connecting Rooms", "Accessible Room", "Sauna", "Luggage Rack"],
+    pricePerNight: 346,
+    currency: "AED",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-dubai-3-room-2",
+    name: "Premium King Penthouse",
+    description: "This vintage king penthouse promises where you can enjoy the mountains' majestic presence, enriched by Premium-themed details and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Outdoor Furniture", "Kitchenette", "Flat-Screen TV", "Smoke Detector", "Family Room"],
+    pricePerNight: 452,
+    currency: "AED",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

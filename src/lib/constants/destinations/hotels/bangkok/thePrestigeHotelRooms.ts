@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Prestige Hotel
+export const thePrestigeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-bangkok-1-room-0",
+    name: "Luxury King Loft",
+    description: "This broad king loft promises with a view of the sandy beaches, enriched by Luxury-themed details and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Ironing Facilities", "Outdoor Furniture", "Pet Friendly", "In-Room Safe"],
+    pricePerNight: 187,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-bangkok-1-room-0",
+    name: "Jasmine King Penthouse",
+    description: "Our majestic Jasmine-themed penthouse offers where you can enjoy the serenity of mountain life, palatial comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Fireplace", "Fitness Equipment", "Balcony", "Luggage Rack"],
+    pricePerNight: 191,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

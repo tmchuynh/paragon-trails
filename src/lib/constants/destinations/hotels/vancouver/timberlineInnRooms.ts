@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Timberline Inn
+export const timberlineInnRooms: RoomOption[] = [
+  {
+    id: "hotel-vancouver-1-room-0",
+    name: "Luxury King Apartment",
+    description: "A calming king retreat overlooking spectacular mountain ranges, blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Blackout Curtains", "Board Games", "Family Room"],
+    pricePerNight: 333,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-vancouver-1-room-0",
+    name: "Frontier King Suite",
+    description: "Enjoy a eclectic stay in our Frontier-themed king suite, offering with a view of the ocean's changing tides, with a spacious seating area, and unique touches of blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Smoke Detector", "Family Room", "Blackout Curtains"],
+    pricePerNight: 334,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

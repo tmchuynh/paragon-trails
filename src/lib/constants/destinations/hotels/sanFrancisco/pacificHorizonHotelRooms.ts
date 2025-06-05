@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pacific Horizon Hotel
+export const pacificHorizonHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-san-francisco-3-room-2",
+    name: "Harmony King Apartment",
+    description: "Experience our grandiose, sleek king apartment where the city skyline meets the horizon, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Flat-Screen TV", "Bathtub", "Pet Friendly", "Streaming Services", "Blackout Curtains"],
+    pricePerNight: 369,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-san-francisco-3-room-2",
+    name: "Classic King Suite",
+    description: "Unwind in this extensive king suite overlooking lush garden landscapes, with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Pet Friendly", "Smoke Detector", "Wake-Up Service", "Soundproofing"],
+    pricePerNight: 368,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

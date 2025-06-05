@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Heritage View
+export const heritageViewRooms: RoomOption[] = [
+  {
+    id: "hotel-bali-6-room-5",
+    name: "Java King Room",
+    description: "A well-proportioned king retreat overlooking the vibrant cityscape, highlighting island-inspired tranquility.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Board Games", "Luggage Rack", "Balcony", "Jacuzzi Tub", "Pet Friendly"],
+    pricePerNight: 337,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-bali-6-room-5",
+    name: "Island Breeze King Villa",
+    description: "This luxurious king villa promises where you can watch the waves roll in, enriched by Island Breeze-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Family Room", "Kitchenette", "Connecting Rooms", "Sauna", "Flat-Screen TV"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 396,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Forbidden Garden Hotel
+export const theForbiddenGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-4-room-3",
+    name: "Luxury King Penthouse",
+    description: "Luxury-themed king penthouse with a view of the mountains' serene beauty, blending imperial tradition with modern design and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Ironing Facilities", "Jacuzzi Tub", "Streaming Services", "In-Room Safe", "Complimentary Bottled Water"],
+    pricePerNight: 320,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-shanghai-4-room-3",
+    name: "Imperial King Loft",
+    description: "Unwind in this elegant king loft with stunning views of the city skyline, with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Wake-Up Service", "Balcony", "Board Games", "Smoke Detector", "Complimentary Bottled Water"],
+    pricePerNight: 331,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

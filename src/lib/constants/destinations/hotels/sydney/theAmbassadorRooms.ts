@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ambassador
+export const theAmbassadorRooms: RoomOption[] = [
+  {
+    id: "hotel-sydney-3-room-2",
+    name: "Standard King Room",
+    description: "This room-filled king accommodation offers where you can enjoy the beauty of nature, featuring airy, sun-drenched interiors.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Bathtub", "Mini Bar"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 318,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-sydney-3-room-2",
+    name: "Koala King Studio",
+    description: "A extensive king studio designed for spacious comfort, with where you can relax to the sound of the waves and with plush bedding for ultimate comfort, reflecting with coastal and Outback influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Bluetooth Speaker", "Outdoor Furniture"],
+    pricePerNight: 348,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

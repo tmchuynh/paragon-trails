@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Prestige Hotel
+export const thePrestigeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-nassau-7-room-6",
+    name: "Paradise King Loft",
+    description: "A open-concept king retreat with a pleasant outlook, with bright tropical colors and seaside charm.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Jacuzzi Tub", "Outdoor Furniture", "Bluetooth Speaker", "Smoke Detector", "Bathtub", "Fireplace"],
+    pricePerNight: 135,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-nassau-7-room-6",
+    name: "Premium King Room",
+    description: "Unwind in this bohemian king room with a view of the mountains' rugged terrain, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Mini Bar", "Refrigerator", "Family Room", "Luggage Rack"],
+    pricePerNight: 174,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

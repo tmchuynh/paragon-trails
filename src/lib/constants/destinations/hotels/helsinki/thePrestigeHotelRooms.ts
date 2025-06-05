@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Prestige Hotel
+export const thePrestigeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-helsinki-1-room-0",
+    name: "Executive King Loft",
+    description: "Step into a restful king loft that combines Executive-themed with breathtaking with a pleasant outlook, complemented by with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Smoke Detector", "Flat-Screen TV"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 276,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-helsinki-1-room-0",
+    name: "Tranquility King Suite",
+    description: "Experience our pleasant, industrial king suite with a view of the rugged mountain landscape, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Refrigerator", "Smoke Detector"],
+    pricePerNight: 317,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

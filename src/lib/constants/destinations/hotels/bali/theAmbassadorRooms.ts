@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ambassador
+export const theAmbassadorRooms: RoomOption[] = [
+  {
+    id: "hotel-bali-1-room-0",
+    name: "Superior King Studio",
+    description: "A majestic king studio designed for airy comfort, with with a view of the endless blue and featuring premium bath amenities, reflecting highlighting island-inspired tranquility.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Flat-Screen TV", "Pet Friendly"],
+    pricePerNight: 137,
+    currency: "IDR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-bali-1-room-0",
+    name: "Volcanic King Suite",
+    description: "A eclectic king suite designed for palatial comfort, with where you can enjoy the serenity of mountain life and with a spacious seating area, reflecting featuring Balinese art and natural materials.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Accessible Room", "Mini Bar", "Dining Table", "Family Room", "Seating Area"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 138,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

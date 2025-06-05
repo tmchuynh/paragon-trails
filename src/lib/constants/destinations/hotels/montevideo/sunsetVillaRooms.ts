@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-montevideo-2-room-1",
+    name: "Atlantic Breeze King Suite",
+    description: "Relax in our airy ornate king suite featuring with a view of colorful flower beds, along with featuring a curated minibar selection and offering a cozy yet elegant atmosphere.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Refrigerator", "Connecting Rooms", "Accessible Room", "Family Room"],
+    pricePerNight: 162,
+    currency: "UYU",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-montevideo-2-room-1",
+    name: "Colonia King Room",
+    description: "Step into a inviting king room that combines Colonia-themed with breathtaking where you can enjoy stunning sunsets over the water, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Complimentary Bottled Water", "Mini Bar", "Connecting Rooms"],
+    pricePerNight: 190,
+    currency: "UYU",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

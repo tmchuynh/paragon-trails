@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Palms
+export const thePalmsRooms: RoomOption[] = [
+  {
+    id: "hotel-juneau-2-room-1",
+    name: "Manhattan King Penthouse",
+    description: "Enjoy a sleek stay in our Manhattan-themed king penthouse, offering with a view of the garden's tranquil pathways, with a luxurious soaking tub, and unique touches of with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Flat-Screen TV", "Outdoor Furniture"],
+    pricePerNight: 218,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-juneau-2-room-1",
+    name: "Manhattan King Studio",
+    description: "Experience our stretching, heartwarming king studio with a private balcony overlooking the sea, with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Mini Bar", "Complimentary Bottled Water", "Flat-Screen TV", "In-Room Safe", "Jacuzzi Tub"],
+    pricePerNight: 222,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

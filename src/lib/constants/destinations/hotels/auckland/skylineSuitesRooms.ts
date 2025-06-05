@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Skyline Suites
+export const skylineSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-auckland-3-room-2",
+    name: "Bayview King Villa",
+    description: "Bayview-themed king villa with a pleasant outlook, with Maori-inspired motifs and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Refrigerator", "Seating Area"],
+    pricePerNight: 336,
+    currency: "NZD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-auckland-3-room-2",
+    name: "Alpine King Studio",
+    description: "Enjoy a palatial stay in our Alpine-themed king studio, offering where the mountains touch the sky, with a modern en-suite bathroom, and unique touches of featuring natural materials and scenic views.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Flat-Screen TV", "Bathtub", "Kitchenette", "Seating Area"],
+    pricePerNight: 426,
+    currency: "NZD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

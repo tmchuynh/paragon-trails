@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Urban Garden Hotel
+export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-venice-2-room-1",
+    name: "Standard King Villa",
+    description: "Our exquisite Standard-themed villa offers with a view of the rugged mountain landscape, vintage comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Mini Bar", "Seating Area", "Kitchenette", "Blackout Curtains", "Jacuzzi Tub"],
+    pricePerNight: 142,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-venice-2-room-1",
+    name: "Serenity King Villa",
+    description: "Experience our relaxing, broad king villa where you can watch the waves roll in, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Connecting Rooms", "Dining Table"],
+    pricePerNight: 152,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

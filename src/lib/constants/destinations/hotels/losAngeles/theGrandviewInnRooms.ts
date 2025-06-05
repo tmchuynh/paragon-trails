@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Grandview Inn
+export const theGrandviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-los-angeles-3-room-2",
+    name: "Horizon King Apartment",
+    description: "A comfortable king apartment designed for indulgent comfort, with with a pleasant outlook and with a luxurious soaking tub, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Pet Friendly", "Accessible Room"],
+    pricePerNight: 144,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-los-angeles-3-room-2",
+    name: "Standard King Suite",
+    description: "Our Standard-themed king suite offers generous luxury, panoramic with a view of the ocean's horizon, and offering a unique blend of style and comfort, inspired by featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Connecting Rooms", "Bathtub", "Kitchenette"],
+    pricePerNight: 186,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

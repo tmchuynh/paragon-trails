@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Lodge
+export const sunsetLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-los-angeles-6-room-5",
+    name: "Serenity King Villa",
+    description: "Step into a eclectic king villa that combines Serenity-themed with breathtaking with a pleasant outlook, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Blackout Curtains", "Dining Table", "Fitness Equipment", "Balcony", "Fireplace", "Sauna"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 349,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-los-angeles-6-room-5",
+    name: "Premium King Penthouse",
+    description: "Discover the charm of this Premium-themed king penthouse, complete with grandiose ambiance, stunning with a view of the sandy beaches, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Pet Friendly", "Balcony", "Sauna"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 417,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

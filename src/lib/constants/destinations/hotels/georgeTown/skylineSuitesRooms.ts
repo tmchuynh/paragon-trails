@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Skyline Suites
+export const skylineSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-george-town-7-room-6",
+    name: "Harmony King Loft",
+    description: "Indulge in the roomy atmosphere of our king loft, with spectacular with panoramic views of the surrounding mountains, decorated with local artistic influences, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Smoke Detector", "Dining Table", "Board Games", "Sauna", "Complimentary Bottled Water"],
+    pricePerNight: 435,
+    currency: "KYD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-george-town-7-room-6",
+    name: "Luxury King Loft",
+    description: "Experience our welcoming, comfy king loft where the ocean meets the sky, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Board Games", "Accessible Room", "Balcony", "Sauna"],
+    pricePerNight: 402,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kobe Bay Resort
+export const kobeBayResortRooms: RoomOption[] = [
+  {
+    id: "hotel-kyoto-2-room-1",
+    name: "Lotus King Villa",
+    description: "Experience our industrial, commodious king villa with a view of the mountains' serene beauty, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Blackout Curtains", "Refrigerator", "Luggage Rack"],
+    pricePerNight: 396,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-kyoto-2-room-1",
+    name: "Imperial King Studio",
+    description: "Imperial-themed king studio where you can enjoy the beauty of nature, offering the perfect balance of Eastern serenity and Western comfort and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Ironing Facilities", "Jacuzzi Tub", "In-Room Safe", "Flat-Screen TV", "Sauna"],
+    pricePerNight: 379,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Eagle Crest Hotel
+export const eagleCrestHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-6-room-5",
+    name: "Luxury King Apartment",
+    description: "A homey king apartment designed for vintage comfort, with with a view of colorful flower beds and with a spacious seating area, reflecting highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Bluetooth Speaker", "Refrigerator", "Kitchenette", "Family Room"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 338,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-skagway-6-room-5",
+    name: "Luxury King Studio",
+    description: "Indulge in the luxurious atmosphere of our king studio, with spectacular with a view of the sandy beaches, with rustic and modern influences, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Soundproofing", "Outdoor Furniture", "Mini Bar", "Dining Table", "Flat-Screen TV"],
+    pricePerNight: 387,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

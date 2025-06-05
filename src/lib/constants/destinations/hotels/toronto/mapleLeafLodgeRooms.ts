@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Maple Leaf Lodge
+export const mapleLeafLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Timber King Suite",
+    description: "Discover the charm of this Timber-themed king suite, complete with restful ambiance, stunning with serene garden views, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Pet Friendly", "Accessible Room", "Outdoor Furniture", "Fireplace"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 306,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-toronto-3-room-2",
+    name: "Northern Lights King Penthouse",
+    description: "Enjoy a tranquil stay in our Northern Lights-themed king penthouse, offering where you can enjoy the mountains' majestic presence, equipped with all the modern conveniences, and unique touches of inspired by the rugged beauty of Canadian landscapes.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "In-Room Safe", "Fireplace", "Ironing Facilities", "Blackout Curtains", "Complimentary Bottled Water"],
+    pricePerNight: 359,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

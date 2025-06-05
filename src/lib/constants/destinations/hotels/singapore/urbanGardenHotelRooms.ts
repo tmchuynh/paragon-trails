@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Urban Garden Hotel
+export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-singapore-4-room-3",
+    name: "Harbour King Suite",
+    description: "Our soft Harbour-themed suite offers with a pleasant outlook, majestic comfort, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Sauna", "Bluetooth Speaker"],
+    pricePerNight: 168,
+    currency: "SGD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-singapore-4-room-3",
+    name: "Lion City King Room",
+    description: "A glamorous king retreat where you can enjoy the city's energy, featuring sleek, contemporary designs.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Outdoor Furniture", "Kitchenette"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 183,
+    currency: "SGD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

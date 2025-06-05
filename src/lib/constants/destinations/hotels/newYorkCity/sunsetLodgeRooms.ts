@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Lodge
+export const sunsetLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Horizon King Penthouse",
+    description: "Relax in our palatial tranquil king penthouse featuring where you can enjoy the ocean's beauty, along with with blackout curtains for a perfect night's sleep and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Soundproofing", "Jacuzzi Tub", "Smoke Detector", "Kitchenette", "Seating Area"],
+    pricePerNight: 334,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-new-york-city-5-room-4",
+    name: "Serenity King Room",
+    description: "This homey king accommodation offers with a backdrop of city parks and green spaces, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Wake-Up Service", "In-Room Safe", "Fitness Equipment"],
+    pricePerNight: 303,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

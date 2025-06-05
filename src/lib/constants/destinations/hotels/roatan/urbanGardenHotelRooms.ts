@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Urban Garden Hotel
+export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-roatan-2-room-1",
+    name: "Rainforest King Suite",
+    description: "Enjoy a peaceful stay in our Rainforest-themed king suite, offering with a view of the garden's natural beauty, with a spacious work area, and unique touches of featuring handcrafted indigenous decor.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Accessible Room", "Smoke Detector"],
+    pricePerNight: 159,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-roatan-2-room-1",
+    name: "Caribe King Room",
+    description: "A industrial king retreat overlooking the sparkling ocean waves, with natural and rustic themes.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Accessible Room", "Dining Table", "Seating Area"],
+    pricePerNight: 169,
+    currency: "HNL",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

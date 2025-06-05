@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Metropolitan
+export const theMetropolitanRooms: RoomOption[] = [
+  {
+    id: "hotel-boston-3-room-2",
+    name: "Heritage King Suite",
+    description: "Enjoy a homey stay in our Heritage-themed king suite, offering with majestic mountain vistas, including climate control for your comfort, and unique touches of featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Smoke Detector", "Mini Bar", "In-Room Safe", "Wake-Up Service"],
+    pricePerNight: 329,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-boston-3-room-2",
+    name: "Colonial King Villa",
+    description: "Colonial-themed villa with sizable decor, featuring a blend of modern and historic architecture, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Refrigerator", "Mini Bar", "Family Room"],
+    pricePerNight: 280,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

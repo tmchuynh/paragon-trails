@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Niagara Suites
+export const niagaraSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-montreal-3-room-2",
+    name: "Superior King Loft",
+    description: "Discover the charm of this Superior-themed king loft, complete with sizable ambiance, stunning where you can enjoy the tranquility of the mountains, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Board Games", "Mini Bar", "Soundproofing", "Fitness Equipment"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 382,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-montreal-3-room-2",
+    name: "Timber King Villa",
+    description: "Relax in our regal lavish king villa featuring with a pleasant outlook, along with featuring premium bath amenities and inspired by the rugged beauty of Canadian landscapes.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Soundproofing", "Streaming Services", "In-Room Safe", "Pet Friendly"],
+    pricePerNight: 260,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

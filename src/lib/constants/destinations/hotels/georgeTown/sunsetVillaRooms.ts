@@ -1,0 +1,38 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-george-town-4-room-3",
+    name: "Standard King Villa",
+    description: "Relax in our retro lavish king villa featuring where you can experience the beauty of nature, along with featuring a curated minibar selection and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fireplace", "Outdoor Furniture", "Sauna"],
+    pricePerNight: 416,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-george-town-4-room-3",
+    name: "Modern King Studio",
+    description: "This majestic king accommodation offers with a pleasant outlook, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Jacuzzi Tub", "Books", "Pet Friendly", "Sauna", "In-Room Safe"],
+    pricePerNight: 358,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

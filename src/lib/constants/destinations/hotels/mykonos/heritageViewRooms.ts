@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Heritage View
+export const heritageViewRooms: RoomOption[] = [
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Horizon King Villa",
+    description: "Discover the charm of this Horizon-themed king villa, complete with stylish ambiance, stunning with a front-row seat to the city's heartbeat, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Blackout Curtains", "Luggage Rack", "Mini Bar", "Jacuzzi Tub", "Ironing Facilities"],
+    pricePerNight: 155,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-mykonos-4-room-3",
+    name: "Tranquility King Villa",
+    description: "Discover the charm of this Tranquility-themed king villa, complete with compact ambiance, stunning where you can enjoy the ocean's beauty, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Accessible Room", "Luggage Rack", "Wake-Up Service"],
+    pricePerNight: 173,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

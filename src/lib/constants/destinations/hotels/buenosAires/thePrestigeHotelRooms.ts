@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Prestige Hotel
+export const thePrestigeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-buenos-aires-2-room-1",
+    name: "Standard King Studio",
+    description: "Step into a indulgent king studio that combines Standard-themed with breathtaking with a view of the city's waterfront, complemented by with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Blackout Curtains", "Fireplace", "Mini Bar", "Books"],
+    pricePerNight: 327,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-buenos-aires-2-room-1",
+    name: "Classic King Studio",
+    description: "Our Classic-themed king studio offers eclectic luxury, panoramic with a pleasant outlook, and featuring premium bath amenities, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Ironing Facilities", "Outdoor Furniture"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 273,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];

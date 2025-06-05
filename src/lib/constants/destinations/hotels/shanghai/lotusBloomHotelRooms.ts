@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Lotus Bloom Hotel
+export const lotusBloomHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-1-room-0",
+    name: "Signature King Studio",
+    description: "Signature-themed studio with tranquil decor, with a pleasant outlook, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Family Room", "Seating Area"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 303,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-shanghai-1-room-0",
+    name: "Forbidden King Studio",
+    description: "Step into a sleek king studio that combines Forbidden-themed with breathtaking with a panoramic view of the coastline, complemented by featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Bathtub", "Smoke Detector", "Balcony", "Connecting Rooms", "Ironing Facilities"],
+    pricePerNight: 351,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

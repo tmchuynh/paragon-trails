@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Silk Road Retreat
+export const silkRoadRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-2-room-1",
+    name: "Forbidden King Villa",
+    description: "Discover the charm of this Forbidden-themed king villa, complete with serene ambiance, stunning with a pleasant outlook, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Luggage Rack", "Board Games", "Bathtub", "Fireplace"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 317,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-shanghai-2-room-1",
+    name: "Silk King Studio",
+    description: "Our stylish Silk-themed studio offers overlooking spectacular mountain ranges, sophisticated comfort, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Soundproofing", "Blackout Curtains", "Balcony", "Seating Area", "Accessible Room"],
+    pricePerNight: 389,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Liberty Suites
+export const libertySuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Deluxe King Studio",
+    description: "A sleek king studio designed for vast comfort, with featuring awe-inspiring mountain scenery and including climate control for your comfort, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Streaming Services", "Bluetooth Speaker"],
+    pricePerNight: 341,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-san-francisco-4-room-3",
+    name: "Horizon King Villa",
+    description: "A welcoming king villa designed for futuristic comfort, with with a pleasant outlook and with carefully selected furnishings, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Complimentary Bottled Water", "Ironing Facilities"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 262,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

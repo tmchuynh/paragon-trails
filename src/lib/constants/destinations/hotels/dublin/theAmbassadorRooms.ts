@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ambassador
+export const theAmbassadorRooms: RoomOption[] = [
+  {
+    id: "hotel-dublin-4-room-3",
+    name: "Luxury King Room",
+    description: "Relax in our relaxing prestigious king room featuring with a view of the ocean's changing tides, along with with a private balcony or terrace and decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Jacuzzi Tub", "Sauna", "Bathtub"],
+    pricePerNight: 166,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-dublin-4-room-3",
+    name: "Tranquility King Loft",
+    description: "Relax in our gentle chic king loft featuring with a pleasant outlook, along with with a private balcony or terrace and created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Kitchenette", "Streaming Services", "Wake-Up Service"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 133,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

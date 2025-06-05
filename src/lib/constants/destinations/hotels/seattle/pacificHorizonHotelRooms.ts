@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pacific Horizon Hotel
+export const pacificHorizonHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-seattle-3-room-2",
+    name: "Pioneer King Apartment",
+    description: "Discover the charm of this Pioneer-themed king apartment, complete with extensive ambiance, stunning where you can watch the waves roll in, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Kitchenette", "Fitness Equipment", "Family Room", "Bathtub"],
+    pricePerNight: 367,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-seattle-3-room-2",
+    name: "Golden Gate King Loft",
+    description: "Golden Gate-themed loft with traditional decor, where mountains paint the horizon, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Accessible Room", "Kitchenette", "Bathtub", "Mini Bar", "Seating Area"],
+    pricePerNight: 321,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];

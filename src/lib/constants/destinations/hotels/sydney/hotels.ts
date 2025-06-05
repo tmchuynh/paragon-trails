@@ -1,0 +1,70 @@
+import { Hotel } from "@/lib/interfaces/services/rentals";
+
+export const sydneyHotels: Hotel[] = [
+  {
+    id: "hotel-sydney-1",
+    name: "Sunset Villa",
+    address: "78 East Hilltop Court",
+    rating: 4,
+    accommodationType: "Boutique Hotel",
+    amenities: ["Spa", "Fitness Center", "Laundry Service", "Swimming Pool", "Room Service", "Pet Friendly", "Parking", "Business Center", "24-Hour Front Desk", "Restaurant"],
+    checkInTime: "14:00",
+    checkOutTime: "11:00",
+    roomsAvailable: 43,
+    isPetFriendly: true,
+    currency: "AUD",
+    contact: {
+      contactEmail: "hello@sunsetvilla.com",
+      contactPhone: "+561 674-552-7939",
+    },
+    policies: {
+      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      smoking: "Designated Areas",
+    },
+    isPopular: false,
+  },
+  {
+    id: "hotel-sydney-2",
+    name: "City Lights Inn",
+    address: "56 Riverside Ave",
+    rating: 3,
+    accommodationType: "Guesthouse",
+    amenities: ["Free Wi-Fi", "Non-Smoking Rooms", "Swimming Pool", "Laundry Service", "Bar", "Airport Shuttle", "Parking", "Pet Friendly", "Fitness Center", "Spa"],
+    checkInTime: "15:00",
+    checkOutTime: "10:00",
+    roomsAvailable: 43,
+    isPetFriendly: false,
+    currency: "AUD",
+    contact: {
+      contactEmail: "connect@citylightsinn.com",
+      contactPhone: "+549 488-635-3738",
+    },
+    policies: {
+      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      smoking: "Designated Areas",
+    },
+    isPopular: false,
+  },
+  {
+    id: "hotel-sydney-3",
+    name: "The Ambassador",
+    address: "46 Sunset Rd",
+    rating: 4,
+    accommodationType: "Bed and Breakfast",
+    amenities: ["Spa", "24-Hour Front Desk", "Swimming Pool", "Bar", "Restaurant"],
+    checkInTime: "13:00",
+    checkOutTime: "11:00",
+    roomsAvailable: 15,
+    isPetFriendly: false,
+    currency: "AUD",
+    contact: {
+      contactEmail: "customerservice@theambassador.com",
+      contactPhone: "+614 654-438-5221",
+    },
+    policies: {
+      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      smoking: "Designated Areas",
+    },
+    isPopular: false,
+  }
+];

@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Oceanview Inn
+export const oceanviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-berlin-5-room-4",
+    name: "Classic King Room",
+    description: "A sizable king retreat with a pleasant outlook, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Balcony", "Complimentary Bottled Water"],
+    pricePerNight: 136,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-berlin-5-room-4",
+    name: "Superior King Apartment",
+    description: "Unwind in this extensive king apartment with a view of the endless blue, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Kitchenette", "Mini Bar", "Refrigerator", "Streaming Services"],
+    pricePerNight: 192,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

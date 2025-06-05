@@ -1,0 +1,73 @@
+import { Hotel } from "@/lib/interfaces/services/rentals";
+
+export const juneauHotels: Hotel[] = [
+  {
+    id: "hotel-juneau-1",
+    name: "Eagle Crest Hotel",
+    address: "43 Maple Blvd",
+    rating: 4,
+    accommodationType: "Vacation Rental",
+    amenities: ["Business Center", "Non-Smoking Rooms", "Bar", "Fitness Center", "Laundry Service", "Parking", "Free Wi-Fi", "24-Hour Front Desk"],
+    accessibilityFeatures: ["Braille Signage", "Tactile Maps", "Visual Aids"],
+    checkInTime: "14:00",
+    checkOutTime: "10:00",
+    roomsAvailable: 37,
+    isPetFriendly: false,
+    currency: "USD",
+    contact: {
+      contactEmail: "services@eaglecresthotel.com",
+      contactPhone: "+255 725-238-7491",
+    },
+    policies: {
+      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      smoking: "Not Allowed",
+    },
+    isPopular: false,
+  },
+  {
+    id: "hotel-juneau-2",
+    name: "The Palms",
+    address: "70 NE Main Ave",
+    rating: 3,
+    accommodationType: "Boutique Hotel",
+    amenities: ["Free Wi-Fi", "Laundry Service", "Swimming Pool", "Non-Smoking Rooms", "Pet Friendly", "Fitness Center", "Spa", "Parking", "Room Service", "Restaurant"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    checkInTime: "16:00",
+    checkOutTime: "10:00",
+    roomsAvailable: 51,
+    isPetFriendly: false,
+    currency: "USD",
+    contact: {
+      contactEmail: "mail@thepalms.com",
+      contactPhone: "+513 852-222-3673",
+    },
+    policies: {
+      cancellation: "No refunds for cancellations.",
+      smoking: "Allowed",
+    },
+    isPopular: false,
+  },
+  {
+    id: "hotel-juneau-3",
+    name: "Riverside Manor",
+    address: "60 Main Ct",
+    rating: 3,
+    accommodationType: "Hotel",
+    amenities: ["24-Hour Front Desk", "Free Wi-Fi", "Non-Smoking Rooms", "Laundry Service", "Swimming Pool", "Pet Friendly"],
+    accessibilityFeatures: ["Large Print Materials", "Hearing Support", "Visual Aids"],
+    checkInTime: "14:00",
+    checkOutTime: "12:00",
+    roomsAvailable: 33,
+    isPetFriendly: false,
+    currency: "USD",
+    contact: {
+      contactEmail: "communications@riversidemanor.com",
+      contactPhone: "+346 439-712-2348",
+    },
+    policies: {
+      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      smoking: "Not Allowed",
+    },
+    isPopular: false,
+  }
+];

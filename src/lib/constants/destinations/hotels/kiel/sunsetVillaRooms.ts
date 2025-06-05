@@ -1,0 +1,24 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-kiel-3-room-2",
+    name: "Luxury King Villa",
+    description: "A minimalist king retreat where you can enjoy the serenity of a garden retreat, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Smoke Detector", "Wake-Up Service", "Bathtub", "Refrigerator", "Accessible Room"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 116,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

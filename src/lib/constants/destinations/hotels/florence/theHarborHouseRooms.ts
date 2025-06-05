@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-florence-2-room-1",
+    name: "Classic King Penthouse",
+    description: "Classic-themed penthouse with room-filled decor, where you can enjoy the peace of the highlands, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Refrigerator", "Kitchenette", "Soundproofing", "Sauna", "Outdoor Furniture", "Pet Friendly"],
+    pricePerNight: 181,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-florence-2-room-1",
+    name: "Horizon King Penthouse",
+    description: "Step into a classic king penthouse that combines Horizon-themed with breathtaking with a pleasant outlook, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Mini Bar", "In-Room Safe", "Flat-Screen TV"],
+    pricePerNight: 148,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

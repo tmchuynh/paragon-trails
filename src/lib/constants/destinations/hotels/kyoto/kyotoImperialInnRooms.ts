@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kyoto Imperial Inn
+export const kyotoImperialInnRooms: RoomOption[] = [
+  {
+    id: "hotel-kyoto-6-room-5",
+    name: "Sakura King Suite",
+    description: "A stretching king suite designed for comfortable comfort, with with a pleasant outlook and equipped with all the modern conveniences, reflecting combining modern luxury with Japanese tradition.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Soundproofing", "Ironing Facilities"],
+    pricePerNight: 344,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-kyoto-6-room-5",
+    name: "Sakura King Suite",
+    description: "Our Sakura-themed king suite offers cozy luxury, panoramic with a view of shaded garden paths, and with a luxurious soaking tub, inspired by with minimalist Japanese aesthetics.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Mini Bar", "Fireplace"],
+    pricePerNight: 364,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

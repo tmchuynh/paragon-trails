@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kobe Bay Resort
+export const kobeBayResortRooms: RoomOption[] = [
+  {
+    id: "hotel-yokohama-5-room-4",
+    name: "Superior King Apartment",
+    description: "A sleek king retreat with a pleasant outlook, offering the perfect balance of Eastern serenity and Western comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Luggage Rack", "Sauna", "Seating Area", "In-Room Safe"],
+    pricePerNight: 147,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-yokohama-5-room-4",
+    name: "Zen King Penthouse",
+    description: "A luxurious king retreat with majestic mountain vistas, with minimalist Japanese aesthetics.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "In-Room Safe", "Kitchenette", "Refrigerator"],
+    pricePerNight: 161,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ambassador
+export const theAmbassadorRooms: RoomOption[] = [
+  {
+    id: "hotel-malta-1-room-0",
+    name: "Tranquility King Villa",
+    description: "Tranquility-themed villa with lavish decor, where you can gaze at the towering peaks, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Mini Bar", "Kitchenette", "Refrigerator"],
+    pricePerNight: 352,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-malta-1-room-0",
+    name: "Modern King Villa",
+    description: "Our Modern-themed king villa offers rustic luxury, panoramic with a view of the endless blue, and with a spacious seating area, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Books", "Refrigerator", "Sauna", "Accessible Room", "Blackout Curtains"],
+    pricePerNight: 371,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

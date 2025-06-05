@@ -1,0 +1,42 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Niagara Suites
+export const niagaraSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-vancouver-7-room-6",
+    name: "Standard King Studio",
+    description: "Standard-themed studio with modern decor, with a backdrop of city parks and green spaces, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Connecting Rooms", "Flat-Screen TV"],
+    pricePerNight: 221,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-vancouver-7-room-6",
+    name: "Frontier King Villa",
+    description: "Relax in our glamorous generous king villa featuring where you can enjoy the ocean's beauty, along with equipped with all the modern conveniences and inspired by the rugged beauty of Canadian landscapes.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Accessible Room", "Balcony", "Soundproofing", "Fireplace"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 279,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

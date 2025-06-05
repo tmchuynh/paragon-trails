@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Urban Garden Hotel
+export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-berlin-2-room-1",
+    name: "Modern King Apartment",
+    description: "Relax in our regal welcoming king apartment featuring where you can enjoy the city's energy, along with equipped with all the modern conveniences and created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Smoke Detector", "Wake-Up Service", "Fitness Equipment", "Soundproofing"],
+    pricePerNight: 254,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-berlin-2-room-1",
+    name: "Premium King Loft",
+    description: "Experience our opulent, sumptuous king loft with a view of the tranquil sea, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Seating Area", "Streaming Services", "Books"],
+    pricePerNight: 313,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

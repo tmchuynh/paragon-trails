@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for City Lights Inn
+export const cityLightsInnRooms: RoomOption[] = [
+  {
+    id: "hotel-george-town-1-room-0",
+    name: "Harmony King Penthouse",
+    description: "A elegant king penthouse designed for glamorous comfort, with where city lights twinkle at night and offering a unique blend of style and comfort, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Kitchenette", "Accessible Room"],
+    pricePerNight: 159,
+    currency: "KYD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-george-town-1-room-0",
+    name: "Luxury King Studio",
+    description: "Our Luxury-themed king studio offers welcoming luxury, panoramic where you can take in the fresh mountain air, and with plush bedding for ultimate comfort, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Jacuzzi Tub", "In-Room Safe", "Outdoor Furniture", "Sauna", "Bluetooth Speaker"],
+    pricePerNight: 188,
+    currency: "KYD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Lodge
+export const sunsetLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-1-room-0",
+    name: "Golden Gate King Room",
+    description: "Unwind in this chic king room where mountains paint the horizon, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Refrigerator", "Streaming Services", "Bluetooth Speaker", "Bathtub", "Blackout Curtains"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 176,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-skagway-1-room-0",
+    name: "Manhattan King Apartment",
+    description: "Our Manhattan-themed king apartment offers soft luxury, panoramic where nature is just outside your window, and offering a unique blend of style and comfort, inspired by highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "Kitchenette", "Mini Bar", "Connecting Rooms", "Refrigerator"],
+    pricePerNight: 160,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

@@ -1,0 +1,73 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-paris-4-room-3",
+    name: "Modern Twin Villa",
+    description: "This rustic twin accommodation offers with a view of colorful flower beds, where elegance meets Parisian style.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Sauna", "Accessible Room", "Bluetooth Speaker", "Ironing Facilities", "Wake-Up Service"],
+    pricePerNight: 71,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-paris-4-room-3",
+    name: "Serenity Twin Apartment",
+    description: "Serenity-themed apartment with sophisticated decor, with a pleasant outlook, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Refrigerator", "Wake-Up Service"],
+    pricePerNight: 63,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-paris-4-room-3",
+    name: "Classic King Apartment",
+    description: "This contemporary king accommodation offers with a window to the bustling city below, featuring chic Parisian-inspired decor.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Accessible Room", "Jacuzzi Tub", "Board Games"],
+    pricePerNight: 100,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-paris-4-room-3",
+    name: "Deluxe Queen Penthouse",
+    description: "Our rustic Deluxe-themed penthouse offers where you can find inspiration in the mountains, roomy comfort, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Mini Bar", "Bluetooth Speaker", "Refrigerator"],
+    pricePerNight: 103,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];

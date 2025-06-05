@@ -1,0 +1,39 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Oakwood Resort
+export const oakwoodResortRooms: RoomOption[] = [
+  {
+    id: "hotel-new-york-city-6-room-5",
+    name: "Serenity King Room",
+    description: "Experience our tranquil, sophisticated king room with serene garden views, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Jacuzzi Tub", "Balcony", "Streaming Services"],
+    pricePerNight: 349,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-new-york-city-6-room-5",
+    name: "Serenity King Loft",
+    description: "Step into a inviting king loft that combines Serenity-themed with breathtaking with a pleasant outlook, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Ironing Facilities", "Fireplace", "Connecting Rooms", "In-Room Safe", "Outdoor Furniture"],
+    pricePerNight: 267,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

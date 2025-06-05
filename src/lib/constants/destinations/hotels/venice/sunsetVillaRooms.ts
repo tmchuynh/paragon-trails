@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Villa
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-venice-4-room-3",
+    name: "Classic King Suite",
+    description: "Discover the charm of this Classic-themed king suite, complete with inviting ambiance, stunning with a view of the city's cultural landmarks, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Sauna", "Mini Bar"],
+    pricePerNight: 143,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-venice-4-room-3",
+    name: "Serenity King Studio",
+    description: "A soothing king studio designed for restful comfort, with with a view of the sandy beaches and with plush bedding for ultimate comfort, reflecting featuring tasteful Mediterranean touches.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Complimentary Bottled Water", "Family Room", "Mini Bar"],
+    pricePerNight: 197,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

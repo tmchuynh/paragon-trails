@@ -1,0 +1,38 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Metropolitan
+export const theMetropolitanRooms: RoomOption[] = [
+  {
+    id: "hotel-new-orleans-4-room-3",
+    name: "Deluxe King Apartment",
+    description: "Relax in our welcoming snug king apartment featuring with a pleasant outlook, along with complete with a well-appointed bathroom and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Bathtub", "In-Room Safe", "Complimentary Bottled Water", "Connecting Rooms", "Kitchenette"],
+    pricePerNight: 153,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-new-orleans-4-room-3",
+    name: "Modern King Apartment",
+    description: "Modern-themed king apartment where you can enjoy the garden's seasonal blooms, decorated with local artistic influences and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Mini Bar", "Refrigerator", "Bluetooth Speaker", "Ironing Facilities", "Family Room", "Pet Friendly"],
+    pricePerNight: 161,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

@@ -1,0 +1,41 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Laurentian
+export const theLaurentianRooms: RoomOption[] = [
+  {
+    id: "hotel-victoria-6-room-5",
+    name: "Maple King Apartment",
+    description: "Enjoy a generous stay in our Maple-themed king apartment, offering with a view of iconic landmarks, with a spacious work area, and unique touches of featuring warm wood and stone accents.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Kitchenette", "Smoke Detector"],
+    pricePerNight: 371,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-victoria-6-room-5",
+    name: "Classic King Suite",
+    description: "Step into a gentle king suite that combines Classic-themed with breathtaking with a view of the mountains' rugged terrain, complemented by with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Accessible Room", "Books"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 395,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

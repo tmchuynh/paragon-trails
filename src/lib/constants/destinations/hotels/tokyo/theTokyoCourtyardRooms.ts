@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Tokyo Courtyard
+export const theTokyoCourtyardRooms: RoomOption[] = [
+  {
+    id: "hotel-tokyo-6-room-5",
+    name: "Deluxe Queen Villa",
+    description: "Discover the charm of this Deluxe-themed queen villa, complete with ample ambiance, stunning where mountains paint the horizon, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Bathtub", "Books"],
+    pricePerNight: 333,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-tokyo-6-room-5",
+    name: "Zen Sofa Bed Villa",
+    description: "Zen-themed sofa bed villa featuring awe-inspiring mountain scenery, with minimalist Japanese aesthetics and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Family Room", "Refrigerator", "Connecting Rooms"],
+    pricePerNight: 286,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-tokyo-6-room-5",
+    name: "Bamboo Double Suite",
+    description: "Step into a sizable double suite that combines Bamboo-themed with breathtaking where you can enjoy the serenity of mountain life, complemented by complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Pet Friendly", "Smoke Detector", "Ironing Facilities", "Mini Bar"],
+    pricePerNight: 280,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-tokyo-6-room-5",
+    name: "Harmony Single Suite",
+    description: "Our intimate Harmony-themed suite offers where you can enjoy the peace of the highlands, indulgent comfort, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "In-Room Safe", "Fitness Equipment", "Books"],
+    pricePerNight: 221,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];
