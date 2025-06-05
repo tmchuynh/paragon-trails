@@ -24,12 +24,6 @@ import {
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
 // node scripts/generate-hotels.mjs --rewrite
 
-// Append Flag: Use --append N or -a N to add N new hotels to existing files
-// node scripts/generate-hotels.mjs --append 5
-
-// City Filter: Use --city "CityName" or -c "CityName" to process only specific cities
-// node scripts/generate-hotels.mjs --city "Tokyo"
-
 const cities = getCityFiles();
 
 // Add check for empty cities array
@@ -77,7 +71,6 @@ function parseCommandLineArgs() {
 }
 
 const options = parseCommandLineArgs();
-
 
 const accommodationTypes = [
   "Hotel",
@@ -148,9 +141,20 @@ const cancellationPolicies = [
   "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
   "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
   "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
-  "No refunds for cancellations",
-  "50% refund for cancellations made 7 days before check-in",
+  "No refunds for cancellations.",
+  "50% refund for cancellations made at least 7 days before check-in.",
+  "Full refund if cancelled within 48 hours of booking, minus service fees.",
+  "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+  "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+  "Non-refundable; full amount charged at time of booking.",
+  "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+  "Free cancellation up to 7 days before arrival; no refund after that.",
+  "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+  "Partial refund available if cancelled more than 5 days in advance.",
+  "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+  "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
 ];
+  
 
 // Get currency for a city based on country and region
 function getCurrencyForCity(city) {
