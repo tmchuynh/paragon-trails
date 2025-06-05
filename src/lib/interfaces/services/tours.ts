@@ -28,6 +28,7 @@ export interface Tour extends Details {
   minGroupSize?: number;
   privateAvailable?: boolean;
   isPopular?: boolean;
+  isPetFriendly?: boolean;
   reviewsCount?: number;
   included: string[];
   notIncluded?: string[];
@@ -111,15 +112,17 @@ export type TourTheme =
   | "Street Food";
 
 export type TourRegion =
-  | "Europe"
-  | "Asia"
-  | "Middle East"
-  | "Africa"
-  | "North America"
+  | "Asia Pacific"
+  | "Northern Europe"
+  | "Mediterranean"
+  | "East Coast USA"
   | "South America"
+  | "Africa"
   | "Caribbean"
-  | "Oceania"
-  | "Global";
+  | "Middle East"
+  | "West Coast USA"
+  | "East Coast Canada"
+  | "Alaska";
 
 export interface TourSchedule {
   dayOfWeek:

@@ -53,3 +53,77 @@ export interface WeeklyAvailability {
     | "Sunday";
   availableHours: { from: string; to: string }[];
 }
+
+export interface CrewMember {
+  id: string; // Unique identifier
+  name: string; // Full name
+  role: CrewRole; // Role on the yacht (defined as union)
+  experienceYears: number; // Years of relevant experience
+  certifications: Certification[];
+  languagesSpoken: string[]; // ISO language codes or language names
+  isAvailable: boolean; // Availability status
+  contactEmail?: string; // Optional contact info
+  contactPhone: string; // Optional phone number
+}
+
+export type CrewRole =
+  | "Captain"
+  | "First Mate"
+  | "Engineer"
+  | "Deckhand"
+  | "Chef"
+  | "Steward/Stewardess"
+  | "Dive Instructor"
+  | "Host/Hostess"
+  | "Navigator"
+  | "Purser";
+
+export type Certification =
+  | "STCW"
+  | "First Aid"
+  | "Marine Radio Operator"
+  | "Fire Safety"
+  | "Dive Master"
+  | "Security Training"
+  | "Engineering License"
+  | "Hospitality Training"
+  | "Navigation Certification"
+  | "Environmental Awareness";
+
+export interface Driver {
+  id: string; // Unique identifier
+  name: string; // Full name
+  licenseNumber: string; // Valid driver’s license number
+  licenseExpiry: string; // License expiration date (ISO string)
+  experienceYears: number; // Years of professional driving experience
+  languagesSpoken: string[]; // ISO language codes or language names
+  available: WeeklyAvailability[];
+  ratings?: number; // Average customer rating (1-5)
+  phone: string; // Contact number
+  email?: string; // Optional email
+  photoUrl?: string; // Optional profile photo URL
+  specialties?: DriverSpecialty[];
+  vehicleTypesCertified: VehicleTypeCertified[];
+}
+
+export type DriverSpecialty =
+  | "VIP Transport"
+  | "Airport Transfers"
+  | "Corporate Chauffeur"
+  | "Event Transportation"
+  | "Long-Distance Driving"
+  | "Tour Guide Driver"
+  | "Luxury Car Specialist"
+  | "Night Shift"
+  | "Security Detail";
+
+export type VehicleTypeCertified =
+  | "Sedan"
+  | "Limousine"
+  | "SUV"
+  | "Convertible"
+  | "Van"
+  | "Electric Vehicle"
+  | "Motorcoach"
+  | "Sports Car"
+  | "Luxury SUV";
