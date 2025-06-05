@@ -47,7 +47,7 @@ export default function LuxuriousDestinations() {
     true,
     false,
     false,
-    true
+    true,
   );
 
   // Then apply popularity sorting if selected
@@ -184,7 +184,7 @@ export default function LuxuriousDestinations() {
                 router.push(
                   `/luxurious-destinations/${
                     item.city
-                  }/details?${queryParams.toString()}`
+                  }/details?${queryParams.toString()}`,
                 );
               }}
             >
@@ -224,7 +224,7 @@ export default function LuxuriousDestinations() {
               className="mt-7"
               onClick={() =>
                 router.push(
-                  `/luxurious-destinations/${item.country}/${item.city}/tours?city=${item.city}&country=${item.country}`
+                  `/luxurious-destinations/${item.country}/${item.city}/tours?city=${item.city}&country=${item.country}`,
                 )
               }
             >

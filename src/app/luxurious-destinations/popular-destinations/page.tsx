@@ -42,7 +42,7 @@ export default function PopularDestinations() {
     true,
     false,
     false,
-    true
+    true,
   );
 
   // Get only the popular/featured destinations
@@ -124,7 +124,7 @@ export default function PopularDestinations() {
               router.push(
                 `/luxurious-destinations/${
                   item.city
-                }/details?${queryParams.toString()}`
+                }/details?${queryParams.toString()}`,
               );
             }}
           >

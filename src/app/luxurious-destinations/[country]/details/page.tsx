@@ -47,12 +47,12 @@ export default function DestinationDetailsPage() {
   const cityInfo = cities.find(
     (item) =>
       (item.city === formattedCity && item.country === formattedCountry) ||
-      item.region === formattedCountry
+      item.region === formattedCountry,
   );
 
   const [attractionData, setAttractionData] = useState<Attraction[]>([]);
   const [filteredAttractions, setFilteredAttractions] = useState<Attraction[]>(
-    []
+    [],
   );
   const [showFilters, setShowFilters] = useState(false);
 
@@ -324,7 +324,7 @@ export default function DestinationDetailsPage() {
           <Button
             onClick={() =>
               router.push(
-                `/luxurious-destinations/${country}/${city}/tours?${queryParams.toString()}`
+                `/luxurious-destinations/${country}/${city}/tours?${queryParams.toString()}`,
               )
             }
           >
@@ -405,12 +405,12 @@ export default function DestinationDetailsPage() {
                           <Checkbox
                             id={item.id}
                             checked={Boolean(
-                              filters[item.key as keyof typeof filters]
+                              filters[item.key as keyof typeof filters],
                             )}
                             onCheckedChange={(checked) =>
                               handleFilterChange(
                                 item.key as keyof typeof filters,
-                                checked
+                                checked,
                               )
                             }
                           />
@@ -450,12 +450,12 @@ export default function DestinationDetailsPage() {
                           <Checkbox
                             id={item.id}
                             checked={Boolean(
-                              filters[item.key as keyof typeof filters]
+                              filters[item.key as keyof typeof filters],
                             )}
                             onCheckedChange={(checked) =>
                               handleFilterChange(
                                 item.key as keyof typeof filters,
-                                checked
+                                checked,
                               )
                             }
                           />
@@ -685,7 +685,7 @@ export default function DestinationDetailsPage() {
                           {attraction.accessibilityFeatures.map(
                             (feature, featureIndex) => (
                               <li key={featureIndex}>{feature}</li>
-                            )
+                            ),
                           )}
                         </ul>
                       </div>
@@ -795,7 +795,7 @@ export default function DestinationDetailsPage() {
                                 <p>{feature.tooltip}</p>
                               </TooltipContent>
                             </Tooltip>
-                          ) : null
+                          ) : null,
                         )}
                       </div>
                     </TooltipProvider>

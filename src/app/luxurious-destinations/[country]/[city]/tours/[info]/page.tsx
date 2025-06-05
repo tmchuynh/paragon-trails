@@ -56,7 +56,7 @@ export default function TourPage() {
   const cartContext = useContext(CartContext);
 
   const cityInfo = cities.find(
-    (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
+    (attraction) => attraction.city.toLowerCase() === city.toLowerCase(),
   );
 
   useEffect(() => {
@@ -66,7 +66,7 @@ export default function TourPage() {
         const tourData = data.find(
           (t: Tour) =>
             t.title.toLowerCase() === tourName.toLowerCase() &&
-            t.tourCategoryId === tourCategoryId
+            t.tourCategoryId === tourCategoryId,
         );
         if (!tourData) {
           console.error("Tour not found for the given parameters");
@@ -112,7 +112,7 @@ export default function TourPage() {
 
   if (tour?.availableDates && tour.availableDates.length > 0) {
     availableDates = tour.availableDates.map((date) =>
-      format(new Date(date), "yyyy-MM-dd")
+      format(new Date(date), "yyyy-MM-dd"),
     );
     availableDates.push(...getRandomDatesFromNextWeek(250, 300));
   } else {
@@ -406,7 +406,7 @@ export default function TourPage() {
                       variant={"outline"}
                       className={cn(
                         "w-full justify-start text-left font-normal",
-                        { "text-muted-foreground": !date }
+                        { "text-muted-foreground": !date },
                       )}
                     >
                       <CalendarIcon className="mr-2 w-4 h-4" />
@@ -473,8 +473,8 @@ export default function TourPage() {
                 {!date
                   ? "Select a date first"
                   : isAddingToCart
-                  ? "Adding..."
-                  : "Add to Cart"}
+                    ? "Adding..."
+                    : "Add to Cart"}
               </Button>
             </div>
           </div>
@@ -526,7 +526,7 @@ export default function TourPage() {
       try {
         const guide = await findGuideBySpecialty(
           decodeURIComponent(city).toLowerCase(),
-          t.tourCategoryId
+          t.tourCategoryId,
         );
         // Assuming findGuideBySpecialty returns a TourGuide object
         // and TourGuide interface includes at least { name: string, tourCategoryId?: string } or similar
@@ -534,7 +534,7 @@ export default function TourPage() {
       } catch (error) {
         console.error(
           `Failed to load guide for tour category ${t.tourCategoryId} in city ${city}:`,
-          error
+          error,
         );
         // Provide a fallback TourGuide object that matches the expected structure
         // This structure depends on your TourGuide interface definition
@@ -556,11 +556,10 @@ export default function TourPage() {
       }
     });
 
-    const fetchedGuidesArray: (TourGuide | null)[] = await Promise.all(
-      guidePromises
-    );
+    const fetchedGuidesArray: (TourGuide | null)[] =
+      await Promise.all(guidePromises);
     setTourGuides(
-      fetchedGuidesArray.filter((guide) => guide !== null) as TourGuide[]
+      fetchedGuidesArray.filter((guide) => guide !== null) as TourGuide[],
     );
   }
 }

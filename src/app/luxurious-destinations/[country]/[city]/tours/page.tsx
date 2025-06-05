@@ -58,7 +58,7 @@ export default function TourPage() {
             try {
               const guide = await findGuideBySpecialty(
                 decodeURIComponent(cityName).toLowerCase(),
-                tour.tourCategoryId
+                tour.tourCategoryId,
               );
               return { tourTitle: tour.title, guideName: guide.name };
             } catch (error) {
@@ -68,10 +68,13 @@ export default function TourPage() {
           });
 
           const guides = await Promise.all(guidePromises);
-          const guidesMap = guides.reduce((acc, { tourTitle, guideName }) => {
-            acc[tourTitle] = guideName;
-            return acc;
-          }, {} as { [key: string]: string });
+          const guidesMap = guides.reduce(
+            (acc, { tourTitle, guideName }) => {
+              acc[tourTitle] = guideName;
+              return acc;
+            },
+            {} as { [key: string]: string },
+          );
 
           setTourGuides(guidesMap);
         } catch (error) {
@@ -88,7 +91,7 @@ export default function TourPage() {
   const cityInfo = cities.find(
     (attraction) =>
       attraction.city.toLowerCase() ===
-      (Array.isArray(city) ? city[0] : city).toLowerCase()
+      (Array.isArray(city) ? city[0] : city).toLowerCase(),
   );
 
   // Extract unique filter options
