@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"{src,scripts}/**/*.{ts,tsx,js,jsx,mjs,json,md,css}\"",
+    "format-all": "node scripts/format-files.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
