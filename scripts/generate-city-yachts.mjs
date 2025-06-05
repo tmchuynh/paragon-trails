@@ -27,7 +27,7 @@
  *   node scripts/generate-city-yachts.mjs --rewrite
  *   node scripts/generate-city-yachts.mjs --append 5
  *   node scripts/generate-city-yachts.mjs --type "mega"
- *   node scripts/generate-city-yachts.mjs --city "Paris" --append 3 --type "super"
+ *   node scripts/generate-city-yachts.mjs --city "Hong Kong" --append 3 --type "super"
  */
 
 import * as fs from "fs";
@@ -47,6 +47,10 @@ import {
   euroCountries,
   regionCurrencyMap,
 } from "./utils/geo-utils.mjs";
+import {
+  createObjectParser,
+  extractObjectsFromFile,
+} from "./utils/parse-utils.mjs";
 
 const cities = getCityFiles();
 
@@ -684,55 +688,8 @@ async function fileExists(filePath) {
 
 // Extract existing yachts from a file
 async function extractExistingYachts(filePath) {
-  try {
-    const content = await readFile(filePath, "utf-8");
-    const match = content.match(
-      /export const \w+: Yacht\[\] = \[([\s\S]*?)\];/
-    );
-    if (!match || !match[1]) return [];
-
-    const itemsText = match[1].trim();
-    if (!itemsText) return [];
-
-    const items = [];
-    let bracketCount = 0;
-    let currentItem = "";
-
-    for (let i = 0; i < itemsText.length; i++) {
-      const char = itemsText[i];
-
-      if (char === "{") bracketCount++;
-      if (char === "}") bracketCount--;
-
-      currentItem += char;
-
-      if (bracketCount === 0 && currentItem.trim()) {
-        try {
-          // Instead of using Function constructor, manually parse yacht object
-          // to handle more complex structures
-          const yacht = parseYachtObject(currentItem);
-          if (yacht) {
-            items.push(yacht);
-          }
-          currentItem = "";
-        } catch (e) {
-          console.warn("Failed to parse yacht:", e);
-          currentItem = "";
-        }
-      }
-    }
-
-    return items;
-  } catch (e) {
-    console.error("Error extracting yachts:", e);
-    return [];
-  }
-}
-
-// Parse yacht object using regex for key properties
-function parseYachtObject(objString) {
-  // Create a yacht object with default/empty values for required properties
-  const yacht = {
+  // Create a yacht template with default/empty values for required properties
+  const yachtTemplate = {
     id: "",
     name: "",
     brand: "",
@@ -782,42 +739,36 @@ function parseYachtObject(objString) {
     accessibilityFeatures: [],
   };
 
-  try {
-    // Basic extraction of simple properties
-    const idMatch = objString.match(/id:\s*"([^"]+)"/);
-    if (idMatch) yacht.id = idMatch[1];
+  // Use the shared utility with a yacht-specific parser
+  const yachtParser = createObjectParser(yachtTemplate);
+  const yachts = await extractObjectsFromFile(filePath, "Yacht", yachtParser);
 
-    const nameMatch = objString.match(/name:\s*"([^"]+)"/);
-    if (nameMatch) yacht.name = nameMatch[1];
+  // Filter out invalid or incomplete yachts
+  const validYachts = yachts.filter(
+    (yacht) =>
+      yacht &&
+      yacht.id &&
+      yacht.id.trim() !== "" &&
+      yacht.name &&
+      yacht.name.trim() !== ""
+  );
 
-    const brandMatch = objString.match(/brand:\s*"([^"]+)"/);
-    if (brandMatch) yacht.brand = brandMatch[1];
-
-    const modelMatch = objString.match(/model:\s*"([^"]+)"/);
-    if (modelMatch) yacht.model = modelMatch[1];
-
-    const yearMatch = objString.match(/yearBuilt:\s*(\d+)/);
-    if (yearMatch) yacht.yearBuilt = parseInt(yearMatch[1], 10);
-
-    // Only return if we have the minimum required properties
-    if (yacht.id && yacht.name) {
-      return yacht;
-    }
-  } catch (error) {
-    console.warn(`Error parsing yacht object: ${error.message}`);
-  }
-
-  return null;
+  console.log(
+    `Found ${validYachts.length} valid yachts out of ${yachts.length} total in ${filePath}`
+  );
+  return validYachts;
 }
 
 // Generate yachts and write to file
 async function generateCityFile(city) {
+  // Normalize city name for file handling but preserve original display name
+  const displayCityName = city; // Keep original for display purposes
+
+  // Format city name for variable and file naming
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
-
   const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
-
   const formattedName = formatKebabToCamelCase(removeAccents(city));
 
   // Follow the same variable naming convention as attractions
@@ -852,14 +803,6 @@ async function generateCityFile(city) {
     } else if (options.append) {
       console.log(`Appending ${options.append} yachts to: ${filePath}`);
       yachts = await extractExistingYachts(filePath);
-
-      // Add validation to prevent errors with null/empty yacht array
-      if (!yachts || !Array.isArray(yachts)) {
-        console.warn(
-          `Could not parse existing yachts in ${filePath}, creating a new file instead`
-        );
-        yachts = [];
-      }
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
@@ -874,16 +817,26 @@ async function generateCityFile(city) {
     .fill(0)
     .map((_, index) => generateYacht(city, index + yachts.length));
 
-  // Combine existing and new yachts
-  yachts = yachts.concat(newYachts);
+  // Combine existing and new yachts - ensure all yachts are valid
+  const allYachts = [...yachts, ...newYachts].filter(
+    (yacht) =>
+      yacht &&
+      yacht.id &&
+      yacht.id.trim() !== "" &&
+      yacht.name &&
+      yacht.name.trim() !== ""
+  );
+
+  console.log(
+    `Writing ${allYachts.length} yachts to file (${yachts.length} existing, ${newYachts.length} new)`
+  );
 
   // Create file content with proper formatting
   let content = `import { Yacht } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: Yacht[] = [\n`;
 
-  yachts.forEach((yacht, index) => {
+  allYachts.forEach((yacht, index) => {
     content += `  {\n`;
-
     // Add null check to prevent TypeError
     if (yacht) {
       for (const [key, value] of Object.entries(yacht)) {
@@ -912,7 +865,7 @@ async function generateCityFile(city) {
         }
       }
     }
-    content += `  }${index < yachts.length - 1 ? "," : ""}\n`;
+    content += `  }${index < allYachts.length - 1 ? "," : ""}\n`;
   });
 
   content += `];\n`;
@@ -920,7 +873,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${allYachts.length} yachts`
   );
 }
 
@@ -930,20 +883,27 @@ async function generateAllCityFiles() {
 
   // Filter by city name if specified
   if (options.cityFilter) {
-    const filterLower = options.cityFilter.toLowerCase();
-    // Improve city filtering to allow partial matches
-    citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
-    );
+    // More flexible city filtering, normalize and remove spacing/special characters for comparison
+    const filterNormalized = options.cityFilter
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+
+    citiesToProcess = cities.filter((city) => {
+      const cityNormalized = city.toLowerCase().replace(/[^a-z0-9]/g, "");
+      return cityNormalized.includes(filterNormalized);
+    });
 
     if (citiesToProcess.length === 0) {
       console.log(`No cities found matching: ${options.cityFilter}`);
+      console.log("Available cities (showing first 10):");
+      cities.slice(0, 10).forEach((city) => console.log(`- ${city}`));
       return;
     }
 
     console.log(
       `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
+    citiesToProcess.forEach((city) => console.log(`- ${city}`));
   }
 
   for (const city of citiesToProcess) {
