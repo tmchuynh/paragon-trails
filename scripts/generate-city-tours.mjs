@@ -39,6 +39,10 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  createObjectParser,
+  extractObjectsFromFile,
+} from "./utils/parse-utils.mjs";
 
 const cities = getCityFiles();
 
@@ -580,54 +584,49 @@ async function fileExists(filePath) {
 
 // Extract existing tours from a file
 async function extractExistingTours(filePath) {
-  try {
-    // Read file content
-    const content = await readFile(filePath, "utf-8");
+  // Create a tour template with default values
+  const tourTemplate = {
+    id: "",
+    guideId: "",
+    title: "",
+    description: "",
+    city: "",
+    country: "",
+    region: "",
+    languagesOffered: [],
+    durationInHours: 0,
+    price: "",
+    tags: [],
+    type: "",
+    schedule: [],
+    pricePerPerson: 0,
+    currency: "",
+    maxGroupSize: 0,
+    minGroupSize: 0,
+    privateAvailable: false,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 0,
+    included: [],
+    notIncluded: [],
+    requirements: [],
+    cancellationPolicy: "",
+    rating: 0,
+  };
 
-    // Extract the array part using a simple regex approach
-    const match = content.match(/export const \w+: Tour\[\] = \[([\s\S]*?)\];/);
-    if (!match || !match[1]) return [];
+  // Use the shared utility with a tour-specific parser
+  const tourParser = createObjectParser(tourTemplate);
+  const tours = await extractObjectsFromFile(filePath, "Tour", tourParser);
 
-    // Parse the array items
-    const itemsText = match[1].trim();
-    if (!itemsText) return [];
-
-    // Split by object boundaries and parse each tour
-    const items = [];
-    let bracketCount = 0;
-    let currentItem = "";
-
-    for (let i = 0; i < itemsText.length; i++) {
-      const char = itemsText[i];
-
-      if (char === "{") bracketCount++;
-      if (char === "}") bracketCount--;
-
-      currentItem += char;
-
-      if (bracketCount === 0 && currentItem.trim()) {
-        // We've found a complete object
-        try {
-          // Convert the text to an actual object (this is a simplified approach)
-          const cleanedItem = currentItem.replace(/,\s*$/, ""); // Remove trailing comma
-
-          // Use Function constructor to evaluate the object expression safely
-          // This is a simplified approach and may not handle all edge cases
-          const obj = new Function(`return ${cleanedItem}`)();
-          items.push(obj);
-          currentItem = "";
-        } catch (e) {
-          console.warn("Failed to parse tour:", e);
-          currentItem = "";
-        }
-      }
-    }
-
-    return items;
-  } catch (e) {
-    console.error("Error extracting tours:", e);
+  // Add validation to prevent errors with null/empty tours array
+  if (!tours || !Array.isArray(tours) || tours.length === 0) {
+    console.warn(
+      `Could not parse existing tours in ${filePath}, will create fresh data`
+    );
     return [];
   }
+
+  return tours;
 }
 
 // Generate tours and write to file
