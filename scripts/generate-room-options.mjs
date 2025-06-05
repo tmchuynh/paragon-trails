@@ -1,3 +1,39 @@
+/**
+ * Room Options Generator Script
+ * =============================
+ *
+ * This script generates room options for hotels in the Paragon Trails application.
+ * It creates realistic room data with properties like name, description, amenities,
+ * bed types, views, and pricing for each hotel in city destination folders.
+ *
+ * Features:
+ * - Generates varied room types based on hotel rating and accommodation type
+ * - Creates appropriate room descriptions with themed templates
+ * - Supports country-specific room themes and descriptions
+ * - Calculates realistic pricing based on hotel quality, bed type, and views
+ * - Supports various filtering options to generate specific room configurations
+ *
+ * Usage: node scripts/generate-room-options.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r               Rewrite existing files instead of skipping them
+ *   --append, -a                Append new rooms to existing files (defaults to 3 rooms)
+ *   --append-count N, -ac N     Append N new rooms to existing files
+ *   --view-type V, -vt V        Generate only rooms with specified view type
+ *                               (City, Ocean, Garden, Mountain, None)
+ *   --bed-type B, -bt B         Generate only rooms with specified bed type
+ *                               (Single, Double, Queen, King, Twin, Sofa Bed)
+ *   --max-guests G, -mg G       Generate rooms with specified maximum guest count
+ *   --city C, -c C              Process only cities matching the search term
+ *
+ * Examples:
+ *   node generate-room-options.mjs --rewrite
+ *   node generate-room-options.mjs --append
+ *   node generate-room-options.mjs --append-count 5 --view-type "Ocean View"
+ *   node generate-room-options.mjs --bed-type "King" --max-guests 3
+ *   node generate-room-options.mjs --city "Tokyo" --view-type "Mountain View"
+ */
+
 import * as fs from "fs/promises";
 import * as path from "path";
 import { formatTitleToCamelCase } from "./utils/format-utils.mjs";
@@ -8,31 +44,16 @@ import {
   roomThemesByCountry,
 } from "./utils/shared-hotel-data.mjs";
 
-/**
- * Room Options Generator Script
- *
- * This script generates room options for each hotel in the destinations/hotels directory.
- * It creates a separate file for each hotel using the hotel name in kebab-case.
- *
- * Basic usage:
- *   node scripts/generate-room-options.mjs
- *
- * Options:
- *   --rewrite, -r       Rewrite existing room files instead of skipping them
- *                       Example: node scripts/generate-room-options.mjs --rewrite
- *
- *   --city C, -c C      Process only cities matching the search term
- *                       Example: node scripts/generate-room-options.mjs --city "Tokyo"
- *
- * Combined options:
- *   node scripts/generate-room-options.mjs --city "Tokyo" --rewrite
- */
-
 // Parse command line arguments
 function parseCommandLineArgs() {
   const options = {
     rewrite: false,
     cityFilter: null,
+    append: false,
+    appendCount: 3, // Default number of rooms to append
+    viewType: null,
+    bedType: null,
+    maxGuests: null,
   };
 
   const args = process.argv.slice(2);
@@ -41,6 +62,33 @@ function parseCommandLineArgs() {
 
     if (arg === "--rewrite" || arg === "-r") {
       options.rewrite = true;
+    }
+
+    if (arg === "--append" || arg === "-a") {
+      options.append = true;
+    }
+
+    if ((arg === "--append-count" || arg === "-ac") && i + 1 < args.length) {
+      const value = parseInt(args[++i]);
+      if (!isNaN(value) && value > 0) {
+        options.appendCount = value;
+        options.append = true;
+      }
+    }
+
+    if ((arg === "--view-type" || arg === "-vt") && i + 1 < args.length) {
+      options.viewType = args[++i];
+    }
+
+    if ((arg === "--bed-type" || arg === "-bt") && i + 1 < args.length) {
+      options.bedType = args[++i];
+    }
+
+    if ((arg === "--max-guests" || arg === "-mg") && i + 1 < args.length) {
+      const value = parseInt(args[++i]);
+      if (!isNaN(value) && value > 0) {
+        options.maxGuests = value;
+      }
     }
 
     if ((arg === "--city" || arg === "-c") && i + 1 < args.length) {
@@ -288,11 +336,30 @@ function generateRoomOptions(hotel, index) {
   const roomThemes =
     roomThemesByCountry[country] || roomThemesByCountry["default"];
 
+  // Filter bed types based on command line options
+  let bedTypesToUse = bedTypes;
+  if (options.bedType) {
+    bedTypesToUse = bedTypes.filter(
+      (type) => type.toLowerCase() === options.bedType.toLowerCase()
+    );
+    if (bedTypesToUse.length === 0) bedTypesToUse = [options.bedType];
+  }
+
+  // Filter view types based on command line options
+  let viewTypesToUse = viewTypes;
+  if (options.viewType) {
+    viewTypesToUse = viewTypes.filter(
+      (type) => type.toLowerCase() === options.viewType.toLowerCase()
+    );
+    if (viewTypesToUse.length === 0) viewTypesToUse = [options.viewType];
+  }
+
   // Generate different combinations of room types
-  for (const bedType of getRandomSubset(bedTypes, 1, 4)) {
-    for (const viewType of getRandomSubset(viewTypes, 1, 2)) {
+  for (const bedType of getRandomSubset(bedTypesToUse, 1, 4)) {
+    for (const viewType of getRandomSubset(viewTypesToUse, 1, 2)) {
       // Skip some combinations to have a varied set of rooms
-      if (Math.random() < 0.3) continue;
+      if (!options.bedType && !options.viewType && Math.random() < 0.3)
+        continue;
 
       // Use country-specific room theme with 70% probability
       let prefix;
@@ -343,6 +410,11 @@ function generateRoomOptions(hotel, index) {
         country
       );
 
+      // Determine max guests based on options or calculate it
+      let maxGuests = options.maxGuests
+        ? parseInt(options.maxGuests)
+        : calculateMaxGuests(bedType);
+
       roomOptions.push({
         id: `${hotel.id}-room-${index}`,
         name,
@@ -351,7 +423,7 @@ function generateRoomOptions(hotel, index) {
           adults: calculateAdults(bedType),
           children:
             Math.random() > 0.5 ? Math.floor(Math.random() * 3) : undefined,
-          maxGuests: calculateMaxGuests(bedType),
+          maxGuests: maxGuests,
         },
         bedType,
         view: viewType !== "None" ? viewType : undefined,
@@ -623,14 +695,83 @@ async function generateRoomOptionsForHotels() {
           // Check if file exists and if we should skip it
           try {
             await fs.access(roomsFilePath);
-            if (!options.rewrite) {
+            if (!options.rewrite && !options.append) {
               console.log(
-                `Skipping existing file (use --rewrite to replace): ${roomsFilePath}`
+                `Skipping existing file (use --rewrite to replace or --append to add rooms): ${roomsFilePath}`
+              );
+              continue;
+            }
+
+            // If appending, read existing room options
+            if (options.append) {
+              const existingContent = await fs.readFile(roomsFilePath, "utf-8");
+              const existingRoomOptions =
+                extractRoomOptionsFromContent(existingContent);
+
+              // Generate additional room options
+              const additionalOptions = generateRoomOptions(hotel, i);
+
+              // Only take the requested number of new rooms
+              const newRoomsToAdd = additionalOptions.slice(
+                0,
+                options.appendCount
+              );
+
+              // Combine existing and new room options
+              const combinedOptions = [
+                ...existingRoomOptions,
+                ...newRoomsToAdd,
+              ];
+
+              // Create updated file content
+              let content = `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
+              content += `// Room options for ${hotel.name}\n`;
+              content += `export const ${formatTitleToCamelCase(hotel.name)}Rooms: RoomOption[] = [\n`;
+
+              combinedOptions.forEach((room, index) => {
+                content += `  {\n`;
+                for (const [key, value] of Object.entries(room)) {
+                  // Format properties the same way as in original function
+                  if (typeof value === "string") {
+                    content += `    ${key}: "${value}",\n`;
+                  } else if (Array.isArray(value)) {
+                    if (value.length === 0) {
+                      content += `    ${key}: [],\n`;
+                    } else {
+                      content += `    ${key}: [${value.map((item) => `"${item}"`).join(", ")}],\n`;
+                    }
+                  } else if (typeof value === "object" && value !== null) {
+                    content += `    ${key}: {\n`;
+                    for (const [nestedKey, nestedValue] of Object.entries(
+                      value
+                    )) {
+                      if (nestedValue !== undefined) {
+                        if (typeof nestedValue === "string") {
+                          content += `      ${nestedKey}: "${nestedValue}",\n`;
+                        } else {
+                          content += `      ${nestedKey}: ${nestedValue},\n`;
+                        }
+                      }
+                    }
+                    content += `    },\n`;
+                  } else if (value !== undefined) {
+                    content += `    ${key}: ${value},\n`;
+                  }
+                }
+                content += `  }${index < combinedOptions.length - 1 ? "," : ""}\n`;
+              });
+
+              content += `];\n`;
+
+              // Write updated content to file
+              await fs.writeFile(roomsFilePath, content, "utf-8");
+              console.log(
+                `Appended ${newRoomsToAdd.length} new room options to ${roomsFilePath}`
               );
               continue;
             }
           } catch (err) {
-            // File doesn't exist, proceed
+            // File doesn't exist, proceed with creation
           }
 
           // Generate room options
@@ -782,10 +923,20 @@ console.log(`
 Usage: node generate-room-options.mjs [options]
 
 Options:
-  --rewrite, -r       Rewrite existing files instead of skipping them
-  --city C, -c C      Process only cities matching the search term
+  --rewrite, -r               Rewrite existing files instead of skipping them
+  --append, -a                Append new rooms to existing files (defaults to 3 rooms)
+  --append-count N, -ac N     Append N new rooms to existing files
+  --view-type V, -vt V        Generate only rooms with specified view type
+                              (City, Ocean, Garden, Mountain, None)
+  --bed-type B, -bt B         Generate only rooms with specified bed type
+                              (Single, Double, Queen, King, Twin, Sofa Bed)
+  --max-guests G, -mg G       Generate rooms with specified maximum guest count
+  --city C, -c C              Process only cities matching the search term
 
 Examples:
   node generate-room-options.mjs --rewrite
-  node generate-room-options.mjs --city "Tokyo"
+  node generate-room-options.mjs --append
+  node generate-room-options.mjs --append-count 5 --view-type "Ocean View"
+  node generate-room-options.mjs --bed-type "King" --max-guests 3
+  node generate-room-options.mjs --city "Tokyo" --view-type "Mountain View"
 `);
