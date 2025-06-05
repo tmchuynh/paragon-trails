@@ -434,8 +434,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numColors)
         .fill(0)
-        .map(() => carColors[Math.floor(Math.random() * carColors.length)])
-    )
+        .map(() => carColors[Math.floor(Math.random() * carColors.length)]),
+    ),
   );
 
   // Generate features (5-10 features)
@@ -444,8 +444,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numFeatures)
         .fill(0)
-        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)])
-    )
+        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)]),
+    ),
   );
 
   // Generate rental price per day (based on car type and make)
@@ -596,7 +596,7 @@ async function extractExistingCars(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: LuxuryRentalCar\[\] = \[([\s\S]*?)\];/
+      /export const \w+: LuxuryRentalCar\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -659,7 +659,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "cars"
+    "cars",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -679,7 +679,7 @@ async function generateCityFile(city) {
       cars = await extractExistingCars(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -719,7 +719,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -731,7 +731,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -740,7 +740,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -757,7 +757,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City luxury car files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city luxury car files:", error)
+    console.error("Error generating city luxury car files:", error),
   );
 
 // Print usage information

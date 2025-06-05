@@ -158,9 +158,9 @@ function generateCrewMember(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)]
-        )
-    )
+            certifications[Math.floor(Math.random() * certifications.length)],
+        ),
+    ),
   );
 
   // Generate 1-3 random languages
@@ -169,8 +169,8 @@ function generateCrewMember(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)])
-    )
+        .map(() => languages[Math.floor(Math.random() * languages.length)]),
+    ),
   );
 
   // Generate a phone number
@@ -222,7 +222,7 @@ async function extractExistingCrewMembers(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: CrewMember\[\] = \[([\s\S]*?)\];/
+      /export const \w+: CrewMember\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -285,7 +285,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "staff",
-    "crew"
+    "crew",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -305,7 +305,7 @@ async function generateCityFile(city) {
       crewMembers = await extractExistingCrewMembers(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -345,7 +345,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -357,7 +357,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -366,7 +366,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -383,7 +383,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City crew member files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city crew member files:", error)
+    console.error("Error generating city crew member files:", error),
   );
 
 // Print usage information

@@ -14,13 +14,19 @@ const readFile = promisify(fs.readFile);
  * @param {Function} objectParser - Function to parse each object in the array
  * @returns {Array} Parsed array of objects
  */
-export async function extractObjectsFromFile(filePath, variableType, objectParser) {
+export async function extractObjectsFromFile(
+  filePath,
+  variableType,
+  objectParser,
+) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      new RegExp(`export const \\w+: ${variableType}\\[\\] = \\[(([\\s\\S])*?)\\];`)
+      new RegExp(
+        `export const \\w+: ${variableType}\\[\\] = \\[(([\\s\\S])*?)\\];`,
+      ),
     );
-    
+
     if (!match || !match[1]) return [];
 
     const itemsText = match[1].trim();
@@ -30,7 +36,7 @@ export async function extractObjectsFromFile(filePath, variableType, objectParse
 
     // Filter out invalid or empty objects
     return parsedObjects.filter(
-      (obj) => obj && Object.keys(obj).length > 0 && obj.id
+      (obj) => obj && Object.keys(obj).length > 0 && obj.id,
     );
   } catch (e) {
     console.error(`Error extracting ${variableType} objects:`, e);
@@ -209,14 +215,14 @@ export function createObjectParser(template) {
                 if (typeof template[key][nestedKey] === "string") {
                   const nestedRegex = new RegExp(
                     `${nestedKey}:\\s*"([^"]+)"`,
-                    "g"
+                    "g",
                   );
                   const nestedMatch = nestedRegex.exec(nestedText);
                   if (nestedMatch) nestedObj[nestedKey] = nestedMatch[1];
                 } else if (typeof template[key][nestedKey] === "number") {
                   const nestedRegex = new RegExp(
                     `${nestedKey}:\\s*(\\d+(?:\\.\\d+)?)`,
-                    "g"
+                    "g",
                   );
                   const nestedMatch = nestedRegex.exec(nestedText);
                   if (nestedMatch)
@@ -228,7 +234,7 @@ export function createObjectParser(template) {
             } catch (e) {
               // If nested parsing fails, keep the template default
               console.warn(
-                `Failed to parse nested object ${key}: ${e.message}`
+                `Failed to parse nested object ${key}: ${e.message}`,
               );
             }
           }

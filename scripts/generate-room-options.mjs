@@ -340,7 +340,7 @@ function generateRoomOptions(hotel, index) {
   let bedTypesToUse = bedTypes;
   if (options.bedType) {
     bedTypesToUse = bedTypes.filter(
-      (type) => type.toLowerCase() === options.bedType.toLowerCase()
+      (type) => type.toLowerCase() === options.bedType.toLowerCase(),
     );
     if (bedTypesToUse.length === 0) bedTypesToUse = [options.bedType];
   }
@@ -349,7 +349,7 @@ function generateRoomOptions(hotel, index) {
   let viewTypesToUse = viewTypes;
   if (options.viewType) {
     viewTypesToUse = viewTypes.filter(
-      (type) => type.toLowerCase() === options.viewType.toLowerCase()
+      (type) => type.toLowerCase() === options.viewType.toLowerCase(),
     );
     if (viewTypesToUse.length === 0) viewTypesToUse = [options.viewType];
   }
@@ -381,7 +381,7 @@ function generateRoomOptions(hotel, index) {
       const additionalRoomAmenities = getRandomSubset(
         additionalAmenities,
         3,
-        6
+        6,
       );
       amenities.push(...additionalRoomAmenities);
 
@@ -397,7 +397,7 @@ function generateRoomOptions(hotel, index) {
                 "Hearing Support",
               ],
               1,
-              2
+              2,
             )
           : undefined;
 
@@ -407,7 +407,7 @@ function generateRoomOptions(hotel, index) {
         bedType,
         suffix,
         viewType,
-        country
+        country,
       );
 
       // Determine max guests based on options or calculate it
@@ -447,7 +447,7 @@ function generateEnhancedDescription(
   bedType,
   suffix,
   viewType,
-  country
+  country,
 ) {
   // Pick a random template
   const template =
@@ -618,7 +618,7 @@ const hotelsDir = path.join(
   "lib",
   "constants",
   "destinations",
-  "hotels"
+  "hotels",
 );
 
 async function generateRoomOptionsForHotels() {
@@ -631,7 +631,7 @@ async function generateRoomOptionsForHotels() {
     if (options.cityFilter) {
       const filterLower = options.cityFilter.toLowerCase();
       citiesToProcess = cities.filter((city) =>
-        city.toLowerCase().includes(filterLower)
+        city.toLowerCase().includes(filterLower),
       );
 
       if (citiesToProcess.length === 0) {
@@ -640,7 +640,7 @@ async function generateRoomOptionsForHotels() {
       }
 
       console.log(
-        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
       );
     }
 
@@ -659,7 +659,7 @@ async function generateRoomOptionsForHotels() {
 
         // Extract the hotel array content
         const hotelArrayMatch = fileContent.match(
-          /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/
+          /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/,
         );
         if (!hotelArrayMatch || !hotelArrayMatch[1]) {
           console.warn(`Could not find hotel array in ${hotelFilePath}`);
@@ -683,7 +683,7 @@ async function generateRoomOptionsForHotels() {
           // Skip if hotel doesn't have required properties
           if (!hotel || !hotel.name) {
             console.warn(
-              `Skipping hotel at index ${i}: missing required properties`
+              `Skipping hotel at index ${i}: missing required properties`,
             );
             continue;
           }
@@ -692,7 +692,7 @@ async function generateRoomOptionsForHotels() {
           const kebabName = formatTitleToCamelCase(hotel.name);
           const roomsFilePath = path.join(
             cityDir,
-            `${kebabName.replaceAll(".", "")}Rooms.ts`
+            `${kebabName.replaceAll(".", "")}Rooms.ts`,
           );
 
           // Check if file exists and if we should skip it
@@ -700,7 +700,7 @@ async function generateRoomOptionsForHotels() {
             await fs.access(roomsFilePath);
             if (!options.rewrite && !options.append) {
               console.log(
-                `Skipping existing file (use --rewrite to replace or --append to add rooms): ${roomsFilePath}`
+                `Skipping existing file (use --rewrite to replace or --append to add rooms): ${roomsFilePath}`,
               );
               continue;
             }
@@ -717,7 +717,7 @@ async function generateRoomOptionsForHotels() {
               // Only take the requested number of new rooms
               const newRoomsToAdd = additionalOptions.slice(
                 0,
-                options.appendCount
+                options.appendCount,
               );
 
               // Combine existing and new room options
@@ -746,7 +746,7 @@ async function generateRoomOptionsForHotels() {
                   } else if (typeof value === "object" && value !== null) {
                     content += `    ${key}: {\n`;
                     for (const [nestedKey, nestedValue] of Object.entries(
-                      value
+                      value,
                     )) {
                       if (nestedValue !== undefined) {
                         if (typeof nestedValue === "string") {
@@ -769,7 +769,7 @@ async function generateRoomOptionsForHotels() {
               // Write updated content to file
               await fs.writeFile(roomsFilePath, content, "utf-8");
               console.log(
-                `Appended ${newRoomsToAdd.length} new room options to ${roomsFilePath}`
+                `Appended ${newRoomsToAdd.length} new room options to ${roomsFilePath}`,
               );
               continue;
             }
@@ -820,7 +820,7 @@ async function generateRoomOptionsForHotels() {
           // Write to file
           await fs.writeFile(roomsFilePath, content, "utf-8");
           console.log(
-            `Created room options for ${hotel.name} at ${roomsFilePath}`
+            `Created room options for ${hotel.name} at ${roomsFilePath}`,
           );
         }
       } catch (error) {
@@ -895,7 +895,7 @@ function parseHotelObject(objString) {
 
   // Extract accommodationType
   const accommodationTypeMatch = objString.match(
-    /accommodationType:\s*"([^"]+)"/
+    /accommodationType:\s*"([^"]+)"/,
   );
   if (accommodationTypeMatch)
     hotel.accommodationType = accommodationTypeMatch[1];

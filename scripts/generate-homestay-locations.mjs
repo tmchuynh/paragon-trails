@@ -374,7 +374,7 @@ async function generateCityHomestays(city) {
     "lib",
     "constants",
     "destinations",
-    "homestay"
+    "homestay",
   );
   const filePath = path.join(destDir, `${fileName}.ts`);
 
@@ -470,7 +470,7 @@ async function generateAllCityHomestays() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -479,7 +479,7 @@ async function generateAllCityHomestays() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -496,7 +496,7 @@ async function generateAllCityHomestays() {
 generateAllCityHomestays()
   .then(() => console.log("Homestay data files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating homestay data files:", error)
+    console.error("Error generating homestay data files:", error),
   );
 
 // Print usage information

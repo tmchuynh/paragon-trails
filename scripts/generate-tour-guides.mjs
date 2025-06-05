@@ -388,9 +388,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)]
-        )
-    )
+            certifications[Math.floor(Math.random() * certifications.length)],
+        ),
+    ),
   );
 
   // Generate random languages
@@ -399,8 +399,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)])
-    )
+        .map(() => languages[Math.floor(Math.random() * languages.length)]),
+    ),
   );
 
   // Generate random specialties
@@ -409,8 +409,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numSpecialties)
         .fill(0)
-        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
-    )
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)]),
+    ),
   );
 
   // Generate random special training
@@ -421,9 +421,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            specialTraining[Math.floor(Math.random() * specialTraining.length)]
-        )
-    )
+            specialTraining[Math.floor(Math.random() * specialTraining.length)],
+        ),
+    ),
   );
 
   // Generate random tour regions covered
@@ -432,8 +432,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numRegions)
         .fill(0)
-        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
-    )
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)]),
+    ),
   );
 
   // Generate random tour types
@@ -442,8 +442,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numTypes)
         .fill(0)
-        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
-    )
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)]),
+    ),
   );
 
   // Generate random weekly availability
@@ -452,8 +452,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numAvailableDays)
         .fill(0)
-        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
-    )
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)]),
+    ),
   );
 
   const available = availableDays.map((day) => {
@@ -590,13 +590,13 @@ async function extractExistingTourGuides(filePath) {
     const guides = await extractObjectsFromFile(
       filePath,
       "TourGuide",
-      guideParser
+      guideParser,
     );
 
     // Add validation to prevent errors with null/empty guides array
     if (!guides || !Array.isArray(guides) || guides.length === 0) {
       console.warn(
-        `Could not parse existing guides in ${filePath}, will create fresh data`
+        `Could not parse existing guides in ${filePath}, will create fresh data`,
       );
       return [];
     }
@@ -627,7 +627,7 @@ async function generateCityGuideFile(city) {
     "lib",
     "constants",
     "staff",
-    "guides"
+    "guides",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -646,11 +646,11 @@ async function generateCityGuideFile(city) {
       console.log(`Appending ${options.append} guides to: ${filePath}`);
       guides = await extractExistingTourGuides(filePath);
       console.log(
-        `Found ${guides.length} valid existing guides in ${filePath}`
+        `Found ${guides.length} valid existing guides in ${filePath}`,
       );
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -664,7 +664,7 @@ async function generateCityGuideFile(city) {
 
   // Combine existing and new guides - filter out any invalid objects
   guides = [...guides, ...newGuides].filter(
-    (guide) => guide && typeof guide === "object"
+    (guide) => guide && typeof guide === "object",
   );
 
   // Create file content with proper formatting
@@ -707,7 +707,7 @@ async function generateCityGuideFile(city) {
           content += `    ${key}: [${value
             .map(
               (item) =>
-                `"${typeof item === "string" ? item.replace(/"/g, '\\"') : item}"`
+                `"${typeof item === "string" ? item.replace(/"/g, '\\"') : item}"`,
             )
             .join(", ")}],\n`;
         }
@@ -729,7 +729,7 @@ async function generateCityGuideFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${guides.length} guides`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${guides.length} guides`,
   );
 }
 
@@ -757,7 +757,7 @@ async function generateAllCityGuideFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 

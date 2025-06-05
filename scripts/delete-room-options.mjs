@@ -58,7 +58,7 @@ const hotelsDir = path.join(
   "lib",
   "constants",
   "destinations",
-  "hotels"
+  "hotels",
 );
 
 // Create readline interface for prompting user
@@ -92,7 +92,7 @@ async function findRoomOptionFiles() {
     if (options.cityFilter) {
       const filterLower = options.cityFilter.toLowerCase();
       citiesToProcess = cities.filter((city) =>
-        city.toLowerCase().includes(filterLower)
+        city.toLowerCase().includes(filterLower),
       );
 
       if (citiesToProcess.length === 0) {
@@ -101,7 +101,7 @@ async function findRoomOptionFiles() {
       }
 
       console.log(
-        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
       );
     }
 
@@ -153,7 +153,7 @@ async function deleteRoomOptionFiles() {
   }
 
   console.log(
-    `Found ${results.totalFiles} room option files in ${results.totalCities} cities.`
+    `Found ${results.totalFiles} room option files in ${results.totalCities} cities.`,
   );
 
   // If dry run, just print the files and exit
@@ -171,7 +171,7 @@ async function deleteRoomOptionFiles() {
   let proceedWithAll = options.force;
   if (!proceedWithAll) {
     proceedWithAll = await confirm(
-      `Delete all ${results.totalFiles} room option files?`
+      `Delete all ${results.totalFiles} room option files?`,
     );
   }
 
@@ -191,7 +191,7 @@ async function deleteRoomOptionFiles() {
     }
 
     console.log(
-      `\nSuccessfully deleted ${deletedCount} of ${results.totalFiles} room option files.`
+      `\nSuccessfully deleted ${deletedCount} of ${results.totalFiles} room option files.`,
     );
   } else {
     // Individual confirmation for each file
@@ -212,7 +212,7 @@ async function deleteRoomOptionFiles() {
     }
 
     console.log(
-      `\nSuccessfully deleted ${deletedCount} of ${results.totalFiles} room option files.`
+      `\nSuccessfully deleted ${deletedCount} of ${results.totalFiles} room option files.`,
     );
   }
 

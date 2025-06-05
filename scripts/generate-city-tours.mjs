@@ -333,7 +333,7 @@ async function loadCityGuides(city) {
     "constants",
     "staff",
     "guides",
-    `${formattedName}.ts`
+    `${formattedName}.ts`,
   );
 
   try {
@@ -434,8 +434,8 @@ function generateTour(city, index, guides) {
     new Set(
       Array(numThemes)
         .fill(0)
-        .map(() => tourThemes[Math.floor(Math.random() * tourThemes.length)])
-    )
+        .map(() => tourThemes[Math.floor(Math.random() * tourThemes.length)]),
+    ),
   );
 
   // Generate tour duration
@@ -464,9 +464,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)]
-        )
-    )
+          () => includedItems[Math.floor(Math.random() * includedItems.length)],
+        ),
+    ),
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -478,9 +478,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate requirements
@@ -493,9 +493,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate languages offered
@@ -621,7 +621,7 @@ async function extractExistingTours(filePath) {
   // Add validation to prevent errors with null/empty tours array
   if (!tours || !Array.isArray(tours) || tours.length === 0) {
     console.warn(
-      `Could not parse existing tours in ${filePath}, will create fresh data`
+      `Could not parse existing tours in ${filePath}, will create fresh data`,
     );
     return [];
   }
@@ -660,7 +660,7 @@ async function generateCityTourFile(city) {
       tours = await extractExistingTours(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -723,7 +723,7 @@ async function generateCityTourFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -742,7 +742,7 @@ async function generateAllCityTourFiles() {
       city
         .toLowerCase()
         .replace(/[^a-z0-9]/g, "")
-        .includes(filterLower)
+        .includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -754,7 +754,7 @@ async function generateAllCityTourFiles() {
         .filter((city) =>
           city
             .toLowerCase()
-            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join(""))
+            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join("")),
         )
         .slice(0, 10);
 
@@ -770,7 +770,7 @@ async function generateAllCityTourFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 

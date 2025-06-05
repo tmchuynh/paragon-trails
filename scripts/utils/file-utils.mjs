@@ -9,14 +9,14 @@ export const getCityFiles = () => {
       "lib",
       "constants",
       "info",
-      "city.ts"
+      "city.ts",
     );
 
     const fileContent = fs.readFileSync(cityFilePath, "utf8");
 
     // Extract city names using regex
     const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/
+      /export const cityFiles = \[([\s\S]*?)\];/,
     );
     if (!cityArrayMatch || !cityArrayMatch[1]) {
       console.error("Could not parse city files from city.ts");

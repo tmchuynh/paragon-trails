@@ -200,9 +200,9 @@ function generateAttraction(cityName) {
       Array(numTags)
         .fill(0)
         .map(
-          () => possibleTags[Math.floor(Math.random() * possibleTags.length)]
-        )
-    )
+          () => possibleTags[Math.floor(Math.random() * possibleTags.length)],
+        ),
+    ),
   );
 
   // Generate accessibility features
@@ -215,14 +215,14 @@ function generateAttraction(cityName) {
           () =>
             accessibilityOptions[
               Math.floor(Math.random() * accessibilityOptions.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Set accessibility-dependent property
   const isWheelchairAccessible = accessibilityFeatures.some((f) =>
-    f.includes("wheelchair")
+    f.includes("wheelchair"),
   );
 
   // Generate random time of day
@@ -319,7 +319,7 @@ async function extractExistingAttractions(filePath) {
 
     // Extract the array part using a simple regex approach
     const match = content.match(
-      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/
+      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -383,7 +383,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "destinations",
-    "city"
+    "city",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -403,7 +403,7 @@ async function generateCityFile(city) {
       attractions = await extractExistingAttractions(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -444,7 +444,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -456,7 +456,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -465,7 +465,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
@@ -482,7 +482,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City attraction files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city attraction files:", error)
+    console.error("Error generating city attraction files:", error),
   );
 
 // Print usage information

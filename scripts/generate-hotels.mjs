@@ -372,7 +372,7 @@ async function extractExistingHotels(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/
+      /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/,
     );
     if (!match || !match[1]) return [];
 
@@ -509,7 +509,7 @@ async function generateCityFile(city) {
     "constants",
     "destinations",
     "hotels",
-    formattedName
+    formattedName,
   );
   const filePath = path.join(destDir, "hotels.ts");
 
@@ -531,13 +531,13 @@ async function generateCityFile(city) {
       // Extra validation to prevent null/empty hotels array
       if (!hotels || !Array.isArray(hotels)) {
         console.warn(
-          `Could not parse existing hotels in ${filePath}, creating a new file instead`
+          `Could not parse existing hotels in ${filePath}, creating a new file instead`,
         );
         hotels = [];
       }
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -590,7 +590,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -602,7 +602,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -611,7 +611,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 

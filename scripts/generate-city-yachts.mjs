@@ -448,9 +448,9 @@ function generateYacht(city, index) {
         .fill(0)
         .map(
           () =>
-            yachtAmenities[Math.floor(Math.random() * yachtAmenities.length)]
-        )
-    )
+            yachtAmenities[Math.floor(Math.random() * yachtAmenities.length)],
+        ),
+    ),
   );
 
   // Generate random entertainment options
@@ -463,9 +463,9 @@ function generateYacht(city, index) {
           () =>
             yachtEntertainment[
               Math.floor(Math.random() * yachtEntertainment.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate random water toys
@@ -476,9 +476,9 @@ function generateYacht(city, index) {
         .fill(0)
         .map(
           () =>
-            yachtWaterToys[Math.floor(Math.random() * yachtWaterToys.length)]
-        )
-    )
+            yachtWaterToys[Math.floor(Math.random() * yachtWaterToys.length)],
+        ),
+    ),
   );
 
   // Generate random safety features
@@ -489,9 +489,9 @@ function generateYacht(city, index) {
         .fill(0)
         .map(
           () =>
-            safetyFeatures[Math.floor(Math.random() * safetyFeatures.length)]
-        )
-    )
+            safetyFeatures[Math.floor(Math.random() * safetyFeatures.length)],
+        ),
+    ),
   );
 
   // Determine if accessibility features should be included (30% chance)
@@ -506,9 +506,9 @@ function generateYacht(city, index) {
             () =>
               accessibilityFeatures[
                 Math.floor(Math.random() * accessibilityFeatures.length)
-              ]
-          )
-      )
+              ],
+          ),
+      ),
     );
   }
 
@@ -520,9 +520,9 @@ function generateYacht(city, index) {
         .fill(0)
         .map(
           () =>
-            cateringOptions[Math.floor(Math.random() * cateringOptions.length)]
-        )
-    )
+            cateringOptions[Math.floor(Math.random() * cateringOptions.length)],
+        ),
+    ),
   );
 
   // Get region for the city to select appropriate home port
@@ -554,9 +554,9 @@ function generateYacht(city, index) {
           () =>
             availableSeasons[
               Math.floor(Math.random() * availableSeasons.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate pricing
@@ -592,7 +592,7 @@ function generateYacht(city, index) {
     .fill(0)
     .map(
       (_, i) =>
-        `https://paragon-trails-yacht-images.com/${yachtType}/${city.toLowerCase().replace(/\s+/g, "-")}-${name.toLowerCase().replace(/\s+/g, "-")}-${i + 1}.jpg`
+        `https://paragon-trails-yacht-images.com/${yachtType}/${city.toLowerCase().replace(/\s+/g, "-")}-${name.toLowerCase().replace(/\s+/g, "-")}-${i + 1}.jpg`,
     );
 
   // Generate description
@@ -750,11 +750,11 @@ async function extractExistingYachts(filePath) {
       yacht.id &&
       yacht.id.trim() !== "" &&
       yacht.name &&
-      yacht.name.trim() !== ""
+      yacht.name.trim() !== "",
   );
 
   console.log(
-    `Found ${validYachts.length} valid yachts out of ${yachts.length} total in ${filePath}`
+    `Found ${validYachts.length} valid yachts out of ${yachts.length} total in ${filePath}`,
   );
   return validYachts;
 }
@@ -785,7 +785,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "yacht"
+    "yacht",
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -805,7 +805,7 @@ async function generateCityFile(city) {
       yachts = await extractExistingYachts(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -824,11 +824,11 @@ async function generateCityFile(city) {
       yacht.id &&
       yacht.id.trim() !== "" &&
       yacht.name &&
-      yacht.name.trim() !== ""
+      yacht.name.trim() !== "",
   );
 
   console.log(
-    `Writing ${allYachts.length} yachts to file (${yachts.length} existing, ${newYachts.length} new)`
+    `Writing ${allYachts.length} yachts to file (${yachts.length} existing, ${newYachts.length} new)`,
   );
 
   // Create file content with proper formatting
@@ -873,7 +873,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${allYachts.length} yachts`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${allYachts.length} yachts`,
   );
 }
 
@@ -901,7 +901,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
     citiesToProcess.forEach((city) => console.log(`- ${city}`));
   }

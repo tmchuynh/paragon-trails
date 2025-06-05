@@ -278,7 +278,7 @@ function generateDriver(cityName, index) {
   const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
   const selectedLanguages = getRandomLanguages(
     languageCount,
-    regionForLanguages
+    regionForLanguages,
   );
   const languages = selectedLanguages.map((lang) => lang.name);
 
@@ -292,9 +292,9 @@ function generateDriver(cityName, index) {
           () =>
             driverSpecialties[
               Math.floor(Math.random() * driverSpecialties.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate random number of vehicle types (1-5)
@@ -304,9 +304,9 @@ function generateDriver(cityName, index) {
       Array(numVehicleTypes)
         .fill(0)
         .map(
-          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)]
-        )
-    )
+          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)],
+        ),
+    ),
   );
 
   // Generate license expiry date (1-5 years in the future)
@@ -378,13 +378,13 @@ async function extractExistingDrivers(filePath) {
   const drivers = await extractObjectsFromFile(
     filePath,
     "Driver",
-    driverParser
+    driverParser,
   );
 
   // Add validation to prevent errors with null/empty drivers array
   if (!drivers || !Array.isArray(drivers) || drivers.length === 0) {
     console.warn(
-      `Could not parse existing drivers in ${filePath}, will create fresh data`
+      `Could not parse existing drivers in ${filePath}, will create fresh data`,
     );
     return [];
   }
@@ -409,7 +409,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "staff",
-    "drivers"
+    "drivers",
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -429,7 +429,7 @@ async function generateCityFile(city) {
       drivers = await extractExistingDrivers(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -496,7 +496,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -508,7 +508,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower)
+      city.toLowerCase().includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -517,7 +517,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
