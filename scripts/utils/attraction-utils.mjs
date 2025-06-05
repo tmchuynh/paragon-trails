@@ -45,7 +45,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  new_york_city: {
+  "new-york-city": {
     "Statue of Liberty": {
       title: "Statue of Liberty",
       location: "Liberty Island, New York City",
@@ -91,7 +91,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  rio_de_janeiro: {
+  "rio-de-janeiro": {
     "Christ the Redeemer": {
       title: "Christ the Redeemer",
       location: "Parque Nacional da Tijuca, Rio de Janeiro",
@@ -344,9 +344,1053 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  // Add more cities following the same structure
+  auckland: {
+    "Sky Tower": {
+      title: "Sky Tower",
+      location: "Corner of Victoria and Federal Streets, Auckland CBD",
+      imageUrl: "https://images.unsplash.com/photo-auckland-sky-tower",
+      tags: ["architecture", "popular", "adventure"],
+      isPopular: true,
+    },
+    "Auckland War Memorial Museum": {
+      title: "Auckland War Memorial Museum",
+      location: "The Auckland Domain, Parnell, Auckland",
+      imageUrl: "https://images.unsplash.com/photo-auckland-museum",
+      tags: ["historical", "cultural", "educational"],
+      isPopular: true,
+    },
+    "Mount Eden": {
+      title: "Mount Eden (Maungawhau)",
+      location: "Mount Eden Road, Mount Eden, Auckland",
+      imageUrl: "https://images.unsplash.com/photo-auckland-mount-eden",
+      tags: ["adventure", "free", "outdoor"],
+      isPopular: true,
+    },
+  },
+  bali: {
+    "Uluwatu Temple": {
+      title: "Uluwatu Temple",
+      location: "Pecatu, South Kuta, Badung Regency, Bali",
+      imageUrl: "https://images.unsplash.com/photo-bali-uluwatu-temple",
+      tags: ["spiritual", "historical", "scenic"],
+      isPopular: true,
+    },
+    "Tegallalang Rice Terraces": {
+      title: "Tegallalang Rice Terraces",
+      location: "Tegallalang, Gianyar Regency, Bali",
+      imageUrl: "https://images.unsplash.com/photo-bali-tegallalang",
+      tags: ["adventure", "scenic", "cultural"],
+      isPopular: true,
+    },
+    "Ubud Monkey Forest": {
+      title: "Ubud Monkey Forest",
+      location: "Jl. Monkey Forest, Ubud, Gianyar, Bali",
+      imageUrl: "https://images.unsplash.com/photo-bali-monkey-forest",
+      tags: ["adventure", "nature", "family"],
+      isPopular: true,
+    },
+  },
+  berlin: {
+    "Brandenburg Gate": {
+      title: "Brandenburg Gate",
+      location: "Pariser Platz, 10117 Berlin",
+      imageUrl: "https://images.unsplash.com/photo-berlin-brandenburg-gate",
+      tags: ["historical", "popular", "architecture"],
+      isPopular: true,
+    },
+    "Reichstag Building": {
+      title: "Reichstag Building",
+      location: "Platz der Republik 1, 11011 Berlin",
+      imageUrl: "https://images.unsplash.com/photo-berlin-reichstag",
+      tags: ["historical", "architecture", "popular"],
+      isPopular: true,
+    },
+    "Berlin Cathedral": {
+      title: "Berlin Cathedral",
+      location: "Am Lustgarten, 10178 Berlin",
+      imageUrl: "https://images.unsplash.com/photo-berlin-cathedral",
+      tags: ["historical", "spiritual", "architecture"],
+      isPopular: true,
+    },
+  },
+  boston: {
+    "Freedom Trail": {
+      title: "Freedom Trail",
+      location: "Boston, MA 02108",
+      imageUrl: "https://images.unsplash.com/photo-boston-freedom-trail",
+      tags: ["historical", "adventure", "popular"],
+      isPopular: true,
+    },
+    "Fenway Park": {
+      title: "Fenway Park",
+      location: "4 Yawkey Way, Boston, MA 02215",
+      imageUrl: "https://images.unsplash.com/photo-boston-fenway-park",
+      tags: ["sports", "cultural", "popular"],
+      isPopular: true,
+    },
+    "Boston Common": {
+      title: "Boston Common",
+      location: "139 Tremont St, Boston, MA 02111",
+      imageUrl: "https://images.unsplash.com/photo-boston-common",
+      tags: ["historical", "free", "outdoor"],
+      isPopular: true,
+    },
+  },
+  // Additional cities
+  bermuda: {
+    "Horseshoe Bay Beach": {
+      title: "Horseshoe Bay Beach",
+      location: "South Road, Southampton Parish, Bermuda",
+      imageUrl: "https://images.unsplash.com/photo-bermuda-horseshoe-bay",
+      tags: ["beach", "scenic", "popular"],
+      isPopular: true,
+    },
+    "Crystal & Fantasy Caves": {
+      title: "Crystal & Fantasy Caves",
+      location: "8 Crystal Caves Rd, Hamilton Parish CR 04, Bermuda",
+      imageUrl: "https://images.unsplash.com/photo-bermuda-crystal-caves",
+      tags: ["natural", "adventure", "family"],
+      isPopular: true,
+    },
+    "Royal Naval Dockyard": {
+      title: "Royal Naval Dockyard",
+      location: "5 Freeport Drive, Sandys MA 01, Bermuda",
+      imageUrl: "https://images.unsplash.com/photo-bermuda-dockyard",
+      tags: ["historical", "cultural", "shopping"],
+      isPopular: true,
+    },
+  },
+  buenos_aires: {
+    "Plaza de Mayo": {
+      title: "Plaza de Mayo",
+      location: "Av. Hipólito Yrigoyen, Buenos Aires",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-plaza-mayo",
+      tags: ["historical", "cultural", "sightseeing"],
+      isPopular: true,
+    },
+    "La Boca": {
+      title: "La Boca",
+      location: "Caminito, Buenos Aires",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-la-boca",
+      tags: ["cultural", "artOrMusic", "colorful"],
+      isPopular: true,
+    },
+    "Recoleta Cemetery": {
+      title: "Recoleta Cemetery",
+      location: "Junín 1760, Buenos Aires",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-recoleta",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+  },
+  cape_town: {
+    "Table Mountain": {
+      title: "Table Mountain",
+      location: "Table Mountain National Park, Cape Town",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-table-mountain",
+      tags: ["nature", "adventure", "scenic"],
+      isPopular: true,
+    },
+    "Robben Island": {
+      title: "Robben Island",
+      location: "Robben Island Museum, Cape Town",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-robben-island",
+      tags: ["historical", "cultural", "educational"],
+      isPopular: true,
+    },
+    "V&A Waterfront": {
+      title: "V&A Waterfront",
+      location: "Dock Road, Cape Town",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-waterfront",
+      tags: ["shopping", "dining", "entertainment"],
+      isPopular: true,
+    },
+  },
+  cartagena: {
+    "Walled City": {
+      title: "Walled City",
+      location: "Centro Histórico, Cartagena",
+      imageUrl: "https://images.unsplash.com/photo-cartagena-walled-city",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+    "Castillo San Felipe de Barajas": {
+      title: "Castillo San Felipe de Barajas",
+      location: "Calle 32 # 15-243, Cartagena",
+      imageUrl: "https://images.unsplash.com/photo-cartagena-castillo",
+      tags: ["historical", "architecture", "scenic"],
+      isPopular: true,
+    },
+    "Plaza Santo Domingo": {
+      title: "Plaza Santo Domingo",
+      location: "Plaza Santo Domingo, Cartagena",
+      imageUrl: "https://images.unsplash.com/photo-cartagena-plaza",
+      tags: ["cultural", "dining", "historical"],
+      isPopular: true,
+    },
+  },
+  charleston: {
+    "Historic Downtown Charleston": {
+      title: "Historic Downtown Charleston",
+      location: "Charleston, SC",
+      imageUrl: "https://images.unsplash.com/photo-charleston-downtown",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+    "Fort Sumter National Monument": {
+      title: "Fort Sumter National Monument",
+      location: "1214 Middle St, Sullivan's Island, SC",
+      imageUrl: "https://images.unsplash.com/photo-charleston-fort-sumter",
+      tags: ["historical", "educational", "outdoor"],
+      isPopular: true,
+    },
+    "The Battery": {
+      title: "The Battery",
+      location: "Charleston, SC 29401",
+      imageUrl: "https://images.unsplash.com/photo-charleston-battery",
+      tags: ["historical", "scenic", "architecture"],
+      isPopular: true,
+    },
+  },
+  copenhagen: {
+    "Tivoli Gardens": {
+      title: "Tivoli Gardens",
+      location: "Vesterbrogade 3, 1630 København V",
+      imageUrl: "https://images.unsplash.com/photo-copenhagen-tivoli",
+      tags: ["entertainment", "family", "amusement"],
+      isPopular: true,
+    },
+    Nyhavn: {
+      title: "Nyhavn",
+      location: "Nyhavn, 1051 København K",
+      imageUrl: "https://images.unsplash.com/photo-copenhagen-nyhavn",
+      tags: ["scenic", "dining", "historical"],
+      isPopular: true,
+    },
+    "The Little Mermaid": {
+      title: "The Little Mermaid",
+      location: "Langelinie, 2100 København Ø",
+      imageUrl: "https://images.unsplash.com/photo-copenhagen-mermaid",
+      tags: ["iconic", "cultural", "scenic"],
+      isPopular: true,
+    },
+  },
+  dublin: {
+    "Trinity College and the Book of Kells": {
+      title: "Trinity College and the Book of Kells",
+      location: "College Green, Dublin 2",
+      imageUrl: "https://images.unsplash.com/photo-dublin-trinity-college",
+      tags: ["historical", "cultural", "educational"],
+      isPopular: true,
+    },
+    "Guinness Storehouse": {
+      title: "Guinness Storehouse",
+      location: "St James's Gate, Dublin 8",
+      imageUrl: "https://images.unsplash.com/photo-dublin-guinness",
+      tags: ["cultural", "entertainment", "popular"],
+      isPopular: true,
+    },
+    "Dublin Castle": {
+      title: "Dublin Castle",
+      location: "Dame St, Dublin 2",
+      imageUrl: "https://images.unsplash.com/photo-dublin-castle",
+      tags: ["historical", "architecture", "cultural"],
+      isPopular: true,
+    },
+  },
+  florence: {
+    "Cathedral of Santa Maria del Fiore": {
+      title: "Cathedral of Santa Maria del Fiore (Duomo)",
+      location: "Piazza del Duomo, 50122 Florence",
+      imageUrl: "https://images.unsplash.com/photo-florence-duomo",
+      tags: ["architecture", "historical", "spiritual"],
+      isPopular: true,
+    },
+    "Uffizi Gallery": {
+      title: "Uffizi Gallery",
+      location: "Piazzale degli Uffizi, 6, 50122 Florence",
+      imageUrl: "https://images.unsplash.com/photo-florence-uffizi",
+      tags: ["artOrMusic", "cultural", "historical"],
+      isPopular: true,
+    },
+    "Ponte Vecchio": {
+      title: "Ponte Vecchio",
+      location: "Ponte Vecchio, Florence",
+      imageUrl: "https://images.unsplash.com/photo-florence-ponte-vecchio",
+      tags: ["architecture", "romantic", "historical"],
+      isPopular: true,
+    },
+  },
+  helsinki: {
+    "Suomenlinna Sea Fortress": {
+      title: "Suomenlinna Sea Fortress",
+      location: "Accessible via ferry from Market Square, Helsinki",
+      imageUrl: "https://images.unsplash.com/photo-helsinki-suomenlinna",
+      tags: ["historical", "scenic", "outdoor"],
+      isPopular: true,
+    },
+    "Temppeliaukio Church": {
+      title: "Temppeliaukio Church",
+      location: "Lutherinkatu 3, 00100 Helsinki",
+      imageUrl: "https://images.unsplash.com/photo-helsinki-temppeliaukio",
+      tags: ["architecture", "spiritual", "cultural"],
+      isPopular: true,
+    },
+    "Helsinki Cathedral": {
+      title: "Helsinki Cathedral",
+      location: "Unioninkatu 29, 00170 Helsinki",
+      imageUrl: "https://images.unsplash.com/photo-helsinki-cathedral",
+      tags: ["architecture", "spiritual", "historical"],
+      isPopular: true,
+    },
+  },
+  hong_kong: {
+    "Victoria Peak": {
+      title: "Victoria Peak",
+      location: "The Peak, Hong Kong",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-victoria-peak",
+      tags: ["scenic", "popular", "viewpoint"],
+      isPopular: true,
+    },
+    "Tsim Sha Tsui Promenade": {
+      title: "Tsim Sha Tsui Promenade",
+      location: "Tsim Sha Tsui, Kowloon, Hong Kong",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-promenade",
+      tags: ["scenic", "free", "cultural"],
+      isPopular: true,
+    },
+    "Hong Kong Disneyland": {
+      title: "Hong Kong Disneyland",
+      location: "Lantau Island, Hong Kong",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-disneyland",
+      tags: ["entertainment", "family", "themepark"],
+      isPopular: true,
+    },
+  },
+  lisbon: {
+    "Belém Tower": {
+      title: "Belém Tower",
+      location: "Av. Brasília, 1400-038 Lisboa",
+      imageUrl: "https://images.unsplash.com/photo-lisbon-belem-tower",
+      tags: ["historical", "architecture", "scenic"],
+      isPopular: true,
+    },
+    "Jerónimos Monastery": {
+      title: "Jerónimos Monastery",
+      location: "Praça do Império 1400-206 Lisboa",
+      imageUrl: "https://images.unsplash.com/photo-lisbon-jeronimos",
+      tags: ["historical", "architecture", "spiritual"],
+      isPopular: true,
+    },
+    "Alfama District": {
+      title: "Alfama District",
+      location: "Alfama, Lisbon",
+      imageUrl: "https://images.unsplash.com/photo-lisbon-alfama",
+      tags: ["cultural", "historical", "scenic"],
+      isPopular: true,
+    },
+  },
+  los_angeles: {
+    "Hollywood Walk of Fame": {
+      title: "Hollywood Walk of Fame",
+      location: "Hollywood Blvd, Los Angeles, CA",
+      imageUrl: "https://images.unsplash.com/photo-los-angeles-walk-of-fame",
+      tags: ["entertainment", "cultural", "popular"],
+      isPopular: true,
+    },
+    "Griffith Observatory": {
+      title: "Griffith Observatory",
+      location: "2800 E Observatory Rd, Los Angeles, CA",
+      imageUrl: "https://images.unsplash.com/photo-los-angeles-griffith",
+      tags: ["educational", "scenic", "science"],
+      isPopular: true,
+    },
+    "Santa Monica Pier": {
+      title: "Santa Monica Pier",
+      location: "200 Santa Monica Pier, Santa Monica, CA",
+      imageUrl: "https://images.unsplash.com/photo-los-angeles-santa-monica",
+      tags: ["entertainment", "beach", "family"],
+      isPopular: true,
+    },
+  },
+  montreal: {
+    "Old Montreal": {
+      title: "Old Montreal",
+      location: "Vieux-Montréal, Montreal, QC",
+      imageUrl: "https://images.unsplash.com/photo-montreal-old-montreal",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+    "Mount Royal Park": {
+      title: "Mount Royal Park",
+      location: "1260 Remembrance Rd, Montreal, QC",
+      imageUrl: "https://images.unsplash.com/photo-montreal-mount-royal",
+      tags: ["outdoor", "scenic", "free"],
+      isPopular: true,
+    },
+    "Notre-Dame Basilica": {
+      title: "Notre-Dame Basilica",
+      location: "110 Notre-Dame St W, Montreal, QC",
+      imageUrl: "https://images.unsplash.com/photo-montreal-notre-dame",
+      tags: ["spiritual", "architecture", "historical"],
+      isPopular: true,
+    },
+  },
+  oslo: {
+    "Viking Ship Museum": {
+      title: "Viking Ship Museum",
+      location: "Huk Aveny 35, 0287 Oslo",
+      imageUrl: "https://images.unsplash.com/photo-oslo-viking-ship-museum",
+      tags: ["historical", "cultural", "educational"],
+      isPopular: true,
+    },
+    "Vigeland Park": {
+      title: "Vigeland Park",
+      location: "Nobels gate 32, 0268 Oslo",
+      imageUrl: "https://images.unsplash.com/photo-oslo-vigeland-park",
+      tags: ["outdoor", "artistic", "free"],
+      isPopular: true,
+    },
+    "Oslo Opera House": {
+      title: "Oslo Opera House",
+      location: "Kirsten Flagstads Plass 1, 0150 Oslo",
+      imageUrl: "https://images.unsplash.com/photo-oslo-opera-house",
+      tags: ["architecture", "cultural", "modern"],
+      isPopular: true,
+    },
+  },
+  "quebec-city": {
+    "Old Quebec": {
+      title: "Old Quebec",
+      location: "Old Quebec, Quebec City, QC",
+      imageUrl: "https://images.unsplash.com/photo-quebec-city-old-quebec",
+      tags: ["historical", "architecture", "cultural"],
+      isPopular: true,
+    },
+    "Château Frontenac": {
+      title: "Château Frontenac",
+      location: "1 Rue des Carrières, Quebec City, QC",
+      imageUrl:
+        "https://images.unsplash.com/photo-quebec-city-chateau-frontenac",
+      tags: ["iconic", "architecture", "luxury"],
+      isPopular: true,
+    },
+    "Montmorency Falls": {
+      title: "Montmorency Falls",
+      location: "5300 Boulevard Sainte-Anne, Quebec City",
+      imageUrl:
+        "https://images.unsplash.com/photo-quebec-city-montmorency-falls",
+      tags: ["natural", "scenic", "outdoor"],
+      isPopular: true,
+    },
+  },
+  roatan: {
+    "West Bay Beach": {
+      title: "West Bay Beach",
+      location: "West Bay, Roatan",
+      imageUrl: "https://images.unsplash.com/photo-roatan-west-bay-beach",
+      tags: ["beach", "scenic", "water activities"],
+      isPopular: true,
+    },
+    "Gumbalimba Park": {
+      title: "Gumbalimba Park",
+      location: "West Bay Rd, Roatan",
+      imageUrl: "https://images.unsplash.com/photo-roatan-gumbalimba-park",
+      tags: ["adventure", "wildlife", "family"],
+      isPopular: true,
+    },
+    "Carambola Botanical Gardens": {
+      title: "Carambola Botanical Gardens",
+      location: "Sandy Bay, Roatan",
+      imageUrl: "https://images.unsplash.com/photo-roatan-carambola",
+      tags: ["nature", "hiking", "educational"],
+      isPopular: true,
+    },
+  },
+  "san-juan": {
+    "Old San Juan": {
+      title: "Old San Juan",
+      location: "Old San Juan, San Juan, Puerto Rico",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-old-san-juan",
+      tags: ["historical", "colorful", "cultural"],
+      isPopular: true,
+    },
+    "Castillo San Felipe del Morro": {
+      title: "Castillo San Felipe del Morro",
+      location: "501 Norzagaray St, San Juan",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-el-morro",
+      tags: ["historical", "fortress", "scenic"],
+      isPopular: true,
+    },
+    "Condado Beach": {
+      title: "Condado Beach",
+      location: "Condado, San Juan, Puerto Rico",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-condado-beach",
+      tags: ["beach", "luxury", "water activities"],
+      isPopular: true,
+    },
+  },
+  santiago: {
+    "Cerro San Cristóbal": {
+      title: "Cerro San Cristóbal",
+      location: "Santiago Metropolitan Park, Santiago",
+      imageUrl:
+        "https://images.unsplash.com/photo-santiago-cerro-san-cristobal",
+      tags: ["scenic", "viewpoint", "outdoor"],
+      isPopular: true,
+    },
+    "Plaza de Armas": {
+      title: "Plaza de Armas",
+      location: "Plaza de Armas, Santiago",
+      imageUrl: "https://images.unsplash.com/photo-santiago-plaza-de-armas",
+      tags: ["historical", "cultural", "central"],
+      isPopular: true,
+    },
+    "La Moneda Palace": {
+      title: "La Moneda Palace",
+      location: "Moneda, Santiago",
+      imageUrl: "https://images.unsplash.com/photo-santiago-la-moneda",
+      tags: ["governmental", "historical", "architecture"],
+      isPopular: true,
+    },
+  },
+  santorini: {
+    "Oia Village": {
+      title: "Oia Village",
+      location: "Oia, Santorini",
+      imageUrl: "https://images.unsplash.com/photo-santorini-oia",
+      tags: ["scenic", "sunset", "iconic"],
+      isPopular: true,
+    },
+    "Fira Town": {
+      title: "Fira Town",
+      location: "Fira, Santorini",
+      imageUrl: "https://images.unsplash.com/photo-santorini-fira",
+      tags: ["scenic", "shopping", "dining"],
+      isPopular: true,
+    },
+    "Red Beach": {
+      title: "Red Beach",
+      location: "Akrotiri, Santorini",
+      imageUrl: "https://images.unsplash.com/photo-santorini-red-beach",
+      tags: ["beach", "unique", "scenic"],
+      isPopular: true,
+    },
+  },
+  seattle: {
+    "Space Needle": {
+      title: "Space Needle",
+      location: "400 Broad St, Seattle, WA",
+      imageUrl: "https://images.unsplash.com/photo-seattle-space-needle",
+      tags: ["iconic", "viewpoint", "modern"],
+      isPopular: true,
+    },
+    "Pike Place Market": {
+      title: "Pike Place Market",
+      location: "85 Pike St, Seattle, WA",
+      imageUrl: "https://images.unsplash.com/photo-seattle-pike-place",
+      tags: ["market", "food", "cultural"],
+      isPopular: true,
+    },
+    "Chihuly Garden and Glass": {
+      title: "Chihuly Garden and Glass",
+      location: "305 Harrison St, Seattle, WA",
+      imageUrl: "https://images.unsplash.com/photo-seattle-chihuly",
+      tags: ["art", "unique", "indoor"],
+      isPopular: true,
+    },
+  },
+  shanghai: {
+    "The Bund": {
+      title: "The Bund",
+      location: "Zhongshan East 1st Rd, Shanghai",
+      imageUrl: "https://images.unsplash.com/photo-shanghai-bund",
+      tags: ["iconic", "architecture", "skyline"],
+      isPopular: true,
+    },
+    "Yu Garden": {
+      title: "Yu Garden",
+      location: "218 Anren St, Huangpu, Shanghai",
+      imageUrl: "https://images.unsplash.com/photo-shanghai-yu-garden",
+      tags: ["historical", "garden", "cultural"],
+      isPopular: true,
+    },
+    "Shanghai Tower": {
+      title: "Shanghai Tower",
+      location: "501 Yincheng Middle Rd, Pudong, Shanghai",
+      imageUrl: "https://images.unsplash.com/photo-shanghai-tower",
+      tags: ["architecture", "modern", "viewpoint"],
+      isPopular: true,
+    },
+  },
+  singapore: {
+    "Gardens by the Bay": {
+      title: "Gardens by the Bay",
+      location: "18 Marina Gardens Dr, Singapore",
+      imageUrl: "https://images.unsplash.com/photo-singapore-gardens",
+      tags: ["nature", "futuristic", "family"],
+      isPopular: true,
+    },
+    "Marina Bay Sands": {
+      title: "Marina Bay Sands",
+      location: "10 Bayfront Ave, Singapore",
+      imageUrl: "https://images.unsplash.com/photo-singapore-marina-bay-sands",
+      tags: ["luxury", "iconic", "architecture"],
+      isPopular: true,
+    },
+    "Sentosa Island": {
+      title: "Sentosa Island",
+      location: "Sentosa Island, Singapore",
+      imageUrl: "https://images.unsplash.com/photo-singapore-sentosa",
+      tags: ["entertainment", "beach", "family"],
+      isPopular: true,
+    },
+  },
+  tampa: {
+    "Busch Gardens": {
+      title: "Busch Gardens Tampa Bay",
+      location: "10165 McKinley Dr, Tampa, FL",
+      imageUrl: "https://images.unsplash.com/photo-tampa-busch-gardens",
+      tags: ["theme park", "family", "entertainment"],
+      isPopular: true,
+    },
+    "Tampa Riverwalk": {
+      title: "Tampa Riverwalk",
+      location: "Tampa Riverwalk, Tampa, FL",
+      imageUrl: "https://images.unsplash.com/photo-tampa-riverwalk",
+      tags: ["outdoor", "scenic", "free"],
+      isPopular: true,
+    },
+    "Florida Aquarium": {
+      title: "Florida Aquarium",
+      location: "701 Channelside Dr, Tampa, FL",
+      imageUrl: "https://images.unsplash.com/photo-tampa-florida-aquarium",
+      tags: ["educational", "family", "indoor"],
+      isPopular: true,
+    },
+  },
+  toronto: {
+    "CN Tower": {
+      title: "CN Tower",
+      location: "290 Bremner Blvd, Toronto, ON",
+      imageUrl: "https://images.unsplash.com/photo-toronto-cn-tower",
+      tags: ["iconic", "viewpoint", "architecture"],
+      isPopular: true,
+    },
+    "Royal Ontario Museum": {
+      title: "Royal Ontario Museum",
+      location: "100 Queens Park, Toronto, ON",
+      imageUrl: "https://images.unsplash.com/photo-toronto-rom",
+      tags: ["museum", "cultural", "educational"],
+      isPopular: true,
+    },
+    "Distillery District": {
+      title: "Distillery District",
+      location: "Distillery District, Toronto, ON",
+      imageUrl: "https://images.unsplash.com/photo-toronto-distillery",
+      tags: ["historical", "shopping", "cultural"],
+      isPopular: true,
+    },
+  },
+  vancouver: {
+    "Stanley Park": {
+      title: "Stanley Park",
+      location: "Stanley Park, Vancouver, BC",
+      imageUrl: "https://images.unsplash.com/photo-vancouver-stanley-park",
+      tags: ["park", "outdoor", "scenic"],
+      isPopular: true,
+    },
+    "Granville Island": {
+      title: "Granville Island",
+      location: "Granville Island, Vancouver, BC",
+      imageUrl: "https://images.unsplash.com/photo-vancouver-granville-island",
+      tags: ["market", "arts", "food"],
+      isPopular: true,
+    },
+    "Capilano Suspension Bridge": {
+      title: "Capilano Suspension Bridge",
+      location: "3735 Capilano Rd, North Vancouver, BC",
+      imageUrl: "https://images.unsplash.com/photo-vancouver-capilano",
+      tags: ["adventure", "nature", "scenic"],
+      isPopular: true,
+    },
+  },
+  // Additional cities
+  victoria: {
+    "Butchart Gardens": {
+      title: "Butchart Gardens",
+      location: "800 Benvenuto Ave, Brentwood Bay, BC",
+      imageUrl: "https://images.unsplash.com/photo-victoria-butchart-gardens",
+      tags: ["garden", "scenic", "family"],
+      isPopular: true,
+    },
+    "Royal BC Museum": {
+      title: "Royal BC Museum",
+      location: "675 Belleville St, Victoria, BC",
+      imageUrl: "https://images.unsplash.com/photo-victoria-royal-bc-museum",
+      tags: ["museum", "educational", "cultural"],
+      isPopular: true,
+    },
+    "Craigdarroch Castle": {
+      title: "Craigdarroch Castle",
+      location: "1050 Joan Crescent, Victoria, BC",
+      imageUrl:
+        "https://images.unsplash.com/photo-victoria-craigdarroch-castle",
+      tags: ["historical", "architecture", "cultural"],
+      isPopular: true,
+    },
+  },
+  juneau: {
+    "Mendenhall Glacier": {
+      title: "Mendenhall Glacier",
+      location: "Mendenhall Glacier Visitor Center, Juneau, AK",
+      imageUrl: "https://images.unsplash.com/photo-juneau-mendenhall-glacier",
+      tags: ["natural", "scenic", "outdoor"],
+      isPopular: true,
+    },
+    "Mount Roberts Tramway": {
+      title: "Mount Roberts Tramway",
+      location: "490 S Franklin St, Juneau, AK",
+      imageUrl: "https://images.unsplash.com/photo-juneau-tramway",
+      tags: ["scenic", "viewpoint", "adventure"],
+      isPopular: true,
+    },
+    "Alaska State Museum": {
+      title: "Alaska State Museum",
+      location: "395 Whittier St, Juneau, AK",
+      imageUrl: "https://images.unsplash.com/photo-juneau-alaska-museum",
+      tags: ["museum", "cultural", "educational"],
+      isPopular: true,
+    },
+  },
+  ketchikan: {
+    "Totem Heritage Center": {
+      title: "Totem Heritage Center",
+      location: "601 Deermountain Rd, Ketchikan, AK",
+      imageUrl: "https://images.unsplash.com/photo-ketchikan-totem-center",
+      tags: ["cultural", "historical", "native"],
+      isPopular: true,
+    },
+    "Misty Fjords National Monument": {
+      title: "Misty Fjords National Monument",
+      location: "Ketchikan, AK",
+      imageUrl: "https://images.unsplash.com/photo-ketchikan-misty-fjords",
+      tags: ["natural", "scenic", "outdoor"],
+      isPopular: true,
+    },
+    "Creek Street": {
+      title: "Creek Street",
+      location: "Creek St, Ketchikan, AK",
+      imageUrl: "https://images.unsplash.com/photo-ketchikan-creek-street",
+      tags: ["historical", "shopping", "scenic"],
+      isPopular: true,
+    },
+  },
+  skagway: {
+    "Klondike Gold Rush National Historical Park": {
+      title: "Klondike Gold Rush National Historical Park",
+      location: "Skagway, AK",
+      imageUrl: "https://images.unsplash.com/photo-skagway-klondike",
+      tags: ["historical", "educational", "outdoor"],
+      isPopular: true,
+    },
+    "White Pass & Yukon Route Railroad": {
+      title: "White Pass & Yukon Route Railroad",
+      location: "Skagway, AK",
+      imageUrl: "https://images.unsplash.com/photo-skagway-white-pass",
+      tags: ["scenic", "adventure", "transportation"],
+      isPopular: true,
+    },
+    "Skagway Museum": {
+      title: "Skagway Museum",
+      location: "120 Broadway St, Skagway, AK",
+      imageUrl: "https://images.unsplash.com/photo-skagway-museum",
+      tags: ["museum", "historical", "cultural"],
+      isPopular: true,
+    },
+  },
+  sitka: {
+    "Sitka National Historical Park": {
+      title: "Sitka National Historical Park",
+      location: "103 Monastery St, Sitka, AK",
+      imageUrl: "https://images.unsplash.com/photo-sitka-historical-park",
+      tags: ["historical", "outdoor", "cultural"],
+      isPopular: true,
+    },
+    "Russian Bishop's House": {
+      title: "Russian Bishop's House",
+      location: "501 S Seward St, Sitka, AK",
+      imageUrl: "https://images.unsplash.com/photo-sitka-russian-bishops-house",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+    "Totem Park": {
+      title: "Totem Park",
+      location: "Sitka, AK",
+      imageUrl: "https://images.unsplash.com/photo-sitka-totem-park",
+      tags: ["cultural", "outdoor", "native"],
+      isPopular: true,
+    },
+  },
+  "st-petersburg": {
+    "The Hermitage Museum": {
+      title: "The Hermitage Museum",
+      location: "Palace Square, 2, St. Petersburg, Russia",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-hermitage",
+      tags: ["museum", "historical", "art"],
+      isPopular: true,
+    },
+    "Church of the Savior on Spilled Blood": {
+      title: "Church of the Savior on Spilled Blood",
+      location: "Griboyedov Canal Embankment, St. Petersburg, Russia",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-church",
+      tags: ["architecture", "spiritual", "historical"],
+      isPopular: true,
+    },
+    "Peterhof Palace": {
+      title: "Peterhof Palace",
+      location: "Razvodnaya Ulitsa, 2, Petergof, St. Petersburg, Russia",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-peterhof",
+      tags: ["palace", "historical", "architecture"],
+      isPopular: true,
+    },
+  },
+  "st-thomas": {
+    "Magens Bay Beach": {
+      title: "Magens Bay Beach",
+      location: "Magens Bay, St. Thomas, USVI",
+      imageUrl: "https://images.unsplash.com/photo-st-thomas-magens-bay",
+      tags: ["beach", "scenic", "outdoor"],
+      isPopular: true,
+    },
+    "Blackbeard's Castle": {
+      title: "Blackbeard's Castle",
+      location: "Castle Rd, Charlotte Amalie, St. Thomas",
+      imageUrl:
+        "https://images.unsplash.com/photo-st-thomas-blackbeards-castle",
+      tags: ["historical", "viewpoint", "architecture"],
+      isPopular: true,
+    },
+    "Coral World Ocean Park": {
+      title: "Coral World Ocean Park",
+      location: "1000 Hemmersly Bay Rd, St. Thomas",
+      imageUrl: "https://images.unsplash.com/photo-st-thomas-coral-world",
+      tags: ["marine", "family", "educational"],
+      isPopular: true,
+    },
+  },
+  philipsburg: {
+    "Great Bay Beach": {
+      title: "Great Bay Beach",
+      location: "Great Bay, Philipsburg, Sint Maarten",
+      imageUrl: "https://images.unsplash.com/photo-philipsburg-great-bay",
+      tags: ["beach", "water activities", "scenic"],
+      isPopular: true,
+    },
+    "Front Street": {
+      title: "Front Street",
+      location: "Front Street, Philipsburg, Sint Maarten",
+      imageUrl: "https://images.unsplash.com/photo-philipsburg-front-street",
+      tags: ["shopping", "dining", "cultural"],
+      isPopular: true,
+    },
+    "Sint Maarten Museum": {
+      title: "Sint Maarten Museum",
+      location: "Front Street, Philipsburg, Sint Maarten",
+      imageUrl: "https://images.unsplash.com/photo-philipsburg-museum",
+      tags: ["museum", "historical", "cultural"],
+      isPopular: true,
+    },
+  },
+  mykonos: {
+    "Little Venice": {
+      title: "Little Venice",
+      location: "Mykonos Town, Mykonos",
+      imageUrl: "https://images.unsplash.com/photo-mykonos-little-venice",
+      tags: ["scenic", "romantic", "dining"],
+      isPopular: true,
+    },
+    "Windmills of Mykonos": {
+      title: "Windmills of Mykonos",
+      location: "Mykonos Town, Mykonos",
+      imageUrl: "https://images.unsplash.com/photo-mykonos-windmills",
+      tags: ["historical", "iconic", "viewpoint"],
+      isPopular: true,
+    },
+    "Paradise Beach": {
+      title: "Paradise Beach",
+      location: "Paradise Beach, Mykonos",
+      imageUrl: "https://images.unsplash.com/photo-mykonos-paradise-beach",
+      tags: ["beach", "nightlife", "water activities"],
+      isPopular: true,
+    },
+  },
+  "glacier-bay": {
+    "Glacier Bay National Park": {
+      title: "Glacier Bay National Park",
+      location: "Glacier Bay, AK",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-national-park",
+      tags: ["natural", "scenic", "wildlife"],
+      isPopular: true,
+    },
+    "Johns Hopkins Glacier": {
+      title: "Johns Hopkins Glacier",
+      location: "Glacier Bay National Park, AK",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-hopkins",
+      tags: ["natural", "scenic", "remote"],
+      isPopular: true,
+    },
+    "Muir Glacier": {
+      title: "Muir Glacier",
+      location: "Glacier Bay National Park, AK",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-muir",
+      tags: ["natural", "scenic", "historical"],
+      isPopular: true,
+    },
+  },
+  "george-town": {
+    "Seven Mile Beach": {
+      title: "Seven Mile Beach",
+      location: "Seven Mile Beach, George Town, Grand Cayman",
+      imageUrl:
+        "https://images.unsplash.com/photo-george-town-seven-mile-beach",
+      tags: ["beach", "scenic", "water activities"],
+      isPopular: true,
+    },
+    "Stingray City": {
+      title: "Stingray City",
+      location: "North Sound, Grand Cayman",
+      imageUrl: "https://images.unsplash.com/photo-george-town-stingray-city",
+      tags: ["wildlife", "water activities", "unique"],
+      isPopular: true,
+    },
+    "Cayman Islands National Museum": {
+      title: "Cayman Islands National Museum",
+      location: "George Town, Grand Cayman",
+      imageUrl: "https://images.unsplash.com/photo-george-town-museum",
+      tags: ["historical", "cultural", "educational"],
+      isPopular: true,
+    },
+  },
+  "fort-lauderdale": {
+    "Fort Lauderdale Beach": {
+      title: "Fort Lauderdale Beach",
+      location: "Fort Lauderdale, FL",
+      imageUrl: "https://images.unsplash.com/photo-fort-lauderdale-beach",
+      tags: ["beach", "scenic", "water activities"],
+      isPopular: true,
+    },
+    "Las Olas Boulevard": {
+      title: "Las Olas Boulevard",
+      location: "Las Olas Blvd, Fort Lauderdale, FL",
+      imageUrl: "https://images.unsplash.com/photo-fort-lauderdale-las-olas",
+      tags: ["shopping", "dining", "cultural"],
+      isPopular: true,
+    },
+    "Bonnet House Museum & Gardens": {
+      title: "Bonnet House Museum & Gardens",
+      location: "900 N Birch Rd, Fort Lauderdale, FL",
+      imageUrl:
+        "https://images.unsplash.com/photo-fort-lauderdale-bonnet-house",
+      tags: ["historical", "cultural", "garden"],
+      isPopular: true,
+    },
+  },
+  galveston: {
+    "Moody Gardens": {
+      title: "Moody Gardens",
+      location: "1 Hope Blvd, Galveston, TX",
+      imageUrl: "https://images.unsplash.com/photo-galveston-moody-gardens",
+      tags: ["family", "educational", "entertainment"],
+      isPopular: true,
+    },
+    "Galveston Island Historic Pleasure Pier": {
+      title: "Galveston Island Historic Pleasure Pier",
+      location: "2501 Seawall Blvd, Galveston, TX",
+      imageUrl: "https://images.unsplash.com/photo-galveston-pleasure-pier",
+      tags: ["entertainment", "family", "amusement"],
+      isPopular: true,
+    },
+    "The Strand Historic District": {
+      title: "The Strand Historic District",
+      location: "The Strand, Galveston, TX",
+      imageUrl: "https://images.unsplash.com/photo-galveston-strand",
+      tags: ["shopping", "historical", "cultural"],
+      isPopular: true,
+    },
+  },
+  malta: {
+    "Valletta Waterfront": {
+      title: "Valletta Waterfront",
+      location: "Valletta, Malta",
+      imageUrl: "https://images.unsplash.com/photo-malta-valletta-waterfront",
+      tags: ["scenic", "dining", "historical"],
+      isPopular: true,
+    },
+    "St. John's Co-Cathedral": {
+      title: "St. John's Co-Cathedral",
+      location: "St. John's Street, Valletta, Malta",
+      imageUrl: "https://images.unsplash.com/photo-malta-st-johns-cathedral",
+      tags: ["historical", "spiritual", "architecture"],
+      isPopular: true,
+    },
+    "Blue Lagoon": {
+      title: "Blue Lagoon",
+      location: "Comino, Malta",
+      imageUrl: "https://images.unsplash.com/photo-malta-blue-lagoon",
+      tags: ["scenic", "water activities", "natural"],
+      isPopular: true,
+    },
+  },
+  melbourne: {
+    "Federation Square": {
+      title: "Federation Square",
+      location: "Swanston St & Flinders St, Melbourne VIC",
+      imageUrl: "https://images.unsplash.com/photo-melbourne-federation-square",
+      tags: ["cultural", "modern", "entertainment"],
+      isPopular: true,
+    },
+    "Royal Botanic Gardens": {
+      title: "Royal Botanic Gardens",
+      location: "Birdwood Ave, South Yarra VIC",
+      imageUrl: "https://images.unsplash.com/photo-melbourne-botanic-gardens",
+      tags: ["garden", "scenic", "outdoor"],
+      isPopular: true,
+    },
+    "Queen Victoria Market": {
+      title: "Queen Victoria Market",
+      location: "Queen St, Melbourne VIC",
+      imageUrl: "https://images.unsplash.com/photo-melbourne-victoria-market",
+      tags: ["shopping", "food", "cultural"],
+      isPopular: true,
+    },
+  },
+  milan: {
+    "Duomo di Milano": {
+      title: "Duomo di Milano",
+      location: "Piazza del Duomo, 20122 Milan",
+      imageUrl: "https://images.unsplash.com/photo-milan-duomo",
+      tags: ["architecture", "historical", "spiritual"],
+      isPopular: true,
+    },
+    "Galleria Vittorio Emanuele II": {
+      title: "Galleria Vittorio Emanuele II",
+      location: "Piazza del Duomo, 20123 Milan",
+      imageUrl: "https://images.unsplash.com/photo-milan-galleria",
+      tags: ["shopping", "architecture", "luxury"],
+      isPopular: true,
+    },
+    "Sforza Castle": {
+      title: "Sforza Castle",
+      location: "Piazza Castello, 20121 Milan",
+      imageUrl: "https://images.unsplash.com/photo-milan-castle",
+      tags: ["historical", "cultural", "architecture"],
+      isPopular: true,
+    },
+  },
 };
 
+// Additional cities for attractionDetails
 export const attractionDetails = {
   amsterdam: {
     Rijksmuseum: {
@@ -438,7 +1482,7 @@ export const attractionDetails = {
       isPopular: true,
     },
   },
-  new_york_city: {
+  "new-york-city": {
     "Statue of Liberty": {
       description: "Iconic symbol of freedom on Liberty Island.",
       openingHours: "8:30 AM - 4:00 PM",
@@ -531,7 +1575,7 @@ export const attractionDetails = {
       isWheelchairAccessible: false,
     },
   },
-  rio_de_janeiro: {
+  "rio-de-janeiro": {
     "Christ the Redeemer": {
       description:
         "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
@@ -804,7 +1848,7 @@ export const attractionDetails = {
       isWheelchairAccessible: true,
     },
   },
-  san_francisco: {
+  "san-francisco": {
     "Golden Gate Bridge": {
       description: "Iconic suspension bridge with scenic views and walkways.",
       openingHours: "24 hours",
@@ -1034,594 +2078,247 @@ export const attractionDetails = {
       isWheelchairAccessible: true,
     },
   },
-  // Add more cities following the same structure
+  // Add missing cities
+  auckland: {
+    "Sky Tower": {
+      description:
+        "Iconic observation and telecommunications tower offering panoramic views of Auckland.",
+      openingHours: "9:00 AM - 10:00 PM",
+      entryFee: "NZD 32",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "all day",
+      rating: 4.5,
+      isArchitecture: true,
+      isAdventure: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: [
+        "elevator access",
+        "wheelchair accessible viewing platforms",
+      ],
+    },
+    "Auckland War Memorial Museum": {
+      description:
+        "Museum showcasing New Zealand's cultural and military history.",
+      openingHours: "10:00 AM - 5:00 PM",
+      entryFee: "NZD 25 (suggested donation)",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      isHistorical: true,
+      isEducational: true,
+      isCultural: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: ["wheelchair accessible entrances", "elevators"],
+    },
+    "Mount Eden": {
+      description:
+        "Dormant volcano offering panoramic views of Auckland and its harbors.",
+      openingHours: "Always open",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.7,
+      isAdventure: true,
+      isOutdoor: true,
+      isFree: true,
+      isWheelchairAccessible: false,
+    },
+  },
+  bali: {
+    "Uluwatu Temple": {
+      description:
+        "Ancient sea temple perched on a cliff with spectacular sunset views.",
+      openingHours: "9:00 AM - 7:00 PM",
+      entryFee: "IDR 50,000",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "sunset",
+      rating: 4.7,
+      isSpiritual: true,
+      isHistorical: true,
+      isScenic: true,
+      isWheelchairAccessible: false,
+    },
+    "Tegallalang Rice Terraces": {
+      description:
+        "Stunning agricultural terraces showcasing traditional Balinese irrigation system.",
+      openingHours: "8:00 AM - 6:00 PM",
+      entryFee: "IDR 10,000",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      isScenic: true,
+      isAdventure: true,
+      isCultural: true,
+      isWheelchairAccessible: false,
+    },
+    "Ubud Monkey Forest": {
+      description:
+        "Natural sanctuary home to over 700 Balinese long-tailed monkeys and ancient temples.",
+      openingHours: "8:30 AM - 6:00 PM",
+      entryFee: "IDR 80,000",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.4,
+      isAdventure: true,
+      isNature: true,
+      isFamily: true,
+      isWheelchairAccessible: false,
+    },
+  },
+  berlin: {
+    "Brandenburg Gate": {
+      description:
+        "Iconic 18th-century neoclassical monument symbolizing peace and unity.",
+      openingHours: "24 hours",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.7,
+      isHistorical: true,
+      isArchitecture: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: ["level ground", "paved access"],
+    },
+    "Reichstag Building": {
+      description:
+        "Historic building housing the German parliament with a glass dome offering city views.",
+      openingHours: "8:00 AM - 10:00 PM",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.6,
+      isHistorical: true,
+      isArchitecture: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: ["elevators", "accessible entrances"],
+    },
+    "Berlin Cathedral": {
+      description:
+        "Impressive baroque cathedral with a large dome and ornate interior.",
+      openingHours: "9:00 AM - 6:00 PM",
+      entryFee: "€9",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      isHistorical: true,
+      isSpiritual: true,
+      isArchitecture: true,
+      isWheelchairAccessible: false,
+    },
+  },
+  boston: {
+    "Freedom Trail": {
+      description:
+        "A 2.5-mile walking route through downtown Boston passing 16 historical sites.",
+      openingHours: "24 hours (individual sites vary)",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      isHistorical: true,
+      isAdventure: true,
+      isFree: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+    },
+    "Fenway Park": {
+      description:
+        "Historic baseball park and home of the Boston Red Sox since 1912.",
+      openingHours: "Varies by game and tour schedule",
+      entryFee: "$21 for tours, games vary",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "varies",
+      rating: 4.7,
+      isSports: true,
+      isCultural: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: [
+        "wheelchair seating areas",
+        "accessible entrances",
+      ],
+    },
+    "Boston Common": {
+      description:
+        "America's oldest public park featuring monuments, fountains and historic sites.",
+      openingHours: "24 hours",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.7,
+      isHistorical: true,
+      isOutdoor: true,
+      isFree: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: ["paved pathways", "accessible entrances"],
+    },
+  },
+  istanbul: {
+    "Hagia Sophia": {
+      description:
+        "Historic architectural marvel that served as a cathedral and mosque.",
+      openingHours: "9:00 AM - 7:00 PM",
+      entryFee: "₺200",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      isHistorical: true,
+      isSpiritual: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+    },
+    "Topkapi Palace": {
+      description:
+        "Former palace of Ottoman sultans with stunning architecture and gardens.",
+      openingHours: "9:00 AM - 6:00 PM",
+      entryFee: "₺200",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      isHistorical: true,
+      isCultural: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+    },
+    "Grand Bazaar": {
+      description:
+        "One of the largest and oldest covered markets in the world with thousands of shops.",
+      openingHours: "9:00 AM - 7:00 PM (closed Sundays)",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.5,
+      isAdventure: true,
+      isFree: true,
+      isPopular: true,
+    },
+  },
 };
-
-export const cityAttractions = {
-  auckland: [
-    {
-      name: "Sky Tower",
-      address: "Corner of Victoria and Federal Streets, Auckland CBD",
-    },
-    {
-      name: "Auckland War Memorial Museum",
-      address: "The Auckland Domain, Parnell, Auckland",
-    },
-    {
-      name: "Mount Eden (Maungawhau)",
-      address: "Mount Eden Road, Mount Eden, Auckland",
-    },
-  ],
-  amsterdam: [
-    {
-      name: "Anne Frank House",
-      address: "Prinsengracht 263-267, 1016 GV Amsterdam",
-    },
-    { name: "Van Gogh Museum", address: "Museumplein 6, 1071 DJ Amsterdam" },
-    { name: "Rijksmuseum", address: "Museumstraat 1, 1071 XX Amsterdam" },
-  ],
-  barcelona: [
-    {
-      name: "Sagrada Família",
-      address: "Carrer de Mallorca, 401, 08013 Barcelona",
-    },
-    { name: "Park Güell", address: "Carrer d'Olot, 5, 08024 Barcelona" },
-    { name: "Casa Batlló", address: "Passeig de Gràcia, 43, 08007 Barcelona" },
-  ],
-  bali: [
-    {
-      name: "Uluwatu Temple",
-      address: "Pecatu, South Kuta, Badung Regency, Bali",
-    },
-    {
-      name: "Tegallalang Rice Terraces",
-      address: "Tegallalang, Gianyar Regency, Bali",
-    },
-    {
-      name: "Ubud Monkey Forest",
-      address: "Jl. Monkey Forest, Ubud, Gianyar, Bali",
-    },
-  ],
-  bermuda: [
-    {
-      name: "Horseshoe Bay Beach",
-      address: "South Road, Southampton Parish, Bermuda",
-    },
-    {
-      name: "Crystal & Fantasy Caves",
-      address: "8 Crystal Caves Rd, Hamilton Parish CR 04, Bermuda",
-    },
-    {
-      name: "Royal Naval Dockyard",
-      address: "5 Freeport Drive, Sandys MA 01, Bermuda",
-    },
-  ],
-  helsinki: [
-    {
-      name: "Suomenlinna Sea Fortress",
-      address: "Accessible via ferry from Market Square, Helsinki",
-    },
-    { name: "Temppeliaukio Church", address: "Lutherinkatu 3, 00100 Helsinki" },
-    { name: "Helsinki Cathedral", address: "Unioninkatu 29, 00170 Helsinki" },
-  ],
-  "st-petersburg": [
-    {
-      name: "The Hermitage Museum",
-      address: "Palace Square, 2, St. Petersburg, Russia, 190000",
-    },
-    {
-      name: "Church of the Savior on Spilled Blood",
-      address:
-        "Griboyedov Canal Embankment, 2Б, St. Petersburg, Russia, 191186",
-    },
-    {
-      name: "Peterhof Palace",
-      address: "Razvodnaya Ulitsa, 2, Petergof, St. Petersburg, Russia, 198516",
-    },
-  ],
-  berlin: [
-    { name: "Brandenburg Gate", address: "Pariser Platz, 10117 Berlin" },
-    {
-      name: "Reichstag Building",
-      address: "Platz der Republik 1, 11011 Berlin",
-    },
-    { name: "Berlin Cathedral", address: "Am Lustgarten, 10178 Berlin" },
-  ],
-  boston: [
-    { name: "Freedom Trail", address: "Boston, MA 02108" },
-    { name: "Fenway Park", address: "4 Yawkey Way, Boston, MA 02215" },
-    { name: "Boston Common", address: "139 Tremont St, Boston, MA 02111" },
-  ],
-  "buenos-aires": [
-    { name: "Plaza de Mayo", address: "Av. Hipólito Yrigoyen, Buenos Aires" },
-    { name: "La Boca", address: "Caminito, Buenos Aires" },
-    { name: "Recoleta Cemetery", address: "Junín 1760, Buenos Aires" },
-  ],
-  "cape-town": [
-    {
-      name: "Table Mountain",
-      address: "Table Mountain National Park, Cape Town",
-    },
-    { name: "Robben Island", address: "Robben Island Museum, Cape Town" },
-    { name: "V&A Waterfront", address: "Dock Road, Cape Town" },
-  ],
-  charleston: [
-    { name: "Historic Downtown Charleston", address: "Charleston, SC" },
-    {
-      name: "Fort Sumter National Monument",
-      address: "1214 Middle St, Sullivan's Island, SC",
-    },
-    { name: "The Battery", address: "Charleston, SC 29401" },
-  ],
-  copenhagen: [
-    { name: "Tivoli Gardens", address: "Vesterbrogade 3, 1630 København V" },
-    { name: "Nyhavn", address: "Nyhavn, 1051 København K" },
-    { name: "The Little Mermaid", address: "Langelinie, 2100 København Ø" },
-  ],
-  dubai: [
-    {
-      name: "Burj Khalifa",
-      address: "1 Sheikh Mohammed bin Rashid Blvd, Dubai",
-    },
-    { name: "The Dubai Mall", address: "Downtown Dubai" },
-    { name: "Palm Jumeirah", address: "Dubai" },
-  ],
-  dublin: [
-    {
-      name: "Trinity College and the Book of Kells",
-      address: "College Green, Dublin 2",
-    },
-    { name: "Guinness Storehouse", address: "St James's Gate, Dublin 8" },
-    { name: "Dublin Castle", address: "Dame St, Dublin 2" },
-  ],
-  florence: [
-    {
-      name: "Cathedral of Santa Maria del Fiore (Duomo)",
-      address: "Piazza del Duomo, 50122 Florence",
-    },
-    {
-      name: "Uffizi Gallery",
-      address: "Piazzale degli Uffizi, 6, 50122 Florence",
-    },
-    { name: "Ponte Vecchio", address: "Ponte Vecchio, Florence" },
-  ],
-  "fort-lauderdale": [
-    { name: "Fort Lauderdale Beach", address: "Fort Lauderdale, FL" },
-    {
-      name: "Las Olas Boulevard",
-      address: "Las Olas Blvd, Fort Lauderdale, FL",
-    },
-    {
-      name: "Bonnet House Museum & Gardens",
-      address: "900 N Birch Rd, Fort Lauderdale, FL",
-    },
-  ],
-  nassau: [
-    {
-      name: "Atlantis Paradise Island",
-      address: "One Casino Drive, Paradise Island, Bahamas",
-    },
-    { name: "Queen's Staircase", address: "East Hill Street, Nassau" },
-    { name: "Junkanoo Beach", address: "Bay Street, Nassau" },
-  ],
-  "st-thomas": [
-    { name: "Magens Bay Beach", address: "Magens Bay, St. Thomas, USVI" },
-    {
-      name: "Blackbeard's Castle",
-      address: "Castle Rd, Charlotte Amalie, St. Thomas",
-    },
-    {
-      name: "Coral World Ocean Park",
-      address: "1000 Hemmersly Bay Rd, St. Thomas",
-    },
-  ],
-  cozumel: [
-    {
-      name: "Chankanaab Beach Adventure Park",
-      address: "Carretera a Chankanaab Km 3.5, Cozumel",
-    },
-    { name: "San Gervasio Mayan Ruins", address: "San Gervasio, Cozumel" },
-    { name: "Palancar Reef", address: "Cozumel Reefs National Marine Park" },
-  ],
-  "george-town": [
-    {
-      name: "Seven Mile Beach",
-      address: "Seven Mile Beach, George Town, Grand Cayman",
-    },
-    { name: "Stingray City", address: "North Sound, Grand Cayman" },
-    {
-      name: "Cayman Islands National Museum",
-      address: "George Town, Grand Cayman",
-    },
-  ],
-  roatan: [
-    { name: "West Bay Beach", address: "West Bay, Roatan" },
-    { name: "Gumbalimba Park", address: "West Bay Rd, Roatan" },
-    { name: "Carambola Botanical Gardens", address: "West Bay, Roatan" },
-  ],
-  philipsburg: [
-    {
-      name: "Great Bay Beach",
-      address: "Great Bay, Philipsburg, Sint Maarten",
-    },
-    {
-      name: "Front Street",
-      address: "Front Street, Philipsburg, Sint Maarten",
-    },
-    {
-      name: "Sint Maarten Museum",
-      address: "Front Street, Philipsburg, Sint Maarten",
-    },
-  ],
-  athens: [
-    { name: "Acropolis", address: "Athens 105 58, Greece" },
-    { name: "Parthenon", address: "Acropolis of Athens, Athens" },
-    { name: "Plaka Neighborhood", address: "Plaka, Athens" },
-  ],
-  santorini: [
-    { name: "Oia Village", address: "Oia, Santorini" },
-    { name: "Fira Town", address: "Fira, Santorini" },
-    { name: "Red Beach", address: "Akrotiri, Santorini" },
-  ],
-  mykonos: [
-    { name: "Little Venice", address: "Mykonos Town, Mykonos" },
-    { name: "Windmills of Mykonos", address: "Mykonos Town, Mykonos" },
-    { name: "Paradise Beach", address: "Mykonos Island" },
-  ],
-  galveston: [
-    { name: "Moody Gardens", address: "1 Hope Blvd, Galveston, TX" },
-    {
-      name: "Galveston Island Historic Pleasure Pier",
-      address: "2501 Seawall Blvd, Galveston, TX",
-    },
-    {
-      name: "The Strand Historic District",
-      address: "The Strand, Galveston, TX",
-    },
-  ],
-  "hong-kong": [
-    { name: "Victoria Peak", address: "The Peak, Hong Kong" },
-    {
-      name: "Tsim Sha Tsui Promenade",
-      address: "Tsim Sha Tsui, Kowloon, Hong Kong",
-    },
-    { name: "Hong Kong Disneyland", address: "Lantau Island, Hong Kong" },
-  ],
-  kiel: [
-    { name: "Kiel Canal", address: "Kiel, Schleswig-Holstein, Germany" },
-    { name: "Kieler Woche Festival", address: "Kiel, Germany" },
-    { name: "Laboe Naval Memorial", address: "Laboe, near Kiel, Germany" },
-  ],
-  kyoto: [
-    {
-      name: "Fushimi Inari Shrine",
-      address: "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto",
-    },
-    {
-      name: "Kinkaku-ji (Golden Pavilion)",
-      address: "1 Kinkakujicho, Kita Ward, Kyoto",
-    },
-    { name: "Arashiyama Bamboo Grove", address: "Arashiyama, Kyoto" },
-  ],
-  lisbon: [
-    { name: "Belém Tower", address: "Av. Brasília, 1400-038 Lisboa" },
-    {
-      name: "Jerónimos Monastery",
-      address: "Praça do Império 1400-206 Lisboa",
-    },
-    { name: "Alfama District", address: "Alfama, Lisbon" },
-  ],
-  london: [
-    {
-      name: "The British Museum",
-      address: "Great Russell St, Bloomsbury, London WC1B 3DG",
-    },
-    {
-      name: "Tower of London",
-      address: "St Katharine's & Wapping, London EC3N 4AB",
-    },
-    { name: "Buckingham Palace", address: "London SW1A 1AA" },
-  ],
-  "los-angeles": [
-    {
-      name: "Hollywood Walk of Fame",
-      address: "Hollywood Blvd, Los Angeles, CA",
-    },
-    {
-      name: "Griffith Observatory",
-      address: "2800 E Observatory Rd, Los Angeles, CA",
-    },
-    {
-      name: "Santa Monica Pier",
-      address: "200 Santa Monica Pier, Santa Monica, CA",
-    },
-  ],
-  malta: [
-    { name: "Valletta Waterfront", address: "Valletta, Malta" },
-    {
-      name: "St. John's Co-Cathedral",
-      address: "St. John's Street, Valletta, Malta",
-    },
-    { name: "Blue Lagoon", address: "Comino, Malta" },
-  ],
-  dubrovnik: [
-    { name: "Dubrovnik City Walls", address: "Ploče Gate, Dubrovnik" },
-    { name: "Stradun (Placa Street)", address: "Old Town, Dubrovnik" },
-    { name: "Lovrijenac Fortress", address: "Old Town, Dubrovnik" },
-  ],
-  juneau: [
-    {
-      name: "Mendenhall Glacier",
-      address: "Mendenhall Glacier Visitor Center, Juneau, AK",
-    },
-    { name: "Mount Roberts Tramway", address: "490 S Franklin St, Juneau, AK" },
-    { name: "Alaska State Museum", address: "395 Whittier St, Juneau, AK" },
-  ],
-  ketchikan: [
-    {
-      name: "Totem Heritage Center",
-      address: "601 Deermountain Rd, Ketchikan, AK",
-    },
-    { name: "Misty Fjords National Monument", address: "Ketchikan, AK" },
-    { name: "Creek Street", address: "Creek St, Ketchikan, AK" },
-  ],
-  skagway: [
-    {
-      name: "Klondike Gold Rush National Historical Park",
-      address: "Skagway, AK",
-    },
-    { name: "White Pass & Yukon Route Railroad", address: "Skagway, AK" },
-    { name: "Skagway Museum", address: "120 Broadway St, Skagway, AK" },
-  ],
-  sitka: [
-    {
-      name: "Sitka National Historical Park",
-      address: "103 Monastery St, Sitka, AK",
-    },
-    { name: "Russian Bishop's House", address: "501 S Seward St, Sitka, AK" },
-    { name: "Totem Park", address: "Sitka, AK" },
-  ],
-  victoria: [
-    {
-      name: "Butchart Gardens",
-      address: "800 Benvenuto Ave, Brentwood Bay, BC",
-    },
-    { name: "Royal BC Museum", address: "675 Belleville St, Victoria, BC" },
-    {
-      name: "Craigdarroch Castle",
-      address: "1050 Joan Crescent, Victoria, BC",
-    },
-  ],
-  "glacier-bay": [
-    { name: "Glacier Bay National Park", address: "Glacier Bay, AK" },
-    { name: "Johns Hopkins Glacier", address: "Glacier Bay National Park, AK" },
-    { name: "Muir Glacier", address: "Glacier Bay National Park, AK" },
-  ],
-  melbourne: [
-    {
-      name: "Federation Square",
-      address: "Swanston St & Flinders St, Melbourne VIC",
-    },
-    { name: "Royal Botanic Gardens", address: "Birdwood Ave, South Yarra VIC" },
-    { name: "Queen Victoria Market", address: "Queen St, Melbourne VIC" },
-  ],
-  miami: [
-    { name: "South Beach", address: "Ocean Drive, Miami Beach, FL" },
-    {
-      name: "Vizcaya Museum and Gardens",
-      address: "3251 S Miami Ave, Miami, FL",
-    },
-    { name: "Wynwood Walls", address: "2520 NW 2nd Ave, Miami, FL" },
-  ],
-  milan: [
-    { name: "Duomo di Milano", address: "Piazza del Duomo, 20122 Milan" },
-    {
-      name: "Galleria Vittorio Emanuele II",
-      address: "Piazza del Duomo, 20123 Milan",
-    },
-    { name: "Sforza Castle", address: "Piazza Castello, 20121 Milan" },
-  ],
-  montreal: [
-    { name: "Old Montreal", address: "Vieux-Montréal, Montreal, QC" },
-    { name: "Mount Royal Park", address: "1260 Remembrance Rd, Montreal, QC" },
-    {
-      name: "Notre-Dame Basilica",
-      address: "110 Notre-Dame St W, Montreal, QC",
-    },
-  ],
-  montevideo: [
-    { name: "Ciudad Vieja", address: "Montevideo, Uruguay" },
-    { name: "Plaza Independencia", address: "Plaza Independencia, Montevideo" },
-    { name: "Rambla of Montevideo", address: "Along the coast, Montevideo" },
-  ],
-  lima: [
-    { name: "Plaza Mayor", address: "Plaza Mayor, Lima" },
-    { name: "Larco Museum", address: "Av. Bolívar 1515, Pueblo Libre, Lima" },
-    { name: "Miraflores Boardwalk", address: "Malecón de Miraflores, Lima" },
-  ],
-  cartagena: [
-    { name: "Walled City", address: "Centro Histórico, Cartagena" },
-    {
-      name: "Castillo San Felipe de Barajas",
-      address: "Calle 32 # 15-243, Cartagena",
-    },
-    { name: "Plaza Santo Domingo", address: "Plaza Santo Domingo, Cartagena" },
-  ],
-  santiago: [
-    { name: "Cerro San Cristóbal", address: "Parque Metropolitano, Santiago" },
-    { name: "Plaza de Armas", address: "Plaza de Armas, Santiago" },
-    { name: "La Moneda Palace", address: "La Moneda, Santiago" },
-  ],
-  "new-orleans": [
-    { name: "French Quarter", address: "French Quarter, New Orleans, LA" },
-    { name: "Bourbon Street", address: "Bourbon St, New Orleans, LA" },
-    { name: "Jackson Square", address: "700 Decatur St, New Orleans, LA" },
-  ],
-  "new-york-city": [
-    { name: "Statue of Liberty", address: "Liberty Island, New York, NY" },
-    { name: "Central Park", address: "New York, NY" },
-    { name: "Times Square", address: "Manhattan, New York, NY" },
-  ],
-  bangkok: [
-    { name: "Grand Palace", address: "Na Phra Lan Rd, Phra Nakhon, Bangkok" },
-    { name: "Wat Arun", address: "158 Thanon Wang Doem, Bangkok" },
-    {
-      name: "Chatuchak Market",
-      address: "Kamphaeng Phet 2 Rd, Chatuchak, Bangkok",
-    },
-  ],
-  "ho-chi-minh-city": [
-    {
-      name: "War Remnants Museum",
-      address: "28 Võ Văn Tần, Phường 6, Quận 3, Ho Chi Minh City",
-    },
-    {
-      name: "Ben Thanh Market",
-      address: "Ben Thanh, District 1, Ho Chi Minh City",
-    },
-    {
-      name: "Notre-Dame Cathedral Basilica of Saigon",
-      address: "1 Công xã Paris, Bến Nghé, District 1, Ho Chi Minh City",
-    },
-  ],
-  paris: [
-    {
-      name: "Eiffel Tower",
-      address: "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
-    },
-    { name: "Louvre Museum", address: "Rue de Rivoli, 75001 Paris" },
-    {
-      name: "Notre-Dame Cathedral",
-      address: "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris",
-    },
-  ],
-  "quebec-city": [
-    { name: "Old Quebec", address: "Vieux-Québec, Quebec City, QC" },
-    { name: "Château Frontenac", address: "1 Rue des Carrières, Québec" },
-    {
-      name: "Montmorency Falls",
-      address: "5300 Boulevard Sainte-Anne, Quebec City",
-    },
-  ],
-  "rio-de-janeiro": [
-    {
-      name: "Christ the Redeemer",
-      address: "Parque Nacional da Tijuca, Rio de Janeiro",
-    },
-    { name: "Copacabana Beach", address: "Copacabana, Rio de Janeiro" },
-    { name: "Sugarloaf Mountain", address: "Urca, Rio de Janeiro" },
-  ],
-  rome: [
-    { name: "Colosseum", address: "Piazza del Colosseo, 1, 00184 Rome" },
-    { name: "Vatican Museums", address: "Viale Vaticano, 00165 Rome" },
-    { name: "Trevi Fountain", address: "Piazza di Trevi, 00187 Rome" },
-  ],
-  "san-francisco": [
-    {
-      name: "Golden Gate Bridge",
-      address: "Golden Gate Bridge, San Francisco, CA",
-    },
-    { name: "Alcatraz Island", address: "San Francisco, CA 94133" },
-    {
-      name: "Fisherman's Wharf",
-      address: "Fisherman's Wharf, San Francisco, CA",
-    },
-  ],
-  "san-juan": [
-    { name: "Old San Juan", address: "Old San Juan, San Juan, Puerto Rico" },
-    {
-      name: "Castillo San Felipe del Morro",
-      address: "1 Calle Norzagaray, San Juan",
-    },
-    { name: "Condado Beach", address: "Condado, San Juan, Puerto Rico" },
-  ],
-  seattle: [
-    { name: "Space Needle", address: "400 Broad St, Seattle, WA" },
-    { name: "Pike Place Market", address: "85 Pike St, Seattle, WA" },
-    {
-      name: "Chihuly Garden and Glass",
-      address: "305 Harrison St, Seattle, WA",
-    },
-  ],
-  shanghai: [
-    { name: "The Bund", address: "Zhongshan East 1st Rd, Shanghai" },
-    { name: "Yu Garden", address: "218 Anren St, Shanghai" },
-    { name: "Shanghai Tower", address: "501 Yincheng Middle Rd, Shanghai" },
-  ],
-  singapore: [
-    { name: "Gardens by the Bay", address: "18 Marina Gardens Dr, Singapore" },
-    { name: "Marina Bay Sands", address: "10 Bayfront Ave, Singapore" },
-    { name: "Sentosa Island", address: "Sentosa, Singapore" },
-  ],
-  southampton: [
-    { name: "SeaCity Museum", address: "Burgess Rd, Southampton SO14 7NY" },
-    {
-      name: "Tudor House and Garden",
-      address: "Burgess St, Southampton SO14 7NY",
-    },
-    {
-      name: "Mayflower Theatre",
-      address: "Cumberland Pl, Southampton SO15 2SA",
-    },
-  ],
-  sydney: [
-    { name: "Sydney Opera House", address: "Bennelong Point, Sydney NSW 2000" },
-    {
-      name: "Sydney Harbour Bridge",
-      address: "Sydney Harbour Bridge, Sydney NSW",
-    },
-    { name: "Bondi Beach", address: "Bondi Beach, Sydney NSW" },
-  ],
-  tampa: [
-    {
-      name: "Busch Gardens Tampa Bay",
-      address: "10165 N McKinley Dr, Tampa, FL",
-    },
-    { name: "Tampa Riverwalk", address: "Tampa, FL" },
-    { name: "Florida Aquarium", address: "701 Channelside Dr, Tampa, FL" },
-  ],
-  tokyo: [
-    {
-      name: "Senso-ji Temple",
-      address: "2 Chome-3-1 Asakusa, Taito City, Tokyo",
-    },
-    {
-      name: "Tokyo Tower",
-      address: "4 Chome-2-8 Shibakoen, Minato City, Tokyo",
-    },
-    { name: "Shibuya Crossing", address: "Shibuya, Tokyo" },
-  ],
-  toronto: [
-    { name: "CN Tower", address: "290 Bremner Blvd, Toronto, ON" },
-    { name: "Royal Ontario Museum", address: "100 Queens Park, Toronto, ON" },
-    { name: "Distillery District", address: "Toronto, ON" },
-  ],
-  vancouver: [
-    { name: "Stanley Park", address: "Vancouver, BC" },
-    { name: "Granville Island", address: "Granville Island, Vancouver, BC" },
-    {
-      name: "Capilano Suspension Bridge",
-      address: "3735 Capilano Rd, North Vancouver, BC",
-    },
-  ],
-  venice: [
-    { name: "St. Mark's Basilica", address: "Piazza San Marco, Venice" },
-    { name: "Grand Canal", address: "Venice" },
-    { name: "Doge's Palace", address: "Piazza San Marco, Venice" },
-  ],
-  washington_dc: [
-    { name: "National Mall", address: "Washington, DC" },
-    { name: "Smithsonian Museums", address: "Washington, DC" },
-    {
-      name: "Lincoln Memorial",
-      address: "2 Lincoln Memorial Cir NW, Washington, DC",
-    },
-  ],
-  zurich: [
-    { name: "Old Town (Altstadt)", address: "Zurich" },
-    { name: "Lake Zurich", address: "Zurich" },
-    { name: "Swiss National Museum", address: "Museumstrasse 2, Zurich" },
-  ],
-};
-
-export { cityAttractions as attractionAddresses };
