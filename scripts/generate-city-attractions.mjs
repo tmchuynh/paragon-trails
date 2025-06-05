@@ -96,7 +96,6 @@ const attractionTypes = [
   "Zoo",
 ];
 
-// Replace possibleTags array with values from AttractionTags
 const possibleTags = [
   "Landmark",
   "Historical Site",
@@ -105,17 +104,14 @@ const possibleTags = [
   "Park",
   "Garden",
   "Market",
-  "Cultural Center",
-  "Religious Site",
+  "Local Market",
   "Monument",
+  "Religious Site",
   "Scenic Spot",
-  "City View",
-  "Shopping",
-  "Luxury",
-  "Romantic",
-  "Family Friendly",
-  "Free Entry",
+  "Cultural Center",
+  "UNESCO Site",
   "Hidden Gem",
+  "Photography Spot",
   "Iconic",
 ];
 
@@ -176,7 +172,7 @@ function generateAttraction(cityName) {
     else entryFeeCategory = "luxury";
   }
 
-  // Generate tags from valid AttractionTags values
+  // Generate tags
   const numTags = Math.floor(Math.random() * 3) + 1;
   const tags = Array.from(
     new Set(
@@ -203,6 +199,11 @@ function generateAttraction(cityName) {
     )
   );
 
+  // Set accessibility-dependent property
+  const isWheelchairAccessible = accessibilityFeatures.some((f) =>
+    f.includes("wheelchair")
+  );
+
   // Generate random time of day
   const timesOfDay = ["all day", "daytime", "evening", "night"];
   const timeOfDay = timesOfDay[Math.floor(Math.random() * timesOfDay.length)];
@@ -218,27 +219,21 @@ function generateAttraction(cityName) {
   const hours = ["9 AM - 5 PM", "10 AM - 6 PM", "Open 24 hours"][
     Math.floor(Math.random() * 3)
   ];
-  const rating = parseFloat((4.2 + Math.random() * 0.8).toFixed(1));
 
-  // Create flags that match the Flags interface
-  const flags = {
-    isHistorical: Math.random() < 0.4,
-    isRomantic: Math.random() < 0.3,
-    isAdventure: Math.random() < 0.25,
-    isCulinary: Math.random() < 0.2,
-    isSpiritual: Math.random() < 0.15,
-    isNightlife: Math.random() < 0.2,
-    isLuxury: priceCategory === "luxury",
-    isArtOrMusic: Math.random() < 0.3,
-    isFree: priceRange === "free",
-    isPopular: Math.random() < 0.5,
-    isPetFriendly: Math.random() < 0.5,
-    isWheelchairAccessible: accessibilityFeatures.some((f) =>
-      f.includes("wheelchair")
-    ),
-  };
+  // Set flags according to the Flags interface
+  const isFree = priceRange === "free";
+  const isHistorical = Math.random() < 0.4;
+  const isRomantic = Math.random() < 0.3;
+  const isAdventure = Math.random() < 0.25;
+  const isCulinary = Math.random() < 0.2;
+  const isSpiritual = Math.random() < 0.15;
+  const isNightlife = timeOfDay === "night" || Math.random() < 0.2;
+  const isLuxury = priceCategory === "luxury";
+  const isArtOrMusic = Math.random() < 0.3;
+  const isPopular = true;
+  const isPetFriendly = Math.random() < 0.5;
 
-  // Create the attraction object matching the interface structure
+  // Create attraction object according to BaseAttraction & Flags & Details
   return {
     // BaseAttraction properties
     title,
@@ -255,16 +250,23 @@ function generateAttraction(cityName) {
     priceRange,
     priceCategory,
     timeOfDay,
-    rating,
+    rating: parseFloat((4.2 + Math.random() * 0.8).toFixed(1)),
     tags,
     accessibilityFeatures,
 
     // Flags properties
-    ...flags,
-
-    // Details properties (already included in BaseAttraction)
-    // title and description are already set above
-    // rating is already set above
+    isHistorical,
+    isRomantic,
+    isAdventure,
+    isCulinary,
+    isSpiritual,
+    isNightlife,
+    isLuxury,
+    isArtOrMusic,
+    isFree,
+    isPopular,
+    isPetFriendly,
+    isWheelchairAccessible,
   };
 }
 
