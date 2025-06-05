@@ -7,10 +7,10 @@
  * accessibility features, and other relevant details for each city in the application.
  *
  * Features:
- * - Generates 9-19 attractions per city by default
+ * - Uses real attraction data from attraction-utils.mjs
  * - Creates appropriate folder structure in src/lib/constants/destinations/city
  * - Supports price filtering with custom price ranges
- * - Generates diverse attraction types with relevant tags and features
+ * - Generates files with diverse attraction types
  * - Uses realistic pricing, ratings, and accessibility information
  *
  * Usage: node scripts/generate-city-attractions.mjs [options]
@@ -22,16 +22,17 @@
  *   --city C, -c C      Process only cities matching the search term
  *
  * Examples:
- *   node generate-city-attractions.mjs --rewrite
- *   node generate-city-attractions.mjs --append 5
- *   node generate-city-attractions.mjs --price "$$$"
- *   node generate-city-attractions.mjs --city "Tokyo" --append 3
+ *   node scripts/generate-city-attractions.mjs --rewrite
+ *   node scripts/generate-city-attractions.mjs --append 5
+ *   node scripts/generate-city-attractions.mjs --price "$$$"
+ *   node scripts/generate-city-attractions.mjs --city "Tokyo" --append 3
  */
 
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
+import { generateCityTitle } from "./utils/data-generator.mjs";
 import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
@@ -42,14 +43,12 @@ import {
   cityToRegionMap,
   formatCamelCaseToTitle,
 } from "./utils/geo-utils.mjs";
-
-const cities = getCityFiles();
-
-// Add check for empty cities array
-if (!cities || cities.length === 0) {
-  console.error("No cities found. Check the city-data.json file.");
-  process.exit(1);
-}
+import {
+  attractionBasicInfo,
+  attractionDetails,
+  attractionAddresses,
+  cityAttractions,
+} from "./utils/attraction-utils.mjs";
 
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
@@ -57,6 +56,39 @@ const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
 const mkdir = promisify(fs.mkdir);
 const access = promisify(fs.access);
+
+// Helper function to normalize city names between different formats
+function normalizeCityName(cityName) {
+  // Convert kebab-case to snake_case
+  if (cityName.includes("-")) {
+    return cityName.replace(/-/g, "_");
+  }
+  return cityName;
+}
+
+// Get a list of all unique cities from all data sources
+function getAllCities() {
+  const allCities = new Set();
+
+  // Add cities from attractionBasicInfo
+  Object.keys(attractionBasicInfo).forEach((city) => allCities.add(city));
+
+  // Add cities from cityAttractions but normalize format
+  Object.keys(cityAttractions).forEach((city) => {
+    allCities.add(normalizeCityName(city));
+  });
+
+  return Array.from(allCities);
+}
+
+// Use all available cities
+const cities = getAllCities();
+
+// Add check for empty cities array
+if (!cities || cities.length === 0) {
+  console.error("No cities found in attraction data.");
+  process.exit(1);
+}
 
 // Parse command line arguments
 function parseCommandLineArgs() {
@@ -99,53 +131,195 @@ function parseCommandLineArgs() {
 
 const options = parseCommandLineArgs();
 
-// Various attraction components
-const attractionTypes = [
-  "Museum",
-  "Park",
-  "Monument",
-  "Cathedral",
-  "Castle",
-  "Palace",
-  "Market",
-  "Square",
-  "Bridge",
-  "Tower",
-  "Garden",
-  "Temple",
-  "Gallery",
-  "Zoo",
-];
+// Function to get attraction data for a city
+function getCityAttractionData(cityName) {
+  const normalizedName = normalizeCityName(cityName);
 
-const possibleTags = [
-  "Landmark",
-  "Historical Site",
-  "Museum",
-  "Gallery",
-  "Park",
-  "Garden",
-  "Market",
-  "Local Market",
-  "Monument",
-  "Religious Site",
-  "Scenic Spot",
-  "Cultural Center",
-  "UNESCO Site",
-  "Hidden Gem",
-  "Photography Spot",
-  "Iconic",
-];
+  // Try to find detailed data with both formats
+  const basicInfoData = attractionBasicInfo[normalizedName] || attractionBasicInfo[cityName];
+  const detailsData = attractionDetails[normalizedName] || attractionDetails[cityName];
 
-const accessibilityOptions = [
-  "wheelchair accessible",
-  "limited accessibility",
-  "accessible restrooms",
-  "elevator access",
-  "accessible entrance",
-];
+  // Check if we have simple attraction data
+  const simpleData = cityAttractions[cityName] || cityAttractions[normalizedName];
 
-// Generate an attraction with all required properties
-function generateAttraction(cityName) {
+  return {
+    basicInfo: basicInfoData,
+    details: detailsData,
+    simple: simpleData,
+  };
+}
+
+// Function to convert attraction data to the expected format
+function convertAttractionData(cityName, attractionName) {
+  const normalizedName = normalizeCityName(cityName);
+  const basicInfo = attractionBasicInfo[normalizedName]?.[attractionName];
+  const details = attractionDetails[normalizedName]?.[attractionName];
+
+  if (!basicInfo || !details) {
+    console.warn(`Missing detailed data for ${attractionName} in ${cityName}`);
+    return null;
+  }
+
+  // Combine data from both sources
+  return {
+    // BaseAttraction properties
+    title: basicInfo.title,
+    description: details.description,
+    imageUrl: basicInfo.imageUrl,
+    location: basicInfo.location,
+    openingHours: details.openingHours,
+    entryFee: details.entryFee || "Free",
+    entryFeeCategory: details.entryFeeCategory,
+    priceRange: details.priceRange,
+    priceCategory: details.priceCategory,
+    timeOfDay: details.timeOfDay,
+    rating: details.rating,
+    tags: basicInfo.tags.map((tag) => {
+      // Convert simple tags to display format (capitalize first letter)
+      return tag.charAt(0).toUpperCase() + tag.slice(1);
+    }),
+    accessibilityFeatures: details.accessibilityFeatures || [],
+
+    // Flags properties - using the values from details if available
+    isHistorical: details.isHistorical || false,
+    isRomantic: details.isRomantic || false,
+    isAdventure: details.isAdventure || false,
+    isCulinary: details.isCulinary || false,
+    isSpiritual: details.isSpiritual || false,
+    isNightlife: details.isNightlife || false,
+    isLuxury: details.isLuxury || false,
+    isArtOrMusic: details.isArtOrMusic || false,
+    isFree: details.isFree || details.priceCategory === "free" || false,
+    isPopular: details.isPopular || basicInfo.isPopular || false,
+    isPetFriendly: details.isPetFriendly || false,
+    isWheelchairAccessible: details.isWheelchairAccessible || false,
+  };
+}
+
+// Convert simple attraction data to the expected format
+function convertSimpleAttractionData(cityName, attraction) {
+  if (!attraction || !attraction.name) {
+    return null;
+  }
+
+  // Generate random characteristics for missing data
+  const priceRanges = ["$", "$$", "$$$"];
+  const timeOfDay = ["all day", "daytime", "evening"];
+
+  // Try to get an address from attractionAddresses
+  const normalizedName = normalizeCityName(cityName);
+  const addressData = attractionAddresses[normalizedName] || attractionAddresses[cityName];
+
+  // Default values
+  const defaultTags = ["Popular", "Landmark"];
+
+  return {
+    title: attraction.name,
+    description: `A must-visit attraction in ${formatCamelCaseToTitle(cityName)}.`,
+    imageUrl: `https://images.unsplash.com/photo-${cityName.toLowerCase().replace(/_/g, "-")}-${attraction.name.toLowerCase().replace(/\s+/g, "-")}`,
+    location: attraction.address || `${cityName}`,
+    openingHours: "9:00 AM - 5:00 PM",
+    entryFee: "Contact for details",
+    entryFeeCategory: "moderate",
+    priceRange: priceRanges[Math.floor(Math.random() * priceRanges.length)],
+    priceCategory: "moderate",
+    timeOfDay: timeOfDay[Math.floor(Math.random() * timeOfDay.length)],
+    rating: parseFloat((4.2 + Math.random() * 0.7).toFixed(1)),
+    tags: defaultTags,
+    accessibilityFeatures: [],
+    isHistorical: true,
+    isRomantic: false,
+    isAdventure: false,
+    isCulinary: false,
+    isSpiritual: false,
+    isNightlife: false,
+    isLuxury: false,
+    isArtOrMusic: false,
+    isFree: false,
+    isPopular: true,
+    isPetFriendly: false,
+    isWheelchairAccessible: false,
+  };
+}
+
+// Generate an attraction - fallback to original generator if no data exists
+function generateAttraction(cityName, attractionName = null) {
+  // If we have a specific attraction name, try to use the real data
+  const normalizedName = normalizeCityName(cityName);
+
+  if (attractionName) {
+    // Try to get detailed data
+    if (
+      attractionBasicInfo[normalizedName]?.[attractionName] ||
+      attractionBasicInfo[cityName]?.[attractionName]
+    ) {
+      const convertedAttraction = convertAttractionData(
+        cityName,
+        attractionName
+      );
+      if (convertedAttraction) return convertedAttraction;
+    }
+
+    // Try to use simple data if available
+    const simpleData =
+      cityAttractions[normalizedName] || cityAttractions[cityName];
+    if (simpleData) {
+      const attraction = simpleData.find((a) => a.name === attractionName);
+      if (attraction) {
+        const simpleAttraction = convertSimpleAttractionData(
+          cityName,
+          attraction
+        );
+        if (simpleAttraction) return simpleAttraction;
+      }
+    }
+  }
+
+  // Various attraction components for fallback generation
+  const attractionTypes = [
+    "Museum",
+    "Park",
+    "Monument",
+    "Cathedral",
+    "Castle",
+    "Palace",
+    "Market",
+    "Square",
+    "Bridge",
+    "Tower",
+    "Garden",
+    "Temple",
+    "Gallery",
+    "Zoo",
+  ];
+
+  const possibleTags = [
+    "Landmark",
+    "Historical Site",
+    "Museum",
+    "Gallery",
+    "Park",
+    "Garden",
+    "Market",
+    "Local Market",
+    "Monument",
+    "Religious Site",
+    "Scenic Spot",
+    "Cultural Center",
+    "UNESCO Site",
+    "Hidden Gem",
+    "Photography Spot",
+    "Iconic",
+  ];
+
+  const accessibilityOptions = [
+    "wheelchair accessible",
+    "limited accessibility",
+    "accessible restrooms",
+    "elevator access",
+    "accessible entrance",
+  ];
+
   // Generate random price range and set dependent properties
   const priceRanges = ["$", "$$", "$$$", "$$$$", "free"];
 
@@ -200,9 +374,9 @@ function generateAttraction(cityName) {
       Array(numTags)
         .fill(0)
         .map(
-          () => possibleTags[Math.floor(Math.random() * possibleTags.length)],
-        ),
-    ),
+          () => possibleTags[Math.floor(Math.random() * possibleTags.length)]
+        )
+    )
   );
 
   // Generate accessibility features
@@ -215,14 +389,14 @@ function generateAttraction(cityName) {
           () =>
             accessibilityOptions[
               Math.floor(Math.random() * accessibilityOptions.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Set accessibility-dependent property
   const isWheelchairAccessible = accessibilityFeatures.some((f) =>
-    f.includes("wheelchair"),
+    f.includes("wheelchair")
   );
 
   // Generate random time of day
@@ -232,8 +406,11 @@ function generateAttraction(cityName) {
   // Generate attraction details
   const attractionType =
     attractionTypes[Math.floor(Math.random() * attractionTypes.length)];
-  const title = `${formatCamelCaseToTitle(cityName)} ${attractionType}`;
-  const description = `A beautiful ${attractionType.toLowerCase()} in ${formatCamelCaseToTitle(cityName)} offering visitors a unique cultural experience and stunning views.`;
+
+  const title = attractionName || generateCityTitle(cityName);
+  const description = `A beautiful ${attractionType.toLowerCase()} in ${formatCamelCaseToTitle(
+    cityName
+  )} offering visitors a unique cultural experience and stunning views.`;
   const location = `${
     Math.floor(Math.random() * 200) + 1
   } Main Street, ${formatCamelCaseToTitle(cityName)}`;
@@ -259,9 +436,9 @@ function generateAttraction(cityName) {
     // BaseAttraction properties
     title,
     description,
-    imageUrl: `https://plus.unsplash.com/${cityName
+    imageUrl: `https://images.unsplash.com/${cityName
       .toLowerCase()
-      .replace(/\s+/g, "-")}-${attractionType
+      .replace(/[_\s]+/g, "-")}-${attractionType
       .toLowerCase()
       .replace(/\s+/g, "-")}.jpg`,
     location,
@@ -319,7 +496,7 @@ async function extractExistingAttractions(filePath) {
 
     // Extract the array part using a simple regex approach
     const match = content.match(
-      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/,
+      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/
     );
     if (!match || !match[1]) return [];
 
@@ -367,13 +544,17 @@ async function extractExistingAttractions(filePath) {
 
 // Generate attractions and write to file
 async function generateCityFile(city) {
+  const normalizedCity = normalizeCityName(city);
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
 
   const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
 
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  // Format name properly for kebab-case
+  const formattedName = formatKebabToCamelCase(
+    removeAccents(city.replace(/_/g, "-"))
+  );
 
   const variableName = `${formattedName}${formattedCountry}${formattedRegion}Attractions`;
 
@@ -383,7 +564,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "destinations",
-    "city",
+    "city"
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -403,21 +584,70 @@ async function generateCityFile(city) {
       attractions = await extractExistingAttractions(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
   }
 
-  // Generate attractions
-  const numNewAttractions =
-    options.append || Math.floor(Math.random() * 10) + 9;
-  const newAttractions = Array(numNewAttractions)
-    .fill(0)
-    .map(() => generateAttraction(city));
+  // Get all available data sources for this city
+  const cityData = getCityAttractionData(city);
 
-  // Combine existing and new attractions
-  attractions = attractions.concat(newAttractions);
+  // Use real attraction data if available from any source
+  if (cityData.basicInfo && cityData.details) {
+    // We have detailed attraction data
+    const attractionNames = Object.keys(cityData.basicInfo);
+    console.log(
+      `Found ${attractionNames.length} detailed attractions for ${city}`
+    );
+
+    // Convert all real attractions to the expected format
+    const realAttractions = [];
+    for (const name of attractionNames) {
+      const attraction = convertAttractionData(city, name);
+      if (attraction) realAttractions.push(attraction);
+    }
+
+    // Append attractions
+    attractions = attractions.concat(realAttractions);
+  } else if (cityData.simple) {
+    // We have simple attraction data
+    console.log(
+      `Found ${cityData.simple.length} simple attractions for ${city}`
+    );
+
+    const simpleAttractions = [];
+    for (const attr of cityData.simple) {
+      const attraction = convertSimpleAttractionData(city, attr);
+      if (attraction) simpleAttractions.push(attraction);
+    }
+
+    // Append attractions
+    attractions = attractions.concat(simpleAttractions);
+  } else {
+    // No real data, generate random attractions
+    console.log(
+      `No attraction data found for ${city}, generating random attractions`
+    );
+    const numNewAttractions = Math.floor(Math.random() * 7) + 3; // Generate 3-10 random attractions
+    const newAttractions = Array(numNewAttractions)
+      .fill(0)
+      .map(() => generateAttraction(city));
+
+    // Combine existing and new attractions
+    attractions = attractions.concat(newAttractions);
+  }
+
+  // If additional attractions were requested, generate them
+  if (options.append) {
+    const numAdditionalAttractions = options.append;
+    const additionalAttractions = Array(numAdditionalAttractions)
+      .fill(0)
+      .map(() => generateAttraction(city));
+
+    // Add additional attractions
+    attractions = attractions.concat(additionalAttractions);
+  }
 
   // Create file content with proper formatting
   let content = `import { Attraction } from "@/lib/interfaces/services/attractions";\n\n`;
@@ -427,7 +657,9 @@ async function generateCityFile(city) {
     content += `  {\n`;
     for (const [key, value] of Object.entries(attraction)) {
       if (typeof value === "string") {
-        content += `    ${key}: "${value}",\n`;
+        // Escape quotes in string values
+        const escapedValue = value.replace(/"/g, '\\"');
+        content += `    ${key}: "${escapedValue}",\n`;
       } else if (Array.isArray(value)) {
         content += `    ${key}: [${value
           .map((item) => `"${item}"`)
@@ -444,7 +676,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${attractions.length} attractions`
   );
 }
 
@@ -455,8 +687,10 @@ async function generateAllCityFiles() {
   // Filter by city name if specified
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
-    citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower),
+    citiesToProcess = cities.filter(
+      (city) =>
+        city.toLowerCase().includes(filterLower) ||
+        city.toLowerCase().replace(/_/g, "-").includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -465,7 +699,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
   }
 
@@ -482,12 +716,12 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City attraction files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city attraction files:", error),
+    console.error("Error generating city attraction files:", error)
   );
 
 // Print usage information
 console.log(`
-Usage: node generate-city-attractions.mjs [options]
+Usage: node scripts/generate-city-attractions.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -496,8 +730,8 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-city-attractions.mjs --rewrite
-  node generate-city-attractions.mjs --append 5
-  node generate-city-attractions.mjs --price "$$$"
-  node generate-city-attractions.mjs --city "Tokyo" --append 3
+  node scripts/generate-city-attractions.mjs --rewrite
+  node scripts/generate-city-attractions.mjs --append 5
+  node scripts/generate-city-attractions.mjs --price "$$$"
+  node scripts/generate-city-attractions.mjs --city "Tokyo" --append 3
 `);
