@@ -1,5 +1,6 @@
-import { CityAttractions } from "@/lib/interfaces/services/attractions";
-export const cityattractions: CityAttractions[] = [
+import { City } from "../../interfaces/general";
+
+export const cities: City[] = [
   {
     city: "Amalfi Coast",
     country: "Italy",
@@ -1261,3 +1262,15 @@ export const cityattractions: CityAttractions[] = [
       "In the island where the sun kisses the sea and the spices scent the air, we found a paradise of stunning beauty and vibrant culture, our spirits lifted by the warmth and hospitality of the Zanzibar people.",
   },
 ];
+
+// Convert city names to camel case format
+export const cityCamelCaseNames = cities.map((item) => {
+  // Handle city names with special characters and spaces
+  return item.city
+    .replace(/[^\w\s]/g, "") // Remove special characters
+    .replace(/\s+(.)/g, (_, c) => c.toUpperCase()) // Convert spaces followed by character to uppercase character
+    .replace(/^(.)/, (_, c) => c.toLowerCase()); // Make first character lowercase
+});
+
+console.log(cityCamelCaseNames);
+// Example outputs will include: "amalfiCoast", "amsterdam", "newYork", "hoChiMinh", etc.
