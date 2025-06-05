@@ -16,6 +16,7 @@ import {
 import {
   hotelNames,
   streetNames,
+  streetPrefixes,
   streetSuffixes,
 } from "./utils/shared-hotel-data.mjs";
 
@@ -218,31 +219,42 @@ function generateAddress(city, country) {
   const suffixes = streetSuffixes[country] || streetSuffixes["default"];
   const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
 
+  // Get country-specific street names or use default
+  const countryStreetNames = streetNames[country] || streetNames["default"];
+  const streetName =
+    countryStreetNames[Math.floor(Math.random() * countryStreetNames.length)];
+
   // Generate random building number
   const buildingNumber = Math.floor(Math.random() * 300) + 1;
 
-  // Select random street name
-  const streetName =
-    streetNames[Math.floor(Math.random() * streetNames.length)];
+  // Add street prefix with 40% probability
+  const prefixes = streetPrefixes[country] || streetPrefixes["default"];
+  const usePrefix = Math.random() < 0.4;
+  const prefix = usePrefix
+    ? `${prefixes[Math.floor(Math.random() * prefixes.length)]} `
+    : "";
 
   // For some countries, building number comes after street name
   if (["Japan", "China", "South Korea"].includes(country)) {
-    return `${streetName} ${suffix} ${buildingNumber}`;
+    return `${prefix}${streetName} ${suffix} ${buildingNumber}`;
   }
 
   // For most countries, building number comes first
-  return `${buildingNumber} ${streetName} ${suffix}`;
+  return `${buildingNumber} ${prefix}${streetName} ${suffix}`;
 }
 
 // Generate a hotel with all required properties
 function generateHotel(city, index) {
-  const hotelName = `${hotelNames[Math.floor(Math.random() * hotelNames.length)]}`;
+  // Get country for this city
+  const country = cityCountryMap[city] || "";
+
+  // Get country-specific hotel names or use default
+  const countryHotelNames = hotelNames[country] || hotelNames["default"];
+  const hotelName = `${countryHotelNames[Math.floor(Math.random() * countryHotelNames.length)]}`;
+
   const rating = Math.floor(Math.random() * 2) + 3; // 3-5 stars
   const accommodationType =
     accommodationTypes[Math.floor(Math.random() * accommodationTypes.length)];
-
-  // Get country for this city
-  const country = cityCountryMap[city] || "";
 
   // Generate address
   const address = generateAddress(city, country);
