@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   {
     title: "amsterdam Market",
-    description: "A beautiful market in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-market.jpg",
     location: "16 Main Street, amsterdam",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Bridge",
-    description: "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-bridge.jpg",
     location: "186 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Gallery",
-    description: "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-gallery.jpg",
     location: "77 Main Street, amsterdam",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Bridge",
-    description: "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-bridge.jpg",
     location: "138 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Tower",
-    description: "A beautiful tower in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-tower.jpg",
     location: "193 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Zoo",
-    description: "A beautiful zoo in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-zoo.jpg",
     location: "74 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Square",
-    description: "A beautiful square in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-square.jpg",
     location: "161 Main Street, amsterdam",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Gallery",
-    description: "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-gallery.jpg",
     location: "133 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Tower",
-    description: "A beautiful tower in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-tower.jpg",
     location: "128 Main Street, amsterdam",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Gallery",
-    description: "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-gallery.jpg",
     location: "34 Main Street, amsterdam",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Park",
-    description: "A beautiful park in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-park.jpg",
     location: "52 Main Street, amsterdam",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Market",
-    description: "A beautiful market in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-market.jpg",
     location: "84 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Bridge",
-    description: "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-bridge.jpg",
     location: "4 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "amsterdam Temple",
-    description: "A beautiful temple in amsterdam offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in amsterdam offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/amsterdam-temple.jpg",
     location: "12 Main Street, amsterdam",
     openingHours: "10 AM - 6 PM",
@@ -378,5 +392,5 @@ export const amsterdamnetherlandsnorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

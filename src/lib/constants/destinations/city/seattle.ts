@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   {
     title: "seattle Square",
-    description: "A beautiful square in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-square.jpg",
     location: "106 Main Street, seattle",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Cathedral",
-    description: "A beautiful cathedral in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-cathedral.jpg",
     location: "74 Main Street, seattle",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Garden",
-    description: "A beautiful garden in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-garden.jpg",
     location: "80 Main Street, seattle",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Garden",
-    description: "A beautiful garden in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-garden.jpg",
     location: "96 Main Street, seattle",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Gallery",
-    description: "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-gallery.jpg",
     location: "16 Main Street, seattle",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Cathedral",
-    description: "A beautiful cathedral in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-cathedral.jpg",
     location: "46 Main Street, seattle",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Bridge",
-    description: "A beautiful bridge in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-bridge.jpg",
     location: "59 Main Street, seattle",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Gallery",
-    description: "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-gallery.jpg",
     location: "192 Main Street, seattle",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Gallery",
-    description: "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-gallery.jpg",
     location: "103 Main Street, seattle",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Park",
-    description: "A beautiful park in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-park.jpg",
     location: "33 Main Street, seattle",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Market",
-    description: "A beautiful market in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-market.jpg",
     location: "12 Main Street, seattle",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Zoo",
-    description: "A beautiful zoo in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-zoo.jpg",
     location: "191 Main Street, seattle",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Temple",
-    description: "A beautiful temple in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-temple.jpg",
     location: "191 Main Street, seattle",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Museum",
-    description: "A beautiful museum in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-museum.jpg",
     location: "104 Main Street, seattle",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
   },
   {
     title: "seattle Gallery",
-    description: "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in seattle offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/seattle-gallery.jpg",
     location: "73 Main Street, seattle",
     openingHours: "10 AM - 6 PM",
@@ -405,5 +420,5 @@ export const seattleunitedStatesalaskaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

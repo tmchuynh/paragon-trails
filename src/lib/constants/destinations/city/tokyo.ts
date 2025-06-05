@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const tokyojapanasiaPacificAttractions: Attraction[] = [
   {
     title: "tokyo Park",
-    description: "A beautiful park in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-park.jpg",
     location: "17 Main Street, tokyo",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Cathedral",
-    description: "A beautiful cathedral in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-cathedral.jpg",
     location: "167 Main Street, tokyo",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Cathedral",
-    description: "A beautiful cathedral in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-cathedral.jpg",
     location: "196 Main Street, tokyo",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Tower",
-    description: "A beautiful tower in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-tower.jpg",
     location: "24 Main Street, tokyo",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Palace",
-    description: "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-palace.jpg",
     location: "91 Main Street, tokyo",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Castle",
-    description: "A beautiful castle in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-castle.jpg",
     location: "68 Main Street, tokyo",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Palace",
-    description: "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-palace.jpg",
     location: "100 Main Street, tokyo",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Palace",
-    description: "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-palace.jpg",
     location: "62 Main Street, tokyo",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Gallery",
-    description: "A beautiful gallery in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-gallery.jpg",
     location: "61 Main Street, tokyo",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Zoo",
-    description: "A beautiful zoo in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-zoo.jpg",
     location: "150 Main Street, tokyo",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "tokyo Castle",
-    description: "A beautiful castle in tokyo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in tokyo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tokyo-castle.jpg",
     location: "147 Main Street, tokyo",
     openingHours: "Open 24 hours",
@@ -297,5 +308,5 @@ export const tokyojapanasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

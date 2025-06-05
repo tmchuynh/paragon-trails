@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   {
     title: "berlin Museum",
-    description: "A beautiful museum in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-museum.jpg",
     location: "190 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Market",
-    description: "A beautiful market in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-market.jpg",
     location: "167 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Gallery",
-    description: "A beautiful gallery in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-gallery.jpg",
     location: "98 Main Street, berlin",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Temple",
-    description: "A beautiful temple in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-temple.jpg",
     location: "48 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Park",
-    description: "A beautiful park in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-park.jpg",
     location: "94 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Castle",
-    description: "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-castle.jpg",
     location: "37 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Zoo",
-    description: "A beautiful zoo in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-zoo.jpg",
     location: "156 Main Street, berlin",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Monument",
-    description: "A beautiful monument in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-monument.jpg",
     location: "123 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Garden",
-    description: "A beautiful garden in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-garden.jpg",
     location: "123 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Market",
-    description: "A beautiful market in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-market.jpg",
     location: "184 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Square",
-    description: "A beautiful square in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-square.jpg",
     location: "82 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Castle",
-    description: "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-castle.jpg",
     location: "156 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Museum",
-    description: "A beautiful museum in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-museum.jpg",
     location: "136 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Garden",
-    description: "A beautiful garden in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-garden.jpg",
     location: "196 Main Street, berlin",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Castle",
-    description: "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-castle.jpg",
     location: "140 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Temple",
-    description: "A beautiful temple in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-temple.jpg",
     location: "57 Main Street, berlin",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "berlin Gallery",
-    description: "A beautiful gallery in berlin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in berlin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/berlin-gallery.jpg",
     location: "138 Main Street, berlin",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const berlingermanynorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

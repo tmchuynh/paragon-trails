@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   {
     title: "yokohama Palace",
-    description: "A beautiful palace in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-palace.jpg",
     location: "100 Main Street, yokohama",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Museum",
-    description: "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-museum.jpg",
     location: "122 Main Street, yokohama",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Museum",
-    description: "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-museum.jpg",
     location: "184 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Cathedral",
-    description: "A beautiful cathedral in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-cathedral.jpg",
     location: "182 Main Street, yokohama",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Tower",
-    description: "A beautiful tower in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-tower.jpg",
     location: "115 Main Street, yokohama",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Tower",
-    description: "A beautiful tower in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-tower.jpg",
     location: "26 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Museum",
-    description: "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-museum.jpg",
     location: "82 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Market",
-    description: "A beautiful market in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-market.jpg",
     location: "49 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Palace",
-    description: "A beautiful palace in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-palace.jpg",
     location: "139 Main Street, yokohama",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Monument",
-    description: "A beautiful monument in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-monument.jpg",
     location: "46 Main Street, yokohama",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Museum",
-    description: "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-museum.jpg",
     location: "72 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Square",
-    description: "A beautiful square in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-square.jpg",
     location: "9 Main Street, yokohama",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "yokohama Museum",
-    description: "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in yokohama offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/yokohama-museum.jpg",
     location: "147 Main Street, yokohama",
     openingHours: "10 AM - 6 PM",
@@ -351,5 +364,5 @@ export const yokohamajapanasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

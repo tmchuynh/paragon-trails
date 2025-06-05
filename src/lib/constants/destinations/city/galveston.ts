@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   {
     title: "galveston Market",
-    description: "A beautiful market in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-market.jpg",
     location: "80 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Palace",
-    description: "A beautiful palace in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-palace.jpg",
     location: "164 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Monument",
-    description: "A beautiful monument in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-monument.jpg",
     location: "63 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Park",
-    description: "A beautiful park in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-park.jpg",
     location: "167 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Palace",
-    description: "A beautiful palace in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-palace.jpg",
     location: "137 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Tower",
-    description: "A beautiful tower in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-tower.jpg",
     location: "191 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Temple",
-    description: "A beautiful temple in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-temple.jpg",
     location: "20 Main Street, galveston",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Gallery",
-    description: "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-gallery.jpg",
     location: "49 Main Street, galveston",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Park",
-    description: "A beautiful park in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-park.jpg",
     location: "9 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Gallery",
-    description: "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-gallery.jpg",
     location: "131 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Gallery",
-    description: "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-gallery.jpg",
     location: "162 Main Street, galveston",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Castle",
-    description: "A beautiful castle in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-castle.jpg",
     location: "55 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Garden",
-    description: "A beautiful garden in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-garden.jpg",
     location: "75 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Castle",
-    description: "A beautiful castle in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-castle.jpg",
     location: "119 Main Street, galveston",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Gallery",
-    description: "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-gallery.jpg",
     location: "168 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Square",
-    description: "A beautiful square in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-square.jpg",
     location: "118 Main Street, galveston",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "galveston Temple",
-    description: "A beautiful temple in galveston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in galveston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/galveston-temple.jpg",
     location: "51 Main Street, galveston",
     openingHours: "10 AM - 6 PM",
@@ -459,5 +476,5 @@ export const galvestonunitedStatescaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

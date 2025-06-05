@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   {
     title: "san-juan Tower",
-    description: "A beautiful tower in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-tower.jpg",
     location: "129 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Zoo",
-    description: "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-zoo.jpg",
     location: "116 Main Street, san-juan",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Cathedral",
-    description: "A beautiful cathedral in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-cathedral.jpg",
     location: "57 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Bridge",
-    description: "A beautiful bridge in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-bridge.jpg",
     location: "14 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Palace",
-    description: "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-palace.jpg",
     location: "135 Main Street, san-juan",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Museum",
-    description: "A beautiful museum in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-museum.jpg",
     location: "121 Main Street, san-juan",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Gallery",
-    description: "A beautiful gallery in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-gallery.jpg",
     location: "134 Main Street, san-juan",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Palace",
-    description: "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-palace.jpg",
     location: "147 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Zoo",
-    description: "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-zoo.jpg",
     location: "186 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Zoo",
-    description: "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-zoo.jpg",
     location: "170 Main Street, san-juan",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Tower",
-    description: "A beautiful tower in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-tower.jpg",
     location: "24 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Bridge",
-    description: "A beautiful bridge in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-bridge.jpg",
     location: "152 Main Street, san-juan",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Palace",
-    description: "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-palace.jpg",
     location: "195 Main Street, san-juan",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Square",
-    description: "A beautiful square in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-square.jpg",
     location: "52 Main Street, san-juan",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Cathedral",
-    description: "A beautiful cathedral in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-cathedral.jpg",
     location: "74 Main Street, san-juan",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Park",
-    description: "A beautiful park in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-park.jpg",
     location: "170 Main Street, san-juan",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
   },
   {
     title: "san-juan Park",
-    description: "A beautiful park in san-juan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in san-juan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-juan-park.jpg",
     location: "196 Main Street, san-juan",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const sanJuanpuertoRicocaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

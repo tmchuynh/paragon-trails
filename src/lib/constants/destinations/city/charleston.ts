@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   {
     title: "charleston Cathedral",
-    description: "A beautiful cathedral in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-cathedral.jpg",
     location: "186 Main Street, charleston",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Tower",
-    description: "A beautiful tower in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-tower.jpg",
     location: "188 Main Street, charleston",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Bridge",
-    description: "A beautiful bridge in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-bridge.jpg",
     location: "39 Main Street, charleston",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Market",
-    description: "A beautiful market in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-market.jpg",
     location: "196 Main Street, charleston",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Market",
-    description: "A beautiful market in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-market.jpg",
     location: "98 Main Street, charleston",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Monument",
-    description: "A beautiful monument in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-monument.jpg",
     location: "157 Main Street, charleston",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Temple",
-    description: "A beautiful temple in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-temple.jpg",
     location: "195 Main Street, charleston",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Zoo",
-    description: "A beautiful zoo in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-zoo.jpg",
     location: "164 Main Street, charleston",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Park",
-    description: "A beautiful park in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-park.jpg",
     location: "127 Main Street, charleston",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Bridge",
-    description: "A beautiful bridge in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-bridge.jpg",
     location: "163 Main Street, charleston",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Museum",
-    description: "A beautiful museum in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-museum.jpg",
     location: "195 Main Street, charleston",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "charleston Zoo",
-    description: "A beautiful zoo in charleston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in charleston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/charleston-zoo.jpg",
     location: "121 Main Street, charleston",
     openingHours: "9 AM - 5 PM",
@@ -324,5 +336,5 @@ export const charlestonunitedStateseastCoastUsaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

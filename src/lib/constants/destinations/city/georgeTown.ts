@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const georgeTownAttractions: Attraction[] = [
   {
     title: "george-town Museum",
-    description: "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-museum.jpg",
     location: "36 Main Street, george-town",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Monument",
-    description: "A beautiful monument in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-monument.jpg",
     location: "118 Main Street, george-town",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Castle",
-    description: "A beautiful castle in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-castle.jpg",
     location: "49 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Garden",
-    description: "A beautiful garden in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-garden.jpg",
     location: "125 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Museum",
-    description: "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-museum.jpg",
     location: "194 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Museum",
-    description: "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-museum.jpg",
     location: "44 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Square",
-    description: "A beautiful square in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-square.jpg",
     location: "87 Main Street, george-town",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Garden",
-    description: "A beautiful garden in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-garden.jpg",
     location: "42 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Tower",
-    description: "A beautiful tower in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-tower.jpg",
     location: "89 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Square",
-    description: "A beautiful square in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-square.jpg",
     location: "39 Main Street, george-town",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Gallery",
-    description: "A beautiful gallery in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-gallery.jpg",
     location: "67 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Bridge",
-    description: "A beautiful bridge in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-bridge.jpg",
     location: "88 Main Street, george-town",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const georgeTownAttractions: Attraction[] = [
   },
   {
     title: "george-town Bridge",
-    description: "A beautiful bridge in george-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in george-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/george-town-bridge.jpg",
     location: "95 Main Street, george-town",
     openingHours: "9 AM - 5 PM",
@@ -351,5 +364,5 @@ export const georgeTownAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

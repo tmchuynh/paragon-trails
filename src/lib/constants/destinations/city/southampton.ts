@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   {
     title: "southampton Bridge",
-    description: "A beautiful bridge in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-bridge.jpg",
     location: "30 Main Street, southampton",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Gallery",
-    description: "A beautiful gallery in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-gallery.jpg",
     location: "68 Main Street, southampton",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Temple",
-    description: "A beautiful temple in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-temple.jpg",
     location: "15 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Tower",
-    description: "A beautiful tower in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-tower.jpg",
     location: "107 Main Street, southampton",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Bridge",
-    description: "A beautiful bridge in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-bridge.jpg",
     location: "144 Main Street, southampton",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Garden",
-    description: "A beautiful garden in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-garden.jpg",
     location: "158 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Temple",
-    description: "A beautiful temple in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-temple.jpg",
     location: "124 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Cathedral",
-    description: "A beautiful cathedral in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-cathedral.jpg",
     location: "10 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Museum",
-    description: "A beautiful museum in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-museum.jpg",
     location: "42 Main Street, southampton",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Square",
-    description: "A beautiful square in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-square.jpg",
     location: "12 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Garden",
-    description: "A beautiful garden in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-garden.jpg",
     location: "13 Main Street, southampton",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Market",
-    description: "A beautiful market in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-market.jpg",
     location: "118 Main Street, southampton",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "southampton Castle",
-    description: "A beautiful castle in southampton offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in southampton offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/southampton-castle.jpg",
     location: "148 Main Street, southampton",
     openingHours: "Open 24 hours",
@@ -351,5 +364,5 @@ export const southamptonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const osloAttractions: Attraction[] = [
   {
     title: "oslo Square",
-    description: "A beautiful square in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-square.jpg",
     location: "9 Main Street, oslo",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Zoo",
-    description: "A beautiful zoo in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-zoo.jpg",
     location: "57 Main Street, oslo",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Garden",
-    description: "A beautiful garden in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-garden.jpg",
     location: "44 Main Street, oslo",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Museum",
-    description: "A beautiful museum in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-museum.jpg",
     location: "104 Main Street, oslo",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Square",
-    description: "A beautiful square in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-square.jpg",
     location: "97 Main Street, oslo",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Museum",
-    description: "A beautiful museum in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-museum.jpg",
     location: "23 Main Street, oslo",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Zoo",
-    description: "A beautiful zoo in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-zoo.jpg",
     location: "149 Main Street, oslo",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Castle",
-    description: "A beautiful castle in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-castle.jpg",
     location: "25 Main Street, oslo",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Cathedral",
-    description: "A beautiful cathedral in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-cathedral.jpg",
     location: "21 Main Street, oslo",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Park",
-    description: "A beautiful park in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-park.jpg",
     location: "88 Main Street, oslo",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Gallery",
-    description: "A beautiful gallery in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-gallery.jpg",
     location: "85 Main Street, oslo",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Cathedral",
-    description: "A beautiful cathedral in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-cathedral.jpg",
     location: "75 Main Street, oslo",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const osloAttractions: Attraction[] = [
   },
   {
     title: "oslo Temple",
-    description: "A beautiful temple in oslo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in oslo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/oslo-temple.jpg",
     location: "23 Main Street, oslo",
     openingHours: "10 AM - 6 PM",
@@ -351,5 +364,5 @@ export const osloAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const montevideoAttractions: Attraction[] = [
   {
     title: "montevideo Tower",
-    description: "A beautiful tower in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-tower.jpg",
     location: "11 Main Street, montevideo",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Temple",
-    description: "A beautiful temple in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-temple.jpg",
     location: "163 Main Street, montevideo",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Bridge",
-    description: "A beautiful bridge in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-bridge.jpg",
     location: "47 Main Street, montevideo",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Monument",
-    description: "A beautiful monument in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-monument.jpg",
     location: "150 Main Street, montevideo",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Monument",
-    description: "A beautiful monument in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-monument.jpg",
     location: "101 Main Street, montevideo",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Garden",
-    description: "A beautiful garden in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-garden.jpg",
     location: "190 Main Street, montevideo",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Park",
-    description: "A beautiful park in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-park.jpg",
     location: "198 Main Street, montevideo",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Museum",
-    description: "A beautiful museum in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-museum.jpg",
     location: "45 Main Street, montevideo",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const montevideoAttractions: Attraction[] = [
   },
   {
     title: "montevideo Castle",
-    description: "A beautiful castle in montevideo offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in montevideo offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montevideo-castle.jpg",
     location: "34 Main Street, montevideo",
     openingHours: "10 AM - 6 PM",
@@ -243,5 +252,5 @@ export const montevideoAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

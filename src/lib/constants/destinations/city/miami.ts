@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   {
     title: "miami Palace",
-    description: "A beautiful palace in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-palace.jpg",
     location: "174 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Gallery",
-    description: "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-gallery.jpg",
     location: "76 Main Street, miami",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Gallery",
-    description: "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-gallery.jpg",
     location: "172 Main Street, miami",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Cathedral",
-    description: "A beautiful cathedral in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-cathedral.jpg",
     location: "4 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Tower",
-    description: "A beautiful tower in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-tower.jpg",
     location: "75 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Castle",
-    description: "A beautiful castle in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-castle.jpg",
     location: "140 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Monument",
-    description: "A beautiful monument in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-monument.jpg",
     location: "46 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Bridge",
-    description: "A beautiful bridge in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-bridge.jpg",
     location: "50 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Square",
-    description: "A beautiful square in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-square.jpg",
     location: "78 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Temple",
-    description: "A beautiful temple in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-temple.jpg",
     location: "182 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Market",
-    description: "A beautiful market in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-market.jpg",
     location: "55 Main Street, miami",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Gallery",
-    description: "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-gallery.jpg",
     location: "49 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Cathedral",
-    description: "A beautiful cathedral in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-cathedral.jpg",
     location: "39 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Museum",
-    description: "A beautiful museum in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-museum.jpg",
     location: "161 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -381,7 +395,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Castle",
-    description: "A beautiful castle in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-castle.jpg",
     location: "94 Main Street, miami",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "miami Temple",
-    description: "A beautiful temple in miami offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in miami offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/miami-temple.jpg",
     location: "92 Main Street, miami",
     openingHours: "9 AM - 5 PM",
@@ -432,5 +448,5 @@ export const miamiunitedStatescaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

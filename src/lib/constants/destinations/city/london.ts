@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   {
     title: "london Garden",
-    description: "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-garden.jpg",
     location: "151 Main Street, london",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Monument",
-    description: "A beautiful monument in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-monument.jpg",
     location: "177 Main Street, london",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Gallery",
-    description: "A beautiful gallery in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-gallery.jpg",
     location: "198 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Tower",
-    description: "A beautiful tower in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-tower.jpg",
     location: "118 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Bridge",
-    description: "A beautiful bridge in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-bridge.jpg",
     location: "157 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Castle",
-    description: "A beautiful castle in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-castle.jpg",
     location: "96 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Market",
-    description: "A beautiful market in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-market.jpg",
     location: "91 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Cathedral",
-    description: "A beautiful cathedral in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-cathedral.jpg",
     location: "187 Main Street, london",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Garden",
-    description: "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-garden.jpg",
     location: "101 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Garden",
-    description: "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-garden.jpg",
     location: "188 Main Street, london",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Museum",
-    description: "A beautiful museum in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-museum.jpg",
     location: "145 Main Street, london",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Temple",
-    description: "A beautiful temple in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-temple.jpg",
     location: "57 Main Street, london",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Park",
-    description: "A beautiful park in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-park.jpg",
     location: "133 Main Street, london",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Square",
-    description: "A beautiful square in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-square.jpg",
     location: "57 Main Street, london",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Castle",
-    description: "A beautiful castle in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-castle.jpg",
     location: "35 Main Street, london",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "london Garden",
-    description: "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in london offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/london-garden.jpg",
     location: "199 Main Street, london",
     openingHours: "Open 24 hours",
@@ -432,5 +448,5 @@ export const londonunitedKingdomnorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const bermudaAttractions: Attraction[] = [
   {
     title: "bermuda Museum",
-    description: "A beautiful museum in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-museum.jpg",
     location: "4 Main Street, bermuda",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Market",
-    description: "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-market.jpg",
     location: "155 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Bridge",
-    description: "A beautiful bridge in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-bridge.jpg",
     location: "13 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Market",
-    description: "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-market.jpg",
     location: "200 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Monument",
-    description: "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-monument.jpg",
     location: "107 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Zoo",
-    description: "A beautiful zoo in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-zoo.jpg",
     location: "184 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Park",
-    description: "A beautiful park in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-park.jpg",
     location: "47 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Cathedral",
-    description: "A beautiful cathedral in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-cathedral.jpg",
     location: "109 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Market",
-    description: "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-market.jpg",
     location: "110 Main Street, bermuda",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Tower",
-    description: "A beautiful tower in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-tower.jpg",
     location: "44 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Monument",
-    description: "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-monument.jpg",
     location: "14 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Tower",
-    description: "A beautiful tower in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-tower.jpg",
     location: "151 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Museum",
-    description: "A beautiful museum in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-museum.jpg",
     location: "161 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Square",
-    description: "A beautiful square in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-square.jpg",
     location: "117 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Market",
-    description: "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-market.jpg",
     location: "101 Main Street, bermuda",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Bridge",
-    description: "A beautiful bridge in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-bridge.jpg",
     location: "200 Main Street, bermuda",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Monument",
-    description: "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-monument.jpg",
     location: "105 Main Street, bermuda",
     openingHours: "10 AM - 6 PM",
@@ -462,7 +479,8 @@ export const bermudaAttractions: Attraction[] = [
   },
   {
     title: "bermuda Park",
-    description: "A beautiful park in bermuda offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bermuda offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bermuda-park.jpg",
     location: "162 Main Street, bermuda",
     openingHours: "Open 24 hours",
@@ -486,5 +504,5 @@ export const bermudaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

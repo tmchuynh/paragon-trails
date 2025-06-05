@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   {
     title: "lisbon Tower",
-    description: "A beautiful tower in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-tower.jpg",
     location: "27 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Market",
-    description: "A beautiful market in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-market.jpg",
     location: "154 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Square",
-    description: "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-square.jpg",
     location: "192 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Palace",
-    description: "A beautiful palace in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-palace.jpg",
     location: "144 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Garden",
-    description: "A beautiful garden in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-garden.jpg",
     location: "160 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Bridge",
-    description: "A beautiful bridge in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-bridge.jpg",
     location: "127 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Square",
-    description: "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-square.jpg",
     location: "88 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Garden",
-    description: "A beautiful garden in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-garden.jpg",
     location: "88 Main Street, lisbon",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Tower",
-    description: "A beautiful tower in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-tower.jpg",
     location: "24 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Cathedral",
-    description: "A beautiful cathedral in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-cathedral.jpg",
     location: "186 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Square",
-    description: "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-square.jpg",
     location: "88 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Bridge",
-    description: "A beautiful bridge in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-bridge.jpg",
     location: "134 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Cathedral",
-    description: "A beautiful cathedral in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-cathedral.jpg",
     location: "131 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Temple",
-    description: "A beautiful temple in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-temple.jpg",
     location: "20 Main Street, lisbon",
     openingHours: "9 AM - 5 PM",
@@ -381,7 +395,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Monument",
-    description: "A beautiful monument in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-monument.jpg",
     location: "153 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "lisbon Market",
-    description: "A beautiful market in lisbon offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in lisbon offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lisbon-market.jpg",
     location: "7 Main Street, lisbon",
     openingHours: "Open 24 hours",
@@ -432,5 +448,5 @@ export const lisbonportugalmediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

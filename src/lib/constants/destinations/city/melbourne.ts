@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   {
     title: "melbourne Museum",
-    description: "A beautiful museum in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-museum.jpg",
     location: "22 Main Street, melbourne",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Castle",
-    description: "A beautiful castle in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-castle.jpg",
     location: "163 Main Street, melbourne",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Tower",
-    description: "A beautiful tower in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-tower.jpg",
     location: "185 Main Street, melbourne",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Market",
-    description: "A beautiful market in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-market.jpg",
     location: "119 Main Street, melbourne",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Square",
-    description: "A beautiful square in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-square.jpg",
     location: "198 Main Street, melbourne",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Tower",
-    description: "A beautiful tower in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-tower.jpg",
     location: "172 Main Street, melbourne",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Bridge",
-    description: "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-bridge.jpg",
     location: "138 Main Street, melbourne",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Museum",
-    description: "A beautiful museum in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-museum.jpg",
     location: "3 Main Street, melbourne",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Park",
-    description: "A beautiful park in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-park.jpg",
     location: "179 Main Street, melbourne",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Temple",
-    description: "A beautiful temple in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-temple.jpg",
     location: "117 Main Street, melbourne",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Bridge",
-    description: "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-bridge.jpg",
     location: "34 Main Street, melbourne",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Market",
-    description: "A beautiful market in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-market.jpg",
     location: "173 Main Street, melbourne",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "melbourne Bridge",
-    description: "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in melbourne offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/melbourne-bridge.jpg",
     location: "135 Main Street, melbourne",
     openingHours: "9 AM - 5 PM",
@@ -351,5 +364,5 @@ export const melbourneaustraliaasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const romeitalymediterraneanAttractions: Attraction[] = [
   {
     title: "rome Castle",
-    description: "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-castle.jpg",
     location: "195 Main Street, rome",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Cathedral",
-    description: "A beautiful cathedral in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-cathedral.jpg",
     location: "122 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Market",
-    description: "A beautiful market in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-market.jpg",
     location: "128 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Temple",
-    description: "A beautiful temple in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-temple.jpg",
     location: "39 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Zoo",
-    description: "A beautiful zoo in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-zoo.jpg",
     location: "170 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Palace",
-    description: "A beautiful palace in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-palace.jpg",
     location: "11 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Tower",
-    description: "A beautiful tower in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-tower.jpg",
     location: "31 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Zoo",
-    description: "A beautiful zoo in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-zoo.jpg",
     location: "36 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Gallery",
-    description: "A beautiful gallery in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-gallery.jpg",
     location: "137 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Castle",
-    description: "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-castle.jpg",
     location: "13 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Bridge",
-    description: "A beautiful bridge in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-bridge.jpg",
     location: "4 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Museum",
-    description: "A beautiful museum in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-museum.jpg",
     location: "17 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Gallery",
-    description: "A beautiful gallery in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-gallery.jpg",
     location: "158 Main Street, rome",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Tower",
-    description: "A beautiful tower in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-tower.jpg",
     location: "188 Main Street, rome",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Castle",
-    description: "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-castle.jpg",
     location: "145 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Temple",
-    description: "A beautiful temple in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-temple.jpg",
     location: "105 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "rome Market",
-    description: "A beautiful market in rome offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in rome offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rome-market.jpg",
     location: "69 Main Street, rome",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const romeitalymediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   {
     title: "auckland Market",
-    description: "A beautiful market in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-market.jpg",
     location: "122 Main Street, auckland",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Gallery",
-    description: "A beautiful gallery in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-gallery.jpg",
     location: "69 Main Street, auckland",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Palace",
-    description: "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-palace.jpg",
     location: "193 Main Street, auckland",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Temple",
-    description: "A beautiful temple in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-temple.jpg",
     location: "2 Main Street, auckland",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Temple",
-    description: "A beautiful temple in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-temple.jpg",
     location: "142 Main Street, auckland",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Palace",
-    description: "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-palace.jpg",
     location: "61 Main Street, auckland",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Market",
-    description: "A beautiful market in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-market.jpg",
     location: "64 Main Street, auckland",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Tower",
-    description: "A beautiful tower in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-tower.jpg",
     location: "81 Main Street, auckland",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "auckland Palace",
-    description: "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in auckland offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/auckland-palace.jpg",
     location: "147 Main Street, auckland",
     openingHours: "Open 24 hours",
@@ -243,5 +252,5 @@ export const aucklandnewZealandasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   {
     title: "dublin Cathedral",
-    description: "A beautiful cathedral in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-cathedral.jpg",
     location: "153 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Palace",
-    description: "A beautiful palace in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-palace.jpg",
     location: "183 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Zoo",
-    description: "A beautiful zoo in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-zoo.jpg",
     location: "88 Main Street, dublin",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Tower",
-    description: "A beautiful tower in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-tower.jpg",
     location: "85 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Museum",
-    description: "A beautiful museum in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-museum.jpg",
     location: "155 Main Street, dublin",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Tower",
-    description: "A beautiful tower in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-tower.jpg",
     location: "177 Main Street, dublin",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Temple",
-    description: "A beautiful temple in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-temple.jpg",
     location: "15 Main Street, dublin",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Bridge",
-    description: "A beautiful bridge in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-bridge.jpg",
     location: "97 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Museum",
-    description: "A beautiful museum in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-museum.jpg",
     location: "39 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Garden",
-    description: "A beautiful garden in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-garden.jpg",
     location: "190 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Square",
-    description: "A beautiful square in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-square.jpg",
     location: "132 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Zoo",
-    description: "A beautiful zoo in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-zoo.jpg",
     location: "88 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Market",
-    description: "A beautiful market in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-market.jpg",
     location: "114 Main Street, dublin",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "dublin Temple",
-    description: "A beautiful temple in dublin offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dublin offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dublin-temple.jpg",
     location: "8 Main Street, dublin",
     openingHours: "Open 24 hours",
@@ -378,5 +392,5 @@ export const dublinirelandnorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

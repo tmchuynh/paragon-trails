@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const vancouvercanadaalaskaAttractions: Attraction[] = [
   {
     title: "vancouver Zoo",
-    description: "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-zoo.jpg",
     location: "9 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Park",
-    description: "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-park.jpg",
     location: "104 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Castle",
-    description: "A beautiful castle in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-castle.jpg",
     location: "89 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Park",
-    description: "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-park.jpg",
     location: "24 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Temple",
-    description: "A beautiful temple in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-temple.jpg",
     location: "86 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Zoo",
-    description: "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-zoo.jpg",
     location: "187 Main Street, vancouver",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Monument",
-    description: "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-monument.jpg",
     location: "141 Main Street, vancouver",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Castle",
-    description: "A beautiful castle in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-castle.jpg",
     location: "2 Main Street, vancouver",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Zoo",
-    description: "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-zoo.jpg",
     location: "30 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Park",
-    description: "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-park.jpg",
     location: "58 Main Street, vancouver",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Monument",
-    description: "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-monument.jpg",
     location: "154 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Tower",
-    description: "A beautiful tower in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-tower.jpg",
     location: "69 Main Street, vancouver",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Monument",
-    description: "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-monument.jpg",
     location: "55 Main Street, vancouver",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Park",
-    description: "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-park.jpg",
     location: "158 Main Street, vancouver",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
   },
   {
     title: "vancouver Gallery",
-    description: "A beautiful gallery in vancouver offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in vancouver offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/vancouver-gallery.jpg",
     location: "199 Main Street, vancouver",
     openingHours: "9 AM - 5 PM",
@@ -405,5 +420,5 @@ export const vancouvercanadaalaskaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

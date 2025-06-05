@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const athensmediterraneanAttractions: Attraction[] = [
   {
     title: "athens Garden",
-    description: "A beautiful garden in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-garden.jpg",
     location: "87 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Park",
-    description: "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-park.jpg",
     location: "45 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Cathedral",
-    description: "A beautiful cathedral in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-cathedral.jpg",
     location: "186 Main Street, athens",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Monument",
-    description: "A beautiful monument in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-monument.jpg",
     location: "45 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Temple",
-    description: "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-temple.jpg",
     location: "36 Main Street, athens",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Palace",
-    description: "A beautiful palace in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-palace.jpg",
     location: "105 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Park",
-    description: "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-park.jpg",
     location: "27 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Museum",
-    description: "A beautiful museum in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-museum.jpg",
     location: "60 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Market",
-    description: "A beautiful market in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-market.jpg",
     location: "159 Main Street, athens",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Zoo",
-    description: "A beautiful zoo in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-zoo.jpg",
     location: "36 Main Street, athens",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Park",
-    description: "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-park.jpg",
     location: "47 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Museum",
-    description: "A beautiful museum in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-museum.jpg",
     location: "56 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Market",
-    description: "A beautiful market in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-market.jpg",
     location: "113 Main Street, athens",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Temple",
-    description: "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-temple.jpg",
     location: "72 Main Street, athens",
     openingHours: "9 AM - 5 PM",
@@ -381,7 +395,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Zoo",
-    description: "A beautiful zoo in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-zoo.jpg",
     location: "102 Main Street, athens",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Temple",
-    description: "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-temple.jpg",
     location: "12 Main Street, athens",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "athens Palace",
-    description: "A beautiful palace in athens offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in athens offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/athens-palace.jpg",
     location: "111 Main Street, athens",
     openingHours: "Open 24 hours",
@@ -459,5 +476,5 @@ export const athensmediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

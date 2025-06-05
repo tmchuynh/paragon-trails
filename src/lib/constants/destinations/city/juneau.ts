@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const juneauAttractions: Attraction[] = [
   {
     title: "juneau Museum",
-    description: "A beautiful museum in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-museum.jpg",
     location: "131 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Castle",
-    description: "A beautiful castle in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-castle.jpg",
     location: "63 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Garden",
-    description: "A beautiful garden in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-garden.jpg",
     location: "101 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Gallery",
-    description: "A beautiful gallery in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-gallery.jpg",
     location: "85 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Bridge",
-    description: "A beautiful bridge in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-bridge.jpg",
     location: "191 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Market",
-    description: "A beautiful market in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-market.jpg",
     location: "31 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Museum",
-    description: "A beautiful museum in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-museum.jpg",
     location: "121 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Castle",
-    description: "A beautiful castle in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-castle.jpg",
     location: "126 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Temple",
-    description: "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-temple.jpg",
     location: "90 Main Street, juneau",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Gallery",
-    description: "A beautiful gallery in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-gallery.jpg",
     location: "198 Main Street, juneau",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Monument",
-    description: "A beautiful monument in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-monument.jpg",
     location: "70 Main Street, juneau",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Monument",
-    description: "A beautiful monument in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-monument.jpg",
     location: "165 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Temple",
-    description: "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-temple.jpg",
     location: "157 Main Street, juneau",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Bridge",
-    description: "A beautiful bridge in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-bridge.jpg",
     location: "26 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Garden",
-    description: "A beautiful garden in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-garden.jpg",
     location: "56 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Palace",
-    description: "A beautiful palace in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-palace.jpg",
     location: "170 Main Street, juneau",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Market",
-    description: "A beautiful market in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-market.jpg",
     location: "41 Main Street, juneau",
     openingHours: "9 AM - 5 PM",
@@ -462,7 +479,8 @@ export const juneauAttractions: Attraction[] = [
   },
   {
     title: "juneau Temple",
-    description: "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in juneau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/juneau-temple.jpg",
     location: "96 Main Street, juneau",
     openingHours: "Open 24 hours",
@@ -486,5 +504,5 @@ export const juneauAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

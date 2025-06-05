@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const limaAttractions: Attraction[] = [
   {
     title: "lima Bridge",
-    description: "A beautiful bridge in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-bridge.jpg",
     location: "15 Main Street, lima",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Zoo",
-    description: "A beautiful zoo in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-zoo.jpg",
     location: "166 Main Street, lima",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Tower",
-    description: "A beautiful tower in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-tower.jpg",
     location: "74 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Market",
-    description: "A beautiful market in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-market.jpg",
     location: "154 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Palace",
-    description: "A beautiful palace in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-palace.jpg",
     location: "81 Main Street, lima",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Gallery",
-    description: "A beautiful gallery in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-gallery.jpg",
     location: "155 Main Street, lima",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Temple",
-    description: "A beautiful temple in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-temple.jpg",
     location: "63 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Gallery",
-    description: "A beautiful gallery in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-gallery.jpg",
     location: "150 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Museum",
-    description: "A beautiful museum in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-museum.jpg",
     location: "139 Main Street, lima",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Monument",
-    description: "A beautiful monument in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-monument.jpg",
     location: "185 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const limaAttractions: Attraction[] = [
   },
   {
     title: "lima Temple",
-    description: "A beautiful temple in lima offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in lima offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/lima-temple.jpg",
     location: "164 Main Street, lima",
     openingHours: "Open 24 hours",
@@ -297,5 +308,5 @@ export const limaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

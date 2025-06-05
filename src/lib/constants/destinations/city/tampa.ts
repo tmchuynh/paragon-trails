@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   {
     title: "tampa Monument",
-    description: "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-monument.jpg",
     location: "25 Main Street, tampa",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Monument",
-    description: "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-monument.jpg",
     location: "82 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Museum",
-    description: "A beautiful museum in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-museum.jpg",
     location: "98 Main Street, tampa",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Cathedral",
-    description: "A beautiful cathedral in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-cathedral.jpg",
     location: "97 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Monument",
-    description: "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-monument.jpg",
     location: "82 Main Street, tampa",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Market",
-    description: "A beautiful market in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-market.jpg",
     location: "193 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Monument",
-    description: "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-monument.jpg",
     location: "86 Main Street, tampa",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Cathedral",
-    description: "A beautiful cathedral in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-cathedral.jpg",
     location: "128 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Square",
-    description: "A beautiful square in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-square.jpg",
     location: "118 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Zoo",
-    description: "A beautiful zoo in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-zoo.jpg",
     location: "180 Main Street, tampa",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Gallery",
-    description: "A beautiful gallery in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-gallery.jpg",
     location: "32 Main Street, tampa",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Square",
-    description: "A beautiful square in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-square.jpg",
     location: "39 Main Street, tampa",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Tower",
-    description: "A beautiful tower in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-tower.jpg",
     location: "102 Main Street, tampa",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "tampa Museum",
-    description: "A beautiful museum in tampa offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in tampa offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/tampa-museum.jpg",
     location: "22 Main Street, tampa",
     openingHours: "9 AM - 5 PM",
@@ -378,5 +392,5 @@ export const tampaunitedStatescaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

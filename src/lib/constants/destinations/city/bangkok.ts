@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const bangkokAttractions: Attraction[] = [
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "198 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Gallery",
-    description: "A beautiful gallery in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-gallery.jpg",
     location: "123 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Bridge",
-    description: "A beautiful bridge in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-bridge.jpg",
     location: "178 Main Street, bangkok",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Gallery",
-    description: "A beautiful gallery in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-gallery.jpg",
     location: "25 Main Street, bangkok",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Palace",
-    description: "A beautiful palace in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-palace.jpg",
     location: "157 Main Street, bangkok",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "81 Main Street, bangkok",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Museum",
-    description: "A beautiful museum in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-museum.jpg",
     location: "178 Main Street, bangkok",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "4 Main Street, bangkok",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "180 Main Street, bangkok",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "112 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Monument",
-    description: "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-monument.jpg",
     location: "39 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Museum",
-    description: "A beautiful museum in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-museum.jpg",
     location: "178 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Park",
-    description: "A beautiful park in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-park.jpg",
     location: "21 Main Street, bangkok",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Park",
-    description: "A beautiful park in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-park.jpg",
     location: "176 Main Street, bangkok",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Palace",
-    description: "A beautiful palace in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-palace.jpg",
     location: "171 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Garden",
-    description: "A beautiful garden in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-garden.jpg",
     location: "59 Main Street, bangkok",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const bangkokAttractions: Attraction[] = [
   },
   {
     title: "bangkok Temple",
-    description: "A beautiful temple in bangkok offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in bangkok offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bangkok-temple.jpg",
     location: "199 Main Street, bangkok",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const bangkokAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

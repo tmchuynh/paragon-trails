@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   {
     title: "los-angeles Park",
-    description: "A beautiful park in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-park.jpg",
     location: "69 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Bridge",
-    description: "A beautiful bridge in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-bridge.jpg",
     location: "71 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Tower",
-    description: "A beautiful tower in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-tower.jpg",
     location: "44 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Cathedral",
-    description: "A beautiful cathedral in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-cathedral.jpg",
     location: "100 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Tower",
-    description: "A beautiful tower in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-tower.jpg",
     location: "65 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Monument",
-    description: "A beautiful monument in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-monument.jpg",
     location: "99 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Market",
-    description: "A beautiful market in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-market.jpg",
     location: "6 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Castle",
-    description: "A beautiful castle in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-castle.jpg",
     location: "113 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Museum",
-    description: "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-museum.jpg",
     location: "42 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Park",
-    description: "A beautiful park in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-park.jpg",
     location: "162 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Temple",
-    description: "A beautiful temple in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-temple.jpg",
     location: "102 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Museum",
-    description: "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-museum.jpg",
     location: "77 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Museum",
-    description: "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-museum.jpg",
     location: "44 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Garden",
-    description: "A beautiful garden in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-garden.jpg",
     location: "83 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Temple",
-    description: "A beautiful temple in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-temple.jpg",
     location: "80 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Monument",
-    description: "A beautiful monument in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-monument.jpg",
     location: "29 Main Street, los-angeles",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Palace",
-    description: "A beautiful palace in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-palace.jpg",
     location: "11 Main Street, los-angeles",
     openingHours: "9 AM - 5 PM",
@@ -462,7 +479,8 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "los-angeles Square",
-    description: "A beautiful square in los-angeles offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in los-angeles offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/los-angeles-square.jpg",
     location: "193 Main Street, los-angeles",
     openingHours: "Open 24 hours",
@@ -486,5 +504,5 @@ export const losAngelesunitedStateswestCoastUsaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

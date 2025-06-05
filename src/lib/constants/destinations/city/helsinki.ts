@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const helsinkiAttractions: Attraction[] = [
   {
     title: "helsinki Garden",
-    description: "A beautiful garden in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-garden.jpg",
     location: "71 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Monument",
-    description: "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-monument.jpg",
     location: "46 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Monument",
-    description: "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-monument.jpg",
     location: "183 Main Street, helsinki",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Tower",
-    description: "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-tower.jpg",
     location: "82 Main Street, helsinki",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Cathedral",
-    description: "A beautiful cathedral in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-cathedral.jpg",
     location: "127 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Museum",
-    description: "A beautiful museum in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-museum.jpg",
     location: "64 Main Street, helsinki",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Monument",
-    description: "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-monument.jpg",
     location: "18 Main Street, helsinki",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Monument",
-    description: "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-monument.jpg",
     location: "84 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Park",
-    description: "A beautiful park in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-park.jpg",
     location: "69 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Temple",
-    description: "A beautiful temple in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-temple.jpg",
     location: "132 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Temple",
-    description: "A beautiful temple in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-temple.jpg",
     location: "75 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Tower",
-    description: "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-tower.jpg",
     location: "175 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Square",
-    description: "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-square.jpg",
     location: "188 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Tower",
-    description: "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-tower.jpg",
     location: "199 Main Street, helsinki",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Square",
-    description: "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-square.jpg",
     location: "126 Main Street, helsinki",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Square",
-    description: "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-square.jpg",
     location: "55 Main Street, helsinki",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const helsinkiAttractions: Attraction[] = [
   },
   {
     title: "helsinki Tower",
-    description: "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in helsinki offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/helsinki-tower.jpg",
     location: "186 Main Street, helsinki",
     openingHours: "Open 24 hours",
@@ -459,5 +476,5 @@ export const helsinkiAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

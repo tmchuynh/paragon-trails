@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const cozumelAttractions: Attraction[] = [
   {
     title: "cozumel Museum",
-    description: "A beautiful museum in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-museum.jpg",
     location: "67 Main Street, cozumel",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Park",
-    description: "A beautiful park in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-park.jpg",
     location: "41 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Museum",
-    description: "A beautiful museum in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-museum.jpg",
     location: "42 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Castle",
-    description: "A beautiful castle in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-castle.jpg",
     location: "66 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Market",
-    description: "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-market.jpg",
     location: "2 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Zoo",
-    description: "A beautiful zoo in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-zoo.jpg",
     location: "22 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Temple",
-    description: "A beautiful temple in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-temple.jpg",
     location: "135 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Market",
-    description: "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-market.jpg",
     location: "162 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Gallery",
-    description: "A beautiful gallery in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-gallery.jpg",
     location: "200 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Palace",
-    description: "A beautiful palace in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-palace.jpg",
     location: "195 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Park",
-    description: "A beautiful park in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-park.jpg",
     location: "52 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Monument",
-    description: "A beautiful monument in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-monument.jpg",
     location: "96 Main Street, cozumel",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Zoo",
-    description: "A beautiful zoo in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-zoo.jpg",
     location: "132 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Temple",
-    description: "A beautiful temple in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-temple.jpg",
     location: "97 Main Street, cozumel",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Monument",
-    description: "A beautiful monument in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-monument.jpg",
     location: "178 Main Street, cozumel",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const cozumelAttractions: Attraction[] = [
   },
   {
     title: "cozumel Market",
-    description: "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in cozumel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cozumel-market.jpg",
     location: "98 Main Street, cozumel",
     openingHours: "10 AM - 6 PM",
@@ -432,5 +448,5 @@ export const cozumelAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

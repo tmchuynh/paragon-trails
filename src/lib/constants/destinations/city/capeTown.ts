@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   {
     title: "cape-town Palace",
-    description: "A beautiful palace in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-palace.jpg",
     location: "55 Main Street, cape-town",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Monument",
-    description: "A beautiful monument in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-monument.jpg",
     location: "62 Main Street, cape-town",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Monument",
-    description: "A beautiful monument in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-monument.jpg",
     location: "119 Main Street, cape-town",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Cathedral",
-    description: "A beautiful cathedral in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-cathedral.jpg",
     location: "81 Main Street, cape-town",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Tower",
-    description: "A beautiful tower in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-tower.jpg",
     location: "63 Main Street, cape-town",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Gallery",
-    description: "A beautiful gallery in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-gallery.jpg",
     location: "132 Main Street, cape-town",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Cathedral",
-    description: "A beautiful cathedral in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-cathedral.jpg",
     location: "143 Main Street, cape-town",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Museum",
-    description: "A beautiful museum in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-museum.jpg",
     location: "132 Main Street, cape-town",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Zoo",
-    description: "A beautiful zoo in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-zoo.jpg",
     location: "179 Main Street, cape-town",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Market",
-    description: "A beautiful market in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-market.jpg",
     location: "12 Main Street, cape-town",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
   },
   {
     title: "cape-town Gallery",
-    description: "A beautiful gallery in cape-town offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in cape-town offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cape-town-gallery.jpg",
     location: "198 Main Street, cape-town",
     openingHours: "9 AM - 5 PM",
@@ -297,5 +308,5 @@ export const capeTownsouthAfricaafricaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

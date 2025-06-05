@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   {
     title: "barcelona Market",
-    description: "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-market.jpg",
     location: "194 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Museum",
-    description: "A beautiful museum in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-museum.jpg",
     location: "8 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Garden",
-    description: "A beautiful garden in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-garden.jpg",
     location: "119 Main Street, barcelona",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Gallery",
-    description: "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-gallery.jpg",
     location: "136 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Tower",
-    description: "A beautiful tower in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-tower.jpg",
     location: "41 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Bridge",
-    description: "A beautiful bridge in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-bridge.jpg",
     location: "193 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Gallery",
-    description: "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-gallery.jpg",
     location: "188 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Cathedral",
-    description: "A beautiful cathedral in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-cathedral.jpg",
     location: "142 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Temple",
-    description: "A beautiful temple in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-temple.jpg",
     location: "33 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Tower",
-    description: "A beautiful tower in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-tower.jpg",
     location: "187 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Temple",
-    description: "A beautiful temple in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-temple.jpg",
     location: "38 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Park",
-    description: "A beautiful park in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-park.jpg",
     location: "15 Main Street, barcelona",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Gallery",
-    description: "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-gallery.jpg",
     location: "22 Main Street, barcelona",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Market",
-    description: "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-market.jpg",
     location: "140 Main Street, barcelona",
     openingHours: "9 AM - 5 PM",
@@ -381,7 +395,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Market",
-    description: "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-market.jpg",
     location: "139 Main Street, barcelona",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Market",
-    description: "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-market.jpg",
     location: "117 Main Street, barcelona",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
   },
   {
     title: "barcelona Square",
-    description: "A beautiful square in barcelona offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in barcelona offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/barcelona-square.jpg",
     location: "183 Main Street, barcelona",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const barcelonaspainmediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const glacierBayAttractions: Attraction[] = [
   {
     title: "glacier-bay Temple",
-    description: "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-temple.jpg",
     location: "40 Main Street, glacier-bay",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Tower",
-    description: "A beautiful tower in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-tower.jpg",
     location: "79 Main Street, glacier-bay",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Temple",
-    description: "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-temple.jpg",
     location: "155 Main Street, glacier-bay",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Monument",
-    description: "A beautiful monument in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-monument.jpg",
     location: "191 Main Street, glacier-bay",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Zoo",
-    description: "A beautiful zoo in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-zoo.jpg",
     location: "54 Main Street, glacier-bay",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Gallery",
-    description: "A beautiful gallery in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-gallery.jpg",
     location: "38 Main Street, glacier-bay",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Zoo",
-    description: "A beautiful zoo in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-zoo.jpg",
     location: "175 Main Street, glacier-bay",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Museum",
-    description: "A beautiful museum in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-museum.jpg",
     location: "150 Main Street, glacier-bay",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Temple",
-    description: "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-temple.jpg",
     location: "185 Main Street, glacier-bay",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Garden",
-    description: "A beautiful garden in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-garden.jpg",
     location: "177 Main Street, glacier-bay",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const glacierBayAttractions: Attraction[] = [
   },
   {
     title: "glacier-bay Garden",
-    description: "A beautiful garden in glacier-bay offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in glacier-bay offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/glacier-bay-garden.jpg",
     location: "90 Main Street, glacier-bay",
     openingHours: "10 AM - 6 PM",
@@ -297,5 +308,5 @@ export const glacierBayAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

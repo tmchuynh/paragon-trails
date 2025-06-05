@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   {
     title: "quebec-city Temple",
-    description: "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-temple.jpg",
     location: "18 Main Street, quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Monument",
-    description: "A beautiful monument in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-monument.jpg",
     location: "130 Main Street, quebec-city",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Castle",
-    description: "A beautiful castle in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-castle.jpg",
     location: "84 Main Street, quebec-city",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Park",
-    description: "A beautiful park in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-park.jpg",
     location: "107 Main Street, quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Tower",
-    description: "A beautiful tower in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-tower.jpg",
     location: "8 Main Street, quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Cathedral",
-    description: "A beautiful cathedral in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-cathedral.jpg",
     location: "21 Main Street, quebec-city",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Square",
-    description: "A beautiful square in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-square.jpg",
     location: "71 Main Street, quebec-city",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Castle",
-    description: "A beautiful castle in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-castle.jpg",
     location: "24 Main Street, quebec-city",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Bridge",
-    description: "A beautiful bridge in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-bridge.jpg",
     location: "127 Main Street, quebec-city",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Temple",
-    description: "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-temple.jpg",
     location: "79 Main Street, quebec-city",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Temple",
-    description: "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-temple.jpg",
     location: "25 Main Street, quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "quebec-city Gallery",
-    description: "A beautiful gallery in quebec-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in quebec-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/quebec-city-gallery.jpg",
     location: "167 Main Street, quebec-city",
     openingHours: "9 AM - 5 PM",
@@ -324,5 +336,5 @@ export const quebecCitycanadaeastCoastCanadaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   {
     title: "hong-kong Garden",
-    description: "A beautiful garden in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-garden.jpg",
     location: "85 Main Street, hong-kong",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Monument",
-    description: "A beautiful monument in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-monument.jpg",
     location: "144 Main Street, hong-kong",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Park",
-    description: "A beautiful park in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-park.jpg",
     location: "145 Main Street, hong-kong",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Bridge",
-    description: "A beautiful bridge in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-bridge.jpg",
     location: "33 Main Street, hong-kong",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Zoo",
-    description: "A beautiful zoo in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-zoo.jpg",
     location: "114 Main Street, hong-kong",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Garden",
-    description: "A beautiful garden in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-garden.jpg",
     location: "163 Main Street, hong-kong",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Monument",
-    description: "A beautiful monument in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-monument.jpg",
     location: "129 Main Street, hong-kong",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Square",
-    description: "A beautiful square in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-square.jpg",
     location: "90 Main Street, hong-kong",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "hong-kong Museum",
-    description: "A beautiful museum in hong-kong offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in hong-kong offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/hong-kong-museum.jpg",
     location: "104 Main Street, hong-kong",
     openingHours: "Open 24 hours",
@@ -243,5 +252,5 @@ export const hongKongchinaasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

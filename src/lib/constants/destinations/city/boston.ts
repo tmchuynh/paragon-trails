@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   {
     title: "boston Garden",
-    description: "A beautiful garden in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-garden.jpg",
     location: "56 Main Street, boston",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Bridge",
-    description: "A beautiful bridge in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-bridge.jpg",
     location: "113 Main Street, boston",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Cathedral",
-    description: "A beautiful cathedral in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-cathedral.jpg",
     location: "67 Main Street, boston",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Palace",
-    description: "A beautiful palace in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-palace.jpg",
     location: "97 Main Street, boston",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Zoo",
-    description: "A beautiful zoo in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-zoo.jpg",
     location: "183 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Temple",
-    description: "A beautiful temple in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-temple.jpg",
     location: "91 Main Street, boston",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Garden",
-    description: "A beautiful garden in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-garden.jpg",
     location: "134 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Tower",
-    description: "A beautiful tower in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-tower.jpg",
     location: "92 Main Street, boston",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Monument",
-    description: "A beautiful monument in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-monument.jpg",
     location: "182 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Gallery",
-    description: "A beautiful gallery in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-gallery.jpg",
     location: "143 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Tower",
-    description: "A beautiful tower in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-tower.jpg",
     location: "5 Main Street, boston",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Museum",
-    description: "A beautiful museum in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-museum.jpg",
     location: "164 Main Street, boston",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Park",
-    description: "A beautiful park in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-park.jpg",
     location: "6 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Park",
-    description: "A beautiful park in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-park.jpg",
     location: "71 Main Street, boston",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Castle",
-    description: "A beautiful castle in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-castle.jpg",
     location: "15 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Gallery",
-    description: "A beautiful gallery in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-gallery.jpg",
     location: "24 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "boston Monument",
-    description: "A beautiful monument in boston offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in boston offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/boston-monument.jpg",
     location: "190 Main Street, boston",
     openingHours: "10 AM - 6 PM",
@@ -459,5 +476,5 @@ export const bostonunitedStateseastCoastUsaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

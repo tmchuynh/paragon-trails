@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const philipsburgAttractions: Attraction[] = [
   {
     title: "philipsburg Tower",
-    description: "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-tower.jpg",
     location: "191 Main Street, philipsburg",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Square",
-    description: "A beautiful square in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-square.jpg",
     location: "159 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Tower",
-    description: "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-tower.jpg",
     location: "132 Main Street, philipsburg",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Zoo",
-    description: "A beautiful zoo in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-zoo.jpg",
     location: "110 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Museum",
-    description: "A beautiful museum in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-museum.jpg",
     location: "106 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Gallery",
-    description: "A beautiful gallery in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-gallery.jpg",
     location: "38 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Gallery",
-    description: "A beautiful gallery in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-gallery.jpg",
     location: "80 Main Street, philipsburg",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Tower",
-    description: "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-tower.jpg",
     location: "39 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Square",
-    description: "A beautiful square in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-square.jpg",
     location: "45 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Temple",
-    description: "A beautiful temple in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-temple.jpg",
     location: "35 Main Street, philipsburg",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Market",
-    description: "A beautiful market in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-market.jpg",
     location: "156 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const philipsburgAttractions: Attraction[] = [
   },
   {
     title: "philipsburg Market",
-    description: "A beautiful market in philipsburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in philipsburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/philipsburg-market.jpg",
     location: "132 Main Street, philipsburg",
     openingHours: "Open 24 hours",
@@ -324,5 +336,5 @@ export const philipsburgAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

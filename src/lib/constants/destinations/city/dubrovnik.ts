@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const dubrovnikAttractions: Attraction[] = [
   {
     title: "dubrovnik Castle",
-    description: "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-castle.jpg",
     location: "179 Main Street, dubrovnik",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Zoo",
-    description: "A beautiful zoo in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-zoo.jpg",
     location: "190 Main Street, dubrovnik",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Bridge",
-    description: "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-bridge.jpg",
     location: "69 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Monument",
-    description: "A beautiful monument in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-monument.jpg",
     location: "1 Main Street, dubrovnik",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Gallery",
-    description: "A beautiful gallery in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-gallery.jpg",
     location: "170 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Temple",
-    description: "A beautiful temple in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-temple.jpg",
     location: "19 Main Street, dubrovnik",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Castle",
-    description: "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-castle.jpg",
     location: "32 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Bridge",
-    description: "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-bridge.jpg",
     location: "57 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Bridge",
-    description: "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-bridge.jpg",
     location: "180 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Cathedral",
-    description: "A beautiful cathedral in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-cathedral.jpg",
     location: "120 Main Street, dubrovnik",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Park",
-    description: "A beautiful park in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-park.jpg",
     location: "131 Main Street, dubrovnik",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Castle",
-    description: "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-castle.jpg",
     location: "153 Main Street, dubrovnik",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const dubrovnikAttractions: Attraction[] = [
   },
   {
     title: "dubrovnik Monument",
-    description: "A beautiful monument in dubrovnik offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in dubrovnik offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubrovnik-monument.jpg",
     location: "116 Main Street, dubrovnik",
     openingHours: "Open 24 hours",
@@ -351,5 +364,5 @@ export const dubrovnikAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

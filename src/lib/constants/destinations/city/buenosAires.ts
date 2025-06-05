@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   {
     title: "buenos-aires Castle",
-    description: "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-castle.jpg",
     location: "53 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Castle",
-    description: "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-castle.jpg",
     location: "45 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Garden",
-    description: "A beautiful garden in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-garden.jpg",
     location: "54 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Museum",
-    description: "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-museum.jpg",
     location: "165 Main Street, buenos-aires",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Bridge",
-    description: "A beautiful bridge in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-bridge.jpg",
     location: "140 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Gallery",
-    description: "A beautiful gallery in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-gallery.jpg",
     location: "105 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Museum",
-    description: "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-museum.jpg",
     location: "2 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Park",
-    description: "A beautiful park in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-park.jpg",
     location: "39 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Park",
-    description: "A beautiful park in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-park.jpg",
     location: "42 Main Street, buenos-aires",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Monument",
-    description: "A beautiful monument in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-monument.jpg",
     location: "85 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Cathedral",
-    description: "A beautiful cathedral in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-cathedral.jpg",
     location: "106 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Castle",
-    description: "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-castle.jpg",
     location: "88 Main Street, buenos-aires",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Museum",
-    description: "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-museum.jpg",
     location: "149 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Temple",
-    description: "A beautiful temple in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-temple.jpg",
     location: "124 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Bridge",
-    description: "A beautiful bridge in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-bridge.jpg",
     location: "107 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Market",
-    description: "A beautiful market in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-market.jpg",
     location: "69 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Palace",
-    description: "A beautiful palace in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-palace.jpg",
     location: "186 Main Street, buenos-aires",
     openingHours: "10 AM - 6 PM",
@@ -462,7 +479,8 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "buenos-aires Castle",
-    description: "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in buenos-aires offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/buenos-aires-castle.jpg",
     location: "141 Main Street, buenos-aires",
     openingHours: "Open 24 hours",
@@ -486,5 +504,5 @@ export const buenosAiresargentinasouthAmericaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

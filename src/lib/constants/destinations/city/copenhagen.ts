@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   {
     title: "copenhagen Park",
-    description: "A beautiful park in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-park.jpg",
     location: "51 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Palace",
-    description: "A beautiful palace in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-palace.jpg",
     location: "7 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Square",
-    description: "A beautiful square in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-square.jpg",
     location: "46 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Market",
-    description: "A beautiful market in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-market.jpg",
     location: "118 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Castle",
-    description: "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-castle.jpg",
     location: "58 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Museum",
-    description: "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-museum.jpg",
     location: "9 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Zoo",
-    description: "A beautiful zoo in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-zoo.jpg",
     location: "102 Main Street, copenhagen",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Castle",
-    description: "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-castle.jpg",
     location: "70 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Museum",
-    description: "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-museum.jpg",
     location: "122 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Garden",
-    description: "A beautiful garden in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-garden.jpg",
     location: "23 Main Street, copenhagen",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Zoo",
-    description: "A beautiful zoo in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-zoo.jpg",
     location: "124 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Garden",
-    description: "A beautiful garden in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-garden.jpg",
     location: "109 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Cathedral",
-    description: "A beautiful cathedral in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-cathedral.jpg",
     location: "126 Main Street, copenhagen",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Castle",
-    description: "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-castle.jpg",
     location: "32 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Museum",
-    description: "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-museum.jpg",
     location: "2 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Temple",
-    description: "A beautiful temple in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-temple.jpg",
     location: "195 Main Street, copenhagen",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Square",
-    description: "A beautiful square in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-square.jpg",
     location: "181 Main Street, copenhagen",
     openingHours: "Open 24 hours",
@@ -462,7 +479,8 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "copenhagen Museum",
-    description: "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in copenhagen offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/copenhagen-museum.jpg",
     location: "93 Main Street, copenhagen",
     openingHours: "9 AM - 5 PM",
@@ -486,5 +504,5 @@ export const copenhagendenmarknorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

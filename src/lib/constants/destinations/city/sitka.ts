@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const sitkaAttractions: Attraction[] = [
   {
     title: "sitka Palace",
-    description: "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-palace.jpg",
     location: "116 Main Street, sitka",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Zoo",
-    description: "A beautiful zoo in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-zoo.jpg",
     location: "94 Main Street, sitka",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Temple",
-    description: "A beautiful temple in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-temple.jpg",
     location: "109 Main Street, sitka",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Temple",
-    description: "A beautiful temple in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-temple.jpg",
     location: "93 Main Street, sitka",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Gallery",
-    description: "A beautiful gallery in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-gallery.jpg",
     location: "50 Main Street, sitka",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Park",
-    description: "A beautiful park in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-park.jpg",
     location: "197 Main Street, sitka",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Palace",
-    description: "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-palace.jpg",
     location: "78 Main Street, sitka",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Garden",
-    description: "A beautiful garden in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-garden.jpg",
     location: "11 Main Street, sitka",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Palace",
-    description: "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-palace.jpg",
     location: "123 Main Street, sitka",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Gallery",
-    description: "A beautiful gallery in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-gallery.jpg",
     location: "140 Main Street, sitka",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Zoo",
-    description: "A beautiful zoo in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-zoo.jpg",
     location: "100 Main Street, sitka",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Monument",
-    description: "A beautiful monument in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-monument.jpg",
     location: "36 Main Street, sitka",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const sitkaAttractions: Attraction[] = [
   },
   {
     title: "sitka Park",
-    description: "A beautiful park in sitka offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in sitka offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sitka-park.jpg",
     location: "117 Main Street, sitka",
     openingHours: "Open 24 hours",
@@ -351,5 +364,5 @@ export const sitkaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

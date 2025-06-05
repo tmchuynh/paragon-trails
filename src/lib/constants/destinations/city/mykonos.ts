@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const mykonosAttractions: Attraction[] = [
   {
     title: "mykonos Park",
-    description: "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-park.jpg",
     location: "131 Main Street, mykonos",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Bridge",
-    description: "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-bridge.jpg",
     location: "62 Main Street, mykonos",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Castle",
-    description: "A beautiful castle in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-castle.jpg",
     location: "46 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Bridge",
-    description: "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-bridge.jpg",
     location: "61 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Cathedral",
-    description: "A beautiful cathedral in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-cathedral.jpg",
     location: "89 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Temple",
-    description: "A beautiful temple in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-temple.jpg",
     location: "178 Main Street, mykonos",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Bridge",
-    description: "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-bridge.jpg",
     location: "157 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Palace",
-    description: "A beautiful palace in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-palace.jpg",
     location: "13 Main Street, mykonos",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Market",
-    description: "A beautiful market in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-market.jpg",
     location: "65 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Park",
-    description: "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-park.jpg",
     location: "6 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Palace",
-    description: "A beautiful palace in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-palace.jpg",
     location: "189 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Market",
-    description: "A beautiful market in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-market.jpg",
     location: "148 Main Street, mykonos",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Park",
-    description: "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-park.jpg",
     location: "111 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Castle",
-    description: "A beautiful castle in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-castle.jpg",
     location: "173 Main Street, mykonos",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const mykonosAttractions: Attraction[] = [
   },
   {
     title: "mykonos Monument",
-    description: "A beautiful monument in mykonos offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in mykonos offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/mykonos-monument.jpg",
     location: "157 Main Street, mykonos",
     openingHours: "9 AM - 5 PM",
@@ -405,5 +420,5 @@ export const mykonosAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

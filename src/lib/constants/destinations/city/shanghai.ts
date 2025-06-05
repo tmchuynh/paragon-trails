@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const shanghaiAttractions: Attraction[] = [
   {
     title: "shanghai Bridge",
-    description: "A beautiful bridge in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-bridge.jpg",
     location: "139 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Park",
-    description: "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-park.jpg",
     location: "37 Main Street, shanghai",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Monument",
-    description: "A beautiful monument in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-monument.jpg",
     location: "163 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Gallery",
-    description: "A beautiful gallery in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-gallery.jpg",
     location: "162 Main Street, shanghai",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Castle",
-    description: "A beautiful castle in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-castle.jpg",
     location: "169 Main Street, shanghai",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Tower",
-    description: "A beautiful tower in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-tower.jpg",
     location: "195 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Park",
-    description: "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-park.jpg",
     location: "72 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Garden",
-    description: "A beautiful garden in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-garden.jpg",
     location: "3 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Castle",
-    description: "A beautiful castle in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-castle.jpg",
     location: "183 Main Street, shanghai",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Palace",
-    description: "A beautiful palace in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-palace.jpg",
     location: "18 Main Street, shanghai",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const shanghaiAttractions: Attraction[] = [
   },
   {
     title: "shanghai Park",
-    description: "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in shanghai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/shanghai-park.jpg",
     location: "145 Main Street, shanghai",
     openingHours: "10 AM - 6 PM",
@@ -297,5 +308,5 @@ export const shanghaiAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

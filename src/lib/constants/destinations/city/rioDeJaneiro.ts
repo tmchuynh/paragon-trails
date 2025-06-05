@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   {
     title: "rio-de-janeiro Gallery",
-    description: "A beautiful gallery in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-gallery.jpg",
     location: "88 Main Street, rio-de-janeiro",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Square",
-    description: "A beautiful square in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-square.jpg",
     location: "45 Main Street, rio-de-janeiro",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Bridge",
-    description: "A beautiful bridge in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-bridge.jpg",
     location: "138 Main Street, rio-de-janeiro",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Zoo",
-    description: "A beautiful zoo in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-zoo.jpg",
     location: "131 Main Street, rio-de-janeiro",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Garden",
-    description: "A beautiful garden in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-garden.jpg",
     location: "169 Main Street, rio-de-janeiro",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Temple",
-    description: "A beautiful temple in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-temple.jpg",
     location: "99 Main Street, rio-de-janeiro",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Cathedral",
-    description: "A beautiful cathedral in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-cathedral.jpg",
     location: "73 Main Street, rio-de-janeiro",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Palace",
-    description: "A beautiful palace in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-palace.jpg",
     location: "137 Main Street, rio-de-janeiro",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Cathedral",
-    description: "A beautiful cathedral in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-cathedral.jpg",
     location: "26 Main Street, rio-de-janeiro",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
   },
   {
     title: "rio-de-janeiro Garden",
-    description: "A beautiful garden in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in rio-de-janeiro offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/rio-de-janeiro-garden.jpg",
     location: "16 Main Street, rio-de-janeiro",
     openingHours: "Open 24 hours",
@@ -270,5 +280,5 @@ export const rioDeJaneirobrazilsouthAmericaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

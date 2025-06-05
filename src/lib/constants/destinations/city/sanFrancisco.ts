@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   {
     title: "san-francisco Park",
-    description: "A beautiful park in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-park.jpg",
     location: "85 Main Street, san-francisco",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Temple",
-    description: "A beautiful temple in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-temple.jpg",
     location: "77 Main Street, san-francisco",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Bridge",
-    description: "A beautiful bridge in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-bridge.jpg",
     location: "47 Main Street, san-francisco",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Castle",
-    description: "A beautiful castle in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-castle.jpg",
     location: "80 Main Street, san-francisco",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Zoo",
-    description: "A beautiful zoo in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-zoo.jpg",
     location: "61 Main Street, san-francisco",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Bridge",
-    description: "A beautiful bridge in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-bridge.jpg",
     location: "136 Main Street, san-francisco",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Cathedral",
-    description: "A beautiful cathedral in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-cathedral.jpg",
     location: "163 Main Street, san-francisco",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Palace",
-    description: "A beautiful palace in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-palace.jpg",
     location: "4 Main Street, san-francisco",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "san-francisco Garden",
-    description: "A beautiful garden in san-francisco offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in san-francisco offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/san-francisco-garden.jpg",
     location: "110 Main Street, san-francisco",
     openingHours: "Open 24 hours",
@@ -243,5 +252,5 @@ export const sanFranciscounitedStateswestCoastUsaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

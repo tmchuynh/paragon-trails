@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const kyotojapanasiaPacificAttractions: Attraction[] = [
   {
     title: "kyoto Castle",
-    description: "A beautiful castle in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-castle.jpg",
     location: "45 Main Street, kyoto",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Market",
-    description: "A beautiful market in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-market.jpg",
     location: "126 Main Street, kyoto",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Cathedral",
-    description: "A beautiful cathedral in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-cathedral.jpg",
     location: "69 Main Street, kyoto",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Garden",
-    description: "A beautiful garden in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-garden.jpg",
     location: "88 Main Street, kyoto",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Park",
-    description: "A beautiful park in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-park.jpg",
     location: "30 Main Street, kyoto",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Market",
-    description: "A beautiful market in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-market.jpg",
     location: "124 Main Street, kyoto",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Park",
-    description: "A beautiful park in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-park.jpg",
     location: "179 Main Street, kyoto",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Garden",
-    description: "A beautiful garden in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-garden.jpg",
     location: "91 Main Street, kyoto",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Gallery",
-    description: "A beautiful gallery in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-gallery.jpg",
     location: "135 Main Street, kyoto",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "kyoto Castle",
-    description: "A beautiful castle in kyoto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in kyoto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kyoto-castle.jpg",
     location: "31 Main Street, kyoto",
     openingHours: "Open 24 hours",
@@ -270,5 +280,5 @@ export const kyotojapanasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

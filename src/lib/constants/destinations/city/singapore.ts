@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   {
     title: "singapore Castle",
-    description: "A beautiful castle in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-castle.jpg",
     location: "32 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Gallery",
-    description: "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-gallery.jpg",
     location: "1 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Market",
-    description: "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-market.jpg",
     location: "180 Main Street, singapore",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Monument",
-    description: "A beautiful monument in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-monument.jpg",
     location: "143 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Cathedral",
-    description: "A beautiful cathedral in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-cathedral.jpg",
     location: "122 Main Street, singapore",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Garden",
-    description: "A beautiful garden in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-garden.jpg",
     location: "10 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Market",
-    description: "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-market.jpg",
     location: "170 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Gallery",
-    description: "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-gallery.jpg",
     location: "195 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Temple",
-    description: "A beautiful temple in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-temple.jpg",
     location: "69 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Monument",
-    description: "A beautiful monument in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-monument.jpg",
     location: "175 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Cathedral",
-    description: "A beautiful cathedral in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-cathedral.jpg",
     location: "98 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Park",
-    description: "A beautiful park in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-park.jpg",
     location: "170 Main Street, singapore",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Market",
-    description: "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-market.jpg",
     location: "7 Main Street, singapore",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Gallery",
-    description: "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-gallery.jpg",
     location: "196 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Square",
-    description: "A beautiful square in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-square.jpg",
     location: "52 Main Street, singapore",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Castle",
-    description: "A beautiful castle in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-castle.jpg",
     location: "46 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "singapore Garden",
-    description: "A beautiful garden in singapore offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in singapore offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/singapore-garden.jpg",
     location: "76 Main Street, singapore",
     openingHours: "10 AM - 6 PM",
@@ -459,5 +476,5 @@ export const singaporesingaporeasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

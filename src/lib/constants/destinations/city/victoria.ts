@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const victoriaAttractions: Attraction[] = [
   {
     title: "victoria Cathedral",
-    description: "A beautiful cathedral in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-cathedral.jpg",
     location: "17 Main Street, victoria",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Gallery",
-    description: "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-gallery.jpg",
     location: "123 Main Street, victoria",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Gallery",
-    description: "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-gallery.jpg",
     location: "52 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Monument",
-    description: "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-monument.jpg",
     location: "198 Main Street, victoria",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Palace",
-    description: "A beautiful palace in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-palace.jpg",
     location: "94 Main Street, victoria",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Temple",
-    description: "A beautiful temple in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-temple.jpg",
     location: "94 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Gallery",
-    description: "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-gallery.jpg",
     location: "142 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Castle",
-    description: "A beautiful castle in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-castle.jpg",
     location: "51 Main Street, victoria",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Gallery",
-    description: "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-gallery.jpg",
     location: "147 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Monument",
-    description: "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-monument.jpg",
     location: "195 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Monument",
-    description: "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-monument.jpg",
     location: "12 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Tower",
-    description: "A beautiful tower in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-tower.jpg",
     location: "171 Main Street, victoria",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Market",
-    description: "A beautiful market in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-market.jpg",
     location: "178 Main Street, victoria",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Zoo",
-    description: "A beautiful zoo in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-zoo.jpg",
     location: "9 Main Street, victoria",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const victoriaAttractions: Attraction[] = [
   },
   {
     title: "victoria Bridge",
-    description: "A beautiful bridge in victoria offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in victoria offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/victoria-bridge.jpg",
     location: "184 Main Street, victoria",
     openingHours: "Open 24 hours",
@@ -405,5 +420,5 @@ export const victoriaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const nassauAttractions: Attraction[] = [
   {
     title: "nassau Monument",
-    description: "A beautiful monument in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-monument.jpg",
     location: "46 Main Street, nassau",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Market",
-    description: "A beautiful market in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-market.jpg",
     location: "76 Main Street, nassau",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Market",
-    description: "A beautiful market in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-market.jpg",
     location: "176 Main Street, nassau",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Cathedral",
-    description: "A beautiful cathedral in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-cathedral.jpg",
     location: "34 Main Street, nassau",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Square",
-    description: "A beautiful square in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-square.jpg",
     location: "163 Main Street, nassau",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Zoo",
-    description: "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-zoo.jpg",
     location: "141 Main Street, nassau",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Zoo",
-    description: "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-zoo.jpg",
     location: "86 Main Street, nassau",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Cathedral",
-    description: "A beautiful cathedral in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-cathedral.jpg",
     location: "113 Main Street, nassau",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Tower",
-    description: "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-tower.jpg",
     location: "171 Main Street, nassau",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Museum",
-    description: "A beautiful museum in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-museum.jpg",
     location: "104 Main Street, nassau",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Tower",
-    description: "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-tower.jpg",
     location: "40 Main Street, nassau",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Zoo",
-    description: "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-zoo.jpg",
     location: "67 Main Street, nassau",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Garden",
-    description: "A beautiful garden in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-garden.jpg",
     location: "20 Main Street, nassau",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const nassauAttractions: Attraction[] = [
   },
   {
     title: "nassau Tower",
-    description: "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in nassau offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/nassau-tower.jpg",
     location: "50 Main Street, nassau",
     openingHours: "10 AM - 6 PM",
@@ -378,5 +392,5 @@ export const nassauAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

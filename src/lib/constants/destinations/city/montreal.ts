@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   {
     title: "montreal Temple",
-    description: "A beautiful temple in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-temple.jpg",
     location: "189 Main Street, montreal",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Zoo",
-    description: "A beautiful zoo in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-zoo.jpg",
     location: "83 Main Street, montreal",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Monument",
-    description: "A beautiful monument in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-monument.jpg",
     location: "5 Main Street, montreal",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Tower",
-    description: "A beautiful tower in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-tower.jpg",
     location: "60 Main Street, montreal",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Market",
-    description: "A beautiful market in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-market.jpg",
     location: "125 Main Street, montreal",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Tower",
-    description: "A beautiful tower in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-tower.jpg",
     location: "25 Main Street, montreal",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Cathedral",
-    description: "A beautiful cathedral in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-cathedral.jpg",
     location: "161 Main Street, montreal",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Park",
-    description: "A beautiful park in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-park.jpg",
     location: "11 Main Street, montreal",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Museum",
-    description: "A beautiful museum in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-museum.jpg",
     location: "134 Main Street, montreal",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "montreal Gallery",
-    description: "A beautiful gallery in montreal offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in montreal offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/montreal-gallery.jpg",
     location: "195 Main Street, montreal",
     openingHours: "9 AM - 5 PM",
@@ -270,5 +280,5 @@ export const montrealcanadaeastCoastCanadaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const milanitalymediterraneanAttractions: Attraction[] = [
   {
     title: "milan Tower",
-    description: "A beautiful tower in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-tower.jpg",
     location: "188 Main Street, milan",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Zoo",
-    description: "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-zoo.jpg",
     location: "110 Main Street, milan",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Temple",
-    description: "A beautiful temple in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-temple.jpg",
     location: "56 Main Street, milan",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Zoo",
-    description: "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-zoo.jpg",
     location: "172 Main Street, milan",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Museum",
-    description: "A beautiful museum in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-museum.jpg",
     location: "144 Main Street, milan",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Garden",
-    description: "A beautiful garden in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-garden.jpg",
     location: "24 Main Street, milan",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Castle",
-    description: "A beautiful castle in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-castle.jpg",
     location: "12 Main Street, milan",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Tower",
-    description: "A beautiful tower in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-tower.jpg",
     location: "140 Main Street, milan",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "milan Zoo",
-    description: "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in milan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/milan-zoo.jpg",
     location: "124 Main Street, milan",
     openingHours: "9 AM - 5 PM",
@@ -243,5 +252,5 @@ export const milanitalymediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

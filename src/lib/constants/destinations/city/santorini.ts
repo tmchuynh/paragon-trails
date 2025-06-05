@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const santoriniAttractions: Attraction[] = [
   {
     title: "santorini Zoo",
-    description: "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-zoo.jpg",
     location: "47 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Museum",
-    description: "A beautiful museum in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-museum.jpg",
     location: "70 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Garden",
-    description: "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-garden.jpg",
     location: "99 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Garden",
-    description: "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-garden.jpg",
     location: "45 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Museum",
-    description: "A beautiful museum in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-museum.jpg",
     location: "90 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Monument",
-    description: "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-monument.jpg",
     location: "5 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Zoo",
-    description: "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-zoo.jpg",
     location: "116 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Cathedral",
-    description: "A beautiful cathedral in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-cathedral.jpg",
     location: "19 Main Street, santorini",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Garden",
-    description: "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-garden.jpg",
     location: "15 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Temple",
-    description: "A beautiful temple in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-temple.jpg",
     location: "28 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Square",
-    description: "A beautiful square in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-square.jpg",
     location: "125 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Monument",
-    description: "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-monument.jpg",
     location: "64 Main Street, santorini",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Garden",
-    description: "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-garden.jpg",
     location: "133 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Zoo",
-    description: "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-zoo.jpg",
     location: "124 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Tower",
-    description: "A beautiful tower in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-tower.jpg",
     location: "6 Main Street, santorini",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Square",
-    description: "A beautiful square in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-square.jpg",
     location: "48 Main Street, santorini",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Gallery",
-    description: "A beautiful gallery in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-gallery.jpg",
     location: "30 Main Street, santorini",
     openingHours: "9 AM - 5 PM",
@@ -462,7 +479,8 @@ export const santoriniAttractions: Attraction[] = [
   },
   {
     title: "santorini Monument",
-    description: "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in santorini offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santorini-monument.jpg",
     location: "121 Main Street, santorini",
     openingHours: "10 AM - 6 PM",
@@ -486,5 +504,5 @@ export const santoriniAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

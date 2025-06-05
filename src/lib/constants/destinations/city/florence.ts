@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const florenceitalymediterraneanAttractions: Attraction[] = [
   {
     title: "florence Museum",
-    description: "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-museum.jpg",
     location: "89 Main Street, florence",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Bridge",
-    description: "A beautiful bridge in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-bridge.jpg",
     location: "58 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Monument",
-    description: "A beautiful monument in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-monument.jpg",
     location: "43 Main Street, florence",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Square",
-    description: "A beautiful square in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-square.jpg",
     location: "76 Main Street, florence",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Castle",
-    description: "A beautiful castle in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-castle.jpg",
     location: "57 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Gallery",
-    description: "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-gallery.jpg",
     location: "104 Main Street, florence",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Garden",
-    description: "A beautiful garden in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-garden.jpg",
     location: "173 Main Street, florence",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Cathedral",
-    description: "A beautiful cathedral in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-cathedral.jpg",
     location: "39 Main Street, florence",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Monument",
-    description: "A beautiful monument in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-monument.jpg",
     location: "171 Main Street, florence",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Gallery",
-    description: "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-gallery.jpg",
     location: "197 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Museum",
-    description: "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-museum.jpg",
     location: "61 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Market",
-    description: "A beautiful market in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-market.jpg",
     location: "118 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Market",
-    description: "A beautiful market in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-market.jpg",
     location: "192 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Palace",
-    description: "A beautiful palace in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-palace.jpg",
     location: "18 Main Street, florence",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Castle",
-    description: "A beautiful castle in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-castle.jpg",
     location: "102 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Museum",
-    description: "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-museum.jpg",
     location: "95 Main Street, florence",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "florence Gallery",
-    description: "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in florence offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/florence-gallery.jpg",
     location: "56 Main Street, florence",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const florenceitalymediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

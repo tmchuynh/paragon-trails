@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   {
     title: "new-york-city Zoo",
-    description: "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-zoo.jpg",
     location: "101 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Temple",
-    description: "A beautiful temple in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-temple.jpg",
     location: "194 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Tower",
-    description: "A beautiful tower in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-tower.jpg",
     location: "183 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Castle",
-    description: "A beautiful castle in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-castle.jpg",
     location: "80 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Zoo",
-    description: "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-zoo.jpg",
     location: "87 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Park",
-    description: "A beautiful park in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-park.jpg",
     location: "127 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Market",
-    description: "A beautiful market in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-market.jpg",
     location: "170 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Zoo",
-    description: "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-zoo.jpg",
     location: "51 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Garden",
-    description: "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-garden.jpg",
     location: "175 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Zoo",
-    description: "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-zoo.jpg",
     location: "72 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Square",
-    description: "A beautiful square in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-square.jpg",
     location: "133 Main Street, new-york-city",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Garden",
-    description: "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-garden.jpg",
     location: "23 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Square",
-    description: "A beautiful square in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-square.jpg",
     location: "98 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Gallery",
-    description: "A beautiful gallery in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-gallery.jpg",
     location: "13 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Garden",
-    description: "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-garden.jpg",
     location: "174 Main Street, new-york-city",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Bridge",
-    description: "A beautiful bridge in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-bridge.jpg",
     location: "179 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -435,7 +451,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Museum",
-    description: "A beautiful museum in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-museum.jpg",
     location: "109 Main Street, new-york-city",
     openingHours: "9 AM - 5 PM",
@@ -462,7 +479,8 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
   },
   {
     title: "new-york-city Bridge",
-    description: "A beautiful bridge in new-york-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in new-york-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-york-city-bridge.jpg",
     location: "98 Main Street, new-york-city",
     openingHours: "10 AM - 6 PM",
@@ -486,5 +504,5 @@ export const newYorkCityunitedStateseastCoastUsaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

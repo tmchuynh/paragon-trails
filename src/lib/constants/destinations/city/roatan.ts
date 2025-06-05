@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const roatanAttractions: Attraction[] = [
   {
     title: "roatan Cathedral",
-    description: "A beautiful cathedral in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-cathedral.jpg",
     location: "46 Main Street, roatan",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Garden",
-    description: "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-garden.jpg",
     location: "198 Main Street, roatan",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Garden",
-    description: "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-garden.jpg",
     location: "21 Main Street, roatan",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Garden",
-    description: "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-garden.jpg",
     location: "95 Main Street, roatan",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Gallery",
-    description: "A beautiful gallery in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-gallery.jpg",
     location: "160 Main Street, roatan",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Tower",
-    description: "A beautiful tower in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-tower.jpg",
     location: "27 Main Street, roatan",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Museum",
-    description: "A beautiful museum in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-museum.jpg",
     location: "30 Main Street, roatan",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Museum",
-    description: "A beautiful museum in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-museum.jpg",
     location: "194 Main Street, roatan",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Square",
-    description: "A beautiful square in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-square.jpg",
     location: "160 Main Street, roatan",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Market",
-    description: "A beautiful market in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-market.jpg",
     location: "3 Main Street, roatan",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const roatanAttractions: Attraction[] = [
   },
   {
     title: "roatan Tower",
-    description: "A beautiful tower in roatan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in roatan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/roatan-tower.jpg",
     location: "47 Main Street, roatan",
     openingHours: "Open 24 hours",
@@ -297,5 +308,5 @@ export const roatanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

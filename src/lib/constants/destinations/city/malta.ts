@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const maltaAttractions: Attraction[] = [
   {
     title: "malta Garden",
-    description: "A beautiful garden in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-garden.jpg",
     location: "6 Main Street, malta",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Zoo",
-    description: "A beautiful zoo in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-zoo.jpg",
     location: "28 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Cathedral",
-    description: "A beautiful cathedral in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-cathedral.jpg",
     location: "4 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Tower",
-    description: "A beautiful tower in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-tower.jpg",
     location: "92 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Tower",
-    description: "A beautiful tower in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-tower.jpg",
     location: "149 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Monument",
-    description: "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-monument.jpg",
     location: "136 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Zoo",
-    description: "A beautiful zoo in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-zoo.jpg",
     location: "198 Main Street, malta",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Cathedral",
-    description: "A beautiful cathedral in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-cathedral.jpg",
     location: "120 Main Street, malta",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Monument",
-    description: "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-monument.jpg",
     location: "179 Main Street, malta",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Museum",
-    description: "A beautiful museum in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-museum.jpg",
     location: "172 Main Street, malta",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Castle",
-    description: "A beautiful castle in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-castle.jpg",
     location: "14 Main Street, malta",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Palace",
-    description: "A beautiful palace in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-palace.jpg",
     location: "165 Main Street, malta",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Monument",
-    description: "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-monument.jpg",
     location: "197 Main Street, malta",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const maltaAttractions: Attraction[] = [
   },
   {
     title: "malta Square",
-    description: "A beautiful square in malta offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in malta offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/malta-square.jpg",
     location: "135 Main Street, malta",
     openingHours: "10 AM - 6 PM",
@@ -378,5 +392,5 @@ export const maltaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

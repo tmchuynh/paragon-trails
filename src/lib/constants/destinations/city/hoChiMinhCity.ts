@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const hoChiMinhCityAttractions: Attraction[] = [
   {
     title: "ho-chi-minh-city Zoo",
-    description: "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-zoo.jpg",
     location: "25 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Market",
-    description: "A beautiful market in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-market.jpg",
     location: "170 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Garden",
-    description: "A beautiful garden in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-garden.jpg",
     location: "112 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Square",
-    description: "A beautiful square in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-square.jpg",
     location: "24 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Museum",
-    description: "A beautiful museum in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-museum.jpg",
     location: "34 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Temple",
-    description: "A beautiful temple in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-temple.jpg",
     location: "112 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Cathedral",
-    description: "A beautiful cathedral in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-cathedral.jpg",
     location: "131 Main Street, ho-chi-minh-city",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Zoo",
-    description: "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-zoo.jpg",
     location: "149 Main Street, ho-chi-minh-city",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Bridge",
-    description: "A beautiful bridge in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-bridge.jpg",
     location: "140 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Cathedral",
-    description: "A beautiful cathedral in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-cathedral.jpg",
     location: "6 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Castle",
-    description: "A beautiful castle in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-castle.jpg",
     location: "89 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Garden",
-    description: "A beautiful garden in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-garden.jpg",
     location: "107 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Castle",
-    description: "A beautiful castle in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-castle.jpg",
     location: "33 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Zoo",
-    description: "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-zoo.jpg",
     location: "154 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -381,7 +395,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Park",
-    description: "A beautiful park in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-park.jpg",
     location: "78 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Bridge",
-    description: "A beautiful bridge in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-bridge.jpg",
     location: "191 Main Street, ho-chi-minh-city",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const hoChiMinhCityAttractions: Attraction[] = [
   },
   {
     title: "ho-chi-minh-city Square",
-    description: "A beautiful square in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in ho-chi-minh-city offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ho-chi-minh-city-square.jpg",
     location: "22 Main Street, ho-chi-minh-city",
     openingHours: "9 AM - 5 PM",
@@ -459,5 +476,5 @@ export const hoChiMinhCityAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   {
     title: "dubai Gallery",
-    description: "A beautiful gallery in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-gallery.jpg",
     location: "164 Main Street, dubai",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Temple",
-    description: "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-temple.jpg",
     location: "102 Main Street, dubai",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Palace",
-    description: "A beautiful palace in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-palace.jpg",
     location: "81 Main Street, dubai",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Zoo",
-    description: "A beautiful zoo in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-zoo.jpg",
     location: "163 Main Street, dubai",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Cathedral",
-    description: "A beautiful cathedral in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-cathedral.jpg",
     location: "114 Main Street, dubai",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Garden",
-    description: "A beautiful garden in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-garden.jpg",
     location: "125 Main Street, dubai",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Museum",
-    description: "A beautiful museum in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-museum.jpg",
     location: "102 Main Street, dubai",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Gallery",
-    description: "A beautiful gallery in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-gallery.jpg",
     location: "69 Main Street, dubai",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Castle",
-    description: "A beautiful castle in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-castle.jpg",
     location: "198 Main Street, dubai",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Temple",
-    description: "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-temple.jpg",
     location: "180 Main Street, dubai",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Temple",
-    description: "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-temple.jpg",
     location: "46 Main Street, dubai",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
   },
   {
     title: "dubai Park",
-    description: "A beautiful park in dubai offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in dubai offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/dubai-park.jpg",
     location: "170 Main Street, dubai",
     openingHours: "9 AM - 5 PM",
@@ -324,5 +336,5 @@ export const dubaiunitedArabEmiratesmiddleEastAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

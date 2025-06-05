@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const baliAttractions: Attraction[] = [
   {
     title: "bali Park",
-    description: "A beautiful park in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-park.jpg",
     location: "172 Main Street, bali",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Palace",
-    description: "A beautiful palace in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-palace.jpg",
     location: "2 Main Street, bali",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Castle",
-    description: "A beautiful castle in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-castle.jpg",
     location: "61 Main Street, bali",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Temple",
-    description: "A beautiful temple in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-temple.jpg",
     location: "87 Main Street, bali",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Cathedral",
-    description: "A beautiful cathedral in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-cathedral.jpg",
     location: "192 Main Street, bali",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Monument",
-    description: "A beautiful monument in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-monument.jpg",
     location: "184 Main Street, bali",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Zoo",
-    description: "A beautiful zoo in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-zoo.jpg",
     location: "189 Main Street, bali",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Gallery",
-    description: "A beautiful gallery in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-gallery.jpg",
     location: "157 Main Street, bali",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Park",
-    description: "A beautiful park in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-park.jpg",
     location: "122 Main Street, bali",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const baliAttractions: Attraction[] = [
   },
   {
     title: "bali Palace",
-    description: "A beautiful palace in bali offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in bali offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/bali-palace.jpg",
     location: "188 Main Street, bali",
     openingHours: "Open 24 hours",
@@ -270,5 +280,5 @@ export const baliAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

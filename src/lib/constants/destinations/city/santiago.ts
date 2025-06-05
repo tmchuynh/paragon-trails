@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const santiagoAttractions: Attraction[] = [
   {
     title: "santiago Square",
-    description: "A beautiful square in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-square.jpg",
     location: "13 Main Street, santiago",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Gallery",
-    description: "A beautiful gallery in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-gallery.jpg",
     location: "194 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Museum",
-    description: "A beautiful museum in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-museum.jpg",
     location: "57 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Bridge",
-    description: "A beautiful bridge in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-bridge.jpg",
     location: "160 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Cathedral",
-    description: "A beautiful cathedral in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-cathedral.jpg",
     location: "157 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Square",
-    description: "A beautiful square in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-square.jpg",
     location: "126 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Cathedral",
-    description: "A beautiful cathedral in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-cathedral.jpg",
     location: "143 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Tower",
-    description: "A beautiful tower in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-tower.jpg",
     location: "114 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Castle",
-    description: "A beautiful castle in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-castle.jpg",
     location: "164 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Monument",
-    description: "A beautiful monument in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-monument.jpg",
     location: "158 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Castle",
-    description: "A beautiful castle in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-castle.jpg",
     location: "38 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Temple",
-    description: "A beautiful temple in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-temple.jpg",
     location: "170 Main Street, santiago",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const santiagoAttractions: Attraction[] = [
   },
   {
     title: "santiago Bridge",
-    description: "A beautiful bridge in santiago offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in santiago offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/santiago-bridge.jpg",
     location: "153 Main Street, santiago",
     openingHours: "Open 24 hours",
@@ -351,5 +364,5 @@ export const santiagoAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

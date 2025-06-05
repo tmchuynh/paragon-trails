@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   {
     title: "kiel Tower",
-    description: "A beautiful tower in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-tower.jpg",
     location: "113 Main Street, kiel",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Bridge",
-    description: "A beautiful bridge in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-bridge.jpg",
     location: "105 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Square",
-    description: "A beautiful square in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-square.jpg",
     location: "192 Main Street, kiel",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Zoo",
-    description: "A beautiful zoo in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-zoo.jpg",
     location: "95 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Museum",
-    description: "A beautiful museum in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-museum.jpg",
     location: "188 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Tower",
-    description: "A beautiful tower in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-tower.jpg",
     location: "116 Main Street, kiel",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Castle",
-    description: "A beautiful castle in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-castle.jpg",
     location: "154 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Park",
-    description: "A beautiful park in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-park.jpg",
     location: "99 Main Street, kiel",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Temple",
-    description: "A beautiful temple in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-temple.jpg",
     location: "180 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Castle",
-    description: "A beautiful castle in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-castle.jpg",
     location: "13 Main Street, kiel",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Park",
-    description: "A beautiful park in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-park.jpg",
     location: "126 Main Street, kiel",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Garden",
-    description: "A beautiful garden in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-garden.jpg",
     location: "173 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "kiel Temple",
-    description: "A beautiful temple in kiel offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in kiel offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/kiel-temple.jpg",
     location: "30 Main Street, kiel",
     openingHours: "10 AM - 6 PM",
@@ -351,5 +364,5 @@ export const kielgermanynorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

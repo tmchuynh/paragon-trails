@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   {
     title: "sydney Square",
-    description: "A beautiful square in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-square.jpg",
     location: "132 Main Street, sydney",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Palace",
-    description: "A beautiful palace in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-palace.jpg",
     location: "177 Main Street, sydney",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Garden",
-    description: "A beautiful garden in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-garden.jpg",
     location: "159 Main Street, sydney",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Tower",
-    description: "A beautiful tower in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-tower.jpg",
     location: "28 Main Street, sydney",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Gallery",
-    description: "A beautiful gallery in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-gallery.jpg",
     location: "34 Main Street, sydney",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Garden",
-    description: "A beautiful garden in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-garden.jpg",
     location: "3 Main Street, sydney",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Temple",
-    description: "A beautiful temple in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-temple.jpg",
     location: "165 Main Street, sydney",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Museum",
-    description: "A beautiful museum in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-museum.jpg",
     location: "151 Main Street, sydney",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Museum",
-    description: "A beautiful museum in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-museum.jpg",
     location: "118 Main Street, sydney",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Gallery",
-    description: "A beautiful gallery in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-gallery.jpg",
     location: "119 Main Street, sydney",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Zoo",
-    description: "A beautiful zoo in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-zoo.jpg",
     location: "181 Main Street, sydney",
     openingHours: "Open 24 hours",
@@ -300,7 +311,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Park",
-    description: "A beautiful park in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-park.jpg",
     location: "86 Main Street, sydney",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Cathedral",
-    description: "A beautiful cathedral in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-cathedral.jpg",
     location: "119 Main Street, sydney",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
   },
   {
     title: "sydney Castle",
-    description: "A beautiful castle in sydney offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in sydney offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/sydney-castle.jpg",
     location: "78 Main Street, sydney",
     openingHours: "Open 24 hours",
@@ -378,5 +392,5 @@ export const sydneyaustraliaasiaPacificAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];

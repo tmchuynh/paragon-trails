@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const veniceitalymediterraneanAttractions: Attraction[] = [
   {
     title: "venice Monument",
-    description: "A beautiful monument in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-monument.jpg",
     location: "151 Main Street, venice",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Castle",
-    description: "A beautiful castle in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-castle.jpg",
     location: "130 Main Street, venice",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Square",
-    description: "A beautiful square in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-square.jpg",
     location: "156 Main Street, venice",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Tower",
-    description: "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-tower.jpg",
     location: "119 Main Street, venice",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Tower",
-    description: "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-tower.jpg",
     location: "39 Main Street, venice",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Tower",
-    description: "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-tower.jpg",
     location: "131 Main Street, venice",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Zoo",
-    description: "A beautiful zoo in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-zoo.jpg",
     location: "160 Main Street, venice",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Cathedral",
-    description: "A beautiful cathedral in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-cathedral.jpg",
     location: "2 Main Street, venice",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Palace",
-    description: "A beautiful palace in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-palace.jpg",
     location: "200 Main Street, venice",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
   },
   {
     title: "venice Market",
-    description: "A beautiful market in venice offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in venice offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/venice-market.jpg",
     location: "181 Main Street, venice",
     openingHours: "10 AM - 6 PM",
@@ -270,5 +280,5 @@ export const veniceitalymediterraneanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

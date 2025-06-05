@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const skagwayAttractions: Attraction[] = [
   {
     title: "skagway Monument",
-    description: "A beautiful monument in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-monument.jpg",
     location: "10 Main Street, skagway",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Monument",
-    description: "A beautiful monument in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-monument.jpg",
     location: "118 Main Street, skagway",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Tower",
-    description: "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-tower.jpg",
     location: "95 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Zoo",
-    description: "A beautiful zoo in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-zoo.jpg",
     location: "134 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Gallery",
-    description: "A beautiful gallery in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-gallery.jpg",
     location: "89 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Tower",
-    description: "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-tower.jpg",
     location: "56 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Square",
-    description: "A beautiful square in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-square.jpg",
     location: "176 Main Street, skagway",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Bridge",
-    description: "A beautiful bridge in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-bridge.jpg",
     location: "22 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Cathedral",
-    description: "A beautiful cathedral in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-cathedral.jpg",
     location: "189 Main Street, skagway",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Bridge",
-    description: "A beautiful bridge in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-bridge.jpg",
     location: "17 Main Street, skagway",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Zoo",
-    description: "A beautiful zoo in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-zoo.jpg",
     location: "69 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Tower",
-    description: "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-tower.jpg",
     location: "16 Main Street, skagway",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Palace",
-    description: "A beautiful palace in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-palace.jpg",
     location: "15 Main Street, skagway",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const skagwayAttractions: Attraction[] = [
   },
   {
     title: "skagway Market",
-    description: "A beautiful market in skagway offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in skagway offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/skagway-market.jpg",
     location: "136 Main Street, skagway",
     openingHours: "Open 24 hours",
@@ -378,5 +392,5 @@ export const skagwayAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

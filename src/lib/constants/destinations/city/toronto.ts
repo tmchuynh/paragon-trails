@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   {
     title: "toronto Gallery",
-    description: "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-gallery.jpg",
     location: "80 Main Street, toronto",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Palace",
-    description: "A beautiful palace in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-palace.jpg",
     location: "31 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Gallery",
-    description: "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-gallery.jpg",
     location: "98 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Garden",
-    description: "A beautiful garden in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-garden.jpg",
     location: "48 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Tower",
-    description: "A beautiful tower in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-tower.jpg",
     location: "75 Main Street, toronto",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Temple",
-    description: "A beautiful temple in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-temple.jpg",
     location: "35 Main Street, toronto",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Market",
-    description: "A beautiful market in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-market.jpg",
     location: "101 Main Street, toronto",
     openingHours: "9 AM - 5 PM",
@@ -192,7 +199,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Park",
-    description: "A beautiful park in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-park.jpg",
     location: "96 Main Street, toronto",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Zoo",
-    description: "A beautiful zoo in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-zoo.jpg",
     location: "85 Main Street, toronto",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Garden",
-    description: "A beautiful garden in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-garden.jpg",
     location: "153 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Bridge",
-    description: "A beautiful bridge in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-bridge.jpg",
     location: "195 Main Street, toronto",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Castle",
-    description: "A beautiful castle in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-castle.jpg",
     location: "126 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -327,7 +339,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Cathedral",
-    description: "A beautiful cathedral in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-cathedral.jpg",
     location: "182 Main Street, toronto",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Gallery",
-    description: "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-gallery.jpg",
     location: "77 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
   },
   {
     title: "toronto Market",
-    description: "A beautiful market in toronto offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in toronto offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/toronto-market.jpg",
     location: "159 Main Street, toronto",
     openingHours: "10 AM - 6 PM",
@@ -405,5 +420,5 @@ export const torontocanadaeastCoastCanadaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

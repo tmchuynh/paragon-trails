@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const ketchikanAttractions: Attraction[] = [
   {
     title: "ketchikan Tower",
-    description: "A beautiful tower in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-tower.jpg",
     location: "191 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Garden",
-    description: "A beautiful garden in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-garden.jpg",
     location: "48 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Bridge",
-    description: "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-bridge.jpg",
     location: "101 Main Street, ketchikan",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Zoo",
-    description: "A beautiful zoo in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-zoo.jpg",
     location: "149 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Museum",
-    description: "A beautiful museum in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-museum.jpg",
     location: "119 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Market",
-    description: "A beautiful market in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-market.jpg",
     location: "196 Main Street, ketchikan",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Bridge",
-    description: "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-bridge.jpg",
     location: "178 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Bridge",
-    description: "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-bridge.jpg",
     location: "6 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Temple",
-    description: "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-temple.jpg",
     location: "162 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Bridge",
-    description: "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-bridge.jpg",
     location: "149 Main Street, ketchikan",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Cathedral",
-    description: "A beautiful cathedral in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-cathedral.jpg",
     location: "72 Main Street, ketchikan",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Temple",
-    description: "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-temple.jpg",
     location: "115 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Market",
-    description: "A beautiful market in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-market.jpg",
     location: "92 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -354,7 +367,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Museum",
-    description: "A beautiful museum in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-museum.jpg",
     location: "152 Main Street, ketchikan",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Palace",
-    description: "A beautiful palace in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-palace.jpg",
     location: "20 Main Street, ketchikan",
     openingHours: "10 AM - 6 PM",
@@ -408,7 +423,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Temple",
-    description: "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-temple.jpg",
     location: "181 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Square",
-    description: "A beautiful square in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-square.jpg",
     location: "27 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -462,7 +479,8 @@ export const ketchikanAttractions: Attraction[] = [
   },
   {
     title: "ketchikan Temple",
-    description: "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in ketchikan offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/ketchikan-temple.jpg",
     location: "142 Main Street, ketchikan",
     openingHours: "Open 24 hours",
@@ -486,5 +504,5 @@ export const ketchikanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: false,
-  }
+  },
 ];

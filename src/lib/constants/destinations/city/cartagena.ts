@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const cartagenaAttractions: Attraction[] = [
   {
     title: "cartagena Market",
-    description: "A beautiful market in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-market.jpg",
     location: "57 Main Street, cartagena",
     openingHours: "10 AM - 6 PM",
@@ -30,7 +31,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Cathedral",
-    description: "A beautiful cathedral in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-cathedral.jpg",
     location: "136 Main Street, cartagena",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Park",
-    description: "A beautiful park in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-park.jpg",
     location: "16 Main Street, cartagena",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Bridge",
-    description: "A beautiful bridge in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-bridge.jpg",
     location: "54 Main Street, cartagena",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Bridge",
-    description: "A beautiful bridge in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-bridge.jpg",
     location: "132 Main Street, cartagena",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Monument",
-    description: "A beautiful monument in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-monument.jpg",
     location: "191 Main Street, cartagena",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Gallery",
-    description: "A beautiful gallery in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-gallery.jpg",
     location: "89 Main Street, cartagena",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Palace",
-    description: "A beautiful palace in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-palace.jpg",
     location: "83 Main Street, cartagena",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const cartagenaAttractions: Attraction[] = [
   },
   {
     title: "cartagena Museum",
-    description: "A beautiful museum in cartagena offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in cartagena offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/cartagena-museum.jpg",
     location: "93 Main Street, cartagena",
     openingHours: "Open 24 hours",
@@ -243,5 +252,5 @@ export const cartagenaAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

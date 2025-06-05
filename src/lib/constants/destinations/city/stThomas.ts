@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const stThomasAttractions: Attraction[] = [
   {
     title: "st-thomas Square",
-    description: "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-square.jpg",
     location: "16 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Park",
-    description: "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-park.jpg",
     location: "99 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -57,7 +59,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Gallery",
-    description: "A beautiful gallery in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-gallery.jpg",
     location: "107 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Square",
-    description: "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-square.jpg",
     location: "184 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Square",
-    description: "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-square.jpg",
     location: "148 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Tower",
-    description: "A beautiful tower in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-tower.jpg",
     location: "189 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Gallery",
-    description: "A beautiful gallery in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-gallery.jpg",
     location: "136 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -192,7 +199,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Castle",
-    description: "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-castle.jpg",
     location: "28 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Park",
-    description: "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-park.jpg",
     location: "157 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Castle",
-    description: "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-castle.jpg",
     location: "17 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -273,7 +283,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Park",
-    description: "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-park.jpg",
     location: "110 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Castle",
-    description: "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-castle.jpg",
     location: "141 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -327,7 +339,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Museum",
-    description: "A beautiful museum in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-museum.jpg",
     location: "36 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -354,7 +367,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Castle",
-    description: "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-castle.jpg",
     location: "40 Main Street, st-thomas",
     openingHours: "Open 24 hours",
@@ -381,7 +395,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Park",
-    description: "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful park in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-park.jpg",
     location: "80 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -408,7 +423,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Temple",
-    description: "A beautiful temple in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-temple.jpg",
     location: "168 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -435,7 +451,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Castle",
-    description: "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-castle.jpg",
     location: "126 Main Street, st-thomas",
     openingHours: "10 AM - 6 PM",
@@ -462,7 +479,8 @@ export const stThomasAttractions: Attraction[] = [
   },
   {
     title: "st-thomas Temple",
-    description: "A beautiful temple in st-thomas offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in st-thomas offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-thomas-temple.jpg",
     location: "50 Main Street, st-thomas",
     openingHours: "9 AM - 5 PM",
@@ -486,5 +504,5 @@ export const stThomasAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

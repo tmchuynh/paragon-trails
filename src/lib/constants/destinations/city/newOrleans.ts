@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   {
     title: "new-orleans Museum",
-    description: "A beautiful museum in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-museum.jpg",
     location: "39 Main Street, new-orleans",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Bridge",
-    description: "A beautiful bridge in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-bridge.jpg",
     location: "199 Main Street, new-orleans",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Garden",
-    description: "A beautiful garden in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-garden.jpg",
     location: "115 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Gallery",
-    description: "A beautiful gallery in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-gallery.jpg",
     location: "120 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -111,7 +115,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Cathedral",
-    description: "A beautiful cathedral in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-cathedral.jpg",
     location: "76 Main Street, new-orleans",
     openingHours: "9 AM - 5 PM",
@@ -138,7 +143,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Gallery",
-    description: "A beautiful gallery in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-gallery.jpg",
     location: "121 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -165,7 +171,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Tower",
-    description: "A beautiful tower in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-tower.jpg",
     location: "70 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Castle",
-    description: "A beautiful castle in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-castle.jpg",
     location: "87 Main Street, new-orleans",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Garden",
-    description: "A beautiful garden in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-garden.jpg",
     location: "138 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -246,7 +255,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Monument",
-    description: "A beautiful monument in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-monument.jpg",
     location: "105 Main Street, new-orleans",
     openingHours: "10 AM - 6 PM",
@@ -273,7 +283,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Market",
-    description: "A beautiful market in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-market.jpg",
     location: "179 Main Street, new-orleans",
     openingHours: "9 AM - 5 PM",
@@ -300,7 +311,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Market",
-    description: "A beautiful market in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-market.jpg",
     location: "172 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Palace",
-    description: "A beautiful palace in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-palace.jpg",
     location: "30 Main Street, new-orleans",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "new-orleans Bridge",
-    description: "A beautiful bridge in new-orleans offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in new-orleans offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/new-orleans-bridge.jpg",
     location: "9 Main Street, new-orleans",
     openingHours: "Open 24 hours",
@@ -378,5 +392,5 @@ export const newOrleansunitedStatescaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

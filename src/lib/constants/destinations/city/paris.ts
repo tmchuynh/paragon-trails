@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   {
     title: "paris Cathedral",
-    description: "A beautiful cathedral in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-cathedral.jpg",
     location: "24 Main Street, paris",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Museum",
-    description: "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-museum.jpg",
     location: "186 Main Street, paris",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Museum",
-    description: "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-museum.jpg",
     location: "55 Main Street, paris",
     openingHours: "Open 24 hours",
@@ -84,7 +87,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Cathedral",
-    description: "A beautiful cathedral in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-cathedral.jpg",
     location: "148 Main Street, paris",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Gallery",
-    description: "A beautiful gallery in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-gallery.jpg",
     location: "32 Main Street, paris",
     openingHours: "10 AM - 6 PM",
@@ -138,7 +143,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Tower",
-    description: "A beautiful tower in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-tower.jpg",
     location: "18 Main Street, paris",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Zoo",
-    description: "A beautiful zoo in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-zoo.jpg",
     location: "146 Main Street, paris",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Museum",
-    description: "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-museum.jpg",
     location: "133 Main Street, paris",
     openingHours: "Open 24 hours",
@@ -219,7 +227,8 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
   },
   {
     title: "paris Castle",
-    description: "A beautiful castle in paris offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful castle in paris offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/paris-castle.jpg",
     location: "65 Main Street, paris",
     openingHours: "9 AM - 5 PM",
@@ -243,5 +252,5 @@ export const parisfrancenorthernEuropeAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: true,
-  }
+  },
 ];

@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   {
     title: "fort-lauderdale Market",
-    description: "A beautiful market in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-market.jpg",
     location: "168 Main Street, fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -30,7 +31,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Monument",
-    description: "A beautiful monument in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-monument.jpg",
     location: "97 Main Street, fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -57,7 +59,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Square",
-    description: "A beautiful square in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-square.jpg",
     location: "144 Main Street, fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -84,7 +87,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Market",
-    description: "A beautiful market in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-market.jpg",
     location: "5 Main Street, fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -111,7 +115,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Cathedral",
-    description: "A beautiful cathedral in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-cathedral.jpg",
     location: "7 Main Street, fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Garden",
-    description: "A beautiful garden in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-garden.jpg",
     location: "89 Main Street, fort-lauderdale",
     openingHours: "10 AM - 6 PM",
@@ -165,7 +171,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Garden",
-    description: "A beautiful garden in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-garden.jpg",
     location: "117 Main Street, fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Bridge",
-    description: "A beautiful bridge in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-bridge.jpg",
     location: "128 Main Street, fort-lauderdale",
     openingHours: "9 AM - 5 PM",
@@ -219,7 +227,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Square",
-    description: "A beautiful square in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-square.jpg",
     location: "134 Main Street, fort-lauderdale",
     openingHours: "10 AM - 6 PM",
@@ -246,7 +255,8 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
   },
   {
     title: "fort-lauderdale Palace",
-    description: "A beautiful palace in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful palace in fort-lauderdale offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/fort-lauderdale-palace.jpg",
     location: "13 Main Street, fort-lauderdale",
     openingHours: "Open 24 hours",
@@ -270,5 +280,5 @@ export const fortLauderdaleunitedStatescaribbeanAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: false,
     isWheelchairAccessible: false,
-  }
+  },
 ];

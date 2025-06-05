@@ -3,7 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const stPetersburgAttractions: Attraction[] = [
   {
     title: "st-petersburg Square",
-    description: "A beautiful square in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-square.jpg",
     location: "141 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -30,7 +31,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Museum",
-    description: "A beautiful museum in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-museum.jpg",
     location: "100 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -57,7 +59,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Museum",
-    description: "A beautiful museum in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful museum in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-museum.jpg",
     location: "28 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -84,7 +87,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Cathedral",
-    description: "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-cathedral.jpg",
     location: "22 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -111,7 +115,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Bridge",
-    description: "A beautiful bridge in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful bridge in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-bridge.jpg",
     location: "140 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -138,7 +143,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Temple",
-    description: "A beautiful temple in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful temple in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-temple.jpg",
     location: "71 Main Street, st-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -165,7 +171,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Cathedral",
-    description: "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-cathedral.jpg",
     location: "50 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -192,7 +199,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Zoo",
-    description: "A beautiful zoo in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-zoo.jpg",
     location: "63 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -219,7 +227,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Square",
-    description: "A beautiful square in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful square in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-square.jpg",
     location: "66 Main Street, st-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -246,7 +255,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Gallery",
-    description: "A beautiful gallery in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-gallery.jpg",
     location: "104 Main Street, st-petersburg",
     openingHours: "9 AM - 5 PM",
@@ -273,7 +283,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Gallery",
-    description: "A beautiful gallery in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful gallery in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-gallery.jpg",
     location: "191 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -300,7 +311,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Cathedral",
-    description: "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful cathedral in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-cathedral.jpg",
     location: "16 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -327,7 +339,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Zoo",
-    description: "A beautiful zoo in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful zoo in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-zoo.jpg",
     location: "72 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -354,7 +367,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Garden",
-    description: "A beautiful garden in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful garden in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-garden.jpg",
     location: "161 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -381,7 +395,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Tower",
-    description: "A beautiful tower in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-tower.jpg",
     location: "72 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -408,7 +423,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Monument",
-    description: "A beautiful monument in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful monument in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-monument.jpg",
     location: "102 Main Street, st-petersburg",
     openingHours: "Open 24 hours",
@@ -435,7 +451,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Market",
-    description: "A beautiful market in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful market in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-market.jpg",
     location: "69 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -462,7 +479,8 @@ export const stPetersburgAttractions: Attraction[] = [
   },
   {
     title: "st-petersburg Tower",
-    description: "A beautiful tower in st-petersburg offering visitors a unique cultural experience and stunning views.",
+    description:
+      "A beautiful tower in st-petersburg offering visitors a unique cultural experience and stunning views.",
     imageUrl: "https://plus.unsplash.com/st-petersburg-tower.jpg",
     location: "89 Main Street, st-petersburg",
     openingHours: "10 AM - 6 PM",
@@ -486,5 +504,5 @@ export const stPetersburgAttractions: Attraction[] = [
     isPopular: true,
     isPetFriendly: true,
     isWheelchairAccessible: true,
-  }
+  },
 ];
