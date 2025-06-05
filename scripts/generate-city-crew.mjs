@@ -274,7 +274,7 @@ async function generateCityFile(city) {
   // Follow the same variable naming convention as tour guides
   let variableName;
   if (formattedCountry && formattedRegion) {
-    variableName = `${formattedName}${formattedCountry}${formattedRegion}Crew`;
+    variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Crew`;
   } else {
     variableName = `${formattedName}Crew`;
   }

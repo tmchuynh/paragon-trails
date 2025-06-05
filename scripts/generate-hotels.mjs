@@ -499,7 +499,7 @@ function parseHotelObject(objString) {
 // Generate hotels and write to file
 async function generateCityFile(city) {
   const formattedName = formatKebabToCamelCase(removeAccents(city));
-  const variableName = `${formattedName}Hotels`;
+  const variableName = `${formattedName.replaceAll(".", "")}Hotels`;
 
   // Use camelCase for folder name
   const destDir = path.join(

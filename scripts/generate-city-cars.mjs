@@ -739,7 +739,7 @@ async function generateCityFile(city) {
   // Follow the same variable naming convention as yachts
   let variableName;
   if (formattedCountry && formattedRegion) {
-    variableName = `${formattedName}${formattedCountry}${formattedRegion}Cars`;
+    variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
   } else {
     variableName = `${formattedName}Cars`;
   }

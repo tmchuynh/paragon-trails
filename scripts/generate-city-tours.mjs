@@ -334,7 +334,7 @@ async function loadCityGuides(city) {
     "constants",
     "staff",
     "guides",
-    `${formattedName}.ts`
+    `${formattedName}.ts`,
   );
 
   try {
@@ -435,8 +435,8 @@ function generateTour(city, index, guides) {
     new Set(
       Array(numThemes)
         .fill(0)
-        .map(() => tourThemes[Math.floor(Math.random() * tourThemes.length)])
-    )
+        .map(() => tourThemes[Math.floor(Math.random() * tourThemes.length)]),
+    ),
   );
 
   // Generate tour duration
@@ -465,9 +465,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)]
-        )
-    )
+          () => includedItems[Math.floor(Math.random() * includedItems.length)],
+        ),
+    ),
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -479,9 +479,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate requirements
@@ -494,9 +494,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate languages offered

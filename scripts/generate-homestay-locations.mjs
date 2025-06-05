@@ -213,13 +213,7 @@ function getRegionForCity(city) {
   return region;
 }
 
-const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
-const selectedLanguages = getRandomLanguages(languageCount, regionForLanguages);
-const hostLanguages = selectedLanguages.map((lang) => lang.name);
 
-if (!hostLanguages.includes("English")) {
-  hostLanguages.push("English");
-}
 
 // Generate a host for a specific city
 function generateHost(city) {
@@ -258,6 +252,17 @@ function generateHost(city) {
     default:
       regionForLanguages = "global";
       break;
+  }
+
+  const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
+  const selectedLanguages = getRandomLanguages(
+    languageCount,
+    regionForLanguages
+  );
+  const hostLanguages = selectedLanguages.map((lang) => lang.name);
+
+  if (!hostLanguages.includes("English")) {
+    hostLanguages.push("English");
   }
 
   // Use the utility function instead of concatenating random first and last names
@@ -413,7 +418,7 @@ async function generateCityHomestays(city) {
 
   // Create file content with proper formatting
   let content = `import { Homestay } from "@/lib/interfaces/people/homestay";\n\n`;
-  content += `export const ${variableName}: Homestay[] = [\n`;
+  content += `export const ${variableName.replaceAll(".", "")}: Homestay[] = [\n`;
 
   // Each homestay with its hosts array
   homestays.forEach((homestay, homestayIndex) => {

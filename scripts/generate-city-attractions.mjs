@@ -561,7 +561,7 @@ async function generateCityFile(city) {
 
   // For the variable name, use camelCase for consistency
   const cityInCamelCase = formatKebabToCamelCase(fileNameBase);
-  const variableName = `${cityInCamelCase}${formattedCountry}${formattedRegion}Attractions`;
+  const variableName = `${cityInCamelCase}${formattedCountry.replaceAll(".", "")}${formattedRegion}Attractions`;
 
   const destDir = path.join(
     process.cwd(),

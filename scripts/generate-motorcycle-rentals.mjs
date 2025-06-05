@@ -435,11 +435,30 @@ function generateMotorcycle(cityName, index) {
   // Always include "Valid Motorcycle License" as a requirement
   if (!requirements.includes("Valid Motorcycle License")) {
     requirements.unshift("Valid Motorcycle License");
+
+    const pickupLocations = [
+      "Main Terminal", // General airport terminal
+      "VIP Terminal", // Private or premium terminal
+      "Car Rental Center", // Dedicated car rental facility (often offsite)
+      "Airport Curbside", // Direct curbside pickup at airport
+      "Hotel Lobby", // Valet or front desk pickup
+      "Downtown Office", // Rental branch in city center
+      "Train Station", // Common for urban or intercity pickup
+      "Bus Terminal", // Useful for intermodal travelers
+      "Convention Center", // For events or business travelers
+      "Residential Address", // Home delivery or peer-to-peer rental
+      "Shopping Mall", // Parking garage pickup or storefront
+      "Cruise Port", // For cities with major cruise terminals
+      "Transit Hub", // Covers subway/light rail stations
+      "University Campus", // Common for student rentals or short trips
+      "Dealer Lot", // Often used for peer-to-peer pickup
+    ];
   }
 
   const rentalPricePerDay = Math.floor(Math.random() * 150) + 50; // $50-$200
   const available = Math.random() > 0.3; // 70% available
-  const location = locations[Math.floor(Math.random() * locations.length)];
+  const location =
+    pickupLocations[Math.floor(Math.random() * pickupLocations.length)];
 
   // Generate pickup location (if different from city location)
   const pickUpLocation = location;
@@ -455,7 +474,7 @@ function generateMotorcycle(cityName, index) {
     : country;
 
   const dropOffLocation = hasDifferentDropOff
-    ? locations[Math.floor(Math.random() * locations.length)]
+    ? pickupLocations[Math.floor(Math.random() * pickupLocations.length)]
     : pickUpLocation;
 
   return {
@@ -543,13 +562,13 @@ async function extractExistingMotorcycles(filePath) {
   const motorcycles = await extractObjectsFromFile(
     filePath,
     "Motorcycle",
-    motorcycleParser,
+    motorcycleParser
   );
 
   // Add validation to prevent errors with null/empty motorcycles array
   if (!motorcycles || !Array.isArray(motorcycles) || motorcycles.length === 0) {
     console.warn(
-      `Could not parse existing motorcycles in ${filePath}, will create fresh data`,
+      `Could not parse existing motorcycles in ${filePath}, will create fresh data`
     );
     return [];
   }
@@ -566,7 +585,7 @@ async function generateCityFile(city) {
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
   const formattedName = formatKebabToCamelCase(removeAccents(city));
 
-  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Motorcycles`;
+  const variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Motorcycles`;
 
   const destDir = path.join(
     process.cwd(),
@@ -574,7 +593,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "motorcycles",
+    "motorcycles"
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -596,13 +615,13 @@ async function generateCityFile(city) {
       // Add validation to prevent errors with null/empty motorcycles array
       if (!motorcycles || !Array.isArray(motorcycles)) {
         console.warn(
-          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`,
+          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`
         );
         motorcycles = [];
       }
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -613,7 +632,7 @@ async function generateCityFile(city) {
   const newMotorcycles = Array(numNewMotorcycles)
     .fill(0)
     .map((_, index) =>
-      generateMotorcycle(city, motorcycles.length + index + 1),
+      generateMotorcycle(city, motorcycles.length + index + 1)
     );
 
   // Combine existing and new motorcycles
@@ -651,7 +670,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 

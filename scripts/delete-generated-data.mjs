@@ -12,6 +12,11 @@ import {
 // node scripts/delete-generated-data.mjs --type attractions
 // node scripts/delete-generated-data.mjs --type drivers
 // node scripts/delete-generated-data.mjs --type motorcycles
+// node scripts/delete-generated-data.mjs --type yachts
+// node scripts/delete-generated-data.mjs --type cars
+// node scripts/delete-generated-data.mjs --type hotels
+// node scripts/delete-generated-data.mjs --type tours
+// node scripts/delete-generated-data.mjs --type homestays
 // node scripts/delete-generated-data.mjs --type all
 // Add options: --force, --city
 
@@ -30,7 +35,7 @@ const entityTypePaths = {
   cars: ["src", "lib", "constants", "rentals", "cars"],
   hotels: ["src", "lib", "constants", "destinations", "hotels"],
   tours: ["src", "lib", "constants", "tours"],
-  yachts: ["src", "lib", "constants", "rentals", "yachts"],
+  yachts: ["src", "lib", "constants", "rentals", "yacht"],
   homestays: ["src", "lib", "constants", "destinations", "homestay"],
 };
 

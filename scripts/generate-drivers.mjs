@@ -404,7 +404,7 @@ async function generateCityFile(city) {
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
   const formattedName = formatKebabToCamelCase(removeAccents(city));
 
-  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Drivers`;
+  const variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Drivers`;
 
   const destDir = path.join(
     process.cwd(),
@@ -412,7 +412,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "staff",
-    "drivers",
+    "drivers"
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -432,7 +432,7 @@ async function generateCityFile(city) {
       drivers = await extractExistingDrivers(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -449,7 +449,7 @@ async function generateCityFile(city) {
 
   // Create file content with proper formatting
   let content = `import { Driver } from "@/lib/interfaces/people/staff";\n\n`;
-  content += `export const ${variableName}: Driver[] = [\n`;
+  content += `export const ${variableName.replaceAll(".", "")}: Driver[] = [\n`;
 
   drivers.forEach((driver, index) => {
     content += `  {\n`;

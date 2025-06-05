@@ -620,7 +620,7 @@ async function generateCityGuideFile(city) {
 
   const formattedName = formatKebabToCamelCase(removeAccents(city));
 
-  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Guides`;
+  const variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
 
   const destDir = path.join(
     process.cwd(),
