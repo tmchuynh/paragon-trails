@@ -4,7 +4,7 @@ import InformationDisplayCard from "@/components/cards/InformationDisplayCard";
 export default function InformationPage() {
   const getGroupedInformationLinks = () => {
     const servicesItem = navbarItems.find(
-      (item) => item.label === "Info" && item.dropdown
+      (item) => item.label === "Info" && item.dropdown,
     );
     return servicesItem
       ? [
@@ -18,7 +18,7 @@ export default function InformationPage() {
 
   const getMoreInformationLinks = () => {
     const servicesItem = navbarItems.find(
-      (item) => item.label === "About Us" && item.dropdown
+      (item) => item.label === "About Us" && item.dropdown,
     );
     return servicesItem
       ? [
@@ -76,7 +76,7 @@ export default function InformationPage() {
                 label={link.label}
                 href={link.href}
               />
-            ))
+            )),
           )}
           {navbarItems
             .filter((item) => item.label === "Contact")

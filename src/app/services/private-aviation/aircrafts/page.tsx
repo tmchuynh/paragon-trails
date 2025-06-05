@@ -41,7 +41,7 @@ export default function Aircrafts() {
         .forEach(([key, _]) => allFeatures.add(key));
 
       aircraft.interiorFeatures.forEach((feature) =>
-        allInteriorFeatures.add(feature)
+        allInteriorFeatures.add(feature),
       );
     });
   });
@@ -49,14 +49,14 @@ export default function Aircrafts() {
   // Find max price and max passengers
   const maxPrice = Math.max(
     ...aircraftSelectionGuide.flatMap((category) =>
-      category.models.map((aircraft) => aircraft.pricePerHourUSD)
-    )
+      category.models.map((aircraft) => aircraft.pricePerHourUSD),
+    ),
   );
 
   const maxPassengers = Math.max(
     ...aircraftSelectionGuide.flatMap((category) =>
-      category.models.map((aircraft) => aircraft.maxPassengers)
-    )
+      category.models.map((aircraft) => aircraft.maxPassengers),
+    ),
   );
 
   // Filter the aircrafts
@@ -85,7 +85,7 @@ export default function Aircrafts() {
 
           if (
             !selectedFeatures.every((feature) =>
-              aircraftFeatures.includes(feature)
+              aircraftFeatures.includes(feature),
             )
           ) {
             return false;
@@ -96,7 +96,7 @@ export default function Aircrafts() {
         if (selectedInteriorFeatures.length > 0) {
           if (
             !selectedInteriorFeatures.every((feature) =>
-              aircraft.interiorFeatures.includes(feature)
+              aircraft.interiorFeatures.includes(feature),
             )
           ) {
             return false;
@@ -122,7 +122,7 @@ export default function Aircrafts() {
     setSelectedFeatures((prev) =>
       prev.includes(feature)
         ? prev.filter((f) => f !== feature)
-        : [...prev, feature]
+        : [...prev, feature],
     );
   };
 
@@ -130,7 +130,7 @@ export default function Aircrafts() {
     setSelectedInteriorFeatures((prev) =>
       prev.includes(feature)
         ? prev.filter((f) => f !== feature)
-        : [...prev, feature]
+        : [...prev, feature],
     );
   };
 
@@ -230,11 +230,11 @@ export default function Aircrafts() {
                         <SelectItem value="any">Any</SelectItem>
                         {Array.from(
                           { length: Math.ceil(maxPassengers / 5) },
-                          (_, i) => (i + 1) * 5
+                          (_, i) => (i + 1) * 5,
                         )
                           .filter((num) => num <= maxPassengers)
                           .concat(
-                            maxPassengers % 5 !== 0 ? [maxPassengers] : []
+                            maxPassengers % 5 !== 0 ? [maxPassengers] : [],
                           )
                           .sort((a, b) => a - b)
                           .map((num) => (
@@ -290,7 +290,7 @@ export default function Aircrafts() {
                           {capitalize(
                             feature
                               .replace(/([A-Z])/g, " $1")
-                              .replace(/([A-Z][a-z])/g, " $1")
+                              .replace(/([A-Z][a-z])/g, " $1"),
                           )}
                         </Label>
                       </div>
@@ -327,12 +327,12 @@ export default function Aircrafts() {
                   Showing{" "}
                   {filteredCategories.reduce(
                     (total, category) => total + category.models.length,
-                    0
+                    0,
                   )}{" "}
                   of{" "}
                   {aircraftSelectionGuide.reduce(
                     (total, category) => total + category.models.length,
-                    0
+                    0,
                   )}{" "}
                   vehicles
                 </div>

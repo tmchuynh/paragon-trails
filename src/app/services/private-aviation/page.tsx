@@ -246,7 +246,7 @@ export default function PrivateAviation() {
                   </ul>
                 </div>
               </div>
-            )
+            ),
           )}
         </div>
       </section>
