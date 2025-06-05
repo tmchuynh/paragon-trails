@@ -8,8 +8,57 @@ import { formatTitleToCamelCase, removeAccents } from "../src/lib/utils/format";
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 const writeFile = promisify(fs.writeFile);
+const readFile = promisify(fs.readFile);
 const mkdir = promisify(fs.mkdir);
 const access = promisify(fs.access);
+
+// Parse command line arguments
+interface CommandOptions {
+  rewrite: boolean;
+  append: number | null;
+  price: "$" | "$$" | "$$$" | "$$$$" | "free" | null;
+  cityFilter: string | null;
+}
+
+function parseCommandLineArgs(): CommandOptions {
+  const options: CommandOptions = {
+    rewrite: false,
+    append: null,
+    price: null,
+    cityFilter: null,
+  };
+
+  const args = process.argv.slice(2);
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+
+    if (arg === "--rewrite" || arg === "-r") {
+      options.rewrite = true;
+    }
+
+    if ((arg === "--append" || arg === "-a") && i + 1 < args.length) {
+      const value = parseInt(args[++i]);
+      if (!isNaN(value) && value > 0) {
+        options.append = value;
+      }
+    }
+
+    if ((arg === "--price" || arg === "-p") && i + 1 < args.length) {
+      const value = args[++i];
+      if (["$", "$$", "$$$", "$$$$", "free"].includes(value)) {
+        options.price = value as any;
+      }
+    }
+
+    if ((arg === "--city" || arg === "-c") && i + 1 < args.length) {
+      options.cityFilter = args[++i];
+    }
+  }
+
+  return options;
+}
+
+const options = parseCommandLineArgs();
 
 // Various attraction components
 const attractionTypes = [
@@ -53,7 +102,10 @@ const accessibilityOptions = [
 function generateAttraction(cityName: string): any {
   // Generate random price range and set dependent properties
   const priceRanges = ["$", "$$", "$$$", "$$$$", "free"] as const;
+
+  // Use specified price range if provided, otherwise random
   const priceRange =
+    options.price ||
     priceRanges[Math.floor(Math.random() * priceRanges.length)];
 
   let priceCategory: "free" | "budget" | "moderate" | "expensive" | "luxury";
@@ -227,6 +279,58 @@ async function fileExists(filePath: string): Promise<boolean> {
   }
 }
 
+// Extract existing attractions from a file
+async function extractExistingAttractions(filePath: string): Promise<any[]> {
+  try {
+    // Read file content
+    const content = await readFile(filePath, 'utf-8');
+    
+    // Extract the array part using a simple regex approach
+    const match = content.match(/export const \w+: Attraction\[\] = \[([\s\S]*?)\];/);
+    if (!match || !match[1]) return [];
+    
+    // Parse the array items
+    const itemsText = match[1].trim();
+    if (!itemsText) return [];
+    
+    // Split by object boundaries and parse each attraction
+    const items = [];
+    let bracketCount = 0;
+    let currentItem = '';
+    
+    for (let i = 0; i < itemsText.length; i++) {
+      const char = itemsText[i];
+      
+      if (char === '{') bracketCount++;
+      if (char === '}') bracketCount--;
+      
+      currentItem += char;
+      
+      if (bracketCount === 0 && currentItem.trim()) {
+        // We've found a complete object
+        try {
+          // Convert the text to an actual object (this is a simplified approach)
+          const cleanedItem = currentItem.replace(/,\s*$/, ''); // Remove trailing comma
+          
+          // Use Function constructor to evaluate the object expression safely
+          // This is a simplified approach and may not handle all edge cases
+          const obj = new Function(`return ${cleanedItem}`)();
+          items.push(obj);
+          currentItem = '';
+        } catch (e) {
+          console.warn('Failed to parse attraction:', e);
+          currentItem = '';
+        }
+      }
+    }
+    
+    return items;
+  } catch (e) {
+    console.error('Error extracting attractions:', e);
+    return [];
+  }
+}
+
 // Generate attractions and write to file
 async function generateCityFile(city: City): Promise<void> {
   const { fileName, variableName } = formatCityName(city);
@@ -244,18 +348,34 @@ async function generateCityFile(city: City): Promise<void> {
   // Check if directory exists
   await ensureDirectoryExists(destDir);
 
-  // Skip if file exists
+  // Check if file exists
   const exists = await fileExists(filePath);
+
+  // Handle existing file based on options
+  let attractions: any[] = [];
   if (exists) {
-    console.log(`File already exists: ${filePath}`);
-    return;
+    if (options.rewrite) {
+      console.log(`Rewriting existing file: ${filePath}`);
+    } else if (options.append) {
+      console.log(`Appending ${options.append} attractions to: ${filePath}`);
+      attractions = await extractExistingAttractions(filePath);
+    } else {
+      console.log(
+        `File already exists (use --rewrite to replace): ${filePath}`
+      );
+      return;
+    }
   }
 
-  // Generate 5-8 attractions
-  const numAttractions = Math.floor(Math.random() * 10) + 9;
-  const attractions = Array(numAttractions)
+  // Generate attractions
+  const numNewAttractions =
+    options.append || Math.floor(Math.random() * 10) + 9;
+  const newAttractions = Array(numNewAttractions)
     .fill(0)
     .map(() => generateAttraction(city.city));
+
+  // Combine existing and new attractions
+  attractions = attractions.concat(newAttractions);
 
   // Create file content with proper formatting
   let content = `import { Attraction } from "@/lib/interfaces/services/attractions";\n\n`;
@@ -281,12 +401,33 @@ async function generateCityFile(city: City): Promise<void> {
 
   // Write file
   await writeFile(filePath, content);
-  console.log(`Created file: ${filePath}`);
+  console.log(
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+  );
 }
 
 // Main function to process all cities
 async function generateAllCityFiles(): Promise<void> {
-  for (const city of cities) {
+  let citiesToProcess = cities;
+
+  // Filter by city name if specified
+  if (options.cityFilter) {
+    const filterLower = options.cityFilter.toLowerCase();
+    citiesToProcess = cities.filter((city) =>
+      city.city.toLowerCase().includes(filterLower)
+    );
+
+    if (citiesToProcess.length === 0) {
+      console.log(`No cities found matching: ${options.cityFilter}`);
+      return;
+    }
+
+    console.log(
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+    );
+  }
+
+  for (const city of citiesToProcess) {
     try {
       await generateCityFile(city);
     } catch (error) {
@@ -301,3 +442,20 @@ generateAllCityFiles()
   .catch((error) =>
     console.error("Error generating city attraction files:", error)
   );
+
+// Print usage information
+console.log(`
+Usage: node generate-city-attractions.js [options]
+
+Options:
+  --rewrite, -r       Rewrite existing files instead of skipping them
+  --append N, -a N    Append N new attractions to existing files
+  --price P, -p P     Generate attractions with specified price range (options: $, $$, $$$, $$$$, free)
+  --city C, -c C      Process only cities matching the search term
+
+Examples:
+  node generate-city-attractions.js --rewrite
+  node generate-city-attractions.js --append 5
+  node generate-city-attractions.js --price "$$$"
+  node generate-city-attractions.js --city "Tokyo" --append 3
+`);
