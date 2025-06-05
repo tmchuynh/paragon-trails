@@ -2,7 +2,11 @@ import * as fs from "fs/promises";
 import * as path from "path";
 import { formatTitleToCamelCase } from "./utils/format-utils.mjs";
 import { cityCountryMap } from "./utils/geo-utils.mjs";
-import { roomThemesByCountry } from "./utils/shared-hotel-data.mjs";
+import {
+  countrySpecificDescriptions,
+  roomAdjectives,
+  roomThemesByCountry,
+} from "./utils/shared-hotel-data.mjs";
 
 /**
  * Room Options Generator Script
@@ -58,6 +62,7 @@ const viewTypes = [
   "Mountain View",
   "None",
 ];
+
 const roomPrefixes = [
   "Standard",
   "Deluxe",
@@ -79,30 +84,38 @@ const roomSuffixes = [
 ];
 
 // Room amenities
-const baseAmenities = ["Free Wi-Fi", "Room Service"];
-const additionalAmenities = [
-  "Air Conditioning",
-  "Television",
-  "Mini Bar",
-  "Coffee Maker",
-  "Microwave",
-  "Refrigerator",
+const baseAmenities = [
+  "Desk",
+  "Free Wi-Fi",
+  "Room Service",
   "Hair Dryer",
+  "Toiletries",
+  "Microwave",
+  "Shower",
+  "Heating",
+  "Coffee Maker",
+  "Slippers",
+  "Bathrobe",
+  "Room Service",
+  "Alarm Clock",
+  "Desk Lamp",
+  "Daily Housekeeping",
+  "Non-Smoking Room",
+  "Television",
+  "Air Conditioning",
+];
+
+const additionalAmenities = [
+  "Mini Bar",
+  "Refrigerator",
   "Ironing Facilities",
   "In-Room Safe",
   "Balcony",
   "Bathtub",
-  "Shower",
-  "Toiletries",
-  "Desk",
   "Seating Area",
   "Soundproofing",
-  "Daily Housekeeping",
-  "Room Service",
   "Wake-Up Service",
   "Smoke Detector",
-  "Heating",
-  "Non-Smoking Room",
   "Pet Friendly",
   "Family Room",
   "Connecting Rooms",
@@ -111,13 +124,9 @@ const additionalAmenities = [
   "Dining Table",
   "Blackout Curtains",
   "Complimentary Bottled Water",
-  "Bathrobe",
-  "Slippers",
   "Flat-Screen TV",
   "Streaming Services",
   "Bluetooth Speaker",
-  "Desk Lamp",
-  "Alarm Clock",
   "Luggage Rack",
   "Outdoor Furniture",
   "Fireplace",
@@ -126,6 +135,141 @@ const additionalAmenities = [
   "Fitness Equipment",
   "Board Games",
   "Books",
+];
+
+const viewDescriptions = {
+  "City View": [
+    "overlooking the vibrant cityscape",
+    "with stunning views of the city skyline",
+    "showcasing the urban landscape",
+    "offering panoramic city vistas",
+    "with a window to the bustling city below",
+    "where city lights twinkle at night",
+    "with a front-row seat to the city's heartbeat",
+    "featuring a blend of modern and historic architecture",
+    "with a view of iconic landmarks",
+    "where the city comes alive at dusk",
+    "with a backdrop of city parks and green spaces",
+    "where you can enjoy the city's energy",
+    "with a view of the city's cultural landmarks",
+    "where the city skyline meets the horizon",
+    "with a view of the city's waterfront",
+    "where you can watch the city wake up",
+  ],
+  "Ocean View": [
+    "overlooking the sparkling ocean waves",
+    "with breathtaking sea views",
+    "featuring uninterrupted ocean vistas",
+    "where you can watch the waves roll in",
+    "with a private balcony overlooking the sea",
+    "where the horizon meets the ocean",
+    "with a view of the endless blue",
+    "where you can hear the soothing sound of the sea",
+    "with a panoramic view of the coastline",
+    "where the ocean meets the sky",
+    "with a view of the sandy beaches",
+    "where you can enjoy stunning sunsets over the water",
+    "with a view of the ocean's horizon",
+    "where you can feel the ocean breeze",
+    "with a view of the tranquil sea",
+    "where you can relax to the sound of the waves",
+    "where you can enjoy the ocean's beauty",
+    "with a view of the ocean's changing tides",
+    "with the sound of the ocean as your backdrop",
+  ],
+  "Garden View": [
+    "overlooking lush garden landscapes",
+    "with serene garden views",
+    "surrounded by vibrant flora",
+    "featuring a peaceful garden setting",
+    "where you can enjoy the tranquility of nature",
+    "with a view of blooming flowers and greenery",
+    "where you can relax in a natural oasis",
+    "with a view of manicured lawns and gardens",
+    "where you can enjoy the sights and sounds of nature",
+    "with a view of colorful flower beds",
+    "where you can unwind in a garden paradise",
+    "with a view of tranquil water features",
+    "where you can enjoy the beauty of nature",
+    "with a view of shaded garden paths",
+    "where you can take in the fresh air",
+    "with a view of the garden's seasonal changes",
+    "where you can enjoy the serenity of a garden retreat",
+    "with a view of the garden's natural beauty",
+    "where you can escape to a green sanctuary",
+    "with a view of the garden's peaceful ambiance",
+    "where you can find solace in nature's embrace",
+    "with a view of the garden's vibrant colors",
+    "where you can enjoy the garden's seasonal blooms",
+    "with a view of the garden's tranquil pathways",
+    "where you can relax in a garden haven",
+    "with a view of the garden's lush greenery",
+    "where you can enjoy the garden's peaceful atmosphere",
+    "offering a peaceful garden outlook",
+    "where nature is just outside your window",
+  ],
+  "Mountain View": [
+    "with majestic mountain vistas",
+    "overlooking spectacular mountain ranges",
+    "featuring awe-inspiring mountain scenery",
+    "where you can gaze at the towering peaks",
+    "with a view of the rugged mountain landscape",
+    "where the mountains touch the sky",
+    "with panoramic views of the surrounding mountains",
+    "where you can enjoy the tranquility of the mountains",
+    "with a view of snow-capped peaks",
+    "where you can experience the beauty of nature",
+    "with a view of the mountains' changing seasons",
+    "where you can take in the fresh mountain air",
+    "with a view of the mountains' natural beauty",
+    "where you can enjoy the serenity of mountain life",
+    "with a view of the mountains' breathtaking sunsets",
+    "where you can escape to the mountains",
+    "with a view of the mountains' rugged terrain",
+    "where you can enjoy the peace of the highlands",
+    "with a view of the mountains' lush valleys",
+    "where you can find inspiration in the mountains",
+    "with a view of the mountains' serene beauty",
+    "where you can enjoy the mountains' majestic presence",
+    "with panoramic views of the mountain landscape",
+    "where mountains paint the horizon",
+  ],
+};
+
+const amenityHighlights = [
+  "featuring premium bath amenities",
+  "with high-speed internet access",
+  "with plush bedding for ultimate comfort",
+  "complete with a well-appointed bathroom",
+  "with carefully selected furnishings",
+  "offering a unique blend of style and comfort",
+  "with a private balcony or terrace",
+  "with a spacious seating area",
+  "with a modern en-suite bathroom",
+  "with a luxurious soaking tub",
+  "equipped with all the modern conveniences",
+  "including climate control for your comfort",
+  "with blackout curtains for a perfect night's sleep",
+  "featuring a curated minibar selection",
+  "with a spacious work area",
+];
+
+const descriptionTemplates = [
+  "A {adj1} {bedType} retreat {viewPhrase}, {countryElement}.",
+  "Experience our {adj1}, {adj2} {bedType} {suffix} {viewPhrase}, {amenityHighlight}.",
+  "{themePhrase} {bedType} {suffix} {viewPhrase}, {countryElement} and {amenityHighlight}.",
+  "Our {adj1} {themePhrase} {suffix} offers {viewPhrase}, {adj2} comfort, and {amenityHighlight}.",
+  "Unwind in this {adj1} {bedType} {suffix} {viewPhrase}, {amenityHighlight}.",
+  "{themePhrase} {suffix} with {adj1} decor, {viewPhrase}, and {amenityHighlight}.",
+  "This {adj1} {bedType} accommodation offers {viewPhrase}, {countryElement}.",
+  "Step into a {adj1} {bedType} {suffix} that combines {themePhrase} with breathtaking {viewPhrase}, complemented by {amenityHighlight}.",
+  "Relax in our {adj1} {adj2} {bedType} {suffix} featuring {viewPhrase}, along with {amenityHighlight} and {countryElement}.",
+  "Discover the charm of this {themePhrase} {bedType} {suffix}, complete with {adj1} ambiance, stunning {viewPhrase}, and {amenityHighlight}.",
+  "A {adj1} {bedType} {suffix} designed for {adj2} comfort, with {viewPhrase} and {amenityHighlight}, reflecting {countryElement}.",
+  "Enjoy a {adj1} stay in our {themePhrase} {bedType} {suffix}, offering {viewPhrase}, {amenityHighlight}, and unique touches of {countryElement}.",
+  "This {adj1} {bedType} {suffix} promises {viewPhrase}, enriched by {themePhrase} details and {amenityHighlight}.",
+  "Indulge in the {adj1} atmosphere of our {bedType} {suffix}, with spectacular {viewPhrase}, {countryElement}, and {amenityHighlight}.",
+  "Our {themePhrase} {bedType} {suffix} offers {adj1} luxury, panoramic {viewPhrase}, and {amenityHighlight}, inspired by {countryElement}.",
 ];
 
 // Generate random room options for a hotel
@@ -190,11 +334,14 @@ function generateRoomOptions(hotel, index) {
             )
           : undefined;
 
-      // Create a more descriptive room description using the theme
-      const description =
-        Math.random() < 0.7 && prefix !== roomPrefixes[0]
-          ? `Experience our ${prefix}-themed ${bedType.toLowerCase()} ${suffix.toLowerCase()} with ${viewType.toLowerCase()} and elegant amenities.`
-          : `Comfortable ${viewType.toLowerCase()} ${bedType.toLowerCase()} accommodation with modern amenities.`;
+      // Create a more descriptive room description using the template system
+      const description = generateEnhancedDescription(
+        prefix,
+        bedType,
+        suffix,
+        viewType,
+        country
+      );
 
       roomOptions.push({
         id: `${hotel.id}-room-${index}`,
@@ -220,6 +367,72 @@ function generateRoomOptions(hotel, index) {
   }
 
   return roomOptions;
+}
+
+// Generate enhanced room descriptions
+function generateEnhancedDescription(
+  prefix,
+  bedType,
+  suffix,
+  viewType,
+  country
+) {
+  // Pick a random template
+  const template =
+    descriptionTemplates[
+      Math.floor(Math.random() * descriptionTemplates.length)
+    ];
+
+  // Get random adjectives
+  const adjectiveCategories = Object.keys(roomAdjectives);
+  const adj1 =
+    roomAdjectives[
+      adjectiveCategories[
+        Math.floor(Math.random() * adjectiveCategories.length)
+      ]
+    ][Math.floor(Math.random() * roomAdjectives.luxury.length)];
+  const adj2 =
+    roomAdjectives[
+      adjectiveCategories[
+        Math.floor(Math.random() * adjectiveCategories.length)
+      ]
+    ][Math.floor(Math.random() * roomAdjectives.comfort.length)];
+
+  // Get view phrase if applicable
+  let viewPhrase = "";
+  if (viewType !== "None" && viewDescriptions[viewType]) {
+    viewPhrase =
+      viewDescriptions[viewType][
+        Math.floor(Math.random() * viewDescriptions[viewType].length)
+      ];
+  }
+
+  // Get country specific elements
+  const countryElements =
+    countrySpecificDescriptions[country] ||
+    countrySpecificDescriptions["default"];
+  const countryElement =
+    countryElements[Math.floor(Math.random() * countryElements.length)];
+
+  // Get amenity highlight
+  const amenityHighlight =
+    amenityHighlights[Math.floor(Math.random() * amenityHighlights.length)];
+
+  // Theme phrase
+  const themePhrase = `${prefix}-themed`;
+
+  // Replace placeholders in the template
+  let description = template
+    .replace("{adj1}", adj1)
+    .replace("{adj2}", adj2)
+    .replace("{bedType}", bedType.toLowerCase())
+    .replace("{suffix}", suffix.toLowerCase())
+    .replace("{viewPhrase}", viewPhrase || "with a pleasant outlook")
+    .replace("{countryElement}", countryElement)
+    .replace("{amenityHighlight}", amenityHighlight)
+    .replace("{themePhrase}", themePhrase);
+
+  return description;
 }
 
 // Calculate base price based on hotel rating, accommodation type, and location
@@ -405,7 +618,7 @@ async function generateRoomOptionsForHotels() {
 
           // Create filename from hotel name
           const kebabName = formatTitleToCamelCase(hotel.name);
-          const roomsFilePath = path.join(cityDir, `${kebabName}-rooms.ts`);
+          const roomsFilePath = path.join(cityDir, `${kebabName}-Rooms.ts`);
 
           // Check if file exists and if we should skip it
           try {
