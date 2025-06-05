@@ -1,3 +1,5 @@
+import { TourRegion, TourType } from "../services/tours";
+
 export interface TeamMember {
   name: string;
   certifications?: string[];
@@ -16,7 +18,7 @@ export interface StaffCategory {
 }
 
 export interface TourGuide extends TeamMember {
-  id?: string;
+  id: string;
   name: string;
   city: string;
   country: string;
@@ -24,9 +26,30 @@ export interface TourGuide extends TeamMember {
   region?: string;
   isPopular?: boolean;
   bio: string;
+  regionsCovered: TourRegion[];
+  tourTypes: TourType[];
+  maxGroupSize: number;
+  licenseNumber: string;
+  phoneNumber: string;
+  contactEmail?: string;
+  available: WeeklyAvailability[];
+  isCertified?: boolean;
   description?: string;
-  quote?: string;
+  rating: number; // 1–5
+  reviewsCount: number;
+  quote: string;
   profileImage: string;
-  specialties: string[];
   languages: string[];
+}
+
+export interface WeeklyAvailability {
+  day:
+    | "Monday"
+    | "Tuesday"
+    | "Wednesday"
+    | "Thursday"
+    | "Friday"
+    | "Saturday"
+    | "Sunday";
+  availableHours: { from: string; to: string }[];
 }

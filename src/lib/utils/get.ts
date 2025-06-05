@@ -28,7 +28,7 @@ import {
  */
 export function getRandomDatesFromNextWeek(
   count: number,
-  rangeInDays = 30
+  rangeInDays = 30,
 ): string[] {
   const dates = new Set<string>();
 
@@ -66,7 +66,7 @@ export async function getTourData(city: string): Promise<any> {
   try {
     const tourModule = await import(
       `@/lib/constants/tours/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
+        cityWithoutAccents.replace("'", "-"),
       )}`
     );
     // Return the specific named export that matches tourID
@@ -74,13 +74,13 @@ export async function getTourData(city: string): Promise<any> {
       return tourModule[tourID];
     } else {
       console.error(
-        `Export named export const ${tourID}: Tour[] =[]; not found in module`
+        `Export named export const ${tourID}: Tour[] =[]; not found in module`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/tours: ${error} export const ${tourID}: Tour[] = [];`
+      `Error loading resource from @/lib/constants/tours: ${error} export const ${tourID}: Tour[] = [];`,
     );
     return [];
   }
@@ -89,9 +89,9 @@ export async function getTourData(city: string): Promise<any> {
 export const driverLanguages = Array.from(
   new Set(
     driverQualificationMatrix.flatMap((category) =>
-      category.profiles.flatMap((driver) => driver.languages)
-    )
-  )
+      category.profiles.flatMap((driver) => driver.languages),
+    ),
+  ),
 ).sort();
 
 /**
@@ -113,7 +113,7 @@ export const driverLanguages = Array.from(
 export async function getCityAttractions(
   city: string,
   region: string,
-  country: string
+  country: string,
 ): Promise<any> {
   // Format city name for variable name (camelCase starting with lowercase)
   const cityFormatted =
@@ -125,24 +125,24 @@ export async function getCityAttractions(
     removeAccents(region).charAt(0).toUpperCase() +
     formatTitleToCamelCase(removeAccents(region).slice(1)).replace(
       /['\-]/g,
-      ""
+      "",
     );
 
   const countryFormatted =
     removeAccents(country).charAt(0).toUpperCase() +
     formatTitleToCamelCase(removeAccents(country).slice(1)).replace(
       /['\-]/g,
-      ""
+      "",
     );
 
   // Combine properly formatted parts
   const cityRegionCountry = `${removeAccents(
-    cityFormatted
+    cityFormatted,
   )}${regionFormatted}${countryFormatted}`;
   console.log(
     `Fetching attractions for: ${removeAccents(
-      cityFormatted
-    )}, ${regionFormatted}, ${countryFormatted}`
+      cityFormatted,
+    )}, ${regionFormatted}, ${countryFormatted}`,
   );
   console.log(`Using key: ${cityRegionCountry} for attractions data`);
   try {
@@ -153,15 +153,15 @@ export async function getCityAttractions(
       return attractionsModule[cityRegionCountry];
     } else {
       console.error(
-        `No attractions found for ${city} export const ${cityRegionCountry}: Attraction[] = []; in module`
+        `No attractions found for ${city} export const ${cityRegionCountry}: Attraction[] = []; in module`,
       );
       return [];
     }
   } catch (error) {
     console.error(
       `Error loading attractions for ${city} from @/lib/constants/destinations/city/${removeAccents(
-        cityFormatted
-      )}: ${error} export const ${cityRegionCountry}: Attraction[] = [];`
+        cityFormatted,
+      )}: ${error} export const ${cityRegionCountry}: Attraction[] = [];`,
     );
     return [];
   }
@@ -200,7 +200,7 @@ export function findOriginalCityName(slug: string): string | null {
  */
 export async function findGuideBySpecialty(
   city: string,
-  specialty: string
+  specialty: string,
 ): Promise<TourGuide> {
   // Format the city name to lowercase for consistent comparison
   const cityLower = removeAccents(city).replace("'", "").toLowerCase();
@@ -221,8 +221,8 @@ export async function findGuideBySpecialty(
     ) {
       throw new Error(
         `No tour guides found for ${capitalize(
-          city
-        )} within @/lib/constants/staff/tourGuides/${cityFormatted}.ts`
+          city,
+        )} within @/lib/constants/staff/tourGuides/${cityFormatted}.ts`,
       );
     }
 
@@ -233,8 +233,8 @@ export async function findGuideBySpecialty(
     }
     const matchingGuides = cityTourGuides.filter((guide) =>
       guide.specialties.some((guideSpecialty: string) =>
-        guideSpecialty.toLowerCase().includes(specialty.toLowerCase())
-      )
+        guideSpecialty.toLowerCase().includes(specialty.toLowerCase()),
+      ),
     );
 
     // If we have matching guides, return one randomly
@@ -254,7 +254,7 @@ export async function findGuideBySpecialty(
     return cityTourGuides[Math.floor(Math.random() * cityTourGuides.length)];
   } catch (error) {
     console.error(
-      `Error finding tour guide for ${city} within @/lib/constants/staff/tourGuides: ${error} export const ${cityFormatted}TourGuides: TourGuide[] = [];`
+      `Error finding tour guide for ${city} within @/lib/constants/staff/tourGuides: ${error} export const ${cityFormatted}TourGuides: TourGuide[] = [];`,
     );
 
     // Return default guide if no matches found
@@ -425,7 +425,7 @@ export async function getAllTourGuides(): Promise<TourGuide[]> {
         allTourGuides.push(...cityTourGuides);
       } else {
         console.warn(
-          `No valid tour guides found for ${city} within @/lib/constants/staff/tourGuides/${city}.ts`
+          `No valid tour guides found for ${city} within @/lib/constants/staff/tourGuides/${city}.ts`,
         );
       }
     } catch (error) {
@@ -532,7 +532,7 @@ export async function getAllTours(): Promise<Tour[]> {
         allTours.push(...tours);
       } else {
         console.warn(
-          `No valid tours found in ${file} within @/lib/constants/tours/${file}.ts`
+          `No valid tours found in ${file} within @/lib/constants/tours/${file}.ts`,
         );
       }
     } catch (error) {
@@ -562,7 +562,7 @@ export function getToursByCategory(tours: Tour[], categoryId: string): Tour[] {
 
   // Filter tours by the specified category ID
   const filteredTours = tours.filter(
-    (tour) => tour.tourCategoryId === categoryId
+    (tour) => tour.tourCategoryId === categoryId,
   );
 
   if (filteredTours.length === 0) {

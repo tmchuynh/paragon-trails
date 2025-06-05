@@ -19,7 +19,7 @@ export const displayRatingStars = (rating: number, maxStars: number = 5) => {
   const emptyStarsCount = maxStars - fullStars - (hasHalfStar ? 1 : 0);
   for (let i = 0; i < emptyStarsCount; i++) {
     stars.push(
-      <FaRegStar key={`empty-${i}`} className="inline text-yellow-400" />
+      <FaRegStar key={`empty-${i}`} className="inline text-yellow-400" />,
     );
   }
 

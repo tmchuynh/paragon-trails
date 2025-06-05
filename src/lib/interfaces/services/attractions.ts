@@ -1,14 +1,4 @@
-import { Details, Flags } from "@/lib/types/types";
-
-export interface CityAttractions {
-  subtitle?: string;
-  isPopular?: boolean;
-  quote?: string;
-  city: string;
-  state?: string;
-  region: string;
-  country: string;
-}
+import { AttractionTags, Details, Flags } from "@/lib/types/types";
 
 export interface BaseAttraction {
   title: string;
@@ -22,7 +12,7 @@ export interface BaseAttraction {
   priceCategory: "free" | "budget" | "moderate" | "expensive" | "luxury";
   timeOfDay: "all day" | "daytime" | "evening" | "night";
   rating: number;
-  tags?: string[];
+  tags: AttractionTags[];
   accessibilityFeatures?: string[];
 }
 

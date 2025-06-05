@@ -55,32 +55,22 @@ export type Flags = {
   isHistorical?: boolean;
   isRomantic?: boolean;
   isAdventure?: boolean;
-  isCultural?: boolean;
   isCulinary?: boolean;
   isSpiritual?: boolean;
   isNightlife?: boolean;
-  isWellness?: boolean;
   isLuxury?: boolean;
   isArtOrMusic?: boolean;
-  isOffTheBeatenPath?: boolean;
-  isLocalExperience?: boolean;
   isFree?: boolean;
   isPopular?: boolean;
-  isFamilyFriendly?: boolean;
   isPetFriendly?: boolean;
   isWheelchairAccessible?: boolean;
-  isOutdoor?: boolean;
-  isIndoor?: boolean;
 };
 
 export type Details = {
   title: string;
   description: string;
-  tags?: string[];
   rating: number;
-  faqs?: FAQs[];
 };
-
 
 export type Location = {
   city: string;
@@ -95,3 +85,53 @@ export type Location = {
   description?: string;
   culturalHighlights?: string[];
 };
+
+export type AttractionTags =
+  | "Landmark"
+  | "Historical Site"
+  | "Museum"
+  | "Gallery"
+  | "Park"
+  | "Garden"
+  | "Beach"
+  | "Market"
+  | "Local Market"
+  | "Cultural Center"
+  | "Religious Site"
+  | "Monument"
+  | "Scenic Spot"
+  | "Observation Deck"
+  | "City View"
+  | "Nature Reserve"
+  | "Wildlife"
+  | "Hiking Trail"
+  | "Walking Tour"
+  | "Boat Tour"
+  | "Food Tour"
+  | "Wine Tasting"
+  | "Brewery"
+  | "Street Food"
+  | "Shopping"
+  | "Nightlife"
+  | "Bar"
+  | "Live Music"
+  | "Festival"
+  | "Performance"
+  | "Adventure"
+  | "Extreme Sports"
+  | "Wellness"
+  | "Spa"
+  | "Luxury"
+  | "Romantic"
+  | "Family Friendly"
+  | "Kid Friendly"
+  | "Pet Friendly"
+  | "Eco-Friendly"
+  | "Accessible"
+  | "Free Entry"
+  | "UNESCO Site"
+  | "Photography Spot"
+  | "Instagrammable"
+  | "Hidden Gem"
+  | "Iconic"
+  | "LGBTQ+ Friendly";

@@ -100,7 +100,7 @@ export const formatDuration = (duration: string): string => {
 export function formatNumberToCurrency(
   value: number,
   min?: number,
-  max?: number
+  max?: number,
 ): string {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -170,7 +170,6 @@ export function formatToSlug(str: string): string {
     .replace(/^-|-$/g, "");
 }
 
-
 /**
  * Converts a kebab-case string to title case.
  *
@@ -197,22 +196,21 @@ export function formatKebebToTitleCase(str: string): string {
     .join(" ");
 }
 
-
 /**
  * Formats an array of language strings into a grammatically correct string.
- * 
+ *
  * @param languages - An array of language strings to be formatted
  * @returns A formatted string where languages are comma-separated and the last language is preceded by "and"
  * @example
  * // Returns "English"
  * formatLanguages(["English"])
- * 
+ *
  * // Returns "English, and Spanish"
  * formatLanguages(["English", "Spanish"])
- * 
+ *
  * // Returns "English, Spanish, and French"
  * formatLanguages(["English", "Spanish", "French"])
- * 
+ *
  * // Returns empty string for empty array
  * formatLanguages([])
  */
@@ -227,14 +225,14 @@ export const formatLanguages = (languages: string[]) => {
 
 /**
  * Converts a title string to camelCase format.
- * 
+ *
  * @param title - The string to convert to camelCase
  * @returns The camelCase formatted string
- * 
+ *
  * @example
  * // returns "helloWorld"
  * formatTitleToCamelCase("Hello World");
- * 
+ *
  * @example
  * // returns "thisIsATest"
  * formatTitleToCamelCase("This Is A Test");
@@ -283,47 +281,47 @@ export function formatCamelCaseToTitle(camelCase: string): string {
 
 /**
  * Checks if a string contains letters with diacritical marks (accents) or special characters.
- * 
+ *
  * This function detects strings that contain characters like é, ç, ü, ộ, etc.
- * 
+ *
  * @param str - The string to check for accented characters
  * @returns True if the string contains accented characters, false otherwise
- * 
+ *
  * @example
  * // Returns true
  * hasAccentedCharacters("Drâa-Tafilalet")
- * 
+ *
  * @example
  * // Returns true
  * hasAccentedCharacters("Hội An")
- * 
+ *
  * @example
  * // Returns false
  * hasAccentedCharacters("Hello World")
  */
 export function hasAccentedCharacters(str: string): boolean {
   // Normalize to decomposed form, which separates base characters from diacritical marks
-  const normalized = str.normalize('NFD');
-  
+  const normalized = str.normalize("NFD");
+
   // Check if there are any combining diacritical marks (Unicode range U+0300 to U+036F)
   const hasDiacriticalMarks = /[\u0300-\u036F]/.test(normalized);
-  
+
   return hasDiacriticalMarks;
 }
 
 /**
  * Removes diacritical marks (accents) from a string.
- * 
+ *
  * This function converts accented characters to their base form.
  * For example, "é" becomes "e", "ç" becomes "c", "ü" becomes "u", etc.
- * 
+ *
  * @param str - The string with accented characters
  * @returns The string with accents removed
- * 
+ *
  * @example
  * // Returns "Draa-Tafilalet"
  * removeAccents("Drâa-Tafilalet")
- * 
+ *
  * @example
  * // Returns "Hoi An"
  * removeAccents("Hội An")
