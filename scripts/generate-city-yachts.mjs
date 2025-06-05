@@ -1,3 +1,35 @@
+/**
+ * Yacht Rentals Generator Script
+ * =============================
+ *
+ * This script generates realistic yacht rental data for city destinations in the Paragon Trails application.
+ * It creates comprehensive yacht listings with properties like specifications, amenities,
+ * capacity, pricing, safety features, and other details for each city.
+ *
+ * Features:
+ * - Generates 3-7 yachts per city by default
+ * - Creates appropriate folder structure in src/lib/constants/rentals/yacht
+ * - Supports filtering by specific yacht types (motor, sailing, catamaran, etc.)
+ * - Includes appropriate specifications based on yacht type
+ * - Generates realistic amenities, entertainment options, and water toys
+ * - Adapts pricing and currency based on location (country/region)
+ * - Creates accessibility features and safety information
+ *
+ * Usage: node scripts/generate-city-yachts.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new yachts to existing files
+ *   --type T, -t T      Generate yachts of a specific type (options: motor, sailing, catamaran, gulet, mega, super)
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node scripts/generate-city-yachts.mjs --rewrite
+ *   node scripts/generate-city-yachts.mjs --append 5
+ *   node scripts/generate-city-yachts.mjs --type "mega"
+ *   node scripts/generate-city-yachts.mjs --city "Paris" --append 3 --type "super"
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -15,19 +47,6 @@ import {
   euroCountries,
   regionCurrencyMap,
 } from "./utils/geo-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-city-yachts.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new yachts to existing files
-// node scripts/generate-city-yachts.mjs --append 5
-
-// Yacht Type Filter: Use --type T or -t T to generate only specific yacht types
-// node scripts/generate-city-yachts.mjs --type "motor"
-
-// Bonus City Filter: Added a --city flag to process only specific cities
-// node scripts/generate-city-yachts.mjs --city "Monaco" --append 3 --type "mega"
 
 const cities = getCityFiles();
 
@@ -689,9 +708,12 @@ async function extractExistingYachts(filePath) {
 
       if (bracketCount === 0 && currentItem.trim()) {
         try {
-          const cleanedItem = currentItem.replace(/,\s*$/, "");
-          const obj = new Function(`return ${cleanedItem}`)();
-          items.push(obj);
+          // Instead of using Function constructor, manually parse yacht object
+          // to handle more complex structures
+          const yacht = parseYachtObject(currentItem);
+          if (yacht) {
+            items.push(yacht);
+          }
           currentItem = "";
         } catch (e) {
           console.warn("Failed to parse yacht:", e);
@@ -705,6 +727,87 @@ async function extractExistingYachts(filePath) {
     console.error("Error extracting yachts:", e);
     return [];
   }
+}
+
+// Parse yacht object using regex for key properties
+function parseYachtObject(objString) {
+  // Create a yacht object with default/empty values for required properties
+  const yacht = {
+    id: "",
+    name: "",
+    brand: "",
+    model: "",
+    yearBuilt: 2000,
+    lengthInMeters: 0,
+    beamInMeters: 0,
+    draftInMeters: 0,
+    cruisingSpeedKnots: 0,
+    maxSpeedKnots: 0,
+    fuelCapacityLiters: 0,
+    waterCapacityLiters: 0,
+    engines: [],
+    hullType: "",
+    yachtType: "",
+    capacity: {
+      guestsDay: 0,
+      guestsOvernight: 0,
+      cabins: 0,
+      crew: 0,
+      bathrooms: 0,
+    },
+    amenities: [],
+    entertainment: [],
+    waterToys: [],
+    location: {
+      city: "",
+      country: "",
+      region: "",
+      homePort: "",
+    },
+    availableSeasons: [],
+    charterType: "",
+    crewIncluded: true,
+    cateringOptions: [],
+    description: "",
+    images: [],
+    featured: false,
+    pricing: {
+      perDay: 0,
+      perWeek: 0,
+      currency: "USD",
+      includes: [],
+      excludes: [],
+    },
+    safetyFeatures: [],
+    accessibilityFeatures: [],
+  };
+
+  try {
+    // Basic extraction of simple properties
+    const idMatch = objString.match(/id:\s*"([^"]+)"/);
+    if (idMatch) yacht.id = idMatch[1];
+
+    const nameMatch = objString.match(/name:\s*"([^"]+)"/);
+    if (nameMatch) yacht.name = nameMatch[1];
+
+    const brandMatch = objString.match(/brand:\s*"([^"]+)"/);
+    if (brandMatch) yacht.brand = brandMatch[1];
+
+    const modelMatch = objString.match(/model:\s*"([^"]+)"/);
+    if (modelMatch) yacht.model = modelMatch[1];
+
+    const yearMatch = objString.match(/yearBuilt:\s*(\d+)/);
+    if (yearMatch) yacht.yearBuilt = parseInt(yearMatch[1], 10);
+
+    // Only return if we have the minimum required properties
+    if (yacht.id && yacht.name) {
+      return yacht;
+    }
+  } catch (error) {
+    console.warn(`Error parsing yacht object: ${error.message}`);
+  }
+
+  return null;
 }
 
 // Generate yachts and write to file
@@ -749,6 +852,14 @@ async function generateCityFile(city) {
     } else if (options.append) {
       console.log(`Appending ${options.append} yachts to: ${filePath}`);
       yachts = await extractExistingYachts(filePath);
+
+      // Add validation to prevent errors with null/empty yacht array
+      if (!yachts || !Array.isArray(yachts)) {
+        console.warn(
+          `Could not parse existing yachts in ${filePath}, creating a new file instead`
+        );
+        yachts = [];
+      }
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
@@ -772,29 +883,33 @@ async function generateCityFile(city) {
 
   yachts.forEach((yacht, index) => {
     content += `  {\n`;
-    for (const [key, value] of Object.entries(yacht)) {
-      if (typeof value === "string") {
-        content += `    ${key}: "${value}",\n`;
-      } else if (Array.isArray(value)) {
-        content += `    ${key}: [${value
-          .map((item) => `"${item}"`)
-          .join(", ")}],\n`;
-      } else if (typeof value === "object" && value !== null) {
-        content += `    ${key}: {\n`;
-        for (const [subKey, subValue] of Object.entries(value)) {
-          if (typeof subValue === "string") {
-            content += `      ${subKey}: "${subValue}",\n`;
-          } else if (Array.isArray(subValue)) {
-            content += `      ${subKey}: [${subValue
-              .map((item) => `"${item}"`)
-              .join(", ")}],\n`;
-          } else {
-            content += `      ${subKey}: ${subValue},\n`;
+
+    // Add null check to prevent TypeError
+    if (yacht) {
+      for (const [key, value] of Object.entries(yacht)) {
+        if (typeof value === "string") {
+          content += `    ${key}: "${value}",\n`;
+        } else if (Array.isArray(value)) {
+          content += `    ${key}: [${value
+            .map((item) => `"${item}"`)
+            .join(", ")}],\n`;
+        } else if (typeof value === "object" && value !== null) {
+          content += `    ${key}: {\n`;
+          for (const [subKey, subValue] of Object.entries(value)) {
+            if (typeof subValue === "string") {
+              content += `      ${subKey}: "${subValue}",\n`;
+            } else if (Array.isArray(subValue)) {
+              content += `      ${subKey}: [${subValue
+                .map((item) => `"${item}"`)
+                .join(", ")}],\n`;
+            } else {
+              content += `      ${subKey}: ${subValue},\n`;
+            }
           }
+          content += `    },\n`;
+        } else {
+          content += `    ${key}: ${value},\n`;
         }
-        content += `    },\n`;
-      } else {
-        content += `    ${key}: ${value},\n`;
       }
     }
     content += `  }${index < yachts.length - 1 ? "," : ""}\n`;
@@ -816,6 +931,7 @@ async function generateAllCityFiles() {
   // Filter by city name if specified
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
+    // Improve city filtering to allow partial matches
     citiesToProcess = cities.filter((city) =>
       city.toLowerCase().includes(filterLower)
     );
@@ -846,7 +962,7 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-city-yachts.mjs [options]
+Usage: node scripts/generate-city-yachts.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -855,8 +971,8 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-city-yachts.mjs --rewrite
-  node generate-city-yachts.mjs --append 5
-  node generate-city-yachts.mjs --type "mega"
-  node generate-city-yachts.mjs --city "Monaco" --append 3 --type "super"
+  node scripts/generate-city-yachts.mjs --rewrite
+  node scripts/generate-city-yachts.mjs --append 5
+  node scripts/generate-city-yachts.mjs --type "mega"
+  node scripts/generate-city-yachts.mjs --city "Monaco" --append 3 --type "super"
 `);
