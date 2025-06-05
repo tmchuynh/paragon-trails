@@ -36,11 +36,12 @@ import { getCityFiles } from "./utils/file-utils.mjs";
 import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
+  formatKebebToTitleCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
-import { getRandomName } from "./utils/name-utils.mjs";
+import { getRandomName, determineGenderFromName } from "./utils/name-utils.mjs";
 import {
   createObjectParser,
   extractObjectsFromFile,
@@ -237,6 +238,8 @@ function generateDriver(cityName, index) {
   const lastName = name.split(" ")[1];
   const region = cityToRegionMap[cityName] || "";
 
+  const gender = determineGenderFromName(firstName);
+
   let regionForLanguages;
 
   // Map maritime regions to language regions
@@ -278,7 +281,7 @@ function generateDriver(cityName, index) {
   const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
   const selectedLanguages = getRandomLanguages(
     languageCount,
-    regionForLanguages,
+    regionForLanguages
   );
   const languages = selectedLanguages.map((lang) => lang.name);
 
@@ -292,9 +295,9 @@ function generateDriver(cityName, index) {
           () =>
             driverSpecialties[
               Math.floor(Math.random() * driverSpecialties.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate random number of vehicle types (1-5)
@@ -304,9 +307,9 @@ function generateDriver(cityName, index) {
       Array(numVehicleTypes)
         .fill(0)
         .map(
-          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)],
-        ),
-    ),
+          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)]
+        )
+    )
   );
 
   // Generate license expiry date (1-5 years in the future)
@@ -328,7 +331,7 @@ function generateDriver(cityName, index) {
     ratings,
     phone: getRandomPhone(),
     email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}@paragontrailsdrivers.com`,
-    photoUrl: `https://paragon-trails-driver-images.com/${cityName}/${firstName.toLowerCase()}-${lastName.toLowerCase()}.jpg`,
+    photoUrl: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 90)}.jpg`,
     specialties,
     vehicleTypesCertified,
   };

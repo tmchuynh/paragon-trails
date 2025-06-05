@@ -37,6 +37,7 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
+  formatKebebToTitleCase,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
@@ -388,9 +389,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)],
-        ),
-    ),
+            certifications[Math.floor(Math.random() * certifications.length)]
+        )
+    )
   );
 
   // Generate random languages
@@ -399,8 +400,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)]),
-    ),
+        .map(() => languages[Math.floor(Math.random() * languages.length)])
+    )
   );
 
   // Generate random specialties
@@ -409,8 +410,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numSpecialties)
         .fill(0)
-        .map(() => specialties[Math.floor(Math.random() * specialties.length)]),
-    ),
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
+    )
   );
 
   // Generate random special training
@@ -421,9 +422,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            specialTraining[Math.floor(Math.random() * specialTraining.length)],
-        ),
-    ),
+            specialTraining[Math.floor(Math.random() * specialTraining.length)]
+        )
+    )
   );
 
   // Generate random tour regions covered
@@ -432,8 +433,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numRegions)
         .fill(0)
-        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)]),
-    ),
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
+    )
   );
 
   // Generate random tour types
@@ -442,8 +443,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numTypes)
         .fill(0)
-        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)]),
-    ),
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
+    )
   );
 
   // Generate random weekly availability
@@ -452,8 +453,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numAvailableDays)
         .fill(0)
-        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)]),
-    ),
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
+    )
   );
 
   const available = availableDays.map((day) => {
@@ -481,7 +482,7 @@ function generateTourGuide(city, index) {
   });
 
   // Generate bio
-  const bio = `${firstName} is a passionate tour guide with extensive knowledge of ${city} and ${countryName}. Specializing in ${guideSpecialties.join(", ")}, ${firstName} provides authentic and engaging experiences for visitors of all backgrounds.`;
+  const bio = `${firstName} is a passionate tour guide with extensive knowledge of ${formatKebebToTitleCase(city)} and ${countryName}. Specializing in ${guideSpecialties.join(", ")}, ${firstName} provides authentic and engaging experiences for visitors of all backgrounds.`;
 
   // Generate phone number
   const phoneNumber = `+1-${Math.floor(100 + Math.random() * 900)}-${Math.floor(100 + Math.random() * 900)}-${Math.floor(1000 + Math.random() * 9000)}`;
@@ -494,18 +495,18 @@ function generateTourGuide(city, index) {
 
   // Generate random quote
   const quotes = [
-    `The best way to discover ${city} is with someone who lives and breathes its culture.`,
-    `Every corner of ${city} tells a story, let me share them with you.`,
-    `${city} isn't just a destination, it's an experience that stays with you forever.`,
-    `My goal is to help you fall in love with ${city} just as I have.`,
-    `In ${city}, we don't just see the sights - we make memories.`,
+    `The best way to discover ${formatKebebToTitleCase(city)} is with someone who lives and breathes its culture.`,
+    `Every corner of ${formatKebebToTitleCase(city)} tells a story, let me share them with you.`,
+    `${formatKebebToTitleCase(city)} isn't just a destination, it's an experience that stays with you forever.`,
+    `My goal is to help you fall in love with ${formatKebebToTitleCase(city)} just as I have.`,
+    `In ${formatKebebToTitleCase(city)}, we don't just see the sights - we make memories.`,
   ];
   const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
   return {
     id,
     name,
-    city,
+    city: `${formatKebebToTitleCase(city)}`,
     country: countryName,
     state: "",
     region: regionName,

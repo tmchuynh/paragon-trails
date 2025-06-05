@@ -38,6 +38,7 @@ import {
   formatCamelCaseToTitle,
   formatKebabToCamelCase,
   formatTitleToCamelCase,
+  formatKebebToTitleCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
 import {
@@ -123,10 +124,13 @@ const carMakes = {
     "Lexus",
     "Cadillac",
     "Jaguar",
-    "Maserati",
     "Genesis",
-    "Rolls-Royce",
     "Volvo",
+    "Infiniti",
+    "Acura",
+    "Lincoln",
+    "Chrysler",
+    "Tesla",
   ],
   SUV: [
     "Range Rover",
@@ -139,6 +143,11 @@ const carMakes = {
     "Rolls-Royce",
     "Cadillac",
     "Lexus",
+    "Genesis",
+    "Volvo",
+    "Rivian",
+    "Infiniti",
+    "Lincoln",
   ],
   Convertible: [
     "Ferrari",
@@ -151,6 +160,9 @@ const carMakes = {
     "Maserati",
     "Lamborghini",
     "Rolls-Royce",
+    "Audi",
+    "Chevrolet",
+    "Ford",
   ],
   Coupe: [
     "BMW",
@@ -163,6 +175,8 @@ const carMakes = {
     "McLaren",
     "Aston Martin",
     "Maserati",
+    "Infiniti",
+    "Chevrolet",
   ],
   "Sports Car": [
     "Ferrari",
@@ -175,6 +189,9 @@ const carMakes = {
     "Pagani",
     "Lotus",
     "Maserati",
+    "Corvette",
+    "Nissan",
+    "Toyota",
   ],
   Electric: [
     "Tesla",
@@ -187,6 +204,11 @@ const carMakes = {
     "Rivian",
     "Polestar",
     "Genesis",
+    "Cadillac",
+    "Ford",
+    "Volkswagen",
+    "Kia",
+    "Hyundai",
   ],
   Hybrid: [
     "Lexus",
@@ -199,6 +221,10 @@ const carMakes = {
     "Aston Martin",
     "Bentley",
     "Land Rover",
+    "Toyota",
+    "Ford",
+    "Honda",
+    "Hyundai",
   ],
   Limousine: [
     "Mercedes-Benz",
@@ -211,6 +237,7 @@ const carMakes = {
     "BMW",
     "Lexus",
     "Jaguar",
+    "Audi",
   ],
 };
 
@@ -265,41 +292,87 @@ const carModels = {
   Lincoln: ["Continental", "Navigator"],
   Chrysler: ["300"],
   Maybach: ["S 580", "S 680"],
+  Infiniti: ["Q50", "Q60", "QX80", "QX60", "QX55"],
+  Acura: ["TLX", "RLX", "MDX", "RDX", "NSX"],
+  Lincoln: ["Aviator", "Corsair", "Nautilus"],
+  Chrysler: ["Pacifica", "300"],
+  Chevrolet: ["Corvette", "Camaro", "Bolt EUV"],
+  Ford: ["Mustang", "F-150 Lightning", "Explorer Hybrid", "Escape PHEV"],
+  Toyota: ["Camry Hybrid", "Prius", "Mirai", "GR Supra"],
+  Honda: ["Accord Hybrid", "Clarity", "Insight", "CR-V Hybrid"],
+  Hyundai: ["Ioniq 5", "Ioniq 6", "Sonata Hybrid", "Tucson Hybrid"],
+  Kia: ["EV6", "Niro EV", "Sorento PHEV"],
+  Volkswagen: ["ID.4", "Arteon", "Passat", "Touareg"],
+  Corvette: ["C8 Stingray", "Z06", "E-Ray"],
+  Maybach: ["S 680", "GLS 600"],
 };
 
 const carFeatures = [
+  // Comfort & Convenience
   "Leather Seats",
-  "GPS Navigation",
-  "Sunroof",
-  "Bluetooth",
-  "Backup Camera",
   "Heated Seats",
-  "All-Wheel Drive",
-  "Blind Spot Monitoring",
-  "Adaptive Cruise Control",
-  "Parking Sensors",
-  "Premium Sound System",
-  "Keyless Entry",
+  "Ventilated Seats",
+  "Massage Seats",
+  "Electric Adjustable Seats",
+  "Third-Row Seating",
+  "Power Tailgate",
   "Remote Start",
+  "Keyless Entry",
+  "Push-Button Start",
+  "Dual-Zone Climate Control",
+  "Tri-Zone Climate Control",
+  "Ambient Lighting",
+
+  // Tech
+  "GPS Navigation",
+  "Bluetooth",
   "Wireless Charging",
   "Apple CarPlay",
   "Android Auto",
-  "Electric Adjustable Seats",
-  "Massage Seats",
-  "Climate Control",
-  "Night Vision",
   "Heads-Up Display",
+  "Digital Cockpit",
+  "Wi-Fi Hotspot",
+  "Touchscreen Display",
+  "Rear Entertainment System",
+
+  // Safety
+  "Backup Camera",
+  "360-Degree Camera",
+  "Blind Spot Monitoring",
+  "Lane Keep Assist",
+  "Adaptive Cruise Control",
+  "Automatic Emergency Braking",
+  "Parking Sensors",
+  "Cross Traffic Alert",
+  "Night Vision",
+  "Driver Attention Monitoring",
+
+  // Performance & Utility
+  "All-Wheel Drive",
+  "Four-Wheel Drive",
   "Performance Tires",
+  "Tow Package",
+  "Sport Suspension",
+  "Adjustable Ride Height",
+  "Launch Control",
+
+  // Exterior
+  "Sunroof",
+  "Panoramic Roof",
   "Convertible Roof",
+  "Roof Rack",
+  "Running Boards",
+  "LED Headlights",
+  "Fog Lights",
+
+  // Audio & Media
+  "Premium Sound System",
+  "Satellite Radio",
+  "Voice Control",
 ];
 
 const carColors = [
-  "Black",
-  "White",
-  "Silver",
-  "Gray",
-  "Blue",
-  "Red",
+  // Luxury/Tinted Variants
   "British Racing Green",
   "Champagne",
   "Burgundy",
@@ -314,26 +387,44 @@ const carColors = [
   "Sapphire Blue",
   "Ruby Red",
   "Ivory",
+
+  // Modern Finishes
   "Matte Black",
   "Carbon Black",
   "Metallic Silver",
+  "Gunmetal Gray",
+  "Cement Gray",
+  "Nardo Gray",
+  "Matte Gray",
+  "Steel Blue",
+  "Canyon Red",
+  "Forest Green",
+  "Bronze",
+  "Rose Gold",
+  "Copper",
+  "Ice Blue",
+  "Ocean Teal",
+  "Graphite",
+  "Lava Orange",
+  "Amethyst Purple",
 ];
 
 const pickupLocations = [
-  "Airport",
-  "City Center",
-  "Hotel Delivery",
-  "Main Terminal",
-  "Downtown Office",
-  "Marina",
-  "Luxury Mall",
-  "Convention Center",
-  "Resort",
-  "VIP Terminal",
-  "Private Airfield",
-  "Yacht Club",
-  "Casino",
-  "Designated Hotel",
+  "Main Terminal", // General airport terminal
+  "VIP Terminal", // Private or premium terminal
+  "Car Rental Center", // Dedicated car rental facility (often offsite)
+  "Airport Curbside", // Direct curbside pickup at airport
+  "Hotel Lobby", // Valet or front desk pickup
+  "Downtown Office", // Rental branch in city center
+  "Train Station", // Common for urban or intercity pickup
+  "Bus Terminal", // Useful for intermodal travelers
+  "Convention Center", // For events or business travelers
+  "Residential Address", // Home delivery or peer-to-peer rental
+  "Shopping Mall", // Parking garage pickup or storefront
+  "Cruise Port", // For cities with major cruise terminals
+  "Transit Hub", // Covers subway/light rail stations
+  "University Campus", // Common for student rentals or short trips
+  "Dealer Lot", // Often used for peer-to-peer pickup
 ];
 
 // Generate a random luxury car with all required properties
@@ -434,8 +525,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numColors)
         .fill(0)
-        .map(() => carColors[Math.floor(Math.random() * carColors.length)]),
-    ),
+        .map(() => carColors[Math.floor(Math.random() * carColors.length)])
+    )
   );
 
   // Generate features (5-10 features)
@@ -444,8 +535,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numFeatures)
         .fill(0)
-        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)]),
-    ),
+        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)])
+    )
   );
 
   // Generate rental price per day (based on car type and make)
@@ -560,7 +651,7 @@ function generateLuxuryRentalCar(city, index) {
     rentalPricePerDay,
     currency, // Now using location-based currency
     available,
-    pickUpCity: `${formatCamelCaseToTitle(city)}`,
+    pickUpCity: `${formatKebebToTitleCase(city)}`,
     pickUpCountry: country,
     pickUpLocation,
     imageUrl,

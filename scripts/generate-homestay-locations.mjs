@@ -32,9 +32,17 @@ import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
   formatTitleToCamelCase,
+  formatKebebToTitleCase,
   removeAccents,
+  formatKebabToCamelCase,
 } from "./utils/format-utils.mjs";
-import { cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  countryCurrencyMap,
+  euroCountries,
+  regionCurrencyMap,
+} from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 
@@ -171,7 +179,7 @@ function formatCityName(cityName) {
 
   return {
     fileName: formattedName,
-    variableName: formattedName + "Homestays",
+    variableName: formatKebabToCamelCase(formattedName) + "Homestays",
   };
 }
 
@@ -205,42 +213,6 @@ function getRegionForCity(city) {
   return region;
 }
 
-const region = cities[0] ? getRegionForCity(cities[0]) : "global";
-let regionForLanguages;
-
-// Map maritime regions to language regions
-switch (region) {
-  case "Mediterranean":
-  case "Northern Europe":
-  case "Western Europe":
-    regionForLanguages = "europe";
-    break;
-
-  case "Asia Pacific":
-    regionForLanguages = "asia";
-    break;
-
-  case "Caribbean":
-  case "East Coast USA":
-  case "West Coast USA":
-  case "East Coast Canada":
-  case "South America":
-    regionForLanguages = "americas";
-    break;
-
-  case "Middle East":
-    regionForLanguages = "middleEast";
-    break;
-
-  case "Africa":
-    regionForLanguages = "africa";
-    break;
-
-  default:
-    regionForLanguages = "global";
-    break;
-}
-
 const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
 const selectedLanguages = getRandomLanguages(languageCount, regionForLanguages);
 const hostLanguages = selectedLanguages.map((lang) => lang.name);
@@ -251,6 +223,43 @@ if (!hostLanguages.includes("English")) {
 
 // Generate a host for a specific city
 function generateHost(city) {
+  const region = cityToRegionMap[city] || "";
+  const country = cityCountryMap[city] || "";
+  let regionForLanguages;
+
+  // Map maritime regions to language regions
+  switch (region) {
+    case "Mediterranean":
+    case "Northern Europe":
+    case "Western Europe":
+      regionForLanguages = "europe";
+      break;
+
+    case "Asia Pacific":
+      regionForLanguages = "asia";
+      break;
+
+    case "Caribbean":
+    case "East Coast USA":
+    case "West Coast USA":
+    case "East Coast Canada":
+    case "South America":
+      regionForLanguages = "americas";
+      break;
+
+    case "Middle East":
+      regionForLanguages = "middleEast";
+      break;
+
+    case "Africa":
+      regionForLanguages = "africa";
+      break;
+
+    default:
+      regionForLanguages = "global";
+      break;
+  }
+
   // Use the utility function instead of concatenating random first and last names
   const name = getRandomName();
 
@@ -332,9 +341,9 @@ function generateHost(city) {
     hostingStyle,
     houseRules: selectedRules,
     location: {
-      city: city,
-      region: city.region,
-      country: city.country,
+      city: `${formatKebebToTitleCase(city)}`,
+      region: region,
+      country: country,
       // Random coordinates near the city center (simplified)
       coordinates: {
         lat: Math.random() * 0.2 - 0.1 + 40, // Just a placeholder lat
@@ -360,7 +369,7 @@ function generateHost(city) {
     rating: parseFloat(rating),
     reviewCount,
     quote,
-    stayType,
+    stayType: `${formatKebebToTitleCase(stayType)}`,
   };
 }
 
@@ -374,7 +383,7 @@ async function generateCityHomestays(city) {
     "lib",
     "constants",
     "destinations",
-    "homestay",
+    "homestay"
   );
   const filePath = path.join(destDir, `${fileName}.ts`);
 
@@ -419,7 +428,7 @@ async function generateCityHomestays(city) {
         if (key === "location") {
           const location = value;
           content += `        ${key}: {\n`;
-          content += `          city: "${location.city}",\n`;
+          content += `          city: "${formatKebebToTitleCase(location.city)}",\n`;
           if (location.region)
             content += `          region: "${location.region}",\n`;
           content += `          country: "${location.country}",\n`;

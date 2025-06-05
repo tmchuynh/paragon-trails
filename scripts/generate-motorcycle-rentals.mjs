@@ -36,6 +36,7 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
+  formatKebebToTitleCase,
 } from "./utils/format-utils.mjs";
 import {
   cityCountryMap,
@@ -114,6 +115,12 @@ const motorcycleMakes = [
   "Moto Guzzi",
   "Royal Enfield",
   "Husqvarna",
+  "Can-Am",
+  "Zero",
+  "Benelli",
+  "CFMoto",
+  "Bajaj",
+  "GasGas",
 ];
 
 const motorcycleModels = {
@@ -125,6 +132,8 @@ const motorcycleModels = {
     "Electra Glide",
     "Road Glide",
     "Softail",
+    "Iron 883",
+    "Breakout",
   ],
   Honda: [
     "CB500X",
@@ -134,6 +143,8 @@ const motorcycleModels = {
     "CBR1000RR",
     "Shadow",
     "CRF450L",
+    "CBR650R",
+    "NC750X",
   ],
   Yamaha: [
     "MT-09",
@@ -143,6 +154,8 @@ const motorcycleModels = {
     "MT-07",
     "FZ-09",
     "Bolt",
+    "Tracer 9 GT",
+    "Tenere 700",
   ],
   Kawasaki: [
     "Ninja",
@@ -152,6 +165,7 @@ const motorcycleModels = {
     "Z650",
     "Concours",
     "Ninja 650",
+    "KLR 650",
   ],
   Suzuki: [
     "GSX-R1000",
@@ -161,8 +175,18 @@ const motorcycleModels = {
     "SV650",
     "DR-Z400",
     "GSX-S750",
+    "GSX250R",
   ],
-  BMW: ["R1250GS", "S1000RR", "F850GS", "K1600", "R nineT", "F750GS", "G310R"],
+  BMW: [
+    "R1250GS",
+    "S1000RR",
+    "F850GS",
+    "K1600",
+    "R nineT",
+    "F750GS",
+    "G310R",
+    "C400GT",
+  ],
   Ducati: [
     "Panigale",
     "Monster",
@@ -171,6 +195,7 @@ const motorcycleModels = {
     "Scrambler",
     "Hypermotard",
     "SuperSport",
+    "Streetfighter V4",
   ],
   Triumph: [
     "Street Triple",
@@ -180,6 +205,7 @@ const motorcycleModels = {
     "Rocket 3",
     "Thruxton",
     "Scrambler",
+    "Daytona Moto2 765",
   ],
   KTM: [
     "1290 Super Duke",
@@ -189,6 +215,7 @@ const motorcycleModels = {
     "1290 Super Adventure",
     "RC390",
     "690 SMC",
+    "890 Adventure R",
   ],
   Indian: [
     "Chief",
@@ -198,6 +225,7 @@ const motorcycleModels = {
     "Roadmaster",
     "Springfield",
     "Challenger",
+    "Pursuit",
   ],
   Victory: [
     "Cross Country",
@@ -207,6 +235,7 @@ const motorcycleModels = {
     "High-Ball",
     "Gunner",
     "Octane",
+    "Magnum",
   ],
   Aprilia: [
     "RSV4",
@@ -216,6 +245,7 @@ const motorcycleModels = {
     "RS 660",
     "Caponord",
     "SX 125",
+    "Tuareg 660",
   ],
   "Moto Guzzi": [
     "V7",
@@ -225,6 +255,7 @@ const motorcycleModels = {
     "Audace",
     "Griso",
     "Norge",
+    "MGX-21",
   ],
   "Royal Enfield": [
     "Himalayan",
@@ -234,6 +265,7 @@ const motorcycleModels = {
     "Bullet",
     "Meteor",
     "Hunter",
+    "Super Meteor 650",
   ],
   Husqvarna: [
     "Vitpilen 701",
@@ -243,7 +275,14 @@ const motorcycleModels = {
     "701 Supermoto",
     "TE 300i",
     "FX 450",
+    "TE 150",
   ],
+  "Can-Am": ["Ryker", "Spyder F3", "Spyder RT", "Spyder ST"],
+  Zero: ["SR/F", "DSR/X", "FXE", "S", "DS"],
+  Benelli: ["TRK502", "Leoncino", "302S", "TNT135"],
+  CFMoto: ["650NK", "300SS", "650MT", "700CL-X"],
+  Bajaj: ["Pulsar NS200", "Dominar 400", "Avenger Street 160", "CT100"],
+  GasGas: ["MC 450F", "EC 300", "SM 700", "EX 250F"],
 };
 
 const motorcycleTypes = [
@@ -313,17 +352,22 @@ const motorcycleRequirements = [
   "International Driving Permit (for foreign renters)",
 ];
 
-const locations = [
+const pickupLocations = [
   "Downtown",
   "Airport",
+  "Train Station",
+  "Harley-Davidson Dealership",
+  "Hotel Pickup",
   "Tourist District",
-  "City Center",
-  "Marina",
   "Convention Center",
-  "Near Beach",
   "Transit Hub",
-  "Shopping District",
-  "Entertainment District",
+  "Motorcycle Dealership",
+  "Residential Area",
+  "Shopping Center",
+  "City Center",
+  "RV Park / Campground",
+  "Car Rental Lot",
+  "University Area",
 ];
 
 // Generate a motorcycle with all required properties
@@ -368,9 +412,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleFeatures[
               Math.floor(Math.random() * motorcycleFeatures.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate random requirements
@@ -383,9 +427,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleRequirements[
               Math.floor(Math.random() * motorcycleRequirements.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Always include "Valid Motorcycle License" as a requirement
@@ -429,7 +473,7 @@ function generateMotorcycle(cityName, index) {
     rentalPricePerDay,
     currency, // Location-based currency
     available,
-    pickUpCity: `${formatCamelCaseToTitle(cityName)}`,
+    pickUpCity: `${formatKebebToTitleCase(cityName)}`,
     pickUpCountry: country,
     pickUpLocation,
     // Only include drop-off properties if they're different from pick-up
