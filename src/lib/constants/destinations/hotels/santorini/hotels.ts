@@ -7,7 +7,14 @@ export const santoriniHotels: Hotel[] = [
     address: "300 Queen Court",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Pet Friendly", "Room Service", "Laundry Service", "Spa", "Business Center", "Bar"],
+    amenities: [
+      "Pet Friendly",
+      "Room Service",
+      "Laundry Service",
+      "Spa",
+      "Business Center",
+      "Bar",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 44,
@@ -18,7 +25,8 @@ export const santoriniHotels: Hotel[] = [
       contactPhone: "+677 941-812-3821",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -29,7 +37,18 @@ export const santoriniHotels: Hotel[] = [
     address: "126 Queen Way",
     rating: 4,
     accommodationType: "Spa Hotel",
-    amenities: ["Free Wi-Fi", "Parking", "Swimming Pool", "Restaurant", "Room Service", "Fitness Center", "Spa", "Pet Friendly", "24-Hour Front Desk", "Conference Room"],
+    amenities: [
+      "Free Wi-Fi",
+      "Parking",
+      "Swimming Pool",
+      "Restaurant",
+      "Room Service",
+      "Fitness Center",
+      "Spa",
+      "Pet Friendly",
+      "24-Hour Front Desk",
+      "Conference Room",
+    ],
     checkInTime: "14:00",
     checkOutTime: "12:00",
     roomsAvailable: 33,
@@ -40,7 +59,8 @@ export const santoriniHotels: Hotel[] = [
       contactPhone: "+74 565-225-1479",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -51,7 +71,13 @@ export const santoriniHotels: Hotel[] = [
     address: "282 Broadway Terrace",
     rating: 4,
     accommodationType: "Family Resort",
-    amenities: ["Conference Room", "Free Wi-Fi", "Parking", "Swimming Pool", "Laundry Service"],
+    amenities: [
+      "Conference Room",
+      "Free Wi-Fi",
+      "Parking",
+      "Swimming Pool",
+      "Laundry Service",
+    ],
     accessibilityFeatures: ["Elevator", "Accessible Parking"],
     checkInTime: "14:00",
     checkOutTime: "11:00",
@@ -63,7 +89,8 @@ export const santoriniHotels: Hotel[] = [
       contactPhone: "+370 747-252-9967",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -74,8 +101,22 @@ export const santoriniHotels: Hotel[] = [
     address: "180 Park Road",
     rating: 4,
     accommodationType: "Resort",
-    amenities: ["Room Service", "Free Wi-Fi", "Spa", "Bar", "Business Center", "Restaurant", "Parking", "Swimming Pool", "Non-Smoking Rooms", "24-Hour Front Desk"],
-    accessibilityFeatures: ["Assistive Listening Devices", "Accessible Parking"],
+    amenities: [
+      "Room Service",
+      "Free Wi-Fi",
+      "Spa",
+      "Bar",
+      "Business Center",
+      "Restaurant",
+      "Parking",
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+      "24-Hour Front Desk",
+    ],
+    accessibilityFeatures: [
+      "Assistive Listening Devices",
+      "Accessible Parking",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 36,
@@ -86,9 +127,10 @@ export const santoriniHotels: Hotel[] = [
       contactPhone: "+685 967-102-5305",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

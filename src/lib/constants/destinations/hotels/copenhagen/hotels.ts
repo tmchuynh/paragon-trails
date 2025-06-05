@@ -8,7 +8,10 @@ export const copenhagenHotels: Hotel[] = [
     rating: 4,
     accommodationType: "Guesthouse",
     amenities: ["Parking", "Conference Room", "Bar", "Spa", "Restaurant"],
-    accessibilityFeatures: ["Assistive Listening Devices", "Lowered Light Switches"],
+    accessibilityFeatures: [
+      "Assistive Listening Devices",
+      "Lowered Light Switches",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 51,
@@ -19,7 +22,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+719 734-824-8331",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -30,7 +34,13 @@ export const copenhagenHotels: Hotel[] = [
     address: "171 Queen Way",
     rating: 4,
     accommodationType: "Hotel",
-    amenities: ["Spa", "Room Service", "Airport Shuttle", "Laundry Service", "Fitness Center"],
+    amenities: [
+      "Spa",
+      "Room Service",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Fitness Center",
+    ],
     accessibilityFeatures: ["Braille Signage", "Accessible Shower"],
     checkInTime: "16:00",
     checkOutTime: "10:00",
@@ -42,7 +52,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+768 460-318-8399",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -53,7 +64,17 @@ export const copenhagenHotels: Hotel[] = [
     address: "269 King Ave",
     rating: 3,
     accommodationType: "Spa Hotel",
-    amenities: ["Fitness Center", "24-Hour Front Desk", "Non-Smoking Rooms", "Free Wi-Fi", "Pet Friendly", "Restaurant", "Spa", "Parking", "Business Center"],
+    amenities: [
+      "Fitness Center",
+      "24-Hour Front Desk",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Restaurant",
+      "Spa",
+      "Parking",
+      "Business Center",
+    ],
     checkInTime: "13:00",
     checkOutTime: "12:00",
     roomsAvailable: 22,
@@ -64,9 +85,10 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+336 188-889-8781",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

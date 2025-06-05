@@ -7,7 +7,18 @@ export const sydneyHotels: Hotel[] = [
     address: "78 East Hilltop Court",
     rating: 4,
     accommodationType: "Boutique Hotel",
-    amenities: ["Spa", "Fitness Center", "Laundry Service", "Swimming Pool", "Room Service", "Pet Friendly", "Parking", "Business Center", "24-Hour Front Desk", "Restaurant"],
+    amenities: [
+      "Spa",
+      "Fitness Center",
+      "Laundry Service",
+      "Swimming Pool",
+      "Room Service",
+      "Pet Friendly",
+      "Parking",
+      "Business Center",
+      "24-Hour Front Desk",
+      "Restaurant",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 43,
@@ -18,7 +29,8 @@ export const sydneyHotels: Hotel[] = [
       contactPhone: "+561 674-552-7939",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,7 +41,18 @@ export const sydneyHotels: Hotel[] = [
     address: "56 Riverside Ave",
     rating: 3,
     accommodationType: "Guesthouse",
-    amenities: ["Free Wi-Fi", "Non-Smoking Rooms", "Swimming Pool", "Laundry Service", "Bar", "Airport Shuttle", "Parking", "Pet Friendly", "Fitness Center", "Spa"],
+    amenities: [
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+      "Laundry Service",
+      "Bar",
+      "Airport Shuttle",
+      "Parking",
+      "Pet Friendly",
+      "Fitness Center",
+      "Spa",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 43,
@@ -40,7 +63,8 @@ export const sydneyHotels: Hotel[] = [
       contactPhone: "+549 488-635-3738",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -51,7 +75,13 @@ export const sydneyHotels: Hotel[] = [
     address: "46 Sunset Rd",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Spa", "24-Hour Front Desk", "Swimming Pool", "Bar", "Restaurant"],
+    amenities: [
+      "Spa",
+      "24-Hour Front Desk",
+      "Swimming Pool",
+      "Bar",
+      "Restaurant",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 15,
@@ -62,9 +92,10 @@ export const sydneyHotels: Hotel[] = [
       contactPhone: "+614 654-438-5221",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

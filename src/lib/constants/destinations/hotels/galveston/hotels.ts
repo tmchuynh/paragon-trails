@@ -7,7 +7,14 @@ export const galvestonHotels: Hotel[] = [
     address: "119 SW Maple Hwy",
     rating: 3,
     accommodationType: "Serviced Apartment",
-    amenities: ["Parking", "Room Service", "Pet Friendly", "Airport Shuttle", "Business Center", "Free Wi-Fi"],
+    amenities: [
+      "Parking",
+      "Room Service",
+      "Pet Friendly",
+      "Airport Shuttle",
+      "Business Center",
+      "Free Wi-Fi",
+    ],
     accessibilityFeatures: ["Accessible Pathways"],
     checkInTime: "15:00",
     checkOutTime: "12:00",
@@ -19,7 +26,8 @@ export const galvestonHotels: Hotel[] = [
       contactPhone: "+470 568-949-9948",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -30,8 +38,22 @@ export const galvestonHotels: Hotel[] = [
     address: "121 Washington Ln",
     rating: 3,
     accommodationType: "Motel",
-    amenities: ["Non-Smoking Rooms", "Free Wi-Fi", "Pet Friendly", "Swimming Pool", "Airport Shuttle", "Conference Room", "Laundry Service", "Restaurant", "Business Center"],
-    accessibilityFeatures: ["Tactile Maps", "Accessible Parking", "Braille Signage"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Conference Room",
+      "Laundry Service",
+      "Restaurant",
+      "Business Center",
+    ],
+    accessibilityFeatures: [
+      "Tactile Maps",
+      "Accessible Parking",
+      "Braille Signage",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 49,
@@ -42,7 +64,8 @@ export const galvestonHotels: Hotel[] = [
       contactPhone: "+628 368-973-3574",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -53,7 +76,16 @@ export const galvestonHotels: Hotel[] = [
     address: "11 Maple Pl",
     rating: 3,
     accommodationType: "Serviced Apartment",
-    amenities: ["Business Center", "Free Wi-Fi", "Conference Room", "Fitness Center", "Spa", "Bar", "Restaurant", "24-Hour Front Desk"],
+    amenities: [
+      "Business Center",
+      "Free Wi-Fi",
+      "Conference Room",
+      "Fitness Center",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Visual Alarm", "Grab Bars"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -65,9 +97,10 @@ export const galvestonHotels: Hotel[] = [
       contactPhone: "+371 122-844-6645",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

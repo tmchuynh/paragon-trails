@@ -7,7 +7,13 @@ export const roatanHotels: Hotel[] = [
     address: "102 Riverside Street",
     rating: 3,
     accommodationType: "Family Resort",
-    amenities: ["Parking", "Free Wi-Fi", "Spa", "Pet Friendly", "Conference Room"],
+    amenities: [
+      "Parking",
+      "Free Wi-Fi",
+      "Spa",
+      "Pet Friendly",
+      "Conference Room",
+    ],
     accessibilityFeatures: ["Accessible Pathways", "Accessible Parking"],
     checkInTime: "14:00",
     checkOutTime: "10:00",
@@ -19,7 +25,8 @@ export const roatanHotels: Hotel[] = [
       contactPhone: "+40 276-406-7750",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -30,7 +37,14 @@ export const roatanHotels: Hotel[] = [
     address: "291 King Avenue",
     rating: 3,
     accommodationType: "Eco-Lodge",
-    amenities: ["24-Hour Front Desk", "Conference Room", "Parking", "Fitness Center", "Bar", "Spa"],
+    amenities: [
+      "24-Hour Front Desk",
+      "Conference Room",
+      "Parking",
+      "Fitness Center",
+      "Bar",
+      "Spa",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 54,
@@ -52,7 +66,13 @@ export const roatanHotels: Hotel[] = [
     address: "131 King Rd",
     rating: 4,
     accommodationType: "Serviced Apartment",
-    amenities: ["Restaurant", "Room Service", "Parking", "Conference Room", "Airport Shuttle"],
+    amenities: [
+      "Restaurant",
+      "Room Service",
+      "Parking",
+      "Conference Room",
+      "Airport Shuttle",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 36,
@@ -63,9 +83,10 @@ export const roatanHotels: Hotel[] = [
       contactPhone: "+7 757-245-7530",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

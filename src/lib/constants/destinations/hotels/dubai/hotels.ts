@@ -7,8 +7,21 @@ export const dubaiHotels: Hotel[] = [
     address: "77 Sunset Way",
     rating: 4,
     accommodationType: "Business Hotel",
-    amenities: ["Conference Room", "Free Wi-Fi", "Restaurant", "Parking", "Swimming Pool", "Room Service", "Laundry Service", "24-Hour Front Desk"],
-    accessibilityFeatures: ["Sign Language Interpretation", "Wheelchair Accessible", "Elevator"],
+    amenities: [
+      "Conference Room",
+      "Free Wi-Fi",
+      "Restaurant",
+      "Parking",
+      "Swimming Pool",
+      "Room Service",
+      "Laundry Service",
+      "24-Hour Front Desk",
+    ],
+    accessibilityFeatures: [
+      "Sign Language Interpretation",
+      "Wheelchair Accessible",
+      "Elevator",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 40,
@@ -19,7 +32,8 @@ export const dubaiHotels: Hotel[] = [
       contactPhone: "+692 511-780-5556",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -42,7 +56,8 @@ export const dubaiHotels: Hotel[] = [
       contactPhone: "+468 472-558-8154",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -53,7 +68,14 @@ export const dubaiHotels: Hotel[] = [
     address: "248 Liberty Terrace",
     rating: 4,
     accommodationType: "Family Resort",
-    amenities: ["Parking", "Spa", "Airport Shuttle", "Room Service", "Pet Friendly", "Restaurant"],
+    amenities: [
+      "Parking",
+      "Spa",
+      "Airport Shuttle",
+      "Room Service",
+      "Pet Friendly",
+      "Restaurant",
+    ],
     accessibilityFeatures: ["Visual Alarm"],
     checkInTime: "14:00",
     checkOutTime: "11:00",
@@ -65,7 +87,8 @@ export const dubaiHotels: Hotel[] = [
       contactPhone: "+226 623-300-1271",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -76,7 +99,15 @@ export const dubaiHotels: Hotel[] = [
     address: "161 Queen Place",
     rating: 4,
     accommodationType: "Glamping Resort",
-    amenities: ["Free Wi-Fi", "Pet Friendly", "Fitness Center", "Spa", "Swimming Pool", "Bar", "Business Center"],
+    amenities: [
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Fitness Center",
+      "Spa",
+      "Swimming Pool",
+      "Bar",
+      "Business Center",
+    ],
     accessibilityFeatures: ["Elevator"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -88,9 +119,10 @@ export const dubaiHotels: Hotel[] = [
       contactPhone: "+85 243-331-1927",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

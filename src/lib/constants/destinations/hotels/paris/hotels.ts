@@ -8,7 +8,8 @@ export const parisHotels: Hotel[] = [
       contactPhone: "+74 658-285-5180",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Allowed",
     },
     id: "hotel-paris-1",
@@ -30,7 +31,8 @@ export const parisHotels: Hotel[] = [
       contactPhone: "+491 260-514-4905",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     id: "hotel-paris-2",
@@ -52,7 +54,8 @@ export const parisHotels: Hotel[] = [
       contactPhone: "+336 749-718-8555",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     id: "hotel-paris-3",
@@ -73,7 +76,17 @@ export const parisHotels: Hotel[] = [
     address: "243 King Way",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Parking", "Airport Shuttle", "Business Center", "Swimming Pool", "Spa", "Non-Smoking Rooms", "Room Service", "Pet Friendly", "Free Wi-Fi"],
+    amenities: [
+      "Parking",
+      "Airport Shuttle",
+      "Business Center",
+      "Swimming Pool",
+      "Spa",
+      "Non-Smoking Rooms",
+      "Room Service",
+      "Pet Friendly",
+      "Free Wi-Fi",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 24,
@@ -84,7 +97,8 @@ export const parisHotels: Hotel[] = [
       contactPhone: "+146 280-110-5353",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -95,7 +109,17 @@ export const parisHotels: Hotel[] = [
     address: "90 Park Blvd",
     rating: 3,
     accommodationType: "Extended Stay Hotel",
-    amenities: ["Non-Smoking Rooms", "Free Wi-Fi", "Spa", "Business Center", "Laundry Service", "Restaurant", "Swimming Pool", "Bar", "Fitness Center"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+      "Spa",
+      "Business Center",
+      "Laundry Service",
+      "Restaurant",
+      "Swimming Pool",
+      "Bar",
+      "Fitness Center",
+    ],
     accessibilityFeatures: ["Hearing Support"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -107,7 +131,8 @@ export const parisHotels: Hotel[] = [
       contactPhone: "+40 296-384-7619",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -118,7 +143,17 @@ export const parisHotels: Hotel[] = [
     address: "193 Main Terrace",
     rating: 4,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Spa", "Fitness Center", "Airport Shuttle", "Swimming Pool", "Free Wi-Fi", "Restaurant", "Parking", "Bar", "Laundry Service"],
+    amenities: [
+      "Spa",
+      "Fitness Center",
+      "Airport Shuttle",
+      "Swimming Pool",
+      "Free Wi-Fi",
+      "Restaurant",
+      "Parking",
+      "Bar",
+      "Laundry Service",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 47,
@@ -133,5 +168,5 @@ export const parisHotels: Hotel[] = [
       smoking: "Not Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

@@ -7,7 +7,16 @@ export const losAngelesHotels: Hotel[] = [
     address: "107 Sunset Sq",
     rating: 4,
     accommodationType: "Serviced Apartment",
-    amenities: ["Bar", "Free Wi-Fi", "Non-Smoking Rooms", "Swimming Pool", "Room Service", "Airport Shuttle", "Parking", "24-Hour Front Desk"],
+    amenities: [
+      "Bar",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+      "Room Service",
+      "Airport Shuttle",
+      "Parking",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Accessible Bathroom", "Visual Alarm"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -19,7 +28,8 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+752 945-950-5752",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -30,7 +40,14 @@ export const losAngelesHotels: Hotel[] = [
     address: "279 Old Elm Dr",
     rating: 4,
     accommodationType: "Boutique Resort",
-    amenities: ["Non-Smoking Rooms", "Fitness Center", "Pet Friendly", "Swimming Pool", "Room Service", "Restaurant"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Fitness Center",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Room Service",
+      "Restaurant",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 46,
@@ -41,7 +58,8 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+571 293-425-3494",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,7 +70,16 @@ export const losAngelesHotels: Hotel[] = [
     address: "164 Main Way",
     rating: 3,
     accommodationType: "Vacation Rental",
-    amenities: ["Bar", "Pet Friendly", "Free Wi-Fi", "Restaurant", "Non-Smoking Rooms", "Laundry Service", "Swimming Pool", "Airport Shuttle"],
+    amenities: [
+      "Bar",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Restaurant",
+      "Non-Smoking Rooms",
+      "Laundry Service",
+      "Swimming Pool",
+      "Airport Shuttle",
+    ],
     accessibilityFeatures: ["Hearing Loop", "Accessible Shower"],
     checkInTime: "13:00",
     checkOutTime: "11:00",
@@ -64,7 +91,8 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+672 109-197-7941",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -75,7 +103,14 @@ export const losAngelesHotels: Hotel[] = [
     address: "76 W Elm Pl",
     rating: 3,
     accommodationType: "Luxury Villa",
-    amenities: ["Swimming Pool", "Room Service", "Conference Room", "Laundry Service", "Pet Friendly", "Restaurant"],
+    amenities: [
+      "Swimming Pool",
+      "Room Service",
+      "Conference Room",
+      "Laundry Service",
+      "Pet Friendly",
+      "Restaurant",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 59,
@@ -86,7 +121,8 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+840 582-836-8278",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -97,7 +133,13 @@ export const losAngelesHotels: Hotel[] = [
     address: "80 Lincoln Cres",
     rating: 4,
     accommodationType: "Hotel",
-    amenities: ["Conference Room", "Non-Smoking Rooms", "24-Hour Front Desk", "Pet Friendly", "Airport Shuttle"],
+    amenities: [
+      "Conference Room",
+      "Non-Smoking Rooms",
+      "24-Hour Front Desk",
+      "Pet Friendly",
+      "Airport Shuttle",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible", "Hearing Loop"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -109,7 +151,8 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+430 466-365-5875",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -120,8 +163,19 @@ export const losAngelesHotels: Hotel[] = [
     address: "147 Main Sq",
     rating: 4,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Non-Smoking Rooms", "Parking", "Free Wi-Fi", "Restaurant", "Fitness Center", "Swimming Pool"],
-    accessibilityFeatures: ["Wheelchair Accessible", "Visual Alarm", "Tactile Maps"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Parking",
+      "Free Wi-Fi",
+      "Restaurant",
+      "Fitness Center",
+      "Swimming Pool",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible",
+      "Visual Alarm",
+      "Tactile Maps",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 59,
@@ -132,9 +186,10 @@ export const losAngelesHotels: Hotel[] = [
       contactPhone: "+357 533-626-5096",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

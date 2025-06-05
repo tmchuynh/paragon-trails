@@ -7,7 +7,13 @@ export const athensHotels: Hotel[] = [
     address: "234 North Broadway Street",
     rating: 4,
     accommodationType: "Luxury Villa",
-    amenities: ["Pet Friendly", "Free Wi-Fi", "Airport Shuttle", "Spa", "Laundry Service"],
+    amenities: [
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Airport Shuttle",
+      "Spa",
+      "Laundry Service",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 27,
@@ -18,7 +24,8 @@ export const athensHotels: Hotel[] = [
       contactPhone: "+816 542-553-9245",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,7 +36,17 @@ export const athensHotels: Hotel[] = [
     address: "85 Central St",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Business Center", "Free Wi-Fi", "Non-Smoking Rooms", "Restaurant", "Laundry Service", "Swimming Pool", "24-Hour Front Desk", "Conference Room", "Airport Shuttle"],
+    amenities: [
+      "Business Center",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Restaurant",
+      "Laundry Service",
+      "Swimming Pool",
+      "24-Hour Front Desk",
+      "Conference Room",
+      "Airport Shuttle",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 57,
@@ -40,7 +57,8 @@ export const athensHotels: Hotel[] = [
       contactPhone: "+648 408-305-5083",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -51,8 +69,21 @@ export const athensHotels: Hotel[] = [
     address: "54 Main St",
     rating: 4,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Spa", "Business Center", "Laundry Service", "Airport Shuttle", "Fitness Center", "Non-Smoking Rooms", "Pet Friendly", "Conference Room", "24-Hour Front Desk"],
-    accessibilityFeatures: ["Sign Language Interpretation", "Wheelchair Accessible"],
+    amenities: [
+      "Spa",
+      "Business Center",
+      "Laundry Service",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+      "Conference Room",
+      "24-Hour Front Desk",
+    ],
+    accessibilityFeatures: [
+      "Sign Language Interpretation",
+      "Wheelchair Accessible",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 12,
@@ -63,9 +94,10 @@ export const athensHotels: Hotel[] = [
       contactPhone: "+533 492-763-5355",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

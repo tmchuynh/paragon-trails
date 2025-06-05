@@ -7,7 +7,16 @@ export const newOrleansHotels: Hotel[] = [
     address: "239 Upper Washington Ln",
     rating: 4,
     accommodationType: "Family Resort",
-    amenities: ["Pet Friendly", "Laundry Service", "Restaurant", "Free Wi-Fi", "Business Center", "Room Service", "Conference Room", "24-Hour Front Desk"],
+    amenities: [
+      "Pet Friendly",
+      "Laundry Service",
+      "Restaurant",
+      "Free Wi-Fi",
+      "Business Center",
+      "Room Service",
+      "Conference Room",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Accessible Pathways", "Grab Bars"],
     checkInTime: "13:00",
     checkOutTime: "10:00",
@@ -19,7 +28,8 @@ export const newOrleansHotels: Hotel[] = [
       contactPhone: "+883 687-428-5067",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -30,8 +40,18 @@ export const newOrleansHotels: Hotel[] = [
     address: "149 Lincoln Ct",
     rating: 3,
     accommodationType: "Luxury Lodge",
-    amenities: ["Room Service", "Parking", "Conference Room", "Free Wi-Fi", "24-Hour Front Desk"],
-    accessibilityFeatures: ["Accessible Pathways", "Hearing Loop", "Visual Alarm"],
+    amenities: [
+      "Room Service",
+      "Parking",
+      "Conference Room",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+    ],
+    accessibilityFeatures: [
+      "Accessible Pathways",
+      "Hearing Loop",
+      "Visual Alarm",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 19,
@@ -42,7 +62,8 @@ export const newOrleansHotels: Hotel[] = [
       contactPhone: "+60 586-148-9558",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -53,7 +74,16 @@ export const newOrleansHotels: Hotel[] = [
     address: "215 Cedar Pkwy",
     rating: 4,
     accommodationType: "Motel",
-    amenities: ["Room Service", "Fitness Center", "Conference Room", "Business Center", "Laundry Service", "Restaurant", "Free Wi-Fi", "Non-Smoking Rooms"],
+    amenities: [
+      "Room Service",
+      "Fitness Center",
+      "Conference Room",
+      "Business Center",
+      "Laundry Service",
+      "Restaurant",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 19,
@@ -64,7 +94,8 @@ export const newOrleansHotels: Hotel[] = [
       contactPhone: "+327 176-618-8241",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -75,7 +106,15 @@ export const newOrleansHotels: Hotel[] = [
     address: "19 SE Main Hwy",
     rating: 3,
     accommodationType: "Chalet",
-    amenities: ["Spa", "Business Center", "Airport Shuttle", "Conference Room", "Fitness Center", "Swimming Pool", "Non-Smoking Rooms"],
+    amenities: [
+      "Spa",
+      "Business Center",
+      "Airport Shuttle",
+      "Conference Room",
+      "Fitness Center",
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 42,
@@ -86,9 +125,10 @@ export const newOrleansHotels: Hotel[] = [
       contactPhone: "+795 840-713-1196",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

@@ -7,8 +7,19 @@ export const sitkaHotels: Hotel[] = [
     address: "114 Washington Sq",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Room Service", "Non-Smoking Rooms", "Free Wi-Fi", "Parking", "Conference Room", "Airport Shuttle"],
-    accessibilityFeatures: ["Assistive Listening Devices", "Visual Aids", "Wheelchair Accessible"],
+    amenities: [
+      "Room Service",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+      "Parking",
+      "Conference Room",
+      "Airport Shuttle",
+    ],
+    accessibilityFeatures: [
+      "Assistive Listening Devices",
+      "Visual Aids",
+      "Wheelchair Accessible",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 44,
@@ -19,7 +30,8 @@ export const sitkaHotels: Hotel[] = [
       contactPhone: "+699 670-171-9218",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -30,8 +42,20 @@ export const sitkaHotels: Hotel[] = [
     address: "48 Oak Pkwy",
     rating: 4,
     accommodationType: "Eco-Lodge",
-    amenities: ["Business Center", "Pet Friendly", "Swimming Pool", "Airport Shuttle", "Restaurant", "Non-Smoking Rooms", "Free Wi-Fi"],
-    accessibilityFeatures: ["Braille Signage", "Hearing Loop", "Sign Language Interpretation"],
+    amenities: [
+      "Business Center",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Restaurant",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+    ],
+    accessibilityFeatures: [
+      "Braille Signage",
+      "Hearing Loop",
+      "Sign Language Interpretation",
+    ],
     checkInTime: "16:00",
     checkOutTime: "12:00",
     roomsAvailable: 13,
@@ -42,7 +66,8 @@ export const sitkaHotels: Hotel[] = [
       contactPhone: "+651 797-100-1351",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -53,8 +78,20 @@ export const sitkaHotels: Hotel[] = [
     address: "140 Park St",
     rating: 4,
     accommodationType: "Family Resort",
-    amenities: ["Conference Room", "Laundry Service", "Non-Smoking Rooms", "Free Wi-Fi", "Swimming Pool", "Pet Friendly", "Fitness Center"],
-    accessibilityFeatures: ["Braille Signage", "Lowered Light Switches", "Accessible Bathroom"],
+    amenities: [
+      "Conference Room",
+      "Laundry Service",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Fitness Center",
+    ],
+    accessibilityFeatures: [
+      "Braille Signage",
+      "Lowered Light Switches",
+      "Accessible Bathroom",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 45,
@@ -65,7 +102,8 @@ export const sitkaHotels: Hotel[] = [
       contactPhone: "+730 962-334-4861",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -76,7 +114,14 @@ export const sitkaHotels: Hotel[] = [
     address: "161 Washington Cres",
     rating: 4,
     accommodationType: "Luxury Villa",
-    amenities: ["Parking", "Free Wi-Fi", "Laundry Service", "Swimming Pool", "Business Center", "Pet Friendly"],
+    amenities: [
+      "Parking",
+      "Free Wi-Fi",
+      "Laundry Service",
+      "Swimming Pool",
+      "Business Center",
+      "Pet Friendly",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 17,
@@ -87,9 +132,10 @@ export const sitkaHotels: Hotel[] = [
       contactPhone: "+255 998-511-9470",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

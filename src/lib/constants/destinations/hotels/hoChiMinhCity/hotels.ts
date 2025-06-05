@@ -7,8 +7,19 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "26 Phường Broadway Avenue",
     rating: 4,
     accommodationType: "Boutique Resort",
-    amenities: ["Spa", "Bar", "Non-Smoking Rooms", "Business Center", "Fitness Center", "Restaurant"],
-    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Braille Signage"],
+    amenities: [
+      "Spa",
+      "Bar",
+      "Non-Smoking Rooms",
+      "Business Center",
+      "Fitness Center",
+      "Restaurant",
+    ],
+    accessibilityFeatures: [
+      "Hearing Support",
+      "Visual Aids",
+      "Braille Signage",
+    ],
     checkInTime: "16:00",
     checkOutTime: "12:00",
     roomsAvailable: 36,
@@ -19,7 +30,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+443 956-755-9201",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -30,7 +42,15 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "271 Ngõ Sunset Avenue",
     rating: 4,
     accommodationType: "Hostel",
-    amenities: ["Swimming Pool", "Non-Smoking Rooms", "Conference Room", "Fitness Center", "Restaurant", "Airport Shuttle", "Laundry Service"],
+    amenities: [
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+      "Conference Room",
+      "Fitness Center",
+      "Restaurant",
+      "Airport Shuttle",
+      "Laundry Service",
+    ],
     accessibilityFeatures: ["Accessible Pathways", "Hearing Support"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -42,7 +62,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+184 129-283-2154",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -53,7 +74,17 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "48 Queen Rd",
     rating: 4,
     accommodationType: "Boutique Inn",
-    amenities: ["Fitness Center", "Swimming Pool", "Business Center", "Airport Shuttle", "Free Wi-Fi", "Spa", "Room Service", "Pet Friendly", "Bar"],
+    amenities: [
+      "Fitness Center",
+      "Swimming Pool",
+      "Business Center",
+      "Airport Shuttle",
+      "Free Wi-Fi",
+      "Spa",
+      "Room Service",
+      "Pet Friendly",
+      "Bar",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 34,
@@ -64,7 +95,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+650 660-875-5898",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -75,7 +107,13 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "266 Riverside Ave",
     rating: 3,
     accommodationType: "Vacation Rental",
-    amenities: ["24-Hour Front Desk", "Laundry Service", "Spa", "Fitness Center", "Non-Smoking Rooms"],
+    amenities: [
+      "24-Hour Front Desk",
+      "Laundry Service",
+      "Spa",
+      "Fitness Center",
+      "Non-Smoking Rooms",
+    ],
     accessibilityFeatures: ["Visual Alarm"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -87,9 +125,10 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+261 902-695-3114",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

@@ -7,7 +7,16 @@ export const philipsburgHotels: Hotel[] = [
     address: "91 Hilltop Way",
     rating: 3,
     accommodationType: "Motel",
-    amenities: ["Pet Friendly", "Non-Smoking Rooms", "Fitness Center", "Spa", "Conference Room", "Laundry Service", "Swimming Pool", "Bar"],
+    amenities: [
+      "Pet Friendly",
+      "Non-Smoking Rooms",
+      "Fitness Center",
+      "Spa",
+      "Conference Room",
+      "Laundry Service",
+      "Swimming Pool",
+      "Bar",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 27,
@@ -18,7 +27,8 @@ export const philipsburgHotels: Hotel[] = [
       contactPhone: "+418 816-322-2517",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -29,7 +39,16 @@ export const philipsburgHotels: Hotel[] = [
     address: "251 Back Sunset Street",
     rating: 4,
     accommodationType: "Luxury Lodge",
-    amenities: ["Airport Shuttle", "24-Hour Front Desk", "Conference Room", "Parking", "Business Center", "Restaurant", "Non-Smoking Rooms", "Free Wi-Fi"],
+    amenities: [
+      "Airport Shuttle",
+      "24-Hour Front Desk",
+      "Conference Room",
+      "Parking",
+      "Business Center",
+      "Restaurant",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 44,
@@ -40,7 +59,8 @@ export const philipsburgHotels: Hotel[] = [
       contactPhone: "+463 959-688-3646",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -51,7 +71,15 @@ export const philipsburgHotels: Hotel[] = [
     address: "237 Park St",
     rating: 4,
     accommodationType: "Spa Hotel",
-    amenities: ["Free Wi-Fi", "Room Service", "Swimming Pool", "Fitness Center", "Pet Friendly", "Restaurant", "24-Hour Front Desk"],
+    amenities: [
+      "Free Wi-Fi",
+      "Room Service",
+      "Swimming Pool",
+      "Fitness Center",
+      "Pet Friendly",
+      "Restaurant",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Large Print Materials"],
     checkInTime: "14:00",
     checkOutTime: "10:00",
@@ -63,7 +91,8 @@ export const philipsburgHotels: Hotel[] = [
       contactPhone: "+336 812-567-4012",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -74,7 +103,13 @@ export const philipsburgHotels: Hotel[] = [
     address: "183 Upper Central Rd",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Spa", "Non-Smoking Rooms", "Restaurant", "24-Hour Front Desk", "Airport Shuttle"],
+    amenities: [
+      "Spa",
+      "Non-Smoking Rooms",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Airport Shuttle",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 18,
@@ -85,7 +120,8 @@ export const philipsburgHotels: Hotel[] = [
       contactPhone: "+633 291-836-1264",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -96,7 +132,15 @@ export const philipsburgHotels: Hotel[] = [
     address: "33 Park Place",
     rating: 4,
     accommodationType: "Chalet",
-    amenities: ["Pet Friendly", "Laundry Service", "Bar", "Business Center", "Swimming Pool", "Non-Smoking Rooms", "Free Wi-Fi"],
+    amenities: [
+      "Pet Friendly",
+      "Laundry Service",
+      "Bar",
+      "Business Center",
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+    ],
     accessibilityFeatures: ["Hearing Support", "Visual Aids"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -108,9 +152,10 @@ export const philipsburgHotels: Hotel[] = [
       contactPhone: "+405 203-513-7546",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

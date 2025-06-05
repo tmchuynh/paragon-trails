@@ -7,8 +7,23 @@ export const helsinkiHotels: Hotel[] = [
     address: "67 North Broadway Place",
     rating: 4,
     accommodationType: "Hotel",
-    amenities: ["Restaurant", "Spa", "Parking", "Free Wi-Fi", "Non-Smoking Rooms", "Airport Shuttle", "Laundry Service", "Swimming Pool", "Bar", "Pet Friendly"],
-    accessibilityFeatures: ["Accessible Bathroom", "Lowered Light Switches", "Grab Bars"],
+    amenities: [
+      "Restaurant",
+      "Spa",
+      "Parking",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Swimming Pool",
+      "Bar",
+      "Pet Friendly",
+    ],
+    accessibilityFeatures: [
+      "Accessible Bathroom",
+      "Lowered Light Switches",
+      "Grab Bars",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 30,
@@ -19,7 +34,8 @@ export const helsinkiHotels: Hotel[] = [
       contactPhone: "+897 425-540-2831",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -30,8 +46,20 @@ export const helsinkiHotels: Hotel[] = [
     address: "265 Hilltop Blvd",
     rating: 3,
     accommodationType: "Luxury Villa",
-    amenities: ["Free Wi-Fi", "Conference Room", "Swimming Pool", "Airport Shuttle", "Spa", "Pet Friendly", "Parking"],
-    accessibilityFeatures: ["Tactile Maps", "Wheelchair Accessible", "Large Print Materials"],
+    amenities: [
+      "Free Wi-Fi",
+      "Conference Room",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Spa",
+      "Pet Friendly",
+      "Parking",
+    ],
+    accessibilityFeatures: [
+      "Tactile Maps",
+      "Wheelchair Accessible",
+      "Large Print Materials",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 48,
@@ -42,7 +70,8 @@ export const helsinkiHotels: Hotel[] = [
       contactPhone: "+650 995-362-3111",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -64,7 +93,8 @@ export const helsinkiHotels: Hotel[] = [
       contactPhone: "+8 133-852-5398",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -75,7 +105,13 @@ export const helsinkiHotels: Hotel[] = [
     address: "151 New Broadway Ave",
     rating: 3,
     accommodationType: "Vacation Rental",
-    amenities: ["Non-Smoking Rooms", "Pet Friendly", "Bar", "Room Service", "Restaurant"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+      "Bar",
+      "Room Service",
+      "Restaurant",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 35,
@@ -86,9 +122,10 @@ export const helsinkiHotels: Hotel[] = [
       contactPhone: "+727 602-792-5042",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

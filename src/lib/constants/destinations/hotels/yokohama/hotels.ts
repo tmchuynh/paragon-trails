@@ -7,8 +7,19 @@ export const yokohamaHotels: Hotel[] = [
     address: "Roppongi Place 49",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Non-Smoking Rooms", "Restaurant", "Free Wi-Fi", "24-Hour Front Desk", "Laundry Service", "Swimming Pool", "Parking"],
-    accessibilityFeatures: ["Accessible Parking", "Sign Language Interpretation"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Restaurant",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+      "Laundry Service",
+      "Swimming Pool",
+      "Parking",
+    ],
+    accessibilityFeatures: [
+      "Accessible Parking",
+      "Sign Language Interpretation",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 13,
@@ -19,7 +30,8 @@ export const yokohamaHotels: Hotel[] = [
       contactPhone: "+601 949-108-6642",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -30,7 +42,16 @@ export const yokohamaHotels: Hotel[] = [
     address: "Kami Ginza Place 218",
     rating: 4,
     accommodationType: "Vacation Rental",
-    amenities: ["Conference Room", "Fitness Center", "Restaurant", "Spa", "Swimming Pool", "Parking", "Free Wi-Fi", "Room Service"],
+    amenities: [
+      "Conference Room",
+      "Fitness Center",
+      "Restaurant",
+      "Spa",
+      "Swimming Pool",
+      "Parking",
+      "Free Wi-Fi",
+      "Room Service",
+    ],
     accessibilityFeatures: ["Accessible Bathroom", "Visual Alarm"],
     checkInTime: "15:00",
     checkOutTime: "10:00",
@@ -42,7 +63,8 @@ export const yokohamaHotels: Hotel[] = [
       contactPhone: "+17 612-915-4735",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -53,7 +75,14 @@ export const yokohamaHotels: Hotel[] = [
     address: "Higashi Aoyama St 272",
     rating: 4,
     accommodationType: "Serviced Apartment",
-    amenities: ["Fitness Center", "Swimming Pool", "Free Wi-Fi", "Restaurant", "Non-Smoking Rooms", "Pet Friendly"],
+    amenities: [
+      "Fitness Center",
+      "Swimming Pool",
+      "Free Wi-Fi",
+      "Restaurant",
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+    ],
     accessibilityFeatures: ["Assistive Listening Devices"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -65,7 +94,8 @@ export const yokohamaHotels: Hotel[] = [
       contactPhone: "+27 393-533-4427",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -76,7 +106,15 @@ export const yokohamaHotels: Hotel[] = [
     address: "Chuo Ginza Drive 276",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Swimming Pool", "24-Hour Front Desk", "Business Center", "Laundry Service", "Spa", "Parking", "Room Service"],
+    amenities: [
+      "Swimming Pool",
+      "24-Hour Front Desk",
+      "Business Center",
+      "Laundry Service",
+      "Spa",
+      "Parking",
+      "Room Service",
+    ],
     accessibilityFeatures: ["Assistive Listening Devices", "Visual Alarm"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -88,7 +126,8 @@ export const yokohamaHotels: Hotel[] = [
       contactPhone: "+52 258-437-9769",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -99,8 +138,19 @@ export const yokohamaHotels: Hotel[] = [
     address: "Akihabara Blvd 88",
     rating: 3,
     accommodationType: "Glamping Resort",
-    amenities: ["Laundry Service", "Free Wi-Fi", "Swimming Pool", "24-Hour Front Desk", "Fitness Center", "Spa"],
-    accessibilityFeatures: ["Accessible Bathroom", "Lowered Light Switches", "Accessible Shower"],
+    amenities: [
+      "Laundry Service",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "24-Hour Front Desk",
+      "Fitness Center",
+      "Spa",
+    ],
+    accessibilityFeatures: [
+      "Accessible Bathroom",
+      "Lowered Light Switches",
+      "Accessible Shower",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 48,
@@ -111,9 +161,10 @@ export const yokohamaHotels: Hotel[] = [
       contactPhone: "+248 943-588-9398",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

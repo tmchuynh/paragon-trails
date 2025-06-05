@@ -18,7 +18,8 @@ export const montevideoHotels: Hotel[] = [
       contactPhone: "+413 214-917-3900",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,8 +30,19 @@ export const montevideoHotels: Hotel[] = [
     address: "195 Sunset St",
     rating: 3,
     accommodationType: "Hotel",
-    amenities: ["Bar", "Free Wi-Fi", "Conference Room", "Non-Smoking Rooms", "Restaurant", "Room Service"],
-    accessibilityFeatures: ["Wheelchair Accessible", "Grab Bars", "Large Print Materials"],
+    amenities: [
+      "Bar",
+      "Free Wi-Fi",
+      "Conference Room",
+      "Non-Smoking Rooms",
+      "Restaurant",
+      "Room Service",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible",
+      "Grab Bars",
+      "Large Print Materials",
+    ],
     checkInTime: "13:00",
     checkOutTime: "12:00",
     roomsAvailable: 43,
@@ -41,7 +53,8 @@ export const montevideoHotels: Hotel[] = [
       contactPhone: "+689 424-521-9983",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -52,7 +65,17 @@ export const montevideoHotels: Hotel[] = [
     address: "86 Riverside Drive",
     rating: 4,
     accommodationType: "Boutique Inn",
-    amenities: ["Restaurant", "Spa", "Fitness Center", "Free Wi-Fi", "Pet Friendly", "Laundry Service", "Bar", "Room Service", "24-Hour Front Desk"],
+    amenities: [
+      "Restaurant",
+      "Spa",
+      "Fitness Center",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Laundry Service",
+      "Bar",
+      "Room Service",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Hearing Loop"],
     checkInTime: "13:00",
     checkOutTime: "11:00",
@@ -64,7 +87,8 @@ export const montevideoHotels: Hotel[] = [
       contactPhone: "+880 779-859-1267",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -75,7 +99,16 @@ export const montevideoHotels: Hotel[] = [
     address: "164 Main Rd",
     rating: 4,
     accommodationType: "Boutique Resort",
-    amenities: ["Room Service", "Spa", "Airport Shuttle", "Pet Friendly", "Swimming Pool", "Conference Room", "Free Wi-Fi", "24-Hour Front Desk"],
+    amenities: [
+      "Room Service",
+      "Spa",
+      "Airport Shuttle",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Conference Room",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -87,9 +120,10 @@ export const montevideoHotels: Hotel[] = [
       contactPhone: "+86 359-978-8266",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

@@ -7,7 +7,13 @@ export const miamiHotels: Hotel[] = [
     address: "279 Cedar Pl",
     rating: 3,
     accommodationType: "Luxury Villa",
-    amenities: ["Pet Friendly", "Conference Room", "Bar", "Free Wi-Fi", "Swimming Pool"],
+    amenities: [
+      "Pet Friendly",
+      "Conference Room",
+      "Bar",
+      "Free Wi-Fi",
+      "Swimming Pool",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 29,
@@ -18,7 +24,8 @@ export const miamiHotels: Hotel[] = [
       contactPhone: "+1 980-867-3056",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -29,7 +36,18 @@ export const miamiHotels: Hotel[] = [
     address: "5 Washington Trl",
     rating: 4,
     accommodationType: "Spa Hotel",
-    amenities: ["Swimming Pool", "Conference Room", "Room Service", "Fitness Center", "Business Center", "Pet Friendly", "Free Wi-Fi", "Parking", "Spa", "Laundry Service"],
+    amenities: [
+      "Swimming Pool",
+      "Conference Room",
+      "Room Service",
+      "Fitness Center",
+      "Business Center",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Parking",
+      "Spa",
+      "Laundry Service",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 21,
@@ -40,7 +58,8 @@ export const miamiHotels: Hotel[] = [
       contactPhone: "+718 740-636-5587",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -51,7 +70,16 @@ export const miamiHotels: Hotel[] = [
     address: "205 Sunset St",
     rating: 3,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Free Wi-Fi", "Swimming Pool", "Bar", "Laundry Service", "Restaurant", "Room Service", "Fitness Center", "Spa"],
+    amenities: [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Bar",
+      "Laundry Service",
+      "Restaurant",
+      "Room Service",
+      "Fitness Center",
+      "Spa",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 47,
@@ -62,7 +90,8 @@ export const miamiHotels: Hotel[] = [
       contactPhone: "+261 402-403-5674",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -73,7 +102,13 @@ export const miamiHotels: Hotel[] = [
     address: "169 Old Washington Ct",
     rating: 4,
     accommodationType: "Glamping Resort",
-    amenities: ["Room Service", "Restaurant", "Bar", "Spa", "24-Hour Front Desk"],
+    amenities: [
+      "Room Service",
+      "Restaurant",
+      "Bar",
+      "Spa",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Accessible Pathways"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -85,7 +120,8 @@ export const miamiHotels: Hotel[] = [
       contactPhone: "+180 768-940-5433",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -96,7 +132,13 @@ export const miamiHotels: Hotel[] = [
     address: "74 Maple Pl",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Non-Smoking Rooms", "Pet Friendly", "Free Wi-Fi", "Room Service", "Swimming Pool"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Room Service",
+      "Swimming Pool",
+    ],
     accessibilityFeatures: ["Lowered Light Switches"],
     checkInTime: "14:00",
     checkOutTime: "11:00",
@@ -108,9 +150,10 @@ export const miamiHotels: Hotel[] = [
       contactPhone: "+605 759-683-6416",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

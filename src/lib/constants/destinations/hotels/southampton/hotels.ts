@@ -7,7 +7,14 @@ export const southamptonHotels: Hotel[] = [
     address: "258 Upper Oxford Road",
     rating: 4,
     accommodationType: "Luxury Villa",
-    amenities: ["Swimming Pool", "Free Wi-Fi", "Room Service", "Laundry Service", "Restaurant", "Non-Smoking Rooms"],
+    amenities: [
+      "Swimming Pool",
+      "Free Wi-Fi",
+      "Room Service",
+      "Laundry Service",
+      "Restaurant",
+      "Non-Smoking Rooms",
+    ],
     accessibilityFeatures: ["Lowered Light Switches"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -19,7 +26,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+536 109-384-8366",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -30,8 +38,17 @@ export const southamptonHotels: Hotel[] = [
     address: "150 Lower Station Court",
     rating: 3,
     accommodationType: "Chalet",
-    amenities: ["Pet Friendly", "Conference Room", "Fitness Center", "Non-Smoking Rooms", "Room Service"],
-    accessibilityFeatures: ["Accessible Shower", "Sign Language Interpretation"],
+    amenities: [
+      "Pet Friendly",
+      "Conference Room",
+      "Fitness Center",
+      "Non-Smoking Rooms",
+      "Room Service",
+    ],
+    accessibilityFeatures: [
+      "Accessible Shower",
+      "Sign Language Interpretation",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 32,
@@ -42,7 +59,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+231 614-575-6874",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -53,7 +71,13 @@ export const southamptonHotels: Hotel[] = [
     address: "145 Upper Oxford Drive",
     rating: 3,
     accommodationType: "Hotel",
-    amenities: ["Airport Shuttle", "Bar", "Restaurant", "Conference Room", "Fitness Center"],
+    amenities: [
+      "Airport Shuttle",
+      "Bar",
+      "Restaurant",
+      "Conference Room",
+      "Fitness Center",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 56,
@@ -64,9 +88,10 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+847 358-625-6210",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: true,
-  }
+  },
 ];

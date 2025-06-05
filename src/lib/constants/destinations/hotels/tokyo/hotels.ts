@@ -8,7 +8,8 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+393 480-323-9702",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Allowed",
     },
     id: "hotel-tokyo-1",
@@ -30,7 +31,8 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+143 105-237-5689",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     id: "hotel-tokyo-2",
@@ -52,7 +54,8 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+428 828-826-2999",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Allowed",
     },
     id: "hotel-tokyo-3",
@@ -73,7 +76,17 @@ export const tokyoHotels: Hotel[] = [
     address: "Shimo Akihabara Terrace 70",
     rating: 3,
     accommodationType: "Hotel",
-    amenities: ["Laundry Service", "Bar", "Parking", "Room Service", "Free Wi-Fi", "Swimming Pool", "Restaurant", "Conference Room", "24-Hour Front Desk"],
+    amenities: [
+      "Laundry Service",
+      "Bar",
+      "Parking",
+      "Room Service",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Restaurant",
+      "Conference Room",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Large Print Materials", "Accessible Bathroom"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -85,7 +98,8 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+847 137-826-3309",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -96,7 +110,17 @@ export const tokyoHotels: Hotel[] = [
     address: "Meguro Blvd 26",
     rating: 3,
     accommodationType: "Boutique Inn",
-    amenities: ["Parking", "24-Hour Front Desk", "Conference Room", "Pet Friendly", "Fitness Center", "Restaurant", "Swimming Pool", "Spa", "Free Wi-Fi"],
+    amenities: [
+      "Parking",
+      "24-Hour Front Desk",
+      "Conference Room",
+      "Pet Friendly",
+      "Fitness Center",
+      "Restaurant",
+      "Swimming Pool",
+      "Spa",
+      "Free Wi-Fi",
+    ],
     accessibilityFeatures: ["Accessible Parking", "Braille Signage"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -108,7 +132,8 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+21 618-784-7445",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -119,7 +144,14 @@ export const tokyoHotels: Hotel[] = [
     address: "Shin Shinjuku Terrace 148",
     rating: 4,
     accommodationType: "Glamping Resort",
-    amenities: ["Laundry Service", "Restaurant", "Conference Room", "24-Hour Front Desk", "Parking", "Spa"],
+    amenities: [
+      "Laundry Service",
+      "Restaurant",
+      "Conference Room",
+      "24-Hour Front Desk",
+      "Parking",
+      "Spa",
+    ],
     checkInTime: "14:00",
     checkOutTime: "12:00",
     roomsAvailable: 45,
@@ -130,9 +162,10 @@ export const tokyoHotels: Hotel[] = [
       contactPhone: "+211 640-361-8117",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];
