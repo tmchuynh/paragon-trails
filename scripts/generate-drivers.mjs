@@ -25,7 +25,8 @@
  * Examples:
  *   node scripts/generate-drivers.mjs --rewrite
  *   node scripts/generate-drivers.mjs --append 3
- *   node scripts/generate-drivers.mjs --append 3 --city "Tokyo"
+ *   node scripts/generate-drivers.mjs --append 3 --city "hong-kong"
+ *   node scripts/generate-drivers.mjs --append 3 --city "tokyo"
  */
 
 import * as fs from "fs";
@@ -40,6 +41,10 @@ import {
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
+import {
+  createObjectParser,
+  extractObjectsFromFile,
+} from "./utils/parse-utils.mjs";
 
 const cities = getCityFiles();
 
@@ -351,54 +356,8 @@ async function fileExists(filePath) {
 
 // Extract existing drivers from a file
 async function extractExistingDrivers(filePath) {
-  try {
-    const content = await readFile(filePath, "utf-8");
-    const match = content.match(
-      /export const \w+: Driver\[\] = \[([\s\S]*?)\];/
-    );
-    if (!match || !match[1]) return [];
-
-    const itemsText = match[1].trim();
-    if (!itemsText) return [];
-
-    const items = [];
-    let bracketCount = 0;
-    let currentItem = "";
-
-    for (let i = 0; i < itemsText.length; i++) {
-      const char = itemsText[i];
-
-      if (char === "{") bracketCount++;
-      if (char === "}") bracketCount--;
-
-      currentItem += char;
-
-      if (bracketCount === 0 && currentItem.trim()) {
-        try {
-          // Instead of using Function constructor, manually parse driver object
-          const driver = parseDriverObject(currentItem);
-          if (driver) {
-            items.push(driver);
-          }
-          currentItem = "";
-        } catch (e) {
-          console.warn("Failed to parse driver:", e);
-          currentItem = "";
-        }
-      }
-    }
-
-    return items;
-  } catch (e) {
-    console.error("Error extracting drivers:", e);
-    return [];
-  }
-}
-
-// Parse driver object using regex for key properties
-function parseDriverObject(objString) {
-  // Create a driver object with default/empty values
-  const driver = {
+  // Create a driver template with default values
+  const driverTemplate = {
     id: "",
     name: "",
     licenseNumber: "",
@@ -414,30 +373,23 @@ function parseDriverObject(objString) {
     vehicleTypesCertified: [],
   };
 
-  try {
-    // Extract basic properties using regex
-    const idMatch = objString.match(/id:\s*"([^"]+)"/);
-    if (idMatch) driver.id = idMatch[1];
+  // Use the shared utility with a driver-specific parser
+  const driverParser = createObjectParser(driverTemplate);
+  const drivers = await extractObjectsFromFile(
+    filePath,
+    "Driver",
+    driverParser
+  );
 
-    const nameMatch = objString.match(/name:\s*"([^"]+)"/);
-    if (nameMatch) driver.name = nameMatch[1];
-
-    const licenseMatch = objString.match(/licenseNumber:\s*"([^"]+)"/);
-    if (licenseMatch) driver.licenseNumber = licenseMatch[1];
-
-    const experienceMatch = objString.match(/experienceYears:\s*(\d+)/);
-    if (experienceMatch)
-      driver.experienceYears = parseInt(experienceMatch[1], 10);
-
-    // Only return if we have the minimum required properties
-    if (driver.id && driver.name) {
-      return driver;
-    }
-  } catch (error) {
-    console.warn(`Error parsing driver object: ${error.message}`);
+  // Add validation to prevent errors with null/empty drivers array
+  if (!drivers || !Array.isArray(drivers) || drivers.length === 0) {
+    console.warn(
+      `Could not parse existing drivers in ${filePath}, will create fresh data`
+    );
+    return [];
   }
 
-  return null;
+  return drivers;
 }
 
 // Generate drivers and write to file
@@ -475,14 +427,6 @@ async function generateCityFile(city) {
     } else if (options.append) {
       console.log(`Appending ${options.append} drivers to: ${filePath}`);
       drivers = await extractExistingDrivers(filePath);
-
-      // Add validation to prevent errors with null/empty drivers array
-      if (!drivers || !Array.isArray(drivers)) {
-        console.warn(
-          `Could not parse existing drivers in ${filePath}, creating a new file instead`
-        );
-        drivers = [];
-      }
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
