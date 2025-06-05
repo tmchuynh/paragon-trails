@@ -79,7 +79,6 @@ const roomSuffixes = [
 // Room amenities
 const baseAmenities = ["Free Wi-Fi", "Room Service"];
 const additionalAmenities = [
-  "Free Wi-Fi",
   "Air Conditioning",
   "Television",
   "Mini Bar",
