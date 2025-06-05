@@ -1,3 +1,31 @@
+/**
+ * Yacht Crew Generator Script
+ * ==========================
+ *
+ * This script generates realistic yacht crew member data for the Paragon Trails application.
+ * It creates structured crew information with properties like name, role, experience,
+ * certifications, languages spoken, and contact details for each city in the application.
+ *
+ * Features:
+ * - Generates 3-8 crew members per city by default
+ * - Creates appropriate folder structure in src/lib/constants/staff/crew
+ * - Assigns appropriate roles like Captain, Engineer, Chef, etc.
+ * - Includes realistic certifications and diverse language skills
+ * - Generates contact information and availability status
+ *
+ * Usage: node scripts/generate-city-crew.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new crew members to existing files
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node generate-city-crew.mjs --rewrite
+ *   node generate-city-crew.mjs --append 5
+ *   node generate-city-crew.mjs --city "Monaco"
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -9,16 +37,6 @@ import {
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-city-crew.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new crew members to existing files
-// node scripts/generate-city-crew.mjs --append 5
-
-// Bonus City Filter: Added a --city flag to process only specific cities
-// node scripts/generate-city-crew.mjs --city "Monaco" --append 3
 
 const cities = getCityFiles();
 
