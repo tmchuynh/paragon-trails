@@ -302,7 +302,7 @@ function generateDriver(cityName, index) {
     available: getRandomAvailability(),
     ratings,
     phone: getRandomPhone(),
-    email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}@example.com`,
+    email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}@paragontrailsdrivers.com`,
     photoUrl: `https://paragon-trails-driver-images.com/${cityName}/${firstName.toLowerCase()}-${lastName.toLowerCase()}.jpg`,
     specialties,
     vehicleTypesCertified,
