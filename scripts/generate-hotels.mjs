@@ -58,8 +58,6 @@ if (!cities || cities.length === 0) {
   process.exit(1);
 }
 
-const readdir = promisify(fs.readdir);
-const stat = promisify(fs.stat);
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
 const mkdir = promisify(fs.mkdir);
@@ -248,7 +246,7 @@ function getRandomSubset(array, minItems, maxItems) {
 }
 
 // Generate a random address based on the city and country
-function generateAddress(city, country) {
+function generateAddress(_city, country) {
   // Get appropriate street suffix for the country
   const suffixes = streetSuffixes[country] || streetSuffixes["default"];
   const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];

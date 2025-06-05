@@ -36,7 +36,6 @@ import { getCityFiles } from "./utils/file-utils.mjs";
 import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
-  formatKebebToTitleCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";

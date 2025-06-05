@@ -32,7 +32,6 @@ import * as path from "path";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
-  formatCamelCaseToTitle,
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
@@ -58,10 +57,7 @@ if (!cities || cities.length === 0) {
   process.exit(1);
 }
 
-const readdir = promisify(fs.readdir);
-const stat = promisify(fs.stat);
 const writeFile = promisify(fs.writeFile);
-const readFile = promisify(fs.readFile);
 const mkdir = promisify(fs.mkdir);
 const access = promisify(fs.access);
 

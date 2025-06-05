@@ -47,7 +47,6 @@ import {
 } from "./utils/attraction-utils.mjs";
 
 const readdir = promisify(fs.readdir);
-const stat = promisify(fs.stat);
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
 const mkdir = promisify(fs.mkdir);

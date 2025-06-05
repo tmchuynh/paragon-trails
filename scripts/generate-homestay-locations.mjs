@@ -36,13 +36,7 @@ import {
   removeAccents,
   formatKebabToCamelCase,
 } from "./utils/format-utils.mjs";
-import {
-  cityCountryMap,
-  cityToRegionMap,
-  countryCurrencyMap,
-  euroCountries,
-  regionCurrencyMap,
-} from "./utils/geo-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 
@@ -202,18 +196,6 @@ async function fileExists(filePath) {
     return false;
   }
 }
-
-// Ensure 'city' is passed as a parameter
-// Fix region calculation with safety check
-function getRegionForCity(city) {
-  if (!city || !city) {
-    return "";
-  }
-  const region = cityToRegionMap[city.toLowerCase()] || "";
-  return region;
-}
-
-
 
 // Generate a host for a specific city
 function generateHost(city) {

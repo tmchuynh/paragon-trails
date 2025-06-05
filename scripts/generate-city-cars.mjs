@@ -35,7 +35,6 @@ import * as path from "path";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
-  formatCamelCaseToTitle,
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   formatKebebToTitleCase,
