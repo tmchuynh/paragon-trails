@@ -1,0 +1,48 @@
+import { CrewMember } from "@/lib/interfaces/people/staff";
+
+export const juneauunitedStatesalaskaCrew: CrewMember[] = [
+  {
+    id: "crew-juneau-1",
+    name: "Mohammed Ali",
+    role: "Dive Instructor",
+    experienceYears: 10,
+    certifications: ["Dive Master", "Security Training"],
+    languagesSpoken: ["Polish"],
+    isAvailable: true,
+    contactEmail: "mohammed.ali@paragontrails.com",
+    contactPhone: "+1-868-853-8533",
+  },
+  {
+    id: "crew-juneau-2",
+    name: "Maria Garcia",
+    role: "Dive Instructor",
+    experienceYears: 11,
+    certifications: ["Hospitality Training"],
+    languagesSpoken: ["Danish", "Polish"],
+    isAvailable: true,
+    contactEmail: "maria.garcia@paragontrails.com",
+    contactPhone: "+1-337-255-2756",
+  },
+  {
+    id: "crew-juneau-3",
+    name: "Antoine Dubois",
+    role: "Navigator",
+    experienceYears: 5,
+    certifications: ["Hospitality Training"],
+    languagesSpoken: ["English"],
+    isAvailable: false,
+    contactEmail: "antoine.dubois@paragontrails.com",
+    contactPhone: "+1-776-069-6517",
+  },
+  {
+    id: "crew-juneau-4",
+    name: "Aisha Khan",
+    role: "Dive Instructor",
+    experienceYears: 20,
+    certifications: ["Environmental Awareness"],
+    languagesSpoken: ["German", "Arabic"],
+    isAvailable: true,
+    contactEmail: "aisha.khan@paragontrails.com",
+    contactPhone: "+1-037-094-8679",
+  }
+];

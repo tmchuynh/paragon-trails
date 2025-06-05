@@ -1,0 +1,48 @@
+import { CrewMember } from "@/lib/interfaces/people/staff";
+
+export const yokohamajapanasiaPacificCrew: CrewMember[] = [
+  {
+    id: "crew-yokohama-1",
+    name: "Hiroshi Tanaka",
+    role: "Purser",
+    experienceYears: 14,
+    certifications: ["Marine Radio Operator", "Fire Safety"],
+    languagesSpoken: ["Thai", "Arabic"],
+    isAvailable: true,
+    contactEmail: "hiroshi.tanaka@paragontrails.com",
+    contactPhone: "+1-111-595-6088",
+  },
+  {
+    id: "crew-yokohama-2",
+    name: "Elena Petrov",
+    role: "Engineer",
+    experienceYears: 16,
+    certifications: ["Engineering License", "STCW"],
+    languagesSpoken: ["Polish", "Hungarian"],
+    isAvailable: false,
+    contactEmail: "elena.petrov@paragontrails.com",
+    contactPhone: "+1-495-103-7855",
+  },
+  {
+    id: "crew-yokohama-3",
+    name: "Ahmed Hassan",
+    role: "Captain",
+    experienceYears: 17,
+    certifications: ["Dive Master", "Environmental Awareness", "First Aid"],
+    languagesSpoken: ["Greek", "Arabic", "Czech"],
+    isAvailable: true,
+    contactEmail: "ahmed.hassan@paragontrails.com",
+    contactPhone: "+1-516-188-9850",
+  },
+  {
+    id: "crew-yokohama-4",
+    name: "Pedro Santos",
+    role: "Host/Hostess",
+    experienceYears: 5,
+    certifications: ["Navigation Certification", "Security Training"],
+    languagesSpoken: ["Swedish", "Hindi", "Italian"],
+    isAvailable: false,
+    contactEmail: "pedro.santos@paragontrails.com",
+    contactPhone: "+1-140-619-2980",
+  }
+];

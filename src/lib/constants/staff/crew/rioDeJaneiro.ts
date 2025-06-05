@@ -1,0 +1,48 @@
+import { CrewMember } from "@/lib/interfaces/people/staff";
+
+export const rioDeJaneirobrazilsouthAmericaCrew: CrewMember[] = [
+  {
+    id: "crew-rio-de-janeiro-1",
+    name: "Aisha Khan",
+    role: "Host/Hostess",
+    experienceYears: 5,
+    certifications: ["Engineering License", "STCW", "Dive Master"],
+    languagesSpoken: ["Thai"],
+    isAvailable: true,
+    contactEmail: "aisha.khan@paragontrails.com",
+    contactPhone: "+1-216-614-4730",
+  },
+  {
+    id: "crew-rio-de-janeiro-2",
+    name: "Nadia Hussain",
+    role: "Navigator",
+    experienceYears: 9,
+    certifications: ["Dive Master", "First Aid"],
+    languagesSpoken: ["Vietnamese"],
+    isAvailable: true,
+    contactEmail: "nadia.hussain@paragontrails.com",
+    contactPhone: "+1-992-322-4698",
+  },
+  {
+    id: "crew-rio-de-janeiro-3",
+    name: "Priya Patel",
+    role: "Steward/Stewardess",
+    experienceYears: 11,
+    certifications: ["Engineering License", "Security Training"],
+    languagesSpoken: ["Italian", "Hungarian"],
+    isAvailable: true,
+    contactEmail: "priya.patel@paragontrails.com",
+    contactPhone: "+1-039-134-6016",
+  },
+  {
+    id: "crew-rio-de-janeiro-4",
+    name: "James Smith",
+    role: "Host/Hostess",
+    experienceYears: 4,
+    certifications: ["First Aid"],
+    languagesSpoken: ["Korean"],
+    isAvailable: true,
+    contactEmail: "james.smith@paragontrails.com",
+    contactPhone: "+1-805-977-4251",
+  }
+];

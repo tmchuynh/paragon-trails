@@ -1,0 +1,48 @@
+import { CrewMember } from "@/lib/interfaces/people/staff";
+
+export const copenhagendenmarknorthernEuropeCrew: CrewMember[] = [
+  {
+    id: "crew-copenhagen-1",
+    name: "James Smith",
+    role: "Dive Instructor",
+    experienceYears: 4,
+    certifications: ["Engineering License"],
+    languagesSpoken: ["Finnish"],
+    isAvailable: true,
+    contactEmail: "james.smith@paragontrails.com",
+    contactPhone: "+1-027-452-2837",
+  },
+  {
+    id: "crew-copenhagen-2",
+    name: "Emma Brown",
+    role: "Deckhand",
+    experienceYears: 9,
+    certifications: ["Hospitality Training"],
+    languagesSpoken: ["Hindi"],
+    isAvailable: true,
+    contactEmail: "emma.brown@paragontrails.com",
+    contactPhone: "+1-274-556-9582",
+  },
+  {
+    id: "crew-copenhagen-3",
+    name: "John Williams",
+    role: "Deckhand",
+    experienceYears: 9,
+    certifications: ["First Aid"],
+    languagesSpoken: ["Norwegian"],
+    isAvailable: true,
+    contactEmail: "john.williams@paragontrails.com",
+    contactPhone: "+1-859-516-1556",
+  },
+  {
+    id: "crew-copenhagen-4",
+    name: "Fatima Hassan",
+    role: "Deckhand",
+    experienceYears: 17,
+    certifications: ["Security Training", "Fire Safety", "Dive Master"],
+    languagesSpoken: ["Czech", "Spanish", "Swedish"],
+    isAvailable: true,
+    contactEmail: "fatima.hassan@paragontrails.com",
+    contactPhone: "+1-772-755-4507",
+  }
+];
