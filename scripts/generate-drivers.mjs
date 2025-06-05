@@ -1,3 +1,33 @@
+/**
+ * Luxury Drivers Generator Script
+ * =============================
+ *
+ * This script generates realistic driver profiles for luxury transportation services
+ * in the Paragon Trails application. It creates detailed driver information with properties
+ * like name, experience, languages spoken, specialties, vehicle certifications,
+ * availability, and contact details for each city.
+ *
+ * Features:
+ * - Generates 5-10 drivers per city by default
+ * - Creates appropriate folder structure in src/lib/constants/staff/drivers
+ * - Assigns regionally appropriate languages based on city location
+ * - Includes diverse driver specialties and vehicle type certifications
+ * - Generates realistic availability schedules and contact information
+ * - Creates proper licensing information and expiry dates
+ *
+ * Usage: node scripts/generate-drivers.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new drivers to existing files
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node scripts/generate-drivers.mjs --rewrite
+ *   node scripts/generate-drivers.mjs --append 3
+ *   node scripts/generate-drivers.mjs --append 3 --city "Tokyo"
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -10,16 +40,6 @@ import {
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-drivers.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new drivers to existing files
-// node scripts/generate-drivers.mjs --append 5
-
-// City Filter: Use --city "CityName" or -c "CityName" to process only specific cities
-// node scripts/generate-drivers.mjs --city "Tokyo"
 
 const cities = getCityFiles();
 
@@ -355,9 +375,11 @@ async function extractExistingDrivers(filePath) {
 
       if (bracketCount === 0 && currentItem.trim()) {
         try {
-          const cleanedItem = currentItem.replace(/,\s*$/, "");
-          const obj = new Function(`return ${cleanedItem}`)();
-          items.push(obj);
+          // Instead of using Function constructor, manually parse driver object
+          const driver = parseDriverObject(currentItem);
+          if (driver) {
+            items.push(driver);
+          }
           currentItem = "";
         } catch (e) {
           console.warn("Failed to parse driver:", e);
@@ -371,6 +393,51 @@ async function extractExistingDrivers(filePath) {
     console.error("Error extracting drivers:", e);
     return [];
   }
+}
+
+// Parse driver object using regex for key properties
+function parseDriverObject(objString) {
+  // Create a driver object with default/empty values
+  const driver = {
+    id: "",
+    name: "",
+    licenseNumber: "",
+    licenseExpiry: "",
+    experienceYears: 0,
+    languagesSpoken: [],
+    available: [],
+    ratings: 0,
+    phone: "",
+    email: "",
+    photoUrl: "",
+    specialties: [],
+    vehicleTypesCertified: [],
+  };
+
+  try {
+    // Extract basic properties using regex
+    const idMatch = objString.match(/id:\s*"([^"]+)"/);
+    if (idMatch) driver.id = idMatch[1];
+
+    const nameMatch = objString.match(/name:\s*"([^"]+)"/);
+    if (nameMatch) driver.name = nameMatch[1];
+
+    const licenseMatch = objString.match(/licenseNumber:\s*"([^"]+)"/);
+    if (licenseMatch) driver.licenseNumber = licenseMatch[1];
+
+    const experienceMatch = objString.match(/experienceYears:\s*(\d+)/);
+    if (experienceMatch)
+      driver.experienceYears = parseInt(experienceMatch[1], 10);
+
+    // Only return if we have the minimum required properties
+    if (driver.id && driver.name) {
+      return driver;
+    }
+  } catch (error) {
+    console.warn(`Error parsing driver object: ${error.message}`);
+  }
+
+  return null;
 }
 
 // Generate drivers and write to file
@@ -408,6 +475,14 @@ async function generateCityFile(city) {
     } else if (options.append) {
       console.log(`Appending ${options.append} drivers to: ${filePath}`);
       drivers = await extractExistingDrivers(filePath);
+
+      // Add validation to prevent errors with null/empty drivers array
+      if (!drivers || !Array.isArray(drivers)) {
+        console.warn(
+          `Could not parse existing drivers in ${filePath}, creating a new file instead`
+        );
+        drivers = [];
+      }
     } else {
       console.log(
         `File already exists (use --rewrite to replace): ${filePath}`
@@ -431,39 +506,42 @@ async function generateCityFile(city) {
 
   drivers.forEach((driver, index) => {
     content += `  {\n`;
-    for (const [key, value] of Object.entries(driver)) {
-      if (typeof value === "string") {
-        content += `    ${key}: "${value}",\n`;
-      } else if (Array.isArray(value)) {
-        if (value.length === 0) {
-          content += `    ${key}: [],\n`;
-        } else if (typeof value[0] === "object") {
-          // Handle availability objects
-          content += `    ${key}: [\n`;
-          value.forEach((item, i) => {
-            content += `      {\n`;
-            for (const [itemKey, itemValue] of Object.entries(item)) {
-              if (itemKey === "availableHours") {
-                content += `        ${itemKey}: [\n`;
-                itemValue.forEach((hour, hourIndex) => {
-                  content += `          {\n`;
-                  content += `            from: "${hour.from}",\n`;
-                  content += `            to: "${hour.to}"\n`;
-                  content += `          }${hourIndex < itemValue.length - 1 ? "," : ""}\n`;
-                });
-                content += `        ],\n`;
-              } else {
-                content += `        ${itemKey}: "${itemValue}",\n`;
+    // Add null check to prevent TypeError
+    if (driver) {
+      for (const [key, value] of Object.entries(driver)) {
+        if (typeof value === "string") {
+          content += `    ${key}: "${value}",\n`;
+        } else if (Array.isArray(value)) {
+          if (value.length === 0) {
+            content += `    ${key}: [],\n`;
+          } else if (typeof value[0] === "object") {
+            // Handle availability objects
+            content += `    ${key}: [\n`;
+            value.forEach((item, i) => {
+              content += `      {\n`;
+              for (const [itemKey, itemValue] of Object.entries(item)) {
+                if (itemKey === "availableHours") {
+                  content += `        ${itemKey}: [\n`;
+                  itemValue.forEach((hour, hourIndex) => {
+                    content += `          {\n`;
+                    content += `            from: "${hour.from}",\n`;
+                    content += `            to: "${hour.to}"\n`;
+                    content += `          }${hourIndex < itemValue.length - 1 ? "," : ""}\n`;
+                  });
+                  content += `        ],\n`;
+                } else {
+                  content += `        ${itemKey}: "${itemValue}",\n`;
+                }
               }
-            }
-            content += `      }${i < value.length - 1 ? "," : ""}\n`;
-          });
-          content += `    ],\n`;
+              content += `      }${i < value.length - 1 ? "," : ""}\n`;
+            });
+            content += `    ],\n`;
+          } else {
+            content += `    ${key}: [${value.map((item) => `"${item}"`).join(", ")}],\n`;
+          }
         } else {
-          content += `    ${key}: [${value.map((item) => `"${item}"`).join(", ")}],\n`;
+          content += `    ${key}: ${value},\n`;
         }
-      } else {
-        content += `    ${key}: ${value},\n`;
       }
     }
     content += `  }${index < drivers.length - 1 ? "," : ""}\n`;
@@ -515,7 +593,7 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-drivers.mjs [options]
+Usage: node scripts/generate-drivers.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -523,7 +601,7 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-drivers.mjs --rewrite
-  node generate-drivers.mjs --append 3
-  node generate-drivers.mjs --city "Tokyo"
+  node scripts/generate-drivers.mjs --rewrite
+  node scripts/generate-drivers.mjs --append 3
+  node scripts/generate-drivers.mjs --city "Tokyo"
 `);
