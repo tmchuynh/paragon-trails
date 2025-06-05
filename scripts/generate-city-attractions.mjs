@@ -31,22 +31,18 @@
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
-import { getCityFiles } from "./utils/file-utils.mjs";
 import { generateCityTitle } from "./utils/data-generator.mjs";
 import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
-} from "./utils/format-utils.mjs";
-import {
-  cityCountryMap,
-  cityToRegionMap,
   formatCamelCaseToTitle,
-} from "./utils/geo-utils.mjs";
+  capitalize,
+} from "./utils/format-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   attractionBasicInfo,
   attractionDetails,
-  attractionAddresses,
   cityAttractions,
 } from "./utils/attraction-utils.mjs";
 
@@ -75,7 +71,7 @@ function getAllCities() {
 
   // Add cities from cityAttractions but normalize format
   Object.keys(cityAttractions).forEach((city) => {
-    allCities.add(normalizeCityName(city));
+    allCities.add(formatCamelCaseToTitle(city));
   });
 
   return Array.from(allCities);
@@ -136,11 +132,14 @@ function getCityAttractionData(cityName) {
   const normalizedName = normalizeCityName(cityName);
 
   // Try to find detailed data with both formats
-  const basicInfoData = attractionBasicInfo[normalizedName] || attractionBasicInfo[cityName];
-  const detailsData = attractionDetails[normalizedName] || attractionDetails[cityName];
+  const basicInfoData =
+    attractionBasicInfo[normalizedName] || attractionBasicInfo[cityName];
+  const detailsData =
+    attractionDetails[normalizedName] || attractionDetails[cityName];
 
   // Check if we have simple attraction data
-  const simpleData = cityAttractions[cityName] || cityAttractions[normalizedName];
+  const simpleData =
+    cityAttractions[cityName] || cityAttractions[normalizedName];
 
   return {
     basicInfo: basicInfoData,
@@ -156,7 +155,9 @@ function convertAttractionData(cityName, attractionName) {
   const details = attractionDetails[normalizedName]?.[attractionName];
 
   if (!basicInfo || !details) {
-    console.warn(`Missing detailed data for ${attractionName} in ${cityName}`);
+    console.warn(
+      `Missing detailed data for ${attractionName} in ${formatCamelCaseToTitle(cityName)}`
+    );
     return null;
   }
 
@@ -175,8 +176,7 @@ function convertAttractionData(cityName, attractionName) {
     timeOfDay: details.timeOfDay,
     rating: details.rating,
     tags: basicInfo.tags.map((tag) => {
-      // Convert simple tags to display format (capitalize first letter)
-      return tag.charAt(0).toUpperCase() + tag.slice(1);
+      return capitalize(tag);
     }),
     accessibilityFeatures: details.accessibilityFeatures || [],
 
@@ -206,16 +206,16 @@ function convertSimpleAttractionData(cityName, attraction) {
   const priceRanges = ["$", "$$", "$$$"];
   const timeOfDay = ["all day", "daytime", "evening"];
 
-  // Try to get an address from attractionAddresses
+  // Use address directly from the attraction object
+  // No need for attractionAddresses lookup
   const normalizedName = normalizeCityName(cityName);
-  const addressData = attractionAddresses[normalizedName] || attractionAddresses[cityName];
 
   // Default values
   const defaultTags = ["Popular", "Landmark"];
 
   return {
     title: attraction.name,
-    description: `A must-visit attraction in ${formatCamelCaseToTitle(cityName)}.`,
+    description: `A must-visit attraction in ${formatKebebToTitleCase(cityName)}.`,
     imageUrl: `https://images.unsplash.com/photo-${cityName.toLowerCase().replace(/_/g, "-")}-${attraction.name.toLowerCase().replace(/\s+/g, "-")}`,
     location: attraction.address || `${cityName}`,
     openingHours: "9:00 AM - 5:00 PM",
@@ -542,7 +542,12 @@ async function extractExistingAttractions(filePath) {
   }
 }
 
-// Generate attractions and write to file
+// Add this helper function to normalize city names consistently
+function formatKebebToTitleCase(cityName) {
+  return formatCamelCaseToTitle(cityName.replace(/-/g, " "));
+}
+
+// Modify generateCityFile function to standardize file naming
 async function generateCityFile(city) {
   const normalizedCity = normalizeCityName(city);
   const countryName = cityCountryMap[city] || "";
@@ -551,12 +556,12 @@ async function generateCityFile(city) {
   const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
 
-  // Format name properly for kebab-case
-  const formattedName = formatKebabToCamelCase(
-    removeAccents(city.replace(/_/g, "-"))
-  );
+  // Standardize the city name for filename - always lowercase kebab-case
+  const fileNameBase = removeAccents(city.replace(/_/g, "-").toLowerCase());
 
-  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Attractions`;
+  // For the variable name, use camelCase for consistency
+  const cityInCamelCase = formatKebabToCamelCase(fileNameBase);
+  const variableName = `${cityInCamelCase}${formattedCountry}${formattedRegion}Attractions`;
 
   const destDir = path.join(
     process.cwd(),
@@ -566,13 +571,33 @@ async function generateCityFile(city) {
     "destinations",
     "city"
   );
-  const filePath = path.join(destDir, `${formattedName}.ts`);
+  const filePath = path.join(destDir, `${fileNameBase}.ts`);
 
   // Check if directory exists
   await ensureDirectoryExists(destDir);
 
-  // Check if file exists
-  const exists = await fileExists(filePath);
+  // Check if file exists (case-insensitive check)
+  let exists = await fileExists(filePath);
+
+  // Check for case variations of the same file
+  if (!exists) {
+    try {
+      const files = await readdir(destDir);
+      const caseInsensitiveMatch = files.find(
+        (f) => f.toLowerCase() === `${fileNameBase}.ts`.toLowerCase()
+      );
+
+      if (caseInsensitiveMatch) {
+        // Use the existing file path instead
+        exists = true;
+        console.log(
+          `Found case-variant file ${caseInsensitiveMatch}, using it instead of creating ${fileNameBase}.ts`
+        );
+      }
+    } catch (err) {
+      console.error("Error checking directory:", err);
+    }
+  }
 
   // Handle existing file based on options
   let attractions = [];
