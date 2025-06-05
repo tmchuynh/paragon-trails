@@ -19,6 +19,15 @@ export function removeAccents(str) {
     .replace(/[\u0300-\u036F]/g, "");
 }
 
+export function formatKebebToTitleCase(str) {
+  return str
+    .split("-")
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
 export function formatKebabToCamelCase(str) {
   return str
     .split("-")
