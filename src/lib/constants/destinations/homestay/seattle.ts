@@ -10,9 +10,17 @@ export const seattleHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Pet-friendly accommodation", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Pets welcome", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -27,19 +35,26 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 69,
-        quote: "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
       },
       {
         name: "Sophia Dubois",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
         guestPolicy: ["Senior-friendly accommodations", "No parties or events"],
         hostingStyle: "hands-on",
-        houseRules: ["Pets welcome", "Laundry available on weekends only", "Please clean up after yourself in common areas", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Pets welcome",
+          "Laundry available on weekends only",
+          "Please clean up after yourself in common areas",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -55,19 +70,31 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 97,
-        quote: "My home is your home in seattle. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in seattle. I look forward to making your stay memorable and authentic.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
         name: "Elena Suzuki",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Suitable for business travelers", "Great for couples"],
+        guestPolicy: [
+          "Children welcome",
+          "Suitable for business travelers",
+          "Great for couples",
+        ],
         hostingStyle: "private",
-        houseRules: ["Pets welcome", "Please conserve water and electricity", "Laundry available on weekends only", "No outside guests without permission", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Pets welcome",
+          "Please conserve water and electricity",
+          "Laundry available on weekends only",
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -82,23 +109,33 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 21,
-        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "bed-and-breakfast",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "William Singh",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "No pets allowed", "Kitchen closed after 8 PM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "No pets allowed",
+          "Kitchen closed after 8 PM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -114,10 +151,11 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 64,
-        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -128,9 +166,16 @@ export const seattleHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "No loud music after 9 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -145,19 +190,26 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 47,
-        quote: "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
       },
       {
         name: "Juan Suzuki",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
         guestPolicy: ["LGBTQ+ friendly", "Family-friendly environment"],
         hostingStyle: "laid-back",
-        houseRules: ["Kitchen closed after 8 PM", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "No pets allowed"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Lock the door when leaving the house",
+          "Please clean up after yourself in common areas",
+          "No pets allowed",
+        ],
         location: {
           city: "seattle",
           country: "undefined",
@@ -173,9 +225,10 @@ export const seattleHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 92,
-        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "entire-home",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

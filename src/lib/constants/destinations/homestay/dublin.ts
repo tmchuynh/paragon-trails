@@ -5,14 +5,25 @@ export const dublinHomestays: Homestay[] = [
     hosts: [
       {
         name: "Olivia Nguyen",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Suitable for business travelers"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No smoking indoors", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "Recycle according to local guidelines", "Pets welcome", "No food in the bedrooms"],
+        houseRules: [
+          "No smoking indoors",
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+          "Recycle according to local guidelines",
+          "Pets welcome",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -27,7 +38,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 30,
-        quote: "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
       },
       {
@@ -37,9 +49,20 @@ export const dublinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "LGBTQ+ friendly", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "LGBTQ+ friendly",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Quiet hours after 10 PM", "Lock the door when leaving the house", "Respect shared spaces", "Recycle according to local guidelines"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -54,7 +77,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 82,
-        quote: "My home is your home in dublin. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in dublin. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
       },
       {
@@ -66,7 +90,14 @@ export const dublinHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Family-friendly environment", "No parties or events"],
         hostingStyle: "hands-on",
-        houseRules: ["Respect shared spaces", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Remove shoes when entering the home", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Respect shared spaces",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+          "Remove shoes when entering the home",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -81,10 +112,11 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 47,
-        quote: "My home is your home in dublin. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in dublin. I look forward to making your stay memorable and authentic.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -95,9 +127,20 @@ export const dublinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for business travelers",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM", "Lock the door when leaving the house", "Pets welcome"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -113,7 +156,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 22,
-        quote: "I've lived in dublin all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in dublin all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "villa-stay",
       },
       {
@@ -123,9 +167,21 @@ export const dublinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Pet-friendly accommodation", "Not suitable for infants (under 2 years)", "Children welcome"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Pet-friendly accommodation",
+          "Not suitable for infants (under 2 years)",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "Respect shared spaces", "Quiet hours after 10 PM", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Respect shared spaces",
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -140,7 +196,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 73,
-        quote: "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
       },
       {
@@ -150,9 +207,19 @@ export const dublinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["No outside guests without permission", "Please conserve water and electricity", "Please clean up after yourself in common areas", "Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+          "Wi-Fi password will be provided upon arrival",
+          "Recycle according to local guidelines",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -167,23 +234,35 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 86,
-        quote: "Staying with me means experiencing dublin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing dublin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "culinary-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Emma Nguyen",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Great for couples", "Perfect for long-term stays"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Great for couples",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "No food in the bedrooms", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "No smoking indoors"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+          "Please clean up after yourself in common areas",
+          "No smoking indoors",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -199,19 +278,27 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 69,
-        quote: "Welcome to my dublin home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my dublin home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "bed-and-breakfast",
       },
       {
         name: "Lucas Jones",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
         guestPolicy: ["Pet-friendly accommodation", "LGBTQ+ friendly"],
         hostingStyle: "social",
-        houseRules: ["Lock the door when leaving the house", "Respect shared spaces", "Recycle according to local guidelines", "No outside guests without permission", "No loud music after 9 PM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -226,7 +313,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 25,
-        quote: "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
       },
       {
@@ -236,9 +324,16 @@ export const dublinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No outside guests without permission", "Laundry available on weekends only", "No pets allowed"],
+        houseRules: [
+          "No outside guests without permission",
+          "Laundry available on weekends only",
+          "No pets allowed",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -254,23 +349,34 @@ export const dublinHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.6,
         reviewCount: 37,
-        quote: "Welcome to my dublin home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my dublin home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "eco-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Charlotte Chen",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Ideal for solo travelers", "Smoking allowed in designated areas only", "Suitable for business travelers", "Children welcome"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["No pets allowed", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No pets allowed",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -285,10 +391,11 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 13,
-        quote: "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -317,7 +424,8 @@ export const dublinHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 53,
-        quote: "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dublin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -329,7 +437,12 @@ export const dublinHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Children welcome", "No children under 12"],
         hostingStyle: "family-oriented",
-        houseRules: ["Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "No pets allowed"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "No outside guests without permission",
+          "No pets allowed",
+        ],
         location: {
           city: "dublin",
           country: "undefined",
@@ -343,9 +456,10 @@ export const dublinHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.5,
         reviewCount: 37,
-        quote: "I've lived in dublin all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in dublin all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "volunteer-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

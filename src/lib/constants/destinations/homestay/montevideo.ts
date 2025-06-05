@@ -10,9 +10,20 @@ export const montevideoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Children welcome", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Children welcome",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Kitchen closed after 8 PM", "No food in the bedrooms", "No pets allowed", "Remove shoes when entering the home", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No food in the bedrooms",
+          "No pets allowed",
+          "Remove shoes when entering the home",
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "montevideo",
           country: "undefined",
@@ -27,7 +38,8 @@ export const montevideoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 89,
-        quote: "My home is your home in montevideo. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in montevideo. I look forward to making your stay memorable and authentic.",
         stayType: "language-immersion",
       },
       {
@@ -37,9 +49,19 @@ export const montevideoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Perfect for long-term stays", "Not suitable for infants (under 2 years)", "Great for couples"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Perfect for long-term stays",
+          "Not suitable for infants (under 2 years)",
+          "Great for couples",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "No pets allowed", "No outside guests without permission"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+          "No pets allowed",
+          "No outside guests without permission",
+        ],
         location: {
           city: "montevideo",
           country: "undefined",
@@ -55,10 +77,11 @@ export const montevideoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 46,
-        quote: "I've lived in montevideo all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in montevideo all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "bed-and-breakfast",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +92,18 @@ export const montevideoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "Recycle according to local guidelines", "Respect shared spaces", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Respect shared spaces",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "montevideo",
           country: "undefined",
@@ -86,7 +118,8 @@ export const montevideoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 16,
-        quote: "Welcome to my montevideo home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my montevideo home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "culinary-homestay",
       },
       {
@@ -96,9 +129,21 @@ export const montevideoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Great for couples", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Great for couples",
+          "Smoking allowed in designated areas only",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Lock the door when leaving the house", "No food in the bedrooms", "Respect shared spaces", "Please conserve water and electricity"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Lock the door when leaving the house",
+          "No food in the bedrooms",
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "montevideo",
           country: "undefined",
@@ -113,9 +158,10 @@ export const montevideoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 69,
-        quote: "Staying with me means experiencing montevideo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing montevideo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "urban-apartment-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

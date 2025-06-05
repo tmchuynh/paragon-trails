@@ -10,9 +10,21 @@ export const torontoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "LGBTQ+ friendly", "Great for couples", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "LGBTQ+ friendly",
+          "Great for couples",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "No smoking indoors", "Remove shoes when entering the home", "Please clean up after yourself in common areas", "Lock the door when leaving the house", "No outside guests without permission"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No smoking indoors",
+          "Remove shoes when entering the home",
+          "Please clean up after yourself in common areas",
+          "Lock the door when leaving the house",
+          "No outside guests without permission",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -27,19 +39,32 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 49,
-        quote: "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
         stayType: "farm-stay",
       },
       {
         name: "Diego Garcia",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Remove shoes when entering the home"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No loud music after 9 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -55,10 +80,11 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 78,
-        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +95,20 @@ export const torontoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Great for couples", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Great for couples",
+          "Smoking allowed in designated areas only",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Remove shoes when entering the home", "Recycle according to local guidelines", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "No smoking indoors"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Recycle according to local guidelines",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No smoking indoors",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -87,10 +124,11 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 33,
-        quote: "Welcome to my toronto home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my toronto home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -101,9 +139,21 @@ export const torontoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Suitable for digital nomads", "Family-friendly environment", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Children welcome",
+          "Suitable for digital nomads",
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "Quiet hours after 10 PM", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No smoking indoors",
+          "Quiet hours after 10 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -118,7 +168,8 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 63,
-        quote: "Life in toronto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in toronto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
       },
       {
@@ -130,7 +181,14 @@ export const torontoHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["LGBTQ+ friendly", "Senior-friendly accommodations"],
         hostingStyle: "hands-on",
-        houseRules: ["Pets welcome", "No outside guests without permission", "Please conserve water and electricity", "No food in the bedrooms", "Quiet hours after 10 PM", "No pets allowed"],
+        houseRules: [
+          "Pets welcome",
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -145,10 +203,11 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 70,
-        quote: "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -159,9 +218,18 @@ export const torontoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Great for couples", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for business travelers",
+          "Great for couples",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "social",
-        houseRules: ["Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "No food in the bedrooms"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -175,19 +243,31 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 62,
-        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
       },
       {
         name: "Alexander Smith",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Not suitable for infants (under 2 years)", "Senior-friendly accommodations", "Great for couples"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Not suitable for infants (under 2 years)",
+          "Senior-friendly accommodations",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "No outside guests without permission", "Respect shared spaces", "Pets welcome"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No outside guests without permission",
+          "Respect shared spaces",
+          "Pets welcome",
+        ],
         location: {
           city: "toronto",
           country: "undefined",
@@ -202,9 +282,10 @@ export const torontoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 84,
-        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

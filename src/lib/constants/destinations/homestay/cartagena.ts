@@ -10,9 +10,20 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Children welcome", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Children welcome",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["Pets welcome", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "No food in the bedrooms", "Respect shared spaces"],
+        houseRules: [
+          "Pets welcome",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "No food in the bedrooms",
+          "Respect shared spaces",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -27,10 +38,11 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 91,
-        quote: "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -41,9 +53,20 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for digital nomads", "No parties or events"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for digital nomads",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["No loud music after 9 PM", "Please conserve water and electricity", "No outside guests without permission", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Please conserve water and electricity",
+          "No outside guests without permission",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -58,7 +81,8 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 11,
-        quote: "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
       },
       {
@@ -68,9 +92,18 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for business travelers"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "Please conserve water and electricity", "No food in the bedrooms", "Laundry available on weekends only", "Remove shoes when entering the home"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Please conserve water and electricity",
+          "No food in the bedrooms",
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -86,7 +119,8 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 37,
-        quote: "My home is your home in cartagena. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in cartagena. I look forward to making your stay memorable and authentic.",
         stayType: "shared-room",
       },
       {
@@ -98,7 +132,12 @@ export const cartagenaHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Ideal for solo travelers", "Great for couples"],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Respect shared spaces", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -112,23 +151,33 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 71,
-        quote: "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Isabella Patel",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Pet-friendly accommodation", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Kitchen closed after 8 PM", "Notify host if you'll be arriving after 10 PM", "Respect shared spaces"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -144,19 +193,30 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 39,
-        quote: "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "farm-stay",
       },
       {
         name: "Ava Moore",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "No children under 12", "Perfect for long-term stays", "Family-friendly environment"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "No children under 12",
+          "Perfect for long-term stays",
+          "Family-friendly environment",
+        ],
         hostingStyle: "social",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Please conserve water and electricity", "Remove shoes when entering the home"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Please conserve water and electricity",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -170,7 +230,8 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 28,
-        quote: "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "guest-suite",
       },
       {
@@ -180,9 +241,21 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Ideal for solo travelers", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Ideal for solo travelers",
+          "Smoking allowed in designated areas only",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No outside guests without permission", "Please conserve water and electricity", "Lock the door when leaving the house", "No smoking indoors", "Quiet hours after 10 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+          "No smoking indoors",
+          "Quiet hours after 10 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -198,23 +271,35 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 87,
-        quote: "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cartagena has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Aisha Williams",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "No parties or events", "Suitable for business travelers"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "No parties or events",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "Wi-Fi password will be provided upon arrival", "Pets welcome", "Kitchen closed after 8 PM", "No pets allowed"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+          "Pets welcome",
+          "Kitchen closed after 8 PM",
+          "No pets allowed",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -229,7 +314,8 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 98,
-        quote: "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -239,9 +325,19 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays", "No children under 12", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+          "No children under 12",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No pets allowed", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No pets allowed",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -256,7 +352,8 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 46,
-        quote: "I've lived in cartagena all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in cartagena all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "private-room-in-home",
       },
       {
@@ -266,9 +363,17 @@ export const cartagenaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Not suitable for infants (under 2 years)", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Not suitable for infants (under 2 years)",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Please clean up after yourself in common areas", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Please clean up after yourself in common areas",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "cartagena",
           country: "undefined",
@@ -283,9 +388,10 @@ export const cartagenaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 37,
-        quote: "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cartagena home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "traditional-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

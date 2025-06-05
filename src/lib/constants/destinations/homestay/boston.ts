@@ -10,9 +10,21 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Ideal for solo travelers", "Senior-friendly accommodations", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "No parties or events",
+          "Ideal for solo travelers",
+          "Senior-friendly accommodations",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "Please conserve water and electricity", "No smoking indoors", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Pets welcome"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Please conserve water and electricity",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -26,7 +38,8 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 35,
-        quote: "My home is your home in boston. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in boston. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
       },
       {
@@ -36,9 +49,19 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Perfect for long-term stays", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Perfect for long-term stays",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Pets welcome", "Remove shoes when entering the home", "Kitchen closed after 8 PM", "Recycle according to local guidelines", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Pets welcome",
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+          "Recycle according to local guidelines",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -53,10 +76,11 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 94,
-        quote: "Staying with me means experiencing boston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing boston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -67,9 +91,19 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Suitable for business travelers", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Please conserve water and electricity"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -84,7 +118,8 @@ export const bostonHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.3,
         reviewCount: 97,
-        quote: "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "volunteer-stay",
       },
       {
@@ -94,9 +129,20 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Perfect for long-term stays", "No parties or events", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "No children under 12",
+          "Perfect for long-term stays",
+          "No parties or events",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Pets welcome", "Lock the door when leaving the house", "No food in the bedrooms", "Kitchen closed after 8 PM", "No outside guests without permission"],
+        houseRules: [
+          "Pets welcome",
+          "Lock the door when leaving the house",
+          "No food in the bedrooms",
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -111,7 +157,8 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 88,
-        quote: "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -121,9 +168,18 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Pet-friendly accommodation", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "No loud music after 9 PM", "Recycle according to local guidelines"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -138,10 +194,11 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 68,
-        quote: "My home is your home in boston. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in boston. I look forward to making your stay memorable and authentic.",
         stayType: "art-or-craft-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -152,9 +209,19 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Pet-friendly accommodation", "No children under 12", "Family-friendly environment"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Pet-friendly accommodation",
+          "No children under 12",
+          "Family-friendly environment",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No pets allowed", "Lock the door when leaving the house", "Breakfast is self-serve between 7-9 AM", "No outside guests without permission"],
+        houseRules: [
+          "No pets allowed",
+          "Lock the door when leaving the house",
+          "Breakfast is self-serve between 7-9 AM",
+          "No outside guests without permission",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -169,23 +236,35 @@ export const bostonHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.2,
         reviewCount: 63,
-        quote: "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in boston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "culinary-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Sofia Gonzalez",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Ideal for solo travelers", "No parties or events"],
+        guestPolicy: [
+          "Great for couples",
+          "Ideal for solo travelers",
+          "No parties or events",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No pets allowed", "No smoking indoors", "Please conserve water and electricity", "Pets welcome", "No outside guests without permission"],
+        houseRules: [
+          "No pets allowed",
+          "No smoking indoors",
+          "Please conserve water and electricity",
+          "Pets welcome",
+          "No outside guests without permission",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -200,19 +279,29 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 60,
-        quote: "Staying with me means experiencing boston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing boston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "culinary-homestay",
       },
       {
         name: "Amelia Taylor",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Suitable for digital nomads", "No children under 12"],
+        guestPolicy: [
+          "Children welcome",
+          "Suitable for digital nomads",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "No smoking indoors", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "No smoking indoors",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -227,7 +316,8 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 70,
-        quote: "I've lived in boston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in boston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
       },
       {
@@ -237,9 +327,20 @@ export const bostonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Children welcome", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Children welcome",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No smoking indoors", "Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No smoking indoors",
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "boston",
           country: "undefined",
@@ -254,9 +355,10 @@ export const bostonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 104,
-        quote: "Welcome to my boston home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my boston home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "shared-room",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

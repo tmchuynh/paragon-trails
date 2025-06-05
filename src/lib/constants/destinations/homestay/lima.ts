@@ -5,14 +5,20 @@ export const limaHomestays: Homestay[] = [
     hosts: [
       {
         name: "Ahmed Wilson",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
         guestPolicy: ["Suitable for digital nomads", "Great for couples"],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM", "Pets welcome"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please clean up after yourself in common areas",
+          "Breakfast is self-serve between 7-9 AM",
+          "Pets welcome",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -28,7 +34,8 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 61,
-        quote: "Staying with me means experiencing lima like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing lima like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
       },
       {
@@ -38,9 +45,18 @@ export const limaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Smoking allowed in designated areas only", "Great for couples"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+          "Great for couples",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Respect shared spaces", "No loud music after 9 PM", "Pets welcome", "Recycle according to local guidelines"],
+        houseRules: [
+          "Respect shared spaces",
+          "No loud music after 9 PM",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -55,10 +71,11 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 35,
-        quote: "My home is your home in lima. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in lima. I look forward to making your stay memorable and authentic.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +86,20 @@ export const limaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Senior-friendly accommodations", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Great for couples",
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "No outside guests without permission", "Kitchen closed after 8 PM", "Remove shoes when entering the home", "Lock the door when leaving the house"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+          "No outside guests without permission",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -87,7 +115,8 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 60,
-        quote: "Welcome to my lima home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my lima home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -97,9 +126,18 @@ export const limaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Respect shared spaces", "No pets allowed", "Recycle according to local guidelines", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Respect shared spaces",
+          "No pets allowed",
+          "Recycle according to local guidelines",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -113,10 +151,11 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 37,
-        quote: "My home is your home in lima. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in lima. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -127,9 +166,19 @@ export const limaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Perfect for long-term stays", "No children under 12"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Perfect for long-term stays",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "No loud music after 9 PM", "No pets allowed", "Respect shared spaces", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+          "No pets allowed",
+          "Respect shared spaces",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -144,7 +193,8 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 53,
-        quote: "Life in lima has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in lima has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
       },
       {
@@ -154,9 +204,19 @@ export const limaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Suitable for digital nomads", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "No smoking indoors", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Pets welcome",
+          "No smoking indoors",
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -172,19 +232,32 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 99,
-        quote: "My home is your home in lima. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in lima. I look forward to making your stay memorable and authentic.",
         stayType: "culinary-homestay",
       },
       {
         name: "Ahmed Morales",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Children welcome", "Ideal for solo travelers"],
+        guestPolicy: [
+          "No children under 12",
+          "Children welcome",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["No food in the bedrooms", "Remove shoes when entering the home", "Please conserve water and electricity", "Quiet hours after 10 PM", "Recycle according to local guidelines", "Pets welcome"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+          "Pets welcome",
+        ],
         location: {
           city: "lima",
           country: "undefined",
@@ -200,9 +273,10 @@ export const limaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 7,
-        quote: "My home is your home in lima. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in lima. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

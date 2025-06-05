@@ -12,7 +12,14 @@ export const ketchikanHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Children welcome", "Suitable for business travelers"],
         hostingStyle: "laid-back",
-        houseRules: ["Laundry available on weekends only", "No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM", "No smoking indoors", "Respect shared spaces", "Recycle according to local guidelines"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "No smoking indoors",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "ketchikan",
           country: "undefined",
@@ -27,10 +34,11 @@ export const ketchikanHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.6,
         reviewCount: 85,
-        quote: "Life in ketchikan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in ketchikan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -41,9 +49,17 @@ export const ketchikanHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Smoking allowed in designated areas only", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Smoking allowed in designated areas only",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "Recycle according to local guidelines", "Laundry available on weekends only"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "ketchikan",
           country: "undefined",
@@ -58,19 +74,30 @@ export const ketchikanHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 104,
-        quote: "Staying with me means experiencing ketchikan like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing ketchikan like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "academic-homestay",
       },
       {
         name: "Aisha Jones",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Perfect for long-term stays", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Perfect for long-term stays",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Lock the door when leaving the house", "Wi-Fi password will be provided upon arrival", "Respect shared spaces"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Lock the door when leaving the house",
+          "Wi-Fi password will be provided upon arrival",
+          "Respect shared spaces",
+        ],
         location: {
           city: "ketchikan",
           country: "undefined",
@@ -85,9 +112,10 @@ export const ketchikanHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 60,
-        quote: "I've lived in ketchikan all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in ketchikan all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

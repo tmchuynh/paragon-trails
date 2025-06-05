@@ -10,9 +10,18 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Great for couples", "Family-friendly environment"],
+        guestPolicy: [
+          "Children welcome",
+          "Great for couples",
+          "Family-friendly environment",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Please conserve water and electricity", "No loud music after 9 PM", "Pets welcome", "Recycle according to local guidelines"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "No loud music after 9 PM",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -28,19 +37,27 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 92,
-        quote: "Life in sitka has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in sitka has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
       },
       {
         name: "Layla Morales",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
         guestPolicy: ["Suitable for digital nomads", "LGBTQ+ friendly"],
         hostingStyle: "social",
-        houseRules: ["Kitchen closed after 8 PM", "Recycle according to local guidelines", "No outside guests without permission", "Remove shoes when entering the home", "No pets allowed"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+          "Remove shoes when entering the home",
+          "No pets allowed",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -56,19 +73,33 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 27,
-        quote: "Life in sitka has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in sitka has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
         name: "Yuki Gonzalez",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Pet-friendly accommodation", "Accessible for guests with mobility issues", "Great for couples"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "Accessible for guests with mobility issues",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Respect shared spaces", "Recycle according to local guidelines", "Kitchen closed after 8 PM", "Remove shoes when entering the home", "No loud music after 9 PM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -84,23 +115,35 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 100,
-        quote: "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
         stayType: "culinary-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Boris Müller",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for business travelers", "No parties or events", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for business travelers",
+          "No parties or events",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Pets welcome", "Remove shoes when entering the home", "No food in the bedrooms", "Lock the door when leaving the house"],
+        houseRules: [
+          "Pets welcome",
+          "Remove shoes when entering the home",
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -115,7 +158,8 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 103,
-        quote: "Welcome to my sitka home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my sitka home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "cottage-stay",
       },
       {
@@ -125,9 +169,19 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for digital nomads", "Suitable for business travelers"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "Please clean up after yourself in common areas", "Pets welcome", "Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -141,7 +195,8 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 54,
-        quote: "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
         stayType: "self-catering",
       },
       {
@@ -151,9 +206,19 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "No parties or events", "Family-friendly environment", "Great for couples"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "No parties or events",
+          "Family-friendly environment",
+          "Great for couples",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Respect shared spaces", "Breakfast is self-serve between 7-9 AM", "Quiet hours after 10 PM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Respect shared spaces",
+          "Breakfast is self-serve between 7-9 AM",
+          "Quiet hours after 10 PM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -169,10 +234,11 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 44,
-        quote: "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "bed-and-breakfast",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -183,9 +249,20 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "No children under 12", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "No children under 12",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Laundry available on weekends only", "Kitchen closed after 8 PM", "Lock the door when leaving the house", "No outside guests without permission", "Quiet hours after 10 PM", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Kitchen closed after 8 PM",
+          "Lock the door when leaving the house",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -200,10 +277,11 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 89,
-        quote: "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -214,9 +292,19 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "Remove shoes when entering the home", "No outside guests without permission", "Please conserve water and electricity", "Please clean up after yourself in common areas", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -232,10 +320,11 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 53,
-        quote: "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in sitka. I look forward to making your stay memorable and authentic.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -246,9 +335,21 @@ export const sitkaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Great for couples", "Not suitable for infants (under 2 years)", "Family-friendly environment"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Great for couples",
+          "Not suitable for infants (under 2 years)",
+          "Family-friendly environment",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Lock the door when leaving the house", "Please conserve water and electricity", "Recycle according to local guidelines", "Respect shared spaces", "Wi-Fi password will be provided upon arrival", "Laundry available on weekends only"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Please conserve water and electricity",
+          "Recycle according to local guidelines",
+          "Respect shared spaces",
+          "Wi-Fi password will be provided upon arrival",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "sitka",
           country: "undefined",
@@ -263,9 +364,10 @@ export const sitkaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 88,
-        quote: "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing sitka like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "eco-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

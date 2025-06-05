@@ -10,9 +10,19 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "Accessible for guests with mobility issues", "Not suitable for infants (under 2 years)", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Children welcome",
+          "Accessible for guests with mobility issues",
+          "Not suitable for infants (under 2 years)",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Recycle according to local guidelines", "Pets welcome", "Respect shared spaces", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Pets welcome",
+          "Respect shared spaces",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -26,7 +36,8 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 22,
-        quote: "Staying with me means experiencing skagway like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing skagway like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -36,9 +47,18 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "Accessible for guests with mobility issues", "No children under 12", "Family-friendly environment"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Accessible for guests with mobility issues",
+          "No children under 12",
+          "Family-friendly environment",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "No loud music after 9 PM", "Pets welcome"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No loud music after 9 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -53,10 +73,11 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 68,
-        quote: "Staying with me means experiencing skagway like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing skagway like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -67,9 +88,17 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "Please conserve water and electricity", "Respect shared spaces", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Pets welcome",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -85,23 +114,36 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 83,
-        quote: "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Evelyn da Costa",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Not suitable for infants (under 2 years)", "Great for couples", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Not suitable for infants (under 2 years)",
+          "Great for couples",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -115,7 +157,8 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 8,
-        quote: "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -125,9 +168,20 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "No children under 12", "Perfect for long-term stays", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Children welcome",
+          "No children under 12",
+          "Perfect for long-term stays",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Laundry available on weekends only", "No food in the bedrooms", "Quiet hours after 10 PM", "Notify host if you'll be arriving after 10 PM", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -143,7 +197,8 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 25,
-        quote: "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "heritage-stay",
       },
       {
@@ -155,7 +210,13 @@ export const skagwayHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No children under 12", "Pet-friendly accommodation"],
         hostingStyle: "hands-on",
-        houseRules: ["Lock the door when leaving the house", "Remove shoes when entering the home", "Please conserve water and electricity", "Recycle according to local guidelines", "Laundry available on weekends only"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -170,23 +231,37 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 55,
-        quote: "I've lived in skagway all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in skagway all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "bed-and-breakfast",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Charlotte Lopez",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only", "Perfect for long-term stays", "Children welcome"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+          "Perfect for long-term stays",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No smoking indoors", "Quiet hours after 10 PM", "No outside guests without permission", "No pets allowed", "Please conserve water and electricity", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "Quiet hours after 10 PM",
+          "No outside guests without permission",
+          "No pets allowed",
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -201,19 +276,29 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 37,
-        quote: "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "host-family-stay",
       },
       {
         name: "Elena Jones",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "No children under 12", "Family-friendly environment"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "No children under 12",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "No food in the bedrooms"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -228,7 +313,8 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 79,
-        quote: "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my skagway home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "culinary-homestay",
       },
       {
@@ -238,9 +324,20 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Great for couples", "Not suitable for infants (under 2 years)", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "No children under 12",
+          "Great for couples",
+          "Not suitable for infants (under 2 years)",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "No pets allowed", "Quiet hours after 10 PM", "No outside guests without permission"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+          "No pets allowed",
+          "Quiet hours after 10 PM",
+          "No outside guests without permission",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -256,10 +353,11 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.6,
         reviewCount: 61,
-        quote: "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -270,9 +368,18 @@ export const skagwayHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "No pets allowed", "No smoking indoors", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No pets allowed",
+          "No smoking indoors",
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -287,19 +394,31 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 61,
-        quote: "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in skagway has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
       },
       {
         name: "Harper Martin",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for business travelers"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No pets allowed", "Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "No outside guests without permission", "Lock the door when leaving the house", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No pets allowed",
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+          "No outside guests without permission",
+          "Lock the door when leaving the house",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "skagway",
           country: "undefined",
@@ -314,9 +433,10 @@ export const skagwayHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 74,
-        quote: "I've lived in skagway all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in skagway all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "urban-apartment-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

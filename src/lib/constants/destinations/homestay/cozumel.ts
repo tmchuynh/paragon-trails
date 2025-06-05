@@ -10,9 +10,17 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for digital nomads", "Suitable for business travelers"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Suitable for digital nomads",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -28,19 +36,31 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.3,
         reviewCount: 79,
-        quote: "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "art-or-craft-stay",
       },
       {
         name: "Carlos Gonzalez",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "No smoking indoors", "Lock the door when leaving the house", "Pets welcome", "Please clean up after yourself in common areas", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "No smoking indoors",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+          "Please clean up after yourself in common areas",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -55,10 +75,11 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 14,
-        quote: "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +90,17 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Pet-friendly accommodation", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Recycle according to local guidelines", "No outside guests without permission"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -86,7 +115,8 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 50,
-        quote: "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -96,9 +126,21 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "LGBTQ+ friendly", "Accessible for guests with mobility issues", "Children welcome"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "LGBTQ+ friendly",
+          "Accessible for guests with mobility issues",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["No food in the bedrooms", "Lock the door when leaving the house", "No pets allowed", "Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+          "No pets allowed",
+          "Quiet hours after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -113,19 +155,30 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 49,
-        quote: "My home is your home in cozumel. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in cozumel. I look forward to making your stay memorable and authentic.",
         stayType: "cottage-stay",
       },
       {
         name: "Yuki Singh",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No pets allowed", "Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "No smoking indoors", "Respect shared spaces"],
+        houseRules: [
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+          "Respect shared spaces",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -140,10 +193,11 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 10,
-        quote: "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -154,9 +208,20 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Suitable for business travelers", "Not suitable for infants (under 2 years)", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Suitable for business travelers",
+          "Not suitable for infants (under 2 years)",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Kitchen closed after 8 PM", "Respect shared spaces", "Recycle according to local guidelines", "No loud music after 9 PM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -171,7 +236,8 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.8,
         reviewCount: 31,
-        quote: "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "cottage-stay",
       },
       {
@@ -181,9 +247,20 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)", "No children under 12"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "No loud music after 9 PM", "Respect shared spaces", "No outside guests without permission"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "No loud music after 9 PM",
+          "Respect shared spaces",
+          "No outside guests without permission",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -199,10 +276,11 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 24,
-        quote: "I've lived in cozumel all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in cozumel all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "farm-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -213,9 +291,18 @@ export const cozumelHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only", "Ideal for solo travelers", "Children welcome"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+          "Ideal for solo travelers",
+          "Children welcome",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No loud music after 9 PM", "Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -230,7 +317,8 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 48,
-        quote: "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in cozumel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "art-or-craft-stay",
       },
       {
@@ -242,7 +330,11 @@ export const cozumelHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Ideal for solo travelers", "LGBTQ+ friendly"],
         hostingStyle: "laid-back",
-        houseRules: ["No loud music after 9 PM", "No smoking indoors", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -256,23 +348,31 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 94,
-        quote: "Staying with me means experiencing cozumel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing cozumel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "bed-and-breakfast",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ahmed Jones",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
         guestPolicy: ["Ideal for solo travelers", "Children welcome"],
         hostingStyle: "social",
-        houseRules: ["Remove shoes when entering the home", "Pets welcome", "Quiet hours after 10 PM", "Recycle according to local guidelines", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -288,7 +388,8 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 50,
-        quote: "Staying with me means experiencing cozumel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing cozumel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
       },
       {
@@ -300,7 +401,14 @@ export const cozumelHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Pet-friendly accommodation", "No children under 12"],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM", "Pets welcome", "No outside guests without permission", "Kitchen closed after 8 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Pets welcome",
+          "No outside guests without permission",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "cozumel",
           country: "undefined",
@@ -314,9 +422,10 @@ export const cozumelHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 19,
-        quote: "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my cozumel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "traditional-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -5,14 +5,25 @@ export const santoriniHomestays: Homestay[] = [
     hosts: [
       {
         name: "Benjamin Smith",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Great for couples", "Pet-friendly accommodation", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Great for couples",
+          "Pet-friendly accommodation",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Remove shoes when entering the home", "No outside guests without permission", "Respect shared spaces", "Laundry available on weekends only"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Respect shared spaces",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -27,19 +38,31 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 83,
-        quote: "Life in santorini has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in santorini has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "culinary-homestay",
       },
       {
         name: "Layla Jones",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Not suitable for infants (under 2 years)", "Smoking allowed in designated areas only", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Not suitable for infants (under 2 years)",
+          "Smoking allowed in designated areas only",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Recycle according to local guidelines", "No food in the bedrooms", "No pets allowed", "Laundry available on weekends only"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "No food in the bedrooms",
+          "No pets allowed",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -55,23 +78,34 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 30,
-        quote: "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Aisha Khan",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "Great for couples", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Children welcome",
+          "Great for couples",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No pets allowed", "Laundry available on weekends only", "No loud music after 9 PM", "Pets welcome"],
+        houseRules: [
+          "No pets allowed",
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -87,10 +121,11 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 18,
-        quote: "Welcome to my santorini home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my santorini home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -101,9 +136,19 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please clean up after yourself in common areas", "Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Quiet hours after 10 PM", "Pets welcome"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -119,19 +164,25 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 72,
-        quote: "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "farm-stay",
       },
       {
         name: "Fatima da Costa",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
         guestPolicy: ["Ideal for solo travelers", "LGBTQ+ friendly"],
         hostingStyle: "laid-back",
-        houseRules: ["Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "Respect shared spaces"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Notify host if you'll be arriving after 10 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -147,7 +198,8 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.6,
         reviewCount: 37,
-        quote: "Welcome to my santorini home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my santorini home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "self-catering",
       },
       {
@@ -157,9 +209,19 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Suitable for digital nomads", "Pet-friendly accommodation", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Kitchen closed after 8 PM", "No outside guests without permission", "Pets welcome"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+          "Pets welcome",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -174,10 +236,11 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 18,
-        quote: "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -188,9 +251,18 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for digital nomads", "Great for couples", "No parties or events"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+          "Great for couples",
+          "No parties or events",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Respect shared spaces", "No food in the bedrooms", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Respect shared spaces",
+          "No food in the bedrooms",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -206,7 +278,8 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 25,
-        quote: "Staying with me means experiencing santorini like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing santorini like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "private-room-in-home",
       },
       {
@@ -216,9 +289,19 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Ideal for solo travelers", "Not suitable for infants (under 2 years)", "Family-friendly environment"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Ideal for solo travelers",
+          "Not suitable for infants (under 2 years)",
+          "Family-friendly environment",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "No loud music after 9 PM", "Lock the door when leaving the house", "Pets welcome"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No loud music after 9 PM",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -233,23 +316,30 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 93,
-        quote: "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Sofia Hernandez",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
         guestPolicy: ["Great for couples", "Pet-friendly accommodation"],
         hostingStyle: "private",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -264,7 +354,8 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 78,
-        quote: "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in santorini all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "language-immersion",
       },
       {
@@ -274,9 +365,19 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Perfect for long-term stays", "Suitable for digital nomads"],
+        guestPolicy: [
+          "No parties or events",
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Recycle according to local guidelines", "Pets welcome", "Remove shoes when entering the home", "Kitchen closed after 8 PM", "No outside guests without permission"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Pets welcome",
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -291,7 +392,8 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 77,
-        quote: "Staying with me means experiencing santorini like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing santorini like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "culinary-homestay",
       },
       {
@@ -301,9 +403,17 @@ export const santoriniHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Lock the door when leaving the house", "No pets allowed", "Pets welcome"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+          "No pets allowed",
+          "Pets welcome",
+        ],
         location: {
           city: "santorini",
           country: "undefined",
@@ -318,9 +428,10 @@ export const santoriniHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 56,
-        quote: "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in santorini. I look forward to making your stay memorable and authentic.",
         stayType: "cottage-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

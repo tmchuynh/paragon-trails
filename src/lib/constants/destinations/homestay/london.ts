@@ -5,14 +5,26 @@ export const londonHomestays: Homestay[] = [
     hosts: [
       {
         name: "Liam Johnson",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for digital nomads", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for digital nomads",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "No smoking indoors", "Recycle according to local guidelines", "No pets allowed", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "No smoking indoors",
+          "Recycle according to local guidelines",
+          "No pets allowed",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -28,10 +40,11 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 69,
-        quote: "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "farm-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -42,9 +55,18 @@ export const londonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Family-friendly environment", "Great for couples"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Family-friendly environment",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No smoking indoors", "Wi-Fi password will be provided upon arrival", "Respect shared spaces", "Please conserve water and electricity"],
+        houseRules: [
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -58,7 +80,8 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 39,
-        quote: "My home is your home in london. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in london. I look forward to making your stay memorable and authentic.",
         stayType: "villa-stay",
       },
       {
@@ -70,7 +93,14 @@ export const londonHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No children under 12", "Children welcome"],
         hostingStyle: "social",
-        houseRules: ["Laundry available on weekends only", "No outside guests without permission", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "No loud music after 9 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "No outside guests without permission",
+          "Lock the door when leaving the house",
+          "Please clean up after yourself in common areas",
+          "No loud music after 9 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -85,10 +115,11 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 71,
-        quote: "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -99,9 +130,18 @@ export const londonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "social",
-        houseRules: ["No outside guests without permission", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -116,10 +156,11 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 36,
-        quote: "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -130,9 +171,19 @@ export const londonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Family-friendly environment", "Children welcome", "No children under 12", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Children welcome",
+          "No children under 12",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "private",
-        houseRules: ["No food in the bedrooms", "Recycle according to local guidelines", "Remove shoes when entering the home", "Pets welcome"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Recycle according to local guidelines",
+          "Remove shoes when entering the home",
+          "Pets welcome",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -147,7 +198,8 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 17,
-        quote: "My home is your home in london. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in london. I look forward to making your stay memorable and authentic.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -159,7 +211,13 @@ export const londonHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Children welcome", "LGBTQ+ friendly"],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Recycle according to local guidelines", "Respect shared spaces", "No outside guests without permission"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+          "Respect shared spaces",
+          "No outside guests without permission",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -175,7 +233,8 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 17,
-        quote: "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
       },
       {
@@ -185,9 +244,18 @@ export const londonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "No children under 12",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "No pets allowed", "Please clean up after yourself in common areas", "Pets welcome", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "No pets allowed",
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "london",
           country: "undefined",
@@ -202,9 +270,10 @@ export const londonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 79,
-        quote: "Life in london has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in london has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

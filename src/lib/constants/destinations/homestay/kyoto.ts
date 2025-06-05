@@ -10,9 +10,21 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "Pet-friendly accommodation", "Ideal for solo travelers", "Suitable for business travelers"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Pet-friendly accommodation",
+          "Ideal for solo travelers",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "No pets allowed", "Laundry available on weekends only", "Please clean up after yourself in common areas", "Pets welcome", "No smoking indoors"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No pets allowed",
+          "Laundry available on weekends only",
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "No smoking indoors",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -28,7 +40,8 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.7,
         reviewCount: 32,
-        quote: "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
       },
       {
@@ -38,9 +51,20 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Ideal for solo travelers", "Suitable for digital nomads", "Great for couples"],
+        guestPolicy: [
+          "No children under 12",
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+          "Great for couples",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please conserve water and electricity", "Kitchen closed after 8 PM", "Pets welcome", "Recycle according to local guidelines", "Remove shoes when entering the home"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -55,10 +79,11 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 45,
-        quote: "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -71,7 +96,14 @@ export const kyotoHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Family-friendly environment", "LGBTQ+ friendly"],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only", "Quiet hours after 10 PM", "Notify host if you'll be arriving after 10 PM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+          "Quiet hours after 10 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -87,10 +119,11 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 61,
-        quote: "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -101,9 +134,19 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Pet-friendly accommodation", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Children welcome",
+          "Pet-friendly accommodation",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Remove shoes when entering the home", "Lock the door when leaving the house"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -118,7 +161,8 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.9,
         reviewCount: 10,
-        quote: "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "eco-stay",
       },
       {
@@ -128,9 +172,19 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Ideal for solo travelers", "Suitable for business travelers"],
+        guestPolicy: [
+          "No children under 12",
+          "Ideal for solo travelers",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["No food in the bedrooms", "Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "Quiet hours after 10 PM", "Respect shared spaces"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Notify host if you'll be arriving after 10 PM",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -145,7 +199,8 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.1,
         reviewCount: 9,
-        quote: "Staying with me means experiencing kyoto like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing kyoto like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
       },
       {
@@ -155,9 +210,20 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Family-friendly environment", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Great for couples",
+          "Family-friendly environment",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please conserve water and electricity", "Respect shared spaces", "No smoking indoors", "Kitchen closed after 8 PM", "No loud music after 9 PM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+          "No smoking indoors",
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -172,23 +238,36 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 70,
-        quote: "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "eco-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Henry Nguyen",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Accessible for guests with mobility issues", "Family-friendly environment"],
+        guestPolicy: [
+          "Children welcome",
+          "Accessible for guests with mobility issues",
+          "Family-friendly environment",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Quiet hours after 10 PM", "Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "Wi-Fi password will be provided upon arrival", "No smoking indoors", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No smoking indoors",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -203,19 +282,30 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 26,
-        quote: "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in kyoto. I look forward to making your stay memorable and authentic.",
         stayType: "villa-stay",
       },
       {
         name: "Sofia Kowalski",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Ideal for solo travelers", "Great for couples", "Suitable for business travelers"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Great for couples",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No food in the bedrooms", "Please conserve water and electricity", "Pets welcome", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Please conserve water and electricity",
+          "Pets welcome",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -229,10 +319,11 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 13,
-        quote: "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in kyoto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -243,9 +334,18 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Wi-Fi password will be provided upon arrival", "No outside guests without permission", "No food in the bedrooms"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No outside guests without permission",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -261,7 +361,8 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 25,
-        quote: "Staying with me means experiencing kyoto like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing kyoto like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -271,9 +372,19 @@ export const kyotoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Great for couples", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Great for couples",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "private",
-        houseRules: ["No smoking indoors", "No pets allowed", "No food in the bedrooms", "Kitchen closed after 8 PM", "No loud music after 9 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "No pets allowed",
+          "No food in the bedrooms",
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -287,19 +398,30 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 35,
-        quote: "Welcome to my kyoto home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my kyoto home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "culinary-homestay",
       },
       {
         name: "Noah Anderson",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "No parties or events", "Smoking allowed in designated areas only", "No children under 12"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "No parties or events",
+          "Smoking allowed in designated areas only",
+          "No children under 12",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "kyoto",
           country: "undefined",
@@ -314,9 +436,10 @@ export const kyotoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 17,
-        quote: "Welcome to my kyoto home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my kyoto home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "guest-suite",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -10,9 +10,19 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Accessible for guests with mobility issues", "Suitable for business travelers"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Accessible for guests with mobility issues",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Remove shoes when entering the home", "Lock the door when leaving the house", "Breakfast is self-serve between 7-9 AM", "Please clean up after yourself in common areas", "Laundry available on weekends only"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+          "Breakfast is self-serve between 7-9 AM",
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -27,7 +37,8 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 102,
-        quote: "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "farm-stay",
       },
       {
@@ -37,9 +48,17 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Pets welcome", "Laundry available on weekends only", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Pets welcome",
+          "Laundry available on weekends only",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -54,10 +73,11 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 54,
-        quote: "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -68,9 +88,21 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)", "Perfect for long-term stays", "Family-friendly environment"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+          "Family-friendly environment",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "No outside guests without permission", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only"],
+        houseRules: [
+          "No smoking indoors",
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -85,23 +117,34 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 82,
-        quote: "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "farm-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Layla Davis",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Children welcome"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Children welcome",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "Respect shared spaces", "Lock the door when leaving the house", "Kitchen closed after 8 PM", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+          "Lock the door when leaving the house",
+          "Kitchen closed after 8 PM",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -116,7 +159,8 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 62,
-        quote: "I've lived in singapore all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in singapore all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "cottage-stay",
       },
       {
@@ -126,9 +170,20 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Children welcome", "Great for couples", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Children welcome",
+          "Great for couples",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Kitchen closed after 8 PM", "Respect shared spaces", "Recycle according to local guidelines", "Laundry available on weekends only"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Kitchen closed after 8 PM",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -144,19 +199,28 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 66,
-        quote: "Life in singapore has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in singapore has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "volunteer-stay",
       },
       {
         name: "Harper da Costa",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
         guestPolicy: ["Pet-friendly accommodation", "No parties or events"],
         hostingStyle: "hands-on",
-        houseRules: ["No food in the bedrooms", "Wi-Fi password will be provided upon arrival", "Please clean up after yourself in common areas", "Pets welcome", "Lock the door when leaving the house", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "Lock the door when leaving the house",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -172,10 +236,11 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 34,
-        quote: "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -186,9 +251,18 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Ideal for solo travelers", "Great for couples", "No children under 12"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Ideal for solo travelers",
+          "Great for couples",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "Remove shoes when entering the home", "No pets allowed"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Remove shoes when entering the home",
+          "No pets allowed",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -203,10 +277,11 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.6,
         reviewCount: 64,
-        quote: "I've lived in singapore all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in singapore all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -217,9 +292,20 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Lock the door when leaving the house", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Quiet hours after 10 PM", "Laundry available on weekends only"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -234,7 +320,8 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 84,
-        quote: "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing singapore like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -244,9 +331,17 @@ export const singaporeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Remove shoes when entering the home", "Kitchen closed after 8 PM", "No outside guests without permission", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -261,19 +356,32 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 11,
-        quote: "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in singapore. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
       },
       {
         name: "Henry Johnson",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "No parties or events", "Smoking allowed in designated areas only", "Great for couples"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "No parties or events",
+          "Smoking allowed in designated areas only",
+          "Great for couples",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Laundry available on weekends only", "Pets welcome", "Respect shared spaces", "Remove shoes when entering the home", "No loud music after 9 PM"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Pets welcome",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "singapore",
           country: "undefined",
@@ -288,9 +396,10 @@ export const singaporeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 27,
-        quote: "Life in singapore has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in singapore has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "shared-room",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -10,9 +10,18 @@ export const nassauHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for digital nomads", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for digital nomads",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "Lock the door when leaving the house", "Recycle according to local guidelines", "Pets welcome"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+          "Recycle according to local guidelines",
+          "Pets welcome",
+        ],
         location: {
           city: "nassau",
           country: "undefined",
@@ -27,23 +36,36 @@ export const nassauHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 61,
-        quote: "Staying with me means experiencing nassau like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing nassau like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Henry Ali",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Smoking allowed in designated areas only", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "social",
-        houseRules: ["Remove shoes when entering the home", "No outside guests without permission", "Pets welcome", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Pets welcome",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "nassau",
           country: "undefined",
@@ -58,7 +80,8 @@ export const nassauHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 63,
-        quote: "Welcome to my nassau home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my nassau home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "self-catering",
       },
       {
@@ -68,9 +91,20 @@ export const nassauHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Pet-friendly accommodation", "No parties or events", "Family-friendly environment"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Pet-friendly accommodation",
+          "No parties or events",
+          "Family-friendly environment",
+        ],
         hostingStyle: "social",
-        houseRules: ["Remove shoes when entering the home", "Laundry available on weekends only", "No outside guests without permission", "Lock the door when leaving the house", "Please conserve water and electricity"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Laundry available on weekends only",
+          "No outside guests without permission",
+          "Lock the door when leaving the house",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "nassau",
           country: "undefined",
@@ -85,9 +119,10 @@ export const nassauHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 89,
-        quote: "My home is your home in nassau. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in nassau. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

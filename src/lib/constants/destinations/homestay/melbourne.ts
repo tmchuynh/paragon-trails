@@ -5,14 +5,22 @@ export const melbourneHomestays: Homestay[] = [
     hosts: [
       {
         name: "Ava Patel",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
         guestPolicy: ["LGBTQ+ friendly", "Ideal for solo travelers"],
         hostingStyle: "social",
-        houseRules: ["Laundry available on weekends only", "Remove shoes when entering the home", "Please conserve water and electricity", "No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -27,7 +35,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 42,
-        quote: "I've lived in melbourne all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in melbourne all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
       },
       {
@@ -37,9 +46,20 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "Family-friendly environment", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Children welcome",
+          "Family-friendly environment",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No pets allowed", "No food in the bedrooms", "Pets welcome", "Lock the door when leaving the house"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No pets allowed",
+          "No food in the bedrooms",
+          "Pets welcome",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -54,19 +74,32 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 33,
-        quote: "My home is your home in melbourne. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in melbourne. I look forward to making your stay memorable and authentic.",
         stayType: "shared-room",
       },
       {
         name: "Olivia Lopez",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Pet-friendly accommodation", "Family-friendly environment", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Pet-friendly accommodation",
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "private",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Notify host if you'll be arriving after 10 PM", "Respect shared spaces", "Remove shoes when entering the home"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Notify host if you'll be arriving after 10 PM",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -80,10 +113,11 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 7,
-        quote: "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -94,9 +128,18 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "No children under 12"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for business travelers",
+          "No children under 12",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "Respect shared spaces"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -112,7 +155,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 30,
-        quote: "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
       },
       {
@@ -122,9 +166,19 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "Kitchen closed after 8 PM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival", "No pets allowed"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -139,7 +193,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 87,
-        quote: "Life in melbourne has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in melbourne has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
       },
       {
@@ -151,7 +206,12 @@ export const melbourneHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Perfect for long-term stays", "LGBTQ+ friendly"],
         hostingStyle: "hands-on",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "Pets welcome", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "Pets welcome",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -166,23 +226,29 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 12,
-        quote: "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Hiroshi Khan",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
         guestPolicy: ["No parties or events", "Senior-friendly accommodations"],
         hostingStyle: "hands-on",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "No loud music after 9 PM"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -197,7 +263,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 5,
-        quote: "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -207,9 +274,21 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Suitable for business travelers", "Not suitable for infants (under 2 years)", "Suitable for digital nomads"],
+        guestPolicy: [
+          "No parties or events",
+          "Suitable for business travelers",
+          "Not suitable for infants (under 2 years)",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No outside guests without permission", "Pets welcome", "Respect shared spaces", "No loud music after 9 PM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No outside guests without permission",
+          "Pets welcome",
+          "Respect shared spaces",
+          "No loud music after 9 PM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -223,10 +302,11 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 90,
-        quote: "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "art-or-craft-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -237,9 +317,17 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Lock the door when leaving the house", "Remove shoes when entering the home", "Please clean up after yourself in common areas", "Recycle according to local guidelines"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Remove shoes when entering the home",
+          "Please clean up after yourself in common areas",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -255,7 +343,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 91,
-        quote: "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -265,9 +354,19 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "No parties or events", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "No parties or events",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "Please conserve water and electricity", "Respect shared spaces", "Lock the door when leaving the house", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Pets welcome",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+          "Lock the door when leaving the house",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -281,7 +380,8 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 91,
-        quote: "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing melbourne like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
       },
       {
@@ -291,9 +391,18 @@ export const melbourneHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Accessible for guests with mobility issues", "Children welcome"],
+        guestPolicy: [
+          "Great for couples",
+          "Accessible for guests with mobility issues",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please conserve water and electricity", "Lock the door when leaving the house", "No loud music after 9 PM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -309,23 +418,36 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 71,
-        quote: "My home is your home in melbourne. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in melbourne. I look forward to making your stay memorable and authentic.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Harper Wilson",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Ideal for solo travelers", "Senior-friendly accommodations", "Great for couples"],
+        guestPolicy: [
+          "No parties or events",
+          "Ideal for solo travelers",
+          "Senior-friendly accommodations",
+          "Great for couples",
+        ],
         hostingStyle: "private",
-        houseRules: ["Respect shared spaces", "Kitchen closed after 8 PM", "Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM", "No food in the bedrooms"],
+        houseRules: [
+          "Respect shared spaces",
+          "Kitchen closed after 8 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "melbourne",
           country: "undefined",
@@ -341,9 +463,10 @@ export const melbourneHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.8,
         reviewCount: 80,
-        quote: "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my melbourne home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "guest-suite",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

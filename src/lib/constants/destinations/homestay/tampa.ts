@@ -10,9 +10,18 @@ export const tampaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for digital nomads", "Children welcome", "No parties or events"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Suitable for digital nomads",
+          "Children welcome",
+          "No parties or events",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "No smoking indoors"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -28,7 +37,8 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 89,
-        quote: "I've lived in tampa all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in tampa all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "entire-home",
       },
       {
@@ -38,9 +48,19 @@ export const tampaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "No children under 12", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "No children under 12",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Kitchen closed after 8 PM", "Lock the door when leaving the house", "No loud music after 9 PM", "Laundry available on weekends only", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Lock the door when leaving the house",
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -55,10 +75,11 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 64,
-        quote: "Welcome to my tampa home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my tampa home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +90,21 @@ export const tampaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for digital nomads", "Pet-friendly accommodation", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for digital nomads",
+          "Pet-friendly accommodation",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Remove shoes when entering the home", "Laundry available on weekends only", "No smoking indoors", "Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines", "Lock the door when leaving the house"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "Recycle according to local guidelines",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -87,19 +120,31 @@ export const tampaHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.8,
         reviewCount: 26,
-        quote: "Welcome to my tampa home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my tampa home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "urban-apartment-stay",
       },
       {
         name: "Juan Nguyen",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "LGBTQ+ friendly", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "LGBTQ+ friendly",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Remove shoes when entering the home", "Respect shared spaces", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No smoking indoors",
+          "Remove shoes when entering the home",
+          "Respect shared spaces",
+          "Please clean up after yourself in common areas",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -113,7 +158,8 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 67,
-        quote: "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
       },
       {
@@ -123,9 +169,20 @@ export const tampaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "LGBTQ+ friendly", "Great for couples", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "LGBTQ+ friendly",
+          "Great for couples",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "social",
-        houseRules: ["Kitchen closed after 8 PM", "Remove shoes when entering the home", "Recycle according to local guidelines", "No pets allowed", "Please conserve water and electricity"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "Recycle according to local guidelines",
+          "No pets allowed",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -139,23 +196,34 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 13,
-        quote: "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Sofia Khan",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for business travelers", "Family-friendly environment"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["No pets allowed", "No outside guests without permission", "Please clean up after yourself in common areas", "Remove shoes when entering the home"],
+        houseRules: [
+          "No pets allowed",
+          "No outside guests without permission",
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -171,19 +239,31 @@ export const tampaHomestays: Homestay[] = [
         isVerified: false,
         rating: 4,
         reviewCount: 47,
-        quote: "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "heritage-stay",
       },
       {
         name: "Oliver Kowalski",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for business travelers", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for business travelers",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Respect shared spaces"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -199,23 +279,33 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 19,
-        quote: "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Layla Müller",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for digital nomads", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for digital nomads",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -230,23 +320,36 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 100,
-        quote: "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ravi Patel",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Perfect for long-term stays", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Perfect for long-term stays",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Kitchen closed after 8 PM", "No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -260,19 +363,31 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 38,
-        quote: "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing tampa like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
       },
       {
         name: "Ravi Anderson",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Perfect for long-term stays", "Children welcome"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Perfect for long-term stays",
+          "Children welcome",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No outside guests without permission", "Quiet hours after 10 PM", "Lock the door when leaving the house", "No loud music after 9 PM", "Recycle according to local guidelines"],
+        houseRules: [
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+          "No loud music after 9 PM",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -287,7 +402,8 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 46,
-        quote: "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in tampa has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
       },
       {
@@ -297,9 +413,18 @@ export const tampaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "Ideal for solo travelers", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Ideal for solo travelers",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Pets welcome", "Recycle according to local guidelines", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "tampa",
           country: "undefined",
@@ -314,9 +439,10 @@ export const tampaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 94,
-        quote: "I've lived in tampa all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in tampa all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "entire-home",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

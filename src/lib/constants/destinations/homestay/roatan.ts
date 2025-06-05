@@ -5,14 +5,26 @@ export const roatanHomestays: Homestay[] = [
     hosts: [
       {
         name: "Emma Smith",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Family-friendly environment", "Pet-friendly accommodation", "No children under 12"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Family-friendly environment",
+          "Pet-friendly accommodation",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "Quiet hours after 10 PM", "No outside guests without permission", "Please conserve water and electricity", "Lock the door when leaving the house"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Quiet hours after 10 PM",
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -27,23 +39,31 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 66,
-        quote: "I've lived in roatan all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in roatan all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Layla Ibrahim",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
         guestPolicy: ["Ideal for solo travelers", "Great for couples"],
         hostingStyle: "hands-on",
-        houseRules: ["Quiet hours after 10 PM", "No outside guests without permission", "No smoking indoors", "No pets allowed", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "No outside guests without permission",
+          "No smoking indoors",
+          "No pets allowed",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -59,7 +79,8 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 93,
-        quote: "My home is your home in roatan. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in roatan. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
       },
       {
@@ -69,9 +90,18 @@ export const roatanHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Great for couples", "Family-friendly environment", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Great for couples",
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "No smoking indoors", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No smoking indoors",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -86,19 +116,31 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 12,
-        quote: "Staying with me means experiencing roatan like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing roatan like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
       },
       {
         name: "Harper Rossi",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "No children under 12", "No parties or events"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "No children under 12",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Laundry available on weekends only", "Please clean up after yourself in common areas", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+          "Please clean up after yourself in common areas",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -113,23 +155,34 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 87,
-        quote: "I've lived in roatan all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in roatan all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ibrahim Nakamura",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Great for couples"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Great for couples",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Please clean up after yourself in common areas",
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -145,7 +198,8 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 60,
-        quote: "My home is your home in roatan. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in roatan. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
       },
       {
@@ -155,9 +209,20 @@ export const roatanHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Not suitable for infants (under 2 years)", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "No outside guests without permission", "Laundry available on weekends only"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No outside guests without permission",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -173,23 +238,36 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 98,
-        quote: "Life in roatan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in roatan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Liam Garcia",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Great for couples", "No parties or events", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Great for couples",
+          "No parties or events",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "Kitchen closed after 8 PM", "Wi-Fi password will be provided upon arrival", "Pets welcome", "Respect shared spaces", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Kitchen closed after 8 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Pets welcome",
+          "Respect shared spaces",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -205,19 +283,33 @@ export const roatanHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.7,
         reviewCount: 84,
-        quote: "Welcome to my roatan home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my roatan home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "heritage-stay",
       },
       {
         name: "Lucas Rossi",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Senior-friendly accommodations", "Not suitable for infants (under 2 years)", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Senior-friendly accommodations",
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Please clean up after yourself in common areas", "No loud music after 9 PM", "Laundry available on weekends only", "Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+          "Recycle according to local guidelines",
+          "Notify host if you'll be arriving after 10 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "roatan",
           country: "undefined",
@@ -233,9 +325,10 @@ export const roatanHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 101,
-        quote: "Welcome to my roatan home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my roatan home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "academic-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

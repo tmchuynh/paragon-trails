@@ -10,9 +10,19 @@ export const yokohamaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Family-friendly environment", "Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Family-friendly environment",
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "Pets welcome", "No food in the bedrooms", "Please conserve water and electricity"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+          "No food in the bedrooms",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "yokohama",
           country: "undefined",
@@ -28,23 +38,34 @@ export const yokohamaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 26,
-        quote: "Life in yokohama has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in yokohama has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "James Moore",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for digital nomads", "Family-friendly environment", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+          "Family-friendly environment",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please conserve water and electricity", "Remove shoes when entering the home", "Laundry available on weekends only"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Remove shoes when entering the home",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "yokohama",
           country: "undefined",
@@ -58,9 +79,10 @@ export const yokohamaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 28,
-        quote: "My home is your home in yokohama. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in yokohama. I look forward to making your stay memorable and authentic.",
         stayType: "urban-apartment-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

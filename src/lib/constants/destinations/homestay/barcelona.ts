@@ -10,9 +10,19 @@ export const barcelonaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Family-friendly environment", "No children under 12", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "No children under 12",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Please conserve water and electricity", "Respect shared spaces"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -28,10 +38,11 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 102,
-        quote: "My home is your home in barcelona. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in barcelona. I look forward to making your stay memorable and authentic.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -42,9 +53,18 @@ export const barcelonaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Laundry available on weekends only", "No smoking indoors", "Quiet hours after 10 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -58,7 +78,8 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.3,
         reviewCount: 86,
-        quote: "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "art-or-craft-stay",
       },
       {
@@ -68,9 +89,19 @@ export const barcelonaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)", "No children under 12"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+          "No children under 12",
+        ],
         hostingStyle: "social",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No outside guests without permission", "Remove shoes when entering the home", "Pets welcome", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No outside guests without permission",
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -85,10 +116,11 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 22,
-        quote: "My home is your home in barcelona. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in barcelona. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -101,7 +133,11 @@ export const barcelonaHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No children under 12", "No parties or events"],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Laundry available on weekends only", "No food in the bedrooms"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -116,23 +152,35 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 99,
-        quote: "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "private-room-in-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Maria Gonzalez",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "No loud music after 9 PM", "Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Respect shared spaces"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "Respect shared spaces",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -148,19 +196,26 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 55,
-        quote: "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "private-room-in-home",
       },
       {
         name: "Mei Jackson",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
         guestPolicy: ["Children welcome", "Family-friendly environment"],
         hostingStyle: "family-oriented",
-        houseRules: ["Quiet hours after 10 PM", "Please clean up after yourself in common areas", "Wi-Fi password will be provided upon arrival", "No pets allowed"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Please clean up after yourself in common areas",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -176,10 +231,11 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 19,
-        quote: "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -190,9 +246,20 @@ export const barcelonaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Great for couples", "No children under 12", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Great for couples",
+          "No children under 12",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "No food in the bedrooms", "Kitchen closed after 8 PM", "No outside guests without permission", "Pets welcome"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No food in the bedrooms",
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+          "Pets welcome",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -208,7 +275,8 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 62,
-        quote: "Staying with me means experiencing barcelona like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing barcelona like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "farm-stay",
       },
       {
@@ -220,7 +288,13 @@ export const barcelonaHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Great for couples", "Suitable for business travelers"],
         hostingStyle: "private",
-        houseRules: ["No loud music after 9 PM", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Lock the door when leaving the house",
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -235,7 +309,8 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 42,
-        quote: "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in barcelona has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
       },
       {
@@ -245,9 +320,20 @@ export const barcelonaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Smoking allowed in designated areas only", "Children welcome", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+          "Children welcome",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "No pets allowed", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+          "No pets allowed",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "barcelona",
           country: "undefined",
@@ -262,9 +348,10 @@ export const barcelonaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 49,
-        quote: "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in barcelona all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "volunteer-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

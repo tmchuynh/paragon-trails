@@ -5,14 +5,26 @@ export const southamptonHomestays: Homestay[] = [
     hosts: [
       {
         name: "Liam Kowalski",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "LGBTQ+ friendly", "Children welcome"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "LGBTQ+ friendly",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Lock the door when leaving the house", "Pets welcome", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -27,10 +39,11 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 88,
-        quote: "My home is your home in southampton. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in southampton. I look forward to making your stay memorable and authentic.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -41,9 +54,18 @@ export const southamptonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "No parties or events", "Family-friendly environment"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "No parties or events",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -58,7 +80,8 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 55,
-        quote: "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "farm-stay",
       },
       {
@@ -70,7 +93,14 @@ export const southamptonHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No parties or events", "No children under 12"],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Recycle according to local guidelines", "No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -85,10 +115,11 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 51,
-        quote: "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -99,9 +130,18 @@ export const southamptonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for business travelers", "Ideal for solo travelers"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for business travelers",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Laundry available on weekends only", "No pets allowed", "Respect shared spaces", "Pets welcome"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "No pets allowed",
+          "Respect shared spaces",
+          "Pets welcome",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -117,10 +157,11 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 81,
-        quote: "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -133,7 +174,11 @@ export const southamptonHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No parties or events", "LGBTQ+ friendly"],
         hostingStyle: "laid-back",
-        houseRules: ["Respect shared spaces", "Kitchen closed after 8 PM", "No pets allowed"],
+        houseRules: [
+          "Respect shared spaces",
+          "Kitchen closed after 8 PM",
+          "No pets allowed",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -148,7 +193,8 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 85,
-        quote: "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
       },
       {
@@ -158,9 +204,21 @@ export const southamptonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Perfect for long-term stays", "Family-friendly environment", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Perfect for long-term stays",
+          "Family-friendly environment",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "Quiet hours after 10 PM", "No food in the bedrooms", "No loud music after 9 PM"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Notify host if you'll be arriving after 10 PM",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "No food in the bedrooms",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "southampton",
           country: "undefined",
@@ -174,9 +232,10 @@ export const southamptonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 41,
-        quote: "Life in southampton has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in southampton has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "academic-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

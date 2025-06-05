@@ -10,9 +10,17 @@ export const philipsburgHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Children welcome"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Children welcome",
+        ],
         hostingStyle: "social",
-        houseRules: ["No outside guests without permission", "Respect shared spaces", "Wi-Fi password will be provided upon arrival", "No pets allowed"],
+        houseRules: [
+          "No outside guests without permission",
+          "Respect shared spaces",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -27,7 +35,8 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 51,
-        quote: "I've lived in philipsburg all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in philipsburg all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
       },
       {
@@ -37,9 +46,19 @@ export const philipsburgHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "No children under 12"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please conserve water and electricity", "Breakfast is self-serve between 7-9 AM", "No outside guests without permission", "Quiet hours after 10 PM", "No loud music after 9 PM", "Laundry available on weekends only"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Breakfast is self-serve between 7-9 AM",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -55,7 +74,8 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 9,
-        quote: "Welcome to my philipsburg home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my philipsburg home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "guest-suite",
       },
       {
@@ -65,9 +85,19 @@ export const philipsburgHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "Pets welcome", "Please clean up after yourself in common areas", "No smoking indoors", "Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Pets welcome",
+          "Please clean up after yourself in common areas",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -82,23 +112,33 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 22,
-        quote: "Welcome to my philipsburg home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my philipsburg home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Layla Ibrahim",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "No parties or events", "Children welcome"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "No parties or events",
+          "Children welcome",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "No smoking indoors"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -113,19 +153,31 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 79,
-        quote: "My home is your home in philipsburg. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in philipsburg. I look forward to making your stay memorable and authentic.",
         stayType: "shared-room",
       },
       {
         name: "James Nakamura",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for business travelers", "Great for couples"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for business travelers",
+          "Great for couples",
+        ],
         hostingStyle: "social",
-        houseRules: ["Respect shared spaces", "Please clean up after yourself in common areas", "No outside guests without permission", "Quiet hours after 10 PM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Respect shared spaces",
+          "Please clean up after yourself in common areas",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -140,7 +192,8 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 98,
-        quote: "I've lived in philipsburg all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in philipsburg all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "bed-and-breakfast",
       },
       {
@@ -150,9 +203,19 @@ export const philipsburgHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "No parties or events", "Family-friendly environment", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "No parties or events",
+          "Family-friendly environment",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "No food in the bedrooms"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "philipsburg",
           country: "undefined",
@@ -168,9 +231,10 @@ export const philipsburgHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 72,
-        quote: "My home is your home in philipsburg. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in philipsburg. I look forward to making your stay memorable and authentic.",
         stayType: "volunteer-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

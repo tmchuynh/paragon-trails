@@ -5,14 +5,25 @@ export const sydneyHomestays: Homestay[] = [
     hosts: [
       {
         name: "Amelia Martin",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Great for couples", "Perfect for long-term stays", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Great for couples",
+          "Perfect for long-term stays",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Please conserve water and electricity", "No pets allowed", "No food in the bedrooms", "Laundry available on weekends only"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "No pets allowed",
+          "No food in the bedrooms",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "sydney",
           country: "undefined",
@@ -27,7 +38,8 @@ export const sydneyHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 103,
-        quote: "I've lived in sydney all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in sydney all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
       },
       {
@@ -37,9 +49,21 @@ export const sydneyHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Pet-friendly accommodation", "Not suitable for infants (under 2 years)", "Family-friendly environment"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "Not suitable for infants (under 2 years)",
+          "Family-friendly environment",
+        ],
         hostingStyle: "social",
-        houseRules: ["No food in the bedrooms", "Respect shared spaces", "Remove shoes when entering the home", "No loud music after 9 PM", "No smoking indoors", "Pets welcome"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+          "No smoking indoors",
+          "Pets welcome",
+        ],
         location: {
           city: "sydney",
           country: "undefined",
@@ -55,10 +79,11 @@ export const sydneyHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 53,
-        quote: "Welcome to my sydney home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my sydney home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "shared-room",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +94,19 @@ export const sydneyHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Great for couples", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Great for couples",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Lock the door when leaving the house", "Please conserve water and electricity", "Remove shoes when entering the home", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Lock the door when leaving the house",
+          "Please conserve water and electricity",
+          "Remove shoes when entering the home",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "sydney",
           country: "undefined",
@@ -85,7 +120,8 @@ export const sydneyHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 46,
-        quote: "I've lived in sydney all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in sydney all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "language-immersion",
       },
       {
@@ -95,9 +131,19 @@ export const sydneyHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Not suitable for infants (under 2 years)", "Ideal for solo travelers", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Not suitable for infants (under 2 years)",
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Lock the door when leaving the house", "Kitchen closed after 8 PM", "Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Kitchen closed after 8 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "sydney",
           country: "undefined",
@@ -113,9 +159,10 @@ export const sydneyHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 63,
-        quote: "My home is your home in sydney. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in sydney. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

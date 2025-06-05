@@ -10,9 +10,17 @@ export const romeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Pet-friendly accommodation", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "private",
-        houseRules: ["Respect shared spaces", "No pets allowed", "Please conserve water and electricity"],
+        houseRules: [
+          "Respect shared spaces",
+          "No pets allowed",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -28,23 +36,29 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 45,
-        quote: "I've lived in rome all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in rome all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Priya Ibrahim",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
         guestPolicy: ["No children under 12", "Children welcome"],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Laundry available on weekends only"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -59,10 +73,11 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 82,
-        quote: "I've lived in rome all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in rome all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -73,9 +88,17 @@ export const romeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Quiet hours after 10 PM", "No loud music after 9 PM", "No food in the bedrooms"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Quiet hours after 10 PM",
+          "No loud music after 9 PM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -90,10 +113,11 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 14,
-        quote: "Welcome to my rome home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my rome home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "traditional-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -104,9 +128,21 @@ export const romeHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Pet-friendly accommodation", "Suitable for business travelers", "Suitable for digital nomads"],
+        guestPolicy: [
+          "No parties or events",
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "Lock the door when leaving the house", "No outside guests without permission"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+          "Lock the door when leaving the house",
+          "No outside guests without permission",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -121,19 +157,30 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 82,
-        quote: "Staying with me means experiencing rome like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing rome like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "eco-stay",
       },
       {
         name: "Sophia Brown",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Children welcome",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -148,19 +195,32 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 62,
-        quote: "Staying with me means experiencing rome like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing rome like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "pet-friendly-stay",
       },
       {
         name: "Elena Jansen",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Senior-friendly accommodations", "Pet-friendly accommodation", "Great for couples"],
+        guestPolicy: [
+          "Children welcome",
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "Great for couples",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Kitchen closed after 8 PM", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -176,23 +236,33 @@ export const romeHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.5,
         reviewCount: 55,
-        quote: "My home is your home in rome. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in rome. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ibrahim Ibrahim",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "No loud music after 9 PM", "No smoking indoors"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -207,19 +277,30 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 100,
-        quote: "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
       },
       {
         name: "Harper Kowalski",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "No children under 12"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "No children under 12",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Please clean up after yourself in common areas", "No food in the bedrooms", "Laundry available on weekends only", "Remove shoes when entering the home"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Please clean up after yourself in common areas",
+          "No food in the bedrooms",
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -234,19 +315,28 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 93,
-        quote: "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
       },
       {
         name: "Sophia Anderson",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
         guestPolicy: ["Children welcome", "Family-friendly environment"],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "Pets welcome", "No outside guests without permission", "Please conserve water and electricity", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "rome",
           country: "undefined",
@@ -261,9 +351,10 @@ export const romeHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 44,
-        quote: "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in rome has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

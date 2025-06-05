@@ -5,14 +5,24 @@ export const victoriaHomestays: Homestay[] = [
     hosts: [
       {
         name: "Evelyn Rossi",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "LGBTQ+ friendly", "No children under 12"],
+        guestPolicy: [
+          "Great for couples",
+          "LGBTQ+ friendly",
+          "No children under 12",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Kitchen closed after 8 PM", "Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "No smoking indoors"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -27,7 +37,8 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 47,
-        quote: "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
       },
       {
@@ -39,7 +50,13 @@ export const victoriaHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No parties or events", "Suitable for digital nomads"],
         hostingStyle: "private",
-        houseRules: ["Pets welcome", "No pets allowed", "No food in the bedrooms", "Recycle according to local guidelines", "No loud music after 9 PM"],
+        houseRules: [
+          "Pets welcome",
+          "No pets allowed",
+          "No food in the bedrooms",
+          "Recycle according to local guidelines",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -55,19 +72,30 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 75,
-        quote: "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "cottage-stay",
       },
       {
         name: "Muhammad Brown",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "No children under 12", "Perfect for long-term stays", "Family-friendly environment"],
+        guestPolicy: [
+          "Children welcome",
+          "No children under 12",
+          "Perfect for long-term stays",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -83,10 +111,11 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 92,
-        quote: "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -97,9 +126,19 @@ export const victoriaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for digital nomads", "Accessible for guests with mobility issues", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for digital nomads",
+          "Accessible for guests with mobility issues",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "Remove shoes when entering the home", "Pets welcome", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -114,19 +153,25 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 21,
-        quote: "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "private-room-in-home",
       },
       {
         name: "Elijah Khan",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
         guestPolicy: ["Children welcome", "No parties or events"],
         hostingStyle: "private",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please clean up after yourself in common areas", "Respect shared spaces"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please clean up after yourself in common areas",
+          "Respect shared spaces",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -142,19 +187,30 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 58,
-        quote: "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
       },
       {
         name: "Carlos Kim",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Recycle according to local guidelines", "Please clean up after yourself in common areas", "No food in the bedrooms", "Lock the door when leaving the house"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Recycle according to local guidelines",
+          "Please clean up after yourself in common areas",
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -169,10 +225,11 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 61,
-        quote: "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -185,7 +242,13 @@ export const victoriaHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Senior-friendly accommodations", "No parties or events"],
         hostingStyle: "hands-on",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -200,7 +263,8 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 13,
-        quote: "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "private-room-in-home",
       },
       {
@@ -210,9 +274,21 @@ export const victoriaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Senior-friendly accommodations", "LGBTQ+ friendly", "No parties or events"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Senior-friendly accommodations",
+          "LGBTQ+ friendly",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only", "Remove shoes when entering the home", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -227,23 +303,34 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 55,
-        quote: "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ravi Martin",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for digital nomads", "No children under 12"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for digital nomads",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "No pets allowed", "Recycle according to local guidelines"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -258,7 +345,8 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.5,
         reviewCount: 58,
-        quote: "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing victoria like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "traditional-homestay",
       },
       {
@@ -268,9 +356,18 @@ export const victoriaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Family-friendly environment", "Accessible for guests with mobility issues", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Family-friendly environment",
+          "Accessible for guests with mobility issues",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -286,7 +383,8 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 30,
-        quote: "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in victoria. I look forward to making your stay memorable and authentic.",
         stayType: "villa-stay",
       },
       {
@@ -296,9 +394,19 @@ export const victoriaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "Smoking allowed in designated areas only", "No children under 12"],
+        guestPolicy: [
+          "Children welcome",
+          "Smoking allowed in designated areas only",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "No pets allowed", "Recycle according to local guidelines", "No smoking indoors"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+          "No pets allowed",
+          "Recycle according to local guidelines",
+          "No smoking indoors",
+        ],
         location: {
           city: "victoria",
           country: "undefined",
@@ -314,9 +422,10 @@ export const victoriaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 15,
-        quote: "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in victoria has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

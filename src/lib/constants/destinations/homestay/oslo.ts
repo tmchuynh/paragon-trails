@@ -5,14 +5,26 @@ export const osloHomestays: Homestay[] = [
     hosts: [
       {
         name: "William Smith",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Accessible for guests with mobility issues", "Great for couples"],
+        guestPolicy: [
+          "No children under 12",
+          "Accessible for guests with mobility issues",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Lock the door when leaving the house", "Breakfast is self-serve between 7-9 AM", "No pets allowed", "Please conserve water and electricity", "Kitchen closed after 8 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Breakfast is self-serve between 7-9 AM",
+          "No pets allowed",
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -27,19 +39,29 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 92,
-        quote: "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "heritage-stay",
       },
       {
         name: "Lucas Davis",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Senior-friendly accommodations", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Pets welcome", "Recycle according to local guidelines", "No outside guests without permission"],
+        houseRules: [
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -54,7 +76,8 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 31,
-        quote: "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -64,9 +87,18 @@ export const osloHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Suitable for digital nomads", "Children welcome", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for digital nomads",
+          "Children welcome",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -82,10 +114,11 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 66,
-        quote: "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -98,7 +131,14 @@ export const osloHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["No children under 12", "Children welcome"],
         hostingStyle: "family-oriented",
-        houseRules: ["No pets allowed", "No smoking indoors", "Kitchen closed after 8 PM", "No loud music after 9 PM", "Recycle according to local guidelines", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "No pets allowed",
+          "No smoking indoors",
+          "Kitchen closed after 8 PM",
+          "No loud music after 9 PM",
+          "Recycle according to local guidelines",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -114,7 +154,8 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 96,
-        quote: "I've lived in oslo all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in oslo all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "traditional-homestay",
       },
       {
@@ -124,9 +165,20 @@ export const osloHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Perfect for long-term stays", "Suitable for digital nomads", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -141,10 +193,11 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 11,
-        quote: "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -155,9 +208,18 @@ export const osloHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "No loud music after 9 PM", "Quiet hours after 10 PM", "Pets welcome", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -173,19 +235,28 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 35,
-        quote: "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
         stayType: "bed-and-breakfast",
       },
       {
         name: "Benjamin Singh",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
         guestPolicy: ["No parties or events", "Ideal for solo travelers"],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "Please clean up after yourself in common areas", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Please conserve water and electricity", "Respect shared spaces"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Please clean up after yourself in common areas",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -201,23 +272,29 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 85,
-        quote: "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in oslo. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Amelia Nguyen",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
         guestPolicy: ["Perfect for long-term stays", "Children welcome"],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "Lock the door when leaving the house", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No smoking indoors",
+          "Lock the door when leaving the house",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -232,10 +309,11 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 7,
-        quote: "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in oslo has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -246,9 +324,20 @@ export const osloHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Family-friendly environment", "No parties or events", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Family-friendly environment",
+          "No parties or events",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Lock the door when leaving the house", "Remove shoes when entering the home"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -263,7 +352,8 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 42,
-        quote: "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -273,9 +363,19 @@ export const osloHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Perfect for long-term stays", "Great for couples"],
+        guestPolicy: [
+          "Children welcome",
+          "Perfect for long-term stays",
+          "Great for couples",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "Remove shoes when entering the home"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "oslo",
           country: "undefined",
@@ -290,9 +390,10 @@ export const osloHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 56,
-        quote: "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing oslo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

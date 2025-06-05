@@ -10,9 +10,18 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Smoking allowed in designated areas only", "Great for couples"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Smoking allowed in designated areas only",
+          "Great for couples",
+        ],
         hostingStyle: "social",
-        houseRules: ["Please clean up after yourself in common areas", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -28,7 +37,8 @@ export const parisHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 82,
-        quote: "Staying with me means experiencing paris like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing paris like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "farm-stay",
       },
       {
@@ -38,9 +48,18 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Children welcome"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Respect shared spaces", "Please conserve water and electricity", "No smoking indoors", "Pets welcome", "Remove shoes when entering the home"],
+        houseRules: [
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+          "No smoking indoors",
+          "Pets welcome",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -56,7 +75,8 @@ export const parisHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 71,
-        quote: "Life in paris has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in paris has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
       },
       {
@@ -66,9 +86,18 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Great for couples", "No parties or events"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Great for couples",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No smoking indoors", "Please clean up after yourself in common areas", "Remove shoes when entering the home"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No smoking indoors",
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -83,10 +112,11 @@ export const parisHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 22,
-        quote: "My home is your home in paris. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in paris. I look forward to making your stay memorable and authentic.",
         stayType: "private-room-in-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -97,9 +127,21 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Ideal for solo travelers", "No parties or events", "No children under 12"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Ideal for solo travelers",
+          "No parties or events",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No pets allowed", "Laundry available on weekends only", "No loud music after 9 PM", "Respect shared spaces", "Please conserve water and electricity", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "No pets allowed",
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -114,7 +156,8 @@ export const parisHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 19,
-        quote: "I've lived in paris all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in paris all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "traditional-homestay",
       },
       {
@@ -124,9 +167,18 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Family-friendly environment", "Perfect for long-term stays"],
+        guestPolicy: [
+          "No parties or events",
+          "Family-friendly environment",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Recycle according to local guidelines", "Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Lock the door when leaving the house"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -140,7 +192,8 @@ export const parisHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.5,
         reviewCount: 9,
-        quote: "I've lived in paris all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in paris all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
       },
       {
@@ -150,9 +203,19 @@ export const parisHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Smoking allowed in designated areas only", "Children welcome", "Ideal for solo travelers"],
+        guestPolicy: [
+          "No parties or events",
+          "Smoking allowed in designated areas only",
+          "Children welcome",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "Lock the door when leaving the house"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "paris",
           country: "undefined",
@@ -167,9 +230,10 @@ export const parisHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 36,
-        quote: "Staying with me means experiencing paris like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing paris like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "shared-room",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -5,14 +5,22 @@ export const florenceHomestays: Homestay[] = [
     hosts: [
       {
         name: "Yuki Suzuki",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "Respect shared spaces", "Recycle according to local guidelines"],
+        houseRules: [
+          "Pets welcome",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -26,10 +34,11 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 55,
-        quote: "I've lived in florence all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in florence all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -42,7 +51,12 @@ export const florenceHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Perfect for long-term stays", "No children under 12"],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM", "Kitchen closed after 8 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -57,7 +71,8 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 39,
-        quote: "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "farm-stay",
       },
       {
@@ -67,9 +82,18 @@ export const florenceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Great for couples", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Great for couples",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "No loud music after 9 PM", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "No loud music after 9 PM",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -85,7 +109,8 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 104,
-        quote: "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -95,9 +120,18 @@ export const florenceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Children welcome", "Accessible for guests with mobility issues", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Children welcome",
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["Please conserve water and electricity", "Respect shared spaces", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -112,10 +146,11 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 64,
-        quote: "Life in florence has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in florence has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -126,9 +161,20 @@ export const florenceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No smoking indoors", "Wi-Fi password will be provided upon arrival", "Respect shared spaces", "Please conserve water and electricity", "Lock the door when leaving the house"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -143,19 +189,32 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 43,
-        quote: "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my florence home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "language-immersion",
       },
       {
         name: "Yuki Dubois",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["No outside guests without permission", "No smoking indoors", "Pets welcome", "Please conserve water and electricity", "No pets allowed", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "No smoking indoors",
+          "Pets welcome",
+          "Please conserve water and electricity",
+          "No pets allowed",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -171,7 +230,8 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 81,
-        quote: "Life in florence has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in florence has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -181,9 +241,17 @@ export const florenceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Suitable for business travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM", "No food in the bedrooms"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -198,23 +266,36 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 43,
-        quote: "I've lived in florence all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in florence all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Amelia Ali",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Great for couples", "No children under 12"],
+        guestPolicy: [
+          "Children welcome",
+          "Great for couples",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines", "Pets welcome", "No outside guests without permission", "No smoking indoors", "Respect shared spaces"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Recycle according to local guidelines",
+          "Pets welcome",
+          "No outside guests without permission",
+          "No smoking indoors",
+          "Respect shared spaces",
+        ],
         location: {
           city: "florence",
           country: "undefined",
@@ -229,9 +310,10 @@ export const florenceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 26,
-        quote: "Staying with me means experiencing florence like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing florence like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

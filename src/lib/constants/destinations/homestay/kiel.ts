@@ -5,14 +5,25 @@ export const kielHomestays: Homestay[] = [
     hosts: [
       {
         name: "Elijah Silva",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Senior-friendly accommodations", "Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Senior-friendly accommodations",
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "No outside guests without permission", "Recycle according to local guidelines", "Lock the door when leaving the house"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No outside guests without permission",
+          "Recycle according to local guidelines",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -28,19 +39,29 @@ export const kielHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.6,
         reviewCount: 53,
-        quote: "I've lived in kiel all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in kiel all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "language-immersion",
       },
       {
         name: "Mia Morales",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "No parties or events", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Great for couples",
+          "No parties or events",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "No outside guests without permission", "Recycle according to local guidelines"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No outside guests without permission",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -56,7 +77,8 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 54,
-        quote: "I've lived in kiel all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in kiel all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "self-catering",
       },
       {
@@ -66,9 +88,19 @@ export const kielHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "No parties or events", "Perfect for long-term stays", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "No parties or events",
+          "Perfect for long-term stays",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "No pets allowed", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -84,10 +116,11 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 36,
-        quote: "Staying with me means experiencing kiel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing kiel like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -100,7 +133,13 @@ export const kielHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Great for couples", "Senior-friendly accommodations"],
         hostingStyle: "hands-on",
-        houseRules: ["Remove shoes when entering the home", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM", "Lock the door when leaving the house"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -116,7 +155,8 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 54,
-        quote: "Welcome to my kiel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my kiel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -128,7 +168,11 @@ export const kielHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Children welcome", "No parties or events"],
         hostingStyle: "private",
-        houseRules: ["Please clean up after yourself in common areas", "No outside guests without permission", "Recycle according to local guidelines"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No outside guests without permission",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -143,23 +187,34 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 29,
-        quote: "Welcome to my kiel home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my kiel home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Harper Jansen",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Suitable for business travelers"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "Please conserve water and electricity", "No pets allowed", "No loud music after 9 PM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+          "No pets allowed",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -174,7 +229,8 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 8,
-        quote: "Life in kiel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in kiel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
       },
       {
@@ -186,7 +242,11 @@ export const kielHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Great for couples", "Family-friendly environment"],
         hostingStyle: "social",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "kiel",
           country: "undefined",
@@ -201,9 +261,10 @@ export const kielHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 58,
-        quote: "Life in kiel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in kiel has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -10,9 +10,19 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Senior-friendly accommodations", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Children welcome",
+          "Senior-friendly accommodations",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Pets welcome", "No outside guests without permission", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM", "Respect shared spaces"],
+        houseRules: [
+          "Pets welcome",
+          "No outside guests without permission",
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -27,7 +37,8 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 53,
-        quote: "Life in amsterdam has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in amsterdam has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "private-room-in-home",
       },
       {
@@ -37,9 +48,17 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Pets welcome", "Recycle according to local guidelines"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -54,7 +73,8 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 5,
-        quote: "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -64,9 +84,17 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for business travelers"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Laundry available on weekends only", "Respect shared spaces", "Quiet hours after 10 PM", "No smoking indoors"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Respect shared spaces",
+          "Quiet hours after 10 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -82,10 +110,11 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 29,
-        quote: "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -96,9 +125,20 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Ideal for solo travelers", "Pet-friendly accommodation", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Ideal for solo travelers",
+          "Pet-friendly accommodation",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "Wi-Fi password will be provided upon arrival", "No loud music after 9 PM", "No smoking indoors"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "No loud music after 9 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -113,19 +153,30 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 83,
-        quote: "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "cottage-stay",
       },
       {
         name: "Diego Rodriguez",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Pets welcome", "No loud music after 9 PM", "Remove shoes when entering the home", "Please conserve water and electricity"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Pets welcome",
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -140,7 +191,8 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 67,
-        quote: "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "shared-room",
       },
       {
@@ -150,9 +202,18 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "No children under 12", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Great for couples",
+          "No children under 12",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "social",
-        houseRules: ["Kitchen closed after 8 PM", "No food in the bedrooms", "Please clean up after yourself in common areas", "Pets welcome"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No food in the bedrooms",
+          "Please clean up after yourself in common areas",
+          "Pets welcome",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -166,10 +227,11 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 22,
-        quote: "Life in amsterdam has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in amsterdam has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -180,9 +242,18 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for business travelers"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Remove shoes when entering the home", "No loud music after 9 PM", "No outside guests without permission", "Kitchen closed after 8 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+          "No outside guests without permission",
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -198,7 +269,8 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 89,
-        quote: "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "art-or-craft-stay",
       },
       {
@@ -208,9 +280,19 @@ export const amsterdamHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "LGBTQ+ friendly", "No children under 12", "No parties or events"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "LGBTQ+ friendly",
+          "No children under 12",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home", "No smoking indoors", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+          "No smoking indoors",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -225,7 +307,8 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 77,
-        quote: "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing amsterdam like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "academic-homestay",
       },
       {
@@ -237,7 +320,14 @@ export const amsterdamHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["LGBTQ+ friendly", "Family-friendly environment"],
         hostingStyle: "hands-on",
-        houseRules: ["Remove shoes when entering the home", "Respect shared spaces", "Pets welcome", "Kitchen closed after 8 PM", "Please conserve water and electricity", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Respect shared spaces",
+          "Pets welcome",
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -252,23 +342,36 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 68,
-        quote: "My home is your home in amsterdam. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in amsterdam. I look forward to making your stay memorable and authentic.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Mia Jackson",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Smoking allowed in designated areas only", "Suitable for business travelers"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "Quiet hours after 10 PM", "Lock the door when leaving the house", "Pets welcome"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -284,23 +387,36 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 96,
-        quote: "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my amsterdam home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "private-room-in-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Noah Singh",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Children welcome", "Great for couples", "No children under 12"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Children welcome",
+          "Great for couples",
+          "No children under 12",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Kitchen closed after 8 PM", "Notify host if you'll be arriving after 10 PM", "Pets welcome", "No pets allowed", "Lock the door when leaving the house"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Notify host if you'll be arriving after 10 PM",
+          "Pets welcome",
+          "No pets allowed",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "amsterdam",
           country: "undefined",
@@ -316,9 +432,10 @@ export const amsterdamHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 104,
-        quote: "I've lived in amsterdam all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in amsterdam all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "culinary-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

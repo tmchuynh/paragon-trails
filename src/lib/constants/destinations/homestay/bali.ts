@@ -10,9 +10,18 @@ export const baliHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["LGBTQ+ friendly", "Ideal for solo travelers", "Children welcome"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Ideal for solo travelers",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No pets allowed", "Kitchen closed after 8 PM", "Pets welcome"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Kitchen closed after 8 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -27,7 +36,8 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 89,
-        quote: "I've lived in bali all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in bali all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "cottage-stay",
       },
       {
@@ -37,9 +47,20 @@ export const baliHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Perfect for long-term stays", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Perfect for long-term stays",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "No pets allowed", "No outside guests without permission", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -54,23 +75,34 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 94,
-        quote: "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Maria Anderson",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for business travelers", "Accessible for guests with mobility issues", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Suitable for business travelers",
+          "Accessible for guests with mobility issues",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "social",
-        houseRules: ["Recycle according to local guidelines", "Respect shared spaces", "Remove shoes when entering the home"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -86,23 +118,34 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 73,
-        quote: "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Hiroshi da Costa",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)", "Suitable for digital nomads", "Children welcome"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+          "Suitable for digital nomads",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Kitchen closed after 8 PM", "No pets allowed"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Kitchen closed after 8 PM",
+          "No pets allowed",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -117,10 +160,11 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 66,
-        quote: "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -131,9 +175,19 @@ export const baliHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for business travelers", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for business travelers",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No outside guests without permission", "Please conserve water and electricity", "Quiet hours after 10 PM", "Respect shared spaces", "No pets allowed"],
+        houseRules: [
+          "No outside guests without permission",
+          "Please conserve water and electricity",
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+          "No pets allowed",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -148,7 +202,8 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 28,
-        quote: "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
       },
       {
@@ -158,9 +213,18 @@ export const baliHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Suitable for business travelers", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Great for couples",
+          "Suitable for business travelers",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No smoking indoors", "Recycle according to local guidelines", "Lock the door when leaving the house", "Respect shared spaces"],
+        houseRules: [
+          "No smoking indoors",
+          "Recycle according to local guidelines",
+          "Lock the door when leaving the house",
+          "Respect shared spaces",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -175,7 +239,8 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 67,
-        quote: "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "art-or-craft-stay",
       },
       {
@@ -185,9 +250,20 @@ export const baliHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Suitable for digital nomads", "Senior-friendly accommodations", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+          "Senior-friendly accommodations",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Laundry available on weekends only", "Remove shoes when entering the home"],
+        houseRules: [
+          "No smoking indoors",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -203,23 +279,37 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 66,
-        quote: "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing bali like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Charlotte Smith",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only", "Great for couples", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Smoking allowed in designated areas only",
+          "Great for couples",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["No outside guests without permission", "No pets allowed", "Pets welcome", "Respect shared spaces", "No smoking indoors", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "No outside guests without permission",
+          "No pets allowed",
+          "Pets welcome",
+          "Respect shared spaces",
+          "No smoking indoors",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "bali",
           country: "undefined",
@@ -233,9 +323,10 @@ export const baliHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 78,
-        quote: "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bali has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

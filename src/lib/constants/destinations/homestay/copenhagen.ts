@@ -5,14 +5,25 @@ export const copenhagenHomestays: Homestay[] = [
     hosts: [
       {
         name: "Olivia da Costa",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Senior-friendly accommodations", "Suitable for business travelers"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "No pets allowed", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "Please conserve water and electricity"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No pets allowed",
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -27,23 +38,34 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 92,
-        quote: "I've lived in copenhagen all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in copenhagen all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "urban-apartment-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Hiroshi Patel",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "Smoking allowed in designated areas only", "No parties or events", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+          "No parties or events",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Remove shoes when entering the home", "No outside guests without permission", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -59,7 +81,8 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 38,
-        quote: "Staying with me means experiencing copenhagen like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing copenhagen like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
       },
       {
@@ -69,9 +92,19 @@ export const copenhagenHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Family-friendly environment", "Ideal for solo travelers", "No parties or events"],
+        guestPolicy: [
+          "Children welcome",
+          "Family-friendly environment",
+          "Ideal for solo travelers",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Pets welcome"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -85,19 +118,29 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 30,
-        quote: "Welcome to my copenhagen home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my copenhagen home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "entire-home",
       },
       {
         name: "Evelyn Rossi",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Perfect for long-term stays", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Great for couples",
+          "Perfect for long-term stays",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Quiet hours after 10 PM", "No smoking indoors"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Quiet hours after 10 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -112,10 +155,11 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 13,
-        quote: "Life in copenhagen has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in copenhagen has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -126,9 +170,17 @@ export const copenhagenHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Kitchen closed after 8 PM", "Please conserve water and electricity", "Lock the door when leaving the house", "Recycle according to local guidelines"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -142,7 +194,8 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 24,
-        quote: "Welcome to my copenhagen home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my copenhagen home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "guest-suite",
       },
       {
@@ -152,9 +205,20 @@ export const copenhagenHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "LGBTQ+ friendly", "Family-friendly environment", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "LGBTQ+ friendly",
+          "Family-friendly environment",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Kitchen closed after 8 PM", "Remove shoes when entering the home", "Please conserve water and electricity", "Respect shared spaces"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "Respect shared spaces",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -170,7 +234,8 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 5,
-        quote: "I've lived in copenhagen all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in copenhagen all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "volunteer-stay",
       },
       {
@@ -180,9 +245,19 @@ export const copenhagenHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Senior-friendly accommodations", "Suitable for business travelers", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Laundry available on weekends only"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -197,10 +272,11 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 55,
-        quote: "Staying with me means experiencing copenhagen like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing copenhagen like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -213,7 +289,13 @@ export const copenhagenHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Children welcome", "No parties or events"],
         hostingStyle: "laid-back",
-        houseRules: ["Please clean up after yourself in common areas", "Remove shoes when entering the home", "Respect shared spaces", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+          "Respect shared spaces",
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -228,10 +310,11 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 54,
-        quote: "Life in copenhagen has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in copenhagen has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -242,9 +325,20 @@ export const copenhagenHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Ideal for solo travelers", "No children under 12"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Ideal for solo travelers",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Please conserve water and electricity", "Please clean up after yourself in common areas", "No pets allowed", "No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "No food in the bedrooms"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+          "No pets allowed",
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "copenhagen",
           country: "undefined",
@@ -259,9 +353,10 @@ export const copenhagenHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 22,
-        quote: "My home is your home in copenhagen. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in copenhagen. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

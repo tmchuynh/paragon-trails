@@ -10,9 +10,18 @@ export const vancouverHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Please clean up after yourself in common areas", "No pets allowed", "Breakfast is self-serve between 7-9 AM", "Lock the door when leaving the house", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No pets allowed",
+          "Breakfast is self-serve between 7-9 AM",
+          "Lock the door when leaving the house",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -28,7 +37,8 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 51,
-        quote: "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
@@ -40,7 +50,12 @@ export const vancouverHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["No parties or events", "Suitable for digital nomads"],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Respect shared spaces", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -55,10 +70,11 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 21,
-        quote: "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +85,18 @@ export const vancouverHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Senior-friendly accommodations", "Suitable for digital nomads", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Senior-friendly accommodations",
+          "Suitable for digital nomads",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "social",
-        houseRules: ["Respect shared spaces", "Kitchen closed after 8 PM", "Pets welcome"],
+        houseRules: [
+          "Respect shared spaces",
+          "Kitchen closed after 8 PM",
+          "Pets welcome",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -86,19 +111,30 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.9,
         reviewCount: 30,
-        quote: "I've lived in vancouver all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in vancouver all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "culinary-homestay",
       },
       {
         name: "Priya Anderson",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Pet-friendly accommodation", "Suitable for business travelers", "Children welcome"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["No food in the bedrooms", "Please conserve water and electricity", "No smoking indoors", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Please conserve water and electricity",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -113,10 +149,11 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 25,
-        quote: "Life in vancouver has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in vancouver has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "private-room-in-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -127,9 +164,18 @@ export const vancouverHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "private",
-        houseRules: ["Respect shared spaces", "Recycle according to local guidelines", "No smoking indoors", "No food in the bedrooms", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "No smoking indoors",
+          "No food in the bedrooms",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -143,7 +189,8 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 83,
-        quote: "Staying with me means experiencing vancouver like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing vancouver like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "private-room-in-home",
       },
       {
@@ -153,9 +200,17 @@ export const vancouverHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Suitable for digital nomads", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Children welcome",
+          "Suitable for digital nomads",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Breakfast is self-serve between 7-9 AM", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No smoking indoors",
+          "Breakfast is self-serve between 7-9 AM",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -170,23 +225,34 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 21,
-        quote: "Life in vancouver has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in vancouver has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Juan Williams",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Suitable for digital nomads", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Children welcome",
+          "Suitable for digital nomads",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "private",
-        houseRules: ["Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Lock the door when leaving the house"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -201,7 +267,8 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 101,
-        quote: "My home is your home in vancouver. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in vancouver. I look forward to making your stay memorable and authentic.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -211,9 +278,18 @@ export const vancouverHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Senior-friendly accommodations", "Children welcome"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Senior-friendly accommodations",
+          "Children welcome",
+        ],
         hostingStyle: "social",
-        houseRules: ["Pets welcome", "Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Laundry available on weekends only"],
+        houseRules: [
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -228,7 +304,8 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 64,
-        quote: "I've lived in vancouver all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in vancouver all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "volunteer-stay",
       },
       {
@@ -240,7 +317,13 @@ export const vancouverHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Pet-friendly accommodation", "Great for couples"],
         hostingStyle: "family-oriented",
-        houseRules: ["Pets welcome", "Respect shared spaces", "Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM"],
+        houseRules: [
+          "Pets welcome",
+          "Respect shared spaces",
+          "Recycle according to local guidelines",
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "vancouver",
           country: "undefined",
@@ -255,9 +338,10 @@ export const vancouverHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 37,
-        quote: "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my vancouver home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "language-immersion",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

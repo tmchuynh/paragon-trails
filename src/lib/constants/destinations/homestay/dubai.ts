@@ -10,9 +10,20 @@ export const dubaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "No children under 12", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Great for couples",
+          "No children under 12",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No food in the bedrooms", "No loud music after 9 PM", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "No pets allowed", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No loud music after 9 PM",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "No pets allowed",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "dubai",
           country: "undefined",
@@ -28,10 +39,11 @@ export const dubaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 21,
-        quote: "My home is your home in dubai. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in dubai. I look forward to making your stay memorable and authentic.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -42,9 +54,19 @@ export const dubaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "No children under 12",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "No food in the bedrooms", "Please clean up after yourself in common areas", "Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM", "Lock the door when leaving the house"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No food in the bedrooms",
+          "Please clean up after yourself in common areas",
+          "Quiet hours after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "dubai",
           country: "undefined",
@@ -59,19 +81,29 @@ export const dubaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 104,
-        quote: "I've lived in dubai all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in dubai all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "shared-room",
       },
       {
         name: "Juan Khan",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Accessible for guests with mobility issues", "Family-friendly environment"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Accessible for guests with mobility issues",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Lock the door when leaving the house", "Laundry available on weekends only"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "dubai",
           country: "undefined",
@@ -87,7 +119,8 @@ export const dubaiHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.7,
         reviewCount: 104,
-        quote: "Life in dubai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dubai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
       },
       {
@@ -99,7 +132,11 @@ export const dubaiHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Great for couples", "No children under 12"],
         hostingStyle: "family-oriented",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "No smoking indoors", "Laundry available on weekends only"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "No smoking indoors",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "dubai",
           country: "undefined",
@@ -114,10 +151,11 @@ export const dubaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 101,
-        quote: "Welcome to my dubai home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my dubai home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -128,9 +166,20 @@ export const dubaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Accessible for guests with mobility issues", "Children welcome"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Accessible for guests with mobility issues",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["Respect shared spaces", "Pets welcome", "No loud music after 9 PM", "Kitchen closed after 8 PM", "Remove shoes when entering the home", "No food in the bedrooms"],
+        houseRules: [
+          "Respect shared spaces",
+          "Pets welcome",
+          "No loud music after 9 PM",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "dubai",
           country: "undefined",
@@ -145,9 +194,10 @@ export const dubaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 30,
-        quote: "Life in dubai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in dubai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

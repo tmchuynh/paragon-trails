@@ -5,14 +5,27 @@ export const berlinHomestays: Homestay[] = [
     hosts: [
       {
         name: "Layla Garcia",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Children welcome", "Suitable for digital nomads", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Children welcome",
+          "Suitable for digital nomads",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["No outside guests without permission", "Lock the door when leaving the house", "No loud music after 9 PM", "Remove shoes when entering the home", "Breakfast is self-serve between 7-9 AM", "No pets allowed"],
+        houseRules: [
+          "No outside guests without permission",
+          "Lock the door when leaving the house",
+          "No loud music after 9 PM",
+          "Remove shoes when entering the home",
+          "Breakfast is self-serve between 7-9 AM",
+          "No pets allowed",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -27,7 +40,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 87,
-        quote: "My home is your home in berlin. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in berlin. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
       },
       {
@@ -37,9 +51,21 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Perfect for long-term stays", "LGBTQ+ friendly", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Perfect for long-term stays",
+          "LGBTQ+ friendly",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Please clean up after yourself in common areas", "No loud music after 9 PM", "Recycle according to local guidelines", "No smoking indoors", "Lock the door when leaving the house", "No pets allowed"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No loud music after 9 PM",
+          "Recycle according to local guidelines",
+          "No smoking indoors",
+          "Lock the door when leaving the house",
+          "No pets allowed",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -54,7 +80,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 78,
-        quote: "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
       },
       {
@@ -64,9 +91,18 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "Pet-friendly accommodation", "Ideal for solo travelers", "No parties or events"],
+        guestPolicy: [
+          "Children welcome",
+          "Pet-friendly accommodation",
+          "Ideal for solo travelers",
+          "No parties or events",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Respect shared spaces", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Respect shared spaces",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -81,10 +117,11 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 79,
-        quote: "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "eco-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -95,9 +132,20 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["No parties or events", "Pet-friendly accommodation", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "No parties or events",
+          "Pet-friendly accommodation",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Respect shared spaces", "Please conserve water and electricity", "Quiet hours after 10 PM", "Please clean up after yourself in common areas", "No food in the bedrooms", "Recycle according to local guidelines"],
+        houseRules: [
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+          "Quiet hours after 10 PM",
+          "Please clean up after yourself in common areas",
+          "No food in the bedrooms",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -111,7 +159,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 46,
-        quote: "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "farm-stay",
       },
       {
@@ -123,7 +172,11 @@ export const berlinHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["LGBTQ+ friendly", "Senior-friendly accommodations"],
         hostingStyle: "private",
-        houseRules: ["No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -138,23 +191,34 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 12,
-        quote: "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Elena Wilson",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Pet-friendly accommodation", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "private",
-        houseRules: ["Respect shared spaces", "Please clean up after yourself in common areas", "Remove shoes when entering the home", "Laundry available on weekends only"],
+        houseRules: [
+          "Respect shared spaces",
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -169,19 +233,30 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 65,
-        quote: "Staying with me means experiencing berlin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing berlin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "traditional-homestay",
       },
       {
         name: "Lucas Smith",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Children welcome", "Suitable for business travelers"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Children welcome",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "No outside guests without permission", "Wi-Fi password will be provided upon arrival", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+          "Wi-Fi password will be provided upon arrival",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -196,10 +271,11 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 8,
-        quote: "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in berlin all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -212,7 +288,12 @@ export const berlinHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Suitable for digital nomads", "Great for couples"],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Pets welcome", "Recycle according to local guidelines", "Laundry available on weekends only"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -227,7 +308,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 75,
-        quote: "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -237,9 +319,18 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Children welcome", "Family-friendly environment"],
+        guestPolicy: [
+          "No children under 12",
+          "Children welcome",
+          "Family-friendly environment",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home", "No outside guests without permission", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+          "No outside guests without permission",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -255,10 +346,11 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 13,
-        quote: "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -269,9 +361,18 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["No children under 12", "Suitable for business travelers"],
+        guestPolicy: [
+          "No children under 12",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["No pets allowed", "No loud music after 9 PM", "Quiet hours after 10 PM", "Please conserve water and electricity", "No food in the bedrooms"],
+        houseRules: [
+          "No pets allowed",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -287,7 +388,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 96,
-        quote: "Welcome to my berlin home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my berlin home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
       },
       {
@@ -297,9 +399,20 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "No children under 12", "Great for couples", "Family-friendly environment"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "No children under 12",
+          "Great for couples",
+          "Family-friendly environment",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home", "Please conserve water and electricity", "No smoking indoors", "Pets welcome"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "No smoking indoors",
+          "Pets welcome",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -315,7 +428,8 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 48,
-        quote: "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in berlin has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -325,9 +439,17 @@ export const berlinHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Ideal for solo travelers", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Ideal for solo travelers",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "Kitchen closed after 8 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "No smoking indoors",
+          "Kitchen closed after 8 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "berlin",
           country: "undefined",
@@ -342,9 +464,10 @@ export const berlinHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 99,
-        quote: "Staying with me means experiencing berlin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing berlin like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "heritage-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

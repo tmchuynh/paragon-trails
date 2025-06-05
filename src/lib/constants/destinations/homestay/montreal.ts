@@ -10,9 +10,17 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Great for couples", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Great for couples",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["Quiet hours after 10 PM", "Remove shoes when entering the home", "Please conserve water and electricity", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -27,7 +35,8 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 21,
-        quote: "Life in montreal has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in montreal has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "volunteer-stay",
       },
       {
@@ -37,9 +46,19 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "social",
-        houseRules: ["Remove shoes when entering the home", "Pets welcome", "Recycle according to local guidelines", "No pets allowed", "Please conserve water and electricity", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "No pets allowed",
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -54,7 +73,8 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 92,
-        quote: "Welcome to my montreal home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my montreal home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "traditional-homestay",
       },
       {
@@ -64,9 +84,18 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Smoking allowed in designated areas only", "Suitable for business travelers"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Lock the door when leaving the house", "No outside guests without permission", "Remove shoes when entering the home", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "No outside guests without permission",
+          "Remove shoes when entering the home",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -82,23 +111,37 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 90,
-        quote: "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
         stayType: "guest-suite",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Emma Wang",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Ideal for solo travelers", "LGBTQ+ friendly", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Ideal for solo travelers",
+          "LGBTQ+ friendly",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "social",
-        houseRules: ["No loud music after 9 PM", "Kitchen closed after 8 PM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Pets welcome", "No pets allowed"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Kitchen closed after 8 PM",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Pets welcome",
+          "No pets allowed",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -112,7 +155,8 @@ export const montrealHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.5,
         reviewCount: 87,
-        quote: "Staying with me means experiencing montreal like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing montreal like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "traditional-homestay",
       },
       {
@@ -122,9 +166,18 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Great for couples"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Please clean up after yourself in common areas", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "No outside guests without permission", "No pets allowed"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "No outside guests without permission",
+          "No pets allowed",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -139,19 +192,30 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 95,
-        quote: "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
         stayType: "traditional-homestay",
       },
       {
         name: "Hiroshi Müller",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Children welcome", "No children under 12", "Family-friendly environment"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Children welcome",
+          "No children under 12",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "No smoking indoors"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+          "No smoking indoors",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -167,10 +231,11 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 82,
-        quote: "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in montreal. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -181,9 +246,19 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for business travelers", "No parties or events"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Suitable for business travelers",
+          "No parties or events",
+        ],
         hostingStyle: "social",
-        houseRules: ["No pets allowed", "No smoking indoors", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No pets allowed",
+          "No smoking indoors",
+          "Breakfast is self-serve between 7-9 AM",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -197,19 +272,25 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 59,
-        quote: "I've lived in montreal all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in montreal all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "art-or-craft-stay",
       },
       {
         name: "Priya Williams",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
         guestPolicy: ["Pet-friendly accommodation", "No parties or events"],
         hostingStyle: "social",
-        houseRules: ["No outside guests without permission", "No smoking indoors", "No food in the bedrooms"],
+        houseRules: [
+          "No outside guests without permission",
+          "No smoking indoors",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -225,7 +306,8 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 41,
-        quote: "I've lived in montreal all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in montreal all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "host-family-stay",
       },
       {
@@ -235,9 +317,19 @@ export const montrealHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Great for couples", "No parties or events", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Great for couples",
+          "No parties or events",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Lock the door when leaving the house", "Laundry available on weekends only", "No loud music after 9 PM", "Respect shared spaces"],
+        houseRules: [
+          "No smoking indoors",
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+          "No loud music after 9 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "montreal",
           country: "undefined",
@@ -253,9 +345,10 @@ export const montrealHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 87,
-        quote: "Welcome to my montreal home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my montreal home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "urban-apartment-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

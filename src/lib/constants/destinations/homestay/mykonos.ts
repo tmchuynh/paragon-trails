@@ -10,9 +10,21 @@ export const mykonosHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for business travelers", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Suitable for business travelers",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "Laundry available on weekends only", "Recycle according to local guidelines", "No food in the bedrooms", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+          "Recycle according to local guidelines",
+          "No food in the bedrooms",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -28,19 +40,32 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 6,
-        quote: "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "culinary-homestay",
       },
       {
         name: "Ravi Dubois",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Smoking allowed in designated areas only",
+          "Not suitable for infants (under 2 years)",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "Remove shoes when entering the home", "Please conserve water and electricity"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+          "Remove shoes when entering the home",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -56,10 +81,11 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 101,
-        quote: "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "eco-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -72,7 +98,11 @@ export const mykonosHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Perfect for long-term stays", "No parties or events"],
         hostingStyle: "private",
-        houseRules: ["Lock the door when leaving the house", "Respect shared spaces", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Respect shared spaces",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -87,23 +117,35 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 36,
-        quote: "Welcome to my mykonos home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my mykonos home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "language-immersion",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Noah Brown",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Children welcome", "No parties or events", "Family-friendly environment"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Children welcome",
+          "No parties or events",
+          "Family-friendly environment",
+        ],
         hostingStyle: "social",
-        houseRules: ["Kitchen closed after 8 PM", "Respect shared spaces", "Quiet hours after 10 PM", "No food in the bedrooms"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "Respect shared spaces",
+          "Quiet hours after 10 PM",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -118,23 +160,35 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 31,
-        quote: "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing mykonos like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Juan Anderson",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Family-friendly environment", "Suitable for business travelers"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Family-friendly environment",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Please conserve water and electricity", "Breakfast is self-serve between 7-9 AM", "Lock the door when leaving the house", "No outside guests without permission", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Breakfast is self-serve between 7-9 AM",
+          "Lock the door when leaving the house",
+          "No outside guests without permission",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -150,23 +204,32 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 16,
-        quote: "My home is your home in mykonos. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in mykonos. I look forward to making your stay memorable and authentic.",
         stayType: "self-catering",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Ahmed Morales",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
         guestPolicy: ["Suitable for digital nomads", "Great for couples"],
         hostingStyle: "laid-back",
-        houseRules: ["Please clean up after yourself in common areas", "No smoking indoors", "No outside guests without permission", "Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "No smoking indoors",
+          "No outside guests without permission",
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -181,7 +244,8 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 59,
-        quote: "My home is your home in mykonos. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in mykonos. I look forward to making your stay memorable and authentic.",
         stayType: "academic-homestay",
       },
       {
@@ -191,9 +255,17 @@ export const mykonosHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Suitable for digital nomads", "Children welcome"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Suitable for digital nomads",
+          "Children welcome",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Please clean up after yourself in common areas", "Wi-Fi password will be provided upon arrival", "Laundry available on weekends only"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Wi-Fi password will be provided upon arrival",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "mykonos",
           country: "undefined",
@@ -208,9 +280,10 @@ export const mykonosHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 13,
-        quote: "I've lived in mykonos all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in mykonos all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "self-catering",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -5,14 +5,25 @@ export const miamiHomestays: Homestay[] = [
     hosts: [
       {
         name: "Benjamin Williams",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Pet-friendly accommodation", "Children welcome"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Pet-friendly accommodation",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["Pets welcome", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Pets welcome",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "miami",
           country: "undefined",
@@ -28,10 +39,11 @@ export const miamiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 62,
-        quote: "My home is your home in miami. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in miami. I look forward to making your stay memorable and authentic.",
         stayType: "private-room-in-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -42,9 +54,19 @@ export const miamiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Senior-friendly accommodations", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Senior-friendly accommodations",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["No food in the bedrooms", "No loud music after 9 PM", "Pets welcome", "No outside guests without permission", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No food in the bedrooms",
+          "No loud music after 9 PM",
+          "Pets welcome",
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "miami",
           country: "undefined",
@@ -59,7 +81,8 @@ export const miamiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 89,
-        quote: "Staying with me means experiencing miami like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing miami like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "self-catering",
       },
       {
@@ -69,9 +92,18 @@ export const miamiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Children welcome", "Suitable for business travelers"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Children welcome",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "No smoking indoors", "Remove shoes when entering the home"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Recycle according to local guidelines",
+          "No smoking indoors",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "miami",
           country: "undefined",
@@ -85,9 +117,10 @@ export const miamiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 27,
-        quote: "Staying with me means experiencing miami like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing miami like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "farm-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

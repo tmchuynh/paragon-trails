@@ -10,9 +10,19 @@ export const shanghaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No smoking indoors", "Kitchen closed after 8 PM", "Quiet hours after 10 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No smoking indoors",
+          "Kitchen closed after 8 PM",
+          "Quiet hours after 10 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -26,7 +36,8 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 79,
-        quote: "My home is your home in shanghai. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in shanghai. I look forward to making your stay memorable and authentic.",
         stayType: "eco-stay",
       },
       {
@@ -36,9 +47,18 @@ export const shanghaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Suitable for digital nomads", "Children welcome", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "No parties or events",
+          "Suitable for digital nomads",
+          "Children welcome",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Remove shoes when entering the home", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No smoking indoors",
+          "Remove shoes when entering the home",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -52,19 +72,31 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 95,
-        quote: "My home is your home in shanghai. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in shanghai. I look forward to making your stay memorable and authentic.",
         stayType: "cottage-stay",
       },
       {
         name: "Ibrahim Thomas",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No parties or events", "Not suitable for infants (under 2 years)", "Children welcome", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "No parties or events",
+          "Not suitable for infants (under 2 years)",
+          "Children welcome",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Respect shared spaces", "Notify host if you'll be arriving after 10 PM", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Respect shared spaces",
+          "Notify host if you'll be arriving after 10 PM",
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -79,10 +111,11 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 52,
-        quote: "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "heritage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -93,9 +126,17 @@ export const shanghaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No loud music after 9 PM", "Please clean up after yourself in common areas", "Laundry available on weekends only", "No smoking indoors"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -110,7 +151,8 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 88,
-        quote: "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
       },
       {
@@ -120,9 +162,17 @@ export const shanghaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Family-friendly environment"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Family-friendly environment",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Please conserve water and electricity", "Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "Laundry available on weekends only"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Please clean up after yourself in common areas",
+          "Kitchen closed after 8 PM",
+          "Laundry available on weekends only",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -137,7 +187,8 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 48,
-        quote: "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing shanghai like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "eco-stay",
       },
       {
@@ -147,9 +198,19 @@ export const shanghaiHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "No parties or events", "Suitable for business travelers"],
+        guestPolicy: [
+          "Great for couples",
+          "No parties or events",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Pets welcome", "Notify host if you'll be arriving after 10 PM", "Please conserve water and electricity", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Pets welcome",
+          "Notify host if you'll be arriving after 10 PM",
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "shanghai",
           country: "undefined",
@@ -164,9 +225,10 @@ export const shanghaiHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 40,
-        quote: "Life in shanghai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in shanghai has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "pet-friendly-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

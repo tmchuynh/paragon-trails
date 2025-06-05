@@ -10,9 +10,19 @@ export const santiagoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Children welcome", "No parties or events", "Accessible for guests with mobility issues"],
+        guestPolicy: [
+          "Children welcome",
+          "No parties or events",
+          "Accessible for guests with mobility issues",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "No loud music after 9 PM", "Quiet hours after 10 PM", "Recycle according to local guidelines", "No pets allowed"],
+        houseRules: [
+          "No smoking indoors",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+          "No pets allowed",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -28,19 +38,29 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 93,
-        quote: "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "heritage-stay",
       },
       {
         name: "Emma Jones",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "LGBTQ+ friendly", "Children welcome"],
+        guestPolicy: [
+          "No children under 12",
+          "LGBTQ+ friendly",
+          "Children welcome",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -56,7 +76,8 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 42,
-        quote: "Life in santiago has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in santiago has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "heritage-stay",
       },
       {
@@ -66,9 +87,19 @@ export const santiagoHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Suitable for business travelers", "Suitable for digital nomads", "No parties or events"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+          "Suitable for digital nomads",
+          "No parties or events",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "No pets allowed", "Remove shoes when entering the home", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "Remove shoes when entering the home",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -83,23 +114,32 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 6,
-        quote: "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "art-or-craft-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Sofia Silva",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
         guestPolicy: ["Suitable for digital nomads", "Children welcome"],
         hostingStyle: "family-oriented",
-        houseRules: ["No smoking indoors", "Respect shared spaces", "No outside guests without permission", "No pets allowed", "Pets welcome", "No food in the bedrooms"],
+        houseRules: [
+          "No smoking indoors",
+          "Respect shared spaces",
+          "No outside guests without permission",
+          "No pets allowed",
+          "Pets welcome",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -115,7 +155,8 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 13,
-        quote: "Staying with me means experiencing santiago like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing santiago like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "traditional-homestay",
       },
       {
@@ -127,7 +168,14 @@ export const santiagoHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Perfect for long-term stays", "Children welcome"],
         hostingStyle: "family-oriented",
-        houseRules: ["Respect shared spaces", "Remove shoes when entering the home", "No smoking indoors", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Recycle according to local guidelines"],
+        houseRules: [
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+          "No smoking indoors",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -142,23 +190,34 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 37,
-        quote: "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my santiago home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "eco-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Diego Chen",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Not suitable for infants (under 2 years)", "No children under 12", "Family-friendly environment"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Not suitable for infants (under 2 years)",
+          "No children under 12",
+          "Family-friendly environment",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No outside guests without permission", "Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Recycle according to local guidelines",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "santiago",
           country: "undefined",
@@ -173,9 +232,10 @@ export const santiagoHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 70,
-        quote: "My home is your home in santiago. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in santiago. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

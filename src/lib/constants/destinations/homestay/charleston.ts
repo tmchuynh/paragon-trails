@@ -5,14 +5,25 @@ export const charlestonHomestays: Homestay[] = [
     hosts: [
       {
         name: "Oliver Nakamura",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM", "Quiet hours after 10 PM", "Respect shared spaces", "Please conserve water and electricity", "Lock the door when leaving the house"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No loud music after 9 PM",
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+          "Please conserve water and electricity",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -28,7 +39,8 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 78,
-        quote: "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "bed-and-breakfast",
       },
       {
@@ -38,9 +50,17 @@ export const charlestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Pets welcome", "Respect shared spaces", "No food in the bedrooms"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Pets welcome",
+          "Respect shared spaces",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -56,19 +76,32 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 11,
-        quote: "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "heritage-stay",
       },
       {
         name: "Maria Johnson",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "Pet-friendly accommodation", "Family-friendly environment", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Pet-friendly accommodation",
+          "Family-friendly environment",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Recycle according to local guidelines", "No food in the bedrooms", "Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home", "No loud music after 9 PM"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "No food in the bedrooms",
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -84,23 +117,34 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 7,
-        quote: "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "academic-homestay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "James Rodriguez",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Pet-friendly accommodation", "Suitable for business travelers"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "Lock the door when leaving the house", "Remove shoes when entering the home"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+          "Lock the door when leaving the house",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -114,7 +158,8 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.5,
         reviewCount: 99,
-        quote: "Life in charleston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in charleston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "traditional-homestay",
       },
       {
@@ -126,7 +171,12 @@ export const charlestonHomestays: Homestay[] = [
         isPopular: true,
         guestPolicy: ["Children welcome", "Ideal for solo travelers"],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Remove shoes when entering the home", "Pets welcome", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -142,7 +192,8 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 35,
-        quote: "Welcome to my charleston home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my charleston home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "heritage-stay",
       },
       {
@@ -152,9 +203,17 @@ export const charlestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["LGBTQ+ friendly", "Accessible for guests with mobility issues", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "LGBTQ+ friendly",
+          "Accessible for guests with mobility issues",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "private",
-        houseRules: ["Recycle according to local guidelines", "Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "Recycle according to local guidelines",
+          "Quiet hours after 10 PM",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -170,10 +229,11 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 92,
-        quote: "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in charleston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "spiritual-or-wellness-retreat",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -184,9 +244,19 @@ export const charlestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Family-friendly environment", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Great for couples",
+          "Family-friendly environment",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "Remove shoes when entering the home", "Pets welcome", "No loud music after 9 PM"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+          "Pets welcome",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -201,7 +271,8 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 72,
-        quote: "Staying with me means experiencing charleston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing charleston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "language-immersion",
       },
       {
@@ -211,9 +282,21 @@ export const charlestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Suitable for digital nomads", "Great for couples", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+          "Great for couples",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "Please clean up after yourself in common areas", "Lock the door when leaving the house", "No food in the bedrooms", "Pets welcome", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "Please clean up after yourself in common areas",
+          "Lock the door when leaving the house",
+          "No food in the bedrooms",
+          "Pets welcome",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "charleston",
           country: "undefined",
@@ -228,9 +311,10 @@ export const charlestonHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.5,
         reviewCount: 62,
-        quote: "Life in charleston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in charleston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "private-room-in-home",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

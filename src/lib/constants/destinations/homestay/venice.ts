@@ -12,7 +12,11 @@ export const veniceHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Pet-friendly accommodation", "Children welcome"],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "Quiet hours after 10 PM", "Recycle according to local guidelines"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Quiet hours after 10 PM",
+          "Recycle according to local guidelines",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -27,19 +31,30 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 5,
         reviewCount: 22,
-        quote: "My home is your home in venice. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in venice. I look forward to making your stay memorable and authentic.",
         stayType: "spiritual-or-wellness-retreat",
       },
       {
         name: "Liam Ibrahim",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Smoking allowed in designated areas only", "Perfect for long-term stays", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+          "Perfect for long-term stays",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "No smoking indoors", "Pets welcome"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No smoking indoors",
+          "Pets welcome",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -54,7 +69,8 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 74,
-        quote: "My home is your home in venice. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in venice. I look forward to making your stay memorable and authentic.",
         stayType: "eco-stay",
       },
       {
@@ -64,9 +80,19 @@ export const veniceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Senior-friendly accommodations", "Suitable for business travelers"],
+        guestPolicy: [
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Kitchen closed after 8 PM", "Recycle according to local guidelines", "Quiet hours after 10 PM", "No smoking indoors", "Respect shared spaces"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Kitchen closed after 8 PM",
+          "Recycle according to local guidelines",
+          "Quiet hours after 10 PM",
+          "No smoking indoors",
+          "Respect shared spaces",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -82,23 +108,35 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 54,
-        quote: "Life in venice has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in venice has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Alexander Dubois",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: true,
-        guestPolicy: ["Suitable for business travelers", "No parties or events", "Family-friendly environment"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "No parties or events",
+          "Family-friendly environment",
+        ],
         hostingStyle: "private",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "No smoking indoors", "Respect shared spaces", "Remove shoes when entering the home"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Breakfast is self-serve between 7-9 AM",
+          "No smoking indoors",
+          "Respect shared spaces",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -114,19 +152,30 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 64,
-        quote: "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "eco-stay",
       },
       {
         name: "Maria Silva",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["No parties or events", "Senior-friendly accommodations", "Suitable for business travelers", "Ideal for solo travelers"],
+        guestPolicy: [
+          "No parties or events",
+          "Senior-friendly accommodations",
+          "Suitable for business travelers",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Laundry available on weekends only", "No smoking indoors"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Laundry available on weekends only",
+          "No smoking indoors",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -141,7 +190,8 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 21,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -151,9 +201,20 @@ export const veniceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Accessible for guests with mobility issues", "Perfect for long-term stays", "No children under 12"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Laundry available on weekends only", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Recycle according to local guidelines",
+          "Wi-Fi password will be provided upon arrival",
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -169,10 +230,11 @@ export const veniceHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.9,
         reviewCount: 47,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -183,9 +245,16 @@ export const veniceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Accessible for guests with mobility issues", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Remove shoes when entering the home", "No food in the bedrooms"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Remove shoes when entering the home",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -200,7 +269,8 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 38,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "guest-suite",
       },
       {
@@ -212,7 +282,12 @@ export const veniceHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Children welcome", "LGBTQ+ friendly"],
         hostingStyle: "family-oriented",
-        houseRules: ["Remove shoes when entering the home", "Lock the door when leaving the house", "Please conserve water and electricity", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Remove shoes when entering the home",
+          "Lock the door when leaving the house",
+          "Please conserve water and electricity",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -228,7 +303,8 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 37,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "cottage-stay",
       },
       {
@@ -238,9 +314,21 @@ export const veniceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "Great for couples", "Pet-friendly accommodation", "Not suitable for infants (under 2 years)"],
+        guestPolicy: [
+          "Children welcome",
+          "Great for couples",
+          "Pet-friendly accommodation",
+          "Not suitable for infants (under 2 years)",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No outside guests without permission", "Pets welcome", "Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Pets welcome",
+          "Wi-Fi password will be provided upon arrival",
+          "Remove shoes when entering the home",
+          "Please clean up after yourself in common areas",
+          "Breakfast is self-serve between 7-9 AM",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -256,23 +344,33 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 75,
-        quote: "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "entire-home",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Amelia Gonzalez",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Perfect for long-term stays", "No parties or events", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "No parties or events",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "No smoking indoors", "No food in the bedrooms"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No smoking indoors",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -286,7 +384,8 @@ export const veniceHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 21,
-        quote: "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "academic-homestay",
       },
       {
@@ -296,9 +395,17 @@ export const veniceHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Family-friendly environment", "Pet-friendly accommodation", "No children under 12"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Pet-friendly accommodation",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["No loud music after 9 PM", "No pets allowed", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "No pets allowed",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "venice",
           country: "undefined",
@@ -314,9 +421,10 @@ export const veniceHomestays: Homestay[] = [
         isVerified: false,
         rating: 4.2,
         reviewCount: 50,
-        quote: "My home is your home in venice. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in venice. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -5,14 +5,23 @@ export const galvestonHomestays: Homestay[] = [
     hosts: [
       {
         name: "Sofia Thomas",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Great for couples", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Great for couples",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Lock the door when leaving the house", "Recycle according to local guidelines", "Please conserve water and electricity"],
+        houseRules: [
+          "Lock the door when leaving the house",
+          "Recycle according to local guidelines",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "galveston",
           country: "undefined",
@@ -27,7 +36,8 @@ export const galvestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 104,
-        quote: "Welcome to my galveston home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my galveston home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "culinary-homestay",
       },
       {
@@ -37,9 +47,19 @@ export const galvestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Ideal for solo travelers", "Great for couples"],
+        guestPolicy: [
+          "No children under 12",
+          "Ideal for solo travelers",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No pets allowed", "Wi-Fi password will be provided upon arrival", "Respect shared spaces", "Pets welcome", "Lock the door when leaving the house"],
+        houseRules: [
+          "No pets allowed",
+          "Wi-Fi password will be provided upon arrival",
+          "Respect shared spaces",
+          "Pets welcome",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "galveston",
           country: "undefined",
@@ -54,23 +74,34 @@ export const galvestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 65,
-        quote: "Staying with me means experiencing galveston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing galveston like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "volunteer-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Muhammad Kim",
-        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        background:
+          "Language teacher who enjoys helping visitors learn the local tongue",
         maxGuests: 4,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Family-friendly environment", "No parties or events"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Family-friendly environment",
+          "No parties or events",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "Laundry available on weekends only", "Pets welcome", "Please conserve water and electricity"],
+        houseRules: [
+          "No smoking indoors",
+          "Laundry available on weekends only",
+          "Pets welcome",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "galveston",
           country: "undefined",
@@ -85,10 +116,11 @@ export const galvestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 66,
-        quote: "My home is your home in galveston. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in galveston. I look forward to making your stay memorable and authentic.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -99,9 +131,18 @@ export const galvestonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "LGBTQ+ friendly", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "LGBTQ+ friendly",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Quiet hours after 10 PM", "No pets allowed", "Kitchen closed after 8 PM", "No smoking indoors"],
+        houseRules: [
+          "Quiet hours after 10 PM",
+          "No pets allowed",
+          "Kitchen closed after 8 PM",
+          "No smoking indoors",
+        ],
         location: {
           city: "galveston",
           country: "undefined",
@@ -116,19 +157,29 @@ export const galvestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 20,
-        quote: "Life in galveston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in galveston has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "art-or-craft-stay",
       },
       {
         name: "Sofia Wang",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "No parties or events", "Children welcome"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "No parties or events",
+          "Children welcome",
+        ],
         hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "No pets allowed"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "Please clean up after yourself in common areas",
+          "No pets allowed",
+        ],
         location: {
           city: "galveston",
           country: "undefined",
@@ -143,9 +194,10 @@ export const galvestonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 58,
-        quote: "I've lived in galveston all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in galveston all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "entire-home",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

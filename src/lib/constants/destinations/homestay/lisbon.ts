@@ -10,9 +10,20 @@ export const lisbonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: true,
-        guestPolicy: ["Perfect for long-term stays", "Suitable for digital nomads", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "private",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "No smoking indoors", "Lock the door when leaving the house", "Pets welcome", "Please clean up after yourself in common areas"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "No smoking indoors",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+          "Please clean up after yourself in common areas",
+        ],
         location: {
           city: "lisbon",
           country: "undefined",
@@ -28,7 +39,8 @@ export const lisbonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 68,
-        quote: "I've lived in lisbon all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in lisbon all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "art-or-craft-stay",
       },
       {
@@ -40,7 +52,12 @@ export const lisbonHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Children welcome", "LGBTQ+ friendly"],
         hostingStyle: "family-oriented",
-        houseRules: ["Please clean up after yourself in common areas", "Quiet hours after 10 PM", "Please conserve water and electricity", "No loud music after 9 PM"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Quiet hours after 10 PM",
+          "Please conserve water and electricity",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "lisbon",
           country: "undefined",
@@ -55,10 +72,11 @@ export const lisbonHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.8,
         reviewCount: 90,
-        quote: "Life in lisbon has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in lisbon has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "host-family-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +87,20 @@ export const lisbonHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Smoking allowed in designated areas only", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Smoking allowed in designated areas only",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Please conserve water and electricity", "No pets allowed", "Notify host if you'll be arriving after 10 PM", "Lock the door when leaving the house", "Pets welcome", "No food in the bedrooms"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "No pets allowed",
+          "Notify host if you'll be arriving after 10 PM",
+          "Lock the door when leaving the house",
+          "Pets welcome",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "lisbon",
           country: "undefined",
@@ -86,9 +115,10 @@ export const lisbonHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.7,
         reviewCount: 97,
-        quote: "Life in lisbon has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in lisbon has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "urban-apartment-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

@@ -10,9 +10,19 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Great for couples", "Pet-friendly accommodation", "Suitable for business travelers"],
+        guestPolicy: [
+          "Great for couples",
+          "Pet-friendly accommodation",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["No smoking indoors", "No food in the bedrooms", "Pets welcome", "Please clean up after yourself in common areas", "No outside guests without permission"],
+        houseRules: [
+          "No smoking indoors",
+          "No food in the bedrooms",
+          "Pets welcome",
+          "Please clean up after yourself in common areas",
+          "No outside guests without permission",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -27,19 +37,30 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 5,
-        quote: "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "cottage-stay",
       },
       {
         name: "Liam Dubois",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 2,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Not suitable for infants (under 2 years)", "Senior-friendly accommodations", "No children under 12"],
+        guestPolicy: [
+          "Not suitable for infants (under 2 years)",
+          "Senior-friendly accommodations",
+          "No children under 12",
+        ],
         hostingStyle: "social",
-        houseRules: ["Respect shared spaces", "Pets welcome", "Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM"],
+        houseRules: [
+          "Respect shared spaces",
+          "Pets welcome",
+          "Breakfast is self-serve between 7-9 AM",
+          "No loud music after 9 PM",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -54,7 +75,8 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.6,
         reviewCount: 38,
-        quote: "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "volunteer-stay",
       },
       {
@@ -64,9 +86,19 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays", "Senior-friendly accommodations", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Perfect for long-term stays",
+          "Senior-friendly accommodations",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "social",
-        houseRules: ["Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -81,10 +113,11 @@ export const athensHomestays: Homestay[] = [
         isVerified: false,
         rating: 3.9,
         reviewCount: 58,
-        quote: "Staying with me means experiencing athens like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing athens like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -97,7 +130,14 @@ export const athensHomestays: Homestay[] = [
         isPopular: false,
         guestPolicy: ["Great for couples", "LGBTQ+ friendly"],
         hostingStyle: "laid-back",
-        houseRules: ["No food in the bedrooms", "Lock the door when leaving the house", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM", "No pets allowed", "No outside guests without permission"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Lock the door when leaving the house",
+          "Laundry available on weekends only",
+          "Breakfast is self-serve between 7-9 AM",
+          "No pets allowed",
+          "No outside guests without permission",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -113,10 +153,11 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 5,
-        quote: "Staying with me means experiencing athens like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing athens like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "villa-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -127,9 +168,16 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Family-friendly environment", "Suitable for business travelers"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Suitable for business travelers",
+        ],
         hostingStyle: "social",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Please conserve water and electricity"],
+        houseRules: [
+          "Notify host if you'll be arriving after 10 PM",
+          "No food in the bedrooms",
+          "Please conserve water and electricity",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -144,10 +192,11 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 88,
-        quote: "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -158,9 +207,21 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["No children under 12", "Children welcome", "Ideal for solo travelers", "Suitable for digital nomads"],
+        guestPolicy: [
+          "No children under 12",
+          "Children welcome",
+          "Ideal for solo travelers",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Please conserve water and electricity", "Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Respect shared spaces", "No outside guests without permission"],
+        houseRules: [
+          "Please conserve water and electricity",
+          "Laundry available on weekends only",
+          "Wi-Fi password will be provided upon arrival",
+          "Quiet hours after 10 PM",
+          "Respect shared spaces",
+          "No outside guests without permission",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -175,7 +236,8 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.6,
         reviewCount: 16,
-        quote: "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "entire-home",
       },
       {
@@ -185,9 +247,18 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Great for couples", "Accessible for guests with mobility issues", "No parties or events", "LGBTQ+ friendly"],
+        guestPolicy: [
+          "Great for couples",
+          "Accessible for guests with mobility issues",
+          "No parties or events",
+          "LGBTQ+ friendly",
+        ],
         hostingStyle: "social",
-        houseRules: ["Please clean up after yourself in common areas", "Laundry available on weekends only", "No outside guests without permission"],
+        houseRules: [
+          "Please clean up after yourself in common areas",
+          "Laundry available on weekends only",
+          "No outside guests without permission",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -203,7 +274,8 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 43,
-        quote: "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in athens all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "culinary-homestay",
       },
       {
@@ -213,9 +285,18 @@ export const athensHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "14:00 AM",
         isPopular: true,
-        guestPolicy: ["No parties or events", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "No parties or events",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "private",
-        houseRules: ["Kitchen closed after 8 PM", "No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "No pets allowed"],
+        houseRules: [
+          "Kitchen closed after 8 PM",
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+          "Respect shared spaces",
+          "No pets allowed",
+        ],
         location: {
           city: "athens",
           country: "undefined",
@@ -231,9 +312,10 @@ export const athensHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.1,
         reviewCount: 6,
-        quote: "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in athens has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "bed-and-breakfast",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

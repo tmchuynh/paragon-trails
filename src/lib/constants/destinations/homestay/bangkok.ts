@@ -10,9 +10,17 @@ export const bangkokHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: true,
-        guestPolicy: ["Children welcome", "No parties or events", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Children welcome",
+          "No parties or events",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "laid-back",
-        houseRules: ["Breakfast is self-serve between 7-9 AM", "Kitchen closed after 8 PM", "Respect shared spaces"],
+        houseRules: [
+          "Breakfast is self-serve between 7-9 AM",
+          "Kitchen closed after 8 PM",
+          "Respect shared spaces",
+        ],
         location: {
           city: "bangkok",
           country: "undefined",
@@ -28,7 +36,8 @@ export const bangkokHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 78,
-        quote: "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "language-immersion",
       },
       {
@@ -38,9 +47,21 @@ export const bangkokHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["No children under 12", "Not suitable for infants (under 2 years)", "Accessible for guests with mobility issues", "Family-friendly environment"],
+        guestPolicy: [
+          "No children under 12",
+          "Not suitable for infants (under 2 years)",
+          "Accessible for guests with mobility issues",
+          "Family-friendly environment",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Laundry available on weekends only", "Lock the door when leaving the house", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "Laundry available on weekends only",
+          "Lock the door when leaving the house",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "No pets allowed",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "bangkok",
           country: "undefined",
@@ -56,23 +77,32 @@ export const bangkokHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.5,
         reviewCount: 22,
-        quote: "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "villa-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Oliver da Costa",
-        background: "Environmental activist working on local sustainability projects",
+        background:
+          "Environmental activist working on local sustainability projects",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "Senior-friendly accommodations"],
+        guestPolicy: [
+          "Accessible for guests with mobility issues",
+          "Senior-friendly accommodations",
+        ],
         hostingStyle: "private",
-        houseRules: ["No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "bangkok",
           country: "undefined",
@@ -87,9 +117,10 @@ export const bangkokHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 23,
-        quote: "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in bangkok has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "traditional-homestay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

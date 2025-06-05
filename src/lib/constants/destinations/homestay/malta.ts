@@ -5,14 +5,25 @@ export const maltaHomestays: Homestay[] = [
     hosts: [
       {
         name: "Boris Miller",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 3,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Ideal for solo travelers", "Pet-friendly accommodation", "Great for couples"],
+        guestPolicy: [
+          "Ideal for solo travelers",
+          "Pet-friendly accommodation",
+          "Great for couples",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["No food in the bedrooms", "Kitchen closed after 8 PM", "Quiet hours after 10 PM", "No outside guests without permission", "No pets allowed"],
+        houseRules: [
+          "No food in the bedrooms",
+          "Kitchen closed after 8 PM",
+          "Quiet hours after 10 PM",
+          "No outside guests without permission",
+          "No pets allowed",
+        ],
         location: {
           city: "malta",
           country: "undefined",
@@ -28,23 +39,35 @@ export const maltaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.4,
         reviewCount: 98,
-        quote: "Life in malta has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in malta has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "cottage-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "William Brown",
-        background: "Retired schoolteacher passionate about sharing local traditions",
+        background:
+          "Retired schoolteacher passionate about sharing local traditions",
         maxGuests: 6,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: false,
-        guestPolicy: ["Family-friendly environment", "Not suitable for infants (under 2 years)", "Perfect for long-term stays", "Suitable for digital nomads"],
+        guestPolicy: [
+          "Family-friendly environment",
+          "Not suitable for infants (under 2 years)",
+          "Perfect for long-term stays",
+          "Suitable for digital nomads",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "Laundry available on weekends only", "Quiet hours after 10 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+          "Laundry available on weekends only",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "malta",
           country: "undefined",
@@ -58,23 +81,29 @@ export const maltaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 30,
-        quote: "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "pet-friendly-stay",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
       {
         name: "Maria Müller",
-        background: "Digital nomad who settled in the city after falling in love with it",
+        background:
+          "Digital nomad who settled in the city after falling in love with it",
         maxGuests: 5,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "22:00 PM",
         isPopular: false,
         guestPolicy: ["Ideal for solo travelers", "Great for couples"],
         hostingStyle: "hands-on",
-        houseRules: ["No smoking indoors", "Respect shared spaces", "Lock the door when leaving the house"],
+        houseRules: [
+          "No smoking indoors",
+          "Respect shared spaces",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "malta",
           country: "undefined",
@@ -89,7 +118,8 @@ export const maltaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.7,
         reviewCount: 18,
-        quote: "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "bed-and-breakfast",
       },
       {
@@ -99,9 +129,19 @@ export const maltaHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "24:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Accessible for guests with mobility issues", "No children under 12", "Ideal for solo travelers"],
+        guestPolicy: [
+          "Smoking allowed in designated areas only",
+          "Accessible for guests with mobility issues",
+          "No children under 12",
+          "Ideal for solo travelers",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["Respect shared spaces", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM", "Lock the door when leaving the house"],
+        houseRules: [
+          "Respect shared spaces",
+          "Notify host if you'll be arriving after 10 PM",
+          "Quiet hours after 10 PM",
+          "Lock the door when leaving the house",
+        ],
         location: {
           city: "malta",
           country: "undefined",
@@ -117,9 +157,10 @@ export const maltaHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.3,
         reviewCount: 45,
-        quote: "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
+        quote:
+          "Welcome to my malta home! I believe in creating a warm, welcoming environment for all my guests.",
         stayType: "farm-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];

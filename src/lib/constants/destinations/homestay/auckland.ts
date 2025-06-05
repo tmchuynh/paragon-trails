@@ -5,14 +5,21 @@ export const aucklandHomestays: Homestay[] = [
     hosts: [
       {
         name: "Hiroshi Wang",
-        background: "Former tour guide with extensive knowledge of local history",
+        background:
+          "Former tour guide with extensive knowledge of local history",
         maxGuests: 1,
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
         guestPolicy: ["Children welcome", "Suitable for digital nomads"],
         hostingStyle: "laid-back",
-        houseRules: ["No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM"],
+        houseRules: [
+          "No outside guests without permission",
+          "Breakfast is self-serve between 7-9 AM",
+          "Please conserve water and electricity",
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+        ],
         location: {
           city: "auckland",
           country: "undefined",
@@ -28,7 +35,8 @@ export const aucklandHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.9,
         reviewCount: 100,
-        quote: "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "cottage-stay",
       },
       {
@@ -38,9 +46,20 @@ export const aucklandHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "15:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for digital nomads", "Suitable for business travelers", "Family-friendly environment"],
+        guestPolicy: [
+          "Suitable for digital nomads",
+          "Suitable for business travelers",
+          "Family-friendly environment",
+        ],
         hostingStyle: "family-oriented",
-        houseRules: ["No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "Pets welcome", "Recycle according to local guidelines", "Quiet hours after 10 PM"],
+        houseRules: [
+          "No loud music after 9 PM",
+          "Wi-Fi password will be provided upon arrival",
+          "Kitchen closed after 8 PM",
+          "Pets welcome",
+          "Recycle according to local guidelines",
+          "Quiet hours after 10 PM",
+        ],
         location: {
           city: "auckland",
           country: "undefined",
@@ -55,10 +74,11 @@ export const aucklandHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.9,
         reviewCount: 83,
-        quote: "I've lived in auckland all my life and know all the best spots. Can't wait to share my city with you!",
+        quote:
+          "I've lived in auckland all my life and know all the best spots. Can't wait to share my city with you!",
         stayType: "guest-suite",
-      }
-    ]
+      },
+    ],
   },
   {
     hosts: [
@@ -69,9 +89,19 @@ export const aucklandHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "13:00 AM",
         isPopular: false,
-        guestPolicy: ["Suitable for business travelers", "Great for couples", "Children welcome", "Perfect for long-term stays"],
+        guestPolicy: [
+          "Suitable for business travelers",
+          "Great for couples",
+          "Children welcome",
+          "Perfect for long-term stays",
+        ],
         hostingStyle: "social",
-        houseRules: ["No smoking indoors", "Breakfast is self-serve between 7-9 AM", "Please clean up after yourself in common areas", "No food in the bedrooms"],
+        houseRules: [
+          "No smoking indoors",
+          "Breakfast is self-serve between 7-9 AM",
+          "Please clean up after yourself in common areas",
+          "No food in the bedrooms",
+        ],
         location: {
           city: "auckland",
           country: "undefined",
@@ -86,7 +116,8 @@ export const aucklandHomestays: Homestay[] = [
         isVerified: true,
         rating: 4,
         reviewCount: 93,
-        quote: "Life in auckland has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        quote:
+          "Life in auckland has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -96,9 +127,18 @@ export const aucklandHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "23:00 PM",
         isPopular: true,
-        guestPolicy: ["No parties or events", "Children welcome", "Suitable for business travelers", "Pet-friendly accommodation"],
+        guestPolicy: [
+          "No parties or events",
+          "Children welcome",
+          "Suitable for business travelers",
+          "Pet-friendly accommodation",
+        ],
         hostingStyle: "hands-on",
-        houseRules: ["Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Notify host if you'll be arriving after 10 PM"],
+        houseRules: [
+          "Wi-Fi password will be provided upon arrival",
+          "Please conserve water and electricity",
+          "Notify host if you'll be arriving after 10 PM",
+        ],
         location: {
           city: "auckland",
           country: "undefined",
@@ -113,7 +153,8 @@ export const aucklandHomestays: Homestay[] = [
         isVerified: true,
         rating: 3.8,
         reviewCount: 78,
-        quote: "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        quote:
+          "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
         stayType: "urban-apartment-stay",
       },
       {
@@ -123,9 +164,18 @@ export const aucklandHomestays: Homestay[] = [
         languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
         curfew: "21:00 PM",
         isPopular: true,
-        guestPolicy: ["Pet-friendly accommodation", "Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        guestPolicy: [
+          "Pet-friendly accommodation",
+          "Suitable for digital nomads",
+          "Smoking allowed in designated areas only",
+        ],
         hostingStyle: "social",
-        houseRules: ["No pets allowed", "No food in the bedrooms", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival"],
+        houseRules: [
+          "No pets allowed",
+          "No food in the bedrooms",
+          "Breakfast is self-serve between 7-9 AM",
+          "Wi-Fi password will be provided upon arrival",
+        ],
         location: {
           city: "auckland",
           country: "undefined",
@@ -139,9 +189,10 @@ export const aucklandHomestays: Homestay[] = [
         isVerified: true,
         rating: 4.2,
         reviewCount: 56,
-        quote: "My home is your home in auckland. I look forward to making your stay memorable and authentic.",
+        quote:
+          "My home is your home in auckland. I look forward to making your stay memorable and authentic.",
         stayType: "host-family-stay",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];
