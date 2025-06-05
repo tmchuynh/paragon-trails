@@ -51,26 +51,26 @@ export default function RentAYachtPage() {
   // Find max values for numeric filters
   const maxLength = Math.max(
     ...yachtCharterFleet.flatMap((category) =>
-      category.vessels.map((yacht) => yacht.lengthFeet)
-    )
+      category.vessels.map((yacht) => yacht.lengthFeet),
+    ),
   );
 
   const maxCabins = Math.max(
     ...yachtCharterFleet.flatMap((category) =>
-      category.vessels.map((yacht) => yacht.cabins)
-    )
+      category.vessels.map((yacht) => yacht.cabins),
+    ),
   );
 
   const maxPassengers = Math.max(
     ...yachtCharterFleet.flatMap((category) =>
-      category.vessels.map((yacht) => yacht.maxPassengers)
-    )
+      category.vessels.map((yacht) => yacht.maxPassengers),
+    ),
   );
 
   const maxPrice = Math.max(
     ...yachtCharterFleet.flatMap((category) =>
-      category.vessels.map((yacht) => yacht.pricePerDayUSD)
-    )
+      category.vessels.map((yacht) => yacht.pricePerDayUSD),
+    ),
   );
 
   // Filter the yachts
@@ -110,7 +110,7 @@ export default function RentAYachtPage() {
         if (selectedAmenities.length > 0) {
           if (
             !selectedAmenities.every((amenity) =>
-              yacht.amenities.includes(amenity)
+              yacht.amenities.includes(amenity),
             )
           ) {
             return false;
@@ -125,7 +125,7 @@ export default function RentAYachtPage() {
 
           if (
             !selectedFeatures.every((feature) =>
-              yachtFeatures.includes(feature)
+              yachtFeatures.includes(feature),
             )
           ) {
             return false;
@@ -163,7 +163,7 @@ export default function RentAYachtPage() {
     setSelectedAmenities((prev) =>
       prev.includes(amenity)
         ? prev.filter((a) => a !== amenity)
-        : [...prev, amenity]
+        : [...prev, amenity],
     );
   };
 
@@ -171,7 +171,7 @@ export default function RentAYachtPage() {
     setSelectedFeatures((prev) =>
       prev.includes(feature)
         ? prev.filter((f) => f !== feature)
-        : [...prev, feature]
+        : [...prev, feature],
     );
   };
 
@@ -277,7 +277,7 @@ export default function RentAYachtPage() {
                           <SelectItem key={num} value={num.toString()}>
                             {num}+ Cabins
                           </SelectItem>
-                        )
+                        ),
                       )}
                     </SelectContent>
                   </Select>
@@ -349,7 +349,7 @@ export default function RentAYachtPage() {
                       <SelectItem value="any">Any</SelectItem>
                       {Array.from(
                         { length: Math.ceil(maxPassengers / 2) },
-                        (_, i) => (i + 1) * 2
+                        (_, i) => (i + 1) * 2,
                       )
                         .filter((num) => num <= maxPassengers)
                         .map((num) => (
@@ -410,7 +410,7 @@ export default function RentAYachtPage() {
                             {capitalize(
                               feature
                                 .replace(/([A-Z])/g, " $1")
-                                .replace(/([A-Z][a-z])/g, " $1")
+                                .replace(/([A-Z][a-z])/g, " $1"),
                             )}
                           </Label>
                         </div>
@@ -449,12 +449,12 @@ export default function RentAYachtPage() {
                   Showing{" "}
                   {filteredCategories.reduce(
                     (total, category) => total + category.vessels.length,
-                    0
+                    0,
                   )}{" "}
                   of{" "}
                   {yachtCharterFleet.reduce(
                     (total, category) => total + category.vessels.length,
-                    0
+                    0,
                   )}{" "}
                   yachts
                 </div>

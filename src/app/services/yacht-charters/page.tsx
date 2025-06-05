@@ -71,7 +71,7 @@ export default function YachtCharters() {
             <Button
               onClick={() =>
                 router.push(
-                  "/services/yacht-charters/captains-and-crew-members"
+                  "/services/yacht-charters/captains-and-crew-members",
                 )
               }
             >
@@ -160,7 +160,7 @@ export default function YachtCharters() {
                 <h3>{destination.location}</h3>
                 <p>{destination.description}</p>
               </div>
-            )
+            ),
           )}
         </div>
       </section>

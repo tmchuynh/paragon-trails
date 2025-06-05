@@ -1,8 +1,6 @@
 import { cities } from "@/lib/constants/info/city";
-import { homestayHeritageLocations } from "@/lib/constants/services/homestay/families";
 import { capitalize } from "@/lib/utils/format";
 import { findOriginalCityName } from "@/lib/utils/get";
-import { filterArrayByProperty } from "@/lib/utils/sort";
 
 export default async function HomestayLocationPage({
   params,
@@ -16,11 +14,11 @@ export default async function HomestayLocationPage({
   const originalCityName = findOriginalCityName(location);
   const displayName = originalCityName || capitalize(location);
 
-  const filteredLocations = filterArrayByProperty(
-    homestayHeritageLocations,
-    "city",
-    displayName
-  )[0];
+  // const filteredLocations = filterArrayByProperty(
+  //   homestayHeritageLocations,
+  //   "city",
+  //   displayName
+  // )[0];
 
   const cityInfo = cities.find((item) => item.city === displayName);
 
@@ -33,7 +31,7 @@ export default async function HomestayLocationPage({
       </header>
 
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-        {filteredLocations.hosts.map((host, index) => (
+        {/* {filteredLocations.hosts.map((host, index) => (
           <div
             key={`${host.name}-${index}`}
             className="shadow-md hover:shadow-lg border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
@@ -85,7 +83,7 @@ export default async function HomestayLocationPage({
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

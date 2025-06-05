@@ -42,7 +42,7 @@ export default function HomestayDestinations() {
           {homestaysAndHeritageStays.map((country) => (
             <Button
               key={`toc-${formatToSlug(country.country)}-${generateRandomString(
-                6
+                6,
               )}`}
               variant="outline"
               size="sm"
@@ -113,8 +113,8 @@ export default function HomestayDestinations() {
                     onClick={() => {
                       router.push(
                         `/services/homestays-and-heritage-stays/homestay-destinations/${formatToSlug(
-                          removeAccents(location.city)
-                        )}`
+                          removeAccents(location.city),
+                        )}`,
                       );
                     }}
                   >

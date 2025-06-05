@@ -1,8 +1,6 @@
 "use client";
 
-import { homestayHeritageLocations } from "@/lib/constants/services/homestay/families";
 import { useState } from "react";
-import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
 export default function TheParagonFamilies() {
   const [expandedLocation, setExpandedLocation] = useState<string | null>(null);
@@ -33,7 +31,7 @@ export default function TheParagonFamilies() {
       </header>
 
       <div className="space-y-8">
-        {homestayHeritageLocations.map((location) => (
+        {/* {homestayHeritageLocations.map((location) => (
           <div
             key={`${location.city}-${location.country}`}
             className="shadow-md hover:shadow-lg border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
@@ -135,7 +133,7 @@ export default function TheParagonFamilies() {
               </div>
             )}
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
