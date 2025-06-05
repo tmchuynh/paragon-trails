@@ -4,7 +4,7 @@ import InformationDisplayCard from "@/components/cards/InformationDisplayCard";
 export default function ServicesPage() {
   const getGroupedServicesLinks = () => {
     const servicesItem = navbarItems.find(
-      (item) => item.label === "Services" && item.dropdown
+      (item) => item.label === "Services" && item.dropdown,
     );
     return servicesItem
       ? [
@@ -49,7 +49,7 @@ export default function ServicesPage() {
             .filter(
               (item) =>
                 item.label === "Destinations" ||
-                (item.label === "Tours" && item.dropdown)
+                (item.label === "Tours" && item.dropdown),
             )
             .map((link, index) => (
               <InformationDisplayCard

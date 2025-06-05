@@ -121,7 +121,7 @@ export default function HomestayPage() {
           <Button
             onClick={() =>
               router.push(
-                "/services/homestays-and-heritage-stays/homestay-destinations"
+                "/services/homestays-and-heritage-stays/homestay-destinations",
               )
             }
           >
@@ -131,7 +131,7 @@ export default function HomestayPage() {
           <Button
             onClick={() =>
               router.push(
-                "/services/homestays-and-heritage-stays/homestay-destinations/the-paragon-families"
+                "/services/homestays-and-heritage-stays/homestay-destinations/the-paragon-families",
               )
             }
           >
@@ -367,7 +367,7 @@ export default function HomestayPage() {
         <Button
           onClick={() =>
             router.push(
-              "/services/homestays-and-heritage-stays/homestay-destinations"
+              "/services/homestays-and-heritage-stays/homestay-destinations",
             )
           }
         >

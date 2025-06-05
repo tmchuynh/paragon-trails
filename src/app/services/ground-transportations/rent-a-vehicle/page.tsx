@@ -41,7 +41,7 @@ export default function RentAVehicle() {
         .forEach(([key, _]) => allFeatures.add(key));
 
       vehicle.interiorFeatures.forEach((feature) =>
-        allInteriorFeatures.add(feature)
+        allInteriorFeatures.add(feature),
       );
 
       allSoundSystems.add(vehicle.soundSystem);
@@ -51,14 +51,14 @@ export default function RentAVehicle() {
   // Find max price and max passengers
   const maxPrice = Math.max(
     ...vehicleSelectionGuide.flatMap((category) =>
-      category.models.map((vehicle) => vehicle.pricePerDayUSD)
-    )
+      category.models.map((vehicle) => vehicle.pricePerDayUSD),
+    ),
   );
 
   const maxPassengers = Math.max(
     ...vehicleSelectionGuide.flatMap((category) =>
-      category.models.map((vehicle) => vehicle.maxPassengers)
-    )
+      category.models.map((vehicle) => vehicle.maxPassengers),
+    ),
   );
 
   // Filter the vehicles
@@ -92,7 +92,7 @@ export default function RentAVehicle() {
 
           if (
             !selectedFeatures.every((feature) =>
-              vehicleFeatures.includes(feature)
+              vehicleFeatures.includes(feature),
             )
           ) {
             return false;
@@ -103,7 +103,7 @@ export default function RentAVehicle() {
         if (selectedInteriorFeatures.length > 0) {
           if (
             !selectedInteriorFeatures.every((feature) =>
-              vehicle.interiorFeatures.includes(feature)
+              vehicle.interiorFeatures.includes(feature),
             )
           ) {
             return false;
@@ -133,7 +133,7 @@ export default function RentAVehicle() {
     setSelectedFeatures((prev) =>
       prev.includes(feature)
         ? prev.filter((f) => f !== feature)
-        : [...prev, feature]
+        : [...prev, feature],
     );
   };
 
@@ -141,7 +141,7 @@ export default function RentAVehicle() {
     setSelectedInteriorFeatures((prev) =>
       prev.includes(feature)
         ? prev.filter((f) => f !== feature)
-        : [...prev, feature]
+        : [...prev, feature],
     );
   };
 
@@ -258,11 +258,11 @@ export default function RentAVehicle() {
 
                           {Array.from(
                             { length: Math.ceil(maxPassengers / 5) },
-                            (_, i) => (i + 1) * 5
+                            (_, i) => (i + 1) * 5,
                           )
                             .filter((num) => num <= maxPassengers)
                             .concat(
-                              maxPassengers % 5 !== 0 ? [maxPassengers] : []
+                              maxPassengers % 5 !== 0 ? [maxPassengers] : [],
                             )
                             .sort((a, b) => a - b)
                             .map((num) => (
@@ -345,7 +345,7 @@ export default function RentAVehicle() {
                               feature
                                 .replace(/([A-Z])/g, " $1")
                                 .replace(/([0-9]WD)/g, " $1")
-                                .trim()
+                                .trim(),
                             )}
                           </Label>
                         </div>
@@ -385,12 +385,12 @@ export default function RentAVehicle() {
                   Showing{" "}
                   {filteredCategories.reduce(
                     (total, category) => total + category.models.length,
-                    0
+                    0,
                   )}{" "}
                   of{" "}
                   {vehicleSelectionGuide.reduce(
                     (total, category) => total + category.models.length,
-                    0
+                    0,
                   )}{" "}
                   vehicles
                 </div>
@@ -459,7 +459,7 @@ export default function RentAVehicle() {
                                 "panoramicViews",
                                 "executiveCaptainSeating",
                                 "mediaWalls",
-                              ].includes(key)
+                              ].includes(key),
                             )
                             .map(([key, value]) => (
                               <ul

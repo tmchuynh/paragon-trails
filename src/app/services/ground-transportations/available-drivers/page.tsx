@@ -138,7 +138,7 @@ export default function AvailableDriversPage() {
                       <SelectItem value="any">Any</SelectItem>
                       {Array.from(
                         { length: Math.ceil(maxExperience / 5) },
-                        (_, i) => (i + 1) * 5
+                        (_, i) => (i + 1) * 5,
                       )
                         .filter((num) => num <= maxExperience)
                         .concat(maxExperience % 5 !== 0 ? [maxExperience] : [])
@@ -197,7 +197,7 @@ export default function AvailableDriversPage() {
           const sortedCategory = groupAndSortByProperties(
             category.profiles,
             "experienceYears",
-            "name"
+            "name",
           );
           return (
             <div key={categoryIndex} className="mb-16">
