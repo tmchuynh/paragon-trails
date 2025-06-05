@@ -1,5 +1,3 @@
-import { TourRegion } from "./tours";
-
 export interface Yacht {
   id: string;
   name: string;
@@ -250,40 +248,25 @@ type MotorcycleRequirement =
 export interface Hotel {
   id: string;
   name: string;
-  description: string;
-  location: {
-    city: string;
-    country: string;
-    address: string;
-    latitude: number;
-    longitude: number;
-    region: TourRegion;
-  };
-  rating: number; // e.g., 4.5 stars
-  stars: number; // 1-5 hotel star rating
-  accommodationType: AccommodationType; // e.g., "Hotel", "Boutique Hotel"
+  rating: number;
+  address: string;
+  accommodationType: AccommodationType;
   amenities: AmenityType[];
   accessibilityFeatures?: AccessibilityFeature[];
-  photos: string[]; // image URLs
   checkInTime: string; // e.g., "15:00"
   checkOutTime: string; // e.g., "11:00"
   roomsAvailable: number;
-  maxGuests: number;
   isPetFriendly?: boolean;
-  isFamilyFriendly?: boolean;
-  currency: string; // e.g., "USD", "EUR"
+  currency: string;
   contact: {
-    phone?: string;
-    email?: string;
-    website?: string;
+    contactEmail?: string;
+    contactPhone: string;
   };
   policies: {
     cancellation: string;
     smoking: "Allowed" | "Not Allowed" | "Designated Areas";
-    noise?: string;
   };
-  featured?: boolean;
-  tags?: string[]; // e.g., ["romantic", "eco-friendly", "sea view"]
+  isPopular?: boolean;
 }
 
 type AccommodationType =
