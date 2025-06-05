@@ -120,7 +120,7 @@ async function findRoomOptionFiles() {
         const files = await fs.readdir(cityDir);
 
         // Find room option files (ending with -rooms.ts)
-        const roomFiles = files.filter((file) => file.endsWith("-rooms.ts"));
+        const roomFiles = files.filter((file) => file.endsWith("Rooms.ts"));
 
         // Add files to delete list
         for (const file of roomFiles) {
