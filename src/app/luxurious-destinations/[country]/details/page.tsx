@@ -19,7 +19,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { cn } from "@/lib/utils";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -44,7 +44,7 @@ export default function DestinationDetailsPage() {
   const formattedRegion = region;
   const formattedCountry = country;
 
-  const cityInfo = cityattractions.find(
+  const cityInfo = cities.find(
     (item) =>
       (item.city === formattedCity && item.country === formattedCountry) ||
       item.region === formattedCountry

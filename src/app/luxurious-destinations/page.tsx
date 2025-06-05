@@ -12,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -24,7 +24,7 @@ export default function LuxuriousDestinations() {
   const [popularSort, setPopularSort] = useState("first"); // "first", "last", "none"
 
   // Filter destinations based on search
-  const filteredDestinations = cityattractions.filter((item) => {
+  const filteredDestinations = cities.filter((item) => {
     if (!searchQuery.trim()) return true;
 
     const query = searchQuery.toLowerCase();
@@ -42,8 +42,8 @@ export default function LuxuriousDestinations() {
   // First sort by the selected criterion (city or country)
   const sortedDestinations = groupAndSortByProperties(
     filteredDestinations,
-    sortBy as keyof (typeof cityattractions)[0],
-    secondarySortField as keyof (typeof cityattractions)[0],
+    sortBy as keyof (typeof cities)[0],
+    secondarySortField as keyof (typeof cities)[0],
     true,
     false,
     false,

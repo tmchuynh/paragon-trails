@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { generalTestimonials } from "@/lib/constants/services/testimonials/generalTestimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import Image from "next/image";
@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 export default function HomePage() {
   const router = useRouter();
   const sortedDestinations = groupAndSortByProperties(
-    cityattractions,
+    cities,
     "isPopular",
     "city"
   );

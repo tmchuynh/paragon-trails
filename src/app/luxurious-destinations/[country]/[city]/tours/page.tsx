@@ -15,7 +15,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { findGuideBySpecialty, getTourData } from "@/lib/utils/get";
@@ -85,7 +85,7 @@ export default function TourPage() {
     loadTours();
   }, [city]);
 
-  const cityInfo = cityattractions.find(
+  const cityInfo = cities.find(
     (attraction) =>
       attraction.city.toLowerCase() ===
       (Array.isArray(city) ? city[0] : city).toLowerCase()

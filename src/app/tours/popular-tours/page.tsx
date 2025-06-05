@@ -13,7 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { capitalize, formatNumberToCurrency } from "@/lib/utils/format";
 import { getAllTours } from "@/lib/utils/get";
@@ -165,7 +165,7 @@ export default function PopularTours() {
       const key = `${tour.city}-${tour.country}-${tour.region}`;
 
       if (!map.has(key)) {
-        const cityInfo = cityattractions.find(
+        const cityInfo = cities.find(
           (attraction) =>
             attraction.city.toLowerCase() === tour.city?.toLowerCase() ||
             attraction.country.toLowerCase() === tour.country?.toLowerCase() ||

@@ -17,7 +17,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import CartContext from "@/context/cartContext";
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { Tour } from "@/lib/interfaces/services/tours"; // Added TourGuide
 import { cn } from "@/lib/utils";
@@ -55,7 +55,7 @@ export default function TourPage() {
   const [tourGuides, setTourGuides] = useState<TourGuide[]>([]); // Changed type
   const cartContext = useContext(CartContext);
 
-  const cityInfo = cityattractions.find(
+  const cityInfo = cities.find(
     (attraction) => attraction.city.toLowerCase() === city.toLowerCase()
   );
 

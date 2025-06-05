@@ -1,4 +1,4 @@
-import { cityattractions } from "@/lib/constants/info/city";
+import { cities } from "@/lib/constants/info/city";
 import { homestayHeritageLocations } from "@/lib/constants/services/homestay/families";
 import { capitalize } from "@/lib/utils/format";
 import { findOriginalCityName } from "@/lib/utils/get";
@@ -22,7 +22,7 @@ export default async function HomestayLocationPage({
     displayName
   )[0];
 
-  const cityInfo = cityattractions.find((item) => item.city === displayName);
+  const cityInfo = cities.find((item) => item.city === displayName);
 
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
