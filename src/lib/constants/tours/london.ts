@@ -209,7 +209,8 @@ export const londonTours: Tour[] = [
     rating: 4.9,
     tags: ["Harry Potter", "Film", "Family"],
     meetingPoint: {
-      address: "Victoria Coach Station, 164 Buckingham Palace Road, London SW1W 9TP",
+      address:
+        "Victoria Coach Station, 164 Buckingham Palace Road, London SW1W 9TP",
       coordinates: {
         latitude: 51.4945,
         longitude: -0.1444,
@@ -274,7 +275,8 @@ export const londonTours: Tour[] = [
     tourCategoryId: "entertainment",
     faqs: [
       {
-        question: "Is this tour suitable for people who haven't read the books or seen the films?",
+        question:
+          "Is this tour suitable for people who haven't read the books or seen the films?",
         answer:
           "While fans will certainly get the most enjoyment, the tour is designed to be accessible to everyone. The craftsmanship, artistry, and technology on display are impressive regardless of your familiarity with Harry Potter. Guides provide context so everyone can appreciate what they're seeing.",
       },
@@ -376,7 +378,8 @@ export const londonTours: Tour[] = [
           "The London Eye operates in most weather conditions except severe wind or storms. In case of dangerous weather, your ticket can be used another day. The river cruise may be modified or rescheduled in extreme weather, with the option to reschedule or receive a partial refund.",
       },
       {
-        question: "Is the London Eye suitable for people with a fear of heights?",
+        question:
+          "Is the London Eye suitable for people with a fear of heights?",
         answer:
           "The capsules are very stable with minimal movement sensation. The rotation is extremely slow (30 minutes for one revolution) and the solid construction helps many visitors with mild fear of heights feel comfortable. The capsules are spacious, allowing you to stay toward the center if preferred.",
       },

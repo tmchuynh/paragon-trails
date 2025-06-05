@@ -88,5 +88,5 @@ export const piraeusTourGuides: TourGuide[] = [
     quote:
       "In Piraeus, every dish is a celebration of our rich history and diverse culture.",
     profileImage: "/images/guides/valeria-marino.jpg",
-  }
+  },
 ];

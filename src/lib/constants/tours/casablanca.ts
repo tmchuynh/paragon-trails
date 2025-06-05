@@ -19,7 +19,7 @@ export const casablancaTours: Tour[] = [
     meetingPoint: {
       address: "Place des Nations Unies, Casablanca 20000, Morocco",
       coordinates: {
-        latitude: 33.5950,
+        latitude: 33.595,
         longitude: -7.6188,
       },
       instructions:
@@ -183,7 +183,8 @@ export const casablancaTours: Tour[] = [
           "The tour covers approximately 2.5 kilometers (1.5 miles) at a leisurely pace with frequent stops to observe architectural details and enter selected buildings. We walk on mostly flat terrain, but comfortable walking shoes are recommended as some streets have uneven surfaces.",
       },
       {
-        question: "Is this tour suitable for architecture enthusiasts or do I need background knowledge?",
+        question:
+          "Is this tour suitable for architecture enthusiasts or do I need background knowledge?",
         answer:
           "This tour is designed to be enjoyable for everyone from architecture enthusiasts to complete beginners. Our guides explain architectural concepts in an accessible way, focusing on the historical context and interesting stories behind the buildings. You'll gain a new appreciation for Art Deco regardless of your prior knowledge.",
       },
@@ -210,7 +211,8 @@ export const casablancaTours: Tour[] = [
     rating: 4.9,
     tags: ["Cooking", "Food", "Cultural"],
     meetingPoint: {
-      address: "Central Market (Marché Central), Rue Allal Ben Abdallah, Casablanca",
+      address:
+        "Central Market (Marché Central), Rue Allal Ben Abdallah, Casablanca",
       coordinates: {
         latitude: 33.5965,
         longitude: -7.6185,
@@ -312,7 +314,7 @@ export const casablancaTours: Tour[] = [
     meetingPoint: {
       address: "Hotel Hyatt Regency, Place des Nations Unies, Casablanca",
       coordinates: {
-        latitude: 33.5950,
+        latitude: 33.595,
         longitude: -7.6187,
       },
       instructions:

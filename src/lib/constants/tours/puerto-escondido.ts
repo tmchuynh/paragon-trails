@@ -463,7 +463,8 @@ export const puertoEscondidoTours: Tour[] = [
           "No prior cooking experience is necessary. Our chef instructors guide you through each step with clear demonstrations and hands-on assistance. The class is designed to be accessible for beginners while still engaging for experienced home cooks. The techniques are authentic but adapted to be achievable for all participants.",
       },
       {
-        question: "Is this class suitable for people with dietary restrictions?",
+        question:
+          "Is this class suitable for people with dietary restrictions?",
         answer:
           "Yes, we can accommodate most dietary restrictions including vegetarian, vegan, and gluten-free diets with advance notice. Oaxacan cuisine naturally includes many corn-based (gluten-free) options and vegetable dishes. Please inform us of any allergies or dietary requirements when booking so we can adjust the menu accordingly.",
       },

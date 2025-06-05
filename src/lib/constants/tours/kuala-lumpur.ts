@@ -113,7 +113,8 @@ export const kualaLumpurTours: Tour[] = [
     rating: 4.9,
     tags: ["Food", "Cultural", "Night Markets"],
     meetingPoint: {
-      address: "Jalan Alor Street Food Market Entrance, Bukit Bintang, Kuala Lumpur",
+      address:
+        "Jalan Alor Street Food Market Entrance, Bukit Bintang, Kuala Lumpur",
       coordinates: {
         latitude: 3.1455,
         longitude: 101.7099,
@@ -208,9 +209,10 @@ export const kualaLumpurTours: Tour[] = [
     rating: 4.7,
     tags: ["Architecture", "City Views", "Iconic Landmark"],
     meetingPoint: {
-      address: "Concourse Level, Petronas Twin Towers, Kuala Lumpur City Centre",
+      address:
+        "Concourse Level, Petronas Twin Towers, Kuala Lumpur City Centre",
       coordinates: {
-        latitude: 3.1580,
+        latitude: 3.158,
         longitude: 101.7117,
       },
       instructions:

@@ -9,8 +9,10 @@ export const hokkaidoTourGuides: TourGuide[] = [
     experienceYears: 10,
     specialties: ["adventure", "Onsen Culture", "Wildlife Tracking"],
     bio: "Takashi Watanabe is a Hokkaido native with ten years of experience guiding guests through Japan's northernmost island. With a degree in Environmental Science from Hokkaido University, Takashi specializes in tours that highlight the region's pristine wilderness, winter activities, and unique cultural traditions. His tours often include wildlife tracking, hot spring visits, and outdoor adventures across all seasons. Takashi's deep knowledge of Hokkaido's ecology and his passion for outdoor exploration make his tours both educational and exhilarating. He is committed to sustainable tourism and showcasing Hokkaido's natural beauty.",
-    description: "Takashi Watanabe guides outdoor adventures showcasing Hokkaido's wilderness, wildlife, and winter landscapes.",
-    quote: "Hokkaido's nature is powerful yet delicate – from volcanic landscapes to drift ice. Each season reveals a different face of this remarkable island.",
+    description:
+      "Takashi Watanabe guides outdoor adventures showcasing Hokkaido's wilderness, wildlife, and winter landscapes.",
+    quote:
+      "Hokkaido's nature is powerful yet delicate – from volcanic landscapes to drift ice. Each season reveals a different face of this remarkable island.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

@@ -21,32 +21,69 @@ export const phnomPenhTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "historical",
-    
+
     meetingPoint: {
       address: "FCC Hotel, 363 Sisowath Quay, Phnom Penh",
       coordinates: {
         latitude: 11.5689,
         longitude: 104.9307,
       },
-      instructions: "Meet in the lobby of the FCC Hotel on Sisowath Quay. Your guide will be holding a sign with your name and 'Paragon Trails' logo.",
+      instructions:
+        "Meet in the lobby of the FCC Hotel on Sisowath Quay. Your guide will be holding a sign with your name and 'Paragon Trails' logo.",
       contactNumber: "+855 23 456 789",
       contactEmail: "khmerrouge@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", "2023-12-25", "2023-12-27", "2023-12-29", "2023-12-31",
-      "2024-01-02", "2024-01-04", "2024-01-06", "2024-01-08", "2024-01-10", "2024-01-12", "2024-01-14", "2024-01-16", "2024-01-18", "2024-01-20", "2024-01-22", "2024-01-24", "2024-01-26", "2024-01-28", "2024-01-30",
-      "2024-02-01", "2024-02-03", "2024-02-05", "2024-02-07", "2024-02-09", "2024-02-11", "2024-02-13", "2024-02-15", "2024-02-17", "2024-02-19", "2024-02-21", "2024-02-23", "2024-02-25", "2024-02-27", "2024-02-29"
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-25",
+      "2023-12-27",
+      "2023-12-29",
+      "2023-12-31",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Guided tour of Tuol Sleng Genocide Museum (S21) with historical context",
       "Visit to Choeung Ek Killing Fields Memorial with its commemorative stupa",
       "Opportunity to hear personal testimonies from survivors (when available)",
       "Learn about Cambodia's path to reconciliation and healing",
-      "Respectful and educational approach to a difficult but important history"
+      "Respectful and educational approach to a difficult but important history",
     ],
-    
+
     inclusions: [
       "Professional English-speaking guide with expertise in Cambodian history",
       "Private air-conditioned vehicle transportation",
@@ -54,17 +91,17 @@ export const phnomPenhTours: Tour[] = [
       "Audio guide at Killing Fields",
       "Bottled water",
       "Hotel pickup and drop-off",
-      "Small-group experience (maximum 10 participants)"
+      "Small-group experience (maximum 10 participants)",
     ],
-    
+
     exclusions: [
       "Food and additional beverages",
       "Optional gratuities",
       "Personal expenses",
       "Travel insurance",
-      "Additional activities not specified in the itinerary"
+      "Additional activities not specified in the itinerary",
     ],
-    
+
     itinerary: [
       "08:00 - Hotel pickup or meet at FCC Hotel",
       "08:30 - Arrive at Tuol Sleng Genocide Museum (S21)",
@@ -73,26 +110,26 @@ export const phnomPenhTours: Tour[] = [
       "11:00 - Audio-guided tour of Killing Fields and Memorial Stupa",
       "12:15 - Moment for reflection and optional flower offering",
       "12:30 - Return journey to Phnom Penh",
-      "13:00 - Tour concludes with hotel drop-off or at FCC Hotel"
+      "13:00 - Tour concludes with hotel drop-off or at FCC Hotel",
     ],
-    
+
     faqs: [
       {
         question: "Is this tour appropriate for children?",
         answer:
-          "We generally recommend this tour for adults and older teenagers (16+) due to the graphic nature of some exhibits and the heavy emotional content. Parents should use discretion, as both sites contain disturbing images and accounts of atrocities. For families traveling with younger children, we can suggest alternative tours highlighting Cambodia's rich cultural heritage."
+          "We generally recommend this tour for adults and older teenagers (16+) due to the graphic nature of some exhibits and the heavy emotional content. Parents should use discretion, as both sites contain disturbing images and accounts of atrocities. For families traveling with younger children, we can suggest alternative tours highlighting Cambodia's rich cultural heritage.",
       },
       {
         question: "How emotionally difficult is this tour?",
         answer:
-          "This is an emotionally challenging experience that confronts visitors with the realities of genocide and human suffering. Many visitors find parts of the tour distressing, particularly the photographs at S21 and the mass graves at Choeung Ek. However, most also find it deeply educational and important for understanding Cambodia today. Our guides are trained to present information respectfully and provide context that helps process these difficult histories."
+          "This is an emotionally challenging experience that confronts visitors with the realities of genocide and human suffering. Many visitors find parts of the tour distressing, particularly the photographs at S21 and the mass graves at Choeung Ek. However, most also find it deeply educational and important for understanding Cambodia today. Our guides are trained to present information respectfully and provide context that helps process these difficult histories.",
       },
       {
         question: "What should I wear for this tour?",
         answer:
-          "As these are memorial sites, we recommend modest, respectful attire. Shoulders and knees should be covered. Comfortable walking shoes are advised as there is moderate walking at both locations, sometimes on uneven ground. A hat and sunscreen are recommended for the Killing Fields portion, which has limited shade. Please note that appropriate dress is mandatory at these sites of remembrance."
-      }
-    ]
+          "As these are memorial sites, we recommend modest, respectful attire. Shoulders and knees should be covered. Comfortable walking shoes are advised as there is moderate walking at both locations, sometimes on uneven ground. A hat and sunscreen are recommended for the Killing Fields portion, which has limited shade. Please note that appropriate dress is mandatory at these sites of remembrance.",
+      },
+    ],
   },
   {
     title: "Royal Palace & Silver Pagoda Tour",
@@ -114,48 +151,84 @@ export const phnomPenhTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "historical",
-    
+
     meetingPoint: {
       address: "Royal Palace Main Entrance, Sothearos Blvd, Phnom Penh",
       coordinates: {
         latitude: 11.5637,
         longitude: 104.9307,
       },
-      instructions: "Meet at the ticket booth near the main entrance gate to the Royal Palace. Your guide will be holding a sign with 'Royal Palace Tour' and the Paragon Trails logo.",
+      instructions:
+        "Meet at the ticket booth near the main entrance gate to the Royal Palace. Your guide will be holding a sign with 'Royal Palace Tour' and the Paragon Trails logo.",
       contactNumber: "+855 23 456 790",
       contactEmail: "royalpalace@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-16", "2023-12-18", "2023-12-20", "2023-12-22", "2023-12-24", "2023-12-26", "2023-12-28", "2023-12-30",
-      "2024-01-01", "2024-01-03", "2024-01-05", "2024-01-07", "2024-01-09", "2024-01-11", "2024-01-13", "2024-01-15", "2024-01-17", "2024-01-19", "2024-01-21", "2024-01-23", "2024-01-25", "2024-01-27", "2024-01-29", "2024-01-31",
-      "2024-02-02", "2024-02-04", "2024-02-06", "2024-02-08", "2024-02-10", "2024-02-12", "2024-02-14", "2024-02-16", "2024-02-18", "2024-02-20", "2024-02-22", "2024-02-24", "2024-02-26", "2024-02-28"
+      "2023-12-16",
+      "2023-12-18",
+      "2023-12-20",
+      "2023-12-22",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-28",
+      "2023-12-30",
+      "2024-01-01",
+      "2024-01-03",
+      "2024-01-05",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-11",
+      "2024-01-13",
+      "2024-01-15",
+      "2024-01-17",
+      "2024-01-19",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-25",
+      "2024-01-27",
+      "2024-01-29",
+      "2024-01-31",
+      "2024-02-02",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-08",
+      "2024-02-10",
+      "2024-02-12",
+      "2024-02-14",
+      "2024-02-16",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-22",
+      "2024-02-24",
+      "2024-02-26",
+      "2024-02-28",
     ],
-    
+
     highlights: [
       "Tour the majestic Throne Hall where kings are crowned",
       "Visit the Silver Pagoda with its floor of 5,000+ silver tiles",
       "See the Emerald Buddha and solid gold Buddha adorned with 9,584 diamonds",
       "Explore the beautiful royal gardens with tropical plants and pavilions",
-      "Learn about Khmer architecture and the royal family's history"
+      "Learn about Khmer architecture and the royal family's history",
     ],
-    
+
     inclusions: [
       "Professional English-speaking guide with royal history expertise",
       "Entrance fees to Royal Palace and Silver Pagoda",
       "Bottled water",
       "Local taxes and service charges",
-      "Small group size (maximum 12 participants)"
+      "Small group size (maximum 12 participants)",
     ],
-    
+
     exclusions: [
       "Hotel pickup and drop-off (available for additional fee)",
       "Food and additional beverages",
       "Official Royal Palace photography pass (available for purchase)",
       "Gratuities (optional)",
-      "Personal expenses"
+      "Personal expenses",
     ],
-    
+
     itinerary: [
       "08:30 - Meet at Royal Palace main entrance",
       "08:45 - Introduction to Royal Palace history and etiquette",
@@ -163,26 +236,26 @@ export const phnomPenhTours: Tour[] = [
       "09:45 - Visit the Silver Pagoda and its precious Buddha statues",
       "10:30 - Explore the royal gardens and pavilions",
       "11:00 - View the model of Angkor Wat and royal artifacts collection",
-      "11:30 - Tour concludes at the palace exit with recommendations for nearby attractions"
+      "11:30 - Tour concludes at the palace exit with recommendations for nearby attractions",
     ],
-    
+
     faqs: [
       {
         question: "What should I wear to visit the Royal Palace?",
         answer:
-          "The Royal Palace enforces a strict dress code as it's both an active royal residence and religious site. Visitors must cover shoulders and knees (no shorts, short skirts, or sleeveless tops). Skirts must be below the knee, and pants must be full length. You may be denied entry if inappropriately dressed, with no refund provided. If needed, vendors near the entrance sell appropriate scarves and coverings."
+          "The Royal Palace enforces a strict dress code as it's both an active royal residence and religious site. Visitors must cover shoulders and knees (no shorts, short skirts, or sleeveless tops). Skirts must be below the knee, and pants must be full length. You may be denied entry if inappropriately dressed, with no refund provided. If needed, vendors near the entrance sell appropriate scarves and coverings.",
       },
       {
         question: "Can I take photos inside the buildings?",
         answer:
-          "Photography is permitted in most outdoor areas of the Royal Palace complex and inside some buildings. However, photography is prohibited inside certain sections of the Silver Pagoda and buildings housing especially sacred items. Your guide will clearly indicate where photography is and isn't allowed. For professional photography, an additional fee is required from the palace authorities."
+          "Photography is permitted in most outdoor areas of the Royal Palace complex and inside some buildings. However, photography is prohibited inside certain sections of the Silver Pagoda and buildings housing especially sacred items. Your guide will clearly indicate where photography is and isn't allowed. For professional photography, an additional fee is required from the palace authorities.",
       },
       {
         question: "Is the Royal Palace always open to visitors?",
         answer:
-          "The Royal Palace occasionally closes for official ceremonies, royal events, or visits by foreign dignitaries, sometimes with little advance notice. If the palace is closed on your scheduled tour date, we'll offer an alternative date or substitute with other significant cultural sites in Phnom Penh. The palace typically closes daily during lunch hours (11:00am-2:00pm), which is why our tour is scheduled in the morning."
-      }
-    ]
+          "The Royal Palace occasionally closes for official ceremonies, royal events, or visits by foreign dignitaries, sometimes with little advance notice. If the palace is closed on your scheduled tour date, we'll offer an alternative date or substitute with other significant cultural sites in Phnom Penh. The palace typically closes daily during lunch hours (11:00am-2:00pm), which is why our tour is scheduled in the morning.",
+      },
+    ],
   },
   {
     title: "Mekong River Sunset Cruise & Dinner",
@@ -204,48 +277,123 @@ export const phnomPenhTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "romantic",
-    
+
     meetingPoint: {
       address: "Himawari Hotel Boat Dock, 313 Sisowath Quay, Phnom Penh",
       coordinates: {
         latitude: 11.5555,
         longitude: 104.9417,
       },
-      instructions: "Meet at the Himawari Hotel boat dock on Sisowath Quay. Look for the Paragon Trails welcome desk near the gangway.",
+      instructions:
+        "Meet at the Himawari Hotel boat dock on Sisowath Quay. Look for the Paragon Trails welcome desk near the gangway.",
       contactNumber: "+855 23 456 791",
       contactEmail: "sunset@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-24", "2023-12-25", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30", "2023-12-31",
-      "2024-01-01", "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-08", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-15", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-22", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-29", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-04", "2024-02-05", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-11", "2024-02-12", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-18", "2024-02-19", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-25", "2024-02-26", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-24",
+      "2023-12-25",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2023-12-31",
+      "2024-01-01",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-08",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-15",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-22",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-29",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-05",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-12",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-19",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+      "2024-02-26",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Cruise at the unique confluence of three major rivers",
       "Watch the sun set behind Phnom Penh's emerging skyline",
       "Observe traditional fishing villages and river life",
       "Enjoy a delicious dinner of traditional Khmer cuisine",
-      "See the illuminated Royal Palace and waterfront from the water"
+      "See the illuminated Royal Palace and waterfront from the water",
     ],
-    
+
     inclusions: [
       "2-hour river cruise on a comfortable boat",
       "Traditional Khmer dinner with multiple courses",
       "One welcome drink (alcoholic or non-alcoholic)",
       "English-speaking guide providing cultural and historical commentary",
       "Hotel pickup and drop-off (from central Phnom Penh hotels)",
-      "Live traditional Khmer music performance"
+      "Live traditional Khmer music performance",
     ],
-    
+
     exclusions: [
       "Additional alcoholic beverages beyond welcome drink (bar available onboard)",
       "Gratuities for cruise staff (optional)",
       "Personal expenses",
-      "Photo service (available for purchase onboard)"
+      "Photo service (available for purchase onboard)",
     ],
-    
+
     itinerary: [
       "17:00 - Hotel pickup or meet at Himawari dock",
       "17:30 - Welcome reception and boarding",
@@ -255,26 +403,26 @@ export const phnomPenhTours: Tour[] = [
       "18:45 - Dinner service begins with traditional Khmer cuisine",
       "19:15 - Live traditional Khmer music performance",
       "19:45 - Return cruise with night views of illuminated waterfront",
-      "20:00 - Disembarkation and hotel drop-off service begins"
+      "20:00 - Disembarkation and hotel drop-off service begins",
     ],
-    
+
     faqs: [
       {
         question: "What type of boat is used for the cruise?",
         answer:
-          "We use a spacious double-deck river cruiser with both air-conditioned indoor seating and open-air deck space. The boat features comfortable seating, clean restrooms, a full-service bar, and stable design for smooth river cruising. The upper deck offers panoramic views perfect for photography, while the main deck hosts dinner service in a climate-controlled environment."
+          "We use a spacious double-deck river cruiser with both air-conditioned indoor seating and open-air deck space. The boat features comfortable seating, clean restrooms, a full-service bar, and stable design for smooth river cruising. The upper deck offers panoramic views perfect for photography, while the main deck hosts dinner service in a climate-controlled environment.",
       },
       {
         question: "What type of food is served?",
         answer:
-          "The dinner features traditional Khmer cuisine including appetizers like fresh spring rolls and mango salad, main courses such as amok (coconut curry typically with fish), lok lak (stir-fried beef), and various vegetable dishes, followed by tropical fruit or traditional Khmer desserts. Vegetarian options are available with advance notice. All dishes are prepared with food safety standards appropriate for international travelers."
+          "The dinner features traditional Khmer cuisine including appetizers like fresh spring rolls and mango salad, main courses such as amok (coconut curry typically with fish), lok lak (stir-fried beef), and various vegetable dishes, followed by tropical fruit or traditional Khmer desserts. Vegetarian options are available with advance notice. All dishes are prepared with food safety standards appropriate for international travelers.",
       },
       {
         question: "Is this cruise suitable for children?",
         answer:
-          "Yes, this cruise is suitable for all ages. The boat is stable and has safety measures in place including life jackets and railings. Children typically enjoy watching river life and the sunset. We offer child-friendly food options and non-alcoholic beverages. However, please note that there is no specific entertainment for children, and parents are responsible for supervising their children at all times, especially on the open deck areas."
-      }
-    ]
+          "Yes, this cruise is suitable for all ages. The boat is stable and has safety measures in place including life jackets and railings. Children typically enjoy watching river life and the sunset. We offer child-friendly food options and non-alcoholic beverages. However, please note that there is no specific entertainment for children, and parents are responsible for supervising their children at all times, especially on the open deck areas.",
+      },
+    ],
   },
   {
     title: "Cambodian Cuisine Cooking Class & Market Tour",
@@ -296,32 +444,87 @@ export const phnomPenhTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    
+
     meetingPoint: {
       address: "Cambodian Cooking Class Center, #44 Street 111, Phnom Penh",
       coordinates: {
         latitude: 11.5708,
         longitude: 104.9241,
       },
-      instructions: "Meet at the Cambodian Cooking Class Center, a traditional wooden house with a blue door. The location is near the Independence Monument.",
+      instructions:
+        "Meet at the Cambodian Cooking Class Center, a traditional wooden house with a blue door. The location is near the Independence Monument.",
       contactNumber: "+855 23 456 792",
       contactEmail: "cookingclass@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30",
-      "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Guided tour of a local market with ingredient explanations",
       "Learn about traditional Cambodian spices and herbs",
       "Hands-on preparation of 3-4 authentic Cambodian dishes",
       "Master the techniques for making Cambodia's famous fish amok",
-      "Enjoy your prepared meal in a traditional Khmer-style dining room"
+      "Enjoy your prepared meal in a traditional Khmer-style dining room",
     ],
-    
+
     inclusions: [
       "Professional chef instructor",
       "Market tour with ingredient sampling",
@@ -329,16 +532,16 @@ export const phnomPenhTours: Tour[] = [
       "Recipe booklet to take home",
       "Full meal of your prepared dishes",
       "Welcome drink and bottled water",
-      "Hotel pickup and drop-off (from central Phnom Penh locations)"
+      "Hotel pickup and drop-off (from central Phnom Penh locations)",
     ],
-    
+
     exclusions: [
       "Alcoholic beverages (available for purchase)",
       "Additional food beyond the cooking class menu",
       "Gratuities (optional)",
-      "Market purchases for personal use"
+      "Market purchases for personal use",
     ],
-    
+
     itinerary: [
       "08:30 - Hotel pickup or meet at cooking center (morning class)",
       "09:00 - Introduction to Cambodian cuisine and its cultural significance",
@@ -349,26 +552,26 @@ export const phnomPenhTours: Tour[] = [
       "12:00 - Prepare traditional Cambodian dessert",
       "12:30 - Enjoy your prepared meal together in the dining area",
       "13:15 - Recipe discussion and cooking tips",
-      "13:30 - Class concludes with certificates and farewells"
+      "13:30 - Class concludes with certificates and farewells",
     ],
-    
+
     faqs: [
       {
         question: "Do I need cooking experience to participate?",
         answer:
-          "No prior cooking experience is necessary. Our class is designed for all skill levels, from beginners to experienced home cooks. The chef provides clear step-by-step instructions and individual attention. You'll learn basic knife skills and cooking techniques specific to Cambodian cuisine in a relaxed, supportive environment."
+          "No prior cooking experience is necessary. Our class is designed for all skill levels, from beginners to experienced home cooks. The chef provides clear step-by-step instructions and individual attention. You'll learn basic knife skills and cooking techniques specific to Cambodian cuisine in a relaxed, supportive environment.",
       },
       {
         question: "What dishes will we prepare in the class?",
         answer:
-          "The standard menu includes 3-4 classic Cambodian dishes: an appetizer (like fresh spring rolls or green mango salad), fish amok (Cambodia's national dish - a curry steamed in banana leaves), a stir-fry dish (such as beef lok lak), and a traditional dessert (typically made with coconut and tropical fruits). Seasonal variations may occur, and we can accommodate vegetarian requests with advance notice."
+          "The standard menu includes 3-4 classic Cambodian dishes: an appetizer (like fresh spring rolls or green mango salad), fish amok (Cambodia's national dish - a curry steamed in banana leaves), a stir-fry dish (such as beef lok lak), and a traditional dessert (typically made with coconut and tropical fruits). Seasonal variations may occur, and we can accommodate vegetarian requests with advance notice.",
       },
       {
         question: "Is the market tour safe and comfortable?",
         answer:
-          "Yes, the market tour is conducted in a group with our experienced guide who will navigate you through a local (non-touristy) market. While the market can be bustling and occasionally overwhelming to the senses with new smells and sights, most visitors find it to be a fascinating cultural experience. We take careful routes through the cleaner sections, and the guide ensures everyone's comfort and safety while explaining the unique ingredients found in Cambodian cuisine."
-      }
-    ]
+          "Yes, the market tour is conducted in a group with our experienced guide who will navigate you through a local (non-touristy) market. While the market can be bustling and occasionally overwhelming to the senses with new smells and sights, most visitors find it to be a fascinating cultural experience. We take careful routes through the cleaner sections, and the guide ensures everyone's comfort and safety while explaining the unique ingredients found in Cambodian cuisine.",
+      },
+    ],
   },
   {
     title: "Silk Island Village & Artisan Workshop Tour",
@@ -390,32 +593,52 @@ export const phnomPenhTours: Tour[] = [
     isOffTheBeatenPath: true,
     isLocalExperience: true,
     tourCategoryId: "off-the-beaten-path",
-    
+
     meetingPoint: {
       address: "Cambodia-Japan Friendship Bridge, Phnom Penh",
       coordinates: {
         latitude: 11.5872,
         longitude: 104.9437,
       },
-      instructions: "Meet at the small dock near the Cambodia-Japan Friendship Bridge. Your guide will be waiting with a 'Silk Island Tour' sign.",
+      instructions:
+        "Meet at the small dock near the Cambodia-Japan Friendship Bridge. Your guide will be waiting with a 'Silk Island Tour' sign.",
       contactNumber: "+855 23 456 793",
       contactEmail: "silkisland@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-16", "2023-12-19", "2023-12-23", "2023-12-26", "2023-12-30",
-      "2024-01-02", "2024-01-06", "2024-01-09", "2024-01-13", "2024-01-16", "2024-01-20", "2024-01-23", "2024-01-27", "2024-01-30",
-      "2024-02-03", "2024-02-06", "2024-02-10", "2024-02-13", "2024-02-17", "2024-02-20", "2024-02-24", "2024-02-27"
+      "2023-12-16",
+      "2023-12-19",
+      "2023-12-23",
+      "2023-12-26",
+      "2023-12-30",
+      "2024-01-02",
+      "2024-01-06",
+      "2024-01-09",
+      "2024-01-13",
+      "2024-01-16",
+      "2024-01-20",
+      "2024-01-23",
+      "2024-01-27",
+      "2024-01-30",
+      "2024-02-03",
+      "2024-02-06",
+      "2024-02-10",
+      "2024-02-13",
+      "2024-02-17",
+      "2024-02-20",
+      "2024-02-24",
+      "2024-02-27",
     ],
-    
+
     highlights: [
       "Cross the Mekong River by traditional wooden boat to reach Silk Island",
       "Visit silk farms to see the complete process from silkworm cultivation to finished products",
       "Watch artisans at work on traditional looms using techniques passed down for generations",
       "Try your hand at basic silk weaving with guidance from master craftspeople",
-      "Support local community initiatives preserving traditional crafts"
+      "Support local community initiatives preserving traditional crafts",
     ],
-    
+
     inclusions: [
       "Round-trip boat transportation to Silk Island",
       "Professional English-speaking guide",
@@ -424,16 +647,16 @@ export const phnomPenhTours: Tour[] = [
       "Bottled water",
       "Hands-on silk weaving experience",
       "Contribution to local community development projects",
-      "Hotel pickup and drop-off"
+      "Hotel pickup and drop-off",
     ],
-    
+
     exclusions: [
       "Lunch (optional stop at local restaurant available, own expense)",
       "Silk products and souvenirs (available for purchase directly from artisans)",
       "Gratuities (optional)",
-      "Professional photography services (available with advance request)"
+      "Professional photography services (available with advance request)",
     ],
-    
+
     itinerary: [
       "08:30 - Hotel pickup or meet at dock near Cambodia-Japan Friendship Bridge",
       "09:00 - Boat departure to Silk Island (Koh Dach)",
@@ -445,27 +668,27 @@ export const phnomPenhTours: Tour[] = [
       "12:45 - Free time to explore village and purchase directly from artisans",
       "13:15 - Traditional snack break with fresh coconut",
       "13:45 - Return boat journey to Phnom Penh",
-      "14:30 - Arrive back in Phnom Penh, tour concludes"
+      "14:30 - Arrive back in Phnom Penh, tour concludes",
     ],
-    
+
     faqs: [
       {
         question: "How much of the silk production process will we see?",
         answer:
-          "You'll witness the complete silk production cycle from start to finish. This includes seeing live silkworms feeding on mulberry leaves, the cocoon formation process, the intricate silk thread extraction, natural dyeing using traditional plant-based colors, and finally the meticulous weaving on traditional wooden looms. This holistic experience provides a deep appreciation for why handwoven Cambodian silk is so highly valued."
+          "You'll witness the complete silk production cycle from start to finish. This includes seeing live silkworms feeding on mulberry leaves, the cocoon formation process, the intricate silk thread extraction, natural dyeing using traditional plant-based colors, and finally the meticulous weaving on traditional wooden looms. This holistic experience provides a deep appreciation for why handwoven Cambodian silk is so highly valued.",
       },
       {
         question: "Is this tour suitable for children?",
         answer:
-          "Yes, children often find the silk production process fascinating, particularly seeing the silkworms and the dramatic transformation from cocoon to colorful fabric. The boat ride is also enjoyable for younger visitors. While the tour is educational, it includes enough variety and hands-on elements to keep children engaged. The island environment is also relaxed and safe for families."
+          "Yes, children often find the silk production process fascinating, particularly seeing the silkworms and the dramatic transformation from cocoon to colorful fabric. The boat ride is also enjoyable for younger visitors. While the tour is educational, it includes enough variety and hands-on elements to keep children engaged. The island environment is also relaxed and safe for families.",
       },
       {
         question: "What type of boat is used for transportation to the island?",
         answer:
-          "We use traditional wooden Cambodian boats that have been modified for passenger comfort and safety. The boats have covered seating areas to provide protection from sun or rain, comfortable bench seating, and are equipped with life jackets and safety equipment. The river crossing takes approximately 25-30 minutes each way, offering beautiful views of river life along the Mekong."
-      }
-    ]
-  }
+          "We use traditional wooden Cambodian boats that have been modified for passenger comfort and safety. The boats have covered seating areas to provide protection from sun or rain, comfortable bench seating, and are equipped with life jackets and safety equipment. The river crossing takes approximately 25-30 minutes each way, offering beautiful views of river life along the Mekong.",
+      },
+    ],
+  },
 ];
 
 export default phnomPenhTours;

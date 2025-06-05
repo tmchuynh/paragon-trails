@@ -121,7 +121,8 @@ export const punoTours: Tour[] = [
           "Lake Titicaca sits at 3,812 meters (12,507 feet) above sea level, so altitude sickness is possible for those not acclimatized. We recommend spending at least one full day in Puno before the tour to adjust to the altitude. Stay hydrated, avoid alcohol, and consider altitude medication if you're sensitive to high elevations.",
       },
       {
-        question: "How physically demanding is the walking portion on Taquile Island?",
+        question:
+          "How physically demanding is the walking portion on Taquile Island?",
         answer:
           "The walk on Taquile involves climbing approximately 500 stone steps from the boat dock up to the main plaza, followed by a gentler descent on the other side of the island. The high altitude makes this moderately challenging. We take a slow pace with plenty of stops, but you should be in reasonable physical condition. Comfortable walking shoes are essential.",
       },
@@ -394,7 +395,7 @@ export const punoTours: Tour[] = [
       address: "Hotel Libertador, Jr. Sesquicentenario 610, Puno",
       coordinates: {
         latitude: -15.8269,
-        longitude: -70.0200,
+        longitude: -70.02,
       },
       instructions:
         "Meet in the lobby of Hotel Libertador. Your guide will meet you at the reception area.",
@@ -498,7 +499,7 @@ export const punoTours: Tour[] = [
     meetingPoint: {
       address: "Casa Andina Standard Puno, Jr. Sesquicentenario 1970, Puno",
       coordinates: {
-        latitude: -15.8280,
+        latitude: -15.828,
         longitude: -70.0217,
       },
       instructions:
@@ -606,7 +607,7 @@ export const punoTours: Tour[] = [
       address: "Kuntur Wasi Hotel, Jr. Independencia 185, Puno",
       coordinates: {
         latitude: -15.8397,
-        longitude: -70.0280,
+        longitude: -70.028,
       },
       instructions:
         "Meet in the lobby of Kuntur Wasi Hotel. Your spiritual guide will greet you wearing traditional Andean clothing.",

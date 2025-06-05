@@ -9,8 +9,10 @@ export const hoiAnTourGuides: TourGuide[] = [
     experienceYears: 9,
     specialties: ["cultural", "Heritage Architecture", "Cultural History"],
     bio: "Nguyen Van Minh is a Hoi An native with nine years of experience guiding guests through the ancient trading port's UNESCO-protected streets. With a degree in Vietnamese History from Danang University, Minh leads tours that explore the architectural fusion of Chinese, Japanese, and European influences that make Hoi An unique. His tours often include access to historic family homes, traditional crafts workshops, and hidden architectural gems. Minh's deep knowledge of local history and engaging storytelling make his tours both educational and enchanting. He is passionate about preserving Hoi An's cultural heritage while sharing its significance with international visitors.",
-    description: "Nguyen Van Minh offers heritage tours showcasing Hoi An's architectural treasures and cultural significance.",
-    quote: "Hoi An's buildings tell the story of centuries of cultural exchange, preserved like a time capsule for us to experience today.",
+    description:
+      "Nguyen Van Minh offers heritage tours showcasing Hoi An's architectural treasures and cultural significance.",
+    quote:
+      "Hoi An's buildings tell the story of centuries of cultural exchange, preserved like a time capsule for us to experience today.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {

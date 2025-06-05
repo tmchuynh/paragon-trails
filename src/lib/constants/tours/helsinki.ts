@@ -177,7 +177,8 @@ export const helsinkiTours: Tour[] = [
     tourCategoryId: "cultural",
     faqs: [
       {
-        question: "Do I need to be knowledgeable about design to enjoy this tour?",
+        question:
+          "Do I need to be knowledgeable about design to enjoy this tour?",
         answer:
           "Not at all! This tour is designed to be fascinating for everyone, from design professionals to complete beginners. Our guides explain concepts in accessible ways and focus on the stories behind the designs and their cultural significance. You'll gain a new appreciation for how design shapes our daily lives.",
       },
@@ -306,7 +307,8 @@ export const helsinkiTours: Tour[] = [
     rating: 4.7,
     tags: ["Winter", "Fishing", "Nature"],
     meetingPoint: {
-      address: "Helsinki Central Railway Station, main entrance, 00100 Helsinki",
+      address:
+        "Helsinki Central Railway Station, main entrance, 00100 Helsinki",
       coordinates: {
         latitude: 60.1718,
         longitude: 24.9414,
@@ -403,7 +405,8 @@ export const helsinkiTours: Tour[] = [
     rating: 4.8,
     tags: ["Food", "Culture", "Culinary"],
     meetingPoint: {
-      address: "Old Market Hall (Vanha Kauppahalli), Eteläranta, 00130 Helsinki",
+      address:
+        "Old Market Hall (Vanha Kauppahalli), Eteläranta, 00130 Helsinki",
       coordinates: {
         latitude: 60.1674,
         longitude: 24.9527,

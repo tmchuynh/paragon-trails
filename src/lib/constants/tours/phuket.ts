@@ -21,32 +21,95 @@ export const phuketTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    
+
     meetingPoint: {
       address: "Chalong Pier, 88/2 Wiset Road, Chalong, Phuket",
       coordinates: {
         latitude: 7.8198,
         longitude: 98.3417,
       },
-      instructions: "Meet at the Paragon Trails counter at Chalong Pier. Look for our representative wearing a blue shirt with the company logo.",
+      instructions:
+        "Meet at the Paragon Trails counter at Chalong Pier. Look for our representative wearing a blue shirt with the company logo.",
       contactNumber: "+66 76 123 456",
       contactEmail: "phiphi@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30",
-      "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-04", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-11", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-18", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-25", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Cruise by speedboat to Phi Phi Islands, reaching destinations in half the time of larger boats",
       "Swim and snorkel in the crystal-clear waters of Maya Bay, made famous by the movie 'The Beach'",
       "Marvel at the towering limestone cliffs and hidden lagoons of Phi Phi Leh",
       "Visit Monkey Beach to observe playful macaques in their natural habitat",
-      "Enjoy lunch at a beachfront restaurant on Phi Phi Don Island"
+      "Enjoy lunch at a beachfront restaurant on Phi Phi Don Island",
     ],
-    
+
     inclusions: [
       "Round-trip speedboat transportation",
       "Professional English-speaking guide",
@@ -56,18 +119,18 @@ export const phuketTours: Tour[] = [
       "Fresh fruit, snacks, and unlimited drinking water",
       "National Park entrance fees",
       "Accident insurance",
-      "Hotel pickup and drop-off from major Phuket areas"
+      "Hotel pickup and drop-off from major Phuket areas",
     ],
-    
+
     exclusions: [
       "Alcoholic beverages",
       "Optional gratuities",
       "Personal expenses",
       "Waterproof camera rental (available for additional fee)",
       "Underwater photography service (available on request)",
-      "Specialty drinks and extra food beyond provided meals"
+      "Specialty drinks and extra food beyond provided meals",
     ],
-    
+
     itinerary: [
       "07:30 - 08:30 - Hotel pickup (time varies based on location)",
       "09:00 - Check-in and briefing at Chalong Pier",
@@ -81,23 +144,26 @@ export const phuketTours: Tour[] = [
       "14:30 - Free time for swimming or relaxing on Phi Phi Don",
       "15:30 - Departure from Phi Phi Islands",
       "16:15 - Arrive back at Chalong Pier",
-      "16:30 - 17:30 - Transfer back to hotel"
+      "16:30 - 17:30 - Transfer back to hotel",
     ],
-    
+
     faqs: [
       {
         question: "Is this tour suitable for non-swimmers?",
-        answer: "Yes, non-swimmers can join this tour. Life jackets are provided at all times while in the water, and our guides pay special attention to those who aren't confident swimmers. The crystal-clear waters allow you to enjoy the marine life even from the boat or shallow areas. However, for the best experience, basic swimming skills are recommended."
+        answer:
+          "Yes, non-swimmers can join this tour. Life jackets are provided at all times while in the water, and our guides pay special attention to those who aren't confident swimmers. The crystal-clear waters allow you to enjoy the marine life even from the boat or shallow areas. However, for the best experience, basic swimming skills are recommended.",
       },
       {
         question: "What should we bring for the Phi Phi Islands tour?",
-        answer: "We recommend bringing swimwear (worn under your clothes for convenience), a towel, sunscreen (reef-safe preferred), sunglasses, hat, light clothing that dries quickly, a waterproof bag for valuables, and a camera. It's best to wear flip-flops or sandals as you may need to wade through ankle-deep water at some stops. Don't forget to bring some cash for souvenirs or additional beverages."
+        answer:
+          "We recommend bringing swimwear (worn under your clothes for convenience), a towel, sunscreen (reef-safe preferred), sunglasses, hat, light clothing that dries quickly, a waterproof bag for valuables, and a camera. It's best to wear flip-flops or sandals as you may need to wade through ankle-deep water at some stops. Don't forget to bring some cash for souvenirs or additional beverages.",
       },
       {
         question: "Will we be able to visit Maya Bay beach?",
-        answer: "Maya Bay periodically undergoes environmental restoration programs to help the ecosystem recover from tourism impact. During open periods, we make scheduled stops allowing guests to visit the beach, though swimming may be restricted to designated areas. During closure periods, we still visit the bay with viewing opportunities from the boat or from a designated platform. Our guides provide the current status and explain the conservation efforts protecting this iconic location."
-      }
-    ]
+        answer:
+          "Maya Bay periodically undergoes environmental restoration programs to help the ecosystem recover from tourism impact. During open periods, we make scheduled stops allowing guests to visit the beach, though swimming may be restricted to designated areas. During closure periods, we still visit the bay with viewing opportunities from the boat or from a designated platform. Our guides provide the current status and explain the conservation efforts protecting this iconic location.",
+      },
+    ],
   },
   {
     title: "Traditional Thai Cooking Class",
@@ -119,32 +185,96 @@ export const phuketTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "culinary",
-    
+
     meetingPoint: {
       address: "Blue Elephant Cooking School, 96 Krabi Road, Phuket Town",
       coordinates: {
         latitude: 7.8862,
         longitude: 98.3882,
       },
-      instructions: "Meet at the entrance of the Blue Elephant Cooking School, housed in a historic Sino-Portuguese mansion. Our representative will greet you at the door.",
+      instructions:
+        "Meet at the entrance of the Blue Elephant Cooking School, housed in a historic Sino-Portuguese mansion. Our representative will greet you at the door.",
       contactNumber: "+66 76 354 355",
       contactEmail: "cooking@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-24", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30", "2023-12-31",
-      "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-04", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-11", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-18", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-25", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2023-12-31",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Tour a traditional local market with a chef to learn about Thai ingredients",
       "Master 4 authentic Thai dishes including appetizer, curry, stir-fry and dessert",
       "Learn the art of Thai food presentation and garnishing",
       "Receive recipe cards to recreate dishes at home",
-      "Enjoy your self-prepared feast in a beautiful colonial-style mansion setting"
+      "Enjoy your self-prepared feast in a beautiful colonial-style mansion setting",
     ],
-    
+
     inclusions: [
       "Hotel pickup and drop-off from main Phuket areas",
       "Guided local market tour",
@@ -153,17 +283,17 @@ export const phuketTours: Tour[] = [
       "Full meal of your prepared dishes",
       "Complimentary welcome drink and refreshments",
       "Recipe booklet to take home",
-      "Certificate of completion"
+      "Certificate of completion",
     ],
-    
+
     exclusions: [
       "Alcoholic beverages (available for purchase)",
       "Additional food beyond cooking class menu",
       "Personal cooking equipment (available in gift shop)",
       "Gratuities (optional)",
-      "Souvenir photos (available for additional fee)"
+      "Souvenir photos (available for additional fee)",
     ],
-    
+
     itinerary: [
       "09:00 - Hotel pickup (morning class) or 13:30 (afternoon class)",
       "09:30 - Arrival at cooking school for welcome drink and orientation",
@@ -174,23 +304,26 @@ export const phuketTours: Tour[] = [
       "13:00 - Enjoy your prepared meal in the dining room",
       "13:45 - Recipe discussion and cooking tips",
       "14:00 - Certificate presentation and conclusion",
-      "14:30 - Return transport to hotel"
+      "14:30 - Return transport to hotel",
     ],
-    
+
     faqs: [
       {
         question: "Do I need prior cooking experience?",
-        answer: "No prior cooking experience is necessary. Our professional chefs guide you step-by-step through each recipe with clear instructions suitable for complete beginners. The class is designed to be accessible yet informative for cooks of all levels, from novices to experienced home chefs looking to expand their repertoire."
+        answer:
+          "No prior cooking experience is necessary. Our professional chefs guide you step-by-step through each recipe with clear instructions suitable for complete beginners. The class is designed to be accessible yet informative for cooks of all levels, from novices to experienced home chefs looking to expand their repertoire.",
       },
       {
         question: "Can dietary restrictions be accommodated?",
-        answer: "Yes, we can accommodate vegetarian, vegan, gluten-free, and most other dietary restrictions with advance notice. Please inform us of any allergies or dietary requirements when booking so we can tailor the recipes accordingly. The rich diversity of Thai cuisine allows for many adaptations while maintaining authentic flavors."
+        answer:
+          "Yes, we can accommodate vegetarian, vegan, gluten-free, and most other dietary restrictions with advance notice. Please inform us of any allergies or dietary requirements when booking so we can tailor the recipes accordingly. The rich diversity of Thai cuisine allows for many adaptations while maintaining authentic flavors.",
       },
       {
         question: "What dishes will we learn to cook?",
-        answer: "Our standard menu includes four classic Thai dishes: an appetizer (like Fresh Spring Rolls or Fish Cakes), a curry dish (Green, Red, or Massaman Curry), a stir-fry (such as Pad Thai or Cashew Chicken), and a dessert (typically Mango Sticky Rice or Coconut Pancakes). We rotate seasonal specialties and can also accommodate special requests with advance notice."
-      }
-    ]
+        answer:
+          "Our standard menu includes four classic Thai dishes: an appetizer (like Fresh Spring Rolls or Fish Cakes), a curry dish (Green, Red, or Massaman Curry), a stir-fry (such as Pad Thai or Cashew Chicken), and a dessert (typically Mango Sticky Rice or Coconut Pancakes). We rotate seasonal specialties and can also accommodate special requests with advance notice.",
+      },
+    ],
   },
   {
     title: "Ethical Elephant Sanctuary Visit",
@@ -212,32 +345,107 @@ export const phuketTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "nature-experience",
-    
+
     meetingPoint: {
       address: "Phuket Elephant Sanctuary Office, 100/4 Moo 2, Paklok, Thalang",
       coordinates: {
         latitude: 8.0591,
-        longitude: 98.4090,
+        longitude: 98.409,
       },
-      instructions: "Meet at the Sanctuary's reception office. Transportation from your hotel is included, or you can arrive directly at the meeting point.",
+      instructions:
+        "Meet at the Sanctuary's reception office. Transportation from your hotel is included, or you can arrive directly at the meeting point.",
       contactNumber: "+66 76 529 099",
       contactEmail: "elephants@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-24", "2023-12-25", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30", "2023-12-31",
-      "2024-01-01", "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-08", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-15", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-22", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-29", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-04", "2024-02-05", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-11", "2024-02-12", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-18", "2024-02-19", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-25", "2024-02-26", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-24",
+      "2023-12-25",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2023-12-31",
+      "2024-01-01",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-08",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-15",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-22",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-29",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-05",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-12",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-19",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+      "2024-02-26",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Observe elephants roaming freely in a natural environment",
       "Prepare special elephant food and feed the gentle giants by hand",
       "Watch elephants bathing and playing in their mud spa",
       "Learn about elephant behavior and conservation from expert mahouts",
-      "Support a genuinely ethical sanctuary that prioritizes elephant welfare"
+      "Support a genuinely ethical sanctuary that prioritizes elephant welfare",
     ],
-    
+
     inclusions: [
       "Round-trip transportation from your Phuket hotel",
       "English-speaking guide with expertise in elephant conservation",
@@ -245,16 +453,16 @@ export const phuketTours: Tour[] = [
       "Fresh fruit and light refreshments",
       "Rain ponchos (if needed)",
       "Reusable water bottle (yours to keep)",
-      "Contribution to elephant welfare programs"
+      "Contribution to elephant welfare programs",
     ],
-    
+
     exclusions: [
       "Alcoholic beverages",
       "Professional photography service (available at additional cost)",
       "Souvenir purchases",
-      "Gratuities (optional but appreciated by local staff)"
+      "Gratuities (optional but appreciated by local staff)",
     ],
-    
+
     itinerary: [
       "08:00 - 09:00 - Hotel pickup (time depends on hotel location)",
       "09:30 - Arrival at sanctuary, welcome briefing and orientation",
@@ -268,23 +476,26 @@ export const phuketTours: Tour[] = [
       "14:30 - Q&A session with elephant specialists",
       "15:00 - Free time for photos and final elephant observation",
       "15:30 - Departure from sanctuary",
-      "16:00 - 17:00 - Return to hotel"
+      "16:00 - 17:00 - Return to hotel",
     ],
-    
+
     faqs: [
       {
         question: "Will I be able to ride the elephants?",
-        answer: "No, this sanctuary strictly prohibits elephant riding as it's harmful to elephant health and welfare. Instead, we offer more meaningful interactions like observing, feeding, and walking alongside these magnificent creatures in a respectful environment. This approach allows you to connect with elephants while supporting ethical tourism practices that prioritize animal welfare."
+        answer:
+          "No, this sanctuary strictly prohibits elephant riding as it's harmful to elephant health and welfare. Instead, we offer more meaningful interactions like observing, feeding, and walking alongside these magnificent creatures in a respectful environment. This approach allows you to connect with elephants while supporting ethical tourism practices that prioritize animal welfare.",
       },
       {
         question: "Is this experience suitable for children?",
-        answer: "Yes, this is a family-friendly experience that children typically love. Kids of all ages are welcome, though parents should supervise young children around the elephants. The sanctuary guides are experienced in helping children interact safely and respectfully with the elephants, creating memorable educational experiences for young animal lovers."
+        answer:
+          "Yes, this is a family-friendly experience that children typically love. Kids of all ages are welcome, though parents should supervise young children around the elephants. The sanctuary guides are experienced in helping children interact safely and respectfully with the elephants, creating memorable educational experiences for young animal lovers.",
       },
       {
         question: "What should I wear for the elephant sanctuary visit?",
-        answer: "We recommend comfortable, casual clothing that you don't mind getting dirty, as elephants can sometimes spray water or mud. Wear closed-toe shoes with good traction as pathways may be uneven or muddy. Bring a hat, sunscreen, and insect repellent. The sanctuary provides rain ponchos if needed during rainy season and reusable water bottles to stay hydrated throughout your visit."
-      }
-    ]
+        answer:
+          "We recommend comfortable, casual clothing that you don't mind getting dirty, as elephants can sometimes spray water or mud. Wear closed-toe shoes with good traction as pathways may be uneven or muddy. Bring a hat, sunscreen, and insect repellent. The sanctuary provides rain ponchos if needed during rainy season and reusable water bottles to stay hydrated throughout your visit.",
+      },
+    ],
   },
   {
     title: "Phuket Island Highlights & Viewpoints Tour",
@@ -306,32 +517,69 @@ export const phuketTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: true,
     tourCategoryId: "sightseeing",
-    
+
     meetingPoint: {
       address: "Hotel pickup available from all major Phuket areas",
       coordinates: {
         latitude: 7.8804,
         longitude: 98.3923,
       },
-      instructions: "We provide complimentary pickup from your hotel. Please wait in the lobby 10 minutes before your scheduled pickup time.",
+      instructions:
+        "We provide complimentary pickup from your hotel. Please wait in the lobby 10 minutes before your scheduled pickup time.",
       contactNumber: "+66 76 340 444",
       contactEmail: "islandtour@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-17", "2023-12-19", "2023-12-21", "2023-12-23", "2023-12-25", "2023-12-27", "2023-12-29", "2023-12-31",
-      "2024-01-02", "2024-01-04", "2024-01-06", "2024-01-08", "2024-01-10", "2024-01-12", "2024-01-14", "2024-01-16", "2024-01-18", "2024-01-20", "2024-01-22", "2024-01-24", "2024-01-26", "2024-01-28", "2024-01-30",
-      "2024-02-01", "2024-02-03", "2024-02-05", "2024-02-07", "2024-02-09", "2024-02-11", "2024-02-13", "2024-02-15", "2024-02-17", "2024-02-19", "2024-02-21", "2024-02-23", "2024-02-25", "2024-02-27", "2024-02-29"
+      "2023-12-15",
+      "2023-12-17",
+      "2023-12-19",
+      "2023-12-21",
+      "2023-12-23",
+      "2023-12-25",
+      "2023-12-27",
+      "2023-12-29",
+      "2023-12-31",
+      "2024-01-02",
+      "2024-01-04",
+      "2024-01-06",
+      "2024-01-08",
+      "2024-01-10",
+      "2024-01-12",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-18",
+      "2024-01-20",
+      "2024-01-22",
+      "2024-01-24",
+      "2024-01-26",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-02-01",
+      "2024-02-03",
+      "2024-02-05",
+      "2024-02-07",
+      "2024-02-09",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-15",
+      "2024-02-17",
+      "2024-02-19",
+      "2024-02-21",
+      "2024-02-23",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Visit the iconic Big Buddha statue with panoramic island views",
       "Stop at Karon Viewpoint for the famous 'Three Beaches' vista",
       "Explore Wat Chalong, Phuket's largest and most important Buddhist temple",
       "Discover the charming Sino-Portuguese architecture of Phuket Old Town",
-      "Shop for local products at a cashew factory and honey farm"
+      "Shop for local products at a cashew factory and honey farm",
     ],
-    
+
     inclusions: [
       "Hotel pickup and drop-off",
       "Air-conditioned vehicle transportation",
@@ -340,17 +588,17 @@ export const phuketTours: Tour[] = [
       "Bottled water",
       "Light refreshments",
       "Wet towels",
-      "Insurance during the tour"
+      "Insurance during the tour",
     ],
-    
+
     exclusions: [
       "Lunch (optional stop at local restaurant, own expense)",
       "Personal expenses and souvenirs",
       "Gratuities (optional)",
       "Alcoholic beverages",
-      "Additional activities not specified in the itinerary"
+      "Additional activities not specified in the itinerary",
     ],
-    
+
     itinerary: [
       "08:30 - 09:00 - Hotel pickup (time varies based on location)",
       "09:30 - Visit Karon Viewpoint for the spectacular Three Beaches Vista",
@@ -362,23 +610,26 @@ export const phuketTours: Tour[] = [
       "14:45 - Walking tour of Phuket Old Town's charming streets",
       "15:30 - Free time for shopping and exploration in Old Town",
       "16:00 - Return journey with final viewpoint stop",
-      "16:30 - 17:30 - Hotel drop-off"
+      "16:30 - 17:30 - Hotel drop-off",
     ],
-    
+
     faqs: [
       {
         question: "What should I wear for temple visits?",
-        answer: "For temple visits, particularly Wat Chalong and Big Buddha, modest dress is required as a sign of respect. Both men and women should wear clothing that covers shoulders and knees. Shorts, sleeveless tops, and short skirts are not appropriate. The Big Buddha site provides sarongs for visitors who need them, but we recommend dressing appropriately from the start of the tour."
+        answer:
+          "For temple visits, particularly Wat Chalong and Big Buddha, modest dress is required as a sign of respect. Both men and women should wear clothing that covers shoulders and knees. Shorts, sleeveless tops, and short skirts are not appropriate. The Big Buddha site provides sarongs for visitors who need them, but we recommend dressing appropriately from the start of the tour.",
       },
       {
         question: "How much walking is involved?",
-        answer: "This tour involves moderate walking, particularly during the Old Town portion where we explore on foot for approximately 1 hour on flat terrain. At the Big Buddha, there are stairs to climb to reach the statue, though the pace is leisurely. Most other locations require minimal walking from the vehicle to the attraction. Comfortable walking shoes are recommended."
+        answer:
+          "This tour involves moderate walking, particularly during the Old Town portion where we explore on foot for approximately 1 hour on flat terrain. At the Big Buddha, there are stairs to climb to reach the statue, though the pace is leisurely. Most other locations require minimal walking from the vehicle to the attraction. Comfortable walking shoes are recommended.",
       },
       {
         question: "Is this tour suitable for children?",
-        answer: "Yes, this tour is family-friendly with attractions that appeal to all ages. Children typically enjoy the Big Buddha visit and the interactive experiences at the honey farm and cashew factory. The tour pace is moderate with regular stops, making it manageable for families. We can provide child seats for the vehicle if requested in advance."
-      }
-    ]
+        answer:
+          "Yes, this tour is family-friendly with attractions that appeal to all ages. Children typically enjoy the Big Buddha visit and the interactive experiences at the honey farm and cashew factory. The tour pace is moderate with regular stops, making it manageable for families. We can provide child seats for the vehicle if requested in advance.",
+      },
+    ],
   },
   {
     title: "Island Hopping: James Bond Island & Hong Island by Speedboat",
@@ -400,32 +651,97 @@ export const phuketTours: Tour[] = [
     isOffTheBeatenPath: false,
     isLocalExperience: false,
     tourCategoryId: "adventure",
-    
+
     meetingPoint: {
       address: "Ao Po Grand Marina, 113/1 Moo 6, Paklok, Thalang, Phuket",
       coordinates: {
         latitude: 8.0578,
         longitude: 98.4318,
       },
-      instructions: "Meet at the Ao Po Grand Marina pier. Hotel pickup is included, or you can arrive directly at the pier where our staff will be waiting.",
+      instructions:
+        "Meet at the Ao Po Grand Marina pier. Hotel pickup is included, or you can arrive directly at the pier where our staff will be waiting.",
       contactNumber: "+66 76 239 888",
       contactEmail: "jamesbond@paragontrails.com",
     },
-    
+
     availableDates: [
-      "2023-12-15", "2023-12-16", "2023-12-17", "2023-12-18", "2023-12-19", "2023-12-20", "2023-12-21", "2023-12-22", "2023-12-23", "2023-12-24", "2023-12-26", "2023-12-27", "2023-12-28", "2023-12-29", "2023-12-30", "2023-12-31",
-      "2024-01-02", "2024-01-03", "2024-01-04", "2024-01-05", "2024-01-06", "2024-01-07", "2024-01-09", "2024-01-10", "2024-01-11", "2024-01-12", "2024-01-13", "2024-01-14", "2024-01-16", "2024-01-17", "2024-01-18", "2024-01-19", "2024-01-20", "2024-01-21", "2024-01-23", "2024-01-24", "2024-01-25", "2024-01-26", "2024-01-27", "2024-01-28", "2024-01-30", "2024-01-31",
-      "2024-02-01", "2024-02-02", "2024-02-03", "2024-02-04", "2024-02-06", "2024-02-07", "2024-02-08", "2024-02-09", "2024-02-10", "2024-02-11", "2024-02-13", "2024-02-14", "2024-02-15", "2024-02-16", "2024-02-17", "2024-02-18", "2024-02-20", "2024-02-21", "2024-02-22", "2024-02-23", "2024-02-24", "2024-02-25", "2024-02-27", "2024-02-28", "2024-02-29"
+      "2023-12-15",
+      "2023-12-16",
+      "2023-12-17",
+      "2023-12-18",
+      "2023-12-19",
+      "2023-12-20",
+      "2023-12-21",
+      "2023-12-22",
+      "2023-12-23",
+      "2023-12-24",
+      "2023-12-26",
+      "2023-12-27",
+      "2023-12-28",
+      "2023-12-29",
+      "2023-12-30",
+      "2023-12-31",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14",
+      "2024-01-16",
+      "2024-01-17",
+      "2024-01-18",
+      "2024-01-19",
+      "2024-01-20",
+      "2024-01-21",
+      "2024-01-23",
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-30",
+      "2024-01-31",
+      "2024-02-01",
+      "2024-02-02",
+      "2024-02-03",
+      "2024-02-04",
+      "2024-02-06",
+      "2024-02-07",
+      "2024-02-08",
+      "2024-02-09",
+      "2024-02-10",
+      "2024-02-11",
+      "2024-02-13",
+      "2024-02-14",
+      "2024-02-15",
+      "2024-02-16",
+      "2024-02-17",
+      "2024-02-18",
+      "2024-02-20",
+      "2024-02-21",
+      "2024-02-22",
+      "2024-02-23",
+      "2024-02-24",
+      "2024-02-25",
+      "2024-02-27",
+      "2024-02-28",
+      "2024-02-29",
     ],
-    
+
     highlights: [
       "Visit the iconic James Bond Island featured in 'The Man with the Golden Gun'",
       "Explore the floating village of Koh Panyee built on stilts over the water",
       "Kayak through dramatic limestone caves and hidden lagoons",
       "Swim and relax on the secluded beaches of Hong Island",
-      "Marvel at the emerald green waters and limestone karsts of Phang Nga Bay"
+      "Marvel at the emerald green waters and limestone karsts of Phang Nga Bay",
     ],
-    
+
     inclusions: [
       "Hotel pickup and drop-off",
       "Speedboat transportation throughout the tour",
@@ -436,17 +752,17 @@ export const phuketTours: Tour[] = [
       "Fresh fruit, snacks and cold drinks",
       "Life jackets and safety equipment",
       "Accident insurance",
-      "Waterproof bags for personal items"
+      "Waterproof bags for personal items",
     ],
-    
+
     exclusions: [
       "Alcoholic beverages",
       "Optional gratuities",
       "Personal expenses and souvenirs",
       "Professional photography service (available at additional cost)",
-      "Special dietary requests (possible with advance notice and fee)"
+      "Special dietary requests (possible with advance notice and fee)",
     ],
-    
+
     itinerary: [
       "07:30 - 08:30 - Hotel pickup (time varies based on location)",
       "08:45 - Arrive at Ao Po Grand Marina for check-in and briefing",
@@ -461,24 +777,27 @@ export const phuketTours: Tour[] = [
       "15:30 - Swimming and relaxing at secluded beach",
       "16:15 - Return cruise to Ao Po Marina",
       "17:00 - Arrive at marina and begin hotel drop-offs",
-      "17:30 - 18:30 - Arrive back at hotel"
+      "17:30 - 18:30 - Arrive back at hotel",
     ],
-    
+
     faqs: [
       {
         question: "How close can we get to James Bond Island?",
-        answer: "Our tour allows you to land on James Bond Island (Khao Phing Kan) and explore the beach and surrounding area on foot. You'll have ample time for photos with the famous needle-shaped limestone karst (Koh Tapu) that appeared in the film. While boats cannot dock directly at the iconic rock, you'll get close enough for perfect photos from the adjacent island."
+        answer:
+          "Our tour allows you to land on James Bond Island (Khao Phing Kan) and explore the beach and surrounding area on foot. You'll have ample time for photos with the famous needle-shaped limestone karst (Koh Tapu) that appeared in the film. While boats cannot dock directly at the iconic rock, you'll get close enough for perfect photos from the adjacent island.",
       },
       {
         question: "Do I need to know how to kayak?",
-        answer: "No kayaking experience is necessary. Our guides provide basic instruction, and the kayaking takes place in calm, sheltered waters. For those not comfortable kayaking, there's the option to sit back and relax in a guide-paddled kayak through the caves and lagoons. Life jackets are provided for all participants."
+        answer:
+          "No kayaking experience is necessary. Our guides provide basic instruction, and the kayaking takes place in calm, sheltered waters. For those not comfortable kayaking, there's the option to sit back and relax in a guide-paddled kayak through the caves and lagoons. Life jackets are provided for all participants.",
       },
       {
         question: "What's the best time of year for this tour?",
-        answer: "This tour operates year-round, but the optimal period is November through April during the dry season when seas are calmer and visibility is best. During May to October (monsoon season), the tour still runs on most days but may be subject to cancellation or route modification if weather conditions are unsuitable. Morning departures generally offer calmer waters even during the monsoon season."
-      }
-    ]
-  }
+        answer:
+          "This tour operates year-round, but the optimal period is November through April during the dry season when seas are calmer and visibility is best. During May to October (monsoon season), the tour still runs on most days but may be subject to cancellation or route modification if weather conditions are unsuitable. Morning departures generally offer calmer waters even during the monsoon season.",
+      },
+    ],
+  },
 ];
 
 export default phuketTours;

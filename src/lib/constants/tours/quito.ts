@@ -26,8 +26,8 @@ export const quitoTours: Tour[] = [
     meetingPoint: {
       address: "Plaza Grande, Quito Historic Center",
       coordinates: {
-        latitude: -0.2200,
-        longitude: -78.5120,
+        latitude: -0.22,
+        longitude: -78.512,
       },
       instructions:
         "Meet at the central gazebo in Plaza Grande. Your guide will be holding a yellow umbrella with 'Paragon Trails' logo.",
@@ -143,7 +143,7 @@ export const quitoTours: Tour[] = [
     meetingPoint: {
       address: "Swissotel Quito, Av. 12 de Octubre 1820, Quito",
       coordinates: {
-        latitude: -0.1990,
+        latitude: -0.199,
         longitude: -78.4851,
       },
       instructions:
@@ -617,7 +617,7 @@ export const quitoTours: Tour[] = [
     meetingPoint: {
       address: "Casa Gangotena Hotel, Bolívar Oe6-41, Quito",
       coordinates: {
-        latitude: -0.2200,
+        latitude: -0.22,
         longitude: -78.5145,
       },
       instructions:

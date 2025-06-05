@@ -9,8 +9,10 @@ export const hanoiTourGuides: TourGuide[] = [
     experienceYears: 12,
     specialties: ["Old Quarter", "Colonial Architecture", "Cultural Heritage"],
     bio: "Nguyen Minh Tuan is a Hanoi native with twelve years of experience guiding guests through the capital's historic Old Quarter and French colonial districts. With a degree in Vietnamese History, Tuan leads tours that explore the city's 1000-year evolution and architectural treasures. His tours include visits to ancient guild streets, heritage buildings, and cultural landmarks. Tuan's extensive historical knowledge and engaging storytelling style make his tours both educational and captivating. He is passionate about preserving Hanoi's unique heritage while helping visitors understand the layers of history visible in its streets.",
-    description: "Nguyen Minh Tuan offers immersive historical tours exploring Hanoi's Old Quarter and colonial heritage.",
-    quote: "Hanoi is a living museum where ancient traditions and modern life coexist on streets that have remained largely unchanged for centuries.",
+    description:
+      "Nguyen Minh Tuan offers immersive historical tours exploring Hanoi's Old Quarter and colonial heritage.",
+    quote:
+      "Hanoi is a living museum where ancient traditions and modern life coexist on streets that have remained largely unchanged for centuries.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -21,8 +23,10 @@ export const hanoiTourGuides: TourGuide[] = [
     experienceYears: 9,
     specialties: ["Street Food", "Culinary Traditions", "Market Tours"],
     bio: "Pham Thi Linh is a culinary expert with nine years of experience guiding food-focused tours through Hanoi's vibrant street food scene. A graduate of the Hanoi Culinary Arts Centre, Linh leads tours that explore hidden food alleys, bustling markets, and local favorites. Her tours include tastings across numerous food stalls, cooking demonstrations, and insights into Northern Vietnamese food culture. Linh's knowledge of regional specialties and street food traditions makes her tours both delicious and authentic. She is passionate about showcasing how Hanoi's cuisine reflects Vietnamese history and social customs.",
-    description: "Pham Thi Linh leads street food adventures highlighting Hanoi's diverse culinary landscape and food traditions.",
-    quote: "To understand Hanoi, you must eat your way through its streets – each dish tells a story about our history, geography, and way of life.",
+    description:
+      "Pham Thi Linh leads street food adventures highlighting Hanoi's diverse culinary landscape and food traditions.",
+    quote:
+      "To understand Hanoi, you must eat your way through its streets – each dish tells a story about our history, geography, and way of life.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -33,8 +37,10 @@ export const hanoiTourGuides: TourGuide[] = [
     experienceYears: 8,
     specialties: ["Ho Chi Minh Complex", "Political History", "War Memorials"],
     bio: "Tran Van Hai is a political history specialist with eight years of experience guiding tours focused on Vietnam's independence struggle and national heroes. With a background in Political Science, Hai leads tours that provide context for understanding sites like the Ho Chi Minh Mausoleum, the One Pillar Pagoda, and war memorials. His tours offer balanced perspectives on Vietnam's complex 20th-century history. Hai's detailed knowledge and thoughtful presentation make his tours both informative and nuanced. He is committed to helping visitors understand Vietnam's historical journey while respecting different viewpoints.",
-    description: "Tran Van Hai guides historical tours exploring Vietnam's independence movement and political development.",
-    quote: "Our modern history contains difficult chapters, but understanding them is essential to appreciating Vietnam's remarkable journey to the present.",
+    description:
+      "Tran Van Hai guides historical tours exploring Vietnam's independence movement and political development.",
+    quote:
+      "Our modern history contains difficult chapters, but understanding them is essential to appreciating Vietnam's remarkable journey to the present.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
   {
@@ -43,10 +49,16 @@ export const hanoiTourGuides: TourGuide[] = [
     name: "Le Thi Hong",
     languages: ["Vietnamese", "English", "Korean"],
     experienceYears: 7,
-    specialties: ["Traditional Arts", "Cultural Performances", "Craft Villages"],
+    specialties: [
+      "Traditional Arts",
+      "Cultural Performances",
+      "Craft Villages",
+    ],
     bio: "Le Thi Hong is an arts and culture specialist with seven years of experience guiding tours focused on Vietnam's traditional performing arts and crafts. With a degree in Vietnamese Studies, Hong leads tours that explore water puppetry theaters, craft villages, and cultural workshops. Her tours include performances, hands-on activities, and meetings with master artisans. Hong's deep appreciation for Vietnamese artistic traditions and her connections with local artists make her tours both engaging and insightful. She is dedicated to supporting traditional arts while helping visitors understand their cultural significance.",
-    description: "Le Thi Hong offers cultural tours highlighting Vietnam's traditional arts, performances, and craft heritage.",
-    quote: "Our traditional arts aren't museum pieces – they're living traditions being adapted for new generations while preserving ancient techniques and stories.",
+    description:
+      "Le Thi Hong offers cultural tours highlighting Vietnam's traditional arts, performances, and craft heritage.",
+    quote:
+      "Our traditional arts aren't museum pieces – they're living traditions being adapted for new generations while preserving ancient techniques and stories.",
     profileImage: "/images/guides/valeria-marino.jpg",
   },
 ];

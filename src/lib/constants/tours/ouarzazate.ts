@@ -483,7 +483,8 @@ export const ouarzazateTours: Tour[] = [
 
     faqs: [
       {
-        question: "Is prior astronomy knowledge needed to enjoy the stargazing?",
+        question:
+          "Is prior astronomy knowledge needed to enjoy the stargazing?",
         answer:
           "Not at all! Our astronomy guides cater to all knowledge levels, from complete beginners to amateur astronomers. The experience begins with a basic orientation to the night sky, identifying major constellations and celestial objects visible to the naked eye. When using telescopes, guides provide clear explanations of what you're observing. The desert's exceptionally dark skies make even simple stargazing spectacular.",
       },
@@ -522,7 +523,8 @@ export const ouarzazateTours: Tour[] = [
     tourCategoryId: "cultural",
 
     meetingPoint: {
-      address: "Women's Carpet Cooperative, Tazenakht Village, 30km west of Ouarzazate",
+      address:
+        "Women's Carpet Cooperative, Tazenakht Village, 30km west of Ouarzazate",
       coordinates: {
         latitude: 30.5778,
         longitude: -7.2026,
@@ -597,7 +599,7 @@ export const ouarzazateTours: Tour[] = [
       {
         question: "What will I create during the workshop?",
         answer:
-          "You'll create a small textile piece approximately 20cm x 30cm (8\" x 12\") that demonstrates basic Berber weaving techniques and traditional patterns. This could be a decorative wall hanging, table mat, or small bag depending on your preference. While this is smaller than the elaborate carpets that might take months to complete, it incorporates authentic techniques and materials, providing a meaningful introduction to this ancient craft.",
+          'You\'ll create a small textile piece approximately 20cm x 30cm (8" x 12") that demonstrates basic Berber weaving techniques and traditional patterns. This could be a decorative wall hanging, table mat, or small bag depending on your preference. While this is smaller than the elaborate carpets that might take months to complete, it incorporates authentic techniques and materials, providing a meaningful introduction to this ancient craft.',
       },
       {
         question: "How does this workshop benefit the local community?",

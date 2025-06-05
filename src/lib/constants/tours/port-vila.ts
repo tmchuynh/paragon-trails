@@ -27,7 +27,7 @@ export const portVilaTours: Tour[] = [
       address: "Port Vila Seafront, Opposite Au Bon Marché Nambatu",
       coordinates: {
         latitude: -17.7344,
-        longitude: 168.3150,
+        longitude: 168.315,
       },
       instructions:
         "Meet at the seafront pickup point opposite Au Bon Marché Nambatu supermarket. Look for our blue Paragon Trails minibus.",
@@ -877,7 +877,7 @@ export const portVilaTours: Tour[] = [
     meetingPoint: {
       address: "Iririki Island Resort Jetty, Port Vila Harbour",
       coordinates: {
-        latitude: -17.7380,
+        latitude: -17.738,
         longitude: 168.3107,
       },
       instructions:
