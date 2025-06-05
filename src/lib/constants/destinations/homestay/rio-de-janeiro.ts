@@ -1,0 +1,182 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const rio-de-janeiroHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Hiroshi Garcia",
+        background: "Environmental activist working on local sustainability projects",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: true,
+        guestPolicy: ["Not suitable for infants (under 2 years)", "Pet-friendly accommodation", "Perfect for long-term stays", "Family-friendly environment"],
+        hostingStyle: "laid-back",
+        houseRules: ["Please conserve water and electricity", "Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "No loud music after 9 PM"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 39.91279557100718, lng: 0.09764178269994647 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "hiroshi.garcia@example.com",
+        phoneNumber: "+97-707-10629",
+        isVerified: true,
+        rating: 4.7,
+        reviewCount: 33,
+        quote: "Life in rio-de-janeiro has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Hiroshi Smith",
+        background: "Digital nomad who settled in the city after falling in love with it",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: true,
+        guestPolicy: ["Family-friendly environment", "No parties or events", "Great for couples", "Pet-friendly accommodation"],
+        hostingStyle: "private",
+        houseRules: ["Recycle according to local guidelines", "No smoking indoors", "Please conserve water and electricity", "Breakfast is self-serve between 7-9 AM"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 39.98141555125632, lng: -0.0010424869006594728 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "hiroshi.smith@example.com",
+        isVerified: true,
+        rating: 4.5,
+        reviewCount: 10,
+        quote: "Staying with me means experiencing rio-de-janeiro like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "art-or-craft-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Ahmed Suzuki",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: true,
+        guestPolicy: ["Pet-friendly accommodation", "Suitable for digital nomads"],
+        hostingStyle: "social",
+        houseRules: ["Laundry available on weekends only", "No food in the bedrooms", "Quiet hours after 10 PM", "Please clean up after yourself in common areas"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 40.071015139063554, lng: 0.059542893089286564 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ahmed.suzuki@example.com",
+        phoneNumber: "+81-344-8215",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 73,
+        quote: "Life in rio-de-janeiro has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "academic-homestay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Hiroshi Morales",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Suitable for digital nomads", "Smoking allowed in designated areas only", "LGBTQ+ friendly"],
+        hostingStyle: "laid-back",
+        houseRules: ["Please conserve water and electricity", "Laundry available on weekends only", "Remove shoes when entering the home", "Respect shared spaces"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 40.038778805502574, lng: 0.01233392386927315 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "hiroshi.morales@example.com",
+        phoneNumber: "+36-731-6556",
+        isVerified: true,
+        rating: 4,
+        reviewCount: 57,
+        quote: "Staying with me means experiencing rio-de-janeiro like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "farm-stay",
+      },
+      {
+        name: "Liam Moore",
+        background: "Entrepreneur running a local business",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Senior-friendly accommodations", "Suitable for business travelers", "LGBTQ+ friendly", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Lock the door when leaving the house", "No food in the bedrooms", "Kitchen closed after 8 PM", "Please conserve water and electricity", "No pets allowed"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 39.97025366225094, lng: -0.03395067623216717 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "liam.moore@example.com",
+        phoneNumber: "+100-1087-9391",
+        isVerified: false,
+        rating: 4.1,
+        reviewCount: 82,
+        quote: "Staying with me means experiencing rio-de-janeiro like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "academic-homestay",
+      },
+      {
+        name: "Amelia Anderson",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: true,
+        guestPolicy: ["Family-friendly environment", "Children welcome", "Not suitable for infants (under 2 years)", "Great for couples"],
+        hostingStyle: "hands-on",
+        houseRules: ["No loud music after 9 PM", "No outside guests without permission", "No food in the bedrooms", "Recycle according to local guidelines"],
+        location: {
+          city: "rio-de-janeiro",
+          country: "undefined",
+          coordinates: { lat: 40.093221901842014, lng: -0.04751510603142997 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "amelia.anderson@example.com",
+        phoneNumber: "+83-312-3652",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 100,
+        quote: "Welcome to my rio-de-janeiro home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "guest-suite",
+      }
+    ]
+  }
+];

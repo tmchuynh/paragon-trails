@@ -1,0 +1,148 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const san-juanHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Ava Müller",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["Not suitable for infants (under 2 years)", "Perfect for long-term stays", "Children welcome", "No parties or events"],
+        hostingStyle: "family-oriented",
+        houseRules: ["No smoking indoors", "No pets allowed", "Respect shared spaces"],
+        location: {
+          city: "san-juan",
+          country: "undefined",
+          coordinates: { lat: 39.986214149539435, lng: -0.02719782643086703 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "ava.müller@example.com",
+        phoneNumber: "+21-362-8031",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 82,
+        quote: "Welcome to my san-juan home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "shared-room",
+      },
+      {
+        name: "Aisha Kim",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: true,
+        guestPolicy: ["Children welcome", "No children under 12", "Ideal for solo travelers"],
+        hostingStyle: "social",
+        houseRules: ["No outside guests without permission", "No loud music after 9 PM", "Kitchen closed after 8 PM", "Lock the door when leaving the house", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "san-juan",
+          country: "undefined",
+          coordinates: { lat: 39.94093663591359, lng: -0.07939856172598875 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "aisha.kim@example.com",
+        phoneNumber: "+27-360-6922",
+        isVerified: true,
+        rating: 3.8,
+        reviewCount: 79,
+        quote: "Staying with me means experiencing san-juan like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "pet-friendly-stay",
+      },
+      {
+        name: "Mei Nguyen",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Senior-friendly accommodations", "LGBTQ+ friendly"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Respect shared spaces", "Breakfast is self-serve between 7-9 AM", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "san-juan",
+          country: "undefined",
+          coordinates: { lat: 39.9079296345748, lng: 0.012589233241538572 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "mei.nguyen@example.com",
+        phoneNumber: "+59-306-7025",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 85,
+        quote: "Life in san-juan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "pet-friendly-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Henry Williams",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: true,
+        guestPolicy: ["No parties or events", "Family-friendly environment"],
+        hostingStyle: "laid-back",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "No pets allowed", "Please conserve water and electricity", "Pets welcome", "No loud music after 9 PM"],
+        location: {
+          city: "san-juan",
+          country: "undefined",
+          coordinates: { lat: 39.94257478751475, lng: -0.02965675406611057 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "henry.williams@example.com",
+        isVerified: true,
+        rating: 3.8,
+        reviewCount: 7,
+        quote: "Life in san-juan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "villa-stay",
+      },
+      {
+        name: "Sophia Dubois",
+        background: "Local musician involved in the cultural scene",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["No parties or events", "Perfect for long-term stays", "Smoking allowed in designated areas only"],
+        hostingStyle: "laid-back",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "Kitchen closed after 8 PM", "Pets welcome"],
+        location: {
+          city: "san-juan",
+          country: "undefined",
+          coordinates: { lat: 40.020520470995784, lng: -0.09228555581326958 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "sophia.dubois@example.com",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 23,
+        quote: "Life in san-juan has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "art-or-craft-stay",
+      }
+    ]
+  }
+];

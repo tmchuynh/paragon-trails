@@ -1,0 +1,147 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const aucklandHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Hiroshi Wang",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["Children welcome", "Suitable for digital nomads"],
+        hostingStyle: "laid-back",
+        houseRules: ["No outside guests without permission", "Breakfast is self-serve between 7-9 AM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM"],
+        location: {
+          city: "auckland",
+          country: "undefined",
+          coordinates: { lat: 39.906239395458485, lng: 0.059976716486941806 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "hiroshi.wang@example.com",
+        phoneNumber: "+12-913-4271",
+        isVerified: true,
+        rating: 4.9,
+        reviewCount: 100,
+        quote: "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "cottage-stay",
+      },
+      {
+        name: "Amelia Jones",
+        background: "Entrepreneur running a local business",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["Suitable for digital nomads", "Suitable for business travelers", "Family-friendly environment"],
+        hostingStyle: "family-oriented",
+        houseRules: ["No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "Kitchen closed after 8 PM", "Pets welcome", "Recycle according to local guidelines", "Quiet hours after 10 PM"],
+        location: {
+          city: "auckland",
+          country: "undefined",
+          coordinates: { lat: 40.02977894427819, lng: -0.08652214977620992 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "amelia.jones@example.com",
+        phoneNumber: "+84-762-9814",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 83,
+        quote: "I've lived in auckland all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "guest-suite",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Ravi Davis",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Great for couples", "Children welcome", "Perfect for long-term stays"],
+        hostingStyle: "social",
+        houseRules: ["No smoking indoors", "Breakfast is self-serve between 7-9 AM", "Please clean up after yourself in common areas", "No food in the bedrooms"],
+        location: {
+          city: "auckland",
+          country: "undefined",
+          coordinates: { lat: 40.06980228905459, lng: -0.06502726537375891 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ravi.davis@example.com",
+        isVerified: true,
+        rating: 4,
+        reviewCount: 93,
+        quote: "Life in auckland has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "urban-apartment-stay",
+      },
+      {
+        name: "Carlos Miller",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: true,
+        guestPolicy: ["No parties or events", "Children welcome", "Suitable for business travelers", "Pet-friendly accommodation"],
+        hostingStyle: "hands-on",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "auckland",
+          country: "undefined",
+          coordinates: { lat: 39.999289291997194, lng: -0.07222033556345098 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "carlos.miller@example.com",
+        isVerified: true,
+        rating: 3.8,
+        reviewCount: 78,
+        quote: "Staying with me means experiencing auckland like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "urban-apartment-stay",
+      },
+      {
+        name: "Yuki Ibrahim",
+        background: "Expat who has lived in the city for over a decade",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Pet-friendly accommodation", "Suitable for digital nomads", "Smoking allowed in designated areas only"],
+        hostingStyle: "social",
+        houseRules: ["No pets allowed", "No food in the bedrooms", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "auckland",
+          country: "undefined",
+          coordinates: { lat: 40.04745938784761, lng: 0.024067133782861697 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "yuki.ibrahim@example.com",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 56,
+        quote: "My home is your home in auckland. I look forward to making your stay memorable and authentic.",
+        stayType: "host-family-stay",
+      }
+    ]
+  }
+];

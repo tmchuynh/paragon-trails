@@ -1,0 +1,181 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const dubrovnikHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Aisha Johnson",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Children welcome", "Accessible for guests with mobility issues", "No parties or events"],
+        hostingStyle: "social",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Recycle according to local guidelines"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 39.90042700013865, lng: -0.006206658234641088 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "aisha.johnson@example.com",
+        phoneNumber: "+43-624-2446",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 58,
+        quote: "My home is your home in dubrovnik. I look forward to making your stay memorable and authentic.",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Ana Ibrahim",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Accessible for guests with mobility issues", "Pet-friendly accommodation", "Suitable for business travelers"],
+        hostingStyle: "laid-back",
+        houseRules: ["No outside guests without permission", "Remove shoes when entering the home", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 40.05947316299429, lng: 0.09358969288297089 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "ana.ibrahim@example.com",
+        phoneNumber: "+83-876-2780",
+        isVerified: true,
+        rating: 3.5,
+        reviewCount: 40,
+        quote: "I've lived in dubrovnik all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "academic-homestay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Muhammad Gonzalez",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: true,
+        guestPolicy: ["Children welcome", "No parties or events", "Accessible for guests with mobility issues"],
+        hostingStyle: "hands-on",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "No food in the bedrooms", "Pets welcome", "Laundry available on weekends only", "No loud music after 9 PM"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 40.009305091850536, lng: -0.08353661337570993 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "muhammad.gonzalez@example.com",
+        phoneNumber: "+65-454-7089",
+        isVerified: true,
+        rating: 4.5,
+        reviewCount: 46,
+        quote: "Welcome to my dubrovnik home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "host-family-stay",
+      },
+      {
+        name: "Priya Singh",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: true,
+        guestPolicy: ["Ideal for solo travelers", "Family-friendly environment", "Accessible for guests with mobility issues", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Please conserve water and electricity", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Please clean up after yourself in common areas", "Pets welcome"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 39.90429305933626, lng: -0.02090355143537112 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "priya.singh@example.com",
+        phoneNumber: "+50-404-6463",
+        isVerified: false,
+        rating: 4.4,
+        reviewCount: 11,
+        quote: "Staying with me means experiencing dubrovnik like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "urban-apartment-stay",
+      },
+      {
+        name: "Henry Brown",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Accessible for guests with mobility issues", "Ideal for solo travelers", "Pet-friendly accommodation", "Perfect for long-term stays"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "No smoking indoors", "Laundry available on weekends only", "No pets allowed", "Pets welcome", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 40.00346437688984, lng: -0.035554273866810024 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "henry.brown@example.com",
+        phoneNumber: "+61-758-5416",
+        isVerified: true,
+        rating: 4.9,
+        reviewCount: 32,
+        quote: "I've lived in dubrovnik all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "villa-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Ava Chen",
+        background: "Expat who has lived in the city for over a decade",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "No parties or events", "Ideal for solo travelers", "Great for couples"],
+        hostingStyle: "social",
+        houseRules: ["Respect shared spaces", "Notify host if you'll be arriving after 10 PM", "No pets allowed"],
+        location: {
+          city: "dubrovnik",
+          country: "undefined",
+          coordinates: { lat: 39.97139864156886, lng: -0.008371633186549016 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ava.chen@example.com",
+        phoneNumber: "+96-661-6448",
+        isVerified: true,
+        rating: 3.5,
+        reviewCount: 50,
+        quote: "Staying with me means experiencing dubrovnik like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "entire-home",
+      }
+    ]
+  }
+];

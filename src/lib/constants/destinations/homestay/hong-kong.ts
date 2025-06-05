@@ -1,0 +1,182 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const hong-kongHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "James Rossi",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["No children under 12", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Pets welcome", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM", "No food in the bedrooms", "Quiet hours after 10 PM", "No outside guests without permission"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 40.011152627178, lng: -0.05313502378192734 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "james.rossi@example.com",
+        phoneNumber: "+76-241-7931",
+        isVerified: true,
+        rating: 4.6,
+        reviewCount: 29,
+        quote: "Welcome to my hong-kong home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Lucas Thomas",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["Children welcome", "Accessible for guests with mobility issues", "Pet-friendly accommodation", "Suitable for digital nomads"],
+        hostingStyle: "laid-back",
+        houseRules: ["No food in the bedrooms", "No outside guests without permission", "Quiet hours after 10 PM", "Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "Breakfast is self-serve between 7-9 AM"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 40.01034597453468, lng: -0.0013401168119882428 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "lucas.thomas@example.com",
+        phoneNumber: "+84-842-2091",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 18,
+        quote: "I've lived in hong-kong all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "bed-and-breakfast",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Maria Thomas",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["Senior-friendly accommodations", "Ideal for solo travelers"],
+        hostingStyle: "private",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "No loud music after 9 PM", "Quiet hours after 10 PM", "No smoking indoors", "Laundry available on weekends only"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 40.075736668649995, lng: -0.052232702804490265 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "maria.thomas@example.com",
+        isVerified: true,
+        rating: 4.1,
+        reviewCount: 34,
+        quote: "I've lived in hong-kong all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "host-family-stay",
+      },
+      {
+        name: "James Anderson",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["No parties or events", "Pet-friendly accommodation", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "social",
+        houseRules: ["No loud music after 9 PM", "Lock the door when leaving the house", "No outside guests without permission", "Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "Quiet hours after 10 PM"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 39.96560392813946, lng: -0.0924696252970799 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "james.anderson@example.com",
+        phoneNumber: "+39-592-4943",
+        isVerified: true,
+        rating: 4.4,
+        reviewCount: 93,
+        quote: "Life in hong-kong has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "private-room-in-home",
+      },
+      {
+        name: "Muhammad Ali",
+        background: "Long-time resident and community organizer",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Great for couples", "No parties or events"],
+        hostingStyle: "family-oriented",
+        houseRules: ["No outside guests without permission", "Lock the door when leaving the house", "Recycle according to local guidelines", "No loud music after 9 PM", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 40.070295920867785, lng: -0.08134258133519001 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "muhammad.ali@example.com",
+        isVerified: true,
+        rating: 4.5,
+        reviewCount: 85,
+        quote: "My home is your home in hong-kong. I look forward to making your stay memorable and authentic.",
+        stayType: "villa-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Diego da Costa",
+        background: "Local historian researching regional traditions",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Great for couples"],
+        hostingStyle: "laid-back",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "Pets welcome", "Please conserve water and electricity", "No food in the bedrooms", "No outside guests without permission", "Breakfast is self-serve between 7-9 AM"],
+        location: {
+          city: "hong-kong",
+          country: "undefined",
+          coordinates: { lat: 40.03866647514095, lng: 0.06710016486455023 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "diego.da costa@example.com",
+        phoneNumber: "+75-195-2917",
+        isVerified: false,
+        rating: 4.1,
+        reviewCount: 72,
+        quote: "Welcome to my hong-kong home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "traditional-homestay",
+      }
+    ]
+  }
+];

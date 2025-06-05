@@ -1,0 +1,121 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const montevideoHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "James Gonzalez",
+        background: "University professor with expertise in local culture",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for digital nomads", "Children welcome", "Pet-friendly accommodation"],
+        hostingStyle: "laid-back",
+        houseRules: ["Kitchen closed after 8 PM", "No food in the bedrooms", "No pets allowed", "Remove shoes when entering the home", "Breakfast is self-serve between 7-9 AM", "Laundry available on weekends only"],
+        location: {
+          city: "montevideo",
+          country: "undefined",
+          coordinates: { lat: 40.035366398616944, lng: 0.07139387129496338 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "james.gonzalez@example.com",
+        phoneNumber: "+69-448-8805",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 89,
+        quote: "My home is your home in montevideo. I look forward to making your stay memorable and authentic.",
+        stayType: "language-immersion",
+      },
+      {
+        name: "Elena Khan",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Senior-friendly accommodations", "Perfect for long-term stays", "Not suitable for infants (under 2 years)", "Great for couples"],
+        hostingStyle: "private",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "No pets allowed", "No outside guests without permission"],
+        location: {
+          city: "montevideo",
+          country: "undefined",
+          coordinates: { lat: 40.063911491085726, lng: -0.062345470286287744 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "elena.khan@example.com",
+        phoneNumber: "+99-216-10238",
+        isVerified: true,
+        rating: 3.7,
+        reviewCount: 46,
+        quote: "I've lived in montevideo all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "bed-and-breakfast",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Emma Gonzalez",
+        background: "University professor with expertise in local culture",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: true,
+        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays"],
+        hostingStyle: "social",
+        houseRules: ["Pets welcome", "Recycle according to local guidelines", "Respect shared spaces", "Breakfast is self-serve between 7-9 AM", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "montevideo",
+          country: "undefined",
+          coordinates: { lat: 39.97979623075402, lng: 0.06509617273157137 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "emma.gonzalez@example.com",
+        phoneNumber: "+47-966-3735",
+        isVerified: true,
+        rating: 4.8,
+        reviewCount: 16,
+        quote: "Welcome to my montevideo home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Harper Patel",
+        background: "Long-time resident and community organizer",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "14:00 AM",
+        isPopular: true,
+        guestPolicy: ["Senior-friendly accommodations", "Great for couples", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "Lock the door when leaving the house", "No food in the bedrooms", "Respect shared spaces", "Please conserve water and electricity"],
+        location: {
+          city: "montevideo",
+          country: "undefined",
+          coordinates: { lat: 40.00869026987667, lng: 0.01842908536429011 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "harper.patel@example.com",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 69,
+        quote: "Staying with me means experiencing montevideo like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "urban-apartment-stay",
+      }
+    ]
+  }
+];

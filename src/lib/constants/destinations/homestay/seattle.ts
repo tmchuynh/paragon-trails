@@ -1,0 +1,181 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const seattleHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Boris Jackson",
+        background: "Expat who has lived in the city for over a decade",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Ideal for solo travelers", "Pet-friendly accommodation", "Smoking allowed in designated areas only"],
+        hostingStyle: "hands-on",
+        houseRules: ["Pets welcome", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 39.99269032847537, lng: 0.049647472907409534 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "boris.jackson@example.com",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 69,
+        quote: "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "language-immersion",
+      },
+      {
+        name: "Sophia Dubois",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Senior-friendly accommodations", "No parties or events"],
+        hostingStyle: "hands-on",
+        houseRules: ["Pets welcome", "Laundry available on weekends only", "Please clean up after yourself in common areas", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 39.9268315319481, lng: 0.04791245143553691 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "sophia.dubois@example.com",
+        phoneNumber: "+9-1024-7396",
+        isVerified: true,
+        rating: 4.4,
+        reviewCount: 97,
+        quote: "My home is your home in seattle. I look forward to making your stay memorable and authentic.",
+        stayType: "spiritual-or-wellness-retreat",
+      },
+      {
+        name: "Elena Suzuki",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Children welcome", "Suitable for business travelers", "Great for couples"],
+        hostingStyle: "private",
+        houseRules: ["Pets welcome", "Please conserve water and electricity", "Laundry available on weekends only", "No outside guests without permission", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 40.00217260704491, lng: -0.09513419286641041 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "elena.suzuki@example.com",
+        phoneNumber: "+54-677-2010",
+        isVerified: true,
+        rating: 3.7,
+        reviewCount: 21,
+        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "bed-and-breakfast",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "William Singh",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays"],
+        hostingStyle: "laid-back",
+        houseRules: ["No smoking indoors", "No pets allowed", "Kitchen closed after 8 PM", "Quiet hours after 10 PM"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 39.98325501071574, lng: -0.08583276155480234 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "william.singh@example.com",
+        phoneNumber: "+91-708-10060",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 64,
+        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "language-immersion",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Hiroshi da Costa",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "private",
+        houseRules: ["Kitchen closed after 8 PM", "No loud music after 9 PM", "Please conserve water and electricity"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 40.0022898456096, lng: 0.05823581262480801 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "hiroshi.da costa@example.com",
+        isVerified: true,
+        rating: 3.7,
+        reviewCount: 47,
+        quote: "Life in seattle has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "villa-stay",
+      },
+      {
+        name: "Juan Suzuki",
+        background: "Environmental activist working on local sustainability projects",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Family-friendly environment"],
+        hostingStyle: "laid-back",
+        houseRules: ["Kitchen closed after 8 PM", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "No pets allowed"],
+        location: {
+          city: "seattle",
+          country: "undefined",
+          coordinates: { lat: 40.01292139356435, lng: -0.015568065779108853 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "juan.suzuki@example.com",
+        phoneNumber: "+95-238-7263",
+        isVerified: true,
+        rating: 4.6,
+        reviewCount: 92,
+        quote: "Staying with me means experiencing seattle like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "entire-home",
+      }
+    ]
+  }
+];

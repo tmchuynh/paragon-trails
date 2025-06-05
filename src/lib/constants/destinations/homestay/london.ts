@@ -1,0 +1,210 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const londonHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Liam Johnson",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Great for couples", "Suitable for digital nomads", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "hands-on",
+        houseRules: ["Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM", "No smoking indoors", "Recycle according to local guidelines", "No pets allowed", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 39.907337737801654, lng: -0.04453096702613335 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "liam.johnson@example.com",
+        phoneNumber: "+3-227-1574",
+        isVerified: true,
+        rating: 4.6,
+        reviewCount: 69,
+        quote: "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "farm-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Elijah Nguyen",
+        background: "Local historian researching regional traditions",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Pet-friendly accommodation", "Family-friendly environment", "Great for couples"],
+        hostingStyle: "hands-on",
+        houseRules: ["No smoking indoors", "Wi-Fi password will be provided upon arrival", "Respect shared spaces", "Please conserve water and electricity"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 39.91166291829657, lng: -0.018988726278173426 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "elijah.nguyen@example.com",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 39,
+        quote: "My home is your home in london. I look forward to making your stay memorable and authentic.",
+        stayType: "villa-stay",
+      },
+      {
+        name: "Mei Garcia",
+        background: "Expat who has lived in the city for over a decade",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["No children under 12", "Children welcome"],
+        hostingStyle: "social",
+        houseRules: ["Laundry available on weekends only", "No outside guests without permission", "Lock the door when leaving the house", "Please clean up after yourself in common areas", "No loud music after 9 PM", "Please conserve water and electricity"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 40.05824495433225, lng: 0.07186089021066633 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "mei.garcia@example.com",
+        phoneNumber: "+47-643-1269",
+        isVerified: true,
+        rating: 4.8,
+        reviewCount: 71,
+        quote: "Welcome to my london home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "cottage-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Elena Wilson",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for digital nomads", "Senior-friendly accommodations"],
+        hostingStyle: "social",
+        houseRules: ["No outside guests without permission", "Wi-Fi password will be provided upon arrival", "Breakfast is self-serve between 7-9 AM", "Remove shoes when entering the home", "Kitchen closed after 8 PM"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 39.91157165406126, lng: 0.0467345687905453 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "elena.wilson@example.com",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 36,
+        quote: "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "language-immersion",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Priya Miller",
+        background: "Entrepreneur running a local business",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Family-friendly environment", "Children welcome", "No children under 12", "LGBTQ+ friendly"],
+        hostingStyle: "private",
+        houseRules: ["No food in the bedrooms", "Recycle according to local guidelines", "Remove shoes when entering the home", "Pets welcome"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 40.014114050648594, lng: -0.08834270333412891 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "priya.miller@example.com",
+        phoneNumber: "+56-506-3413",
+        isVerified: true,
+        rating: 4.8,
+        reviewCount: 17,
+        quote: "My home is your home in london. I look forward to making your stay memorable and authentic.",
+        stayType: "bed-and-breakfast",
+      },
+      {
+        name: "William da Costa",
+        background: "Entrepreneur running a local business",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Children welcome", "LGBTQ+ friendly"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Recycle according to local guidelines", "Respect shared spaces", "No outside guests without permission"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 40.01823945906016, lng: -0.05582837448918783 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "william.da costa@example.com",
+        phoneNumber: "+93-618-4619",
+        isVerified: true,
+        rating: 3.5,
+        reviewCount: 17,
+        quote: "Staying with me means experiencing london like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "self-catering",
+      },
+      {
+        name: "Sofia Müller",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["No children under 12", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "hands-on",
+        houseRules: ["Recycle according to local guidelines", "No pets allowed", "Please clean up after yourself in common areas", "Pets welcome", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "london",
+          country: "undefined",
+          coordinates: { lat: 40.01260073960341, lng: -0.012502125731902375 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "sofia.müller@example.com",
+        phoneNumber: "+52-525-6124",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 79,
+        quote: "Life in london has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "heritage-stay",
+      }
+    ]
+  }
+];

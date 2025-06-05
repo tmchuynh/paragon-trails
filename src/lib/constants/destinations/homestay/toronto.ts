@@ -1,0 +1,210 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const torontoHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Harper Garcia",
+        background: "Expat who has lived in the city for over a decade",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["Not suitable for infants (under 2 years)", "LGBTQ+ friendly", "Great for couples", "Accessible for guests with mobility issues"],
+        hostingStyle: "family-oriented",
+        houseRules: ["No food in the bedrooms", "No smoking indoors", "Remove shoes when entering the home", "Please clean up after yourself in common areas", "Lock the door when leaving the house", "No outside guests without permission"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 40.02913776536756, lng: -0.07429463689899976 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "harper.garcia@example.com",
+        phoneNumber: "+59-110-3436",
+        isVerified: true,
+        rating: 4.1,
+        reviewCount: 49,
+        quote: "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
+        stayType: "farm-stay",
+      },
+      {
+        name: "Diego Garcia",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Smoking allowed in designated areas only"],
+        hostingStyle: "laid-back",
+        houseRules: ["No food in the bedrooms", "No loud music after 9 PM", "Breakfast is self-serve between 7-9 AM", "Wi-Fi password will be provided upon arrival", "Please conserve water and electricity", "Remove shoes when entering the home"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 40.03517535828262, lng: 0.06630556216398073 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "diego.garcia@example.com",
+        phoneNumber: "+46-482-4101",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 78,
+        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "host-family-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Muhammad Patel",
+        background: "University professor with expertise in local culture",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "23:00 PM",
+        isPopular: true,
+        guestPolicy: ["Accessible for guests with mobility issues", "Great for couples", "Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "hands-on",
+        houseRules: ["Remove shoes when entering the home", "Recycle according to local guidelines", "No loud music after 9 PM", "Wi-Fi password will be provided upon arrival", "No smoking indoors"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 40.0189754914093, lng: -0.03371223837649527 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "muhammad.patel@example.com",
+        phoneNumber: "+80-253-7414",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 33,
+        quote: "Welcome to my toronto home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "pet-friendly-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Aisha Nguyen",
+        background: "Entrepreneur running a local business",
+        maxGuests: 4,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["Children welcome", "Suitable for digital nomads", "Family-friendly environment", "Smoking allowed in designated areas only"],
+        hostingStyle: "laid-back",
+        houseRules: ["No smoking indoors", "Quiet hours after 10 PM", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 39.98487113054679, lng: -0.03256106989172931 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "aisha.nguyen@example.com",
+        phoneNumber: "+36-715-4118",
+        isVerified: true,
+        rating: 5,
+        reviewCount: 63,
+        quote: "Life in toronto has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "heritage-stay",
+      },
+      {
+        name: "Elijah Thomas",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "15:00 AM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Senior-friendly accommodations"],
+        hostingStyle: "hands-on",
+        houseRules: ["Pets welcome", "No outside guests without permission", "Please conserve water and electricity", "No food in the bedrooms", "Quiet hours after 10 PM", "No pets allowed"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 40.01753328735313, lng: 0.03822332942803572 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "elijah.thomas@example.com",
+        phoneNumber: "+18-573-7321",
+        isVerified: true,
+        rating: 4.6,
+        reviewCount: 70,
+        quote: "My home is your home in toronto. I look forward to making your stay memorable and authentic.",
+        stayType: "spiritual-or-wellness-retreat",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Ibrahim Kim",
+        background: "Local historian researching regional traditions",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Suitable for business travelers", "Great for couples", "Pet-friendly accommodation"],
+        hostingStyle: "social",
+        houseRules: ["Kitchen closed after 8 PM", "Please clean up after yourself in common areas", "No food in the bedrooms"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 39.976421860716314, lng: -0.051474728399446605 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "ibrahim.kim@example.com",
+        isVerified: true,
+        rating: 4.5,
+        reviewCount: 62,
+        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "academic-homestay",
+      },
+      {
+        name: "Alexander Smith",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Accessible for guests with mobility issues", "Not suitable for infants (under 2 years)", "Senior-friendly accommodations", "Great for couples"],
+        hostingStyle: "hands-on",
+        houseRules: ["No loud music after 9 PM", "No outside guests without permission", "Respect shared spaces", "Pets welcome"],
+        location: {
+          city: "toronto",
+          country: "undefined",
+          coordinates: { lat: 39.939178699884984, lng: 0.06653879872442034 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "alexander.smith@example.com",
+        phoneNumber: "+38-270-2945",
+        isVerified: true,
+        rating: 4,
+        reviewCount: 84,
+        quote: "I've lived in toronto all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "spiritual-or-wellness-retreat",
+      }
+    ]
+  }
+];

@@ -1,0 +1,182 @@
+import { Homestay } from "@/lib/interfaces/people/homestay";
+
+export const southamptonHomestays: Homestay[] = [
+  {
+    hosts: [
+      {
+        name: "Liam Kowalski",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["Accessible for guests with mobility issues", "LGBTQ+ friendly", "Children welcome"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Laundry available on weekends only", "Wi-Fi password will be provided upon arrival", "Quiet hours after 10 PM", "Lock the door when leaving the house", "Pets welcome", "Breakfast is self-serve between 7-9 AM"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 40.085907502206005, lng: -0.04709373112455051 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "liam.kowalski@example.com",
+        phoneNumber: "+67-780-2322",
+        isVerified: true,
+        rating: 3.8,
+        reviewCount: 88,
+        quote: "My home is your home in southampton. I look forward to making your stay memorable and authentic.",
+        stayType: "urban-apartment-stay",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Alexander Dubois",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 5,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["Pet-friendly accommodation", "No parties or events", "Family-friendly environment"],
+        hostingStyle: "private",
+        houseRules: ["Remove shoes when entering the home", "Notify host if you'll be arriving after 10 PM", "Recycle according to local guidelines", "Quiet hours after 10 PM"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 40.08769050158586, lng: -0.08444967910337234 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "alexander.dubois@example.com",
+        phoneNumber: "+42-496-2815",
+        isVerified: true,
+        rating: 4.7,
+        reviewCount: 55,
+        quote: "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "farm-stay",
+      },
+      {
+        name: "Ahmed Suzuki",
+        background: "Local historian researching regional traditions",
+        maxGuests: 3,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["No parties or events", "No children under 12"],
+        hostingStyle: "hands-on",
+        houseRules: ["Laundry available on weekends only", "Recycle according to local guidelines", "No outside guests without permission", "Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 39.97301273208427, lng: -0.08442895596888259 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "ahmed.suzuki@example.com",
+        phoneNumber: "+40-689-9524",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 51,
+        quote: "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "shared-room",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Liam Wilson",
+        background: "University professor with expertise in local culture",
+        maxGuests: 1,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["No children under 12", "Suitable for business travelers", "Ideal for solo travelers"],
+        hostingStyle: "laid-back",
+        houseRules: ["Laundry available on weekends only", "No pets allowed", "Respect shared spaces", "Pets welcome"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 40.07429195259707, lng: -0.05356734103022287 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "liam.wilson@example.com",
+        phoneNumber: "+10-689-2979",
+        isVerified: true,
+        rating: 4.4,
+        reviewCount: 81,
+        quote: "Welcome to my southampton home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "spiritual-or-wellness-retreat",
+      }
+    ]
+  },
+  {
+    hosts: [
+      {
+        name: "Liam Thomas",
+        background: "Long-time resident and community organizer",
+        maxGuests: 2,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["No parties or events", "LGBTQ+ friendly"],
+        hostingStyle: "laid-back",
+        houseRules: ["Respect shared spaces", "Kitchen closed after 8 PM", "No pets allowed"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 39.97640785704779, lng: -0.03774719948233658 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "10:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "liam.thomas@example.com",
+        isVerified: true,
+        rating: 4,
+        reviewCount: 85,
+        quote: "Staying with me means experiencing southampton like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "self-catering",
+      },
+      {
+        name: "Mia Miller",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 6,
+        languages: ["Indonesian", "Hindi", "Bengali", "Japanese", "English"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Perfect for long-term stays", "Family-friendly environment", "Not suitable for infants (under 2 years)"],
+        hostingStyle: "hands-on",
+        houseRules: ["Recycle according to local guidelines", "Notify host if you'll be arriving after 10 PM", "No outside guests without permission", "Quiet hours after 10 PM", "No food in the bedrooms", "No loud music after 9 PM"],
+        location: {
+          city: "southampton",
+          country: "undefined",
+          coordinates: { lat: 39.9578157145764, lng: -0.04729064979223039 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "12:00 AM",
+        },
+        email: "mia.miller@example.com",
+        isVerified: true,
+        rating: 4.7,
+        reviewCount: 41,
+        quote: "Life in southampton has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "academic-homestay",
+      }
+    ]
+  }
+];
