@@ -1,3 +1,33 @@
+/**
+ * Hotel Data Generator Script
+ * ===========================
+ *
+ * This script generates realistic hotel data for city destinations in the Paragon Trails application.
+ * It creates structured hotel information with properties like name, address, amenities, policies,
+ * and contact details for each city in the application.
+ *
+ * Features:
+ * - Generates 3-8 hotels per city by default
+ * - Creates appropriate folder structure in src/lib/constants/destinations/hotels
+ * - Supports country-specific naming conventions and address formats
+ * - Uses realistic data with proper formatting and structure
+ *
+ * Usage: node scripts/generate-hotels.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r             Rewrite existing files instead of skipping them
+ *   --append N, -a N          Append N new hotels to existing files
+ *   --append-default, -d      Append 3 new hotels to existing files (default amount)
+ *   --city C, -c C            Process only cities matching the search term
+ *
+ * Examples:
+ *   node scripts/generate-hotels.mjs --rewrite
+ *   node scripts/generate-hotels.mjs --append 5
+ *   node scripts/generate-hotels.mjs --append-default
+ *   node scripts/generate-hotels.mjs --city "Tokyo"
+ *   node scripts/generate-hotels.mjs --city "Tokyo" --append-default
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -20,10 +50,6 @@ import {
   streetSuffixes,
 } from "./utils/shared-hotel-data.mjs";
 
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-hotels.mjs --rewrite
-
 const cities = getCityFiles();
 
 // Add check for empty cities array
@@ -45,6 +71,7 @@ function parseCommandLineArgs() {
     rewrite: false,
     append: null,
     cityFilter: null,
+    appendDefault: false,
   };
 
   const args = process.argv.slice(2);
@@ -60,6 +87,11 @@ function parseCommandLineArgs() {
       if (!isNaN(value) && value > 0) {
         options.append = value;
       }
+    }
+
+    if (arg === "--append-default" || arg === "-d") {
+      options.appendDefault = true;
+      options.append = 3; // Default to adding 3 hotels
     }
 
     if ((arg === "--city" || arg === "-c") && i + 1 < args.length) {
@@ -154,7 +186,6 @@ const cancellationPolicies = [
   "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
   "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
 ];
-  
 
 // Get currency for a city based on country and region
 function getCurrencyForCity(city) {
@@ -207,7 +238,6 @@ function getRandomPhone() {
 
   return phone;
 }
-
 
 // Generate random subset of array elements
 function getRandomSubset(array, minItems, maxItems) {
@@ -505,15 +535,18 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-hotels.mjs [options]
+Usage: node scripts/generate-hotels.mjs [options]
 
 Options:
-  --rewrite, -r       Rewrite existing files instead of skipping them
-  --append N, -a N    Append N new hotels to existing files
-  --city C, -c C      Process only cities matching the search term
+  --rewrite, -r            Rewrite existing files instead of skipping them
+  --append N, -a N         Append N new hotels to existing files
+  --append-default, -d     Append 3 new hotels to existing files
+  --city C, -c C           Process only cities matching the search term
 
 Examples:
-  node generate-hotels.mjs --rewrite
-  node generate-hotels.mjs --append 3
-  node generate-hotels.mjs --city "Tokyo"
+  node scripts/generate-hotels.mjs --rewrite
+  node scripts/generate-hotels.mjs --append 3
+  node scripts/generate-hotels.mjs --append-default
+  node scripts/generate-hotels.mjs --city "Tokyo"
+  node scripts/generate-hotels.mjs --city "Tokyo" --append-default
 `);
