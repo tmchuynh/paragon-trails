@@ -316,3 +316,58 @@ export const regionalDestinations = {
   Africa: ["Cape Town"],
   "Western Europe": ["Paris", "Los Angeles", "San Francisco"],
 };
+
+export const countryCurrencyMap = {
+  "United States": "USD",
+  Canada: "CAD",
+  "United Kingdom": "GBP",
+  Japan: "JPY",
+  China: "CNY",
+  Australia: "AUD",
+  "New Zealand": "NZD",
+  Singapore: "SGD",
+  Thailand: "THB",
+  Vietnam: "VND",
+  Indonesia: "IDR",
+  Russia: "RUB",
+  Brazil: "BRL",
+  Argentina: "ARS",
+  Mexico: "MXN",
+  "South Africa": "ZAR",
+  India: "INR",
+  "United Arab Emirates": "AED",
+  Bahamas: "BSD",
+  "Cayman Islands": "KYD",
+  "Puerto Rico": "USD",
+  "Sint Maarten": "ANG",
+  Bermuda: "BMD",
+  "U.S. Virgin Islands": "USD",
+  Honduras: "HNL",
+  Uruguay: "UYU",
+  Peru: "PEN",
+  Colombia: "COP",
+  Chile: "CLP",
+};
+
+export const euroCountries = [
+  "Germany",
+  "France",
+  "Italy",
+  "Spain",
+  "Netherlands",
+  "Greece",
+  "Portugal",
+  "Ireland",
+  "Malta",
+  "Finland",
+  "Croatia",
+  "Denmark", // Note: Denmark has its own currency (DKK) but we'll use EUR for simplicity
+];
+
+export const regionCurrencyMap = {
+  Caribbean: "USD",
+  Mediterranean: "EUR",
+  "Northern Europe": "EUR",
+  "Asia Pacific": "USD", // Default, will be overridden by country
+  "South America": "USD", // Default, will be overridden by country
+};
