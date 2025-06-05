@@ -44,6 +44,10 @@ import {
   euroCountries,
   regionCurrencyMap,
 } from "./utils/geo-utils.mjs";
+import {
+  createObjectParser,
+  extractObjectsFromFile,
+} from "./utils/parse-utils.mjs";
 
 const cities = getCityFiles();
 
@@ -465,54 +469,8 @@ async function fileExists(filePath) {
 
 // Extract existing motorcycles from a file
 async function extractExistingMotorcycles(filePath) {
-  try {
-    const content = await readFile(filePath, "utf-8");
-    const match = content.match(
-      /export const \w+: Motorcycle\[\] = \[([\s\S]*?)\];/
-    );
-    if (!match || !match[1]) return [];
-
-    const itemsText = match[1].trim();
-    if (!itemsText) return [];
-
-    const items = [];
-    let bracketCount = 0;
-    let currentItem = "";
-
-    for (let i = 0; i < itemsText.length; i++) {
-      const char = itemsText[i];
-
-      if (char === "{") bracketCount++;
-      if (char === "}") bracketCount--;
-
-      currentItem += char;
-
-      if (bracketCount === 0 && currentItem.trim()) {
-        try {
-          // Instead of using Function constructor, manually parse motorcycle object
-          const motorcycle = parseMotorcycleObject(currentItem);
-          if (motorcycle) {
-            items.push(motorcycle);
-          }
-          currentItem = "";
-        } catch (e) {
-          console.warn("Failed to parse motorcycle:", e);
-          currentItem = "";
-        }
-      }
-    }
-
-    return items;
-  } catch (e) {
-    console.error("Error extracting motorcycles:", e);
-    return [];
-  }
-}
-
-// Parse motorcycle object using regex for key properties
-function parseMotorcycleObject(objString) {
-  // Create a motorcycle object with default/empty values
-  const motorcycle = {
+  // Create a motorcycle template with default/empty values
+  const motorcycleTemplate = {
     id: "",
     make: "",
     model: "",
@@ -536,29 +494,23 @@ function parseMotorcycleObject(objString) {
     location: "",
   };
 
-  try {
-    // Extract basic properties using regex
-    const idMatch = objString.match(/id:\s*"([^"]+)"/);
-    if (idMatch) motorcycle.id = idMatch[1];
+  // Use the shared utility with a motorcycle-specific parser
+  const motorcycleParser = createObjectParser(motorcycleTemplate);
+  const motorcycles = await extractObjectsFromFile(
+    filePath,
+    "Motorcycle",
+    motorcycleParser
+  );
 
-    const makeMatch = objString.match(/make:\s*"([^"]+)"/);
-    if (makeMatch) motorcycle.make = makeMatch[1];
-
-    const modelMatch = objString.match(/model:\s*"([^"]+)"/);
-    if (modelMatch) motorcycle.model = modelMatch[1];
-
-    const yearMatch = objString.match(/year:\s*(\d+)/);
-    if (yearMatch) motorcycle.year = parseInt(yearMatch[1], 10);
-
-    // Only return if we have the minimum required properties
-    if (motorcycle.id && motorcycle.make) {
-      return motorcycle;
-    }
-  } catch (error) {
-    console.warn(`Error parsing motorcycle object: ${error.message}`);
+  // Add validation to prevent errors with null/empty motorcycles array
+  if (!motorcycles || !Array.isArray(motorcycles) || motorcycles.length === 0) {
+    console.warn(
+      `Could not parse existing motorcycles in ${filePath}, will create fresh data`
+    );
+    return [];
   }
 
-  return null;
+  return motorcycles;
 }
 
 // Generate motorcycles and write to file
