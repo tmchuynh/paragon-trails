@@ -1,3 +1,33 @@
+/**
+ * City Attractions Generator Script
+ * =================================
+ *
+ * This script generates realistic attraction data for city destinations in the Paragon Trails application.
+ * It creates detailed attraction information with properties like title, description, pricing, tags,
+ * accessibility features, and other relevant details for each city in the application.
+ *
+ * Features:
+ * - Generates 9-19 attractions per city by default
+ * - Creates appropriate folder structure in src/lib/constants/destinations/city
+ * - Supports price filtering with custom price ranges
+ * - Generates diverse attraction types with relevant tags and features
+ * - Uses realistic pricing, ratings, and accessibility information
+ *
+ * Usage: node scripts/generate-city-attractions.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new attractions to existing files
+ *   --price P, -p P     Generate attractions with specified price range (options: $, $$, $$$, $$$$, free)
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node generate-city-attractions.mjs --rewrite
+ *   node generate-city-attractions.mjs --append 5
+ *   node generate-city-attractions.mjs --price "$$$"
+ *   node generate-city-attractions.mjs --city "Tokyo" --append 3
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -12,19 +42,6 @@ import {
   cityToRegionMap,
   formatCamelCaseToTitle,
 } from "./utils/geo-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-city-attractions.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new attractions to existing files
-// node scripts/generate-city-attractions.mjs --append 5
-
-// Price Range Flag: Use --price P or -p P to generate attractions with a specific price range
-// node scripts/generate-city-attractions.mjs --price "$$$"
-
-// Bonus City Filter: Added a --city flag to process only specific cities
-// node scripts/generate-city-attractions.mjs --city "Tokyo" --append 3 --price "$$$$"
 
 const cities = getCityFiles();
 
@@ -183,9 +200,9 @@ function generateAttraction(cityName) {
       Array(numTags)
         .fill(0)
         .map(
-          () => possibleTags[Math.floor(Math.random() * possibleTags.length)],
-        ),
-    ),
+          () => possibleTags[Math.floor(Math.random() * possibleTags.length)]
+        )
+    )
   );
 
   // Generate accessibility features
@@ -198,14 +215,14 @@ function generateAttraction(cityName) {
           () =>
             accessibilityOptions[
               Math.floor(Math.random() * accessibilityOptions.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Set accessibility-dependent property
   const isWheelchairAccessible = accessibilityFeatures.some((f) =>
-    f.includes("wheelchair"),
+    f.includes("wheelchair")
   );
 
   // Generate random time of day
@@ -302,7 +319,7 @@ async function extractExistingAttractions(filePath) {
 
     // Extract the array part using a simple regex approach
     const match = content.match(
-      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/,
+      /export const \w+: Attraction\[\] = \[([\s\S]*?)\];/
     );
     if (!match || !match[1]) return [];
 
@@ -366,7 +383,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "destinations",
-    "city",
+    "city"
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -386,7 +403,7 @@ async function generateCityFile(city) {
       attractions = await extractExistingAttractions(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -427,7 +444,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
@@ -439,7 +456,7 @@ async function generateAllCityFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower),
+      city.toLowerCase().includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -448,7 +465,7 @@ async function generateAllCityFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
   }
 
@@ -465,7 +482,7 @@ async function generateAllCityFiles() {
 generateAllCityFiles()
   .then(() => console.log("City attraction files generated successfully!"))
   .catch((error) =>
-    console.error("Error generating city attraction files:", error),
+    console.error("Error generating city attraction files:", error)
   );
 
 // Print usage information
