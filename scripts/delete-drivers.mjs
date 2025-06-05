@@ -3,23 +3,17 @@ import * as path from "path";
 import readline from "readline";
 import { promisify } from "util";
 import { getCityFiles } from "./utils/file-utils.mjs";
-import {
-  formatKebabToCamelCase,
-  removeAccents,
-} from "./utils/format-utils.mjs";
 
 // Usage:
-// node scripts/delete-city-attractions.mjs             # Shows deletion prompt for all cities
-// node scripts/delete-city-attractions.mjs --force     # Deletes all without confirmation
-// node scripts/delete-city-attractions.mjs --city tokyo  # Only delete for specified city
-// node scripts/delete-city-attractions.mjs --city tokyo --force  # Force delete without confirmation
+// node scripts/delete-drivers.mjs             # Shows deletion prompt for all cities
+// node scripts/delete-drivers.mjs --force     # Deletes all without confirmation
+// node scripts/delete-drivers.mjs --city tokyo  # Only delete for specified city
+// node scripts/delete-drivers.mjs --city tokyo --force  # Force delete without confirmation
 
 const cities = getCityFiles();
 
 const unlink = promisify(fs.unlink);
-const readdir = promisify(fs.readdir);
 const access = promisify(fs.access);
-const stat = promisify(fs.stat);
 
 // Parse command line arguments
 function parseCommandLineArgs() {
@@ -71,37 +65,36 @@ async function fileExists(filePath) {
   }
 }
 
-// Delete attraction file for a city
-async function deleteAttractionFile(city) {
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+// Delete driver file for a city
+async function deleteDriverFile(city) {
   const filePath = path.join(
     process.cwd(),
     "src",
     "lib",
     "constants",
-    "destinations",
-    "city",
-    `${formattedName}.ts`
+    "staff",
+    "drivers",
+    `${city}.ts`
   );
 
   // Check if file exists
   if (await fileExists(filePath)) {
     try {
       await unlink(filePath);
-      console.log(`✅ Deleted attraction file: ${filePath}`);
+      console.log(`✅ Deleted driver file: ${filePath}`);
       return true;
     } catch (error) {
       console.error(`❌ Error deleting file ${filePath}: ${error.message}`);
       return false;
     }
   } else {
-    console.log(`ℹ️ Attraction file for ${city} does not exist: ${filePath}`);
+    console.log(`ℹ️ Driver file for ${city} does not exist: ${filePath}`);
     return false;
   }
 }
 
-// Main function to delete attraction files
-async function deleteAttractionFiles() {
+// Main function to delete driver files
+async function deleteDriverFiles() {
   let citiesToProcess = cities;
 
   // Filter by city name if specified
@@ -125,7 +118,7 @@ async function deleteAttractionFiles() {
   // Confirm deletion unless force flag is set
   if (!options.force) {
     console.log(
-      `This will delete attraction files for ${citiesToProcess.length} cities:`
+      `This will delete driver files for ${citiesToProcess.length} cities:`
     );
     console.log(citiesToProcess.join(", "));
 
@@ -140,16 +133,16 @@ async function deleteAttractionFiles() {
   // Delete files for each city
   let deletedCount = 0;
   for (const city of citiesToProcess) {
-    const deleted = await deleteAttractionFile(city);
+    const deleted = await deleteDriverFile(city);
     if (deleted) deletedCount++;
   }
 
-  console.log(`Deleted ${deletedCount} attraction files.`);
+  console.log(`Deleted ${deletedCount} driver files.`);
   rl.close();
 }
 
 // Execute the script
-deleteAttractionFiles().catch((error) => {
+deleteDriverFiles().catch((error) => {
   console.error("Error executing delete script:", error);
   rl.close();
   process.exit(1);
@@ -157,15 +150,15 @@ deleteAttractionFiles().catch((error) => {
 
 // Print usage information
 console.log(`
-Usage: node delete-city-attractions.mjs [options]
+Usage: node delete-drivers.mjs [options]
 
 Options:
   --force, -f         Delete files without confirmation
-  --city C, -c C      Delete attraction files only for cities matching the search term
+  --city C, -c C      Delete driver files only for cities matching the search term
 
 Examples:
-  node delete-city-attractions.mjs
-  node delete-city-attractions.mjs --force
-  node delete-city-attractions.mjs --city "Tokyo"
-  node delete-city-attractions.mjs --city "Tokyo" --force
+  node delete-drivers.mjs
+  node delete-drivers.mjs --force
+  node delete-drivers.mjs --city "Tokyo"
+  node delete-drivers.mjs --city "Tokyo" --force
 `);

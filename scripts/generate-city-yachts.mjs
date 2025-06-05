@@ -7,7 +7,13 @@ import {
   formatTitleToCamelCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
-import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  countryCurrencyMap,
+  euroCountries,
+  regionCurrencyMap,
+} from "./utils/geo-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -293,6 +299,22 @@ const ports = {
 
 // Generate a random yacht with all required properties
 function generateYacht(city, index) {
+  // Get country and region for the city
+  const country = cityCountryMap[city] || "";
+  const region = cityToRegionMap[city] || "";
+
+  // Determine currency based on country, with fallbacks
+  let currency;
+  if (euroCountries.includes(country)) {
+    currency = "EUR";
+  } else if (countryCurrencyMap[country]) {
+    currency = countryCurrencyMap[country];
+  } else if (regionCurrencyMap[region]) {
+    currency = regionCurrencyMap[region];
+  } else {
+    currency = "USD"; // Default fallback
+  }
+
   // Determine yacht type - use specific type if provided, otherwise random
   const yachtType =
     options.yachtType ||
@@ -480,7 +502,7 @@ function generateYacht(city, index) {
   );
 
   // Get region for the city to select appropriate home port
-  const region = cityToRegionMap[city];
+  // Use the existing region variable instead of redeclaring it
   const regionKey =
     region === "Mediterranean"
       ? "Mediterranean"
@@ -512,9 +534,6 @@ function generateYacht(city, index) {
         )
     )
   );
-
-  // Get country for the city
-  const country = cityCountryMap[city] || "";
 
   // Generate pricing
   const perDay =
@@ -613,7 +632,7 @@ function generateYacht(city, index) {
     pricing: {
       perDay,
       perWeek,
-      currency: Math.random() > 0.3 ? "USD" : "EUR",
+      currency, // Now using location-based currency
       includes: amenities.slice(0, Math.floor(Math.random() * 3) + 1),
       excludes: amenities.slice(-Math.floor(Math.random() * 2)),
     },

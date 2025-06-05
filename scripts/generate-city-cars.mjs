@@ -7,7 +7,13 @@ import {
   formatTitleToCamelCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
-import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  countryCurrencyMap,
+  euroCountries,
+  regionCurrencyMap,
+} from "./utils/geo-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -334,6 +340,22 @@ function generateLuxuryRentalCar(city, index) {
   const models = carModels[make] || ["Premium"];
   const model = models[Math.floor(Math.random() * models.length)];
 
+  // Get country and region for the city
+  const country = cityCountryMap[city] || "";
+  const region = cityToRegionMap[city] || "";
+
+  // Determine currency based on country, with fallbacks
+  let currency;
+  if (euroCountries.includes(country)) {
+    currency = "EUR";
+  } else if (countryCurrencyMap[country]) {
+    currency = countryCurrencyMap[country];
+  } else if (regionCurrencyMap[region]) {
+    currency = regionCurrencyMap[region];
+  } else {
+    currency = "USD"; // Default fallback
+  }
+
   // Generate ID
   const id = `car-${city.toLowerCase().replace(/\s+/g, "-")}-${make.toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
 
@@ -455,17 +477,17 @@ function generateLuxuryRentalCar(city, index) {
   const rentalPricePerDay = Math.round(basePrice + Math.random() * 200);
 
   // Currency based on country (simplified)
-  const country = cityCountryMap[city] || "";
-  let currency;
-  if (["United States", "Puerto Rico"].includes(country)) {
-    currency = "USD";
-  } else if (["United Kingdom"].includes(country)) {
-    currency = "GBP";
-  } else if (["Japan"].includes(country)) {
-    currency = "JPY";
-  } else {
-    currency = "EUR"; // Default to EUR for most locations
-  }
+  // const country = cityCountryMap[city] || "";
+  // let currency;
+  // if (["United States", "Puerto Rico"].includes(country)) {
+  //   currency = "USD";
+  // } else if (["United Kingdom"].includes(country)) {
+  //   currency = "GBP";
+  // } else if (["Japan"].includes(country)) {
+  //   currency = "JPY";
+  // } else {
+  //   currency = "EUR"; // Default to EUR for most locations
+  // }
 
   // Availability (70% chance of being available)
   const available = Math.random() < 0.7;
@@ -516,10 +538,10 @@ function generateLuxuryRentalCar(city, index) {
     colorOptions,
     features,
     rentalPricePerDay,
-    currency,
+    currency, // Now using location-based currency
     available,
     pickUpCity: city,
-    pickUpCountry: cityCountryMap[city] || "",
+    pickUpCountry: country,
     pickUpLocation,
     imageUrl,
     description,

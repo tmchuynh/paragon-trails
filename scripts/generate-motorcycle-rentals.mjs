@@ -7,7 +7,13 @@ import {
   formatTitleToCamelCase,
   removeAccents,
 } from "./utils/format-utils.mjs";
-import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  countryCurrencyMap,
+  euroCountries,
+  regionCurrencyMap,
+} from "./utils/geo-utils.mjs";
 
 // Utility functions for file operations
 // Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
@@ -298,6 +304,21 @@ const locations = [
 
 // Generate a motorcycle with all required properties
 function generateMotorcycle(cityName, index) {
+  const country = cityCountryMap[cityName] || "";
+  const region = cityToRegionMap[cityName] || "";
+
+  // Determine currency based on country, with fallbacks
+  let currency;
+  if (euroCountries.includes(country)) {
+    currency = "EUR";
+  } else if (countryCurrencyMap[country]) {
+    currency = countryCurrencyMap[country];
+  } else if (regionCurrencyMap[region]) {
+    currency = regionCurrencyMap[region];
+  } else {
+    currency = "USD"; // Default fallback
+  }
+
   const make =
     motorcycleMakes[Math.floor(Math.random() * motorcycleMakes.length)];
   const models = motorcycleModels[make] || ["Standard"];
@@ -349,8 +370,25 @@ function generateMotorcycle(cityName, index) {
   }
 
   const rentalPricePerDay = Math.floor(Math.random() * 150) + 50; // $50-$200
-  const availability = Math.random() > 0.3; // 70% available
+  const available = Math.random() > 0.3; // 70% available
   const location = locations[Math.floor(Math.random() * locations.length)];
+
+  // Generate pickup location (if different from city location)
+  const pickUpLocation = location;
+
+  // Decide if drop-off will be different from pick-up (30% chance)
+  const hasDifferentDropOff = Math.random() < 0.3;
+  const dropOffCity = hasDifferentDropOff
+    ? cities[Math.floor(Math.random() * cities.length)]
+    : cityName;
+
+  const dropOffCountry = hasDifferentDropOff
+    ? cityCountryMap[dropOffCity] || country
+    : country;
+
+  const dropOffLocation = hasDifferentDropOff
+    ? locations[Math.floor(Math.random() * locations.length)]
+    : pickUpLocation;
 
   return {
     id: `motorcycle-${cityName}-${make.toLowerCase().replace(/\s+/g, "-")}-${index}`,
@@ -364,10 +402,23 @@ function generateMotorcycle(cityName, index) {
     seatCapacity,
     hasStorage,
     features,
-    imageUrl: `https://paragon-trails-motorcycle-images.com/${type}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`,
     rentalPricePerDay,
+    currency, // Location-based currency
+    available,
+    pickUpCity: cityName,
+    pickUpCountry: country,
+    pickUpLocation,
+    // Only include drop-off properties if they're different from pick-up
+    ...(hasDifferentDropOff
+      ? {
+          dropOffCity,
+          dropOffCountry,
+          dropOffLocation,
+        }
+      : {}),
+    imageUrl: `https://paragon-trails-motorcycle-images.com/${type}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`,
     requirements,
-    availability,
+    availability: available, // For backward compatibility
     location,
   };
 }
