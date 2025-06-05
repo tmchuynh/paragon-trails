@@ -57,7 +57,7 @@ export default function TourPackages() {
             variant="outline"
             onClick={() =>
               router.push(
-                "/about-paragon-trails/core-team-and-partnerships/tour-guides"
+                "/about-paragon-trails/core-team-and-partnerships/tour-guides",
               )
             }
           >

@@ -36,7 +36,7 @@ export default function TourGuides() {
   const sortedGuides = groupAndSortByProperties(
     tourGuides,
     "experienceYears",
-    "name"
+    "name",
   );
 
   return (
@@ -140,7 +140,7 @@ export default function TourGuides() {
           <Button
             onClick={() =>
               router.push(
-                "/about-paragon-trails/core-team-and-partnerships/tour-guides"
+                "/about-paragon-trails/core-team-and-partnerships/tour-guides",
               )
             }
             className="mx-auto"

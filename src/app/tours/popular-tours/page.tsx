@@ -66,7 +66,7 @@ export default function PopularTours() {
       ...new Set(
         allTours
           .filter((tour) => tour.duration) // Ensure only valid durations
-          .map((tour) => tour.duration)
+          .map((tour) => tour.duration),
       ),
     ];
 
@@ -76,8 +76,8 @@ export default function PopularTours() {
     const categories = [
       ...new Set(
         groupAndSortByProperties(allTours, "tourCategoryId").map(
-          (tour) => tour.tourCategoryId
-        )
+          (tour) => tour.tourCategoryId,
+        ),
       ),
     ].sort((a, b) => a.localeCompare(b)); // Ensure categories are sorted alphabetically
 
@@ -169,7 +169,7 @@ export default function PopularTours() {
           (attraction) =>
             attraction.city.toLowerCase() === tour.city?.toLowerCase() ||
             attraction.country.toLowerCase() === tour.country?.toLowerCase() ||
-            attraction.region.toLowerCase() === tour.region?.toLowerCase()
+            attraction.region.toLowerCase() === tour.region?.toLowerCase(),
         );
         map.set(key, cityInfo);
       }
