@@ -9,14 +9,14 @@ export const getCityFiles = () => {
       "lib",
       "constants",
       "info",
-      "city.ts",
+      "city.ts"
     );
 
     const fileContent = fs.readFileSync(cityFilePath, "utf8");
 
     // Extract city names using regex
     const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/,
+      /export const cityFiles = \[([\s\S]*?)\];/
     );
     if (!cityArrayMatch || !cityArrayMatch[1]) {
       console.error("Could not parse city files from city.ts");
@@ -33,3 +33,39 @@ export const getCityFiles = () => {
     return [];
   }
 };
+
+export function getRandomEmail(emailDomain) {
+  const generalEmailStarters = [
+    "info",
+    "contact",
+    "hello",
+    "hi",
+    "support",
+    "help",
+    "team",
+    "office",
+    "admin",
+    "inquiries",
+    "connect",
+    "reachus",
+    "services",
+    "customerservice",
+    "clientservices",
+    "feedback",
+    "general",
+    "communications",
+    "reception",
+    "mail",
+    "welcome",
+    "ask",
+    "care",
+  ];
+
+  const emailStarter =
+    generalEmailStarters[
+      Math.floor(Math.random() * generalEmailStarters.length)
+    ];
+
+  const domain = emailDomain.toLowerCase().replace(/\s+/g, "");
+  return `${emailStarter}@${domain}.com`;
+}
