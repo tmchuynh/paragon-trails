@@ -1,4 +1,4 @@
-import { AttractionTags, Details, Flags } from "@/lib/types/types";
+import { Flags, Details } from "@/lib/types/types";
 
 export interface BaseAttraction {
   title: string;
@@ -12,7 +12,7 @@ export interface BaseAttraction {
   priceCategory: "free" | "budget" | "moderate" | "expensive" | "luxury";
   timeOfDay: "all day" | "daytime" | "evening" | "night";
   rating: number;
-  tags: AttractionTags[];
+  tags: string[];
   accessibilityFeatures?: string[];
 }
 
