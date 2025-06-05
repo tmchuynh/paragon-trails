@@ -27,11 +27,11 @@
  *   --city C, -c C              Process only cities matching the search term
  *
  * Examples:
- *   node generate-room-options.mjs --rewrite
- *   node generate-room-options.mjs --append
- *   node generate-room-options.mjs --append-count 5 --view-type "Ocean View"
- *   node generate-room-options.mjs --bed-type "King" --max-guests 3
- *   node generate-room-options.mjs --city "Tokyo" --view-type "Mountain View"
+ *   node scripts/generate-room-options.mjs --rewrite
+ *   node scripts/generate-room-options.mjs --append
+ *   node scripts/generate-room-options.mjs --append-count 5 --view-type "Ocean View"
+ *   node scripts/generate-room-options.mjs --bed-type "King" --max-guests 3 --append
+ *   node scripts/generate-room-options.mjs --city "Tokyo" --view-type "Mountain View" --append
  */
 
 import * as fs from "fs/promises";
@@ -690,7 +690,10 @@ async function generateRoomOptionsForHotels() {
 
           // Create filename from hotel name
           const kebabName = formatTitleToCamelCase(hotel.name);
-          const roomsFilePath = path.join(cityDir, `${kebabName}-Rooms.ts`);
+          const roomsFilePath = path.join(
+            cityDir,
+            `${kebabName.replaceAll(".", "")}Rooms.ts`
+          );
 
           // Check if file exists and if we should skip it
           try {
@@ -920,7 +923,7 @@ generateRoomOptionsForHotels()
 
 // Print usage information
 console.log(`
-Usage: node generate-room-options.mjs [options]
+Usage: node scripts/generate-room-options.mjs [options]
 
 Options:
   --rewrite, -r               Rewrite existing files instead of skipping them
@@ -934,9 +937,9 @@ Options:
   --city C, -c C              Process only cities matching the search term
 
 Examples:
-  node generate-room-options.mjs --rewrite
-  node generate-room-options.mjs --append
-  node generate-room-options.mjs --append-count 5 --view-type "Ocean View"
-  node generate-room-options.mjs --bed-type "King" --max-guests 3
-  node generate-room-options.mjs --city "Tokyo" --view-type "Mountain View"
+  node scripts/generate-room-options.mjs --rewrite
+  node scripts/generate-room-options.mjs --append
+  node scripts/generate-room-options.mjs --append-count 5 --view-type "Ocean View"
+  node scripts/generate-room-options.mjs --bed-type "King" --max-guests 3
+  node scripts/generate-room-options.mjs --city "Tokyo" --view-type "Mountain View"
 `);

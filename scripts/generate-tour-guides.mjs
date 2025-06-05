@@ -1,3 +1,33 @@
+/**
+ * Tour Guide Generator Script
+ * =========================
+ *
+ * This script generates realistic tour guide profiles for the Paragon Trails application.
+ * It creates comprehensive guide information with properties like name, bio, specialties,
+ * languages, certifications, ratings, and availability for each city in the application.
+ *
+ * Features:
+ * - Generates 3-8 tour guides per city by default
+ * - Creates appropriate folder structure in src/lib/constants/staff/guides
+ * - Includes diverse specialties like local cuisine, architecture, history, etc.
+ * - Generates multilingual capabilities with appropriate languages
+ * - Creates realistic certifications, training, and experience levels
+ * - Includes weekly availability schedules with time slots
+ * - Generates appropriate quote, contact information, and license details
+ *
+ * Usage: node scripts/generate-tour-guides.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new tour guides to existing files
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node scripts/generate-tour-guides.mjs --rewrite
+ *   node scripts/generate-tour-guides.mjs --append 3
+ *   node scripts/generate-tour-guides.mjs --city "Paris" --append 2
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -8,16 +38,6 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-tour-guides.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new tour guides to existing files
-// node scripts/generate-tour-guides.mjs --append 5
-
-// City Filter: Use --city C or -c C to process only specific cities
-// node scripts/generate-tour-guides.mjs --city "Tokyo" --append 3
 
 const cities = getCityFiles();
 
@@ -363,9 +383,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)],
-        ),
-    ),
+            certifications[Math.floor(Math.random() * certifications.length)]
+        )
+    )
   );
 
   // Generate random languages
@@ -374,8 +394,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)]),
-    ),
+        .map(() => languages[Math.floor(Math.random() * languages.length)])
+    )
   );
 
   // Generate random specialties
@@ -384,8 +404,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numSpecialties)
         .fill(0)
-        .map(() => specialties[Math.floor(Math.random() * specialties.length)]),
-    ),
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
+    )
   );
 
   // Generate random special training
@@ -396,9 +416,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            specialTraining[Math.floor(Math.random() * specialTraining.length)],
-        ),
-    ),
+            specialTraining[Math.floor(Math.random() * specialTraining.length)]
+        )
+    )
   );
 
   // Generate random tour regions covered
@@ -407,8 +427,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numRegions)
         .fill(0)
-        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)]),
-    ),
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
+    )
   );
 
   // Generate random tour types
@@ -417,8 +437,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numTypes)
         .fill(0)
-        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)]),
-    ),
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
+    )
   );
 
   // Generate random weekly availability
@@ -427,8 +447,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numAvailableDays)
         .fill(0)
-        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)]),
-    ),
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
+    )
   );
 
   const available = availableDays.map((day) => {
@@ -535,7 +555,7 @@ async function extractExistingTourGuides(filePath) {
 
     // Extract the array part using a simple regex approach
     const match = content.match(
-      /export const \w+: TourGuide\[\] = \[([\s\S]*?)\];/,
+      /export const \w+: TourGuide\[\] = \[([\s\S]*?)\];/
     );
     if (!match || !match[1]) return [];
 
@@ -599,7 +619,7 @@ async function generateCityGuideFile(city) {
     "lib",
     "constants",
     "staff",
-    "guides",
+    "guides"
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -619,7 +639,7 @@ async function generateCityGuideFile(city) {
       guides = await extractExistingTourGuides(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -691,7 +711,7 @@ async function generateCityGuideFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
@@ -703,7 +723,7 @@ async function generateAllCityGuideFiles() {
   if (options.cityFilter) {
     const filterLower = options.cityFilter.toLowerCase();
     citiesToProcess = cities.filter((city) =>
-      city.toLowerCase().includes(filterLower),
+      city.toLowerCase().includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -712,7 +732,7 @@ async function generateAllCityGuideFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
   }
 
@@ -732,7 +752,7 @@ generateAllCityGuideFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-tour-guides.mjs [options]
+Usage: node scripts/generate-tour-guides.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -740,7 +760,7 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-tour-guides.mjs --rewrite
-  node generate-tour-guides.mjs --append 3
-  node generate-tour-guides.mjs --city "Paris" --append 2
+  node scripts/generate-tour-guides.mjs --rewrite
+  node scripts/generate-tour-guides.mjs --append 3
+  node scripts/generate-tour-guides.mjs --city "Paris" --append 2
 `);
