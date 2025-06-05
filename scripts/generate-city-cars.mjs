@@ -1,3 +1,35 @@
+/**
+ * Luxury Car Rentals Generator Script
+ * ==================================
+ *
+ * This script generates realistic luxury car rental data for city destinations in the Paragon Trails application.
+ * It creates detailed luxury vehicle listings with properties like make, model, features, pricing,
+ * availability, and other specifications for each city.
+ *
+ * Features:
+ * - Generates 3-7 luxury cars per city by default
+ * - Creates appropriate folder structure in src/lib/constants/rentals/cars
+ * - Supports filtering by specific car types
+ * - Includes realistic specifications, features, and pricing
+ * - Adapts currency based on location (country/region)
+ * - Generates realistic pickup and dropoff locations
+ *
+ * Usage: node scripts/generate-city-cars.mjs [options]
+ *
+ * Options:
+ *   --rewrite, -r       Rewrite existing files instead of skipping them
+ *   --append N, -a N    Append N new cars to existing files
+ *   --type T, -t T      Generate cars of a specific type (options: Sedan, SUV, Convertible,
+ *                       Coupe, Sports Car, Electric, Hybrid, Limousine)
+ *   --city C, -c C      Process only cities matching the search term
+ *
+ * Examples:
+ *   node generate-city-cars.mjs --rewrite
+ *   node generate-city-cars.mjs --append 5
+ *   node generate-city-cars.mjs --type "Convertible"
+ *   node generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -15,19 +47,6 @@ import {
   euroCountries,
   regionCurrencyMap,
 } from "./utils/geo-utils.mjs";
-
-// Utility functions for file operations
-// Rewrite Flag: Use --rewrite or -r to overwrite existing files instead of skipping them
-// node scripts/generate-city-cars.mjs --rewrite
-
-// Append Flag: Use --append N or -a N to add N new cars to existing files
-// node scripts/generate-city-cars.mjs --append 5
-
-// Car Type Filter: Use --type T or -t T to generate only specific car types
-// node scripts/generate-city-cars.mjs --type "Convertible"
-
-// Bonus City Filter: Added a --city flag to process only specific cities
-// node scripts/generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
 
 const cities = getCityFiles();
 
