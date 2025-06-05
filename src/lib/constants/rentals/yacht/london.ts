@@ -24,7 +24,13 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Bar", "Outdoor Shower", "Laundry Service", "Air Conditioning", "Sun Deck"],
+    amenities: [
+      "Bar",
+      "Outdoor Shower",
+      "Laundry Service",
+      "Air Conditioning",
+      "Sun Deck",
+    ],
     entertainment: ["Projector", "Media Library", "Onboard Cinema"],
     waterToys: ["Jet Ski", "E-Foil"],
     location: {
@@ -37,17 +43,34 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering", "All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 20m catamaran yacht available for charter in london. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 20m catamaran yacht available for charter in london. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/london-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4280,
       perWeek: 25466,
       currency: "GBP",
       includes: ["Bar", "Outdoor Shower", "Laundry Service"],
-      excludes: ["Bar", "Outdoor Shower", "Laundry Service", "Air Conditioning", "Sun Deck"],
+      excludes: [
+        "Bar",
+        "Outdoor Shower",
+        "Laundry Service",
+        "Air Conditioning",
+        "Sun Deck",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "GPS Tracking", "Life Rafts", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "GPS Tracking",
+      "Life Rafts",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -86,8 +109,13 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Mermaid's Song combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-3.jpg"],
+    description:
+      "Mermaid's Song combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/london-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11969,
@@ -135,8 +163,14 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "Chef Onboard"],
-    description: "Discover the beauty of london's waters aboard the elegant Adriatic Queen, a 2010 mega yacht featuring spacious accommodation for 11 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-4.jpg"],
+    description:
+      "Discover the beauty of london's waters aboard the elegant Adriatic Queen, a 2010 mega yacht featuring spacious accommodation for 11 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 27128,
@@ -173,7 +207,13 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Air Conditioning", "Kitchen", "Sauna", "Wi-Fi"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Towable Tubes", "Kneeboard", "Kayaks", "Scuba Diving Gear", "Jet Ski"],
+    waterToys: [
+      "Towable Tubes",
+      "Kneeboard",
+      "Kayaks",
+      "Scuba Diving Gear",
+      "Jet Ski",
+    ],
     location: {
       city: "london",
       country: "United Kingdom",
@@ -184,8 +224,15 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Blue Horizon is a magnificent super yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in london.",
-    images: ["https://paragon-trails-yacht-images.com/super/london-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/london-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/london-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/super/london-blue-horizon-4.jpg", "https://paragon-trails-yacht-images.com/super/london-blue-horizon-5.jpg"],
+    description:
+      "The Blue Horizon is a magnificent super yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in london.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/london-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-blue-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-blue-horizon-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 81978,
@@ -196,5 +243,5 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Radar", "Life Jackets", "EPIRB", "First Aid Kit"],
     accessibilityFeatures: ["Handrails", "Low Thresholds"],
-  }
+  },
 ];

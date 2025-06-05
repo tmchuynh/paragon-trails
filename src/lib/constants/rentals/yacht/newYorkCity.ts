@@ -24,7 +24,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 8,
     },
-    amenities: ["Stabilizers", "Dining Area", "Sauna", "Laundry Service", "Air Conditioning"],
+    amenities: [
+      "Stabilizers",
+      "Dining Area",
+      "Sauna",
+      "Laundry Service",
+      "Air Conditioning",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Snorkeling Gear", "Windsurf"],
     location: {
@@ -37,15 +43,28 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Chef Onboard"],
-    description: "Charter the impressive Mermaid's Song in new-york-city and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-5.jpg"],
+    description:
+      "Charter the impressive Mermaid's Song in new-york-city and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8177,
       perWeek: 48653.15,
       currency: "USD",
       includes: ["Stabilizers", "Dining Area", "Sauna"],
-      excludes: ["Stabilizers", "Dining Area", "Sauna", "Laundry Service", "Air Conditioning"],
+      excludes: [
+        "Stabilizers",
+        "Dining Area",
+        "Sauna",
+        "Laundry Service",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["Flares", "GPS Tracking", "EPIRB"],
     accessibilityFeatures: ["Elevator", "Wide Doorways"],
@@ -73,9 +92,22 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 11,
       bathrooms: 8,
     },
-    amenities: ["Heated Deck", "Stabilizers", "Bar", "Hot Tub", "Tender Garage", "Laundry Service"],
+    amenities: [
+      "Heated Deck",
+      "Stabilizers",
+      "Bar",
+      "Hot Tub",
+      "Tender Garage",
+      "Laundry Service",
+    ],
     entertainment: ["Projector", "Onboard Cinema", "Media Library"],
-    waterToys: ["E-Foil", "Seabob", "Towable Tubes", "Scuba Diving Gear", "Inflatable Slide"],
+    waterToys: [
+      "E-Foil",
+      "Seabob",
+      "Towable Tubes",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+    ],
     location: {
       city: "new-york-city",
       country: "United States",
@@ -86,8 +118,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Indigo Seas combines performance and luxury in a stunning 72m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-3.jpg"],
+    description:
+      "Indigo Seas combines performance and luxury in a stunning 72m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-york-city-indigo-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 59611,
@@ -135,8 +172,14 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of new-york-city's waters aboard the elegant Coastal Serenity, a 2008 gulet yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-4.jpg"],
+    description:
+      "Discover the beauty of new-york-city's waters aboard the elegant Coastal Serenity, a 2008 gulet yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-coastal-serenity-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5980,
@@ -145,7 +188,11 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Dining Area"],
       excludes: ["Indoor Lounge", "Dining Area", "Bar"],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Beacon", "Emergency Radio"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Beacon",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +231,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Serenity Now combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-3.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11575,
@@ -194,7 +246,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Air Conditioning"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Emergency Steering", "Radar", "GPS Tracking", "Fog Horn", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Radar",
+      "GPS Tracking",
+      "Fog Horn",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

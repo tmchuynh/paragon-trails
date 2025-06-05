@@ -19,8 +19,14 @@ export const tampaunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "tampa",
     pickUpCountry: "United States",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/husqvarna-701-supermoto.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "No DUI Record", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/husqvarna-701-supermoto.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "No DUI Record",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -42,8 +48,15 @@ export const tampaunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "tampa",
     pickUpCountry: "United States",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/bmw-k1600.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Two-Wheel Experience", "Experience with Manual Transmission", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/bmw-k1600.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Two-Wheel Experience",
+      "Experience with Manual Transmission",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: false,
     location: "Entertainment District",
   },
@@ -65,8 +78,15 @@ export const tampaunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "tampa",
     pickUpCountry: "United States",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/honda-crf450l.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Insurance Required", "Helmet Required", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/honda-crf450l.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Insurance Required",
+      "Helmet Required",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -88,8 +108,13 @@ export const tampaunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "tampa",
     pickUpCountry: "United States",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/victory-vision.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/victory-vision.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Airport",
   },
@@ -111,9 +136,14 @@ export const tampaunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "tampa",
     pickUpCountry: "United States",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/moto-guzzi-norge.jpg",
-    requirements: ["Valid Motorcycle License", "Experience with Manual Transmission", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/moto-guzzi-norge.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Experience with Manual Transmission",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Marina",
-  }
+  },
 ];

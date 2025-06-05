@@ -22,8 +22,14 @@ export const limaperusouthAmericaMotorcycles: Motorcycle[] = [
     dropOffCity: "new-orleans",
     dropOffCountry: "United States",
     dropOffLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/honda-crf450l.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Insurance Required", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/honda-crf450l.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Insurance Required",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Airport",
   },
@@ -45,8 +51,12 @@ export const limaperusouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "lima",
     pickUpCountry: "Peru",
     pickUpLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/bmw-r1250gs.jpg",
-    requirements: ["International Driving Permit (for foreign renters)", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/bmw-r1250gs.jpg",
+    requirements: [
+      "International Driving Permit (for foreign renters)",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Transit Hub",
   },
@@ -68,8 +78,13 @@ export const limaperusouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "lima",
     pickUpCountry: "Peru",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/triumph-tiger.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/triumph-tiger.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Signed Waiver",
+    ],
     availability: false,
     location: "Shopping District",
   },
@@ -91,8 +106,15 @@ export const limaperusouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "lima",
     pickUpCountry: "Peru",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/indian-roadmaster.jpg",
-    requirements: ["Local Riding Permit", "Credit Card Required", "Experience with Manual Transmission", "Valid Motorcycle License", "Two-Wheel Experience"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/indian-roadmaster.jpg",
+    requirements: [
+      "Local Riding Permit",
+      "Credit Card Required",
+      "Experience with Manual Transmission",
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+    ],
     availability: false,
     location: "Marina",
   },
@@ -114,9 +136,14 @@ export const limaperusouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "lima",
     pickUpCountry: "Peru",
     pickUpLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/indian-roadmaster.jpg",
-    requirements: ["Valid Motorcycle License", "Insurance Required", "Two-Wheel Experience"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/indian-roadmaster.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Insurance Required",
+      "Two-Wheel Experience",
+    ],
     availability: true,
     location: "Convention Center",
-  }
+  },
 ];

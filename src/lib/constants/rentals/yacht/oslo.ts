@@ -37,8 +37,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Breakfast Only"],
-    description: "Discover the beauty of oslo's waters aboard the elegant Baltic Star, a 2012 super yacht featuring spacious accommodation for 20 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/oslo-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/super/oslo-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/super/oslo-baltic-star-3.jpg"],
+    description:
+      "Discover the beauty of oslo's waters aboard the elegant Baltic Star, a 2012 super yacht featuring spacious accommodation for 20 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/oslo-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-baltic-star-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 106402,
@@ -47,7 +52,12 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Heated Deck", "Sun Deck", "Indoor Lounge"],
       excludes: ["Indoor Lounge"],
     },
-    safetyFeatures: ["Radar", "Emergency Beacon", "GPS Tracking", "Navigation Lights"],
+    safetyFeatures: [
+      "Radar",
+      "Emergency Beacon",
+      "GPS Tracking",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +96,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Infinity Seas combines performance and luxury in a stunning 77m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-5.jpg"],
+    description:
+      "Infinity Seas combines performance and luxury in a stunning 77m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-infinity-seas-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 79151,
@@ -96,7 +113,12 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Dining Area"],
     },
-    safetyFeatures: ["Life Rafts", "Life Jackets", "Navigation Lights", "Searchlight"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Life Jackets",
+      "Navigation Lights",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +146,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Stabilizers", "Indoor Lounge", "BBQ Grill"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Paddleboards", "Seabob", "Scuba Diving Gear", "Towable Tubes", "Floating Island"],
+    waterToys: [
+      "Paddleboards",
+      "Seabob",
+      "Scuba Diving Gear",
+      "Towable Tubes",
+      "Floating Island",
+    ],
     location: {
       city: "oslo",
       country: "Norway",
@@ -135,8 +163,14 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Ruby Tides, a stunning 26m sailing yacht available for charter in oslo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Ruby Tides, a stunning 26m sailing yacht available for charter in oslo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-ruby-tides-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9066,
@@ -145,7 +179,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Stabilizers", "Indoor Lounge"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Beacon", "Emergency Radio", "EPIRB", "Life Jackets", "Flares"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Emergency Radio",
+      "EPIRB",
+      "Life Jackets",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -173,7 +213,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Jacuzzi", "Indoor Lounge", "Air Conditioning"],
     entertainment: ["Game Console", "Streaming Services"],
-    waterToys: ["Kneeboard", "Wakeboard", "Paddleboards", "Towable Tubes", "Windsurf"],
+    waterToys: [
+      "Kneeboard",
+      "Wakeboard",
+      "Paddleboards",
+      "Towable Tubes",
+      "Windsurf",
+    ],
     location: {
       city: "oslo",
       country: "Norway",
@@ -184,8 +230,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Royal Wave is a magnificent super yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in oslo.",
-    images: ["https://paragon-trails-yacht-images.com/super/oslo-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-4.jpg", "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-5.jpg"],
+    description:
+      "The Royal Wave is a magnificent super yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in oslo.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-royal-wave-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 171091,
@@ -220,7 +273,12 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       crew: 9,
       bathrooms: 9,
     },
-    amenities: ["Tender Garage", "Air Conditioning", "BBQ Grill", "Laundry Service"],
+    amenities: [
+      "Tender Garage",
+      "Air Conditioning",
+      "BBQ Grill",
+      "Laundry Service",
+    ],
     entertainment: ["Projector", "Karaoke System", "Board Games"],
     waterToys: ["Towable Tubes", "Kneeboard"],
     location: {
@@ -233,15 +291,27 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Infinity Seas in oslo and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-5.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in oslo and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/oslo-infinity-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 28848,
       perWeek: 171645.6,
       currency: "EUR",
       includes: ["Tender Garage"],
-      excludes: ["Tender Garage", "Air Conditioning", "BBQ Grill", "Laundry Service"],
+      excludes: [
+        "Tender Garage",
+        "Air Conditioning",
+        "BBQ Grill",
+        "Laundry Service",
+      ],
     },
     safetyFeatures: ["Emergency Beacon", "Fog Horn", "Fire Extinguishers"],
     accessibilityFeatures: ["Wide Doorways", "Handrails"],
@@ -282,8 +352,14 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Coastal Serenity combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-4.jpg"],
+    description:
+      "Coastal Serenity combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-coastal-serenity-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9822,
@@ -292,7 +368,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Swim Platform", "Indoor Lounge", "BBQ Grill"],
       excludes: ["Swim Platform", "Indoor Lounge", "BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Steering", "Life Rafts", "EPIRB", "GPS Tracking", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Life Rafts",
+      "EPIRB",
+      "GPS Tracking",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -331,8 +413,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Cobalt Waters, a stunning 25m sailing yacht available for charter in oslo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Cobalt Waters, a stunning 25m sailing yacht available for charter in oslo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-cobalt-waters-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6347,
@@ -341,7 +430,12 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Tender Garage", "Stabilizers", "Outdoor Shower"],
       excludes: ["Tender Garage", "Stabilizers", "Outdoor Shower", "Jacuzzi"],
     },
-    safetyFeatures: ["Fire Extinguishers", "GPS Tracking", "Flares", "Navigation Lights"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "GPS Tracking",
+      "Flares",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

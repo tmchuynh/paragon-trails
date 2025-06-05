@@ -37,8 +37,13 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only", "Local Cuisine Packages"],
-    description: "Discover the beauty of rio-de-janeiro's waters aboard the elegant Atlantic Breeze, a 2000 mega yacht featuring spacious accommodation for 11 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-3.jpg"],
+    description:
+      "Discover the beauty of rio-de-janeiro's waters aboard the elegant Atlantic Breeze, a 2000 mega yacht featuring spacious accommodation for 11 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-atlantic-breeze-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 27378,
@@ -73,7 +78,13 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Laundry Service", "Jacuzzi", "Swim Platform", "Outdoor Shower", "Sauna"],
+    amenities: [
+      "Laundry Service",
+      "Jacuzzi",
+      "Swim Platform",
+      "Outdoor Shower",
+      "Sauna",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Paddleboards", "Seabob"],
     location: {
@@ -86,17 +97,35 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 54m mega yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 54m mega yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rio-de-janeiro-baltic-star-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 43401,
       perWeek: 258235.94999999998,
       currency: "BRL",
       includes: ["Laundry Service"],
-      excludes: ["Laundry Service", "Jacuzzi", "Swim Platform", "Outdoor Shower", "Sauna"],
+      excludes: [
+        "Laundry Service",
+        "Jacuzzi",
+        "Swim Platform",
+        "Outdoor Shower",
+        "Sauna",
+      ],
     },
-    safetyFeatures: ["EPIRB", "Fog Horn", "Emergency Steering", "Flares", "Emergency Beacon"],
+    safetyFeatures: [
+      "EPIRB",
+      "Fog Horn",
+      "Emergency Steering",
+      "Flares",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +153,13 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     },
     amenities: ["Indoor Lounge", "Sauna", "Wi-Fi"],
     entertainment: ["Bluetooth Speakers"],
-    waterToys: ["Kneeboard", "Scuba Diving Gear", "Inflatable Slide", "Snorkeling Gear", "Paddleboards"],
+    waterToys: [
+      "Kneeboard",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+      "Snorkeling Gear",
+      "Paddleboards",
+    ],
     location: {
       city: "rio-de-janeiro",
       country: "Brazil",
@@ -135,8 +170,15 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Elite Waves combines performance and luxury in a stunning 33m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-5.jpg"],
+    description:
+      "Elite Waves combines performance and luxury in a stunning 33m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-elite-waves-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7401,
@@ -145,7 +187,12 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Sauna"],
       excludes: ["Indoor Lounge", "Sauna", "Wi-Fi"],
     },
-    safetyFeatures: ["First Aid Kit", "Life Rafts", "Life Jackets", "Fire Extinguishers"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Life Rafts",
+      "Life Jackets",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -171,7 +218,14 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Air Conditioning", "Heated Deck", "Sun Deck", "Laundry Service", "Outdoor Shower", "Stabilizers"],
+    amenities: [
+      "Air Conditioning",
+      "Heated Deck",
+      "Sun Deck",
+      "Laundry Service",
+      "Outdoor Shower",
+      "Stabilizers",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Paddleboards", "E-Foil", "Scuba Diving Gear"],
     location: {
@@ -184,17 +238,34 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Adriatic Queen, a stunning 23m motor yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Adriatic Queen, a stunning 23m motor yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-adriatic-queen-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5437,
       perWeek: 32350.149999999998,
       currency: "BRL",
       includes: ["Air Conditioning", "Heated Deck"],
-      excludes: ["Air Conditioning", "Heated Deck", "Sun Deck", "Laundry Service", "Outdoor Shower", "Stabilizers"],
+      excludes: [
+        "Air Conditioning",
+        "Heated Deck",
+        "Sun Deck",
+        "Laundry Service",
+        "Outdoor Shower",
+        "Stabilizers",
+      ],
     },
-    safetyFeatures: ["Flares", "Life Jackets", "Fire Extinguishers", "GPS Tracking"],
+    safetyFeatures: [
+      "Flares",
+      "Life Jackets",
+      "Fire Extinguishers",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Low Thresholds"],
   },
   {
@@ -220,7 +291,12 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Wi-Fi", "Laundry Service", "Air Conditioning", "Tender Garage"],
+    amenities: [
+      "Wi-Fi",
+      "Laundry Service",
+      "Air Conditioning",
+      "Tender Garage",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["Water Skis", "E-Foil", "Windsurf", "Fishing Equipment"],
     location: {
@@ -233,17 +309,32 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Local Cuisine Packages"],
-    description: "Charter the impressive Sovereign Waters in rio-de-janeiro and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-3.jpg"],
+    description:
+      "Charter the impressive Sovereign Waters in rio-de-janeiro and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13025,
       perWeek: 77498.75,
       currency: "BRL",
       includes: ["Wi-Fi"],
-      excludes: ["Wi-Fi", "Laundry Service", "Air Conditioning", "Tender Garage"],
+      excludes: [
+        "Wi-Fi",
+        "Laundry Service",
+        "Air Conditioning",
+        "Tender Garage",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "First Aid Kit", "Life Jackets", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "First Aid Kit",
+      "Life Jackets",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Wide Doorways", "Accessible Cabin"],
   },
   {
@@ -269,7 +360,14 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Hot Tub", "Sauna", "Sun Deck", "Indoor Lounge", "Kitchen", "Air Conditioning"],
+    amenities: [
+      "Hot Tub",
+      "Sauna",
+      "Sun Deck",
+      "Indoor Lounge",
+      "Kitchen",
+      "Air Conditioning",
+    ],
     entertainment: ["Board Games", "Media Library"],
     waterToys: ["Scuba Diving Gear", "Paddleboards", "Wakeboard"],
     location: {
@@ -282,8 +380,15 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Blue Horizon, a stunning 18m sailing yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-4.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Blue Horizon, a stunning 18m sailing yacht available for charter in rio-de-janeiro. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-blue-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9955,
@@ -292,7 +397,12 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       includes: ["Hot Tub"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["First Aid Kit", "Emergency Beacon", "Fog Horn", "Fire Extinguishers"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Emergency Beacon",
+      "Fog Horn",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
-  }
+  },
 ];

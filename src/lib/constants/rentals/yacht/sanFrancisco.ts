@@ -26,7 +26,12 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Tender Garage", "Sun Deck", "Heated Deck", "Laundry Service"],
     entertainment: ["Surround Sound System", "Bluetooth Speakers"],
-    waterToys: ["Windsurf", "Fishing Equipment", "Scuba Diving Gear", "Kneeboard"],
+    waterToys: [
+      "Windsurf",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+      "Kneeboard",
+    ],
     location: {
       city: "san-francisco",
       country: "United States",
@@ -37,8 +42,14 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Endless Horizons, a stunning 15m gulet yacht available for charter in san-francisco. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Endless Horizons, a stunning 15m gulet yacht available for charter in san-francisco. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-endless-horizons-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6333,
@@ -73,7 +84,15 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 14,
       bathrooms: 10,
     },
-    amenities: ["Indoor Lounge", "Sun Deck", "Air Conditioning", "Heated Deck", "Sauna", "Tender Garage", "Swim Platform"],
+    amenities: [
+      "Indoor Lounge",
+      "Sun Deck",
+      "Air Conditioning",
+      "Heated Deck",
+      "Sauna",
+      "Tender Garage",
+      "Swim Platform",
+    ],
     entertainment: ["Karaoke System", "Satellite TV"],
     waterToys: ["Kayaks", "Water Skis", "Wakeboard"],
     location: {
@@ -86,17 +105,36 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Infinity Seas in san-francisco and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-3.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in san-francisco and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-francisco-infinity-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 113727,
       perWeek: 676675.65,
       currency: "USD",
       includes: ["Indoor Lounge", "Sun Deck"],
-      excludes: ["Indoor Lounge", "Sun Deck", "Air Conditioning", "Heated Deck", "Sauna", "Tender Garage", "Swim Platform"],
+      excludes: [
+        "Indoor Lounge",
+        "Sun Deck",
+        "Air Conditioning",
+        "Heated Deck",
+        "Sauna",
+        "Tender Garage",
+        "Swim Platform",
+      ],
     },
-    safetyFeatures: ["Searchlight", "Radar", "EPIRB", "Fog Horn", "Navigation Lights"],
+    safetyFeatures: [
+      "Searchlight",
+      "Radar",
+      "EPIRB",
+      "Fog Horn",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Low Thresholds", "Wheelchair Ramp"],
   },
   {
@@ -135,8 +173,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Indigo Seas, a stunning 18m gulet yacht available for charter in san-francisco. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Indigo Seas, a stunning 18m gulet yacht available for charter in san-francisco. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-francisco-indigo-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 3775,
@@ -171,8 +214,18 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Outdoor Shower", "Heated Deck", "Tender Garage", "Dining Area", "Jacuzzi"],
-    entertainment: ["Media Library", "Bluetooth Speakers", "Surround Sound System"],
+    amenities: [
+      "Outdoor Shower",
+      "Heated Deck",
+      "Tender Garage",
+      "Dining Area",
+      "Jacuzzi",
+    ],
+    entertainment: [
+      "Media Library",
+      "Bluetooth Speakers",
+      "Surround Sound System",
+    ],
     waterToys: ["Fishing Equipment", "Floating Island", "Wakeboard", "E-Foil"],
     location: {
       city: "san-francisco",
@@ -184,8 +237,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Mermaid's Song combines performance and luxury in a stunning 16m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-3.jpg"],
+    description:
+      "Mermaid's Song combines performance and luxury in a stunning 16m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7293,
@@ -194,7 +252,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["EPIRB", "GPS Tracking", "Emergency Beacon", "Radar", "Navigation Lights"],
+    safetyFeatures: [
+      "EPIRB",
+      "GPS Tracking",
+      "Emergency Beacon",
+      "Radar",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

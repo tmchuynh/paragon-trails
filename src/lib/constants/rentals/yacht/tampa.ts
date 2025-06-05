@@ -26,7 +26,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     },
     amenities: ["Tender Garage", "Dining Area", "Laundry Service"],
     entertainment: ["Game Console"],
-    waterToys: ["Snorkeling Gear", "Jet Ski", "E-Foil", "Towable Tubes", "Inflatable Slide"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Jet Ski",
+      "E-Foil",
+      "Towable Tubes",
+      "Inflatable Slide",
+    ],
     location: {
       city: "tampa",
       country: "United States",
@@ -37,8 +43,14 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "The Royal Wave is a magnificent mega yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in tampa.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-4.jpg"],
+    description:
+      "The Royal Wave is a magnificent mega yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in tampa.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-royal-wave-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 35470,
@@ -47,7 +59,12 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Tender Garage", "Dining Area", "Laundry Service"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Radio", "Searchlight", "Emergency Steering"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Radio",
+      "Searchlight",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Handrails"],
   },
   {
@@ -73,7 +90,14 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Dining Area", "Swim Platform", "Hot Tub", "Laundry Service", "Wi-Fi", "Bar"],
+    amenities: [
+      "Dining Area",
+      "Swim Platform",
+      "Hot Tub",
+      "Laundry Service",
+      "Wi-Fi",
+      "Bar",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Scuba Diving Gear", "Floating Island"],
     location: {
@@ -86,8 +110,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 58m mega yacht available for charter in tampa. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 58m mega yacht available for charter in tampa. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-wave-dancer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 46899,
@@ -96,7 +127,12 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Dining Area"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Flares", "Radar", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Flares",
+      "Radar",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +171,14 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Picnic-Style"],
-    description: "Discover the beauty of tampa's waters aboard the elegant Aquamarine, a 2018 mega yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-4.jpg"],
+    description:
+      "Discover the beauty of tampa's waters aboard the elegant Aquamarine, a 2018 mega yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tampa-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 46609,
@@ -184,8 +226,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Sapphire Seas, a stunning 20m gulet yacht available for charter in tampa. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-4.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sapphire Seas, a stunning 20m gulet yacht available for charter in tampa. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-sapphire-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7030,
@@ -233,8 +282,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "No Catering"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 71m super yacht available for charter in tampa. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 71m super yacht available for charter in tampa. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-mermaid's-song-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 115555,
@@ -245,5 +301,5 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "Flares", "Navigation Lights"],
     accessibilityFeatures: ["Accessible Cabin", "Handrails"],
-  }
+  },
 ];

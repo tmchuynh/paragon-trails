@@ -12,7 +12,13 @@ export const stPetersburgrussianorthernEuropeMotorcycles: Motorcycle[] = [
     color: "Orange",
     seatCapacity: 1,
     hasStorage: true,
-    features: ["Security System", "Bluetooth Audio", "Phone Mount", "GPS Navigation", "Windshield"],
+    features: [
+      "Security System",
+      "Bluetooth Audio",
+      "Phone Mount",
+      "GPS Navigation",
+      "Windshield",
+    ],
     rentalPricePerDay: 179,
     currency: "RUB",
     available: true,
@@ -22,8 +28,13 @@ export const stPetersburgrussianorthernEuropeMotorcycles: Motorcycle[] = [
     dropOffCity: "san-francisco",
     dropOffCountry: "United States",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/ducati-panigale.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/ducati-panigale.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Experience with Manual Transmission",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -48,8 +59,13 @@ export const stPetersburgrussianorthernEuropeMotorcycles: Motorcycle[] = [
     dropOffCity: "juneau",
     dropOffCountry: "United States",
     dropOffLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/husqvarna-vitpilen-701.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "Minimum Age 21"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/husqvarna-vitpilen-701.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "Minimum Age 21",
+    ],
     availability: false,
     location: "Marina",
   },
@@ -71,9 +87,14 @@ export const stPetersburgrussianorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "st-petersburg",
     pickUpCountry: "Russia",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/indian-roadmaster.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/indian-roadmaster.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Tourist District",
-  }
+  },
 ];

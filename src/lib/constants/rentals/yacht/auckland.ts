@@ -26,7 +26,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Heated Deck", "BBQ Grill", "Sauna"],
     entertainment: ["Surround Sound System", "Satellite TV"],
-    waterToys: ["Snorkeling Gear", "Windsurf", "Fishing Equipment", "Seabob", "E-Foil"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Windsurf",
+      "Fishing Equipment",
+      "Seabob",
+      "E-Foil",
+    ],
     location: {
       city: "auckland",
       country: "New Zealand",
@@ -37,8 +43,14 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "The Luxury Waters is a magnificent mega yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in auckland.",
-    images: ["https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-4.jpg"],
+    description:
+      "The Luxury Waters is a magnificent mega yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in auckland.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-luxury-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 36809,
@@ -73,7 +85,15 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       crew: 7,
       bathrooms: 7,
     },
-    amenities: ["Bar", "Jacuzzi", "Swim Platform", "Kitchen", "Outdoor Shower", "Dining Area", "Heated Deck"],
+    amenities: [
+      "Bar",
+      "Jacuzzi",
+      "Swim Platform",
+      "Kitchen",
+      "Outdoor Shower",
+      "Dining Area",
+      "Heated Deck",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Jet Ski", "Kneeboard", "Towable Tubes"],
     location: {
@@ -86,8 +106,14 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "All-Inclusive"],
-    description: "Discover the beauty of auckland's waters aboard the elegant Sapphire Seas, a 2016 mega yacht featuring spacious accommodation for 10 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-4.jpg"],
+    description:
+      "Discover the beauty of auckland's waters aboard the elegant Sapphire Seas, a 2016 mega yacht featuring spacious accommodation for 10 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-sapphire-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 27961,
@@ -123,8 +149,18 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       bathrooms: 9,
     },
     amenities: ["Heated Deck", "Bar", "Indoor Lounge", "BBQ Grill"],
-    entertainment: ["Onboard Cinema", "Surround Sound System", "Streaming Services"],
-    waterToys: ["Inflatable Slide", "Towable Tubes", "Snorkeling Gear", "Jet Ski", "Kayaks"],
+    entertainment: [
+      "Onboard Cinema",
+      "Surround Sound System",
+      "Streaming Services",
+    ],
+    waterToys: [
+      "Inflatable Slide",
+      "Towable Tubes",
+      "Snorkeling Gear",
+      "Jet Ski",
+      "Kayaks",
+    ],
     location: {
       city: "auckland",
       country: "New Zealand",
@@ -135,8 +171,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Luxury Waters, a stunning 84m super yacht available for charter in auckland. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Luxury Waters, a stunning 84m super yacht available for charter in auckland. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/auckland-luxury-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 81721,
@@ -145,7 +186,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       includes: ["Heated Deck", "Bar"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Radio", "EPIRB", "Flares", "Emergency Beacon"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Radio",
+      "EPIRB",
+      "Flares",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +218,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       crew: 1,
       bathrooms: 2,
     },
-    amenities: ["Outdoor Shower", "Dining Area", "Tender Garage", "Jacuzzi", "Wi-Fi"],
+    amenities: [
+      "Outdoor Shower",
+      "Dining Area",
+      "Tender Garage",
+      "Jacuzzi",
+      "Wi-Fi",
+    ],
     entertainment: ["DJ Equipment", "Board Games"],
     waterToys: ["Towable Tubes", "Scuba Diving Gear", "Water Skis"],
     location: {
@@ -184,8 +237,15 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "BBQ Onboard"],
-    description: "The Sovereign Waters is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in auckland.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-5.jpg"],
+    description:
+      "The Sovereign Waters is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in auckland.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/auckland-sovereign-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3902,
@@ -220,7 +280,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Indoor Lounge", "Heated Deck", "Jacuzzi", "Kitchen", "Air Conditioning"],
+    amenities: [
+      "Indoor Lounge",
+      "Heated Deck",
+      "Jacuzzi",
+      "Kitchen",
+      "Air Conditioning",
+    ],
     entertainment: ["Media Library", "DJ Equipment"],
     waterToys: ["Snorkeling Gear"],
     location: {
@@ -233,8 +299,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Breakfast Only"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 47m mega yacht available for charter in auckland. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 47m mega yacht available for charter in auckland. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/auckland-baltic-star-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 29787,
@@ -243,7 +314,13 @@ export const aucklandnewZealandasiaPacificYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Heated Deck", "Jacuzzi"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Fire Extinguishers", "GPS Tracking", "Flares", "Searchlight", "Fog Horn"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "GPS Tracking",
+      "Flares",
+      "Searchlight",
+      "Fog Horn",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

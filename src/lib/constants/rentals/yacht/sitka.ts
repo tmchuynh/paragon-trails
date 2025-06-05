@@ -24,7 +24,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["BBQ Grill", "Bar", "Hot Tub", "Sauna", "Swim Platform", "Laundry Service"],
+    amenities: [
+      "BBQ Grill",
+      "Bar",
+      "Hot Tub",
+      "Sauna",
+      "Swim Platform",
+      "Laundry Service",
+    ],
     entertainment: ["DJ Equipment", "Onboard Cinema"],
     waterToys: ["E-Foil", "Fishing Equipment", "Kneeboard", "Snorkeling Gear"],
     location: {
@@ -37,8 +44,15 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Aquamarine in sitka and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-5.jpg"],
+    description:
+      "Charter the impressive Aquamarine in sitka and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5176,
@@ -86,8 +100,15 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of sitka's waters aboard the elegant Luxury Waters, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-5.jpg"],
+    description:
+      "Discover the beauty of sitka's waters aboard the elegant Luxury Waters, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-luxury-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8684,
@@ -122,7 +143,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 8,
       bathrooms: 8,
     },
-    amenities: ["Sauna", "Tender Garage", "Kitchen", "Sun Deck", "Wi-Fi", "Jacuzzi"],
+    amenities: [
+      "Sauna",
+      "Tender Garage",
+      "Kitchen",
+      "Sun Deck",
+      "Wi-Fi",
+      "Jacuzzi",
+    ],
     entertainment: ["Surround Sound System", "Karaoke System", "Game Console"],
     waterToys: ["Windsurf", "Jet Ski", "Wakeboard", "Paddleboards"],
     location: {
@@ -135,17 +163,35 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering", "Chef Onboard"],
-    description: "The Royal Wave is a magnificent mega yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in sitka.",
-    images: ["https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-4.jpg"],
+    description:
+      "The Royal Wave is a magnificent mega yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in sitka.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sitka-royal-wave-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 39623,
       perWeek: 235756.85,
       currency: "USD",
       includes: ["Sauna"],
-      excludes: ["Sauna", "Tender Garage", "Kitchen", "Sun Deck", "Wi-Fi", "Jacuzzi"],
+      excludes: [
+        "Sauna",
+        "Tender Garage",
+        "Kitchen",
+        "Sun Deck",
+        "Wi-Fi",
+        "Jacuzzi",
+      ],
     },
-    safetyFeatures: ["Navigation Lights", "Searchlight", "Emergency Beacon", "EPIRB"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Searchlight",
+      "Emergency Beacon",
+      "EPIRB",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -184,8 +230,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Indigo Seas combines performance and luxury in a stunning 17m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-4.jpg"],
+    description:
+      "Indigo Seas combines performance and luxury in a stunning 17m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sitka-indigo-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6028,
@@ -194,7 +246,12 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Dining Area", "Bar"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Radio", "Fire Extinguishers", "Fog Horn", "Radar"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Fire Extinguishers",
+      "Fog Horn",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,9 +277,20 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 16,
       bathrooms: 10,
     },
-    amenities: ["Dining Area", "Laundry Service", "Air Conditioning", "Sun Deck"],
+    amenities: [
+      "Dining Area",
+      "Laundry Service",
+      "Air Conditioning",
+      "Sun Deck",
+    ],
     entertainment: ["Game Console", "Board Games", "Satellite TV"],
-    waterToys: ["E-Foil", "Towable Tubes", "Kayaks", "Floating Island", "Snorkeling Gear"],
+    waterToys: [
+      "E-Foil",
+      "Towable Tubes",
+      "Kayaks",
+      "Floating Island",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "sitka",
       country: "United States",
@@ -233,8 +301,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Ocean Majesty combines performance and luxury in a stunning 94m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-4.jpg"],
+    description:
+      "Ocean Majesty combines performance and luxury in a stunning 94m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-ocean-majesty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 91295,
@@ -243,7 +317,12 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Dining Area", "Laundry Service"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Radar", "Fire Extinguishers", "Navigation Lights", "Life Jackets"],
+    safetyFeatures: [
+      "Radar",
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -269,7 +348,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Sun Deck", "Stabilizers", "Jacuzzi", "Wi-Fi", "Kitchen", "Swim Platform"],
+    amenities: [
+      "Sun Deck",
+      "Stabilizers",
+      "Jacuzzi",
+      "Wi-Fi",
+      "Kitchen",
+      "Swim Platform",
+    ],
     entertainment: ["Onboard Cinema", "Streaming Services"],
     waterToys: ["Kneeboard", "Wakeboard", "Seabob"],
     location: {
@@ -282,17 +368,34 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Sapphire Seas, a stunning 24m motor yacht available for charter in sitka. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sapphire Seas, a stunning 24m motor yacht available for charter in sitka. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-sapphire-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6511,
       perWeek: 38740.45,
       currency: "USD",
       includes: ["Sun Deck"],
-      excludes: ["Sun Deck", "Stabilizers", "Jacuzzi", "Wi-Fi", "Kitchen", "Swim Platform"],
+      excludes: [
+        "Sun Deck",
+        "Stabilizers",
+        "Jacuzzi",
+        "Wi-Fi",
+        "Kitchen",
+        "Swim Platform",
+      ],
     },
-    safetyFeatures: ["Emergency Steering", "Fog Horn", "First Aid Kit", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fog Horn",
+      "First Aid Kit",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

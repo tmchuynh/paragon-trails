@@ -24,7 +24,14 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Hot Tub", "Air Conditioning", "Sun Deck", "Outdoor Shower", "Tender Garage", "Bar"],
+    amenities: [
+      "Hot Tub",
+      "Air Conditioning",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Tender Garage",
+      "Bar",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema"],
     waterToys: ["Inflatable Slide", "Scuba Diving Gear"],
     location: {
@@ -37,17 +44,35 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Experience luxury and comfort aboard the Golden Voyage, a stunning 22m catamaran yacht available for charter in vancouver. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Golden Voyage, a stunning 22m catamaran yacht available for charter in vancouver. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-golden-voyage-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9852,
       perWeek: 58619.4,
       currency: "CAD",
       includes: ["Hot Tub", "Air Conditioning", "Sun Deck"],
-      excludes: ["Hot Tub", "Air Conditioning", "Sun Deck", "Outdoor Shower", "Tender Garage", "Bar"],
+      excludes: [
+        "Hot Tub",
+        "Air Conditioning",
+        "Sun Deck",
+        "Outdoor Shower",
+        "Tender Garage",
+        "Bar",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "Life Jackets", "Fire Extinguishers", "Emergency Steering", "Flares"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Life Jackets",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Flares",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -73,7 +98,14 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       crew: 4,
       bathrooms: 3,
     },
-    amenities: ["Kitchen", "Laundry Service", "Indoor Lounge", "Wi-Fi", "Stabilizers", "Dining Area"],
+    amenities: [
+      "Kitchen",
+      "Laundry Service",
+      "Indoor Lounge",
+      "Wi-Fi",
+      "Stabilizers",
+      "Dining Area",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema"],
     waterToys: ["Jet Ski", "Inflatable Slide", "Paddleboards", "Kneeboard"],
     location: {
@@ -86,15 +118,29 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Provisioning Only"],
-    description: "The Oceanis is a magnificent motor yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
-    images: ["https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-3.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-4.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-5.jpg"],
+    description:
+      "The Oceanis is a magnificent motor yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-oceanis-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9481,
       perWeek: 56411.95,
       currency: "CAD",
       includes: ["Kitchen"],
-      excludes: ["Kitchen", "Laundry Service", "Indoor Lounge", "Wi-Fi", "Stabilizers", "Dining Area"],
+      excludes: [
+        "Kitchen",
+        "Laundry Service",
+        "Indoor Lounge",
+        "Wi-Fi",
+        "Stabilizers",
+        "Dining Area",
+      ],
     },
     safetyFeatures: ["Fog Horn", "Navigation Lights", "Searchlight"],
     accessibilityFeatures: [],
@@ -135,8 +181,13 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "The Azure Blue is a magnificent gulet yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-3.jpg"],
+    description:
+      "The Azure Blue is a magnificent gulet yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-azure-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7189,
@@ -184,8 +235,15 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of vancouver's waters aboard the elegant Cobalt Waters, a 2014 motor yacht featuring spacious accommodation for 6 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-5.jpg"],
+    description:
+      "Discover the beauty of vancouver's waters aboard the elegant Cobalt Waters, a 2014 motor yacht featuring spacious accommodation for 6 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9542,
@@ -194,7 +252,12 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Heated Deck", "Bar"],
       excludes: ["Jacuzzi", "Heated Deck", "Bar", "Indoor Lounge"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Steering", "Radar", "Emergency Beacon"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Steering",
+      "Radar",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -221,7 +284,11 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       bathrooms: 8,
     },
     amenities: ["Bar", "Wi-Fi", "Swim Platform", "Kitchen"],
-    entertainment: ["Surround Sound System", "Streaming Services", "Bluetooth Speakers"],
+    entertainment: [
+      "Surround Sound System",
+      "Streaming Services",
+      "Bluetooth Speakers",
+    ],
     waterToys: ["Scuba Diving Gear", "Windsurf"],
     location: {
       city: "vancouver",
@@ -233,8 +300,13 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Breakfast Only"],
-    description: "Discover the beauty of vancouver's waters aboard the elegant Euphoria, a 2004 mega yacht featuring spacious accommodation for 8 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-3.jpg"],
+    description:
+      "Discover the beauty of vancouver's waters aboard the elegant Euphoria, a 2004 mega yacht featuring spacious accommodation for 8 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-euphoria-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 26486,
@@ -271,7 +343,12 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     },
     amenities: ["Kitchen", "Laundry Service", "Wi-Fi"],
     entertainment: ["Board Games", "Onboard Cinema"],
-    waterToys: ["Paddleboards", "Windsurf", "Scuba Diving Gear", "Inflatable Slide"],
+    waterToys: [
+      "Paddleboards",
+      "Windsurf",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+    ],
     location: {
       city: "vancouver",
       country: "Canada",
@@ -282,8 +359,14 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Sovereign Waters combines performance and luxury in a stunning 21m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-4.jpg"],
+    description:
+      "Sovereign Waters combines performance and luxury in a stunning 21m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-sovereign-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8148,
@@ -331,8 +414,15 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering", "À La Carte"],
-    description: "Mediterranean Gem combines performance and luxury in a stunning 43m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-3.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-4.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-5.jpg"],
+    description:
+      "Mediterranean Gem combines performance and luxury in a stunning 43m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-mediterranean-gem-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 31949,
@@ -341,7 +431,12 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Laundry Service"],
       excludes: ["Jacuzzi", "Laundry Service", "Dining Area", "Tender Garage"],
     },
-    safetyFeatures: ["Fog Horn", "Fire Extinguishers", "EPIRB", "Emergency Steering"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Fire Extinguishers",
+      "EPIRB",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

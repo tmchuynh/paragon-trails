@@ -24,7 +24,13 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
       crew: 17,
       bathrooms: 11,
     },
-    amenities: ["Outdoor Shower", "Dining Area", "Swim Platform", "Hot Tub", "Air Conditioning"],
+    amenities: [
+      "Outdoor Shower",
+      "Dining Area",
+      "Swim Platform",
+      "Hot Tub",
+      "Air Conditioning",
+    ],
     entertainment: ["Onboard Cinema", "Projector"],
     waterToys: ["Kayaks", "Kneeboard", "Floating Island", "Windsurf"],
     location: {
@@ -37,8 +43,15 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Crystal Blue, a stunning 72m super yacht available for charter in melbourne. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Crystal Blue, a stunning 72m super yacht available for charter in melbourne. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/melbourne-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 184250,
@@ -47,7 +60,12 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["GPS Tracking", "Emergency Radio", "Emergency Steering", "Emergency Beacon"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Emergency Radio",
+      "Emergency Steering",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -73,7 +91,13 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Laundry Service", "BBQ Grill", "Jacuzzi", "Bar", "Indoor Lounge"],
+    amenities: [
+      "Laundry Service",
+      "BBQ Grill",
+      "Jacuzzi",
+      "Bar",
+      "Indoor Lounge",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Wakeboard", "Scuba Diving Gear", "Windsurf", "Kneeboard"],
     location: {
@@ -86,8 +110,14 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Experience luxury and comfort aboard the Blue Horizon, a stunning 28m sailing yacht available for charter in melbourne. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Blue Horizon, a stunning 28m sailing yacht available for charter in melbourne. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-blue-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7261,
@@ -135,8 +165,15 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Diamond Seas in melbourne and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-5.jpg"],
+    description:
+      "Charter the impressive Diamond Seas in melbourne and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/melbourne-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8128,
@@ -184,8 +221,15 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Local Cuisine Packages"],
-    description: "Discover the beauty of melbourne's waters aboard the elegant Cobalt Waters, a 2000 mega yacht featuring spacious accommodation for 8 guests overnight or 15 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-5.jpg"],
+    description:
+      "Discover the beauty of melbourne's waters aboard the elegant Cobalt Waters, a 2000 mega yacht featuring spacious accommodation for 8 guests overnight or 15 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 44246,
@@ -233,8 +277,15 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "Azure Dreams combines performance and luxury in a stunning 41m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-5.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 41m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/melbourne-azure-dreams-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 43552,
@@ -269,9 +320,19 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 2,
     },
-    amenities: ["Laundry Service", "Kitchen", "Heated Deck", "Air Conditioning"],
+    amenities: [
+      "Laundry Service",
+      "Kitchen",
+      "Heated Deck",
+      "Air Conditioning",
+    ],
     entertainment: ["Karaoke System", "Satellite TV"],
-    waterToys: ["Towable Tubes", "Snorkeling Gear", "Floating Island", "Fishing Equipment"],
+    waterToys: [
+      "Towable Tubes",
+      "Snorkeling Gear",
+      "Floating Island",
+      "Fishing Equipment",
+    ],
     location: {
       city: "melbourne",
       country: "Australia",
@@ -282,17 +343,29 @@ export const melbourneaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "No Catering"],
-    description: "Discover the beauty of melbourne's waters aboard the elegant Royal Wave, a 2010 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-4.jpg", "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-5.jpg"],
+    description:
+      "Discover the beauty of melbourne's waters aboard the elegant Royal Wave, a 2010 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/melbourne-royal-wave-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6662,
       perWeek: 39638.9,
       currency: "AUD",
       includes: ["Laundry Service", "Kitchen", "Heated Deck"],
-      excludes: ["Laundry Service", "Kitchen", "Heated Deck", "Air Conditioning"],
+      excludes: [
+        "Laundry Service",
+        "Kitchen",
+        "Heated Deck",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["Fog Horn", "EPIRB", "Searchlight", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

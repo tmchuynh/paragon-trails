@@ -12,7 +12,12 @@ export const losAngelesunitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     color: "Red",
     seatCapacity: 2,
     hasStorage: false,
-    features: ["Custom Exhaust", "Cruise Control", "Windshield", "Bluetooth Audio"],
+    features: [
+      "Custom Exhaust",
+      "Cruise Control",
+      "Windshield",
+      "Bluetooth Audio",
+    ],
     rentalPricePerDay: 70,
     currency: "USD",
     available: true,
@@ -22,8 +27,13 @@ export const losAngelesunitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     dropOffCity: "ho-chi-minh-city",
     dropOffCountry: "Vietnam",
     dropOffLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/suzuki-gsx-s750.jpg",
-    requirements: ["Helmet Required", "Insurance Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/suzuki-gsx-s750.jpg",
+    requirements: [
+      "Helmet Required",
+      "Insurance Required",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -45,8 +55,15 @@ export const losAngelesunitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "los-angeles",
     pickUpCountry: "United States",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/honda-africa-twin.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "Local Riding Permit", "Experience with Manual Transmission", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/honda-africa-twin.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "Local Riding Permit",
+      "Experience with Manual Transmission",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -71,9 +88,15 @@ export const losAngelesunitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     dropOffCity: "rio-de-janeiro",
     dropOffCountry: "Brazil",
     dropOffLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/moto-guzzi-california.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Two-Wheel Experience", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/moto-guzzi-california.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Two-Wheel Experience",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: true,
     location: "Tourist District",
-  }
+  },
 ];

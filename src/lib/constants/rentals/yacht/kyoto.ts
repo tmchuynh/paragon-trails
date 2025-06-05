@@ -24,7 +24,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       crew: 4,
       bathrooms: 4,
     },
-    amenities: ["Air Conditioning", "Indoor Lounge", "Heated Deck", "Hot Tub", "Dining Area"],
+    amenities: [
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Heated Deck",
+      "Hot Tub",
+      "Dining Area",
+    ],
     entertainment: ["Projector"],
     waterToys: ["Floating Island", "Towable Tubes", "Water Skis"],
     location: {
@@ -37,8 +43,15 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Pacific Explorer, a stunning 25m motor yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-4.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pacific Explorer, a stunning 25m motor yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-pacific-explorer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6980,
@@ -47,7 +60,12 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       includes: ["Air Conditioning", "Indoor Lounge"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Life Jackets", "GPS Tracking", "Fog Horn"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Life Jackets",
+      "GPS Tracking",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +91,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       crew: 7,
       bathrooms: 7,
     },
-    amenities: ["Bar", "Indoor Lounge", "Jacuzzi", "Heated Deck", "Tender Garage"],
+    amenities: [
+      "Bar",
+      "Indoor Lounge",
+      "Jacuzzi",
+      "Heated Deck",
+      "Tender Garage",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Floating Island", "E-Foil", "Fishing Equipment", "Kneeboard"],
     location: {
@@ -86,8 +110,15 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 56m mega yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 56m mega yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-wave-dancer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 43673,
@@ -124,7 +155,12 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Swim Platform", "Laundry Service", "Tender Garage", "Sauna"],
     entertainment: ["Board Games"],
-    waterToys: ["Paddleboards", "Floating Island", "Towable Tubes", "Fishing Equipment"],
+    waterToys: [
+      "Paddleboards",
+      "Floating Island",
+      "Towable Tubes",
+      "Fishing Equipment",
+    ],
     location: {
       city: "kyoto",
       country: "Japan",
@@ -135,8 +171,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of kyoto's waters aboard the elegant Wave Dancer, a 2016 super yacht featuring spacious accommodation for 21 guests overnight or 23 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-3.jpg"],
+    description:
+      "Discover the beauty of kyoto's waters aboard the elegant Wave Dancer, a 2016 super yacht featuring spacious accommodation for 21 guests overnight or 23 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 103704,
@@ -184,8 +225,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of kyoto's waters aboard the elegant Indigo Seas, a 2019 super yacht featuring spacious accommodation for 17 guests overnight or 29 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-3.jpg"],
+    description:
+      "Discover the beauty of kyoto's waters aboard the elegant Indigo Seas, a 2019 super yacht featuring spacious accommodation for 17 guests overnight or 29 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-indigo-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 125994,
@@ -194,7 +240,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       includes: ["Kitchen", "Heated Deck", "Tender Garage"],
       excludes: ["Kitchen", "Heated Deck", "Tender Garage", "Jacuzzi"],
     },
-    safetyFeatures: ["First Aid Kit", "Fog Horn", "Life Jackets", "Emergency Steering", "Emergency Radio"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Fog Horn",
+      "Life Jackets",
+      "Emergency Steering",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +285,14 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "Chef Onboard"],
-    description: "Infinity Seas combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-4.jpg"],
+    description:
+      "Infinity Seas combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-infinity-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5910,
@@ -282,8 +340,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Poseidon's Pride in kyoto and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-3.jpg"],
+    description:
+      "Charter the impressive Poseidon's Pride in kyoto and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 11192,
@@ -294,5 +357,5 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "Searchlight", "Radar"],
     accessibilityFeatures: [],
-  }
+  },
 ];

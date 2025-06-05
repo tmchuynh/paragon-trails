@@ -37,8 +37,15 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "BBQ Onboard"],
-    description: "Azure Blue combines performance and luxury in a stunning 40m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-4.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-5.jpg"],
+    description:
+      "Azure Blue combines performance and luxury in a stunning 40m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-azure-blue-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 45945,
@@ -73,7 +80,13 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Laundry Service", "Dining Area", "Sun Deck", "Hot Tub"],
+    amenities: [
+      "Tender Garage",
+      "Laundry Service",
+      "Dining Area",
+      "Sun Deck",
+      "Hot Tub",
+    ],
     entertainment: ["Media Library", "Satellite TV", "Onboard Cinema"],
     waterToys: ["Seabob", "Paddleboards"],
     location: {
@@ -86,8 +99,13 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Self-Catering"],
-    description: "Charter the impressive Serenity Now in cozumel and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-3.jpg"],
+    description:
+      "Charter the impressive Serenity Now in cozumel and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8272,
@@ -122,7 +140,14 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Indoor Lounge", "Swim Platform", "Heated Deck", "Kitchen", "Jacuzzi", "Hot Tub"],
+    amenities: [
+      "Indoor Lounge",
+      "Swim Platform",
+      "Heated Deck",
+      "Kitchen",
+      "Jacuzzi",
+      "Hot Tub",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Floating Island", "Paddleboards", "Wakeboard"],
     location: {
@@ -135,17 +160,30 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Provisioning Only"],
-    description: "Charter the impressive Coastal Serenity in cozumel and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-4.jpg"],
+    description:
+      "Charter the impressive Coastal Serenity in cozumel and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cozumel-coastal-serenity-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8765,
       perWeek: 52151.75,
       currency: "MXN",
       includes: ["Indoor Lounge", "Swim Platform", "Heated Deck"],
-      excludes: ["Indoor Lounge", "Swim Platform", "Heated Deck", "Kitchen", "Jacuzzi", "Hot Tub"],
+      excludes: [
+        "Indoor Lounge",
+        "Swim Platform",
+        "Heated Deck",
+        "Kitchen",
+        "Jacuzzi",
+        "Hot Tub",
+      ],
     },
     safetyFeatures: ["Fog Horn", "EPIRB", "Fire Extinguishers"],
     accessibilityFeatures: [],
-  }
+  },
 ];

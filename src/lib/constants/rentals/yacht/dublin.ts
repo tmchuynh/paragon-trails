@@ -37,15 +37,26 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Luxury Waters combines performance and luxury in a stunning 20m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-3.jpg"],
+    description:
+      "Luxury Waters combines performance and luxury in a stunning 20m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-luxury-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10396,
       perWeek: 61856.2,
       currency: "EUR",
       includes: ["Tender Garage"],
-      excludes: ["Tender Garage", "Hot Tub", "Bar", "Jacuzzi", "Outdoor Shower"],
+      excludes: [
+        "Tender Garage",
+        "Hot Tub",
+        "Bar",
+        "Jacuzzi",
+        "Outdoor Shower",
+      ],
     },
     safetyFeatures: ["Emergency Steering", "Fire Extinguishers", "Life Rafts"],
     accessibilityFeatures: [],
@@ -73,7 +84,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       crew: 9,
       bathrooms: 7,
     },
-    amenities: ["Tender Garage", "Sun Deck", "Air Conditioning", "Swim Platform", "Jacuzzi"],
+    amenities: [
+      "Tender Garage",
+      "Sun Deck",
+      "Air Conditioning",
+      "Swim Platform",
+      "Jacuzzi",
+    ],
     entertainment: ["Board Games", "DJ Equipment", "Bluetooth Speakers"],
     waterToys: ["Jet Ski", "Windsurf"],
     location: {
@@ -86,8 +103,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Chef Onboard"],
-    description: "The Elite Waves is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in dublin.",
-    images: ["https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-3.jpg"],
+    description:
+      "The Elite Waves is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in dublin.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dublin-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 25445,
@@ -96,7 +118,12 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       includes: ["Tender Garage", "Sun Deck", "Air Conditioning"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["First Aid Kit", "Life Jackets", "Navigation Lights", "Radar"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Life Jackets",
+      "Navigation Lights",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +149,14 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Bar", "Air Conditioning", "Tender Garage", "Wi-Fi", "Outdoor Shower", "Jacuzzi"],
+    amenities: [
+      "Bar",
+      "Air Conditioning",
+      "Tender Garage",
+      "Wi-Fi",
+      "Outdoor Shower",
+      "Jacuzzi",
+    ],
     entertainment: ["Media Library", "Game Console"],
     waterToys: ["Paddleboards", "Kneeboard", "Water Skis", "E-Foil"],
     location: {
@@ -135,15 +169,29 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Discover the beauty of dublin's waters aboard the elegant Adriatic Splendor, a 2005 motor yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-4.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-5.jpg"],
+    description:
+      "Discover the beauty of dublin's waters aboard the elegant Adriatic Splendor, a 2005 motor yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-adriatic-splendor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9622,
       perWeek: 57250.9,
       currency: "EUR",
       includes: ["Bar", "Air Conditioning", "Tender Garage"],
-      excludes: ["Bar", "Air Conditioning", "Tender Garage", "Wi-Fi", "Outdoor Shower", "Jacuzzi"],
+      excludes: [
+        "Bar",
+        "Air Conditioning",
+        "Tender Garage",
+        "Wi-Fi",
+        "Outdoor Shower",
+        "Jacuzzi",
+      ],
     },
     safetyFeatures: ["Emergency Radio", "GPS Tracking", "Life Rafts"],
     accessibilityFeatures: [],
@@ -184,8 +232,15 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Royal Seas combines performance and luxury in a stunning 37m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-5.jpg"],
+    description:
+      "Royal Seas combines performance and luxury in a stunning 37m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5787,
@@ -194,7 +249,12 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       includes: ["Bar", "Dining Area"],
       excludes: ["Bar", "Dining Area", "Sun Deck"],
     },
-    safetyFeatures: ["Flares", "Life Jackets", "Emergency Steering", "Navigation Lights"],
+    safetyFeatures: [
+      "Flares",
+      "Life Jackets",
+      "Emergency Steering",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -24,7 +24,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Tender Garage", "BBQ Grill", "Heated Deck", "Sun Deck", "Laundry Service"],
+    amenities: [
+      "Tender Garage",
+      "BBQ Grill",
+      "Heated Deck",
+      "Sun Deck",
+      "Laundry Service",
+    ],
     entertainment: ["Board Games"],
     waterToys: ["Seabob", "Snorkeling Gear"],
     location: {
@@ -37,8 +43,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "The Endless Horizons is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in barcelona.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-3.jpg"],
+    description:
+      "The Endless Horizons is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in barcelona.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-endless-horizons-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7075,
@@ -86,8 +97,14 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Azure Blue, a stunning 18m catamaran yacht available for charter in barcelona. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Azure Blue, a stunning 18m catamaran yacht available for charter in barcelona. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-azure-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7388,
@@ -96,7 +113,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       includes: ["Sun Deck", "Hot Tub"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Life Rafts", "Fire Extinguishers", "Life Jackets", "GPS Tracking", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Fire Extinguishers",
+      "Life Jackets",
+      "GPS Tracking",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +147,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     },
     amenities: ["Laundry Service", "Outdoor Shower"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Seabob", "Floating Island", "Water Skis", "Fishing Equipment", "Towable Tubes"],
+    waterToys: [
+      "Seabob",
+      "Floating Island",
+      "Water Skis",
+      "Fishing Equipment",
+      "Towable Tubes",
+    ],
     location: {
       city: "barcelona",
       country: "Spain",
@@ -135,8 +164,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "No Catering"],
-    description: "Charter the impressive Sovereign Waters in barcelona and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-3.jpg"],
+    description:
+      "Charter the impressive Sovereign Waters in barcelona and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/barcelona-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 48753,
@@ -145,7 +179,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       includes: ["Laundry Service"],
       excludes: ["Laundry Service", "Outdoor Shower"],
     },
-    safetyFeatures: ["Searchlight", "First Aid Kit", "Emergency Radio", "EPIRB", "Life Rafts"],
+    safetyFeatures: [
+      "Searchlight",
+      "First Aid Kit",
+      "Emergency Radio",
+      "EPIRB",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +211,14 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 6,
     },
-    amenities: ["BBQ Grill", "Dining Area", "Sauna", "Wi-Fi", "Laundry Service", "Stabilizers"],
+    amenities: [
+      "BBQ Grill",
+      "Dining Area",
+      "Sauna",
+      "Wi-Fi",
+      "Laundry Service",
+      "Stabilizers",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Fishing Equipment", "Towable Tubes"],
     location: {
@@ -184,8 +231,15 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Chef Onboard"],
-    description: "The Azure Dreams is a magnificent gulet yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in barcelona.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-5.jpg"],
+    description:
+      "The Azure Dreams is a magnificent gulet yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in barcelona.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/barcelona-azure-dreams-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6679,
@@ -194,7 +248,12 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       includes: ["BBQ Grill"],
       excludes: ["Stabilizers"],
     },
-    safetyFeatures: ["First Aid Kit", "Navigation Lights", "GPS Tracking", "Fog Horn"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Navigation Lights",
+      "GPS Tracking",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +292,15 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 79m super yacht available for charter in barcelona. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 79m super yacht available for charter in barcelona. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/barcelona-wave-dancer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 190949,
@@ -269,7 +335,14 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Dining Area", "Outdoor Shower", "Stabilizers", "Tender Garage", "Air Conditioning", "Jacuzzi"],
+    amenities: [
+      "Dining Area",
+      "Outdoor Shower",
+      "Stabilizers",
+      "Tender Garage",
+      "Air Conditioning",
+      "Jacuzzi",
+    ],
     entertainment: ["Media Library", "Projector", "Bluetooth Speakers"],
     waterToys: ["Towable Tubes", "Inflatable Slide", "Kayaks"],
     location: {
@@ -282,8 +355,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "No Catering"],
-    description: "Discover the beauty of barcelona's waters aboard the elegant Sovereign Waters, a 2002 catamaran yacht featuring spacious accommodation for 9 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-3.jpg"],
+    description:
+      "Discover the beauty of barcelona's waters aboard the elegant Sovereign Waters, a 2002 catamaran yacht featuring spacious accommodation for 9 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/barcelona-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11922,
@@ -331,8 +409,13 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Chef Onboard"],
-    description: "Discover the beauty of barcelona's waters aboard the elegant Sea Symphony, a 2013 motor yacht featuring spacious accommodation for 6 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-3.jpg"],
+    description:
+      "Discover the beauty of barcelona's waters aboard the elegant Sea Symphony, a 2013 motor yacht featuring spacious accommodation for 6 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/barcelona-sea-symphony-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5342,
@@ -343,5 +426,5 @@ export const barcelonaspainmediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Fog Horn", "Radar", "Life Jackets", "Emergency Steering"],
     accessibilityFeatures: [],
-  }
+  },
 ];

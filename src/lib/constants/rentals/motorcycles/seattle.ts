@@ -19,8 +19,13 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "seattle",
     pickUpCountry: "United States",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/triumph-thruxton.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/triumph-thruxton.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Airport",
   },
@@ -42,8 +47,13 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "seattle",
     pickUpCountry: "United States",
     pickUpLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-bolt.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-bolt.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Local Riding Permit",
+    ],
     availability: false,
     location: "Convention Center",
   },
@@ -65,7 +75,8 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "seattle",
     pickUpCountry: "United States",
     pickUpLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/kawasaki-versys.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/kawasaki-versys.jpg",
     requirements: ["Valid Motorcycle License", "No DUI Record"],
     availability: true,
     location: "City Center",
@@ -88,8 +99,15 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "seattle",
     pickUpCountry: "United States",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/ktm-690-enduro.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "No DUI Record", "Minimum Age 21", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/ktm-690-enduro.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "No DUI Record",
+      "Minimum Age 21",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -114,8 +132,14 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "sitka",
     dropOffCountry: "United States",
     dropOffLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/ktm-rc390.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Helmet Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/ktm-rc390.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Helmet Required",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -140,9 +164,16 @@ export const seattleunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "nassau",
     dropOffCountry: "Bahamas",
     dropOffLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-te-300i.jpg",
-    requirements: ["Valid Motorcycle License", "Experience with Manual Transmission", "Local Riding Permit", "Insurance Required", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-te-300i.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Experience with Manual Transmission",
+      "Local Riding Permit",
+      "Insurance Required",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Tourist District",
-  }
+  },
 ];

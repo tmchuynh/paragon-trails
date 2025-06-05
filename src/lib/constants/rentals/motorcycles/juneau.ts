@@ -19,8 +19,14 @@ export const juneauunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "juneau",
     pickUpCountry: "United States",
     pickUpLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/moto-guzzi-audace.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "No DUI Record", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/moto-guzzi-audace.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "No DUI Record",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: false,
     location: "Near Beach",
   },
@@ -42,7 +48,8 @@ export const juneauunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "juneau",
     pickUpCountry: "United States",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/husqvarna-fx-450.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/husqvarna-fx-450.jpg",
     requirements: ["No DUI Record", "Valid Motorcycle License"],
     availability: true,
     location: "Airport",
@@ -68,8 +75,13 @@ export const juneauunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "boston",
     dropOffCountry: "United States",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/honda-africa-twin.jpg",
-    requirements: ["Two-Wheel Experience", "Credit Card Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/honda-africa-twin.jpg",
+    requirements: [
+      "Two-Wheel Experience",
+      "Credit Card Required",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Convention Center",
   },
@@ -91,9 +103,14 @@ export const juneauunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "juneau",
     pickUpCountry: "United States",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/ducati-supersport.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/ducati-supersport.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "No DUI Record",
+    ],
     availability: true,
     location: "Tourist District",
-  }
+  },
 ];

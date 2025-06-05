@@ -37,8 +37,14 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Serenity Now combines performance and luxury in a stunning 31m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-4.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 31m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-orleans-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14366,
@@ -73,9 +79,22 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       crew: 12,
       bathrooms: 9,
     },
-    amenities: ["Laundry Service", "Heated Deck", "Kitchen", "Bar", "Tender Garage", "Hot Tub"],
+    amenities: [
+      "Laundry Service",
+      "Heated Deck",
+      "Kitchen",
+      "Bar",
+      "Tender Garage",
+      "Hot Tub",
+    ],
     entertainment: ["Karaoke System", "Projector"],
-    waterToys: ["Fishing Equipment", "Kneeboard", "Water Skis", "Snorkeling Gear", "Windsurf"],
+    waterToys: [
+      "Fishing Equipment",
+      "Kneeboard",
+      "Water Skis",
+      "Snorkeling Gear",
+      "Windsurf",
+    ],
     location: {
       city: "new-orleans",
       country: "United States",
@@ -86,17 +105,35 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "All-Inclusive"],
-    description: "The Adriatic Queen is a magnificent super yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-orleans.",
-    images: ["https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-3.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent super yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-orleans.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 68158,
       perWeek: 405540.1,
       currency: "USD",
       includes: ["Laundry Service", "Heated Deck", "Kitchen"],
-      excludes: ["Laundry Service", "Heated Deck", "Kitchen", "Bar", "Tender Garage", "Hot Tub"],
+      excludes: [
+        "Laundry Service",
+        "Heated Deck",
+        "Kitchen",
+        "Bar",
+        "Tender Garage",
+        "Hot Tub",
+      ],
     },
-    safetyFeatures: ["Life Jackets", "GPS Tracking", "EPIRB", "Flares", "Emergency Radio"],
+    safetyFeatures: [
+      "Life Jackets",
+      "GPS Tracking",
+      "EPIRB",
+      "Flares",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +172,13 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Breakfast Only"],
-    description: "Discover the beauty of new-orleans's waters aboard the elegant Emerald Waters, a 2016 gulet yacht featuring spacious accommodation for 13 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-3.jpg"],
+    description:
+      "Discover the beauty of new-orleans's waters aboard the elegant Emerald Waters, a 2016 gulet yacht featuring spacious accommodation for 13 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-orleans-emerald-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6885,
@@ -184,8 +226,14 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Discover the beauty of new-orleans's waters aboard the elegant Ocean Majesty, a 2016 mega yacht featuring spacious accommodation for 8 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-4.jpg"],
+    description:
+      "Discover the beauty of new-orleans's waters aboard the elegant Ocean Majesty, a 2016 mega yacht featuring spacious accommodation for 8 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-ocean-majesty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 49084,
@@ -220,7 +268,15 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["BBQ Grill", "Sauna", "Jacuzzi", "Tender Garage", "Air Conditioning", "Indoor Lounge", "Heated Deck"],
+    amenities: [
+      "BBQ Grill",
+      "Sauna",
+      "Jacuzzi",
+      "Tender Garage",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Heated Deck",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema"],
     waterToys: ["Seabob", "Snorkeling Gear"],
     location: {
@@ -233,17 +289,36 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Provisioning Only"],
-    description: "The Mermaid's Song is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-orleans.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-3.jpg"],
+    description:
+      "The Mermaid's Song is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-orleans.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/new-orleans-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9411,
       perWeek: 55995.45,
       currency: "USD",
       includes: ["BBQ Grill", "Sauna"],
-      excludes: ["BBQ Grill", "Sauna", "Jacuzzi", "Tender Garage", "Air Conditioning", "Indoor Lounge", "Heated Deck"],
+      excludes: [
+        "BBQ Grill",
+        "Sauna",
+        "Jacuzzi",
+        "Tender Garage",
+        "Air Conditioning",
+        "Indoor Lounge",
+        "Heated Deck",
+      ],
     },
-    safetyFeatures: ["GPS Tracking", "Fire Extinguishers", "EPIRB", "Life Jackets", "Emergency Steering"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Fire Extinguishers",
+      "EPIRB",
+      "Life Jackets",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -269,9 +344,21 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       crew: 10,
       bathrooms: 8,
     },
-    amenities: ["Laundry Service", "Jacuzzi", "Sun Deck", "Swim Platform", "Air Conditioning", "Heated Deck"],
+    amenities: [
+      "Laundry Service",
+      "Jacuzzi",
+      "Sun Deck",
+      "Swim Platform",
+      "Air Conditioning",
+      "Heated Deck",
+    ],
     entertainment: ["DJ Equipment", "Media Library"],
-    waterToys: ["Scuba Diving Gear", "Fishing Equipment", "Floating Island", "Inflatable Slide"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Fishing Equipment",
+      "Floating Island",
+      "Inflatable Slide",
+    ],
     location: {
       city: "new-orleans",
       country: "United States",
@@ -282,8 +369,15 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 83m super yacht available for charter in new-orleans. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 83m super yacht available for charter in new-orleans. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 114825,
@@ -294,5 +388,5 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Navigation Lights", "Life Rafts", "EPIRB"],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

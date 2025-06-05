@@ -12,15 +12,25 @@ export const amsterdamnetherlandsnorthernEuropeMotorcycles: Motorcycle[] = [
     color: "Black",
     seatCapacity: 1,
     hasStorage: false,
-    features: ["Helmet Included", "GPS Navigation", "USB Charging", "Custom Exhaust"],
+    features: [
+      "Helmet Included",
+      "GPS Navigation",
+      "USB Charging",
+      "Custom Exhaust",
+    ],
     rentalPricePerDay: 162,
     currency: "EUR",
     available: true,
     pickUpCity: "amsterdam",
     pickUpCountry: "Netherlands",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/kawasaki-versys.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/kawasaki-versys.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -45,8 +55,14 @@ export const amsterdamnetherlandsnorthernEuropeMotorcycles: Motorcycle[] = [
     dropOffCity: "dubrovnik",
     dropOffCountry: "Croatia",
     dropOffLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/kawasaki-ninja.jpg",
-    requirements: ["Local Riding Permit", "Helmet Required", "Security Deposit Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/kawasaki-ninja.jpg",
+    requirements: [
+      "Local Riding Permit",
+      "Helmet Required",
+      "Security Deposit Required",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -68,9 +84,14 @@ export const amsterdamnetherlandsnorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "amsterdam",
     pickUpCountry: "Netherlands",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/bmw-r-ninet.jpg",
-    requirements: ["Valid Motorcycle License", "Insurance Required", "Helmet Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/bmw-r-ninet.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Insurance Required",
+      "Helmet Required",
+    ],
     availability: true,
     location: "Airport",
-  }
+  },
 ];

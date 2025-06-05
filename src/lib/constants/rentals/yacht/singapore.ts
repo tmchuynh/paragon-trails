@@ -37,8 +37,14 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Aegean Beauty in singapore and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-4.jpg"],
+    description:
+      "Charter the impressive Aegean Beauty in singapore and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5252,
@@ -75,7 +81,12 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Kitchen", "Heated Deck", "Tender Garage", "Outdoor Shower"],
     entertainment: ["Surround Sound System"],
-    waterToys: ["Kayaks", "Scuba Diving Gear", "Inflatable Slide", "Water Skis"],
+    waterToys: [
+      "Kayaks",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+      "Water Skis",
+    ],
     location: {
       city: "singapore",
       country: "Singapore",
@@ -86,8 +97,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Atlantic Breeze in singapore and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-5.jpg"],
+    description:
+      "Charter the impressive Atlantic Breeze in singapore and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-atlantic-breeze-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7592,
@@ -135,8 +153,13 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "The Serenity Now is a magnificent mega yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in singapore.",
-    images: ["https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-3.jpg"],
+    description:
+      "The Serenity Now is a magnificent mega yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in singapore.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-serenity-now-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 30098,
@@ -184,8 +207,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 16m sailing yacht available for charter in singapore. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-4.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 16m sailing yacht available for charter in singapore. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-adriatic-splendor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4811,
@@ -196,5 +226,5 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Fog Horn", "EPIRB", "Life Rafts"],
     accessibilityFeatures: ["Elevator", "Wheelchair Ramp"],
-  }
+  },
 ];

@@ -24,9 +24,21 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       crew: 10,
       bathrooms: 13,
     },
-    amenities: ["Heated Deck", "Outdoor Shower", "Jacuzzi", "Dining Area", "Sauna"],
+    amenities: [
+      "Heated Deck",
+      "Outdoor Shower",
+      "Jacuzzi",
+      "Dining Area",
+      "Sauna",
+    ],
     entertainment: ["Game Console"],
-    waterToys: ["Paddleboards", "Jet Ski", "Kayaks", "Floating Island", "Kneeboard"],
+    waterToys: [
+      "Paddleboards",
+      "Jet Ski",
+      "Kayaks",
+      "Floating Island",
+      "Kneeboard",
+    ],
     location: {
       city: "cartagena",
       country: "Colombia",
@@ -37,8 +49,14 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Caribbean Pearl combines performance and luxury in a stunning 68m super yacht. With its professional crew of 10, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-4.jpg"],
+    description:
+      "Caribbean Pearl combines performance and luxury in a stunning 68m super yacht. With its professional crew of 10, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-caribbean-pearl-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 185681,
@@ -73,7 +91,14 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Sauna", "Wi-Fi", "Air Conditioning", "Stabilizers", "Bar", "Sun Deck"],
+    amenities: [
+      "Sauna",
+      "Wi-Fi",
+      "Air Conditioning",
+      "Stabilizers",
+      "Bar",
+      "Sun Deck",
+    ],
     entertainment: ["Onboard Cinema", "Surround Sound System", "Game Console"],
     waterToys: ["E-Foil", "Water Skis"],
     location: {
@@ -86,15 +111,28 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Golden Voyage combines performance and luxury in a stunning 34m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-3.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-4.jpg"],
+    description:
+      "Golden Voyage combines performance and luxury in a stunning 34m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-golden-voyage-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6445,
       perWeek: 38347.75,
       currency: "COP",
       includes: ["Sauna", "Wi-Fi", "Air Conditioning"],
-      excludes: ["Sauna", "Wi-Fi", "Air Conditioning", "Stabilizers", "Bar", "Sun Deck"],
+      excludes: [
+        "Sauna",
+        "Wi-Fi",
+        "Air Conditioning",
+        "Stabilizers",
+        "Bar",
+        "Sun Deck",
+      ],
     },
     safetyFeatures: ["Life Jackets", "Navigation Lights"],
     accessibilityFeatures: [],
@@ -122,7 +160,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       crew: 15,
       bathrooms: 7,
     },
-    amenities: ["Swim Platform", "Sun Deck", "Kitchen", "Dining Area", "Heated Deck"],
+    amenities: [
+      "Swim Platform",
+      "Sun Deck",
+      "Kitchen",
+      "Dining Area",
+      "Heated Deck",
+    ],
     entertainment: ["Surround Sound System", "Streaming Services"],
     waterToys: ["Jet Ski", "Fishing Equipment"],
     location: {
@@ -135,15 +179,26 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of cartagena's waters aboard the elegant Sapphire Seas, a 2010 super yacht featuring spacious accommodation for 20 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-3.jpg"],
+    description:
+      "Discover the beauty of cartagena's waters aboard the elegant Sapphire Seas, a 2010 super yacht featuring spacious accommodation for 20 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-sapphire-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 109232,
       perWeek: 649930.4,
       currency: "COP",
       includes: ["Swim Platform", "Sun Deck"],
-      excludes: ["Swim Platform", "Sun Deck", "Kitchen", "Dining Area", "Heated Deck"],
+      excludes: [
+        "Swim Platform",
+        "Sun Deck",
+        "Kitchen",
+        "Dining Area",
+        "Heated Deck",
+      ],
     },
     safetyFeatures: ["EPIRB", "Radar", "Fire Extinguishers"],
     accessibilityFeatures: ["Accessible Cabin"],
@@ -184,8 +239,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "All-Inclusive"],
-    description: "Discover the beauty of cartagena's waters aboard the elegant Royal Wave, a 2001 motor yacht featuring spacious accommodation for 8 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-3.jpg"],
+    description:
+      "Discover the beauty of cartagena's waters aboard the elegant Royal Wave, a 2001 motor yacht featuring spacious accommodation for 8 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-royal-wave-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9631,
@@ -194,7 +254,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub"],
       excludes: ["Hot Tub", "BBQ Grill", "Stabilizers", "Wi-Fi"],
     },
-    safetyFeatures: ["Radar", "Emergency Beacon", "Navigation Lights", "First Aid Kit", "EPIRB"],
+    safetyFeatures: [
+      "Radar",
+      "Emergency Beacon",
+      "Navigation Lights",
+      "First Aid Kit",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +299,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Charter the impressive Golden Voyage in cartagena and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-3.jpg"],
+    description:
+      "Charter the impressive Golden Voyage in cartagena and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cartagena-golden-voyage-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5969,
@@ -243,7 +314,12 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Sun Deck", "Indoor Lounge", "Bar", "Swim Platform"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Steering", "First Aid Kit", "Flares"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Steering",
+      "First Aid Kit",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +358,15 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of cartagena's waters aboard the elegant Pacific Explorer, a 2004 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-4.jpg", "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-5.jpg"],
+    description:
+      "Discover the beauty of cartagena's waters aboard the elegant Pacific Explorer, a 2004 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cartagena-pacific-explorer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3691,
@@ -292,7 +375,12 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       includes: ["Stabilizers", "Jacuzzi"],
       excludes: ["Stabilizers", "Jacuzzi", "Sun Deck"],
     },
-    safetyFeatures: ["Emergency Steering", "Fog Horn", "Flares", "First Aid Kit"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fog Horn",
+      "Flares",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

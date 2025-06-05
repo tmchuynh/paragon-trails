@@ -19,8 +19,14 @@ export const dublinirelandnorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "dublin",
     pickUpCountry: "Ireland",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/victory-gunner.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Helmet Required", "Minimum Age 21"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/victory-gunner.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Helmet Required",
+      "Minimum Age 21",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -45,8 +51,13 @@ export const dublinirelandnorthernEuropeMotorcycles: Motorcycle[] = [
     dropOffCity: "kyoto",
     dropOffCountry: "Japan",
     dropOffLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/kawasaki-z900.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/kawasaki-z900.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Transit Hub",
   },
@@ -68,9 +79,14 @@ export const dublinirelandnorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "dublin",
     pickUpCountry: "Ireland",
     pickUpLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/harley-davidson-street-glide.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/harley-davidson-street-glide.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: false,
     location: "Near Beach",
-  }
+  },
 ];

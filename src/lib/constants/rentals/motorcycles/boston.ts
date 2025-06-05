@@ -22,8 +22,13 @@ export const bostonunitedStateseastCoastUsaMotorcycles: Motorcycle[] = [
     dropOffCity: "barcelona",
     dropOffCountry: "Spain",
     dropOffLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/royal-enfield-hunter.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/royal-enfield-hunter.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -45,8 +50,15 @@ export const bostonunitedStateseastCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "boston",
     pickUpCountry: "United States",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/honda-cbr1000rr.jpg",
-    requirements: ["Two-Wheel Experience", "No DUI Record", "Valid Motorcycle License", "Security Deposit Required", "Minimum Age 21"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/honda-cbr1000rr.jpg",
+    requirements: [
+      "Two-Wheel Experience",
+      "No DUI Record",
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Minimum Age 21",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -68,8 +80,14 @@ export const bostonunitedStateseastCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "boston",
     pickUpCountry: "United States",
     pickUpLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/ducati-monster.jpg",
-    requirements: ["Valid Motorcycle License", "Insurance Required", "Two-Wheel Experience", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/ducati-monster.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Insurance Required",
+      "Two-Wheel Experience",
+      "Signed Waiver",
+    ],
     availability: false,
     location: "City Center",
   },
@@ -91,9 +109,15 @@ export const bostonunitedStateseastCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "boston",
     pickUpCountry: "United States",
     pickUpLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/ktm-390-duke.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Signed Waiver", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/ktm-390-duke.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Signed Waiver",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Transit Hub",
-  }
+  },
 ];

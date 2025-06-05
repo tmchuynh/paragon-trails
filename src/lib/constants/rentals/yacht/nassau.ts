@@ -24,7 +24,14 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       crew: 16,
       bathrooms: 11,
     },
-    amenities: ["Heated Deck", "Jacuzzi", "BBQ Grill", "Outdoor Shower", "Dining Area", "Laundry Service"],
+    amenities: [
+      "Heated Deck",
+      "Jacuzzi",
+      "BBQ Grill",
+      "Outdoor Shower",
+      "Dining Area",
+      "Laundry Service",
+    ],
     entertainment: ["Board Games", "Game Console"],
     waterToys: ["Floating Island", "Paddleboards"],
     location: {
@@ -37,8 +44,14 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Crystal Blue combines performance and luxury in a stunning 99m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-4.jpg"],
+    description:
+      "Crystal Blue combines performance and luxury in a stunning 99m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-crystal-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 87450,
@@ -47,7 +60,12 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       includes: ["Heated Deck", "Jacuzzi"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Emergency Radio", "Flares", "Fog Horn", "Emergency Beacon"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Flares",
+      "Fog Horn",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Handrails"],
   },
   {
@@ -73,7 +91,13 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Hot Tub", "Swim Platform", "Sun Deck", "Tender Garage", "Dining Area"],
+    amenities: [
+      "Hot Tub",
+      "Swim Platform",
+      "Sun Deck",
+      "Tender Garage",
+      "Dining Area",
+    ],
     entertainment: ["Streaming Services", "Satellite TV"],
     waterToys: ["Inflatable Slide", "Kayaks"],
     location: {
@@ -86,8 +110,15 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "À La Carte"],
-    description: "The Coastal Serenity is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
-    images: ["https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-5.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/nassau-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10969,
@@ -96,7 +127,12 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub", "Swim Platform", "Sun Deck"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Radar", "Fog Horn", "Emergency Beacon", "Navigation Lights"],
+    safetyFeatures: [
+      "Radar",
+      "Fog Horn",
+      "Emergency Beacon",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +158,13 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       crew: 17,
       bathrooms: 10,
     },
-    amenities: ["Outdoor Shower", "BBQ Grill", "Wi-Fi", "Stabilizers", "Kitchen"],
+    amenities: [
+      "Outdoor Shower",
+      "BBQ Grill",
+      "Wi-Fi",
+      "Stabilizers",
+      "Kitchen",
+    ],
     entertainment: ["Karaoke System", "Bluetooth Speakers", "DJ Equipment"],
     waterToys: ["Scuba Diving Gear", "Snorkeling Gear", "Kayaks"],
     location: {
@@ -135,17 +177,34 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Silver Horizon is a magnificent super yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-4.jpg"],
+    description:
+      "The Silver Horizon is a magnificent super yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-silver-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 78538,
       perWeek: 467301.1,
       currency: "BSD",
       includes: ["Outdoor Shower", "BBQ Grill"],
-      excludes: ["Outdoor Shower", "BBQ Grill", "Wi-Fi", "Stabilizers", "Kitchen"],
+      excludes: [
+        "Outdoor Shower",
+        "BBQ Grill",
+        "Wi-Fi",
+        "Stabilizers",
+        "Kitchen",
+      ],
     },
-    safetyFeatures: ["Life Jackets", "GPS Tracking", "Emergency Steering", "EPIRB"],
+    safetyFeatures: [
+      "Life Jackets",
+      "GPS Tracking",
+      "Emergency Steering",
+      "EPIRB",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
   },
   {
@@ -184,8 +243,13 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Euphoria combines performance and luxury in a stunning 84m super yacht. With its professional crew of 10, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-euphoria-3.jpg"],
+    description:
+      "Euphoria combines performance and luxury in a stunning 84m super yacht. With its professional crew of 10, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 188448,
@@ -196,5 +260,5 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["GPS Tracking", "Emergency Steering", "Radar"],
     accessibilityFeatures: ["Elevator", "Wheelchair Ramp"],
-  }
+  },
 ];

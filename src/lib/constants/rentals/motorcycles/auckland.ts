@@ -19,8 +19,13 @@ export const aucklandnewZealandasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "auckland",
     pickUpCountry: "New Zealand",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/royal-enfield-himalayan.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/royal-enfield-himalayan.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -42,8 +47,16 @@ export const aucklandnewZealandasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "auckland",
     pickUpCountry: "New Zealand",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/triumph-street-triple.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Local Riding Permit", "Security Deposit Required", "International Driving Permit (for foreign renters)", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/triumph-street-triple.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Local Riding Permit",
+      "Security Deposit Required",
+      "International Driving Permit (for foreign renters)",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -65,8 +78,13 @@ export const aucklandnewZealandasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "auckland",
     pickUpCountry: "New Zealand",
     pickUpLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/harley-davidson-street-glide.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/harley-davidson-street-glide.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Near Beach",
   },
@@ -88,8 +106,13 @@ export const aucklandnewZealandasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "auckland",
     pickUpCountry: "New Zealand",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/moto-guzzi-v85-tt.jpg",
-    requirements: ["Valid Motorcycle License", "Insurance Required", "Minimum Age 21"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/moto-guzzi-v85-tt.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Insurance Required",
+      "Minimum Age 21",
+    ],
     availability: false,
     location: "Entertainment District",
   },
@@ -111,9 +134,17 @@ export const aucklandnewZealandasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "auckland",
     pickUpCountry: "New Zealand",
     pickUpLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/yamaha-super-ténéré.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "No DUI Record", "Experience with Manual Transmission", "Helmet Required", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/yamaha-super-ténéré.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "No DUI Record",
+      "Experience with Manual Transmission",
+      "Helmet Required",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Convention Center",
-  }
+  },
 ];

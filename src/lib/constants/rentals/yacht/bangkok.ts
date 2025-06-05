@@ -37,8 +37,13 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Blue Horizon combines performance and luxury in a stunning 88m super yacht. With its professional crew of 13, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-3.jpg"],
+    description:
+      "Blue Horizon combines performance and luxury in a stunning 88m super yacht. With its professional crew of 13, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/bangkok-blue-horizon-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 150132,
@@ -73,7 +78,13 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Air Conditioning", "Jacuzzi", "Bar", "Tender Garage", "Hot Tub"],
+    amenities: [
+      "Air Conditioning",
+      "Jacuzzi",
+      "Bar",
+      "Tender Garage",
+      "Hot Tub",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Water Skis", "Inflatable Slide", "Kneeboard", "Kayaks"],
     location: {
@@ -86,8 +97,15 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 13m catamaran yacht available for charter in bangkok. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 13m catamaran yacht available for charter in bangkok. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bangkok-baltic-star-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10186,
@@ -96,7 +114,12 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       includes: ["Air Conditioning", "Jacuzzi"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Flares", "Life Jackets", "Fire Extinguishers", "Searchlight"],
+    safetyFeatures: [
+      "Flares",
+      "Life Jackets",
+      "Fire Extinguishers",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Accessible Bathroom"],
   },
   {
@@ -135,8 +158,14 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Local Cuisine Packages"],
-    description: "Discover the beauty of bangkok's waters aboard the elegant Wave Dancer, a 2004 mega yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of bangkok's waters aboard the elegant Wave Dancer, a 2004 mega yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 39860,
@@ -145,7 +174,12 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill", "Heated Deck", "Dining Area"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Radio", "Emergency Beacon", "Emergency Steering"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Radio",
+      "Emergency Beacon",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

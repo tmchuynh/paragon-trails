@@ -37,8 +37,14 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of seattle's waters aboard the elegant Ocean Majesty, a 2013 mega yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-4.jpg"],
+    description:
+      "Discover the beauty of seattle's waters aboard the elegant Ocean Majesty, a 2013 mega yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/seattle-ocean-majesty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 37826,
@@ -47,7 +53,12 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Hot Tub", "Swim Platform"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Emergency Radio", "Life Jackets", "Life Rafts", "First Aid Kit"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Life Jackets",
+      "Life Rafts",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Handrails", "Wheelchair Ramp"],
   },
   {
@@ -73,7 +84,12 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Outdoor Shower", "Laundry Service", "Stabilizers", "Dining Area"],
+    amenities: [
+      "Outdoor Shower",
+      "Laundry Service",
+      "Stabilizers",
+      "Dining Area",
+    ],
     entertainment: ["Board Games", "Game Console", "Streaming Services"],
     waterToys: ["Water Skis", "Wakeboard", "Kayaks"],
     location: {
@@ -86,15 +102,25 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "Discover the beauty of seattle's waters aboard the elegant Aquamarine, a 2012 motor yacht featuring spacious accommodation for 9 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-3.jpg"],
+    description:
+      "Discover the beauty of seattle's waters aboard the elegant Aquamarine, a 2012 motor yacht featuring spacious accommodation for 9 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-aquamarine-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11707,
       perWeek: 69656.65,
       currency: "USD",
       includes: ["Outdoor Shower", "Laundry Service"],
-      excludes: ["Outdoor Shower", "Laundry Service", "Stabilizers", "Dining Area"],
+      excludes: [
+        "Outdoor Shower",
+        "Laundry Service",
+        "Stabilizers",
+        "Dining Area",
+      ],
     },
     safetyFeatures: ["Searchlight", "Radar", "Navigation Lights"],
     accessibilityFeatures: [],
@@ -122,7 +148,14 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       crew: 12,
       bathrooms: 10,
     },
-    amenities: ["Tender Garage", "Bar", "Kitchen", "Wi-Fi", "Jacuzzi", "Stabilizers"],
+    amenities: [
+      "Tender Garage",
+      "Bar",
+      "Kitchen",
+      "Wi-Fi",
+      "Jacuzzi",
+      "Stabilizers",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Inflatable Slide", "E-Foil", "Floating Island"],
     location: {
@@ -135,17 +168,34 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Atlantic Breeze, a stunning 68m super yacht available for charter in seattle. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Atlantic Breeze, a stunning 68m super yacht available for charter in seattle. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-atlantic-breeze-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 71007,
       perWeek: 422491.64999999997,
       currency: "USD",
       includes: ["Tender Garage"],
-      excludes: ["Tender Garage", "Bar", "Kitchen", "Wi-Fi", "Jacuzzi", "Stabilizers"],
+      excludes: [
+        "Tender Garage",
+        "Bar",
+        "Kitchen",
+        "Wi-Fi",
+        "Jacuzzi",
+        "Stabilizers",
+      ],
     },
-    safetyFeatures: ["Life Jackets", "Life Rafts", "Emergency Steering", "Emergency Radio"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Life Rafts",
+      "Emergency Steering",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -173,7 +223,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Hot Tub", "Sauna", "Air Conditioning"],
     entertainment: ["Bluetooth Speakers", "Satellite TV"],
-    waterToys: ["Seabob", "Wakeboard", "Kayaks", "Inflatable Slide", "Scuba Diving Gear"],
+    waterToys: [
+      "Seabob",
+      "Wakeboard",
+      "Kayaks",
+      "Inflatable Slide",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "seattle",
       country: "United States",
@@ -184,8 +240,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "No Catering"],
-    description: "The Euphoria is a magnificent gulet yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in seattle.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-3.jpg"],
+    description:
+      "The Euphoria is a magnificent gulet yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in seattle.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-euphoria-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8419,
@@ -220,7 +281,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Wi-Fi", "Tender Garage", "Kitchen", "Outdoor Shower", "Stabilizers"],
+    amenities: [
+      "Wi-Fi",
+      "Tender Garage",
+      "Kitchen",
+      "Outdoor Shower",
+      "Stabilizers",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Snorkeling Gear", "E-Foil", "Wakeboard", "Fishing Equipment"],
     location: {
@@ -233,15 +300,26 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Local Cuisine Packages"],
-    description: "Discover the beauty of seattle's waters aboard the elegant Elite Waves, a 2005 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-3.jpg"],
+    description:
+      "Discover the beauty of seattle's waters aboard the elegant Elite Waves, a 2005 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/seattle-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4726,
       perWeek: 28119.7,
       currency: "USD",
       includes: ["Wi-Fi", "Tender Garage"],
-      excludes: ["Wi-Fi", "Tender Garage", "Kitchen", "Outdoor Shower", "Stabilizers"],
+      excludes: [
+        "Wi-Fi",
+        "Tender Garage",
+        "Kitchen",
+        "Outdoor Shower",
+        "Stabilizers",
+      ],
     },
     safetyFeatures: ["Radar", "GPS Tracking", "Emergency Radio"],
     accessibilityFeatures: [],
@@ -282,8 +360,14 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Sapphire Seas in seattle and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-4.jpg"],
+    description:
+      "Charter the impressive Sapphire Seas in seattle and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7353,
@@ -294,5 +378,5 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "First Aid Kit", "GPS Tracking"],
     accessibilityFeatures: [],
-  }
+  },
 ];

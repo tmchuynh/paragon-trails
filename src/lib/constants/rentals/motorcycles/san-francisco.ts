@@ -19,8 +19,13 @@ export const sanFranciscounitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "san-francisco",
     pickUpCountry: "United States",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/ktm-690-smc.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/ktm-690-smc.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -42,8 +47,15 @@ export const sanFranciscounitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "san-francisco",
     pickUpCountry: "United States",
     pickUpLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/yamaha-yzf-r1.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Two-Wheel Experience", "Credit Card Required", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/yamaha-yzf-r1.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Two-Wheel Experience",
+      "Credit Card Required",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Convention Center",
   },
@@ -65,9 +77,17 @@ export const sanFranciscounitedStateswestCoastUsaMotorcycles: Motorcycle[] = [
     pickUpCity: "san-francisco",
     pickUpCountry: "United States",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/triumph-speed-triple.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Experience with Manual Transmission", "Minimum Age 21", "Credit Card Required", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/triumph-speed-triple.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Experience with Manual Transmission",
+      "Minimum Age 21",
+      "Credit Card Required",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Downtown",
-  }
+  },
 ];

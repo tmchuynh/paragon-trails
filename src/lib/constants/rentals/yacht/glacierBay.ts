@@ -37,8 +37,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "The Crystal Blue is a magnificent gulet yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-5.jpg"],
+    description:
+      "The Crystal Blue is a magnificent gulet yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3804,
@@ -86,8 +93,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Royal Wave combines performance and luxury in a stunning 81m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-4.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-5.jpg"],
+    description:
+      "Royal Wave combines performance and luxury in a stunning 81m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-royal-wave-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 161255,
@@ -135,8 +149,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Silver Horizon is a magnificent motor yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
-    images: ["https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-5.jpg"],
+    description:
+      "The Silver Horizon is a magnificent motor yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13218,
@@ -184,8 +205,14 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "À La Carte"],
-    description: "Royal Seas combines performance and luxury in a stunning 19m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-4.jpg"],
+    description:
+      "Royal Seas combines performance and luxury in a stunning 19m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-royal-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6454,
@@ -220,7 +247,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
       crew: 12,
       bathrooms: 7,
     },
-    amenities: ["Tender Garage", "BBQ Grill", "Kitchen", "Sauna", "Indoor Lounge"],
+    amenities: [
+      "Tender Garage",
+      "BBQ Grill",
+      "Kitchen",
+      "Sauna",
+      "Indoor Lounge",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Inflatable Slide", "Kneeboard", "Windsurf", "Kayaks"],
     location: {
@@ -233,8 +266,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Serenity Now in glacier-bay and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-3.jpg"],
+    description:
+      "Charter the impressive Serenity Now in glacier-bay and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 160187,
@@ -243,7 +281,12 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Tender Garage"],
       excludes: ["Indoor Lounge"],
     },
-    safetyFeatures: ["Navigation Lights", "Life Jackets", "GPS Tracking", "Searchlight"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Life Jackets",
+      "GPS Tracking",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -269,7 +312,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Jacuzzi", "Heated Deck", "Kitchen", "Swim Platform", "Tender Garage"],
+    amenities: [
+      "Jacuzzi",
+      "Heated Deck",
+      "Kitchen",
+      "Swim Platform",
+      "Tender Garage",
+    ],
     entertainment: ["Onboard Cinema", "Game Console", "Board Games"],
     waterToys: ["Kneeboard", "E-Foil"],
     location: {
@@ -282,17 +331,29 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "Serenity Now combines performance and luxury in a stunning 17m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-4.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 17m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-serenity-now-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7508,
       perWeek: 44672.6,
       currency: "USD",
       includes: ["Jacuzzi", "Heated Deck", "Kitchen"],
-      excludes: ["Jacuzzi", "Heated Deck", "Kitchen", "Swim Platform", "Tender Garage"],
+      excludes: [
+        "Jacuzzi",
+        "Heated Deck",
+        "Kitchen",
+        "Swim Platform",
+        "Tender Garage",
+      ],
     },
     safetyFeatures: ["Searchlight", "EPIRB", "Emergency Steering"],
     accessibilityFeatures: [],
-  }
+  },
 ];

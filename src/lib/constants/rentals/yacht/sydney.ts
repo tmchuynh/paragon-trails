@@ -24,7 +24,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       crew: 16,
       bathrooms: 12,
     },
-    amenities: ["Sauna", "Stabilizers", "Jacuzzi", "BBQ Grill", "Air Conditioning"],
+    amenities: [
+      "Sauna",
+      "Stabilizers",
+      "Jacuzzi",
+      "BBQ Grill",
+      "Air Conditioning",
+    ],
     entertainment: ["Streaming Services", "Karaoke System"],
     waterToys: ["Paddleboards", "Floating Island"],
     location: {
@@ -37,8 +43,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "All-Inclusive"],
-    description: "Ocean Majesty combines performance and luxury in a stunning 67m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-3.jpg"],
+    description:
+      "Ocean Majesty combines performance and luxury in a stunning 67m super yacht. With its professional crew of 16, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/sydney-ocean-majesty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 79958,
@@ -47,7 +58,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Sauna"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Life Jackets", "Fog Horn", "Flares", "Emergency Steering"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Fog Horn",
+      "Flares",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +89,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       crew: 7,
       bathrooms: 6,
     },
-    amenities: ["Jacuzzi", "Tender Garage", "Air Conditioning", "Outdoor Shower"],
+    amenities: [
+      "Jacuzzi",
+      "Tender Garage",
+      "Air Conditioning",
+      "Outdoor Shower",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Floating Island", "Snorkeling Gear", "Water Skis"],
     location: {
@@ -86,17 +107,35 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Sapphire Seas in sydney and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-5.jpg"],
+    description:
+      "Charter the impressive Sapphire Seas in sydney and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-sapphire-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 40651,
       perWeek: 241873.44999999998,
       currency: "AUD",
       includes: ["Jacuzzi"],
-      excludes: ["Jacuzzi", "Tender Garage", "Air Conditioning", "Outdoor Shower"],
+      excludes: [
+        "Jacuzzi",
+        "Tender Garage",
+        "Air Conditioning",
+        "Outdoor Shower",
+      ],
     },
-    safetyFeatures: ["Radar", "Navigation Lights", "Fire Extinguishers", "Emergency Steering", "Life Jackets"],
+    safetyFeatures: [
+      "Radar",
+      "Navigation Lights",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -123,7 +162,11 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       bathrooms: 10,
     },
     amenities: ["Air Conditioning", "Sauna"],
-    entertainment: ["Surround Sound System", "Game Console", "Streaming Services"],
+    entertainment: [
+      "Surround Sound System",
+      "Game Console",
+      "Streaming Services",
+    ],
     waterToys: ["E-Foil", "Wakeboard", "Snorkeling Gear"],
     location: {
       city: "sydney",
@@ -135,8 +178,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "No Catering"],
-    description: "Charter the impressive Ruby Tides in sydney and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-3.jpg"],
+    description:
+      "Charter the impressive Ruby Tides in sydney and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/sydney-ruby-tides-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 95539,
@@ -171,9 +219,20 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["BBQ Grill", "Jacuzzi", "Tender Garage", "Swim Platform", "Stabilizers"],
+    amenities: [
+      "BBQ Grill",
+      "Jacuzzi",
+      "Tender Garage",
+      "Swim Platform",
+      "Stabilizers",
+    ],
     entertainment: ["Projector", "DJ Equipment"],
-    waterToys: ["E-Foil", "Floating Island", "Scuba Diving Gear", "Inflatable Slide"],
+    waterToys: [
+      "E-Foil",
+      "Floating Island",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+    ],
     location: {
       city: "sydney",
       country: "Australia",
@@ -184,8 +243,14 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Charter the impressive Luxury Waters in sydney and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-4.jpg"],
+    description:
+      "Charter the impressive Luxury Waters in sydney and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/sydney-luxury-waters-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 10595,
@@ -194,7 +259,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill", "Jacuzzi"],
       excludes: ["Stabilizers"],
     },
-    safetyFeatures: ["GPS Tracking", "Life Rafts", "Emergency Steering", "First Aid Kit"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Life Rafts",
+      "Emergency Steering",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -233,8 +303,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Oceanis is a magnificent sailing yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in sydney.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-3.jpg"],
+    description:
+      "The Oceanis is a magnificent sailing yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in sydney.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-oceanis-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6677,
@@ -269,7 +344,14 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Dining Area", "Laundry Service", "Wi-Fi", "Air Conditioning", "Kitchen", "BBQ Grill"],
+    amenities: [
+      "Dining Area",
+      "Laundry Service",
+      "Wi-Fi",
+      "Air Conditioning",
+      "Kitchen",
+      "BBQ Grill",
+    ],
     entertainment: ["Streaming Services", "DJ Equipment"],
     waterToys: ["Kayaks", "Seabob", "Paddleboards", "Towable Tubes"],
     location: {
@@ -282,17 +364,30 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of sydney's waters aboard the elegant Euphoria, a 2006 sailing yacht featuring spacious accommodation for 4 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-3.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-4.jpg"],
+    description:
+      "Discover the beauty of sydney's waters aboard the elegant Euphoria, a 2006 sailing yacht featuring spacious accommodation for 4 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-euphoria-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9667,
       perWeek: 57518.65,
       currency: "AUD",
       includes: ["Dining Area", "Laundry Service", "Wi-Fi"],
-      excludes: ["Dining Area", "Laundry Service", "Wi-Fi", "Air Conditioning", "Kitchen", "BBQ Grill"],
+      excludes: [
+        "Dining Area",
+        "Laundry Service",
+        "Wi-Fi",
+        "Air Conditioning",
+        "Kitchen",
+        "BBQ Grill",
+      ],
     },
     safetyFeatures: ["Flares", "Searchlight", "Fog Horn"],
     accessibilityFeatures: [],
-  }
+  },
 ];

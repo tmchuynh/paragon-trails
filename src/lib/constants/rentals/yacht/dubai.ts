@@ -24,7 +24,14 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Dining Area", "Indoor Lounge", "Wi-Fi", "Stabilizers", "Bar", "Tender Garage"],
+    amenities: [
+      "Dining Area",
+      "Indoor Lounge",
+      "Wi-Fi",
+      "Stabilizers",
+      "Bar",
+      "Tender Garage",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Wakeboard", "Inflatable Slide", "Scuba Diving Gear", "Kayaks"],
     location: {
@@ -37,8 +44,14 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 16m gulet yacht available for charter in dubai. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 16m gulet yacht available for charter in dubai. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dubai-adriatic-splendor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6413,
@@ -47,7 +60,13 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       includes: ["Dining Area", "Indoor Lounge", "Wi-Fi"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["GPS Tracking", "Life Jackets", "Life Rafts", "First Aid Kit", "Navigation Lights"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Life Jackets",
+      "Life Rafts",
+      "First Aid Kit",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +105,13 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Wave Dancer is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubai.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-3.jpg"],
+    description:
+      "The Wave Dancer is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubai.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubai-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6639,
@@ -122,7 +146,14 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Swim Platform", "Outdoor Shower", "Jacuzzi", "Stabilizers", "Sun Deck", "Bar"],
+    amenities: [
+      "Swim Platform",
+      "Outdoor Shower",
+      "Jacuzzi",
+      "Stabilizers",
+      "Sun Deck",
+      "Bar",
+    ],
     entertainment: ["Projector", "Streaming Services", "Media Library"],
     waterToys: ["Water Skis", "E-Foil", "Kayaks"],
     location: {
@@ -135,17 +166,34 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "No Catering"],
-    description: "Charter the impressive Mediterranean Gem in dubai and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-3.jpg"],
+    description:
+      "Charter the impressive Mediterranean Gem in dubai and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dubai-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7376,
       perWeek: 43887.2,
       currency: "AED",
       includes: ["Swim Platform", "Outdoor Shower", "Jacuzzi"],
-      excludes: ["Swim Platform", "Outdoor Shower", "Jacuzzi", "Stabilizers", "Sun Deck", "Bar"],
+      excludes: [
+        "Swim Platform",
+        "Outdoor Shower",
+        "Jacuzzi",
+        "Stabilizers",
+        "Sun Deck",
+        "Bar",
+      ],
     },
-    safetyFeatures: ["EPIRB", "Emergency Radio", "First Aid Kit", "GPS Tracking"],
+    safetyFeatures: [
+      "EPIRB",
+      "Emergency Radio",
+      "First Aid Kit",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +219,15 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       crew: 12,
       bathrooms: 8,
     },
-    amenities: ["Air Conditioning", "Bar", "Tender Garage", "Stabilizers", "Dining Area", "Jacuzzi", "Outdoor Shower"],
+    amenities: [
+      "Air Conditioning",
+      "Bar",
+      "Tender Garage",
+      "Stabilizers",
+      "Dining Area",
+      "Jacuzzi",
+      "Outdoor Shower",
+    ],
     entertainment: ["Bluetooth Speakers", "Media Library"],
     waterToys: ["Paddleboards", "Kneeboard", "Windsurf", "Scuba Diving Gear"],
     location: {
@@ -184,15 +240,30 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Picnic-Style"],
-    description: "Discover the beauty of dubai's waters aboard the elegant Serenity Now, a 2010 super yacht featuring spacious accommodation for 21 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubai-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-4.jpg", "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-5.jpg"],
+    description:
+      "Discover the beauty of dubai's waters aboard the elegant Serenity Now, a 2010 super yacht featuring spacious accommodation for 21 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-serenity-now-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 135503,
       perWeek: 806242.85,
       currency: "AED",
       includes: ["Air Conditioning", "Bar"],
-      excludes: ["Air Conditioning", "Bar", "Tender Garage", "Stabilizers", "Dining Area", "Jacuzzi", "Outdoor Shower"],
+      excludes: [
+        "Air Conditioning",
+        "Bar",
+        "Tender Garage",
+        "Stabilizers",
+        "Dining Area",
+        "Jacuzzi",
+        "Outdoor Shower",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Radar", "Flares"],
     accessibilityFeatures: [],
@@ -222,7 +293,12 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     },
     amenities: ["Indoor Lounge", "Sun Deck", "Hot Tub"],
     entertainment: ["Media Library"],
-    waterToys: ["Floating Island", "Inflatable Slide", "Towable Tubes", "Fishing Equipment"],
+    waterToys: [
+      "Floating Island",
+      "Inflatable Slide",
+      "Towable Tubes",
+      "Fishing Equipment",
+    ],
     location: {
       city: "dubai",
       country: "United Arab Emirates",
@@ -233,8 +309,15 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Crystal Blue in dubai and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-5.jpg"],
+    description:
+      "Charter the impressive Crystal Blue in dubai and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubai-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 112537,
@@ -243,7 +326,11 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Sun Deck", "Hot Tub"],
       excludes: ["Indoor Lounge", "Sun Deck", "Hot Tub"],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Steering", "Emergency Beacon"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Steering",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +369,15 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Atlantic Breeze in dubai and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-5.jpg"],
+    description:
+      "Charter the impressive Atlantic Breeze in dubai and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubai-atlantic-breeze-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12714,
@@ -294,5 +388,5 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     },
     safetyFeatures: ["Navigation Lights", "Searchlight", "Emergency Radio"],
     accessibilityFeatures: [],
-  }
+  },
 ];

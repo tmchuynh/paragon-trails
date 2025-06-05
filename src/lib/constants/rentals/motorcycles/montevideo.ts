@@ -19,8 +19,14 @@ export const montevideouruguaysouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "montevideo",
     pickUpCountry: "Uruguay",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/suzuki-hayabusa.jpg",
-    requirements: ["Helmet Required", "Valid Motorcycle License", "No DUI Record", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/suzuki-hayabusa.jpg",
+    requirements: [
+      "Helmet Required",
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -42,8 +48,14 @@ export const montevideouruguaysouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "montevideo",
     pickUpCountry: "Uruguay",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/triumph-speed-triple.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Experience with Manual Transmission", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/triumph-speed-triple.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Experience with Manual Transmission",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -65,9 +77,16 @@ export const montevideouruguaysouthAmericaMotorcycles: Motorcycle[] = [
     pickUpCity: "montevideo",
     pickUpCountry: "Uruguay",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/yamaha-v-star.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Two-Wheel Experience", "International Driving Permit (for foreign renters)", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/yamaha-v-star.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Two-Wheel Experience",
+      "International Driving Permit (for foreign renters)",
+      "Experience with Manual Transmission",
+    ],
     availability: false,
     location: "Downtown",
-  }
+  },
 ];

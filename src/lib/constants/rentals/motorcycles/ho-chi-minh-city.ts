@@ -19,8 +19,16 @@ export const hoChiMinhCityvietnamasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "ho-chi-minh-city",
     pickUpCountry: "Vietnam",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/aprilia-caponord.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Two-Wheel Experience", "International Driving Permit (for foreign renters)", "Experience with Manual Transmission", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/aprilia-caponord.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Two-Wheel Experience",
+      "International Driving Permit (for foreign renters)",
+      "Experience with Manual Transmission",
+      "No DUI Record",
+    ],
     availability: true,
     location: "Airport",
   },
@@ -42,8 +50,14 @@ export const hoChiMinhCityvietnamasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "ho-chi-minh-city",
     pickUpCountry: "Vietnam",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/ktm-790-adventure.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Helmet Required", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/ktm-790-adventure.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Helmet Required",
+      "No DUI Record",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -65,8 +79,13 @@ export const hoChiMinhCityvietnamasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "ho-chi-minh-city",
     pickUpCountry: "Vietnam",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/aprilia-tuono.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Two-Wheel Experience"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/aprilia-tuono.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Two-Wheel Experience",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -91,8 +110,14 @@ export const hoChiMinhCityvietnamasiaPacificMotorcycles: Motorcycle[] = [
     dropOffCity: "charleston",
     dropOffCountry: "United States",
     dropOffLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/ktm-1290-super-adventure.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Local Riding Permit", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/ktm-1290-super-adventure.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Local Riding Permit",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -114,9 +139,15 @@ export const hoChiMinhCityvietnamasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "ho-chi-minh-city",
     pickUpCountry: "Vietnam",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/moto-guzzi-audace.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Signed Waiver", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/moto-guzzi-audace.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Signed Waiver",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Shopping District",
-  }
+  },
 ];

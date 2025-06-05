@@ -24,7 +24,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 6,
     },
-    amenities: ["Tender Garage", "Dining Area", "BBQ Grill", "Heated Deck", "Wi-Fi"],
+    amenities: [
+      "Tender Garage",
+      "Dining Area",
+      "BBQ Grill",
+      "Heated Deck",
+      "Wi-Fi",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Water Skis", "Jet Ski"],
     location: {
@@ -37,17 +43,34 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "The Royal Seas is a magnificent gulet yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-3.jpg"],
+    description:
+      "The Royal Seas is a magnificent gulet yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-royal-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6123,
       perWeek: 36431.85,
       currency: "USD",
       includes: ["Tender Garage", "Dining Area"],
-      excludes: ["Tender Garage", "Dining Area", "BBQ Grill", "Heated Deck", "Wi-Fi"],
+      excludes: [
+        "Tender Garage",
+        "Dining Area",
+        "BBQ Grill",
+        "Heated Deck",
+        "Wi-Fi",
+      ],
     },
-    safetyFeatures: ["First Aid Kit", "Emergency Radio", "Radar", "Emergency Beacon", "Flares"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Emergency Radio",
+      "Radar",
+      "Emergency Beacon",
+      "Flares",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -73,7 +96,14 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 19,
       bathrooms: 9,
     },
-    amenities: ["Dining Area", "Sun Deck", "Heated Deck", "Laundry Service", "Air Conditioning", "Outdoor Shower"],
+    amenities: [
+      "Dining Area",
+      "Sun Deck",
+      "Heated Deck",
+      "Laundry Service",
+      "Air Conditioning",
+      "Outdoor Shower",
+    ],
     entertainment: ["Board Games", "Media Library"],
     waterToys: ["Floating Island", "Water Skis"],
     location: {
@@ -86,8 +116,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Breakfast Only"],
-    description: "Discover the beauty of fort-lauderdale's waters aboard the elegant Cobalt Waters, a 2018 super yacht featuring spacious accommodation for 16 guests overnight or 20 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-3.jpg"],
+    description:
+      "Discover the beauty of fort-lauderdale's waters aboard the elegant Cobalt Waters, a 2018 super yacht featuring spacious accommodation for 16 guests overnight or 20 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-cobalt-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 82670,
@@ -122,7 +157,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 4,
     },
-    amenities: ["Dining Area", "Bar", "Indoor Lounge", "Swim Platform", "Air Conditioning", "Sauna", "Heated Deck"],
+    amenities: [
+      "Dining Area",
+      "Bar",
+      "Indoor Lounge",
+      "Swim Platform",
+      "Air Conditioning",
+      "Sauna",
+      "Heated Deck",
+    ],
     entertainment: ["Game Console", "Board Games"],
     waterToys: ["Towable Tubes", "E-Foil", "Windsurf", "Kneeboard"],
     location: {
@@ -135,8 +178,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["No Catering", "Picnic-Style"],
-    description: "The Sea Symphony is a magnificent motor yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
-    images: ["https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-3.jpg"],
+    description:
+      "The Sea Symphony is a magnificent motor yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-sea-symphony-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13799,
@@ -145,7 +193,12 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Dining Area"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["First Aid Kit", "GPS Tracking", "Life Rafts", "Emergency Steering"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "GPS Tracking",
+      "Life Rafts",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +237,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Endless Horizons in fort-lauderdale and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-4.jpg", "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-5.jpg"],
+    description:
+      "Charter the impressive Endless Horizons in fort-lauderdale and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/fort-lauderdale-endless-horizons-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14554,
@@ -194,7 +254,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Stabilizers", "Bar"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Steering", "Fog Horn", "EPIRB", "Emergency Radio"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Steering",
+      "Fog Horn",
+      "EPIRB",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +299,14 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Caribbean Pearl combines performance and luxury in a stunning 88m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-4.jpg"],
+    description:
+      "Caribbean Pearl combines performance and luxury in a stunning 88m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-caribbean-pearl-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 137400,
@@ -282,8 +354,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Local Cuisine Packages"],
-    description: "Discover the beauty of fort-lauderdale's waters aboard the elegant Golden Voyage, a 2002 super yacht featuring spacious accommodation for 15 guests overnight or 20 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-3.jpg"],
+    description:
+      "Discover the beauty of fort-lauderdale's waters aboard the elegant Golden Voyage, a 2002 super yacht featuring spacious accommodation for 15 guests overnight or 20 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/fort-lauderdale-golden-voyage-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 104712,
@@ -292,7 +369,13 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Outdoor Shower", "BBQ Grill"],
       excludes: ["Outdoor Shower", "BBQ Grill", "Sun Deck"],
     },
-    safetyFeatures: ["Radar", "Flares", "First Aid Kit", "Life Jackets", "EPIRB"],
+    safetyFeatures: [
+      "Radar",
+      "Flares",
+      "First Aid Kit",
+      "Life Jackets",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

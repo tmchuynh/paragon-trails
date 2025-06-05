@@ -37,8 +37,14 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "No Catering"],
-    description: "The Blue Horizon is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in bermuda.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-4.jpg"],
+    description:
+      "The Blue Horizon is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in bermuda.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-blue-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9255,
@@ -47,7 +53,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["BBQ Grill", "Kitchen"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Steering", "Life Rafts", "EPIRB"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Steering",
+      "Life Rafts",
+      "EPIRB",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -73,7 +84,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Heated Deck", "Swim Platform", "Laundry Service", "Tender Garage"],
+    amenities: [
+      "Heated Deck",
+      "Swim Platform",
+      "Laundry Service",
+      "Tender Garage",
+    ],
     entertainment: ["Karaoke System", "Bluetooth Speakers"],
     waterToys: ["Water Skis", "E-Foil", "Paddleboards", "Fishing Equipment"],
     location: {
@@ -86,8 +102,14 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of bermuda's waters aboard the elegant Wave Dancer, a 2004 mega yacht featuring spacious accommodation for 11 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of bermuda's waters aboard the elegant Wave Dancer, a 2004 mega yacht featuring spacious accommodation for 11 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bermuda-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 38688,
@@ -96,7 +118,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Heated Deck", "Swim Platform", "Laundry Service"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Flares", "Emergency Radio", "Searchlight"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Flares",
+      "Emergency Radio",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Low Thresholds"],
   },
   {
@@ -135,8 +162,15 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Endless Horizons in bermuda and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-4.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-5.jpg"],
+    description:
+      "Charter the impressive Endless Horizons in bermuda and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-endless-horizons-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6710,
@@ -145,7 +179,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Sun Deck", "Sauna", "Indoor Lounge"],
       excludes: ["Sun Deck", "Sauna", "Indoor Lounge", "Bar", "BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Beacon", "Searchlight", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Beacon",
+      "Searchlight",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -172,7 +211,11 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       bathrooms: 5,
     },
     amenities: ["Indoor Lounge", "Laundry Service", "Hot Tub"],
-    entertainment: ["Streaming Services", "Karaoke System", "Surround Sound System"],
+    entertainment: [
+      "Streaming Services",
+      "Karaoke System",
+      "Surround Sound System",
+    ],
     waterToys: ["Floating Island", "Seabob", "Wakeboard", "Scuba Diving Gear"],
     location: {
       city: "bermuda",
@@ -184,8 +227,15 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Ocean Majesty, a stunning 30m motor yacht available for charter in bermuda. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Ocean Majesty, a stunning 30m motor yacht available for charter in bermuda. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bermuda-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12868,
@@ -194,7 +244,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Laundry Service", "Hot Tub"],
       excludes: ["Indoor Lounge", "Laundry Service", "Hot Tub"],
     },
-    safetyFeatures: ["Emergency Beacon", "Flares", "Fire Extinguishers", "Emergency Radio"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Flares",
+      "Fire Extinguishers",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Handrails", "Accessible Cabin"],
   },
   {
@@ -220,7 +275,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 9,
     },
-    amenities: ["Swim Platform", "Laundry Service", "Heated Deck", "Tender Garage"],
+    amenities: [
+      "Swim Platform",
+      "Laundry Service",
+      "Heated Deck",
+      "Tender Garage",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["E-Foil", "Seabob", "Kneeboard", "Wakeboard", "Towable Tubes"],
     location: {
@@ -233,8 +293,15 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Adriatic Queen in bermuda and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-5.jpg"],
+    description:
+      "Charter the impressive Adriatic Queen in bermuda and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bermuda-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7350,
@@ -243,7 +310,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Life Jackets", "GPS Tracking", "First Aid Kit", "Fog Horn"],
+    safetyFeatures: [
+      "Life Jackets",
+      "GPS Tracking",
+      "First Aid Kit",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

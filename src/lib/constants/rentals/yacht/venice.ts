@@ -24,7 +24,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["Wi-Fi", "Dining Area", "Hot Tub", "Heated Deck", "Air Conditioning"],
+    amenities: [
+      "Wi-Fi",
+      "Dining Area",
+      "Hot Tub",
+      "Heated Deck",
+      "Air Conditioning",
+    ],
     entertainment: ["Satellite TV", "DJ Equipment"],
     waterToys: ["Kayaks", "Paddleboards", "Scuba Diving Gear"],
     location: {
@@ -37,15 +43,28 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Charter the impressive Indigo Seas in venice and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-5.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in venice and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-indigo-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7956,
       perWeek: 47338.2,
       currency: "EUR",
       includes: ["Wi-Fi", "Dining Area"],
-      excludes: ["Wi-Fi", "Dining Area", "Hot Tub", "Heated Deck", "Air Conditioning"],
+      excludes: [
+        "Wi-Fi",
+        "Dining Area",
+        "Hot Tub",
+        "Heated Deck",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["Emergency Radio", "Fog Horn", "Emergency Beacon"],
     accessibilityFeatures: [],
@@ -86,8 +105,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "No Catering"],
-    description: "Charter the impressive Azure Blue in venice and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/venice-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/motor/venice-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/motor/venice-azure-blue-3.jpg"],
+    description:
+      "Charter the impressive Azure Blue in venice and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/venice-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-azure-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6487,
@@ -96,7 +120,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       includes: ["Bar", "Wi-Fi", "Air Conditioning"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Flares", "Emergency Radio", "Emergency Steering", "Searchlight", "Life Rafts"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Radio",
+      "Emergency Steering",
+      "Searchlight",
+      "Life Rafts",
+    ],
     accessibilityFeatures: ["Wide Doorways", "Low Thresholds"],
   },
   {
@@ -135,8 +165,14 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "No Catering"],
-    description: "Discover the beauty of venice's waters aboard the elegant Blue Horizon, a 2015 catamaran yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-4.jpg"],
+    description:
+      "Discover the beauty of venice's waters aboard the elegant Blue Horizon, a 2015 catamaran yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/venice-blue-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4372,
@@ -145,7 +181,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       includes: ["Wi-Fi"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Navigation Lights", "GPS Tracking", "Fog Horn", "Fire Extinguishers", "Flares"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "GPS Tracking",
+      "Fog Horn",
+      "Fire Extinguishers",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +226,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["À La Carte", "All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Aegean Beauty, a stunning 16m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aegean Beauty, a stunning 16m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-aegean-beauty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8705,
@@ -196,5 +243,5 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Beacon", "EPIRB", "Flares"],
     accessibilityFeatures: [],
-  }
+  },
 ];

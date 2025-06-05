@@ -22,8 +22,14 @@ export const quebecCitycanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     dropOffCity: "ketchikan",
     dropOffCountry: "United States",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/aprilia-sx-125.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "International Driving Permit (for foreign renters)", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/aprilia-sx-125.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "International Driving Permit (for foreign renters)",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Transit Hub",
   },
@@ -45,8 +51,13 @@ export const quebecCitycanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     pickUpCity: "quebec-city",
     pickUpCountry: "Canada",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/ducati-hypermotard.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/ducati-hypermotard.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -68,9 +79,16 @@ export const quebecCitycanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     pickUpCity: "quebec-city",
     pickUpCountry: "Canada",
     pickUpLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/aprilia-dorsoduro.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Security Deposit Required", "Insurance Required", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/aprilia-dorsoduro.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Security Deposit Required",
+      "Insurance Required",
+      "Experience with Manual Transmission",
+    ],
     availability: false,
     location: "City Center",
-  }
+  },
 ];

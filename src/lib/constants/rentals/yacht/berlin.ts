@@ -37,8 +37,15 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Royal Seas, a stunning 27m motor yacht available for charter in berlin. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Royal Seas, a stunning 27m motor yacht available for charter in berlin. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11518,
@@ -47,7 +54,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Laundry Service", "Heated Deck", "Bar"],
       excludes: ["Laundry Service", "Heated Deck", "Bar", "Jacuzzi"],
     },
-    safetyFeatures: ["Fog Horn", "First Aid Kit", "Emergency Radio", "Fire Extinguishers", "Life Jackets"],
+    safetyFeatures: [
+      "Fog Horn",
+      "First Aid Kit",
+      "Emergency Radio",
+      "Fire Extinguishers",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +99,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Adriatic Queen is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in berlin.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-3.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in berlin.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/berlin-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7192,
@@ -135,8 +153,15 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Self-Catering"],
-    description: "Discover the beauty of berlin's waters aboard the elegant Ruby Tides, a 2019 sailing yacht featuring spacious accommodation for 6 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-4.jpg", "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-5.jpg"],
+    description:
+      "Discover the beauty of berlin's waters aboard the elegant Ruby Tides, a 2019 sailing yacht featuring spacious accommodation for 6 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/berlin-ruby-tides-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4771,
@@ -184,8 +209,14 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Azure Blue combines performance and luxury in a stunning 70m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/berlin-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-4.jpg"],
+    description:
+      "Azure Blue combines performance and luxury in a stunning 70m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/berlin-azure-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 137428,
@@ -194,7 +225,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Heated Deck", "Laundry Service"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Emergency Steering", "Flares", "Emergency Beacon", "Emergency Radio", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Flares",
+      "Emergency Beacon",
+      "Emergency Radio",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +270,14 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Chef Onboard"],
-    description: "Discover the beauty of berlin's waters aboard the elegant Wave Dancer, a 2012 mega yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of berlin's waters aboard the elegant Wave Dancer, a 2012 mega yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-wave-dancer-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 26231,
@@ -243,7 +286,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Laundry Service", "Sun Deck"],
       excludes: ["Laundry Service", "Sun Deck", "Heated Deck", "Jacuzzi"],
     },
-    safetyFeatures: ["First Aid Kit", "Emergency Steering", "Fog Horn", "Fire Extinguishers", "Life Rafts"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Emergency Steering",
+      "Fog Horn",
+      "Fire Extinguishers",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -269,7 +318,14 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       crew: 6,
       bathrooms: 5,
     },
-    amenities: ["Indoor Lounge", "Air Conditioning", "Dining Area", "Jacuzzi", "Stabilizers", "Hot Tub"],
+    amenities: [
+      "Indoor Lounge",
+      "Air Conditioning",
+      "Dining Area",
+      "Jacuzzi",
+      "Stabilizers",
+      "Hot Tub",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Seabob", "Scuba Diving Gear"],
     location: {
@@ -282,8 +338,14 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Picnic-Style"],
-    description: "The Aegean Beauty is a magnificent mega yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in berlin.",
-    images: ["https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-4.jpg"],
+    description:
+      "The Aegean Beauty is a magnificent mega yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in berlin.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/berlin-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 30761,
@@ -292,7 +354,12 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Air Conditioning", "Dining Area"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["First Aid Kit", "Fog Horn", "Searchlight", "Navigation Lights"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Fog Horn",
+      "Searchlight",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -331,8 +398,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "BBQ Onboard"],
-    description: "Discover the beauty of berlin's waters aboard the elegant Pearl Harbor, a 2000 motor yacht featuring spacious accommodation for 9 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-3.jpg"],
+    description:
+      "Discover the beauty of berlin's waters aboard the elegant Pearl Harbor, a 2000 motor yacht featuring spacious accommodation for 9 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/berlin-pearl-harbor-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 12716,
@@ -341,7 +413,13 @@ export const berlingermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["Radar", "Fire Extinguishers", "Flares", "Emergency Radio", "Fog Horn"],
+    safetyFeatures: [
+      "Radar",
+      "Fire Extinguishers",
+      "Flares",
+      "Emergency Radio",
+      "Fog Horn",
+    ],
     accessibilityFeatures: ["Elevator"],
-  }
+  },
 ];

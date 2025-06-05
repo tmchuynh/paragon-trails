@@ -37,8 +37,14 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Picnic-Style"],
-    description: "Discover the beauty of milan's waters aboard the elegant Azure Blue, a 2005 super yacht featuring spacious accommodation for 17 guests overnight or 28 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/milan-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/milan-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/milan-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/milan-azure-blue-4.jpg"],
+    description:
+      "Discover the beauty of milan's waters aboard the elegant Azure Blue, a 2005 super yacht featuring spacious accommodation for 17 guests overnight or 28 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/milan-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/milan-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/milan-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/milan-azure-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 178906,
@@ -47,7 +53,12 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       includes: ["Sauna", "Outdoor Shower"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["EPIRB", "GPS Tracking", "Emergency Steering", "Searchlight"],
+    safetyFeatures: [
+      "EPIRB",
+      "GPS Tracking",
+      "Emergency Steering",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,9 +84,22 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Wi-Fi", "Jacuzzi", "Indoor Lounge", "Dining Area", "Bar", "Sun Deck"],
+    amenities: [
+      "Wi-Fi",
+      "Jacuzzi",
+      "Indoor Lounge",
+      "Dining Area",
+      "Bar",
+      "Sun Deck",
+    ],
     entertainment: ["Streaming Services"],
-    waterToys: ["Water Skis", "Floating Island", "Inflatable Slide", "Kneeboard", "Windsurf"],
+    waterToys: [
+      "Water Skis",
+      "Floating Island",
+      "Inflatable Slide",
+      "Kneeboard",
+      "Windsurf",
+    ],
     location: {
       city: "milan",
       country: "Italy",
@@ -86,8 +110,14 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["À La Carte", "Full-Service Catering"],
-    description: "The Atlantic Breeze is a magnificent gulet yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in milan.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-4.jpg"],
+    description:
+      "The Atlantic Breeze is a magnificent gulet yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in milan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/milan-atlantic-breeze-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8281,
@@ -135,8 +165,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Discover the beauty of milan's waters aboard the elegant Aquamarine, a 2001 mega yacht featuring spacious accommodation for 8 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/milan-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-5.jpg"],
+    description:
+      "Discover the beauty of milan's waters aboard the elegant Aquamarine, a 2001 mega yacht featuring spacious accommodation for 8 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 48964,
@@ -145,7 +182,12 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       includes: ["Jacuzzi"],
       excludes: ["Jacuzzi", "Kitchen", "Laundry Service", "Stabilizers"],
     },
-    safetyFeatures: ["Flares", "Navigation Lights", "First Aid Kit", "Life Jackets"],
+    safetyFeatures: [
+      "Flares",
+      "Navigation Lights",
+      "First Aid Kit",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +213,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Bar", "Hot Tub", "Outdoor Shower", "Indoor Lounge", "Swim Platform", "Sun Deck", "Sauna"],
+    amenities: [
+      "Bar",
+      "Hot Tub",
+      "Outdoor Shower",
+      "Indoor Lounge",
+      "Swim Platform",
+      "Sun Deck",
+      "Sauna",
+    ],
     entertainment: ["Satellite TV", "DJ Equipment", "Bluetooth Speakers"],
     waterToys: ["Scuba Diving Gear", "Windsurf"],
     location: {
@@ -184,17 +234,35 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "BBQ Onboard"],
-    description: "Elite Waves combines performance and luxury in a stunning 15m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-4.jpg"],
+    description:
+      "Elite Waves combines performance and luxury in a stunning 15m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-elite-waves-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7716,
       perWeek: 45910.2,
       currency: "EUR",
       includes: ["Bar"],
-      excludes: ["Bar", "Hot Tub", "Outdoor Shower", "Indoor Lounge", "Swim Platform", "Sun Deck", "Sauna"],
+      excludes: [
+        "Bar",
+        "Hot Tub",
+        "Outdoor Shower",
+        "Indoor Lounge",
+        "Swim Platform",
+        "Sun Deck",
+        "Sauna",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Elevator", "Wide Doorways"],
   },
   {
@@ -220,7 +288,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 3,
     },
-    amenities: ["Heated Deck", "Bar", "Sun Deck", "Laundry Service", "Sauna", "Kitchen", "Outdoor Shower"],
+    amenities: [
+      "Heated Deck",
+      "Bar",
+      "Sun Deck",
+      "Laundry Service",
+      "Sauna",
+      "Kitchen",
+      "Outdoor Shower",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Wakeboard", "Snorkeling Gear"],
     location: {
@@ -233,8 +309,14 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Aegean Beauty, a stunning 16m catamaran yacht available for charter in milan. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aegean Beauty, a stunning 16m catamaran yacht available for charter in milan. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/milan-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11258,
@@ -282,8 +364,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Full-Service Catering"],
-    description: "Discover the beauty of milan's waters aboard the elegant Adriatic Queen, a 2015 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-5.jpg"],
+    description:
+      "Discover the beauty of milan's waters aboard the elegant Adriatic Queen, a 2015 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5354,
@@ -294,5 +383,5 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "Emergency Beacon"],
     accessibilityFeatures: ["Handrails", "Wide Doorways"],
-  }
+  },
 ];

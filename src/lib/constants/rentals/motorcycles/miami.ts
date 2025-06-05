@@ -22,8 +22,14 @@ export const miamiunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "oslo",
     dropOffCountry: "Norway",
     dropOffLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/husqvarna-701-supermoto.jpg",
-    requirements: ["Credit Card Required", "Helmet Required", "Valid Motorcycle License", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/husqvarna-701-supermoto.jpg",
+    requirements: [
+      "Credit Card Required",
+      "Helmet Required",
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -48,8 +54,14 @@ export const miamiunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "copenhagen",
     dropOffCountry: "Denmark",
     dropOffLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/kawasaki-ninja.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Minimum Age 21", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/kawasaki-ninja.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Minimum Age 21",
+      "No DUI Record",
+    ],
     availability: false,
     location: "Transit Hub",
   },
@@ -71,9 +83,10 @@ export const miamiunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "miami",
     pickUpCountry: "United States",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-fx-450.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-fx-450.jpg",
     requirements: ["Valid Motorcycle License", "Helmet Required"],
     availability: false,
     location: "Entertainment District",
-  }
+  },
 ];

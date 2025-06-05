@@ -24,7 +24,13 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Air Conditioning", "BBQ Grill", "Stabilizers", "Swim Platform", "Bar"],
+    amenities: [
+      "Air Conditioning",
+      "BBQ Grill",
+      "Stabilizers",
+      "Swim Platform",
+      "Bar",
+    ],
     entertainment: ["Surround Sound System", "Media Library"],
     waterToys: ["Seabob", "Wakeboard", "Kneeboard", "Floating Island"],
     location: {
@@ -37,17 +43,35 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Provisioning Only"],
-    description: "Charter the impressive Cobalt Waters in miami and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-5.jpg"],
+    description:
+      "Charter the impressive Cobalt Waters in miami and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6716,
       perWeek: 39960.2,
       currency: "USD",
       includes: ["Air Conditioning"],
-      excludes: ["Air Conditioning", "BBQ Grill", "Stabilizers", "Swim Platform", "Bar"],
+      excludes: [
+        "Air Conditioning",
+        "BBQ Grill",
+        "Stabilizers",
+        "Swim Platform",
+        "Bar",
+      ],
     },
-    safetyFeatures: ["Life Jackets", "Fire Extinguishers", "Radar", "Emergency Beacon"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Fire Extinguishers",
+      "Radar",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +110,13 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Provisioning Only"],
-    description: "The Mediterranean Gem is a magnificent motor yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
-    images: ["https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-3.jpg"],
+    description:
+      "The Mediterranean Gem is a magnificent motor yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/miami-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10258,
@@ -96,7 +125,12 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Emergency Radio", "Fog Horn", "GPS Tracking", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Fog Horn",
+      "GPS Tracking",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +158,12 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     },
     amenities: ["Bar", "Hot Tub", "Laundry Service", "Tender Garage"],
     entertainment: ["Bluetooth Speakers", "Game Console"],
-    waterToys: ["Scuba Diving Gear", "Kneeboard", "Fishing Equipment", "Paddleboards"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Kneeboard",
+      "Fishing Equipment",
+      "Paddleboards",
+    ],
     location: {
       city: "miami",
       country: "United States",
@@ -135,8 +174,15 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Sea Spirit is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-4.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-5.jpg"],
+    description:
+      "The Sea Spirit is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-spirit-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9777,
@@ -184,8 +230,13 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "All-Inclusive"],
-    description: "The Atlantic Breeze is a magnificent motor yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
-    images: ["https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-3.jpg"],
+    description:
+      "The Atlantic Breeze is a magnificent motor yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in miami.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/miami-atlantic-breeze-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9859,
@@ -233,8 +284,15 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Blue Horizon, a stunning 19m sailing yacht available for charter in miami. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-4.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Blue Horizon, a stunning 19m sailing yacht available for charter in miami. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-blue-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4712,
@@ -243,7 +301,11 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Heated Deck", "Tender Garage", "Swim Platform"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Emergency Steering", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

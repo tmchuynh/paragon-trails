@@ -24,7 +24,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 7,
       bathrooms: 7,
     },
-    amenities: ["Stabilizers", "Dining Area", "Sun Deck", "Outdoor Shower", "Wi-Fi", "Kitchen"],
+    amenities: [
+      "Stabilizers",
+      "Dining Area",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Wi-Fi",
+      "Kitchen",
+    ],
     entertainment: ["Media Library", "Satellite TV", "Game Console"],
     waterToys: ["E-Foil", "Wakeboard"],
     location: {
@@ -37,8 +44,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Provisioning Only"],
-    description: "Discover the beauty of san-juan's waters aboard the elegant Aquamarine, a 2011 mega yacht featuring spacious accommodation for 8 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-3.jpg"],
+    description:
+      "Discover the beauty of san-juan's waters aboard the elegant Aquamarine, a 2011 mega yacht featuring spacious accommodation for 8 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/san-juan-aquamarine-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 43333,
@@ -73,7 +85,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Hot Tub", "Dining Area", "Laundry Service", "Heated Deck", "Kitchen", "Stabilizers"],
+    amenities: [
+      "Hot Tub",
+      "Dining Area",
+      "Laundry Service",
+      "Heated Deck",
+      "Kitchen",
+      "Stabilizers",
+    ],
     entertainment: ["Karaoke System", "Bluetooth Speakers"],
     waterToys: ["Water Skis", "Scuba Diving Gear", "Inflatable Slide"],
     location: {
@@ -86,8 +105,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Picnic-Style"],
-    description: "Charter the impressive Aegean Beauty in san-juan and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-4.jpg"],
+    description:
+      "Charter the impressive Aegean Beauty in san-juan and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/san-juan-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13567,
@@ -122,7 +147,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Dining Area", "BBQ Grill", "Hot Tub", "Swim Platform", "Kitchen", "Jacuzzi"],
+    amenities: [
+      "Dining Area",
+      "BBQ Grill",
+      "Hot Tub",
+      "Swim Platform",
+      "Kitchen",
+      "Jacuzzi",
+    ],
     entertainment: ["Projector"],
     waterToys: ["Floating Island", "Wakeboard"],
     location: {
@@ -135,17 +167,36 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Poseidon's Pride combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-4.jpg"],
+    description:
+      "Poseidon's Pride combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-juan-poseidon's-pride-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11605,
       perWeek: 69049.75,
       currency: "USD",
       includes: ["Dining Area"],
-      excludes: ["Dining Area", "BBQ Grill", "Hot Tub", "Swim Platform", "Kitchen", "Jacuzzi"],
+      excludes: [
+        "Dining Area",
+        "BBQ Grill",
+        "Hot Tub",
+        "Swim Platform",
+        "Kitchen",
+        "Jacuzzi",
+      ],
     },
-    safetyFeatures: ["Radar", "Searchlight", "EPIRB", "Emergency Radio", "Emergency Steering"],
+    safetyFeatures: [
+      "Radar",
+      "Searchlight",
+      "EPIRB",
+      "Emergency Radio",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

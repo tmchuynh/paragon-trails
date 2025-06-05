@@ -24,7 +24,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Kitchen", "Sun Deck", "Outdoor Shower", "Wi-Fi", "Heated Deck"],
+    amenities: [
+      "Kitchen",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Wi-Fi",
+      "Heated Deck",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Floating Island", "Towable Tubes", "E-Foil"],
     location: {
@@ -37,17 +43,34 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Provisioning Only"],
-    description: "The Pearl Harbor is a magnificent catamaran yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in lima.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-4.jpg"],
+    description:
+      "The Pearl Harbor is a magnificent catamaran yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in lima.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/lima-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7385,
       perWeek: 43940.75,
       currency: "PEN",
       includes: ["Kitchen", "Sun Deck"],
-      excludes: ["Kitchen", "Sun Deck", "Outdoor Shower", "Wi-Fi", "Heated Deck"],
+      excludes: [
+        "Kitchen",
+        "Sun Deck",
+        "Outdoor Shower",
+        "Wi-Fi",
+        "Heated Deck",
+      ],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Steering", "Life Jackets", "GPS Tracking"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Steering",
+      "Life Jackets",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -86,8 +109,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Royal Wave in lima and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/lima-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/super/lima-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/super/lima-royal-wave-3.jpg"],
+    description:
+      "Charter the impressive Royal Wave in lima and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/lima-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-royal-wave-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 114289,
@@ -96,7 +124,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       includes: ["Tender Garage"],
       excludes: ["Tender Garage", "Bar", "Indoor Lounge"],
     },
-    safetyFeatures: ["Life Rafts", "GPS Tracking", "Searchlight", "Fog Horn", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Rafts",
+      "GPS Tracking",
+      "Searchlight",
+      "Fog Horn",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +169,15 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "No Catering"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 38m motor yacht available for charter in lima. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 38m motor yacht available for charter in lima. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/lima-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10846,
@@ -145,7 +186,12 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       includes: ["BBQ Grill", "Jacuzzi", "Kitchen"],
       excludes: ["BBQ Grill", "Jacuzzi", "Kitchen", "Indoor Lounge", "Wi-Fi"],
     },
-    safetyFeatures: ["Life Rafts", "Searchlight", "Emergency Steering", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Searchlight",
+      "Emergency Steering",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Handrails", "Low Thresholds"],
   },
   {
@@ -171,9 +217,22 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       crew: 6,
       bathrooms: 8,
     },
-    amenities: ["Stabilizers", "Kitchen", "Air Conditioning", "Indoor Lounge", "Bar", "Swim Platform"],
+    amenities: [
+      "Stabilizers",
+      "Kitchen",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Bar",
+      "Swim Platform",
+    ],
     entertainment: ["Bluetooth Speakers", "Media Library", "Satellite TV"],
-    waterToys: ["E-Foil", "Floating Island", "Kayaks", "Paddleboards", "Snorkeling Gear"],
+    waterToys: [
+      "E-Foil",
+      "Floating Island",
+      "Kayaks",
+      "Paddleboards",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "lima",
       country: "Peru",
@@ -184,15 +243,28 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of lima's waters aboard the elegant Aquamarine, a 2000 mega yacht featuring spacious accommodation for 10 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/lima-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-4.jpg"],
+    description:
+      "Discover the beauty of lima's waters aboard the elegant Aquamarine, a 2000 mega yacht featuring spacious accommodation for 10 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/lima-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 45785,
       perWeek: 272420.75,
       currency: "PEN",
       includes: ["Stabilizers", "Kitchen", "Air Conditioning"],
-      excludes: ["Stabilizers", "Kitchen", "Air Conditioning", "Indoor Lounge", "Bar", "Swim Platform"],
+      excludes: [
+        "Stabilizers",
+        "Kitchen",
+        "Air Conditioning",
+        "Indoor Lounge",
+        "Bar",
+        "Swim Platform",
+      ],
     },
     safetyFeatures: ["First Aid Kit", "Fire Extinguishers", "GPS Tracking"],
     accessibilityFeatures: [],
@@ -233,8 +305,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["No Catering", "Self-Catering"],
-    description: "Discover the beauty of lima's waters aboard the elegant Luxury Waters, a 2015 sailing yacht featuring spacious accommodation for 6 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-3.jpg"],
+    description:
+      "Discover the beauty of lima's waters aboard the elegant Luxury Waters, a 2015 sailing yacht featuring spacious accommodation for 6 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-luxury-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4558,
@@ -245,5 +322,5 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["GPS Tracking", "Fire Extinguishers", "Fog Horn"],
     accessibilityFeatures: ["Wheelchair Ramp"],
-  }
+  },
 ];

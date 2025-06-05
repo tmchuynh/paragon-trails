@@ -24,7 +24,14 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       crew: 15,
       bathrooms: 9,
     },
-    amenities: ["BBQ Grill", "Swim Platform", "Dining Area", "Sauna", "Stabilizers", "Kitchen"],
+    amenities: [
+      "BBQ Grill",
+      "Swim Platform",
+      "Dining Area",
+      "Sauna",
+      "Stabilizers",
+      "Kitchen",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Kayaks", "Water Skis", "Windsurf"],
     location: {
@@ -37,15 +44,27 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Diamond Seas, a 2015 super yacht featuring spacious accommodation for 16 guests overnight or 28 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-3.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Diamond Seas, a 2015 super yacht featuring spacious accommodation for 16 guests overnight or 28 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-diamond-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 176286,
       perWeek: 1048901.7,
       currency: "USD",
       includes: ["BBQ Grill"],
-      excludes: ["BBQ Grill", "Swim Platform", "Dining Area", "Sauna", "Stabilizers", "Kitchen"],
+      excludes: [
+        "BBQ Grill",
+        "Swim Platform",
+        "Dining Area",
+        "Sauna",
+        "Stabilizers",
+        "Kitchen",
+      ],
     },
     safetyFeatures: ["Emergency Steering", "Life Jackets", "Emergency Beacon"],
     accessibilityFeatures: [],
@@ -86,8 +105,14 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Picnic-Style"],
-    description: "Charter the impressive Diamond Seas in ketchikan and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-4.jpg"],
+    description:
+      "Charter the impressive Diamond Seas in ketchikan and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-diamond-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5932,
@@ -96,7 +121,12 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Sauna", "Sun Deck", "Tender Garage"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Steering", "Emergency Radio", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Steering",
+      "Emergency Radio",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,9 +152,20 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       crew: 8,
       bathrooms: 8,
     },
-    amenities: ["Sun Deck", "Bar", "Outdoor Shower", "Hot Tub", "Laundry Service"],
+    amenities: [
+      "Sun Deck",
+      "Bar",
+      "Outdoor Shower",
+      "Hot Tub",
+      "Laundry Service",
+    ],
     entertainment: ["Bluetooth Speakers"],
-    waterToys: ["Snorkeling Gear", "Towable Tubes", "Fishing Equipment", "Inflatable Slide"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Towable Tubes",
+      "Fishing Equipment",
+      "Inflatable Slide",
+    ],
     location: {
       city: "ketchikan",
       country: "United States",
@@ -135,8 +176,14 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "No Catering"],
-    description: "Azure Dreams combines performance and luxury in a stunning 51m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-4.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 51m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ketchikan-azure-dreams-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 24533,
@@ -145,7 +192,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Sun Deck", "Bar", "Outdoor Shower"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["EPIRB", "Radar", "Navigation Lights", "Emergency Beacon", "Life Rafts"],
+    safetyFeatures: [
+      "EPIRB",
+      "Radar",
+      "Navigation Lights",
+      "Emergency Beacon",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +237,14 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Aquamarine, a 2003 catamaran yacht featuring spacious accommodation for 9 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-4.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Aquamarine, a 2003 catamaran yacht featuring spacious accommodation for 9 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9012,
@@ -220,9 +279,21 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Hot Tub", "Kitchen", "Heated Deck", "Tender Garage", "Swim Platform", "Air Conditioning"],
+    amenities: [
+      "Hot Tub",
+      "Kitchen",
+      "Heated Deck",
+      "Tender Garage",
+      "Swim Platform",
+      "Air Conditioning",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema"],
-    waterToys: ["Paddleboards", "Fishing Equipment", "Seabob", "Snorkeling Gear"],
+    waterToys: [
+      "Paddleboards",
+      "Fishing Equipment",
+      "Seabob",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "ketchikan",
       country: "United States",
@@ -233,15 +304,29 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Indigo Seas, a 2019 gulet yacht featuring spacious accommodation for 12 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-4.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-5.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Indigo Seas, a 2019 gulet yacht featuring spacious accommodation for 12 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-indigo-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6087,
       perWeek: 36217.65,
       currency: "USD",
       includes: ["Hot Tub", "Kitchen", "Heated Deck"],
-      excludes: ["Hot Tub", "Kitchen", "Heated Deck", "Tender Garage", "Swim Platform", "Air Conditioning"],
+      excludes: [
+        "Hot Tub",
+        "Kitchen",
+        "Heated Deck",
+        "Tender Garage",
+        "Swim Platform",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["Life Jackets", "Flares"],
     accessibilityFeatures: [],
@@ -282,8 +367,15 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["No Catering", "Provisioning Only"],
-    description: "Azure Dreams combines performance and luxury in a stunning 63m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-5.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 63m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-azure-dreams-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 164633,
@@ -292,7 +384,12 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Laundry Service"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Life Rafts", "Emergency Beacon", "Emergency Steering", "Radar"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Emergency Beacon",
+      "Emergency Steering",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -331,8 +428,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Provisioning Only"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Luxury Waters, a 2018 gulet yacht featuring spacious accommodation for 12 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-3.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Luxury Waters, a 2018 gulet yacht featuring spacious accommodation for 12 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-luxury-waters-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7155,
@@ -343,5 +445,5 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "First Aid Kit", "Fog Horn"],
     accessibilityFeatures: ["Accessible Bathroom"],
-  }
+  },
 ];

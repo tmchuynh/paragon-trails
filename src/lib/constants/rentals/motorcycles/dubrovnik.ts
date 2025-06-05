@@ -19,8 +19,13 @@ export const dubrovnikcroatiamediterraneanMotorcycles: Motorcycle[] = [
     pickUpCity: "dubrovnik",
     pickUpCountry: "Croatia",
     pickUpLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/bmw-r-ninet.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/bmw-r-ninet.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Experience with Manual Transmission",
+    ],
     availability: false,
     location: "Transit Hub",
   },
@@ -42,8 +47,13 @@ export const dubrovnikcroatiamediterraneanMotorcycles: Motorcycle[] = [
     pickUpCity: "dubrovnik",
     pickUpCountry: "Croatia",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/ducati-panigale.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/ducati-panigale.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Local Riding Permit",
+    ],
     availability: false,
     location: "Tourist District",
   },
@@ -68,9 +78,15 @@ export const dubrovnikcroatiamediterraneanMotorcycles: Motorcycle[] = [
     dropOffCity: "bermuda",
     dropOffCountry: "Bermuda",
     dropOffLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/ktm-790-adventure.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "No DUI Record", "Two-Wheel Experience"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/ktm-790-adventure.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "No DUI Record",
+      "Two-Wheel Experience",
+    ],
     availability: false,
     location: "City Center",
-  }
+  },
 ];

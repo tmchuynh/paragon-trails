@@ -24,7 +24,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Jacuzzi", "Dining Area", "Stabilizers", "Air Conditioning", "Laundry Service"],
+    amenities: [
+      "Jacuzzi",
+      "Dining Area",
+      "Stabilizers",
+      "Air Conditioning",
+      "Laundry Service",
+    ],
     entertainment: ["Board Games"],
     waterToys: ["Scuba Diving Gear", "Paddleboards", "Kneeboard"],
     location: {
@@ -37,8 +43,15 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["À La Carte", "Local Cuisine Packages"],
-    description: "Charter the impressive Royal Seas in hong-kong and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-5.jpg"],
+    description:
+      "Charter the impressive Royal Seas in hong-kong and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-royal-seas-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5530,
@@ -86,8 +99,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Sapphire Seas in hong-kong and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-3.jpg"],
+    description:
+      "Charter the impressive Sapphire Seas in hong-kong and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3562,
@@ -96,7 +114,11 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Indoor Lounge"],
       excludes: ["Indoor Lounge", "BBQ Grill", "Wi-Fi", "Laundry Service"],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Radio", "Emergency Beacon"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Radio",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +157,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Discover the beauty of hong-kong's waters aboard the elegant Azure Dreams, a 2016 mega yacht featuring spacious accommodation for 11 guests overnight or 15 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-3.jpg"],
+    description:
+      "Discover the beauty of hong-kong's waters aboard the elegant Azure Dreams, a 2016 mega yacht featuring spacious accommodation for 11 guests overnight or 15 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-azure-dreams-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 45662,
@@ -145,7 +172,12 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Swim Platform"],
       excludes: ["Indoor Lounge", "Swim Platform"],
     },
-    safetyFeatures: ["Life Rafts", "Emergency Beacon", "Fire Extinguishers", "EPIRB"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -173,7 +205,12 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["BBQ Grill", "Sauna", "Stabilizers"],
     entertainment: ["Streaming Services"],
-    waterToys: ["Jet Ski", "Snorkeling Gear", "Fishing Equipment", "Water Skis"],
+    waterToys: [
+      "Jet Ski",
+      "Snorkeling Gear",
+      "Fishing Equipment",
+      "Water Skis",
+    ],
     location: {
       city: "hong-kong",
       country: "China",
@@ -184,8 +221,15 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Chef Onboard"],
-    description: "Azure Dreams combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-5.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-azure-dreams-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5756,
@@ -194,7 +238,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill"],
       excludes: ["BBQ Grill", "Sauna", "Stabilizers"],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Emergency Steering", "Flares", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Flares",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +270,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Sauna", "Swim Platform", "Dining Area", "BBQ Grill", "Laundry Service"],
+    amenities: [
+      "Sauna",
+      "Swim Platform",
+      "Dining Area",
+      "BBQ Grill",
+      "Laundry Service",
+    ],
     entertainment: ["Board Games", "Satellite TV"],
     waterToys: ["Kneeboard", "Fishing Equipment", "Wakeboard", "Paddleboards"],
     location: {
@@ -233,15 +289,27 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Pacific Explorer, a stunning 48m mega yacht available for charter in hong-kong. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pacific Explorer, a stunning 48m mega yacht available for charter in hong-kong. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-pacific-explorer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23816,
       perWeek: 141705.19999999998,
       currency: "CNY",
       includes: ["Sauna"],
-      excludes: ["Sauna", "Swim Platform", "Dining Area", "BBQ Grill", "Laundry Service"],
+      excludes: [
+        "Sauna",
+        "Swim Platform",
+        "Dining Area",
+        "BBQ Grill",
+        "Laundry Service",
+      ],
     },
     safetyFeatures: ["Radar", "Life Jackets"],
     accessibilityFeatures: [],
@@ -282,8 +350,14 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Sea Symphony combines performance and luxury in a stunning 27m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-4.jpg"],
+    description:
+      "Sea Symphony combines performance and luxury in a stunning 27m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3466,
@@ -292,7 +366,12 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Stabilizers", "Dining Area"],
       excludes: ["Stabilizers", "Dining Area"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Radar", "Flares", "Emergency Radio"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Radar",
+      "Flares",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -318,7 +397,14 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 4,
       bathrooms: 8,
     },
-    amenities: ["Tender Garage", "Sauna", "Kitchen", "Wi-Fi", "Air Conditioning", "Heated Deck"],
+    amenities: [
+      "Tender Garage",
+      "Sauna",
+      "Kitchen",
+      "Wi-Fi",
+      "Air Conditioning",
+      "Heated Deck",
+    ],
     entertainment: ["Media Library", "Surround Sound System", "Board Games"],
     waterToys: ["Towable Tubes", "Water Skis"],
     location: {
@@ -331,8 +417,15 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Full-Service Catering"],
-    description: "The Silver Horizon is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-5.jpg"],
+    description:
+      "The Silver Horizon is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4670,
@@ -343,5 +436,5 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "First Aid Kit", "Radar"],
     accessibilityFeatures: [],
-  }
+  },
 ];

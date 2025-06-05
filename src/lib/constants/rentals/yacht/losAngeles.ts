@@ -37,8 +37,14 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Ruby Tides in los-angeles and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-4.jpg"],
+    description:
+      "Charter the impressive Ruby Tides in los-angeles and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/los-angeles-ruby-tides-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8607,
@@ -73,7 +79,14 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Sun Deck", "Hot Tub", "Stabilizers", "BBQ Grill", "Heated Deck", "Kitchen"],
+    amenities: [
+      "Sun Deck",
+      "Hot Tub",
+      "Stabilizers",
+      "BBQ Grill",
+      "Heated Deck",
+      "Kitchen",
+    ],
     entertainment: ["Streaming Services", "Media Library"],
     waterToys: ["Paddleboards", "Water Skis"],
     location: {
@@ -86,15 +99,29 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "BBQ Onboard"],
-    description: "Charter the impressive Ruby Tides in los-angeles and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-5.jpg"],
+    description:
+      "Charter the impressive Ruby Tides in los-angeles and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-ruby-tides-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11868,
       perWeek: 70614.59999999999,
       currency: "USD",
       includes: ["Sun Deck", "Hot Tub", "Stabilizers"],
-      excludes: ["Sun Deck", "Hot Tub", "Stabilizers", "BBQ Grill", "Heated Deck", "Kitchen"],
+      excludes: [
+        "Sun Deck",
+        "Hot Tub",
+        "Stabilizers",
+        "BBQ Grill",
+        "Heated Deck",
+        "Kitchen",
+      ],
     },
     safetyFeatures: ["Fog Horn", "Flares", "Life Rafts", "Fire Extinguishers"],
     accessibilityFeatures: [],
@@ -124,7 +151,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Outdoor Shower", "Stabilizers", "Indoor Lounge"],
     entertainment: ["Board Games"],
-    waterToys: ["Inflatable Slide", "Kneeboard", "Scuba Diving Gear", "Fishing Equipment", "Snorkeling Gear"],
+    waterToys: [
+      "Inflatable Slide",
+      "Kneeboard",
+      "Scuba Diving Gear",
+      "Fishing Equipment",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "los-angeles",
       country: "United States",
@@ -135,8 +168,15 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "The Coastal Serenity is a magnificent catamaran yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in los-angeles.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-5.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent catamaran yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in los-angeles.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8027,
@@ -171,7 +211,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 7,
       bathrooms: 7,
     },
-    amenities: ["BBQ Grill", "Outdoor Shower", "Swim Platform", "Kitchen", "Sun Deck"],
+    amenities: [
+      "BBQ Grill",
+      "Outdoor Shower",
+      "Swim Platform",
+      "Kitchen",
+      "Sun Deck",
+    ],
     entertainment: ["Board Games"],
     waterToys: ["Paddleboards", "Water Skis"],
     location: {
@@ -184,8 +230,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Indigo Seas in los-angeles and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-3.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in los-angeles and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-indigo-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 27255,
@@ -196,5 +247,5 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     },
     safetyFeatures: ["Life Jackets", "Emergency Beacon", "Radar"],
     accessibilityFeatures: [],
-  }
+  },
 ];

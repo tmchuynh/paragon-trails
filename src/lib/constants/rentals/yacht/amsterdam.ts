@@ -37,8 +37,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Sapphire Seas, a stunning 94m super yacht available for charter in amsterdam. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sapphire Seas, a stunning 94m super yacht available for charter in amsterdam. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-sapphire-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 198006,
@@ -47,7 +52,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Steering", "Life Jackets", "Flares"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Steering",
+      "Life Jackets",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,9 +83,22 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Bar", "Hot Tub", "Swim Platform", "Heated Deck", "Jacuzzi", "Sauna"],
+    amenities: [
+      "Bar",
+      "Hot Tub",
+      "Swim Platform",
+      "Heated Deck",
+      "Jacuzzi",
+      "Sauna",
+    ],
     entertainment: ["Satellite TV", "Onboard Cinema"],
-    waterToys: ["Windsurf", "Kneeboard", "Inflatable Slide", "Snorkeling Gear", "Scuba Diving Gear"],
+    waterToys: [
+      "Windsurf",
+      "Kneeboard",
+      "Inflatable Slide",
+      "Snorkeling Gear",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "amsterdam",
       country: "Netherlands",
@@ -86,8 +109,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "The Azure Dreams is a magnificent gulet yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-3.jpg"],
+    description:
+      "The Azure Dreams is a magnificent gulet yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-azure-dreams-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8852,
@@ -96,7 +124,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["Bar", "Hot Tub"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "Fire Extinguishers", "Flares"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "Fire Extinguishers",
+      "Flares",
+    ],
     accessibilityFeatures: ["Elevator", "Low Thresholds"],
   },
   {
@@ -122,7 +155,14 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Tender Garage", "Stabilizers", "Outdoor Shower", "Sauna", "Bar", "Air Conditioning"],
+    amenities: [
+      "Tender Garage",
+      "Stabilizers",
+      "Outdoor Shower",
+      "Sauna",
+      "Bar",
+      "Air Conditioning",
+    ],
     entertainment: ["Onboard Cinema", "Streaming Services"],
     waterToys: ["Jet Ski", "Floating Island", "Fishing Equipment"],
     location: {
@@ -135,8 +175,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["À La Carte", "Full-Service Catering"],
-    description: "The Pearl Harbor is a magnificent catamaran yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-3.jpg"],
+    description:
+      "The Pearl Harbor is a magnificent catamaran yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/amsterdam-pearl-harbor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6878,
@@ -171,7 +216,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       crew: 16,
       bathrooms: 10,
     },
-    amenities: ["Indoor Lounge", "Tender Garage", "Outdoor Shower", "BBQ Grill"],
+    amenities: [
+      "Indoor Lounge",
+      "Tender Garage",
+      "Outdoor Shower",
+      "BBQ Grill",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Windsurf", "Fishing Equipment"],
     location: {
@@ -184,8 +234,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Infinity Seas in amsterdam and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-3.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in amsterdam and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 181437,
@@ -194,7 +249,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Tender Garage"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Steering", "Flares", "GPS Tracking", "Emergency Radio"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Steering",
+      "Flares",
+      "GPS Tracking",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Low Thresholds"],
-  }
+  },
 ];

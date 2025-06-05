@@ -19,8 +19,15 @@ export const glacierBayunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "glacier-bay",
     pickUpCountry: "United States",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/suzuki-sv650.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Helmet Required", "Minimum Age 21", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/suzuki-sv650.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Helmet Required",
+      "Minimum Age 21",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -45,8 +52,16 @@ export const glacierBayunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "sydney",
     dropOffCountry: "Australia",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/husqvarna-701-supermoto.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Credit Card Required", "Helmet Required", "Insurance Required", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/husqvarna-701-supermoto.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Credit Card Required",
+      "Helmet Required",
+      "Insurance Required",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -68,7 +83,8 @@ export const glacierBayunitedStatesalaskaMotorcycles: Motorcycle[] = [
     pickUpCity: "glacier-bay",
     pickUpCountry: "United States",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/harley-davidson-softail.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/harley-davidson-softail.jpg",
     requirements: ["Security Deposit Required", "Valid Motorcycle License"],
     availability: false,
     location: "Shopping District",
@@ -94,8 +110,15 @@ export const glacierBayunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "philipsburg",
     dropOffCountry: "Sint Maarten",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/kawasaki-z900.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "International Driving Permit (for foreign renters)", "Helmet Required", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/kawasaki-z900.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "International Driving Permit (for foreign renters)",
+      "Helmet Required",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -120,9 +143,14 @@ export const glacierBayunitedStatesalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "george-town",
     dropOffCountry: "Cayman Islands",
     dropOffLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/ducati-diavel.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/ducati-diavel.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Insurance Required",
+    ],
     availability: false,
     location: "Tourist District",
-  }
+  },
 ];

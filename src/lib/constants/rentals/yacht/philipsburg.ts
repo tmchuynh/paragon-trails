@@ -37,8 +37,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "À La Carte"],
-    description: "Sea Spirit combines performance and luxury in a stunning 27m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-3.jpg"],
+    description:
+      "Sea Spirit combines performance and luxury in a stunning 27m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sea-spirit-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8512,
@@ -47,7 +52,12 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Flares", "Searchlight", "Emergency Steering", "Life Jackets"],
+    safetyFeatures: [
+      "Flares",
+      "Searchlight",
+      "Emergency Steering",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +96,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of philipsburg's waters aboard the elegant Neptune's Glory, a 2017 catamaran yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-3.jpg"],
+    description:
+      "Discover the beauty of philipsburg's waters aboard the elegant Neptune's Glory, a 2017 catamaran yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-neptune's-glory-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11069,
@@ -124,7 +139,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     },
     amenities: ["Laundry Service", "Indoor Lounge", "Sauna", "Dining Area"],
     entertainment: ["Satellite TV"],
-    waterToys: ["Inflatable Slide", "Kneeboard", "Snorkeling Gear", "E-Foil", "Jet Ski"],
+    waterToys: [
+      "Inflatable Slide",
+      "Kneeboard",
+      "Snorkeling Gear",
+      "E-Foil",
+      "Jet Ski",
+    ],
     location: {
       city: "philipsburg",
       country: "Sint Maarten",
@@ -135,8 +156,14 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Full-Service Catering"],
-    description: "Charter the impressive Sapphire Seas in philipsburg and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-4.jpg"],
+    description:
+      "Charter the impressive Sapphire Seas in philipsburg and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-sapphire-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 4012,
@@ -184,8 +211,14 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 15m catamaran yacht available for charter in philipsburg. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 15m catamaran yacht available for charter in philipsburg. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/philipsburg-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7382,
@@ -194,7 +227,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       includes: ["Bar", "Kitchen", "Laundry Service"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Flares", "Life Rafts", "First Aid Kit", "Searchlight", "Radar"],
+    safetyFeatures: [
+      "Flares",
+      "Life Rafts",
+      "First Aid Kit",
+      "Searchlight",
+      "Radar",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

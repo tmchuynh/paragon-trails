@@ -24,7 +24,13 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Hot Tub", "Dining Area", "Air Conditioning", "Sun Deck", "Laundry Service"],
+    amenities: [
+      "Hot Tub",
+      "Dining Area",
+      "Air Conditioning",
+      "Sun Deck",
+      "Laundry Service",
+    ],
     entertainment: ["Bluetooth Speakers", "Satellite TV"],
     waterToys: ["E-Foil", "Kneeboard", "Kayaks", "Paddleboards"],
     location: {
@@ -37,17 +43,34 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Serenity Now, a stunning 49m mega yacht available for charter in cape-town. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Serenity Now, a stunning 49m mega yacht available for charter in cape-town. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cape-town-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 22985,
       perWeek: 136760.75,
       currency: "ZAR",
       includes: ["Hot Tub", "Dining Area", "Air Conditioning"],
-      excludes: ["Hot Tub", "Dining Area", "Air Conditioning", "Sun Deck", "Laundry Service"],
+      excludes: [
+        "Hot Tub",
+        "Dining Area",
+        "Air Conditioning",
+        "Sun Deck",
+        "Laundry Service",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "Radar", "Searchlight", "Emergency Steering", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Radar",
+      "Searchlight",
+      "Emergency Steering",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,9 +96,21 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Hot Tub", "Bar", "Laundry Service", "Swim Platform", "BBQ Grill"],
+    amenities: [
+      "Hot Tub",
+      "Bar",
+      "Laundry Service",
+      "Swim Platform",
+      "BBQ Grill",
+    ],
     entertainment: ["Bluetooth Speakers"],
-    waterToys: ["Towable Tubes", "Windsurf", "Scuba Diving Gear", "Kayaks", "Water Skis"],
+    waterToys: [
+      "Towable Tubes",
+      "Windsurf",
+      "Scuba Diving Gear",
+      "Kayaks",
+      "Water Skis",
+    ],
     location: {
       city: "cape-town",
       country: "South Africa",
@@ -86,8 +121,15 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Wave Dancer is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in cape-town.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-5.jpg"],
+    description:
+      "The Wave Dancer is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in cape-town.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/cape-town-wave-dancer-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7909,
@@ -135,8 +177,14 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Crystal Blue in cape-town and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-4.jpg"],
+    description:
+      "Charter the impressive Crystal Blue in cape-town and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-crystal-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5232,
@@ -145,7 +193,13 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Jacuzzi"],
       excludes: ["Outdoor Shower", "Jacuzzi", "Bar"],
     },
-    safetyFeatures: ["Flares", "Emergency Beacon", "Emergency Steering", "Emergency Radio", "Searchlight"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Beacon",
+      "Emergency Steering",
+      "Emergency Radio",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

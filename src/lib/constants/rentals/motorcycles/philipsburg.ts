@@ -22,8 +22,15 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "copenhagen",
     dropOffCountry: "Denmark",
     dropOffLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-fz-09.jpg",
-    requirements: ["Valid Motorcycle License", "Experience with Manual Transmission", "Minimum Age 21", "Security Deposit Required", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-fz-09.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Experience with Manual Transmission",
+      "Minimum Age 21",
+      "Security Deposit Required",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -45,8 +52,14 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "philipsburg",
     pickUpCountry: "Sint Maarten",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/victory-high-ball.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Minimum Age 21", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/victory-high-ball.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Minimum Age 21",
+      "No DUI Record",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -68,8 +81,14 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "philipsburg",
     pickUpCountry: "Sint Maarten",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/royal-enfield-himalayan.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Experience with Manual Transmission", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/royal-enfield-himalayan.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Experience with Manual Transmission",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -91,8 +110,13 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "philipsburg",
     pickUpCountry: "Sint Maarten",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/kawasaki-concours.jpg",
-    requirements: ["Local Riding Permit", "Helmet Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/kawasaki-concours.jpg",
+    requirements: [
+      "Local Riding Permit",
+      "Helmet Required",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -114,8 +138,14 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "philipsburg",
     pickUpCountry: "Sint Maarten",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/suzuki-gsx-s750.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "Two-Wheel Experience", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/suzuki-gsx-s750.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "Two-Wheel Experience",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -140,9 +170,14 @@ export const philipsburgsintMaartencaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "cozumel",
     dropOffCountry: "Mexico",
     dropOffLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/honda-shadow.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/honda-shadow.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Transit Hub",
-  }
+  },
 ];

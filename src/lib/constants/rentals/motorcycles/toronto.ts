@@ -12,15 +12,26 @@ export const torontocanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     color: "Matte Black",
     seatCapacity: 2,
     hasStorage: true,
-    features: ["Security System", "Heated Grips", "Custom Exhaust", "Windshield", "GPS Navigation"],
+    features: [
+      "Security System",
+      "Heated Grips",
+      "Custom Exhaust",
+      "Windshield",
+      "GPS Navigation",
+    ],
     rentalPricePerDay: 147,
     currency: "CAD",
     available: false,
     pickUpCity: "toronto",
     pickUpCountry: "Canada",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/moto-guzzi-norge.jpg",
-    requirements: ["Credit Card Required", "Insurance Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/moto-guzzi-norge.jpg",
+    requirements: [
+      "Credit Card Required",
+      "Insurance Required",
+      "Valid Motorcycle License",
+    ],
     availability: false,
     location: "Shopping District",
   },
@@ -45,8 +56,13 @@ export const torontocanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     dropOffCity: "kiel",
     dropOffCountry: "Germany",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/moto-guzzi-norge.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Two-Wheel Experience"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/moto-guzzi-norge.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Two-Wheel Experience",
+    ],
     availability: true,
     location: "Near Beach",
   },
@@ -68,9 +84,10 @@ export const torontocanadaeastCoastCanadaMotorcycles: Motorcycle[] = [
     pickUpCity: "toronto",
     pickUpCountry: "Canada",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/indian-challenger.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/indian-challenger.jpg",
     requirements: ["Valid Motorcycle License", "Security Deposit Required"],
     availability: false,
     location: "Tourist District",
-  }
+  },
 ];

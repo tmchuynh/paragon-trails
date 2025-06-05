@@ -26,7 +26,12 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     },
     amenities: ["Bar", "Indoor Lounge", "Wi-Fi"],
     entertainment: ["Karaoke System", "Game Console"],
-    waterToys: ["Towable Tubes", "Paddleboards", "Floating Island", "Inflatable Slide"],
+    waterToys: [
+      "Towable Tubes",
+      "Paddleboards",
+      "Floating Island",
+      "Inflatable Slide",
+    ],
     location: {
       city: "victoria",
       country: "Canada",
@@ -37,8 +42,14 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Breakfast Only"],
-    description: "The Serenity Now is a magnificent motor yacht built by Perini Navi offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
-    images: ["https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-4.jpg"],
+    description:
+      "The Serenity Now is a magnificent motor yacht built by Perini Navi offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/victoria-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10885,
@@ -47,7 +58,12 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
       includes: ["Bar", "Indoor Lounge", "Wi-Fi"],
       excludes: ["Wi-Fi"],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Navigation Lights", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -75,7 +91,12 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     },
     amenities: ["Sun Deck", "Air Conditioning", "Bar", "Dining Area"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Fishing Equipment", "Towable Tubes", "Floating Island", "Kayaks"],
+    waterToys: [
+      "Fishing Equipment",
+      "Towable Tubes",
+      "Floating Island",
+      "Kayaks",
+    ],
     location: {
       city: "victoria",
       country: "Canada",
@@ -86,8 +107,14 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "No Catering"],
-    description: "Diamond Seas combines performance and luxury in a stunning 31m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-4.jpg"],
+    description:
+      "Diamond Seas combines performance and luxury in a stunning 31m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-diamond-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3523,
@@ -135,8 +162,13 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Oceanis, a stunning 27m motor yacht available for charter in victoria. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/victoria-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/motor/victoria-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/motor/victoria-oceanis-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Oceanis, a stunning 27m motor yacht available for charter in victoria. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/victoria-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/victoria-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/victoria-oceanis-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 14427,
@@ -145,7 +177,12 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
       includes: ["Laundry Service", "Jacuzzi"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Flares", "Navigation Lights", "Fire Extinguishers", "Fog Horn"],
+    safetyFeatures: [
+      "Flares",
+      "Navigation Lights",
+      "Fire Extinguishers",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

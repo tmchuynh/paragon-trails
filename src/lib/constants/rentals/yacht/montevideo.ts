@@ -24,7 +24,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       crew: 14,
       bathrooms: 10,
     },
-    amenities: ["Bar", "Stabilizers", "Air Conditioning", "Sun Deck", "Laundry Service"],
+    amenities: [
+      "Bar",
+      "Stabilizers",
+      "Air Conditioning",
+      "Sun Deck",
+      "Laundry Service",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Jet Ski", "Water Skis", "Floating Island", "Kneeboard"],
     location: {
@@ -37,8 +43,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Full-Service Catering"],
-    description: "Discover the beauty of montevideo's waters aboard the elegant Diamond Seas, a 2009 super yacht featuring spacious accommodation for 18 guests overnight or 25 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-3.jpg"],
+    description:
+      "Discover the beauty of montevideo's waters aboard the elegant Diamond Seas, a 2009 super yacht featuring spacious accommodation for 18 guests overnight or 25 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-diamond-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 120394,
@@ -73,7 +84,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Laundry Service", "BBQ Grill", "Hot Tub", "Bar", "Air Conditioning"],
+    amenities: [
+      "Laundry Service",
+      "BBQ Grill",
+      "Hot Tub",
+      "Bar",
+      "Air Conditioning",
+    ],
     entertainment: ["Board Games", "Streaming Services"],
     waterToys: ["Kneeboard", "Paddleboards", "Jet Ski", "Floating Island"],
     location: {
@@ -86,8 +103,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Elite Waves in montevideo and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-3.jpg"],
+    description:
+      "Charter the impressive Elite Waves in montevideo and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8947,
@@ -135,8 +157,15 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Provisioning Only"],
-    description: "Discover the beauty of montevideo's waters aboard the elegant Ocean Majesty, a 2017 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-5.jpg"],
+    description:
+      "Discover the beauty of montevideo's waters aboard the elegant Ocean Majesty, a 2017 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3060,
@@ -145,7 +174,12 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Stabilizers"],
       excludes: ["Outdoor Shower", "Stabilizers", "BBQ Grill", "Wi-Fi"],
     },
-    safetyFeatures: ["First Aid Kit", "Fire Extinguishers", "Searchlight", "Emergency Radio"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Fire Extinguishers",
+      "Searchlight",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +205,14 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Sauna", "Laundry Service", "BBQ Grill", "Air Conditioning", "Swim Platform", "Tender Garage"],
+    amenities: [
+      "Sauna",
+      "Laundry Service",
+      "BBQ Grill",
+      "Air Conditioning",
+      "Swim Platform",
+      "Tender Garage",
+    ],
     entertainment: ["Media Library", "Board Games", "Satellite TV"],
     waterToys: ["Water Skis", "Floating Island", "E-Foil"],
     location: {
@@ -184,17 +225,35 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Sapphire Seas combines performance and luxury in a stunning 23m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-4.jpg"],
+    description:
+      "Sapphire Seas combines performance and luxury in a stunning 23m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-sapphire-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9625,
       perWeek: 57268.75,
       currency: "UYU",
       includes: ["Sauna"],
-      excludes: ["Sauna", "Laundry Service", "BBQ Grill", "Air Conditioning", "Swim Platform", "Tender Garage"],
+      excludes: [
+        "Sauna",
+        "Laundry Service",
+        "BBQ Grill",
+        "Air Conditioning",
+        "Swim Platform",
+        "Tender Garage",
+      ],
     },
-    safetyFeatures: ["Emergency Radio", "Life Jackets", "Navigation Lights", "Radar"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Life Jackets",
+      "Navigation Lights",
+      "Radar",
+    ],
     accessibilityFeatures: ["Low Thresholds", "Wide Doorways"],
   },
   {
@@ -222,7 +281,12 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     },
     amenities: ["Indoor Lounge", "Laundry Service", "Heated Deck"],
     entertainment: ["Karaoke System"],
-    waterToys: ["Fishing Equipment", "Floating Island", "Windsurf", "Inflatable Slide"],
+    waterToys: [
+      "Fishing Equipment",
+      "Floating Island",
+      "Windsurf",
+      "Inflatable Slide",
+    ],
     location: {
       city: "montevideo",
       country: "Uruguay",
@@ -233,8 +297,15 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Golden Voyage, a stunning 95m super yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-3.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-4.jpg", "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Golden Voyage, a stunning 95m super yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/montevideo-golden-voyage-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 198911,
@@ -282,8 +353,14 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Crystal Blue, a stunning 28m motor yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Crystal Blue, a stunning 28m motor yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-crystal-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5265,
@@ -331,8 +408,14 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Discover the beauty of montevideo's waters aboard the elegant Pearl Harbor, a 2013 gulet yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-4.jpg"],
+    description:
+      "Discover the beauty of montevideo's waters aboard the elegant Pearl Harbor, a 2013 gulet yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montevideo-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6710,
@@ -343,5 +426,5 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["Navigation Lights", "Radar", "First Aid Kit"],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -37,8 +37,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Caribbean Pearl in santiago and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-3.jpg"],
+    description:
+      "Charter the impressive Caribbean Pearl in santiago and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/santiago-caribbean-pearl-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 35049,
@@ -47,7 +52,12 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Swim Platform", "Hot Tub", "Stabilizers", "Laundry Service"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Searchlight", "First Aid Kit", "GPS Tracking"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Searchlight",
+      "First Aid Kit",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -75,7 +85,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     },
     amenities: ["Heated Deck", "Sun Deck", "Kitchen"],
     entertainment: ["Surround Sound System", "Bluetooth Speakers"],
-    waterToys: ["Kneeboard", "Kayaks", "Jet Ski", "Towable Tubes", "Water Skis"],
+    waterToys: [
+      "Kneeboard",
+      "Kayaks",
+      "Jet Ski",
+      "Towable Tubes",
+      "Water Skis",
+    ],
     location: {
       city: "santiago",
       country: "Chile",
@@ -86,8 +102,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "All-Inclusive"],
-    description: "Discover the beauty of santiago's waters aboard the elegant Indigo Seas, a 2003 gulet yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-4.jpg"],
+    description:
+      "Discover the beauty of santiago's waters aboard the elegant Indigo Seas, a 2003 gulet yacht featuring spacious accommodation for 11 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-indigo-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8136,
@@ -96,7 +118,12 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       includes: ["Heated Deck", "Sun Deck", "Kitchen"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Steering", "Navigation Lights", "Emergency Beacon"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Steering",
+      "Navigation Lights",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +162,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "The Adriatic Splendor is a magnificent gulet yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in santiago.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-4.jpg"],
+    description:
+      "The Adriatic Splendor is a magnificent gulet yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in santiago.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-adriatic-splendor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4959,
@@ -184,8 +217,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Poseidon's Pride combines performance and luxury in a stunning 38m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-4.jpg"],
+    description:
+      "Poseidon's Pride combines performance and luxury in a stunning 38m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santiago-poseidon's-pride-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14984,
@@ -194,7 +233,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       includes: ["Wi-Fi", "Kitchen"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["Searchlight", "EPIRB", "Emergency Beacon", "Flares", "GPS Tracking"],
+    safetyFeatures: [
+      "Searchlight",
+      "EPIRB",
+      "Emergency Beacon",
+      "Flares",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +265,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       crew: 6,
       bathrooms: 6,
     },
-    amenities: ["BBQ Grill", "Hot Tub", "Jacuzzi", "Swim Platform", "Bar", "Air Conditioning"],
+    amenities: [
+      "BBQ Grill",
+      "Hot Tub",
+      "Jacuzzi",
+      "Swim Platform",
+      "Bar",
+      "Air Conditioning",
+    ],
     entertainment: ["Karaoke System", "Board Games"],
     waterToys: ["Seabob", "Kayaks", "Jet Ski"],
     location: {
@@ -233,15 +285,28 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Indigo Seas, a stunning 48m mega yacht available for charter in santiago. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Indigo Seas, a stunning 48m mega yacht available for charter in santiago. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/santiago-indigo-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 39233,
       perWeek: 233436.35,
       currency: "CLP",
       includes: ["BBQ Grill"],
-      excludes: ["BBQ Grill", "Hot Tub", "Jacuzzi", "Swim Platform", "Bar", "Air Conditioning"],
+      excludes: [
+        "BBQ Grill",
+        "Hot Tub",
+        "Jacuzzi",
+        "Swim Platform",
+        "Bar",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["First Aid Kit", "Life Rafts", "Fog Horn"],
     accessibilityFeatures: [],
@@ -282,8 +347,15 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of santiago's waters aboard the elegant Mermaid's Song, a 2003 super yacht featuring spacious accommodation for 14 guests overnight or 29 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-5.jpg"],
+    description:
+      "Discover the beauty of santiago's waters aboard the elegant Mermaid's Song, a 2003 super yacht featuring spacious accommodation for 14 guests overnight or 29 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/santiago-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 191914,
@@ -318,7 +390,15 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Swim Platform", "Wi-Fi", "Sauna", "Heated Deck", "Air Conditioning", "Indoor Lounge", "Hot Tub"],
+    amenities: [
+      "Swim Platform",
+      "Wi-Fi",
+      "Sauna",
+      "Heated Deck",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Hot Tub",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Floating Island", "Snorkeling Gear", "Towable Tubes"],
     location: {
@@ -331,17 +411,37 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Serenity Now, a stunning 21m catamaran yacht available for charter in santiago. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Serenity Now, a stunning 21m catamaran yacht available for charter in santiago. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-serenity-now-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7409,
       perWeek: 44083.549999999996,
       currency: "CLP",
       includes: ["Swim Platform"],
-      excludes: ["Swim Platform", "Wi-Fi", "Sauna", "Heated Deck", "Air Conditioning", "Indoor Lounge", "Hot Tub"],
+      excludes: [
+        "Swim Platform",
+        "Wi-Fi",
+        "Sauna",
+        "Heated Deck",
+        "Air Conditioning",
+        "Indoor Lounge",
+        "Hot Tub",
+      ],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Beacon", "EPIRB", "Fog Horn"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Beacon",
+      "EPIRB",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

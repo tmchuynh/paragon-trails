@@ -26,7 +26,13 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["BBQ Grill", "Outdoor Shower", "Swim Platform", "Hot Tub"],
     entertainment: ["Satellite TV", "Game Console"],
-    waterToys: ["Kneeboard", "Seabob", "Scuba Diving Gear", "Floating Island", "Wakeboard"],
+    waterToys: [
+      "Kneeboard",
+      "Seabob",
+      "Scuba Diving Gear",
+      "Floating Island",
+      "Wakeboard",
+    ],
     location: {
       city: "shanghai",
       country: "China",
@@ -37,8 +43,15 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Discover the beauty of shanghai's waters aboard the elegant Azure Blue, a 2002 mega yacht featuring spacious accommodation for 11 guests overnight or 19 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-4.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-5.jpg"],
+    description:
+      "Discover the beauty of shanghai's waters aboard the elegant Azure Blue, a 2002 mega yacht featuring spacious accommodation for 11 guests overnight or 19 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-azure-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 46887,
@@ -86,8 +99,14 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Serenity Now in shanghai and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-4.jpg"],
+    description:
+      "Charter the impressive Serenity Now in shanghai and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/shanghai-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23420,
@@ -96,7 +115,12 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
       includes: ["Stabilizers", "Kitchen", "Tender Garage"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["EPIRB", "First Aid Kit", "Emergency Beacon", "Emergency Radio"],
+    safetyFeatures: [
+      "EPIRB",
+      "First Aid Kit",
+      "Emergency Beacon",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +159,13 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Endless Horizons is a magnificent gulet yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in shanghai.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-3.jpg"],
+    description:
+      "The Endless Horizons is a magnificent gulet yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in shanghai.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-endless-horizons-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4174,
@@ -147,5 +176,5 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Searchlight", "Emergency Radio", "Flares"],
     accessibilityFeatures: ["Easy Boarding"],
-  }
+  },
 ];

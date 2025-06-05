@@ -19,7 +19,8 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     pickUpCity: "dubai",
     pickUpCountry: "United Arab Emirates",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/suzuki-dr-z400.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/suzuki-dr-z400.jpg",
     requirements: ["Two-Wheel Experience", "Valid Motorcycle License"],
     availability: true,
     location: "Airport",
@@ -45,8 +46,13 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     dropOffCity: "southampton",
     dropOffCountry: "United Kingdom",
     dropOffLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/husqvarna-te-300i.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Signed Waiver"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/husqvarna-te-300i.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Signed Waiver",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -71,8 +77,14 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     dropOffCity: "nassau",
     dropOffCountry: "Bahamas",
     dropOffLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/aprilia-shiver.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Credit Card Required", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/aprilia-shiver.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Credit Card Required",
+      "Local Riding Permit",
+    ],
     availability: false,
     location: "Shopping District",
   },
@@ -94,8 +106,14 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     pickUpCity: "dubai",
     pickUpCountry: "United Arab Emirates",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/ktm-790-adventure.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "No DUI Record", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/ktm-790-adventure.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "No DUI Record",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -117,8 +135,16 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     pickUpCity: "dubai",
     pickUpCountry: "United Arab Emirates",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/kawasaki-concours.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Credit Card Required", "Signed Waiver", "International Driving Permit (for foreign renters)", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/kawasaki-concours.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Credit Card Required",
+      "Signed Waiver",
+      "International Driving Permit (for foreign renters)",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -143,7 +169,8 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     dropOffCity: "san-francisco",
     dropOffCountry: "United States",
     dropOffLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/aprilia-tuono.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/aprilia-tuono.jpg",
     requirements: ["No DUI Record", "Valid Motorcycle License"],
     availability: true,
     location: "Tourist District",
@@ -166,8 +193,13 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     pickUpCity: "dubai",
     pickUpCountry: "United Arab Emirates",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-te-300i.jpg",
-    requirements: ["Valid Motorcycle License", "No DUI Record", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/husqvarna-te-300i.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "No DUI Record",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Entertainment District",
   },
@@ -189,9 +221,15 @@ export const dubaiunitedArabEmiratesmiddleEastMotorcycles: Motorcycle[] = [
     pickUpCity: "dubai",
     pickUpCountry: "United Arab Emirates",
     pickUpLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-mt-07.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Helmet Required", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/yamaha-mt-07.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Helmet Required",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Near Beach",
-  }
+  },
 ];

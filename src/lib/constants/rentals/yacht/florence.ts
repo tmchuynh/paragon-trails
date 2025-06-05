@@ -24,7 +24,13 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Heated Deck", "Swim Platform", "Jacuzzi", "Hot Tub", "Sun Deck"],
+    amenities: [
+      "Heated Deck",
+      "Swim Platform",
+      "Jacuzzi",
+      "Hot Tub",
+      "Sun Deck",
+    ],
     entertainment: ["Satellite TV", "Onboard Cinema", "Media Library"],
     waterToys: ["Paddleboards", "Windsurf", "Kayaks", "Floating Island"],
     location: {
@@ -37,8 +43,13 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Self-Catering"],
-    description: "The Ruby Tides is a magnificent sailing yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-3.jpg"],
+    description:
+      "The Ruby Tides is a magnificent sailing yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-ruby-tides-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6719,
@@ -86,8 +97,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Local Cuisine Packages"],
-    description: "The Luxury Waters is a magnificent catamaran yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-4.jpg"],
+    description:
+      "The Luxury Waters is a magnificent catamaran yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/florence-luxury-waters-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5939,
@@ -135,8 +152,15 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Charter the impressive Oceanis in florence and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/florence-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-3.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-4.jpg", "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-5.jpg"],
+    description:
+      "Charter the impressive Oceanis in florence and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/florence-oceanis-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4075,
@@ -171,9 +195,21 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
       crew: 17,
       bathrooms: 8,
     },
-    amenities: ["Kitchen", "Laundry Service", "Dining Area", "Heated Deck", "BBQ Grill"],
+    amenities: [
+      "Kitchen",
+      "Laundry Service",
+      "Dining Area",
+      "Heated Deck",
+      "BBQ Grill",
+    ],
     entertainment: ["Bluetooth Speakers", "DJ Equipment"],
-    waterToys: ["Inflatable Slide", "Kayaks", "Kneeboard", "Windsurf", "Jet Ski"],
+    waterToys: [
+      "Inflatable Slide",
+      "Kayaks",
+      "Kneeboard",
+      "Windsurf",
+      "Jet Ski",
+    ],
     location: {
       city: "florence",
       country: "Italy",
@@ -184,8 +220,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "No Catering"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 76m super yacht available for charter in florence. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/florence-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 76m super yacht available for charter in florence. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/florence-silver-horizon-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 51172,
@@ -220,7 +262,13 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 7,
     },
-    amenities: ["Tender Garage", "Bar", "Stabilizers", "Swim Platform", "Sauna"],
+    amenities: [
+      "Tender Garage",
+      "Bar",
+      "Stabilizers",
+      "Swim Platform",
+      "Sauna",
+    ],
     entertainment: ["Onboard Cinema", "Media Library"],
     waterToys: ["Paddleboards", "Wakeboard", "Kayaks"],
     location: {
@@ -233,17 +281,28 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Golden Voyage in florence and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-3.jpg"],
+    description:
+      "Charter the impressive Golden Voyage in florence and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/florence-golden-voyage-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6838,
       perWeek: 40686.1,
       currency: "EUR",
       includes: ["Tender Garage", "Bar"],
-      excludes: ["Tender Garage", "Bar", "Stabilizers", "Swim Platform", "Sauna"],
+      excludes: [
+        "Tender Garage",
+        "Bar",
+        "Stabilizers",
+        "Swim Platform",
+        "Sauna",
+      ],
     },
     safetyFeatures: ["Emergency Steering", "Searchlight", "Fog Horn"],
     accessibilityFeatures: [],
-  }
+  },
 ];

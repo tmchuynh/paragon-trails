@@ -24,7 +24,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Swim Platform", "Kitchen", "Stabilizers", "Laundry Service", "Wi-Fi"],
+    amenities: [
+      "Swim Platform",
+      "Kitchen",
+      "Stabilizers",
+      "Laundry Service",
+      "Wi-Fi",
+    ],
     entertainment: ["Projector", "Surround Sound System"],
     waterToys: ["Snorkeling Gear", "Inflatable Slide"],
     location: {
@@ -37,15 +43,28 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of tokyo's waters aboard the elegant Emerald Waters, a 2009 gulet yacht featuring spacious accommodation for 8 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-5.jpg"],
+    description:
+      "Discover the beauty of tokyo's waters aboard the elegant Emerald Waters, a 2009 gulet yacht featuring spacious accommodation for 8 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4077,
       perWeek: 24258.149999999998,
       currency: "JPY",
       includes: ["Swim Platform", "Kitchen"],
-      excludes: ["Swim Platform", "Kitchen", "Stabilizers", "Laundry Service", "Wi-Fi"],
+      excludes: [
+        "Swim Platform",
+        "Kitchen",
+        "Stabilizers",
+        "Laundry Service",
+        "Wi-Fi",
+      ],
     },
     safetyFeatures: ["Emergency Radio", "Radar", "Emergency Steering"],
     accessibilityFeatures: [],
@@ -74,8 +93,17 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       bathrooms: 7,
     },
     amenities: ["Air Conditioning", "BBQ Grill", "Sauna", "Wi-Fi", "Jacuzzi"],
-    entertainment: ["Surround Sound System", "Onboard Cinema", "Karaoke System"],
-    waterToys: ["Scuba Diving Gear", "Towable Tubes", "Inflatable Slide", "Kneeboard"],
+    entertainment: [
+      "Surround Sound System",
+      "Onboard Cinema",
+      "Karaoke System",
+    ],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Towable Tubes",
+      "Inflatable Slide",
+      "Kneeboard",
+    ],
     location: {
       city: "tokyo",
       country: "Japan",
@@ -86,8 +114,14 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "BBQ Onboard"],
-    description: "Charter the impressive Endless Horizons in tokyo and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-4.jpg"],
+    description:
+      "Charter the impressive Endless Horizons in tokyo and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/tokyo-endless-horizons-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 50739,
@@ -135,8 +169,15 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Sapphire Seas, a stunning 59m mega yacht available for charter in tokyo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sapphire Seas, a stunning 59m mega yacht available for charter in tokyo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sapphire-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 34598,
@@ -173,7 +214,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Sun Deck", "Dining Area", "BBQ Grill", "Bar"],
     entertainment: ["Board Games"],
-    waterToys: ["Water Skis", "Kneeboard", "Kayaks", "Jet Ski", "Inflatable Slide"],
+    waterToys: [
+      "Water Skis",
+      "Kneeboard",
+      "Kayaks",
+      "Jet Ski",
+      "Inflatable Slide",
+    ],
     location: {
       city: "tokyo",
       country: "Japan",
@@ -184,8 +231,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Oceanis combines performance and luxury in a stunning 16m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-3.jpg"],
+    description:
+      "Oceanis combines performance and luxury in a stunning 16m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-oceanis-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5084,
@@ -233,8 +285,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "À La Carte"],
-    description: "Discover the beauty of tokyo's waters aboard the elegant Mediterranean Gem, a 2019 catamaran yacht featuring spacious accommodation for 9 guests overnight or 15 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-3.jpg"],
+    description:
+      "Discover the beauty of tokyo's waters aboard the elegant Mediterranean Gem, a 2019 catamaran yacht featuring spacious accommodation for 9 guests overnight or 15 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/tokyo-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7256,
@@ -243,7 +300,12 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       includes: ["Heated Deck"],
       excludes: ["Heated Deck", "Bar", "Hot Tub", "Sauna", "Sun Deck"],
     },
-    safetyFeatures: ["Emergency Steering", "Fire Extinguishers", "Navigation Lights", "Life Rafts"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "Life Rafts",
+    ],
     accessibilityFeatures: ["Easy Boarding", "Handrails"],
   },
   {
@@ -271,7 +333,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     },
     amenities: ["BBQ Grill", "Heated Deck", "Laundry Service"],
     entertainment: ["Streaming Services", "Game Console"],
-    waterToys: ["Fishing Equipment", "Jet Ski", "Scuba Diving Gear", "Snorkeling Gear", "Windsurf"],
+    waterToys: [
+      "Fishing Equipment",
+      "Jet Ski",
+      "Scuba Diving Gear",
+      "Snorkeling Gear",
+      "Windsurf",
+    ],
     location: {
       city: "tokyo",
       country: "Japan",
@@ -282,8 +350,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Full-Service Catering"],
-    description: "Discover the beauty of tokyo's waters aboard the elegant Silver Horizon, a 2010 sailing yacht featuring spacious accommodation for 5 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-3.jpg"],
+    description:
+      "Discover the beauty of tokyo's waters aboard the elegant Silver Horizon, a 2010 sailing yacht featuring spacious accommodation for 5 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3403,
@@ -318,9 +391,22 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Stabilizers", "Dining Area", "Jacuzzi", "Tender Garage", "Swim Platform", "Bar"],
+    amenities: [
+      "Stabilizers",
+      "Dining Area",
+      "Jacuzzi",
+      "Tender Garage",
+      "Swim Platform",
+      "Bar",
+    ],
     entertainment: ["Karaoke System"],
-    waterToys: ["Water Skis", "Scuba Diving Gear", "Wakeboard", "Windsurf", "Kayaks"],
+    waterToys: [
+      "Water Skis",
+      "Scuba Diving Gear",
+      "Wakeboard",
+      "Windsurf",
+      "Kayaks",
+    ],
     location: {
       city: "tokyo",
       country: "Japan",
@@ -331,8 +417,15 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "À La Carte"],
-    description: "Charter the impressive Indigo Seas in tokyo and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-5.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in tokyo and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tokyo-indigo-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7607,
@@ -343,5 +436,5 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Navigation Lights", "Fog Horn", "EPIRB", "Life Jackets"],
     accessibilityFeatures: ["Accessible Bathroom"],
-  }
+  },
 ];

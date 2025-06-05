@@ -24,7 +24,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 5,
     },
-    amenities: ["Wi-Fi", "Hot Tub", "Air Conditioning", "Kitchen", "Indoor Lounge"],
+    amenities: [
+      "Wi-Fi",
+      "Hot Tub",
+      "Air Conditioning",
+      "Kitchen",
+      "Indoor Lounge",
+    ],
     entertainment: ["Satellite TV", "DJ Equipment"],
     waterToys: ["Paddleboards", "Scuba Diving Gear"],
     location: {
@@ -37,8 +43,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Provisioning Only"],
-    description: "Charter the impressive Atlantic Breeze in charleston and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-4.jpg"],
+    description:
+      "Charter the impressive Atlantic Breeze in charleston and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-atlantic-breeze-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5167,
@@ -75,7 +87,12 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Swim Platform", "Bar", "Sauna", "Sun Deck", "Jacuzzi"],
     entertainment: ["Satellite TV"],
-    waterToys: ["Inflatable Slide", "Water Skis", "Scuba Diving Gear", "Kneeboard"],
+    waterToys: [
+      "Inflatable Slide",
+      "Water Skis",
+      "Scuba Diving Gear",
+      "Kneeboard",
+    ],
     location: {
       city: "charleston",
       country: "United States",
@@ -86,8 +103,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of charleston's waters aboard the elegant Mermaid's Song, a 2009 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-4.jpg"],
+    description:
+      "Discover the beauty of charleston's waters aboard the elegant Mermaid's Song, a 2009 sailing yacht featuring spacious accommodation for 4 guests overnight or 6 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9285,
@@ -96,7 +119,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Swim Platform", "Bar"],
       excludes: ["Swim Platform", "Bar", "Sauna", "Sun Deck", "Jacuzzi"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Beacon", "EPIRB", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Beacon",
+      "EPIRB",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +164,15 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Local Cuisine Packages"],
-    description: "The Ruby Tides is a magnificent catamaran yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-5.jpg"],
+    description:
+      "The Ruby Tides is a magnificent catamaran yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/charleston-ruby-tides-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8350,
@@ -172,7 +208,11 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       bathrooms: 2,
     },
     amenities: ["Kitchen", "Indoor Lounge", "Bar"],
-    entertainment: ["Bluetooth Speakers", "Surround Sound System", "Media Library"],
+    entertainment: [
+      "Bluetooth Speakers",
+      "Surround Sound System",
+      "Media Library",
+    ],
     waterToys: ["Towable Tubes", "Water Skis", "Windsurf"],
     location: {
       city: "charleston",
@@ -184,8 +224,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "The Serenity Now is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-4.jpg"],
+    description:
+      "The Serenity Now is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3525,
@@ -220,7 +266,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Hot Tub", "Indoor Lounge", "Air Conditioning", "Swim Platform"],
+    amenities: [
+      "Tender Garage",
+      "Hot Tub",
+      "Indoor Lounge",
+      "Air Conditioning",
+      "Swim Platform",
+    ],
     entertainment: ["Streaming Services", "Karaoke System"],
     waterToys: ["Jet Ski", "Snorkeling Gear", "Water Skis"],
     location: {
@@ -233,15 +285,26 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "The Mediterranean Gem is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-3.jpg"],
+    description:
+      "The Mediterranean Gem is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5013,
       perWeek: 29827.35,
       currency: "USD",
       includes: ["Tender Garage", "Hot Tub", "Indoor Lounge"],
-      excludes: ["Tender Garage", "Hot Tub", "Indoor Lounge", "Air Conditioning", "Swim Platform"],
+      excludes: [
+        "Tender Garage",
+        "Hot Tub",
+        "Indoor Lounge",
+        "Air Conditioning",
+        "Swim Platform",
+      ],
     },
     safetyFeatures: ["Fog Horn", "Emergency Beacon", "Flares"],
     accessibilityFeatures: [],
@@ -282,8 +345,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only", "All-Inclusive"],
-    description: "Discover the beauty of charleston's waters aboard the elegant Oceanis, a 2008 super yacht featuring spacious accommodation for 21 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/charleston-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/super/charleston-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/super/charleston-oceanis-3.jpg"],
+    description:
+      "Discover the beauty of charleston's waters aboard the elegant Oceanis, a 2008 super yacht featuring spacious accommodation for 21 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/charleston-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/charleston-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/charleston-oceanis-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 50262,
@@ -294,5 +362,5 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     },
     safetyFeatures: ["Fog Horn", "Fire Extinguishers", "First Aid Kit"],
     accessibilityFeatures: ["Low Thresholds"],
-  }
+  },
 ];

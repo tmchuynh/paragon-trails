@@ -26,7 +26,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Bar", "Sauna", "Stabilizers"],
     entertainment: ["Projector", "DJ Equipment"],
-    waterToys: ["Inflatable Slide", "Towable Tubes", "Floating Island", "E-Foil"],
+    waterToys: [
+      "Inflatable Slide",
+      "Towable Tubes",
+      "Floating Island",
+      "E-Foil",
+    ],
     location: {
       city: "juneau",
       country: "United States",
@@ -37,8 +42,15 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering", "Local Cuisine Packages"],
-    description: "Sovereign Waters combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-5.jpg"],
+    description:
+      "Sovereign Waters combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-sovereign-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6942,
@@ -47,7 +59,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Bar", "Sauna"],
       excludes: ["Bar", "Sauna", "Stabilizers"],
     },
-    safetyFeatures: ["GPS Tracking", "Flares", "Life Rafts", "Fire Extinguishers"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Flares",
+      "Life Rafts",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,9 +90,22 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       crew: 6,
       bathrooms: 9,
     },
-    amenities: ["Laundry Service", "Stabilizers", "Sauna", "Hot Tub", "Dining Area", "Tender Garage"],
+    amenities: [
+      "Laundry Service",
+      "Stabilizers",
+      "Sauna",
+      "Hot Tub",
+      "Dining Area",
+      "Tender Garage",
+    ],
     entertainment: ["Game Console", "Karaoke System", "Projector"],
-    waterToys: ["Fishing Equipment", "Wakeboard", "Towable Tubes", "Jet Ski", "Kayaks"],
+    waterToys: [
+      "Fishing Equipment",
+      "Wakeboard",
+      "Towable Tubes",
+      "Jet Ski",
+      "Kayaks",
+    ],
     location: {
       city: "juneau",
       country: "United States",
@@ -86,15 +116,29 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of juneau's waters aboard the elegant Indigo Seas, a 2000 mega yacht featuring spacious accommodation for 9 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-5.jpg"],
+    description:
+      "Discover the beauty of juneau's waters aboard the elegant Indigo Seas, a 2000 mega yacht featuring spacious accommodation for 9 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-indigo-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 43938,
       perWeek: 261431.1,
       currency: "USD",
       includes: ["Laundry Service"],
-      excludes: ["Laundry Service", "Stabilizers", "Sauna", "Hot Tub", "Dining Area", "Tender Garage"],
+      excludes: [
+        "Laundry Service",
+        "Stabilizers",
+        "Sauna",
+        "Hot Tub",
+        "Dining Area",
+        "Tender Garage",
+      ],
     },
     safetyFeatures: ["Navigation Lights", "Flares", "Fog Horn"],
     accessibilityFeatures: [],
@@ -122,9 +166,21 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 8,
     },
-    amenities: ["BBQ Grill", "Heated Deck", "Sauna", "Tender Garage", "Air Conditioning", "Dining Area"],
+    amenities: [
+      "BBQ Grill",
+      "Heated Deck",
+      "Sauna",
+      "Tender Garage",
+      "Air Conditioning",
+      "Dining Area",
+    ],
     entertainment: ["Karaoke System"],
-    waterToys: ["Snorkeling Gear", "Scuba Diving Gear", "Jet Ski", "Paddleboards"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Scuba Diving Gear",
+      "Jet Ski",
+      "Paddleboards",
+    ],
     location: {
       city: "juneau",
       country: "United States",
@@ -135,15 +191,29 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "The Elite Waves is a magnificent gulet yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-5.jpg"],
+    description:
+      "The Elite Waves is a magnificent gulet yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-elite-waves-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5749,
       perWeek: 34206.549999999996,
       currency: "USD",
       includes: ["BBQ Grill"],
-      excludes: ["BBQ Grill", "Heated Deck", "Sauna", "Tender Garage", "Air Conditioning", "Dining Area"],
+      excludes: [
+        "BBQ Grill",
+        "Heated Deck",
+        "Sauna",
+        "Tender Garage",
+        "Air Conditioning",
+        "Dining Area",
+      ],
     },
     safetyFeatures: ["EPIRB", "Searchlight", "Emergency Steering"],
     accessibilityFeatures: ["Handrails"],
@@ -173,7 +243,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Bar", "Kitchen", "Wi-Fi"],
     entertainment: ["Onboard Cinema", "Satellite TV"],
-    waterToys: ["Fishing Equipment", "Snorkeling Gear", "Windsurf", "Inflatable Slide"],
+    waterToys: [
+      "Fishing Equipment",
+      "Snorkeling Gear",
+      "Windsurf",
+      "Inflatable Slide",
+    ],
     location: {
       city: "juneau",
       country: "United States",
@@ -184,8 +259,13 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Sovereign Waters combines performance and luxury in a stunning 42m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-3.jpg"],
+    description:
+      "Sovereign Waters combines performance and luxury in a stunning 42m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23979,
@@ -222,7 +302,13 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Outdoor Shower", "Kitchen", "Laundry Service"],
     entertainment: ["Onboard Cinema", "Board Games"],
-    waterToys: ["Fishing Equipment", "Wakeboard", "Seabob", "Towable Tubes", "Water Skis"],
+    waterToys: [
+      "Fishing Equipment",
+      "Wakeboard",
+      "Seabob",
+      "Towable Tubes",
+      "Water Skis",
+    ],
     location: {
       city: "juneau",
       country: "United States",
@@ -233,8 +319,13 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of juneau's waters aboard the elegant Royal Seas, a 2018 gulet yacht featuring spacious accommodation for 12 guests overnight or 19 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-3.jpg"],
+    description:
+      "Discover the beauty of juneau's waters aboard the elegant Royal Seas, a 2018 gulet yacht featuring spacious accommodation for 12 guests overnight or 19 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-royal-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4673,
@@ -245,5 +336,5 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "First Aid Kit", "Emergency Steering"],
     accessibilityFeatures: [],
-  }
+  },
 ];

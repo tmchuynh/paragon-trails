@@ -19,8 +19,14 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "hong-kong",
     pickUpCountry: "China",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/bmw-r-ninet.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Credit Card Required", "Security Deposit Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/bmw-r-ninet.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Credit Card Required",
+      "Security Deposit Required",
+    ],
     availability: false,
     location: "Marina",
   },
@@ -42,8 +48,14 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "hong-kong",
     pickUpCountry: "China",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/bmw-r1250gs.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Signed Waiver", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/bmw-r1250gs.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Signed Waiver",
+      "No DUI Record",
+    ],
     availability: false,
     location: "Downtown",
   },
@@ -65,8 +77,14 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "hong-kong",
     pickUpCountry: "China",
     pickUpLocation: "Downtown",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/royal-enfield-bullet.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "No DUI Record", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/royal-enfield-bullet.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "No DUI Record",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -88,8 +106,13 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "hong-kong",
     pickUpCountry: "China",
     pickUpLocation: "Shopping District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/suzuki-gsx-r1000.jpg",
-    requirements: ["Minimum Age 21", "Valid Motorcycle License", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/suzuki-gsx-r1000.jpg",
+    requirements: [
+      "Minimum Age 21",
+      "Valid Motorcycle License",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "Shopping District",
   },
@@ -111,8 +134,14 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     pickUpCity: "hong-kong",
     pickUpCountry: "China",
     pickUpLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/moto-guzzi-eldorado.jpg",
-    requirements: ["International Driving Permit (for foreign renters)", "Security Deposit Required", "Valid Motorcycle License", "No DUI Record"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/moto-guzzi-eldorado.jpg",
+    requirements: [
+      "International Driving Permit (for foreign renters)",
+      "Security Deposit Required",
+      "Valid Motorcycle License",
+      "No DUI Record",
+    ],
     availability: true,
     location: "Convention Center",
   },
@@ -137,9 +166,14 @@ export const hongKongchinaasiaPacificMotorcycles: Motorcycle[] = [
     dropOffCity: "lisbon",
     dropOffCountry: "Portugal",
     dropOffLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/kawasaki-z650.jpg",
-    requirements: ["Security Deposit Required", "International Driving Permit (for foreign renters)", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/kawasaki-z650.jpg",
+    requirements: [
+      "Security Deposit Required",
+      "International Driving Permit (for foreign renters)",
+      "Valid Motorcycle License",
+    ],
     availability: false,
     location: "Airport",
-  }
+  },
 ];

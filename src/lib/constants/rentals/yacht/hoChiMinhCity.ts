@@ -37,8 +37,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Aegean Beauty, a 2013 catamaran yacht featuring spacious accommodation for 7 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-3.jpg"],
+    description:
+      "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Aegean Beauty, a 2013 catamaran yacht featuring spacious accommodation for 7 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-aegean-beauty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11919,
@@ -47,7 +52,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Jacuzzi", "Heated Deck"],
       excludes: ["Indoor Lounge", "Jacuzzi", "Heated Deck"],
     },
-    safetyFeatures: ["Life Jackets", "Radar", "Life Rafts", "Fog Horn", "Navigation Lights"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Radar",
+      "Life Rafts",
+      "Fog Horn",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +97,14 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Full-Service Catering"],
-    description: "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Ocean Majesty, a 2011 mega yacht featuring spacious accommodation for 9 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-4.jpg"],
+    description:
+      "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Ocean Majesty, a 2011 mega yacht featuring spacious accommodation for 9 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-ocean-majesty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 36440,
@@ -96,7 +113,12 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill"],
       excludes: ["BBQ Grill", "Bar", "Wi-Fi", "Tender Garage", "Kitchen"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Beacon", "Fog Horn", "First Aid Kit"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Beacon",
+      "Fog Horn",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +157,15 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Atlantic Breeze in ho-chi-minh-city and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-5.jpg"],
+    description:
+      "Charter the impressive Atlantic Breeze in ho-chi-minh-city and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-atlantic-breeze-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 116096,
@@ -145,7 +174,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Jacuzzi", "Sun Deck", "Bar", "Outdoor Shower"],
     },
-    safetyFeatures: ["Navigation Lights", "Fire Extinguishers", "Flares", "Fog Horn", "GPS Tracking"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Fire Extinguishers",
+      "Flares",
+      "Fog Horn",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +219,14 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Picnic-Style"],
-    description: "The Sea Symphony is a magnificent catamaran yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in ho-chi-minh-city.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-4.jpg"],
+    description:
+      "The Sea Symphony is a magnificent catamaran yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in ho-chi-minh-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ho-chi-minh-city-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10635,
@@ -220,7 +261,14 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       crew: 17,
       bathrooms: 8,
     },
-    amenities: ["Sauna", "Swim Platform", "Laundry Service", "Dining Area", "Kitchen", "Wi-Fi"],
+    amenities: [
+      "Sauna",
+      "Swim Platform",
+      "Laundry Service",
+      "Dining Area",
+      "Kitchen",
+      "Wi-Fi",
+    ],
     entertainment: ["Satellite TV", "Onboard Cinema", "Game Console"],
     waterToys: ["Snorkeling Gear", "Inflatable Slide", "Kayaks"],
     location: {
@@ -233,15 +281,27 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Azure Dreams in ho-chi-minh-city and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-3.jpg"],
+    description:
+      "Charter the impressive Azure Dreams in ho-chi-minh-city and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-azure-dreams-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 183162,
       perWeek: 1089813.9,
       currency: "VND",
       includes: ["Sauna"],
-      excludes: ["Sauna", "Swim Platform", "Laundry Service", "Dining Area", "Kitchen", "Wi-Fi"],
+      excludes: [
+        "Sauna",
+        "Swim Platform",
+        "Laundry Service",
+        "Dining Area",
+        "Kitchen",
+        "Wi-Fi",
+      ],
     },
     safetyFeatures: ["Flares", "Life Jackets"],
     accessibilityFeatures: ["Accessible Bathroom"],
@@ -282,8 +342,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "No Catering"],
-    description: "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 21m gulet yacht available for charter in ho-chi-minh-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 21m gulet yacht available for charter in ho-chi-minh-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-poseidon's-pride-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5664,
@@ -292,7 +357,12 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       includes: ["Dining Area", "Hot Tub", "Jacuzzi"],
       excludes: ["Dining Area", "Hot Tub", "Jacuzzi"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "Life Jackets", "Emergency Steering"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "Life Jackets",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -318,9 +388,22 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Dining Area", "Air Conditioning", "Jacuzzi", "Stabilizers", "Hot Tub", "Indoor Lounge"],
+    amenities: [
+      "Dining Area",
+      "Air Conditioning",
+      "Jacuzzi",
+      "Stabilizers",
+      "Hot Tub",
+      "Indoor Lounge",
+    ],
     entertainment: ["Streaming Services", "DJ Equipment"],
-    waterToys: ["Seabob", "Kneeboard", "Scuba Diving Gear", "Snorkeling Gear", "Floating Island"],
+    waterToys: [
+      "Seabob",
+      "Kneeboard",
+      "Scuba Diving Gear",
+      "Snorkeling Gear",
+      "Floating Island",
+    ],
     location: {
       city: "ho-chi-minh-city",
       country: "Vietnam",
@@ -331,17 +414,35 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only", "Chef Onboard"],
-    description: "Ocean Majesty combines performance and luxury in a stunning 28m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-3.jpg"],
+    description:
+      "Ocean Majesty combines performance and luxury in a stunning 28m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ho-chi-minh-city-ocean-majesty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4635,
       perWeek: 27578.25,
       currency: "VND",
       includes: ["Dining Area", "Air Conditioning"],
-      excludes: ["Dining Area", "Air Conditioning", "Jacuzzi", "Stabilizers", "Hot Tub", "Indoor Lounge"],
+      excludes: [
+        "Dining Area",
+        "Air Conditioning",
+        "Jacuzzi",
+        "Stabilizers",
+        "Hot Tub",
+        "Indoor Lounge",
+      ],
     },
-    safetyFeatures: ["Searchlight", "Emergency Steering", "Navigation Lights", "GPS Tracking", "Radar"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Steering",
+      "Navigation Lights",
+      "GPS Tracking",
+      "Radar",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

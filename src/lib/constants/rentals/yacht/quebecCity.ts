@@ -24,7 +24,15 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 8,
     },
-    amenities: ["BBQ Grill", "Dining Area", "Kitchen", "Bar", "Stabilizers", "Laundry Service", "Hot Tub"],
+    amenities: [
+      "BBQ Grill",
+      "Dining Area",
+      "Kitchen",
+      "Bar",
+      "Stabilizers",
+      "Laundry Service",
+      "Hot Tub",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Paddleboards", "Scuba Diving Gear", "Windsurf", "Kneeboard"],
     location: {
@@ -37,8 +45,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Emerald Waters, a stunning 25m gulet yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Emerald Waters, a stunning 25m gulet yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-emerald-waters-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 4804,
@@ -47,7 +61,12 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["BBQ Grill"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Life Jackets", "Fire Extinguishers", "Fog Horn", "Life Rafts"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Fire Extinguishers",
+      "Fog Horn",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +92,15 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Bar", "Wi-Fi", "Jacuzzi", "Swim Platform", "Sun Deck", "Indoor Lounge", "Outdoor Shower"],
+    amenities: [
+      "Bar",
+      "Wi-Fi",
+      "Jacuzzi",
+      "Swim Platform",
+      "Sun Deck",
+      "Indoor Lounge",
+      "Outdoor Shower",
+    ],
     entertainment: ["Onboard Cinema", "Karaoke System", "Game Console"],
     waterToys: ["Scuba Diving Gear", "Floating Island", "Kayaks", "Water Skis"],
     location: {
@@ -86,8 +113,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of quebec-city's waters aboard the elegant Indigo Seas, a 2011 motor yacht featuring spacious accommodation for 7 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-4.jpg"],
+    description:
+      "Discover the beauty of quebec-city's waters aboard the elegant Indigo Seas, a 2011 motor yacht featuring spacious accommodation for 7 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-indigo-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 10300,
@@ -122,7 +155,15 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Tender Garage", "Sauna", "BBQ Grill", "Indoor Lounge", "Bar", "Outdoor Shower", "Stabilizers"],
+    amenities: [
+      "Tender Garage",
+      "Sauna",
+      "BBQ Grill",
+      "Indoor Lounge",
+      "Bar",
+      "Outdoor Shower",
+      "Stabilizers",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Wakeboard", "Kayaks"],
     location: {
@@ -135,15 +176,30 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Discover the beauty of quebec-city's waters aboard the elegant Adriatic Queen, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-5.jpg"],
+    description:
+      "Discover the beauty of quebec-city's waters aboard the elegant Adriatic Queen, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3410,
       perWeek: 20289.5,
       currency: "CAD",
       includes: ["Tender Garage", "Sauna"],
-      excludes: ["Tender Garage", "Sauna", "BBQ Grill", "Indoor Lounge", "Bar", "Outdoor Shower", "Stabilizers"],
+      excludes: [
+        "Tender Garage",
+        "Sauna",
+        "BBQ Grill",
+        "Indoor Lounge",
+        "Bar",
+        "Outdoor Shower",
+        "Stabilizers",
+      ],
     },
     safetyFeatures: ["Life Rafts", "EPIRB", "Navigation Lights"],
     accessibilityFeatures: [],
@@ -184,8 +240,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Aegean Beauty in quebec-city and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-4.jpg"],
+    description:
+      "Charter the impressive Aegean Beauty in quebec-city and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8642,
@@ -220,7 +282,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Hot Tub", "Indoor Lounge", "BBQ Grill", "Outdoor Shower", "Swim Platform", "Stabilizers"],
+    amenities: [
+      "Hot Tub",
+      "Indoor Lounge",
+      "BBQ Grill",
+      "Outdoor Shower",
+      "Swim Platform",
+      "Stabilizers",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Fishing Equipment", "Jet Ski"],
     location: {
@@ -233,8 +302,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Discover the beauty of quebec-city's waters aboard the elegant Azure Blue, a 2001 gulet yacht featuring spacious accommodation for 8 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-3.jpg"],
+    description:
+      "Discover the beauty of quebec-city's waters aboard the elegant Azure Blue, a 2001 gulet yacht featuring spacious accommodation for 8 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-azure-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3768,
@@ -282,8 +356,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Picnic-Style"],
-    description: "Discover the beauty of quebec-city's waters aboard the elegant Pearl Harbor, a 2017 gulet yacht featuring spacious accommodation for 12 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-4.jpg"],
+    description:
+      "Discover the beauty of quebec-city's waters aboard the elegant Pearl Harbor, a 2017 gulet yacht featuring spacious accommodation for 12 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3506,
@@ -292,7 +372,12 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["Hot Tub", "Stabilizers", "Laundry Service"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Radar", "Life Rafts", "Life Jackets", "Navigation Lights"],
+    safetyFeatures: [
+      "Radar",
+      "Life Rafts",
+      "Life Jackets",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Low Thresholds"],
   },
   {
@@ -331,8 +416,15 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Aquamarine in quebec-city and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-5.jpg"],
+    description:
+      "Charter the impressive Aquamarine in quebec-city and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/quebec-city-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10891,
@@ -343,5 +435,5 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     },
     safetyFeatures: ["Radar", "Flares", "Searchlight", "Emergency Beacon"],
     accessibilityFeatures: ["Easy Boarding", "Accessible Cabin"],
-  }
+  },
 ];

@@ -26,7 +26,12 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     },
     amenities: ["Kitchen", "Dining Area", "Sauna", "Outdoor Shower"],
     entertainment: ["Media Library", "Karaoke System"],
-    waterToys: ["Floating Island", "Inflatable Slide", "Paddleboards", "Towable Tubes"],
+    waterToys: [
+      "Floating Island",
+      "Inflatable Slide",
+      "Paddleboards",
+      "Towable Tubes",
+    ],
     location: {
       city: "galveston",
       country: "United States",
@@ -37,8 +42,14 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Provisioning Only"],
-    description: "Serenity Now combines performance and luxury in a stunning 19m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-4.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 19m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6961,
@@ -86,8 +97,15 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Sapphire Seas is a magnificent sailing yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in galveston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-4.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-5.jpg"],
+    description:
+      "The Sapphire Seas is a magnificent sailing yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in galveston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-sapphire-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3890,
@@ -122,7 +140,14 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Heated Deck", "Air Conditioning", "Sun Deck", "BBQ Grill", "Jacuzzi", "Swim Platform"],
+    amenities: [
+      "Heated Deck",
+      "Air Conditioning",
+      "Sun Deck",
+      "BBQ Grill",
+      "Jacuzzi",
+      "Swim Platform",
+    ],
     entertainment: ["Bluetooth Speakers", "DJ Equipment"],
     waterToys: ["Kneeboard", "E-Foil", "Wakeboard"],
     location: {
@@ -135,8 +160,13 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Diamond Seas, a stunning 14m catamaran yacht available for charter in galveston. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Diamond Seas, a stunning 14m catamaran yacht available for charter in galveston. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-diamond-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7139,
@@ -145,7 +175,11 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Heated Deck", "Air Conditioning"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Navigation Lights", "Emergency Steering"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

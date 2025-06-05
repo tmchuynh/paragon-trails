@@ -37,8 +37,15 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Chef Onboard"],
-    description: "Atlantic Breeze combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-5.jpg"],
+    description:
+      "Atlantic Breeze combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-atlantic-breeze-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6685,
@@ -47,7 +54,12 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Beacon", "First Aid Kit", "Fog Horn"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Beacon",
+      "First Aid Kit",
+      "Fog Horn",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -74,7 +86,11 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
       bathrooms: 9,
     },
     amenities: ["BBQ Grill", "Outdoor Shower", "Tender Garage"],
-    entertainment: ["Bluetooth Speakers", "Streaming Services", "Media Library"],
+    entertainment: [
+      "Bluetooth Speakers",
+      "Streaming Services",
+      "Media Library",
+    ],
     waterToys: ["Windsurf", "Inflatable Slide"],
     location: {
       city: "buenos-aires",
@@ -86,8 +102,14 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "No Catering"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 85m super yacht available for charter in buenos-aires. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 85m super yacht available for charter in buenos-aires. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-silver-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 86831,
@@ -96,7 +118,12 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
       includes: ["BBQ Grill", "Outdoor Shower"],
       excludes: ["BBQ Grill", "Outdoor Shower", "Tender Garage"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Steering", "Emergency Beacon", "First Aid Kit"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Emergency Beacon",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +162,14 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Cobalt Waters is a magnificent super yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in buenos-aires.",
-    images: ["https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-4.jpg"],
+    description:
+      "The Cobalt Waters is a magnificent super yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in buenos-aires.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/buenos-aires-cobalt-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 151238,
@@ -145,7 +178,12 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
       includes: ["BBQ Grill", "Indoor Lounge"],
       excludes: ["BBQ Grill", "Indoor Lounge", "Bar", "Dining Area"],
     },
-    safetyFeatures: ["Life Rafts", "Life Jackets", "Navigation Lights", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Life Jackets",
+      "Navigation Lights",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +209,14 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Outdoor Shower", "Tender Garage", "Bar", "Kitchen", "Heated Deck", "Air Conditioning"],
+    amenities: [
+      "Outdoor Shower",
+      "Tender Garage",
+      "Bar",
+      "Kitchen",
+      "Heated Deck",
+      "Air Conditioning",
+    ],
     entertainment: ["Media Library", "Projector"],
     waterToys: ["Kneeboard", "Fishing Equipment", "Windsurf", "Towable Tubes"],
     location: {
@@ -184,8 +229,14 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of buenos-aires's waters aboard the elegant Wave Dancer, a 2013 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of buenos-aires's waters aboard the elegant Wave Dancer, a 2013 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/buenos-aires-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8160,
@@ -233,8 +284,15 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 48m mega yacht available for charter in buenos-aires. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 48m mega yacht available for charter in buenos-aires. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/buenos-aires-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 24268,
@@ -245,5 +303,5 @@ export const buenosAiresargentinasouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "Emergency Beacon", "Radar"],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

@@ -22,8 +22,14 @@ export const parisfrancenorthernEuropeMotorcycles: Motorcycle[] = [
     dropOffCity: "juneau",
     dropOffCountry: "United States",
     dropOffLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/kawasaki-concours.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Security Deposit Required", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/kawasaki-concours.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Security Deposit Required",
+      "Insurance Required",
+    ],
     availability: false,
     location: "Marina",
   },
@@ -45,8 +51,13 @@ export const parisfrancenorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "paris",
     pickUpCountry: "France",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/harley-davidson-street-glide.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/harley-davidson-street-glide.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -68,9 +79,15 @@ export const parisfrancenorthernEuropeMotorcycles: Motorcycle[] = [
     pickUpCity: "paris",
     pickUpCountry: "France",
     pickUpLocation: "City Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/bmw-s1000rr.jpg",
-    requirements: ["Valid Motorcycle License", "International Driving Permit (for foreign renters)", "Signed Waiver", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/bmw-s1000rr.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "International Driving Permit (for foreign renters)",
+      "Signed Waiver",
+      "Credit Card Required",
+    ],
     availability: true,
     location: "City Center",
-  }
+  },
 ];

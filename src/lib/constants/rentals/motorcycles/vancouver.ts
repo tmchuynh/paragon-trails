@@ -22,8 +22,14 @@ export const vancouvercanadaalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "bangkok",
     dropOffCountry: "Thailand",
     dropOffLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/cruiser/suzuki-sv650.jpg",
-    requirements: ["Minimum Age 21", "Valid Motorcycle License", "Local Riding Permit", "Credit Card Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/cruiser/suzuki-sv650.jpg",
+    requirements: [
+      "Minimum Age 21",
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Credit Card Required",
+    ],
     availability: false,
     location: "Transit Hub",
   },
@@ -48,8 +54,16 @@ export const vancouvercanadaalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "sitka",
     dropOffCountry: "United States",
     dropOffLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/triumph-thruxton.jpg",
-    requirements: ["Valid Motorcycle License", "Credit Card Required", "Security Deposit Required", "Minimum Age 21", "Experience with Manual Transmission", "Local Riding Permit"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/triumph-thruxton.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Credit Card Required",
+      "Security Deposit Required",
+      "Minimum Age 21",
+      "Experience with Manual Transmission",
+      "Local Riding Permit",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -74,9 +88,16 @@ export const vancouvercanadaalaskaMotorcycles: Motorcycle[] = [
     dropOffCity: "cozumel",
     dropOffCountry: "Mexico",
     dropOffLocation: "Convention Center",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/custom/harley-davidson-street-glide.jpg",
-    requirements: ["Valid Motorcycle License", "Local Riding Permit", "Minimum Age 21", "Signed Waiver", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/custom/harley-davidson-street-glide.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Local Riding Permit",
+      "Minimum Age 21",
+      "Signed Waiver",
+      "Experience with Manual Transmission",
+    ],
     availability: true,
     location: "Convention Center",
-  }
+  },
 ];

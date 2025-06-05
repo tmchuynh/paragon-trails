@@ -24,7 +24,13 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Heated Deck", "Sauna", "Wi-Fi", "Swim Platform", "Air Conditioning"],
+    amenities: [
+      "Heated Deck",
+      "Sauna",
+      "Wi-Fi",
+      "Swim Platform",
+      "Air Conditioning",
+    ],
     entertainment: ["Bluetooth Speakers", "Media Library"],
     waterToys: ["Fishing Equipment", "Seabob", "E-Foil", "Towable Tubes"],
     location: {
@@ -37,15 +43,28 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Neptune's Glory combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-3.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-4.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-5.jpg"],
+    description:
+      "Neptune's Glory combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-neptune's-glory-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3636,
       perWeek: 21634.2,
       currency: "CAD",
       includes: ["Heated Deck"],
-      excludes: ["Heated Deck", "Sauna", "Wi-Fi", "Swim Platform", "Air Conditioning"],
+      excludes: [
+        "Heated Deck",
+        "Sauna",
+        "Wi-Fi",
+        "Swim Platform",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["Searchlight", "EPIRB"],
     accessibilityFeatures: ["Easy Boarding"],
@@ -86,8 +105,14 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 21m catamaran yacht available for charter in montreal. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 21m catamaran yacht available for charter in montreal. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-baltic-star-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9701,
@@ -122,7 +147,15 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Laundry Service", "Heated Deck", "Sun Deck", "Swim Platform", "Bar", "Jacuzzi", "BBQ Grill"],
+    amenities: [
+      "Laundry Service",
+      "Heated Deck",
+      "Sun Deck",
+      "Swim Platform",
+      "Bar",
+      "Jacuzzi",
+      "BBQ Grill",
+    ],
     entertainment: ["Game Console", "Satellite TV"],
     waterToys: ["Water Skis", "Scuba Diving Gear"],
     location: {
@@ -135,8 +168,14 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Elite Waves is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in montreal.",
-    images: ["https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-4.jpg"],
+    description:
+      "The Elite Waves is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in montreal.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montreal-elite-waves-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8665,
@@ -147,5 +186,5 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     },
     safetyFeatures: ["Fire Extinguishers", "Emergency Radio", "Flares"],
     accessibilityFeatures: [],
-  }
+  },
 ];

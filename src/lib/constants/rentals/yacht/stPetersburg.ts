@@ -37,8 +37,15 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["No Catering", "À La Carte"],
-    description: "Charter the impressive Ocean Majesty in st-petersburg and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-5.jpg"],
+    description:
+      "Charter the impressive Ocean Majesty in st-petersburg and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-petersburg-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11947,
@@ -47,7 +54,12 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       includes: ["Jacuzzi", "Stabilizers", "Swim Platform"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Steering", "GPS Tracking", "EPIRB"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Steering",
+      "GPS Tracking",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,9 +85,21 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       crew: 16,
       bathrooms: 12,
     },
-    amenities: ["Tender Garage", "Dining Area", "BBQ Grill", "Sauna", "Sun Deck"],
+    amenities: [
+      "Tender Garage",
+      "Dining Area",
+      "BBQ Grill",
+      "Sauna",
+      "Sun Deck",
+    ],
     entertainment: ["DJ Equipment", "Streaming Services"],
-    waterToys: ["Towable Tubes", "Floating Island", "Paddleboards", "Water Skis", "Jet Ski"],
+    waterToys: [
+      "Towable Tubes",
+      "Floating Island",
+      "Paddleboards",
+      "Water Skis",
+      "Jet Ski",
+    ],
     location: {
       city: "st-petersburg",
       country: "Russia",
@@ -86,17 +110,33 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Sea Symphony, a stunning 86m super yacht available for charter in st-petersburg. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sea Symphony, a stunning 86m super yacht available for charter in st-petersburg. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-petersburg-sea-symphony-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 106489,
       perWeek: 633609.5499999999,
       currency: "RUB",
       includes: ["Tender Garage"],
-      excludes: ["Tender Garage", "Dining Area", "BBQ Grill", "Sauna", "Sun Deck"],
+      excludes: [
+        "Tender Garage",
+        "Dining Area",
+        "BBQ Grill",
+        "Sauna",
+        "Sun Deck",
+      ],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Beacon", "Emergency Steering"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Beacon",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -122,7 +162,14 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Hot Tub", "Wi-Fi", "Heated Deck", "Indoor Lounge", "Kitchen"],
+    amenities: [
+      "Tender Garage",
+      "Hot Tub",
+      "Wi-Fi",
+      "Heated Deck",
+      "Indoor Lounge",
+      "Kitchen",
+    ],
     entertainment: ["Surround Sound System", "Board Games", "Satellite TV"],
     waterToys: ["Floating Island", "Scuba Diving Gear"],
     location: {
@@ -135,15 +182,29 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Caribbean Pearl combines performance and luxury in a stunning 21m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-4.jpg", "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-5.jpg"],
+    description:
+      "Caribbean Pearl combines performance and luxury in a stunning 21m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-petersburg-caribbean-pearl-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8786,
       perWeek: 52276.7,
       currency: "RUB",
       includes: ["Tender Garage", "Hot Tub"],
-      excludes: ["Tender Garage", "Hot Tub", "Wi-Fi", "Heated Deck", "Indoor Lounge", "Kitchen"],
+      excludes: [
+        "Tender Garage",
+        "Hot Tub",
+        "Wi-Fi",
+        "Heated Deck",
+        "Indoor Lounge",
+        "Kitchen",
+      ],
     },
     safetyFeatures: ["Flares", "Life Jackets", "First Aid Kit"],
     accessibilityFeatures: [],
@@ -171,9 +232,22 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       crew: 1,
       bathrooms: 5,
     },
-    amenities: ["Sun Deck", "Sauna", "Indoor Lounge", "Kitchen", "Dining Area", "Outdoor Shower"],
+    amenities: [
+      "Sun Deck",
+      "Sauna",
+      "Indoor Lounge",
+      "Kitchen",
+      "Dining Area",
+      "Outdoor Shower",
+    ],
     entertainment: ["Game Console", "DJ Equipment"],
-    waterToys: ["Windsurf", "Fishing Equipment", "Jet Ski", "Towable Tubes", "Wakeboard"],
+    waterToys: [
+      "Windsurf",
+      "Fishing Equipment",
+      "Jet Ski",
+      "Towable Tubes",
+      "Wakeboard",
+    ],
     location: {
       city: "st-petersburg",
       country: "Russia",
@@ -184,8 +258,15 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Elite Waves in st-petersburg and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-5.jpg"],
+    description:
+      "Charter the impressive Elite Waves in st-petersburg and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/st-petersburg-elite-waves-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 4543,
@@ -194,7 +275,12 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["Navigation Lights", "Emergency Steering", "Fire Extinguishers", "First Aid Kit"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Emergency Steering",
+      "Fire Extinguishers",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -222,7 +308,12 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Hot Tub", "Sun Deck", "Jacuzzi", "Sauna", "Bar"],
     entertainment: ["Streaming Services", "Bluetooth Speakers"],
-    waterToys: ["Water Skis", "Floating Island", "Fishing Equipment", "Inflatable Slide"],
+    waterToys: [
+      "Water Skis",
+      "Floating Island",
+      "Fishing Equipment",
+      "Inflatable Slide",
+    ],
     location: {
       city: "st-petersburg",
       country: "Russia",
@@ -233,8 +324,15 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "The Azure Blue is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in st-petersburg.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-4.jpg", "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-5.jpg"],
+    description:
+      "The Azure Blue is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in st-petersburg.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/st-petersburg-azure-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4724,
@@ -282,8 +380,13 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Royal Seas combines performance and luxury in a stunning 58m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-3.jpg"],
+    description:
+      "Royal Seas combines performance and luxury in a stunning 58m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-royal-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 25275,
@@ -292,7 +395,13 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Sun Deck"],
       excludes: ["Wi-Fi"],
     },
-    safetyFeatures: ["Flares", "Life Jackets", "Emergency Steering", "Radar", "Emergency Beacon"],
+    safetyFeatures: [
+      "Flares",
+      "Life Jackets",
+      "Emergency Steering",
+      "Radar",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -331,8 +440,15 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Provisioning Only"],
-    description: "Charter the impressive Coastal Serenity in st-petersburg and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-5.jpg"],
+    description:
+      "Charter the impressive Coastal Serenity in st-petersburg and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-petersburg-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 49848,
@@ -341,7 +457,13 @@ export const stPetersburgrussianorthernEuropeYachts: Yacht[] = [
       includes: ["BBQ Grill", "Tender Garage", "Hot Tub"],
       excludes: ["BBQ Grill", "Tender Garage", "Hot Tub", "Heated Deck"],
     },
-    safetyFeatures: ["Fog Horn", "Searchlight", "Life Jackets", "Fire Extinguishers", "GPS Tracking"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Searchlight",
+      "Life Jackets",
+      "Fire Extinguishers",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Accessible Cabin"],
-  }
+  },
 ];

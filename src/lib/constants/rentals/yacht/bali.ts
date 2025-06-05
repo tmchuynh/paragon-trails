@@ -26,7 +26,12 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Jacuzzi", "Tender Garage", "Heated Deck"],
     entertainment: ["Onboard Cinema", "DJ Equipment"],
-    waterToys: ["Wakeboard", "Inflatable Slide", "Fishing Equipment", "Scuba Diving Gear"],
+    waterToys: [
+      "Wakeboard",
+      "Inflatable Slide",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "bali",
       country: "Indonesia",
@@ -37,8 +42,15 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of bali's waters aboard the elegant Aquamarine, a 2015 mega yacht featuring spacious accommodation for 9 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bali-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-5.jpg"],
+    description:
+      "Discover the beauty of bali's waters aboard the elegant Aquamarine, a 2015 mega yacht featuring spacious accommodation for 9 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-aquamarine-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 32188,
@@ -86,8 +98,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of bali's waters aboard the elegant Poseidon's Pride, a 2003 catamaran yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-3.jpg"],
+    description:
+      "Discover the beauty of bali's waters aboard the elegant Poseidon's Pride, a 2003 catamaran yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-poseidon's-pride-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8901,
@@ -122,7 +139,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 7,
     },
-    amenities: ["Hot Tub", "Stabilizers", "Kitchen", "Laundry Service", "Sun Deck"],
+    amenities: [
+      "Hot Tub",
+      "Stabilizers",
+      "Kitchen",
+      "Laundry Service",
+      "Sun Deck",
+    ],
     entertainment: ["Board Games", "Surround Sound System"],
     waterToys: ["Scuba Diving Gear", "Snorkeling Gear", "E-Foil"],
     location: {
@@ -135,8 +158,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard"],
-    description: "Discover the beauty of bali's waters aboard the elegant Atlantic Breeze, a 2004 catamaran yacht featuring spacious accommodation for 6 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-3.jpg"],
+    description:
+      "Discover the beauty of bali's waters aboard the elegant Atlantic Breeze, a 2004 catamaran yacht featuring spacious accommodation for 6 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-atlantic-breeze-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7094,
@@ -171,7 +199,14 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["Sauna", "Wi-Fi", "BBQ Grill", "Dining Area", "Stabilizers", "Kitchen"],
+    amenities: [
+      "Sauna",
+      "Wi-Fi",
+      "BBQ Grill",
+      "Dining Area",
+      "Stabilizers",
+      "Kitchen",
+    ],
     entertainment: ["Streaming Services", "Surround Sound System"],
     waterToys: ["Fishing Equipment", "Towable Tubes"],
     location: {
@@ -184,15 +219,29 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Oceanis combines performance and luxury in a stunning 25m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/bali-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/motor/bali-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/motor/bali-oceanis-3.jpg", "https://paragon-trails-yacht-images.com/motor/bali-oceanis-4.jpg", "https://paragon-trails-yacht-images.com/motor/bali-oceanis-5.jpg"],
+    description:
+      "Oceanis combines performance and luxury in a stunning 25m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/bali-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-oceanis-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-oceanis-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-oceanis-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14936,
       perWeek: 88869.2,
       currency: "IDR",
       includes: ["Sauna", "Wi-Fi", "BBQ Grill"],
-      excludes: ["Sauna", "Wi-Fi", "BBQ Grill", "Dining Area", "Stabilizers", "Kitchen"],
+      excludes: [
+        "Sauna",
+        "Wi-Fi",
+        "BBQ Grill",
+        "Dining Area",
+        "Stabilizers",
+        "Kitchen",
+      ],
     },
     safetyFeatures: ["Life Rafts", "Emergency Steering"],
     accessibilityFeatures: [],
@@ -233,8 +282,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "The Pacific Explorer is a magnificent mega yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in bali.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-3.jpg"],
+    description:
+      "The Pacific Explorer is a magnificent mega yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in bali.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-pacific-explorer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 39324,
@@ -243,7 +297,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       includes: ["Stabilizers", "BBQ Grill"],
       excludes: ["Stabilizers", "BBQ Grill", "Jacuzzi", "Air Conditioning"],
     },
-    safetyFeatures: ["Emergency Steering", "GPS Tracking", "Fog Horn", "Emergency Radio", "Flares"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "GPS Tracking",
+      "Fog Horn",
+      "Emergency Radio",
+      "Flares",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

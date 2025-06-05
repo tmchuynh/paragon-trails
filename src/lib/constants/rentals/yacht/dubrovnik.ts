@@ -24,7 +24,13 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Heated Deck", "Outdoor Shower", "Dining Area", "Hot Tub", "Laundry Service"],
+    amenities: [
+      "Heated Deck",
+      "Outdoor Shower",
+      "Dining Area",
+      "Hot Tub",
+      "Laundry Service",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Wakeboard", "Towable Tubes", "Paddleboards"],
     location: {
@@ -37,8 +43,14 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Royal Wave is a magnificent sailing yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-4.jpg"],
+    description:
+      "The Royal Wave is a magnificent sailing yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubrovnik-royal-wave-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4825,
@@ -86,8 +98,14 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Pacific Explorer, a stunning 21m catamaran yacht available for charter in dubrovnik. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pacific Explorer, a stunning 21m catamaran yacht available for charter in dubrovnik. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-pacific-explorer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6689,
@@ -96,7 +114,12 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       includes: ["Bar", "Sun Deck", "Dining Area"],
       excludes: ["Bar", "Sun Deck", "Dining Area"],
     },
-    safetyFeatures: ["Emergency Radio", "Navigation Lights", "Flares", "Fog Horn"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Navigation Lights",
+      "Flares",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +158,15 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "Sovereign Waters combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-5.jpg"],
+    description:
+      "Sovereign Waters combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dubrovnik-sovereign-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13471,
@@ -184,8 +214,15 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Infinity Seas combines performance and luxury in a stunning 61m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-5.jpg"],
+    description:
+      "Infinity Seas combines performance and luxury in a stunning 61m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-infinity-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 76019,
@@ -233,8 +270,15 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Self-Catering"],
-    description: "The Azure Dreams is a magnificent super yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-5.jpg"],
+    description:
+      "The Azure Dreams is a magnificent super yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-azure-dreams-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 199831,
@@ -269,7 +313,13 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       crew: 8,
       bathrooms: 8,
     },
-    amenities: ["Wi-Fi", "Stabilizers", "Heated Deck", "Laundry Service", "Tender Garage"],
+    amenities: [
+      "Wi-Fi",
+      "Stabilizers",
+      "Heated Deck",
+      "Laundry Service",
+      "Tender Garage",
+    ],
     entertainment: ["Projector"],
     waterToys: ["Wakeboard", "Seabob", "Fishing Equipment"],
     location: {
@@ -282,15 +332,28 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of dubrovnik's waters aboard the elegant Diamond Seas, a 2007 mega yacht featuring spacious accommodation for 9 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-5.jpg"],
+    description:
+      "Discover the beauty of dubrovnik's waters aboard the elegant Diamond Seas, a 2007 mega yacht featuring spacious accommodation for 9 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 40673,
       perWeek: 242004.35,
       currency: "EUR",
       includes: ["Wi-Fi"],
-      excludes: ["Wi-Fi", "Stabilizers", "Heated Deck", "Laundry Service", "Tender Garage"],
+      excludes: [
+        "Wi-Fi",
+        "Stabilizers",
+        "Heated Deck",
+        "Laundry Service",
+        "Tender Garage",
+      ],
     },
     safetyFeatures: ["First Aid Kit", "Flares", "Searchlight", "Life Rafts"],
     accessibilityFeatures: [],
@@ -318,7 +381,14 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       crew: 9,
       bathrooms: 9,
     },
-    amenities: ["Sauna", "BBQ Grill", "Laundry Service", "Outdoor Shower", "Tender Garage", "Bar"],
+    amenities: [
+      "Sauna",
+      "BBQ Grill",
+      "Laundry Service",
+      "Outdoor Shower",
+      "Tender Garage",
+      "Bar",
+    ],
     entertainment: ["Onboard Cinema"],
     waterToys: ["Water Skis"],
     location: {
@@ -331,8 +401,13 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of dubrovnik's waters aboard the elegant Wave Dancer, a 2019 mega yacht featuring spacious accommodation for 8 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-3.jpg"],
+    description:
+      "Discover the beauty of dubrovnik's waters aboard the elegant Wave Dancer, a 2019 mega yacht featuring spacious accommodation for 8 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubrovnik-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 47649,
@@ -343,5 +418,5 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Life Jackets", "Emergency Beacon", "Life Rafts"],
     accessibilityFeatures: ["Handrails"],
-  }
+  },
 ];

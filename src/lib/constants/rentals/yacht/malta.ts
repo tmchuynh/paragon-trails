@@ -24,7 +24,13 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
       crew: 12,
       bathrooms: 11,
     },
-    amenities: ["Swim Platform", "Kitchen", "Sun Deck", "Indoor Lounge", "Dining Area"],
+    amenities: [
+      "Swim Platform",
+      "Kitchen",
+      "Sun Deck",
+      "Indoor Lounge",
+      "Dining Area",
+    ],
     entertainment: ["Onboard Cinema", "Game Console"],
     waterToys: ["Seabob", "Jet Ski", "Inflatable Slide"],
     location: {
@@ -37,8 +43,15 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Sovereign Waters, a stunning 82m super yacht available for charter in malta. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sovereign Waters, a stunning 82m super yacht available for charter in malta. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-sovereign-waters-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 177780,
@@ -73,7 +86,14 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
       crew: 13,
       bathrooms: 12,
     },
-    amenities: ["Sauna", "Laundry Service", "Heated Deck", "Outdoor Shower", "Kitchen", "Bar"],
+    amenities: [
+      "Sauna",
+      "Laundry Service",
+      "Heated Deck",
+      "Outdoor Shower",
+      "Kitchen",
+      "Bar",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Water Skis", "E-Foil", "Towable Tubes"],
     location: {
@@ -86,15 +106,28 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Indigo Seas in malta and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/malta-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-4.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in malta and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/malta-indigo-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 78552,
       perWeek: 467384.39999999997,
       currency: "EUR",
       includes: ["Sauna", "Laundry Service", "Heated Deck"],
-      excludes: ["Sauna", "Laundry Service", "Heated Deck", "Outdoor Shower", "Kitchen", "Bar"],
+      excludes: [
+        "Sauna",
+        "Laundry Service",
+        "Heated Deck",
+        "Outdoor Shower",
+        "Kitchen",
+        "Bar",
+      ],
     },
     safetyFeatures: ["EPIRB", "Emergency Steering", "Searchlight"],
     accessibilityFeatures: [],
@@ -135,8 +168,15 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of malta's waters aboard the elegant Serenity Now, a 2008 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-4.jpg", "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-5.jpg"],
+    description:
+      "Discover the beauty of malta's waters aboard the elegant Serenity Now, a 2008 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/malta-serenity-now-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3435,
@@ -184,8 +224,14 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Full-Service Catering"],
-    description: "Discover the beauty of malta's waters aboard the elegant Caribbean Pearl, a 2009 motor yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-4.jpg"],
+    description:
+      "Discover the beauty of malta's waters aboard the elegant Caribbean Pearl, a 2009 motor yacht featuring spacious accommodation for 9 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/malta-caribbean-pearl-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7429,
@@ -196,5 +242,5 @@ export const maltamaltamediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Searchlight", "First Aid Kit"],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -37,8 +37,14 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Discover the beauty of southampton's waters aboard the elegant Wave Dancer, a 2015 sailing yacht featuring spacious accommodation for 5 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of southampton's waters aboard the elegant Wave Dancer, a 2015 sailing yacht featuring spacious accommodation for 5 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4056,
@@ -73,7 +79,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 1,
       bathrooms: 2,
     },
-    amenities: ["BBQ Grill", "Dining Area", "Bar", "Laundry Service", "Outdoor Shower"],
+    amenities: [
+      "BBQ Grill",
+      "Dining Area",
+      "Bar",
+      "Laundry Service",
+      "Outdoor Shower",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Jet Ski", "Snorkeling Gear", "Seabob", "Wakeboard"],
     location: {
@@ -86,8 +98,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "The Adriatic Queen is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-3.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8993,
@@ -135,8 +152,15 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering", "All-Inclusive"],
-    description: "Charter the impressive Euphoria in southampton and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/southampton-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/super/southampton-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/super/southampton-euphoria-3.jpg", "https://paragon-trails-yacht-images.com/super/southampton-euphoria-4.jpg", "https://paragon-trails-yacht-images.com/super/southampton-euphoria-5.jpg"],
+    description:
+      "Charter the impressive Euphoria in southampton and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/southampton-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-euphoria-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-euphoria-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-euphoria-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 104060,
@@ -145,7 +169,12 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       includes: ["Hot Tub", "Air Conditioning"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Beacon", "Navigation Lights", "First Aid Kit"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Beacon",
+      "Navigation Lights",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Low Thresholds"],
   },
   {
@@ -171,7 +200,14 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 5,
       bathrooms: 4,
     },
-    amenities: ["Stabilizers", "Laundry Service", "Sauna", "Hot Tub", "Swim Platform", "Tender Garage"],
+    amenities: [
+      "Stabilizers",
+      "Laundry Service",
+      "Sauna",
+      "Hot Tub",
+      "Swim Platform",
+      "Tender Garage",
+    ],
     entertainment: ["Satellite TV", "Karaoke System"],
     waterToys: ["Water Skis", "Paddleboards"],
     location: {
@@ -184,8 +220,14 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Sapphire Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-4.jpg"],
+    description:
+      "Sapphire Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-sapphire-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5117,
@@ -220,7 +262,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Swim Platform", "Laundry Service", "Wi-Fi", "Hot Tub", "Sun Deck"],
+    amenities: [
+      "Swim Platform",
+      "Laundry Service",
+      "Wi-Fi",
+      "Hot Tub",
+      "Sun Deck",
+    ],
     entertainment: ["Projector", "Media Library"],
     waterToys: ["Fishing Equipment", "Snorkeling Gear"],
     location: {
@@ -233,8 +281,15 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Royal Wave combines performance and luxury in a stunning 23m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-4.jpg", "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-5.jpg"],
+    description:
+      "Royal Wave combines performance and luxury in a stunning 23m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/southampton-royal-wave-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5225,
@@ -245,5 +300,5 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "First Aid Kit", "Fire Extinguishers"],
     accessibilityFeatures: [],
-  }
+  },
 ];

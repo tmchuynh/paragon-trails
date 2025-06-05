@@ -37,8 +37,14 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard", "Full-Service Catering"],
-    description: "Adriatic Queen combines performance and luxury in a stunning 52m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-4.jpg"],
+    description:
+      "Adriatic Queen combines performance and luxury in a stunning 52m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-adriatic-queen-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 24887,
@@ -86,8 +92,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Adriatic Queen combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-5.jpg"],
+    description:
+      "Adriatic Queen combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/boston-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7050,
@@ -135,8 +148,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Royal Seas is a magnificent gulet yacht built by Perini Navi offering exceptional amenities and impeccable service for an unforgettable sailing experience in boston.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-3.jpg"],
+    description:
+      "The Royal Seas is a magnificent gulet yacht built by Perini Navi offering exceptional amenities and impeccable service for an unforgettable sailing experience in boston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/boston-royal-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4397,
@@ -145,7 +163,12 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Sauna"],
       excludes: ["Sauna", "BBQ Grill", "Dining Area", "Wi-Fi"],
     },
-    safetyFeatures: ["Emergency Radio", "Flares", "Searchlight", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Flares",
+      "Searchlight",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +194,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Indoor Lounge", "Bar", "Air Conditioning", "Heated Deck", "BBQ Grill", "Jacuzzi", "Hot Tub"],
+    amenities: [
+      "Indoor Lounge",
+      "Bar",
+      "Air Conditioning",
+      "Heated Deck",
+      "BBQ Grill",
+      "Jacuzzi",
+      "Hot Tub",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Paddleboards", "Seabob", "Towable Tubes"],
     location: {
@@ -184,8 +215,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Provisioning Only"],
-    description: "Discover the beauty of boston's waters aboard the elegant Ocean Majesty, a 2015 sailing yacht featuring spacious accommodation for 4 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-3.jpg"],
+    description:
+      "Discover the beauty of boston's waters aboard the elegant Ocean Majesty, a 2015 sailing yacht featuring spacious accommodation for 4 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4759,
@@ -220,7 +256,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Indoor Lounge", "Dining Area", "Tender Garage", "Laundry Service", "Air Conditioning"],
+    amenities: [
+      "Indoor Lounge",
+      "Dining Area",
+      "Tender Garage",
+      "Laundry Service",
+      "Air Conditioning",
+    ],
     entertainment: ["Projector", "Satellite TV", "Onboard Cinema"],
     waterToys: ["Seabob", "Towable Tubes", "Jet Ski", "Snorkeling Gear"],
     location: {
@@ -233,15 +275,26 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Provisioning Only"],
-    description: "The Ocean Majesty is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in boston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-3.jpg"],
+    description:
+      "The Ocean Majesty is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in boston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-ocean-majesty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5734,
       perWeek: 34117.299999999996,
       currency: "USD",
       includes: ["Indoor Lounge", "Dining Area", "Tender Garage"],
-      excludes: ["Indoor Lounge", "Dining Area", "Tender Garage", "Laundry Service", "Air Conditioning"],
+      excludes: [
+        "Indoor Lounge",
+        "Dining Area",
+        "Tender Garage",
+        "Laundry Service",
+        "Air Conditioning",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Radar", "Emergency Steering", "Flares"],
     accessibilityFeatures: ["Wheelchair Ramp", "Accessible Bathroom"],
@@ -269,7 +322,14 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 9,
       bathrooms: 8,
     },
-    amenities: ["Kitchen", "Sun Deck", "Air Conditioning", "Dining Area", "Bar", "Hot Tub"],
+    amenities: [
+      "Kitchen",
+      "Sun Deck",
+      "Air Conditioning",
+      "Dining Area",
+      "Bar",
+      "Hot Tub",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Paddleboards", "Seabob", "Water Skis"],
     location: {
@@ -282,15 +342,27 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "À La Carte"],
-    description: "Silver Horizon combines performance and luxury in a stunning 45m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-3.jpg"],
+    description:
+      "Silver Horizon combines performance and luxury in a stunning 45m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-silver-horizon-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 24050,
       perWeek: 143097.5,
       currency: "USD",
       includes: ["Kitchen", "Sun Deck"],
-      excludes: ["Kitchen", "Sun Deck", "Air Conditioning", "Dining Area", "Bar", "Hot Tub"],
+      excludes: [
+        "Kitchen",
+        "Sun Deck",
+        "Air Conditioning",
+        "Dining Area",
+        "Bar",
+        "Hot Tub",
+      ],
     },
     safetyFeatures: ["Flares", "First Aid Kit", "EPIRB"],
     accessibilityFeatures: [],
@@ -331,8 +403,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Experience luxury and comfort aboard the Serenity Now, a stunning 59m mega yacht available for charter in boston. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/boston-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/boston-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/boston-serenity-now-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Serenity Now, a stunning 59m mega yacht available for charter in boston. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/boston-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 25801,
@@ -341,7 +418,12 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Life Jackets", "EPIRB", "Searchlight", "Emergency Beacon"],
+    safetyFeatures: [
+      "Life Jackets",
+      "EPIRB",
+      "Searchlight",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

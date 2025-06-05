@@ -37,8 +37,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "À La Carte"],
-    description: "Discover the beauty of george-town's waters aboard the elegant Infinity Seas, a 2002 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-3.jpg"],
+    description:
+      "Discover the beauty of george-town's waters aboard the elegant Infinity Seas, a 2002 sailing yacht featuring spacious accommodation for 4 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7102,
@@ -47,7 +52,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       includes: ["Laundry Service"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Radar", "Flares", "Fire Extinguishers", "Emergency Steering", "First Aid Kit"],
+    safetyFeatures: [
+      "Radar",
+      "Flares",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +84,14 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Stabilizers", "Sun Deck", "Indoor Lounge", "Bar", "Heated Deck", "Sauna"],
+    amenities: [
+      "Stabilizers",
+      "Sun Deck",
+      "Indoor Lounge",
+      "Bar",
+      "Heated Deck",
+      "Sauna",
+    ],
     entertainment: ["Bluetooth Speakers", "Karaoke System"],
     waterToys: ["Windsurf"],
     location: {
@@ -86,8 +104,15 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "No Catering"],
-    description: "Experience luxury and comfort aboard the Caribbean Pearl, a stunning 21m gulet yacht available for charter in george-town. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-4.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Caribbean Pearl, a stunning 21m gulet yacht available for charter in george-town. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-caribbean-pearl-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7495,
@@ -96,7 +121,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Life Jackets", "Fog Horn", "Flares", "EPIRB", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Fog Horn",
+      "Flares",
+      "EPIRB",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +166,14 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Experience luxury and comfort aboard the Atlantic Breeze, a stunning 40m mega yacht available for charter in george-town. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Atlantic Breeze, a stunning 40m mega yacht available for charter in george-town. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-atlantic-breeze-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 49701,
@@ -184,8 +221,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Charter the impressive Diamond Seas in george-town and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-3.jpg"],
+    description:
+      "Charter the impressive Diamond Seas in george-town and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-diamond-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8896,
@@ -233,8 +275,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Adriatic Queen is a magnificent mega yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
-    images: ["https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-3.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent mega yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 34878,
@@ -282,8 +329,14 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of george-town's waters aboard the elegant Baltic Star, a 2008 gulet yacht featuring spacious accommodation for 11 guests overnight or 15 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-4.jpg"],
+    description:
+      "Discover the beauty of george-town's waters aboard the elegant Baltic Star, a 2008 gulet yacht featuring spacious accommodation for 11 guests overnight or 15 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/george-town-baltic-star-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7002,
@@ -294,5 +347,5 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Life Rafts", "Navigation Lights", "Fog Horn"],
     accessibilityFeatures: [],
-  }
+  },
 ];

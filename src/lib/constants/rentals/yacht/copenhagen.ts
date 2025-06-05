@@ -37,8 +37,15 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Local Cuisine Packages"],
-    description: "The Adriatic Queen is a magnificent super yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
-    images: ["https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-5.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent super yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 111756,
@@ -86,8 +93,15 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Full-Service Catering"],
-    description: "Charter the impressive Azure Dreams in copenhagen and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-5.jpg"],
+    description:
+      "Charter the impressive Azure Dreams in copenhagen and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/copenhagen-azure-dreams-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6688,
@@ -96,7 +110,12 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
       includes: ["Wi-Fi", "Tender Garage", "Heated Deck"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Radio", "EPIRB", "Emergency Steering"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Radio",
+      "EPIRB",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Handrails", "Elevator"],
   },
   {
@@ -122,9 +141,21 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
       crew: 4,
       bathrooms: 3,
     },
-    amenities: ["Outdoor Shower", "Air Conditioning", "Swim Platform", "Laundry Service", "Heated Deck"],
+    amenities: [
+      "Outdoor Shower",
+      "Air Conditioning",
+      "Swim Platform",
+      "Laundry Service",
+      "Heated Deck",
+    ],
     entertainment: ["Media Library"],
-    waterToys: ["Snorkeling Gear", "Kneeboard", "Scuba Diving Gear", "Paddleboards", "Windsurf"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Kneeboard",
+      "Scuba Diving Gear",
+      "Paddleboards",
+      "Windsurf",
+    ],
     location: {
       city: "copenhagen",
       country: "Denmark",
@@ -135,17 +166,30 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Silver Horizon is a magnificent motor yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
-    images: ["https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-5.jpg"],
+    description:
+      "The Silver Horizon is a magnificent motor yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12136,
       perWeek: 72209.2,
       currency: "EUR",
       includes: ["Outdoor Shower", "Air Conditioning", "Swim Platform"],
-      excludes: ["Outdoor Shower", "Air Conditioning", "Swim Platform", "Laundry Service", "Heated Deck"],
+      excludes: [
+        "Outdoor Shower",
+        "Air Conditioning",
+        "Swim Platform",
+        "Laundry Service",
+        "Heated Deck",
+      ],
     },
     safetyFeatures: ["Life Jackets", "Fog Horn", "First Aid Kit"],
     accessibilityFeatures: [],
-  }
+  },
 ];

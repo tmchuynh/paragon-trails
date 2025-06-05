@@ -22,8 +22,14 @@ export const cozumelmexicocaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "yokohama",
     dropOffCountry: "Japan",
     dropOffLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/indian-chieftain.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Local Riding Permit", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/indian-chieftain.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Local Riding Permit",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Downtown",
   },
@@ -48,8 +54,13 @@ export const cozumelmexicocaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "san-francisco",
     dropOffCountry: "United States",
     dropOffLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/harley-davidson-road-king.jpg",
-    requirements: ["Valid Motorcycle License", "Signed Waiver", "Insurance Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/harley-davidson-road-king.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Signed Waiver",
+      "Insurance Required",
+    ],
     availability: true,
     location: "Tourist District",
   },
@@ -71,9 +82,16 @@ export const cozumelmexicocaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "cozumel",
     pickUpCountry: "Mexico",
     pickUpLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/triumph-street-triple.jpg",
-    requirements: ["Valid Motorcycle License", "Helmet Required", "Signed Waiver", "Minimum Age 21", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/triumph-street-triple.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Helmet Required",
+      "Signed Waiver",
+      "Minimum Age 21",
+      "Experience with Manual Transmission",
+    ],
     availability: true,
     location: "Tourist District",
-  }
+  },
 ];

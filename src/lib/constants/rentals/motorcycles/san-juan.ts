@@ -22,8 +22,15 @@ export const sanJuanpuertoRicocaribbeanMotorcycles: Motorcycle[] = [
     dropOffCity: "nassau",
     dropOffCountry: "Bahamas",
     dropOffLocation: "Tourist District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/standard/royal-enfield-interceptor-650.jpg",
-    requirements: ["Valid Motorcycle License", "Minimum Age 21", "Local Riding Permit", "Helmet Required", "Experience with Manual Transmission"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/standard/royal-enfield-interceptor-650.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Minimum Age 21",
+      "Local Riding Permit",
+      "Helmet Required",
+      "Experience with Manual Transmission",
+    ],
     availability: true,
     location: "Convention Center",
   },
@@ -45,8 +52,14 @@ export const sanJuanpuertoRicocaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "san-juan",
     pickUpCountry: "Puerto Rico",
     pickUpLocation: "Airport",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/harley-davidson-electra-glide.jpg",
-    requirements: ["Local Riding Permit", "Minimum Age 21", "Helmet Required", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/harley-davidson-electra-glide.jpg",
+    requirements: [
+      "Local Riding Permit",
+      "Minimum Age 21",
+      "Helmet Required",
+      "Valid Motorcycle License",
+    ],
     availability: true,
     location: "Airport",
   },
@@ -68,9 +81,14 @@ export const sanJuanpuertoRicocaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "san-juan",
     pickUpCountry: "Puerto Rico",
     pickUpLocation: "Near Beach",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/scooter/yamaha-mt-09.jpg",
-    requirements: ["Valid Motorcycle License", "Insurance Required", "International Driving Permit (for foreign renters)"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/scooter/yamaha-mt-09.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Insurance Required",
+      "International Driving Permit (for foreign renters)",
+    ],
     availability: false,
     location: "Near Beach",
-  }
+  },
 ];

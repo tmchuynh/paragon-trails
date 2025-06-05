@@ -25,8 +25,17 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       bathrooms: 7,
     },
     amenities: ["Wi-Fi", "Swim Platform", "BBQ Grill"],
-    entertainment: ["Surround Sound System", "Karaoke System", "Streaming Services"],
-    waterToys: ["Snorkeling Gear", "Scuba Diving Gear", "Towable Tubes", "Wakeboard"],
+    entertainment: [
+      "Surround Sound System",
+      "Karaoke System",
+      "Streaming Services",
+    ],
+    waterToys: [
+      "Snorkeling Gear",
+      "Scuba Diving Gear",
+      "Towable Tubes",
+      "Wakeboard",
+    ],
     location: {
       city: "athens",
       country: "Greece",
@@ -37,8 +46,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Elite Waves, a stunning 13m catamaran yacht available for charter in athens. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Elite Waves, a stunning 13m catamaran yacht available for charter in athens. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9913,
@@ -86,8 +100,15 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "BBQ Onboard"],
-    description: "The Emerald Waters is a magnificent motor yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
-    images: ["https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-5.jpg"],
+    description:
+      "The Emerald Waters is a magnificent motor yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/athens-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10010,
@@ -96,7 +117,12 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       includes: ["Dining Area", "Wi-Fi"],
       excludes: ["Dining Area", "Wi-Fi", "Stabilizers"],
     },
-    safetyFeatures: ["Emergency Beacon", "Navigation Lights", "Searchlight", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Navigation Lights",
+      "Searchlight",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -135,8 +161,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Mermaid's Song in athens and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-3.jpg"],
+    description:
+      "Charter the impressive Mermaid's Song in athens and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 159437,
@@ -145,7 +176,12 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       includes: ["Wi-Fi", "Heated Deck"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["Searchlight", "EPIRB", "Fire Extinguishers", "Life Jackets"],
+    safetyFeatures: [
+      "Searchlight",
+      "EPIRB",
+      "Fire Extinguishers",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -171,8 +207,20 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       crew: 11,
       bathrooms: 10,
     },
-    amenities: ["Wi-Fi", "Laundry Service", "Bar", "Jacuzzi", "Stabilizers", "Heated Deck", "Outdoor Shower"],
-    entertainment: ["Board Games", "Bluetooth Speakers", "Surround Sound System"],
+    amenities: [
+      "Wi-Fi",
+      "Laundry Service",
+      "Bar",
+      "Jacuzzi",
+      "Stabilizers",
+      "Heated Deck",
+      "Outdoor Shower",
+    ],
+    entertainment: [
+      "Board Games",
+      "Bluetooth Speakers",
+      "Surround Sound System",
+    ],
     waterToys: ["Wakeboard", "Snorkeling Gear"],
     location: {
       city: "athens",
@@ -184,17 +232,32 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Pearl Harbor combines performance and luxury in a stunning 76m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-4.jpg", "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-5.jpg"],
+    description:
+      "Pearl Harbor combines performance and luxury in a stunning 76m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/athens-pearl-harbor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 143880,
       perWeek: 856086,
       currency: "EUR",
       includes: ["Wi-Fi", "Laundry Service", "Bar"],
-      excludes: ["Wi-Fi", "Laundry Service", "Bar", "Jacuzzi", "Stabilizers", "Heated Deck", "Outdoor Shower"],
+      excludes: [
+        "Wi-Fi",
+        "Laundry Service",
+        "Bar",
+        "Jacuzzi",
+        "Stabilizers",
+        "Heated Deck",
+        "Outdoor Shower",
+      ],
     },
     safetyFeatures: ["Emergency Beacon", "EPIRB", "Searchlight", "Life Rafts"],
     accessibilityFeatures: [],
-  }
+  },
 ];

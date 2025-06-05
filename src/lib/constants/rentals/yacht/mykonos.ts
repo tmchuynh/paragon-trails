@@ -37,8 +37,15 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "No Catering"],
-    description: "Adriatic Splendor combines performance and luxury in a stunning 19m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-4.jpg", "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-5.jpg"],
+    description:
+      "Adriatic Splendor combines performance and luxury in a stunning 19m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/mykonos-adriatic-splendor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5663,
@@ -47,7 +54,13 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
       includes: ["Jacuzzi"],
       excludes: ["Jacuzzi", "BBQ Grill", "Hot Tub", "Bar", "Outdoor Shower"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Radio", "GPS Tracking", "Radar", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Radio",
+      "GPS Tracking",
+      "Radar",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +86,14 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Outdoor Shower", "Sun Deck", "Hot Tub", "Sauna", "Swim Platform", "Indoor Lounge"],
+    amenities: [
+      "Outdoor Shower",
+      "Sun Deck",
+      "Hot Tub",
+      "Sauna",
+      "Swim Platform",
+      "Indoor Lounge",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Kneeboard", "Snorkeling Gear"],
     location: {
@@ -86,8 +106,15 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Aegean Beauty is a magnificent motor yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in mykonos.",
-    images: ["https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-5.jpg"],
+    description:
+      "The Aegean Beauty is a magnificent motor yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in mykonos.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/mykonos-aegean-beauty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5505,
@@ -96,7 +123,12 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Indoor Lounge"],
     },
-    safetyFeatures: ["Life Jackets", "Fire Extinguishers", "Emergency Steering", "Emergency Beacon"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +154,14 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 5,
     },
-    amenities: ["Sauna", "Tender Garage", "Swim Platform", "Indoor Lounge", "Stabilizers", "Kitchen"],
+    amenities: [
+      "Sauna",
+      "Tender Garage",
+      "Swim Platform",
+      "Indoor Lounge",
+      "Stabilizers",
+      "Kitchen",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["Snorkeling Gear", "Kneeboard"],
     location: {
@@ -135,15 +174,29 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Sea Symphony in mykonos and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-4.jpg", "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-5.jpg"],
+    description:
+      "Charter the impressive Sea Symphony in mykonos and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/mykonos-sea-symphony-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6350,
       perWeek: 37782.5,
       currency: "EUR",
       includes: ["Sauna", "Tender Garage", "Swim Platform"],
-      excludes: ["Sauna", "Tender Garage", "Swim Platform", "Indoor Lounge", "Stabilizers", "Kitchen"],
+      excludes: [
+        "Sauna",
+        "Tender Garage",
+        "Swim Platform",
+        "Indoor Lounge",
+        "Stabilizers",
+        "Kitchen",
+      ],
     },
     safetyFeatures: ["Flares", "Searchlight", "First Aid Kit"],
     accessibilityFeatures: [],
@@ -171,7 +224,15 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
       crew: 6,
       bathrooms: 8,
     },
-    amenities: ["Sauna", "Tender Garage", "Wi-Fi", "Jacuzzi", "Kitchen", "Dining Area", "Air Conditioning"],
+    amenities: [
+      "Sauna",
+      "Tender Garage",
+      "Wi-Fi",
+      "Jacuzzi",
+      "Kitchen",
+      "Dining Area",
+      "Air Conditioning",
+    ],
     entertainment: ["Media Library", "Karaoke System", "Bluetooth Speakers"],
     waterToys: ["Floating Island", "E-Foil", "Water Skis"],
     location: {
@@ -184,8 +245,15 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "No Catering"],
-    description: "Charter the impressive Poseidon's Pride in mykonos and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-4.jpg", "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-5.jpg"],
+    description:
+      "Charter the impressive Poseidon's Pride in mykonos and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/mykonos-poseidon's-pride-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 47966,
@@ -196,5 +264,5 @@ export const mykonosgreecemediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Life Jackets", "Radar", "Searchlight"],
     accessibilityFeatures: [],
-  }
+  },
 ];

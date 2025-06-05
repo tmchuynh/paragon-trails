@@ -19,8 +19,13 @@ export const fortLauderdaleunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "fort-lauderdale",
     pickUpCountry: "United States",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/dual-sport/yamaha-bolt.jpg",
-    requirements: ["Security Deposit Required", "International Driving Permit (for foreign renters)", "Valid Motorcycle License"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/dual-sport/yamaha-bolt.jpg",
+    requirements: [
+      "Security Deposit Required",
+      "International Driving Permit (for foreign renters)",
+      "Valid Motorcycle License",
+    ],
     availability: false,
     location: "Marina",
   },
@@ -42,8 +47,14 @@ export const fortLauderdaleunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "fort-lauderdale",
     pickUpCountry: "United States",
     pickUpLocation: "Marina",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/aprilia-sx-125.jpg",
-    requirements: ["Valid Motorcycle License", "Security Deposit Required", "Credit Card Required", "Helmet Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/aprilia-sx-125.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Security Deposit Required",
+      "Credit Card Required",
+      "Helmet Required",
+    ],
     availability: true,
     location: "Marina",
   },
@@ -65,7 +76,8 @@ export const fortLauderdaleunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "fort-lauderdale",
     pickUpCountry: "United States",
     pickUpLocation: "Transit Hub",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/sport/indian-roadmaster.jpg",
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/sport/indian-roadmaster.jpg",
     requirements: ["Security Deposit Required", "Valid Motorcycle License"],
     availability: false,
     location: "Transit Hub",
@@ -88,9 +100,15 @@ export const fortLauderdaleunitedStatescaribbeanMotorcycles: Motorcycle[] = [
     pickUpCity: "fort-lauderdale",
     pickUpCountry: "United States",
     pickUpLocation: "Entertainment District",
-    imageUrl: "https://paragon-trails-motorcycle-images.com/touring/royal-enfield-continental-gt.jpg",
-    requirements: ["Valid Motorcycle License", "Two-Wheel Experience", "Experience with Manual Transmission", "Helmet Required"],
+    imageUrl:
+      "https://paragon-trails-motorcycle-images.com/touring/royal-enfield-continental-gt.jpg",
+    requirements: [
+      "Valid Motorcycle License",
+      "Two-Wheel Experience",
+      "Experience with Manual Transmission",
+      "Helmet Required",
+    ],
     availability: true,
     location: "Entertainment District",
-  }
+  },
 ];
