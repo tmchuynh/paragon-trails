@@ -41,10 +41,8 @@ import {
 } from "./utils/format-utils.mjs";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
-import {
-  attractionBasicInfo,
-  attractionDetails,
-} from "./utils/attraction-utils.mjs";
+import { attractionBasicInfo } from "./utils/attraction-basic-utils.mjs";
+import { attractionDetails } from "./utils/attraction-details-utils.mjs";
 
 const readdir = promisify(fs.readdir);
 const writeFile = promisify(fs.writeFile);
@@ -120,14 +118,25 @@ function getCityAttractionData(cityName) {
 
 // Function to convert attraction data to the expected format
 function convertAttractionData(cityName, attractionName) {
-  const normalizedName = normalizeCityName(cityName);
-  const basicInfo = attractionBasicInfo[normalizedName]?.[attractionName];
-  const details = attractionDetails[normalizedName]?.[attractionName];
+  const basicInfo = attractionBasicInfo[cityName]?.[attractionName];
+  if (cityName === "seattle") {
+    // Special case for Seattle to handle different naming convention
+    cityName = "seattle-city";
+  }
+  const details = attractionDetails[cityName]?.[attractionName];
 
-  if (!basicInfo || !details) {
+  if (!basicInfo) {
     console.warn(
-      `Missing detailed data for ${attractionName} in ${formatCamelCaseToTitle(cityName)}`
+      `Missing basic information data for ${attractionName} in ${cityName}`
     );
+    console.warn(
+      `Looking for...${attractionBasicInfo[cityName]?.[attractionName].title} `
+    );
+    return null;
+  }
+
+  if (!details) {
+    console.warn(`Missing detailed data for ${attractionName} in ${cityName}`);
     return null;
   }
 
@@ -138,7 +147,7 @@ function convertAttractionData(cityName, attractionName) {
     description: details.description,
     imageUrl: basicInfo.imageUrl,
     location: basicInfo.location,
-    openingHours: details.openingHours,
+    openingHours: details.openingHoursDetailed || "9:00 AM - 5:00 PM",
     entryFee: details.entryFee || "Free",
     entryFeeCategory: details.entryFeeCategory,
     priceRange: details.priceRange,
