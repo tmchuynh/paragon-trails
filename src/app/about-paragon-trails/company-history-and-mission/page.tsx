@@ -7,7 +7,7 @@ export default function CompanyHistoryAndMission() {
       </header>
 
       <section>
-        <h2 className="mb-4 font-bold text-2xl">Our Story</h2>
+        <h2>Our Story</h2>
         <p>
           In 1994, Paragon Trails was founded with a vision far beyond
           conventional travel. At a time when luxury meant extravagance and
@@ -17,7 +17,7 @@ export default function CompanyHistoryAndMission() {
         <p className="mb-4 text-lg italic">
           What if luxury could be redefined—not by excess, but by intention?
         </p>
-        <p className="text-lg">
+        <p>
           Our founder, Catherine Elwood, a former private travel consultant for
           diplomatic families and global executives, envisioned a new caliber of
           travel—one that was deeply personal, quietly elegant, and profoundly
@@ -28,7 +28,7 @@ export default function CompanyHistoryAndMission() {
       </section>
 
       <section>
-        <h2 className="mb-6 font-bold text-2xl">Timeline of Excellence</h2>
+        <h2>Timeline of Excellence</h2>
         <div className="space-y-6">
           {[
             {
@@ -82,18 +82,19 @@ export default function CompanyHistoryAndMission() {
               desc: "Introduced our private membership tier, offering 24/7 concierge, first-access to rare experiences, and personalized travel journals crafted for each journey.",
             },
           ].map((item, index) => (
-            <div key={index} className="pl-4 border-border border-l-4">
-              <h3 className="font-semibold text-xl">
-                {item.year} – {item.title}
-              </h3>
-              <p>{item.desc}</p>
+            <div key={index} className="flex gap-6">
+              <h1>{item.year}</h1>
+              <div>
+                <h3 className="mb-2 font-semibold text-xl">{item.title}</h3>
+                <p>{item.desc}</p>
+              </div>
             </div>
           ))}
         </div>
       </section>
 
       <section>
-        <h2 className="mb-4 font-bold text-2xl">Our Awards & Recognition</h2>
+        <h2>Our Awards & Recognition</h2>
         <ul className="space-y-2 pl-5 list-disc">
           <li>Condé Nast Gold Circle Award – 2008, 2011, 2017</li>
           <li>
@@ -110,22 +111,26 @@ export default function CompanyHistoryAndMission() {
       </section>
 
       <section>
-        <h2 className="mb-4 font-bold text-2xl">Our Mission</h2>
-        <p>At Paragon Trails, our mission is simple yet powerful:</p>
-        <p className="mb-4 font-medium text-lg italic">
-          "To craft journeys that awaken the senses, deepen human connection,
-          and uphold an uncompromising standard of quiet luxury—tailored
-          entirely to the individual."
-        </p>
-        <p className="text-lg">
+        <h2>Our Mission</h2>
+        <blockquote className="mx-0 mb-4 pl-4 border-gray-300 border-l-4 text-xl italic">
+          To craft journeys that awaken the senses, deepen human connection, and
+          uphold an uncompromising standard of quiet luxury—tailored entirely to
+          the individual.
+        </blockquote>
+
+        <p>
           Our work is driven by a belief that travel is not a commodity. It is a
           canvas. And our responsibility is to help you paint it with clarity,
-          ease, and meaning.
+          ease, and meaning.{" "}
+          <span className="italic">
+            We are not just travel designers; we are your partners in discovery,
+            transformation, and joy.
+          </span>
         </p>
       </section>
 
       <section>
-        <h2 className="mb-6 font-bold text-2xl">Our Core Commitments</h2>
+        <h2>Our Core Commitments</h2>
         <div className="gap-6 grid md:grid-cols-2">
           {[
             {
@@ -161,7 +166,7 @@ export default function CompanyHistoryAndMission() {
       </section>
 
       <section>
-        <h2 className="mb-4 font-bold text-2xl">Looking Forward</h2>
+        <h2>Looking Forward</h2>
         <p>
           As we step into our fourth decade, Paragon Trails remains anchored by
           the values that shaped us—intentionality, discretion, beauty, and
@@ -172,7 +177,7 @@ export default function CompanyHistoryAndMission() {
           tools to deliver an even more fluid, secure, and emotionally resonant
           travel experience.
         </p>
-        <p className="text-lg">
+        <p>
           Because for us, travel is not about the itinerary. It's about you—the
           person you become through movement, immersion, and stillness.
         </p>
