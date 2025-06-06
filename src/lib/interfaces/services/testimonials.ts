@@ -4,6 +4,6 @@ export interface Testimonial {
   author: string;
   title: string;
   city?: string; // Optional city where the testimonial is from
-  rating?: number; // Optional rating given by the author
+  rating: number; // Optional rating given by the author
   date?: string; // Optional date of the testimonial
 }
