@@ -24,10 +24,10 @@
  *   --city C, -c C      Process only cities matching the search term
  *
  * Examples:
- *   node generate-city-cars.mjs --rewrite
- *   node generate-city-cars.mjs --append 5
- *   node generate-city-cars.mjs --type "Convertible"
- *   node generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
+ *   node scripts/generate-city-cars.mjs --rewrite
+ *   node scripts/generate-city-cars.mjs --append 5
+ *   node scripts/generate-city-cars.mjs --type "Convertible"
+ *   node scripts/generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
  */
 
 import * as fs from "fs";
@@ -852,7 +852,7 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-city-cars.mjs [options]
+Usage: node scripts/generate-city-cars.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -861,8 +861,8 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-city-cars.mjs --rewrite
-  node generate-city-cars.mjs --append 5
-  node generate-city-cars.mjs --type "Convertible"
-  node generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
+  node scripts/generate-city-cars.mjs --rewrite
+  node scripts/generate-city-cars.mjs --append 5
+  node scripts/generate-city-cars.mjs --type "Convertible"
+  node scripts/generate-city-cars.mjs --city "Monaco" --append 3 --type "Sports Car"
 `);
