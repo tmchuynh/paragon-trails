@@ -439,7 +439,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   console.log(`Generated file for ${citySlug} (${region}, ${country})`);
 }
 
-function generateAttractions(city, index) {
+function generateAttractions(city, cityIndex) {
   const result = {};
   let cityCount = 0;
   let attractionCount = 0;
@@ -452,6 +452,7 @@ function generateAttractions(city, index) {
   result[city] = {};
   cityCount++;
 
+  let attractionIndex = 0; // Add counter for attractions within a city
   for (const attractionName in attractionBasicInfo[city]) {
     const basicInfo = attractionBasicInfo[city][attractionName];
     const detailInfo = attractionDetails[city]?.[attractionName] || {};
@@ -463,7 +464,9 @@ function generateAttractions(city, index) {
 
     attractionCount++;
 
-    const id = `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
+    // Use both cityIndex and attractionIndex for unique IDs that can be referenced by tours
+    const id = `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${cityIndex + 1}-${attractionIndex + 1}`;
+    attractionIndex++; // Increment attraction index
 
     // Parse opening hours with improved function
     let openingHours;
@@ -554,8 +557,8 @@ function generateAttractions(city, index) {
 }
 
 // Execute the script
+let globalIndex = 0; // Move index declaration outside the loop
 for (const city in attractionBasicInfo) {
-  let index = 0;
-  generateAttractions(city, index);
-  index++;
+  generateAttractions(city, globalIndex);
+  globalIndex++; // Increment only after processing each city
 }
