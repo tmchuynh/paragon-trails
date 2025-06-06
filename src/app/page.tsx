@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cities } from "@/lib/constants/info/city";
-import { generalTestimonials } from "@/lib/constants/services/testimonials/generalTestimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -13,7 +12,7 @@ export default function HomePage() {
   const sortedDestinations = groupAndSortByProperties(
     cities,
     "isPopular",
-    "city",
+    "city"
   );
 
   const trailFeatures = [
@@ -92,9 +91,9 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="my-7">
-        <header className="text-center">
+        <header className="text-start">
           <h2>Why Choose Paragon Trails</h2>
-          <h5>
+          <h5 className="text-start">
             We combine expert knowledge with passion for nature to create
             unforgettable experiences.
           </h5>
@@ -117,9 +116,11 @@ export default function HomePage() {
       {/* Popular Trails Section */}
       <section>
         <div>
-          <div className="mb-16 text-center">
-            <h2>Popular Trails</h2>
-            <p>Discover our most beloved destinations.</p>
+          <div className="mb-16">
+            <header>
+              <h2>Popular Tours</h2>
+              <p>Discover our most beloved destinations.</p>
+            </header>
 
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {sortedDestinations.map((trail, index) => (
@@ -128,13 +129,13 @@ export default function HomePage() {
                   className="shadow-lg hover:shadow-xl p-6 rounded-lg transition-shadow"
                 >
                   <CardContent>
-                    <h3 className="font-semibold text-xl">{trail.city}</h3>
-                    <p className="text-muted-foreground text-sm">
-                      {trail.state}, {trail.country}
-                    </p>
+                    <h3 className="font-semibold text-xl">
+                      {trail.city}, {trail.country}
+                    </h3>
+                    <p className="text-muted-foreground text-sm"></p>
                     <p className="mt-2">{trail.subtitle}</p>
                     {trail.quote && (
-                      <blockquote className="mt-4 italic">
+                      <blockquote className="mt-4 p-0">
                         "{trail.quote}"
                       </blockquote>
                     )}
@@ -146,31 +147,6 @@ export default function HomePage() {
 
           <div className="flex justify-center mt-12">
             <Button>Explore All Trails</Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section>
-        <div>
-          <div className="mb-16 text-center">
-            <h2>What Adventurers Say</h2>
-            <p>Stories from fellow trail enthusiasts.</p>
-          </div>
-
-          <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
-            {generalTestimonials.map((testimonial, index) => (
-              <div key={index} className="shadow-lg p-6 rounded-lg">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="rounded-full w-12 h-12"></div>
-                  <div>
-                    <p className="font-semibold">{testimonial.author}</p>
-                    <p className="text-sm">{testimonial.title}</p>
-                  </div>
-                </div>
-                <blockquote>"{testimonial.quote}"</blockquote>
-              </div>
-            ))}
           </div>
         </div>
       </section>
