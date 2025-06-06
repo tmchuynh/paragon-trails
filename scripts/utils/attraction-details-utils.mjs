@@ -3,7 +3,36 @@ export const attractionDetails = {
   amsterdam: {
     Rijksmuseum: {
       description: "National museum showcasing Dutch art and history.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "09:00", to: "17:00" }],
+        },
+      ],
       entryFee: "€20",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -28,40 +57,39 @@ export const attractionDetails = {
         },
       ],
       features: ["museum", "art", "Dutch history", "guided tours"],
-      openingHoursDetailed: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-      ],
     },
     "Anne Frank House": {
       description: "Museum dedicated to the Jewish wartime diarist Anne Frank.",
-      openingHours: "9:00 AM - 7:00 PM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+      ],
       entryFee: "€12.50",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -86,41 +114,40 @@ export const attractionDetails = {
         },
       ],
       features: ["museum", "WWII history", "education"],
-      openingHoursDetailed: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-      ],
     },
     Vondelpark: {
       description:
         "Popular park offering open green spaces and outdoor activities.",
-      openingHours: "Open 24 hours",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "00:00", to: "23:59" }],
+        },
+      ],
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -130,44 +157,42 @@ export const attractionDetails = {
       isFree: true,
       isPetFriendly: true,
       isPopular: true,
-      entryFees: [],
       features: ["park", "walking", "outdoor", "cycling", "picnic"],
-      openingHoursDetailed: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
     },
   },
   london: {
     "Tower of London": {
       description: "Historic castle and former royal palace with deep history.",
-      openingHours: "9:00 AM - 5:30 PM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "09:00", to: "17:30" }],
+        },
+      ],
       entryFee: "£29.90",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -179,10 +204,53 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "£29.90",
+          priceCategory: "moderate",
+        },
+      ],
+      features: [
+        "historical site",
+        "castle",
+        "fortress",
+        "guided tours",
+        "crown jewels",
+      ],
     },
     "British Museum": {
       description: "World-famous museum with vast historical collections.",
-      openingHours: "10:00 AM - 5:30 PM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "10:00", to: "17:30" }],
+        },
+      ],
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -192,11 +260,47 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "museum",
+        "historical artifacts",
+        "exhibitions",
+        "world history",
+      ],
     },
     "Hyde Park": {
       description:
         "Expansive green space in London, great for walking and events.",
-      openingHours: "5:00 AM - 12:00 AM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "05:00", to: "00:00" }],
+        },
+      ],
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -206,6 +310,8 @@ export const attractionDetails = {
       isFree: true,
       isPetFriendly: true,
       isPopular: true,
+      entryFees: [],
+      features: ["park", "walking", "lake", "outdoor activities", "events"],
     },
   },
   "new-york-city": {
@@ -222,6 +328,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible ferry and pedestal"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$23.50",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$12",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["monument", "historical site", "guided tours"],
     },
     "Central Park": {
       description:
@@ -237,6 +356,8 @@ export const attractionDetails = {
       isPetFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["park", "walking", "outdoor", "cycling", "picnic"],
     },
     "Metropolitan Museum of Art": {
       description: "World-renowned museum with extensive art collections.",
@@ -252,6 +373,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances and elevators"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$30",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "$15",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "art", "cultural history", "guided tours"],
     },
   },
   paris: {
@@ -269,6 +403,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible elevator"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€25",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€12.50",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["landmark", "observation deck", "guided tours"],
     },
     "Louvre Museum": {
       description: "Largest art museum in the world, home to the Mona Lisa.",
@@ -284,6 +431,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€17",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "€8.50",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "art", "cultural history", "guided tours"],
     },
     Montmartre: {
       description:
@@ -299,6 +459,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["historic district", "artistic heritage", "scenic views"],
     },
   },
   "rio-de-janeiro": {
@@ -317,6 +479,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible paths and elevators"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "R$24",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "R$12",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["statue", "landmark", "religious site", "viewpoint"],
     },
     "Copacabana Beach": {
       description: "Famous beach with vibrant atmosphere and stunning views.",
@@ -329,6 +504,8 @@ export const attractionDetails = {
       isAdventure: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["beach", "sunbathing", "swimming", "water sports"],
     },
     "Sugarloaf Mountain": {
       description:
@@ -343,6 +520,19 @@ export const attractionDetails = {
       isAdventure: true,
       isRomantic: true,
       isPopular: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "R$20",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "R$10",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["mountain", "viewpoint", "cable car", "hiking"],
     },
   },
   sydney: {
@@ -361,6 +551,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances and seating"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "AUD 42",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "AUD 20",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["performing arts", "architecture", "guided tours"],
     },
     "Bondi Beach": {
       description: "Popular beach known for surfing and coastal walks.",
@@ -373,6 +576,8 @@ export const attractionDetails = {
       isAdventure: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["beach", "surfing", "walking", "outdoor"],
     },
     "Taronga Zoo": {
       description: "Large zoo featuring native and exotic animals.",
@@ -387,6 +592,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible pathways"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "AUD 47",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "AUD 24",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["zoo", "wildlife", "family-friendly", "guided tours"],
     },
   },
   tokyo: {
@@ -403,6 +621,8 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["temple", "historical site", "shopping street"],
     },
     "Tokyo Tower": {
       description:
@@ -418,6 +638,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible elevator"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "¥1200",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "¥600",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["observation tower", "city views", "landmark"],
     },
     "Shinjuku Gyoen National Garden": {
       description:
@@ -434,6 +667,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible paths"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "¥500",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "¥250",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["garden", "nature", "walking trails", "picnic"],
     },
     "Shibuya Crossing": {
       description:
@@ -448,6 +694,8 @@ export const attractionDetails = {
       isFree: true,
       isScenic: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["intersection", "neon lights", "shopping", "entertainment"],
     },
   },
   "st-thomas": {
@@ -466,6 +714,19 @@ export const attractionDetails = {
       isPopular: true,
       isFamilyFriendly: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$2.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["beach", "swimming", "snorkeling", "sunbathing"],
     },
     "Blackbeard's Castle": {
       description:
@@ -481,6 +742,19 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["historical site", "watchtower", "panoramic views"],
     },
     "Coral World Ocean Park": {
       description:
@@ -496,6 +770,19 @@ export const attractionDetails = {
       isFamilyFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$24",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$12",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["marine park", "aquarium", "educational exhibits"],
     },
   },
   "san-juan": {
@@ -513,6 +800,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic district", "colonial architecture", "scenic views"],
     },
     "Castillo San Felipe del Morro": {
       description:
@@ -528,6 +817,19 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$10",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+      ],
+      features: ["fortress", "historical site", "ocean views"],
     },
     "Condado Beach": {
       description:
@@ -543,6 +845,8 @@ export const attractionDetails = {
       isPopular: true,
       isFamilyFriendly: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["beach", "sunbathing", "swimming", "water sports"],
     },
   },
   "quebec-city": {
@@ -560,6 +864,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic district", "cobblestone streets", "scenic views"],
     },
     "Château Frontenac": {
       description:
@@ -575,6 +881,19 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$20 (tour)",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$10 (tour)",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["historic hotel", "panoramic views", "guided tours"],
     },
     "Montmorency Falls": {
       description:
@@ -591,6 +910,19 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$7.39",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$3.70",
+          priceCategory: "low",
+        },
+      ],
+      features: ["waterfall", "suspension bridge", "cable car"],
     },
   },
   "los-angeles": {
@@ -607,6 +939,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["sidewalk", "celebrity stars", "entertainment history"],
     },
     "Griffith Observatory": {
       description:
@@ -622,6 +956,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["observatory", "telescope", "Hollywood Sign views"],
     },
     "Santa Monica Pier": {
       description:
@@ -637,6 +973,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["pier", "amusement park", "aquarium", "restaurants"],
     },
   },
   "hong-kong": {
@@ -653,6 +991,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["peak", "observation deck", "city views"],
     },
     "Tsim Sha Tsui Promenade": {
       description:
@@ -668,6 +1008,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["promenade", "waterfront", "city skyline views"],
     },
     "Hong Kong Disneyland": {
       description:
@@ -683,6 +1025,19 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$82 USD",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "$41 USD",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["theme park", "Disney rides", "entertainment"],
     },
   },
   "glacier-bay": {
@@ -701,6 +1056,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["national park", "glaciers", "wildlife", "fjords"],
     },
     "Johns Hopkins Glacier": {
       description:
@@ -716,6 +1073,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["glacier", "blue ice", "calving displays"],
     },
     "Muir Glacier": {
       description:
@@ -731,6 +1090,8 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["glacier", "eco-tours", "scenic landmark"],
     },
   },
   "george-town": {
@@ -748,6 +1109,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["beach", "snorkeling", "swimming", "sunbathing"],
     },
     "Stingray City": {
       description:
@@ -763,6 +1126,8 @@ export const attractionDetails = {
       isWildlife: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["snorkeling", "wildlife interaction", "tours"],
     },
     "Cayman Islands National Museum": {
       description:
@@ -778,6 +1143,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$10",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+      ],
+      features: ["museum", "cultural heritage", "historical exhibits"],
     },
   },
   "fort-lauderdale": {
@@ -795,6 +1173,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["beach", "watersports", "promenade", "sunbathing"],
     },
     "Las Olas Boulevard": {
       description:
@@ -810,6 +1190,8 @@ export const attractionDetails = {
       isDining: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["shopping", "dining", "art galleries", "nightlife"],
     },
     "Bonnet House Museum & Gardens": {
       description:
@@ -826,6 +1208,19 @@ export const attractionDetails = {
       isNature: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$20",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$10",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["historic estate", "art collections", "gardens"],
     },
   },
   "st-petersburg": {
@@ -843,6 +1238,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$12",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$6",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "art", "cultural artifacts"],
     },
     "Church of the Savior on Spilled Blood": {
       description:
@@ -859,6 +1267,19 @@ export const attractionDetails = {
       isPopular: true,
       isScenic: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$8",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$4",
+          priceCategory: "low",
+        },
+      ],
+      features: ["church", "mosaics", "scenic views"],
     },
     "Peterhof Palace": {
       description:
@@ -874,6 +1295,19 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["palace", "gardens", "fountains", "gold accents"],
     },
   },
   "buenos-aires": {
@@ -890,6 +1324,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic square", "government buildings", "cultural events"],
     },
     "La Boca": {
       description:
@@ -904,6 +1340,8 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["neighborhood", "street art", "tango", "Caminito street"],
     },
     "Recoleta Cemetery": {
       description:
@@ -919,6 +1357,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["cemetery", "mausoleums", "historical site"],
     },
   },
   venice: {
@@ -937,6 +1377,19 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€20",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€10",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["historical site", "museum", "guided tours"],
     },
     "Grand Canal": {
       description:
@@ -951,6 +1404,8 @@ export const attractionDetails = {
       isAdventure: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["canal", "gondola rides", "scenic views"],
     },
     "St. Mark's Basilica": {
       description:
@@ -967,6 +1422,19 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€5",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "€2.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["basilica", "Byzantine architecture", "golden mosaics"],
     },
   },
   // New cities expanded below
@@ -985,6 +1453,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: false,
       accessibilityFeatures: ["limited wheelchair access"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "฿500",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "฿250",
+          priceCategory: "low",
+        },
+      ],
+      features: ["palace", "historical site", "guided tours"],
     },
     "Wat Arun": {
       description:
@@ -1000,6 +1481,19 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "฿100",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "฿50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["temple", "riverside views", "guided tours"],
     },
     "Chatuchak Market": {
       description: "Vast weekend market with diverse shopping and food stalls.",
@@ -1012,6 +1506,8 @@ export const attractionDetails = {
       isAdventure: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["market", "shopping", "food stalls", "weekend market"],
     },
   },
   dubai: {
@@ -1030,6 +1526,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible elevators and ramps"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "AED 149",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "AED 75",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["skyscraper", "observation deck", "fine dining"],
     },
     "Dubai Mall": {
       description:
@@ -1044,6 +1553,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["shopping mall", "entertainment", "dining"],
     },
     "Dubai Fountain": {
       description: "Famous choreographed fountain show at Dubai Mall.",
@@ -1057,6 +1568,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["fountain show", "choreographed lights", "music"],
     },
     "Palm Jumeirah": {
       description:
@@ -1071,6 +1584,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["man-made island", "luxury resorts", "entertainment"],
     },
   },
   "san-francisco": {
@@ -1086,6 +1601,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["bridge", "scenic views", "walkways"],
     },
     "Alcatraz Island": {
       description:
@@ -1101,6 +1618,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["island", "former prison", "guided tours"],
     },
     "Fisherman's Wharf": {
       description:
@@ -1115,6 +1634,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["tourist area", "shops", "seafood", "waterfront views"],
     },
   },
   dubrovnik: {
@@ -1132,6 +1653,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["city walls", "panoramic views", "historical site"],
     },
     "Fort Lovrijenac": {
       description:
@@ -1147,6 +1670,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["fortress", "historical site", "ocean views"],
     },
     Stradun: {
       description:
@@ -1161,6 +1686,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["pedestrian street", "shops", "cafes", "historic buildings"],
     },
     "Rector's Palace": {
       description:
@@ -1176,6 +1703,12 @@ export const attractionDetails = {
       isArchitectural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: [
+        "historical site",
+        "Gothic architecture",
+        "Renaissance architecture",
+      ],
     },
     "Banje Beach": {
       description:
@@ -1191,6 +1724,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["beach", "pebble beach", "scenic views"],
     },
   },
   cartagena: {
@@ -1207,6 +1742,12 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: [
+        "historic district",
+        "colonial architecture",
+        "cobblestone streets",
+      ],
     },
     "Castillo San Felipe de Barajas": {
       description:
@@ -1222,6 +1763,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["fortress", "historical site", "panoramic views"],
     },
     "Plaza Santo Domingo": {
       description:
@@ -1236,6 +1779,8 @@ export const attractionDetails = {
       isDining: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["plaza", "cafes", "sculpture", "lively atmosphere"],
     },
   },
   rome: {
@@ -1253,6 +1798,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€16",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€8",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["amphitheater", "gladiatorial contests", "guided tours"],
     },
     "Vatican Museums": {
       description:
@@ -1270,6 +1828,19 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€17",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€8.50",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museums", "art", "history", "guided tours"],
     },
     "Trevi Fountain": {
       description:
@@ -1284,13 +1855,44 @@ export const attractionDetails = {
       isRomantic: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["fountain", "Baroque architecture", "coin tossing tradition"],
     },
   },
   athens: {
     Acropolis: {
       description:
         "Ancient citadel containing the Parthenon and other iconic Greek ruins.",
-      openingHours: "8:00 AM - 7:00 PM (Summer), 8:00 AM - 5:00 PM (Winter)",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+      ],
       entryFee: "€20",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -1301,11 +1903,53 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€20",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€10",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["ancient ruins", "historical site", "guided tours"],
     },
     Parthenon: {
       description:
         "Iconic ancient Greek temple dedicated to the goddess Athena.",
-      openingHours: "8:00 AM - 7:00 PM",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "08:00", to: "19:00" }],
+        },
+      ],
       entryFee: "Included with Acropolis ticket",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -1316,6 +1960,8 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["ancient temple", "historical site", "guided tours"],
     },
     "Plaka District": {
       description:
@@ -1329,6 +1975,8 @@ export const attractionDetails = {
       isHistorical: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["historic neighborhood", "shopping", "dining"],
     },
   },
   barcelona: {
@@ -1347,6 +1995,19 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€26-€38",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "€13-€19",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["basilica", "Gaudí architecture", "guided tours"],
     },
     "Park Güell": {
       description:
@@ -1363,6 +2024,19 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€10",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "€5",
+          priceCategory: "low",
+        },
+      ],
+      features: ["park", "Gaudí architecture", "gardens", "city views"],
     },
     "La Rambla": {
       description:
@@ -1376,6 +2050,13 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "pedestrian street",
+        "shopping",
+        "dining",
+        "street performers",
+      ],
     },
   },
   // Add missing cities
@@ -1398,6 +2079,19 @@ export const attractionDetails = {
         "elevator access",
         "wheelchair accessible viewing platforms",
       ],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "NZD 32",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "NZD 16",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["observation tower", "panoramic views", "Auckland skyline"],
     },
     "Auckland War Memorial Museum": {
       description:
@@ -1414,6 +2108,19 @@ export const attractionDetails = {
       isCultural: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances", "elevators"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "NZD 25 (suggested donation)",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "NZD 12.50",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "cultural history", "military history"],
     },
     "Mount Eden": {
       description:
@@ -1428,6 +2135,8 @@ export const attractionDetails = {
       isOutdoor: true,
       isFree: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["volcano", "panoramic views", "hiking"],
     },
   },
   bali: {
@@ -1445,6 +2154,19 @@ export const attractionDetails = {
       isHistorical: true,
       isScenic: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "IDR 50,000",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "IDR 25,000",
+          priceCategory: "low",
+        },
+      ],
+      features: ["sea temple", "cliff views", "sunset views"],
     },
     "Tegallalang Rice Terraces": {
       description:
@@ -1460,6 +2182,19 @@ export const attractionDetails = {
       isAdventure: true,
       isCultural: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "IDR 10,000",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "IDR 5,000",
+          priceCategory: "low",
+        },
+      ],
+      features: ["rice terraces", "agriculture", "scenic views"],
     },
     "Ubud Monkey Forest": {
       description:
@@ -1475,6 +2210,19 @@ export const attractionDetails = {
       isNature: true,
       isFamily: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "IDR 80,000",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "IDR 40,000",
+          priceCategory: "low",
+        },
+      ],
+      features: ["monkey sanctuary", "nature", "ancient temples"],
     },
   },
   berlin: {
@@ -1492,6 +2240,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["level ground", "paved access"],
+      entryFees: [],
+      features: ["monument", "neoclassical architecture", "historical site"],
     },
     "Reichstag Building": {
       description:
@@ -1507,6 +2257,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["elevators", "accessible entrances"],
+      entryFees: [],
+      features: ["government building", "glass dome", "city views"],
     },
     "Berlin Cathedral": {
       description:
@@ -1522,6 +2274,8 @@ export const attractionDetails = {
       isSpiritual: true,
       isArchitecture: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["cathedral", "baroque architecture", "dome"],
     },
   },
   boston: {
@@ -1539,6 +2293,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["walking trail", "historical sites", "self-guided tour"],
     },
     "Fenway Park": {
       description:
@@ -1558,6 +2314,8 @@ export const attractionDetails = {
         "wheelchair seating areas",
         "accessible entrances",
       ],
+      entryFees: [],
+      features: ["baseball park", "sports history", "tours"],
     },
     "Boston Common": {
       description:
@@ -1574,6 +2332,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["paved pathways", "accessible entrances"],
+      entryFees: [],
+      features: ["public park", "monuments", "fountains", "historic sites"],
     },
   },
   istanbul: {
@@ -1591,6 +2351,19 @@ export const attractionDetails = {
       isSpiritual: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "₺200",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "₺100",
+          priceCategory: "low",
+        },
+      ],
+      features: ["museum", "Byzantine architecture", "guided tours"],
     },
     "Topkapi Palace": {
       description:
@@ -1606,6 +2379,19 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "₺200",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "₺100",
+          priceCategory: "low",
+        },
+      ],
+      features: ["palace", "gardens", "Ottoman architecture"],
     },
     "Grand Bazaar": {
       description:
@@ -1619,6 +2405,8 @@ export const attractionDetails = {
       isAdventure: true,
       isFree: true,
       isPopular: true,
+      entryFees: [],
+      features: ["bazaar", "shopping", "cultural experience"],
     },
   },
   "cape-town": {
@@ -1636,6 +2424,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["mountain", "hiking", "scenic views"],
     },
     "Robben Island": {
       description:
@@ -1651,6 +2441,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["island", "prison museum", "historical site"],
     },
     "Cape of Good Hope": {
       description:
@@ -1665,6 +2457,8 @@ export const attractionDetails = {
       isAdventure: true,
       isScenic: true,
       isPopular: true,
+      entryFees: [],
+      features: ["cape", "coastal views", "nature reserve"],
     },
     "V&A Waterfront": {
       description:
@@ -1680,6 +2474,8 @@ export const attractionDetails = {
       isFamilyFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["harbor", "shopping", "dining", "entertainment"],
     },
   },
   bermuda: {
@@ -1696,6 +2492,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["beach", "snorkeling", "swimming", "sunbathing"],
     },
     "Crystal & Fantasy Caves": {
       description:
@@ -1710,6 +2508,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["caves", "stalactites", "stalagmites", "guided tours"],
     },
     "Royal Naval Dockyard": {
       description:
@@ -1724,6 +2524,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["naval history", "museums", "shopping", "dining"],
     },
   },
   charleston: {
@@ -1740,6 +2542,12 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "historic district",
+        "cobblestone streets",
+        "antebellum architecture",
+      ],
     },
     "Fort Sumter National Monument": {
       description:
@@ -1754,6 +2562,8 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic site", "Civil War history", "guided tours"],
     },
     "The Battery": {
       description:
@@ -1768,6 +2578,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["promenade", "waterfront", "historic mansions"],
     },
   },
   copenhagen: {
@@ -1783,6 +2595,8 @@ export const attractionDetails = {
       rating: 4.5,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["amusement park", "gardens", "live entertainment"],
     },
     Nyhavn: {
       description:
@@ -1797,6 +2611,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["waterfront", "colorful buildings", "restaurants"],
     },
     "The Little Mermaid": {
       description:
@@ -1810,6 +2626,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["statue", "fairy tale", "waterfront"],
     },
   },
   dublin: {
@@ -1826,6 +2644,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€14",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€7",
+          priceCategory: "low",
+        },
+      ],
+      features: ["university", "illuminated manuscript", "guided tours"],
     },
     "Guinness Storehouse": {
       description:
@@ -1839,6 +2670,19 @@ export const attractionDetails = {
       rating: 4.5,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€25",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "€12.50",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "interactive exhibits", "tasting experiences"],
     },
     "Dublin Castle": {
       description:
@@ -1853,6 +2697,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€8",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€4",
+          priceCategory: "low",
+        },
+      ],
+      features: ["castle", "historical site", "guided tours"],
     },
   },
   florence: {
@@ -1869,6 +2726,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€18",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€9",
+          priceCategory: "low",
+        },
+      ],
+      features: ["cathedral", "Brunelleschi's dome", "frescoes"],
     },
     "Uffizi Gallery": {
       description:
@@ -1883,6 +2753,19 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€20",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "€10",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["art museum", "Renaissance art", "guided tours"],
     },
     "Ponte Vecchio": {
       description:
@@ -1897,6 +2780,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["bridge", "shops", "Arno River views"],
     },
   },
   galveston: {
@@ -1914,6 +2799,8 @@ export const attractionDetails = {
       isFamilyFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["entertainment complex", "aquarium", "rainforest"],
     },
     "Galveston Island Historic Pleasure Pier": {
       description:
@@ -1929,6 +2816,8 @@ export const attractionDetails = {
       isFamilyFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["amusement park", "waterfront", "rides", "games"],
     },
     "The Strand Historic District": {
       description:
@@ -1943,6 +2832,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic district", "Victorian architecture", "shopping"],
     },
   },
   helsinki: {
@@ -1960,6 +2851,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible:
         "partially (some steep paths and uneven surfaces)",
+      entryFees: [],
+      features: ["sea fortress", "UNESCO World Heritage", "museums"],
     },
     "Temppeliaukio Church": {
       description:
@@ -1974,6 +2867,8 @@ export const attractionDetails = {
       isPopular: true,
       isArtOrMusic: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["rock-hewn church", "modern architecture", "acoustics"],
     },
     "Helsinki Cathedral": {
       description:
@@ -1988,6 +2883,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["cathedral", "neoclassical architecture", "green dome"],
     },
   },
   juneau: {
@@ -2004,6 +2901,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["glacier", "trails", "visitor center"],
     },
     "Mount Roberts Tramway": {
       description:
@@ -2018,6 +2917,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["aerial tramway", "panoramic views", "hiking access"],
     },
     "Alaska State Museum": {
       description:
@@ -2033,6 +2934,8 @@ export const attractionDetails = {
       isEducational: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["museum", "indigenous cultures", "natural history"],
     },
   },
   ketchikan: {
@@ -2050,6 +2953,8 @@ export const attractionDetails = {
       isEducational: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["museum", "totem poles", "cultural artifacts"],
     },
     "Misty Fjords National Monument": {
       description:
@@ -2064,6 +2969,8 @@ export const attractionDetails = {
       isNature: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["wilderness area", "fjords", "waterfalls", "boat tours"],
     },
     "Creek Street": {
       description:
@@ -2078,6 +2985,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic district", "boardwalk", "shops", "galleries"],
     },
   },
   lisbon: {
@@ -2094,6 +3003,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€6",
+          priceCategory: "cheap",
+        },
+        {
+          category: "child",
+          priceRange: "€3",
+          priceCategory: "low",
+        },
+      ],
+      features: ["fortress", "historical site", "Tagus River views"],
     },
     "Jerónimos Monastery": {
       description:
@@ -2109,6 +3031,19 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€10",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€5",
+          priceCategory: "low",
+        },
+      ],
+      features: ["monastery", "Manueline architecture", "historical tombs"],
     },
     "Alfama District": {
       description:
@@ -2123,6 +3058,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["historic district", "fado music", "scenic viewpoints"],
     },
   },
   malta: {
@@ -2139,6 +3076,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["waterfront", "restaurants", "shops", "entertainment"],
     },
     "St. John's Co-Cathedral": {
       description:
@@ -2154,6 +3093,19 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["cathedral", "Baroque architecture", "Caravaggio artwork"],
     },
     "Blue Lagoon": {
       description:
@@ -2168,6 +3120,8 @@ export const attractionDetails = {
       isNature: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["lagoon", "snorkeling", "swimming", "boat tours"],
     },
   },
   melbourne: {
@@ -2184,6 +3138,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["cultural precinct", "museums", "restaurants"],
     },
     "Royal Botanic Gardens": {
       description:
@@ -2198,6 +3154,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["botanic gardens", "plant collections", "walking trails"],
     },
     "Queen Victoria Market": {
       description:
@@ -2212,6 +3170,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["market", "fresh produce", "gourmet foods", "local crafts"],
     },
   },
   milan: {
@@ -2228,6 +3188,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€5–€15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "€2.50–€7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: ["cathedral", "Gothic architecture", "rooftop views"],
     },
     "Galleria Vittorio Emanuele II": {
       description:
@@ -2242,6 +3215,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["shopping arcade", "luxury boutiques", "cafes"],
     },
     "Sforza Castle": {
       description:
@@ -2257,6 +3232,8 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["fortress", "museums", "art collections"],
     },
   },
   montreal: {
@@ -2273,6 +3250,12 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "historic district",
+        "cobblestone streets",
+        "colonial architecture",
+      ],
     },
     "Mount Royal Park": {
       description:
@@ -2287,6 +3270,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["urban park", "trails", "scenic overlooks"],
     },
     "Notre-Dame Basilica": {
       description:
@@ -2302,6 +3287,8 @@ export const attractionDetails = {
       isArtOrMusic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["basilica", "Gothic Revival architecture", "stained glass"],
     },
   },
   mykonos: {
@@ -2319,6 +3306,8 @@ export const attractionDetails = {
       isRomantic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["waterfront", "sunset views", "cafes", "bars"],
     },
     "Windmills of Mykonos": {
       description:
@@ -2333,6 +3322,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["windmills", "scenic views", "historical site"],
     },
     "Paradise Beach": {
       description:
@@ -2347,6 +3338,8 @@ export const attractionDetails = {
       isBeach: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["beach", "parties", "beach clubs"],
     },
   },
   oslo: {
@@ -2363,6 +3356,8 @@ export const attractionDetails = {
       isEducational: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["museum", "Viking ships", "historical artifacts"],
     },
     "Vigeland Park": {
       description:
@@ -2377,6 +3372,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["sculpture park", "landscaped gardens", "outdoor art"],
     },
     "Oslo Opera House": {
       description:
@@ -2396,6 +3393,8 @@ export const attractionDetails = {
         "elevators",
         "reserved seating",
       ],
+      entryFees: [],
+      features: ["opera house", "ballet", "modern architecture"],
     },
   },
   philipsburg: {
@@ -2412,6 +3411,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["beach", "sunbathing", "calm waters"],
     },
     "Front Street": {
       description:
@@ -2426,6 +3427,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["shopping street", "duty-free stores", "cafes"],
     },
     "Sint Maarten Museum": {
       description:
@@ -2441,6 +3444,8 @@ export const attractionDetails = {
       isEducational: true,
       isPopular: false,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["museum", "island history", "cultural exhibits"],
     },
   },
   roatan: {
@@ -2458,6 +3463,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["beach", "snorkeling", "swimming", "sunbathing"],
     },
     "Gumbalimba Park": {
       description:
@@ -2473,6 +3480,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["nature park", "ziplining", "botanical gardens"],
     },
     "Carambola Botanical Gardens": {
       description:
@@ -2487,6 +3496,8 @@ export const attractionDetails = {
       isNature: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["botanical gardens", "tropical plants", "hiking trails"],
     },
   },
   santiago: {
@@ -2504,6 +3515,8 @@ export const attractionDetails = {
       isNature: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["hill", "panoramic views", "funicular ride"],
     },
     "Plaza de Armas": {
       description:
@@ -2519,6 +3532,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["city square", "colonial architecture", "cultural hub"],
     },
     "La Moneda Palace": {
       description:
@@ -2534,6 +3549,12 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "government building",
+        "guided tours",
+        "neoclassical architecture",
+      ],
     },
   },
   santorini: {
@@ -2552,6 +3573,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible:
         "partially (some steep paths and uneven surfaces)",
+      entryFees: [],
+      features: ["village", "cliffside", "sunset views"],
     },
     "Fira Town": {
       description:
@@ -2568,6 +3591,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible:
         "partially (some steep paths and uneven surfaces)",
+      entryFees: [],
+      features: ["town", "caldera views", "shopping", "nightlife"],
     },
     "Red Beach": {
       description:
@@ -2583,6 +3608,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["beach", "volcanic sand", "hiking"],
     },
   },
   "seattle-city": {
@@ -2599,6 +3626,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible elevators and ramps"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$38",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$19",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["observation tower", "panoramic views", "Seattle skyline"],
     },
     "Pike Place Market": {
       description:
@@ -2613,6 +3653,8 @@ export const attractionDetails = {
       isFoodieSpot: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["public market", "local produce", "seafood", "crafts"],
     },
     "Chihuly Garden and Glass": {
       description:
@@ -2631,6 +3673,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances and paths"],
+      entryFees: [],
+      features: ["glass art", "indoor galleries", "garden"],
     },
   },
   shanghai: {
@@ -2648,6 +3692,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["waterfront", "colonial architecture", "skyline views"],
     },
     "Yu Garden": {
       description:
@@ -2664,6 +3710,8 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible:
         "partially (some steep paths and uneven surfaces)",
+      entryFees: [],
+      features: ["Chinese garden", "pavilions", "ponds", "rockeries"],
     },
     "Shanghai Tower": {
       description:
@@ -2679,6 +3727,8 @@ export const attractionDetails = {
       isLandmark: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["skyscraper", "observation deck", "city views"],
     },
   },
   seattle: {
@@ -2699,6 +3749,8 @@ export const attractionDetails = {
         "accessible restrooms",
         "wheelchair-accessible paths",
       ],
+      entryFees: [],
+      features: ["glass art", "indoor galleries", "landscaped garden"],
     },
   },
   singapore: {
@@ -2716,6 +3768,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["garden", "Supertree Grove", "Cloud Forest", "Flower Dome"],
     },
     "Marina Bay Sands": {
       description:
@@ -2731,6 +3785,8 @@ export const attractionDetails = {
       isLuxury: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["resort", "luxury accommodations", "infinity pool"],
     },
     "Sentosa Island": {
       description:
@@ -2746,6 +3802,8 @@ export const attractionDetails = {
       isFamilyFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["resort island", "beaches", "theme parks"],
     },
   },
   sitka: {
@@ -2763,6 +3821,8 @@ export const attractionDetails = {
       isFree: true,
       isNature: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historical site", "totem poles", "trails"],
     },
     "Russian Bishop's House": {
       description:
@@ -2778,6 +3838,12 @@ export const attractionDetails = {
       isCultural: true,
       isWheelchairAccessible:
         "partially (some steep paths and uneven surfaces)",
+      entryFees: [],
+      features: [
+        "historical site",
+        "Russian architecture",
+        "cultural exhibits",
+      ],
     },
     "Totem Park": {
       description:
@@ -2792,6 +3858,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["totem poles", "cultural heritage", "historical site"],
     },
   },
   skagway: {
@@ -2808,6 +3876,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historical park", "gold rush history", "guided tours"],
     },
     "White Pass & Yukon Route Railroad": {
       description:
@@ -2824,6 +3894,8 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["scenic railway", "mountain views", "gold rush history"],
     },
     "Skagway Museum": {
       description:
@@ -2839,6 +3911,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["museum", "gold rush artifacts", "native culture"],
     },
   },
   tampa: {
@@ -2856,6 +3930,8 @@ export const attractionDetails = {
       isAdventure: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["amusement park", "roller coasters", "live shows"],
     },
     "Tampa Riverwalk": {
       description:
@@ -2870,6 +3946,8 @@ export const attractionDetails = {
       isFree: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["waterfront", "parks", "museums", "shops"],
     },
     "Florida Aquarium": {
       description:
@@ -2885,6 +3963,8 @@ export const attractionDetails = {
       isEducational: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["aquarium", "marine life", "educational exhibits"],
     },
   },
   toronto: {
@@ -2902,6 +3982,19 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["elevators", "accessible restrooms"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$43",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "$22",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["observation tower", "panoramic views", "rotating restaurant"],
     },
     "Royal Ontario Museum": {
       description:
@@ -2918,6 +4011,19 @@ export const attractionDetails = {
       isHistorical: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$26",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$13",
+          priceCategory: "budget",
+        },
+      ],
+      features: ["museum", "natural history", "art", "world cultures"],
     },
     "Distillery District": {
       description:
@@ -2933,6 +4039,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["historic district", "art galleries", "boutiques", "eateries"],
     },
   },
   vancouver: {
@@ -2951,6 +4059,8 @@ export const attractionDetails = {
       isPetFriendly: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["public park", "scenic trails", "beaches", "gardens"],
     },
     "Granville Island": {
       description:
@@ -2966,6 +4076,13 @@ export const attractionDetails = {
       isFoodOrDrink: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: [
+        "public market",
+        "artisan shops",
+        "theaters",
+        "waterfront dining",
+      ],
     },
     "Capilano Suspension Bridge": {
       description:
@@ -2981,6 +4098,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["suspension bridge", "treetop adventures", "cliffwalks"],
     },
   },
   victoria: {
@@ -2998,6 +4117,8 @@ export const attractionDetails = {
       isScenic: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["botanical garden", "themed landscapes", "fountains"],
     },
     "Royal BC Museum": {
       description:
@@ -3014,6 +4135,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: true,
+      entryFees: [],
+      features: ["museum", "natural history", "indigenous cultures"],
     },
     "Craigdarroch Castle": {
       description:
@@ -3029,6 +4152,8 @@ export const attractionDetails = {
       isCultural: true,
       isPopular: true,
       isWheelchairAccessible: false,
+      entryFees: [],
+      features: ["historic house", "Victorian architecture", "furnishings"],
     },
   },
 };
