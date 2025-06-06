@@ -3,103 +3,82 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const oslonorwaynorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-oslo-1",
-    name: "Zola Müller",
+    name: "Thandiwe Brown",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Zola is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Wine Tasting, Zola provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Cultural Tour", "Group Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-4657-OSL",
-    phoneNumber: "+1-635-986-4352",
-    contactEmail: "zola.müller@paragontrails.com",
+    bio: "Thandiwe is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Wine Tasting, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Accessible Tour", "Eco Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-8571-OSL",
+    phoneNumber: "+1-268-662-3379",
+    contactEmail: "thandiwe.brown@paragontrails.com",
     available: [
       {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "01:00 PM",
-            to: "04:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Zola is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Wine Tasting, Zola provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 104,
-    quote: "Every corner of Oslo tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Indonesian"],
-    experienceYears: 2,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification", "Regional Tourism Ambassador"],
-    specialties: ["Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-oslo-2",
-    name: "Frank Collins",
-    city: "Oslo",
-    country: "Norway",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Frank is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Markets, Museums, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Religious Tour", "Adventure Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2177-OSL",
-    phoneNumber: "+1-615-563-7892",
-    contactEmail: "frank.collins@paragontrails.com",
-    available: [
       {
         day: "Sunday",
         availableHours: [
           {
             from: "10:00 AM",
-            to: "04:00 PM",
-          },
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
           {
-            from: "01:00 PM",
-            to: "07:00 PM",
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Thandiwe is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Wine Tasting, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 75,
+    quote: "In Oslo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
+    languages: ["Italian", "Russian"],
+    experienceYears: 10,
+    certifications: ["Licensed City Guide", "Certified International Tour Manager"],
+    specialties: ["Wine Tasting"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-oslo-2",
+    name: "Caroline Crawford",
+    city: "Oslo",
+    country: "Norway",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Caroline is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Historical Landmarks, Family Activities, Photography Spots, Sustainable Tourism, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Middle East"],
+    tourTypes: ["Accessible Tour", "Photography Tour", "Boat Tour", "Private Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-7796-OSL",
+    phoneNumber: "+1-288-440-9055",
+    contactEmail: "caroline.crawford@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -108,11 +87,11 @@ export const oslonorwaynorthernEuropeGuides: TourGuide[] = [
         availableHours: [
           {
             from: "09:00 AM",
-            to: "03:00 PM",
+            to: "11:00 AM",
           },
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           }
         ],
       },
@@ -120,50 +99,115 @@ export const oslonorwaynorthernEuropeGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Frank is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Markets, Museums, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 36,
-    quote: "The best way to discover Oslo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Vietnamese", "Swahili"],
-    experienceYears: 7,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Local Markets", "Museums"],
-    specialTraining: ["Accessibility Services"],
+    description: "Caroline is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Historical Landmarks, Family Activities, Photography Spots, Sustainable Tourism, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 24,
+    quote: "In Oslo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Italian", "Korean", "Greek"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid", "Food Safety Certification"],
+    specialties: ["Historical Landmarks", "Family Activities", "Photography Spots", "Sustainable Tourism"],
+    specialTraining: ["Art History"],
   },
   {
     id: "guide-oslo-3",
-    name: "Linda Graham",
+    name: "Mason Gibson",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Linda is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Hidden Gems, Local Cuisine, Museums, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Private Tour", "Wildlife Safari"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-1186-OSL",
-    phoneNumber: "+1-834-643-9151",
-    contactEmail: "linda.graham@paragontrails.com",
+    bio: "Mason is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Adventure Sports, Wine Tasting, Wildlife, Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "South America"],
+    tourTypes: ["Helicopter Tour", "Relocation Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7154-OSL",
+    phoneNumber: "+1-153-846-6176",
+    contactEmail: "mason.gibson@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "08:00 PM",
-          },
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mason is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Adventure Sports, Wine Tasting, Wildlife, Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 75,
+    quote: "In Oslo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+    languages: ["Danish", "Polish"],
+    experienceYears: 16,
+    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist"],
+    specialties: ["Adventure Sports", "Wine Tasting", "Wildlife", "Historical Landmarks"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-oslo-4",
+    name: "Johnny Fox",
+    city: "Oslo",
+    country: "Norway",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Johnny is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Family Activities, Local Markets, Johnny provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Cultural Tour", "Cooking Class", "Market Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-7163-OSL",
+    phoneNumber: "+1-974-605-1424",
+    contactEmail: "johnny.fox@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
           {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -177,93 +221,25 @@ export const oslonorwaynorthernEuropeGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Linda is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Hidden Gems, Local Cuisine, Museums, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 19,
-    quote: "The best way to discover Oslo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    languages: ["Czech", "Norwegian"],
-    experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
-    specialties: ["Hidden Gems", "Local Cuisine", "Museums"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-oslo-4",
-    name: "Harper Wright",
-    city: "Oslo",
-    country: "Norway",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Markets, Music Scene, Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Mediterranean"],
-    tourTypes: ["Romantic Tour", "Architecture Tour", "Shopping Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-4271-OSL",
-    phoneNumber: "+1-290-915-5589",
-    contactEmail: "harper.wright@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Markets, Music Scene, Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 95,
-    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    languages: ["Cantonese", "Polish"],
-    experienceYears: 4,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Markets", "Music Scene", "Adventure Sports"],
-    specialTraining: ["Urban Planning", "Regional Geology"],
+    description: "Johnny is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Family Activities, Local Markets, Johnny provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 34,
+    quote: "Every corner of Oslo tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Turkish", "Polish", "German"],
+    experienceYears: 12,
+    certifications: ["Certified International Tour Manager", "Professional Tour Guide Association"],
+    specialties: ["Family Activities", "Local Markets"],
+    specialTraining: ["Religious Studies", "Accessibility Services"],
   }
 ];

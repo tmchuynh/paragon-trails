@@ -3,257 +3,56 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
   {
     id: "guide-san-francisco-1",
-    name: "Alexa Stewart",
+    name: "Frank Fisher",
     city: "San Francisco",
     country: "United States",
     state: "",
     region: "West Coast USA",
     isPopular: false,
-    bio: "Alexa is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Art Galleries, Historical Landmarks, Public Transportation Navigation, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Northern Europe"],
-    tourTypes: ["Religious Tour", "Bike Tour", "Walking Tour", "Luxury Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-5922-SAN",
-    phoneNumber: "+1-243-870-7987",
-    contactEmail: "alexa.stewart@paragontrails.com",
+    bio: "Frank is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Religious Sites, Museums, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Farm Visit", "Romantic Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4195-SAN",
+    phoneNumber: "+1-954-490-1551",
+    contactEmail: "frank.fisher@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Alexa is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Art Galleries, Historical Landmarks, Public Transportation Navigation, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 26,
-    quote: "My goal is to help you fall in love with San Francisco just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Danish", "Croatian"],
-    experienceYears: 3,
-    certifications: ["Heritage Interpretation Certificate", "Language Proficiency Certification"],
-    specialties: ["Architecture", "Art Galleries", "Historical Landmarks", "Public Transportation Navigation"],
-    specialTraining: ["Religious Studies", "Public Speaking"],
-  },
-  {
-    id: "guide-san-francisco-2",
-    name: "Emma Nguyen",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: true,
-    bio: "Emma is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Adventure Sports, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Northern Europe"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Romantic Tour", "Self-Guided Tour", "Historical Tour", "Helicopter Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2752-SAN",
-    phoneNumber: "+1-673-818-4242",
-    contactEmail: "emma.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Adventure Sports, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 36,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    languages: ["French"],
-    experienceYears: 12,
-    certifications: ["Food Safety Certification", "Certified International Tour Manager"],
-    specialties: ["Adventure Sports", "Family Activities"],
-    specialTraining: ["Art History", "Accessibility Services"],
-  },
-  {
-    id: "guide-san-francisco-3",
-    name: "Elizabeth Harper",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Elizabeth is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Adventure Sports, Wildlife, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Mediterranean"],
-    tourTypes: ["Relocation Tour", "Accessible Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-8191-SAN",
-    phoneNumber: "+1-662-979-7523",
-    contactEmail: "elizabeth.harper@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "11:00 AM",
             to: "02:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Elizabeth is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Adventure Sports, Wildlife, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 11,
-    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    languages: ["Norwegian"],
-    experienceYears: 4,
-    certifications: ["Language Proficiency Certification", "Licensed City Guide"],
-    specialties: ["Nightlife", "Adventure Sports", "Wildlife"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-francisco-4",
-    name: "Sophia Jones",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: true,
-    bio: "Sophia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Parks & Gardens, Wine Tasting, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "South America"],
-    tourTypes: ["Boat Tour", "Farm Visit", "Private Tour", "Group Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-3876-SAN",
-    phoneNumber: "+1-183-785-3102",
-    contactEmail: "sophia.jones@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
           {
             from: "08:00 AM",
             to: "11:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -261,6 +60,10 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
             from: "10:00 AM",
             to: "04:00 PM",
           }
@@ -268,39 +71,48 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Parks & Gardens, Wine Tasting, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 72,
-    quote: "In San Francisco, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Thai"],
-    experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate"],
-    specialties: ["Local Markets", "Parks & Gardens", "Wine Tasting", "Indigenous Culture"],
-    specialTraining: ["Wine Education", "Regional Geology"],
+    description: "Frank is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Religious Sites, Museums, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 95,
+    quote: "My goal is to help you fall in love with San Francisco just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+    languages: ["Indonesian", "Hungarian"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist", "Wilderness First Responder"],
+    specialties: ["Religious Sites", "Museums"],
+    specialTraining: [],
   },
   {
-    id: "guide-san-francisco-5",
-    name: "Sarah da Costa",
+    id: "guide-san-francisco-2",
+    name: "Audrey Lawson",
     city: "San Francisco",
     country: "United States",
     state: "",
     region: "West Coast USA",
     isPopular: false,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Family Activities, Historical Landmarks, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Historical Tour", "Shopping Tour", "Helicopter Tour", "Craft Workshop", "Group Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-2832-SAN",
-    phoneNumber: "+1-249-433-6864",
-    contactEmail: "sarah.da@paragontrails.com",
+    bio: "Audrey is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Adventure Sports, Cultural Etiquette, LGBTQ+ History, Audrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Brewery Tour", "Romantic Tour", "Cultural Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-8659-SAN",
+    phoneNumber: "+1-197-426-9477",
+    contactEmail: "audrey.lawson@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
           {
             from: "03:00 PM",
@@ -309,62 +121,11 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Family Activities, Historical Landmarks, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 47,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Arabic", "Swedish", "Korean"],
-    experienceYears: 11,
-    certifications: ["Eco-Tourism Guide", "Licensed City Guide"],
-    specialties: ["Indigenous Culture", "Family Activities", "Historical Landmarks"],
-    specialTraining: ["Mountain Survival"],
-  },
-  {
-    id: "guide-san-francisco-6",
-    name: "Victoria Wilson",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: true,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Wildlife, Local Craftsmanship, Art Galleries, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Private Tour", "Shopping Tour", "Historical Tour", "Helicopter Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-5630-SAN",
-    phoneNumber: "+1-501-978-9466",
-    contactEmail: "victoria.wilson@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -372,8 +133,59 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Audrey is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Adventure Sports, Cultural Etiquette, LGBTQ+ History, Audrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 67,
+    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    languages: ["Cantonese", "Turkish", "Greek"],
+    experienceYears: 10,
+    certifications: ["Cultural Heritage Specialist", "Local History Certification", "Language Proficiency Certification"],
+    specialties: ["Adventure Sports", "Cultural Etiquette", "LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-francisco-3",
+    name: "Patricia Gonzalez",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: true,
+    bio: "Patricia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Art Galleries, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Northern Europe"],
+    tourTypes: ["Family-Friendly Tour", "Luxury Tour", "Museum Tour", "Eco Tour", "Off-Road Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-4006-SAN",
+    phoneNumber: "+1-993-827-9587",
+    contactEmail: "patricia.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -381,12 +193,187 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Patricia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Art Galleries, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 39,
+    quote: "My goal is to help you fall in love with San Francisco just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
+    languages: ["Czech"],
+    experienceYears: 3,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Architecture", "Art Galleries"],
+    specialTraining: ["Mountain Survival", "Photography"],
+  },
+  {
+    id: "guide-san-francisco-4",
+    name: "Elena Gardner",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: true,
+    bio: "Elena is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Religious Tour", "Food Tour", "Wine Tour", "Accessible Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6208-SAN",
+    phoneNumber: "+1-849-461-9352",
+    contactEmail: "elena.gardner@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elena is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 53,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 11,
+    certifications: ["Eco-Tourism Guide", "Wilderness First Responder"],
+    specialties: ["Nightlife"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-san-francisco-5",
+    name: "Adeline Wood",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Adeline is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "East Coast Canada"],
+    tourTypes: ["Wine Tour", "Romantic Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-3282-SAN",
+    phoneNumber: "+1-564-593-2518",
+    contactEmail: "adeline.wood@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
             from: "11:00 AM",
             to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Adeline is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 61,
+    quote: "Every corner of San Francisco tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+    languages: ["Russian", "Tagalog", "Portuguese"],
+    experienceYears: 15,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["LGBTQ+ History"],
+    specialTraining: ["Local Transit Systems"],
+  },
+  {
+    id: "guide-san-francisco-6",
+    name: "Aaliyah Harper",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Aaliyah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Hidden Gems, Street Food, Cultural Etiquette, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Street Art Tour", "Boat Tour", "Historical Tour", "Ghost Tour", "Luxury Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-8625-SAN",
+    phoneNumber: "+1-223-260-1643",
+    contactEmail: "aaliyah.harper@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           },
           {
             from: "09:00 AM",
-            to: "03:00 PM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
       },
@@ -394,26 +381,22 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Wildlife, Local Craftsmanship, Art Galleries, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 78,
-    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    languages: ["Vietnamese", "Turkish"],
-    experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Food Safety Certification", "Heritage Interpretation Certificate"],
-    specialties: ["Wildlife", "Local Craftsmanship", "Art Galleries", "Urban Legends"],
-    specialTraining: ["Regional Geology"],
+    description: "Aaliyah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Hidden Gems, Street Food, Cultural Etiquette, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 36,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+    languages: ["Polish", "Spanish", "Hungarian"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Hidden Gems", "Street Food", "Cultural Etiquette"],
+    specialTraining: ["Local Flora & Fauna"],
   }
 ];

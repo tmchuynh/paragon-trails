@@ -3,117 +3,57 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
   {
     id: "guide-san-juan-1",
-    name: "Chloe Anderson",
+    name: "Donna Jansen",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Indigenous Culture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Donna is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Indigenous Culture, Wine Tasting, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Photography Tour", "Group Tour", "Audio Tour", "LGBTQ+ Friendly Tour", "Nature Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1244-SAN",
-    phoneNumber: "+1-588-653-5002",
-    contactEmail: "chloe.anderson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Indigenous Culture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 98,
-    quote: "My goal is to help you fall in love with San Juan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 14,
-    certifications: ["Food Safety Certification", "Wilderness First Responder", "Urban Navigation Specialist"],
-    specialties: ["Film Locations", "Indigenous Culture"],
-    specialTraining: ["Urban Planning", "Photography"],
-  },
-  {
-    id: "guide-san-juan-2",
-    name: "Evelyn Wood",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Cultural Etiquette, Museums, Urban Legends, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "West Coast USA"],
-    tourTypes: ["Museum Tour", "Audio Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-4588-SAN",
-    phoneNumber: "+1-482-671-6403",
-    contactEmail: "evelyn.wood@paragontrails.com",
+    tourTypes: ["Underground Tour", "Helicopter Tour", "Relocation Tour", "Museum Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-4363-SAN",
+    phoneNumber: "+1-805-225-9113",
+    contactEmail: "donna.jansen@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "03:00 PM",
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "01:00 PM",
+            from: "12:00 PM",
             to: "06:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            from: "02:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
             from: "02:00 PM",
@@ -123,201 +63,174 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Cultural Etiquette, Museums, Urban Legends, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 68,
+    description: "Donna is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Indigenous Culture, Wine Tasting, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 27,
     quote: "My goal is to help you fall in love with San Juan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-    languages: ["Dutch", "Turkish"],
-    experienceYears: 7,
-    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager"],
-    specialties: ["Cultural Etiquette", "Museums", "Urban Legends"],
-    specialTraining: ["Art History", "Wine Education"],
+    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 13,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Indigenous Culture", "Wine Tasting"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-juan-2",
+    name: "Laura Carpenter",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Laura is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Art Galleries, Wildlife, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Middle East"],
+    tourTypes: ["Accessible Tour", "Museum Tour", "Historical Tour", "Ghost Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-6835-SAN",
+    phoneNumber: "+1-292-989-4252",
+    contactEmail: "laura.carpenter@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Laura is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Art Galleries, Wildlife, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 81,
+    quote: "Every corner of San Juan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+    languages: ["Portuguese", "Croatian", "Thai"],
+    experienceYears: 8,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Film Locations", "Art Galleries", "Wildlife"],
+    specialTraining: [],
   },
   {
     id: "guide-san-juan-3",
-    name: "Savannah Hudson",
+    name: "Dennis Nakamura",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Savannah is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Historical Landmarks, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Caribbean"],
-    tourTypes: ["Romantic Tour", "Craft Workshop"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-8321-SAN",
-    phoneNumber: "+1-625-606-6831",
-    contactEmail: "savannah.hudson@paragontrails.com",
+    bio: "Dennis is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Historical Landmarks, Art Galleries, Dennis provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Architecture Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8502-SAN",
+    phoneNumber: "+1-464-565-8211",
+    contactEmail: "dennis.nakamura@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Dennis is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Historical Landmarks, Art Galleries, Dennis provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 104,
+    quote: "My goal is to help you fall in love with San Juan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+    languages: ["Tagalog", "Spanish"],
+    experienceYears: 4,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Historical Landmarks", "Art Galleries"],
+    specialTraining: ["Regional Geology", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-san-juan-4",
+    name: "Wei Martin",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Wei is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Wine Tasting, Photography Spots, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "South America"],
+    tourTypes: ["Cooking Class", "Walking Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5822-SAN",
+    phoneNumber: "+1-112-839-2222",
+    contactEmail: "wei.martin@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "01:00 PM",
+            to: "10:00 AM",
           },
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Savannah is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Historical Landmarks, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 82,
-    quote: "My goal is to help you fall in love with San Juan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
-    languages: ["Vietnamese", "Thai", "Romanian"],
-    experienceYears: 8,
-    certifications: ["Wilderness First Responder", "Eco-Tourism Guide", "Licensed City Guide"],
-    specialties: ["LGBTQ+ History", "Historical Landmarks", "Museums"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-juan-4",
-    name: "Patrick Nakamura",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Patrick is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Nightlife, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Middle East"],
-    tourTypes: ["Ghost Tour", "Market Tour", "Craft Workshop", "Cruise Excursion"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-4624-SAN",
-    phoneNumber: "+1-619-701-6929",
-    contactEmail: "patrick.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
             from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
             to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Patrick is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Nightlife, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 90,
-    quote: "The best way to discover San Juan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    languages: ["Korean", "Norwegian"],
-    experienceYears: 7,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Nightlife"],
-    specialTraining: ["Wine Education", "Public Speaking"],
-  },
-  {
-    id: "guide-san-juan-5",
-    name: "Claire King",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Claire is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Adventure Tour", "Boat Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-7441-SAN",
-    phoneNumber: "+1-664-112-7084",
-    contactEmail: "claire.king@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "10:00 AM",
+            from: "08:00 AM",
             to: "02:00 PM",
           }
         ],
@@ -326,26 +239,22 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "03:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Claire is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 100,
-    quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    languages: ["Danish", "Korean", "Thai"],
-    experienceYears: 15,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Public Transportation Navigation"],
-    specialTraining: ["Cultural Sensitivity"],
+    description: "Wei is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Wine Tasting, Photography Spots, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 38,
+    quote: "Every corner of San Juan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
+    languages: ["Bulgarian", "Japanese", "Croatian"],
+    experienceYears: 12,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["LGBTQ+ History", "Wine Tasting", "Photography Spots"],
+    specialTraining: ["Archaeological Conservation"],
   }
 ];

@@ -3,90 +3,26 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
   {
     id: "guide-new-york-city-1",
-    name: "Skylar King",
+    name: "Paul Bennett",
     city: "New York City",
     country: "United States",
     state: "",
     region: "East Coast USA",
     isPopular: false,
-    bio: "Skylar is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Craftsmanship, Photography Spots, Museums, Local Markets, Skylar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Alaska"],
-    tourTypes: ["Adventure Tour", "Luxury Tour", "Street Art Tour", "Festival Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-4768-NEW",
-    phoneNumber: "+1-418-559-7456",
-    contactEmail: "skylar.king@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Skylar is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Craftsmanship, Photography Spots, Museums, Local Markets, Skylar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 8,
-    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    languages: ["Mandarin", "Korean", "Thai"],
-    experienceYears: 2,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Local Craftsmanship", "Photography Spots", "Museums", "Local Markets"],
-    specialTraining: ["Historical Research Methods"],
-  },
-  {
-    id: "guide-new-york-city-2",
-    name: "Genesis Mitchell",
-    city: "New York City",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: true,
-    bio: "Genesis is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Architecture, Nightlife, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Architecture Tour", "Photography Tour", "Brewery Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-6257-NEW",
-    phoneNumber: "+1-432-348-5364",
-    contactEmail: "genesis.mitchell@paragontrails.com",
+    bio: "Paul is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Wine Tasting, Religious Sites, Art Galleries, Paul provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "East Coast Canada"],
+    tourTypes: ["Helicopter Tour", "Scenic Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3450-NEW",
+    phoneNumber: "+1-584-223-8392",
+    contactEmail: "paul.bennett@paragontrails.com",
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
+            from: "01:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -94,12 +30,63 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "07:00 PM",
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Paul is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Wine Tasting, Religious Sites, Art Galleries, Paul provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 91,
+    quote: "The best way to discover New York City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+    languages: ["Turkish"],
+    experienceYears: 2,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Wine Tasting", "Religious Sites", "Art Galleries"],
+    specialTraining: ["Archaeological Conservation"],
+  },
+  {
+    id: "guide-new-york-city-2",
+    name: "Isabella King",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Indigenous Culture, Local Cuisine, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Group Tour", "Off-Road Tour", "Photography Tour", "Underground Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1829-NEW",
+    phoneNumber: "+1-561-383-4186",
+    contactEmail: "isabella.king@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "01:00 PM",
-            to: "06:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -107,46 +94,59 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00 AM",
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
             to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Genesis is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Architecture, Nightlife, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 27,
-    quote: "Every corner of New York City tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["Croatian", "Thai", "Greek"],
-    experienceYears: 4,
-    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification", "Cultural Heritage Specialist"],
-    specialties: ["Architecture", "Nightlife"],
+    description: "Isabella is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Indigenous Culture, Local Cuisine, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 67,
+    quote: "My goal is to help you fall in love with New York City just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+    languages: ["Danish", "Romanian"],
+    experienceYears: 6,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Indigenous Culture", "Local Cuisine", "Religious Sites"],
     specialTraining: [],
   },
   {
     id: "guide-new-york-city-3",
-    name: "Omar Nash",
+    name: "Christopher Gonzalez",
     city: "New York City",
     country: "United States",
     state: "",
     region: "East Coast USA",
     isPopular: false,
-    bio: "Omar is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "East Coast Canada"],
-    tourTypes: ["Craft Workshop", "Self-Guided Tour", "Bike Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-8333-NEW",
-    phoneNumber: "+1-990-277-9478",
-    contactEmail: "omar.nash@paragontrails.com",
+    bio: "Christopher is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Sustainable Tourism, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Farm Visit", "Religious Tour", "Street Art Tour", "Romantic Tour", "Relocation Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-6206-NEW",
+    phoneNumber: "+1-879-822-5464",
+    contactEmail: "christopher.gonzalez@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -154,12 +154,243 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Christopher is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Sustainable Tourism, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 98,
+    quote: "In New York City, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+    languages: ["Greek", "Malay", "Vietnamese"],
+    experienceYears: 2,
+    certifications: ["Food Safety Certification", "Urban Navigation Specialist"],
+    specialties: ["Sustainable Tourism"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-new-york-city-4",
+    name: "Gary Reed",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Gary is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Museums, Wine Tasting, Sustainable Tourism, Indigenous Culture, Gary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "South America"],
+    tourTypes: ["Eco Tour", "Luxury Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-9888-NEW",
+    phoneNumber: "+1-562-797-4575",
+    contactEmail: "gary.reed@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gary is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Museums, Wine Tasting, Sustainable Tourism, Indigenous Culture, Gary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 50,
+    quote: "Every corner of New York City tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+    languages: ["German"],
+    experienceYears: 8,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Museums", "Wine Tasting", "Sustainable Tourism", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-new-york-city-5",
+    name: "Wayne Khan",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Wayne is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Underground Tour", "Historical Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6615-NEW",
+    phoneNumber: "+1-143-736-7531",
+    contactEmail: "wayne.khan@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
           {
             from: "12:00 PM",
             to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wayne is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 14,
+    quote: "The best way to discover New York City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+    languages: ["Norwegian"],
+    experienceYears: 5,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Urban Legends"],
+    specialTraining: ["Conflict Resolution"],
+  },
+  {
+    id: "guide-new-york-city-6",
+    name: "Tyler Warren",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Tyler is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Museums, Local Markets, Wine Tasting, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Photography Tour", "Street Art Tour", "Group Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-8584-NEW",
+    phoneNumber: "+1-830-930-9954",
+    contactEmail: "tyler.warren@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Tyler is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Museums, Local Markets, Wine Tasting, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 70,
+    quote: "Every corner of New York City tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+    languages: ["Swahili", "Turkish"],
+    experienceYears: 11,
+    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager", "Cultural Heritage Specialist"],
+    specialties: ["Museums", "Local Markets", "Wine Tasting"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-new-york-city-7",
+    name: "David Williams",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "David is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Family Activities, Hidden Gems, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Shopping Tour", "Nature Tour", "Brewery Tour", "Helicopter Tour", "Scenic Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-9547-NEW",
+    phoneNumber: "+1-622-491-3913",
+    contactEmail: "david.williams@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -167,31 +398,31 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "01:00 PM",
+            from: "09:00 AM",
             to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Omar is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 11,
-    quote: "Every corner of New York City tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    languages: ["Portuguese", "Norwegian"],
-    experienceYears: 15,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Urban Legends"],
-    specialTraining: ["Accessibility Services", "Group Management"],
+    description: "David is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Urban Legends, Family Activities, Hidden Gems, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 70,
+    quote: "The best way to discover New York City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+    languages: ["Japanese"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate", "CPR & First Aid"],
+    specialties: ["Urban Legends", "Family Activities", "Hidden Gems"],
+    specialTraining: [],
   }
 ];

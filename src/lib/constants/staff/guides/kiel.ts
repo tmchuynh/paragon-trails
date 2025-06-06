@@ -3,81 +3,26 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const kielgermanynorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-kiel-1",
-    name: "Sofia Parker",
+    name: "Keith Chen",
     city: "Kiel",
     country: "Germany",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Street Food, Sustainable Tourism, LGBTQ+ History, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Relocation Tour", "Food Tour", "Family-Friendly Tour", "Photography Tour", "Cruise Excursion"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-7601-KIE",
-    phoneNumber: "+1-156-131-4642",
-    contactEmail: "sofia.parker@paragontrails.com",
+    bio: "Keith is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Markets, Public Transportation Navigation, Art Galleries, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Relocation Tour", "Boat Tour", "Craft Workshop"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-1961-KIE",
+    phoneNumber: "+1-200-136-1916",
+    contactEmail: "keith.chen@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Street Food, Sustainable Tourism, LGBTQ+ History, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 74,
-    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    languages: ["Indonesian", "Thai", "Italian"],
-    experienceYears: 12,
-    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate"],
-    specialties: ["Cultural Etiquette", "Street Food", "Sustainable Tourism", "LGBTQ+ History"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-kiel-2",
-    name: "Ashley Watson",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Ashley is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Parks & Gardens, Local Markets, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Museum Tour", "Audio Tour", "Accessible Tour", "Farm Visit", "Cruise Excursion"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-5386-KIE",
-    phoneNumber: "+1-570-294-1945",
-    contactEmail: "ashley.watson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            from: "12:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -85,55 +30,12 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ashley is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Parks & Gardens, Local Markets, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 7,
-    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    languages: ["Danish", "Malay"],
-    experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate"],
-    specialties: ["Local Craftsmanship", "Parks & Gardens", "Local Markets"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-kiel-3",
-    name: "Mia Sutton",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Mia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Galleries, Museums, Urban Legends, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Caribbean"],
-    tourTypes: ["Family-Friendly Tour", "Walking Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-1969-KIE",
-    phoneNumber: "+1-950-287-8432",
-    contactEmail: "mia.sutton@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
             from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
+            to: "05:00 PM",
+          },
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -141,50 +43,59 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Galleries, Museums, Urban Legends, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 83,
-    quote: "In Kiel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Serbian", "Polish", "Malay"],
-    experienceYears: 5,
-    certifications: ["Language Proficiency Certification", "CPR & First Aid", "Wilderness First Responder"],
-    specialties: ["Art Galleries", "Museums", "Urban Legends", "Hidden Gems"],
-    specialTraining: ["Local Transit Systems", "Emergency Response"],
+    description: "Keith is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Markets, Public Transportation Navigation, Art Galleries, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 14,
+    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+    languages: ["Swedish", "Russian", "Polish"],
+    experienceYears: 7,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Local Markets", "Public Transportation Navigation", "Art Galleries"],
+    specialTraining: ["Archaeological Conservation"],
   },
   {
-    id: "guide-kiel-4",
-    name: "Noah Hall",
+    id: "guide-kiel-2",
+    name: "Alexander Hernandez",
     city: "Kiel",
     country: "Germany",
     state: "",
     region: "Northern Europe",
-    isPopular: true,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Adventure Sports, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Asia Pacific"],
-    tourTypes: ["Historical Tour", "Romantic Tour", "Luxury Tour", "Wine Tour", "Eco Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2025-KIE",
-    phoneNumber: "+1-347-137-8900",
-    contactEmail: "noah.hall@paragontrails.com",
+    isPopular: false,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Farm Visit", "Nature Tour", "Ghost Tour", "Wine Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9549-KIE",
+    phoneNumber: "+1-522-787-4459",
+    contactEmail: "alexander.hernandez@paragontrails.com",
     available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
       },
@@ -192,12 +103,105 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexander is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 86,
+    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+    languages: ["Bulgarian", "Croatian"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Family Activities", "Historical Landmarks"],
+    specialTraining: ["Regional Geology", "Mountain Survival"],
+  },
+  {
+    id: "guide-kiel-3",
+    name: "Betty Wright",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Betty is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Indigenous Culture, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "South America"],
+    tourTypes: ["Brewery Tour", "Underground Tour", "Market Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-2945-KIE",
+    phoneNumber: "+1-470-709-9415",
+    contactEmail: "betty.wright@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Betty is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Indigenous Culture, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 39,
+    quote: "Every corner of Kiel tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Tagalog", "Malay"],
+    experienceYears: 14,
+    certifications: ["Wilderness First Responder", "Professional Tour Guide Association", "Food Safety Certification"],
+    specialties: ["Local Craftsmanship", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-kiel-4",
+    name: "Robert Williams",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Robert is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Film Locations, Robert provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Wildlife Safari", "Romantic Tour", "Self-Guided Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4241-KIE",
+    phoneNumber: "+1-745-765-2234",
+    contactEmail: "robert.williams@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
           },
           {
             from: "08:00 AM",
-            to: "11:00 AM",
+            to: "10:00 AM",
           }
         ],
       },
@@ -205,119 +209,8 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Adventure Sports, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 87,
-    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    languages: ["Polish"],
-    experienceYears: 12,
-    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Heritage Interpretation Certificate"],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-kiel-5",
-    name: "Randy Williams",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Randy is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Wildlife, Local Cuisine, Sustainable Tourism, Randy provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Relocation Tour", "Historical Tour", "Cooking Class"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-7665-KIE",
-    phoneNumber: "+1-185-207-7470",
-    contactEmail: "randy.williams@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
+            from: "02:00 PM",
             to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Randy is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Wildlife, Local Cuisine, Sustainable Tourism, Randy provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 94,
-    quote: "In Kiel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    languages: ["Portuguese", "Hindi", "Polish"],
-    experienceYears: 12,
-    certifications: ["Certified International Tour Manager", "Language Proficiency Certification", "Eco-Tourism Guide"],
-    specialties: ["Wildlife", "Local Cuisine", "Sustainable Tourism"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-kiel-6",
-    name: "Rajesh Singh",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Rajesh is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Galleries, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Scenic Tour", "Religious Tour", "LGBTQ+ Friendly Tour", "Underground Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2923-KIE",
-    phoneNumber: "+1-160-227-4128",
-    contactEmail: "rajesh.singh@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
           }
         ],
       },
@@ -325,73 +218,271 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Rajesh is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Galleries, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 104,
-    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    languages: ["Korean"],
-    experienceYears: 14,
-    certifications: ["Eco-Tourism Guide", "Wilderness First Responder", "Sustainable Tourism Certificate"],
-    specialties: ["Art Galleries"],
-    specialTraining: ["Marine Biology", "Regional Cuisine"],
+    description: "Robert is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Film Locations, Robert provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 22,
+    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+    languages: ["Norwegian", "Italian"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Sustainable Tourism", "Film Locations"],
+    specialTraining: ["Public Speaking", "Accessibility Services"],
   },
   {
-    id: "guide-kiel-7",
-    name: "Bella Keller",
+    id: "guide-kiel-5",
+    name: "Aria Jennings",
     city: "Kiel",
     country: "Germany",
     state: "",
     region: "Northern Europe",
-    isPopular: false,
-    bio: "Bella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Middle East"],
-    tourTypes: ["Boat Tour", "Accessible Tour", "Group Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-8855-KIE",
-    phoneNumber: "+1-289-281-1055",
-    contactEmail: "bella.keller@paragontrails.com",
+    isPopular: true,
+    bio: "Aria is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Indigenous Culture, Adventure Sports, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Craft Workshop", "Nature Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6044-KIE",
+    phoneNumber: "+1-742-597-9969",
+    contactEmail: "aria.jennings@paragontrails.com",
     available: [
       {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
             from: "02:00 PM",
             to: "06:00 PM",
           }
         ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
       }
     ],
     isCertified: true,
-    description: "Bella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 15,
+    description: "Aria is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Indigenous Culture, Adventure Sports, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 58,
     quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    languages: ["English"],
-    experienceYears: 10,
-    certifications: ["Food Safety Certification", "Regional Tourism Ambassador"],
-    specialties: ["Sustainable Tourism"],
-    specialTraining: ["Photography", "Regional Geology"],
+    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
+    languages: ["Russian", "Korean", "Serbian"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide", "Urban Navigation Specialist", "Language Proficiency Certification"],
+    specialties: ["Indigenous Culture", "Adventure Sports"],
+    specialTraining: ["Conflict Resolution"],
+  },
+  {
+    id: "guide-kiel-6",
+    name: "Emily Stewart",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Emily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Architecture Tour", "Accessible Tour", "Ghost Tour", "Self-Guided Tour", "Cruise Excursion"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9137-KIE",
+    phoneNumber: "+1-763-824-7462",
+    contactEmail: "emily.stewart@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 20,
+    quote: "In Kiel, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+    languages: ["Indonesian"],
+    experienceYears: 6,
+    certifications: ["Local History Certification", "Eco-Tourism Guide"],
+    specialties: ["Family Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-kiel-7",
+    name: "Raymond Hall",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Raymond is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Parks & Gardens, Wildlife, Local Markets, Raymond provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Helicopter Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-8244-KIE",
+    phoneNumber: "+1-794-417-6587",
+    contactEmail: "raymond.hall@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Raymond is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Parks & Gardens, Wildlife, Local Markets, Raymond provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 25,
+    quote: "In Kiel, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+    languages: ["Mandarin", "Hebrew", "Thai"],
+    experienceYears: 5,
+    certifications: ["CPR & First Aid", "Sustainable Tourism Certificate"],
+    specialties: ["Parks & Gardens", "Wildlife", "Local Markets"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-kiel-8",
+    name: "Stella Wilson",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Stella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Museums, Family Activities, Stella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "East Coast Canada"],
+    tourTypes: ["Food Tour", "Walking Tour", "Market Tour", "Adventure Tour", "Underground Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3171-KIE",
+    phoneNumber: "+1-699-914-5613",
+    contactEmail: "stella.wilson@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Stella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Craftsmanship, Museums, Family Activities, Stella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 78,
+    quote: "Every corner of Kiel tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
+    languages: ["German", "Croatian", "Finnish"],
+    experienceYears: 12,
+    certifications: ["Heritage Interpretation Certificate", "Local History Certification"],
+    specialties: ["Local Craftsmanship", "Museums", "Family Activities"],
+    specialTraining: ["Wine Education"],
   }
 ];

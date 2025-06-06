@@ -3,78 +3,90 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
   {
     id: "guide-los-angeles-1",
-    name: "Brandon Hernandez",
+    name: "Ali Williams",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
     isPopular: false,
-    bio: "Brandon is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Architecture, Religious Sites, Music Scene, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "South America"],
-    tourTypes: ["Cruise Excursion", "Historical Tour", "Religious Tour", "Photography Tour", "Craft Workshop"],
+    bio: "Ali is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Street Food, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Wine Tour", "LGBTQ+ Friendly Tour", "Romantic Tour", "Audio Tour", "Religious Tour"],
     maxGroupSize: 18,
-    licenseNumber: "LIC-1518-LOS",
-    phoneNumber: "+1-616-923-2931",
-    contactEmail: "brandon.hernandez@paragontrails.com",
+    licenseNumber: "LIC-7182-LOS",
+    phoneNumber: "+1-924-225-5961",
+    contactEmail: "ali.williams@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Sunday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
             to: "03:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Brandon is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Architecture, Religious Sites, Music Scene, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 32,
-    quote: "Los Angeles isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    languages: ["Czech"],
-    experienceYears: 5,
-    certifications: ["Regional Tourism Ambassador", "Licensed City Guide"],
-    specialties: ["Architecture", "Religious Sites", "Music Scene"],
-    specialTraining: ["Urban Planning"],
+    description: "Ali is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Street Food, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 39,
+    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+    languages: ["Finnish", "Arabic", "Norwegian"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Cultural Etiquette", "Local Craftsmanship", "Street Food"],
+    specialTraining: ["Archaeological Conservation"],
   },
   {
     id: "guide-los-angeles-2",
-    name: "Adeline Day",
+    name: "Catherine Young",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
-    isPopular: true,
-    bio: "Adeline is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Public Transportation Navigation, LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Eco Tour", "Historical Tour", "Photography Tour", "Walking Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-9060-LOS",
-    phoneNumber: "+1-508-715-9409",
-    contactEmail: "adeline.day@paragontrails.com",
+    isPopular: false,
+    bio: "Catherine is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Local Cuisine, Cultural Etiquette, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Middle East"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Self-Guided Tour", "Cooking Class", "Photography Tour", "Eco Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5215-LOS",
+    phoneNumber: "+1-271-776-9966",
+    contactEmail: "catherine.young@paragontrails.com",
     available: [
       {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "03:00 PM",
@@ -83,53 +95,11 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
           {
             from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Adeline is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Public Transportation Navigation, LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 42,
-    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    languages: ["Hebrew", "Turkish", "Finnish"],
-    experienceYears: 4,
-    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
-    specialties: ["Film Locations", "Public Transportation Navigation", "LGBTQ+ History"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-los-angeles-3",
-    name: "Victoria da Costa",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wine Tasting, Historical Landmarks, Architecture, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Romantic Tour", "Market Tour", "Shopping Tour", "Scenic Tour", "Walking Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7584-LOS",
-    phoneNumber: "+1-681-257-2499",
-    contactEmail: "victoria.da@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -137,50 +107,12 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wine Tasting, Historical Landmarks, Architecture, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 95,
-    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Arabic", "Polish", "Portuguese"],
-    experienceYears: 14,
-    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Wine Tasting", "Historical Landmarks", "Architecture"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-los-angeles-4",
-    name: "Layla Warren",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: true,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Indigenous Culture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Boat Tour", "Shopping Tour", "Accessible Tour", "Nature Tour", "Luxury Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1566-LOS",
-    phoneNumber: "+1-243-252-8675",
-    contactEmail: "layla.warren@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -188,22 +120,99 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
             from: "08:00 AM",
-            to: "02:00 PM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Indigenous Culture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 16,
-    quote: "Every corner of Los Angeles tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    languages: ["Hungarian", "Croatian"],
-    experienceYears: 8,
-    certifications: ["Heritage Interpretation Certificate", "CPR & First Aid"],
-    specialties: ["Photography Spots", "Indigenous Culture"],
-    specialTraining: ["Urban Planning", "Religious Studies"],
+    description: "Catherine is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Local Cuisine, Cultural Etiquette, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 67,
+    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Greek"],
+    experienceYears: 2,
+    certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager", "Urban Navigation Specialist"],
+    specialties: ["Photography Spots", "Local Cuisine", "Cultural Etiquette"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-los-angeles-3",
+    name: "Joe Mason",
+    city: "Los Angeles",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Joe is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Urban Legends, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Family-Friendly Tour", "Cruise Excursion", "Adventure Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-7959-LOS",
+    phoneNumber: "+1-690-862-6199",
+    contactEmail: "joe.mason@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Joe is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Urban Legends, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 72,
+    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+    languages: ["Malay", "Croatian", "Tagalog"],
+    experienceYears: 13,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Film Locations", "Urban Legends"],
+    specialTraining: ["Historical Research Methods", "Cultural Sensitivity"],
   }
 ];

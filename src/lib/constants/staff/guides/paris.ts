@@ -3,35 +3,30 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const parisfrancenorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-paris-1",
-    name: "Elizabeth Williams",
+    name: "Ahmed Hayes",
     city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Elizabeth is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Hidden Gems, Local Craftsmanship, Street Food, Adventure Sports, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "West Coast USA"],
-    tourTypes: ["Luxury Tour", "Wine Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-5068-PAR",
-    phoneNumber: "+1-819-418-6833",
-    contactEmail: "elizabeth.williams@paragontrails.com",
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Religious Sites, Public Transportation Navigation, Cultural Etiquette, Sustainable Tourism, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "East Coast Canada"],
+    tourTypes: ["Wildlife Safari", "Ghost Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2997-PAR",
+    phoneNumber: "+1-988-504-6373",
+    contactEmail: "ahmed.hayes@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -39,46 +34,8 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Elizabeth is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Hidden Gems, Local Craftsmanship, Street Food, Adventure Sports, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 9,
-    quote: "Every corner of Paris tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    languages: ["Romanian"],
-    experienceYears: 16,
-    certifications: ["Regional Tourism Ambassador", "Certified International Tour Manager"],
-    specialties: ["Hidden Gems", "Local Craftsmanship", "Street Food", "Adventure Sports"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-paris-2",
-    name: "Jennifer Jackson",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Jennifer is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Parks & Gardens, Art Galleries, Jennifer provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Wine Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-2631-PAR",
-    phoneNumber: "+1-979-221-5899",
-    contactEmail: "jennifer.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -87,71 +44,53 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
         availableHours: [
           {
             from: "08:00 AM",
-            to: "12:00 PM",
+            to: "11:00 AM",
           },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Jennifer is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Parks & Gardens, Art Galleries, Jennifer provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 73,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Religious Sites, Public Transportation Navigation, Cultural Etiquette, Sustainable Tourism, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 74,
     quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    languages: ["Croatian"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification", "Certified International Tour Manager"],
-    specialties: ["Parks & Gardens", "Art Galleries"],
-    specialTraining: ["Marine Biology"],
+    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+    languages: ["Arabic"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Religious Sites", "Public Transportation Navigation", "Cultural Etiquette", "Sustainable Tourism"],
+    specialTraining: ["Group Management"],
   },
   {
-    id: "guide-paris-3",
-    name: "Brandon Graves",
+    id: "guide-paris-2",
+    name: "Ava Graves",
     city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
     isPopular: true,
-    bio: "Brandon is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Urban Legends, Wine Tasting, Street Food, Parks & Gardens, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Religious Tour", "Wildlife Safari"],
+    bio: "Ava is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Cuisine, Nightlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "West Coast USA"],
+    tourTypes: ["Wildlife Safari", "Family-Friendly Tour", "Street Art Tour"],
     maxGroupSize: 16,
-    licenseNumber: "LIC-4534-PAR",
-    phoneNumber: "+1-819-374-9111",
-    contactEmail: "brandon.graves@paragontrails.com",
+    licenseNumber: "LIC-3596-PAR",
+    phoneNumber: "+1-996-205-8508",
+    contactEmail: "ava.graves@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
             from: "08:00 AM",
-            to: "01:00 PM",
+            to: "11:00 AM",
           }
         ],
       },
@@ -159,115 +98,50 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "10:00 AM",
+            to: "12:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Brandon is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Urban Legends, Wine Tasting, Street Food, Parks & Gardens, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 67,
-    quote: "Every corner of Paris tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    languages: ["Czech"],
-    experienceYears: 5,
-    certifications: ["Professional Tour Guide Association", "Sustainable Tourism Certificate", "Wilderness First Responder"],
-    specialties: ["Urban Legends", "Wine Tasting", "Street Food", "Parks & Gardens"],
-    specialTraining: ["Urban Planning", "Mountain Survival"],
-  },
-  {
-    id: "guide-paris-4",
-    name: "Aisha White",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Aisha is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Religious Sites, Museums, Aisha provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Luxury Tour", "Group Tour", "Wine Tour", "Food Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2585-PAR",
-    phoneNumber: "+1-268-555-1940",
-    contactEmail: "aisha.white@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Aisha is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Religious Sites, Museums, Aisha provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 87,
+    description: "Ava is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Cuisine, Nightlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 85,
     quote: "In Paris, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    languages: ["Polish", "Finnish"],
-    experienceYears: 4,
-    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
-    specialties: ["Religious Sites", "Museums"],
-    specialTraining: ["Regional Geology", "Historical Research Methods"],
+    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+    languages: ["Czech", "Polish"],
+    experienceYears: 10,
+    certifications: ["Language Proficiency Certification", "Regional Tourism Ambassador", "Professional Tour Guide Association"],
+    specialties: ["Local Cuisine", "Nightlife"],
+    specialTraining: [],
   },
   {
-    id: "guide-paris-5",
-    name: "Sophia Parker",
+    id: "guide-paris-3",
+    name: "Ahmed Bennett",
     city: "Paris",
     country: "France",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Sophia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Historical Landmarks, Parks & Gardens, Local Cuisine, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Adventure Tour", "Farm Visit", "Religious Tour", "Cooking Class"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9467-PAR",
-    phoneNumber: "+1-322-251-2452",
-    contactEmail: "sophia.parker@paragontrails.com",
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Middle East"],
+    tourTypes: ["Street Art Tour", "Relocation Tour", "Walking Tour", "Cooking Class"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-2200-PAR",
+    phoneNumber: "+1-801-715-8027",
+    contactEmail: "ahmed.bennett@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "02:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
             to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
           }
         ],
       },
@@ -275,8 +149,8 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -284,103 +158,31 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Historical Landmarks, Parks & Gardens, Local Cuisine, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 51,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    languages: ["Japanese"],
-    experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "Language Proficiency Certification", "Regional Tourism Ambassador"],
-    specialties: ["Historical Landmarks", "Parks & Gardens", "Local Cuisine"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-paris-6",
-    name: "Helen Reeves",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Helen is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Markets, Wine Tasting, Museums, Helen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Caribbean"],
-    tourTypes: ["Private Tour", "Accessible Tour", "Bike Tour", "Festival Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-5877-PAR",
-    phoneNumber: "+1-105-814-2427",
-    contactEmail: "helen.reeves@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "09:00 AM",
             to: "02:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Saturday",
         availableHours: [
           {
             from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Helen is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Markets, Wine Tasting, Museums, Helen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
-    reviewsCount: 68,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Dutch", "Arabic"],
-    experienceYears: 4,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Local Markets", "Wine Tasting", "Museums"],
-    specialTraining: ["Local Transit Systems"],
+    reviewsCount: 28,
+    quote: "In Paris, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
+    languages: ["Romanian"],
+    experienceYears: 2,
+    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate", "Language Proficiency Certification"],
+    specialties: ["Public Transportation Navigation"],
+    specialTraining: ["Wine Education"],
   }
 ];

@@ -3,20 +3,33 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const juneauunitedStatesalaskaGuides: TourGuide[] = [
   {
     id: "guide-juneau-1",
-    name: "Evelyn Maxwell",
+    name: "Wei Lee",
     city: "Juneau",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, LGBTQ+ History, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Alaska"],
-    tourTypes: ["Helicopter Tour", "LGBTQ+ Friendly Tour", "Museum Tour", "Cooking Class"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-8991-JUN",
-    phoneNumber: "+1-318-806-9918",
-    contactEmail: "evelyn.maxwell@paragontrails.com",
+    bio: "Wei is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Public Transportation Navigation, Parks & Gardens, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Ghost Tour", "Underground Tour", "Relocation Tour", "Cooking Class", "Museum Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-5679-JUN",
+    phoneNumber: "+1-516-691-8337",
+    contactEmail: "wei.lee@paragontrails.com",
     available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
       {
         day: "Tuesday",
         availableHours: [
@@ -25,76 +38,8 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
             to: "07:00 PM",
           },
           {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
             from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, LGBTQ+ History, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 59,
-    quote: "In Juneau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    languages: ["Mandarin", "Indonesian", "Tagalog"],
-    experienceYears: 9,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Family Activities", "LGBTQ+ History"],
-    specialTraining: ["Art History", "Religious Studies"],
-  },
-  {
-    id: "guide-juneau-2",
-    name: "Thomas Jackson",
-    city: "Juneau",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Thomas is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Film Locations, Local Craftsmanship, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Helicopter Tour", "Architecture Tour", "Brewery Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5918-JUN",
-    phoneNumber: "+1-798-405-6443",
-    contactEmail: "thomas.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -102,13 +47,68 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "06:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wei is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Public Transportation Navigation, Parks & Gardens, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 42,
+    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
+    languages: ["Russian", "Polish", "Romanian"],
+    experienceYears: 5,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Public Transportation Navigation", "Parks & Gardens"],
+    specialTraining: ["Desert Navigation", "Urban Planning"],
+  },
+  {
+    id: "guide-juneau-2",
+    name: "Ashley Taylor",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Ashley is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Family-Friendly Tour", "Audio Tour", "Cooking Class", "Architecture Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3025-JUN",
+    phoneNumber: "+1-640-175-9133",
+    contactEmail: "ashley.taylor@paragontrails.com",
+    available: [
+      {
         day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
         availableHours: [
           {
             from: "10:00 AM",
@@ -120,81 +120,8 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Thomas is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Film Locations, Local Craftsmanship, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 84,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    languages: ["Mandarin", "English"],
-    experienceYears: 14,
-    certifications: ["Cultural Heritage Specialist", "Wilderness First Responder"],
-    specialties: ["Hidden Gems", "Film Locations", "Local Craftsmanship"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-juneau-3",
-    name: "Omar Hawkins",
-    city: "Juneau",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Omar is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Indigenous Culture, Film Locations, Family Activities, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Africa"],
-    tourTypes: ["Luxury Tour", "Group Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2511-JUN",
-    phoneNumber: "+1-585-293-6253",
-    contactEmail: "omar.hawkins@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -202,200 +129,54 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Omar is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Indigenous Culture, Film Locations, Family Activities, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 20,
-    quote: "Every corner of Juneau tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    languages: ["Turkish", "Hindi"],
-    experienceYears: 16,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide", "Sustainable Tourism Certificate"],
-    specialties: ["Street Food", "Indigenous Culture", "Film Locations", "Family Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-juneau-4",
-    name: "Blake Watson",
-    city: "Juneau",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Blake is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Cuisine, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Family-Friendly Tour", "Private Tour", "Festival Tour", "Farm Visit", "Wine Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-6431-JUN",
-    phoneNumber: "+1-508-895-9413",
-    contactEmail: "blake.watson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
+            from: "03:00 PM",
             to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Blake is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Cuisine, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 31,
-    quote: "In Juneau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Swahili", "Danish", "Vietnamese"],
-    experienceYears: 6,
-    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder"],
-    specialties: ["Local Cuisine"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-juneau-5",
-    name: "Lucas Hernandez",
-    city: "Juneau",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Romantic Tour", "Festival Tour", "Religious Tour", "Food Tour", "Private Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-2755-JUN",
-    phoneNumber: "+1-437-787-7992",
-    contactEmail: "lucas.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
           },
           {
             from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 56,
-    quote: "Every corner of Juneau tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Vietnamese", "Polish", "Finnish"],
-    experienceYears: 7,
-    certifications: ["CPR & First Aid", "Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
+    description: "Ashley is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Hidden Gems, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 26,
+    quote: "Juneau isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+    languages: ["Vietnamese", "German", "Russian"],
+    experienceYears: 6,
+    certifications: ["CPR & First Aid", "Certified International Tour Manager"],
     specialties: ["Hidden Gems"],
-    specialTraining: ["Mountain Survival"],
+    specialTraining: ["Emergency Response", "Desert Navigation"],
   },
   {
-    id: "guide-juneau-6",
-    name: "Matthew Clark",
+    id: "guide-juneau-3",
+    name: "John Maxwell",
     city: "Juneau",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: true,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Film Locations, Photography Spots, Local Markets, Nightlife, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "West Coast USA"],
-    tourTypes: ["Shopping Tour", "Cooking Class"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-1953-JUN",
-    phoneNumber: "+1-939-700-6114",
-    contactEmail: "matthew.clark@paragontrails.com",
+    bio: "John is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Mediterranean"],
+    tourTypes: ["Cruise Excursion", "Market Tour", "Off-Road Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-2387-JUN",
+    phoneNumber: "+1-289-411-7949",
+    contactEmail: "john.maxwell@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
           {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -404,7 +185,88 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "John is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 22,
+    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["Portuguese", "Norwegian", "German"],
+    experienceYears: 12,
+    certifications: ["Language Proficiency Certification", "Eco-Tourism Guide", "Cultural Heritage Specialist"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: ["Mountain Survival", "Photography"],
+  },
+  {
+    id: "guide-juneau-4",
+    name: "Kinsley Kim",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Kinsley is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Religious Sites, Cultural Etiquette, Architecture, Photography Spots, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Caribbean"],
+    tourTypes: ["Nature Tour", "Ghost Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-9528-JUN",
+    phoneNumber: "+1-328-570-1724",
+    contactEmail: "kinsley.kim@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -412,12 +274,59 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "07:00 PM",
           },
           {
-            from: "03:00 PM",
-            to: "09:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kinsley is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Religious Sites, Cultural Etiquette, Architecture, Photography Spots, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 17,
+    quote: "My goal is to help you fall in love with Juneau just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
+    languages: ["French", "Hungarian", "Mandarin"],
+    experienceYears: 16,
+    certifications: ["Language Proficiency Certification", "Food Safety Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Religious Sites", "Cultural Etiquette", "Architecture", "Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-juneau-5",
+    name: "Ravi Wood",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Ravi is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Museums, Family Activities, Ravi provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Craft Workshop", "Street Art Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-3482-JUN",
+    phoneNumber: "+1-777-571-9346",
+    contactEmail: "ravi.wood@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -425,26 +334,168 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
             from: "12:00 PM",
             to: "05:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "02:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Film Locations, Photography Spots, Local Markets, Nightlife, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Ravi is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Museums, Family Activities, Ravi provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 45,
+    quote: "Juneau isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+    languages: ["Japanese", "English"],
+    experienceYears: 12,
+    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate", "Sustainable Tourism Certificate"],
+    specialties: ["Museums", "Family Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-juneau-6",
+    name: "Ella Hall",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Adventure Sports, Wine Tasting, LGBTQ+ History, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Festival Tour", "Wine Tour", "Group Tour", "LGBTQ+ Friendly Tour", "Photography Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-4510-JUN",
+    phoneNumber: "+1-125-711-4246",
+    contactEmail: "ella.hall@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ella is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Adventure Sports, Wine Tasting, LGBTQ+ History, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
-    reviewsCount: 18,
-    quote: "My goal is to help you fall in love with Juneau just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Spanish"],
-    experienceYears: 2,
-    certifications: ["Professional Tour Guide Association", "Local History Certification", "Urban Navigation Specialist"],
-    specialties: ["Film Locations", "Photography Spots", "Local Markets", "Nightlife"],
-    specialTraining: ["Wine Education", "Public Speaking"],
+    reviewsCount: 89,
+    quote: "In Juneau, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+    languages: ["Italian"],
+    experienceYears: 6,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Adventure Sports", "Wine Tasting", "LGBTQ+ History", "Wildlife"],
+    specialTraining: ["Urban Planning", "Group Management"],
+  },
+  {
+    id: "guide-juneau-7",
+    name: "Rachel Hudson",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Rachel is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Local Cuisine, Nightlife, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Asia Pacific"],
+    tourTypes: ["Helicopter Tour", "Walking Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-5629-JUN",
+    phoneNumber: "+1-729-134-9437",
+    contactEmail: "rachel.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Rachel is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Local Cuisine, Nightlife, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 25,
+    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+    languages: ["Bulgarian", "Thai", "Italian"],
+    experienceYears: 15,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Street Food", "Local Cuisine", "Nightlife"],
+    specialTraining: ["Mountain Survival"],
   }
 ];

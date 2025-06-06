@@ -3,120 +3,30 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const yokohamajapanasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-yokohama-1",
-    name: "Ava Dean",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Ava is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Photography Spots, Historical Landmarks, Religious Sites, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "South America"],
-    tourTypes: ["Market Tour", "Walking Tour", "Accessible Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-7120-YOK",
-    phoneNumber: "+1-775-876-5888",
-    contactEmail: "ava.dean@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Photography Spots, Historical Landmarks, Religious Sites, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 67,
-    quote: "In Yokohama, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    languages: ["Dutch", "Norwegian", "Hungarian"],
-    experienceYears: 14,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Photography Spots", "Historical Landmarks", "Religious Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-yokohama-2",
-    name: "Maria Reed",
+    name: "Sebastian Wallace",
     city: "Yokohama",
     country: "Japan",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Maria is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Photography Tour", "Eco Tour", "Accessible Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6953-YOK",
-    phoneNumber: "+1-371-153-3706",
-    contactEmail: "maria.reed@paragontrails.com",
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Religious Sites, Cultural Etiquette, Urban Legends, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Cruise Excursion", "Street Art Tour", "Nature Tour", "Scenic Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2402-YOK",
+    phoneNumber: "+1-935-590-6110",
+    contactEmail: "sebastian.wallace@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          },
           {
             from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
             to: "02:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
+            from: "03:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -124,54 +34,11 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Maria is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 13,
-    quote: "In Yokohama, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    languages: ["Thai", "Serbian"],
-    experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Music Scene"],
-    specialTraining: ["Art History", "Regional Cuisine"],
-  },
-  {
-    id: "guide-yokohama-3",
-    name: "Isabella Singh",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Mediterranean"],
-    tourTypes: ["Brewery Tour", "Food Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-7973-YOK",
-    phoneNumber: "+1-104-427-5293",
-    contactEmail: "isabella.singh@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
+            from: "03:00 PM",
             to: "05:00 PM",
           }
         ],
@@ -180,8 +47,63 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sebastian is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Religious Sites, Cultural Etiquette, Urban Legends, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 38,
+    quote: "In Yokohama, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+    languages: ["Serbian", "French"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate"],
+    specialties: ["Religious Sites", "Cultural Etiquette", "Urban Legends", "Wildlife"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-yokohama-2",
+    name: "Alexander Smith",
+    city: "Yokohama",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Urban Legends, Parks & Gardens, Indigenous Culture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "West Coast USA"],
+    tourTypes: ["Scenic Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-9191-YOK",
+    phoneNumber: "+1-356-398-4552",
+    contactEmail: "alexander.smith@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -189,9 +111,70 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexander is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Urban Legends, Parks & Gardens, Indigenous Culture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 86,
+    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+    languages: ["Indonesian"],
+    experienceYears: 2,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Urban Legends", "Parks & Gardens", "Indigenous Culture"],
+    specialTraining: ["Regional Cuisine", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-yokohama-3",
+    name: "Chen Reeves",
+    city: "Yokohama",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Chen is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Hidden Gems, Adventure Sports, Local Craftsmanship, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Bike Tour", "Market Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-8884-YOK",
+    phoneNumber: "+1-237-412-2388",
+    contactEmail: "chen.reeves@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
             from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
             to: "02:00 PM",
-          },
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
           {
             from: "08:00 AM",
             to: "11:00 AM",
@@ -200,15 +183,15 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 24,
-    quote: "Yokohama isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    languages: ["Malay", "Polish", "Finnish"],
-    experienceYears: 16,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Religious Sites"],
-    specialTraining: ["Historical Research Methods"],
+    description: "Chen is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Hidden Gems, Adventure Sports, Local Craftsmanship, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 99,
+    quote: "Every corner of Yokohama tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 12,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Music Scene", "Hidden Gems", "Adventure Sports", "Local Craftsmanship"],
+    specialTraining: ["Regional Cuisine"],
   }
 ];

@@ -3,142 +3,91 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const santorinigreecemediterraneanGuides: TourGuide[] = [
   {
     id: "guide-santorini-1",
-    name: "Thabo Martinez",
+    name: "Mohamed Lewis",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
-    isPopular: false,
-    bio: "Thabo is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Urban Legends, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Scenic Tour", "Cooking Class"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6333-SAN",
-    phoneNumber: "+1-892-250-8318",
-    contactEmail: "thabo.martinez@paragontrails.com",
+    isPopular: true,
+    bio: "Mohamed is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Wine Tasting, Parks & Gardens, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Middle East"],
+    tourTypes: ["Street Art Tour", "Luxury Tour", "Market Tour", "Cultural Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-2746-SAN",
+    phoneNumber: "+1-514-437-5026",
+    contactEmail: "mohamed.lewis@paragontrails.com",
     available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Thabo is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Urban Legends, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 5,
-    quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Hebrew", "Czech", "Indonesian"],
-    experienceYears: 9,
-    certifications: ["Food Safety Certification", "Professional Tour Guide Association", "Wilderness First Responder"],
-    specialties: ["Adventure Sports", "Urban Legends"],
-    specialTraining: ["Cultural Sensitivity", "Regional Cuisine"],
-  },
-  {
-    id: "guide-santorini-2",
-    name: "Steven Wood",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Steven is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Art Galleries, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Northern Europe"],
-    tourTypes: ["Scenic Tour", "Architecture Tour", "Festival Tour", "Cultural Tour", "Adventure Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-2484-SAN",
-    phoneNumber: "+1-549-183-5166",
-    contactEmail: "steven.wood@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
+            from: "11:00 AM",
             to: "04:00 PM",
           },
           {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            from: "11:00 AM",
+            to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "12:00 PM",
-            to: "05:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            from: "02:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Steven is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Art Galleries, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 8,
-    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
-    languages: ["German"],
-    experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist", "CPR & First Aid"],
-    specialties: ["LGBTQ+ History", "Art Galleries"],
-    specialTraining: ["Religious Studies"],
+    description: "Mohamed is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Wine Tasting, Parks & Gardens, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 35,
+    quote: "Every corner of Santorini tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+    languages: ["Bulgarian"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification"],
+    specialties: ["Religious Sites", "Wine Tasting", "Parks & Gardens"],
+    specialTraining: [],
   },
   {
-    id: "guide-santorini-3",
-    name: "Zachary Payne",
+    id: "guide-santorini-2",
+    name: "Sarah Graves",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Zachary is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Craftsmanship, Parks & Gardens, Historical Landmarks, Local Markets, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Romantic Tour", "Shopping Tour", "Market Tour", "Accessible Tour", "Luxury Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-5068-SAN",
-    phoneNumber: "+1-974-588-1873",
-    contactEmail: "zachary.payne@paragontrails.com",
+    bio: "Sarah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Middle East"],
+    tourTypes: ["Eco Tour", "Relocation Tour", "Market Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-1001-SAN",
+    phoneNumber: "+1-169-238-7911",
+    contactEmail: "sarah.graves@paragontrails.com",
     available: [
       {
         day: "Friday",
         availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
           {
             from: "03:00 PM",
             to: "09:00 PM",
@@ -150,58 +99,71 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
             from: "09:00 AM",
-            to: "03:00 PM",
+            to: "12:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Zachary is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Craftsmanship, Parks & Gardens, Historical Landmarks, Local Markets, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 75,
+    description: "Sarah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 42,
     quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    languages: ["Hebrew", "Norwegian"],
-    experienceYears: 4,
-    certifications: ["Licensed City Guide", "Sustainable Tourism Certificate"],
-    specialties: ["Local Craftsmanship", "Parks & Gardens", "Historical Landmarks", "Local Markets"],
-    specialTraining: ["Emergency Response"],
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Danish"],
+    experienceYears: 12,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Family Activities"],
+    specialTraining: ["Wine Education"],
   },
   {
-    id: "guide-santorini-4",
-    name: "Henry Martinez",
+    id: "guide-santorini-3",
+    name: "Luis Jansen",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Hidden Gems, Wine Tasting, Family Activities, Cultural Etiquette, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: ["Eco Tour", "Cooking Class"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-5829-SAN",
-    phoneNumber: "+1-121-396-6006",
-    contactEmail: "henry.martinez@paragontrails.com",
+    bio: "Luis is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Underground Tour", "Private Tour", "Cultural Tour", "Food Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1632-SAN",
+    phoneNumber: "+1-869-213-3841",
+    contactEmail: "luis.jansen@paragontrails.com",
     available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
       {
         day: "Monday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "01:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -210,58 +172,58 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "08:00 AM",
-            to: "02:00 PM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
           },
           {
             from: "03:00 PM",
-            to: "05:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Hidden Gems, Wine Tasting, Family Activities, Cultural Etiquette, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Luis is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
-    reviewsCount: 57,
-    quote: "Every corner of Santorini tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Vietnamese", "Romanian", "Hebrew"],
-    experienceYears: 4,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Hidden Gems", "Wine Tasting", "Family Activities", "Cultural Etiquette"],
-    specialTraining: ["Wine Education", "Group Management"],
+    reviewsCount: 66,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
+    languages: ["Hungarian", "Dutch"],
+    experienceYears: 5,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Religious Sites"],
+    specialTraining: ["Conflict Resolution"],
   },
   {
-    id: "guide-santorini-5",
-    name: "Aaron Hudson",
+    id: "guide-santorini-4",
+    name: "Douglas Hall",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "Aaron is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Cuisine, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Cruise Excursion", "Walking Tour", "Street Art Tour", "Bike Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-5994-SAN",
-    phoneNumber: "+1-665-518-9328",
-    contactEmail: "aaron.hudson@paragontrails.com",
+    bio: "Douglas is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Adventure Sports, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Audio Tour", "Underground Tour", "Eco Tour", "Ghost Tour", "Nature Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-1678-SAN",
+    phoneNumber: "+1-197-317-7399",
+    contactEmail: "douglas.hall@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -269,72 +231,8 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
+            from: "03:00 PM",
             to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Aaron is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Cuisine, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 93,
-    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    languages: ["Romanian"],
-    experienceYears: 12,
-    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador", "Urban Navigation Specialist"],
-    specialties: ["Local Cuisine"],
-    specialTraining: ["Emergency Response"],
-  },
-  {
-    id: "guide-santorini-6",
-    name: "Zoe Marshall",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Art Galleries, Local Craftsmanship, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast USA"],
-    tourTypes: ["Street Art Tour", "Family-Friendly Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-5457-SAN",
-    phoneNumber: "+1-620-973-5191",
-    contactEmail: "zoe.marshall@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
           }
         ],
       },
@@ -346,40 +244,65 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
             to: "06:00 PM",
           }
         ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Douglas is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Adventure Sports, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 94,
+    quote: "Every corner of Santorini tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    languages: ["Swahili", "Swedish", "Cantonese"],
+    experienceYears: 8,
+    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
+    specialties: ["Family Activities", "Adventure Sports"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-santorini-5",
+    name: "Carlos Watson",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Carlos is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Art Galleries, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Shopping Tour", "Wine Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2075-SAN",
+    phoneNumber: "+1-813-787-9338",
+    contactEmail: "carlos.watson@paragontrails.com",
+    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Art Galleries, Local Craftsmanship, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 28,
-    quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    languages: ["Indonesian", "Korean", "Tagalog"],
-    experienceYears: 5,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Photography Spots", "Art Galleries", "Local Craftsmanship", "Hidden Gems"],
-    specialTraining: ["Wine Education", "Public Speaking"],
+    description: "Carlos is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Art Galleries, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 65,
+    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+    languages: ["Serbian", "French", "Czech"],
+    experienceYears: 9,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Local Markets", "Art Galleries"],
+    specialTraining: ["Art History", "Historical Research Methods"],
   }
 ];

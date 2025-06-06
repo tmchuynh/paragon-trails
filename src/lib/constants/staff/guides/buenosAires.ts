@@ -3,39 +3,99 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
   {
     id: "guide-buenos-aires-1",
-    name: "Hassan Garcia",
+    name: "Zachary Müller",
     city: "Buenos Aires",
     country: "Argentina",
     state: "",
     region: "South America",
-    isPopular: true,
-    bio: "Hassan is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Cultural Etiquette, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Underground Tour", "Religious Tour", "Group Tour", "Cultural Tour", "Private Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-9011-BUE",
-    phoneNumber: "+1-374-596-8898",
-    contactEmail: "hassan.garcia@paragontrails.com",
+    isPopular: false,
+    bio: "Zachary is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Parks & Gardens, Nightlife, Film Locations, Wildlife, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Caribbean"],
+    tourTypes: ["Off-Road Tour", "Farm Visit", "Street Art Tour", "Market Tour", "Audio Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7800-BUE",
+    phoneNumber: "+1-394-132-2640",
+    contactEmail: "zachary.müller@paragontrails.com",
     available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "08:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Zachary is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Parks & Gardens, Nightlife, Film Locations, Wildlife, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 72,
+    quote: "Every corner of Buenos Aires tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+    languages: ["Arabic", "English"],
+    experienceYears: 14,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Parks & Gardens", "Nightlife", "Film Locations", "Wildlife"],
+    specialTraining: ["Mountain Survival"],
+  },
+  {
+    id: "guide-buenos-aires-2",
+    name: "Virginia Marshall",
+    city: "Buenos Aires",
+    country: "Argentina",
+    state: "",
+    region: "South America",
+    isPopular: true,
+    bio: "Virginia is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Music Scene, Museums, Wine Tasting, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Market Tour", "Cruise Excursion"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9947-BUE",
+    phoneNumber: "+1-490-269-5638",
+    contactEmail: "virginia.marshall@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -43,17 +103,8 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "02:00 PM",
+            to: "05:00 PM",
           },
           {
             from: "09:00 AM",
@@ -63,33 +114,46 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Hassan is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Cultural Etiquette, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 30,
-    quote: "Buenos Aires isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    languages: ["French", "Swahili"],
-    experienceYears: 7,
-    certifications: ["Certified International Tour Manager", "CPR & First Aid"],
-    specialties: ["Cultural Etiquette"],
-    specialTraining: [],
+    description: "Virginia is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Music Scene, Museums, Wine Tasting, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 78,
+    quote: "In Buenos Aires, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+    languages: ["Turkish"],
+    experienceYears: 16,
+    certifications: ["Adventure Tourism Safety Certificate", "Language Proficiency Certification"],
+    specialties: ["Music Scene", "Museums", "Wine Tasting"],
+    specialTraining: ["Desert Navigation", "Regional Cuisine"],
   },
   {
-    id: "guide-buenos-aires-2",
-    name: "Priya Ivanov",
+    id: "guide-buenos-aires-3",
+    name: "Melissa Williams",
     city: "Buenos Aires",
     country: "Argentina",
     state: "",
     region: "South America",
     isPopular: false,
-    bio: "Priya is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wine Tasting, LGBTQ+ History, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Northern Europe"],
-    tourTypes: ["Self-Guided Tour", "Boat Tour", "Underground Tour", "Architecture Tour", "Street Art Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-4219-BUE",
-    phoneNumber: "+1-698-830-7662",
-    contactEmail: "priya.ivanov@paragontrails.com",
+    bio: "Melissa is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Museums, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Photography Tour", "Nature Tour", "Farm Visit", "Historical Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2677-BUE",
+    phoneNumber: "+1-106-321-6783",
+    contactEmail: "melissa.williams@paragontrails.com",
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
       {
         day: "Saturday",
         availableHours: [
@@ -98,68 +162,46 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
             to: "12:00 PM",
           }
         ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
       }
     ],
     isCertified: true,
-    description: "Priya is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wine Tasting, LGBTQ+ History, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 34,
+    description: "Melissa is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Museums, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 73,
     quote: "The best way to discover Buenos Aires is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    languages: ["Polish"],
-    experienceYears: 12,
-    certifications: ["Heritage Interpretation Certificate", "Sustainable Tourism Certificate"],
-    specialties: ["Wine Tasting", "LGBTQ+ History"],
+    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+    languages: ["Swahili"],
+    experienceYears: 4,
+    certifications: ["Licensed City Guide", "Adventure Tourism Safety Certificate"],
+    specialties: ["Museums"],
     specialTraining: [],
   },
   {
-    id: "guide-buenos-aires-3",
-    name: "Katherine Baker",
+    id: "guide-buenos-aires-4",
+    name: "Chloe Nakamura",
     city: "Buenos Aires",
     country: "Argentina",
     state: "",
     region: "South America",
-    isPopular: false,
-    bio: "Katherine is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Local Cuisine, Cultural Etiquette, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Ghost Tour", "Scenic Tour", "Luxury Tour", "Cruise Excursion"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-3553-BUE",
-    phoneNumber: "+1-981-386-3433",
-    contactEmail: "katherine.baker@paragontrails.com",
+    isPopular: true,
+    bio: "Chloe is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Hidden Gems, Wildlife, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Africa"],
+    tourTypes: ["Cruise Excursion", "Off-Road Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-5190-BUE",
+    phoneNumber: "+1-983-548-2713",
+    contactEmail: "chloe.nakamura@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "07:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -167,21 +209,50 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Chloe is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Hidden Gems, Wildlife, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 12,
+    quote: "The best way to discover Buenos Aires is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+    languages: ["Malay"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    specialties: ["Hidden Gems", "Wildlife"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-buenos-aires-5",
+    name: "Barbara Suzuki",
+    city: "Buenos Aires",
+    country: "Argentina",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Barbara is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Historical Landmarks, Hidden Gems, Sustainable Tourism, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Wine Tour", "Walking Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9022-BUE",
+    phoneNumber: "+1-114-721-3355",
+    contactEmail: "barbara.suzuki@paragontrails.com",
+    available: [
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "10:00 AM",
             to: "03:00 PM",
           },
           {
-            from: "03:00 PM",
-            to: "06:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -189,118 +260,7 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Katherine is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Local Cuisine, Cultural Etiquette, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 34,
-    quote: "Every corner of Buenos Aires tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["German", "Malay", "Swahili"],
-    experienceYears: 12,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
-    specialties: ["Local Cuisine", "Cultural Etiquette"],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-buenos-aires-4",
-    name: "Barbara Müller",
-    city: "Buenos Aires",
-    country: "Argentina",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Barbara is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Local Craftsmanship, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "East Coast USA"],
-    tourTypes: ["Photography Tour", "Cooking Class"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2078-BUE",
-    phoneNumber: "+1-766-277-6656",
-    contactEmail: "barbara.müller@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Barbara is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Local Craftsmanship, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 44,
-    quote: "In Buenos Aires, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["Dutch", "Vietnamese"],
-    experienceYears: 4,
-    certifications: ["Local History Certification", "Certified International Tour Manager"],
-    specialties: ["Local Craftsmanship"],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-buenos-aires-5",
-    name: "Donna Carpenter",
-    city: "Buenos Aires",
-    country: "Argentina",
-    state: "",
-    region: "South America",
-    isPopular: true,
-    bio: "Donna is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wildlife, Museums, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Underground Tour", "Festival Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-8573-BUE",
-    phoneNumber: "+1-117-280-1785",
-    contactEmail: "donna.carpenter@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "02:00 PM",
+            from: "03:00 PM",
             to: "05:00 PM",
           }
         ],
@@ -310,25 +270,120 @@ export const buenosAiresargentinasouthAmericaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "09:00 AM",
-            to: "02:00 PM",
+            to: "01:00 PM",
           },
           {
             from: "01:00 PM",
-            to: "06:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Donna is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wildlife, Museums, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 33,
+    description: "Barbara is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Historical Landmarks, Hidden Gems, Sustainable Tourism, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 41,
     quote: "The best way to discover Buenos Aires is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-    languages: ["Bulgarian", "French"],
-    experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Wildlife", "Museums"],
-    specialTraining: [],
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+    languages: ["Polish"],
+    experienceYears: 8,
+    certifications: ["Adventure Tourism Safety Certificate", "CPR & First Aid", "Certified International Tour Manager"],
+    specialties: ["Historical Landmarks", "Hidden Gems", "Sustainable Tourism"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-buenos-aires-6",
+    name: "Samantha Jansen",
+    city: "Buenos Aires",
+    country: "Argentina",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Samantha is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wine Tasting, Hidden Gems, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Cruise Excursion", "Boat Tour", "Nature Tour", "Craft Workshop"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-2898-BUE",
+    phoneNumber: "+1-244-457-2393",
+    contactEmail: "samantha.jansen@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Samantha is a passionate tour guide with extensive knowledge of Buenos Aires and Argentina. Specializing in Wine Tasting, Hidden Gems, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 40,
+    quote: "In Buenos Aires, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Swedish"],
+    experienceYears: 16,
+    certifications: ["Local History Certification"],
+    specialties: ["Wine Tasting", "Hidden Gems"],
+    specialTraining: ["Regional Geology"],
   }
 ];
