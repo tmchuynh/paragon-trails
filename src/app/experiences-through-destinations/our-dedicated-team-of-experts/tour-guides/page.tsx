@@ -40,6 +40,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
 export default function TourGuidesPage() {
   const [guides, setGuides] = useState<TourGuide[]>([]);
@@ -661,19 +662,11 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
       <div className="flex flex-col justify-between p-4 h-full text-center">
         <div className="h-full">
           <h3 className="mb-1 font-semibold text-xl">{guide.name}</h3>
-          <p className="mb-2 text-gray-600">
+          <h5 className="mb-2">
             {guide.city}, {guide.country}
-          </p>
+          </h5>
           {/* Rating display */}
-          <div className="flex justify-center items-center mb-4">
-            <div className="flex text-amber-500">
-              {"★".repeat(Math.round(guide.rating))}
-              {"☆".repeat(5 - Math.round(guide.rating))}
-            </div>
-            <span className="ml-2 text-gray-600 text-sm">
-              ({guide.reviewsCount} reviews)
-            </span>
-          </div>
+          {displayRatingStars(Math.round(guide.rating))}
           {/* Specialty tags */}
           <div className="flex flex-wrap justify-center gap-1 mb-4">
             {guide.specialties?.slice(0, 2).map((specialty) => (
@@ -711,9 +704,7 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
                   priority
                 />
 
-                <h3 className="mb-2 font-semibold text-lg">
-                  Contact Information
-                </h3>
+                <h2>Contact Information</h2>
                 <p className="mb-1">
                   <strong>Phone:</strong> {guide.phoneNumber}
                 </p>
@@ -726,15 +717,13 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
                   <strong>License:</strong> {guide.licenseNumber}
                 </p>
 
-                <h3>Ratings & Reviews</h3>
-                <div className="flex items-center mb-2">
-                  <div className="flex items-center text-amber-500">
-                    {"★".repeat(Math.round(guide.rating))}
-                    {"☆".repeat(5 - Math.round(guide.rating))}
-                  </div>
-                  <span className="ml-2">{guide.rating} / 5</span>
+                <div className="inline-flex items-baseline gap-3">
+                  <h3>Ratings & Reviews</h3>
+                  <p className="text-xs">({guide.reviewsCount} reviews)</p>
                 </div>
-                <p className="text-gray-700">{guide.reviewsCount} reviews</p>
+                <div className="flex items-center mb-2">
+                  {displayRatingStars(Math.round(guide.rating))}
+                </div>
               </div>
 
               {/* Right Column */}
