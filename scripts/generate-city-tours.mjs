@@ -892,7 +892,7 @@ function generateTour(city, index, guides) {
   const currency = currencies[currencyIndex].code;
   const currencySymbol = currencies[currencyIndex].symbol;
 
-  const pricePerPerson = Math.floor(Math.random() * 150) + 35; // $20-$170
+  const pricePerPerson = Math.floor(Math.random() * 150) + 35;
   const price = `${currencySymbol}${pricePerPerson}`;
 
   // Generate group size details
