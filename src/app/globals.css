@@ -237,7 +237,7 @@
   header h1,
   header h5,
   header blockquote {
-    @apply text-center;
+    @apply text-start;
   }
 
   section {
