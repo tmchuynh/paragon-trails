@@ -1,4 +1,4 @@
-import { FiHome, FiUsers, FiGlobe, FiMap, FiHeart } from "react-icons/fi";
+import { FiUsers, FiMap, FiHeart } from "react-icons/fi";
 import {
   RiHotelLine,
   RiCommunityLine,
@@ -6,18 +6,44 @@ import {
   RiPlaneLine,
   RiEarthLine,
   RiKnifeLine,
-  RiLeafLine,
-  RiBookReadLine,
 } from "react-icons/ri";
 import {
   GiElephant,
   GiNetworkBars,
   GiOpenBook,
   GiTribalGear,
-  GiMapleLeaf,
 } from "react-icons/gi";
-import { BsBank, BsPeople } from "react-icons/bs";
+import { BsBank } from "react-icons/bs";
 import { MdOutlineEmojiNature } from "react-icons/md";
+
+export const currencyRates = {
+  USD: 1,
+  EUR: 0.93,
+  GBP: 0.79,
+  JPY: 150.5,
+  AUD: 1.52,
+  CAD: 1.36,
+  CNY: 7.22,
+  CHF: 0.9, // Swiss Franc
+  SEK: 10.65, // Swedish Krona
+  NOK: 10.5, // Norwegian Krone
+  DKK: 6.95, // Danish Krone
+  NZD: 1.61, // New Zealand Dollar
+  INR: 83.2, // Indian Rupee
+  MXN: 17.1, // Mexican Peso
+  BRL: 5.25, // Brazilian Real
+  ZAR: 18.6, // South African Rand
+  KRW: 1380, // South Korean Won
+  SGD: 1.35, // Singapore Dollar
+  HKD: 7.82, // Hong Kong Dollar
+  AED: 3.67, // UAE Dirham
+  THB: 36.1, // Thai Baht
+  TRY: 32.5, // Turkish Lira
+  IDR: 15800, // Indonesian Rupiah
+  PHP: 57.9, // Philippine Peso
+  PLN: 3.96, // Polish Złoty
+  HUF: 364, // Hungarian Forint
+};
 
 export const teamMembers = [
   {
