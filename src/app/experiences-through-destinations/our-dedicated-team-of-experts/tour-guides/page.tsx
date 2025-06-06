@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { getTourGuides } from "@/lib/utils/get/guides";
+import { getTourGuideReviews } from "@/lib/utils/get/guides";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { TourType } from "@/lib/interfaces/services/tours";
 import {
@@ -41,6 +42,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
+import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export default function TourGuidesPage() {
   const [guides, setGuides] = useState<TourGuide[]>([]);
@@ -642,14 +644,34 @@ export default function TourGuidesPage() {
 
 // Tour Guide Profile Card in the style shown in the image
 function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
+  const [reviews, setReviews] = useState<Testimonial[]>([]);
+  const [isLoadingReviews, setIsLoadingReviews] = useState(false);
+
+  // Load reviews when dialog opens
+  const loadReviews = async () => {
+    if (reviews.length > 0) return; // Don't reload if we already have them
+
+    setIsLoadingReviews(true);
+    try {
+      const guideReviews = await getTourGuideReviews(guide.city, guide.id);
+      setReviews(guideReviews);
+    } catch (error) {
+      console.error(`Error loading reviews for ${guide.name}:`, error);
+    } finally {
+      setIsLoadingReviews(false);
+    }
+  };
+
   return (
     <div className="flex flex-col shadow-md border border-border rounded-lg h-full overflow-hidden">
       {/* Guide Image */}
       <div className="relative h-64">
-        <img
+        <Image
           src={guide.profileImage}
           alt={guide.name}
           className="w-full h-full object-cover"
+          width={800}
+          height={500}
         />
 
         {/* Badges for popular and certified */}
@@ -661,7 +683,7 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
 
       <div className="flex flex-col justify-between p-4 h-full text-center">
         <div className="h-full">
-          <h3 className="mb-1 font-semibold text-xl">{guide.name}</h3>
+          <h3>{guide.name}</h3>
           <h5 className="mb-2">
             {guide.city}, {guide.country}
           </h5>
@@ -685,20 +707,24 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
         {/* View Details Button */}
         <Dialog>
           <DialogTrigger asChild>
-            <Button className="w-full">View Details</Button>
+            <Button className="w-full" onClick={loadReviews}>
+              View Details
+            </Button>
           </DialogTrigger>
-          <DialogContent className="flex flex-col min-w-10/12 h-8/9 overflow-y-auto">
+          <DialogContent className="flex flex-col min-w-10/12 max-h-8/9 overflow-y-auto">
             <DialogHeader>
-              <DialogTitle className="text-2xl">{guide.name}</DialogTitle>
+              <DialogTitle className="sr-only">{guide.name}</DialogTitle>
+              <h1>{guide.name}</h1>
+              <h5>{guide.quote}</h5>
             </DialogHeader>
 
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-4">
+            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-6 mt-4">
               {/* Left Column */}
-              <div>
+              <div className="lg:col-span-1 xl:col-span-2">
                 <Image
                   src={guide.profileImage}
                   alt={guide.name}
-                  className="mb-4 rounded-lg w-full aspect-square object-cover"
+                  className="lg:block md:hidden mb-4 rounded-lg w-full aspect-square object-cover"
                   width={800}
                   height={500}
                   priority
@@ -717,7 +743,7 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
                   <strong>License:</strong> {guide.licenseNumber}
                 </p>
 
-                <div className="inline-flex items-baseline gap-3">
+                <div className="inline-flex items-baseline gap-3 mt-4">
                   <h3>Ratings & Reviews</h3>
                   <p className="text-xs">({guide.reviewsCount} reviews)</p>
                 </div>
@@ -727,12 +753,11 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
               </div>
 
               {/* Right Column */}
-              <div>
+              <div className="xl:col-span-4">
                 <h2>About</h2>
                 <p className="mb-4">{guide.bio}</p>
 
                 <div className="mb-5">
-                  {" "}
                   <h5>Experience & Expertise</h5>
                   <p>
                     <strong>Years of Experience:</strong>{" "}
@@ -743,43 +768,48 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
                   </p>
                 </div>
 
-                <h3>Regions Covered</h3>
-                <div className="flex flex-wrap gap-2 mt-2 mb-4">
-                  {guide.regionsCovered.map((region) => (
-                    <Badge key={region} variant="successFaded">
-                      {region}
-                    </Badge>
-                  ))}
-                </div>
-
-                <h3>Tour Types</h3>
-                <div className="flex flex-wrap gap-2 mt-2 mb-4">
-                  {guide.tourTypes.map((type) => (
-                    <Badge key={type} variant="secondaryFaded">
-                      {type}
-                    </Badge>
-                  ))}
-                </div>
-
-                <h3>Languages</h3>
-                <div className="flex flex-wrap gap-2 mt-2 mb-4">
-                  {guide.languages.map((language) => (
-                    <Badge key={language} variant={"infoFaded"}>
-                      {language}
-                    </Badge>
-                  ))}
-                </div>
-
-                {guide.specialties && guide.specialties.length > 0 && (
-                  <>
-                    <h3>Specialties</h3>
+                <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mb-6">
+                  <div>
+                    <h3>Regions Covered</h3>
                     <div className="flex flex-wrap gap-2 mt-2 mb-4">
-                      {guide.specialties.map((specialty) => (
-                        <Badge key={specialty}>{specialty}</Badge>
+                      {guide.regionsCovered.map((region) => (
+                        <Badge key={region} variant="successFaded">
+                          {region}
+                        </Badge>
                       ))}
                     </div>
-                  </>
-                )}
+                  </div>
+                  <div>
+                    <h3>Tour Types</h3>
+                    <div className="flex flex-wrap gap-2 mt-2 mb-4">
+                      {guide.tourTypes.map((type) => (
+                        <Badge key={type} variant="secondaryFaded">
+                          {type}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h3>Languages</h3>
+                    <div className="flex flex-wrap gap-2 mt-2 mb-4">
+                      {guide.languages.map((language) => (
+                        <Badge key={language} variant={"infoFaded"}>
+                          {language}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  {guide.specialties && guide.specialties.length > 0 && (
+                    <div>
+                      <h3>Specialties</h3>
+                      <div className="flex flex-wrap gap-2 mt-2 mb-4">
+                        {guide.specialties.map((specialty) => (
+                          <Badge key={specialty}>{specialty}</Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
 
                 <h3>Availability</h3>
                 <div className="flex flex-col mt-2">
@@ -797,6 +827,31 @@ function TourGuideProfileCard({ guide }: { guide: TourGuide }) {
                   ))}
                 </div>
               </div>
+            </div>
+            {/* Reviews Section */}
+            <div className="my-4">
+              <h2>Recent Reviews</h2>
+              {isLoadingReviews ? (
+                <div className="py-4 text-center">Loading reviews...</div>
+              ) : reviews.length > 0 ? (
+                <div className="gap-3 grid md:grid-cols-2 w-full overflow-y-auto">
+                  {reviews.map((review) => (
+                    <div
+                      key={review.id}
+                      className="flex flex-col shadow p-4 border border-border rounded-lg h-full overflow-hidden"
+                    >
+                      {displayRatingStars(Math.round(review.rating))}
+                      <p className="mb-2 text-sm italic">"{review.quote}"</p>
+                      <div className="flex justify-between">
+                        <h5>{review.author}</h5>
+                        <h5>{review.date}</h5>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-2 text-gray-500">No reviews available yet.</p>
+              )}
             </div>
           </DialogContent>
         </Dialog>
