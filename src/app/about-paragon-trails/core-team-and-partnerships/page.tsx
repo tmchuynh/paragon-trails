@@ -139,7 +139,7 @@ export default function CoreTeamAndPartnerships() {
           <h5>The people behind the journeys that redefine luxury.</h5>
         </header>
 
-        <div>
+        <section>
           <p>
             At Paragon Trails, our promise of curated, meaningful travel is made
             possible by a deeply experienced, globally connected, and
@@ -152,16 +152,14 @@ export default function CoreTeamAndPartnerships() {
             and stewards of experience—backed by a global network of like-minded
             visionaries.
           </p>
-        </div>
+        </section>
 
         {/* Leadership Team Section */}
         <section>
-          <h2 className="mb-2 font-semibold text-2xl">Our Leadership Team</h2>
-          <h3 className="mb-6 text-xl italic">
-            Decades of Expertise. One Vision.
-          </h3>
+          <h2>Our Leadership Team</h2>
+          <h5>Decades of Expertise. One Vision.</h5>
 
-          <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mb-6">
+          <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-4 mb-6">
             {teamMembers.map((member, index) => (
               <Card
                 key={`${member.name}-${index}`}
@@ -195,12 +193,10 @@ export default function CoreTeamAndPartnerships() {
 
         {/* Global Partners Section */}
         <section>
-          <h2 className="mb-2 font-semibold text-2xl">Our Global Partners</h2>
-          <h3 className="mb-4 text-xl italic">
-            We go far because we go together.
-          </h3>
+          <h2>Our Global Partners</h2>
+          <h5>We go far because we go together.</h5>
 
-          <p className="mb-6">
+          <p className="my-6">
             Paragon Trails works hand-in-hand with a network of international
             partners who share our passion for thoughtful, ethical travel. Our
             partnerships are based on long-term collaboration, trust, and shared
@@ -230,7 +226,7 @@ export default function CoreTeamAndPartnerships() {
         {/* Awards & Recognition Section */}
         <section>
           <h2>Awards & Recognition</h2>
-          <p className="mb-4">
+          <p>
             Our commitment to excellence has been recognized by leading travel
             publications and organizations worldwide. Here are some of our most
             notable accolades:
@@ -242,59 +238,59 @@ export default function CoreTeamAndPartnerships() {
             strive to make in the world of luxury travel.
           </p>
 
-          <h3 className="mb-4 font-semibold text-xl">Recent Awards</h3>
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12">
+          <h3>Our Prideful Awards</h3>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 mb-12">
             {awards.map((award, index) => (
               <Card
                 key={index}
                 className="flex flex-col border rounded-lg h-full overflow-hidden"
               >
-                <CardContent className="flex flex-col p-6 h-full">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="font-medium text-sm">
-                      {award.years.map((year, i) => (
-                        <span key={i}>
-                          {year}
-                          {i < award.years.length - 1 ? ", " : ""}
-                        </span>
-                      ))}
+                <CardContent className="flex flex-col justify-between px-6 h-full">
+                  <div>
+                    <div className="flex justify-between items-center mb-4">
+                      <div className="flex gap-4">
+                        {award.years.map((year, i) => (
+                          <Badge key={i} variant={"outline"}>
+                            {year}
+                            {i < award.years.length - 1 ? ", " : ""}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <Badge variant="outline">Award</Badge>
+                    <h4 className="mb-3 font-semibold text-lg">
+                      {award.title}
+                    </h4>
                   </div>
-
-                  <h4 className="mb-3 font-semibold text-lg">{award.title}</h4>
-                  <p className="text-muted-foreground text-sm">
-                    {award.description}
-                  </p>
+                  <p className="text-muted-foreground">{award.description}</p>
                 </CardContent>
               </Card>
             ))}
           </div>
 
-          <h3 className="mb-4 font-semibold text-xl">Notable Recognitions</h3>
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
+          <h3>Notable Recognitions</h3>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 mb-8">
             {notableRecognitions.map((recognition, index) => (
               <Card
                 key={index}
                 className="flex flex-col border rounded-lg h-full overflow-hidden"
               >
-                <CardContent className="flex flex-col p-6 h-full">
-                  <div className="flex justify-between items-center mb-4">
-                    <div className="font-medium text-sm">
-                      {recognition.years.map((year, i) => (
-                        <span key={i}>
-                          {year}
-                          {i < recognition.years.length - 1 ? ", " : ""}
-                        </span>
-                      ))}
+                <CardContent className="flex flex-col justify-between px-6 h-full">
+                  <div>
+                    <div className="flex justify-between items-center mb-4">
+                      <div className="flex gap-4">
+                        {recognition.years.map((year, i) => (
+                          <Badge key={i} variant={"outline"}>
+                            {year}
+                            {i < recognition.years.length - 1 ? ", " : ""}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <Badge variant="outline">Recognition</Badge>
+                    <h4 className="mb-3 font-semibold text-lg">
+                      {recognition.label}
+                    </h4>
                   </div>
-
-                  <h4 className="mb-3 font-semibold text-lg">
-                    {recognition.label}
-                  </h4>
-                  <p className="text-muted-foreground text-sm">
+                  <p className="text-muted-foreground">
                     {recognition.description}
                   </p>
                 </CardContent>
