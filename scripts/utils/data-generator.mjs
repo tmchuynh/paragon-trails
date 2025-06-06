@@ -2,7 +2,7 @@
  * Utility functions for generating random data
  */
 
-import { cityAttractions } from "./attraction-utils.mjs";
+import { attractionBasicInfo } from "./attraction-utils.mjs";
 
 /**
  * Generate a random price within a range
@@ -68,7 +68,7 @@ export const getRandomElement = (array) => {
 };
 
 export function generateCityTitle(cityKey) {
-  const attractions = cityAttractions[cityKey];
+  const attractions = attractionBasicInfo[cityKey];
   if (attractions && attractions.length > 0) {
     // Use the top attraction for a more engaging title
     return `Explore the ${attractions[0]} and More in ${cityKey.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}`;
