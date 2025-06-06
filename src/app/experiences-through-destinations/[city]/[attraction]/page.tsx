@@ -5,7 +5,12 @@ import { getCityAttractionByName } from "@/lib/utils/get/attractions";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { formatTitleToCamelCase } from "@/lib/utils/format";
+import {
+  formatTitleToCamelCase,
+  formatCamelCaseToKebabCase,
+} from "@/lib/utils/format";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 export default function CityAttractionPage() {
   const searchParams = useSearchParams();
@@ -15,7 +20,7 @@ export default function CityAttractionPage() {
   const [attractionData, setAttractionData] = useState<Attraction>();
 
   console.log(
-    `City: ${city}, Attraction: ${attraction}, Search Params: ${searchParams.toString()}`
+    `City: ${formatCamelCaseToKebabCase(city)}, Attraction: ${attraction}, Search Params: ${searchParams.toString()}`
   );
 
   useEffect(() => {
@@ -24,7 +29,7 @@ export default function CityAttractionPage() {
         try {
           console.log(`Fetching attraction: ${attraction} for city: ${city}`);
           const attractionData = await getCityAttractionByName(
-            city,
+            formatCamelCaseToKebabCase(city),
             attraction
           );
           console.log("Fetched attraction data:", attractionData);
@@ -88,13 +93,11 @@ export default function CityAttractionPage() {
 
             <div className="w-full lg:w-1/2">
               <header className="mb-6">
-                <h1 className="mb-4 font-bold text-3xl md:text-4xl">
-                  {attractionData.title || attractionData.name}
-                </h1>
+                <h1>{attractionData.title || attractionData.name}</h1>
 
                 {/* Location */}
                 {attractionData.location && (
-                  <div className="flex items-center mb-3 text-gray-600">
+                  <h5 className="flex items-center">
                     <svg
                       className="mr-2 w-5 h-5"
                       fill="none"
@@ -115,7 +118,7 @@ export default function CityAttractionPage() {
                       />
                     </svg>
                     <span>{attractionData.location}</span>
-                  </div>
+                  </h5>
                 )}
 
                 {/* Rating */}
@@ -130,9 +133,7 @@ export default function CityAttractionPage() {
                         </span>
                       ))}
                     </div>
-                    <span className="text-gray-700">
-                      {attractionData.rating} out of 5
-                    </span>
+                    <span className="">{attractionData.rating} out of 5</span>
                   </div>
                 )}
 
@@ -140,12 +141,7 @@ export default function CityAttractionPage() {
                 {attractionData.tags && attractionData.tags.length > 0 && (
                   <div className="flex flex-wrap gap-2 mb-4">
                     {attractionData.tags.map((tag, idx) => (
-                      <span
-                        key={idx}
-                        className="bg-gray-100 px-3 py-1 rounded-full text-gray-800 text-sm"
-                      >
-                        {tag}
-                      </span>
+                      <Badge key={idx}>{tag}</Badge>
                     ))}
                   </div>
                 )}
@@ -153,59 +149,61 @@ export default function CityAttractionPage() {
 
               {/* Description */}
               <div className="mb-6 max-w-none prose prose-lg">
-                <h2 className="mb-2 font-semibold text-xl">
+                <h3 className="underline underline-offset-2 capitalize">
                   About this attraction
-                </h2>
-                <p className="text-gray-700">{attractionData.description}</p>
+                </h3>
+                <p className="">{attractionData.description}</p>
               </div>
 
               {/* Details Section */}
-              <div className="bg-gray-50 mb-6 p-6 rounded-lg">
-                <h2 className="mb-4 font-semibold text-xl">
-                  Visitor Information
-                </h2>
+              <div className="flex flex-col shadow-md mb-6 p-6 border border-border rounded-lg overflow-hidden">
+                <h3>Visitor Information</h3>
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
                   {attractionData.entryFeeCategory && (
                     <div>
-                      <span className="block font-medium text-gray-700">
+                      <h5 className="text-secondary text-sm underline underline-offset-2 decoration-1 decoration-secondary">
                         Entry Fee:
+                      </h5>
+                      <span className="capitalize">
+                        {attractionData.entryFeeCategory}
                       </span>
-                      <span>{attractionData.entryFeeCategory}</span>
                     </div>
                   )}
 
                   {attractionData.priceRange && (
                     <div>
-                      <span className="block font-medium text-gray-700">
+                      <h5 className="text-secondary text-sm underline underline-offset-2 decoration-1 decoration-secondary">
                         Price Range:
+                      </h5>
+                      <span className="capitalize">
+                        {attractionData.priceRange}
                       </span>
-                      <span>{attractionData.priceRange}</span>
                     </div>
                   )}
 
                   {attractionData.timeOfDay && (
                     <div>
-                      <span className="block font-medium text-gray-700">
+                      <h5 className="text-secondary text-sm underline underline-offset-2 decoration-1 decoration-secondary">
                         Best Time to Visit:
+                      </h5>
+                      <span className="capitalize">
+                        {attractionData.timeOfDay}
                       </span>
-                      <span>{attractionData.timeOfDay}</span>
                     </div>
                   )}
 
                   {attractionData.openingHours && (
                     <div>
-                      <span className="block font-medium text-gray-700">
+                      <h5 className="text-secondary text-sm underline underline-offset-2 decoration-1 decoration-secondary">
                         Opening Hours:
-                      </span>
+                      </h5>
                       <div className="mt-1 text-sm">
                         {Array.isArray(attractionData.openingHours) ? (
                           <ul className="space-y-1">
                             {attractionData.openingHours.map(
                               (daySchedule, idx) => (
                                 <li key={idx} className="flex justify-between">
-                                  <span className="font-medium">
-                                    {daySchedule.day}:
-                                  </span>
+                                  <h5>{daySchedule.day}:</h5>
                                   <span>
                                     {daySchedule.availableHours?.map(
                                       (hour, hourIdx) => (
@@ -235,16 +233,16 @@ export default function CityAttractionPage() {
               {/* Additional Information */}
               {attractionData.tips && (
                 <div className="mb-6">
-                  <h2 className="mb-2 font-semibold text-xl">Visitor Tips</h2>
+                  <h2>Visitor Tips</h2>
                   <ul className="space-y-1 pl-5 list-disc">
                     {Array.isArray(attractionData.tips) ? (
                       attractionData.tips.map((tip, idx) => (
-                        <li key={idx} className="text-gray-700">
+                        <li key={idx} className="">
                           {tip}
                         </li>
                       ))
                     ) : (
-                      <li className="text-gray-700">{attractionData.tips}</li>
+                      <li className="">{attractionData.tips}</li>
                     )}
                   </ul>
                 </div>
@@ -252,9 +250,19 @@ export default function CityAttractionPage() {
 
               {/* Call to Action */}
               <div className="mt-8">
-                <button className="bg-primary hover:bg-primary-dark shadow px-6 py-3 rounded-lg text-white transition">
-                  Book a Tour
-                </button>
+                <Button
+                  onClick={() => {
+                    const attractionName =
+                      attractionData.title || attractionData.name || "";
+                    router.push(
+                      `/experiences-through-destinations/${formatCamelCaseToKebabCase(city)}/tours?attractionFilter=${encodeURIComponent(attractionData.id)}`
+                    );
+                  }}
+                  className="w-full"
+                >
+                  Find Tours Going to{" "}
+                  {attractionData.title || attractionData.name}
+                </Button>
               </div>
             </div>
           </div>
