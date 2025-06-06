@@ -1,6 +1,7 @@
 import { City } from "../../interfaces/general";
 
 export const cityFiles = [
+  "amalfi-coast",
   "amsterdam",
   "athens",
   "auckland",
