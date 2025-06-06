@@ -1,3 +1,135 @@
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+import { partnerHighlights, teamMembers } from "@/lib/constants/info/general";
+
+const notableRecognitions = [
+  {
+    label: "National Geographic Legacy Travel Partner",
+    years: [2015],
+    description:
+      "Partnership with National Geographic to promote responsible and educational travel experiences.",
+  },
+  {
+    label: "UN Global Compact Member Organization",
+    years: [2017],
+    description:
+      "Commitment to aligning operations with universal principles on human rights, labor, environment, and anti-corruption.",
+  },
+  {
+    label: "GSTC Preferred Partner – Certified in Sustainable Travel Practices",
+    years: [2018],
+    description:
+      "Recognition for adherence to the Global Sustainable Tourism Council’s standards for sustainable tourism.",
+  },
+  {
+    label: "Global Sustainable Tourism Council Affiliate",
+    years: [2019],
+    description:
+      "Affiliation with GSTC to further sustainable tourism development worldwide.",
+  },
+  {
+    label: "Adventure Travel Trade Association Member",
+    years: [2016],
+    description:
+      "Membership with ATTA to support the growth of sustainable adventure travel.",
+  },
+  {
+    label: "Certified B Corporation",
+    years: [2018],
+    description:
+      "Certified for meeting high standards of social and environmental performance, accountability, and transparency.",
+  },
+  {
+    label: "Green Business Bureau Certified",
+    years: [2020],
+    description:
+      "Certification for implementing eco-friendly business practices and reducing environmental impact.",
+  },
+  {
+    label: "World Travel & Tourism Council Supporter",
+    years: [2017],
+    description:
+      "Supporter of global initiatives for sustainable growth in travel and tourism sectors.",
+  },
+  {
+    label: "Ethical Travel Forum Partner",
+    years: [2019],
+    description:
+      "Partnership focused on promoting responsible and ethical travel across the industry.",
+  },
+  {
+    label: "International Ecotourism Society Member",
+    years: [2016],
+    description:
+      "Member of a leading organization dedicated to promoting ecotourism and conservation worldwide.",
+  },
+];
+
+const awards = [
+  {
+    title: 'Condé Nast Traveler "Global Vision Award"',
+    years: [2022],
+    description:
+      "Awarded for visionary leadership in sustainable and responsible tourism on a global scale.",
+  },
+  {
+    title: 'Travel + Leisure "World\'s Best" Luxury Agency',
+    years: [2019, 2021, 2023],
+    description:
+      "Recognized repeatedly as a top luxury travel agency known for exceptional service and unique experiences.",
+  },
+  {
+    title: "World Tourism Awards – Best Sustainable Tour Operator",
+    years: [2020, 2022],
+    description:
+      "Honored for excellence in sustainable tourism operations and environmental stewardship.",
+  },
+  {
+    title: "TripAdvisor Travelers’ Choice Award",
+    years: [2021, 2022, 2023],
+    description:
+      "Voted by travelers as a highly rated and trusted tour operator with outstanding reviews.",
+  },
+  {
+    title: "Luxury Travel Guide Award – Best Ethical Tour Company",
+    years: [2021],
+    description:
+      "Recognized for outstanding commitment to ethical practices and responsible luxury travel experiences.",
+  },
+  {
+    title: "Sustainable Tourism Award – Innovation in Ecotourism",
+    years: [2020],
+    description:
+      "Awarded for pioneering innovative approaches to ecotourism and sustainability in travel.",
+  },
+  {
+    title: "Global Green Travel Award",
+    years: [2019, 2021],
+    description:
+      "Acknowledged for leadership in environmental responsibility and sustainable travel initiatives.",
+  },
+  {
+    title: "World Responsible Tourism Award",
+    years: [2018, 2022],
+    description:
+      "Celebrated for best practices in responsible tourism and positive community impact.",
+  },
+  {
+    title:
+      "International Travel & Tourism Award – Excellence in Customer Experience",
+    years: [2021],
+    description:
+      "Award for delivering exceptional customer service and memorable travel experiences.",
+  },
+  {
+    title: "Green Globe Certification Recognition",
+    years: [2023],
+    description:
+      "Recognized for achieving the highest standards in sustainable tourism certification.",
+  },
+];
+
 export default function CoreTeamAndPartnerships() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -29,78 +161,35 @@ export default function CoreTeamAndPartnerships() {
             Decades of Expertise. One Vision.
           </h3>
 
-          <div className="gap-6 grid lg:grid-cols-2">
-            <div className="bg-card p-6 border border-border rounded-lg">
-              <h3 className="font-medium text-xl">Isabelle Renard</h3>
-              <h4 className="mb-2 text-gray-700">
-                Founder & Chief Experience Officer
-              </h4>
-              <p className="mb-3 italic">
-                "Travel should awaken, not just impress."
-              </p>
-              <p>
-                A former cultural anthropologist and luxury hospitality
-                consultant, Isabelle founded Paragon Trails in 1994 with a
-                mission to redefine what it means to travel well. Her early work
-                with UNESCO World Heritage Sites shaped the foundation of our
-                cultural integrity model. Under her leadership, Paragon Trails
-                has grown from a boutique consultancy to a globally respected
-                brand in purpose-driven luxury travel.
-              </p>
-            </div>
+          <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mb-6">
+            {teamMembers.map((member, index) => (
+              <Card
+                key={`${member.name}-${index}`}
+                className="flex flex-col justify-between p-0 h-full overflow-hidden"
+              >
+                <CardContent className="p-6">
+                  <div className="flex gap-3 mb-3">
+                    <Image
+                      src={member.imageUrl}
+                      alt={member.name}
+                      width={150}
+                      height={150}
+                      className="rounded-full w-24 h-24 object-cover"
+                    />
+                    <div className="flex flex-col justify-center">
+                      <h3 className="mb-2 font-semibold text-xl">
+                        {member.name}
+                      </h3>
+                      <div className="flex items-center gap-2 mb-3">
+                        <Badge variant={"defaultFaded"}>{member.title}</Badge>
+                      </div>
+                    </div>
+                  </div>
 
-            <div className="bg-card p-6 border border-border rounded-lg">
-              <h3 className="font-medium text-xl">David Márquez</h3>
-              <h4 className="mb-2 text-gray-700">Head of Global Operations</h4>
-              <p>
-                David ensures that every detail—from private aviation logistics
-                to borderless sustainability protocols—is executed with
-                precision. Fluent in five languages and trained in international
-                diplomacy, he oversees all regional partnerships and high-tier
-                client integrations.
-              </p>
-            </div>
-
-            <div className="bg-card p-6 border border-border rounded-lg">
-              <h3 className="font-medium text-xl">Anika Luthra</h3>
-              <h4 className="mb-2 text-gray-700">
-                Director of Cultural Affairs & Ethics
-              </h4>
-              <p>
-                Anika curates all cultural experiences and community
-                partnerships to ensure that every itinerary is respectful,
-                responsible, and accurate. Her background in heritage
-                preservation and global human rights law grounds our operations
-                in fairness and authenticity.
-              </p>
-            </div>
-
-            <div className="bg-card p-6 border border-border rounded-lg">
-              <h3 className="font-medium text-xl">Julien Tsai</h3>
-              <h4 className="mb-2 text-gray-700">
-                Creative Director & Brand Strategist
-              </h4>
-              <p>
-                Julien leads our visual identity and guest experience
-                touchpoints—from pre-trip materials to on-site storytelling.
-                With a background in design thinking and editorial travel, he
-                ensures that every journey is visually stunning and emotionally
-                resonant.
-              </p>
-            </div>
-
-            <div className="bg-card p-6 border border-border rounded-lg">
-              <h3 className="font-medium text-xl">Maya Obasi</h3>
-              <h4 className="mb-2 text-gray-700">
-                Director of Sustainability Initiatives
-              </h4>
-              <p>
-                Maya's work connects Paragon Trails with cutting-edge ecological
-                partners, carbon offset strategists, and eco-lodging developers.
-                Her dual expertise in climate policy and luxury hospitality
-                enables our bold vision for travel with impact.
-              </p>
-            </div>
+                  {member.description && <p>{member.description}</p>}
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </section>
 
@@ -118,58 +207,58 @@ export default function CoreTeamAndPartnerships() {
             values—not transactions.
           </p>
 
-          <h3 className="mb-4 font-semibold">Key Partnership Categories:</h3>
-          <div className="gap-4 grid md:grid-cols-2 mb-8">
-            <div className="p-4 border border-gray-200 rounded-lg">
-              <h4 className="mb-2 font-medium">Eco-Luxury Accommodations</h4>
-              <p>
-                Exclusive access to award-winning ecolodges, heritage estates,
-                and carbon-neutral properties around the world.
-              </p>
-            </div>
-
-            <div className="p-4 border border-gray-200 rounded-lg">
-              <h4 className="mb-2 font-medium">Local Cultural Ambassadors</h4>
-              <p>
-                Ethnographers, tribal leaders, historians, and master artisans
-                who lead on-the-ground experiences with dignity and depth.
-              </p>
-            </div>
-
-            <div className="p-4 border border-gray-200 rounded-lg">
-              <h4 className="mb-2 font-medium">Sustainability Innovators</h4>
-              <p>
-                Verified partners for carbon offsetting, biodiversity
-                investment, sustainable transport, and plastic-free hospitality
-                operations.
-              </p>
-            </div>
-
-            <div className="p-4 border border-gray-200 rounded-lg">
-              <h4 className="mb-2 font-medium">Aviation & Mobility Experts</h4>
-              <p>
-                Private aviation, hybrid fleet providers, and concierge
-                logistics teams ensure seamless and sustainable movement.
-              </p>
-            </div>
-
-            <div className="p-4 border border-gray-200 rounded-lg">
-              <h4 className="mb-2 font-medium">Global Philanthropic NGOs</h4>
-              <p>
-                Longstanding relationships with grassroots organizations that
-                benefit directly from our community tourism and annual donation
-                fund.
-              </p>
-            </div>
+          <h3>Key Partnership Categories:</h3>
+          <div className="gap-4 grid md:grid-cols-2 lg:grid-cols-3 mt-4 mb-8">
+            {partnerHighlights.map(({ title, description, icon: Icon }) => (
+              <div
+                key={title}
+                className="flex items-center lg:items-start gap-6 p-4 border border-border rounded-lg"
+              >
+                <div className="bg-secondary lg:mt-2 p-3 rounded-full w-fit h-fit text-secondary-foreground">
+                  <Icon size={25} />
+                </div>
+                <div>
+                  {" "}
+                  <h4 className="mb-1 font-medium">{title}</h4>
+                  <p>{description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
         {/* Awards & Recognition Section */}
         <section>
           <h2>Awards & Recognition</h2>
-          <p>
-            Our network's credibility is bolstered by over 30 years of
-            excellence:
+          <p className="mb-4">
+            Our commitment to excellence has been recognized by leading travel
+            publications and organizations worldwide. Here are some of our most
+            notable accolades:
+          </p>
+          <p className="mb-6">
+            We are proud to be recognized for our dedication to sustainable,
+            ethical, and transformative travel experiences. Our awards reflect
+            our commitment to excellence, innovation, and the positive impact we
+            strive to make in the world of luxury travel.
+          </p>
+          <h3 className="mb-2 font-semibold text-xl">Recent Awards</h3>
+          <p className="mb-4">
+            Our awards and recognitions are a testament to our commitment to
+            excellence, sustainability, and innovation in luxury travel. Here
+            are some of our most recent accolades:
+          </p>
+          <p className="mb-4">
+            We are honored to have received numerous awards and recognitions
+            that highlight our commitment to excellence, sustainability, and
+            innovation in luxury travel. These accolades reflect our dedication
+            to creating meaningful, transformative experiences for our travelers
+            while respecting the cultures and environments we engage with.
+          </p>
+          <h3 className="mb-2 font-semibold text-xl">Notable Recognitions</h3>
+          <p className="mb-4">
+            Our commitment to excellence and sustainability has been recognized
+            by leading travel publications and organizations worldwide. Here are
+            some of our most notable accolades:
           </p>
 
           <ul className="space-y-3 pl-4 list-disc list-inside">
