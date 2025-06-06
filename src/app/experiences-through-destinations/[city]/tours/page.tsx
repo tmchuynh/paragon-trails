@@ -132,11 +132,6 @@ export default function ToursByCityPage() {
     [tours]
   );
 
-  const maxDuration = useMemo(
-    () => Math.max(...tours.map((tour) => tour.durationInHours || 0), 24),
-    [tours]
-  );
-
   const maxGroupSize = useMemo(
     () => Math.max(...tours.map((tour) => tour.maxGroupSize || 0), 50),
     [tours]
@@ -178,11 +173,10 @@ export default function ToursByCityPage() {
     setGuideFilter([]);
     setAttractionFilter([]);
     setPriceRange([0, maxPrice]);
-    setDurationRange([0, maxDuration]);
     setGroupSizeRange([1, maxGroupSize]);
     setPrivateOnly(false);
     setPetFriendlyOnly(false);
-  }, [maxPrice, maxDuration, maxGroupSize]);
+  }, [maxPrice, maxGroupSize]);
 
   // Fetch tours and apply URL params in a single effect to avoid race conditions
   useEffect(() => {
@@ -254,7 +248,8 @@ export default function ToursByCityPage() {
           if (urlAttractionFilter && !appliedUrlFilter.current) {
             const attractionExists = cityTours.some((tour) =>
               tour.schedule?.some(
-                (item) => item.attractionId === urlAttractionFilter
+                (item: { attractionId: string }) =>
+                  item.attractionId === urlAttractionFilter
               )
             );
 
@@ -309,7 +304,7 @@ export default function ToursByCityPage() {
               );
               if (attraction) {
                 details[attractionId] = {
-                  title: attraction.title || attraction.name || attractionId,
+                  title: attraction.title || attractionId,
                   description: attraction.description || "",
                 };
               }
@@ -412,12 +407,6 @@ export default function ToursByCityPage() {
         return price >= priceRange[0] && price <= priceRange[1];
       });
 
-      // Filter by duration range
-      result = result.filter((tour) => {
-        const duration = tour.durationInHours || 0;
-        return duration >= durationRange[0] && duration <= durationRange[1];
-      });
-
       // Filter by group size range
       result = result.filter((tour) => {
         const minSize = tour.minGroupSize || 1;
@@ -449,17 +438,21 @@ export default function ToursByCityPage() {
               parseFloat(removeSpecialCharactersFromNumbers(b.price)) ||
               0;
             break;
-          case "duration":
-            valueA = a.durationInHours || 0;
-            valueB = b.durationInHours || 0;
-            break;
           default:
-            valueA = a[sortField];
-            valueB = b[sortField];
+            valueA = a.hasOwnProperty(sortField)
+              ? a[sortField as keyof Tour]
+              : undefined;
+            valueB = b.hasOwnProperty(sortField)
+              ? b[sortField as keyof Tour]
+              : undefined;
         }
 
-        if (valueA < valueB) return sortDirection === "asc" ? -1 : 1;
-        if (valueA > valueB) return sortDirection === "asc" ? 1 : -1;
+        if (valueA !== undefined && valueB !== undefined && valueA < valueB) {
+          return sortDirection === "asc" ? -1 : 1;
+        }
+        if (valueA !== undefined && valueB !== undefined && valueA > valueB) {
+          return sortDirection === "asc" ? 1 : -1;
+        }
         return 0;
       });
 
@@ -734,7 +727,6 @@ export default function ToursByCityPage() {
                     setGuideFilter([]);
                     setAttractionFilter([]); // Add this line to reset attraction filter
                     setPriceRange([0, maxPrice]);
-                    setDurationRange([0, maxDuration]);
                     setGroupSizeRange([1, maxGroupSize]);
                     setPrivateOnly(false);
                     setPetFriendlyOnly(false);
@@ -855,27 +847,6 @@ export default function ToursByCityPage() {
                     </div>
                   ))}
                 </div>
-              </div>
-
-              {/* Duration Range */}
-              <div className="space-y-2">
-                <div className="flex justify-between">
-                  <h5>Duration (hours)</h5>
-                  <span className="text-gray-600 text-sm">
-                    {durationRange[0]} - {durationRange[1]} hrs
-                  </span>
-                </div>
-                <Slider
-                  min={0}
-                  max={maxDuration || 24}
-                  step={0.5}
-                  value={durationRange}
-                  onValueChange={(value: [number, number]) => {
-                    if (Array.isArray(value) && value.length === 2) {
-                      setDurationRange(value);
-                    }
-                  }}
-                />
               </div>
 
               {/* Price Range */}
@@ -1068,7 +1039,6 @@ export default function ToursByCityPage() {
                     setTagFilter([]);
                     setGuideFilter([]);
                     setPriceRange([0, maxPrice]);
-                    setDurationRange([0, maxDuration]);
                     setGroupSizeRange([1, maxGroupSize]);
                     setPrivateOnly(false);
                     setPetFriendlyOnly(false);
