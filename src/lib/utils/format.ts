@@ -100,7 +100,7 @@ export const formatDuration = (duration: string): string => {
 export function formatNumberToCurrency(
   value: number,
   min?: number,
-  max?: number,
+  max?: number
 ): string {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -333,4 +333,24 @@ export function removeAccents(str: string): string {
     .replaceAll("Đ", "D") // Remove all combining diacritical marks
     .normalize("NFD")
     .replace(/[\u0300-\u036F]/g, "");
+}
+
+export function formatTimeTo12HourClock(time: string): string {
+  const date = new Date(`1970-01-01T${time}`);
+  const options: Intl.DateTimeFormatOptions = {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  };
+  return date.toLocaleTimeString([], options);
+}
+
+export function formatTimeTo24HourClock(time: string): string {
+  const date = new Date(`1970-01-01T${time}`);
+  const options: Intl.DateTimeFormatOptions = {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  };
+  return date.toLocaleTimeString([], options);
 }
