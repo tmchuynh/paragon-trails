@@ -205,58 +205,50 @@ export default function SustainabilityAndCommunityInvolvement() {
 
       {/* Testimonials Section */}
       <section>
-        <h2 className="mb-6 font-semibold text-2xl text-center">
+        <h2 className="mb-10 font-semibold text-2xl text-center">
           Client Testimonials
         </h2>
-        <div className="space-y-8">
-          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
-            <p className="mb-2">
+        <div className="space-y-0">
+          <div className="py-10 border-t border-border">
+            <h3 className="mb-4 font-bold">Derek & Hannah Lin, Boston, MA</h3>
+            <p>
               "We were deeply moved by how seamlessly Paragon Trails built
               environmental integrity into every element of our honeymoon. The
               ecolodge in Patagonia, the electric transfer through Torres del
               Paine, even the handcrafted welcome basket—everything was both
               stunning and sustainable."
             </p>
-            <footer className="text-right font-medium">
-              — Derek & Hannah Lin, Boston, MA
-            </footer>
-          </blockquote>
+          </div>
 
-          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
-            <p className="mb-2">
+          <div className="py-10 border-t border-border">
+            <h3 className="mb-4 font-bold">Sofia Abadi, Los Angeles, CA</h3>
+            <p>
               "Paragon Trails made us feel like the world was our home, not just
               our playground. The Maasai-led cultural immersion was respectful
               and unforgettable. Knowing part of our trip helped fund education
               for girls in the area gave the experience even more depth."
             </p>
-            <footer className="text-right font-medium">
-              — Sofia Abadi, Los Angeles, CA
-            </footer>
-          </blockquote>
+          </div>
 
-          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
-            <p className="mb-2">
+          <div className="py-10 border-t border-border">
+            <h3 className="mb-4 font-bold">James Patel, London, UK</h3>
+            <p>
               "We've traveled extensively, but Paragon Trails gave us the rare
               combination of luxury and purpose. From rainforest conservation
               programs in Costa Rica to supporting a local ceramicist's co-op in
               Kyoto, it never felt performative—just real."
             </p>
-            <footer className="text-right font-medium">
-              — James Patel, London, UK
-            </footer>
-          </blockquote>
+          </div>
 
-          <blockquote className="py-2 pl-4 border-border border-l-4 italic">
-            <p className="mb-2">
+          <div className="py-10 border-t border-border">
+            <h3 className="mb-4 font-bold">Maya Chen, Seattle, WA</h3>
+            <p>
               "As someone with a climate-conscious mindset, I usually travel
               reluctantly. Paragon Trails made it guilt-free. Their carbon
               accountability was transparent, and I left feeling restored rather
               than conflicted."
             </p>
-            <footer className="text-right font-medium">
-              — Maya Chen, Seattle, WA
-            </footer>
-          </blockquote>
+          </div>
         </div>
       </section>
 
