@@ -174,68 +174,122 @@ export async function getTourById(city: string, tourId: string): Promise<any> {
   console.log(`Fetching tour with ID: ${tourId} for city: ${city}`);
 
   // Normalize the city name to ensure it matches the keys in cityToRegionMap
-  // Convert to lowercase and ensure kebab-case format
-  const normalizedCity = city.toLowerCase().trim().replace(/\s+/g, "-");
-
-  console.log(`Normalized city: ${normalizedCity}`);
+  // Remove any trailing slashes, convert to lowercase, and ensure kebab-case format
+  const normalizedCity = city
+    .toLowerCase()
+    .trim()
+    .replace(/\/$/, "")
+    .replace(/\s+/g, "-");
 
   const formattedCity = formatKebabToCamelCase(normalizedCity);
-  console.log(`Formatted city: ${formattedCity}`);
-
   // Look up the region using the normalized city name
   const cityRegion =
     cityToRegionMap[normalizedCity as keyof typeof cityToRegionMap];
-  console.log(`City region mapping:`, cityRegion);
-
   if (!cityRegion) {
-    console.error(`No region found for city: ${normalizedCity}`);
+    // Try to fallback to a substring match if exact match fails
+    const possibleCity = Object.keys(cityToRegionMap).find((key) =>
+      normalizedCity.includes(key)
+    );
+    if (possibleCity) {
+      const region =
+        cityToRegionMap[possibleCity as keyof typeof cityToRegionMap];
+      console.log(
+        `Found region ${region} using fallback city: ${possibleCity}`
+      );
+      const formattedRegion = formatTitleToCamelCase(region);
+      return findTourInModule(
+        formattedCity,
+        formattedRegion,
+        tourId,
+        normalizedCity
+      );
+    }
     return null;
   }
 
   const formattedRegion = formatTitleToCamelCase(cityRegion);
-  console.log(`Formatted region: ${formattedRegion}`);
 
+  return findTourInModule(
+    formattedCity,
+    formattedRegion,
+    tourId,
+    normalizedCity
+  );
+}
+
+// Helper function to find a tour in the appropriate module
+async function findTourInModule(
+  formattedCity: string,
+  formattedRegion: string,
+  tourId: string,
+  normalizedCity: string
+): Promise<any> {
   const tourIdFormatted = `${formattedCity}${formattedRegion}Tours`;
   console.log(`Looking for tour ID format: ${tourIdFormatted}`);
 
   try {
-    const tourModule = await import(`@/lib/constants/tours/${formattedCity}`);
-    console.log(`Available exports:`, Object.keys(tourModule));
-
-    if (tourModule[tourIdFormatted]) {
-      const tours = tourModule[tourIdFormatted] as Tour[];
-      const foundTour = tours.find((tour) => tour.id === tourId);
-      if (foundTour) {
-        return foundTour;
-      } else {
-        console.warn(
-          `Tour with ID ${tourId} not found in city ${formattedCity}.`
+    let tourModule;
+    try {
+      // Try the first path format
+      tourModule = await import(`@/lib/constants/tours/${formattedCity}`);
+      console.log(`Loaded tour module from /constants/tours/${formattedCity}`);
+    } catch (importError) {
+      // Try alternative path
+      try {
+        tourModule = await import(`@/lib/constants/tours/${normalizedCity}`);
+        console.log(
+          `Loaded tour module from /constants/tours/${normalizedCity}`
+        );
+      } catch (secondError) {
+        console.error(
+          `Failed to import tour module for ${formattedCity}:`,
+          secondError
         );
         return null;
       }
-    } else {
-      // Try an alternative format that includes the country
-      const country =
-        cityCountryMap[normalizedCity as keyof typeof cityCountryMap];
-      if (country) {
-        const formattedCountry = formatTitleToCamelCase(country);
-        const alternativeId = `${formattedCity}${formattedCountry}${formattedRegion}Tours`;
-        console.log(`Trying alternative ID: ${alternativeId}`);
+    }
 
-        if (tourModule[alternativeId]) {
-          const tours = tourModule[alternativeId] as Tour[];
-          const foundTour = tours.find((tour) => tour.id === tourId);
-          return foundTour || null;
+    // Try various possible export names
+    const possibleExportNames = [
+      tourIdFormatted,
+      `${formattedCity}Tours`,
+      `${normalizedCity}Tours`,
+      `${formattedCity}${formattedRegion.toLowerCase()}Tours`,
+      `${formattedCity}italymediterraneanTours`, // Special case for amalfi-coast
+    ];
+
+    for (const exportName of possibleExportNames) {
+      console.log(`Trying to find tours in export: ${exportName}`);
+      if (tourModule[exportName]) {
+        const tours = tourModule[exportName] as Tour[];
+        const foundTour = tours.find((tour) => tour.id === tourId);
+        if (foundTour) {
+          console.log(`Found tour with ID ${tourId} in export ${exportName}`);
+          return foundTour;
         }
       }
-
-      console.warn(
-        `No tours found for city ${city} with ID ${tourIdFormatted}`
-      );
-      return null;
     }
+
+    // Try an alternative format that includes the country
+    const country =
+      cityCountryMap[normalizedCity as keyof typeof cityCountryMap];
+    if (country) {
+      const formattedCountry = formatTitleToCamelCase(country);
+      const alternativeId = `${formattedCity}${formattedCountry}${formattedRegion}Tours`;
+
+      if (tourModule[alternativeId]) {
+        const tours = tourModule[alternativeId] as Tour[];
+        const foundTour = tours.find((tour) => tour.id === tourId);
+        return foundTour || null;
+      }
+    }
+
+    console.warn(
+      `No tours found for city ${normalizedCity} with any known ID format`
+    );
+    return null;
   } catch (error) {
-    console.error(`Error loading tours for city ${city}: ${error}`);
+    console.error(`Error loading tours for city ${normalizedCity}: ${error}`);
     return null;
   }
 }
