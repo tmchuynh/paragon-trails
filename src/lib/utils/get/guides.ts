@@ -10,6 +10,7 @@ import {
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 
 export async function getTourGuides(): Promise<any> {
+  const tourGuides: TourGuide[] = [];
   try {
     for (const cityFile of cityFiles) {
       const formattedCity = formatKebabToCamelCase(cityFile);
@@ -25,15 +26,17 @@ export async function getTourGuides(): Promise<any> {
         `@/lib/constants/staff/guides/${formattedCity}`
       );
       if (guidesModule[guideId]) {
-        return guidesModule[guideId];
+        tourGuides.push(guidesModule[guideId]);
       } else {
-        console.error(`No guides found for city: ${cityFile}`);
+        console.error(`No guides found for city: ${formattedCity}`);
         return [];
       }
     }
   } catch (error) {
     console.error(`Error loading tour guides: ${error}`);
     return [];
+  } finally {
+    return tourGuides.flat();
   }
 }
 
