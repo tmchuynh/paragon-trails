@@ -457,13 +457,13 @@ export default function ToursExplorePageClient() {
       <div className="flex flex-col gap-6">
         {/* Header and Controls */}
         <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
-          <div>
-            <h1>Explore Tours</h1>
-            <p className="mt-1">
+          <header>
+            <h1 className="text-start">Explore Tours</h1>
+            <h5 className="text-start">
               {filteredTours.length} tour
               {filteredTours.length !== 1 ? "s" : ""} available
-            </p>
-          </div>
+            </h5>
+          </header>
 
           <div className="flex sm:flex-row flex-col items-center gap-4">
             <div className="flex items-center gap-2">
